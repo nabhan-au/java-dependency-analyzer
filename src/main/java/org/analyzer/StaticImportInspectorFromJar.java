@@ -25,15 +25,15 @@ public class StaticImportInspectorFromJar {
     }
 
     public Pair<Class<?>, Stack<String>> findClassWithPath(String className) {
-        int lastDotIndex = className.lastIndexOf('.');
-        if (lastDotIndex == -1) {
-            return new Pair<>(null, new Stack<>());
-        }
         try {
             var clazz = classloader.loadClass(className);
             return new Pair<>(clazz, new Stack<>());
         } catch (ClassNotFoundException e) {
             // Split into outer class path and current inner class name
+            int lastDotIndex = className.lastIndexOf('.');
+            if (lastDotIndex == -1) {
+                return new Pair<>(null, new Stack<>());
+            }
             String outerClassPath = className.substring(0, lastDotIndex);
             String currentInnerClassName = className.substring(lastDotIndex + 1);
             var result = findClassWithPath(outerClassPath);
@@ -89,7 +89,6 @@ public class StaticImportInspectorFromJar {
                 var classes = getClassesInPackage(tempPath);
                 if (classes.isEmpty()) {
                     unableToGetClassesInPackage.add(classPath);
-                } else {
                 }
                 return classes.stream();
             } catch (IOException e) {
@@ -118,7 +117,7 @@ public class StaticImportInspectorFromJar {
                 var clazz = loadClass(classPath.getPath());
                 return new ImportDetails(classPath, new Method[]{}, new Field[]{}, clazz.getClasses());
             } else {
-                var clazz = loadClass(classPath.getPath());
+                var clazz = loadClass(classPath.getPath());;
                 return new ImportDetails(classPath, new Method[]{}, new Field[]{}, new Class[]{clazz});
             }
         } else {

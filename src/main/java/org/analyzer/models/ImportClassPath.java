@@ -3,10 +3,12 @@ package org.analyzer.models;
 public class ImportClassPath {
     private String path;
     private String variable;
+    private String originalPath;
     private Boolean isStatic;
     private Boolean isWildCard;
 
     public ImportClassPath(String path) {
+        this.originalPath = path;
         this.isStatic = false;
         this.isWildCard = false;
         this.variable = "";
@@ -27,6 +29,7 @@ public class ImportClassPath {
 
         this.path = path;
     }
+    public String getOriginalPath() { return originalPath; }
 
     public String getPath() {
         return path;
@@ -60,7 +63,9 @@ public class ImportClassPath {
             temppath = "static " + path;
         }
         if (isWildCard) {
-            temppath = path + ".*";
+            temppath = temppath + ".*";
+        } else if (!variable.isEmpty()) {
+            temppath = temppath + "." + variable;
         }
         return "import " + temppath + ";";
     }

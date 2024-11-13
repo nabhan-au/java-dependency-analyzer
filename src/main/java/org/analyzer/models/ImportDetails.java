@@ -5,6 +5,7 @@ import java.lang.reflect.Method;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
+import java.util.Optional;
 
 public class ImportDetails {
     public List<SingleImportDetails<Method>> methodList;
@@ -27,27 +28,39 @@ public class ImportDetails {
         this.classList = new ArrayList<>();
     }
 
-    public ImportClassPath getClass(String className) throws ClassNotFoundException {
+    public SingleImportDetails getClass(String className) throws ClassNotFoundException {
+        var filteredClassWithoutWildCard = classList.stream().filter(c -> Arrays.stream(c.importObject.getName().replace("$", ".").split("\\.")).toList().getLast().equals(className) && !c.classPath.isWildCard()).toList();
+        if (!filteredClassWithoutWildCard.isEmpty()) {
+            return filteredClassWithoutWildCard.getFirst();
+        }
         var filteredClass = classList.stream().filter(c -> Arrays.stream(c.importObject.getName().split("\\.")).toList().getLast().equals(className)).toList();
         if (filteredClass.isEmpty()) {
             throw new ClassNotFoundException(className);
         }
-        return filteredClass.getFirst().classPath;
+        return filteredClass.getFirst();
     }
 
-    public ImportClassPath getField(String fieldName) throws NoSuchFieldException {
-        var filteredField = fieldList.stream().filter(f -> f.importObject.getName().equals(fieldName)).toList();
+    public SingleImportDetails getField(String fieldName) throws NoSuchFieldException {
+        var filteredFieldWithoutWildCard = fieldList.stream().filter(f -> Arrays.stream(f.importObject.getName().split("\\.")).toList().getLast().equals(fieldName) && !f.classPath.isWildCard()).toList();
+        if (!filteredFieldWithoutWildCard.isEmpty()) {
+            return filteredFieldWithoutWildCard.getFirst();
+        }
+        var filteredField = fieldList.stream().filter(f -> Arrays.stream(f.importObject.getName().split("\\.")).toList().getLast().equals(fieldName)).toList();
         if (filteredField.isEmpty()) {
             throw new NoSuchFieldException(fieldName);
         }
-        return filteredField.getFirst().classPath;
+        return filteredField.getFirst();
     }
 
-    public ImportClassPath getMethod(String methodName) throws NoSuchMethodException {
-        var filteredMethod = methodList.stream().filter(m -> m.importObject.getName().equals(methodName)).toList();
+    public SingleImportDetails getMethod(String methodName) throws NoSuchMethodException {
+        var filteredMethodWithoutWildCard = methodList.stream().filter(m -> Arrays.stream(m.importObject.getName().split("\\.")).toList().getLast().equals(methodName) && !m.classPath.isWildCard()).toList();
+        if (!filteredMethodWithoutWildCard.isEmpty()) {
+            return filteredMethodWithoutWildCard.getFirst();
+        }
+        var filteredMethod = methodList.stream().filter(m -> Arrays.stream(m.importObject.getName().split("\\.")).toList().getLast().equals(methodName)).toList();
         if (filteredMethod.isEmpty()) {
             throw new NoSuchMethodException(methodName);
         }
-        return filteredMethod.getFirst().classPath;
+        return filteredMethod.getFirst();
     }
 }
