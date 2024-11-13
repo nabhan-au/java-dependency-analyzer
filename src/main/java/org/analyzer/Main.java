@@ -17,8 +17,6 @@ import com.github.javaparser.symbolsolver.resolution.typesolvers.CombinedTypeSol
 import com.github.javaparser.symbolsolver.resolution.typesolvers.JarTypeSolver;
 import com.github.javaparser.symbolsolver.resolution.typesolvers.JavaParserTypeSolver;
 import com.github.javaparser.symbolsolver.resolution.typesolvers.ReflectionTypeSolver;
-import org.eclipse.jdt.core.dom.SwitchExpression;
-
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.io.IOException;

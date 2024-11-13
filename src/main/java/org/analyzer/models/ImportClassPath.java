@@ -8,7 +8,10 @@ public class ImportClassPath {
     private Boolean isWildCard;
 
     public ImportClassPath(String path) {
-        this.originalPath = path;
+        this(path, path);
+    }
+    public ImportClassPath(String path, String originalPath) {
+        this.originalPath = originalPath;
         this.isStatic = false;
         this.isWildCard = false;
         this.variable = "";

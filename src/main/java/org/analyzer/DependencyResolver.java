@@ -8,9 +8,8 @@ import com.github.javaparser.ast.Node;
 import com.github.javaparser.ast.NodeList;
 import com.github.javaparser.ast.body.*;
 import com.github.javaparser.ast.expr.*;
-import com.github.javaparser.ast.stmt.ExplicitConstructorInvocationStmt;
-import com.github.javaparser.ast.stmt.ForEachStmt;
-import com.github.javaparser.ast.stmt.ForStmt;
+import com.github.javaparser.ast.stmt.*;
+import com.github.javaparser.ast.type.ReferenceType;
 import com.github.javaparser.ast.type.Type;
 import com.github.javaparser.ast.type.TypeParameter;
 import com.github.javaparser.symbolsolver.JavaSymbolSolver;
@@ -34,11 +33,11 @@ import static org.analyzer.Main.getFileList;
 
 public class DependencyResolver {
     private CompilationUnit compilationUnit;
-    private ImportDetails importDetails;
-    private List<ImportClassPath> unableImport;
+    public ImportDetails importDetails;
+    public List<ImportClassPath> unableImport;
     public List<ImportDeclaration> fileImports;
 
-    public DependencyResolver(CompilationUnit compilationUnit, StaticImportInspectorFromJar staticImportInspectorFromJar) throws MalformedURLException {
+    public DependencyResolver(CompilationUnit compilationUnit, StaticImportInspectorFromJar staticImportInspectorFromJar) {
         this.compilationUnit = compilationUnit;
         var imports = this.compilationUnit.findAll(ImportDeclaration.class).toArray(ImportDeclaration[]::new);
         this.fileImports = Arrays.stream(imports).toList();
@@ -111,7 +110,6 @@ public class DependencyResolver {
             result.addAll(typeParamResult.a);
             unableResolveImport.addAll(typeParamResult.b);
         } else if (node instanceof MethodCallExpr methodCallResolvedNode) {
-//            System.out.println(methodCallResolvedNode.toString());
             var methodArguments = methodCallResolvedNode.getArguments();
             var methodTypeArguments = methodCallResolvedNode.getTypeArguments();
             var methodName = methodCallResolvedNode.getNameAsString();
@@ -252,6 +250,17 @@ public class DependencyResolver {
         else if (node instanceof ClassExpr classExprResolvedNode) {
             processType(classExprResolvedNode.getType(), result, unableResolveImport);
         }
+        else if (node instanceof CatchClause catchClauseResolvedNode) {
+            processInnerType(new NodeList<>(catchClauseResolvedNode.getParameter()), result, unableResolveImport);
+        }
+        else if (node instanceof ReferenceType referenceTypeResolvedNode) {
+            var types = MyTypeSolvers.splitStructuredTypes(referenceTypeResolvedNode.asString());
+            types.forEach(type -> {
+                addImportClassToResult(type, result, unableResolveImport);
+            });
+        } else if (node instanceof Type type) {
+            processType(type, result, unableResolveImport);
+        }
         return new Pair<>(result, unableResolveImport);
     }
 
@@ -309,9 +318,7 @@ public class DependencyResolver {
         List<String> unableResolveImport = new ArrayList<>();
         typeParameters.forEach(typeParameter -> {
             var types = typeParameter.getTypeBound().stream().flatMap(t -> MyTypeSolvers.splitStructuredTypes(t.toString()).stream()).toList();
-            types.forEach(type -> {
-                addImportClassToResult(type, result, unableResolveImport);
-            });
+            types.forEach(type -> addImportClassToResult(type, result, unableResolveImport));
         });
         return new Pair<>(result, unableResolveImport);
     }
@@ -334,7 +341,8 @@ public class DependencyResolver {
 
         for (Path path : files) {
             var jarFile = new File("/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/test/artifacts/ihmc_perception_main_jar/ihmc-perception.main.jar");
-            CompilationUnit cu = StaticJavaParser.parse(new File("/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/ihmc-open-robotics-software/ihmc-perception/src/main/java/us/ihmc/perception/demo/BytedecoOpenCVDemo.java"));
+            CompilationUnit cu = StaticJavaParser.parse(new File("/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/ihmc-open-robotics-software/ihmc-perception/src/main/java/us/ihmc/sensors/ZEDColorDepthImagePublisher.java"));
+//            CompilationUnit cu = StaticJavaParser.parse(new File(path.toAbsolutePath().toString()));
             var staticImportInspectorFromJar = new StaticImportInspectorFromJar(jarFile);
             var resolver = new DependencyResolver(cu, staticImportInspectorFromJar);
             var importList = new ArrayList<SingleImportDetails>();
@@ -349,7 +357,7 @@ public class DependencyResolver {
 //                System.out.println(result.b);
 //            }
             });
-            var checkedImportList = importList.stream().map(t -> t.classPath.toString()).distinct().toList();
+            var checkedImportList = importList.stream().map(t -> t.classPath.getOriginalPath()).distinct().toList();
             var fileImport = resolver.fileImports;
 
             var unusedImport = new ArrayList<ImportDeclaration>();
@@ -360,15 +368,15 @@ public class DependencyResolver {
             }
             if (!unusedImport.isEmpty()) {
                 System.out.println(path.toUri());
-                System.out.println(unusedImport);
-                System.out.println(checkedImportList);
+                for (ImportDeclaration importDeclaration : unusedImport) {
+                    System.out.println("Unused import: " + importDeclaration);
+                }
+                System.out.println(importList.stream().map(c -> c.importObject.toString()).toList());
+                System.out.println(unable.stream().distinct().toList());
                 System.out.println("--------------------------");
-                System.out.println(checkedImportList);
-                System.out.println(unable);
             }
+            System.out.println(resolver.importDetails.classList.stream().map(t -> t.importObject).toList());
             break;
-
-
         }
 
 //        for (FieldDeclaration f : field) {

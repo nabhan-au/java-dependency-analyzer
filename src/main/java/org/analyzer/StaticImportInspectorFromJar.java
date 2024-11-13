@@ -1,6 +1,7 @@
 package org.analyzer;
 import java.io.File;
 import java.io.IOException;
+import java.lang.module.ModuleFinder;
 import java.lang.reflect.Method;
 import java.lang.reflect.Field;
 import java.lang.reflect.Modifier;
@@ -24,32 +25,33 @@ public class StaticImportInspectorFromJar {
         classloader = URLClassLoader.newInstance(new URL[]{jarUrl});
     }
 
-    public Pair<Class<?>, Stack<String>> findClassWithPath(String className) {
+    public Pair<Class<?>, Queue<String>> findClassWithPath(String className) {
         try {
             var clazz = classloader.loadClass(className);
-            return new Pair<>(clazz, new Stack<>());
+            return new Pair<>(clazz, new LinkedList<>());
         } catch (ClassNotFoundException e) {
             // Split into outer class path and current inner class name
             int lastDotIndex = className.lastIndexOf('.');
             if (lastDotIndex == -1) {
-                return new Pair<>(null, new Stack<>());
+                return new Pair<>(null, new LinkedList<>());
             }
             String outerClassPath = className.substring(0, lastDotIndex);
             String currentInnerClassName = className.substring(lastDotIndex + 1);
             var result = findClassWithPath(outerClassPath);
-            result.b.push(currentInnerClassName);
+            result.b.add(currentInnerClassName);
             return new Pair<>(result.a, result.b);
         }
     }
 
-    public Class<?> resolveClassWithPath(Class<?> mainClass, Stack<String> path) throws ClassNotFoundException {
+    public Class<?> resolveClassWithPath(Class<?> mainClass, Queue<String> path) throws ClassNotFoundException {
         var currentClass = mainClass;
         var isClassPresent = false;
         while (!path.isEmpty()) {
-            String className = path.pop();
+            String className = path.poll();
             Class<?>[] innerClass = currentClass.getClasses();
             for (var i = 0; i < innerClass.length; i++) {
                 if (className.equals(innerClass[i].getSimpleName())) {
+                    System.out.println(className);
                     currentClass = innerClass[i];
                     isClassPresent = true;
                 }
@@ -72,21 +74,39 @@ public class StaticImportInspectorFromJar {
     public Pair<ImportDetails, List<ImportClassPath>> getImportDetailsWithMultipleClassPath(List<ImportClassPath> classPathList) {
         ImportDetails importDetails = new ImportDetails();
         List<ImportClassPath> unableToGetClassList = new ArrayList<>();
-        classPathList.forEach(classPath -> {
-            try {
-                ImportDetails classImportDetails = getImportDetails(classPath);
-                importDetails.methodList.addAll(classImportDetails.methodList);
-                importDetails.fieldList.addAll(classImportDetails.fieldList);
-                importDetails.classList.addAll(classImportDetails.classList);
-            } catch (ClassNotFoundException e) {
-                unableToGetClassList.add(classPath);
-            }
-        });
+
+        // Check current path class and check is path point to inner class
+        getImportDetailsFromClassPath(classPathList, importDetails, unableToGetClassList);
+
+        // Check is current path is a package and add import from package to result
         List<ImportClassPath> unableToGetClassesInPackage = new ArrayList<>();
+        var classPathInPackage = getClassPathFromPackage(unableToGetClassList, unableToGetClassesInPackage);
+        getImportDetailsFromClassPath(classPathInPackage, importDetails, unableToGetClassesInPackage);
+
+        // Check is path belong to java build in library (for non-static wild card import only)
+        List<ImportClassPath> unableToGetClassesFromBuildInLibrary = new ArrayList<>();
+        for (ImportClassPath classPath : classPathList) {
+            if (!classPath.isStatic()) {
+//                System.out.println(classPath.getPath());
+                try {
+                    var classFromBuildInLibrary = getClassFromBuildInLibrary(classPath);
+//                    System.out.println(classFromBuildInLibrary);
+                } catch (ClassNotFoundException e) {
+                    unableToGetClassesFromBuildInLibrary.add(classPath);
+                }
+            }
+
+        }
+
+
+        return new Pair<>(importDetails, unableToGetClassesFromBuildInLibrary);
+    }
+
+    private List<ImportClassPath> getClassPathFromPackage(List<ImportClassPath> unableToGetClassList, List<ImportClassPath> unableToGetClassesInPackage) {
         var classPathInPackage = unableToGetClassList.stream().flatMap(classPath -> {
             var tempPath = classPath.getPath().replaceAll("\\.", "/");
             try {
-                var classes = getClassesInPackage(tempPath);
+                var classes = getClassInPackage(tempPath, classPath);
                 if (classes.isEmpty()) {
                     unableToGetClassesInPackage.add(classPath);
                 }
@@ -98,20 +118,28 @@ public class StaticImportInspectorFromJar {
                 return null;
             }
         }).toList();
-        classPathInPackage.forEach(classPath -> {
+        return classPathInPackage;
+    }
+
+    private void getImportDetailsFromClassPath(List<ImportClassPath> classPathList, ImportDetails importDetails, List<ImportClassPath> unableToGetClassList) {
+        classPathList.forEach(classPath -> {
             try {
                 ImportDetails classImportDetails = getImportDetails(classPath);
                 importDetails.methodList.addAll(classImportDetails.methodList);
                 importDetails.fieldList.addAll(classImportDetails.fieldList);
                 importDetails.classList.addAll(classImportDetails.classList);
             } catch (ClassNotFoundException e) {
-                unableToGetClassesInPackage.add(classPath);
+                unableToGetClassList.add(classPath);
             }
         });
-        return new Pair<>(importDetails, unableToGetClassesInPackage);
     }
 
     public ImportDetails getImportDetails(ImportClassPath classPath) throws ClassNotFoundException {
+        var result = getImportDetailsFromJar(classPath);
+        return result;
+    }
+
+    public ImportDetails getImportDetailsFromJar(ImportClassPath classPath) throws ClassNotFoundException {
         if (!classPath.isStatic()) {
             if (classPath.isWildCard()) {
                 var clazz = loadClass(classPath.getPath());
@@ -155,29 +183,73 @@ public class StaticImportInspectorFromJar {
         }
     }
 
-    public List<ImportClassPath> getClassesInPackage(String packagePath) throws IOException, ClassNotFoundException {
-        List<ImportClassPath> classPathList = new ArrayList<>();
-        // Get the resource URL
-        Enumeration<URL> resources = classloader.getResources(packagePath);
+    public List<String> getClassFromBuildInLibrary(ImportClassPath importClassPath) throws ClassNotFoundException {
+        List<String> baseModuleClassNames = new ArrayList<>();
+        var classPath = importClassPath.getPath();
+        try {
+            var moduleReference = ModuleFinder.ofSystem().findAll().stream()
+                    .filter(module -> module.descriptor().name().equals("java.base"))
+                    .findFirst();
+            if (moduleReference.isEmpty()) {
+                throw new Exception("Cannot retrieve module reference");
+            }
+            try {
+                List<String> classes = moduleReference.get().open().list().toList();
+                classes.stream()
+                        .filter(name -> {
+//                            System.out.println(name);
+                            return name.endsWith(".class") && name.startsWith(classPath);
+                        })
+                        .forEach(name -> baseModuleClassNames.add(name.replace('/', '.').replace(".class", "")));
+            } catch (Exception e) {
+                e.printStackTrace();
+            }
+        } catch (Exception e) {
+            System.out.println(e.getMessage());
+        }
+        return baseModuleClassNames;
 
-        while (resources.hasMoreElements()) {
-            URL resource = resources.nextElement();
-            if (resource.getProtocol().equals("jar")) {
-                // Extract the JAR file path
-                String jarPath = resource.getPath().substring(5, resource.getPath().indexOf("!"));
-                try (JarFile jarFile = new JarFile(jarPath)) {
-                    String finalPackagePath = packagePath;
-                    jarFile.stream()
-                            .filter(entry -> isClassInPackage(entry, finalPackagePath))
-                            .forEach(entry -> {
-                                // Convert JAR entry to class name
-                                String className = entry.getName()
-                                        .replace("/", ".")
-                                        .replace(".class", "");
-                                classPathList.add(new ImportClassPath(className));
-                            });
+
+        // Get all classes in the package
+//        Class<?>[] classes = c.getClasses();
+//
+//        System.out.println("Classes in java.io:");
+//        Arrays.stream(classes).forEach(clazz -> System.out.println(clazz.getName()));
+    }
+
+    public List<ImportClassPath> getClassInPackage(String packagePath, ImportClassPath classPath) throws IOException, ClassNotFoundException {
+        List<ImportClassPath> classPathList = new ArrayList<>();
+        // Get the resource URLx
+        try {
+            Enumeration<URL> resources = classloader.getResources(packagePath);
+            while (resources.hasMoreElements()) {
+                URL resource = resources.nextElement();
+                if (resource.getProtocol().equals("jar")) {
+
+                    // Extract the JAR file path
+                    String jarPath = resource.getPath().substring(5, resource.getPath().indexOf("!"));
+                    try (JarFile jarFile = new JarFile(jarPath)) {
+                        String finalPackagePath = packagePath;
+                        jarFile.stream()
+                                .filter(entry -> isClassInPackage(entry, finalPackagePath))
+                                .forEach(entry -> {
+                                    // Convert JAR entry to class name
+                                    String className = entry.getName()
+                                            .replace("/", ".")
+                                            .replace(".class", "");
+                                    if (classPath == null) {
+                                        classPathList.add(new ImportClassPath(className));
+                                    } else {
+                                        classPathList.add(new ImportClassPath(className, classPath.toString()));
+                                    }
+
+                                });
+                    }
                 }
             }
+        } catch (IOException e) {
+            System.out.println(e.getMessage());
+            e.printStackTrace();
         }
         return classPathList;
     }
