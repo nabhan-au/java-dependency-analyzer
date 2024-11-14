@@ -36,7 +36,7 @@ public class Main {
         var pathList = getFileList("/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/ihmc-open-robotics-software/ihmc-perception/src/main/java/us/ihmc/perception");
 
         CombinedTypeSolver typeSolver = new CombinedTypeSolver();
-        typeSolver.add(new JavaParserTypeSolver(new File("/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/ihmc-open-robotics-software/ihmc-perception/src")));
+        typeSolver.add(new JavaParserTypeSolver(new File("/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/ihmc-open-robotics-software/ihmc-perception/src/main/java/us/ihmc/perception/RawImage.java")));
         typeSolver.add(new JarTypeSolver("/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/test/artifacts/ihmc_perception_main_jar/ihmc-perception.main.jar"));
         typeSolver.add(new ReflectionTypeSolver());
 
@@ -75,9 +75,6 @@ public class Main {
                 System.out.println(variable.getName() + ":"  + variable.getType());
             });
         });
-
-        var method = cu.findAll(MethodCallExpr.class).get(2);
-        System.out.println(method.getNameAsString());
 //        System.out.println(method.resolve().toString());
 
 //        for (Path path: pathList) {

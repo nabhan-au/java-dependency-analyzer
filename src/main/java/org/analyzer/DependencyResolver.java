@@ -7,11 +7,17 @@ import com.github.javaparser.ast.ImportDeclaration;
 import com.github.javaparser.ast.Node;
 import com.github.javaparser.ast.NodeList;
 import com.github.javaparser.ast.body.*;
+import com.github.javaparser.ast.comments.JavadocComment;
 import com.github.javaparser.ast.expr.*;
 import com.github.javaparser.ast.stmt.*;
 import com.github.javaparser.ast.type.ReferenceType;
 import com.github.javaparser.ast.type.Type;
 import com.github.javaparser.ast.type.TypeParameter;
+import com.github.javaparser.javadoc.Javadoc;
+import com.github.javaparser.javadoc.JavadocBlockTag;
+import com.github.javaparser.javadoc.description.JavadocDescriptionElement;
+import com.github.javaparser.javadoc.description.JavadocInlineTag;
+import com.github.javaparser.javadoc.description.JavadocSnippet;
 import com.github.javaparser.symbolsolver.JavaSymbolSolver;
 import com.github.javaparser.symbolsolver.resolution.typesolvers.CombinedTypeSolver;
 import com.github.javaparser.symbolsolver.resolution.typesolvers.ReflectionTypeSolver;
@@ -19,15 +25,15 @@ import com.github.javaparser.utils.Pair;
 import org.analyzer.models.ImportClassPath;
 import org.analyzer.models.ImportDetails;
 import org.analyzer.models.SingleImportDetails;
-import org.checkerframework.checker.units.qual.N;
 
-import java.awt.*;
 import java.io.File;
-import java.net.MalformedURLException;
 import java.nio.file.Path;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
+import java.util.Optional;
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
 
 import static org.analyzer.Main.getFileList;
 
@@ -36,6 +42,7 @@ public class DependencyResolver {
     public ImportDetails importDetails;
     public List<ImportClassPath> unableImport;
     public List<ImportDeclaration> fileImports;
+    public List<String> checkFullPathCalling = new ArrayList<>();
 
     public DependencyResolver(CompilationUnit compilationUnit, StaticImportInspectorFromJar staticImportInspectorFromJar) {
         this.compilationUnit = compilationUnit;
@@ -54,9 +61,12 @@ public class DependencyResolver {
     public Pair<List<SingleImportDetails>, List<String>> resolveNodeType(Node node) {
         List<SingleImportDetails> result = new ArrayList<>();
         List<String> unableResolveImport = new ArrayList<>();
+        List<String> checkFullPathImport = new ArrayList<>();
         if (node instanceof FieldDeclaration fieldResolvedNode) {
             var variables = fieldResolvedNode.getVariables();
             processInnerType(variables, result, unableResolveImport);
+            fieldResolvedNode.getJavadoc().ifPresent(doc -> processJavadoc(doc, result, unableResolveImport));
+            // TODO javadoc
         } else if (node instanceof VariableDeclarator variableResolvedNode) {
             processType(variableResolvedNode.getType(), result, unableResolveImport);
             variableResolvedNode.getInitializer().ifPresent(t -> {
@@ -64,27 +74,22 @@ public class DependencyResolver {
                 result.addAll(tempResult.a);
                 unableResolveImport.addAll(tempResult.b);
             });
-
             processType(variableResolvedNode.getType(), result, unableResolveImport);
         } else if (node instanceof ClassOrInterfaceDeclaration classResolvedNode) {
             var extendTypes = classResolvedNode.getExtendedTypes();
             var implementTypes = classResolvedNode.getImplementedTypes();
             var permittedTypes = classResolvedNode.getPermittedTypes();
-            var extractedExtendTypes = extendTypes.stream().flatMap(types -> MyTypeSolvers.splitStructuredTypes(types.toString()).stream()).toList();
-            var extractedImplementTypes = implementTypes.stream().flatMap(types -> MyTypeSolvers.splitStructuredTypes(types.toString()).stream()).toList();
-            var extractedPermittedTypes = permittedTypes.stream().flatMap(types -> MyTypeSolvers.splitStructuredTypes(types.toString()).stream()).toList();
-            extractedExtendTypes.forEach(type -> {
-                addImportClassToResult(type, result, unableResolveImport);
-            });
-            extractedImplementTypes.forEach(type -> {
-                addImportClassToResult(type, result, unableResolveImport);
-            });
-            extractedPermittedTypes.forEach(type -> {
-                addImportClassToResult(type, result, unableResolveImport);
-            });
+
+
+            extendTypes.forEach(types -> processType(types, result, unableResolveImport));
+            implementTypes.forEach(types -> processType(types, result, unableResolveImport));
+            permittedTypes.forEach(types -> processType(types, result, unableResolveImport));
+
             var tempResult = extractTypeParams(classResolvedNode.getTypeParameters());
             result.addAll(tempResult.a);
             unableResolveImport.addAll(tempResult.b);
+            classResolvedNode.getJavadoc().ifPresent(doc -> processJavadoc(doc, result, unableResolveImport));
+            // TODO javadoc
         } else if (node instanceof VariableDeclarationExpr variableResolvedNode) {
             var variables = variableResolvedNode.getVariables();
             for (var variable : variables) {
@@ -109,6 +114,8 @@ public class DependencyResolver {
             var typeParamResult = extractTypeParams(methodResolvedNode.getTypeParameters());
             result.addAll(typeParamResult.a);
             unableResolveImport.addAll(typeParamResult.b);
+            methodResolvedNode.getJavadoc().ifPresent(doc -> processJavadoc(doc, result, unableResolveImport));
+            // TODO javadoc
         } else if (node instanceof MethodCallExpr methodCallResolvedNode) {
             var methodArguments = methodCallResolvedNode.getArguments();
             var methodTypeArguments = methodCallResolvedNode.getTypeArguments();
@@ -122,7 +129,10 @@ public class DependencyResolver {
             }
 
             if (methodTypeArguments.isPresent()) {
-                var types = methodTypeArguments.get().stream().flatMap(t -> MyTypeSolvers.splitStructuredTypes(t.toString()).stream()).toList();
+                var types = methodTypeArguments.get().stream().flatMap(t -> {
+                    checkFullPathImport.add(t.toString());
+                    return MyTypeSolvers.splitStructuredTypes(t.toString()).stream();
+                }).toList();
                 types.forEach(type -> addImportClassToResult(type, result, unableResolveImport));
             }
 
@@ -136,7 +146,10 @@ public class DependencyResolver {
             addImportFieldToResult(name.toString(), result, unableResolveImport);
         } else if (node instanceof EnumDeclaration enumResolvedNode) {
             var implementType = enumResolvedNode.getImplementedTypes();
-            var extractedImplementType = implementType.stream().flatMap(t -> MyTypeSolvers.splitStructuredTypes(t.toString()).stream()).toList();
+            var extractedImplementType = implementType.stream().flatMap(t -> {
+                checkFullPathImport.add(t.toString());
+                return MyTypeSolvers.splitStructuredTypes(t.toString()).stream();
+            }).toList();
             extractedImplementType.forEach(type -> {
                 addImportClassToResult(type, result, unableResolveImport);
             });
@@ -160,6 +173,7 @@ public class DependencyResolver {
             result.addAll(tempTargetResult.a);
             unableResolveImport.addAll(tempTargetResult.b);
         } else if (node instanceof AnnotationExpr annotationExprResolvedNode) {
+            checkFullPathImport.add(annotationExprResolvedNode.getNameAsString());
             var annotationType = MyTypeSolvers.splitStructuredTypes(annotationExprResolvedNode.getNameAsString());
             annotationType.forEach(a -> addImportClassToResult(a, result, unableResolveImport));
             if (annotationExprResolvedNode.isSingleMemberAnnotationExpr()) {
@@ -254,14 +268,19 @@ public class DependencyResolver {
             processInnerType(new NodeList<>(catchClauseResolvedNode.getParameter()), result, unableResolveImport);
         }
         else if (node instanceof ReferenceType referenceTypeResolvedNode) {
-            var types = MyTypeSolvers.splitStructuredTypes(referenceTypeResolvedNode.asString());
-            types.forEach(type -> {
-                addImportClassToResult(type, result, unableResolveImport);
-            });
+            processTypeStr(referenceTypeResolvedNode.toString(), result, unableResolveImport);
         } else if (node instanceof Type type) {
             processType(type, result, unableResolveImport);
         }
         return new Pair<>(result, unableResolveImport);
+    }
+
+    private void processTypeStr(String typeStr, List<SingleImportDetails> result, List<String> unableResolveImport) {
+        checkFullPathCalling.add(typeStr);
+        var types = MyTypeSolvers.splitStructuredTypes(typeStr);
+        types.forEach(type -> {
+            addImportClassToResult(type, result, unableResolveImport);
+        });
     }
 
     private <T extends Node> void processInnerType(NodeList<T> expressions, List<SingleImportDetails> result, List<String> unableResolveImport) {
@@ -274,6 +293,7 @@ public class DependencyResolver {
 
     private void processScope(Expression scope, List<SingleImportDetails> result, List<String> unableResolveImport) {
         // Check static object call
+        checkFullPathCalling.add(scope.toString());
         MyTypeSolvers.splitStructuredTypes(scope.toString()).forEach(t -> addImportClassToResult(t, result, unableResolveImport));
 
         // Check inner call
@@ -283,6 +303,7 @@ public class DependencyResolver {
     }
 
     private void processType(Type variableResolvedNode, List<SingleImportDetails> result, List<String> unableResolveImport) {
+        checkFullPathCalling.add(variableResolvedNode.toString());
         var types = MyTypeSolvers.splitStructuredTypes(variableResolvedNode.asString());
         types.forEach(type -> {
             addImportClassToResult(type, result, unableResolveImport);
@@ -327,6 +348,63 @@ public class DependencyResolver {
         return unableImport;
     }
 
+    public void processJavadoc(Javadoc javadoc, List<SingleImportDetails> result, List<String> unableResolveImport) {
+        List<JavadocBlockTag> blockTags = javadoc.getBlockTags();
+        blockTags.forEach(blockTag -> {
+            switch (blockTag.getType()) {
+                case SEE -> {
+                    var elements = blockTag.getContent().getElements();
+                    JavadocSnippet snippet = elements.stream().filter(e -> e instanceof JavadocSnippet).map(e -> (JavadocSnippet) e).findFirst().orElse(null);
+                    if (snippet != null) {
+                        var functionCall = snippet.toText().split(" ")[0].trim();
+                        var className = functionCall.split("#")[0];
+                        processTypeStr(className, result, unableResolveImport);
+                    }
+                    processJavadocDescriptionElement(elements, result, unableResolveImport);
+                }
+                case EXCEPTION, THROWS -> {
+                    var className = blockTag.getName().orElse("");
+                    processTypeStr(className, result, unableResolveImport);
+                    var elements = blockTag.getContent().getElements();
+                    processJavadocDescriptionElement(elements, result, unableResolveImport);
+
+                }
+            }
+        });
+        var javaDocElement = javadoc.getDescription().getElements();
+        processJavadocDescriptionElement(javaDocElement, result, unableResolveImport);
+    }
+
+    public void processJavadocDescriptionElement(List<JavadocDescriptionElement> javadocDescriptionElements, List<SingleImportDetails> result, List<String> unableResolveImport) {
+        String regex = "\\(([^)]+)\\)";
+        Pattern pattern = Pattern.compile(regex);
+
+        javadocDescriptionElements.forEach(e -> {
+            if (e instanceof JavadocInlineTag javaDocInlineTag) {
+                if (javaDocInlineTag.getType() ==  JavadocInlineTag.Type.LINK) {
+                    if (javaDocInlineTag.getContent().contains("#")) {
+                        var splitContent = javaDocInlineTag.getContent().split("#", 2);
+                        var className = splitContent[0].trim();
+                        var member = splitContent[1].trim();
+                        processTypeStr(className, result, unableResolveImport);
+                        if (member.contains("(") && member.contains(")")) {
+                            Matcher matcher = pattern.matcher(splitContent[1]);
+                            if (matcher.find()) {
+                                String parameters = matcher.group(1);
+                                Arrays.stream(parameters.split(",")).forEach(f -> {
+                                    processTypeStr(f, result, unableResolveImport);
+                                });
+                            }
+                        }
+                    } else {
+                        var className = javaDocInlineTag.getContent().trim();
+                        processTypeStr(className, result, unableResolveImport);
+                    }
+                }
+            }
+        });
+    }
+
     public static void main(String[] args) throws Exception {
         CombinedTypeSolver typeSolver = new CombinedTypeSolver();
         typeSolver.add(new ReflectionTypeSolver());
@@ -341,14 +419,14 @@ public class DependencyResolver {
 
         for (Path path : files) {
             var jarFile = new File("/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/test/artifacts/ihmc_perception_main_jar/ihmc-perception.main.jar");
-            CompilationUnit cu = StaticJavaParser.parse(new File("/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/ihmc-open-robotics-software/ihmc-perception/src/main/java/us/ihmc/sensors/ZEDColorDepthImagePublisher.java"));
-//            CompilationUnit cu = StaticJavaParser.parse(new File(path.toAbsolutePath().toString()));
+//            CompilationUnit cu = StaticJavaParser.parse(new File("/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/ihmc-open-robotics-software/ihmc-perception/src/main/java/us/ihmc/perception/RawImage.java"));
+            CompilationUnit cu = StaticJavaParser.parse(new File(path.toAbsolutePath().toString()));
             var staticImportInspectorFromJar = new StaticImportInspectorFromJar(jarFile);
             var resolver = new DependencyResolver(cu, staticImportInspectorFromJar);
             var importList = new ArrayList<SingleImportDetails>();
             var unable = new ArrayList<String>();
             cu.walk(node -> {
-//            if (node instanceof ClassExpr) {
+//            if (node instanceof ReferenceType) {
 //                System.out.println(node);
                 var result = resolver.resolveNodeType(node);
                 importList.addAll(result.a);
@@ -357,6 +435,12 @@ public class DependencyResolver {
 //                System.out.println(result.b);
 //            }
             });
+            cu.findAll(JavadocComment.class).forEach(n -> {
+//                System.out.println(n.getContent());
+            });
+
+            // TODO use checkFullPathCalling to check with dependency path directly
+            var todo1 = resolver.checkFullPathCalling;
             var checkedImportList = importList.stream().map(t -> t.classPath.getOriginalPath()).distinct().toList();
             var fileImport = resolver.fileImports;
 
@@ -371,182 +455,12 @@ public class DependencyResolver {
                 for (ImportDeclaration importDeclaration : unusedImport) {
                     System.out.println("Unused import: " + importDeclaration);
                 }
-                System.out.println(importList.stream().map(c -> c.importObject.toString()).toList());
-                System.out.println(unable.stream().distinct().toList());
+//                System.out.println(importList.stream().map(c -> c.importObject.toString()).toList());
+//                System.out.println(unable.stream().distinct().toList());
                 System.out.println("--------------------------");
             }
-            System.out.println(resolver.importDetails.classList.stream().map(t -> t.importObject).toList());
-            break;
+//            System.out.println(resolver.importDetails.classList.stream().map(t -> t.importObject).toList());
+//            break;
         }
-
-//        for (FieldDeclaration f : field) {
-//            var results = f.getVariables().stream().flatMap(fs -> MyTypeSolvers.extractCompoundType(fs.getType().asString()).stream());
-//            System.out.println(f.getVariables());
-//            System.out.println(f);
-//            results.forEach(System.out::println);
-//            System.out.println("================================================================");
-//        }
-//        var variable = cu.findAll(VariableDeclarator.class);
-//        for (VariableDeclarator m : variable) {
-//            var results = MyTypeSolvers.extractCompoundType(m.getType().asString());
-//            System.out.println(m);
-//            results.forEach(System.out::println);
-//            System.out.println("================================================================");
-//        }
-//        var classDeclaration = cu.findAll(ClassOrInterfaceDeclaration.class);
-//        for (ClassOrInterfaceDeclaration c : classDeclaration) {
-//            System.out.println(c.getName());
-//            System.out.println(c.getExtendedTypes());
-//        }
-//        var variableDeclarationExpr = cu.findAll(VariableDeclarationExpr.class);
-//        for (VariableDeclarationExpr v : variableDeclarationExpr) {
-//            var results = v.getVariables().stream().flatMap(vs -> MyTypeSolvers.extractCompoundType(vs.getType().asString()).stream());
-//            System.out.println(v.getVariables());
-//            results.forEach(System.out::println);
-//            System.out.println("================================================================");
-//        }
-//        var instanceOfExpr = cu.findAll(InstanceOfExpr.class);
-//        for (InstanceOfExpr i : instanceOfExpr) {
-//            var results = MyTypeSolvers.extractCompoundType(i.getType().asString());
-//        }
-//
-//        var castExpr = cu.findAll(CastExpr.class);
-//        for (CastExpr c : castExpr) {
-//            var results = MyTypeSolvers.extractCompoundType(c.getType().asString());
-//        }
-//        var params = cu.findAll(Parameter.class);
-//        for (Parameter p : params) {
-//            System.out.println(p.toString());
-//            System.out.println(p.getType());
-//            System.out.println("================================================================");
-//        }
-//
-//        var name = cu.findAll(NameExpr.class);
-//        for (NameExpr a : name) {
-//            System.out.println(a);
-//        }
-
-//        var methodDecl = cu.findAll(MethodDeclaration.class);
-//        for (MethodDeclaration m : methodDecl) {
-//            System.out.println(m.toString());
-//            System.out.println(m.getType());
-//            System.out.println("================================================================");
-//        }j
-//
-//        var methodCall = cu.findAll(MethodCallExpr.class);
-//        for (MethodCallExpr m : methodCall) {
-//            System.out.println(m.toString());
-//            System.out.println(m.getScope());
-//            System.out.println(m.getTypeArguments());
-//            System.out.println(m.getArguments());
-//            System.out.println("================================================================");
-//        }
-//        var enumDeclaration = cu.findAll(EnumDeclaration.class);
-//        for (EnumDeclaration e : enumDeclaration) {
-//            System.out.println(e.getEntries().stream().flatMap(entry -> entry.getArguments().stream()).toList());
-//        }
-//        var enumConstantDeclaration = cu.findAll(EnumConstantDeclaration.class);
-//        for (EnumConstantDeclaration e : enumConstantDeclaration) {
-//            System.out.println(e.getArguments());
-//        }
-//        var annotation = cu.findAll(AnnotationExpr.class);
-//        for (AnnotationExpr a : annotation) {s
-//            System.out.println(a.toString());
-//            System.out.println(a.getName());
-//            if (a.isSingleMemberAnnotationExpr()) {
-//                var sa = a.asSingleMemberAnnotationExpr();
-//                System.out.println(sa.getMemberValue());
-//            }
-//            if (a.isNormalAnnotationExpr()) {
-//                var na = a.asNormalAnnotationExpr();
-//                System.out.println(na.getPairs());
-//            }
-//        }
-//        var explicitConsInvo = cu.findAll(ExplicitConstructorInvocationStmt.class);
-//        for (ExplicitConstructorInvocationStmt e : explicitConsInvo) {
-//            var explicitConsInvoArgs = e.getArguments();
-//            explicitConsInvoArgs.forEach(System.out::println);
-//            if (e.getTypeArguments().isPresent()) {
-//                e.getTypeArguments().get().forEach(System.out::println);
-//            }
-//            System.out.println(e.getExpression());
-//            System.out.println("================================================================");
-//        }
-//        var annotationDecl = cu.findAll(AnnotationDeclaration.class);
-//        for (AnnotationDeclaration a : annotationDecl) {
-//            System.out.println(a.getName());
-//            System.out.println(a.getFields());
-//        }
-//        var annotationMemberDecl = cu.findAll(AnnotationMemberDeclaration.class);
-//        for (AnnotationMemberDeclaration annotationDeclaration : annotationMemberDecl) {
-//            System.out.println(annotationDeclaration.getAnnotations());
-//            System.out.println(annotationDeclaration.getType());
-//        }
-
-
-
-
-
-
-//
-//        var fieldAccess = cu.findAll(FieldAccessExpr.class);
-//        for (FieldAccessExpr f : fieldAccess) {
-//            System.out.println(f.toString());
-//            System.out.println(f.getScope());
-//            System.out.println(f.getTypeArguments());
-//            System.out.println("================================================================");
-//        }
-//
-//        var methodReference = cu.findAll(MethodReferenceExpr.class);
-//        for (MethodReferenceExpr methodReferenceExpr : methodReference) {
-//            System.out.println(methodReferenceExpr.toString());
-//            System.out.println(methodReferenceExpr.getTypeArguments());
-//            System.out.println(methodReferenceExpr.getScope());
-//            // System.out.println(methodReferenceExpr.getIdentifier());
-//            System.out.println("================================================================");
-//        }
-//
-//        var objectCreation = cu.findAll(ObjectCreationExpr.class);
-//        for (ObjectCreationExpr objectCreationExpr : objectCreation) {
-//            System.out.println(objectCreationExpr.toString());
-//            System.out.println(objectCreationExpr.getScope());
-//            System.out.println(objectCreationExpr.getArguments());
-//            System.out.println(objectCreationExpr.getTypeArguments());
-//            System.out.println(objectCreationExpr.getType());
-//            System.out.println("================================================================");
-//        }
-//
-
-//        var typePatternExpr = cu.findAll(TypePatternExpr.class);
-//        for (TypePatternExpr typePattern : typePatternExpr) {
-//            System.out.println(typePattern.getName());
-//            System.out.println(typePattern.getType());
-//        }
-
-
-//
-//            var resolver = new DependencyResolver(cu, jarFile);
-//            var method =  cu.findAll(MethodDeclaration.class).get(0);
-//            var params =  cu.findAll(Parameter.class).get(0);
-//            resolver.resolveNodeType(method);
-//            resolver.resolveNodeType(params);
-//        }
-
-//        cu.findAll(VariableDeclarator.class).forEach(name -> {
-//            System.out.println(name);
-//            System.out.println(name.getType());
-//        });
-
-//        System.out.println(" ");
-//        System.out.println(" ");
-//        System.out.println(" ");
-//        System.out.println("=====================================================================================================================");
-//        for (ImportClassPath classPath : unableImport) {
-//            System.out.println(classPath.getPath());
-//        }
-//        CompilationUnit cu = StaticJavaParser.parse(new File("/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/ihmc-open-robotics-software/ihmc-perception/src/main/java/us/ihmc/sensors/ZEDColorDepthImagePublisher.java"));
-//        var importList = cu.findAll(ImportDeclaration.class).toArray(ImportDeclaration[]::new);
-//        new DependencyResolver(new File("/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/test/artifacts/ihmc_perception_main_jar/ihmc-perception.main.jar"), importList);
-
     }
 }
