@@ -27,6 +27,7 @@ import org.analyzer.models.ImportDetails;
 import org.analyzer.models.SingleImportDetails;
 
 import java.io.File;
+import java.io.IOException;
 import java.nio.file.Path;
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -50,6 +51,9 @@ public class DependencyResolver {
         this.fileImports = Arrays.stream(imports).toList();
         List<ImportClassPath>  importList = Arrays.stream(imports).map(classImport -> new ImportClassPath(classImport.toString().trim())).toList();
         var result = staticImportInspectorFromJar.getImportDetailsWithMultipleClassPath(importList);
+//        System.out.println(result.a.classList.stream().map(c -> c.importObject).toList());
+//        System.out.println(result.a.methodList.stream().map(c -> c.importObject).toList());
+//        System.out.println(result.a.fieldList.stream().map(c -> c.importObject).toList());
         importDetails = result.a;
         unableImport = result.b;
     }
@@ -66,7 +70,6 @@ public class DependencyResolver {
             var variables = fieldResolvedNode.getVariables();
             processInnerType(variables, result, unableResolveImport);
             fieldResolvedNode.getJavadoc().ifPresent(doc -> processJavadoc(doc, result, unableResolveImport));
-            // TODO javadoc
         } else if (node instanceof VariableDeclarator variableResolvedNode) {
             processType(variableResolvedNode.getType(), result, unableResolveImport);
             variableResolvedNode.getInitializer().ifPresent(t -> {
@@ -415,13 +418,33 @@ public class DependencyResolver {
         StaticJavaParser.setConfiguration(parserConfig);
 
         var repoPath = "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/ihmc-open-robotics-software/ihmc-perception";
+        var destinationPath = "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/temp-repo";
         var files = getFileList(repoPath + "/src/main/java");
-
+//        var directDependencies = GradleDependenciesExtractor.getProjectDependencies(repoPath);
+        var installer = new ArtifactInstaller();
+        var currentRepoArtifact = "us.ihmc:ihmc-perception:0.14.0-241016";
+        var extractedCurrentDependency = GradleDependenciesExtractor.extractDependency(currentRepoArtifact);
+        var currentRepoArtifactPath = installer.install(extractedCurrentDependency, destinationPath);
+        List<File> artifactPaths = new ArrayList<>(Arrays.asList(new File(currentRepoArtifactPath.getArtifactLocation())));
+//        directDependencies.forEach(d -> {
+//            var extractedDependency = GradleDependenciesExtractor.extractDependency(d.toString());
+//            try {
+//                var artifactPath = installer.install(extractedDependency.get(0), extractedDependency.get(1), extractedDependency.get(2), destinationPath);
+//                artifactPaths.add(new File(artifactPath));
+//            } catch (IOException e) {
+//                throw new RuntimeException(e);
+//            } catch (InterruptedException e) {
+//                throw new RuntimeException(e);
+//            }
+//        });
         for (Path path : files) {
             var jarFile = new File("/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/test/artifacts/ihmc_perception_main_jar/ihmc-perception.main.jar");
-//            CompilationUnit cu = StaticJavaParser.parse(new File("/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/ihmc-open-robotics-software/ihmc-perception/src/main/java/us/ihmc/perception/RawImage.java"));
-            CompilationUnit cu = StaticJavaParser.parse(new File(path.toAbsolutePath().toString()));
-            var staticImportInspectorFromJar = new StaticImportInspectorFromJar(jarFile);
+//            var jarFile = new File("/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/temp-repo/ihmc-perception.main.jar");
+            CompilationUnit cu = StaticJavaParser.parse(new File("/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/ihmc-open-robotics-software/ihmc-perception/src/main/java/us/ihmc/perception/RawImage.java"));
+//            CompilationUnit cu = StaticJavaParser.parse(new File(path.toAbsolutePath().toString()));
+            artifactPaths.add(jarFile);
+            var staticImportInspectorFromJar = new StaticImportInspectorFromJar(artifactPaths);
+            // jar:file:/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/test/artifacts/ihmc_perception_main_jar/ihmc-perception.main.jar!/
             var resolver = new DependencyResolver(cu, staticImportInspectorFromJar);
             var importList = new ArrayList<SingleImportDetails>();
             var unable = new ArrayList<String>();
@@ -445,8 +468,14 @@ public class DependencyResolver {
             var fileImport = resolver.fileImports;
 
             var unusedImport = new ArrayList<ImportDeclaration>();
+            var usedImport = new ArrayList<ImportDeclaration>();
             for (ImportDeclaration importDeclaration : fileImport) {
                 if (!checkedImportList.contains(importDeclaration.toString().trim())) {
+                    unusedImport.add(importDeclaration);
+                }
+            }
+            for (ImportDeclaration importDeclaration : fileImport) {
+                if (checkedImportList.contains(importDeclaration.toString().trim())) {
                     unusedImport.add(importDeclaration);
                 }
             }
@@ -460,7 +489,7 @@ public class DependencyResolver {
                 System.out.println("--------------------------");
             }
 //            System.out.println(resolver.importDetails.classList.stream().map(t -> t.importObject).toList());
-//            break;
+            break;
         }
     }
 }

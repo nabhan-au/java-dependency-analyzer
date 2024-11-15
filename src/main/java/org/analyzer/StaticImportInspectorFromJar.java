@@ -20,9 +20,14 @@ public class StaticImportInspectorFromJar {
 
     private final ClassLoader classloader;
 
-    public StaticImportInspectorFromJar(File jarFile) throws MalformedURLException {
-        URL jarUrl = new URL("jar:file:" + jarFile.getAbsolutePath() + "!/");
-        classloader = URLClassLoader.newInstance(new URL[]{jarUrl});
+    public StaticImportInspectorFromJar(List<File> jarFile) throws MalformedURLException {
+        List<URL> urls = new ArrayList<>();
+        System.out.println(jarFile);
+        for (File file : jarFile) {
+            urls.add(new URL("jar:file:" + file.getAbsolutePath() + "!/"));
+        }
+        URL[] arrayUrl = urls.toArray(URL[]::new);
+        classloader = URLClassLoader.newInstance(arrayUrl);
     }
 
     public Pair<Class<?>, Queue<String>> findClassWithPath(String className) {
@@ -251,12 +256,12 @@ public class StaticImportInspectorFromJar {
     }
 
     public static void main(String[] args) throws IOException, ClassNotFoundException {
-        String jarFilePath = "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/test/artifacts/ihmc_perception_main_jar/ihmc-perception.main.jar";
+        File jarFilePath = new File("/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/test/artifacts/ihmc_perception_main_jar/ihmc-perception.main.jar");
         String fullyQualifiedClassName = args.length > 1 ? args[1] : "import org.bytedeco.cuda.global.nvcomp.*;";
         String fullyQualifiedClassName2 = "import static org.bytedeco.opencl.global.OpenCL.CL_SUCCESS;";
         String fullyQualifiedClassName3 = "import org.bytedeco.javacv.*";
 
-        var staticImport = new StaticImportInspectorFromJar(new File(jarFilePath));
+        var staticImport = new StaticImportInspectorFromJar(new ArrayList<>(Arrays.asList(jarFilePath)));
         var result = staticImport.findClassWithPath("org.bytedeco.spinnaker.global.Spinnaker_C");
         var result2 = staticImport.resolveClassWithPath(result.a, result.b);
         System.out.println(result2);
