@@ -75,6 +75,7 @@ public class ArtifactInstaller {
 
     public static List<String> fetchMetadata(ImportArtifact projectArtifact) throws Exception {
         var metadataUrl = getMetaDataUrl(projectArtifact);
+        System.out.println(metadataUrl);
         List<String> result = new ArrayList<>();
         URL url = new URL(metadataUrl);
         HttpURLConnection conn = (HttpURLConnection) url.openConnection();

@@ -34,7 +34,7 @@ import java.util.List;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
-import static org.analyzer.Main.getFileList;
+import static org.analyzer.FileUtils.getFileList;
 
 public class DependencyResolver {
     private CompilationUnit compilationUnit;
@@ -49,9 +49,6 @@ public class DependencyResolver {
         this.fileImports = Arrays.stream(imports).toList();
         List<ImportClassPath>  importList = Arrays.stream(imports).map(classImport -> new ImportClassPath(classImport.toString().trim())).toList();
         var result = staticImportInspectorFromJar.getImportDetailsWithMultipleClassPath(importList);
-//        System.out.println(result.a.classList.stream().map(c -> c.importObject).toList());
-//        System.out.println(result.a.methodList.stream().map(c -> c.importObject).toList());
-//        System.out.println(result.a.fieldList.stream().map(c -> c.importObject).toList());
         importDetails = result.a;
         unableImport = result.b;
     }

@@ -21,6 +21,7 @@ import org.analyzer.models.ImportDetails;
 public class StaticImportInspectorFromJar {
 
     private final ClassLoader classloader;
+    private Map<String, List<String >> getAllClassPathFromJarFileCache = new HashMap<>();
 
     public StaticImportInspectorFromJar(List<File> jarFile) throws MalformedURLException {
         List<URL> urls = new ArrayList<>();
@@ -252,6 +253,9 @@ public class StaticImportInspectorFromJar {
     }
 
     public List<String> getAllClassPathFromJarFile(String artifactPath) throws Exception {
+        if (getAllClassPathFromJarFileCache.containsKey(artifactPath)) {
+            return getAllClassPathFromJarFileCache.get(artifactPath);
+        }
         ProcessBuilder processBuilder = new ProcessBuilder();
 
         processBuilder.command("jar", "tf", Arrays.stream(artifactPath.split("/")).toList().getLast());
@@ -262,11 +266,13 @@ public class StaticImportInspectorFromJar {
 
         // Capture the output of the command
         BufferedReader reader = new BufferedReader(new InputStreamReader(process.getInputStream()));
-        StringBuilder output = new StringBuilder();
+        List<String> output = new ArrayList<>();
         String line;
 
         while ((line = reader.readLine()) != null) {
-            output.append(line).append("\n");
+            if (line.trim().endsWith(".class")) {
+                output.add(line);
+            }
         }
 
         // Wait for the process to finish
@@ -277,9 +283,8 @@ public class StaticImportInspectorFromJar {
             throw new Exception("jar tf command failed with exit code: " + exitCode);
         }
 
-        // Extract dependencies using regex
-        String outputString = output.toString();
-        return Arrays.asList(outputString.split("\n"));
+        getAllClassPathFromJarFileCache.put(artifactPath, output);
+        return output;
     }
 
     private static boolean isClassInPackage(JarEntry entry, String packagePath) {

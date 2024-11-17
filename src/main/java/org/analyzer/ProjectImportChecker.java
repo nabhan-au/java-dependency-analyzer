@@ -13,12 +13,9 @@ import java.io.File;
 import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.nio.file.Path;
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.List;
-import java.util.Optional;
+import java.util.*;
 
-import static org.analyzer.Main.getFileList;
+import static org.analyzer.FileUtils.getFileList;
 
 public class ProjectImportChecker {
     private StaticImportInspectorFromJar staticImportInspector;
@@ -26,9 +23,17 @@ public class ProjectImportChecker {
     private List<ImportArtifact> artifacts = new ArrayList<>();
     private final ArtifactInstaller artifactInstaller = new ArtifactInstaller();
     private List<Path> projectFileList = new ArrayList<>();
-    private List<FileImportReport> reportList = new ArrayList<>();
+    private List<DependencyResolverReport> reportList = new ArrayList<>();
+    private String projectArtifact;
+    private String repoPath;
+    private String repoSubPath;
+    private String artifactLocation;
 
     public ProjectImportChecker(String repoPath, String repoSubPath, String destinationPath, Boolean installProjectArtifact, String projectArtifactId, Optional<String> jarPath) throws Exception {
+        this.projectArtifact = projectArtifactId;
+        this.repoPath = repoPath;
+        this.repoSubPath = repoSubPath;
+        this.artifactLocation = destinationPath;
         this.dependencies = GradleDependenciesExtractor.getProjectDependencies(repoPath);
         if (jarPath.isPresent()) {
             this.staticImportInspector = new StaticImportInspectorFromJar(new ArrayList<>(Arrays.asList(new File(jarPath.get()))));
@@ -83,7 +88,7 @@ public class ProjectImportChecker {
                 .setSymbolResolver(new JavaSymbolSolver(typeSolver))
                 .setLanguageLevel(ParserConfiguration.LanguageLevel.JAVA_21);
         StaticJavaParser.setConfiguration(parserConfig);
-        List<FileImportReport> fileImportReports = new ArrayList<>();
+        List<DependencyResolverReport> fileImportReports = new ArrayList<>();
         for (Path path : this.projectFileList) {
             CompilationUnit cu = StaticJavaParser.parse(new File(path.toAbsolutePath().toString()));
             var resolver = new DependencyResolver(cu, this.staticImportInspector);
@@ -117,8 +122,84 @@ public class ProjectImportChecker {
                 }
                 System.out.println("--------------------------");
             }
-            this.reportList.add(new FileImportReport(path, unusedImportDeclaration, usedImportDeclaration, resolver.checkFullPathCalling, importList, resolver.fileImports));
+            this.reportList.add(new DependencyResolverReport(path, unusedImportDeclaration, usedImportDeclaration, resolver.checkFullPathCalling, importList, resolver.fileImports));
         }
+    }
+
+    public List<FileImportReport> mapImportToPackage() throws Exception {
+        List<FileImportReport> fileImportReports = new ArrayList<>();
+        if (reportList.isEmpty()) {
+            throw new Exception("Please resolve dependency before calling check import");
+        }
+        for (DependencyResolverReport report : reportList) {
+            List<UseImportReport> useImportReports = new ArrayList<>();
+            report.useImportObject.stream().distinct().forEach(obj -> {
+                var classPath = obj.classPath.getPath();
+                var isFound = false;
+                for (ImportArtifact artifact: this.artifacts) {
+                    try {
+                        if (isPathInArtifact(classPath, artifact)) {
+                            useImportReports.add(new UseImportReport(obj, artifact));
+                            isFound = true;
+                        }
+                    } catch (Exception e) {
+                        throw new RuntimeException(e);
+                    }
+                }
+                if (!isFound) {
+                    useImportReports.add(new UseImportReport(obj, null));
+                }
+            });
+
+            List<UnusedImportReport> unusedImportReports = new ArrayList<>();
+            report.unusedImports.forEach(impDecl -> {
+                var classPath = new ImportClassPath(impDecl.toString().trim()).getPath();
+                var isFound = false;
+                for (ImportArtifact artifact: this.artifacts) {
+                    try {
+                        if (isPathInArtifact(classPath, artifact)) {
+                            unusedImportReports.add(new UnusedImportReport(impDecl, artifact));
+                            isFound = true;
+                        }
+                    } catch (Exception e) {
+                        throw new RuntimeException(e);
+                    }
+                }
+                if (!isFound) {
+                    unusedImportReports.add(new UnusedImportReport(impDecl, null));
+                }
+            });
+
+            var fileImportReport = new FileImportReport(useImportReports.toArray(UseImportReport[]::new), unusedImportReports.toArray(UnusedImportReport[]::new), report.filePath);
+            fileImportReports.add(fileImportReport);
+        }
+        return fileImportReports;
+    }
+
+    public ProjectReport check() throws Exception {
+        var fileImportList = mapImportToPackage();
+        var useImportReportList = fileImportList.stream().flatMap(f -> Arrays.stream(f.useImportReport)).toList();
+        var useArtifact = useImportReportList.stream().map(t -> t.importArtifact).distinct().filter(Objects::nonNull).toList();
+        System.out.println(useArtifact);
+
+        List<ImportArtifact> unusedArtifact = new ArrayList<>();
+        for (ImportArtifact artifact : this.artifacts) {
+            if (!useArtifact.contains(artifact)) {
+                unusedArtifact.add(artifact);
+            }
+        }
+        return new ProjectReport(projectArtifact, repoPath, repoSubPath, artifactLocation, fileImportList.toArray(FileImportReport[]::new), useArtifact.toArray(ImportArtifact[]::new), unusedArtifact.toArray(ImportArtifact[]::new));
+    }
+
+    public Boolean isPathInArtifact(String path, ImportArtifact artifact) throws Exception {
+        var artifactClassList = staticImportInspector.getAllClassPathFromJarFile(artifact.getArtifactDirectory());
+        artifactClassList = artifactClassList.stream().map(c -> c.replace("$", ".").replace("/", ".")).toList();
+        for (String artifactClass : artifactClassList) {
+            if (artifactClass.contains(path)) {
+                return true;
+            }
+        }
+        return false;
     }
 
     public void checkProjectImports() throws Exception {
@@ -127,26 +208,20 @@ public class ProjectImportChecker {
         }
 
         List<ImportArtifact> usingArtifact = new ArrayList<>();
-        List<SingleImportDetails> usingImportDetails = reportList.stream().flatMap(r -> r.fullImportList.stream()).toList();
+        List<SingleImportDetails> usingImportDetails = reportList.stream().flatMap(r -> r.useImportObject.stream()).toList();
         List<String> usingImport = usingImportDetails.stream().map(r -> r.classPath.getPath()).distinct().toList();
-        System.out.println("Using import: " + usingImport);
+        // Loop check each artifact
         for (ImportArtifact artifact : this.artifacts) {
             var artifactClassList = staticImportInspector.getAllClassPathFromJarFile(artifact.getArtifactDirectory());
+
+            // Check classes in artifact with imports
             artifactClassList = artifactClassList.stream().map(c -> c.replace("$", "/")).toList();
             for (String artifactClass : artifactClassList) {
-                System.out.println("Artifact class: " + artifactClass);
                 for (String importPath : usingImport) {
-                    if (artifactClass.trim().startsWith("boofcv/abst/fiducial/FiducialDetector") && importPath.trim().startsWith("boofcv")) {
-                        System.out.println("Using artifact class: " + importPath);
-                    }
                     if (artifactClass.contains(importPath.replace(".", "/"))) {
-                        if (artifactClass.trim().startsWith("boofcv/abst/fiducial/FiducialDetector") && importPath.trim().startsWith("boofcv")) {
-                            System.out.println(artifact.toString());
-                        }
                        usingArtifact.add(artifact);
                     }
                 }
-                System.out.println("---------------------------------");
             }
         }
 
@@ -160,7 +235,7 @@ public class ProjectImportChecker {
         unusedArtifact.forEach(u -> System.out.println("Unused artifact: " + u.getGroupId() + ":" + u.getArtifactId() + ":" + u.getVersion()));
     }
 
-    public List<FileImportReport> getReportList() {
+    public List<DependencyResolverReport> getReportList() {
         return reportList;
     }
 
@@ -175,7 +250,17 @@ public class ProjectImportChecker {
         var jarPath = "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/test/artifacts/ihmc_perception_main_jar/ihmc-perception.main.jar";
         var destinationPath = "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/temp-repo";
         var checker = new ProjectImportChecker(repoPath, subPath, destinationPath, false, projectArtifact, Optional.of(jarPath));
-        checker.resolve(true);
-        checker.checkProjectImports();
+        checker.resolve(false);
+        var projectReport = checker.check();
+        Arrays.stream(projectReport.projectUnusedDependencies).forEach(System.out::println);
+//        var fileReports = checker.mapImportToPackage();
+//
+//        var firstFileReports = fileReports.getFirst();
+//        System.out.println(firstFileReports.filePath.toAbsolutePath());
+//        System.out.println("Use import report:");
+//        Arrays.stream(firstFileReports.useImportReport).forEach(System.out::println);
+//
+//        System.out.println("Unused import report:");
+//        Arrays.stream(firstFileReports.unusedImportReport).forEach(System.out::println);
     }
 }

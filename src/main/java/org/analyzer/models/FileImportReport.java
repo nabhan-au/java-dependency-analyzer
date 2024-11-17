@@ -1,24 +1,16 @@
 package org.analyzer.models;
 
-import com.github.javaparser.ast.ImportDeclaration;
-
 import java.nio.file.Path;
-import java.util.List;
 
 public class FileImportReport {
+    public UseImportReport[] useImportReport;
+    public UnusedImportReport[] unusedImportReport;
     public Path filePath;
-    public List<ImportDeclaration> unusedImports;
-    public List<ImportDeclaration> usedImports;
-    public List<String> checkFullPathCalling;
-    public List<SingleImportDetails> fullImportList;
-    public List<ImportDeclaration> fullFileImportList;
 
-    public FileImportReport(Path filePath, List<ImportDeclaration> unusedImports, List<ImportDeclaration> usedImports, List<String> checkFullPathCalling, List<SingleImportDetails> fullImportList, List<ImportDeclaration> fullFileImportList) {
+    public FileImportReport(UseImportReport[] useImportReport, UnusedImportReport[] unusedImportReport, Path filePath) {
+        this.useImportReport = useImportReport;
+        this.unusedImportReport = unusedImportReport;
         this.filePath = filePath;
-        this.unusedImports = unusedImports;
-        this.usedImports = usedImports;
-        this.checkFullPathCalling = checkFullPathCalling;
-        this.fullImportList = fullImportList;
-        this.fullFileImportList = fullFileImportList;
     }
 }
+

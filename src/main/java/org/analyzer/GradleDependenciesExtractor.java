@@ -57,39 +57,10 @@ public class GradleDependenciesExtractor {
         return extractApiDependenciesBlock(dependenciesOutput);
     }
 
-    private static List<String> extractDependencies(String input) {
-        // Regular expression to match the specified block
-        String startPattern = "api - API dependencies for the 'main' feature";
-        String regex = "\\+--- (.*?) \\(n\\)";
-        Pattern pattern = Pattern.compile(regex);
-        Matcher matcher = pattern.matcher(input);
-
-        List<String> dependencies = new ArrayList<>();
-        boolean capturing = false;
-
-        for (String line : input.split("\n")) {
-            if (line.contains(startPattern)) {
-                capturing = true;
-                continue;
-            }
-            if (capturing) {
-                if (line.startsWith("+---") || line.startsWith("\\---")) {
-                    matcher = pattern.matcher(line);
-                    if (matcher.find()) {
-                        dependencies.add(matcher.group(1));
-                    }
-                } else {
-                    break;
-                }
-            }
-        }
-
-        return dependencies;
-    }
-
     private static List<Dependency> extractApiDependenciesBlock(String input) {
         String startPattern = "api - API dependencies for";
-        Pattern pattern = Pattern.compile("\\+--- (.*?):(.*?):(.*?) \\(n\\)");
+        String regex = "[+|\\\\]--- (.*?):(.*?):(.*?) \\(n\\)";
+        Pattern pattern = Pattern.compile(regex);
         List<Dependency> dependencies = new ArrayList<>();
         boolean capturing = false;
 
