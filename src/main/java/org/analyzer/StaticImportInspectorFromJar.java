@@ -1,6 +1,8 @@
 package org.analyzer;
+import java.io.BufferedReader;
 import java.io.File;
 import java.io.IOException;
+import java.io.InputStreamReader;
 import java.lang.module.ModuleFinder;
 import java.lang.reflect.Method;
 import java.lang.reflect.Field;
@@ -247,6 +249,37 @@ public class StaticImportInspectorFromJar {
             e.printStackTrace();
         }
         return classPathList;
+    }
+
+    public List<String> getAllClassPathFromJarFile(String artifactPath) throws Exception {
+        ProcessBuilder processBuilder = new ProcessBuilder();
+
+        processBuilder.command("jar", "tf", Arrays.stream(artifactPath.split("/")).toList().getLast());
+        processBuilder.directory(new File(artifactPath.substring(0, artifactPath.lastIndexOf("/"))));
+        processBuilder.redirectErrorStream(true);
+
+        Process process = processBuilder.start();
+
+        // Capture the output of the command
+        BufferedReader reader = new BufferedReader(new InputStreamReader(process.getInputStream()));
+        StringBuilder output = new StringBuilder();
+        String line;
+
+        while ((line = reader.readLine()) != null) {
+            output.append(line).append("\n");
+        }
+
+        // Wait for the process to finish
+        int exitCode = process.waitFor();
+        if (exitCode != 0) {
+            System.out.println(artifactPath + " exited with code " + exitCode);
+            System.err.println("jar tf command failed with exit code: " + exitCode);
+            throw new Exception("jar tf command failed with exit code: " + exitCode);
+        }
+
+        // Extract dependencies using regex
+        String outputString = output.toString();
+        return Arrays.asList(outputString.split("\n"));
     }
 
     private static boolean isClassInPackage(JarEntry entry, String packagePath) {

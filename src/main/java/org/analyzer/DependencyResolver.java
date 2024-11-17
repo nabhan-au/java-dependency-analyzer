@@ -27,12 +27,10 @@ import org.analyzer.models.ImportDetails;
 import org.analyzer.models.SingleImportDetails;
 
 import java.io.File;
-import java.io.IOException;
 import java.nio.file.Path;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
-import java.util.Optional;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
@@ -421,11 +419,12 @@ public class DependencyResolver {
         var destinationPath = "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/temp-repo";
         var files = getFileList(repoPath + "/src/main/java");
 //        var directDependencies = GradleDependenciesExtractor.getProjectDependencies(repoPath);
-        var installer = new ArtifactInstaller();
-        var currentRepoArtifact = "us.ihmc:ihmc-perception:0.14.0-241016";
-        var extractedCurrentDependency = GradleDependenciesExtractor.extractDependency(currentRepoArtifact);
-        var currentRepoArtifactPath = installer.install(extractedCurrentDependency, destinationPath);
-        List<File> artifactPaths = new ArrayList<>(Arrays.asList(new File(currentRepoArtifactPath.getArtifactLocation())));
+//        var installer = new ArtifactInstaller();
+//        var currentRepoArtifact = "us.ihmc:ihmc-perception:0.14.0-241016";
+//        var extractedCurrentDependency = GradleDependenciesExtractor.extractDependency(currentRepoArtifact);
+//        var installResult = installer.install(extractedCurrentDependency, destinationPath, false);
+//        var currentRepoArtifactPath = installResult.a;
+//        List<File> artifactPaths = new ArrayList<>(Arrays.asList(new File(currentRepoArtifactPath.getArtifactDirectory())));
 //        directDependencies.forEach(d -> {
 //            var extractedDependency = GradleDependenciesExtractor.extractDependency(d.toString());
 //            try {
@@ -440,12 +439,14 @@ public class DependencyResolver {
         for (Path path : files) {
             var jarFile = new File("/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/test/artifacts/ihmc_perception_main_jar/ihmc-perception.main.jar");
 //            var jarFile = new File("/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/temp-repo/ihmc-perception.main.jar");
-            CompilationUnit cu = StaticJavaParser.parse(new File("/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/ihmc-open-robotics-software/ihmc-perception/src/main/java/us/ihmc/perception/RawImage.java"));
+            CompilationUnit cu = StaticJavaParser.parse(new File("/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/ihmc-open-robotics-software/ihmc-perception/src/main/java/us/ihmc/perception/comms/PerceptionComms.java"));
 //            CompilationUnit cu = StaticJavaParser.parse(new File(path.toAbsolutePath().toString()));
+            List<File> artifactPaths = new ArrayList<>();
             artifactPaths.add(jarFile);
             var staticImportInspectorFromJar = new StaticImportInspectorFromJar(artifactPaths);
             // jar:file:/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/test/artifacts/ihmc_perception_main_jar/ihmc-perception.main.jar!/
             var resolver = new DependencyResolver(cu, staticImportInspectorFromJar);
+//            resolver.importDetails.classList.forEach(c -> System.out.println(c.importObject));
             var importList = new ArrayList<SingleImportDetails>();
             var unable = new ArrayList<String>();
             cu.walk(node -> {
@@ -464,19 +465,22 @@ public class DependencyResolver {
 
             // TODO use checkFullPathCalling to check with dependency path directly
             var todo1 = resolver.checkFullPathCalling;
-            var checkedImportList = importList.stream().map(t -> t.classPath.getOriginalPath()).distinct().toList();
+            var checkedImportList = importList.stream().map(t -> t.classPath.getOriginalPath().trim()).distinct().toList();
             var fileImport = resolver.fileImports;
 
             var unusedImport = new ArrayList<ImportDeclaration>();
             var usedImport = new ArrayList<ImportDeclaration>();
             for (ImportDeclaration importDeclaration : fileImport) {
+                System.out.println(importDeclaration.toString().trim());
+                System.out.println(checkedImportList);
+
                 if (!checkedImportList.contains(importDeclaration.toString().trim())) {
                     unusedImport.add(importDeclaration);
                 }
             }
             for (ImportDeclaration importDeclaration : fileImport) {
                 if (checkedImportList.contains(importDeclaration.toString().trim())) {
-                    unusedImport.add(importDeclaration);
+                    usedImport.add(importDeclaration);
                 }
             }
             if (!unusedImport.isEmpty()) {

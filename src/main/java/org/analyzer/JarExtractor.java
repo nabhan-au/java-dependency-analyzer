@@ -1,8 +1,14 @@
 package org.analyzer;
 
+import org.apache.commons.compress.archivers.zip.ZipArchiveEntry;
+import org.apache.commons.compress.archivers.zip.ZipFile;
+
+import java.io.File;
+import java.io.IOException;
+import java.util.Enumeration;
+
 import java.io.*;
 import java.util.jar.*;
-import java.util.Enumeration;
 
 public class JarExtractor {
     public static void extract(String jarFilePath, String outputDirPath) {
@@ -35,6 +41,22 @@ public class JarExtractor {
 
             System.out.println("Extraction completed successfully!");
 
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+    }
+
+    public static void main(String[] args) {
+        String jarPath = "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/temp-repo/us.ihmc/ihmc-common-walking-control-modules-0.14.0.jar";
+
+        try (ZipFile zipFile = new ZipFile(new File(jarPath))) {
+            Enumeration<ZipArchiveEntry> entries = zipFile.getEntries();
+
+            while (entries.hasMoreElements()) {
+                ZipArchiveEntry entry = entries.nextElement();
+                System.out.println("Entry: " + entry.getName());
+                // Process the entry here
+            }
         } catch (IOException e) {
             e.printStackTrace();
         }

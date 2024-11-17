@@ -1,10 +1,8 @@
-package org.analyzer;
+package org.analyzer.models;
 
 import com.github.javaparser.ast.ImportDeclaration;
-import org.analyzer.models.SingleImportDetails;
 
 import java.nio.file.Path;
-import java.util.ArrayList;
 import java.util.List;
 
 public class FileImportReport {

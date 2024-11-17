@@ -24,7 +24,7 @@ public class GradleDependenciesExtractor {
 
     public static ImportArtifact extractDependency(String dependency) {
         var extractedDependency = Arrays.stream(dependency.split(":")).toArray(String[]::new);
-        return new ImportArtifact(extractedDependency[0], extractedDependency[1], extractedDependency[2]);
+        return new ImportArtifact(extractedDependency[1], extractedDependency[0], extractedDependency[2]);
     }
 
     public static List<Dependency> getProjectDependencies(String repoPath) throws Exception {

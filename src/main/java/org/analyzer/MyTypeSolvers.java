@@ -206,10 +206,6 @@ public class MyTypeSolvers {
 
     }
 
-    public static void solve(VariableDeclarator variableDeclarator) {
-        variableDeclarator.getType();
-    }
-
     public static void test(String testString) {
         var result = splitStructuredTypes(testString);
         AtomicInteger count = new AtomicInteger();
@@ -223,7 +219,7 @@ public class MyTypeSolvers {
     public static void main(String[] args) {
         test("Test<Sting, Integer extends Temp<456.789 extends 123, Is>, Test<? super OPD, Is[]>>");
         test("Test<Sting extends Test, Integer extends Temp<456.123 extends 123, Is>, Test<? super OPD, Is[]>>");
-        test("Test<lol, lmao>.you.3");
+        test("Test<lol>.you.3");
         test("Test<T super Test<T extends Y & Z>>[]");
     }
 }
