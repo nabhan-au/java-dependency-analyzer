@@ -2,9 +2,9 @@ package org.analyzer.models;
 
 public class ProjectReport {
     public String projectArtifact;
-    private String repoPath;
-    private String repoSubPath;
-    private String artifactLocation;
+    public String repoPath;
+    public String repoSubPath;
+    public String artifactLocation;
     public FileImportReport[] fileImportReports;
     public ImportArtifact[] projectUsedDependencies;
     public ImportArtifact[] projectUnusedDependencies;

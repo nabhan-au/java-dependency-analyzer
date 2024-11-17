@@ -1,5 +1,7 @@
 package org.analyzer;
 
+import com.fasterxml.jackson.databind.ObjectMapper;
+import com.fasterxml.jackson.databind.ObjectWriter;
 import com.github.javaparser.ParserConfiguration;
 import com.github.javaparser.StaticJavaParser;
 import com.github.javaparser.ast.CompilationUnit;
@@ -8,11 +10,14 @@ import com.github.javaparser.symbolsolver.JavaSymbolSolver;
 import com.github.javaparser.symbolsolver.resolution.typesolvers.CombinedTypeSolver;
 import com.github.javaparser.symbolsolver.resolution.typesolvers.ReflectionTypeSolver;
 import org.analyzer.models.*;
+import org.analyzer.models.json.ProjectReportJson;
 
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.io.IOException;
+import java.nio.file.Files;
 import java.nio.file.Path;
+import java.nio.file.Paths;
 import java.util.*;
 
 import static org.analyzer.FileUtils.getFileList;
@@ -179,7 +184,7 @@ public class ProjectImportChecker {
     public ProjectReport check() throws Exception {
         var fileImportList = mapImportToPackage();
         var useImportReportList = fileImportList.stream().flatMap(f -> Arrays.stream(f.useImportReport)).toList();
-        var useArtifact = useImportReportList.stream().map(t -> t.importArtifact).distinct().filter(Objects::nonNull).toList();
+        var useArtifact = useImportReportList.stream().map(t -> t.fromArtifact).distinct().filter(Objects::nonNull).toList();
         System.out.println(useArtifact);
 
         List<ImportArtifact> unusedArtifact = new ArrayList<>();
@@ -200,6 +205,19 @@ public class ProjectImportChecker {
             }
         }
         return false;
+    }
+
+    public void exportToJson(ProjectReport projectReport, String destinationDir) throws Exception {
+        ProjectReportJson projectReportJson = new ProjectReportJson(projectReport);
+        ObjectWriter ow = new ObjectMapper().writer().withDefaultPrettyPrinter();
+        String json = ow.writeValueAsString(projectReportJson);
+
+        String filePath = destinationDir + "/" + projectReportJson.projectArtifact + ".json";
+
+        // Write the JSON string to the file
+        Files.write(Paths.get(filePath), json.getBytes());
+
+        System.out.println("JSON written to file: " + filePath);
     }
 
     public void checkProjectImports() throws Exception {
@@ -252,7 +270,8 @@ public class ProjectImportChecker {
         var checker = new ProjectImportChecker(repoPath, subPath, destinationPath, false, projectArtifact, Optional.of(jarPath));
         checker.resolve(false);
         var projectReport = checker.check();
-        Arrays.stream(projectReport.projectUnusedDependencies).forEach(System.out::println);
+        var writeFileDestination = "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/java-dependency-analyzer/dependency-output";
+        checker.exportToJson(projectReport, writeFileDestination);
 //        var fileReports = checker.mapImportToPackage();
 //
 //        var firstFileReports = fileReports.getFirst();

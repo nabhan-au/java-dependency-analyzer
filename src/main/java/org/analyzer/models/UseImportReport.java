@@ -1,18 +1,16 @@
 package org.analyzer.models;
 
-import com.github.javaparser.ast.ImportDeclaration;
-
 public class UseImportReport {
     public SingleImportDetails importDetails;
-    public ImportArtifact importArtifact = null;
+    public ImportArtifact fromArtifact = null;
 
-    public UseImportReport(SingleImportDetails importDetails, ImportArtifact importArtifact) {
+    public UseImportReport(SingleImportDetails importDetails, ImportArtifact fromArtifact) {
         this.importDetails = importDetails;
-        this.importArtifact = importArtifact;
+        this.fromArtifact = fromArtifact;
     }
 
     @Override
     public String toString() {
-        return "UseImportReport [importDetails=" + importDetails.importObject.toString() + ", importArtifact=" + importArtifact + "]";
+        return "UseImportReport [importDetails=" + importDetails.importObject.toString() + ", importArtifact=" + fromArtifact + "]";
     }
 }
