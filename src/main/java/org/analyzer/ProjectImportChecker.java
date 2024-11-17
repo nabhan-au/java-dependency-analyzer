@@ -175,7 +175,21 @@ public class ProjectImportChecker {
                 }
             });
 
-            var fileImportReport = new FileImportReport(useImportReports.toArray(UseImportReport[]::new), unusedImportReports.toArray(UnusedImportReport[]::new), report.filePath);
+
+            List<FullPathCallingReport> fullPathCallingReports = new ArrayList<>();
+            report.fullPathCalling.stream().filter(p -> p.contains(".")).distinct().forEach(calling -> {
+                for (ImportArtifact artifact: this.artifacts) {
+                    try {
+                        if (isFullPathCallingFromArtifact(calling, artifact)) {
+                            fullPathCallingReports.add(new FullPathCallingReport(new ImportClassPath(calling), artifact));
+                        }
+                    } catch (Exception e) {
+                        throw new RuntimeException(e);
+                    }
+                }
+            });
+
+            var fileImportReport = new FileImportReport(useImportReports.toArray(UseImportReport[]::new), unusedImportReports.toArray(UnusedImportReport[]::new), fullPathCallingReports.toArray(FullPathCallingReport[]::new), report.filePath);
             fileImportReports.add(fileImportReport);
         }
         return fileImportReports;
@@ -185,15 +199,20 @@ public class ProjectImportChecker {
         var fileImportList = mapImportToPackage();
         var useImportReportList = fileImportList.stream().flatMap(f -> Arrays.stream(f.useImportReport)).toList();
         var useArtifact = useImportReportList.stream().map(t -> t.fromArtifact).distinct().filter(Objects::nonNull).toList();
-        System.out.println(useArtifact);
+        var fullParhCallingReportList = fileImportList.stream().flatMap(f -> Arrays.stream(f.fullPathCallingReport)).toList();
+        var fullPathCallingArtifact = fullParhCallingReportList.stream().map(t -> t.fromArtifact).distinct().toList();
+        List<ImportArtifact> combinedUseImportList = new ArrayList<>();
+        combinedUseImportList.addAll(useArtifact);
+        combinedUseImportList.addAll(fullPathCallingArtifact);
+        combinedUseImportList = combinedUseImportList.stream().distinct().toList();
 
         List<ImportArtifact> unusedArtifact = new ArrayList<>();
         for (ImportArtifact artifact : this.artifacts) {
-            if (!useArtifact.contains(artifact)) {
+            if (!combinedUseImportList.contains(artifact)) {
                 unusedArtifact.add(artifact);
             }
         }
-        return new ProjectReport(projectArtifact, repoPath, repoSubPath, artifactLocation, fileImportList.toArray(FileImportReport[]::new), useArtifact.toArray(ImportArtifact[]::new), unusedArtifact.toArray(ImportArtifact[]::new));
+        return new ProjectReport(projectArtifact, repoPath, repoSubPath, artifactLocation, fileImportList.toArray(FileImportReport[]::new), combinedUseImportList.toArray(ImportArtifact[]::new), unusedArtifact.toArray(ImportArtifact[]::new));
     }
 
     public Boolean isPathInArtifact(String path, ImportArtifact artifact) throws Exception {
@@ -201,6 +220,17 @@ public class ProjectImportChecker {
         artifactClassList = artifactClassList.stream().map(c -> c.replace("$", ".").replace("/", ".")).toList();
         for (String artifactClass : artifactClassList) {
             if (artifactClass.contains(path)) {
+                return true;
+            }
+        }
+        return false;
+    }
+
+    public Boolean isFullPathCallingFromArtifact(String path, ImportArtifact artifact) throws Exception {
+        var artifactClassList = staticImportInspector.getAllClassPathFromJarFile(artifact.getArtifactDirectory());
+        artifactClassList = artifactClassList.stream().map(c -> c.replace("$", ".").replace("/", ".").replace(".class", "")).toList();
+        for (String artifactClass : artifactClassList) {
+            if (path.contains(artifactClass)) {
                 return true;
             }
         }

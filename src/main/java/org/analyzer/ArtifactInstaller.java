@@ -75,7 +75,6 @@ public class ArtifactInstaller {
 
     public static List<String> fetchMetadata(ImportArtifact projectArtifact) throws Exception {
         var metadataUrl = getMetaDataUrl(projectArtifact);
-        System.out.println(metadataUrl);
         List<String> result = new ArrayList<>();
         URL url = new URL(metadataUrl);
         HttpURLConnection conn = (HttpURLConnection) url.openConnection();
@@ -127,7 +126,6 @@ public class ArtifactInstaller {
     }
 
     public static String findNearest(String input, List<String> compare) {
-        System.out.println(input);
         if (compare.contains(input)) return input;
         for (String c : compare) {
             if (c.contains(input) || input.contains(c)) return c;
