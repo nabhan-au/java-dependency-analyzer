@@ -7,12 +7,14 @@ public class FileImportReport {
     public UnusedImportReport[] unusedImportReport;
     public FullPathCallingReport[] fullPathCallingReport;
     public Path filePath;
+    public FailImportReport[] failImportReport;
 
-    public FileImportReport(UseImportReport[] useImportReport, UnusedImportReport[] unusedImportReport, FullPathCallingReport[] fullPathCallingReport, Path filePath) {
+    public FileImportReport(UseImportReport[] useImportReport, UnusedImportReport[] unusedImportReport, FullPathCallingReport[] fullPathCallingReport, Path filePath, FailImportReport[] failImportReport) {
         this.useImportReport = useImportReport;
         this.unusedImportReport = unusedImportReport;
         this.fullPathCallingReport = fullPathCallingReport;
         this.filePath = filePath;
+        this.failImportReport = failImportReport;
     }
 }
 

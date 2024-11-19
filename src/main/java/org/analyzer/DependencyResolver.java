@@ -31,6 +31,7 @@ import java.nio.file.Path;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
+import java.util.Objects;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
@@ -39,7 +40,7 @@ import static org.analyzer.FileUtils.getFileList;
 public class DependencyResolver {
     private CompilationUnit compilationUnit;
     public ImportDetails importDetails;
-    public List<ImportClassPath> unableImport;
+    public List<ImportClassPath> failImports;
     public List<ImportDeclaration> fileImports;
     public List<String> checkFullPathCalling = new ArrayList<>();
 
@@ -50,7 +51,7 @@ public class DependencyResolver {
         List<ImportClassPath>  importList = Arrays.stream(imports).map(classImport -> new ImportClassPath(classImport.toString().trim())).toList();
         var result = staticImportInspectorFromJar.getImportDetailsWithMultipleClassPath(importList);
         importDetails = result.a;
-        unableImport = result.b;
+        failImports = result.b;
     }
 
     public List<String> getJarFileImportDetails() {
@@ -64,30 +65,29 @@ public class DependencyResolver {
         if (node instanceof FieldDeclaration fieldResolvedNode) {
             var variables = fieldResolvedNode.getVariables();
             processInnerType(variables, result, unableResolveImport);
-            fieldResolvedNode.getJavadoc().ifPresent(doc -> processJavadoc(doc, result, unableResolveImport));
+            fieldResolvedNode.getJavadoc().ifPresent(doc -> processJavadoc(node, doc, result, unableResolveImport));
         } else if (node instanceof VariableDeclarator variableResolvedNode) {
-            processType(variableResolvedNode.getType(), result, unableResolveImport);
+            processType(node, variableResolvedNode.getType(), result, unableResolveImport);
             variableResolvedNode.getInitializer().ifPresent(t -> {
                 var tempResult = resolveNodeType(t);
                 result.addAll(tempResult.a);
                 unableResolveImport.addAll(tempResult.b);
             });
-            processType(variableResolvedNode.getType(), result, unableResolveImport);
+            processType(node, variableResolvedNode.getType(), result, unableResolveImport);
         } else if (node instanceof ClassOrInterfaceDeclaration classResolvedNode) {
             var extendTypes = classResolvedNode.getExtendedTypes();
             var implementTypes = classResolvedNode.getImplementedTypes();
             var permittedTypes = classResolvedNode.getPermittedTypes();
 
 
-            extendTypes.forEach(types -> processType(types, result, unableResolveImport));
-            implementTypes.forEach(types -> processType(types, result, unableResolveImport));
-            permittedTypes.forEach(types -> processType(types, result, unableResolveImport));
+            extendTypes.forEach(types -> processType(node, types, result, unableResolveImport));
+            implementTypes.forEach(types -> processType(node, types, result, unableResolveImport));
+            permittedTypes.forEach(types -> processType(node, types, result, unableResolveImport));
 
-            var tempResult = extractTypeParams(classResolvedNode.getTypeParameters());
+            var tempResult = extractTypeParams(node, classResolvedNode.getTypeParameters());
             result.addAll(tempResult.a);
             unableResolveImport.addAll(tempResult.b);
-            classResolvedNode.getJavadoc().ifPresent(doc -> processJavadoc(doc, result, unableResolveImport));
-            // TODO javadoc
+            classResolvedNode.getJavadoc().ifPresent(doc -> processJavadoc(node, doc, result, unableResolveImport));
         } else if (node instanceof VariableDeclarationExpr variableResolvedNode) {
             var variables = variableResolvedNode.getVariables();
             for (var variable : variables) {
@@ -99,21 +99,20 @@ public class DependencyResolver {
             var tempResult = resolveNodeType(instanceOfExprResolvedNode.getExpression());
             result.addAll(tempResult.a);
             unableResolveImport.addAll(tempResult.b);
-            processType(instanceOfExprResolvedNode.getType(), result, unableResolveImport);
+            processType(node, instanceOfExprResolvedNode.getType(), result, unableResolveImport);
         }  else if (node instanceof CastExpr castExprResolvedNode) {
             var tempResult = resolveNodeType(castExprResolvedNode.getExpression());
             result.addAll(tempResult.a);
             unableResolveImport.addAll(tempResult.b);
-            processType(castExprResolvedNode.getType(), result, unableResolveImport);
+            processType(node, castExprResolvedNode.getType(), result, unableResolveImport);
         } else if (node instanceof Parameter parameterResolvedNode) {
-            processType(parameterResolvedNode.getType(), result, unableResolveImport);
+            processType(node, parameterResolvedNode.getType(), result, unableResolveImport);
         } else if (node instanceof MethodDeclaration methodResolvedNode) {
-            processType(methodResolvedNode.getType(), result, unableResolveImport);
-            var typeParamResult = extractTypeParams(methodResolvedNode.getTypeParameters());
+            processType(node, methodResolvedNode.getType(), result, unableResolveImport);
+            var typeParamResult = extractTypeParams(node, methodResolvedNode.getTypeParameters());
             result.addAll(typeParamResult.a);
             unableResolveImport.addAll(typeParamResult.b);
-            methodResolvedNode.getJavadoc().ifPresent(doc -> processJavadoc(doc, result, unableResolveImport));
-            // TODO javadoc
+            methodResolvedNode.getJavadoc().ifPresent(doc -> processJavadoc(node, doc, result, unableResolveImport));
         } else if (node instanceof MethodCallExpr methodCallResolvedNode) {
             var methodArguments = methodCallResolvedNode.getArguments();
             var methodTypeArguments = methodCallResolvedNode.getTypeArguments();
@@ -121,9 +120,9 @@ public class DependencyResolver {
             var methodScope = methodCallResolvedNode.getScope();
 
             if (methodScope.isPresent()) {
-                processScope(methodScope.get(), result, unableResolveImport);
+                processScope(node, methodScope.get(), result, unableResolveImport);
             } else {
-                addImportMethodToResult(methodName, result, unableResolveImport);
+                addImportMethodToResult(node, methodName, result, unableResolveImport);
             }
 
             if (methodTypeArguments.isPresent()) {
@@ -131,7 +130,7 @@ public class DependencyResolver {
                     checkFullPathImport.add(t.toString());
                     return MyTypeSolvers.splitStructuredTypes(t.toString()).stream();
                 }).toList();
-                types.forEach(type -> addImportClassToResult(type, result, unableResolveImport));
+                types.forEach(type -> addImportClassToResult(node, type, result, unableResolveImport));
             }
 
             methodArguments.forEach(m -> {
@@ -141,7 +140,7 @@ public class DependencyResolver {
             });
         } else if (node instanceof NameExpr nameExprResolvedNode) {
             var name = nameExprResolvedNode.getName();
-            addImportFieldToResult(name.toString(), result, unableResolveImport);
+            addImportFieldToResult(node, name.toString(), result, unableResolveImport);
         } else if (node instanceof EnumDeclaration enumResolvedNode) {
             var implementType = enumResolvedNode.getImplementedTypes();
             var extractedImplementType = implementType.stream().flatMap(t -> {
@@ -149,7 +148,7 @@ public class DependencyResolver {
                 return MyTypeSolvers.splitStructuredTypes(t.toString()).stream();
             }).toList();
             extractedImplementType.forEach(type -> {
-                addImportClassToResult(type, result, unableResolveImport);
+                addImportClassToResult(node, type, result, unableResolveImport);
             });
             var enumConstantDeclaration = enumResolvedNode.getEntries();
             enumConstantDeclaration.forEach(c -> {
@@ -173,19 +172,12 @@ public class DependencyResolver {
         } else if (node instanceof AnnotationExpr annotationExprResolvedNode) {
             checkFullPathImport.add(annotationExprResolvedNode.getNameAsString());
             var annotationType = MyTypeSolvers.splitStructuredTypes(annotationExprResolvedNode.getNameAsString());
-            annotationType.forEach(a -> addImportClassToResult(a, result, unableResolveImport));
+            annotationType.forEach(a -> addImportClassToResult(node, a, result, unableResolveImport));
             if (annotationExprResolvedNode.isSingleMemberAnnotationExpr()) {
                 var singleMemberAnnotation = annotationExprResolvedNode.asSingleMemberAnnotationExpr();
                 var tempResult = resolveNodeType(singleMemberAnnotation.getMemberValue());
                 result.addAll(tempResult.a);
                 unableResolveImport.addAll(tempResult.b);
-                try {
-                    importDetails.getClass(annotationExprResolvedNode.getNameAsString());
-                    result.addAll(tempResult.a);
-                } catch (ClassNotFoundException e) {
-                    unableResolveImport.addAll(tempResult.b);
-                }
-
             } else if (annotationExprResolvedNode.isNormalAnnotationExpr()) {
                 var normalAnnotation = annotationExprResolvedNode.asNormalAnnotationExpr();
                 normalAnnotation.getPairs().forEach(pair -> {
@@ -217,24 +209,24 @@ public class DependencyResolver {
                 unableResolveImport.addAll(tempResult.b);
             }));
         } else if (node instanceof AnnotationMemberDeclaration annotationMemberDeclarationResolvedNode) {
-            processType(annotationMemberDeclarationResolvedNode.getType(), result, unableResolveImport);
+            processType(node, annotationMemberDeclarationResolvedNode.getType(), result, unableResolveImport);
         } else if (node instanceof FieldAccessExpr fieldAccessExprResolvedNode) {
-            processScope(fieldAccessExprResolvedNode.getScope(), result, unableResolveImport);
+            processScope(node, fieldAccessExprResolvedNode.getScope(), result, unableResolveImport);
             var typeArguments = fieldAccessExprResolvedNode.getTypeArguments();
-            typeArguments.ifPresent(types -> types.forEach(t -> processType(t, result, unableResolveImport)));
+            typeArguments.ifPresent(types -> types.forEach(t -> processType(node, t, result, unableResolveImport)));
         } else if (node instanceof ObjectCreationExpr objectCreationExprResolvedNode) {;
-            processType(objectCreationExprResolvedNode.getType(), result, unableResolveImport);
+            processType(node, objectCreationExprResolvedNode.getType(), result, unableResolveImport);
             processInnerType(objectCreationExprResolvedNode.getArguments(), result, unableResolveImport);
             var typeArguments = objectCreationExprResolvedNode.getTypeArguments();
-            typeArguments.ifPresent(types -> types.forEach(t -> processType(t, result, unableResolveImport)));
+            typeArguments.ifPresent(types -> types.forEach(t -> processType(node, t, result, unableResolveImport)));
             var scope = objectCreationExprResolvedNode.getScope();
-            scope.ifPresent(s -> processScope(s, result, unableResolveImport));
+            scope.ifPresent(s -> processScope(node, s, result, unableResolveImport));
         } else if (node instanceof MethodReferenceExpr methodReferenceExprResolvedNode) {
             var typeArguments = methodReferenceExprResolvedNode.getTypeArguments();
-            typeArguments.ifPresent(types -> types.forEach(t -> processType(t, result, unableResolveImport)));
-            processScope(methodReferenceExprResolvedNode.getScope(), result, unableResolveImport);
+            typeArguments.ifPresent(types -> types.forEach(t -> processType(node, t, result, unableResolveImport)));
+            processScope(node, methodReferenceExprResolvedNode.getScope(), result, unableResolveImport);
         } else if (node instanceof TypePatternExpr typePatternExprResolvedNode) {
-            processType(typePatternExprResolvedNode.getType(), result, unableResolveImport);
+            processType(node, typePatternExprResolvedNode.getType(), result, unableResolveImport);
         } else if (node instanceof BinaryExpr binaryExprResolvedNode) {
             processInnerType(new NodeList<>(binaryExprResolvedNode.getLeft(), binaryExprResolvedNode.getRight()), result, unableResolveImport);
         } else if (node instanceof UnaryExpr unaryExprResolvedNode) {
@@ -247,7 +239,7 @@ public class DependencyResolver {
                 s.getGuard().ifPresent(g -> processInnerType(new NodeList<>(g), result, unableResolveImport));
             });
         } else if (node instanceof PatternExpr patternExprResolvedNode) {
-            processType(patternExprResolvedNode.getType(), result, unableResolveImport);
+            processType(node, patternExprResolvedNode.getType(), result, unableResolveImport);
         } else if (node instanceof ForStmt forStmtResolvedNode) {
             processInnerType(forStmtResolvedNode.getInitialization(), result, unableResolveImport);
             processInnerType(forStmtResolvedNode.getUpdate(), result, unableResolveImport);
@@ -260,24 +252,24 @@ public class DependencyResolver {
             processInnerType(new NodeList<>(forEachStmtResolvedNode.getVariableDeclarator()), result, unableResolveImport);
         }
         else if (node instanceof ClassExpr classExprResolvedNode) {
-            processType(classExprResolvedNode.getType(), result, unableResolveImport);
+            processType(node, classExprResolvedNode.getType(), result, unableResolveImport);
         }
         else if (node instanceof CatchClause catchClauseResolvedNode) {
             processInnerType(new NodeList<>(catchClauseResolvedNode.getParameter()), result, unableResolveImport);
         }
         else if (node instanceof ReferenceType referenceTypeResolvedNode) {
-            processTypeStr(referenceTypeResolvedNode.toString(), result, unableResolveImport);
+            processTypeStr(node, referenceTypeResolvedNode.toString(), result, unableResolveImport);
         } else if (node instanceof Type type) {
-            processType(type, result, unableResolveImport);
+            processType(node, type, result, unableResolveImport);
         }
         return new Pair<>(result, unableResolveImport);
     }
 
-    private void processTypeStr(String typeStr, List<SingleImportDetails> result, List<String> unableResolveImport) {
+    private void processTypeStr(Node node,String typeStr, List<SingleImportDetails> result, List<String> unableResolveImport) {
         checkFullPathCalling.add(typeStr);
         var types = MyTypeSolvers.splitStructuredTypes(typeStr);
         types.forEach(type -> {
-            addImportClassToResult(type, result, unableResolveImport);
+            addImportClassToResult(node, type, result, unableResolveImport);
         });
     }
 
@@ -289,10 +281,10 @@ public class DependencyResolver {
         });
     }
 
-    private void processScope(Expression scope, List<SingleImportDetails> result, List<String> unableResolveImport) {
+    private void processScope(Node node, Expression scope, List<SingleImportDetails> result, List<String> unableResolveImport) {
         // Check static object call
         checkFullPathCalling.add(scope.toString());
-        MyTypeSolvers.splitStructuredTypes(scope.toString()).forEach(t -> addImportClassToResult(t, result, unableResolveImport));
+        MyTypeSolvers.splitStructuredTypes(scope.toString()).forEach(t -> addImportClassToResult(node, t, result, unableResolveImport));
 
         // Check inner call
         var tempResult = resolveNodeType(scope);
@@ -300,15 +292,15 @@ public class DependencyResolver {
         unableResolveImport.addAll(tempResult.b);
     }
 
-    private void processType(Type variableResolvedNode, List<SingleImportDetails> result, List<String> unableResolveImport) {
+    private void processType(Node node, Type variableResolvedNode, List<SingleImportDetails> result, List<String> unableResolveImport) {
         checkFullPathCalling.add(variableResolvedNode.toString());
         var types = MyTypeSolvers.splitStructuredTypes(variableResolvedNode.asString());
         types.forEach(type -> {
-            addImportClassToResult(type, result, unableResolveImport);
+            addImportClassToResult(node, type, result, unableResolveImport);
         });
     }
 
-    private void addImportFieldToResult(String field, List<SingleImportDetails> result, List<String> unableResolveImport) {
+    private void addImportFieldToResult(Node node, String field, List<SingleImportDetails> result, List<String> unableResolveImport) {
         try {
             result.add(importDetails.getField(field));
         } catch (Exception e) {
@@ -316,7 +308,10 @@ public class DependencyResolver {
         }
     }
 
-    private void addImportMethodToResult(String method, List<SingleImportDetails> result, List<String> unableResolveImport) {
+    private void addImportMethodToResult(Node node, String method, List<SingleImportDetails> result, List<String> unableResolveImport) {
+        if (isMethodDeclareInParentScope(node, method)) {
+            return;
+        }
         try {
             result.add(importDetails.getMethod(method));
         } catch (Exception e) {
@@ -324,7 +319,10 @@ public class DependencyResolver {
         }
     }
 
-    private void addImportClassToResult(String type, List<SingleImportDetails> result, List<String> unableResolveImport) {
+    private void addImportClassToResult(Node node, String type, List<SingleImportDetails> result, List<String> unableResolveImport) {
+        if (isClassDeclareInParentScope(node, type)) {
+            return;
+        }
         try {
             result.add(importDetails.getClass(type));
         } catch (Exception e) {
@@ -332,21 +330,205 @@ public class DependencyResolver {
         }
     }
 
-    public Pair<List<SingleImportDetails>, List<String>> extractTypeParams(NodeList<TypeParameter> typeParameters) {
+    private Boolean isClassDeclareInParentScope(Node node, String className) {
+        Node currentNode = node;
+        while (currentNode.hasParentNode() && currentNode.getParentNode().isPresent()) {
+            currentNode = currentNode.getParentNode().get();
+            if (isClassShadowedInNode(currentNode, className)) {
+                return true;
+            }
+        }
+        return false;
+    }
+
+    private Boolean isClassShadowedInNode(Node node, String className) {
+        for (Node childNode : node.getChildNodes()) {
+            if (childNode instanceof ClassOrInterfaceDeclaration innerClass) {
+                if (innerClass.getNameAsString().equals(className)) {
+                    return true;
+                }
+            }
+        }
+        return false;
+    }
+
+    private Boolean isMethodDeclareInParentScope(Node node, String className) {
+        Node currentNode = node;
+        while (currentNode.hasParentNode() && currentNode.getParentNode().isPresent()) {
+            currentNode = currentNode.getParentNode().get();
+            if (isMethodShadowedInNode(currentNode, className)) {
+                return true;
+            }
+        }
+        return false;
+    }
+
+    private Boolean isMethodShadowedInNode(Node node, String className) {
+        for (Node childNode : node.getChildNodes()) {
+            if (childNode instanceof MethodDeclaration innerClass) {
+                if (innerClass.getNameAsString().equals(className)) {
+                    return true;
+                }
+            }
+        }
+        return false;
+    }
+
+    private Node getScope(Node node) {
+        var currentNode = node;
+        while (currentNode.getParentNode().isPresent()) {
+            currentNode = currentNode.getParentNode().get();
+            if (currentNode instanceof ClassOrInterfaceDeclaration ||
+                currentNode instanceof EnumDeclaration ||
+                currentNode instanceof RecordDeclaration ||
+                currentNode instanceof MethodDeclaration ||
+                currentNode instanceof ConstructorDeclaration ||
+                currentNode instanceof BlockStmt ||
+                currentNode instanceof LambdaExpr) {
+                return currentNode;
+            }
+        }
+        return null;
+    }
+
+    private Boolean isFieldDeclareInParentScope(Node node, String className) {
+        Node currentNode = node;
+        if (node.getRange().isEmpty()) {
+            return false;
+        }
+        Integer lineNumber = node.getRange().get().begin.line;
+        if (node.getParentNode().isEmpty()) {
+            return false;
+        }
+        var fieldScope = getScope(node);
+        if (!Objects.equals(node.toString(), "PI")) {
+            return false;
+        }
+        System.out.println(fieldScope);
+        currentNode = node.getParentNode().get();
+        while (currentNode.hasParentNode() && currentNode.getParentNode().isPresent()) {
+            currentNode = currentNode.getParentNode().get();
+            if (isFieldShadowedInNode(currentNode, className, lineNumber, fieldScope)) {
+                return true;
+            }
+        }
+        return false;
+    }
+
+    public Boolean isFieldShadowedInNode(Node node, String fieldName, Integer lineNumber, Node fieldScope) {
+        for (Node childNode : node.getChildNodes()) {
+            if (childNode instanceof FieldDeclaration innerField) {
+                for (VariableDeclarator variable : innerField.getVariables()) {
+                    if (variable.getNameAsString().equals(fieldName)) {
+                        return true;
+                    }
+                }
+            } else if (childNode instanceof VariableDeclarationExpr variableExpr) {
+                var childNodeScope = getScope(childNode);
+                if (childNodeScope == fieldScope) {
+                    if (variableExpr.getRange().isPresent()) {
+                        var innerFieldLineNumber = variableExpr.getRange().get().begin.line;
+                        for (VariableDeclarator variable : variableExpr.getVariables()) {
+                            if (variable.getNameAsString().equals(fieldName) && innerFieldLineNumber < lineNumber) {
+                                return true;
+                            }
+                        }
+                    }
+                } else {
+                    if (variableExpr.getRange().isPresent()) {
+                        for (VariableDeclarator innerVariable : variableExpr.getVariables()) {
+                            if (innerVariable.getNameAsString().equals(fieldName)) {
+                                return true;
+                            }
+                        }
+                    }
+                }
+            } else if (childNode instanceof ExpressionStmt innerExpression) {
+                var childNodeScope = getScope(childNode);
+                if (childNodeScope == fieldScope) {
+                    if (innerExpression.getRange().isPresent()) {
+                        var innerFieldLineNumber = innerExpression.getRange().get().begin.line;
+                        var expression = innerExpression.getExpression();
+                        if (expression instanceof VariableDeclarationExpr variable) {
+                            for (VariableDeclarator innerVariable : variable.getVariables()) {
+                                if (innerVariable.getNameAsString().equals(fieldName) && innerFieldLineNumber < lineNumber) {
+                                    return true;
+                                }
+                            }
+                        }
+                    }
+                } else {
+                    var expression = innerExpression.getExpression();
+                    if (expression instanceof VariableDeclarationExpr variable) {
+                        for (VariableDeclarator innerVariable : variable.getVariables()) {
+                            if (innerVariable.getNameAsString().equals(fieldName)) {
+                                return true;
+                            }
+                        }
+                    }
+                }
+
+            }
+        }
+        if (node instanceof MethodDeclaration methodDeclaration) {
+            for (Parameter parameter : methodDeclaration.getParameters()) {
+                if (parameter.getNameAsString().equals(fieldName)) {
+                    return true;
+                }
+            }
+        } else if (node instanceof ConstructorDeclaration constructorDeclaration) {
+            for (Parameter parameter : constructorDeclaration.getParameters()) {
+                if (parameter.getNameAsString().equals(fieldName)) {
+                    return true;
+                }
+            }
+        } else if (node instanceof RecordDeclaration recordDeclaration) {
+            for (Parameter parameter : recordDeclaration.getParameters()) {
+                if (parameter.getNameAsString().equals(fieldName)) {
+                    return true;
+                }
+            }
+        } else if (node instanceof LambdaExpr lambdaExpr) {
+            for (Parameter parameter : lambdaExpr.getParameters()) {
+                if (parameter.getNameAsString().equals(fieldName)) {
+                    return true;
+                }
+            }
+        }
+
+        return false;
+    }
+
+//    private Boolean isFieldShadowedInNode(Node node, String fieldName) {
+//        for (Node childNode : node.getChildNodes()) {
+//            if (childNode instanceof FieldDeclaration innerField) {
+//                if (innerField.getRange().isPresent()) {
+//                    var innerFieldLineNumber = innerField.getRange().get().begin.line;
+//                    if (innerFieldLineNumber < lineNumber &&) {
+//
+//                    }
+//                }
+//
+//            }
+//        }
+//        return false;
+//    }
+
+    public Pair<List<SingleImportDetails>, List<String>> extractTypeParams(Node node, NodeList<TypeParameter> typeParameters) {
         List<SingleImportDetails> result = new ArrayList<>();
         List<String> unableResolveImport = new ArrayList<>();
         typeParameters.forEach(typeParameter -> {
             var types = typeParameter.getTypeBound().stream().flatMap(t -> MyTypeSolvers.splitStructuredTypes(t.toString()).stream()).toList();
-            types.forEach(type -> addImportClassToResult(type, result, unableResolveImport));
+            types.forEach(type -> addImportClassToResult(node, type, result, unableResolveImport));
         });
         return new Pair<>(result, unableResolveImport);
     }
 
-    public List<ImportClassPath> getUnableImport() {
-        return unableImport;
+    public List<ImportClassPath> getFailImports() {
+        return failImports;
     }
 
-    public void processJavadoc(Javadoc javadoc, List<SingleImportDetails> result, List<String> unableResolveImport) {
+    public void processJavadoc(Node node, Javadoc javadoc, List<SingleImportDetails> result, List<String> unableResolveImport) {
         List<JavadocBlockTag> blockTags = javadoc.getBlockTags();
         blockTags.forEach(blockTag -> {
             switch (blockTag.getType()) {
@@ -356,24 +538,24 @@ public class DependencyResolver {
                     if (snippet != null) {
                         var functionCall = snippet.toText().split(" ")[0].trim();
                         var className = functionCall.split("#")[0];
-                        processTypeStr(className, result, unableResolveImport);
+                        processTypeStr(node, className, result, unableResolveImport);
                     }
-                    processJavadocDescriptionElement(elements, result, unableResolveImport);
+                    processJavadocDescriptionElement(node, elements, result, unableResolveImport);
                 }
                 case EXCEPTION, THROWS -> {
                     var className = blockTag.getName().orElse("");
-                    processTypeStr(className, result, unableResolveImport);
+                    processTypeStr(node, className, result, unableResolveImport);
                     var elements = blockTag.getContent().getElements();
-                    processJavadocDescriptionElement(elements, result, unableResolveImport);
+                    processJavadocDescriptionElement(node, elements, result, unableResolveImport);
 
                 }
             }
         });
         var javaDocElement = javadoc.getDescription().getElements();
-        processJavadocDescriptionElement(javaDocElement, result, unableResolveImport);
+        processJavadocDescriptionElement(node, javaDocElement, result, unableResolveImport);
     }
 
-    public void processJavadocDescriptionElement(List<JavadocDescriptionElement> javadocDescriptionElements, List<SingleImportDetails> result, List<String> unableResolveImport) {
+    public void processJavadocDescriptionElement(Node node, List<JavadocDescriptionElement> javadocDescriptionElements, List<SingleImportDetails> result, List<String> unableResolveImport) {
         String regex = "\\(([^)]+)\\)";
         Pattern pattern = Pattern.compile(regex);
 
@@ -384,19 +566,19 @@ public class DependencyResolver {
                         var splitContent = javaDocInlineTag.getContent().split("#", 2);
                         var className = splitContent[0].trim();
                         var member = splitContent[1].trim();
-                        processTypeStr(className, result, unableResolveImport);
+                        processTypeStr(node, className, result, unableResolveImport);
                         if (member.contains("(") && member.contains(")")) {
                             Matcher matcher = pattern.matcher(splitContent[1]);
                             if (matcher.find()) {
                                 String parameters = matcher.group(1);
                                 Arrays.stream(parameters.split(",")).forEach(f -> {
-                                    processTypeStr(f, result, unableResolveImport);
+                                    processTypeStr(node, f, result, unableResolveImport);
                                 });
                             }
                         }
                     } else {
                         var className = javaDocInlineTag.getContent().trim();
-                        processTypeStr(className, result, unableResolveImport);
+                        processTypeStr(node, className, result, unableResolveImport);
                     }
                 }
             }
@@ -414,7 +596,7 @@ public class DependencyResolver {
 
         var repoPath = "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/ihmc-open-robotics-software/ihmc-perception";
         var destinationPath = "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/temp-repo";
-        var files = getFileList(repoPath + "/src/main/java");
+        var files = getFileList(repoPath);
 //        var directDependencies = GradleDependenciesExtractor.getProjectDependencies(repoPath);
 //        var installer = new ArtifactInstaller();
 //        var currentRepoArtifact = "us.ihmc:ihmc-perception:0.14.0-241016";
@@ -436,8 +618,8 @@ public class DependencyResolver {
         for (Path path : files) {
             var jarFile = new File("/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/test/artifacts/ihmc_perception_main_jar/ihmc-perception.main.jar");
 //            var jarFile = new File("/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/temp-repo/ihmc-perception.main.jar");
-            CompilationUnit cu = StaticJavaParser.parse(new File("/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/ihmc-open-robotics-software/ihmc-perception/src/main/java/us/ihmc/perception/comms/PerceptionComms.java"));
-//            CompilationUnit cu = StaticJavaParser.parse(new File(path.toAbsolutePath().toString()));
+//            CompilationUnit cu = StaticJavaParser.parse(new File("/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/ihmc-open-robotics-software/ihmc-perception/src/main/java/us/ihmc/perception/demo/NVCompDemo.java"));
+            CompilationUnit cu = StaticJavaParser.parse(new File(path.toAbsolutePath().toString()));
             List<File> artifactPaths = new ArrayList<>();
             artifactPaths.add(jarFile);
             var staticImportInspectorFromJar = new StaticImportInspectorFromJar(artifactPaths);
@@ -468,8 +650,6 @@ public class DependencyResolver {
             var unusedImport = new ArrayList<ImportDeclaration>();
             var usedImport = new ArrayList<ImportDeclaration>();
             for (ImportDeclaration importDeclaration : fileImport) {
-                System.out.println(importDeclaration.toString().trim());
-                System.out.println(checkedImportList);
 
                 if (!checkedImportList.contains(importDeclaration.toString().trim())) {
                     unusedImport.add(importDeclaration);
@@ -490,7 +670,7 @@ public class DependencyResolver {
                 System.out.println("--------------------------");
             }
 //            System.out.println(resolver.importDetails.classList.stream().map(t -> t.importObject).toList());
-            break;
+//            break;
         }
     }
 }

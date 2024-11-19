@@ -8,6 +8,6 @@ public class ImportArtifactJson {
 
     public ImportArtifactJson(ImportArtifact importArtifact) {
         this.artifact = (importArtifact == null ? "not from main direct dependency" : importArtifact.toString());
-        this.directory = (importArtifact == null ? "not from main direct dependency" : importArtifact.getArtifactDirectory());
+        this.directory = (importArtifact == null ? "not from main direct dependency" : importArtifact.getArtifactPath());
     }
 }

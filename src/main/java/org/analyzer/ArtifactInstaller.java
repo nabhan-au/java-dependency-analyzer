@@ -2,9 +2,7 @@ package org.analyzer;
 
 import com.github.javaparser.utils.Pair;
 import org.analyzer.models.ImportArtifact;
-import org.apache.commons.lang3.StringUtils;
 
-import java.util.Collection;
 import java.util.Comparator;
 import java.io.BufferedReader;
 import java.io.File;
@@ -42,7 +40,7 @@ public class ArtifactInstaller {
         processBuilder.directory(directory);
         processBuilder.redirectErrorStream(true);
         var fileDestination =  destination + File.separator + groupId + File.separator + artifactId + "-" + version + (isPomFile ? ".pom" : ".jar");
-        importArtifact.setArtifactDirectory(fileDestination);
+        importArtifact.setArtifactPath(fileDestination);
         File file = new File(fileDestination);
 
         if (!file.exists()) {

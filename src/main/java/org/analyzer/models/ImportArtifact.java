@@ -6,12 +6,18 @@ public class ImportArtifact {
     private String artifactId;
     private String groupId;
     private String version;
-    private String artifactDirectory = "";
+    private String artifactPath = "";
 
     public ImportArtifact(String artifactId, String groupId, String version) {
         this.artifactId = artifactId;
         this.groupId = groupId;
         this.version = version;
+    }
+
+    public ImportArtifact(ImportArtifact importArtifact) {
+        this.artifactId = importArtifact.artifactId;
+        this.groupId = importArtifact.getGroupId();
+        this.version = importArtifact.version;
     }
 
     public String getArtifactId() {
@@ -26,16 +32,16 @@ public class ImportArtifact {
         return version;
     }
 
-    public String getArtifactDirectory() {
-        return artifactDirectory;
+    public String getArtifactPath() {
+        return artifactPath;
     }
 
     public void setVersion(String version) {
         this.version = version;
     }
 
-    public void setArtifactDirectory(String artifactDirectory) {
-        this.artifactDirectory = artifactDirectory;
+    public void setArtifactPath(String artifactPath) {
+        this.artifactPath = artifactPath;
     }
 
     @Override

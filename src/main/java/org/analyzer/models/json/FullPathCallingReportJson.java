@@ -9,7 +9,7 @@ public class FullPathCallingReportJson {
     public ImportArtifactJson artifact;
 
     public FullPathCallingReportJson(FullPathCallingReport report) {
-        this.importPath = report.importClassPath.getPath();
+        this.importPath = report.importClassPath.getOriginalPath();
         this.artifact = new ImportArtifactJson(report.fromArtifact);
     }
 }

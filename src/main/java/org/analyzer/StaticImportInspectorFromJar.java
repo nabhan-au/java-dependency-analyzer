@@ -21,11 +21,10 @@ import org.analyzer.models.ImportDetails;
 public class StaticImportInspectorFromJar {
 
     private final ClassLoader classloader;
-    private Map<String, List<String >> getAllClassPathFromJarFileCache = new HashMap<>();
+    private Map<String, List<String>> getAllClassPathFromJarFileCache = new HashMap<>();
 
     public StaticImportInspectorFromJar(List<File> jarFile) throws MalformedURLException {
         List<URL> urls = new ArrayList<>();
-        System.out.println(jarFile);
         for (File file : jarFile) {
             urls.add(new URL("jar:file:" + file.getAbsolutePath() + "!/"));
         }
@@ -92,7 +91,7 @@ public class StaticImportInspectorFromJar {
 
         // Check is path belong to java build in library (for non-static wild card import only)
         List<ImportClassPath> unableToGetClassesFromBuildInLibrary = new ArrayList<>();
-        for (ImportClassPath classPath : classPathList) {
+        for (ImportClassPath classPath : unableToGetClassesInPackage) {
             if (!classPath.isStatic() && classPath.isWildCard()) {
                 try {
                     var classFromBuildInLibrary = getClassPathFromBuildInLibrary(classPath, unableToGetClassesFromBuildInLibrary);
@@ -100,10 +99,11 @@ public class StaticImportInspectorFromJar {
                 } catch (ClassNotFoundException e) {
                     unableToGetClassesFromBuildInLibrary.add(classPath);
                 }
+            } else {
+                unableToGetClassesFromBuildInLibrary.add(classPath);
             }
 
         }
-
 
         return new Pair<>(importDetails, unableToGetClassesFromBuildInLibrary);
     }

@@ -39,16 +39,13 @@ public class ProjectImportChecker {
         this.repoPath = repoPath;
         this.repoSubPath = repoSubPath;
         this.artifactLocation = destinationPath;
-        this.dependencies = GradleDependenciesExtractor.getProjectDependencies(repoPath);
-        if (jarPath.isPresent()) {
-            this.staticImportInspector = new StaticImportInspectorFromJar(new ArrayList<>(Arrays.asList(new File(jarPath.get()))));
-        } else {
-            this.staticImportInspector = new StaticImportInspectorFromJar(new ArrayList<>());
-        }
+        this.dependencies = DependencyExtractor.getProjectDependencies(repoPath);
+        var artifactFiles = new ArrayList<File>();
+        jarPath.ifPresent(s -> artifactFiles.add(new File(s)));
         var extractedProjectArtifactDependency = GradleDependenciesExtractor.extractDependency(projectArtifactId);
         if (installProjectArtifact) {
             try {
-                var artifact = artifactInstaller.install(extractedProjectArtifactDependency, destinationPath, false).a;
+                var artifact = artifactInstaller.install(new ImportArtifact(extractedProjectArtifactDependency), destinationPath, false).a;
                 artifacts.add(artifact);
             } catch (IOException | InterruptedException e) {
                 throw new RuntimeException(e);
@@ -56,7 +53,7 @@ public class ProjectImportChecker {
         }
         ImportArtifact pomFile = null;
         try {
-            pomFile = artifactInstaller.install(extractedProjectArtifactDependency, destinationPath, true).a;
+            pomFile = artifactInstaller.install(new ImportArtifact(extractedProjectArtifactDependency), destinationPath, true).a;
         } catch (IOException | InterruptedException e) {
             throw new RuntimeException(e);
         }
@@ -64,7 +61,7 @@ public class ProjectImportChecker {
         dependencies.forEach(d -> {
             var extractedDependency = GradleDependenciesExtractor.extractDependency(d.toString());
             try {
-                var version = PomReader.getVersionFromPom(finalPomFile.getArtifactDirectory(), extractedDependency.getGroupId(), extractedDependency.getArtifactId());
+                var version = PomReader.getVersionFromPom(finalPomFile.getArtifactPath(), extractedDependency.getGroupId(), extractedDependency.getArtifactId());
                 if (version != null) {
                     extractedDependency.setVersion(version);
                 }
@@ -76,12 +73,14 @@ public class ProjectImportChecker {
                 var installExitCode = installResult.b;
                 if (!artifacts.contains(artifact)) {
                     artifacts.add(artifact);
+                    artifactFiles.add(new File(artifact.getArtifactPath()));
                 }
             } catch (Exception e) {
                 throw new RuntimeException(e);
             }
         });
         this.projectFileList = getFileList(repoPath + repoSubPath);
+        this.staticImportInspector = new StaticImportInspectorFromJar(artifactFiles);
     }
 
     public void resolve(Boolean debug) throws FileNotFoundException {
@@ -93,7 +92,6 @@ public class ProjectImportChecker {
                 .setSymbolResolver(new JavaSymbolSolver(typeSolver))
                 .setLanguageLevel(ParserConfiguration.LanguageLevel.JAVA_21);
         StaticJavaParser.setConfiguration(parserConfig);
-        List<DependencyResolverReport> fileImportReports = new ArrayList<>();
         for (Path path : this.projectFileList) {
             CompilationUnit cu = StaticJavaParser.parse(new File(path.toAbsolutePath().toString()));
             var resolver = new DependencyResolver(cu, this.staticImportInspector);
@@ -106,11 +104,12 @@ public class ProjectImportChecker {
             });
             var checkedImportList = importList.stream().map(t -> t.classPath.getOriginalPath()).distinct().toList();
             var fileImport = resolver.fileImports;
+            var failImport = resolver.failImports.stream().map(f -> f.getOriginalPath().trim()).distinct().toList();
 
             var unusedImportDeclaration = new ArrayList<ImportDeclaration>();
             var usedImportDeclaration = new ArrayList<ImportDeclaration>();
             for (ImportDeclaration importDeclaration : fileImport) {
-                if (!checkedImportList.contains(importDeclaration.toString().trim())) {
+                if (!checkedImportList.contains(importDeclaration.toString().trim()) && !failImport.contains(importDeclaration.toString().trim())) {
                     unusedImportDeclaration.add(importDeclaration);
                 }
             }
@@ -127,7 +126,7 @@ public class ProjectImportChecker {
                 }
                 System.out.println("--------------------------");
             }
-            this.reportList.add(new DependencyResolverReport(path, unusedImportDeclaration, usedImportDeclaration, resolver.checkFullPathCalling, importList, resolver.fileImports));
+            this.reportList.add(new DependencyResolverReport(path, unusedImportDeclaration, usedImportDeclaration, resolver.checkFullPathCalling, importList, resolver.fileImports, resolver.failImports));
         }
     }
 
@@ -189,7 +188,8 @@ public class ProjectImportChecker {
                 }
             });
 
-            var fileImportReport = new FileImportReport(useImportReports.toArray(UseImportReport[]::new), unusedImportReports.toArray(UnusedImportReport[]::new), fullPathCallingReports.toArray(FullPathCallingReport[]::new), report.filePath);
+            var failImportReport = report.failedImports.stream().map(FailImportReport::new).toArray(FailImportReport[]::new);
+            var fileImportReport = new FileImportReport(useImportReports.toArray(UseImportReport[]::new), unusedImportReports.toArray(UnusedImportReport[]::new), fullPathCallingReports.toArray(FullPathCallingReport[]::new), report.filePath, failImportReport);
             fileImportReports.add(fileImportReport);
         }
         return fileImportReports;
@@ -216,7 +216,7 @@ public class ProjectImportChecker {
     }
 
     public Boolean isPathInArtifact(String path, ImportArtifact artifact) throws Exception {
-        var artifactClassList = staticImportInspector.getAllClassPathFromJarFile(artifact.getArtifactDirectory());
+        var artifactClassList = staticImportInspector.getAllClassPathFromJarFile(artifact.getArtifactPath());
         artifactClassList = artifactClassList.stream().map(c -> c.replace("$", ".").replace("/", ".")).toList();
         for (String artifactClass : artifactClassList) {
             if (artifactClass.contains(path)) {
@@ -227,7 +227,7 @@ public class ProjectImportChecker {
     }
 
     public Boolean isFullPathCallingFromArtifact(String path, ImportArtifact artifact) throws Exception {
-        var artifactClassList = staticImportInspector.getAllClassPathFromJarFile(artifact.getArtifactDirectory());
+        var artifactClassList = staticImportInspector.getAllClassPathFromJarFile(artifact.getArtifactPath());
         artifactClassList = artifactClassList.stream().map(c -> c.replace("$", ".").replace("/", ".").replace(".class", "")).toList();
         for (String artifactClass : artifactClassList) {
             if (path.contains(artifactClass)) {
@@ -260,7 +260,7 @@ public class ProjectImportChecker {
         List<String> usingImport = usingImportDetails.stream().map(r -> r.classPath.getPath()).distinct().toList();
         // Loop check each artifact
         for (ImportArtifact artifact : this.artifacts) {
-            var artifactClassList = staticImportInspector.getAllClassPathFromJarFile(artifact.getArtifactDirectory());
+            var artifactClassList = staticImportInspector.getAllClassPathFromJarFile(artifact.getArtifactPath());
 
             // Check classes in artifact with imports
             artifactClassList = artifactClassList.stream().map(c -> c.replace("$", "/")).toList();
@@ -292,24 +292,27 @@ public class ProjectImportChecker {
     }
 
     public static void main(String[] args) throws Exception {
-        var projectArtifact = "us.ihmc:ihmc-perception:0.14.0-241016";
-        var repoPath = "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/ihmc-open-robotics-software/ihmc-perception";
-        var subPath = "/src";
-        var jarPath = "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/test/artifacts/ihmc_perception_main_jar/ihmc-perception.main.jar";
+//        var projectArtifact = "us.ihmc:ihmc-perception:0.14.0-241016";
+//        var repoPath = "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/ihmc-open-robotics-software/ihmc-perception";
+//        var subPath = "/src/main/java";
+//        var jarPath = "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/test/artifacts/ihmc_perception_main_jar/ihmc-perception.main.jar";
+//        var destinationPath = "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/temp-repo";
+//        var checker = new ProjectImportChecker(repoPath, subPath, destinationPath, false, projectArtifact, Optional.of(jarPath));
+//        checker.resolve(true);
+//        var projectReport = checker.check();
+//        var writeFileDestination = "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/java-dependency-analyzer/dependency-output";
+//        checker.exportToJson(projectReport, writeFileDestination);
+
+
+        var jarPath = "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/junit4/out/artifacts/junit_jar/junit.jar";
+        var projectArtifact = "junit:junit:4.13.2";
+        var repoPath = "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/junit4";
+        var subPath = "/src/main/java";
         var destinationPath = "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/temp-repo";
         var checker = new ProjectImportChecker(repoPath, subPath, destinationPath, false, projectArtifact, Optional.of(jarPath));
-        checker.resolve(false);
+        checker.resolve(true);
         var projectReport = checker.check();
         var writeFileDestination = "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/java-dependency-analyzer/dependency-output";
         checker.exportToJson(projectReport, writeFileDestination);
-//        var fileReports = checker.mapImportToPackage();
-//
-//        var firstFileReports = fileReports.getFirst();
-//        System.out.println(firstFileReports.filePath.toAbsolutePath());
-//        System.out.println("Use import report:");
-//        Arrays.stream(firstFileReports.useImportReport).forEach(System.out::println);
-//
-//        System.out.println("Unused import report:");
-//        Arrays.stream(firstFileReports.unusedImportReport).forEach(System.out::println);
     }
 }
