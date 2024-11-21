@@ -43,10 +43,12 @@ public class ProjectImportChecker {
         var artifactFiles = new ArrayList<File>();
         jarPath.ifPresent(s -> artifactFiles.add(new File(s)));
         var extractedProjectArtifactDependency = GradleDependenciesExtractor.extractDependency(projectArtifactId);
+        System.out.println("Downloading project artifact");
+//        DependencyExtractor.getAllProjectDependencies(extractedProjectArtifactDependency);
         if (installProjectArtifact) {
             try {
                 var artifact = artifactInstaller.install(new ImportArtifact(extractedProjectArtifactDependency), destinationPath, false).a;
-                artifacts.add(artifact);
+                artifactFiles.add(new File(artifact.getArtifactPath()));
             } catch (IOException | InterruptedException e) {
                 throw new RuntimeException(e);
             }
@@ -58,6 +60,7 @@ public class ProjectImportChecker {
             throw new RuntimeException(e);
         }
         ImportArtifact finalPomFile = pomFile;
+        System.out.println("Downloading project dependencies");
         dependencies.forEach(d -> {
             var extractedDependency = GradleDependenciesExtractor.extractDependency(d.toString());
             try {
@@ -70,7 +73,6 @@ public class ProjectImportChecker {
                 extractedDependency.setVersion(nearestVersion);
                 var installResult = artifactInstaller.install(extractedDependency, destinationPath, false);
                 var artifact = installResult.a;
-                var installExitCode = installResult.b;
                 if (!artifacts.contains(artifact)) {
                     artifacts.add(artifact);
                     artifactFiles.add(new File(artifact.getArtifactPath()));
@@ -79,6 +81,25 @@ public class ProjectImportChecker {
                 throw new RuntimeException(e);
             }
         });
+//        allDependencies.forEach(d -> {
+//            var extractedDependency = GradleDependenciesExtractor.extractDependency(d.toString());
+//            try {
+//                var version = PomReader.getVersionFromPom(finalPomFile.getArtifactPath(), extractedDependency.getGroupId(), extractedDependency.getArtifactId());
+//                if (version != null) {
+//                    extractedDependency.setVersion(version);
+//                }
+//                var possibleVersion = ArtifactInstaller.fetchMetadata(extractedDependency);
+//                var nearestVersion = ArtifactInstaller.findNearest(extractedDependency.getVersion(), possibleVersion);
+//                extractedDependency.setVersion(nearestVersion);
+//                var installResult = artifactInstaller.install(extractedDependency, destinationPath, false);
+//                var artifact = installResult.a;
+//                artifactFiles.add(new File(artifact.getArtifactPath()));
+//            } catch (Exception e) {
+//                System.out.println(e.getMessage());
+//            }
+//        });
+        var artifactPath = FileUtils.getJarPathList("/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/us.ihmc/ihmc-perception");
+        artifactFiles.addAll(artifactPath.stream().map(a -> new File(a.toAbsolutePath().toString())).toList());
         this.projectFileList = getFileList(repoPath + repoSubPath);
         this.staticImportInspector = new StaticImportInspectorFromJar(artifactFiles);
     }
@@ -292,27 +313,64 @@ public class ProjectImportChecker {
     }
 
     public static void main(String[] args) throws Exception {
-//        var projectArtifact = "us.ihmc:ihmc-perception:0.14.0-241016";
-//        var repoPath = "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/ihmc-open-robotics-software/ihmc-perception";
+        var projectArtifact = "us.ihmc:ihmc-perception:0.14.0-241016";
+        var repoPath = "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/ihmc-open-robotics-software/ihmc-perception";
+        var subPath = "/src/main/java";
+        var jarPath = "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/test/artifacts/ihmc_perception_main_jar/ihmc-perception.main.jar";
+        var destinationPath = "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/temp-repo";
+        var checker = new ProjectImportChecker(repoPath, subPath, destinationPath, false, projectArtifact, Optional.empty());
+        checker.resolve(false);
+        var projectReport = checker.check();
+        var writeFileDestination = "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/java-dependency-analyzer/dependency-output";
+        checker.exportToJson(projectReport, writeFileDestination);
+
+
+//        var jarPath = "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/junit4/out/artifacts/junit_jar/junit.jar";
+//        var projectArtifact = "junit:junit:4.13.2";
+//        var repoPath = "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/junit4";
 //        var subPath = "/src/main/java";
-//        var jarPath = "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/test/artifacts/ihmc_perception_main_jar/ihmc-perception.main.jar";
 //        var destinationPath = "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/temp-repo";
 //        var checker = new ProjectImportChecker(repoPath, subPath, destinationPath, false, projectArtifact, Optional.of(jarPath));
+//        checker.resolve(true);
+//        var projectReport = checker.check();
+//        var writeFileDestination = "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/java-dependency-analyzer/dependency-output/test";
+//        checker.exportToJson(projectReport, writeFileDestination);
+
+//        var jarPath = "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/junit4/out/artifacts/junit_jar/junit.jar";
+//        var projectArtifact = "org.hamcrest:hamcrest-all:1.3";
+//        var repoPath = "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/junit4";
+//        var subPath = "/src/main/java";
+//        var destinationPath = "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/temp-repo";
+//        var checker = new ProjectImportChecker(repoPath, subPath, destinationPath, false, projectArtifact, Optional.of(jarPath));
+//        checker.resolve(true);
+//        var projectReport = checker.check();
+//        var writeFileDestination = "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/java-dependency-analyzer/dependency-output/test";
+//        checker.exportToJson(projectReport, writeFileDestination);
+
+
+//        /Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/SecurityApi/out/artifacts/security_api_spring_boot_starter_jar/security-api-spring-boot-starter.jar
+
+//        var jarPath = "/Users/nabhansuwanachote/.m2/repository/com/azure/azure-core/1.36.0/azure-core-1.36.0.jar";
+//        var projectArtifact = "com.dimajix.flowman.maven:flowman-provider-azure:0.4.0";
+//        var repoPath = "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/flowman-maven/flowman-provider-azure";
+//        var subPath = "/src/main";
+//        var destinationPath = "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/temp-repo";
+//        var checker = new ProjectImportChecker(repoPath, subPath, destinationPath, true, projectArtifact, Optional.empty());
 //        checker.resolve(true);
 //        var projectReport = checker.check();
 //        var writeFileDestination = "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/java-dependency-analyzer/dependency-output";
 //        checker.exportToJson(projectReport, writeFileDestination);
 
+//        var jarPath = "/Users/nabhansuwanachote/.m2/repository/org/webpieces/server/http-auth0login/2.1.109/http-auth0login-2.1.109.jar";
+//        var projectArtifact = "org.webpieces.server:http-auth0login:2.1.109";
+//        var repoPath = "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/webpieces/webserver/http-auth0login";
+//        var subPath = "/src/main";
+//        var destinationPath = "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/temp-repo";
+//        var checker = new ProjectImportChecker(repoPath, subPath, destinationPath, true, projectArtifact, Optional.of(jarPath));
+//        checker.resolve(true);
+//        var projectReport = checker.check();
+//        var writeFileDestination = "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/java-dependency-analyzer/dependency-output";
+//        checker.exportToJson(projectReport, writeFileDestination);
 
-        var jarPath = "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/junit4/out/artifacts/junit_jar/junit.jar";
-        var projectArtifact = "junit:junit:4.13.2";
-        var repoPath = "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/junit4";
-        var subPath = "/src/main/java";
-        var destinationPath = "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/temp-repo";
-        var checker = new ProjectImportChecker(repoPath, subPath, destinationPath, false, projectArtifact, Optional.of(jarPath));
-        checker.resolve(true);
-        var projectReport = checker.check();
-        var writeFileDestination = "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/java-dependency-analyzer/dependency-output";
-        checker.exportToJson(projectReport, writeFileDestination);
     }
 }

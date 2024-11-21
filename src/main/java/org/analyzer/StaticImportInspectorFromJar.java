@@ -47,6 +47,8 @@ public class StaticImportInspectorFromJar {
             var result = findClassWithPath(outerClassPath);
             result.b.add(currentInnerClassName);
             return new Pair<>(result.a, result.b);
+        } catch (NoClassDefFoundError e) {
+            return new Pair<>(null, new LinkedList<>());
         }
     }
 

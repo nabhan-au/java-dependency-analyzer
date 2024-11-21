@@ -27,6 +27,7 @@ public class ArtifactInstaller {
     }
 
     public Pair<ImportArtifact, Integer> install(ImportArtifact importArtifact, String destination, Boolean isPomFile) throws IOException, InterruptedException {
+        var test = "[ERROR] Failed to execute goal org.apache.maven.plugins:maven-dependency-plugin:3.7.0:get (default-cli) on project standalone-pom: Couldn't download artifact: org.eclipse.aether.resolution.DependencyResolutionException: The following artifacts could not be resolved: net.java.dev.jna:jna:jar:5.15.0-SNAPSHOT (absent), com.microsoft.onnxruntime:onnxruntime_gpu:jar:1.11.0 (absent), org.ros.rosjava_bootstrap:message_generation:jar:0.3.3 (absent), org.openjfx:javafx-graphics:jar:linux:17.0.9 (absent), org.apache.commons:com.springsource.org.apache.commons.io:jar:1.4.0 (absent), org.ros.rosjava_core:rosjava:jar:0.2.1 (absent), org.ros.rosjava_messages:std_msgs:jar:0.5.10 (absent), org.ros.rosjava_messages:std_srvs:jar:1.11.1 (absent), org.ros.rosjava_messages:people_msgs:jar:1.0.4 (absent), org.ros.rosjava_messages:sensor_msgs:jar:1.11.7 (absent), org.ros.rosjava_messages:dynamic_reconfigure:jar:1.5.38 (absent), org.ros.rosjava_messages:multisense_ros:jar:3.4.2 (absent), org.ros.rosjava_messages:rosgraph_msgs:jar:1.11.1 (absent), org.ros.rosjava_messages:geometry_msgs:jar:1.11.7 (absent), org.ros.rosjava_messages:trajectory_msgs:jar:1.11.7 (absent), org.ros.rosjava_messages:nav_msgs:jar:1.11.7 (absent), org.ros.rosjava_messages:tf2_msgs:jar:0.5.9 (absent), org.ros.rosjava_messages:tf:jar:1.10.8 (absent), org.apache.commons:com.springsource.org.apache.commons.codec:jar:1.3.0 (absent), org.apache.commons:com.springsource.org.apache.commons.lang:jar:2.4.0 (absent), org.ros.rosjava_bootstrap:gradle_plugins:jar:0.3.3 (absent), com.github.crykn:kryonet:jar:2.22.7 (absent), com.github.esotericsoftware:jsonbeans:jar:0.9 (absent), org.ros.rosjava_messages:stereo_msgs:jar:1.10.6 (absent), org.ros.rosjava_messages:roscpp:jar:1.11.10 (absent), org.ros.rosjava_messages:actionlib_msgs:jar:1.11.7 (absent), org.ros.rosjava_core:apache_xmlrpc_server:jar:0.2.1 (absent), org.ros.rosjava_core:apache_xmlrpc_client:jar:0.2.1 (absent), org.ros.rosjava_core:apache_xmlrpc_common:jar:0.2.1 (absent), org.apache.commons:com.springsource.org.apache.commons.logging:jar:1.1.1 (absent), org.apache.commons:com.springsource.org.apache.commons.net:jar:2.0.0 (absent), org.apache.commons:com.springsource.org.apache.commons.httpclient:jar:3.1.0 (absent): Could not find artifact net.java.dev.jna:jna:jar:5.15.0-SNAPSHOT";
         var groupId = importArtifact.getGroupId();
         var artifactId = importArtifact.getArtifactId();
         var version = importArtifact.getVersion();
@@ -130,15 +131,23 @@ public class ArtifactInstaller {
         }
         String baseInput = input.replaceAll("[^0-9.]", "");
         List<String> filteredCompare = compare.stream().map(c -> c.replaceAll("[^0-9.]", "")).toList();
-        return filteredCompare.stream()
-                .min(Comparator.comparingInt(s -> {
-                    return minDis(baseInput, s);
-                }))
+        String nearest = filteredCompare.stream()
+                .min(Comparator.comparingInt(s -> minDis(baseInput, s)))
                 .orElse(null);
+
+        if (nearest != null) {
+            int lowestScore = minDis(baseInput, nearest);
+            int threshold = baseInput.length() / 2;
+
+            if (lowestScore > threshold) {
+                return compare.getFirst();
+            }
+        }
+        return compare.get(filteredCompare.indexOf(nearest));
     }
 
     public static void main(String[] args) throws Exception {
-        var artifact = new ImportArtifact("hdf5", "org.bytedeco", "5.15.0-SNAPSHOT");
+        var artifact = new ImportArtifact("xmlpull", "xmlpull", "5.15.0-SNAPSHOT");
         var availableArtifact = ArtifactInstaller.fetchMetadata(artifact);
         System.out.println(availableArtifact);
 

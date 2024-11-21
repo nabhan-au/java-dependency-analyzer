@@ -1,6 +1,7 @@
 package org.analyzer;
 
 import org.analyzer.models.Dependency;
+import org.analyzer.models.ImportArtifact;
 
 import java.io.IOException;
 import java.nio.file.*;
@@ -14,6 +15,10 @@ public class DependencyExtractor {
         } else {
             return GradleDependenciesExtractor.getProjectDependencies(repoPath);
         }
+    }
+
+    public static void getAllProjectDependencies(ImportArtifact projectArtifact) throws Exception {
+        MavenDependenciesExtractor.getAllProjectDependencies(projectArtifact);
     }
 
     public static boolean isFileExist(String repositoryPath, String fileName) throws IOException {

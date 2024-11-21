@@ -1,6 +1,7 @@
 package org.analyzer;
 
 import org.analyzer.models.Dependency;
+import org.analyzer.models.ImportArtifact;
 
 import java.io.BufferedReader;
 import java.io.File;
@@ -15,8 +16,9 @@ public class MavenDependenciesExtractor {
 
     public static List<Dependency> getProjectDependencies(String repoPath) throws Exception {
         // Run the 'gradle dependencies' command at the specified repository
+        System.out.println("getting maven dependencies");
         ProcessBuilder processBuilder = new ProcessBuilder();
-        processBuilder.command("mvn", "dependency:list");
+        processBuilder.command("mvn", "dependency:list", "-DexcludeTransitive=true");
         processBuilder.directory(new File(repoPath));
         processBuilder.redirectErrorStream(true);
 
@@ -43,9 +45,69 @@ public class MavenDependenciesExtractor {
         return extractApiDependenciesBlock(dependenciesOutput);
     }
 
+    public static void getAllProjectDependencies(ImportArtifact artifact) throws Exception {
+        ProcessBuilder processBuilder = new ProcessBuilder();
+        processBuilder.command("mvn", "dependency:get", getCommand(artifact));
+        processBuilder.redirectErrorStream(true);
+
+        Process process = processBuilder.start();
+
+        BufferedReader reader = new BufferedReader(new InputStreamReader(process.getInputStream()));
+        StringBuilder output = new StringBuilder();
+        String line;
+
+        while ((line = reader.readLine()) != null) {
+            System.out.println(line);
+            output.append(line).append("\n");
+        }
+
+        int exitCode = process.waitFor();
+        if (exitCode != 0) {
+            System.err.println("Maven command failed with exit code: " + exitCode);
+            throw new Exception("Maven command failed with exit code: " + exitCode);
+        }
+
+        String dependenciesOutput = output.toString();
+    }
+
+    private static String getCommand(ImportArtifact artifact) {
+        return "-Dartifact=" + artifact.getGroupId() + ":" + artifact.getArtifactId() + ":" + artifact.getVersion();
+    }
+
+//    public static List<Dependency> getAllProjectDependencies(String repoPath) throws Exception {
+//        // Run the 'gradle dependencies' command at the specified repository
+//        System.out.println("getting maven dependencies");
+//        ProcessBuilder processBuilder = new ProcessBuilder();
+//        processBuilder.command("mvn", "dependency:list");
+//        processBuilder.directory(new File(repoPath));
+//        processBuilder.redirectErrorStream(true);
+//
+//        Process process = processBuilder.start();
+//
+//        // Capture the output of the command
+//        BufferedReader reader = new BufferedReader(new InputStreamReader(process.getInputStream()));
+//        StringBuilder output = new StringBuilder();
+//        String line;
+//
+//        while ((line = reader.readLine()) != null) {
+//            output.append(line).append("\n");
+//        }
+//
+//        // Wait for the process to finish
+//        int exitCode = process.waitFor();
+//        if (exitCode != 0) {
+//            System.err.println("Maven command failed with exit code: " + exitCode);
+//            throw new Exception("Maven command failed with exit code: " + exitCode);
+//        }
+//
+//        // Extract dependencies using regex
+//        String dependenciesOutput = output.toString();
+//        return extractApiDependenciesBlock(dependenciesOutput);
+//    }
+
     private static List<Dependency> extractApiDependenciesBlock(String input) {
         String startPattern = "The following files have been resolved:";
-        String regex = "([\\w.]+):([\\w.-]+):([\\w.-]+):([\\w.-]+):([\\w.-]+) -- module ([\\w.-]+)";
+        String regex = "^([\\w\\.-]+:[\\w\\.-]+:[\\w\\.-]+:[\\d\\.]+:[a-z]+)";
         Pattern pattern = Pattern.compile(regex);
         List<Dependency> dependencies = new ArrayList<>();
         boolean capturing = false;
@@ -53,6 +115,7 @@ public class MavenDependenciesExtractor {
         for (String line : input.split("\n")) {
             line = line.replace("[INFO]", "").trim();
             if (line.startsWith(startPattern)) {
+                System.out.println(line);
                 capturing = true;
                 continue;
             }
@@ -62,12 +125,13 @@ public class MavenDependenciesExtractor {
                 }
                 Matcher matcher = pattern.matcher(line.trim());
                 if (matcher.find()) {
+                    var extractedLine = matcher.group(1).split(":");
                     // Extract the parts using capturing groups
-                    String groupId = matcher.group(1); // org.bytedeco
-                    String artifactId = matcher.group(2); // opencv
-                    String type = matcher.group(3); // 4.7.0-1.5.9
-                    String version = matcher.group(4); // 4.7.0-1.5.9
-                    String scope = matcher.group(5); // 4.7.0-1.5.9
+                    String groupId = extractedLine[0]; // org.bytedeco
+                    String artifactId = extractedLine[1]; // opencv
+                    String type = extractedLine[2]; // 4.7.0-1.5.9
+                    String version = extractedLine[3]; // 4.7.0-1.5.9
+                    String scope = extractedLine[4]; // 4.7.0-1.5.9
 
                     Dependency dependency = new Dependency(groupId + ":" + artifactId, version);
                     if (!Objects.equals(scope, "test")) {
