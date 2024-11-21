@@ -14,6 +14,13 @@ public class ImportArtifact {
         this.version = version;
     }
 
+    public ImportArtifact(String artifactId, String groupId, String version, String artifactPath) {
+        this.artifactId = artifactId;
+        this.groupId = groupId;
+        this.version = version;
+        this.artifactPath = artifactPath;
+    }
+
     public ImportArtifact(ImportArtifact importArtifact) {
         this.artifactId = importArtifact.artifactId;
         this.groupId = importArtifact.getGroupId();
@@ -47,6 +54,11 @@ public class ImportArtifact {
     @Override
     public String toString() {
         return groupId + ":" + artifactId + ":" + version;
+    }
+
+    @Override
+    public int hashCode() {
+        return (groupId + ":" + artifactId + ":" + version).hashCode();
     }
 
     @Override

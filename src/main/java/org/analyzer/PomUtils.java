@@ -23,10 +23,21 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Objects;
 
+import static org.analyzer.FileUtils.getJarPathList;
+import static org.analyzer.FileUtils.getPomPath;
 import static org.analyzer.MavenArtifactCrawler.extractRepoUrl;
 import static org.analyzer.MavenArtifactCrawler.isArtifactExist;
 
 public class PomUtils {
+
+    public static ImportArtifact getPomFromPath(String groupId, String artifactId, String version, String basePath) {
+        var pomPath = getPomPath(basePath);
+        var artifactFile = new File(pomPath.toAbsolutePath().toAbsolutePath().toString());
+        if (!artifactFile.isFile()) {
+            return null;
+        }
+        return new ImportArtifact(artifactId, groupId, version, pomPath.toAbsolutePath().toString());
+    }
 
     public static void modifyDependencyVersion(String pomFilePath, ImportArtifact importArtifact) {
         var groupId = importArtifact.getGroupId();

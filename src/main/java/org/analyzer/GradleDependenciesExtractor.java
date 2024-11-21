@@ -42,6 +42,7 @@ public class GradleDependenciesExtractor {
         String line;
 
         while ((line = reader.readLine()) != null) {
+            System.out.println(line);
             output.append(line).append("\n");
         }
 

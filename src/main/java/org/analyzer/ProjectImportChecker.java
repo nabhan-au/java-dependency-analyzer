@@ -34,71 +34,69 @@ public class ProjectImportChecker {
     private String repoSubPath;
     private String artifactLocation;
 
-    public ProjectImportChecker(String repoPath, String repoSubPath, String destinationPath, Boolean installProjectArtifact, String projectArtifactId, Optional<String> jarPath) throws Exception {
+    public ProjectImportChecker(String repoPath, String repoSubPath, String destinationPath, Boolean skipArtifactInstallation, String projectArtifactId, Optional<String> jarPath) throws Exception {
+        var basePath = destinationPath + "/" + projectArtifactId;
         this.projectArtifact = projectArtifactId;
         this.repoPath = repoPath;
         this.repoSubPath = repoSubPath;
-        this.artifactLocation = destinationPath;
+        this.artifactLocation = basePath;
         this.dependencies = DependencyExtractor.getProjectDependencies(repoPath);
         var artifactFiles = new ArrayList<File>();
         jarPath.ifPresent(s -> artifactFiles.add(new File(s)));
         var extractedProjectArtifactDependency = GradleDependenciesExtractor.extractDependency(projectArtifactId);
+        System.out.println(dependencies);
         System.out.println("Downloading project artifact");
-//        DependencyExtractor.getAllProjectDependencies(extractedProjectArtifactDependency);
-        if (installProjectArtifact) {
+        new File(basePath).mkdirs();
+        ImportArtifact finalPomFile;
+        if (!skipArtifactInstallation) {
+//            try {
+//                var artifact = artifactInstaller.install(new ImportArtifact(extractedProjectArtifactDependency), basePath, false).a;
+//                artifactFiles.add(new File(artifact.getArtifactPath()));
+//            } catch (IOException | InterruptedException e) {
+//                throw new RuntimeException(e);
+//            }
+
+            ImportArtifact pomFile = null;
             try {
-                var artifact = artifactInstaller.install(new ImportArtifact(extractedProjectArtifactDependency), destinationPath, false).a;
-                artifactFiles.add(new File(artifact.getArtifactPath()));
+                pomFile = artifactInstaller.install(new ImportArtifact(extractedProjectArtifactDependency), basePath, true, false).a;
             } catch (IOException | InterruptedException e) {
                 throw new RuntimeException(e);
             }
+            finalPomFile = pomFile;
+            PomUtils.getModifiedPomFile(finalPomFile.getArtifactPath());
+            System.out.println("Downloading project dependencies");
+            artifactInstaller.copyProjectArtifact(basePath, extractedProjectArtifactDependency);
+            artifactInstaller.copyDependencies(basePath, finalPomFile);
+        } else {
+            finalPomFile = PomUtils.getPomFromPath(extractedProjectArtifactDependency.getGroupId(), extractedProjectArtifactDependency.getArtifactId(), extractedProjectArtifactDependency.getVersion(), basePath);
         }
-        ImportArtifact pomFile = null;
-        try {
-            pomFile = artifactInstaller.install(new ImportArtifact(extractedProjectArtifactDependency), destinationPath, true).a;
-        } catch (IOException | InterruptedException e) {
-            throw new RuntimeException(e);
-        }
-        ImportArtifact finalPomFile = pomFile;
-        System.out.println("Downloading project dependencies");
         dependencies.forEach(d -> {
             var extractedDependency = GradleDependenciesExtractor.extractDependency(d.toString());
             try {
-                var version = PomReader.getVersionFromPom(finalPomFile.getArtifactPath(), extractedDependency.getGroupId(), extractedDependency.getArtifactId());
-                if (version != null) {
-                    extractedDependency.setVersion(version);
+                var result = artifactInstaller.getArtifactFromPath(extractedDependency.getGroupId(), extractedDependency.getArtifactId(), extractedDependency.getVersion(), basePath);
+                if (result == null) {
+                    var version = PomReader.getVersionFromPom(finalPomFile.getArtifactPath(), extractedDependency.getGroupId(), extractedDependency.getArtifactId());
+                    if (version != null) {
+                        extractedDependency.setVersion(version);
+                    }
+                    var possibleVersion = ArtifactInstaller.fetchMetadata(extractedDependency);
+                    var nearestVersion = ArtifactInstaller.findNearest(extractedDependency.getVersion(), possibleVersion);
+                    extractedDependency.setVersion(nearestVersion);
+                    var installResult = artifactInstaller.install(extractedDependency, basePath, false, true);
+                    var artifact = installResult.a;
+                    if (!artifacts.contains(artifact)) {
+                        artifacts.add(artifact);
+                        artifactFiles.add(new File(artifact.getArtifactPath()));
+                    }
+                } else {
+                    artifacts.addAll(result);
                 }
-                var possibleVersion = ArtifactInstaller.fetchMetadata(extractedDependency);
-                var nearestVersion = ArtifactInstaller.findNearest(extractedDependency.getVersion(), possibleVersion);
-                extractedDependency.setVersion(nearestVersion);
-                var installResult = artifactInstaller.install(extractedDependency, destinationPath, false);
-                var artifact = installResult.a;
-                if (!artifacts.contains(artifact)) {
-                    artifacts.add(artifact);
-                    artifactFiles.add(new File(artifact.getArtifactPath()));
-                }
+
             } catch (Exception e) {
                 throw new RuntimeException(e);
             }
         });
-//        allDependencies.forEach(d -> {
-//            var extractedDependency = GradleDependenciesExtractor.extractDependency(d.toString());
-//            try {
-//                var version = PomReader.getVersionFromPom(finalPomFile.getArtifactPath(), extractedDependency.getGroupId(), extractedDependency.getArtifactId());
-//                if (version != null) {
-//                    extractedDependency.setVersion(version);
-//                }
-//                var possibleVersion = ArtifactInstaller.fetchMetadata(extractedDependency);
-//                var nearestVersion = ArtifactInstaller.findNearest(extractedDependency.getVersion(), possibleVersion);
-//                extractedDependency.setVersion(nearestVersion);
-//                var installResult = artifactInstaller.install(extractedDependency, destinationPath, false);
-//                var artifact = installResult.a;
-//                artifactFiles.add(new File(artifact.getArtifactPath()));
-//            } catch (Exception e) {
-//                System.out.println(e.getMessage());
-//            }
-//        });
-        var artifactPath = FileUtils.getJarPathList("/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/us.ihmc/ihmc-perception");
+        var artifactPath = FileUtils.getJarPathList(basePath);
         artifactFiles.addAll(artifactPath.stream().map(a -> new File(a.toAbsolutePath().toString())).toList());
         this.projectFileList = getFileList(repoPath + repoSubPath);
         this.staticImportInspector = new StaticImportInspectorFromJar(artifactFiles);
@@ -233,6 +231,8 @@ public class ProjectImportChecker {
                 unusedArtifact.add(artifact);
             }
         }
+        combinedUseImportList = combinedUseImportList.stream().distinct().toList();
+        unusedArtifact = unusedArtifact.stream().distinct().toList();
         return new ProjectReport(projectArtifact, repoPath, repoSubPath, artifactLocation, fileImportList.toArray(FileImportReport[]::new), combinedUseImportList.toArray(ImportArtifact[]::new), unusedArtifact.toArray(ImportArtifact[]::new));
     }
 
@@ -313,12 +313,12 @@ public class ProjectImportChecker {
     }
 
     public static void main(String[] args) throws Exception {
-        var projectArtifact = "us.ihmc:ihmc-perception:0.14.0-241016";
+        var projectArtifact = "us.ihmc:ihmc-perception:0.14.0-240126";
         var repoPath = "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/ihmc-open-robotics-software/ihmc-perception";
         var subPath = "/src/main/java";
         var jarPath = "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/test/artifacts/ihmc_perception_main_jar/ihmc-perception.main.jar";
-        var destinationPath = "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/temp-repo";
-        var checker = new ProjectImportChecker(repoPath, subPath, destinationPath, false, projectArtifact, Optional.empty());
+        var destinationPath = "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository";
+        var checker = new ProjectImportChecker(repoPath, subPath, destinationPath, true, projectArtifact, Optional.empty());
         checker.resolve(false);
         var projectReport = checker.check();
         var writeFileDestination = "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/java-dependency-analyzer/dependency-output";

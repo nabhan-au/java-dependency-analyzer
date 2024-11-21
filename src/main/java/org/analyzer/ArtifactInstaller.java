@@ -13,6 +13,8 @@ import java.net.URL;
 import java.util.ArrayList;
 import java.util.List;
 
+import static org.analyzer.FileUtils.getJarPathList;
+
 public class ArtifactInstaller {
     private String repositoryPath = "https://repo1.maven.org/maven2/com/google/http-client/google-http-client/1.45.1/google-http-client-1.45.1.jar";
 
@@ -26,8 +28,65 @@ public class ArtifactInstaller {
         return "https://repo1.maven.org/maven2/" + groupId + "/" + artifactId + "/" + version + "/" + artifactId + "-" + version + ".pom";
     }
 
-    public Pair<ImportArtifact, Integer> install(ImportArtifact importArtifact, String destination, Boolean isPomFile) throws IOException, InterruptedException {
-        var test = "[ERROR] Failed to execute goal org.apache.maven.plugins:maven-dependency-plugin:3.7.0:get (default-cli) on project standalone-pom: Couldn't download artifact: org.eclipse.aether.resolution.DependencyResolutionException: The following artifacts could not be resolved: net.java.dev.jna:jna:jar:5.15.0-SNAPSHOT (absent), com.microsoft.onnxruntime:onnxruntime_gpu:jar:1.11.0 (absent), org.ros.rosjava_bootstrap:message_generation:jar:0.3.3 (absent), org.openjfx:javafx-graphics:jar:linux:17.0.9 (absent), org.apache.commons:com.springsource.org.apache.commons.io:jar:1.4.0 (absent), org.ros.rosjava_core:rosjava:jar:0.2.1 (absent), org.ros.rosjava_messages:std_msgs:jar:0.5.10 (absent), org.ros.rosjava_messages:std_srvs:jar:1.11.1 (absent), org.ros.rosjava_messages:people_msgs:jar:1.0.4 (absent), org.ros.rosjava_messages:sensor_msgs:jar:1.11.7 (absent), org.ros.rosjava_messages:dynamic_reconfigure:jar:1.5.38 (absent), org.ros.rosjava_messages:multisense_ros:jar:3.4.2 (absent), org.ros.rosjava_messages:rosgraph_msgs:jar:1.11.1 (absent), org.ros.rosjava_messages:geometry_msgs:jar:1.11.7 (absent), org.ros.rosjava_messages:trajectory_msgs:jar:1.11.7 (absent), org.ros.rosjava_messages:nav_msgs:jar:1.11.7 (absent), org.ros.rosjava_messages:tf2_msgs:jar:0.5.9 (absent), org.ros.rosjava_messages:tf:jar:1.10.8 (absent), org.apache.commons:com.springsource.org.apache.commons.codec:jar:1.3.0 (absent), org.apache.commons:com.springsource.org.apache.commons.lang:jar:2.4.0 (absent), org.ros.rosjava_bootstrap:gradle_plugins:jar:0.3.3 (absent), com.github.crykn:kryonet:jar:2.22.7 (absent), com.github.esotericsoftware:jsonbeans:jar:0.9 (absent), org.ros.rosjava_messages:stereo_msgs:jar:1.10.6 (absent), org.ros.rosjava_messages:roscpp:jar:1.11.10 (absent), org.ros.rosjava_messages:actionlib_msgs:jar:1.11.7 (absent), org.ros.rosjava_core:apache_xmlrpc_server:jar:0.2.1 (absent), org.ros.rosjava_core:apache_xmlrpc_client:jar:0.2.1 (absent), org.ros.rosjava_core:apache_xmlrpc_common:jar:0.2.1 (absent), org.apache.commons:com.springsource.org.apache.commons.logging:jar:1.1.1 (absent), org.apache.commons:com.springsource.org.apache.commons.net:jar:2.0.0 (absent), org.apache.commons:com.springsource.org.apache.commons.httpclient:jar:3.1.0 (absent): Could not find artifact net.java.dev.jna:jna:jar:5.15.0-SNAPSHOT";
+    public List<ImportArtifact> getArtifactFromPath(String groupId, String artifactId, String version, String basePath) {
+        var artifactDir = basePath + "/dependencies/" + groupId.replace(".", "/") + "/" + artifactId;
+        var artifactPath = getJarPathList(artifactDir);
+        if (artifactPath.isEmpty()) {
+            return null;
+        }
+        return artifactPath.stream().map(p -> new ImportArtifact(artifactId, groupId, version, p.toAbsolutePath().toString())).toList();
+    }
+
+    public void copyDependencies(String basePath, ImportArtifact pomFile) throws Exception {
+        var t = "mvn dependency:copy-dependencies -DoutputDirectory=/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/us.ihmc/ihmc-perception/dependencies -Dmdep.useRepositoryLayout=true -f ihmc-perception-0.14.0-240126.pom";
+        var outPutDir = "-DoutputDirectory=" + basePath + "/dependencies";
+        ProcessBuilder processBuilder = new ProcessBuilder();
+        processBuilder.command("mvn", "dependency:copy-dependencies", outPutDir, "-Dmdep.useRepositoryLayout=true", "-f", pomFile.getArtifactPath());
+        processBuilder.directory(new File(basePath));
+        processBuilder.redirectErrorStream(true);
+
+        Process process = processBuilder.start();
+
+        BufferedReader reader = new BufferedReader(new InputStreamReader(process.getInputStream()));
+        String line;
+
+        while ((line = reader.readLine()) != null) {
+            System.out.println(line);
+        }
+
+        int exitCode = process.waitFor();
+
+        if (exitCode != 0) {
+            throw new Exception("Error while copying dependencies");
+        }
+    }
+
+    public void copyProjectArtifact(String basePath, ImportArtifact projectArtifact) throws Exception {
+        var outPutDir = "-DoutputDirectory=" + basePath;
+        var artifact = "-Dartifact=" + projectArtifact;
+        System.out.println(artifact.toString());
+        ProcessBuilder processBuilder = new ProcessBuilder();
+        processBuilder.command("mvn", "dependency:copy", outPutDir, artifact);
+        processBuilder.directory(new File(basePath));
+        processBuilder.redirectErrorStream(true);
+
+        Process process = processBuilder.start();
+
+        BufferedReader reader = new BufferedReader(new InputStreamReader(process.getInputStream()));
+        String line;
+
+        while ((line = reader.readLine()) != null) {
+            System.out.println(line);
+        }
+
+        int exitCode = process.waitFor();
+
+        if (exitCode != 0) {
+            throw new Exception("Error while copying project artifact");
+        }
+    }
+
+    public Pair<ImportArtifact, Integer> install(ImportArtifact importArtifact, String destination, Boolean isPomFile, Boolean withPathExtender) throws IOException, InterruptedException {
         var groupId = importArtifact.getGroupId();
         var artifactId = importArtifact.getArtifactId();
         var version = importArtifact.getVersion();
@@ -35,12 +94,24 @@ public class ArtifactInstaller {
         if (isPomFile) {
             installUrl = getInstallPomUrl(groupId, artifactId, version);
         }
-        var directory = new File(destination + File.separator + groupId);
+        File directory;
+        if (withPathExtender) {
+            directory = new File(destination + File.separator + groupId);
+        } else {
+            directory = new File(destination);
+        }
+
         ProcessBuilder processBuilder = new ProcessBuilder();
         processBuilder.command("curl", "-O", installUrl);
         processBuilder.directory(directory);
         processBuilder.redirectErrorStream(true);
-        var fileDestination =  destination + File.separator + groupId + File.separator + artifactId + "-" + version + (isPomFile ? ".pom" : ".jar");
+        String fileDestination;
+        if (withPathExtender) {
+            fileDestination =  destination + File.separator + groupId + File.separator + artifactId + "-" + version + (isPomFile ? ".pom" : ".jar");
+        } else {
+            fileDestination =  destination + File.separator + artifactId + "-" + version + (isPomFile ? ".pom" : ".jar");
+        }
+        System.out.println(fileDestination);
         importArtifact.setArtifactPath(fileDestination);
         File file = new File(fileDestination);
 
