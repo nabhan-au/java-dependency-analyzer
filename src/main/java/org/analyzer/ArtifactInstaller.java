@@ -38,7 +38,6 @@ public class ArtifactInstaller {
     }
 
     public void copyDependencies(String basePath, ImportArtifact pomFile) throws Exception {
-        var t = "mvn dependency:copy-dependencies -DoutputDirectory=/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/us.ihmc/ihmc-perception/dependencies -Dmdep.useRepositoryLayout=true -f ihmc-perception-0.14.0-240126.pom";
         var outPutDir = "-DoutputDirectory=" + basePath + "/dependencies";
         ProcessBuilder processBuilder = new ProcessBuilder();
         processBuilder.command("mvn", "dependency:copy-dependencies", outPutDir, "-Dmdep.useRepositoryLayout=true", "-f", pomFile.getArtifactPath());
@@ -196,6 +195,7 @@ public class ArtifactInstaller {
     }
 
     public static String findNearest(String input, List<String> compare) {
+        if (input == null) return compare.getFirst();
         if (compare.contains(input)) return input;
         for (String c : compare) {
             if (c.contains(input) || input.contains(c)) return c;

@@ -107,13 +107,14 @@ public class MavenDependenciesExtractor {
 
     private static List<Dependency> extractApiDependenciesBlock(String input) {
         String startPattern = "The following files have been resolved:";
-        String regex = "^([\\w\\.-]+:[\\w\\.-]+:[\\w\\.-]+:[\\d\\.]+:[a-z]+)";
+        String regex = "^([\\w\\.-]+:[\\w\\.-]+:[\\w\\.-]+:[\\w\\.-]+:[a-z]+)";
         Pattern pattern = Pattern.compile(regex);
         List<Dependency> dependencies = new ArrayList<>();
         boolean capturing = false;
 
         for (String line : input.split("\n")) {
             line = line.replace("[INFO]", "").trim();
+            line = line.split(" -- ")[0].trim();
             if (line.startsWith(startPattern)) {
                 System.out.println(line);
                 capturing = true;
@@ -123,6 +124,7 @@ public class MavenDependenciesExtractor {
                 if (line.trim().isEmpty()) {
                     break;
                 }
+                System.out.println(line.trim());
                 Matcher matcher = pattern.matcher(line.trim());
                 if (matcher.find()) {
                     var extractedLine = matcher.group(1).split(":");

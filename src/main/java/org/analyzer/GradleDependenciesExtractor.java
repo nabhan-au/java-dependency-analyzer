@@ -5,10 +5,8 @@ import org.analyzer.models.ImportArtifact;
 
 import java.io.BufferedReader;
 import java.io.File;
-import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.List;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
@@ -17,17 +15,12 @@ public class GradleDependenciesExtractor {
     public static void main(String[] args) throws Exception {
         // Specify the path to your destination Gradle repository
         String repoPath = "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/ihmc-open-robotics-software/ihmc-perception"; // Change this to your project path
-        System.out.println(getProjectDependencies(repoPath));
+        System.out.println(getProjectDependencies(repoPath, new ImportArtifact("test", "test", "test")));
 
 
     }
 
-    public static ImportArtifact extractDependency(String dependency) {
-        var extractedDependency = Arrays.stream(dependency.split(":")).toArray(String[]::new);
-        return new ImportArtifact(extractedDependency[1], extractedDependency[0], extractedDependency[2]);
-    }
-
-    public static List<Dependency> getProjectDependencies(String repoPath) throws Exception {
+    public static List<Dependency> getProjectDependencies(String repoPath , ImportArtifact projectArtifact) throws Exception {
         // Run the 'gradle dependencies' command at the specified repository
         ProcessBuilder processBuilder = new ProcessBuilder();
         processBuilder.command("gradle", "dependencies");
@@ -55,13 +48,15 @@ public class GradleDependenciesExtractor {
 
         // Extract dependencies using regex
         String dependenciesOutput = output.toString();
-        return extractApiDependenciesBlock(dependenciesOutput);
+        return extractApiDependenciesBlock(dependenciesOutput, projectArtifact);
     }
 
-    private static List<Dependency> extractApiDependenciesBlock(String input) {
+    private static List<Dependency> extractApiDependenciesBlock(String input, ImportArtifact projectArtifact) {
         String startPattern = "api - API dependencies for";
         String regex = "[+|\\\\]--- (.*?):(.*?):(.*?) \\(n\\)";
+        String projectRegex = "\\+--- project (.*?) \\(n\\)";
         Pattern pattern = Pattern.compile(regex);
+        Pattern projectPattern = Pattern.compile(projectRegex);
         List<Dependency> dependencies = new ArrayList<>();
         boolean capturing = false;
 
@@ -83,6 +78,16 @@ public class GradleDependenciesExtractor {
 
                     Dependency dependency = new Dependency(part1 + ":" + part2, version);
                     dependencies.add(dependency);
+                } else {
+                    // Handle project dependencies
+                    Matcher projectMatcher = projectPattern.matcher(line.trim());
+                    if (projectMatcher.find()) {
+                        String projectName = projectMatcher.group(1); // Extract the project name (e.g., inject-resources-core)
+                        String artifactId = projectArtifact.getGroupId() + ":" + projectName; // Construct groupId dynamically
+
+                        Dependency dependency = new Dependency(artifactId, projectArtifact.getVersion());
+                        dependencies.add(dependency);
+                    }
                 }
             }
         }

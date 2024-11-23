@@ -60,6 +60,9 @@ public class PomUtils {
             for (org.apache.maven.model.Dependency dependency : dependencies) {
                 if (groupId.equals(dependency.getGroupId()) && artifactId.equals(dependency.getArtifactId())) {
                     var currentVersion = dependency.getVersion();
+                    if (currentVersion == null) {
+                        break;
+                    }
                     if (currentVersion.equals(newVersion)) {
                         dependencyFound = true;
                         break;
@@ -209,11 +212,11 @@ public class PomUtils {
             } catch (Exception e) {
                 e.printStackTrace();
                 possibleVersion = MavenArtifactCrawler.getVersionsFromMavenRepo(dependency);
+                var nearestVersion = ArtifactInstaller.findNearest(dependency.getVersion(), possibleVersion);
+                dependency.setVersion(nearestVersion);
                 var jarFileUrl = MavenArtifactCrawler.getJarUrlFromMaven(dependency);
                 var repoUrl = extractRepoUrl(dependency, jarFileUrl);
                 repoList.add(repoUrl);
-                var nearestVersion = ArtifactInstaller.findNearest(dependency.getVersion(), possibleVersion);
-                dependency.setVersion(nearestVersion);
                 var existingArtifactResult = MavenArtifactCrawler.getExistingVersion(dependency, repoUrl, possibleVersion);
                 var additionalRepo = existingArtifactResult.a;
                 var version = existingArtifactResult.b;

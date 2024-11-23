@@ -20,12 +20,14 @@ import java.nio.file.Path;
 import java.nio.file.Paths;
 import java.util.*;
 
-import static org.analyzer.FileUtils.getFileList;
+import static org.analyzer.FileUtils.*;
 
 public class ProjectImportChecker {
     private StaticImportInspectorFromJar staticImportInspector;
     private List<Dependency> dependencies;
+    private List<Dependency> transitiveDependencies;
     private List<ImportArtifact> artifacts = new ArrayList<>();
+    private List<ImportArtifact> transitiveArtifacts = new ArrayList<>();
     private final ArtifactInstaller artifactInstaller = new ArtifactInstaller();
     private List<Path> projectFileList = new ArrayList<>();
     private List<DependencyResolverReport> reportList = new ArrayList<>();
@@ -34,17 +36,15 @@ public class ProjectImportChecker {
     private String repoSubPath;
     private String artifactLocation;
 
-    public ProjectImportChecker(String repoPath, String repoSubPath, String destinationPath, Boolean skipArtifactInstallation, String projectArtifactId, Optional<String> jarPath) throws Exception {
+    public ProjectImportChecker(String repoPath, String repoSubPath, String destinationPath, Boolean skipArtifactInstallation, Boolean skipPomFileModification, String projectArtifactId, Optional<String> jarPath, Optional<String> csvFilePath) throws Exception {
         var basePath = destinationPath + "/" + projectArtifactId;
         this.projectArtifact = projectArtifactId;
         this.repoPath = repoPath;
         this.repoSubPath = repoSubPath;
         this.artifactLocation = basePath;
-        this.dependencies = DependencyExtractor.getProjectDependencies(repoPath);
         var artifactFiles = new ArrayList<File>();
         jarPath.ifPresent(s -> artifactFiles.add(new File(s)));
-        var extractedProjectArtifactDependency = GradleDependenciesExtractor.extractDependency(projectArtifactId);
-        System.out.println(dependencies);
+        var extractedProjectArtifact = DependencyExtractor.extractDependency(projectArtifactId);
         System.out.println("Downloading project artifact");
         new File(basePath).mkdirs();
         ImportArtifact finalPomFile;
@@ -58,23 +58,34 @@ public class ProjectImportChecker {
 
             ImportArtifact pomFile = null;
             try {
-                pomFile = artifactInstaller.install(new ImportArtifact(extractedProjectArtifactDependency), basePath, true, false).a;
+                pomFile = artifactInstaller.install(new ImportArtifact(extractedProjectArtifact), basePath, true, false).a;
             } catch (IOException | InterruptedException e) {
                 throw new RuntimeException(e);
             }
             finalPomFile = pomFile;
-            PomUtils.getModifiedPomFile(finalPomFile.getArtifactPath());
+            if (!skipPomFileModification) {
+                PomUtils.getModifiedPomFile(finalPomFile.getArtifactPath());
+            }
             System.out.println("Downloading project dependencies");
-            artifactInstaller.copyProjectArtifact(basePath, extractedProjectArtifactDependency);
+            artifactInstaller.copyProjectArtifact(basePath, extractedProjectArtifact);
             artifactInstaller.copyDependencies(basePath, finalPomFile);
         } else {
-            finalPomFile = PomUtils.getPomFromPath(extractedProjectArtifactDependency.getGroupId(), extractedProjectArtifactDependency.getArtifactId(), extractedProjectArtifactDependency.getVersion(), basePath);
+            finalPomFile = PomUtils.getPomFromPath(extractedProjectArtifact.getGroupId(), extractedProjectArtifact.getArtifactId(), extractedProjectArtifact.getVersion(), basePath);
         }
-        dependencies.forEach(d -> {
-            var extractedDependency = GradleDependenciesExtractor.extractDependency(d.toString());
+        if (csvFilePath.isPresent()) {
+            this.dependencies = FileUtils.getDependencyListFromFile(csvFilePath.get(), extractedProjectArtifact);
+        } else {
+            this.dependencies = DependencyExtractor.getProjectDependencies(repoPath, extractedProjectArtifact);
+        }
+        System.out.println("------------------------------------------------------------------------");
+        System.out.println("Getting direct dependencies");
+        this.dependencies.forEach(d -> {
+            var extractedDependency = DependencyExtractor.extractDependency(d.toString());
             try {
                 var result = artifactInstaller.getArtifactFromPath(extractedDependency.getGroupId(), extractedDependency.getArtifactId(), extractedDependency.getVersion(), basePath);
+                System.out.println("Found dependency: " + d.toString());
                 if (result == null) {
+                    System.out.println("Downloading dependency: " + d.toString());
                     var version = PomReader.getVersionFromPom(finalPomFile.getArtifactPath(), extractedDependency.getGroupId(), extractedDependency.getArtifactId());
                     if (version != null) {
                         extractedDependency.setVersion(version);
@@ -96,6 +107,44 @@ public class ProjectImportChecker {
                 throw new RuntimeException(e);
             }
         });
+        System.out.println("------------------------------------------------------------------------");
+        System.out.println("Getting transitive dependencies");
+        var projectBasedFileObject = new File(basePath + "/dependencies");
+        this.transitiveDependencies = listDependencyDirectory(projectBasedFileObject, projectBasedFileObject);
+        this.transitiveDependencies.forEach(d -> {
+            var extractedDependency = DependencyExtractor.extractDependency(d.toString());
+            try {
+                var result = artifactInstaller.getArtifactFromPath(extractedDependency.getGroupId(), extractedDependency.getArtifactId(), extractedDependency.getVersion(), basePath);
+                System.out.println("Found transitive dependency: " + d.toString());
+                if (result == null) {
+                    System.out.println("Downloading transitive dependency: " + d.toString());
+                    var version = PomReader.getVersionFromPom(finalPomFile.getArtifactPath(), extractedDependency.getGroupId(), extractedDependency.getArtifactId());
+                    if (version != null) {
+                        extractedDependency.setVersion(version);
+                    }
+                    var possibleVersion = ArtifactInstaller.fetchMetadata(extractedDependency);
+                    var nearestVersion = ArtifactInstaller.findNearest(extractedDependency.getVersion(), possibleVersion);
+                    extractedDependency.setVersion(nearestVersion);
+                    var installResult = artifactInstaller.install(extractedDependency, basePath, false, true);
+                    var artifact = installResult.a;
+                    if (!transitiveArtifacts.contains(artifact)) {
+                        transitiveArtifacts.add(artifact);
+                        artifactFiles.add(new File(artifact.getArtifactPath()));
+                    }
+                } else {
+                    transitiveArtifacts.addAll(result);
+                }
+
+            } catch (Exception e) {
+                throw new RuntimeException(e);
+            }
+        });
+        System.out.println("------------------------- Direct dependencies -------------------------");
+        System.out.println(this.artifacts);
+        System.out.println("----------------------- Transitive dependencies -----------------------");
+        System.out.println(this.transitiveDependencies);
+
+        System.out.println("Getting artifact from path: " + basePath);
         var artifactPath = FileUtils.getJarPathList(basePath);
         artifactFiles.addAll(artifactPath.stream().map(a -> new File(a.toAbsolutePath().toString())).toList());
         this.projectFileList = getFileList(repoPath + repoSubPath);
@@ -158,39 +207,13 @@ public class ProjectImportChecker {
             List<UseImportReport> useImportReports = new ArrayList<>();
             report.useImportObject.stream().distinct().forEach(obj -> {
                 var classPath = obj.classPath.getPath();
-                var isFound = false;
-                for (ImportArtifact artifact: this.artifacts) {
-                    try {
-                        if (isPathInArtifact(classPath, artifact)) {
-                            useImportReports.add(new UseImportReport(obj, artifact));
-                            isFound = true;
-                        }
-                    } catch (Exception e) {
-                        throw new RuntimeException(e);
-                    }
-                }
-                if (!isFound) {
-                    useImportReports.add(new UseImportReport(obj, null));
-                }
+                mapUseImportClassPath(obj, classPath, useImportReports);
             });
 
             List<UnusedImportReport> unusedImportReports = new ArrayList<>();
             report.unusedImports.forEach(impDecl -> {
                 var classPath = new ImportClassPath(impDecl.toString().trim()).getPath();
-                var isFound = false;
-                for (ImportArtifact artifact: this.artifacts) {
-                    try {
-                        if (isPathInArtifact(classPath, artifact)) {
-                            unusedImportReports.add(new UnusedImportReport(impDecl, artifact));
-                            isFound = true;
-                        }
-                    } catch (Exception e) {
-                        throw new RuntimeException(e);
-                    }
-                }
-                if (!isFound) {
-                    unusedImportReports.add(new UnusedImportReport(impDecl, null));
-                }
+                mapUnusedImportClassPath(impDecl, classPath, unusedImportReports);
             });
 
 
@@ -212,6 +235,62 @@ public class ProjectImportChecker {
             fileImportReports.add(fileImportReport);
         }
         return fileImportReports;
+    }
+
+    private void mapUnusedImportClassPath(ImportDeclaration impDecl, String classPath, List<UnusedImportReport> unusedImportReports) {
+        var isFound = false;
+        for (ImportArtifact artifact: this.artifacts) {
+            try {
+                if (isPathInArtifact(classPath, artifact)) {
+                    unusedImportReports.add(new UnusedImportReport(impDecl, artifact, false));
+                    isFound = true;
+                }
+            } catch (Exception e) {
+                throw new RuntimeException(e);
+            }
+        }
+
+        for (ImportArtifact artifact: this.transitiveArtifacts) {
+            try {
+                if (isPathInArtifact(classPath, artifact)) {
+                    unusedImportReports.add(new UnusedImportReport(impDecl, artifact, true));
+                    isFound = true;
+                }
+            } catch (Exception e) {
+                throw new RuntimeException(e);
+            }
+        }
+        if (!isFound) {
+            unusedImportReports.add(new UnusedImportReport(impDecl, null, true));
+        }
+    }
+
+    private void mapUseImportClassPath(SingleImportDetails obj, String classPath, List<UseImportReport> useImportReports) {
+        var isFound = false;
+        for (ImportArtifact artifact: this.artifacts) {
+            try {
+                if (isPathInArtifact(classPath, artifact)) {
+                    useImportReports.add(new UseImportReport(obj, artifact, false));
+                    isFound = true;
+                }
+            } catch (Exception e) {
+                throw new RuntimeException(e);
+            }
+        }
+        for (ImportArtifact transitiveArtifact: this.transitiveArtifacts) {
+            try {
+                if (isPathInArtifact(classPath, transitiveArtifact)) {
+                    useImportReports.add(new UseImportReport(obj, transitiveArtifact, true));
+                    isFound = true;
+                }
+            } catch (Exception e) {
+                throw new RuntimeException(e);
+            }
+        }
+
+        if (!isFound) {
+            useImportReports.add(new UseImportReport(obj, null, true));
+        }
     }
 
     public ProjectReport check() throws Exception {
@@ -313,15 +392,26 @@ public class ProjectImportChecker {
     }
 
     public static void main(String[] args) throws Exception {
-        var projectArtifact = "us.ihmc:ihmc-perception:0.14.0-240126";
-        var repoPath = "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/ihmc-open-robotics-software/ihmc-perception";
-        var subPath = "/src/main/java";
-        var jarPath = "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/test/artifacts/ihmc_perception_main_jar/ihmc-perception.main.jar";
         var destinationPath = "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository";
-        var checker = new ProjectImportChecker(repoPath, subPath, destinationPath, true, projectArtifact, Optional.empty());
+        var writeFileDestination = "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/java-dependency-analyzer/dependency-output";
+        var csvFile = "";
+//        var projectArtifact = "us.ihmc:ihmc-perception:0.14.0-240126";
+//        var repoPath = "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/ihmc-open-robotics-software/ihmc-perception";
+//        var subPath = "/src/main/java";
+//        var jarPath = "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/test/artifacts/ihmc_perception_main_jar/ihmc-perception.main.jar";
+//        var destinationPath = "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository";
+//        var checker = new ProjectImportChecker(repoPath, subPath, destinationPath, true, projectArtifact, Optional.empty());
+//        checker.resolve(false);
+//        var projectReport = checker.check();
+//        var writeFileDestination = "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/java-dependency-analyzer/dependency-output";
+//        checker.exportToJson(projectReport, writeFileDestination);
+
+        var projectArtifact = "com.aliyun:alibabacloud-config20190108:1.0.0";
+        var repoPath = "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/alibabacloud-java-async-sdk/config-20190108";
+        var subPath = "/src/main/java";
+        var checker = new ProjectImportChecker(repoPath, subPath, destinationPath, false, true, projectArtifact, Optional.empty(), Optional.empty());
         checker.resolve(false);
         var projectReport = checker.check();
-        var writeFileDestination = "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/java-dependency-analyzer/dependency-output";
         checker.exportToJson(projectReport, writeFileDestination);
 
 

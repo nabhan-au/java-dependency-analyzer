@@ -6,16 +6,17 @@ import org.analyzer.models.ImportArtifact;
 import java.io.IOException;
 import java.nio.file.*;
 import java.nio.file.attribute.BasicFileAttributes;
+import java.util.Arrays;
 import java.util.List;
 
 public class DependencyExtractor {
-    public static List<Dependency> getProjectDependencies(String repoPath) throws Exception {
+    public static List<Dependency> getProjectDependencies(String repoPath, ImportArtifact projectArtifact) throws Exception {
         if (isFileExist(repoPath, "pom.xml")) {
             System.out.println("Getting dependencies from maven");
             return MavenDependenciesExtractor.getProjectDependencies(repoPath);
         } else {
             System.out.println("Getting dependencies from gradle");
-            return GradleDependenciesExtractor.getProjectDependencies(repoPath);
+            return GradleDependenciesExtractor.getProjectDependencies(repoPath, projectArtifact);
         }
     }
 
@@ -49,5 +50,10 @@ public class DependencyExtractor {
         });
 
         return found[0];
+    }
+
+    public static ImportArtifact extractDependency(String dependency) {
+        var extractedDependency = Arrays.stream(dependency.split(":")).toArray(String[]::new);
+        return new ImportArtifact(extractedDependency[1], extractedDependency[0], extractedDependency[2]);
     }
 }

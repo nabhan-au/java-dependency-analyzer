@@ -7,7 +7,7 @@ public class ImportArtifactJson {
     public String directory;
 
     public ImportArtifactJson(ImportArtifact importArtifact) {
-        this.artifact = (importArtifact == null ? "not from main direct dependency" : importArtifact.toString());
-        this.directory = (importArtifact == null ? "not from main direct dependency" : importArtifact.getArtifactPath());
+        this.artifact = (importArtifact == null ? "Cannot detect from dependency" : importArtifact.toString());
+        this.directory = (importArtifact == null ? "Cannot detect from dependency" : importArtifact.getArtifactPath());
     }
 }

@@ -3,7 +3,6 @@ package org.analyzer.models;
 public class Dependency {
     private String name;
     private String version;
-    private String scope;
 
     public Dependency(String name, String version) {
         this.name = name;

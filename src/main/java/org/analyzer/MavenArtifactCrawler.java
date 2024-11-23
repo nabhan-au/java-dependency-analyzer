@@ -86,8 +86,8 @@ public class MavenArtifactCrawler {
             driver.get(url);
 
             // Wait until elements with class 'vbtn release' are present
-            WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
-            wait.until(ExpectedConditions.visibilityOfAllElementsLocatedBy(By.cssSelector("a.vbtn")));
+//            WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
+//            wait.until(ExpectedConditions.visibilityOfAllElementsLocatedBy(By.cssSelector("a.vbtn")));
 
             List<WebElement> aElement = driver.findElements(By.cssSelector("a.vbtn"));
             for (WebElement element : aElement) {
