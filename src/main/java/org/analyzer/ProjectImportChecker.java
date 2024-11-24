@@ -9,7 +9,6 @@ import com.github.javaparser.ast.ImportDeclaration;
 import com.github.javaparser.symbolsolver.JavaSymbolSolver;
 import com.github.javaparser.symbolsolver.resolution.typesolvers.CombinedTypeSolver;
 import com.github.javaparser.symbolsolver.resolution.typesolvers.ReflectionTypeSolver;
-import com.google.gson.*;
 import org.analyzer.models.*;
 import org.analyzer.models.json.ProjectReportJson;
 
@@ -430,7 +429,7 @@ public class ProjectImportChecker {
 
         // Path to the JSON file
         String jsonFilePath = "output.json";
-        writeInputToFole(jsonFilePath, projectArtifact, repoPath, subPath, gitBranch);
+        writeInputToFile(jsonFilePath, projectArtifact, repoPath, subPath, gitBranch);
 
 
 
@@ -524,40 +523,5 @@ public class ProjectImportChecker {
 //        var writeFileDestination = "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/java-dependency-analyzer/dependency-output";
 //        checker.exportToJson(projectReport, writeFileDestination);
 
-    }
-
-    private static void writeInputToFole(String jsonFilePath, String projectArtifact, String repoPath, String subPath, String gitBranch) {
-        Gson gson = new Gson();
-        JsonArray jsonArray = new JsonArray();
-
-        try {
-            // Check if the file exists and read its content
-            FileReader reader = new FileReader(jsonFilePath);
-            JsonElement element = JsonParser.parseReader(reader);
-            if (element.isJsonArray()) {
-                jsonArray = element.getAsJsonArray(); // Load existing array
-            }
-            reader.close();
-        } catch (IOException e) {
-            System.out.println("File not found or empty. Creating a new file.");
-        }
-
-        // Create a new JSON object for the new data
-        JsonObject newEntry = new JsonObject();
-        newEntry.addProperty("projectArtifact", projectArtifact);
-        newEntry.addProperty("repoPath", repoPath);
-        newEntry.addProperty("subPath", subPath);
-        newEntry.addProperty("gitBranch", gitBranch);
-
-        // Add the new entry to the array
-        jsonArray.add(newEntry);
-
-        // Write the updated JSON array back to the file
-        try (FileWriter writer = new FileWriter(jsonFilePath)) {
-            gson.toJson(jsonArray, writer);
-            System.out.println("Appended new values to JSON file successfully.");
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
     }
 }

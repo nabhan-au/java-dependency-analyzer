@@ -1,14 +1,19 @@
 package org.analyzer;
 
+import com.google.gson.*;
+import com.google.gson.reflect.TypeToken;
 import com.opencsv.bean.CsvToBean;
 import com.opencsv.bean.CsvToBeanBuilder;
 import org.analyzer.models.Dependency;
 import org.analyzer.models.DependencyCsv;
 import org.analyzer.models.ImportArtifact;
+import org.analyzer.models.json.Project;
 
 import java.io.File;
 import java.io.FileReader;
+import java.io.FileWriter;
 import java.io.IOException;
+import java.lang.reflect.Type;
 import java.nio.file.*;
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -115,12 +120,59 @@ public class FileUtils {
         return result;
     }
 
+    public static void writeInputToFile(String jsonFilePath, String projectArtifact, String repoPath, String subPath, String gitBranch) {
+        Gson gson = new Gson();
+        JsonArray jsonArray = new JsonArray();
+
+        try {
+            // Check if the file exists and read its content
+            FileReader reader = new FileReader(jsonFilePath);
+            JsonElement element = JsonParser.parseReader(reader);
+            if (element.isJsonArray()) {
+                jsonArray = element.getAsJsonArray(); // Load existing array
+            }
+            reader.close();
+        } catch (IOException e) {
+            System.out.println("File not found or empty. Creating a new file.");
+        }
+
+        // Create a new JSON object for the new data
+        JsonObject newEntry = new JsonObject();
+        newEntry.addProperty("projectArtifact", projectArtifact);
+        newEntry.addProperty("repoPath", repoPath);
+        newEntry.addProperty("subPath", subPath);
+        newEntry.addProperty("gitBranch", gitBranch);
+
+        // Add the new entry to the array
+        jsonArray.add(newEntry);
+
+        // Write the updated JSON array back to the file
+        try (FileWriter writer = new FileWriter(jsonFilePath)) {
+            gson.toJson(jsonArray, writer);
+            System.out.println("Appended new values to JSON file successfully.");
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+    }
+
+    public static List<Project> readProjectsFromJson(String filePath) {
+        try (FileReader reader = new FileReader(filePath)) {
+            Gson gson = new Gson();
+            Type listType = new TypeToken<List<Project>>() {}.getType();
+            return gson.fromJson(reader, listType);
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+        return new ArrayList<>();
+    }
+
     public static void main(String[] args) {
 //        File path = new File("/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.wkennedy.pubsubly:redis-message-header-plugin:1.0.0/dependencies");
 //        System.out.println(listDependencyDirectory(path, path).get(0));
-        var artifact = new ImportArtifact("alibabacloud-config20190108","com.aliyun", "1.0.0");
-        var csvPath = "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/java-dependency-analyzer/datasets/artifact-dependency-details.csv";
-
-        System.out.println(getDependencyListFromFile(csvPath, artifact));
+//        var artifact = new ImportArtifact("alibabacloud-config20190108","com.aliyun", "1.0.0");
+//        var csvPath = "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/java-dependency-analyzer/datasets/artifact-dependency-details.csv";
+//
+//        System.out.println(getDependencyListFromFile(csvPath, artifact));
+        System.out.println(FileUtils.readProjectsFromJson("/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/java-dependency-analyzer/output.json").get(0).projectArtifact);
     }
 }

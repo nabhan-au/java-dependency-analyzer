@@ -1,0 +1,1609 @@
+{
+  "projectArtifact" : "com.microsoft.azure:azure-functions-maven-plugin:1.36.0",
+  "repositoryDir" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/azure-maven-plugins/azure-functions-maven-plugin",
+  "repositorySubDir" : "/src/main",
+  "artifactLocation" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.microsoft.azure:azure-functions-maven-plugin:1.36.0",
+  "fileImportReports" : [ {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/azure-maven-plugins/azure-functions-maven-plugin/src/main/java/com/microsoft/azure/maven/function/ListMojo.java",
+    "useImportReport" : [ {
+      "importPath" : "import lombok.extern.slf4j.Slf4j;",
+      "artifact" : {
+        "artifact" : "org.projectlombok:lombok:1.18.24",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.microsoft.azure:azure-functions-maven-plugin:1.36.0/dependencies/org/projectlombok/lombok/1.18.24/lombok-1.18.24.jar"
+      },
+      "isTransitive" : false
+    }, {
+      "importPath" : "import org.apache.maven.plugins.annotations.Mojo;",
+      "artifact" : {
+        "artifact" : "org.apache.maven.plugin-tools:maven-plugin-annotations:3.5.2",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.microsoft.azure:azure-functions-maven-plugin:1.36.0/dependencies/org/apache/maven/plugin-tools/maven-plugin-annotations/3.5.2/maven-plugin-annotations-3.5.2.jar"
+      },
+      "isTransitive" : false
+    }, {
+      "importPath" : "import com.microsoft.azure.toolkit.lib.common.operation.AzureOperation;",
+      "artifact" : {
+        "artifact" : "com.microsoft.azure:azure-toolkit-common-lib:0.46.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.microsoft.azure:azure-functions-maven-plugin:1.36.0/dependencies/com/microsoft/azure/azure-toolkit-common-lib/0.46.0/azure-toolkit-common-lib-0.46.0.jar"
+      },
+      "isTransitive" : true
+    }, {
+      "importPath" : "import com.microsoft.azure.toolkit.lib.common.exception.AzureExecutionException;",
+      "artifact" : {
+        "artifact" : "com.microsoft.azure:azure-toolkit-common-lib:0.46.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.microsoft.azure:azure-functions-maven-plugin:1.36.0/dependencies/com/microsoft/azure/azure-toolkit-common-lib/0.46.0/azure-toolkit-common-lib-0.46.0.jar"
+      },
+      "isTransitive" : true
+    }, {
+      "importPath" : "import java.io.IOException;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isTransitive" : true
+    }, {
+      "importPath" : "import java.io.InputStream;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isTransitive" : true
+    }, {
+      "importPath" : "import org.apache.commons.io.IOUtils;",
+      "artifact" : {
+        "artifact" : "commons-io:commons-io:2.16.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.microsoft.azure:azure-functions-maven-plugin:1.36.0/dependencies/commons-io/commons-io/2.16.0/commons-io-2.16.0.jar"
+      },
+      "isTransitive" : true
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/azure-maven-plugins/azure-functions-maven-plugin/src/main/java/com/microsoft/azure/maven/function/RunMojo.java",
+    "useImportReport" : [ {
+      "importPath" : "import lombok.extern.slf4j.Slf4j;",
+      "artifact" : {
+        "artifact" : "org.projectlombok:lombok:1.18.24",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.microsoft.azure:azure-functions-maven-plugin:1.36.0/dependencies/org/projectlombok/lombok/1.18.24/lombok-1.18.24.jar"
+      },
+      "isTransitive" : false
+    }, {
+      "importPath" : "import org.apache.maven.plugins.annotations.Mojo;",
+      "artifact" : {
+        "artifact" : "org.apache.maven.plugin-tools:maven-plugin-annotations:3.5.2",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.microsoft.azure:azure-functions-maven-plugin:1.36.0/dependencies/org/apache/maven/plugin-tools/maven-plugin-annotations/3.5.2/maven-plugin-annotations-3.5.2.jar"
+      },
+      "isTransitive" : false
+    }, {
+      "importPath" : "import org.apache.maven.artifact.versioning.ComparableVersion;",
+      "artifact" : {
+        "artifact" : "org.apache.maven:maven-artifact:3.8.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.microsoft.azure:azure-functions-maven-plugin:1.36.0/dependencies/org/apache/maven/maven-artifact/3.8.1/maven-artifact-3.8.1.jar"
+      },
+      "isTransitive" : true
+    }, {
+      "importPath" : "import org.apache.maven.plugins.annotations.Parameter;",
+      "artifact" : {
+        "artifact" : "org.apache.maven.plugin-tools:maven-plugin-annotations:3.5.2",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.microsoft.azure:azure-functions-maven-plugin:1.36.0/dependencies/org/apache/maven/plugin-tools/maven-plugin-annotations/3.5.2/maven-plugin-annotations-3.5.2.jar"
+      },
+      "isTransitive" : false
+    }, {
+      "importPath" : "import com.microsoft.azure.toolkit.lib.common.operation.AzureOperation;",
+      "artifact" : {
+        "artifact" : "com.microsoft.azure:azure-toolkit-common-lib:0.46.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.microsoft.azure:azure-functions-maven-plugin:1.36.0/dependencies/com/microsoft/azure/azure-toolkit-common-lib/0.46.0/azure-toolkit-common-lib-0.46.0.jar"
+      },
+      "isTransitive" : true
+    }, {
+      "importPath" : "import com.microsoft.azure.toolkit.lib.common.exception.AzureExecutionException;",
+      "artifact" : {
+        "artifact" : "com.microsoft.azure:azure-toolkit-common-lib:0.46.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.microsoft.azure:azure-functions-maven-plugin:1.36.0/dependencies/com/microsoft/azure/azure-toolkit-common-lib/0.46.0/azure-toolkit-common-lib-0.46.0.jar"
+      },
+      "isTransitive" : true
+    }, {
+      "importPath" : "import com.microsoft.azure.toolkit.lib.legacy.function.handlers.CommandHandler;",
+      "artifact" : {
+        "artifact" : "com.microsoft.azure:azure-toolkit-appservice-lib:0.46.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.microsoft.azure:azure-functions-maven-plugin:1.36.0/dependencies/com/microsoft/azure/azure-toolkit-appservice-lib/0.46.0/azure-toolkit-appservice-lib-0.46.0.jar"
+      },
+      "isTransitive" : false
+    }, {
+      "importPath" : "import com.microsoft.azure.toolkit.lib.legacy.function.handlers.CommandHandlerImpl;",
+      "artifact" : {
+        "artifact" : "com.microsoft.azure:azure-toolkit-appservice-lib:0.46.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.microsoft.azure:azure-functions-maven-plugin:1.36.0/dependencies/com/microsoft/azure/azure-toolkit-appservice-lib/0.46.0/azure-toolkit-appservice-lib-0.46.0.jar"
+      },
+      "isTransitive" : false
+    }, {
+      "importPath" : "import java.io.File;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isTransitive" : true
+    }, {
+      "importPath" : "import com.microsoft.azure.toolkit.lib.legacy.function.utils.CommandUtils;",
+      "artifact" : {
+        "artifact" : "com.microsoft.azure:azure-toolkit-appservice-lib:0.46.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.microsoft.azure:azure-functions-maven-plugin:1.36.0/dependencies/com/microsoft/azure/azure-toolkit-appservice-lib/0.46.0/azure-toolkit-appservice-lib-0.46.0.jar"
+      },
+      "isTransitive" : false
+    }, {
+      "importPath" : "import org.apache.commons.lang3.StringUtils;",
+      "artifact" : {
+        "artifact" : "org.apache.commons:commons-lang3:3.14.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.microsoft.azure:azure-functions-maven-plugin:1.36.0/dependencies/org/apache/commons/commons-lang3/3.14.0/commons-lang3-3.14.0.jar"
+      },
+      "isTransitive" : true
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/azure-maven-plugins/azure-functions-maven-plugin/src/main/java/com/microsoft/azure/maven/function/DeployMojo.java",
+    "useImportReport" : [ {
+      "importPath" : "import org.apache.maven.plugins.annotations.Mojo;",
+      "artifact" : {
+        "artifact" : "org.apache.maven.plugin-tools:maven-plugin-annotations:3.5.2",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.microsoft.azure:azure-functions-maven-plugin:1.36.0/dependencies/org/apache/maven/plugin-tools/maven-plugin-annotations/3.5.2/maven-plugin-annotations-3.5.2.jar"
+      },
+      "isTransitive" : false
+    }, {
+      "importPath" : "import org.apache.maven.plugins.annotations.LifecyclePhase;",
+      "artifact" : {
+        "artifact" : "org.apache.maven.plugin-tools:maven-plugin-annotations:3.5.2",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.microsoft.azure:azure-functions-maven-plugin:1.36.0/dependencies/org/apache/maven/plugin-tools/maven-plugin-annotations/3.5.2/maven-plugin-annotations-3.5.2.jar"
+      },
+      "isTransitive" : false
+    }, {
+      "importPath" : "import java.util.List;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isTransitive" : true
+    }, {
+      "importPath" : "import java.util.Arrays;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isTransitive" : true
+    }, {
+      "importPath" : "import lombok.Getter;",
+      "artifact" : {
+        "artifact" : "org.projectlombok:lombok:1.18.24",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.microsoft.azure:azure-functions-maven-plugin:1.36.0/dependencies/org/projectlombok/lombok/1.18.24/lombok-1.18.24.jar"
+      },
+      "isTransitive" : false
+    }, {
+      "importPath" : "import com.fasterxml.jackson.annotation.JsonProperty;",
+      "artifact" : {
+        "artifact" : "com.fasterxml.jackson.core:jackson-annotations:2.17.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.microsoft.azure:azure-functions-maven-plugin:1.36.0/dependencies/com/fasterxml/jackson/core/jackson-annotations/2.17.0/jackson-annotations-2.17.0.jar"
+      },
+      "isTransitive" : true
+    }, {
+      "importPath" : "import org.apache.maven.plugins.annotations.Parameter;",
+      "artifact" : {
+        "artifact" : "org.apache.maven.plugin-tools:maven-plugin-annotations:3.5.2",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.microsoft.azure:azure-functions-maven-plugin:1.36.0/dependencies/org/apache/maven/plugin-tools/maven-plugin-annotations/3.5.2/maven-plugin-annotations-3.5.2.jar"
+      },
+      "isTransitive" : false
+    }, {
+      "importPath" : "import java.util.Map;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isTransitive" : true
+    }, {
+      "importPath" : "import com.microsoft.azure.toolkit.lib.common.operation.AzureOperation;",
+      "artifact" : {
+        "artifact" : "com.microsoft.azure:azure-toolkit-common-lib:0.46.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.microsoft.azure:azure-functions-maven-plugin:1.36.0/dependencies/com/microsoft/azure/azure-toolkit-common-lib/0.46.0/azure-toolkit-common-lib-0.46.0.jar"
+      },
+      "isTransitive" : true
+    }, {
+      "importPath" : "import com.microsoft.azure.toolkit.lib.appservice.model.FunctionAppRuntime;",
+      "artifact" : {
+        "artifact" : "com.microsoft.azure:azure-toolkit-appservice-lib:0.46.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.microsoft.azure:azure-functions-maven-plugin:1.36.0/dependencies/com/microsoft/azure/azure-toolkit-appservice-lib/0.46.0/azure-toolkit-appservice-lib-0.46.0.jar"
+      },
+      "isTransitive" : false
+    }, {
+      "importPath" : "import com.microsoft.azure.toolkit.lib.appservice.config.FunctionAppConfig;",
+      "artifact" : {
+        "artifact" : "com.microsoft.azure:azure-toolkit-appservice-lib:0.46.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.microsoft.azure:azure-functions-maven-plugin:1.36.0/dependencies/com/microsoft/azure/azure-toolkit-appservice-lib/0.46.0/azure-toolkit-appservice-lib-0.46.0.jar"
+      },
+      "isTransitive" : false
+    }, {
+      "importPath" : "import com.microsoft.azure.toolkit.lib.appservice.function.FunctionApp;",
+      "artifact" : {
+        "artifact" : "com.microsoft.azure:azure-toolkit-appservice-lib:0.46.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.microsoft.azure:azure-functions-maven-plugin:1.36.0/dependencies/com/microsoft/azure/azure-toolkit-appservice-lib/0.46.0/azure-toolkit-appservice-lib-0.46.0.jar"
+      },
+      "isTransitive" : false
+    }, {
+      "importPath" : "import com.microsoft.azure.toolkit.lib.Azure;",
+      "artifact" : {
+        "artifact" : "com.microsoft.azure:azure-toolkit-common-lib:0.46.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.microsoft.azure:azure-functions-maven-plugin:1.36.0/dependencies/com/microsoft/azure/azure-toolkit-common-lib/0.46.0/azure-toolkit-common-lib-0.46.0.jar"
+      },
+      "isTransitive" : true
+    }, {
+      "importPath" : "import com.microsoft.azure.toolkit.lib.appservice.function.AzureFunctions;",
+      "artifact" : {
+        "artifact" : "com.microsoft.azure:azure-toolkit-appservice-lib:0.46.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.microsoft.azure:azure-functions-maven-plugin:1.36.0/dependencies/com/microsoft/azure/azure-toolkit-appservice-lib/0.46.0/azure-toolkit-appservice-lib-0.46.0.jar"
+      },
+      "isTransitive" : false
+    }, {
+      "importPath" : "import com.microsoft.azure.toolkit.lib.appservice.function.FunctionAppBase;",
+      "artifact" : {
+        "artifact" : "com.microsoft.azure:azure-toolkit-appservice-lib:0.46.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.microsoft.azure:azure-functions-maven-plugin:1.36.0/dependencies/com/microsoft/azure/azure-toolkit-appservice-lib/0.46.0/azure-toolkit-appservice-lib-0.46.0.jar"
+      },
+      "isTransitive" : false
+    }, {
+      "importPath" : "import com.microsoft.azure.toolkit.lib.appservice.task.StreamingLogTask;",
+      "artifact" : {
+        "artifact" : "com.microsoft.azure:azure-toolkit-appservice-lib:0.46.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.microsoft.azure:azure-functions-maven-plugin:1.36.0/dependencies/com/microsoft/azure/azure-toolkit-appservice-lib/0.46.0/azure-toolkit-appservice-lib-0.46.0.jar"
+      },
+      "isTransitive" : false
+    }, {
+      "importPath" : "import com.microsoft.azure.toolkit.lib.common.exception.AzureToolkitRuntimeException;",
+      "artifact" : {
+        "artifact" : "com.microsoft.azure:azure-toolkit-common-lib:0.46.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.microsoft.azure:azure-functions-maven-plugin:1.36.0/dependencies/com/microsoft/azure/azure-toolkit-common-lib/0.46.0/azure-toolkit-common-lib-0.46.0.jar"
+      },
+      "isTransitive" : true
+    }, {
+      "importPath" : "import com.fasterxml.jackson.dataformat.javaprop.JavaPropsMapper;",
+      "artifact" : {
+        "artifact" : "com.fasterxml.jackson.dataformat:jackson-dataformat-properties:2.17.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.microsoft.azure:azure-functions-maven-plugin:1.36.0/dependencies/com/fasterxml/jackson/dataformat/jackson-dataformat-properties/2.17.0/jackson-dataformat-properties-2.17.0.jar"
+      },
+      "isTransitive" : false
+    }, {
+      "importPath" : "import static com.fasterxml.jackson.databind.DeserializationFeature.FAIL_ON_UNKNOWN_PROPERTIES;",
+      "artifact" : {
+        "artifact" : "com.fasterxml.jackson.core:jackson-databind:2.17.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.microsoft.azure:azure-functions-maven-plugin:1.36.0/dependencies/com/fasterxml/jackson/core/jackson-databind/2.17.0/jackson-databind-2.17.0.jar"
+      },
+      "isTransitive" : true
+    }, {
+      "importPath" : "import com.fasterxml.jackson.dataformat.javaprop.JavaPropsSchema;",
+      "artifact" : {
+        "artifact" : "com.fasterxml.jackson.dataformat:jackson-dataformat-properties:2.17.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.microsoft.azure:azure-functions-maven-plugin:1.36.0/dependencies/com/fasterxml/jackson/dataformat/jackson-dataformat-properties/2.17.0/jackson-dataformat-properties-2.17.0.jar"
+      },
+      "isTransitive" : false
+    }, {
+      "importPath" : "import com.microsoft.azure.toolkit.lib.common.utils.Utils;",
+      "artifact" : {
+        "artifact" : "com.microsoft.azure:azure-toolkit-common-lib:0.46.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.microsoft.azure:azure-functions-maven-plugin:1.36.0/dependencies/com/microsoft/azure/azure-toolkit-common-lib/0.46.0/azure-toolkit-common-lib-0.46.0.jar"
+      },
+      "isTransitive" : true
+    }, {
+      "importPath" : "import java.io.IOException;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isTransitive" : true
+    }, {
+      "importPath" : "import java.util.Objects;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isTransitive" : true
+    }, {
+      "importPath" : "import com.microsoft.azure.toolkit.lib.appservice.model.PricingTier;",
+      "artifact" : {
+        "artifact" : "com.microsoft.azure:azure-toolkit-appservice-lib:0.46.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.microsoft.azure:azure-functions-maven-plugin:1.36.0/dependencies/com/microsoft/azure/azure-toolkit-appservice-lib/0.46.0/azure-toolkit-appservice-lib-0.46.0.jar"
+      },
+      "isTransitive" : false
+    }, {
+      "importPath" : "import org.apache.commons.lang3.StringUtils;",
+      "artifact" : {
+        "artifact" : "org.apache.commons:commons-lang3:3.14.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.microsoft.azure:azure-functions-maven-plugin:1.36.0/dependencies/org/apache/commons/commons-lang3/3.14.0/commons-lang3-3.14.0.jar"
+      },
+      "isTransitive" : true
+    }, {
+      "importPath" : "import com.microsoft.azure.toolkit.lib.common.model.Region;",
+      "artifact" : {
+        "artifact" : "com.microsoft.azure:azure-toolkit-common-lib:0.46.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.microsoft.azure:azure-functions-maven-plugin:1.36.0/dependencies/com/microsoft/azure/azure-toolkit-common-lib/0.46.0/azure-toolkit-common-lib-0.46.0.jar"
+      },
+      "isTransitive" : true
+    }, {
+      "importPath" : "import com.microsoft.azure.toolkit.lib.appservice.AzureAppService;",
+      "artifact" : {
+        "artifact" : "com.microsoft.azure:azure-toolkit-appservice-lib:0.46.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.microsoft.azure:azure-functions-maven-plugin:1.36.0/dependencies/com/microsoft/azure/azure-toolkit-appservice-lib/0.46.0/azure-toolkit-appservice-lib-0.46.0.jar"
+      },
+      "isTransitive" : false
+    }, {
+      "importPath" : "import java.util.Optional;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isTransitive" : true
+    }, {
+      "importPath" : "import java.util.stream.Collectors;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isTransitive" : true
+    }, {
+      "importPath" : "import java.util.Collections;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isTransitive" : true
+    }, {
+      "importPath" : "import com.microsoft.azure.toolkit.lib.appservice.model.Runtime;",
+      "artifact" : {
+        "artifact" : "com.microsoft.azure:azure-toolkit-appservice-lib:0.46.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.microsoft.azure:azure-functions-maven-plugin:1.36.0/dependencies/com/microsoft/azure/azure-toolkit-appservice-lib/0.46.0/azure-toolkit-appservice-lib-0.46.0.jar"
+      },
+      "isTransitive" : false
+    }, {
+      "importPath" : "import com.microsoft.azure.toolkit.lib.appservice.config.RuntimeConfig;",
+      "artifact" : {
+        "artifact" : "com.microsoft.azure:azure-toolkit-appservice-lib:0.46.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.microsoft.azure:azure-functions-maven-plugin:1.36.0/dependencies/com/microsoft/azure/azure-toolkit-appservice-lib/0.46.0/azure-toolkit-appservice-lib-0.46.0.jar"
+      },
+      "isTransitive" : false
+    }, {
+      "importPath" : "import com.microsoft.azure.toolkit.lib.appservice.model.StorageAuthenticationMethod;",
+      "artifact" : {
+        "artifact" : "com.microsoft.azure:azure-toolkit-appservice-lib:0.46.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.microsoft.azure:azure-functions-maven-plugin:1.36.0/dependencies/com/microsoft/azure/azure-toolkit-appservice-lib/0.46.0/azure-toolkit-appservice-lib-0.46.0.jar"
+      },
+      "isTransitive" : false
+    }, {
+      "importPath" : "import com.microsoft.azure.toolkit.lib.common.messager.AzureMessager;",
+      "artifact" : {
+        "artifact" : "com.microsoft.azure:azure-toolkit-common-lib:0.46.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.microsoft.azure:azure-functions-maven-plugin:1.36.0/dependencies/com/microsoft/azure/azure-toolkit-common-lib/0.46.0/azure-toolkit-common-lib-0.46.0.jar"
+      },
+      "isTransitive" : true
+    }, {
+      "importPath" : "import com.microsoft.azure.toolkit.lib.appservice.model.OperatingSystem;",
+      "artifact" : {
+        "artifact" : "com.microsoft.azure:azure-toolkit-appservice-lib:0.46.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.microsoft.azure:azure-functions-maven-plugin:1.36.0/dependencies/com/microsoft/azure/azure-toolkit-appservice-lib/0.46.0/azure-toolkit-appservice-lib-0.46.0.jar"
+      },
+      "isTransitive" : false
+    }, {
+      "importPath" : "import static com.microsoft.azure.toolkit.lib.appservice.utils.AppServiceConfigUtils.fromFunctionApp;",
+      "artifact" : {
+        "artifact" : "com.microsoft.azure:azure-toolkit-appservice-lib:0.46.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.microsoft.azure:azure-functions-maven-plugin:1.36.0/dependencies/com/microsoft/azure/azure-toolkit-appservice-lib/0.46.0/azure-toolkit-appservice-lib-0.46.0.jar"
+      },
+      "isTransitive" : false
+    }, {
+      "importPath" : "import static com.microsoft.azure.toolkit.lib.appservice.utils.AppServiceConfigUtils.mergeAppServiceConfig;",
+      "artifact" : {
+        "artifact" : "com.microsoft.azure:azure-toolkit-appservice-lib:0.46.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.microsoft.azure:azure-functions-maven-plugin:1.36.0/dependencies/com/microsoft/azure/azure-toolkit-appservice-lib/0.46.0/azure-toolkit-appservice-lib-0.46.0.jar"
+      },
+      "isTransitive" : false
+    }, {
+      "importPath" : "import com.microsoft.azure.toolkit.lib.appservice.task.CreateOrUpdateFunctionAppTask;",
+      "artifact" : {
+        "artifact" : "com.microsoft.azure:azure-toolkit-appservice-lib:0.46.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.microsoft.azure:azure-functions-maven-plugin:1.36.0/dependencies/com/microsoft/azure/azure-toolkit-appservice-lib/0.46.0/azure-toolkit-appservice-lib-0.46.0.jar"
+      },
+      "isTransitive" : false
+    }, {
+      "importPath" : "import com.microsoft.azure.toolkit.lib.appservice.config.AppServiceConfig;",
+      "artifact" : {
+        "artifact" : "com.microsoft.azure:azure-toolkit-appservice-lib:0.46.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.microsoft.azure:azure-functions-maven-plugin:1.36.0/dependencies/com/microsoft/azure/azure-toolkit-appservice-lib/0.46.0/azure-toolkit-appservice-lib-0.46.0.jar"
+      },
+      "isTransitive" : false
+    }, {
+      "importPath" : "import static com.microsoft.azure.toolkit.lib.common.utils.Utils.selectFirstOptionIfCurrentInvalid;",
+      "artifact" : {
+        "artifact" : "com.microsoft.azure:azure-toolkit-common-lib:0.46.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.microsoft.azure:azure-functions-maven-plugin:1.36.0/dependencies/com/microsoft/azure/azure-toolkit-common-lib/0.46.0/azure-toolkit-common-lib-0.46.0.jar"
+      },
+      "isTransitive" : true
+    }, {
+      "importPath" : "import com.microsoft.azure.toolkit.lib.appservice.model.FlexConsumptionConfiguration;",
+      "artifact" : {
+        "artifact" : "com.microsoft.azure:azure-toolkit-appservice-lib:0.46.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.microsoft.azure:azure-functions-maven-plugin:1.36.0/dependencies/com/microsoft/azure/azure-toolkit-appservice-lib/0.46.0/azure-toolkit-appservice-lib-0.46.0.jar"
+      },
+      "isTransitive" : false
+    }, {
+      "importPath" : "import java.io.File;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isTransitive" : true
+    }, {
+      "importPath" : "import com.microsoft.azure.toolkit.lib.appservice.model.FunctionDeployType;",
+      "artifact" : {
+        "artifact" : "com.microsoft.azure:azure-toolkit-appservice-lib:0.46.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.microsoft.azure:azure-functions-maven-plugin:1.36.0/dependencies/com/microsoft/azure/azure-toolkit-appservice-lib/0.46.0/azure-toolkit-appservice-lib-0.46.0.jar"
+      },
+      "isTransitive" : false
+    }, {
+      "importPath" : "import com.microsoft.azure.toolkit.lib.appservice.task.DeployFunctionAppTask;",
+      "artifact" : {
+        "artifact" : "com.microsoft.azure:azure-toolkit-appservice-lib:0.46.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.microsoft.azure:azure-functions-maven-plugin:1.36.0/dependencies/com/microsoft/azure/azure-toolkit-appservice-lib/0.46.0/azure-toolkit-appservice-lib-0.46.0.jar"
+      },
+      "isTransitive" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/azure-maven-plugins/azure-functions-maven-plugin/src/main/java/com/microsoft/azure/maven/function/PackageMojo.java",
+    "useImportReport" : [ {
+      "importPath" : "import lombok.extern.slf4j.Slf4j;",
+      "artifact" : {
+        "artifact" : "org.projectlombok:lombok:1.18.24",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.microsoft.azure:azure-functions-maven-plugin:1.36.0/dependencies/org/projectlombok/lombok/1.18.24/lombok-1.18.24.jar"
+      },
+      "isTransitive" : false
+    }, {
+      "importPath" : "import org.apache.maven.plugins.annotations.Mojo;",
+      "artifact" : {
+        "artifact" : "org.apache.maven.plugin-tools:maven-plugin-annotations:3.5.2",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.microsoft.azure:azure-functions-maven-plugin:1.36.0/dependencies/org/apache/maven/plugin-tools/maven-plugin-annotations/3.5.2/maven-plugin-annotations-3.5.2.jar"
+      },
+      "isTransitive" : false
+    }, {
+      "importPath" : "import org.apache.maven.plugins.annotations.LifecyclePhase;",
+      "artifact" : {
+        "artifact" : "org.apache.maven.plugin-tools:maven-plugin-annotations:3.5.2",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.microsoft.azure:azure-functions-maven-plugin:1.36.0/dependencies/org/apache/maven/plugin-tools/maven-plugin-annotations/3.5.2/maven-plugin-annotations-3.5.2.jar"
+      },
+      "isTransitive" : false
+    }, {
+      "importPath" : "import org.apache.maven.plugins.annotations.ResolutionScope;",
+      "artifact" : {
+        "artifact" : "org.apache.maven.plugin-tools:maven-plugin-annotations:3.5.2",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.microsoft.azure:azure-functions-maven-plugin:1.36.0/dependencies/org/apache/maven/plugin-tools/maven-plugin-annotations/3.5.2/maven-plugin-annotations-3.5.2.jar"
+      },
+      "isTransitive" : false
+    }, {
+      "importPath" : "import com.microsoft.azure.toolkit.lib.legacy.function.bindings.BindingEnum;",
+      "artifact" : {
+        "artifact" : "com.microsoft.azure:azure-toolkit-appservice-lib:0.46.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.microsoft.azure:azure-functions-maven-plugin:1.36.0/dependencies/com/microsoft/azure/azure-toolkit-appservice-lib/0.46.0/azure-toolkit-appservice-lib-0.46.0.jar"
+      },
+      "isTransitive" : false
+    }, {
+      "importPath" : "import org.apache.maven.plugins.annotations.Parameter;",
+      "artifact" : {
+        "artifact" : "org.apache.maven.plugin-tools:maven-plugin-annotations:3.5.2",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.microsoft.azure:azure-functions-maven-plugin:1.36.0/dependencies/org/apache/maven/plugin-tools/maven-plugin-annotations/3.5.2/maven-plugin-annotations-3.5.2.jar"
+      },
+      "isTransitive" : false
+    }, {
+      "importPath" : "import com.microsoft.azure.toolkit.lib.common.operation.AzureOperation;",
+      "artifact" : {
+        "artifact" : "com.microsoft.azure:azure-toolkit-common-lib:0.46.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.microsoft.azure:azure-functions-maven-plugin:1.36.0/dependencies/com/microsoft/azure/azure-toolkit-common-lib/0.46.0/azure-toolkit-common-lib-0.46.0.jar"
+      },
+      "isTransitive" : true
+    }, {
+      "importPath" : "import com.microsoft.azure.toolkit.lib.common.exception.AzureExecutionException;",
+      "artifact" : {
+        "artifact" : "com.microsoft.azure:azure-toolkit-common-lib:0.46.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.microsoft.azure:azure-functions-maven-plugin:1.36.0/dependencies/com/microsoft/azure/azure-toolkit-common-lib/0.46.0/azure-toolkit-common-lib-0.46.0.jar"
+      },
+      "isTransitive" : true
+    }, {
+      "importPath" : "import com.microsoft.azure.toolkit.lib.legacy.function.handlers.AnnotationHandler;",
+      "artifact" : {
+        "artifact" : "com.microsoft.azure:azure-toolkit-appservice-lib:0.46.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.microsoft.azure:azure-functions-maven-plugin:1.36.0/dependencies/com/microsoft/azure/azure-toolkit-appservice-lib/0.46.0/azure-toolkit-appservice-lib-0.46.0.jar"
+      },
+      "isTransitive" : false
+    }, {
+      "importPath" : "import java.util.Set;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isTransitive" : true
+    }, {
+      "importPath" : "import java.lang.reflect.Method;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isTransitive" : true
+    }, {
+      "importPath" : "import java.net.MalformedURLException;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isTransitive" : true
+    }, {
+      "importPath" : "import java.util.Map;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isTransitive" : true
+    }, {
+      "importPath" : "import com.microsoft.azure.toolkit.lib.legacy.function.configurations.FunctionConfiguration;",
+      "artifact" : {
+        "artifact" : "com.microsoft.azure:azure-toolkit-appservice-lib:0.46.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.microsoft.azure:azure-functions-maven-plugin:1.36.0/dependencies/com/microsoft/azure/azure-toolkit-appservice-lib/0.46.0/azure-toolkit-appservice-lib-0.46.0.jar"
+      },
+      "isTransitive" : false
+    }, {
+      "importPath" : "import com.fasterxml.jackson.databind.ObjectWriter;",
+      "artifact" : {
+        "artifact" : "com.fasterxml.jackson.core:jackson-databind:2.17.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.microsoft.azure:azure-functions-maven-plugin:1.36.0/dependencies/com/fasterxml/jackson/core/jackson-databind/2.17.0/jackson-databind-2.17.0.jar"
+      },
+      "isTransitive" : true
+    }, {
+      "importPath" : "import java.io.IOException;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isTransitive" : true
+    }, {
+      "importPath" : "import org.apache.maven.plugin.MojoExecutionException;",
+      "artifact" : {
+        "artifact" : "org.apache.maven:maven-plugin-api:3.8.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.microsoft.azure:azure-functions-maven-plugin:1.36.0/dependencies/org/apache/maven/maven-plugin-api/3.8.1/maven-plugin-api-3.8.1.jar"
+      },
+      "isTransitive" : false
+    }, {
+      "importPath" : "import com.microsoft.azure.toolkit.lib.legacy.function.handlers.CommandHandler;",
+      "artifact" : {
+        "artifact" : "com.microsoft.azure:azure-toolkit-appservice-lib:0.46.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.microsoft.azure:azure-functions-maven-plugin:1.36.0/dependencies/com/microsoft/azure/azure-toolkit-appservice-lib/0.46.0/azure-toolkit-appservice-lib-0.46.0.jar"
+      },
+      "isTransitive" : false
+    }, {
+      "importPath" : "import com.microsoft.azure.toolkit.lib.legacy.function.handlers.CommandHandlerImpl;",
+      "artifact" : {
+        "artifact" : "com.microsoft.azure:azure-toolkit-appservice-lib:0.46.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.microsoft.azure:azure-functions-maven-plugin:1.36.0/dependencies/com/microsoft/azure/azure-toolkit-appservice-lib/0.46.0/azure-toolkit-appservice-lib-0.46.0.jar"
+      },
+      "isTransitive" : false
+    }, {
+      "importPath" : "import com.microsoft.azure.toolkit.lib.legacy.function.handlers.FunctionCoreToolsHandler;",
+      "artifact" : {
+        "artifact" : "com.microsoft.azure:azure-toolkit-appservice-lib:0.46.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.microsoft.azure:azure-functions-maven-plugin:1.36.0/dependencies/com/microsoft/azure/azure-toolkit-appservice-lib/0.46.0/azure-toolkit-appservice-lib-0.46.0.jar"
+      },
+      "isTransitive" : false
+    }, {
+      "importPath" : "import java.io.File;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isTransitive" : true
+    }, {
+      "importPath" : "import javax.annotation.Nonnull;",
+      "artifact" : {
+        "artifact" : "com.google.code.findbugs:jsr305:3.0.2",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.microsoft.azure:azure-functions-maven-plugin:1.36.0/dependencies/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar"
+      },
+      "isTransitive" : true
+    }, {
+      "importPath" : "import javax.annotation.Nullable;",
+      "artifact" : {
+        "artifact" : "com.google.code.findbugs:jsr305:3.0.2",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.microsoft.azure:azure-functions-maven-plugin:1.36.0/dependencies/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar"
+      },
+      "isTransitive" : true
+    }, {
+      "importPath" : "import com.microsoft.azure.toolkit.lib.common.messager.AzureMessager;",
+      "artifact" : {
+        "artifact" : "com.microsoft.azure:azure-toolkit-common-lib:0.46.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.microsoft.azure:azure-functions-maven-plugin:1.36.0/dependencies/com/microsoft/azure/azure-toolkit-common-lib/0.46.0/azure-toolkit-common-lib-0.46.0.jar"
+      },
+      "isTransitive" : true
+    }, {
+      "importPath" : "import org.apache.maven.plugins.shade.Shader;",
+      "artifact" : {
+        "artifact" : "org.apache.maven.plugins:maven-shade-plugin:3.4.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.microsoft.azure:azure-functions-maven-plugin:1.36.0/dependencies/org/apache/maven/plugins/maven-shade-plugin/3.4.1/maven-shade-plugin-3.4.1.jar"
+      },
+      "isTransitive" : false
+    }, {
+      "importPath" : "import org.apache.maven.plugins.shade.DefaultShader;",
+      "artifact" : {
+        "artifact" : "org.apache.maven.plugins:maven-shade-plugin:3.4.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.microsoft.azure:azure-functions-maven-plugin:1.36.0/dependencies/org/apache/maven/plugins/maven-shade-plugin/3.4.1/maven-shade-plugin-3.4.1.jar"
+      },
+      "isTransitive" : false
+    }, {
+      "importPath" : "import org.apache.maven.plugins.shade.ShadeRequest;",
+      "artifact" : {
+        "artifact" : "org.apache.maven.plugins:maven-shade-plugin:3.4.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.microsoft.azure:azure-functions-maven-plugin:1.36.0/dependencies/org/apache/maven/plugins/maven-shade-plugin/3.4.1/maven-shade-plugin-3.4.1.jar"
+      },
+      "isTransitive" : false
+    }, {
+      "importPath" : "import java.util.HashSet;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isTransitive" : true
+    }, {
+      "importPath" : "import java.util.Optional;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isTransitive" : true
+    }, {
+      "importPath" : "import java.util.Collections;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isTransitive" : true
+    }, {
+      "importPath" : "import com.microsoft.azure.toolkit.lib.common.exception.AzureToolkitRuntimeException;",
+      "artifact" : {
+        "artifact" : "com.microsoft.azure:azure-toolkit-common-lib:0.46.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.microsoft.azure:azure-functions-maven-plugin:1.36.0/dependencies/com/microsoft/azure/azure-toolkit-common-lib/0.46.0/azure-toolkit-common-lib-0.46.0.jar"
+      },
+      "isTransitive" : true
+    }, {
+      "importPath" : "import com.microsoft.azure.toolkit.lib.common.bundle.AzureString;",
+      "artifact" : {
+        "artifact" : "com.microsoft.azure:azure-toolkit-common-lib:0.46.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.microsoft.azure:azure-functions-maven-plugin:1.36.0/dependencies/com/microsoft/azure/azure-toolkit-common-lib/0.46.0/azure-toolkit-common-lib-0.46.0.jar"
+      },
+      "isTransitive" : true
+    }, {
+      "importPath" : "import java.util.List;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isTransitive" : true
+    }, {
+      "importPath" : "import org.apache.maven.plugins.shade.resource.ResourceTransformer;",
+      "artifact" : {
+        "artifact" : "org.apache.maven.plugins:maven-shade-plugin:3.4.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.microsoft.azure:azure-functions-maven-plugin:1.36.0/dependencies/org/apache/maven/plugins/maven-shade-plugin/3.4.1/maven-shade-plugin-3.4.1.jar"
+      },
+      "isTransitive" : false
+    }, {
+      "importPath" : "import java.util.Arrays;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isTransitive" : true
+    }, {
+      "importPath" : "import org.apache.maven.plugins.shade.resource.ServicesResourceTransformer;",
+      "artifact" : {
+        "artifact" : "org.apache.maven.plugins:maven-shade-plugin:3.4.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.microsoft.azure:azure-functions-maven-plugin:1.36.0/dependencies/org/apache/maven/plugins/maven-shade-plugin/3.4.1/maven-shade-plugin-3.4.1.jar"
+      },
+      "isTransitive" : false
+    }, {
+      "importPath" : "import org.apache.maven.plugins.shade.resource.ApacheLicenseResourceTransformer;",
+      "artifact" : {
+        "artifact" : "org.apache.maven.plugins:maven-shade-plugin:3.4.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.microsoft.azure:azure-functions-maven-plugin:1.36.0/dependencies/org/apache/maven/plugins/maven-shade-plugin/3.4.1/maven-shade-plugin-3.4.1.jar"
+      },
+      "isTransitive" : false
+    }, {
+      "importPath" : "import org.apache.maven.plugins.shade.resource.ApacheNoticeResourceTransformer;",
+      "artifact" : {
+        "artifact" : "org.apache.maven.plugins:maven-shade-plugin:3.4.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.microsoft.azure:azure-functions-maven-plugin:1.36.0/dependencies/org/apache/maven/plugins/maven-shade-plugin/3.4.1/maven-shade-plugin-3.4.1.jar"
+      },
+      "isTransitive" : false
+    }, {
+      "importPath" : "import org.apache.maven.plugins.shade.filter.Filter;",
+      "artifact" : {
+        "artifact" : "org.apache.maven.plugins:maven-shade-plugin:3.4.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.microsoft.azure:azure-functions-maven-plugin:1.36.0/dependencies/org/apache/maven/plugins/maven-shade-plugin/3.4.1/maven-shade-plugin-3.4.1.jar"
+      },
+      "isTransitive" : false
+    }, {
+      "importPath" : "import org.apache.maven.plugins.shade.filter.SimpleFilter;",
+      "artifact" : {
+        "artifact" : "org.apache.maven.plugins:maven-shade-plugin:3.4.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.microsoft.azure:azure-functions-maven-plugin:1.36.0/dependencies/org/apache/maven/plugins/maven-shade-plugin/3.4.1/maven-shade-plugin-3.4.1.jar"
+      },
+      "isTransitive" : false
+    }, {
+      "importPath" : "import org.apache.commons.collections4.SetUtils;",
+      "artifact" : {
+        "artifact" : "org.apache.commons:commons-collections4:4.4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.microsoft.azure:azure-functions-maven-plugin:1.36.0/dependencies/org/apache/commons/commons-collections4/4.4/commons-collections4-4.4.jar"
+      },
+      "isTransitive" : true
+    }, {
+      "importPath" : "import com.microsoft.azure.toolkit.lib.legacy.function.handlers.AnnotationHandlerImpl;",
+      "artifact" : {
+        "artifact" : "com.microsoft.azure:azure-toolkit-appservice-lib:0.46.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.microsoft.azure:azure-functions-maven-plugin:1.36.0/dependencies/com/microsoft/azure/azure-toolkit-appservice-lib/0.46.0/azure-toolkit-appservice-lib-0.46.0.jar"
+      },
+      "isTransitive" : false
+    }, {
+      "importPath" : "import java.net.URL;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isTransitive" : true
+    }, {
+      "importPath" : "import java.util.ArrayList;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isTransitive" : true
+    }, {
+      "importPath" : "import org.apache.maven.artifact.DependencyResolutionRequiredException;",
+      "artifact" : {
+        "artifact" : "org.apache.maven:maven-core:3.8.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.microsoft.azure:azure-functions-maven-plugin:1.36.0/dependencies/org/apache/maven/maven-core/3.8.1/maven-core-3.8.1.jar"
+      },
+      "isTransitive" : false
+    }, {
+      "importPath" : "import java.nio.file.Paths;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isTransitive" : true
+    }, {
+      "importPath" : "import org.apache.commons.io.FileUtils;",
+      "artifact" : {
+        "artifact" : "commons-io:commons-io:2.16.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.microsoft.azure:azure-functions-maven-plugin:1.36.0/dependencies/commons-io/commons-io/2.16.0/commons-io-2.16.0.jar"
+      },
+      "isTransitive" : true
+    }, {
+      "importPath" : "import java.nio.charset.Charset;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isTransitive" : true
+    }, {
+      "importPath" : "import com.fasterxml.jackson.core.util.DefaultPrettyPrinter;",
+      "artifact" : {
+        "artifact" : "com.fasterxml.jackson.core:jackson-core:2.17.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.microsoft.azure:azure-functions-maven-plugin:1.36.0/dependencies/com/fasterxml/jackson/core/jackson-core/2.17.0/jackson-core-2.17.0.jar"
+      },
+      "isTransitive" : true
+    }, {
+      "importPath" : "import com.fasterxml.jackson.core.util.DefaultIndenter;",
+      "artifact" : {
+        "artifact" : "com.fasterxml.jackson.core:jackson-core:2.17.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.microsoft.azure:azure-functions-maven-plugin:1.36.0/dependencies/com/fasterxml/jackson/core/jackson-core/2.17.0/jackson-core-2.17.0.jar"
+      },
+      "isTransitive" : true
+    }, {
+      "importPath" : "import org.apache.commons.lang3.StringUtils;",
+      "artifact" : {
+        "artifact" : "org.apache.commons:commons-lang3:3.14.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.microsoft.azure:azure-functions-maven-plugin:1.36.0/dependencies/org/apache/commons/commons-lang3/3.14.0/commons-lang3-3.14.0.jar"
+      },
+      "isTransitive" : true
+    }, {
+      "importPath" : "import com.fasterxml.jackson.core.PrettyPrinter;",
+      "artifact" : {
+        "artifact" : "com.fasterxml.jackson.core:jackson-core:2.17.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.microsoft.azure:azure-functions-maven-plugin:1.36.0/dependencies/com/fasterxml/jackson/core/jackson-core/2.17.0/jackson-core-2.17.0.jar"
+      },
+      "isTransitive" : true
+    }, {
+      "importPath" : "import com.fasterxml.jackson.databind.ObjectMapper;",
+      "artifact" : {
+        "artifact" : "com.fasterxml.jackson.core:jackson-databind:2.17.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.microsoft.azure:azure-functions-maven-plugin:1.36.0/dependencies/com/fasterxml/jackson/core/jackson-databind/2.17.0/jackson-databind-2.17.0.jar"
+      },
+      "isTransitive" : true
+    }, {
+      "importPath" : "import com.fasterxml.jackson.databind.SerializationFeature;",
+      "artifact" : {
+        "artifact" : "com.fasterxml.jackson.core:jackson-databind:2.17.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.microsoft.azure:azure-functions-maven-plugin:1.36.0/dependencies/com/fasterxml/jackson/core/jackson-databind/2.17.0/jackson-databind-2.17.0.jar"
+      },
+      "isTransitive" : true
+    }, {
+      "importPath" : "import com.fasterxml.jackson.annotation.JsonInclude;",
+      "artifact" : {
+        "artifact" : "com.fasterxml.jackson.core:jackson-annotations:2.17.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.microsoft.azure:azure-functions-maven-plugin:1.36.0/dependencies/com/fasterxml/jackson/core/jackson-annotations/2.17.0/jackson-annotations-2.17.0.jar"
+      },
+      "isTransitive" : true
+    }, {
+      "importPath" : "import org.apache.maven.artifact.Artifact;",
+      "artifact" : {
+        "artifact" : "org.apache.maven:maven-compat:3.8.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.microsoft.azure:azure-functions-maven-plugin:1.36.0/dependencies/org/apache/maven/maven-compat/3.8.1/maven-compat-3.8.1.jar"
+      },
+      "isTransitive" : false
+    }, {
+      "importPath" : "import org.apache.maven.artifact.Artifact;",
+      "artifact" : {
+        "artifact" : "org.apache.maven:maven-artifact:3.8.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.microsoft.azure:azure-functions-maven-plugin:1.36.0/dependencies/org/apache/maven/maven-artifact/3.8.1/maven-artifact-3.8.1.jar"
+      },
+      "isTransitive" : true
+    }, {
+      "importPath" : "import java.util.stream.Collectors;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isTransitive" : true
+    }, {
+      "importPath" : "import org.apache.commons.io.FilenameUtils;",
+      "artifact" : {
+        "artifact" : "commons-io:commons-io:2.16.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.microsoft.azure:azure-functions-maven-plugin:1.36.0/dependencies/commons-io/commons-io/2.16.0/commons-io-2.16.0.jar"
+      },
+      "isTransitive" : true
+    }, {
+      "importPath" : "import com.microsoft.azure.maven.model.DeploymentResource;",
+      "artifact" : {
+        "artifact" : "com.microsoft.azure:azure-maven-plugin-lib:1.39.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.microsoft.azure:azure-functions-maven-plugin:1.36.0/dependencies/com/microsoft/azure/azure-maven-plugin-lib/1.39.0/azure-maven-plugin-lib-1.39.0.jar"
+      },
+      "isTransitive" : false
+    }, {
+      "importPath" : "import com.microsoft.azure.toolkit.lib.legacy.function.handlers.FunctionCoreToolsHandlerImpl;",
+      "artifact" : {
+        "artifact" : "com.microsoft.azure:azure-toolkit-appservice-lib:0.46.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.microsoft.azure:azure-functions-maven-plugin:1.36.0/dependencies/com/microsoft/azure/azure-toolkit-appservice-lib/0.46.0/azure-toolkit-appservice-lib-0.46.0.jar"
+      },
+      "isTransitive" : false
+    }, {
+      "importPath" : "import org.apache.commons.lang3.BooleanUtils;",
+      "artifact" : {
+        "artifact" : "org.apache.commons:commons-lang3:3.14.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.microsoft.azure:azure-functions-maven-plugin:1.36.0/dependencies/org/apache/commons/commons-lang3/3.14.0/commons-lang3-3.14.0.jar"
+      },
+      "isTransitive" : true
+    }, {
+      "importPath" : "import com.fasterxml.jackson.databind.JsonNode;",
+      "artifact" : {
+        "artifact" : "com.fasterxml.jackson.core:jackson-databind:2.17.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.microsoft.azure:azure-functions-maven-plugin:1.36.0/dependencies/com/fasterxml/jackson/core/jackson-databind/2.17.0/jackson-databind-2.17.0.jar"
+      },
+      "isTransitive" : true
+    }, {
+      "importPath" : "import com.microsoft.azure.toolkit.lib.common.utils.Utils;",
+      "artifact" : {
+        "artifact" : "com.microsoft.azure:azure-toolkit-common-lib:0.46.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.microsoft.azure:azure-functions-maven-plugin:1.36.0/dependencies/com/microsoft/azure/azure-toolkit-common-lib/0.46.0/azure-toolkit-common-lib-0.46.0.jar"
+      },
+      "isTransitive" : true
+    }, {
+      "importPath" : "import com.microsoft.azure.toolkit.lib.legacy.function.bindings.Binding;",
+      "artifact" : {
+        "artifact" : "com.microsoft.azure:azure-toolkit-appservice-lib:0.46.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.microsoft.azure:azure-functions-maven-plugin:1.36.0/dependencies/com/microsoft/azure/azure-toolkit-appservice-lib/0.46.0/azure-toolkit-appservice-lib-0.46.0.jar"
+      },
+      "isTransitive" : false
+    }, {
+      "importPath" : "import java.util.Objects;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isTransitive" : true
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ {
+      "importPath" : "com.microsoft.azure.toolkit.lib.appservice.utils.Utils",
+      "artifact" : {
+        "artifact" : "com.microsoft.azure:azure-toolkit-appservice-lib:0.46.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.microsoft.azure:azure-functions-maven-plugin:1.36.0/dependencies/com/microsoft/azure/azure-toolkit-appservice-lib/0.46.0/azure-toolkit-appservice-lib-0.46.0.jar"
+      },
+      "isTransitive" : false
+    } ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/azure-maven-plugins/azure-functions-maven-plugin/src/main/java/com/microsoft/azure/maven/function/AddMojo.java",
+    "useImportReport" : [ {
+      "importPath" : "import lombok.extern.slf4j.Slf4j;",
+      "artifact" : {
+        "artifact" : "org.projectlombok:lombok:1.18.24",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.microsoft.azure:azure-functions-maven-plugin:1.36.0/dependencies/org/projectlombok/lombok/1.18.24/lombok-1.18.24.jar"
+      },
+      "isTransitive" : false
+    }, {
+      "importPath" : "import org.apache.maven.plugins.annotations.Mojo;",
+      "artifact" : {
+        "artifact" : "org.apache.maven.plugin-tools:maven-plugin-annotations:3.5.2",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.microsoft.azure:azure-functions-maven-plugin:1.36.0/dependencies/org/apache/maven/plugin-tools/maven-plugin-annotations/3.5.2/maven-plugin-annotations-3.5.2.jar"
+      },
+      "isTransitive" : false
+    }, {
+      "importPath" : "import java.io.File;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isTransitive" : true
+    }, {
+      "importPath" : "import org.apache.maven.plugins.annotations.Parameter;",
+      "artifact" : {
+        "artifact" : "org.apache.maven.plugin-tools:maven-plugin-annotations:3.5.2",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.microsoft.azure:azure-functions-maven-plugin:1.36.0/dependencies/org/apache/maven/plugin-tools/maven-plugin-annotations/3.5.2/maven-plugin-annotations-3.5.2.jar"
+      },
+      "isTransitive" : false
+    }, {
+      "importPath" : "import java.util.List;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isTransitive" : true
+    }, {
+      "importPath" : "import java.nio.file.Paths;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isTransitive" : true
+    }, {
+      "importPath" : "import org.apache.commons.lang3.StringUtils;",
+      "artifact" : {
+        "artifact" : "org.apache.commons:commons-lang3:3.14.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.microsoft.azure:azure-functions-maven-plugin:1.36.0/dependencies/org/apache/commons/commons-lang3/3.14.0/commons-lang3-3.14.0.jar"
+      },
+      "isTransitive" : true
+    }, {
+      "importPath" : "import com.microsoft.azure.toolkit.lib.common.operation.AzureOperation;",
+      "artifact" : {
+        "artifact" : "com.microsoft.azure:azure-toolkit-common-lib:0.46.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.microsoft.azure:azure-functions-maven-plugin:1.36.0/dependencies/com/microsoft/azure/azure-toolkit-common-lib/0.46.0/azure-toolkit-common-lib-0.46.0.jar"
+      },
+      "isTransitive" : true
+    }, {
+      "importPath" : "import com.microsoft.azure.toolkit.lib.common.exception.AzureExecutionException;",
+      "artifact" : {
+        "artifact" : "com.microsoft.azure:azure-toolkit-common-lib:0.46.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.microsoft.azure:azure-functions-maven-plugin:1.36.0/dependencies/com/microsoft/azure/azure-toolkit-common-lib/0.46.0/azure-toolkit-common-lib-0.46.0.jar"
+      },
+      "isTransitive" : true
+    }, {
+      "importPath" : "import com.microsoft.azure.toolkit.lib.legacy.function.configurations.FunctionExtensionVersion;",
+      "artifact" : {
+        "artifact" : "com.microsoft.azure:azure-toolkit-appservice-lib:0.46.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.microsoft.azure:azure-functions-maven-plugin:1.36.0/dependencies/com/microsoft/azure/azure-toolkit-appservice-lib/0.46.0/azure-toolkit-appservice-lib-0.46.0.jar"
+      },
+      "isTransitive" : false
+    }, {
+      "importPath" : "import com.microsoft.azure.toolkit.lib.legacy.function.template.FunctionTemplate;",
+      "artifact" : {
+        "artifact" : "com.microsoft.azure:azure-toolkit-appservice-lib:0.46.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.microsoft.azure:azure-functions-maven-plugin:1.36.0/dependencies/com/microsoft/azure/azure-toolkit-appservice-lib/0.46.0/azure-toolkit-appservice-lib-0.46.0.jar"
+      },
+      "isTransitive" : false
+    }, {
+      "importPath" : "import com.microsoft.azure.toolkit.lib.legacy.function.template.BindingTemplate;",
+      "artifact" : {
+        "artifact" : "com.microsoft.azure:azure-toolkit-appservice-lib:0.46.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.microsoft.azure:azure-functions-maven-plugin:1.36.0/dependencies/com/microsoft/azure/azure-toolkit-appservice-lib/0.46.0/azure-toolkit-appservice-lib-0.46.0.jar"
+      },
+      "isTransitive" : false
+    }, {
+      "importPath" : "import com.microsoft.azure.toolkit.lib.legacy.function.utils.FunctionUtils;",
+      "artifact" : {
+        "artifact" : "com.microsoft.azure:azure-toolkit-appservice-lib:0.46.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.microsoft.azure:azure-functions-maven-plugin:1.36.0/dependencies/com/microsoft/azure/azure-toolkit-appservice-lib/0.46.0/azure-toolkit-appservice-lib-0.46.0.jar"
+      },
+      "isTransitive" : false
+    }, {
+      "importPath" : "import java.util.Map;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isTransitive" : true
+    }, {
+      "importPath" : "import org.apache.maven.plugin.MojoFailureException;",
+      "artifact" : {
+        "artifact" : "org.apache.maven:maven-plugin-api:3.8.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.microsoft.azure:azure-functions-maven-plugin:1.36.0/dependencies/org/apache/maven/maven-plugin-api/3.8.1/maven-plugin-api-3.8.1.jar"
+      },
+      "isTransitive" : false
+    }, {
+      "importPath" : "import java.io.IOException;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isTransitive" : true
+    }, {
+      "importPath" : "import org.apache.commons.lang3.ObjectUtils;",
+      "artifact" : {
+        "artifact" : "org.apache.commons:commons-lang3:3.14.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.microsoft.azure:azure-functions-maven-plugin:1.36.0/dependencies/org/apache/commons/commons-lang3/3.14.0/commons-lang3-3.14.0.jar"
+      },
+      "isTransitive" : true
+    }, {
+      "importPath" : "import java.util.stream.Collectors;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isTransitive" : true
+    }, {
+      "importPath" : "import java.util.Objects;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isTransitive" : true
+    }, {
+      "importPath" : "import java.util.Optional;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isTransitive" : true
+    }, {
+      "importPath" : "import com.microsoft.azure.toolkit.lib.legacy.function.template.BindingConfiguration;",
+      "artifact" : {
+        "artifact" : "com.microsoft.azure:azure-toolkit-appservice-lib:0.46.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.microsoft.azure:azure-functions-maven-plugin:1.36.0/dependencies/com/microsoft/azure/azure-toolkit-appservice-lib/0.46.0/azure-toolkit-appservice-lib-0.46.0.jar"
+      },
+      "isTransitive" : false
+    }, {
+      "importPath" : "import java.util.LinkedHashMap;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isTransitive" : true
+    }, {
+      "importPath" : "import static javax.lang.model.SourceVersion.isName;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isTransitive" : true
+    }, {
+      "importPath" : "import java.util.Collections;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isTransitive" : true
+    }, {
+      "importPath" : "import com.microsoft.azure.toolkit.lib.legacy.function.template.FunctionSettingTemplate;",
+      "artifact" : {
+        "artifact" : "com.microsoft.azure:azure-toolkit-appservice-lib:0.46.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.microsoft.azure:azure-functions-maven-plugin:1.36.0/dependencies/com/microsoft/azure/azure-toolkit-appservice-lib/0.46.0/azure-toolkit-appservice-lib-0.46.0.jar"
+      },
+      "isTransitive" : false
+    }, {
+      "importPath" : "import static java.lang.String.format;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isTransitive" : true
+    }, {
+      "importPath" : "import com.microsoft.azure.toolkit.lib.legacy.function.template.TemplateResources;",
+      "artifact" : {
+        "artifact" : "com.microsoft.azure:azure-toolkit-appservice-lib:0.46.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.microsoft.azure:azure-functions-maven-plugin:1.36.0/dependencies/com/microsoft/azure/azure-toolkit-appservice-lib/0.46.0/azure-toolkit-appservice-lib-0.46.0.jar"
+      },
+      "isTransitive" : false
+    }, {
+      "importPath" : "import java.util.function.Function;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isTransitive" : true
+    }, {
+      "importPath" : "import java.util.Scanner;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isTransitive" : true
+    }, {
+      "importPath" : "import static java.lang.System.out;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isTransitive" : true
+    }, {
+      "importPath" : "import java.io.OutputStream;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isTransitive" : true
+    }, {
+      "importPath" : "import java.io.FileOutputStream;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isTransitive" : true
+    }, {
+      "importPath" : "import org.codehaus.plexus.util.IOUtil;",
+      "artifact" : {
+        "artifact" : "org.codehaus.plexus:plexus-utils:3.4.2",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.microsoft.azure:azure-functions-maven-plugin:1.36.0/dependencies/org/codehaus/plexus/plexus-utils/3.4.2/plexus-utils-3.4.2.jar"
+      },
+      "isTransitive" : false
+    }, {
+      "importPath" : "import java.util.function.Consumer;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isTransitive" : true
+    }, {
+      "importPath" : "import javax.annotation.Nullable;",
+      "artifact" : {
+        "artifact" : "com.google.code.findbugs:jsr305:3.0.2",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.microsoft.azure:azure-functions-maven-plugin:1.36.0/dependencies/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar"
+      },
+      "isTransitive" : true
+    }, {
+      "importPath" : "import java.util.Arrays;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isTransitive" : true
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/azure-maven-plugins/azure-functions-maven-plugin/src/main/java/com/microsoft/azure/maven/function/AbstractFunctionMojo.java",
+    "useImportReport" : [ {
+      "importPath" : "import com.microsoft.azure.maven.appservice.AbstractAppServiceMojo;",
+      "artifact" : {
+        "artifact" : "com.microsoft.azure:azure-appservice-maven-plugin-lib:1.39.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.microsoft.azure:azure-functions-maven-plugin:1.36.0/dependencies/com/microsoft/azure/azure-appservice-maven-plugin-lib/1.39.0/azure-appservice-maven-plugin-lib-1.39.0.jar"
+      },
+      "isTransitive" : false
+    }, {
+      "importPath" : "import java.util.Map;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isTransitive" : true
+    }, {
+      "importPath" : "import com.microsoft.azure.toolkit.lib.legacy.function.configurations.FunctionExtensionVersion;",
+      "artifact" : {
+        "artifact" : "com.microsoft.azure:azure-toolkit-appservice-lib:0.46.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.microsoft.azure:azure-functions-maven-plugin:1.36.0/dependencies/com/microsoft/azure/azure-toolkit-appservice-lib/0.46.0/azure-toolkit-appservice-lib-0.46.0.jar"
+      },
+      "isTransitive" : false
+    }, {
+      "importPath" : "import java.util.Set;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isTransitive" : true
+    }, {
+      "importPath" : "import java.util.HashMap;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isTransitive" : true
+    }, {
+      "importPath" : "import com.google.common.collect.Sets;",
+      "artifact" : {
+        "artifact" : "com.google.guava:guava:33.1.0-jre",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.microsoft.azure:azure-functions-maven-plugin:1.36.0/dependencies/com/google/guava/guava/33.1.0-jre/guava-33.1.0-jre.jar"
+      },
+      "isTransitive" : true
+    }, {
+      "importPath" : "import org.apache.maven.plugins.annotations.Parameter;",
+      "artifact" : {
+        "artifact" : "org.apache.maven.plugin-tools:maven-plugin-annotations:3.5.2",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.microsoft.azure:azure-functions-maven-plugin:1.36.0/dependencies/org/apache/maven/plugin-tools/maven-plugin-annotations/3.5.2/maven-plugin-annotations-3.5.2.jar"
+      },
+      "isTransitive" : false
+    }, {
+      "importPath" : "import java.io.File;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isTransitive" : true
+    }, {
+      "importPath" : "import lombok.Getter;",
+      "artifact" : {
+        "artifact" : "org.projectlombok:lombok:1.18.24",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.microsoft.azure:azure-functions-maven-plugin:1.36.0/dependencies/org/projectlombok/lombok/1.18.24/lombok-1.18.24.jar"
+      },
+      "isTransitive" : false
+    }, {
+      "importPath" : "import com.microsoft.azure.toolkit.lib.legacy.function.configurations.RuntimeConfiguration;",
+      "artifact" : {
+        "artifact" : "com.microsoft.azure:azure-toolkit-appservice-lib:0.46.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.microsoft.azure:azure-functions-maven-plugin:1.36.0/dependencies/com/microsoft/azure/azure-toolkit-appservice-lib/0.46.0/azure-toolkit-appservice-lib-0.46.0.jar"
+      },
+      "isTransitive" : false
+    }, {
+      "importPath" : "import com.fasterxml.jackson.annotation.JsonProperty;",
+      "artifact" : {
+        "artifact" : "com.fasterxml.jackson.core:jackson-annotations:2.17.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.microsoft.azure:azure-functions-maven-plugin:1.36.0/dependencies/com/fasterxml/jackson/core/jackson-annotations/2.17.0/jackson-annotations-2.17.0.jar"
+      },
+      "isTransitive" : true
+    }, {
+      "importPath" : "import org.apache.commons.lang3.BooleanUtils;",
+      "artifact" : {
+        "artifact" : "org.apache.commons:commons-lang3:3.14.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.microsoft.azure:azure-functions-maven-plugin:1.36.0/dependencies/org/apache/commons/commons-lang3/3.14.0/commons-lang3-3.14.0.jar"
+      },
+      "isTransitive" : true
+    }, {
+      "importPath" : "import javax.annotation.Nonnull;",
+      "artifact" : {
+        "artifact" : "com.google.code.findbugs:jsr305:3.0.2",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.microsoft.azure:azure-functions-maven-plugin:1.36.0/dependencies/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar"
+      },
+      "isTransitive" : true
+    }, {
+      "importPath" : "import com.microsoft.azure.toolkit.lib.common.exception.AzureToolkitRuntimeException;",
+      "artifact" : {
+        "artifact" : "com.microsoft.azure:azure-toolkit-common-lib:0.46.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.microsoft.azure:azure-functions-maven-plugin:1.36.0/dependencies/com/microsoft/azure/azure-toolkit-common-lib/0.46.0/azure-toolkit-common-lib-0.46.0.jar"
+      },
+      "isTransitive" : true
+    }, {
+      "importPath" : "import org.apache.commons.lang3.StringUtils;",
+      "artifact" : {
+        "artifact" : "org.apache.commons:commons-lang3:3.14.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.microsoft.azure:azure-functions-maven-plugin:1.36.0/dependencies/org/apache/commons/commons-lang3/3.14.0/commons-lang3-3.14.0.jar"
+      },
+      "isTransitive" : true
+    }, {
+      "importPath" : "import org.apache.maven.artifact.Artifact;",
+      "artifact" : {
+        "artifact" : "org.apache.maven:maven-compat:3.8.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.microsoft.azure:azure-functions-maven-plugin:1.36.0/dependencies/org/apache/maven/maven-compat/3.8.1/maven-compat-3.8.1.jar"
+      },
+      "isTransitive" : false
+    }, {
+      "importPath" : "import org.apache.maven.artifact.Artifact;",
+      "artifact" : {
+        "artifact" : "org.apache.maven:maven-artifact:3.8.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.microsoft.azure:azure-functions-maven-plugin:1.36.0/dependencies/org/apache/maven/maven-artifact/3.8.1/maven-artifact-3.8.1.jar"
+      },
+      "isTransitive" : true
+    }, {
+      "importPath" : "import org.apache.commons.io.FilenameUtils;",
+      "artifact" : {
+        "artifact" : "commons-io:commons-io:2.16.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.microsoft.azure:azure-functions-maven-plugin:1.36.0/dependencies/commons-io/commons-io/2.16.0/commons-io-2.16.0.jar"
+      },
+      "isTransitive" : true
+    }, {
+      "importPath" : "import java.nio.file.Path;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isTransitive" : true
+    }, {
+      "importPath" : "import java.nio.file.Paths;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isTransitive" : true
+    }, {
+      "importPath" : "import java.util.Optional;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isTransitive" : true
+    }, {
+      "importPath" : "import com.azure.core.implementation.SemanticVersion;",
+      "artifact" : {
+        "artifact" : "com.azure:azure-core:1.47.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.microsoft.azure:azure-functions-maven-plugin:1.36.0/dependencies/com/azure/azure-core/1.47.0/azure-core-1.47.0.jar"
+      },
+      "isTransitive" : true
+    }, {
+      "importPath" : "import java.util.stream.Collectors;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isTransitive" : true
+    }, {
+      "importPath" : "import com.microsoft.azure.toolkit.lib.common.messager.AzureMessager;",
+      "artifact" : {
+        "artifact" : "com.microsoft.azure:azure-toolkit-common-lib:0.46.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.microsoft.azure:azure-functions-maven-plugin:1.36.0/dependencies/com/microsoft/azure/azure-toolkit-common-lib/0.46.0/azure-toolkit-common-lib-0.46.0.jar"
+      },
+      "isTransitive" : true
+    }, {
+      "importPath" : "import com.microsoft.azure.toolkit.lib.common.bundle.AzureString;",
+      "artifact" : {
+        "artifact" : "com.microsoft.azure:azure-toolkit-common-lib:0.46.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.microsoft.azure:azure-functions-maven-plugin:1.36.0/dependencies/com/microsoft/azure/azure-toolkit-common-lib/0.46.0/azure-toolkit-common-lib-0.46.0.jar"
+      },
+      "isTransitive" : true
+    }, {
+      "importPath" : "import javax.annotation.Nullable;",
+      "artifact" : {
+        "artifact" : "com.google.code.findbugs:jsr305:3.0.2",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.microsoft.azure:azure-functions-maven-plugin:1.36.0/dependencies/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar"
+      },
+      "isTransitive" : true
+    }, {
+      "importPath" : "import com.fasterxml.jackson.databind.JsonNode;",
+      "artifact" : {
+        "artifact" : "com.fasterxml.jackson.core:jackson-databind:2.17.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.microsoft.azure:azure-functions-maven-plugin:1.36.0/dependencies/com/fasterxml/jackson/core/jackson-databind/2.17.0/jackson-databind-2.17.0.jar"
+      },
+      "isTransitive" : true
+    }, {
+      "importPath" : "import java.io.FileInputStream;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isTransitive" : true
+    }, {
+      "importPath" : "import org.apache.commons.io.IOUtils;",
+      "artifact" : {
+        "artifact" : "commons-io:commons-io:2.16.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.microsoft.azure:azure-functions-maven-plugin:1.36.0/dependencies/commons-io/commons-io/2.16.0/commons-io-2.16.0.jar"
+      },
+      "isTransitive" : true
+    }, {
+      "importPath" : "import java.nio.charset.Charset;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isTransitive" : true
+    }, {
+      "importPath" : "import com.microsoft.azure.toolkit.lib.common.utils.JsonUtils;",
+      "artifact" : {
+        "artifact" : "com.microsoft.azure:azure-toolkit-common-lib:0.46.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.microsoft.azure:azure-functions-maven-plugin:1.36.0/dependencies/com/microsoft/azure/azure-toolkit-common-lib/0.46.0/azure-toolkit-common-lib-0.46.0.jar"
+      },
+      "isTransitive" : true
+    }, {
+      "importPath" : "import java.io.IOException;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isTransitive" : true
+    }, {
+      "importPath" : "import com.microsoft.azure.toolkit.lib.legacy.function.utils.FunctionUtils;",
+      "artifact" : {
+        "artifact" : "com.microsoft.azure:azure-toolkit-appservice-lib:0.46.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.microsoft.azure:azure-functions-maven-plugin:1.36.0/dependencies/com/microsoft/azure/azure-toolkit-appservice-lib/0.46.0/azure-toolkit-appservice-lib-0.46.0.jar"
+      },
+      "isTransitive" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/azure-maven-plugins/azure-functions-maven-plugin/src/main/java/com/microsoft/azure/maven/function/ConfigParser.java",
+    "useImportReport" : [ {
+      "importPath" : "import com.microsoft.azure.toolkit.lib.appservice.config.FunctionAppConfig;",
+      "artifact" : {
+        "artifact" : "com.microsoft.azure:azure-toolkit-appservice-lib:0.46.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.microsoft.azure:azure-functions-maven-plugin:1.36.0/dependencies/com/microsoft/azure/azure-toolkit-appservice-lib/0.46.0/azure-toolkit-appservice-lib-0.46.0.jar"
+      },
+      "isTransitive" : false
+    }, {
+      "importPath" : "import org.apache.commons.lang3.StringUtils;",
+      "artifact" : {
+        "artifact" : "org.apache.commons:commons-lang3:3.14.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.microsoft.azure:azure-functions-maven-plugin:1.36.0/dependencies/org/apache/commons/commons-lang3/3.14.0/commons-lang3-3.14.0.jar"
+      },
+      "isTransitive" : true
+    }, {
+      "importPath" : "import com.microsoft.azure.toolkit.lib.appservice.model.ContainerAppFunctionConfiguration;",
+      "artifact" : {
+        "artifact" : "com.microsoft.azure:azure-toolkit-appservice-lib:0.46.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.microsoft.azure:azure-functions-maven-plugin:1.36.0/dependencies/com/microsoft/azure/azure-toolkit-appservice-lib/0.46.0/azure-toolkit-appservice-lib-0.46.0.jar"
+      },
+      "isTransitive" : false
+    }, {
+      "importPath" : "import java.util.Optional;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isTransitive" : true
+    }, {
+      "importPath" : "import com.microsoft.azure.toolkit.lib.appservice.model.FlexConsumptionConfiguration;",
+      "artifact" : {
+        "artifact" : "com.microsoft.azure:azure-toolkit-appservice-lib:0.46.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.microsoft.azure:azure-functions-maven-plugin:1.36.0/dependencies/com/microsoft/azure/azure-toolkit-appservice-lib/0.46.0/azure-toolkit-appservice-lib-0.46.0.jar"
+      },
+      "isTransitive" : false
+    }, {
+      "importPath" : "import com.microsoft.azure.toolkit.lib.appservice.model.StorageAuthenticationMethod;",
+      "artifact" : {
+        "artifact" : "com.microsoft.azure:azure-toolkit-appservice-lib:0.46.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.microsoft.azure:azure-functions-maven-plugin:1.36.0/dependencies/com/microsoft/azure/azure-toolkit-appservice-lib/0.46.0/azure-toolkit-appservice-lib-0.46.0.jar"
+      },
+      "isTransitive" : false
+    }, {
+      "importPath" : "import com.microsoft.azure.toolkit.lib.appservice.plan.AppServicePlan;",
+      "artifact" : {
+        "artifact" : "com.microsoft.azure:azure-toolkit-appservice-lib:0.46.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.microsoft.azure:azure-functions-maven-plugin:1.36.0/dependencies/com/microsoft/azure/azure-toolkit-appservice-lib/0.46.0/azure-toolkit-appservice-lib-0.46.0.jar"
+      },
+      "isTransitive" : false
+    }, {
+      "importPath" : "import com.microsoft.azure.toolkit.lib.Azure;",
+      "artifact" : {
+        "artifact" : "com.microsoft.azure:azure-toolkit-common-lib:0.46.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.microsoft.azure:azure-functions-maven-plugin:1.36.0/dependencies/com/microsoft/azure/azure-toolkit-common-lib/0.46.0/azure-toolkit-common-lib-0.46.0.jar"
+      },
+      "isTransitive" : true
+    }, {
+      "importPath" : "import com.microsoft.azure.toolkit.lib.appservice.AzureAppService;",
+      "artifact" : {
+        "artifact" : "com.microsoft.azure:azure-toolkit-appservice-lib:0.46.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.microsoft.azure:azure-functions-maven-plugin:1.36.0/dependencies/com/microsoft/azure/azure-toolkit-appservice-lib/0.46.0/azure-toolkit-appservice-lib-0.46.0.jar"
+      },
+      "isTransitive" : false
+    }, {
+      "importPath" : "import com.microsoft.azure.toolkit.lib.appservice.config.RuntimeConfig;",
+      "artifact" : {
+        "artifact" : "com.microsoft.azure:azure-toolkit-appservice-lib:0.46.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.microsoft.azure:azure-functions-maven-plugin:1.36.0/dependencies/com/microsoft/azure/azure-toolkit-appservice-lib/0.46.0/azure-toolkit-appservice-lib-0.46.0.jar"
+      },
+      "isTransitive" : false
+    }, {
+      "importPath" : "import com.microsoft.azure.toolkit.lib.legacy.function.configurations.RuntimeConfiguration;",
+      "artifact" : {
+        "artifact" : "com.microsoft.azure:azure-toolkit-appservice-lib:0.46.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.microsoft.azure:azure-functions-maven-plugin:1.36.0/dependencies/com/microsoft/azure/azure-toolkit-appservice-lib/0.46.0/azure-toolkit-appservice-lib-0.46.0.jar"
+      },
+      "isTransitive" : false
+    }, {
+      "importPath" : "import com.microsoft.azure.toolkit.lib.appservice.model.OperatingSystem;",
+      "artifact" : {
+        "artifact" : "com.microsoft.azure:azure-toolkit-appservice-lib:0.46.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.microsoft.azure:azure-functions-maven-plugin:1.36.0/dependencies/com/microsoft/azure/azure-toolkit-appservice-lib/0.46.0/azure-toolkit-appservice-lib-0.46.0.jar"
+      },
+      "isTransitive" : false
+    }, {
+      "importPath" : "import com.microsoft.azure.maven.appservice.MavenDockerCredentialProvider;",
+      "artifact" : {
+        "artifact" : "com.microsoft.azure:azure-appservice-maven-plugin-lib:1.39.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.microsoft.azure:azure-functions-maven-plugin:1.36.0/dependencies/com/microsoft/azure/azure-appservice-maven-plugin-lib/1.39.0/azure-appservice-maven-plugin-lib-1.39.0.jar"
+      },
+      "isTransitive" : false
+    }, {
+      "importPath" : "import com.microsoft.azure.toolkit.lib.legacy.appservice.DeploymentSlotSetting;",
+      "artifact" : {
+        "artifact" : "com.microsoft.azure:azure-toolkit-appservice-lib:0.46.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.microsoft.azure:azure-functions-maven-plugin:1.36.0/dependencies/com/microsoft/azure/azure-toolkit-appservice-lib/0.46.0/azure-toolkit-appservice-lib-0.46.0.jar"
+      },
+      "isTransitive" : false
+    }, {
+      "importPath" : "import com.microsoft.azure.toolkit.lib.common.model.Region;",
+      "artifact" : {
+        "artifact" : "com.microsoft.azure:azure-toolkit-common-lib:0.46.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.microsoft.azure:azure-functions-maven-plugin:1.36.0/dependencies/com/microsoft/azure/azure-toolkit-common-lib/0.46.0/azure-toolkit-common-lib-0.46.0.jar"
+      },
+      "isTransitive" : true
+    }, {
+      "importPath" : "import com.microsoft.azure.toolkit.lib.appservice.model.PricingTier;",
+      "artifact" : {
+        "artifact" : "com.microsoft.azure:azure-toolkit-appservice-lib:0.46.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.microsoft.azure:azure-functions-maven-plugin:1.36.0/dependencies/com/microsoft/azure/azure-toolkit-appservice-lib/0.46.0/azure-toolkit-appservice-lib-0.46.0.jar"
+      },
+      "isTransitive" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  } ],
+  "projectUseDependencies" : [ {
+    "artifact" : "org.projectlombok:lombok:1.18.24",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.microsoft.azure:azure-functions-maven-plugin:1.36.0/dependencies/org/projectlombok/lombok/1.18.24/lombok-1.18.24.jar"
+  }, {
+    "artifact" : "org.apache.maven.plugin-tools:maven-plugin-annotations:3.5.2",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.microsoft.azure:azure-functions-maven-plugin:1.36.0/dependencies/org/apache/maven/plugin-tools/maven-plugin-annotations/3.5.2/maven-plugin-annotations-3.5.2.jar"
+  }, {
+    "artifact" : "com.microsoft.azure:azure-toolkit-appservice-lib:0.46.0",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.microsoft.azure:azure-functions-maven-plugin:1.36.0/dependencies/com/microsoft/azure/azure-toolkit-appservice-lib/0.46.0/azure-toolkit-appservice-lib-0.46.0.jar"
+  }, {
+    "artifact" : "com.fasterxml.jackson.dataformat:jackson-dataformat-properties:2.17.0",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.microsoft.azure:azure-functions-maven-plugin:1.36.0/dependencies/com/fasterxml/jackson/dataformat/jackson-dataformat-properties/2.17.0/jackson-dataformat-properties-2.17.0.jar"
+  }, {
+    "artifact" : "org.apache.maven:maven-plugin-api:3.8.1",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.microsoft.azure:azure-functions-maven-plugin:1.36.0/dependencies/org/apache/maven/maven-plugin-api/3.8.1/maven-plugin-api-3.8.1.jar"
+  }, {
+    "artifact" : "org.apache.maven.plugins:maven-shade-plugin:3.4.1",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.microsoft.azure:azure-functions-maven-plugin:1.36.0/dependencies/org/apache/maven/plugins/maven-shade-plugin/3.4.1/maven-shade-plugin-3.4.1.jar"
+  }, {
+    "artifact" : "org.apache.maven:maven-core:3.8.1",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.microsoft.azure:azure-functions-maven-plugin:1.36.0/dependencies/org/apache/maven/maven-core/3.8.1/maven-core-3.8.1.jar"
+  }, {
+    "artifact" : "org.apache.maven:maven-compat:3.8.1",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.microsoft.azure:azure-functions-maven-plugin:1.36.0/dependencies/org/apache/maven/maven-compat/3.8.1/maven-compat-3.8.1.jar"
+  }, {
+    "artifact" : "com.microsoft.azure:azure-maven-plugin-lib:1.39.0",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.microsoft.azure:azure-functions-maven-plugin:1.36.0/dependencies/com/microsoft/azure/azure-maven-plugin-lib/1.39.0/azure-maven-plugin-lib-1.39.0.jar"
+  }, {
+    "artifact" : "org.codehaus.plexus:plexus-utils:3.4.2",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.microsoft.azure:azure-functions-maven-plugin:1.36.0/dependencies/org/codehaus/plexus/plexus-utils/3.4.2/plexus-utils-3.4.2.jar"
+  }, {
+    "artifact" : "com.microsoft.azure:azure-appservice-maven-plugin-lib:1.39.0",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.microsoft.azure:azure-functions-maven-plugin:1.36.0/dependencies/com/microsoft/azure/azure-appservice-maven-plugin-lib/1.39.0/azure-appservice-maven-plugin-lib-1.39.0.jar"
+  } ],
+  "projectUnusedDependencies" : [ {
+    "artifact" : "org.reflections:reflections:0.10.2",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.microsoft.azure:azure-functions-maven-plugin:1.36.0/dependencies/org/reflections/reflections/0.10.2/reflections-0.10.2.jar"
+  }, {
+    "artifact" : "com.microsoft.azure:azure-toolkit-applicationinsights-lib:0.46.0",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.microsoft.azure:azure-functions-maven-plugin:1.36.0/dependencies/com/microsoft/azure/azure-toolkit-applicationinsights-lib/0.46.0/azure-toolkit-applicationinsights-lib-0.46.0.jar"
+  }, {
+    "artifact" : "org.jacoco:org.jacoco.agent:0.8.8",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.microsoft.azure:azure-functions-maven-plugin:1.36.0/dependencies/org/jacoco/org.jacoco.agent/0.8.8/org.jacoco.agent-0.8.8-runtime.jar"
+  }, {
+    "artifact" : "com.microsoft.azure:azure-toolkit-auth-lib:0.46.0",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.microsoft.azure:azure-functions-maven-plugin:1.36.0/dependencies/com/microsoft/azure/azure-toolkit-auth-lib/0.46.0/azure-toolkit-auth-lib-0.46.0.jar"
+  }, {
+    "artifact" : "com.github.zafarkhaja:java-semver:0.9.0",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.microsoft.azure:azure-functions-maven-plugin:1.36.0/dependencies/com/github/zafarkhaja/java-semver/0.9.0/java-semver-0.9.0.jar"
+  }, {
+    "artifact" : "org.apache.maven:maven-settings:3.8.1",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.microsoft.azure:azure-functions-maven-plugin:1.36.0/dependencies/org/apache/maven/maven-settings/3.8.1/maven-settings-3.8.1.jar"
+  }, {
+    "artifact" : "org.apache.maven:maven-model:3.8.1",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.microsoft.azure:azure-functions-maven-plugin:1.36.0/dependencies/org/apache/maven/maven-model/3.8.1/maven-model-3.8.1.jar"
+  }, {
+    "artifact" : "io.projectreactor.netty:reactor-netty:1.1.13",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.microsoft.azure:azure-functions-maven-plugin:1.36.0/dependencies/io/projectreactor/netty/reactor-netty/1.1.13/reactor-netty-1.1.13.jar"
+  }, {
+    "artifact" : "com.azure:azure-core-http-netty:1.14.1",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.microsoft.azure:azure-functions-maven-plugin:1.36.0/dependencies/com/azure/azure-core-http-netty/1.14.1/azure-core-http-netty-1.14.1.jar"
+  } ]
+}
