@@ -7,17 +7,17 @@ import org.analyzer.models.DependencyCsv;
 import org.analyzer.models.ImportArtifact;
 
 import java.io.File;
-import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.io.IOException;
 import java.nio.file.*;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
+import java.util.Objects;
 import java.util.stream.Stream;
 
 public class FileUtils {
-    private static final List<String> ARTIFACT_SCOPE = Arrays.asList("compile", "provided");
+    private static final List<String> ARTIFACT_SCOPE = Arrays.asList("compile", "provided", "test");
 
     public static List<Path> getFileList(String repoPath) {
         List<Path> pathList = new ArrayList<>();
@@ -73,11 +73,11 @@ public class FileUtils {
                 var split = d.split(":");
                 if (split.length < 4) {
                     return null;
-                } else if (ARTIFACT_SCOPE.contains(split[3])) {
+                } else if (ARTIFACT_SCOPE.contains(split[3].toLowerCase().trim())) {
                     return new Dependency(split[0] + ":" + split[1], split[2]);
                 }
                 return null;
-            }).toList();
+            }).filter(Objects::nonNull).toList();
         }
         catch (Exception e) {
             throw new RuntimeException(e);
@@ -116,7 +116,11 @@ public class FileUtils {
     }
 
     public static void main(String[] args) {
-        File path = new File("/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.wkennedy.pubsubly:redis-message-header-plugin:1.0.0/dependencies");
-        System.out.println(listDependencyDirectory(path, path).get(0));
+//        File path = new File("/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.wkennedy.pubsubly:redis-message-header-plugin:1.0.0/dependencies");
+//        System.out.println(listDependencyDirectory(path, path).get(0));
+        var artifact = new ImportArtifact("alibabacloud-config20190108","com.aliyun", "1.0.0");
+        var csvPath = "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/java-dependency-analyzer/datasets/artifact-dependency-details.csv";
+
+        System.out.println(getDependencyListFromFile(csvPath, artifact));
     }
 }

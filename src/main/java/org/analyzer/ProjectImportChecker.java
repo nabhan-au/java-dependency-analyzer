@@ -77,8 +77,8 @@ public class ProjectImportChecker {
         } else {
             this.dependencies = DependencyExtractor.getProjectDependencies(repoPath, extractedProjectArtifact);
         }
-        System.out.println("------------------------------------------------------------------------");
-        System.out.println("Getting direct dependencies");
+        System.out.println("--------------------- Getting Direct dependencies ---------------------");
+        System.out.println(dependencies);
         this.dependencies.forEach(d -> {
             var extractedDependency = DependencyExtractor.extractDependency(d.toString());
             try {
@@ -107,37 +107,39 @@ public class ProjectImportChecker {
                 throw new RuntimeException(e);
             }
         });
-        System.out.println("------------------------------------------------------------------------");
-        System.out.println("Getting transitive dependencies");
+        System.out.println("------------------- Getting Transitive dependencies -------------------");
         var projectBasedFileObject = new File(basePath + "/dependencies");
         this.transitiveDependencies = listDependencyDirectory(projectBasedFileObject, projectBasedFileObject);
         this.transitiveDependencies.forEach(d -> {
-            var extractedDependency = DependencyExtractor.extractDependency(d.toString());
-            try {
-                var result = artifactInstaller.getArtifactFromPath(extractedDependency.getGroupId(), extractedDependency.getArtifactId(), extractedDependency.getVersion(), basePath);
-                System.out.println("Found transitive dependency: " + d.toString());
-                if (result == null) {
-                    System.out.println("Downloading transitive dependency: " + d.toString());
-                    var version = PomReader.getVersionFromPom(finalPomFile.getArtifactPath(), extractedDependency.getGroupId(), extractedDependency.getArtifactId());
-                    if (version != null) {
-                        extractedDependency.setVersion(version);
+            if (!dependencies.contains(d)) {
+                var extractedDependency = DependencyExtractor.extractDependency(d.toString());
+                try {
+                    var result = artifactInstaller.getArtifactFromPath(extractedDependency.getGroupId(), extractedDependency.getArtifactId(), extractedDependency.getVersion(), basePath);
+                    System.out.println("Found transitive dependency: " + d.toString());
+                    if (result == null) {
+                        System.out.println("Downloading transitive dependency: " + d.toString());
+                        var version = PomReader.getVersionFromPom(finalPomFile.getArtifactPath(), extractedDependency.getGroupId(), extractedDependency.getArtifactId());
+                        if (version != null) {
+                            extractedDependency.setVersion(version);
+                        }
+                        var possibleVersion = ArtifactInstaller.fetchMetadata(extractedDependency);
+                        var nearestVersion = ArtifactInstaller.findNearest(extractedDependency.getVersion(), possibleVersion);
+                        extractedDependency.setVersion(nearestVersion);
+                        var installResult = artifactInstaller.install(extractedDependency, basePath, false, true);
+                        var artifact = installResult.a;
+                        if (!transitiveArtifacts.contains(artifact)) {
+                            transitiveArtifacts.add(artifact);
+                            artifactFiles.add(new File(artifact.getArtifactPath()));
+                        }
+                    } else {
+                        transitiveArtifacts.addAll(result);
                     }
-                    var possibleVersion = ArtifactInstaller.fetchMetadata(extractedDependency);
-                    var nearestVersion = ArtifactInstaller.findNearest(extractedDependency.getVersion(), possibleVersion);
-                    extractedDependency.setVersion(nearestVersion);
-                    var installResult = artifactInstaller.install(extractedDependency, basePath, false, true);
-                    var artifact = installResult.a;
-                    if (!transitiveArtifacts.contains(artifact)) {
-                        transitiveArtifacts.add(artifact);
-                        artifactFiles.add(new File(artifact.getArtifactPath()));
-                    }
-                } else {
-                    transitiveArtifacts.addAll(result);
-                }
 
-            } catch (Exception e) {
-                throw new RuntimeException(e);
+                } catch (Exception e) {
+                    throw new RuntimeException(e);
+                }
             }
+
         });
         System.out.println("------------------------- Direct dependencies -------------------------");
         System.out.println(this.artifacts);
@@ -222,7 +224,17 @@ public class ProjectImportChecker {
                 for (ImportArtifact artifact: this.artifacts) {
                     try {
                         if (isFullPathCallingFromArtifact(calling, artifact)) {
-                            fullPathCallingReports.add(new FullPathCallingReport(new ImportClassPath(calling), artifact));
+                            fullPathCallingReports.add(new FullPathCallingReport(new ImportClassPath(calling), artifact, false));
+                        }
+                    } catch (Exception e) {
+                        throw new RuntimeException(e);
+                    }
+                }
+
+                for (ImportArtifact artifact: this.transitiveArtifacts) {
+                    try {
+                        if (isFullPathCallingFromArtifact(calling, artifact)) {
+                            fullPathCallingReports.add(new FullPathCallingReport(new ImportClassPath(calling), artifact, true));
                         }
                     } catch (Exception e) {
                         throw new RuntimeException(e);
@@ -296,7 +308,7 @@ public class ProjectImportChecker {
     public ProjectReport check() throws Exception {
         var fileImportList = mapImportToPackage();
         var useImportReportList = fileImportList.stream().flatMap(f -> Arrays.stream(f.useImportReport)).toList();
-        var useArtifact = useImportReportList.stream().map(t -> t.fromArtifact).distinct().filter(Objects::nonNull).toList();
+        var useArtifact = useImportReportList.stream().filter(t -> !t.isTransitive).map(t -> t.fromArtifact).distinct().filter(Objects::nonNull).toList();
         var fullParhCallingReportList = fileImportList.stream().flatMap(f -> Arrays.stream(f.fullPathCallingReport)).toList();
         var fullPathCallingArtifact = fullParhCallingReportList.stream().map(t -> t.fromArtifact).distinct().toList();
         List<ImportArtifact> combinedUseImportList = new ArrayList<>();
@@ -393,8 +405,8 @@ public class ProjectImportChecker {
 
     public static void main(String[] args) throws Exception {
         var destinationPath = "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository";
-        var writeFileDestination = "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/java-dependency-analyzer/dependency-output";
-        var csvFile = "";
+        var writeFileDestination = "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/java-dependency-analyzer/new-dependency-output";
+        var csvFile = "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/java-dependency-analyzer/datasets/artifact-dependency-details.csv";
 //        var projectArtifact = "us.ihmc:ihmc-perception:0.14.0-240126";
 //        var repoPath = "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/ihmc-open-robotics-software/ihmc-perception";
 //        var subPath = "/src/main/java";
@@ -406,13 +418,36 @@ public class ProjectImportChecker {
 //        var writeFileDestination = "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/java-dependency-analyzer/dependency-output";
 //        checker.exportToJson(projectReport, writeFileDestination);
 
-        var projectArtifact = "com.aliyun:alibabacloud-config20190108:1.0.0";
-        var repoPath = "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/alibabacloud-java-async-sdk/config-20190108";
-        var subPath = "/src/main/java";
-        var checker = new ProjectImportChecker(repoPath, subPath, destinationPath, false, true, projectArtifact, Optional.empty(), Optional.empty());
+        var projectArtifact = "com.naturalprogrammer.cleanflow:cleanflow:1.5.4";
+        var repoPath = "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/cleanflow";
+        var subPath = "";
+        var checker = new ProjectImportChecker(repoPath, subPath, destinationPath, false, true, projectArtifact, Optional.empty(), Optional.of(csvFile));
         checker.resolve(false);
         var projectReport = checker.check();
         checker.exportToJson(projectReport, writeFileDestination);
+
+//        var projectArtifact = "com.naturalprogrammer.cleanflow:cleanflow:1.5.4";
+//        var repoPath = "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/cleanflow";
+//        var subPath = "";
+
+//        var projectArtifact = "com.phoenixnap.oss:springmvc-raml-parser:0.10.14";
+//        var repoPath = "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/leshan/leshan-core-cf/springmvc-raml-plugin";
+//        var subPath = "";
+
+//        var projectArtifact = "org.eclipse.leshan:leshan-core-cf:2.0.0-M15";
+//        var repoPath = "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/leshan/leshan-core-cf";
+//        var subPath = "";
+
+//        var projectArtifact = "de.viaboxx:nlstools:2.6.9";
+//        var repoPath = "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/nlstools";
+//        var subPath = "/src/main/java";
+
+
+
+
+
+
+
 
 
 //        var jarPath = "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/junit4/out/artifacts/junit_jar/junit.jar";
