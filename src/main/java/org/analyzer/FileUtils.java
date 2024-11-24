@@ -17,7 +17,7 @@ import java.util.Objects;
 import java.util.stream.Stream;
 
 public class FileUtils {
-    private static final List<String> ARTIFACT_SCOPE = Arrays.asList("compile", "provided", "test");
+    private static final List<String> ARTIFACT_SCOPE = Arrays.asList("compile", "provided");
 
     public static List<Path> getFileList(String repoPath) {
         List<Path> pathList = new ArrayList<>();

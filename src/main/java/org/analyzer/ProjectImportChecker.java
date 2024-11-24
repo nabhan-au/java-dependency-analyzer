@@ -9,12 +9,11 @@ import com.github.javaparser.ast.ImportDeclaration;
 import com.github.javaparser.symbolsolver.JavaSymbolSolver;
 import com.github.javaparser.symbolsolver.resolution.typesolvers.CombinedTypeSolver;
 import com.github.javaparser.symbolsolver.resolution.typesolvers.ReflectionTypeSolver;
+import com.google.gson.*;
 import org.analyzer.models.*;
 import org.analyzer.models.json.ProjectReportJson;
 
-import java.io.File;
-import java.io.FileNotFoundException;
-import java.io.IOException;
+import java.io.*;
 import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.Paths;
@@ -418,13 +417,43 @@ public class ProjectImportChecker {
 //        var writeFileDestination = "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/java-dependency-analyzer/dependency-output";
 //        checker.exportToJson(projectReport, writeFileDestination);
 
-        var projectArtifact = "com.naturalprogrammer.cleanflow:cleanflow:1.5.4";
-        var repoPath = "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/cleanflow";
-        var subPath = "";
+        var projectArtifact = "com.lithium.flow:flow:0.7.48";
+        var repoPath = "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/flow";
+        var subPath = "/src/main/java";
+        var gitBranch = "flow-0.7.48";
+
+        GitUtils.gitCheckoutBranch(repoPath, gitBranch);
         var checker = new ProjectImportChecker(repoPath, subPath, destinationPath, false, true, projectArtifact, Optional.empty(), Optional.of(csvFile));
         checker.resolve(false);
         var projectReport = checker.check();
         checker.exportToJson(projectReport, writeFileDestination);
+
+        // Path to the JSON file
+        String jsonFilePath = "output.json";
+        writeInputToFole(jsonFilePath, projectArtifact, repoPath, subPath, gitBranch);
+
+
+
+
+//        var projectArtifact = "com.lithium.flow:flow:0.7.48";
+//        var repoPath = "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/flow";
+//        var subPath = "";
+
+//        var projectArtifact = "org.appverse.web.framework.modules.backend.frontfacade.gwt:appverse-web-modules-backend-frontfacade-gwt:1.5.4-RELEASE";
+//        var repoPath = "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/appverse-web/framework/modules/backend/front-facade/gwt";
+//        var subPath = "";
+
+//        var projectArtifact = "com.github.hammelion:jraml:0.3";
+//        var repoPath = "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/jraml";
+//        var subPath = "";
+
+//        var projectArtifact = "com.github.ladutsko:isbn-core:1.5.2";
+//        var repoPath = "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/isbn-core";
+//        var subPath = "";
+
+//        var projectArtifact = "com.insidecoding:sos:1.3.2";
+//        var repoPath = "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/selenium-on-steroids";
+//        var subPath = "";
 
 //        var projectArtifact = "com.naturalprogrammer.cleanflow:cleanflow:1.5.4";
 //        var repoPath = "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/cleanflow";
@@ -438,9 +467,7 @@ public class ProjectImportChecker {
 //        var repoPath = "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/leshan/leshan-core-cf";
 //        var subPath = "";
 
-//        var projectArtifact = "de.viaboxx:nlstools:2.6.9";
-//        var repoPath = "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/nlstools";
-//        var subPath = "/src/main/java";
+
 
 
 
@@ -497,5 +524,40 @@ public class ProjectImportChecker {
 //        var writeFileDestination = "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/java-dependency-analyzer/dependency-output";
 //        checker.exportToJson(projectReport, writeFileDestination);
 
+    }
+
+    private static void writeInputToFole(String jsonFilePath, String projectArtifact, String repoPath, String subPath, String gitBranch) {
+        Gson gson = new Gson();
+        JsonArray jsonArray = new JsonArray();
+
+        try {
+            // Check if the file exists and read its content
+            FileReader reader = new FileReader(jsonFilePath);
+            JsonElement element = JsonParser.parseReader(reader);
+            if (element.isJsonArray()) {
+                jsonArray = element.getAsJsonArray(); // Load existing array
+            }
+            reader.close();
+        } catch (IOException e) {
+            System.out.println("File not found or empty. Creating a new file.");
+        }
+
+        // Create a new JSON object for the new data
+        JsonObject newEntry = new JsonObject();
+        newEntry.addProperty("projectArtifact", projectArtifact);
+        newEntry.addProperty("repoPath", repoPath);
+        newEntry.addProperty("subPath", subPath);
+        newEntry.addProperty("gitBranch", gitBranch);
+
+        // Add the new entry to the array
+        jsonArray.add(newEntry);
+
+        // Write the updated JSON array back to the file
+        try (FileWriter writer = new FileWriter(jsonFilePath)) {
+            gson.toJson(jsonArray, writer);
+            System.out.println("Appended new values to JSON file successfully.");
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
     }
 }

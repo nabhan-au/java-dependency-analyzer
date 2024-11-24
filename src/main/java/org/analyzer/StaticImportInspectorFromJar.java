@@ -57,7 +57,7 @@ public class StaticImportInspectorFromJar {
         var isClassPresent = false;
         while (!path.isEmpty()) {
             String className = path.poll();
-            Class<?>[] innerClass = currentClass.getClasses();
+            Class<?>[] innerClass = currentClass.getDeclaredClasses();
             for (var i = 0; i < innerClass.length; i++) {
                 if (className.equals(innerClass[i].getSimpleName())) {
                     currentClass = innerClass[i];
@@ -161,12 +161,12 @@ public class StaticImportInspectorFromJar {
                 var clazz = loadClass(classPath.getPath());
                 List<Method> staticMethods = new ArrayList<>();
                 List<Field> staticFields = new ArrayList<>();
-                for (Method method : clazz.getMethods()) {
+                for (Method method : clazz.getDeclaredMethods()) {
                     if (Modifier.isStatic(method.getModifiers())) {
                         staticMethods.add(method);
                     }
                 }
-                for (Field field : clazz.getFields()) {
+                for (Field field : clazz.getDeclaredFields()) {
                     if (Modifier.isStatic(field.getModifiers())) {
                         staticFields.add(field);
                     }
