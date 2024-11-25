@@ -1,0 +1,462 @@
+{
+  "projectArtifact" : "com.qiniu:qiniu-logging-plugin-log4j2:1.0.0",
+  "repositoryDir" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/qiniu-logging-plugin/log4j2",
+  "repositorySubDir" : "/src/main",
+  "artifactLocation" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.qiniu:qiniu-logging-plugin-log4j2:1.0.0",
+  "fileImportReports" : [ {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/qiniu-logging-plugin/log4j2/src/main/java/com/qiniu/appender/Log4j2QiniuAppender.java",
+    "useImportReport" : [ {
+      "importPath" : "import org.apache.logging.log4j.core.appender.AbstractAppender;",
+      "artifact" : {
+        "artifact" : "org.apache.logging.log4j:log4j-core:2.9.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.qiniu:qiniu-logging-plugin-log4j2:1.0.0/dependencies/org/apache/logging/log4j/log4j-core/2.9.1/log4j-core-2.9.1.jar"
+      },
+      "isTransitive" : false
+    }, {
+      "importPath" : "import org.apache.logging.log4j.core.config.plugins.Plugin;",
+      "artifact" : {
+        "artifact" : "org.apache.logging.log4j:log4j-core:2.9.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.qiniu:qiniu-logging-plugin-log4j2:1.0.0/dependencies/org/apache/logging/log4j/log4j-core/2.9.1/log4j-core-2.9.1.jar"
+      },
+      "isTransitive" : false
+    }, {
+      "importPath" : "import java.util.concurrent.locks.Lock;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isTransitive" : true
+    }, {
+      "importPath" : "import com.qiniu.pandora.pipeline.points.Batch;",
+      "artifact" : {
+        "artifact" : "com.qiniu:qiniu-pandora-sdk:2.0.2",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.qiniu:qiniu-logging-plugin-log4j2:1.0.0/dependencies/com/qiniu/qiniu-pandora-sdk/2.0.2/qiniu-pandora-sdk-2.0.2.jar"
+      },
+      "isTransitive" : false
+    }, {
+      "importPath" : "import java.util.concurrent.*;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isTransitive" : true
+    }, {
+      "importPath" : "import com.qiniu.pandora.pipeline.sender.DataSender;",
+      "artifact" : {
+        "artifact" : "com.qiniu:qiniu-pandora-sdk:2.0.2",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.qiniu:qiniu-logging-plugin-log4j2:1.0.0/dependencies/com/qiniu/qiniu-pandora-sdk/2.0.2/qiniu-pandora-sdk-2.0.2.jar"
+      },
+      "isTransitive" : false
+    }, {
+      "importPath" : "import org.apache.logging.log4j.core.Filter;",
+      "artifact" : {
+        "artifact" : "org.apache.logging.log4j:log4j-core:2.9.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.qiniu:qiniu-logging-plugin-log4j2:1.0.0/dependencies/org/apache/logging/log4j/log4j-core/2.9.1/log4j-core-2.9.1.jar"
+      },
+      "isTransitive" : false
+    }, {
+      "importPath" : "import org.apache.logging.log4j.core.Layout;",
+      "artifact" : {
+        "artifact" : "org.apache.logging.log4j:log4j-core:2.9.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.qiniu:qiniu-logging-plugin-log4j2:1.0.0/dependencies/org/apache/logging/log4j/log4j-core/2.9.1/log4j-core-2.9.1.jar"
+      },
+      "isTransitive" : false
+    }, {
+      "importPath" : "import java.io.Serializable;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isTransitive" : true
+    }, {
+      "importPath" : "import com.qiniu.pandora.util.Auth;",
+      "artifact" : {
+        "artifact" : "com.qiniu:qiniu-pandora-sdk:2.0.2",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.qiniu:qiniu-logging-plugin-log4j2:1.0.0/dependencies/com/qiniu/qiniu-pandora-sdk/2.0.2/qiniu-pandora-sdk-2.0.2.jar"
+      },
+      "isTransitive" : false
+    }, {
+      "importPath" : "import java.util.concurrent.*;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isTransitive" : true
+    }, {
+      "importPath" : "import java.util.concurrent.*;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isTransitive" : true
+    }, {
+      "importPath" : "import java.util.concurrent.*;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isTransitive" : true
+    }, {
+      "importPath" : "import com.qiniu.pandora.common.*;",
+      "artifact" : {
+        "artifact" : "com.qiniu:qiniu-pandora-sdk:2.0.2",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.qiniu:qiniu-logging-plugin-log4j2:1.0.0/dependencies/com/qiniu/qiniu-pandora-sdk/2.0.2/qiniu-pandora-sdk-2.0.2.jar"
+      },
+      "isTransitive" : false
+    }, {
+      "importPath" : "import com.qiniu.pandora.http.Client;",
+      "artifact" : {
+        "artifact" : "com.qiniu:qiniu-pandora-sdk:2.0.2",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.qiniu:qiniu-logging-plugin-log4j2:1.0.0/dependencies/com/qiniu/qiniu-pandora-sdk/2.0.2/qiniu-pandora-sdk-2.0.2.jar"
+      },
+      "isTransitive" : false
+    }, {
+      "importPath" : "import com.qiniu.pandora.common.*;",
+      "artifact" : {
+        "artifact" : "com.qiniu:qiniu-pandora-sdk:2.0.2",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.qiniu:qiniu-logging-plugin-log4j2:1.0.0/dependencies/com/qiniu/qiniu-pandora-sdk/2.0.2/qiniu-pandora-sdk-2.0.2.jar"
+      },
+      "isTransitive" : false
+    }, {
+      "importPath" : "import com.qiniu.pandora.common.*;",
+      "artifact" : {
+        "artifact" : "com.qiniu:qiniu-pandora-sdk:2.0.2",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.qiniu:qiniu-logging-plugin-log4j2:1.0.0/dependencies/com/qiniu/qiniu-pandora-sdk/2.0.2/qiniu-pandora-sdk-2.0.2.jar"
+      },
+      "isTransitive" : false
+    }, {
+      "importPath" : "import java.io.FileNotFoundException;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isTransitive" : true
+    }, {
+      "importPath" : "import java.util.concurrent.locks.ReentrantLock;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isTransitive" : true
+    }, {
+      "importPath" : "import com.qiniu.pandora.common.*;",
+      "artifact" : {
+        "artifact" : "com.qiniu:qiniu-pandora-sdk:2.0.2",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.qiniu:qiniu-logging-plugin-log4j2:1.0.0/dependencies/com/qiniu/qiniu-pandora-sdk/2.0.2/qiniu-pandora-sdk-2.0.2.jar"
+      },
+      "isTransitive" : false
+    }, {
+      "importPath" : "import com.qiniu.pandora.http.Response;",
+      "artifact" : {
+        "artifact" : "com.qiniu:qiniu-pandora-sdk:2.0.2",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.qiniu:qiniu-logging-plugin-log4j2:1.0.0/dependencies/com/qiniu/qiniu-pandora-sdk/2.0.2/qiniu-pandora-sdk-2.0.2.jar"
+      },
+      "isTransitive" : false
+    }, {
+      "importPath" : "import com.qiniu.pandora.common.*;",
+      "artifact" : {
+        "artifact" : "com.qiniu:qiniu-pandora-sdk:2.0.2",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.qiniu:qiniu-logging-plugin-log4j2:1.0.0/dependencies/com/qiniu/qiniu-pandora-sdk/2.0.2/qiniu-pandora-sdk-2.0.2.jar"
+      },
+      "isTransitive" : false
+    }, {
+      "importPath" : "import java.util.concurrent.*;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isTransitive" : true
+    }, {
+      "importPath" : "import org.apache.logging.log4j.core.LogEvent;",
+      "artifact" : {
+        "artifact" : "org.apache.logging.log4j:log4j-core:2.9.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.qiniu:qiniu-logging-plugin-log4j2:1.0.0/dependencies/org/apache/logging/log4j/log4j-core/2.9.1/log4j-core-2.9.1.jar"
+      },
+      "isTransitive" : false
+    }, {
+      "importPath" : "import com.qiniu.pandora.pipeline.points.Point;",
+      "artifact" : {
+        "artifact" : "com.qiniu:qiniu-pandora-sdk:2.0.2",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.qiniu:qiniu-logging-plugin-log4j2:1.0.0/dependencies/com/qiniu/qiniu-pandora-sdk/2.0.2/qiniu-pandora-sdk-2.0.2.jar"
+      },
+      "isTransitive" : false
+    }, {
+      "importPath" : "import org.apache.logging.log4j.core.config.plugins.PluginFactory;",
+      "artifact" : {
+        "artifact" : "org.apache.logging.log4j:log4j-core:2.9.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.qiniu:qiniu-logging-plugin-log4j2:1.0.0/dependencies/org/apache/logging/log4j/log4j-core/2.9.1/log4j-core-2.9.1.jar"
+      },
+      "isTransitive" : false
+    }, {
+      "importPath" : "import org.apache.logging.log4j.core.config.plugins.PluginAttribute;",
+      "artifact" : {
+        "artifact" : "org.apache.logging.log4j:log4j-core:2.9.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.qiniu:qiniu-logging-plugin-log4j2:1.0.0/dependencies/org/apache/logging/log4j/log4j-core/2.9.1/log4j-core-2.9.1.jar"
+      },
+      "isTransitive" : false
+    }, {
+      "importPath" : "import org.apache.logging.log4j.core.config.plugins.PluginElement;",
+      "artifact" : {
+        "artifact" : "org.apache.logging.log4j:log4j-core:2.9.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.qiniu:qiniu-logging-plugin-log4j2:1.0.0/dependencies/org/apache/logging/log4j/log4j-core/2.9.1/log4j-core-2.9.1.jar"
+      },
+      "isTransitive" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/qiniu-logging-plugin/log4j2/src/main/java/com/qiniu/appender/Configs.java",
+    "useImportReport" : [ ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/qiniu-logging-plugin/log4j2/src/main/java/com/qiniu/appender/QiniuAppenderClient.java",
+    "useImportReport" : [ {
+      "importPath" : "import com.qiniu.pandora.common.ValueType;",
+      "artifact" : {
+        "artifact" : "com.qiniu:qiniu-pandora-sdk:2.0.2",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.qiniu:qiniu-logging-plugin-log4j2:1.0.0/dependencies/com/qiniu/qiniu-pandora-sdk/2.0.2/qiniu-pandora-sdk-2.0.2.jar"
+      },
+      "isTransitive" : false
+    }, {
+      "importPath" : "import com.qiniu.pandora.logdb.repo.Analyzer;",
+      "artifact" : {
+        "artifact" : "com.qiniu:qiniu-pandora-sdk:2.0.2",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.qiniu:qiniu-logging-plugin-log4j2:1.0.0/dependencies/com/qiniu/qiniu-pandora-sdk/2.0.2/qiniu-pandora-sdk-2.0.2.jar"
+      },
+      "isTransitive" : false
+    }, {
+      "importPath" : "import com.qiniu.pandora.pipeline.repo.*;",
+      "artifact" : {
+        "artifact" : "com.qiniu:qiniu-pandora-sdk:2.0.2",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.qiniu:qiniu-logging-plugin-log4j2:1.0.0/dependencies/com/qiniu/qiniu-pandora-sdk/2.0.2/qiniu-pandora-sdk-2.0.2.jar"
+      },
+      "isTransitive" : false
+    }, {
+      "importPath" : "import com.qiniu.pandora.pipeline.repo.*;",
+      "artifact" : {
+        "artifact" : "com.qiniu:qiniu-pandora-sdk:2.0.2",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.qiniu:qiniu-logging-plugin-log4j2:1.0.0/dependencies/com/qiniu/qiniu-pandora-sdk/2.0.2/qiniu-pandora-sdk-2.0.2.jar"
+      },
+      "isTransitive" : false
+    }, {
+      "importPath" : "import com.qiniu.pandora.common.PandoraClient;",
+      "artifact" : {
+        "artifact" : "com.qiniu:qiniu-pandora-sdk:2.0.2",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.qiniu:qiniu-logging-plugin-log4j2:1.0.0/dependencies/com/qiniu/qiniu-pandora-sdk/2.0.2/qiniu-pandora-sdk-2.0.2.jar"
+      },
+      "isTransitive" : false
+    }, {
+      "importPath" : "import com.qiniu.pandora.pipeline.PipelineClient;",
+      "artifact" : {
+        "artifact" : "com.qiniu:qiniu-pandora-sdk:2.0.2",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.qiniu:qiniu-logging-plugin-log4j2:1.0.0/dependencies/com/qiniu/qiniu-pandora-sdk/2.0.2/qiniu-pandora-sdk-2.0.2.jar"
+      },
+      "isTransitive" : false
+    }, {
+      "importPath" : "import com.qiniu.pandora.logdb.LogDBClient;",
+      "artifact" : {
+        "artifact" : "com.qiniu:qiniu-pandora-sdk:2.0.2",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.qiniu:qiniu-logging-plugin-log4j2:1.0.0/dependencies/com/qiniu/qiniu-pandora-sdk/2.0.2/qiniu-pandora-sdk-2.0.2.jar"
+      },
+      "isTransitive" : false
+    }, {
+      "importPath" : "import com.qiniu.pandora.pipeline.repo.*;",
+      "artifact" : {
+        "artifact" : "com.qiniu:qiniu-pandora-sdk:2.0.2",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.qiniu:qiniu-logging-plugin-log4j2:1.0.0/dependencies/com/qiniu/qiniu-pandora-sdk/2.0.2/qiniu-pandora-sdk-2.0.2.jar"
+      },
+      "isTransitive" : false
+    }, {
+      "importPath" : "import com.qiniu.pandora.pipeline.repo.*;",
+      "artifact" : {
+        "artifact" : "com.qiniu:qiniu-pandora-sdk:2.0.2",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.qiniu:qiniu-logging-plugin-log4j2:1.0.0/dependencies/com/qiniu/qiniu-pandora-sdk/2.0.2/qiniu-pandora-sdk-2.0.2.jar"
+      },
+      "isTransitive" : false
+    }, {
+      "importPath" : "import com.qiniu.pandora.pipeline.repo.*;",
+      "artifact" : {
+        "artifact" : "com.qiniu:qiniu-pandora-sdk:2.0.2",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.qiniu:qiniu-logging-plugin-log4j2:1.0.0/dependencies/com/qiniu/qiniu-pandora-sdk/2.0.2/qiniu-pandora-sdk-2.0.2.jar"
+      },
+      "isTransitive" : false
+    }, {
+      "importPath" : "import com.qiniu.pandora.pipeline.repo.*;",
+      "artifact" : {
+        "artifact" : "com.qiniu:qiniu-pandora-sdk:2.0.2",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.qiniu:qiniu-logging-plugin-log4j2:1.0.0/dependencies/com/qiniu/qiniu-pandora-sdk/2.0.2/qiniu-pandora-sdk-2.0.2.jar"
+      },
+      "isTransitive" : false
+    }, {
+      "importPath" : "import java.util.Map;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isTransitive" : true
+    }, {
+      "importPath" : "import java.util.HashMap;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isTransitive" : true
+    }, {
+      "importPath" : "import com.qiniu.pandora.pipeline.repo.*;",
+      "artifact" : {
+        "artifact" : "com.qiniu:qiniu-pandora-sdk:2.0.2",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.qiniu:qiniu-logging-plugin-log4j2:1.0.0/dependencies/com/qiniu/qiniu-pandora-sdk/2.0.2/qiniu-pandora-sdk-2.0.2.jar"
+      },
+      "isTransitive" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ {
+      "importPath" : "com.qiniu.pandora.logdb.repo.CreateRepoInput",
+      "artifact" : {
+        "artifact" : "com.qiniu:qiniu-pandora-sdk:2.0.2",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.qiniu:qiniu-logging-plugin-log4j2:1.0.0/dependencies/com/qiniu/qiniu-pandora-sdk/2.0.2/qiniu-pandora-sdk-2.0.2.jar"
+      },
+      "isTransitive" : false
+    }, {
+      "importPath" : "com.qiniu.pandora.logdb.repo.RepoSchemaEntry",
+      "artifact" : {
+        "artifact" : "com.qiniu:qiniu-pandora-sdk:2.0.2",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.qiniu:qiniu-logging-plugin-log4j2:1.0.0/dependencies/com/qiniu/qiniu-pandora-sdk/2.0.2/qiniu-pandora-sdk-2.0.2.jar"
+      },
+      "isTransitive" : false
+    } ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/qiniu-logging-plugin/log4j2/src/main/java/com/qiniu/appender/QiniuLoggingGuard.java",
+    "useImportReport" : [ {
+      "importPath" : "import com.qiniu.pandora.pipeline.sender.DataSender;",
+      "artifact" : {
+        "artifact" : "com.qiniu:qiniu-pandora-sdk:2.0.2",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.qiniu:qiniu-logging-plugin-log4j2:1.0.0/dependencies/com/qiniu/qiniu-pandora-sdk/2.0.2/qiniu-pandora-sdk-2.0.2.jar"
+      },
+      "isTransitive" : false
+    }, {
+      "importPath" : "import java.io.*;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isTransitive" : true
+    }, {
+      "importPath" : "import java.util.Map;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isTransitive" : true
+    }, {
+      "importPath" : "import java.util.concurrent.*;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isTransitive" : true
+    }, {
+      "importPath" : "import java.io.*;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isTransitive" : true
+    }, {
+      "importPath" : "import java.util.Calendar;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isTransitive" : true
+    }, {
+      "importPath" : "import java.io.*;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isTransitive" : true
+    }, {
+      "importPath" : "import java.util.concurrent.*;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isTransitive" : true
+    }, {
+      "importPath" : "import java.util.Date;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isTransitive" : true
+    }, {
+      "importPath" : "import java.io.*;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isTransitive" : true
+    }, {
+      "importPath" : "import java.io.*;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isTransitive" : true
+    }, {
+      "importPath" : "import java.io.*;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isTransitive" : true
+    }, {
+      "importPath" : "import java.util.concurrent.*;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isTransitive" : true
+    }, {
+      "importPath" : "import java.util.concurrent.*;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isTransitive" : true
+    }, {
+      "importPath" : "import java.io.*;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isTransitive" : true
+    }, {
+      "importPath" : "import com.qiniu.pandora.common.Constants;",
+      "artifact" : {
+        "artifact" : "com.qiniu:qiniu-pandora-sdk:2.0.2",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.qiniu:qiniu-logging-plugin-log4j2:1.0.0/dependencies/com/qiniu/qiniu-pandora-sdk/2.0.2/qiniu-pandora-sdk-2.0.2.jar"
+      },
+      "isTransitive" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  } ],
+  "projectUseDependencies" : [ {
+    "artifact" : "org.apache.logging.log4j:log4j-core:2.9.1",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.qiniu:qiniu-logging-plugin-log4j2:1.0.0/dependencies/org/apache/logging/log4j/log4j-core/2.9.1/log4j-core-2.9.1.jar"
+  }, {
+    "artifact" : "com.qiniu:qiniu-pandora-sdk:2.0.2",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.qiniu:qiniu-logging-plugin-log4j2:1.0.0/dependencies/com/qiniu/qiniu-pandora-sdk/2.0.2/qiniu-pandora-sdk-2.0.2.jar"
+  } ],
+  "projectUnusedDependencies" : [ {
+    "artifact" : "org.apache.logging.log4j:log4j-api:2.9.1",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.qiniu:qiniu-logging-plugin-log4j2:1.0.0/dependencies/org/apache/logging/log4j/log4j-api/2.9.1/log4j-api-2.9.1.jar"
+  } ]
+}

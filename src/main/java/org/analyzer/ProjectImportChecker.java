@@ -81,9 +81,8 @@ public class ProjectImportChecker {
             var extractedDependency = DependencyExtractor.extractDependency(d.toString());
             try {
                 var result = artifactInstaller.getArtifactFromPath(extractedDependency.getGroupId(), extractedDependency.getArtifactId(), extractedDependency.getVersion(), basePath);
-                System.out.println("Found dependency: " + d.toString());
                 if (result == null) {
-                    System.out.println("Downloading dependency: " + d.toString());
+                    System.out.println("Downloading dependency: " + d);
                     var version = PomReader.getVersionFromPom(finalPomFile.getArtifactPath(), extractedDependency.getGroupId(), extractedDependency.getArtifactId());
                     if (version != null) {
                         extractedDependency.setVersion(version);
@@ -98,6 +97,7 @@ public class ProjectImportChecker {
                         artifactFiles.add(new File(artifact.getArtifactPath()));
                     }
                 } else {
+                    System.out.println("Found dependency: " + d);
                     artifacts.addAll(result);
                 }
 
@@ -113,9 +113,8 @@ public class ProjectImportChecker {
                 var extractedDependency = DependencyExtractor.extractDependency(d.toString());
                 try {
                     var result = artifactInstaller.getArtifactFromPath(extractedDependency.getGroupId(), extractedDependency.getArtifactId(), extractedDependency.getVersion(), basePath);
-                    System.out.println("Found transitive dependency: " + d.toString());
                     if (result == null) {
-                        System.out.println("Downloading transitive dependency: " + d.toString());
+                        System.out.println("Downloading transitive dependency: " + d);
                         var version = PomReader.getVersionFromPom(finalPomFile.getArtifactPath(), extractedDependency.getGroupId(), extractedDependency.getArtifactId());
                         if (version != null) {
                             extractedDependency.setVersion(version);
@@ -129,7 +128,9 @@ public class ProjectImportChecker {
                             transitiveArtifacts.add(artifact);
                             artifactFiles.add(new File(artifact.getArtifactPath()));
                         }
-                    } else {
+                    }
+                    else {
+                        System.out.println("Found transitive dependency: " + d.toString());
                         transitiveArtifacts.addAll(result);
                     }
 
@@ -428,7 +429,7 @@ public class ProjectImportChecker {
         checker.exportToJson(projectReport, writeFileDestination);
 
         // Path to the JSON file
-        String jsonFilePath = "output.json";
+        String jsonFilePath = "save_input.json";
         writeInputToFile(jsonFilePath, projectArtifact, repoPath, subPath, gitBranch);
 
 

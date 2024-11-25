@@ -14,6 +14,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 import static org.analyzer.FileUtils.getJarPathList;
+import static org.analyzer.FileUtils.getXmlPath;
 
 public class ArtifactInstaller {
     private String repositoryPath = "https://repo1.maven.org/maven2/com/google/http-client/google-http-client/1.45.1/google-http-client-1.45.1.jar";
@@ -32,8 +33,15 @@ public class ArtifactInstaller {
         var artifactDir = basePath + "/dependencies/" + groupId.replace(".", "/") + "/" + artifactId;
         var artifactPath = getJarPathList(artifactDir);
         if (artifactPath.isEmpty()) {
-            return null;
+            try {
+                getXmlPath(artifactDir);
+                return new ArrayList<>();
+            } catch (Exception e) {
+                return null;
+            }
         }
+
+
         return artifactPath.stream().map(p -> new ImportArtifact(artifactId, groupId, version, p.toAbsolutePath().toString())).toList();
     }
 
@@ -63,7 +71,6 @@ public class ArtifactInstaller {
     public void copyProjectArtifact(String basePath, ImportArtifact projectArtifact) throws Exception {
         var outPutDir = "-DoutputDirectory=" + basePath;
         var artifact = "-Dartifact=" + projectArtifact;
-        System.out.println(artifact.toString());
         ProcessBuilder processBuilder = new ProcessBuilder();
         processBuilder.command("mvn", "dependency:copy", outPutDir, artifact);
         processBuilder.directory(new File(basePath));

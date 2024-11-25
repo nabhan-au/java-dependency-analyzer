@@ -9,7 +9,7 @@ public class Main {
     public static void runMultipleProjects(String jsonFilePath, String destinationPath, String writeFileDestination, String dependencyDetailsCsvFile) throws Exception {
         var projects = FileUtils.readProjectsFromJson(jsonFilePath);
         for (var project : projects) {
-            runSingleProject(destinationPath, writeFileDestination, dependencyDetailsCsvFile, project.projectArtifact, project.repoPath, project.subPath, project.gitBranch, "output.json", false);
+            runSingleProject(destinationPath, writeFileDestination, dependencyDetailsCsvFile, project.projectArtifact, project.repoPath, project.subPath, project.gitBranch, "save_input.json", false);
         }
     }
 
@@ -30,14 +30,14 @@ public class Main {
         var destinationPath = "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository";
         var writeFileDestination = "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/java-dependency-analyzer/new-dependency-output";
         var csvFile = "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/java-dependency-analyzer/datasets/artifact-dependency-details.csv";
-        var jsonFile = "output.json";
+        var jsonFile = "save_input.json";
 
-        var projectArtifact = "co.boorse:selenium-table:1.1";
-        var repoPath = "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/selenium-table";
+        var projectArtifact = "com.aliyun:alibabacloud-nlb20220430:2.0.8";
+        var repoPath = "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/alibabacloud-java-async-sdk/nlb-20220430";
         var subPath = "/src/main";
-        var gitBranch = "selenium-table-1.1";
+        var gitBranch = "";
 
-        runSingleProject(destinationPath, writeFileDestination, csvFile, projectArtifact, repoPath, subPath, gitBranch, jsonFile, false);
+        runSingleProject(destinationPath, writeFileDestination, csvFile, projectArtifact, repoPath, subPath, gitBranch, jsonFile, true);
 //        runMultipleProjects(jsonFile, destinationPath, writeFileDestination, csvFile);
     }
 }

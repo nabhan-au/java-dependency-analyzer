@@ -280,9 +280,8 @@ public class StaticImportInspectorFromJar {
         // Wait for the process to finish
         int exitCode = process.waitFor();
         if (exitCode != 0) {
-            System.out.println(artifactPath + " exited with code " + exitCode);
-            System.err.println("jar tf command failed with exit code: " + exitCode);
-            throw new Exception("jar tf command failed with exit code: " + exitCode);
+            System.err.println("jar tf command failed with exit code: " + exitCode  + " on path: " + artifactPath);
+            throw new Exception("jar tf command failed with exit code: " + exitCode + " on path: " + artifactPath);
         }
 
         getAllClassPathFromJarFileCache.put(artifactPath, output);

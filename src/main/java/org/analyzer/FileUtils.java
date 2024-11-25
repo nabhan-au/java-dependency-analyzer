@@ -50,9 +50,9 @@ public class FileUtils {
         return pathList;
     }
 
-    public static Path getPomPath(String directory) {
+    public static Path getXmlPath(String directory) {
         List<Path> pathList = new ArrayList<>();
-        PathMatcher matcher = FileSystems.getDefault().getPathMatcher("glob:**/*.pom");
+        PathMatcher matcher = FileSystems.getDefault().getPathMatcher("glob:**/*.xml");
         try (Stream<Path> paths = Files.walk(Paths.get(directory))) {
             paths
                     .filter(path -> matcher.matches(path) && Files.isRegularFile(path))
@@ -173,6 +173,6 @@ public class FileUtils {
 //        var csvPath = "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/java-dependency-analyzer/datasets/artifact-dependency-details.csv";
 //
 //        System.out.println(getDependencyListFromFile(csvPath, artifact));
-        System.out.println(FileUtils.readProjectsFromJson("/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/java-dependency-analyzer/output.json").get(0).projectArtifact);
+        System.out.println(FileUtils.readProjectsFromJson("/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/java-dependency-analyzer/save_input.json").get(0).projectArtifact);
     }
 }
