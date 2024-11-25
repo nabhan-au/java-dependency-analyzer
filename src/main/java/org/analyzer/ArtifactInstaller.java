@@ -12,6 +12,7 @@ import java.net.HttpURLConnection;
 import java.net.URL;
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Map;
 
 import static org.analyzer.FileUtils.getJarPathList;
 import static org.analyzer.FileUtils.getXmlPath;
@@ -29,8 +30,13 @@ public class ArtifactInstaller {
         return "https://repo1.maven.org/maven2/" + groupId + "/" + artifactId + "/" + version + "/" + artifactId + "-" + version + ".pom";
     }
 
-    public List<ImportArtifact> getArtifactFromPath(String groupId, String artifactId, String version, String basePath) {
+    public List<ImportArtifact> getArtifactFromPath(String groupId, String artifactId, String version, String basePath, Map<String, String> dependencyMap) {
         var artifactDir = basePath + "/dependencies/" + groupId.replace(".", "/") + "/" + artifactId;
+        System.out.println(groupId + ":" + artifactId);
+        System.out.println(dependencyMap);
+        if (dependencyMap.containsKey(groupId + ":" + artifactId)) {
+            artifactDir = basePath + "/dependencies/" + dependencyMap.get(groupId + ":" + artifactId).replace(':', '/').replace('.', '/');
+        }
         var artifactPath = getJarPathList(artifactDir);
         if (artifactPath.isEmpty()) {
             try {

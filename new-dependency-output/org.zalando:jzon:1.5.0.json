@@ -1,0 +1,534 @@
+{
+  "projectArtifact" : "org.zalando:jzon:1.5.0",
+  "repositoryDir" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/jzon",
+  "repositorySubDir" : "/src/main",
+  "artifactLocation" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.zalando:jzon:1.5.0",
+  "fileImportReports" : [ {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/jzon/src/main/java/org/zalando/jzon/service/impl/DefaultKeyModifier.java",
+    "useImportReport" : [ {
+      "importPath" : "import org.zalando.jzon.service.PayloadKeyModifier;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isTransitive" : true
+    }, {
+      "importPath" : "import com.jayway.jsonpath.Configuration;",
+      "artifact" : {
+        "artifact" : "com.jayway.jsonpath:json-path:2.4.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.zalando:jzon:1.5.0/dependencies/com/jayway/jsonpath/json-path/2.4.0/json-path-2.4.0.jar"
+      },
+      "isTransitive" : false
+    }, {
+      "importPath" : "import static com.jayway.jsonpath.Configuration.builder;",
+      "artifact" : {
+        "artifact" : "com.jayway.jsonpath:json-path:2.4.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.zalando:jzon:1.5.0/dependencies/com/jayway/jsonpath/json-path/2.4.0/json-path-2.4.0.jar"
+      },
+      "isTransitive" : false
+    }, {
+      "importPath" : "import com.jayway.jsonpath.Option;",
+      "artifact" : {
+        "artifact" : "com.jayway.jsonpath:json-path:2.4.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.zalando:jzon:1.5.0/dependencies/com/jayway/jsonpath/json-path/2.4.0/json-path-2.4.0.jar"
+      },
+      "isTransitive" : false
+    }, {
+      "importPath" : "import java.util.Set;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isTransitive" : true
+    }, {
+      "importPath" : "import java.util.Map;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isTransitive" : true
+    }, {
+      "importPath" : "import com.jayway.jsonpath.JsonPath;",
+      "artifact" : {
+        "artifact" : "com.jayway.jsonpath:json-path:2.4.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.zalando:jzon:1.5.0/dependencies/com/jayway/jsonpath/json-path/2.4.0/json-path-2.4.0.jar"
+      },
+      "isTransitive" : false
+    }, {
+      "importPath" : "import static com.jayway.jsonpath.JsonPath.compile;",
+      "artifact" : {
+        "artifact" : "com.jayway.jsonpath:json-path:2.4.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.zalando:jzon:1.5.0/dependencies/com/jayway/jsonpath/json-path/2.4.0/json-path-2.4.0.jar"
+      },
+      "isTransitive" : false
+    }, {
+      "importPath" : "import static com.jayway.jsonpath.JsonPath.using;",
+      "artifact" : {
+        "artifact" : "com.jayway.jsonpath:json-path:2.4.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.zalando:jzon:1.5.0/dependencies/com/jayway/jsonpath/json-path/2.4.0/json-path-2.4.0.jar"
+      },
+      "isTransitive" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/jzon/src/main/java/org/zalando/jzon/service/impl/PayloadKeyFactory.java",
+    "useImportReport" : [ {
+      "importPath" : "import org.zalando.jzon.service.PayloadKeyParser;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isTransitive" : true
+    }, {
+      "importPath" : "import com.fasterxml.jackson.databind.ObjectMapper;",
+      "artifact" : {
+        "artifact" : "com.fasterxml.jackson.core:jackson-databind:2.9.9",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.zalando:jzon:1.5.0/dependencies/com/fasterxml/jackson/core/jackson-databind/2.9.9/jackson-databind-2.9.9.jar"
+      },
+      "isTransitive" : false
+    }, {
+      "importPath" : "import org.zalando.jzon.service.PayloadKeyModifier;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isTransitive" : true
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/jzon/src/main/java/org/zalando/jzon/service/impl/JsonParsingException.java",
+    "useImportReport" : [ ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/jzon/src/main/java/org/zalando/jzon/service/impl/DefaultPayloadKeyParser.java",
+    "useImportReport" : [ {
+      "importPath" : "import org.zalando.jzon.service.PayloadKeyParser;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isTransitive" : true
+    }, {
+      "importPath" : "import org.slf4j.Logger;",
+      "artifact" : {
+        "artifact" : "org.slf4j:slf4j-api:1.7.25",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.zalando:jzon:1.5.0/dependencies/org/slf4j/slf4j-api/1.7.25/slf4j-api-1.7.25.jar"
+      },
+      "isTransitive" : true
+    }, {
+      "importPath" : "import static org.slf4j.LoggerFactory.getLogger;",
+      "artifact" : {
+        "artifact" : "org.slf4j:slf4j-api:1.7.25",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.zalando:jzon:1.5.0/dependencies/org/slf4j/slf4j-api/1.7.25/slf4j-api-1.7.25.jar"
+      },
+      "isTransitive" : true
+    }, {
+      "importPath" : "import com.jayway.jsonpath.Configuration;",
+      "artifact" : {
+        "artifact" : "com.jayway.jsonpath:json-path:2.4.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.zalando:jzon:1.5.0/dependencies/com/jayway/jsonpath/json-path/2.4.0/json-path-2.4.0.jar"
+      },
+      "isTransitive" : false
+    }, {
+      "importPath" : "import static com.jayway.jsonpath.Configuration.builder;",
+      "artifact" : {
+        "artifact" : "com.jayway.jsonpath:json-path:2.4.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.zalando:jzon:1.5.0/dependencies/com/jayway/jsonpath/json-path/2.4.0/json-path-2.4.0.jar"
+      },
+      "isTransitive" : false
+    }, {
+      "importPath" : "import com.jayway.jsonpath.Option;",
+      "artifact" : {
+        "artifact" : "com.jayway.jsonpath:json-path:2.4.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.zalando:jzon:1.5.0/dependencies/com/jayway/jsonpath/json-path/2.4.0/json-path-2.4.0.jar"
+      },
+      "isTransitive" : false
+    }, {
+      "importPath" : "import static com.jayway.jsonpath.Option.SUPPRESS_EXCEPTIONS;",
+      "artifact" : {
+        "artifact" : "com.jayway.jsonpath:json-path:2.4.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.zalando:jzon:1.5.0/dependencies/com/jayway/jsonpath/json-path/2.4.0/json-path-2.4.0.jar"
+      },
+      "isTransitive" : false
+    }, {
+      "importPath" : "import com.fasterxml.jackson.databind.ObjectMapper;",
+      "artifact" : {
+        "artifact" : "com.fasterxml.jackson.core:jackson-databind:2.9.9",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.zalando:jzon:1.5.0/dependencies/com/fasterxml/jackson/core/jackson-databind/2.9.9/jackson-databind-2.9.9.jar"
+      },
+      "isTransitive" : false
+    }, {
+      "importPath" : "import java.util.regex.Pattern;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isTransitive" : true
+    }, {
+      "importPath" : "import java.util.Map;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isTransitive" : true
+    }, {
+      "importPath" : "import java.util.Set;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isTransitive" : true
+    }, {
+      "importPath" : "import static org.zalando.jzon.service.KeyMapper.mappedKeysOf;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isTransitive" : true
+    }, {
+      "importPath" : "import static org.zalando.jzon.service.KeyMapper.mappedKnownValuesOf;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isTransitive" : true
+    }, {
+      "importPath" : "import com.fasterxml.jackson.core.JsonProcessingException;",
+      "artifact" : {
+        "artifact" : "com.fasterxml.jackson.core:jackson-core:2.9.9",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.zalando:jzon:1.5.0/dependencies/com/fasterxml/jackson/core/jackson-core/2.9.9/jackson-core-2.9.9.jar"
+      },
+      "isTransitive" : true
+    }, {
+      "importPath" : "import static java.lang.String.format;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isTransitive" : true
+    }, {
+      "importPath" : "import static org.apache.commons.lang3.StringUtils.isBlank;",
+      "artifact" : {
+        "artifact" : "org.apache.commons:commons-lang3:3.8.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.zalando:jzon:1.5.0/dependencies/org/apache/commons/commons-lang3/3.8.1/commons-lang3-3.8.1.jar"
+      },
+      "isTransitive" : false
+    }, {
+      "importPath" : "import static java.util.Collections.emptyMap;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isTransitive" : true
+    }, {
+      "importPath" : "import java.util.HashMap;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isTransitive" : true
+    }, {
+      "importPath" : "import net.minidev.json.JSONArray;",
+      "artifact" : {
+        "artifact" : "net.minidev:json-smart:2.3",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.zalando:jzon:1.5.0/dependencies/net/minidev/json-smart/2.3/json-smart-2.3.jar"
+      },
+      "isTransitive" : true
+    }, {
+      "importPath" : "import static org.apache.commons.lang3.ArrayUtils.toArray;",
+      "artifact" : {
+        "artifact" : "org.apache.commons:commons-lang3:3.8.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.zalando:jzon:1.5.0/dependencies/org/apache/commons/commons-lang3/3.8.1/commons-lang3-3.8.1.jar"
+      },
+      "isTransitive" : false
+    }, {
+      "importPath" : "import com.jayway.jsonpath.InvalidJsonException;",
+      "artifact" : {
+        "artifact" : "com.jayway.jsonpath:json-path:2.4.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.zalando:jzon:1.5.0/dependencies/com/jayway/jsonpath/json-path/2.4.0/json-path-2.4.0.jar"
+      },
+      "isTransitive" : false
+    }, {
+      "importPath" : "import static java.util.stream.Collectors.toMap;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isTransitive" : true
+    }, {
+      "importPath" : "import java.util.stream.Stream;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isTransitive" : true
+    }, {
+      "importPath" : "import static java.util.stream.Collectors.toSet;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isTransitive" : true
+    }, {
+      "importPath" : "import static org.zalando.jzon.service.KeyMapper.mappedKnownValuesFrom;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isTransitive" : true
+    }, {
+      "importPath" : "import java.util.List;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isTransitive" : true
+    }, {
+      "importPath" : "import static org.zalando.jzon.service.KeyMapper.mappedKeyOf;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isTransitive" : true
+    }, {
+      "importPath" : "import java.util.ArrayList;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isTransitive" : true
+    }, {
+      "importPath" : "import static com.google.common.collect.Sets.newHashSet;",
+      "artifact" : {
+        "artifact" : "com.google.guava:guava:27.1-jre",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.zalando:jzon:1.5.0/dependencies/com/google/guava/guava/27.1-jre/guava-27.1-jre.jar"
+      },
+      "isTransitive" : false
+    }, {
+      "importPath" : "import static java.util.Collections.emptyList;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isTransitive" : true
+    }, {
+      "importPath" : "import com.jayway.jsonpath.JsonPath;",
+      "artifact" : {
+        "artifact" : "com.jayway.jsonpath:json-path:2.4.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.zalando:jzon:1.5.0/dependencies/com/jayway/jsonpath/json-path/2.4.0/json-path-2.4.0.jar"
+      },
+      "isTransitive" : false
+    }, {
+      "importPath" : "import com.jayway.jsonpath.PathNotFoundException;",
+      "artifact" : {
+        "artifact" : "com.jayway.jsonpath:json-path:2.4.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.zalando:jzon:1.5.0/dependencies/com/jayway/jsonpath/json-path/2.4.0/json-path-2.4.0.jar"
+      },
+      "isTransitive" : false
+    }, {
+      "importPath" : "import static com.jayway.jsonpath.JsonPath.using;",
+      "artifact" : {
+        "artifact" : "com.jayway.jsonpath:json-path:2.4.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.zalando:jzon:1.5.0/dependencies/com/jayway/jsonpath/json-path/2.4.0/json-path-2.4.0.jar"
+      },
+      "isTransitive" : false
+    }, {
+      "importPath" : "import static org.apache.commons.lang3.ArrayUtils.isNotEmpty;",
+      "artifact" : {
+        "artifact" : "org.apache.commons:commons-lang3:3.8.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.zalando:jzon:1.5.0/dependencies/org/apache/commons/commons-lang3/3.8.1/commons-lang3-3.8.1.jar"
+      },
+      "isTransitive" : false
+    }, {
+      "importPath" : "import java.util.stream.Collectors;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isTransitive" : true
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/jzon/src/main/java/org/zalando/jzon/service/util/CollectionUtil.java",
+    "useImportReport" : [ {
+      "importPath" : "import static org.apache.commons.collections4.CollectionUtils.isNotEmpty;",
+      "artifact" : {
+        "artifact" : "org.apache.commons:commons-collections4:4.3",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.zalando:jzon:1.5.0/dependencies/org/apache/commons/commons-collections4/4.3/commons-collections4-4.3.jar"
+      },
+      "isTransitive" : false
+    }, {
+      "importPath" : "import java.util.Objects;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isTransitive" : true
+    }, {
+      "importPath" : "import java.util.Set;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isTransitive" : true
+    } ],
+    "unusedImportReport" : [ {
+      "importPath" : "import static org.apache.commons.lang3.ArrayUtils.isNotEmpty;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isTransitive" : true
+    } ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/jzon/src/main/java/org/zalando/jzon/service/PayloadKeyParser.java",
+    "useImportReport" : [ {
+      "importPath" : "import java.util.Map;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isTransitive" : true
+    }, {
+      "importPath" : "import java.util.Set;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isTransitive" : true
+    }, {
+      "importPath" : "import java.util.List;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isTransitive" : true
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/jzon/src/main/java/org/zalando/jzon/service/PayloadKeyModifier.java",
+    "useImportReport" : [ {
+      "importPath" : "import java.util.Set;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isTransitive" : true
+    }, {
+      "importPath" : "import java.util.Map;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isTransitive" : true
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/jzon/src/main/java/org/zalando/jzon/service/KeyMapper.java",
+    "useImportReport" : [ {
+      "importPath" : "import org.slf4j.Logger;",
+      "artifact" : {
+        "artifact" : "org.slf4j:slf4j-api:1.7.25",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.zalando:jzon:1.5.0/dependencies/org/slf4j/slf4j-api/1.7.25/slf4j-api-1.7.25.jar"
+      },
+      "isTransitive" : true
+    }, {
+      "importPath" : "import static org.slf4j.LoggerFactory.getLogger;",
+      "artifact" : {
+        "artifact" : "org.slf4j:slf4j-api:1.7.25",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.zalando:jzon:1.5.0/dependencies/org/slf4j/slf4j-api/1.7.25/slf4j-api-1.7.25.jar"
+      },
+      "isTransitive" : true
+    }, {
+      "importPath" : "import java.util.Set;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isTransitive" : true
+    }, {
+      "importPath" : "import java.util.Map;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isTransitive" : true
+    }, {
+      "importPath" : "import java.util.HashSet;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isTransitive" : true
+    }, {
+      "importPath" : "import java.util.Objects;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isTransitive" : true
+    }, {
+      "importPath" : "import java.util.HashMap;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isTransitive" : true
+    }, {
+      "importPath" : "import java.util.Map.Entry;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isTransitive" : true
+    }, {
+      "importPath" : "import java.util.List;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isTransitive" : true
+    }, {
+      "importPath" : "import java.util.ArrayList;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isTransitive" : true
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  } ],
+  "projectUseDependencies" : [ {
+    "artifact" : "com.jayway.jsonpath:json-path:2.4.0",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.zalando:jzon:1.5.0/dependencies/com/jayway/jsonpath/json-path/2.4.0/json-path-2.4.0.jar"
+  }, {
+    "artifact" : "com.fasterxml.jackson.core:jackson-databind:2.9.9",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.zalando:jzon:1.5.0/dependencies/com/fasterxml/jackson/core/jackson-databind/2.9.9/jackson-databind-2.9.9.jar"
+  }, {
+    "artifact" : "org.apache.commons:commons-lang3:3.8.1",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.zalando:jzon:1.5.0/dependencies/org/apache/commons/commons-lang3/3.8.1/commons-lang3-3.8.1.jar"
+  }, {
+    "artifact" : "com.google.guava:guava:27.1-jre",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.zalando:jzon:1.5.0/dependencies/com/google/guava/guava/27.1-jre/guava-27.1-jre.jar"
+  }, {
+    "artifact" : "org.apache.commons:commons-collections4:4.3",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.zalando:jzon:1.5.0/dependencies/org/apache/commons/commons-collections4/4.3/commons-collections4-4.3.jar"
+  } ],
+  "projectUnusedDependencies" : [ ]
+}

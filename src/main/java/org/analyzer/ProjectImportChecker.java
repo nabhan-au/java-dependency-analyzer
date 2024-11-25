@@ -34,7 +34,7 @@ public class ProjectImportChecker {
     private String repoSubPath;
     private String artifactLocation;
 
-    public ProjectImportChecker(String repoPath, String repoSubPath, String destinationPath, Boolean skipArtifactInstallation, Boolean skipPomFileModification, String projectArtifactId, Optional<String> jarPath, Optional<String> csvFilePath) throws Exception {
+    public ProjectImportChecker(String repoPath, String repoSubPath, String destinationPath, Boolean skipArtifactInstallation, Boolean skipPomFileModification, String projectArtifactId, Optional<String> jarPath, Optional<String> csvFilePath, Map<String, String> dependencyMap) throws Exception {
         var basePath = destinationPath + "/" + projectArtifactId;
         this.projectArtifact = projectArtifactId;
         this.repoPath = repoPath;
@@ -80,7 +80,7 @@ public class ProjectImportChecker {
         this.dependencies.forEach(d -> {
             var extractedDependency = DependencyExtractor.extractDependency(d.toString());
             try {
-                var result = artifactInstaller.getArtifactFromPath(extractedDependency.getGroupId(), extractedDependency.getArtifactId(), extractedDependency.getVersion(), basePath);
+                var result = artifactInstaller.getArtifactFromPath(extractedDependency.getGroupId(), extractedDependency.getArtifactId(), extractedDependency.getVersion(), basePath, dependencyMap);
                 if (result == null) {
                     System.out.println("Downloading dependency: " + d);
                     var version = PomReader.getVersionFromPom(finalPomFile.getArtifactPath(), extractedDependency.getGroupId(), extractedDependency.getArtifactId());
@@ -112,7 +112,7 @@ public class ProjectImportChecker {
             if (!dependencies.contains(d)) {
                 var extractedDependency = DependencyExtractor.extractDependency(d.toString());
                 try {
-                    var result = artifactInstaller.getArtifactFromPath(extractedDependency.getGroupId(), extractedDependency.getArtifactId(), extractedDependency.getVersion(), basePath);
+                    var result = artifactInstaller.getArtifactFromPath(extractedDependency.getGroupId(), extractedDependency.getArtifactId(), extractedDependency.getVersion(), basePath, dependencyMap);
                     if (result == null) {
                         System.out.println("Downloading transitive dependency: " + d);
                         var version = PomReader.getVersionFromPom(finalPomFile.getArtifactPath(), extractedDependency.getGroupId(), extractedDependency.getArtifactId());
@@ -427,7 +427,7 @@ public class ProjectImportChecker {
         var gitBranch = "flow-0.7.48";
 
         GitUtils.gitCheckoutBranch(repoPath, gitBranch);
-        var checker = new ProjectImportChecker(repoPath, subPath, destinationPath, false, true, projectArtifact, Optional.empty(), Optional.of(csvFile));
+        var checker = new ProjectImportChecker(repoPath, subPath, destinationPath, false, true, projectArtifact, Optional.empty(), Optional.of(csvFile), new HashMap<>(){});
         checker.resolve(false);
         var projectReport = checker.check();
         checker.exportToJson(projectReport, writeFileDestination);

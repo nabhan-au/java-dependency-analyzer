@@ -1,0 +1,932 @@
+{
+  "projectArtifact" : "io.github.willena:connect-influxdb-sink:1.0.2",
+  "repositoryDir" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/connect-influxdb-sink",
+  "repositorySubDir" : "/src/main",
+  "artifactLocation" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.github.willena:connect-influxdb-sink:1.0.2",
+  "fileImportReports" : [ {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/connect-influxdb-sink/src/main/java/io/github/willena/connect/influxdb/validator/EnumValidator.java",
+    "useImportReport" : [ {
+      "importPath" : "import org.apache.kafka.common.config.ConfigDef;",
+      "artifact" : {
+        "artifact" : "org.apache.kafka:kafka-clients:3.7.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.github.willena:connect-influxdb-sink:1.0.2/dependencies/org/apache/kafka/kafka-clients/3.7.0/kafka-clients-3.7.0.jar"
+      },
+      "isTransitive" : true
+    }, {
+      "importPath" : "import java.util.Arrays;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isTransitive" : true
+    }, {
+      "importPath" : "import org.apache.kafka.common.config.ConfigException;",
+      "artifact" : {
+        "artifact" : "org.apache.kafka:kafka-clients:3.7.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.github.willena:connect-influxdb-sink:1.0.2/dependencies/org/apache/kafka/kafka-clients/3.7.0/kafka-clients-3.7.0.jar"
+      },
+      "isTransitive" : true
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/connect-influxdb-sink/src/main/java/io/github/willena/connect/influxdb/util/FieldMapParser.java",
+    "useImportReport" : [ {
+      "importPath" : "import java.util.List;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isTransitive" : true
+    }, {
+      "importPath" : "import java.util.Map;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isTransitive" : true
+    }, {
+      "importPath" : "import java.util.Arrays;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isTransitive" : true
+    }, {
+      "importPath" : "import java.util.Collections;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isTransitive" : true
+    }, {
+      "importPath" : "import java.util.stream.Collectors;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isTransitive" : true
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/connect-influxdb-sink/src/main/java/io/github/willena/connect/influxdb/util/StructUtils.java",
+    "useImportReport" : [ {
+      "importPath" : "import java.util.Map;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isTransitive" : true
+    }, {
+      "importPath" : "import org.apache.kafka.connect.data.Struct;",
+      "artifact" : {
+        "artifact" : "org.apache.kafka:connect-api:3.7.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.github.willena:connect-influxdb-sink:1.0.2/dependencies/org/apache/kafka/connect-api/3.7.0/connect-api-3.7.0.jar"
+      },
+      "isTransitive" : false
+    }, {
+      "importPath" : "import java.util.LinkedHashMap;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isTransitive" : true
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/connect-influxdb-sink/src/main/java/io/github/willena/connect/influxdb/util/TimeUtil.java",
+    "useImportReport" : [ {
+      "importPath" : "import java.time.Duration;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isTransitive" : true
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/connect-influxdb-sink/src/main/java/io/github/willena/connect/influxdb/util/Version.java",
+    "useImportReport" : [ {
+      "importPath" : "import java.io.InputStream;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isTransitive" : true
+    }, {
+      "importPath" : "import java.util.Properties;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isTransitive" : true
+    }, {
+      "importPath" : "import java.io.IOException;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isTransitive" : true
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/connect-influxdb-sink/src/main/java/io/github/willena/connect/influxdb/providers/ProviderChain.java",
+    "useImportReport" : [ {
+      "importPath" : "import java.util.*;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isTransitive" : true
+    }, {
+      "importPath" : "import java.util.*;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isTransitive" : true
+    }, {
+      "importPath" : "import java.util.*;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isTransitive" : true
+    }, {
+      "importPath" : "import java.util.stream.Collectors;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isTransitive" : true
+    }, {
+      "importPath" : "import java.lang.reflect.InvocationTargetException;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isTransitive" : true
+    }, {
+      "importPath" : "import java.util.*;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isTransitive" : true
+    }, {
+      "importPath" : "import org.apache.kafka.connect.sink.SinkRecord;",
+      "artifact" : {
+        "artifact" : "org.apache.kafka:connect-api:3.7.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.github.willena:connect-influxdb-sink:1.0.2/dependencies/org/apache/kafka/connect-api/3.7.0/connect-api-3.7.0.jar"
+      },
+      "isTransitive" : false
+    }, {
+      "importPath" : "import java.util.*;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isTransitive" : true
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/connect-influxdb-sink/src/main/java/io/github/willena/connect/influxdb/providers/Provider.java",
+    "useImportReport" : [ {
+      "importPath" : "import java.util.Map;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isTransitive" : true
+    }, {
+      "importPath" : "import org.apache.kafka.connect.sink.SinkRecord;",
+      "artifact" : {
+        "artifact" : "org.apache.kafka:connect-api:3.7.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.github.willena:connect-influxdb-sink:1.0.2/dependencies/org/apache/kafka/connect-api/3.7.0/connect-api-3.7.0.jar"
+      },
+      "isTransitive" : false
+    }, {
+      "importPath" : "import java.util.Optional;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isTransitive" : true
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/connect-influxdb-sink/src/main/java/io/github/willena/connect/influxdb/providers/Fields.java",
+    "useImportReport" : [ {
+      "importPath" : "import org.slf4j.Logger;",
+      "artifact" : {
+        "artifact" : "org.slf4j:slf4j-api:2.0.13",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.github.willena:connect-influxdb-sink:1.0.2/dependencies/org/slf4j/slf4j-api/2.0.13/slf4j-api-2.0.13.jar"
+      },
+      "isTransitive" : false
+    }, {
+      "importPath" : "import org.slf4j.LoggerFactory;",
+      "artifact" : {
+        "artifact" : "org.slf4j:slf4j-api:2.0.13",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.github.willena:connect-influxdb-sink:1.0.2/dependencies/org/slf4j/slf4j-api/2.0.13/slf4j-api-2.0.13.jar"
+      },
+      "isTransitive" : false
+    }, {
+      "importPath" : "import java.util.List;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isTransitive" : true
+    }, {
+      "importPath" : "import java.util.Map;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isTransitive" : true
+    }, {
+      "importPath" : "import io.github.willena.connect.influxdb.util.FieldMapParser;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isTransitive" : true
+    }, {
+      "importPath" : "import org.apache.kafka.connect.sink.SinkRecord;",
+      "artifact" : {
+        "artifact" : "org.apache.kafka:connect-api:3.7.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.github.willena:connect-influxdb-sink:1.0.2/dependencies/org/apache/kafka/connect-api/3.7.0/connect-api-3.7.0.jar"
+      },
+      "isTransitive" : false
+    }, {
+      "importPath" : "import org.apache.kafka.connect.data.Struct;",
+      "artifact" : {
+        "artifact" : "org.apache.kafka:connect-api:3.7.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.github.willena:connect-influxdb-sink:1.0.2/dependencies/org/apache/kafka/connect-api/3.7.0/connect-api-3.7.0.jar"
+      },
+      "isTransitive" : false
+    }, {
+      "importPath" : "import io.github.willena.connect.influxdb.util.StructUtils;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isTransitive" : true
+    }, {
+      "importPath" : "import org.apache.kafka.connect.errors.DataException;",
+      "artifact" : {
+        "artifact" : "org.apache.kafka:connect-api:3.7.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.github.willena:connect-influxdb-sink:1.0.2/dependencies/org/apache/kafka/connect-api/3.7.0/connect-api-3.7.0.jar"
+      },
+      "isTransitive" : false
+    }, {
+      "importPath" : "import java.util.HashMap;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isTransitive" : true
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/connect-influxdb-sink/src/main/java/io/github/willena/connect/influxdb/providers/Static.java",
+    "useImportReport" : [ {
+      "importPath" : "import java.util.Map;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isTransitive" : true
+    }, {
+      "importPath" : "import java.util.List;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isTransitive" : true
+    }, {
+      "importPath" : "import java.util.stream.Collectors;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isTransitive" : true
+    }, {
+      "importPath" : "import java.util.Collections;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isTransitive" : true
+    }, {
+      "importPath" : "import org.apache.kafka.common.config.ConfigException;",
+      "artifact" : {
+        "artifact" : "org.apache.kafka:kafka-clients:3.7.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.github.willena:connect-influxdb-sink:1.0.2/dependencies/org/apache/kafka/kafka-clients/3.7.0/kafka-clients-3.7.0.jar"
+      },
+      "isTransitive" : true
+    }, {
+      "importPath" : "import org.apache.kafka.connect.sink.SinkRecord;",
+      "artifact" : {
+        "artifact" : "org.apache.kafka:connect-api:3.7.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.github.willena:connect-influxdb-sink:1.0.2/dependencies/org/apache/kafka/connect-api/3.7.0/connect-api-3.7.0.jar"
+      },
+      "isTransitive" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/connect-influxdb-sink/src/main/java/io/github/willena/connect/influxdb/providers/Record.java",
+    "useImportReport" : [ {
+      "importPath" : "import java.util.*;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isTransitive" : true
+    }, {
+      "importPath" : "import java.util.*;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isTransitive" : true
+    }, {
+      "importPath" : "import org.apache.kafka.common.config.ConfigException;",
+      "artifact" : {
+        "artifact" : "org.apache.kafka:kafka-clients:3.7.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.github.willena:connect-influxdb-sink:1.0.2/dependencies/org/apache/kafka/kafka-clients/3.7.0/kafka-clients-3.7.0.jar"
+      },
+      "isTransitive" : true
+    }, {
+      "importPath" : "import io.github.willena.connect.influxdb.util.FieldMapParser;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isTransitive" : true
+    }, {
+      "importPath" : "import java.util.*;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isTransitive" : true
+    }, {
+      "importPath" : "import java.util.stream.Collectors;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isTransitive" : true
+    }, {
+      "importPath" : "import java.util.*;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isTransitive" : true
+    }, {
+      "importPath" : "import org.apache.kafka.connect.sink.SinkRecord;",
+      "artifact" : {
+        "artifact" : "org.apache.kafka:connect-api:3.7.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.github.willena:connect-influxdb-sink:1.0.2/dependencies/org/apache/kafka/connect-api/3.7.0/connect-api-3.7.0.jar"
+      },
+      "isTransitive" : false
+    }, {
+      "importPath" : "import java.util.*;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isTransitive" : true
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/connect-influxdb-sink/src/main/java/io/github/willena/connect/influxdb/providers/Simple.java",
+    "useImportReport" : [ {
+      "importPath" : "import java.util.Map;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isTransitive" : true
+    }, {
+      "importPath" : "import org.apache.kafka.connect.sink.SinkRecord;",
+      "artifact" : {
+        "artifact" : "org.apache.kafka:connect-api:3.7.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.github.willena:connect-influxdb-sink:1.0.2/dependencies/org/apache/kafka/connect-api/3.7.0/connect-api-3.7.0.jar"
+      },
+      "isTransitive" : false
+    }, {
+      "importPath" : "import org.apache.kafka.connect.data.Struct;",
+      "artifact" : {
+        "artifact" : "org.apache.kafka:connect-api:3.7.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.github.willena:connect-influxdb-sink:1.0.2/dependencies/org/apache/kafka/connect-api/3.7.0/connect-api-3.7.0.jar"
+      },
+      "isTransitive" : false
+    }, {
+      "importPath" : "import io.github.willena.connect.influxdb.util.StructUtils;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isTransitive" : true
+    }, {
+      "importPath" : "import java.util.Collections;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isTransitive" : true
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/connect-influxdb-sink/src/main/java/io/github/willena/connect/influxdb/sink/InfluxDBSinkTask.java",
+    "useImportReport" : [ {
+      "importPath" : "import org.apache.kafka.connect.sink.SinkTask;",
+      "artifact" : {
+        "artifact" : "org.apache.kafka:connect-api:3.7.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.github.willena:connect-influxdb-sink:1.0.2/dependencies/org/apache/kafka/connect-api/3.7.0/connect-api-3.7.0.jar"
+      },
+      "isTransitive" : false
+    }, {
+      "importPath" : "import java.util.Map;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isTransitive" : true
+    }, {
+      "importPath" : "import java.util.Collection;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isTransitive" : true
+    }, {
+      "importPath" : "import org.apache.kafka.connect.sink.SinkRecord;",
+      "artifact" : {
+        "artifact" : "org.apache.kafka:connect-api:3.7.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.github.willena:connect-influxdb-sink:1.0.2/dependencies/org/apache/kafka/connect-api/3.7.0/connect-api-3.7.0.jar"
+      },
+      "isTransitive" : false
+    }, {
+      "importPath" : "import org.apache.kafka.common.TopicPartition;",
+      "artifact" : {
+        "artifact" : "org.apache.kafka:kafka-clients:3.7.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.github.willena:connect-influxdb-sink:1.0.2/dependencies/org/apache/kafka/kafka-clients/3.7.0/kafka-clients-3.7.0.jar"
+      },
+      "isTransitive" : true
+    }, {
+      "importPath" : "import org.apache.kafka.clients.consumer.OffsetAndMetadata;",
+      "artifact" : {
+        "artifact" : "org.apache.kafka:kafka-clients:3.7.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.github.willena:connect-influxdb-sink:1.0.2/dependencies/org/apache/kafka/kafka-clients/3.7.0/kafka-clients-3.7.0.jar"
+      },
+      "isTransitive" : true
+    }, {
+      "importPath" : "import io.github.willena.connect.influxdb.util.Version;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isTransitive" : true
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/connect-influxdb-sink/src/main/java/io/github/willena/connect/influxdb/sink/InfluxDBWriter.java",
+    "useImportReport" : [ {
+      "importPath" : "import org.slf4j.Logger;",
+      "artifact" : {
+        "artifact" : "org.slf4j:slf4j-api:2.0.13",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.github.willena:connect-influxdb-sink:1.0.2/dependencies/org/slf4j/slf4j-api/2.0.13/slf4j-api-2.0.13.jar"
+      },
+      "isTransitive" : false
+    }, {
+      "importPath" : "import org.slf4j.LoggerFactory;",
+      "artifact" : {
+        "artifact" : "org.slf4j:slf4j-api:2.0.13",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.github.willena:connect-influxdb-sink:1.0.2/dependencies/org/slf4j/slf4j-api/2.0.13/slf4j-api-2.0.13.jar"
+      },
+      "isTransitive" : false
+    }, {
+      "importPath" : "import java.util.*;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isTransitive" : true
+    }, {
+      "importPath" : "import java.util.*;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isTransitive" : true
+    }, {
+      "importPath" : "import java.util.*;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isTransitive" : true
+    }, {
+      "importPath" : "import org.apache.kafka.common.TopicPartition;",
+      "artifact" : {
+        "artifact" : "org.apache.kafka:kafka-clients:3.7.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.github.willena:connect-influxdb-sink:1.0.2/dependencies/org/apache/kafka/kafka-clients/3.7.0/kafka-clients-3.7.0.jar"
+      },
+      "isTransitive" : true
+    }, {
+      "importPath" : "import org.apache.kafka.clients.consumer.OffsetAndMetadata;",
+      "artifact" : {
+        "artifact" : "org.apache.kafka:kafka-clients:3.7.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.github.willena:connect-influxdb-sink:1.0.2/dependencies/org/apache/kafka/kafka-clients/3.7.0/kafka-clients-3.7.0.jar"
+      },
+      "isTransitive" : true
+    }, {
+      "importPath" : "import java.util.*;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isTransitive" : true
+    }, {
+      "importPath" : "import io.github.willena.connect.retry.Retryable;",
+      "artifact" : {
+        "artifact" : "io.github.willena:connect-retryable:1.0.2",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.github.willena:connect-influxdb-sink:1.0.2/dependencies/io/github/willena/connect-retryable/1.0.2/connect-retryable-1.0.2.jar"
+      },
+      "isTransitive" : false
+    }, {
+      "importPath" : "import org.influxdb.InfluxDB;",
+      "artifact" : {
+        "artifact" : "org.influxdb:influxdb-java:2.24",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.github.willena:connect-influxdb-sink:1.0.2/dependencies/org/influxdb/influxdb-java/2.24/influxdb-java-2.24.jar"
+      },
+      "isTransitive" : false
+    }, {
+      "importPath" : "import io.github.willena.connect.backoff.BackoffTimers;",
+      "artifact" : {
+        "artifact" : "io.github.willena:connect-retryable:1.0.2",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.github.willena:connect-influxdb-sink:1.0.2/dependencies/io/github/willena/connect-retryable/1.0.2/connect-retryable-1.0.2.jar"
+      },
+      "isTransitive" : false
+    }, {
+      "importPath" : "import java.time.Duration;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isTransitive" : true
+    }, {
+      "importPath" : "import io.github.willena.connect.retry.Condition;",
+      "artifact" : {
+        "artifact" : "io.github.willena:connect-retryable:1.0.2",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.github.willena:connect-influxdb-sink:1.0.2/dependencies/io/github/willena/connect-retryable/1.0.2/connect-retryable-1.0.2.jar"
+      },
+      "isTransitive" : false
+    }, {
+      "importPath" : "import org.influxdb.InfluxDBIOException;",
+      "artifact" : {
+        "artifact" : "org.influxdb:influxdb-java:2.24",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.github.willena:connect-influxdb-sink:1.0.2/dependencies/org/influxdb/influxdb-java/2.24/influxdb-java-2.24.jar"
+      },
+      "isTransitive" : false
+    }, {
+      "importPath" : "import java.util.*;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isTransitive" : true
+    }, {
+      "importPath" : "import org.apache.kafka.connect.sink.SinkRecord;",
+      "artifact" : {
+        "artifact" : "org.apache.kafka:connect-api:3.7.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.github.willena:connect-influxdb-sink:1.0.2/dependencies/org/apache/kafka/connect-api/3.7.0/connect-api-3.7.0.jar"
+      },
+      "isTransitive" : false
+    }, {
+      "importPath" : "import com.google.common.collect.HashMultimap;",
+      "artifact" : {
+        "artifact" : "com.google.guava:guava:33.1.0-jre",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.github.willena:connect-influxdb-sink:1.0.2/dependencies/com/google/guava/guava/33.1.0-jre/guava-33.1.0-jre.jar"
+      },
+      "isTransitive" : false
+    }, {
+      "importPath" : "import java.util.*;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isTransitive" : true
+    }, {
+      "importPath" : "import org.influxdb.dto.BatchPoints;",
+      "artifact" : {
+        "artifact" : "org.influxdb:influxdb-java:2.24",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.github.willena:connect-influxdb-sink:1.0.2/dependencies/org/influxdb/influxdb-java/2.24/influxdb-java-2.24.jar"
+      },
+      "isTransitive" : false
+    }, {
+      "importPath" : "import org.apache.kafka.connect.data.Struct;",
+      "artifact" : {
+        "artifact" : "org.apache.kafka:connect-api:3.7.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.github.willena:connect-influxdb-sink:1.0.2/dependencies/org/apache/kafka/connect-api/3.7.0/connect-api-3.7.0.jar"
+      },
+      "isTransitive" : false
+    }, {
+      "importPath" : "import io.github.willena.connect.influxdb.util.StructUtils;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isTransitive" : true
+    }, {
+      "importPath" : "import org.influxdb.dto.Point;",
+      "artifact" : {
+        "artifact" : "org.influxdb:influxdb-java:2.24",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.github.willena:connect-influxdb-sink:1.0.2/dependencies/org/influxdb/influxdb-java/2.24/influxdb-java-2.24.jar"
+      },
+      "isTransitive" : false
+    }, {
+      "importPath" : "import org.apache.kafka.connect.errors.DataException;",
+      "artifact" : {
+        "artifact" : "org.apache.kafka:connect-api:3.7.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.github.willena:connect-influxdb-sink:1.0.2/dependencies/org/apache/kafka/connect-api/3.7.0/connect-api-3.7.0.jar"
+      },
+      "isTransitive" : false
+    }, {
+      "importPath" : "import java.util.stream.Collectors;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isTransitive" : true
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ {
+      "importPath" : "org.influxdb.InfluxDBFactory",
+      "artifact" : {
+        "artifact" : "org.influxdb:influxdb-java:2.24",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.github.willena:connect-influxdb-sink:1.0.2/dependencies/org/influxdb/influxdb-java/2.24/influxdb-java-2.24.jar"
+      },
+      "isTransitive" : false
+    } ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/connect-influxdb-sink/src/main/java/io/github/willena/connect/influxdb/sink/InfluxDBSinkConnectorConfig.java",
+    "useImportReport" : [ {
+      "importPath" : "import org.apache.kafka.common.config.AbstractConfig;",
+      "artifact" : {
+        "artifact" : "org.apache.kafka:kafka-clients:3.7.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.github.willena:connect-influxdb-sink:1.0.2/dependencies/org/apache/kafka/kafka-clients/3.7.0/kafka-clients-3.7.0.jar"
+      },
+      "isTransitive" : true
+    }, {
+      "importPath" : "import org.apache.kafka.common.config.types.Password;",
+      "artifact" : {
+        "artifact" : "org.apache.kafka:kafka-clients:3.7.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.github.willena:connect-influxdb-sink:1.0.2/dependencies/org/apache/kafka/kafka-clients/3.7.0/kafka-clients-3.7.0.jar"
+      },
+      "isTransitive" : true
+    }, {
+      "importPath" : "import org.influxdb.InfluxDB;",
+      "artifact" : {
+        "artifact" : "org.influxdb:influxdb-java:2.24",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.github.willena:connect-influxdb-sink:1.0.2/dependencies/org/influxdb/influxdb-java/2.24/influxdb-java-2.24.jar"
+      },
+      "isTransitive" : false
+    }, {
+      "importPath" : "import java.util.concurrent.TimeUnit;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isTransitive" : true
+    }, {
+      "importPath" : "import io.github.willena.connect.influxdb.providers.Provider;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isTransitive" : true
+    }, {
+      "importPath" : "import java.util.Map;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isTransitive" : true
+    }, {
+      "importPath" : "import io.github.willena.connect.influxdb.providers.ProviderChain;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isTransitive" : true
+    }, {
+      "importPath" : "import org.apache.kafka.common.config.ConfigDef;",
+      "artifact" : {
+        "artifact" : "org.apache.kafka:kafka-clients:3.7.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.github.willena:connect-influxdb-sink:1.0.2/dependencies/org/apache/kafka/kafka-clients/3.7.0/kafka-clients-3.7.0.jar"
+      },
+      "isTransitive" : true
+    }, {
+      "importPath" : "import static org.apache.kafka.common.config.ConfigDef.Type.*;",
+      "artifact" : {
+        "artifact" : "org.apache.kafka:kafka-clients:3.7.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.github.willena:connect-influxdb-sink:1.0.2/dependencies/org/apache/kafka/kafka-clients/3.7.0/kafka-clients-3.7.0.jar"
+      },
+      "isTransitive" : true
+    }, {
+      "importPath" : "import static org.apache.kafka.common.config.ConfigDef.NO_DEFAULT_VALUE;",
+      "artifact" : {
+        "artifact" : "org.apache.kafka:kafka-clients:3.7.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.github.willena:connect-influxdb-sink:1.0.2/dependencies/org/apache/kafka/kafka-clients/3.7.0/kafka-clients-3.7.0.jar"
+      },
+      "isTransitive" : true
+    }, {
+      "importPath" : "import static org.apache.kafka.common.config.ConfigDef.Importance.*;",
+      "artifact" : {
+        "artifact" : "org.apache.kafka:kafka-clients:3.7.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.github.willena:connect-influxdb-sink:1.0.2/dependencies/org/apache/kafka/kafka-clients/3.7.0/kafka-clients-3.7.0.jar"
+      },
+      "isTransitive" : true
+    }, {
+      "importPath" : "import static org.apache.kafka.common.config.ConfigDef.Importance.*;",
+      "artifact" : {
+        "artifact" : "org.apache.kafka:kafka-clients:3.7.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.github.willena:connect-influxdb-sink:1.0.2/dependencies/org/apache/kafka/kafka-clients/3.7.0/kafka-clients-3.7.0.jar"
+      },
+      "isTransitive" : true
+    }, {
+      "importPath" : "import static org.apache.kafka.common.config.ConfigDef.Type.*;",
+      "artifact" : {
+        "artifact" : "org.apache.kafka:kafka-clients:3.7.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.github.willena:connect-influxdb-sink:1.0.2/dependencies/org/apache/kafka/kafka-clients/3.7.0/kafka-clients-3.7.0.jar"
+      },
+      "isTransitive" : true
+    }, {
+      "importPath" : "import static org.apache.kafka.common.config.ConfigDef.Type.*;",
+      "artifact" : {
+        "artifact" : "org.apache.kafka:kafka-clients:3.7.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.github.willena:connect-influxdb-sink:1.0.2/dependencies/org/apache/kafka/kafka-clients/3.7.0/kafka-clients-3.7.0.jar"
+      },
+      "isTransitive" : true
+    }, {
+      "importPath" : "import static org.apache.kafka.common.config.ConfigDef.Importance.*;",
+      "artifact" : {
+        "artifact" : "org.apache.kafka:kafka-clients:3.7.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.github.willena:connect-influxdb-sink:1.0.2/dependencies/org/apache/kafka/kafka-clients/3.7.0/kafka-clients-3.7.0.jar"
+      },
+      "isTransitive" : true
+    }, {
+      "importPath" : "import io.github.willena.connect.influxdb.validator.EnumValidator;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isTransitive" : true
+    }, {
+      "importPath" : "import static org.apache.kafka.common.config.ConfigDef.Type.*;",
+      "artifact" : {
+        "artifact" : "org.apache.kafka:kafka-clients:3.7.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.github.willena:connect-influxdb-sink:1.0.2/dependencies/org/apache/kafka/kafka-clients/3.7.0/kafka-clients-3.7.0.jar"
+      },
+      "isTransitive" : true
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/connect-influxdb-sink/src/main/java/io/github/willena/connect/influxdb/sink/SerieDescriptor.java",
+    "useImportReport" : [ {
+      "importPath" : "import java.util.Map;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isTransitive" : true
+    }, {
+      "importPath" : "import com.google.common.collect.ImmutableMap;",
+      "artifact" : {
+        "artifact" : "com.google.guava:guava:33.1.0-jre",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.github.willena:connect-influxdb-sink:1.0.2/dependencies/com/google/guava/guava/33.1.0-jre/guava-33.1.0-jre.jar"
+      },
+      "isTransitive" : false
+    }, {
+      "importPath" : "import com.google.common.collect.ComparisonChain;",
+      "artifact" : {
+        "artifact" : "com.google.guava:guava:33.1.0-jre",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.github.willena:connect-influxdb-sink:1.0.2/dependencies/com/google/guava/guava/33.1.0-jre/guava-33.1.0-jre.jar"
+      },
+      "isTransitive" : false
+    }, {
+      "importPath" : "import com.google.common.base.Objects;",
+      "artifact" : {
+        "artifact" : "com.google.guava:guava:33.1.0-jre",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.github.willena:connect-influxdb-sink:1.0.2/dependencies/com/google/guava/guava/33.1.0-jre/guava-33.1.0-jre.jar"
+      },
+      "isTransitive" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/connect-influxdb-sink/src/main/java/io/github/willena/connect/influxdb/sink/InfluxDBSinkConnector.java",
+    "useImportReport" : [ {
+      "importPath" : "import org.apache.kafka.connect.sink.SinkConnector;",
+      "artifact" : {
+        "artifact" : "org.apache.kafka:connect-api:3.7.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.github.willena:connect-influxdb-sink:1.0.2/dependencies/org/apache/kafka/connect-api/3.7.0/connect-api-3.7.0.jar"
+      },
+      "isTransitive" : false
+    }, {
+      "importPath" : "import java.util.Map;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isTransitive" : true
+    }, {
+      "importPath" : "import io.github.willena.connect.influxdb.util.Version;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isTransitive" : true
+    }, {
+      "importPath" : "import org.apache.kafka.connect.connector.Task;",
+      "artifact" : {
+        "artifact" : "org.apache.kafka:connect-api:3.7.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.github.willena:connect-influxdb-sink:1.0.2/dependencies/org/apache/kafka/connect-api/3.7.0/connect-api-3.7.0.jar"
+      },
+      "isTransitive" : false
+    }, {
+      "importPath" : "import java.util.List;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isTransitive" : true
+    }, {
+      "importPath" : "import java.util.LinkedList;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isTransitive" : true
+    }, {
+      "importPath" : "import org.apache.kafka.common.config.ConfigDef;",
+      "artifact" : {
+        "artifact" : "org.apache.kafka:kafka-clients:3.7.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.github.willena:connect-influxdb-sink:1.0.2/dependencies/org/apache/kafka/kafka-clients/3.7.0/kafka-clients-3.7.0.jar"
+      },
+      "isTransitive" : true
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  } ],
+  "projectUseDependencies" : [ {
+    "artifact" : "org.apache.kafka:connect-api:3.7.0",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.github.willena:connect-influxdb-sink:1.0.2/dependencies/org/apache/kafka/connect-api/3.7.0/connect-api-3.7.0.jar"
+  }, {
+    "artifact" : "org.slf4j:slf4j-api:2.0.13",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.github.willena:connect-influxdb-sink:1.0.2/dependencies/org/slf4j/slf4j-api/2.0.13/slf4j-api-2.0.13.jar"
+  }, {
+    "artifact" : "io.github.willena:connect-retryable:1.0.2",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.github.willena:connect-influxdb-sink:1.0.2/dependencies/io/github/willena/connect-retryable/1.0.2/connect-retryable-1.0.2.jar"
+  }, {
+    "artifact" : "org.influxdb:influxdb-java:2.24",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.github.willena:connect-influxdb-sink:1.0.2/dependencies/org/influxdb/influxdb-java/2.24/influxdb-java-2.24.jar"
+  }, {
+    "artifact" : "com.google.guava:guava:33.1.0-jre",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.github.willena:connect-influxdb-sink:1.0.2/dependencies/com/google/guava/guava/33.1.0-jre/guava-33.1.0-jre.jar"
+  } ],
+  "projectUnusedDependencies" : [ ]
+}
