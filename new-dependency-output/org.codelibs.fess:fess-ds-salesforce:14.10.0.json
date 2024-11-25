@@ -1,0 +1,1491 @@
+{
+  "projectArtifact" : "org.codelibs.fess:fess-ds-salesforce:14.10.0",
+  "repositoryDir" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/fess-ds-salesforce",
+  "repositorySubDir" : "/src/main",
+  "artifactLocation" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.codelibs.fess:fess-ds-salesforce:14.10.0",
+  "fileImportReports" : [ {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/fess-ds-salesforce/src/main/java/org/codelibs/fess/ds/salesforce/SalesforceDataStore.java",
+    "useImportReport" : [ {
+      "importPath" : "import org.codelibs.fess.ds.AbstractDataStore;",
+      "artifact" : {
+        "artifact" : "org.codelibs.fess:fess:14.10.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.codelibs.fess:fess-ds-salesforce:14.10.0/dependencies/org/codelibs/fess/fess/14.10.0/fess-14.10.0.jar"
+      },
+      "isTransitive" : false
+    }, {
+      "importPath" : "import org.slf4j.Logger;",
+      "artifact" : {
+        "artifact" : "org.slf4j:slf4j-api:1.7.36",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.codelibs.fess:fess-ds-salesforce:14.10.0/dependencies/org/slf4j/slf4j-api/1.7.36/slf4j-api-1.7.36.jar"
+      },
+      "isTransitive" : false
+    }, {
+      "importPath" : "import org.slf4j.LoggerFactory;",
+      "artifact" : {
+        "artifact" : "org.slf4j:slf4j-api:1.7.36",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.codelibs.fess:fess-ds-salesforce:14.10.0/dependencies/org/slf4j/slf4j-api/1.7.36/slf4j-api-1.7.36.jar"
+      },
+      "isTransitive" : false
+    }, {
+      "importPath" : "import org.codelibs.fess.es.config.exentity.DataConfig;",
+      "artifact" : {
+        "artifact" : "org.codelibs.fess:fess:14.10.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.codelibs.fess:fess-ds-salesforce:14.10.0/dependencies/org/codelibs/fess/fess/14.10.0/fess-14.10.0.jar"
+      },
+      "isTransitive" : false
+    }, {
+      "importPath" : "import org.codelibs.fess.ds.callback.IndexUpdateCallback;",
+      "artifact" : {
+        "artifact" : "org.codelibs.fess:fess:14.10.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.codelibs.fess:fess-ds-salesforce:14.10.0/dependencies/org/codelibs/fess/fess/14.10.0/fess-14.10.0.jar"
+      },
+      "isTransitive" : false
+    }, {
+      "importPath" : "import org.codelibs.fess.entity.DataStoreParams;",
+      "artifact" : {
+        "artifact" : "org.codelibs.fess:fess:14.10.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.codelibs.fess:fess-ds-salesforce:14.10.0/dependencies/org/codelibs/fess/fess/14.10.0/fess-14.10.0.jar"
+      },
+      "isTransitive" : false
+    }, {
+      "importPath" : "import java.util.Map;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isTransitive" : true
+    }, {
+      "importPath" : "import java.util.HashMap;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isTransitive" : true
+    }, {
+      "importPath" : "import java.util.concurrent.ExecutorService;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isTransitive" : true
+    }, {
+      "importPath" : "import java.util.concurrent.TimeUnit;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isTransitive" : true
+    }, {
+      "importPath" : "import org.codelibs.core.exception.InterruptedRuntimeException;",
+      "artifact" : {
+        "artifact" : "org.codelibs:corelib:0.5.5",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.codelibs.fess:fess-ds-salesforce:14.10.0/dependencies/org/codelibs/corelib/0.5.5/corelib-0.5.5.jar"
+      },
+      "isTransitive" : false
+    }, {
+      "importPath" : "import org.codelibs.fess.Constants;",
+      "artifact" : {
+        "artifact" : "org.codelibs.fess:fess:14.10.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.codelibs.fess:fess-ds-salesforce:14.10.0/dependencies/org/codelibs/fess/fess/14.10.0/fess-14.10.0.jar"
+      },
+      "isTransitive" : false
+    }, {
+      "importPath" : "import org.codelibs.fess.crawler.filter.UrlFilter;",
+      "artifact" : {
+        "artifact" : "org.codelibs.fess:fess-crawler:14.10.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.codelibs.fess:fess-ds-salesforce:14.10.0/dependencies/org/codelibs/fess/fess-crawler/14.10.0/fess-crawler-14.10.0.jar"
+      },
+      "isTransitive" : true
+    }, {
+      "importPath" : "import org.codelibs.fess.util.ComponentUtil;",
+      "artifact" : {
+        "artifact" : "org.codelibs.fess:fess:14.10.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.codelibs.fess:fess-ds-salesforce:14.10.0/dependencies/org/codelibs/fess/fess/14.10.0/fess-14.10.0.jar"
+      },
+      "isTransitive" : false
+    }, {
+      "importPath" : "import org.codelibs.core.lang.StringUtil;",
+      "artifact" : {
+        "artifact" : "org.codelibs:corelib:0.5.5",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.codelibs.fess:fess-ds-salesforce:14.10.0/dependencies/org/codelibs/corelib/0.5.5/corelib-0.5.5.jar"
+      },
+      "isTransitive" : false
+    }, {
+      "importPath" : "import java.util.concurrent.ThreadPoolExecutor;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isTransitive" : true
+    }, {
+      "importPath" : "import java.util.concurrent.LinkedBlockingQueue;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isTransitive" : true
+    }, {
+      "importPath" : "import org.codelibs.fess.ds.salesforce.api.SearchData;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isTransitive" : true
+    }, {
+      "importPath" : "import org.codelibs.fess.helper.CrawlerStatsHelper;",
+      "artifact" : {
+        "artifact" : "org.codelibs.fess:fess:14.10.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.codelibs.fess:fess-ds-salesforce:14.10.0/dependencies/org/codelibs/fess/fess/14.10.0/fess-14.10.0.jar"
+      },
+      "isTransitive" : false
+    }, {
+      "importPath" : "import org.codelibs.fess.helper.CrawlerStatsHelper.StatsKeyObject;",
+      "artifact" : {
+        "artifact" : "org.codelibs.fess:fess:14.10.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.codelibs.fess:fess-ds-salesforce:14.10.0/dependencies/org/codelibs/fess/fess/14.10.0/fess-14.10.0.jar"
+      },
+      "isTransitive" : false
+    }, {
+      "importPath" : "import java.util.LinkedHashMap;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isTransitive" : true
+    }, {
+      "importPath" : "import org.codelibs.fess.helper.CrawlerStatsHelper.StatsAction;",
+      "artifact" : {
+        "artifact" : "org.codelibs.fess:fess:14.10.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.codelibs.fess:fess-ds-salesforce:14.10.0/dependencies/org/codelibs/fess/fess/14.10.0/fess-14.10.0.jar"
+      },
+      "isTransitive" : false
+    }, {
+      "importPath" : "import org.codelibs.fess.crawler.exception.CrawlingAccessException;",
+      "artifact" : {
+        "artifact" : "org.codelibs.fess:fess-crawler:14.10.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.codelibs.fess:fess-ds-salesforce:14.10.0/dependencies/org/codelibs/fess/fess-crawler/14.10.0/fess-crawler-14.10.0.jar"
+      },
+      "isTransitive" : true
+    }, {
+      "importPath" : "import org.codelibs.fess.crawler.exception.MultipleCrawlingAccessException;",
+      "artifact" : {
+        "artifact" : "org.codelibs.fess:fess-crawler:14.10.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.codelibs.fess:fess-ds-salesforce:14.10.0/dependencies/org/codelibs/fess/fess-crawler/14.10.0/fess-crawler-14.10.0.jar"
+      },
+      "isTransitive" : true
+    }, {
+      "importPath" : "import org.codelibs.fess.app.service.FailureUrlService;",
+      "artifact" : {
+        "artifact" : "org.codelibs.fess:fess:14.10.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.codelibs.fess:fess-ds-salesforce:14.10.0/dependencies/org/codelibs/fess/fess/14.10.0/fess-14.10.0.jar"
+      },
+      "isTransitive" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/fess-ds-salesforce/src/main/java/org/codelibs/fess/ds/salesforce/SalesforceDataStoreException.java",
+    "useImportReport" : [ {
+      "importPath" : "import org.codelibs.fess.exception.DataStoreException;",
+      "artifact" : {
+        "artifact" : "org.codelibs.fess:fess:14.10.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.codelibs.fess:fess-ds-salesforce:14.10.0/dependencies/org/codelibs/fess/fess/14.10.0/fess-14.10.0.jar"
+      },
+      "isTransitive" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/fess-ds-salesforce/src/main/java/org/codelibs/fess/ds/salesforce/util/BulkUtil.java",
+    "useImportReport" : [ {
+      "importPath" : "import org.slf4j.Logger;",
+      "artifact" : {
+        "artifact" : "org.slf4j:slf4j-api:1.7.36",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.codelibs.fess:fess-ds-salesforce:14.10.0/dependencies/org/slf4j/slf4j-api/1.7.36/slf4j-api-1.7.36.jar"
+      },
+      "isTransitive" : false
+    }, {
+      "importPath" : "import org.slf4j.LoggerFactory;",
+      "artifact" : {
+        "artifact" : "org.slf4j:slf4j-api:1.7.36",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.codelibs.fess:fess-ds-salesforce:14.10.0/dependencies/org/slf4j/slf4j-api/1.7.36/slf4j-api-1.7.36.jar"
+      },
+      "isTransitive" : false
+    }, {
+      "importPath" : "import com.sforce.async.JobInfo;",
+      "artifact" : {
+        "artifact" : "com.force.api:force-wsc:47.0.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.codelibs.fess:fess-ds-salesforce:14.10.0/dependencies/com/force/api/force-wsc/47.0.0/force-wsc-47.0.0.jar"
+      },
+      "isTransitive" : false
+    }, {
+      "importPath" : "import com.sforce.async.BulkConnection;",
+      "artifact" : {
+        "artifact" : "com.force.api:force-wsc:47.0.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.codelibs.fess:fess-ds-salesforce:14.10.0/dependencies/com/force/api/force-wsc/47.0.0/force-wsc-47.0.0.jar"
+      },
+      "isTransitive" : false
+    }, {
+      "importPath" : "import com.sforce.async.OperationEnum;",
+      "artifact" : {
+        "artifact" : "com.force.api:force-wsc:47.0.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.codelibs.fess:fess-ds-salesforce:14.10.0/dependencies/com/force/api/force-wsc/47.0.0/force-wsc-47.0.0.jar"
+      },
+      "isTransitive" : false
+    }, {
+      "importPath" : "import com.sforce.async.ConcurrencyMode;",
+      "artifact" : {
+        "artifact" : "com.force.api:force-wsc:47.0.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.codelibs.fess:fess-ds-salesforce:14.10.0/dependencies/com/force/api/force-wsc/47.0.0/force-wsc-47.0.0.jar"
+      },
+      "isTransitive" : false
+    }, {
+      "importPath" : "import com.sforce.async.ContentType;",
+      "artifact" : {
+        "artifact" : "com.force.api:force-wsc:47.0.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.codelibs.fess:fess-ds-salesforce:14.10.0/dependencies/com/force/api/force-wsc/47.0.0/force-wsc-47.0.0.jar"
+      },
+      "isTransitive" : false
+    }, {
+      "importPath" : "import com.sforce.async.AsyncApiException;",
+      "artifact" : {
+        "artifact" : "com.force.api:force-wsc:47.0.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.codelibs.fess:fess-ds-salesforce:14.10.0/dependencies/com/force/api/force-wsc/47.0.0/force-wsc-47.0.0.jar"
+      },
+      "isTransitive" : false
+    }, {
+      "importPath" : "import org.codelibs.fess.ds.salesforce.SalesforceDataStoreException;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isTransitive" : true
+    }, {
+      "importPath" : "import com.sforce.async.BatchInfo;",
+      "artifact" : {
+        "artifact" : "com.force.api:force-wsc:47.0.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.codelibs.fess:fess-ds-salesforce:14.10.0/dependencies/com/force/api/force-wsc/47.0.0/force-wsc-47.0.0.jar"
+      },
+      "isTransitive" : false
+    }, {
+      "importPath" : "import java.io.ByteArrayInputStream;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isTransitive" : true
+    }, {
+      "importPath" : "import java.nio.charset.StandardCharsets;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isTransitive" : true
+    }, {
+      "importPath" : "import java.util.List;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isTransitive" : true
+    }, {
+      "importPath" : "import java.io.InputStream;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isTransitive" : true
+    }, {
+      "importPath" : "import java.util.concurrent.ScheduledExecutorService;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isTransitive" : true
+    }, {
+      "importPath" : "import java.util.concurrent.Executors;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isTransitive" : true
+    }, {
+      "importPath" : "import java.util.concurrent.CompletableFuture;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isTransitive" : true
+    }, {
+      "importPath" : "import java.util.concurrent.TimeUnit;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isTransitive" : true
+    }, {
+      "importPath" : "import com.sforce.async.QueryResultList;",
+      "artifact" : {
+        "artifact" : "com.force.api:force-wsc:47.0.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.codelibs.fess:fess-ds-salesforce:14.10.0/dependencies/com/force/api/force-wsc/47.0.0/force-wsc-47.0.0.jar"
+      },
+      "isTransitive" : false
+    }, {
+      "importPath" : "import java.util.Arrays;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isTransitive" : true
+    }, {
+      "importPath" : "import java.util.stream.Collectors;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isTransitive" : true
+    }, {
+      "importPath" : "import org.codelibs.core.exception.InterruptedRuntimeException;",
+      "artifact" : {
+        "artifact" : "org.codelibs:corelib:0.5.5",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.codelibs.fess:fess-ds-salesforce:14.10.0/dependencies/org/codelibs/corelib/0.5.5/corelib-0.5.5.jar"
+      },
+      "isTransitive" : false
+    }, {
+      "importPath" : "import java.util.concurrent.ExecutionException;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isTransitive" : true
+    }, {
+      "importPath" : "import java.util.Collections;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isTransitive" : true
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/fess-ds-salesforce/src/main/java/org/codelibs/fess/ds/salesforce/util/AuthUtil.java",
+    "useImportReport" : [ {
+      "importPath" : "import org.apache.log4j.Logger;",
+      "artifact" : {
+        "artifact" : "org.apache.logging.log4j:log4j-1.2-api:2.17.2",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.codelibs.fess:fess-ds-salesforce:14.10.0/dependencies/org/apache/logging/log4j/log4j-1.2-api/2.17.2/log4j-1.2-api-2.17.2.jar"
+      },
+      "isTransitive" : true
+    }, {
+      "importPath" : "import java.security.PrivateKey;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isTransitive" : true
+    }, {
+      "importPath" : "import java.security.NoSuchAlgorithmException;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isTransitive" : true
+    }, {
+      "importPath" : "import java.security.spec.InvalidKeySpecException;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isTransitive" : true
+    }, {
+      "importPath" : "import java.security.spec.KeySpec;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isTransitive" : true
+    }, {
+      "importPath" : "import java.security.spec.PKCS8EncodedKeySpec;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isTransitive" : true
+    }, {
+      "importPath" : "import org.apache.commons.codec.binary.Base64;",
+      "artifact" : {
+        "artifact" : "commons-codec:commons-codec:1.16.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.codelibs.fess:fess-ds-salesforce:14.10.0/dependencies/commons-codec/commons-codec/1.16.0/commons-codec-1.16.0.jar"
+      },
+      "isTransitive" : true
+    }, {
+      "importPath" : "import java.security.KeyFactory;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isTransitive" : true
+    }, {
+      "importPath" : "import java.security.InvalidKeyException;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isTransitive" : true
+    }, {
+      "importPath" : "import java.security.SignatureException;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isTransitive" : true
+    }, {
+      "importPath" : "import java.nio.charset.StandardCharsets;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isTransitive" : true
+    }, {
+      "importPath" : "import java.security.Signature;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isTransitive" : true
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/fess-ds-salesforce/src/main/java/org/codelibs/fess/ds/salesforce/SalesforceClient.java",
+    "useImportReport" : [ {
+      "importPath" : "import java.io.Closeable;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isTransitive" : true
+    }, {
+      "importPath" : "import org.slf4j.Logger;",
+      "artifact" : {
+        "artifact" : "org.slf4j:slf4j-api:1.7.36",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.codelibs.fess:fess-ds-salesforce:14.10.0/dependencies/org/slf4j/slf4j-api/1.7.36/slf4j-api-1.7.36.jar"
+      },
+      "isTransitive" : false
+    }, {
+      "importPath" : "import org.slf4j.LoggerFactory;",
+      "artifact" : {
+        "artifact" : "org.slf4j:slf4j-api:1.7.36",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.codelibs.fess:fess-ds-salesforce:14.10.0/dependencies/org/slf4j/slf4j-api/1.7.36/slf4j-api-1.7.36.jar"
+      },
+      "isTransitive" : false
+    }, {
+      "importPath" : "import com.fasterxml.jackson.databind.ObjectMapper;",
+      "artifact" : {
+        "artifact" : "com.fasterxml.jackson.core:jackson-databind:2.15.2",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.codelibs.fess:fess-ds-salesforce:14.10.0/dependencies/com/fasterxml/jackson/core/jackson-databind/2.15.2/jackson-databind-2.15.2.jar"
+      },
+      "isTransitive" : true
+    }, {
+      "importPath" : "import com.fasterxml.jackson.databind.DeserializationFeature;",
+      "artifact" : {
+        "artifact" : "com.fasterxml.jackson.core:jackson-databind:2.15.2",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.codelibs.fess:fess-ds-salesforce:14.10.0/dependencies/com/fasterxml/jackson/core/jackson-databind/2.15.2/jackson-databind-2.15.2.jar"
+      },
+      "isTransitive" : true
+    }, {
+      "importPath" : "import org.codelibs.fess.entity.DataStoreParams;",
+      "artifact" : {
+        "artifact" : "org.codelibs.fess:fess:14.10.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.codelibs.fess:fess-ds-salesforce:14.10.0/dependencies/org/codelibs/fess/fess/14.10.0/fess-14.10.0.jar"
+      },
+      "isTransitive" : false
+    }, {
+      "importPath" : "import org.codelibs.core.timer.TimeoutTask;",
+      "artifact" : {
+        "artifact" : "org.codelibs:corelib:0.5.5",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.codelibs.fess:fess-ds-salesforce:14.10.0/dependencies/org/codelibs/corelib/0.5.5/corelib-0.5.5.jar"
+      },
+      "isTransitive" : false
+    }, {
+      "importPath" : "import org.codelibs.core.timer.TimeoutManager;",
+      "artifact" : {
+        "artifact" : "org.codelibs:corelib:0.5.5",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.codelibs.fess:fess-ds-salesforce:14.10.0/dependencies/org/codelibs/corelib/0.5.5/corelib-0.5.5.jar"
+      },
+      "isTransitive" : false
+    }, {
+      "importPath" : "import java.util.function.Consumer;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isTransitive" : true
+    }, {
+      "importPath" : "import org.codelibs.fess.ds.salesforce.api.SearchData;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isTransitive" : true
+    }, {
+      "importPath" : "import org.codelibs.fess.ds.salesforce.api.sobject.StandardObject;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isTransitive" : true
+    }, {
+      "importPath" : "import com.sforce.async.BulkConnection;",
+      "artifact" : {
+        "artifact" : "com.force.api:force-wsc:47.0.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.codelibs.fess:fess-ds-salesforce:14.10.0/dependencies/com/force/api/force-wsc/47.0.0/force-wsc-47.0.0.jar"
+      },
+      "isTransitive" : false
+    }, {
+      "importPath" : "import com.sforce.async.JobInfo;",
+      "artifact" : {
+        "artifact" : "com.force.api:force-wsc:47.0.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.codelibs.fess:fess-ds-salesforce:14.10.0/dependencies/com/force/api/force-wsc/47.0.0/force-wsc-47.0.0.jar"
+      },
+      "isTransitive" : false
+    }, {
+      "importPath" : "import org.codelibs.fess.ds.salesforce.util.BulkUtil;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isTransitive" : true
+    }, {
+      "importPath" : "import org.codelibs.fess.ds.salesforce.api.SearchLayout;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isTransitive" : true
+    }, {
+      "importPath" : "import com.sforce.async.BatchInfo;",
+      "artifact" : {
+        "artifact" : "com.force.api:force-wsc:47.0.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.codelibs.fess:fess-ds-salesforce:14.10.0/dependencies/com/force/api/force-wsc/47.0.0/force-wsc-47.0.0.jar"
+      },
+      "isTransitive" : false
+    }, {
+      "importPath" : "import java.io.IOException;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isTransitive" : true
+    }, {
+      "importPath" : "import com.sforce.async.AsyncApiException;",
+      "artifact" : {
+        "artifact" : "com.force.api:force-wsc:47.0.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.codelibs.fess:fess-ds-salesforce:14.10.0/dependencies/com/force/api/force-wsc/47.0.0/force-wsc-47.0.0.jar"
+      },
+      "isTransitive" : false
+    }, {
+      "importPath" : "import com.google.common.base.CaseFormat;",
+      "artifact" : {
+        "artifact" : "com.google.guava:guava:32.1.1-jre",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.codelibs.fess:fess-ds-salesforce:14.10.0/dependencies/com/google/guava/guava/32.1.1-jre/guava-32.1.1-jre.jar"
+      },
+      "isTransitive" : true
+    }, {
+      "importPath" : "import static org.codelibs.core.stream.StreamUtil.split;",
+      "artifact" : {
+        "artifact" : "org.codelibs:corelib:0.5.5",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.codelibs.fess:fess-ds-salesforce:14.10.0/dependencies/org/codelibs/corelib/0.5.5/corelib-0.5.5.jar"
+      },
+      "isTransitive" : false
+    }, {
+      "importPath" : "import org.codelibs.core.lang.StringUtil;",
+      "artifact" : {
+        "artifact" : "org.codelibs:corelib:0.5.5",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.codelibs.fess:fess-ds-salesforce:14.10.0/dependencies/org/codelibs/corelib/0.5.5/corelib-0.5.5.jar"
+      },
+      "isTransitive" : false
+    }, {
+      "importPath" : "import java.util.List;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isTransitive" : true
+    }, {
+      "importPath" : "import java.util.stream.Collectors;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isTransitive" : true
+    }, {
+      "importPath" : "import static java.util.Collections.emptyList;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isTransitive" : true
+    }, {
+      "importPath" : "import org.codelibs.core.timer.TimeoutTarget;",
+      "artifact" : {
+        "artifact" : "org.codelibs:corelib:0.5.5",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.codelibs.fess:fess-ds-salesforce:14.10.0/dependencies/org/codelibs/corelib/0.5.5/corelib-0.5.5.jar"
+      },
+      "isTransitive" : false
+    }, {
+      "importPath" : "import java.net.Proxy;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isTransitive" : true
+    }, {
+      "importPath" : "import com.sforce.soap.partner.PartnerConnection;",
+      "artifact" : {
+        "artifact" : "com.force.api:force-partner-api:47.0.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.codelibs.fess:fess-ds-salesforce:14.10.0/dependencies/com/force/api/force-partner-api/47.0.0/force-partner-api-47.0.0.jar"
+      },
+      "isTransitive" : false
+    }, {
+      "importPath" : "import java.net.InetSocketAddress;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isTransitive" : true
+    }, {
+      "importPath" : "import com.sforce.ws.ConnectionException;",
+      "artifact" : {
+        "artifact" : "com.force.api:force-wsc:47.0.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.codelibs.fess:fess-ds-salesforce:14.10.0/dependencies/com/force/api/force-wsc/47.0.0/force-wsc-47.0.0.jar"
+      },
+      "isTransitive" : false
+    }, {
+      "importPath" : "import org.codelibs.fess.ds.salesforce.api.TokenResponse;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isTransitive" : true
+    }, {
+      "importPath" : "import com.sforce.ws.ConnectorConfig;",
+      "artifact" : {
+        "artifact" : "com.force.api:force-wsc:47.0.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.codelibs.fess:fess-ds-salesforce:14.10.0/dependencies/com/force/api/force-wsc/47.0.0/force-wsc-47.0.0.jar"
+      },
+      "isTransitive" : false
+    }, {
+      "importPath" : "import com.sforce.soap.partner.Connector;",
+      "artifact" : {
+        "artifact" : "com.force.api:force-partner-api:47.0.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.codelibs.fess:fess-ds-salesforce:14.10.0/dependencies/com/force/api/force-partner-api/47.0.0/force-partner-api-47.0.0.jar"
+      },
+      "isTransitive" : false
+    }, {
+      "importPath" : "import org.codelibs.fess.ds.salesforce.util.AuthUtil;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isTransitive" : true
+    }, {
+      "importPath" : "import org.codelibs.curl.CurlRequest;",
+      "artifact" : {
+        "artifact" : "org.codelibs:curl4j:1.2.8",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.codelibs.fess:fess-ds-salesforce:14.10.0/dependencies/org/codelibs/curl4j/1.2.8/curl4j-1.2.8.jar"
+      },
+      "isTransitive" : true
+    }, {
+      "importPath" : "import org.codelibs.curl.Curl;",
+      "artifact" : {
+        "artifact" : "org.codelibs:curl4j:1.2.8",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.codelibs.fess:fess-ds-salesforce:14.10.0/dependencies/org/codelibs/curl4j/1.2.8/curl4j-1.2.8.jar"
+      },
+      "isTransitive" : true
+    }, {
+      "importPath" : "import org.codelibs.curl.CurlResponse;",
+      "artifact" : {
+        "artifact" : "org.codelibs:curl4j:1.2.8",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.codelibs.fess:fess-ds-salesforce:14.10.0/dependencies/org/codelibs/curl4j/1.2.8/curl4j-1.2.8.jar"
+      },
+      "isTransitive" : true
+    }, {
+      "importPath" : "import org.codelibs.curl.CurlException;",
+      "artifact" : {
+        "artifact" : "org.codelibs:curl4j:1.2.8",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.codelibs.fess:fess-ds-salesforce:14.10.0/dependencies/org/codelibs/curl4j/1.2.8/curl4j-1.2.8.jar"
+      },
+      "isTransitive" : true
+    }, {
+      "importPath" : "import java.io.InputStream;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isTransitive" : true
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/fess-ds-salesforce/src/main/java/org/codelibs/fess/ds/salesforce/api/SearchData.java",
+    "useImportReport" : [ {
+      "importPath" : "import java.util.Date;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isTransitive" : true
+    }, {
+      "importPath" : "import com.fasterxml.jackson.databind.JsonNode;",
+      "artifact" : {
+        "artifact" : "com.fasterxml.jackson.core:jackson-databind:2.15.2",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.codelibs.fess:fess-ds-salesforce:14.10.0/dependencies/com/fasterxml/jackson/core/jackson-databind/2.15.2/jackson-databind-2.15.2.jar"
+      },
+      "isTransitive" : true
+    }, {
+      "importPath" : "import org.codelibs.core.lang.StringUtil;",
+      "artifact" : {
+        "artifact" : "org.codelibs:corelib:0.5.5",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.codelibs.fess:fess-ds-salesforce:14.10.0/dependencies/org/codelibs/corelib/0.5.5/corelib-0.5.5.jar"
+      },
+      "isTransitive" : false
+    }, {
+      "importPath" : "import java.util.stream.Collectors;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isTransitive" : true
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/fess-ds-salesforce/src/main/java/org/codelibs/fess/ds/salesforce/api/sobject/SQuickText.java",
+    "useImportReport" : [ {
+      "importPath" : "import org.codelibs.fess.ds.salesforce.api.SearchLayout;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isTransitive" : true
+    }, {
+      "importPath" : "import java.util.List;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isTransitive" : true
+    }, {
+      "importPath" : "import java.util.Arrays;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isTransitive" : true
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/fess-ds-salesforce/src/main/java/org/codelibs/fess/ds/salesforce/api/sobject/SRecommendation.java",
+    "useImportReport" : [ {
+      "importPath" : "import org.codelibs.fess.ds.salesforce.api.SearchLayout;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isTransitive" : true
+    }, {
+      "importPath" : "import java.util.List;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isTransitive" : true
+    }, {
+      "importPath" : "import java.util.Arrays;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isTransitive" : true
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/fess-ds-salesforce/src/main/java/org/codelibs/fess/ds/salesforce/api/sobject/SMacro.java",
+    "useImportReport" : [ {
+      "importPath" : "import org.codelibs.fess.ds.salesforce.api.SearchLayout;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isTransitive" : true
+    }, {
+      "importPath" : "import java.util.List;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isTransitive" : true
+    }, {
+      "importPath" : "import java.util.Arrays;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isTransitive" : true
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/fess-ds-salesforce/src/main/java/org/codelibs/fess/ds/salesforce/api/sobject/SListEmail.java",
+    "useImportReport" : [ {
+      "importPath" : "import org.codelibs.fess.ds.salesforce.api.SearchLayout;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isTransitive" : true
+    }, {
+      "importPath" : "import java.util.List;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isTransitive" : true
+    }, {
+      "importPath" : "import java.util.Arrays;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isTransitive" : true
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/fess-ds-salesforce/src/main/java/org/codelibs/fess/ds/salesforce/api/sobject/SProduct2.java",
+    "useImportReport" : [ {
+      "importPath" : "import org.codelibs.fess.ds.salesforce.api.SearchLayout;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isTransitive" : true
+    }, {
+      "importPath" : "import java.util.List;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isTransitive" : true
+    }, {
+      "importPath" : "import java.util.Arrays;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isTransitive" : true
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/fess-ds-salesforce/src/main/java/org/codelibs/fess/ds/salesforce/api/sobject/SIdea.java",
+    "useImportReport" : [ {
+      "importPath" : "import org.codelibs.fess.ds.salesforce.api.SearchLayout;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isTransitive" : true
+    }, {
+      "importPath" : "import java.util.List;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isTransitive" : true
+    }, {
+      "importPath" : "import java.util.Arrays;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isTransitive" : true
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/fess-ds-salesforce/src/main/java/org/codelibs/fess/ds/salesforce/api/sobject/SPricebook2.java",
+    "useImportReport" : [ {
+      "importPath" : "import org.codelibs.fess.ds.salesforce.api.SearchLayout;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isTransitive" : true
+    }, {
+      "importPath" : "import java.util.List;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isTransitive" : true
+    }, {
+      "importPath" : "import java.util.Arrays;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isTransitive" : true
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/fess-ds-salesforce/src/main/java/org/codelibs/fess/ds/salesforce/api/sobject/SAssetRelationship.java",
+    "useImportReport" : [ {
+      "importPath" : "import org.codelibs.fess.ds.salesforce.api.SearchLayout;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isTransitive" : true
+    }, {
+      "importPath" : "import java.util.List;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isTransitive" : true
+    }, {
+      "importPath" : "import java.util.Arrays;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isTransitive" : true
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/fess-ds-salesforce/src/main/java/org/codelibs/fess/ds/salesforce/api/sobject/SCampaign.java",
+    "useImportReport" : [ {
+      "importPath" : "import org.codelibs.fess.ds.salesforce.api.SearchLayout;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isTransitive" : true
+    }, {
+      "importPath" : "import java.util.List;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isTransitive" : true
+    }, {
+      "importPath" : "import java.util.Arrays;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isTransitive" : true
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/fess-ds-salesforce/src/main/java/org/codelibs/fess/ds/salesforce/api/sobject/STask.java",
+    "useImportReport" : [ {
+      "importPath" : "import org.codelibs.fess.ds.salesforce.api.SearchLayout;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isTransitive" : true
+    }, {
+      "importPath" : "import java.util.List;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isTransitive" : true
+    }, {
+      "importPath" : "import java.util.Arrays;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isTransitive" : true
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/fess-ds-salesforce/src/main/java/org/codelibs/fess/ds/salesforce/api/sobject/SImage.java",
+    "useImportReport" : [ {
+      "importPath" : "import org.codelibs.fess.ds.salesforce.api.SearchLayout;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isTransitive" : true
+    }, {
+      "importPath" : "import java.util.List;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isTransitive" : true
+    }, {
+      "importPath" : "import java.util.Arrays;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isTransitive" : true
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/fess-ds-salesforce/src/main/java/org/codelibs/fess/ds/salesforce/api/sobject/SDandBCompany.java",
+    "useImportReport" : [ {
+      "importPath" : "import org.codelibs.fess.ds.salesforce.api.SearchLayout;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isTransitive" : true
+    }, {
+      "importPath" : "import java.util.List;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isTransitive" : true
+    }, {
+      "importPath" : "import java.util.Arrays;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isTransitive" : true
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/fess-ds-salesforce/src/main/java/org/codelibs/fess/ds/salesforce/api/sobject/SOrder.java",
+    "useImportReport" : [ {
+      "importPath" : "import org.codelibs.fess.ds.salesforce.api.SearchLayout;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isTransitive" : true
+    }, {
+      "importPath" : "import java.util.List;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isTransitive" : true
+    }, {
+      "importPath" : "import java.util.Arrays;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isTransitive" : true
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/fess-ds-salesforce/src/main/java/org/codelibs/fess/ds/salesforce/api/sobject/SAsset.java",
+    "useImportReport" : [ {
+      "importPath" : "import org.codelibs.fess.ds.salesforce.api.SearchLayout;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isTransitive" : true
+    }, {
+      "importPath" : "import java.util.List;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isTransitive" : true
+    }, {
+      "importPath" : "import java.util.Arrays;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isTransitive" : true
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/fess-ds-salesforce/src/main/java/org/codelibs/fess/ds/salesforce/api/sobject/SSolution.java",
+    "useImportReport" : [ {
+      "importPath" : "import org.codelibs.fess.ds.salesforce.api.SearchLayout;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isTransitive" : true
+    }, {
+      "importPath" : "import java.util.List;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isTransitive" : true
+    }, {
+      "importPath" : "import java.util.Arrays;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isTransitive" : true
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/fess-ds-salesforce/src/main/java/org/codelibs/fess/ds/salesforce/api/sobject/SContract.java",
+    "useImportReport" : [ {
+      "importPath" : "import org.codelibs.fess.ds.salesforce.api.SearchLayout;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isTransitive" : true
+    }, {
+      "importPath" : "import java.util.List;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isTransitive" : true
+    }, {
+      "importPath" : "import java.util.Arrays;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isTransitive" : true
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/fess-ds-salesforce/src/main/java/org/codelibs/fess/ds/salesforce/api/sobject/SUser.java",
+    "useImportReport" : [ {
+      "importPath" : "import org.codelibs.fess.ds.salesforce.api.SearchLayout;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isTransitive" : true
+    }, {
+      "importPath" : "import java.util.List;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isTransitive" : true
+    }, {
+      "importPath" : "import java.util.Arrays;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isTransitive" : true
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/fess-ds-salesforce/src/main/java/org/codelibs/fess/ds/salesforce/api/sobject/SOpportunity.java",
+    "useImportReport" : [ {
+      "importPath" : "import org.codelibs.fess.ds.salesforce.api.SearchLayout;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isTransitive" : true
+    }, {
+      "importPath" : "import java.util.List;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isTransitive" : true
+    }, {
+      "importPath" : "import java.util.Arrays;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isTransitive" : true
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/fess-ds-salesforce/src/main/java/org/codelibs/fess/ds/salesforce/api/sobject/SAccount.java",
+    "useImportReport" : [ {
+      "importPath" : "import org.codelibs.fess.ds.salesforce.api.SearchLayout;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isTransitive" : true
+    }, {
+      "importPath" : "import java.util.List;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isTransitive" : true
+    }, {
+      "importPath" : "import java.util.Arrays;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isTransitive" : true
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/fess-ds-salesforce/src/main/java/org/codelibs/fess/ds/salesforce/api/sobject/StandardObject.java",
+    "useImportReport" : [ {
+      "importPath" : "import org.codelibs.fess.ds.salesforce.api.SearchLayout;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isTransitive" : true
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/fess-ds-salesforce/src/main/java/org/codelibs/fess/ds/salesforce/api/sobject/SLead.java",
+    "useImportReport" : [ {
+      "importPath" : "import org.codelibs.fess.ds.salesforce.api.SearchLayout;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isTransitive" : true
+    }, {
+      "importPath" : "import java.util.List;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isTransitive" : true
+    }, {
+      "importPath" : "import java.util.Arrays;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isTransitive" : true
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/fess-ds-salesforce/src/main/java/org/codelibs/fess/ds/salesforce/api/sobject/SCase.java",
+    "useImportReport" : [ {
+      "importPath" : "import org.codelibs.fess.ds.salesforce.api.SearchLayout;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isTransitive" : true
+    }, {
+      "importPath" : "import java.util.List;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isTransitive" : true
+    }, {
+      "importPath" : "import java.util.Arrays;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isTransitive" : true
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/fess-ds-salesforce/src/main/java/org/codelibs/fess/ds/salesforce/api/sobject/SContact.java",
+    "useImportReport" : [ {
+      "importPath" : "import org.codelibs.fess.ds.salesforce.api.SearchLayout;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isTransitive" : true
+    }, {
+      "importPath" : "import java.util.List;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isTransitive" : true
+    }, {
+      "importPath" : "import java.util.Arrays;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isTransitive" : true
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/fess-ds-salesforce/src/main/java/org/codelibs/fess/ds/salesforce/api/sobject/SCollaborationGroup.java",
+    "useImportReport" : [ {
+      "importPath" : "import org.codelibs.fess.ds.salesforce.api.SearchLayout;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isTransitive" : true
+    }, {
+      "importPath" : "import java.util.List;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isTransitive" : true
+    }, {
+      "importPath" : "import java.util.Arrays;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isTransitive" : true
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/fess-ds-salesforce/src/main/java/org/codelibs/fess/ds/salesforce/api/TokenResponse.java",
+    "useImportReport" : [ {
+      "importPath" : "import com.fasterxml.jackson.annotation.JsonIgnoreProperties;",
+      "artifact" : {
+        "artifact" : "com.fasterxml.jackson.core:jackson-annotations:2.15.2",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.codelibs.fess:fess-ds-salesforce:14.10.0/dependencies/com/fasterxml/jackson/core/jackson-annotations/2.15.2/jackson-annotations-2.15.2.jar"
+      },
+      "isTransitive" : true
+    }, {
+      "importPath" : "import com.fasterxml.jackson.databind.annotation.JsonNaming;",
+      "artifact" : {
+        "artifact" : "com.fasterxml.jackson.core:jackson-databind:2.15.2",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.codelibs.fess:fess-ds-salesforce:14.10.0/dependencies/com/fasterxml/jackson/core/jackson-databind/2.15.2/jackson-databind-2.15.2.jar"
+      },
+      "isTransitive" : true
+    }, {
+      "importPath" : "import com.fasterxml.jackson.databind.PropertyNamingStrategy;",
+      "artifact" : {
+        "artifact" : "com.fasterxml.jackson.core:jackson-databind:2.15.2",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.codelibs.fess:fess-ds-salesforce:14.10.0/dependencies/com/fasterxml/jackson/core/jackson-databind/2.15.2/jackson-databind-2.15.2.jar"
+      },
+      "isTransitive" : true
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/fess-ds-salesforce/src/main/java/org/codelibs/fess/ds/salesforce/api/SearchLayout.java",
+    "useImportReport" : [ {
+      "importPath" : "import java.util.List;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isTransitive" : true
+    }, {
+      "importPath" : "import java.util.ArrayList;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isTransitive" : true
+    }, {
+      "importPath" : "import java.util.stream.Collectors;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isTransitive" : true
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  } ],
+  "projectUseDependencies" : [ {
+    "artifact" : "org.codelibs.fess:fess:14.10.0",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.codelibs.fess:fess-ds-salesforce:14.10.0/dependencies/org/codelibs/fess/fess/14.10.0/fess-14.10.0.jar"
+  }, {
+    "artifact" : "org.slf4j:slf4j-api:1.7.36",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.codelibs.fess:fess-ds-salesforce:14.10.0/dependencies/org/slf4j/slf4j-api/1.7.36/slf4j-api-1.7.36.jar"
+  }, {
+    "artifact" : "org.codelibs:corelib:0.5.5",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.codelibs.fess:fess-ds-salesforce:14.10.0/dependencies/org/codelibs/corelib/0.5.5/corelib-0.5.5.jar"
+  }, {
+    "artifact" : "com.force.api:force-wsc:47.0.0",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.codelibs.fess:fess-ds-salesforce:14.10.0/dependencies/com/force/api/force-wsc/47.0.0/force-wsc-47.0.0.jar"
+  }, {
+    "artifact" : "com.force.api:force-partner-api:47.0.0",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.codelibs.fess:fess-ds-salesforce:14.10.0/dependencies/com/force/api/force-partner-api/47.0.0/force-partner-api-47.0.0.jar"
+  } ],
+  "projectUnusedDependencies" : [ {
+    "artifact" : "org.lastaflute:lastaflute:1.2.5",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.codelibs.fess:fess-ds-salesforce:14.10.0/dependencies/org/lastaflute/lastaflute/1.2.5/lastaflute-1.2.5.jar"
+  }, {
+    "artifact" : "javax.servlet:javax.servlet-api:4.0.1",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.codelibs.fess:fess-ds-salesforce:14.10.0/dependencies/javax/servlet/javax.servlet-api/4.0.1/javax.servlet-api-4.0.1.jar"
+  }, {
+    "artifact" : "org.opensearch:opensearch:2.9.0",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.codelibs.fess:fess-ds-salesforce:14.10.0/dependencies/org/opensearch/opensearch/2.9.0/opensearch-2.9.0.jar"
+  }, {
+    "artifact" : "org.dbflute:dbflute-runtime:1.2.6",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.codelibs.fess:fess-ds-salesforce:14.10.0/dependencies/org/dbflute/dbflute-runtime/1.2.6/dbflute-runtime-1.2.6.jar"
+  }, {
+    "artifact" : "javax.annotation:javax.annotation-api:1.3.2",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.codelibs.fess:fess-ds-salesforce:14.10.0/dependencies/javax/annotation/javax.annotation-api/1.3.2/javax.annotation-api-1.3.2.jar"
+  } ]
+}

@@ -149,6 +149,7 @@ public class ProjectImportChecker {
         var artifactPath = FileUtils.getJarPathList(basePath);
         artifactFiles.addAll(artifactPath.stream().map(a -> new File(a.toAbsolutePath().toString())).toList());
         this.projectFileList = getFileList(repoPath + repoSubPath);
+        System.out.println("Getting project file list: " + projectFileList.size());
         this.staticImportInspector = new StaticImportInspectorFromJar(artifactFiles);
     }
 
@@ -161,6 +162,7 @@ public class ProjectImportChecker {
                 .setSymbolResolver(new JavaSymbolSolver(typeSolver))
                 .setLanguageLevel(ParserConfiguration.LanguageLevel.JAVA_21);
         StaticJavaParser.setConfiguration(parserConfig);
+        var index = 0;
         for (Path path : this.projectFileList) {
             CompilationUnit cu = StaticJavaParser.parse(new File(path.toAbsolutePath().toString()));
             var resolver = new DependencyResolver(cu, this.staticImportInspector);
@@ -195,6 +197,8 @@ public class ProjectImportChecker {
                 }
                 System.out.println("--------------------------");
             }
+            index++;
+            System.out.println("Current file index: " + index);
             this.reportList.add(new DependencyResolverReport(path, unusedImportDeclaration, usedImportDeclaration, resolver.checkFullPathCalling, importList, resolver.fileImports, resolver.failImports));
         }
     }

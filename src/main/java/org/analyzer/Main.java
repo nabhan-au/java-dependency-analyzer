@@ -32,10 +32,10 @@ public class Main {
         var csvFile = "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/java-dependency-analyzer/datasets/artifact-dependency-details.csv";
         var jsonFile = "save_input.json";
 
-        var projectArtifact = "com.aliyun:alibabacloud-nlb20220430:2.0.8";
-        var repoPath = "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/alibabacloud-java-async-sdk/nlb-20220430";
+        var projectArtifact = "org.jeecgframework.nacos:nacos-api:2.3.2";
+        var repoPath = "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/nacos/api";
         var subPath = "/src/main";
-        var gitBranch = "";
+        var gitBranch = "2.3.2";
 
         runSingleProject(destinationPath, writeFileDestination, csvFile, projectArtifact, repoPath, subPath, gitBranch, jsonFile, true);
 //        runMultipleProjects(jsonFile, destinationPath, writeFileDestination, csvFile);

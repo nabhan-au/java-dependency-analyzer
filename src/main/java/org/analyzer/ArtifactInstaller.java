@@ -72,7 +72,7 @@ public class ArtifactInstaller {
         var outPutDir = "-DoutputDirectory=" + basePath;
         var artifact = "-Dartifact=" + projectArtifact;
         ProcessBuilder processBuilder = new ProcessBuilder();
-        processBuilder.command("mvn", "dependency:copy", outPutDir, artifact);
+        processBuilder.command("mvn", "-U", "dependency:copy", outPutDir, artifact);
         processBuilder.directory(new File(basePath));
         processBuilder.redirectErrorStream(true);
 
@@ -90,6 +90,28 @@ public class ArtifactInstaller {
         if (exitCode != 0) {
             throw new Exception("Error while copying project artifact");
         }
+    }
+
+    public void install(String url, String destination) throws Exception {
+        ProcessBuilder processBuilder = new ProcessBuilder();
+        processBuilder.command("curl", "-O", url);
+        processBuilder.directory(new File(destination));
+        processBuilder.redirectErrorStream(true);
+
+        Process process = processBuilder.start();
+
+        // Capture the output using BufferedReader
+        BufferedReader reader = new BufferedReader(new InputStreamReader(process.getInputStream()));
+        String line;
+
+        System.out.println("Output of pwd command:");
+        while ((line = reader.readLine()) != null) {
+            System.out.println(line);
+        }
+
+        // Wait for the process to complete and get the exit code
+        int exitCode = process.waitFor();
+        System.out.println("Process exited with code: " + exitCode);
     }
 
     public Pair<ImportArtifact, Integer> install(ImportArtifact importArtifact, String destination, Boolean isPomFile, Boolean withPathExtender) throws IOException, InterruptedException {

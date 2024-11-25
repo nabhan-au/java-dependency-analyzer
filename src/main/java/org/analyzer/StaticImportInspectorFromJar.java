@@ -180,12 +180,22 @@ public class StaticImportInspectorFromJar {
                 classPath.setVariable(variable);
                 var clazz = loadClass(classPath.getPath());
                 ImportClassPath finalClassPath = classPath;
-                var filteredMethod = Arrays.stream(clazz.getMethods()).filter(method ->
-                        method.getName().equals(finalClassPath.getVariable())
-                ).toArray(Method[]::new);
-                var filteredFields = Arrays.stream(clazz.getFields()).filter(field ->
-                        field.getName().equals(finalClassPath.getVariable())
-                ).toArray(Field[]::new);
+                var filteredMethod = new Method[]{};
+                var filteredFields = new Field[]{};
+                try {
+                    filteredMethod = Arrays.stream(clazz.getMethods()).filter(method ->
+                            method.getName().equals(finalClassPath.getVariable())
+                    ).toArray(Method[]::new);
+                } catch (NoClassDefFoundError e) {
+                    System.out.println(e.getMessage());
+                }
+                try {
+                    filteredFields = Arrays.stream(clazz.getFields()).filter(field ->
+                            field.getName().equals(finalClassPath.getVariable())
+                    ).toArray(Field[]::new);
+                } catch (NoClassDefFoundError e) {
+                    System.out.println(e.getMessage());
+                }
                 return new ImportDetails(classPath, filteredMethod, filteredFields, new Class[]{});
             }
         }
