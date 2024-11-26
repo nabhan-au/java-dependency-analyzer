@@ -1,0 +1,1009 @@
+{
+  "projectArtifact" : "tech.aroma:aroma-notification-service:2.0",
+  "repositoryDir" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/aroma-notification-service",
+  "repositorySubDir" : "/src/main",
+  "artifactLocation" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/tech.aroma:aroma-notification-service:2.0",
+  "fileImportReports" : [ {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/aroma-notification-service/src/main/java/tech/aroma/notification/service/ModuleNotificationService.java",
+    "useImportReport" : [ {
+      "importPath" : "import com.google.inject.AbstractModule;",
+      "artifact" : {
+        "artifact" : "com.google.inject:guice:4.1.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/tech.aroma:aroma-notification-service:2.0/dependencies/com/google/inject/guice/4.1.0/guice-4.1.0.jar"
+      },
+      "isTransitive" : false
+    }, {
+      "importPath" : "import org.slf4j.Logger;",
+      "artifact" : {
+        "artifact" : "org.slf4j:slf4j-api:1.7.25",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/tech.aroma:aroma-notification-service:2.0/dependencies/org/slf4j/slf4j-api/1.7.25/slf4j-api-1.7.25.jar"
+      },
+      "isTransitive" : false
+    }, {
+      "importPath" : "import org.slf4j.LoggerFactory;",
+      "artifact" : {
+        "artifact" : "org.slf4j:slf4j-api:1.7.25",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/tech.aroma:aroma-notification-service:2.0/dependencies/org/slf4j/slf4j-api/1.7.25/slf4j-api-1.7.25.jar"
+      },
+      "isTransitive" : false
+    }, {
+      "importPath" : "import tech.aroma.thrift.notification.service.NotificationService;",
+      "artifact" : {
+        "artifact" : "tech.aroma:aroma-thrift:2.0.2",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/tech.aroma:aroma-notification-service:2.0/dependencies/tech/aroma/aroma-thrift/2.0.2/aroma-thrift-2.0.2.jar"
+      },
+      "isTransitive" : false
+    }, {
+      "importPath" : "import java.util.concurrent.ExecutorService;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isTransitive" : true
+    }, {
+      "importPath" : "import java.util.concurrent.Executors;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isTransitive" : true
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/aroma-notification-service/src/main/java/tech/aroma/notification/service/pigeon/SlackChannelPigeon.java",
+    "useImportReport" : [ {
+      "importPath" : "import tech.aroma.thrift.channels.SlackChannel;",
+      "artifact" : {
+        "artifact" : "tech.aroma:aroma-thrift:2.0.2",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/tech.aroma:aroma-notification-service:2.0/dependencies/tech/aroma/aroma-thrift/2.0.2/aroma-thrift-2.0.2.jar"
+      },
+      "isTransitive" : false
+    }, {
+      "importPath" : "import tech.sirwellington.alchemy.annotations.access.Internal;",
+      "artifact" : {
+        "artifact" : "tech.sirwellington.alchemy:alchemy-annotations:2.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/tech.aroma:aroma-notification-service:2.0/dependencies/tech/sirwellington/alchemy/alchemy-annotations/2.0/alchemy-annotations-2.0.jar"
+      },
+      "isTransitive" : true
+    }, {
+      "importPath" : "import tech.sirwellington.alchemy.annotations.designs.patterns.StrategyPattern;",
+      "artifact" : {
+        "artifact" : "tech.sirwellington.alchemy:alchemy-annotations:2.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/tech.aroma:aroma-notification-service:2.0/dependencies/tech/sirwellington/alchemy/alchemy-annotations/2.0/alchemy-annotations-2.0.jar"
+      },
+      "isTransitive" : true
+    }, {
+      "importPath" : "import static tech.sirwellington.alchemy.annotations.designs.patterns.StrategyPattern.Role.CONCRETE_BEHAVIOR;",
+      "artifact" : {
+        "artifact" : "tech.sirwellington.alchemy:alchemy-annotations:2.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/tech.aroma:aroma-notification-service:2.0/dependencies/tech/sirwellington/alchemy/alchemy-annotations/2.0/alchemy-annotations-2.0.jar"
+      },
+      "isTransitive" : true
+    }, {
+      "importPath" : "import org.slf4j.Logger;",
+      "artifact" : {
+        "artifact" : "org.slf4j:slf4j-api:1.7.25",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/tech.aroma:aroma-notification-service:2.0/dependencies/org/slf4j/slf4j-api/1.7.25/slf4j-api-1.7.25.jar"
+      },
+      "isTransitive" : false
+    }, {
+      "importPath" : "import org.slf4j.LoggerFactory;",
+      "artifact" : {
+        "artifact" : "org.slf4j:slf4j-api:1.7.25",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/tech.aroma:aroma-notification-service:2.0/dependencies/org/slf4j/slf4j-api/1.7.25/slf4j-api-1.7.25.jar"
+      },
+      "isTransitive" : false
+    }, {
+      "importPath" : "import tech.sirwellington.alchemy.http.AlchemyHttp;",
+      "artifact" : {
+        "artifact" : "tech.sirwellington.alchemy:alchemy-http:1.3",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/tech.aroma:aroma-notification-service:2.0/dependencies/tech/sirwellington/alchemy/alchemy-http/1.3/alchemy-http-1.3.jar"
+      },
+      "isTransitive" : false
+    }, {
+      "importPath" : "import javax.inject.Inject;",
+      "artifact" : {
+        "artifact" : "javax.inject:javax.inject:1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/tech.aroma:aroma-notification-service:2.0/dependencies/javax/inject/javax.inject/1/javax.inject-1.jar"
+      },
+      "isTransitive" : true
+    }, {
+      "importPath" : "import static tech.sirwellington.alchemy.arguments.Arguments.*;",
+      "artifact" : {
+        "artifact" : "tech.sirwellington.alchemy:alchemy-arguments:2.1.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/tech.aroma:aroma-notification-service:2.0/dependencies/tech/sirwellington/alchemy/alchemy-arguments/2.1.1/alchemy-arguments-2.1.1.jar"
+      },
+      "isTransitive" : true
+    }, {
+      "importPath" : "import static tech.sirwellington.alchemy.arguments.assertions.Assertions.notNull;",
+      "artifact" : {
+        "artifact" : "tech.sirwellington.alchemy:alchemy-arguments:2.1.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/tech.aroma:aroma-notification-service:2.0/dependencies/tech/sirwellington/alchemy/alchemy-arguments/2.1.1/alchemy-arguments-2.1.1.jar"
+      },
+      "isTransitive" : true
+    }, {
+      "importPath" : "import tech.aroma.thrift.events.Event;",
+      "artifact" : {
+        "artifact" : "tech.aroma:aroma-thrift:2.0.2",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/tech.aroma:aroma-notification-service:2.0/dependencies/tech/aroma/aroma-thrift/2.0.2/aroma-thrift-2.0.2.jar"
+      },
+      "isTransitive" : false
+    }, {
+      "importPath" : "import static tech.aroma.notification.service.NotificationAssertions.validEvent;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isTransitive" : true
+    }, {
+      "importPath" : "import static tech.sirwellington.alchemy.arguments.assertions.StringAssertions.*;",
+      "artifact" : {
+        "artifact" : "tech.sirwellington.alchemy:alchemy-arguments:2.1.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/tech.aroma:aroma-notification-service:2.0/dependencies/tech/sirwellington/alchemy/alchemy-arguments/2.1.1/alchemy-arguments-2.1.1.jar"
+      },
+      "isTransitive" : true
+    }, {
+      "importPath" : "import java.util.Objects;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isTransitive" : true
+    }, {
+      "importPath" : "import com.google.gson.JsonObject;",
+      "artifact" : {
+        "artifact" : "com.google.code.gson:gson:2.8.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/tech.aroma:aroma-notification-service:2.0/dependencies/com/google/code/gson/gson/2.8.1/gson-2.8.1.jar"
+      },
+      "isTransitive" : true
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/aroma-notification-service/src/main/java/tech/aroma/notification/service/pigeon/IOSDevicePigeon.java",
+    "useImportReport" : [ {
+      "importPath" : "import org.slf4j.Logger;",
+      "artifact" : {
+        "artifact" : "org.slf4j:slf4j-api:1.7.25",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/tech.aroma:aroma-notification-service:2.0/dependencies/org/slf4j/slf4j-api/1.7.25/slf4j-api-1.7.25.jar"
+      },
+      "isTransitive" : false
+    }, {
+      "importPath" : "import org.slf4j.LoggerFactory;",
+      "artifact" : {
+        "artifact" : "org.slf4j:slf4j-api:1.7.25",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/tech.aroma:aroma-notification-service:2.0/dependencies/org/slf4j/slf4j-api/1.7.25/slf4j-api-1.7.25.jar"
+      },
+      "isTransitive" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/aroma-notification-service/src/main/java/tech/aroma/notification/service/pigeon/Pigeon.java",
+    "useImportReport" : [ {
+      "importPath" : "import org.apache.thrift.TBase;",
+      "artifact" : {
+        "artifact" : "org.apache.thrift:libthrift:0.10.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/tech.aroma:aroma-notification-service:2.0/dependencies/org/apache/thrift/libthrift/0.10.0/libthrift-0.10.0.jar"
+      },
+      "isTransitive" : true
+    }, {
+      "importPath" : "import tech.aroma.thrift.channels.AromaChannel;",
+      "artifact" : {
+        "artifact" : "tech.aroma:aroma-thrift:2.0.2",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/tech.aroma:aroma-notification-service:2.0/dependencies/tech/aroma/aroma-thrift/2.0.2/aroma-thrift-2.0.2.jar"
+      },
+      "isTransitive" : false
+    }, {
+      "importPath" : "import tech.sirwellington.alchemy.annotations.designs.patterns.StrategyPattern;",
+      "artifact" : {
+        "artifact" : "tech.sirwellington.alchemy:alchemy-annotations:2.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/tech.aroma:aroma-notification-service:2.0/dependencies/tech/sirwellington/alchemy/alchemy-annotations/2.0/alchemy-annotations-2.0.jar"
+      },
+      "isTransitive" : true
+    }, {
+      "importPath" : "import static tech.sirwellington.alchemy.annotations.designs.patterns.StrategyPattern.Role.INTERFACE;",
+      "artifact" : {
+        "artifact" : "tech.sirwellington.alchemy:alchemy-annotations:2.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/tech.aroma:aroma-notification-service:2.0/dependencies/tech/sirwellington/alchemy/alchemy-annotations/2.0/alchemy-annotations-2.0.jar"
+      },
+      "isTransitive" : true
+    }, {
+      "importPath" : "import tech.aroma.thrift.exceptions.OperationFailedException;",
+      "artifact" : {
+        "artifact" : "tech.aroma:aroma-thrift:2.0.2",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/tech.aroma:aroma-notification-service:2.0/dependencies/tech/aroma/aroma-thrift/2.0.2/aroma-thrift-2.0.2.jar"
+      },
+      "isTransitive" : false
+    }, {
+      "importPath" : "import tech.aroma.thrift.events.Event;",
+      "artifact" : {
+        "artifact" : "tech.aroma:aroma-thrift:2.0.2",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/tech.aroma:aroma-notification-service:2.0/dependencies/tech/aroma/aroma-thrift/2.0.2/aroma-thrift-2.0.2.jar"
+      },
+      "isTransitive" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/aroma-notification-service/src/main/java/tech/aroma/notification/service/pigeon/PigeonFactory.java",
+    "useImportReport" : [ {
+      "importPath" : "import tech.aroma.thrift.channels.AromaChannel;",
+      "artifact" : {
+        "artifact" : "tech.aroma:aroma-thrift:2.0.2",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/tech.aroma:aroma-notification-service:2.0/dependencies/tech/aroma/aroma-thrift/2.0.2/aroma-thrift-2.0.2.jar"
+      },
+      "isTransitive" : false
+    }, {
+      "importPath" : "import org.apache.thrift.TBase;",
+      "artifact" : {
+        "artifact" : "org.apache.thrift:libthrift:0.10.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/tech.aroma:aroma-notification-service:2.0/dependencies/org/apache/thrift/libthrift/0.10.0/libthrift-0.10.0.jar"
+      },
+      "isTransitive" : true
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/aroma-notification-service/src/main/java/tech/aroma/notification/service/AuthenticationLayer.java",
+    "useImportReport" : [ {
+      "importPath" : "import tech.aroma.thrift.notification.service.*;",
+      "artifact" : {
+        "artifact" : "tech.aroma:aroma-thrift:2.0.2",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/tech.aroma:aroma-notification-service:2.0/dependencies/tech/aroma/aroma-thrift/2.0.2/aroma-thrift-2.0.2.jar"
+      },
+      "isTransitive" : false
+    }, {
+      "importPath" : "import tech.sirwellington.alchemy.annotations.access.Internal;",
+      "artifact" : {
+        "artifact" : "tech.sirwellington.alchemy:alchemy-annotations:2.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/tech.aroma:aroma-notification-service:2.0/dependencies/tech/sirwellington/alchemy/alchemy-annotations/2.0/alchemy-annotations-2.0.jar"
+      },
+      "isTransitive" : true
+    }, {
+      "importPath" : "import tech.sirwellington.alchemy.annotations.designs.patterns.DecoratorPattern;",
+      "artifact" : {
+        "artifact" : "tech.sirwellington.alchemy:alchemy-annotations:2.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/tech.aroma:aroma-notification-service:2.0/dependencies/tech/sirwellington/alchemy/alchemy-annotations/2.0/alchemy-annotations-2.0.jar"
+      },
+      "isTransitive" : true
+    }, {
+      "importPath" : "import static tech.sirwellington.alchemy.annotations.designs.patterns.DecoratorPattern.Role.CONCRETE_DECORATOR;",
+      "artifact" : {
+        "artifact" : "tech.sirwellington.alchemy:alchemy-annotations:2.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/tech.aroma:aroma-notification-service:2.0/dependencies/tech/sirwellington/alchemy/alchemy-annotations/2.0/alchemy-annotations-2.0.jar"
+      },
+      "isTransitive" : true
+    }, {
+      "importPath" : "import org.slf4j.Logger;",
+      "artifact" : {
+        "artifact" : "org.slf4j:slf4j-api:1.7.25",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/tech.aroma:aroma-notification-service:2.0/dependencies/org/slf4j/slf4j-api/1.7.25/slf4j-api-1.7.25.jar"
+      },
+      "isTransitive" : false
+    }, {
+      "importPath" : "import org.slf4j.LoggerFactory;",
+      "artifact" : {
+        "artifact" : "org.slf4j:slf4j-api:1.7.25",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/tech.aroma:aroma-notification-service:2.0/dependencies/org/slf4j/slf4j-api/1.7.25/slf4j-api-1.7.25.jar"
+      },
+      "isTransitive" : false
+    }, {
+      "importPath" : "import tech.aroma.thrift.authentication.service.AuthenticationService;",
+      "artifact" : {
+        "artifact" : "tech.aroma:aroma-thrift:2.0.2",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/tech.aroma:aroma-notification-service:2.0/dependencies/tech/aroma/aroma-thrift/2.0.2/aroma-thrift-2.0.2.jar"
+      },
+      "isTransitive" : false
+    }, {
+      "importPath" : "import javax.inject.Inject;",
+      "artifact" : {
+        "artifact" : "javax.inject:javax.inject:1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/tech.aroma:aroma-notification-service:2.0/dependencies/javax/inject/javax.inject/1/javax.inject-1.jar"
+      },
+      "isTransitive" : true
+    }, {
+      "importPath" : "import static tech.sirwellington.alchemy.arguments.Arguments.*;",
+      "artifact" : {
+        "artifact" : "tech.sirwellington.alchemy:alchemy-arguments:2.1.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/tech.aroma:aroma-notification-service:2.0/dependencies/tech/sirwellington/alchemy/alchemy-arguments/2.1.1/alchemy-arguments-2.1.1.jar"
+      },
+      "isTransitive" : true
+    }, {
+      "importPath" : "import static tech.sirwellington.alchemy.arguments.assertions.Assertions.notNull;",
+      "artifact" : {
+        "artifact" : "tech.sirwellington.alchemy:alchemy-arguments:2.1.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/tech.aroma:aroma-notification-service:2.0/dependencies/tech/sirwellington/alchemy/alchemy-arguments/2.1.1/alchemy-arguments-2.1.1.jar"
+      },
+      "isTransitive" : true
+    }, {
+      "importPath" : "import org.apache.thrift.TException;",
+      "artifact" : {
+        "artifact" : "org.apache.thrift:libthrift:0.10.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/tech.aroma:aroma-notification-service:2.0/dependencies/org/apache/thrift/libthrift/0.10.0/libthrift-0.10.0.jar"
+      },
+      "isTransitive" : true
+    }, {
+      "importPath" : "import tech.aroma.thrift.notification.service.*;",
+      "artifact" : {
+        "artifact" : "tech.aroma:aroma-thrift:2.0.2",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/tech.aroma:aroma-notification-service:2.0/dependencies/tech/aroma/aroma-thrift/2.0.2/aroma-thrift-2.0.2.jar"
+      },
+      "isTransitive" : false
+    }, {
+      "importPath" : "import tech.aroma.thrift.notification.service.*;",
+      "artifact" : {
+        "artifact" : "tech.aroma:aroma-thrift:2.0.2",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/tech.aroma:aroma-notification-service:2.0/dependencies/tech/aroma/aroma-thrift/2.0.2/aroma-thrift-2.0.2.jar"
+      },
+      "isTransitive" : false
+    }, {
+      "importPath" : "import tech.aroma.thrift.exceptions.*;",
+      "artifact" : {
+        "artifact" : "tech.aroma:aroma-thrift:2.0.2",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/tech.aroma:aroma-notification-service:2.0/dependencies/tech/aroma/aroma-thrift/2.0.2/aroma-thrift-2.0.2.jar"
+      },
+      "isTransitive" : false
+    }, {
+      "importPath" : "import tech.aroma.thrift.exceptions.*;",
+      "artifact" : {
+        "artifact" : "tech.aroma:aroma-thrift:2.0.2",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/tech.aroma:aroma-notification-service:2.0/dependencies/tech/aroma/aroma-thrift/2.0.2/aroma-thrift-2.0.2.jar"
+      },
+      "isTransitive" : false
+    }, {
+      "importPath" : "import tech.aroma.thrift.exceptions.*;",
+      "artifact" : {
+        "artifact" : "tech.aroma:aroma-thrift:2.0.2",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/tech.aroma:aroma-notification-service:2.0/dependencies/tech/aroma/aroma-thrift/2.0.2/aroma-thrift-2.0.2.jar"
+      },
+      "isTransitive" : false
+    }, {
+      "importPath" : "import static tech.aroma.thrift.assertions.AromaAssertions.*;",
+      "artifact" : {
+        "artifact" : "tech.aroma:aroma-thrift:2.0.2",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/tech.aroma:aroma-notification-service:2.0/dependencies/tech/aroma/aroma-thrift/2.0.2/aroma-thrift-2.0.2.jar"
+      },
+      "isTransitive" : false
+    }, {
+      "importPath" : "import static tech.aroma.thrift.assertions.AromaAssertions.*;",
+      "artifact" : {
+        "artifact" : "tech.aroma:aroma-thrift:2.0.2",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/tech.aroma:aroma-notification-service:2.0/dependencies/tech/aroma/aroma-thrift/2.0.2/aroma-thrift-2.0.2.jar"
+      },
+      "isTransitive" : false
+    }, {
+      "importPath" : "import static tech.aroma.thrift.assertions.AromaAssertions.*;",
+      "artifact" : {
+        "artifact" : "tech.aroma:aroma-thrift:2.0.2",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/tech.aroma:aroma-notification-service:2.0/dependencies/tech/aroma/aroma-thrift/2.0.2/aroma-thrift-2.0.2.jar"
+      },
+      "isTransitive" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/aroma-notification-service/src/main/java/tech/aroma/notification/service/server/TcpServer.java",
+    "useImportReport" : [ {
+      "importPath" : "import tech.sirwellington.alchemy.annotations.access.Internal;",
+      "artifact" : {
+        "artifact" : "tech.sirwellington.alchemy:alchemy-annotations:2.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/tech.aroma:aroma-notification-service:2.0/dependencies/tech/sirwellington/alchemy/alchemy-annotations/2.0/alchemy-annotations-2.0.jar"
+      },
+      "isTransitive" : true
+    }, {
+      "importPath" : "import org.slf4j.Logger;",
+      "artifact" : {
+        "artifact" : "org.slf4j:slf4j-api:1.7.25",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/tech.aroma:aroma-notification-service:2.0/dependencies/org/slf4j/slf4j-api/1.7.25/slf4j-api-1.7.25.jar"
+      },
+      "isTransitive" : false
+    }, {
+      "importPath" : "import org.slf4j.LoggerFactory;",
+      "artifact" : {
+        "artifact" : "org.slf4j:slf4j-api:1.7.25",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/tech.aroma:aroma-notification-service:2.0/dependencies/org/slf4j/slf4j-api/1.7.25/slf4j-api-1.7.25.jar"
+      },
+      "isTransitive" : false
+    }, {
+      "importPath" : "import tech.aroma.thrift.notification.service.NotificationServiceConstants;",
+      "artifact" : {
+        "artifact" : "tech.aroma:aroma-thrift:2.0.2",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/tech.aroma:aroma-notification-service:2.0/dependencies/tech/aroma/aroma-thrift/2.0.2/aroma-thrift-2.0.2.jar"
+      },
+      "isTransitive" : false
+    }, {
+      "importPath" : "import org.apache.thrift.transport.TTransportException;",
+      "artifact" : {
+        "artifact" : "org.apache.thrift:libthrift:0.10.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/tech.aroma:aroma-notification-service:2.0/dependencies/org/apache/thrift/libthrift/0.10.0/libthrift-0.10.0.jar"
+      },
+      "isTransitive" : true
+    }, {
+      "importPath" : "import java.net.SocketException;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isTransitive" : true
+    }, {
+      "importPath" : "import com.google.inject.Injector;",
+      "artifact" : {
+        "artifact" : "com.google.inject:guice:4.1.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/tech.aroma:aroma-notification-service:2.0/dependencies/com/google/inject/guice/4.1.0/guice-4.1.0.jar"
+      },
+      "isTransitive" : false
+    }, {
+      "importPath" : "import com.google.inject.Guice;",
+      "artifact" : {
+        "artifact" : "com.google.inject:guice:4.1.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/tech.aroma:aroma-notification-service:2.0/dependencies/com/google/inject/guice/4.1.0/guice-4.1.0.jar"
+      },
+      "isTransitive" : false
+    }, {
+      "importPath" : "import tech.aroma.notification.service.ModuleNotificationService;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isTransitive" : true
+    }, {
+      "importPath" : "import tech.aroma.notification.service.operations.ModuleNotificationOperations;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isTransitive" : true
+    }, {
+      "importPath" : "import tech.aroma.thrift.notification.service.NotificationService;",
+      "artifact" : {
+        "artifact" : "tech.aroma:aroma-thrift:2.0.2",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/tech.aroma:aroma-notification-service:2.0/dependencies/tech/aroma/aroma-thrift/2.0.2/aroma-thrift-2.0.2.jar"
+      },
+      "isTransitive" : false
+    }, {
+      "importPath" : "import org.apache.thrift.transport.TServerSocket;",
+      "artifact" : {
+        "artifact" : "org.apache.thrift:libthrift:0.10.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/tech.aroma:aroma-notification-service:2.0/dependencies/org/apache/thrift/libthrift/0.10.0/libthrift-0.10.0.jar"
+      },
+      "isTransitive" : true
+    }, {
+      "importPath" : "import static java.util.concurrent.TimeUnit.SECONDS;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isTransitive" : true
+    }, {
+      "importPath" : "import org.apache.thrift.server.TThreadPoolServer;",
+      "artifact" : {
+        "artifact" : "org.apache.thrift:libthrift:0.10.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/tech.aroma:aroma-notification-service:2.0/dependencies/org/apache/thrift/libthrift/0.10.0/libthrift-0.10.0.jar"
+      },
+      "isTransitive" : true
+    }, {
+      "importPath" : "import org.apache.thrift.protocol.TBinaryProtocol;",
+      "artifact" : {
+        "artifact" : "org.apache.thrift:libthrift:0.10.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/tech.aroma:aroma-notification-service:2.0/dependencies/org/apache/thrift/libthrift/0.10.0/libthrift-0.10.0.jar"
+      },
+      "isTransitive" : true
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/aroma-notification-service/src/main/java/tech/aroma/notification/service/operations/SendNotificationOperation.java",
+    "useImportReport" : [ {
+      "importPath" : "import tech.sirwellington.alchemy.thrift.operations.ThriftOperation;",
+      "artifact" : {
+        "artifact" : "tech.sirwellington.alchemy:alchemy-thrift:2.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/tech.aroma:aroma-notification-service:2.0/dependencies/tech/sirwellington/alchemy/alchemy-thrift/2.0/alchemy-thrift-2.0.jar"
+      },
+      "isTransitive" : false
+    }, {
+      "importPath" : "import tech.aroma.thrift.notification.service.SendNotificationRequest;",
+      "artifact" : {
+        "artifact" : "tech.aroma:aroma-thrift:2.0.2",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/tech.aroma:aroma-notification-service:2.0/dependencies/tech/aroma/aroma-thrift/2.0.2/aroma-thrift-2.0.2.jar"
+      },
+      "isTransitive" : false
+    }, {
+      "importPath" : "import tech.aroma.thrift.notification.service.SendNotificationResponse;",
+      "artifact" : {
+        "artifact" : "tech.aroma:aroma-thrift:2.0.2",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/tech.aroma:aroma-notification-service:2.0/dependencies/tech/aroma/aroma-thrift/2.0.2/aroma-thrift-2.0.2.jar"
+      },
+      "isTransitive" : false
+    }, {
+      "importPath" : "import tech.sirwellington.alchemy.annotations.access.Internal;",
+      "artifact" : {
+        "artifact" : "tech.sirwellington.alchemy:alchemy-annotations:2.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/tech.aroma:aroma-notification-service:2.0/dependencies/tech/sirwellington/alchemy/alchemy-annotations/2.0/alchemy-annotations-2.0.jar"
+      },
+      "isTransitive" : true
+    }, {
+      "importPath" : "import org.slf4j.Logger;",
+      "artifact" : {
+        "artifact" : "org.slf4j:slf4j-api:1.7.25",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/tech.aroma:aroma-notification-service:2.0/dependencies/org/slf4j/slf4j-api/1.7.25/slf4j-api-1.7.25.jar"
+      },
+      "isTransitive" : false
+    }, {
+      "importPath" : "import org.slf4j.LoggerFactory;",
+      "artifact" : {
+        "artifact" : "org.slf4j:slf4j-api:1.7.25",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/tech.aroma:aroma-notification-service:2.0/dependencies/org/slf4j/slf4j-api/1.7.25/slf4j-api-1.7.25.jar"
+      },
+      "isTransitive" : false
+    }, {
+      "importPath" : "import tech.aroma.notification.service.pigeon.PigeonFactory;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isTransitive" : true
+    }, {
+      "importPath" : "import tech.sirwellington.alchemy.annotations.designs.patterns.StrategyPattern;",
+      "artifact" : {
+        "artifact" : "tech.sirwellington.alchemy:alchemy-annotations:2.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/tech.aroma:aroma-notification-service:2.0/dependencies/tech/sirwellington/alchemy/alchemy-annotations/2.0/alchemy-annotations-2.0.jar"
+      },
+      "isTransitive" : true
+    }, {
+      "importPath" : "import static tech.sirwellington.alchemy.annotations.designs.patterns.StrategyPattern.Role.CLIENT;",
+      "artifact" : {
+        "artifact" : "tech.sirwellington.alchemy:alchemy-annotations:2.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/tech.aroma:aroma-notification-service:2.0/dependencies/tech/sirwellington/alchemy/alchemy-annotations/2.0/alchemy-annotations-2.0.jar"
+      },
+      "isTransitive" : true
+    }, {
+      "importPath" : "import javax.inject.Inject;",
+      "artifact" : {
+        "artifact" : "javax.inject:javax.inject:1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/tech.aroma:aroma-notification-service:2.0/dependencies/javax/inject/javax.inject/1/javax.inject-1.jar"
+      },
+      "isTransitive" : true
+    }, {
+      "importPath" : "import static tech.sirwellington.alchemy.arguments.Arguments.*;",
+      "artifact" : {
+        "artifact" : "tech.sirwellington.alchemy:alchemy-arguments:2.1.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/tech.aroma:aroma-notification-service:2.0/dependencies/tech/sirwellington/alchemy/alchemy-arguments/2.1.1/alchemy-arguments-2.1.1.jar"
+      },
+      "isTransitive" : true
+    }, {
+      "importPath" : "import static tech.sirwellington.alchemy.arguments.assertions.Assertions.notNull;",
+      "artifact" : {
+        "artifact" : "tech.sirwellington.alchemy:alchemy-arguments:2.1.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/tech.aroma:aroma-notification-service:2.0/dependencies/tech/sirwellington/alchemy/alchemy-arguments/2.1.1/alchemy-arguments-2.1.1.jar"
+      },
+      "isTransitive" : true
+    }, {
+      "importPath" : "import org.apache.thrift.TException;",
+      "artifact" : {
+        "artifact" : "org.apache.thrift:libthrift:0.10.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/tech.aroma:aroma-notification-service:2.0/dependencies/org/apache/thrift/libthrift/0.10.0/libthrift-0.10.0.jar"
+      },
+      "isTransitive" : true
+    }, {
+      "importPath" : "import tech.aroma.thrift.exceptions.InvalidArgumentException;",
+      "artifact" : {
+        "artifact" : "tech.aroma:aroma-thrift:2.0.2",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/tech.aroma:aroma-notification-service:2.0/dependencies/tech/aroma/aroma-thrift/2.0.2/aroma-thrift-2.0.2.jar"
+      },
+      "isTransitive" : false
+    }, {
+      "importPath" : "import sir.wellington.alchemy.collections.maps.Maps;",
+      "artifact" : {
+        "artifact" : "tech.sirwellington.alchemy:alchemy-collections:1.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/tech.aroma:aroma-notification-service:2.0/dependencies/tech/sirwellington/alchemy/alchemy-collections/1.1/alchemy-collections-1.1.jar"
+      },
+      "isTransitive" : false
+    }, {
+      "importPath" : "import java.util.Map;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isTransitive" : true
+    }, {
+      "importPath" : "import tech.aroma.thrift.channels.AromaChannel;",
+      "artifact" : {
+        "artifact" : "tech.aroma:aroma-thrift:2.0.2",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/tech.aroma:aroma-notification-service:2.0/dependencies/tech/aroma/aroma-thrift/2.0.2/aroma-thrift-2.0.2.jar"
+      },
+      "isTransitive" : false
+    }, {
+      "importPath" : "import tech.aroma.thrift.User;",
+      "artifact" : {
+        "artifact" : "tech.aroma:aroma-thrift:2.0.2",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/tech.aroma:aroma-notification-service:2.0/dependencies/tech/aroma/aroma-thrift/2.0.2/aroma-thrift-2.0.2.jar"
+      },
+      "isTransitive" : false
+    }, {
+      "importPath" : "import tech.aroma.notification.service.pigeon.Pigeon;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isTransitive" : true
+    }, {
+      "importPath" : "import org.apache.thrift.TBase;",
+      "artifact" : {
+        "artifact" : "org.apache.thrift:libthrift:0.10.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/tech.aroma:aroma-notification-service:2.0/dependencies/org/apache/thrift/libthrift/0.10.0/libthrift-0.10.0.jar"
+      },
+      "isTransitive" : true
+    }, {
+      "importPath" : "import tech.sirwellington.alchemy.arguments.AlchemyAssertion;",
+      "artifact" : {
+        "artifact" : "tech.sirwellington.alchemy:alchemy-arguments:2.1.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/tech.aroma:aroma-notification-service:2.0/dependencies/tech/sirwellington/alchemy/alchemy-arguments/2.1.1/alchemy-arguments-2.1.1.jar"
+      },
+      "isTransitive" : true
+    }, {
+      "importPath" : "import static tech.aroma.notification.service.NotificationAssertions.validEvent;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isTransitive" : true
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/aroma-notification-service/src/main/java/tech/aroma/notification/service/operations/ModuleNotificationOperations.java",
+    "useImportReport" : [ {
+      "importPath" : "import com.google.inject.*;",
+      "artifact" : {
+        "artifact" : "com.google.inject:guice:4.1.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/tech.aroma:aroma-notification-service:2.0/dependencies/com/google/inject/guice/4.1.0/guice-4.1.0.jar"
+      },
+      "isTransitive" : false
+    }, {
+      "importPath" : "import org.slf4j.Logger;",
+      "artifact" : {
+        "artifact" : "org.slf4j:slf4j-api:1.7.25",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/tech.aroma:aroma-notification-service:2.0/dependencies/org/slf4j/slf4j-api/1.7.25/slf4j-api-1.7.25.jar"
+      },
+      "isTransitive" : false
+    }, {
+      "importPath" : "import org.slf4j.LoggerFactory;",
+      "artifact" : {
+        "artifact" : "org.slf4j:slf4j-api:1.7.25",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/tech.aroma:aroma-notification-service:2.0/dependencies/org/slf4j/slf4j-api/1.7.25/slf4j-api-1.7.25.jar"
+      },
+      "isTransitive" : false
+    }, {
+      "importPath" : "import tech.sirwellington.alchemy.thrift.operations.ThriftOperation;",
+      "artifact" : {
+        "artifact" : "tech.sirwellington.alchemy:alchemy-thrift:2.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/tech.aroma:aroma-notification-service:2.0/dependencies/tech/sirwellington/alchemy/alchemy-thrift/2.0/alchemy-thrift-2.0.jar"
+      },
+      "isTransitive" : false
+    }, {
+      "importPath" : "import tech.aroma.thrift.notification.service.SendNotificationRequest;",
+      "artifact" : {
+        "artifact" : "tech.aroma:aroma-thrift:2.0.2",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/tech.aroma:aroma-notification-service:2.0/dependencies/tech/aroma/aroma-thrift/2.0.2/aroma-thrift-2.0.2.jar"
+      },
+      "isTransitive" : false
+    }, {
+      "importPath" : "import tech.aroma.thrift.notification.service.SendNotificationResponse;",
+      "artifact" : {
+        "artifact" : "tech.aroma:aroma-thrift:2.0.2",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/tech.aroma:aroma-notification-service:2.0/dependencies/tech/aroma/aroma-thrift/2.0.2/aroma-thrift-2.0.2.jar"
+      },
+      "isTransitive" : false
+    }, {
+      "importPath" : "import com.google.inject.*;",
+      "artifact" : {
+        "artifact" : "com.google.inject:guice:4.1.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/tech.aroma:aroma-notification-service:2.0/dependencies/com/google/inject/guice/4.1.0/guice-4.1.0.jar"
+      },
+      "isTransitive" : false
+    }, {
+      "importPath" : "import tech.aroma.notification.service.pigeon.PigeonFactory;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isTransitive" : true
+    }, {
+      "importPath" : "import com.google.inject.*;",
+      "artifact" : {
+        "artifact" : "com.google.inject:guice:4.1.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/tech.aroma:aroma-notification-service:2.0/dependencies/com/google/inject/guice/4.1.0/guice-4.1.0.jar"
+      },
+      "isTransitive" : false
+    }, {
+      "importPath" : "import tech.aroma.notification.service.pigeon.Pigeon;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isTransitive" : true
+    }, {
+      "importPath" : "import org.apache.thrift.TBase;",
+      "artifact" : {
+        "artifact" : "org.apache.thrift:libthrift:0.10.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/tech.aroma:aroma-notification-service:2.0/dependencies/org/apache/thrift/libthrift/0.10.0/libthrift-0.10.0.jar"
+      },
+      "isTransitive" : true
+    }, {
+      "importPath" : "import tech.aroma.thrift.channels.AromaChannel;",
+      "artifact" : {
+        "artifact" : "tech.aroma:aroma-thrift:2.0.2",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/tech.aroma:aroma-notification-service:2.0/dependencies/tech/aroma/aroma-thrift/2.0.2/aroma-thrift-2.0.2.jar"
+      },
+      "isTransitive" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/aroma-notification-service/src/main/java/tech/aroma/notification/service/NotificationAssertions.java",
+    "useImportReport" : [ {
+      "importPath" : "import tech.sirwellington.alchemy.annotations.access.Internal;",
+      "artifact" : {
+        "artifact" : "tech.sirwellington.alchemy:alchemy-annotations:2.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/tech.aroma:aroma-notification-service:2.0/dependencies/tech/sirwellington/alchemy/alchemy-annotations/2.0/alchemy-annotations-2.0.jar"
+      },
+      "isTransitive" : true
+    }, {
+      "importPath" : "import tech.sirwellington.alchemy.annotations.access.NonInstantiable;",
+      "artifact" : {
+        "artifact" : "tech.sirwellington.alchemy:alchemy-annotations:2.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/tech.aroma:aroma-notification-service:2.0/dependencies/tech/sirwellington/alchemy/alchemy-annotations/2.0/alchemy-annotations-2.0.jar"
+      },
+      "isTransitive" : true
+    }, {
+      "importPath" : "import org.slf4j.Logger;",
+      "artifact" : {
+        "artifact" : "org.slf4j:slf4j-api:1.7.25",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/tech.aroma:aroma-notification-service:2.0/dependencies/org/slf4j/slf4j-api/1.7.25/slf4j-api-1.7.25.jar"
+      },
+      "isTransitive" : false
+    }, {
+      "importPath" : "import org.slf4j.LoggerFactory;",
+      "artifact" : {
+        "artifact" : "org.slf4j:slf4j-api:1.7.25",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/tech.aroma:aroma-notification-service:2.0/dependencies/org/slf4j/slf4j-api/1.7.25/slf4j-api-1.7.25.jar"
+      },
+      "isTransitive" : false
+    }, {
+      "importPath" : "import tech.sirwellington.alchemy.arguments.AlchemyAssertion;",
+      "artifact" : {
+        "artifact" : "tech.sirwellington.alchemy:alchemy-arguments:2.1.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/tech.aroma:aroma-notification-service:2.0/dependencies/tech/sirwellington/alchemy/alchemy-arguments/2.1.1/alchemy-arguments-2.1.1.jar"
+      },
+      "isTransitive" : true
+    }, {
+      "importPath" : "import tech.aroma.thrift.channels.AromaChannel;",
+      "artifact" : {
+        "artifact" : "tech.aroma:aroma-thrift:2.0.2",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/tech.aroma:aroma-notification-service:2.0/dependencies/tech/aroma/aroma-thrift/2.0.2/aroma-thrift-2.0.2.jar"
+      },
+      "isTransitive" : false
+    }, {
+      "importPath" : "import static tech.sirwellington.alchemy.arguments.Arguments.*;",
+      "artifact" : {
+        "artifact" : "tech.sirwellington.alchemy:alchemy-arguments:2.1.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/tech.aroma:aroma-notification-service:2.0/dependencies/tech/sirwellington/alchemy/alchemy-arguments/2.1.1/alchemy-arguments-2.1.1.jar"
+      },
+      "isTransitive" : true
+    }, {
+      "importPath" : "import static tech.sirwellington.alchemy.arguments.assertions.Assertions.notNull;",
+      "artifact" : {
+        "artifact" : "tech.sirwellington.alchemy:alchemy-arguments:2.1.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/tech.aroma:aroma-notification-service:2.0/dependencies/tech/sirwellington/alchemy/alchemy-arguments/2.1.1/alchemy-arguments-2.1.1.jar"
+      },
+      "isTransitive" : true
+    }, {
+      "importPath" : "import tech.sirwellington.alchemy.arguments.FailedAssertionException;",
+      "artifact" : {
+        "artifact" : "tech.sirwellington.alchemy:alchemy-arguments:2.1.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/tech.aroma:aroma-notification-service:2.0/dependencies/tech/sirwellington/alchemy/alchemy-arguments/2.1.1/alchemy-arguments-2.1.1.jar"
+      },
+      "isTransitive" : true
+    }, {
+      "importPath" : "import tech.aroma.thrift.events.Event;",
+      "artifact" : {
+        "artifact" : "tech.aroma:aroma-thrift:2.0.2",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/tech.aroma:aroma-notification-service:2.0/dependencies/tech/aroma/aroma-thrift/2.0.2/aroma-thrift-2.0.2.jar"
+      },
+      "isTransitive" : false
+    }, {
+      "importPath" : "import static tech.sirwellington.alchemy.arguments.assertions.NumberAssertions.greaterThan;",
+      "artifact" : {
+        "artifact" : "tech.sirwellington.alchemy:alchemy-arguments:2.1.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/tech.aroma:aroma-notification-service:2.0/dependencies/tech/sirwellington/alchemy/alchemy-arguments/2.1.1/alchemy-arguments-2.1.1.jar"
+      },
+      "isTransitive" : true
+    }, {
+      "importPath" : "import tech.aroma.thrift.events.EventType;",
+      "artifact" : {
+        "artifact" : "tech.aroma:aroma-thrift:2.0.2",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/tech.aroma:aroma-notification-service:2.0/dependencies/tech/aroma/aroma-thrift/2.0.2/aroma-thrift-2.0.2.jar"
+      },
+      "isTransitive" : false
+    }, {
+      "importPath" : "import static tech.sirwellington.alchemy.arguments.assertions.Assertions.equalTo;",
+      "artifact" : {
+        "artifact" : "tech.sirwellington.alchemy:alchemy-arguments:2.1.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/tech.aroma:aroma-notification-service:2.0/dependencies/tech/sirwellington/alchemy/alchemy-arguments/2.1.1/alchemy-arguments-2.1.1.jar"
+      },
+      "isTransitive" : true
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/aroma-notification-service/src/main/java/tech/aroma/notification/service/NotificationServiceBase.java",
+    "useImportReport" : [ {
+      "importPath" : "import tech.aroma.thrift.notification.service.*;",
+      "artifact" : {
+        "artifact" : "tech.aroma:aroma-thrift:2.0.2",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/tech.aroma:aroma-notification-service:2.0/dependencies/tech/aroma/aroma-thrift/2.0.2/aroma-thrift-2.0.2.jar"
+      },
+      "isTransitive" : false
+    }, {
+      "importPath" : "import tech.sirwellington.alchemy.annotations.access.Internal;",
+      "artifact" : {
+        "artifact" : "tech.sirwellington.alchemy:alchemy-annotations:2.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/tech.aroma:aroma-notification-service:2.0/dependencies/tech/sirwellington/alchemy/alchemy-annotations/2.0/alchemy-annotations-2.0.jar"
+      },
+      "isTransitive" : true
+    }, {
+      "importPath" : "import tech.sirwellington.alchemy.annotations.designs.patterns.DecoratorPattern;",
+      "artifact" : {
+        "artifact" : "tech.sirwellington.alchemy:alchemy-annotations:2.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/tech.aroma:aroma-notification-service:2.0/dependencies/tech/sirwellington/alchemy/alchemy-annotations/2.0/alchemy-annotations-2.0.jar"
+      },
+      "isTransitive" : true
+    }, {
+      "importPath" : "import static tech.sirwellington.alchemy.annotations.designs.patterns.DecoratorPattern.Role.CONCRETE_COMPONENT;",
+      "artifact" : {
+        "artifact" : "tech.sirwellington.alchemy:alchemy-annotations:2.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/tech.aroma:aroma-notification-service:2.0/dependencies/tech/sirwellington/alchemy/alchemy-annotations/2.0/alchemy-annotations-2.0.jar"
+      },
+      "isTransitive" : true
+    }, {
+      "importPath" : "import org.slf4j.Logger;",
+      "artifact" : {
+        "artifact" : "org.slf4j:slf4j-api:1.7.25",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/tech.aroma:aroma-notification-service:2.0/dependencies/org/slf4j/slf4j-api/1.7.25/slf4j-api-1.7.25.jar"
+      },
+      "isTransitive" : false
+    }, {
+      "importPath" : "import org.slf4j.LoggerFactory;",
+      "artifact" : {
+        "artifact" : "org.slf4j:slf4j-api:1.7.25",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/tech.aroma:aroma-notification-service:2.0/dependencies/org/slf4j/slf4j-api/1.7.25/slf4j-api-1.7.25.jar"
+      },
+      "isTransitive" : false
+    }, {
+      "importPath" : "import tech.sirwellington.alchemy.thrift.operations.ThriftOperation;",
+      "artifact" : {
+        "artifact" : "tech.sirwellington.alchemy:alchemy-thrift:2.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/tech.aroma:aroma-notification-service:2.0/dependencies/tech/sirwellington/alchemy/alchemy-thrift/2.0/alchemy-thrift-2.0.jar"
+      },
+      "isTransitive" : false
+    }, {
+      "importPath" : "import tech.aroma.thrift.notification.service.*;",
+      "artifact" : {
+        "artifact" : "tech.aroma:aroma-thrift:2.0.2",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/tech.aroma:aroma-notification-service:2.0/dependencies/tech/aroma/aroma-thrift/2.0.2/aroma-thrift-2.0.2.jar"
+      },
+      "isTransitive" : false
+    }, {
+      "importPath" : "import tech.aroma.thrift.notification.service.*;",
+      "artifact" : {
+        "artifact" : "tech.aroma:aroma-thrift:2.0.2",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/tech.aroma:aroma-notification-service:2.0/dependencies/tech/aroma/aroma-thrift/2.0.2/aroma-thrift-2.0.2.jar"
+      },
+      "isTransitive" : false
+    }, {
+      "importPath" : "import javax.inject.Inject;",
+      "artifact" : {
+        "artifact" : "javax.inject:javax.inject:1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/tech.aroma:aroma-notification-service:2.0/dependencies/javax/inject/javax.inject/1/javax.inject-1.jar"
+      },
+      "isTransitive" : true
+    }, {
+      "importPath" : "import static tech.sirwellington.alchemy.arguments.Arguments.*;",
+      "artifact" : {
+        "artifact" : "tech.sirwellington.alchemy:alchemy-arguments:2.1.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/tech.aroma:aroma-notification-service:2.0/dependencies/tech/sirwellington/alchemy/alchemy-arguments/2.1.1/alchemy-arguments-2.1.1.jar"
+      },
+      "isTransitive" : true
+    }, {
+      "importPath" : "import static tech.sirwellington.alchemy.arguments.assertions.Assertions.notNull;",
+      "artifact" : {
+        "artifact" : "tech.sirwellington.alchemy:alchemy-arguments:2.1.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/tech.aroma:aroma-notification-service:2.0/dependencies/tech/sirwellington/alchemy/alchemy-arguments/2.1.1/alchemy-arguments-2.1.1.jar"
+      },
+      "isTransitive" : true
+    }, {
+      "importPath" : "import org.apache.thrift.TException;",
+      "artifact" : {
+        "artifact" : "org.apache.thrift:libthrift:0.10.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/tech.aroma:aroma-notification-service:2.0/dependencies/org/apache/thrift/libthrift/0.10.0/libthrift-0.10.0.jar"
+      },
+      "isTransitive" : true
+    }, {
+      "importPath" : "import tech.aroma.thrift.AromaConstants;",
+      "artifact" : {
+        "artifact" : "tech.aroma:aroma-thrift:2.0.2",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/tech.aroma:aroma-notification-service:2.0/dependencies/tech/aroma/aroma-thrift/2.0.2/aroma-thrift-2.0.2.jar"
+      },
+      "isTransitive" : false
+    }, {
+      "importPath" : "import tech.aroma.thrift.exceptions.*;",
+      "artifact" : {
+        "artifact" : "tech.aroma:aroma-thrift:2.0.2",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/tech.aroma:aroma-notification-service:2.0/dependencies/tech/aroma/aroma-thrift/2.0.2/aroma-thrift-2.0.2.jar"
+      },
+      "isTransitive" : false
+    }, {
+      "importPath" : "import tech.aroma.thrift.exceptions.*;",
+      "artifact" : {
+        "artifact" : "tech.aroma:aroma-thrift:2.0.2",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/tech.aroma:aroma-notification-service:2.0/dependencies/tech/aroma/aroma-thrift/2.0.2/aroma-thrift-2.0.2.jar"
+      },
+      "isTransitive" : false
+    }, {
+      "importPath" : "import tech.aroma.thrift.exceptions.*;",
+      "artifact" : {
+        "artifact" : "tech.aroma:aroma-thrift:2.0.2",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/tech.aroma:aroma-notification-service:2.0/dependencies/tech/aroma/aroma-thrift/2.0.2/aroma-thrift-2.0.2.jar"
+      },
+      "isTransitive" : false
+    }, {
+      "importPath" : "import static tech.aroma.thrift.assertions.AromaAssertions.checkNotNull;",
+      "artifact" : {
+        "artifact" : "tech.aroma:aroma-thrift:2.0.2",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/tech.aroma:aroma-notification-service:2.0/dependencies/tech/aroma/aroma-thrift/2.0.2/aroma-thrift-2.0.2.jar"
+      },
+      "isTransitive" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  } ],
+  "projectUseDependencies" : [ {
+    "artifact" : "com.google.inject:guice:4.1.0",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/tech.aroma:aroma-notification-service:2.0/dependencies/com/google/inject/guice/4.1.0/guice-4.1.0.jar"
+  }, {
+    "artifact" : "org.slf4j:slf4j-api:1.7.25",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/tech.aroma:aroma-notification-service:2.0/dependencies/org/slf4j/slf4j-api/1.7.25/slf4j-api-1.7.25.jar"
+  }, {
+    "artifact" : "tech.aroma:aroma-thrift:2.0.2",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/tech.aroma:aroma-notification-service:2.0/dependencies/tech/aroma/aroma-thrift/2.0.2/aroma-thrift-2.0.2.jar"
+  }, {
+    "artifact" : "tech.sirwellington.alchemy:alchemy-http:1.3",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/tech.aroma:aroma-notification-service:2.0/dependencies/tech/sirwellington/alchemy/alchemy-http/1.3/alchemy-http-1.3.jar"
+  }, {
+    "artifact" : "tech.sirwellington.alchemy:alchemy-thrift:2.0",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/tech.aroma:aroma-notification-service:2.0/dependencies/tech/sirwellington/alchemy/alchemy-thrift/2.0/alchemy-thrift-2.0.jar"
+  }, {
+    "artifact" : "tech.sirwellington.alchemy:alchemy-collections:1.1",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/tech.aroma:aroma-notification-service:2.0/dependencies/tech/sirwellington/alchemy/alchemy-collections/1.1/alchemy-collections-1.1.jar"
+  } ],
+  "projectUnusedDependencies" : [ {
+    "artifact" : "com.notnoop.apns:apns:1.0.0.Beta6",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/tech.aroma:aroma-notification-service:2.0/dependencies/com/notnoop/apns/apns/1.0.0.Beta6/apns-1.0.0.Beta6.jar"
+  }, {
+    "artifact" : "tech.sirwellington.alchemy:alchemy-generator:2.1.1",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/tech.aroma:aroma-notification-service:2.0/dependencies/tech/sirwellington/alchemy/alchemy-generator/2.1.1/alchemy-generator-2.1.1.jar"
+  } ]
+}
