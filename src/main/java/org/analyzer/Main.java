@@ -34,10 +34,10 @@ public class Main {
         var csvFile = "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/java-dependency-analyzer/datasets/artifact-dependency-details.csv";
         var jsonFile = "save_input.json";
 
-        var projectArtifact = "com.github.malkomich:vertx-skeleton:1.0.1";
-        var repoPath = "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/vertx-skeleton";
+        var projectArtifact = "com.bstek.ureport:ureport2-console:2.2.9";
+        var repoPath = "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/ureport/ureport2-console";
         var subPath = "/src/main";
-        var gitBranch = "vertx-skeleton-1.0.1";
+        var gitBranch = "2.2.9";
 
         runSingleProject(destinationPath, writeFileDestination, csvFile, projectArtifact, repoPath, subPath, gitBranch, jsonFile, true);
 //        runMultipleProjects(jsonFile, destinationPath, writeFileDestination, csvFile);

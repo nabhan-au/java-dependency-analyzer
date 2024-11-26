@@ -1,0 +1,557 @@
+{
+  "projectArtifact" : "com.getconvey.oss:dropwizard-api-key-bundle:1.0.0-1.CONVEY.1",
+  "repositoryDir" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/dropwizard-api-key-bundle",
+  "repositorySubDir" : "/src/main",
+  "artifactLocation" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.getconvey.oss:dropwizard-api-key-bundle:1.0.0-1.CONVEY.1",
+  "fileImportReports" : [ {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/dropwizard-api-key-bundle/src/main/java/io/dropwizard/bundles/apikey/PrincipalFactory.java",
+    "useImportReport" : [ {
+      "importPath" : "import java.security.Principal;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isTransitive" : true
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/dropwizard-api-key-bundle/src/main/java/io/dropwizard/bundles/apikey/ApiKeyConfiguration.java",
+    "useImportReport" : [ {
+      "importPath" : "import com.fasterxml.jackson.annotation.JsonCreator;",
+      "artifact" : {
+        "artifact" : "com.fasterxml.jackson.core:jackson-annotations:2.7.6",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.getconvey.oss:dropwizard-api-key-bundle:1.0.0-1.CONVEY.1/dependencies/com/fasterxml/jackson/core/jackson-annotations/2.7.6/jackson-annotations-2.7.6.jar"
+      },
+      "isTransitive" : true
+    }, {
+      "importPath" : "import com.fasterxml.jackson.annotation.JsonProperty;",
+      "artifact" : {
+        "artifact" : "com.fasterxml.jackson.core:jackson-annotations:2.7.6",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.getconvey.oss:dropwizard-api-key-bundle:1.0.0-1.CONVEY.1/dependencies/com/fasterxml/jackson/core/jackson-annotations/2.7.6/jackson-annotations-2.7.6.jar"
+      },
+      "isTransitive" : true
+    }, {
+      "importPath" : "import java.util.Optional;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isTransitive" : true
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/dropwizard-api-key-bundle/src/main/java/io/dropwizard/bundles/apikey/AuthConfiguration.java",
+    "useImportReport" : [ {
+      "importPath" : "import java.util.Map;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isTransitive" : true
+    }, {
+      "importPath" : "import com.google.common.collect.Multimap;",
+      "artifact" : {
+        "artifact" : "org.glassfish.jersey.bundles.repackaged:jersey-guava:2.23.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.getconvey.oss:dropwizard-api-key-bundle:1.0.0-1.CONVEY.1/dependencies/org/glassfish/jersey/bundles/repackaged/jersey-guava/2.23.1/jersey-guava-2.23.1.jar"
+      },
+      "isTransitive" : true
+    }, {
+      "importPath" : "import com.google.common.collect.Multimap;",
+      "artifact" : {
+        "artifact" : "com.google.guava:guava:19.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.getconvey.oss:dropwizard-api-key-bundle:1.0.0-1.CONVEY.1/dependencies/com/google/guava/guava/19.0/guava-19.0.jar"
+      },
+      "isTransitive" : true
+    }, {
+      "importPath" : "import com.fasterxml.jackson.annotation.JsonCreator;",
+      "artifact" : {
+        "artifact" : "com.fasterxml.jackson.core:jackson-annotations:2.7.6",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.getconvey.oss:dropwizard-api-key-bundle:1.0.0-1.CONVEY.1/dependencies/com/fasterxml/jackson/core/jackson-annotations/2.7.6/jackson-annotations-2.7.6.jar"
+      },
+      "isTransitive" : true
+    }, {
+      "importPath" : "import com.fasterxml.jackson.annotation.JsonProperty;",
+      "artifact" : {
+        "artifact" : "com.fasterxml.jackson.core:jackson-annotations:2.7.6",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.getconvey.oss:dropwizard-api-key-bundle:1.0.0-1.CONVEY.1/dependencies/com/fasterxml/jackson/core/jackson-annotations/2.7.6/jackson-annotations-2.7.6.jar"
+      },
+      "isTransitive" : true
+    }, {
+      "importPath" : "import com.google.common.collect.SetMultimap;",
+      "artifact" : {
+        "artifact" : "org.glassfish.jersey.bundles.repackaged:jersey-guava:2.23.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.getconvey.oss:dropwizard-api-key-bundle:1.0.0-1.CONVEY.1/dependencies/org/glassfish/jersey/bundles/repackaged/jersey-guava/2.23.1/jersey-guava-2.23.1.jar"
+      },
+      "isTransitive" : true
+    }, {
+      "importPath" : "import com.google.common.collect.SetMultimap;",
+      "artifact" : {
+        "artifact" : "com.google.guava:guava:19.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.getconvey.oss:dropwizard-api-key-bundle:1.0.0-1.CONVEY.1/dependencies/com/google/guava/guava/19.0/guava-19.0.jar"
+      },
+      "isTransitive" : true
+    }, {
+      "importPath" : "import static com.google.common.base.Preconditions.checkNotNull;",
+      "artifact" : {
+        "artifact" : "org.glassfish.jersey.bundles.repackaged:jersey-guava:2.23.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.getconvey.oss:dropwizard-api-key-bundle:1.0.0-1.CONVEY.1/dependencies/org/glassfish/jersey/bundles/repackaged/jersey-guava/2.23.1/jersey-guava-2.23.1.jar"
+      },
+      "isTransitive" : true
+    }, {
+      "importPath" : "import static com.google.common.base.Preconditions.checkNotNull;",
+      "artifact" : {
+        "artifact" : "com.google.guava:guava:19.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.getconvey.oss:dropwizard-api-key-bundle:1.0.0-1.CONVEY.1/dependencies/com/google/guava/guava/19.0/guava-19.0.jar"
+      },
+      "isTransitive" : true
+    }, {
+      "importPath" : "import com.google.common.collect.ImmutableMap;",
+      "artifact" : {
+        "artifact" : "org.glassfish.jersey.bundles.repackaged:jersey-guava:2.23.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.getconvey.oss:dropwizard-api-key-bundle:1.0.0-1.CONVEY.1/dependencies/org/glassfish/jersey/bundles/repackaged/jersey-guava/2.23.1/jersey-guava-2.23.1.jar"
+      },
+      "isTransitive" : true
+    }, {
+      "importPath" : "import com.google.common.collect.ImmutableMap;",
+      "artifact" : {
+        "artifact" : "com.google.guava:guava:19.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.getconvey.oss:dropwizard-api-key-bundle:1.0.0-1.CONVEY.1/dependencies/com/google/guava/guava/19.0/guava-19.0.jar"
+      },
+      "isTransitive" : true
+    }, {
+      "importPath" : "import com.google.common.collect.Maps;",
+      "artifact" : {
+        "artifact" : "org.glassfish.jersey.bundles.repackaged:jersey-guava:2.23.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.getconvey.oss:dropwizard-api-key-bundle:1.0.0-1.CONVEY.1/dependencies/org/glassfish/jersey/bundles/repackaged/jersey-guava/2.23.1/jersey-guava-2.23.1.jar"
+      },
+      "isTransitive" : true
+    }, {
+      "importPath" : "import com.google.common.collect.Maps;",
+      "artifact" : {
+        "artifact" : "com.google.guava:guava:19.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.getconvey.oss:dropwizard-api-key-bundle:1.0.0-1.CONVEY.1/dependencies/com/google/guava/guava/19.0/guava-19.0.jar"
+      },
+      "isTransitive" : true
+    }, {
+      "importPath" : "import com.google.common.collect.ImmutableSetMultimap;",
+      "artifact" : {
+        "artifact" : "org.glassfish.jersey.bundles.repackaged:jersey-guava:2.23.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.getconvey.oss:dropwizard-api-key-bundle:1.0.0-1.CONVEY.1/dependencies/org/glassfish/jersey/bundles/repackaged/jersey-guava/2.23.1/jersey-guava-2.23.1.jar"
+      },
+      "isTransitive" : true
+    }, {
+      "importPath" : "import com.google.common.collect.ImmutableSetMultimap;",
+      "artifact" : {
+        "artifact" : "com.google.guava:guava:19.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.getconvey.oss:dropwizard-api-key-bundle:1.0.0-1.CONVEY.1/dependencies/com/google/guava/guava/19.0/guava-19.0.jar"
+      },
+      "isTransitive" : true
+    }, {
+      "importPath" : "import java.util.Optional;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isTransitive" : true
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/dropwizard-api-key-bundle/src/main/java/io/dropwizard/bundles/apikey/BasicCredentialsAuthenticator.java",
+    "useImportReport" : [ {
+      "importPath" : "import io.dropwizard.auth.Authenticator;",
+      "artifact" : {
+        "artifact" : "io.dropwizard:dropwizard-auth:1.0.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.getconvey.oss:dropwizard-api-key-bundle:1.0.0-1.CONVEY.1/dependencies/io/dropwizard/dropwizard-auth/1.0.0/dropwizard-auth-1.0.0.jar"
+      },
+      "isTransitive" : false
+    }, {
+      "importPath" : "import io.dropwizard.auth.basic.BasicCredentials;",
+      "artifact" : {
+        "artifact" : "io.dropwizard:dropwizard-auth:1.0.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.getconvey.oss:dropwizard-api-key-bundle:1.0.0-1.CONVEY.1/dependencies/io/dropwizard/dropwizard-auth/1.0.0/dropwizard-auth-1.0.0.jar"
+      },
+      "isTransitive" : false
+    }, {
+      "importPath" : "import java.security.Principal;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isTransitive" : true
+    }, {
+      "importPath" : "import static com.google.common.base.Preconditions.checkNotNull;",
+      "artifact" : {
+        "artifact" : "org.glassfish.jersey.bundles.repackaged:jersey-guava:2.23.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.getconvey.oss:dropwizard-api-key-bundle:1.0.0-1.CONVEY.1/dependencies/org/glassfish/jersey/bundles/repackaged/jersey-guava/2.23.1/jersey-guava-2.23.1.jar"
+      },
+      "isTransitive" : true
+    }, {
+      "importPath" : "import static com.google.common.base.Preconditions.checkNotNull;",
+      "artifact" : {
+        "artifact" : "com.google.guava:guava:19.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.getconvey.oss:dropwizard-api-key-bundle:1.0.0-1.CONVEY.1/dependencies/com/google/guava/guava/19.0/guava-19.0.jar"
+      },
+      "isTransitive" : true
+    }, {
+      "importPath" : "import java.util.Optional;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isTransitive" : true
+    }, {
+      "importPath" : "import io.dropwizard.auth.AuthenticationException;",
+      "artifact" : {
+        "artifact" : "io.dropwizard:dropwizard-auth:1.0.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.getconvey.oss:dropwizard-api-key-bundle:1.0.0-1.CONVEY.1/dependencies/io/dropwizard/dropwizard-auth/1.0.0/dropwizard-auth-1.0.0.jar"
+      },
+      "isTransitive" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/dropwizard-api-key-bundle/src/main/java/io/dropwizard/bundles/apikey/ApiKeyBundle.java",
+    "useImportReport" : [ {
+      "importPath" : "import java.security.Principal;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isTransitive" : true
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/dropwizard-api-key-bundle/src/main/java/io/dropwizard/bundles/apikey/PrincipalApiKeyBundle.java",
+    "useImportReport" : [ {
+      "importPath" : "import io.dropwizard.ConfiguredBundle;",
+      "artifact" : {
+        "artifact" : "io.dropwizard:dropwizard-core:1.0.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.getconvey.oss:dropwizard-api-key-bundle:1.0.0-1.CONVEY.1/dependencies/io/dropwizard/dropwizard-core/1.0.0/dropwizard-core-1.0.0.jar"
+      },
+      "isTransitive" : false
+    }, {
+      "importPath" : "import java.security.Principal;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isTransitive" : true
+    }, {
+      "importPath" : "import io.dropwizard.auth.Authorizer;",
+      "artifact" : {
+        "artifact" : "io.dropwizard:dropwizard-auth:1.0.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.getconvey.oss:dropwizard-api-key-bundle:1.0.0-1.CONVEY.1/dependencies/io/dropwizard/dropwizard-auth/1.0.0/dropwizard-auth-1.0.0.jar"
+      },
+      "isTransitive" : false
+    }, {
+      "importPath" : "import io.dropwizard.auth.UnauthorizedHandler;",
+      "artifact" : {
+        "artifact" : "io.dropwizard:dropwizard-auth:1.0.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.getconvey.oss:dropwizard-api-key-bundle:1.0.0-1.CONVEY.1/dependencies/io/dropwizard/dropwizard-auth/1.0.0/dropwizard-auth-1.0.0.jar"
+      },
+      "isTransitive" : false
+    }, {
+      "importPath" : "import io.dropwizard.auth.DefaultUnauthorizedHandler;",
+      "artifact" : {
+        "artifact" : "io.dropwizard:dropwizard-auth:1.0.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.getconvey.oss:dropwizard-api-key-bundle:1.0.0-1.CONVEY.1/dependencies/io/dropwizard/dropwizard-auth/1.0.0/dropwizard-auth-1.0.0.jar"
+      },
+      "isTransitive" : false
+    }, {
+      "importPath" : "import javax.annotation.Nullable;",
+      "artifact" : {
+        "artifact" : "com.google.code.findbugs:jsr305:3.0.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.getconvey.oss:dropwizard-api-key-bundle:1.0.0-1.CONVEY.1/dependencies/com/google/code/findbugs/jsr305/3.0.1/jsr305-3.0.1.jar"
+      },
+      "isTransitive" : true
+    }, {
+      "importPath" : "import static com.google.common.base.Preconditions.checkNotNull;",
+      "artifact" : {
+        "artifact" : "org.glassfish.jersey.bundles.repackaged:jersey-guava:2.23.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.getconvey.oss:dropwizard-api-key-bundle:1.0.0-1.CONVEY.1/dependencies/org/glassfish/jersey/bundles/repackaged/jersey-guava/2.23.1/jersey-guava-2.23.1.jar"
+      },
+      "isTransitive" : true
+    }, {
+      "importPath" : "import static com.google.common.base.Preconditions.checkNotNull;",
+      "artifact" : {
+        "artifact" : "com.google.guava:guava:19.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.getconvey.oss:dropwizard-api-key-bundle:1.0.0-1.CONVEY.1/dependencies/com/google/guava/guava/19.0/guava-19.0.jar"
+      },
+      "isTransitive" : true
+    }, {
+      "importPath" : "import io.dropwizard.setup.Bootstrap;",
+      "artifact" : {
+        "artifact" : "io.dropwizard:dropwizard-core:1.0.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.getconvey.oss:dropwizard-api-key-bundle:1.0.0-1.CONVEY.1/dependencies/io/dropwizard/dropwizard-core/1.0.0/dropwizard-core-1.0.0.jar"
+      },
+      "isTransitive" : false
+    }, {
+      "importPath" : "import io.dropwizard.setup.Environment;",
+      "artifact" : {
+        "artifact" : "io.dropwizard:dropwizard-core:1.0.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.getconvey.oss:dropwizard-api-key-bundle:1.0.0-1.CONVEY.1/dependencies/io/dropwizard/dropwizard-core/1.0.0/dropwizard-core-1.0.0.jar"
+      },
+      "isTransitive" : false
+    }, {
+      "importPath" : "import java.util.Optional;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isTransitive" : true
+    }, {
+      "importPath" : "import static com.google.common.base.Preconditions.checkState;",
+      "artifact" : {
+        "artifact" : "org.glassfish.jersey.bundles.repackaged:jersey-guava:2.23.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.getconvey.oss:dropwizard-api-key-bundle:1.0.0-1.CONVEY.1/dependencies/org/glassfish/jersey/bundles/repackaged/jersey-guava/2.23.1/jersey-guava-2.23.1.jar"
+      },
+      "isTransitive" : true
+    }, {
+      "importPath" : "import static com.google.common.base.Preconditions.checkState;",
+      "artifact" : {
+        "artifact" : "com.google.guava:guava:19.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.getconvey.oss:dropwizard-api-key-bundle:1.0.0-1.CONVEY.1/dependencies/com/google/guava/guava/19.0/guava-19.0.jar"
+      },
+      "isTransitive" : true
+    }, {
+      "importPath" : "import io.dropwizard.auth.AuthDynamicFeature;",
+      "artifact" : {
+        "artifact" : "io.dropwizard:dropwizard-auth:1.0.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.getconvey.oss:dropwizard-api-key-bundle:1.0.0-1.CONVEY.1/dependencies/io/dropwizard/dropwizard-auth/1.0.0/dropwizard-auth-1.0.0.jar"
+      },
+      "isTransitive" : false
+    }, {
+      "importPath" : "import io.dropwizard.auth.AuthValueFactoryProvider;",
+      "artifact" : {
+        "artifact" : "io.dropwizard:dropwizard-auth:1.0.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.getconvey.oss:dropwizard-api-key-bundle:1.0.0-1.CONVEY.1/dependencies/io/dropwizard/dropwizard-auth/1.0.0/dropwizard-auth-1.0.0.jar"
+      },
+      "isTransitive" : false
+    }, {
+      "importPath" : "import io.dropwizard.auth.basic.BasicCredentialAuthFilter;",
+      "artifact" : {
+        "artifact" : "io.dropwizard:dropwizard-auth:1.0.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.getconvey.oss:dropwizard-api-key-bundle:1.0.0-1.CONVEY.1/dependencies/io/dropwizard/dropwizard-auth/1.0.0/dropwizard-auth-1.0.0.jar"
+      },
+      "isTransitive" : false
+    }, {
+      "importPath" : "import com.codahale.metrics.MetricRegistry;",
+      "artifact" : {
+        "artifact" : "io.dropwizard.metrics:metrics-core:3.1.2",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.getconvey.oss:dropwizard-api-key-bundle:1.0.0-1.CONVEY.1/dependencies/io/dropwizard/metrics/metrics-core/3.1.2/metrics-core-3.1.2.jar"
+      },
+      "isTransitive" : true
+    }, {
+      "importPath" : "import io.dropwizard.auth.PermitAllAuthorizer;",
+      "artifact" : {
+        "artifact" : "io.dropwizard:dropwizard-auth:1.0.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.getconvey.oss:dropwizard-api-key-bundle:1.0.0-1.CONVEY.1/dependencies/io/dropwizard/dropwizard-auth/1.0.0/dropwizard-auth-1.0.0.jar"
+      },
+      "isTransitive" : false
+    }, {
+      "importPath" : "import io.dropwizard.auth.Authenticator;",
+      "artifact" : {
+        "artifact" : "io.dropwizard:dropwizard-auth:1.0.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.getconvey.oss:dropwizard-api-key-bundle:1.0.0-1.CONVEY.1/dependencies/io/dropwizard/dropwizard-auth/1.0.0/dropwizard-auth-1.0.0.jar"
+      },
+      "isTransitive" : false
+    }, {
+      "importPath" : "import io.dropwizard.auth.basic.BasicCredentials;",
+      "artifact" : {
+        "artifact" : "io.dropwizard:dropwizard-auth:1.0.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.getconvey.oss:dropwizard-api-key-bundle:1.0.0-1.CONVEY.1/dependencies/io/dropwizard/dropwizard-auth/1.0.0/dropwizard-auth-1.0.0.jar"
+      },
+      "isTransitive" : false
+    }, {
+      "importPath" : "import java.util.Map;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isTransitive" : true
+    }, {
+      "importPath" : "import io.dropwizard.auth.CachingAuthenticator;",
+      "artifact" : {
+        "artifact" : "io.dropwizard:dropwizard-auth:1.0.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.getconvey.oss:dropwizard-api-key-bundle:1.0.0-1.CONVEY.1/dependencies/io/dropwizard/dropwizard-auth/1.0.0/dropwizard-auth-1.0.0.jar"
+      },
+      "isTransitive" : false
+    }, {
+      "importPath" : "import com.google.common.cache.CacheBuilderSpec;",
+      "artifact" : {
+        "artifact" : "org.glassfish.jersey.bundles.repackaged:jersey-guava:2.23.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.getconvey.oss:dropwizard-api-key-bundle:1.0.0-1.CONVEY.1/dependencies/org/glassfish/jersey/bundles/repackaged/jersey-guava/2.23.1/jersey-guava-2.23.1.jar"
+      },
+      "isTransitive" : true
+    }, {
+      "importPath" : "import com.google.common.cache.CacheBuilderSpec;",
+      "artifact" : {
+        "artifact" : "com.google.guava:guava:19.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.getconvey.oss:dropwizard-api-key-bundle:1.0.0-1.CONVEY.1/dependencies/com/google/guava/guava/19.0/guava-19.0.jar"
+      },
+      "isTransitive" : true
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/dropwizard-api-key-bundle/src/main/java/io/dropwizard/bundles/apikey/RoleAuthorizer.java",
+    "useImportReport" : [ {
+      "importPath" : "import io.dropwizard.auth.Authorizer;",
+      "artifact" : {
+        "artifact" : "io.dropwizard:dropwizard-auth:1.0.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.getconvey.oss:dropwizard-api-key-bundle:1.0.0-1.CONVEY.1/dependencies/io/dropwizard/dropwizard-auth/1.0.0/dropwizard-auth-1.0.0.jar"
+      },
+      "isTransitive" : false
+    }, {
+      "importPath" : "import java.security.Principal;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isTransitive" : true
+    }, {
+      "importPath" : "import com.google.common.collect.SetMultimap;",
+      "artifact" : {
+        "artifact" : "org.glassfish.jersey.bundles.repackaged:jersey-guava:2.23.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.getconvey.oss:dropwizard-api-key-bundle:1.0.0-1.CONVEY.1/dependencies/org/glassfish/jersey/bundles/repackaged/jersey-guava/2.23.1/jersey-guava-2.23.1.jar"
+      },
+      "isTransitive" : true
+    }, {
+      "importPath" : "import com.google.common.collect.SetMultimap;",
+      "artifact" : {
+        "artifact" : "com.google.guava:guava:19.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.getconvey.oss:dropwizard-api-key-bundle:1.0.0-1.CONVEY.1/dependencies/com/google/guava/guava/19.0/guava-19.0.jar"
+      },
+      "isTransitive" : true
+    }, {
+      "importPath" : "import com.google.common.collect.Multimap;",
+      "artifact" : {
+        "artifact" : "org.glassfish.jersey.bundles.repackaged:jersey-guava:2.23.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.getconvey.oss:dropwizard-api-key-bundle:1.0.0-1.CONVEY.1/dependencies/org/glassfish/jersey/bundles/repackaged/jersey-guava/2.23.1/jersey-guava-2.23.1.jar"
+      },
+      "isTransitive" : true
+    }, {
+      "importPath" : "import com.google.common.collect.Multimap;",
+      "artifact" : {
+        "artifact" : "com.google.guava:guava:19.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.getconvey.oss:dropwizard-api-key-bundle:1.0.0-1.CONVEY.1/dependencies/com/google/guava/guava/19.0/guava-19.0.jar"
+      },
+      "isTransitive" : true
+    }, {
+      "importPath" : "import com.google.common.collect.ImmutableSetMultimap;",
+      "artifact" : {
+        "artifact" : "org.glassfish.jersey.bundles.repackaged:jersey-guava:2.23.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.getconvey.oss:dropwizard-api-key-bundle:1.0.0-1.CONVEY.1/dependencies/org/glassfish/jersey/bundles/repackaged/jersey-guava/2.23.1/jersey-guava-2.23.1.jar"
+      },
+      "isTransitive" : true
+    }, {
+      "importPath" : "import com.google.common.collect.ImmutableSetMultimap;",
+      "artifact" : {
+        "artifact" : "com.google.guava:guava:19.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.getconvey.oss:dropwizard-api-key-bundle:1.0.0-1.CONVEY.1/dependencies/com/google/guava/guava/19.0/guava-19.0.jar"
+      },
+      "isTransitive" : true
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/dropwizard-api-key-bundle/src/main/java/io/dropwizard/bundles/apikey/DefaultPrincipalFactory.java",
+    "useImportReport" : [ {
+      "importPath" : "import java.security.Principal;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isTransitive" : true
+    }, {
+      "importPath" : "import io.dropwizard.auth.PrincipalImpl;",
+      "artifact" : {
+        "artifact" : "io.dropwizard:dropwizard-auth:1.0.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.getconvey.oss:dropwizard-api-key-bundle:1.0.0-1.CONVEY.1/dependencies/io/dropwizard/dropwizard-auth/1.0.0/dropwizard-auth-1.0.0.jar"
+      },
+      "isTransitive" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/dropwizard-api-key-bundle/src/main/java/io/dropwizard/bundles/apikey/ApiKey.java",
+    "useImportReport" : [ {
+      "importPath" : "import com.fasterxml.jackson.annotation.JsonCreator;",
+      "artifact" : {
+        "artifact" : "com.fasterxml.jackson.core:jackson-annotations:2.7.6",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.getconvey.oss:dropwizard-api-key-bundle:1.0.0-1.CONVEY.1/dependencies/com/fasterxml/jackson/core/jackson-annotations/2.7.6/jackson-annotations-2.7.6.jar"
+      },
+      "isTransitive" : true
+    }, {
+      "importPath" : "import com.fasterxml.jackson.annotation.JsonProperty;",
+      "artifact" : {
+        "artifact" : "com.fasterxml.jackson.core:jackson-annotations:2.7.6",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.getconvey.oss:dropwizard-api-key-bundle:1.0.0-1.CONVEY.1/dependencies/com/fasterxml/jackson/core/jackson-annotations/2.7.6/jackson-annotations-2.7.6.jar"
+      },
+      "isTransitive" : true
+    }, {
+      "importPath" : "import static com.google.common.base.Preconditions.checkNotNull;",
+      "artifact" : {
+        "artifact" : "org.glassfish.jersey.bundles.repackaged:jersey-guava:2.23.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.getconvey.oss:dropwizard-api-key-bundle:1.0.0-1.CONVEY.1/dependencies/org/glassfish/jersey/bundles/repackaged/jersey-guava/2.23.1/jersey-guava-2.23.1.jar"
+      },
+      "isTransitive" : true
+    }, {
+      "importPath" : "import static com.google.common.base.Preconditions.checkNotNull;",
+      "artifact" : {
+        "artifact" : "com.google.guava:guava:19.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.getconvey.oss:dropwizard-api-key-bundle:1.0.0-1.CONVEY.1/dependencies/com/google/guava/guava/19.0/guava-19.0.jar"
+      },
+      "isTransitive" : true
+    }, {
+      "importPath" : "import com.google.common.base.MoreObjects;",
+      "artifact" : {
+        "artifact" : "org.glassfish.jersey.bundles.repackaged:jersey-guava:2.23.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.getconvey.oss:dropwizard-api-key-bundle:1.0.0-1.CONVEY.1/dependencies/org/glassfish/jersey/bundles/repackaged/jersey-guava/2.23.1/jersey-guava-2.23.1.jar"
+      },
+      "isTransitive" : true
+    }, {
+      "importPath" : "import com.google.common.base.MoreObjects;",
+      "artifact" : {
+        "artifact" : "com.google.guava:guava:19.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.getconvey.oss:dropwizard-api-key-bundle:1.0.0-1.CONVEY.1/dependencies/com/google/guava/guava/19.0/guava-19.0.jar"
+      },
+      "isTransitive" : true
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/dropwizard-api-key-bundle/src/main/java/io/dropwizard/bundles/apikey/ApiKeyBundleConfiguration.java",
+    "useImportReport" : [ ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/dropwizard-api-key-bundle/src/main/java/io/dropwizard/bundles/apikey/ApiKeyProvider.java",
+    "useImportReport" : [ ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  } ],
+  "projectUseDependencies" : [ {
+    "artifact" : "io.dropwizard:dropwizard-auth:1.0.0",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.getconvey.oss:dropwizard-api-key-bundle:1.0.0-1.CONVEY.1/dependencies/io/dropwizard/dropwizard-auth/1.0.0/dropwizard-auth-1.0.0.jar"
+  }, {
+    "artifact" : "io.dropwizard:dropwizard-core:1.0.0",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.getconvey.oss:dropwizard-api-key-bundle:1.0.0-1.CONVEY.1/dependencies/io/dropwizard/dropwizard-core/1.0.0/dropwizard-core-1.0.0.jar"
+  } ],
+  "projectUnusedDependencies" : [ ]
+}
