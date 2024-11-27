@@ -50,20 +50,35 @@ public class FileUtils {
         return pathList;
     }
 
-    public static Path getXmlPath(String directory) {
+    public static Path getPomPathFromDependencyDir(String directoryPath) {
+        File directory = new File(directoryPath);
+
+        if (directory.isDirectory()) {
+            // Get all .xml files in the directory
+            File[] xmlFiles = directory.listFiles((dir, name) -> name.endsWith(".pom"));
+
+            if (xmlFiles != null && xmlFiles.length == 1) {
+              return xmlFiles[0].toPath();
+            }
+        }
+        throw new RuntimeException("XML file not found or has XML file more than 1");
+    }
+
+    public static List<Path> getAllOtherPomPathFromRepo(String directory) {
         List<Path> pathList = new ArrayList<>();
-        PathMatcher matcher = FileSystems.getDefault().getPathMatcher("glob:**/*.xml");
+        PathMatcher matcher = FileSystems.getDefault().getPathMatcher("glob:**/pom.xml");
+
         try (Stream<Path> paths = Files.walk(Paths.get(directory))) {
+            int baseDepth = Paths.get(directory).getNameCount(); // Get the base directory depth
             paths
-                    .filter(path -> matcher.matches(path) && Files.isRegularFile(path))
+                    .filter(path -> matcher.matches(path) // Match "pom.xml" files
+                            && Files.isRegularFile(path) // Ensure it's a regular file
+                            && path.getNameCount() > baseDepth + 1) // Exclude first-level paths
                     .forEach(pathList::add);
         } catch (IOException e) {
             throw new RuntimeException(e);
         }
-        if (pathList.size() != 1) {
-            throw new RuntimeException("Pom file has more/lower than 1 " + directory);
-        }
-        return pathList.getFirst();
+        return pathList;
     }
 
     public static List<Dependency> getDependencyListFromFile(String csvFilePath, ImportArtifact projectArtifact) {

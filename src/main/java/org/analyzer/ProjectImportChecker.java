@@ -47,14 +47,7 @@ public class ProjectImportChecker {
         new File(basePath).mkdirs();
         ImportArtifact finalPomFile;
         if (!skipArtifactInstallation) {
-//            try {
-//                var artifact = artifactInstaller.install(new ImportArtifact(extractedProjectArtifactDependency), basePath, false).a;
-//                artifactFiles.add(new File(artifact.getArtifactPath()));
-//            } catch (IOException | InterruptedException e) {
-//                throw new RuntimeException(e);
-//            }
-
-            ImportArtifact pomFile = null;
+            ImportArtifact pomFile;
             try {
                 pomFile = artifactInstaller.install(new ImportArtifact(extractedProjectArtifact), basePath, true, false).a;
             } catch (IOException | InterruptedException e) {
@@ -67,8 +60,19 @@ public class ProjectImportChecker {
             System.out.println("Downloading project dependencies");
             artifactInstaller.copyProjectArtifact(basePath, extractedProjectArtifact);
             artifactInstaller.copyDependencies(basePath, finalPomFile);
+
+//            System.out.println("Checking other pom file in the project");
+//            var pomList = PomUtils.getPomListFromPath(repoPath);
+//            for (ImportArtifact pom: pomList) {
+//                System.out.println("Downloading project dependencies from: " + pom.getArtifactPath());
+//                if (!pom.equals(finalPomFile)) {
+//                    artifactInstaller.copyDependencies(basePath + "/dependencies/" + pom.toString(), pom);
+//                }
+//
+//            }
+
         } else {
-            finalPomFile = PomUtils.getPomFromPath(extractedProjectArtifact.getGroupId(), extractedProjectArtifact.getArtifactId(), extractedProjectArtifact.getVersion(), basePath);
+            finalPomFile = PomUtils.getPomFromArtifact(extractedProjectArtifact.getGroupId(), extractedProjectArtifact.getArtifactId(), extractedProjectArtifact.getVersion(), basePath);
         }
         if (csvFilePath.isPresent()) {
             this.dependencies = FileUtils.getDependencyListFromFile(csvFilePath.get(), extractedProjectArtifact);

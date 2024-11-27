@@ -34,12 +34,12 @@ public class Main {
         var csvFile = "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/java-dependency-analyzer/datasets/artifact-dependency-details.csv";
         var jsonFile = "save_input.json";
 
-        var projectArtifact = "com.bstek.ureport:ureport2-console:2.2.9";
-        var repoPath = "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/ureport/ureport2-console";
-        var subPath = "/src/main";
-        var gitBranch = "2.2.9";
+        var projectArtifact = "com.github.hxbkx:ExcelUtils:1.4.2";
+        var repoPath = "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/ExcelUtils";
+        var subPath = "/src";
+        var gitBranch = "1.4.2";
 
-        runSingleProject(destinationPath, writeFileDestination, csvFile, projectArtifact, repoPath, subPath, gitBranch, jsonFile, true);
+        runSingleProject(destinationPath, writeFileDestination, csvFile, projectArtifact, repoPath, subPath, gitBranch, jsonFile, false);
 //        runMultipleProjects(jsonFile, destinationPath, writeFileDestination, csvFile);
     }
 }

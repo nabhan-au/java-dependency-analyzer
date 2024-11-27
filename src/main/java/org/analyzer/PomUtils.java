@@ -19,23 +19,62 @@ import java.io.File;
 import java.io.FileReader;
 import java.io.FileWriter;
 import java.io.IOException;
+import java.nio.file.Path;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Objects;
 
-import static org.analyzer.FileUtils.getXmlPath;
+import org.apache.maven.model.Parent;
+
+import static org.analyzer.FileUtils.getAllOtherPomPathFromRepo;
+import static org.analyzer.FileUtils.getPomPathFromDependencyDir;
 import static org.analyzer.MavenArtifactCrawler.extractRepoUrl;
 import static org.analyzer.MavenArtifactCrawler.isArtifactExist;
 
 public class PomUtils {
 
-    public static ImportArtifact getPomFromPath(String groupId, String artifactId, String version, String basePath) {
-        var pomPath = getXmlPath(basePath);
+    public static ImportArtifact getPomFromArtifact(String groupId, String artifactId, String version, String basePath) {
+        var pomPath = getPomPathFromDependencyDir(basePath);
         var artifactFile = new File(pomPath.toAbsolutePath().toAbsolutePath().toString());
         if (!artifactFile.isFile()) {
             return null;
         }
         return new ImportArtifact(artifactId, groupId, version, pomPath.toAbsolutePath().toString());
+    }
+
+    public static List<ImportArtifact> getPomListFromPath(String dir) {
+        var result = new ArrayList<ImportArtifact>();
+        var pomPathList = getAllOtherPomPathFromRepo(dir);
+        for (Path pom : pomPathList) {
+            try {
+                // Parse the POM file
+                MavenXpp3Reader reader = new MavenXpp3Reader();
+                Model model = reader.read(new FileReader(pom.toAbsolutePath().toString()));
+
+                // Extract artifactId, groupId, and version
+                String groupId = model.getGroupId();
+                String artifactId = model.getArtifactId();
+                String version = model.getVersion();
+
+                // If groupId or version is null, check the parent element
+                if (groupId == null && model.getParent() != null) {
+                    groupId = model.getParent().getGroupId();
+                }
+                if (version == null && model.getParent() != null) {
+                    version = model.getParent().getVersion();
+                }
+
+
+                result.add(new ImportArtifact(artifactId, groupId, version, pom.toAbsolutePath().toString()));
+                // Print the extracted values
+                System.out.println("Group ID: " + groupId);
+                System.out.println("Artifact ID: " + artifactId);
+                System.out.println("Version: " + version);
+            } catch (Exception e) {
+                e.printStackTrace();
+            }
+        }
+        return result;
     }
 
     public static void modifyDependencyVersion(String pomFilePath, ImportArtifact importArtifact) {
@@ -182,14 +221,34 @@ public class PomUtils {
         return new ArrayList<>();
     }
 
-
-
     private static String getElementText(Element parent, String tagName) {
         NodeList nodeList = parent.getElementsByTagName(tagName);
         if (nodeList.getLength() > 0) {
             return nodeList.item(0).getTextContent();
         }
         return null;
+    }
+
+    private static ImportArtifact getParentArtifact(String pomFilePath) throws Exception {
+        MavenXpp3Reader reader = new MavenXpp3Reader();
+        Model model = reader.read(new FileReader(pomFilePath));
+
+        // Get the parent information
+        Parent parent = model.getParent();
+        if (parent != null) {
+            String groupId = parent.getGroupId();
+            String artifactId = parent.getArtifactId();
+            String version = parent.getVersion();
+
+            System.out.println("Parent Group ID: " + groupId);
+            System.out.println("Parent Artifact ID: " + artifactId);
+            System.out.println("Parent Version: " + version);
+
+            return new ImportArtifact(artifactId, groupId, version);
+        } else {
+            System.out.println("No parent artifact found in the pom.xml.");
+            return null;
+        }
     }
 
     public static String getModifiedPomFile(String pomFilePath) throws Exception {
@@ -289,9 +348,11 @@ public class PomUtils {
     }
 
     public static void main(String[] args) throws Exception {
-        String pomFilePath = "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/us.ihmc/ihmc-perception/ihmc-perception-0.14.0-240126.pom";
+        String pomFilePath = "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.hxbkx:ExcelUtils:1.4.2/ExcelUtils-1.4.2.pom";
 
-        getModifiedPomFile(pomFilePath);
+        System.out.println(getPomListFromPath("/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/guava"));
+
+//        getModifiedPomFile(pomFilePath);
 //        String targetGroupId = "org.springframework.boot";
 //        String targetArtifactId = "spring-boot-starter-web";
 //        String newVersion = "2.7.18";
