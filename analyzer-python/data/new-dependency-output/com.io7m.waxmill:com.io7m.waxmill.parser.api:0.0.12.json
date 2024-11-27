@@ -1,0 +1,455 @@
+{
+  "projectArtifact" : "com.io7m.waxmill:com.io7m.waxmill.parser.api:0.0.12",
+  "repositoryDir" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/waxmill/com.io7m.waxmill.parser.api",
+  "repositorySubDir" : "/src/main",
+  "artifactLocation" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.io7m.waxmill:com.io7m.waxmill.parser.api:0.0.12",
+  "fileImportReports" : [ {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/waxmill/com.io7m.waxmill.parser.api/src/main/java/module-info.java",
+    "useImportReport" : [ ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/waxmill/com.io7m.waxmill.parser.api/src/main/java/com/io7m/waxmill/parser/api/WXMVirtualMachineParserType.java",
+    "useImportReport" : [ {
+      "importPath" : "import com.io7m.waxmill.machines.WXMVirtualMachineSet;",
+      "artifact" : {
+        "artifact" : "com.io7m.waxmill:com.io7m.waxmill.machines:0.0.12",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.io7m.waxmill:com.io7m.waxmill.parser.api:0.0.12/dependencies/com/io7m/waxmill/com.io7m.waxmill.machines/0.0.12/com.io7m.waxmill.machines-0.0.12.jar"
+      },
+      "isTransitive" : false
+    }, {
+      "importPath" : "import java.util.Optional;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isTransitive" : true
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/waxmill/com.io7m.waxmill.parser.api/src/main/java/com/io7m/waxmill/parser/api/WXMClientConfigurationParserType.java",
+    "useImportReport" : [ {
+      "importPath" : "import com.io7m.waxmill.client.api.WXMClientConfiguration;",
+      "artifact" : {
+        "artifact" : "com.io7m.waxmill:com.io7m.waxmill.client.api:0.0.12",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.io7m.waxmill:com.io7m.waxmill.parser.api:0.0.12/dependencies/com/io7m/waxmill/com.io7m.waxmill.client.api/0.0.12/com.io7m.waxmill.client.api-0.0.12.jar"
+      },
+      "isTransitive" : false
+    }, {
+      "importPath" : "import java.util.Optional;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isTransitive" : true
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/waxmill/com.io7m.waxmill.parser.api/src/main/java/com/io7m/waxmill/parser/api/WXMParserProviderType.java",
+    "useImportReport" : [ {
+      "importPath" : "import java.nio.file.FileSystem;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isTransitive" : true
+    }, {
+      "importPath" : "import java.net.URI;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isTransitive" : true
+    }, {
+      "importPath" : "import java.io.InputStream;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isTransitive" : true
+    }, {
+      "importPath" : "import java.util.function.Consumer;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isTransitive" : true
+    }, {
+      "importPath" : "import java.io.IOException;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isTransitive" : true
+    }, {
+      "importPath" : "import java.nio.file.Path;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isTransitive" : true
+    }, {
+      "importPath" : "import com.io7m.waxmill.exceptions.WXMException;",
+      "artifact" : {
+        "artifact" : "com.io7m.waxmill:com.io7m.waxmill.exceptions:0.0.12",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.io7m.waxmill:com.io7m.waxmill.parser.api:0.0.12/dependencies/com/io7m/waxmill/com.io7m.waxmill.exceptions/0.0.12/com.io7m.waxmill.exceptions-0.0.12.jar"
+      },
+      "isTransitive" : false
+    }, {
+      "importPath" : "import java.util.Objects;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isTransitive" : true
+    }, {
+      "importPath" : "import java.nio.file.Files;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isTransitive" : true
+    }, {
+      "importPath" : "import java.util.ArrayList;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isTransitive" : true
+    }, {
+      "importPath" : "import static com.io7m.waxmill.parser.api.WXMParseErrorType.Severity.ERROR;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isTransitive" : true
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/waxmill/com.io7m.waxmill.parser.api/src/main/java/com/io7m/waxmill/parser/api/WXMParseErrorType.java",
+    "useImportReport" : [ {
+      "importPath" : "import com.io7m.jlexing.core.LexicalType;",
+      "artifact" : {
+        "artifact" : "com.io7m.jlexing:com.io7m.jlexing.core:2.0.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.io7m.waxmill:com.io7m.waxmill.parser.api:0.0.12/dependencies/com/io7m/jlexing/com.io7m.jlexing.core/2.0.0/com.io7m.jlexing.core-2.0.0.jar"
+      },
+      "isTransitive" : false
+    }, {
+      "importPath" : "import java.net.URI;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isTransitive" : true
+    }, {
+      "importPath" : "import com.io7m.immutables.styles.ImmutablesStyleType;",
+      "artifact" : {
+        "artifact" : "com.io7m.immutables.style:com.io7m.immutables.style:0.0.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.io7m.waxmill:com.io7m.waxmill.parser.api:0.0.12/dependencies/com/io7m/immutables/style/com.io7m.immutables.style/0.0.1/com.io7m.immutables.style-0.0.1.jar"
+      },
+      "isTransitive" : false
+    }, {
+      "importPath" : "import org.immutables.value.Value;",
+      "artifact" : {
+        "artifact" : "org.immutables:value:2.8.3",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.io7m.waxmill:com.io7m.waxmill.parser.api:0.0.12/dependencies/org/immutables/value/2.8.3/value-2.8.3.jar"
+      },
+      "isTransitive" : false
+    }, {
+      "importPath" : "import com.io7m.jlexing.core.LexicalPosition;",
+      "artifact" : {
+        "artifact" : "com.io7m.jlexing:com.io7m.jlexing.core:2.0.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.io7m.waxmill:com.io7m.waxmill.parser.api:0.0.12/dependencies/com/io7m/jlexing/com.io7m.jlexing.core/2.0.0/com.io7m.jlexing.core-2.0.0.jar"
+      },
+      "isTransitive" : false
+    }, {
+      "importPath" : "import java.util.Optional;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isTransitive" : true
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/waxmill/com.io7m.waxmill.parser.api/src/main/java/com/io7m/waxmill/parser/api/WXMParserType.java",
+    "useImportReport" : [ {
+      "importPath" : "import java.io.Closeable;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isTransitive" : true
+    }, {
+      "importPath" : "import java.util.Optional;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isTransitive" : true
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/waxmill/com.io7m.waxmill.parser.api/src/main/java/com/io7m/waxmill/parser/api/WXMClientConfigurationParserProviderType.java",
+    "useImportReport" : [ {
+      "importPath" : "import com.io7m.waxmill.client.api.WXMClientConfiguration;",
+      "artifact" : {
+        "artifact" : "com.io7m.waxmill:com.io7m.waxmill.client.api:0.0.12",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.io7m.waxmill:com.io7m.waxmill.parser.api:0.0.12/dependencies/com/io7m/waxmill/com.io7m.waxmill.client.api/0.0.12/com.io7m.waxmill.client.api-0.0.12.jar"
+      },
+      "isTransitive" : false
+    }, {
+      "importPath" : "import java.nio.file.FileSystem;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isTransitive" : true
+    }, {
+      "importPath" : "import java.net.URI;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isTransitive" : true
+    }, {
+      "importPath" : "import java.io.InputStream;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isTransitive" : true
+    }, {
+      "importPath" : "import java.util.function.Consumer;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isTransitive" : true
+    }, {
+      "importPath" : "import java.io.IOException;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isTransitive" : true
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/waxmill/com.io7m.waxmill.parser.api/src/main/java/com/io7m/waxmill/parser/api/WXMBootConfigurationParserType.java",
+    "useImportReport" : [ {
+      "importPath" : "import java.util.List;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isTransitive" : true
+    }, {
+      "importPath" : "import com.io7m.waxmill.machines.WXMBootConfigurationType;",
+      "artifact" : {
+        "artifact" : "com.io7m.waxmill:com.io7m.waxmill.machines:0.0.12",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.io7m.waxmill:com.io7m.waxmill.parser.api:0.0.12/dependencies/com/io7m/waxmill/com.io7m.waxmill.machines/0.0.12/com.io7m.waxmill.machines-0.0.12.jar"
+      },
+      "isTransitive" : false
+    }, {
+      "importPath" : "import java.util.Optional;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isTransitive" : true
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/waxmill/com.io7m.waxmill.parser.api/src/main/java/com/io7m/waxmill/parser/api/WXMBootConfigurationParserProviderType.java",
+    "useImportReport" : [ {
+      "importPath" : "import java.util.List;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isTransitive" : true
+    }, {
+      "importPath" : "import com.io7m.waxmill.machines.WXMBootConfigurationType;",
+      "artifact" : {
+        "artifact" : "com.io7m.waxmill:com.io7m.waxmill.machines:0.0.12",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.io7m.waxmill:com.io7m.waxmill.parser.api:0.0.12/dependencies/com/io7m/waxmill/com.io7m.waxmill.machines/0.0.12/com.io7m.waxmill.machines-0.0.12.jar"
+      },
+      "isTransitive" : false
+    }, {
+      "importPath" : "import java.nio.file.FileSystem;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isTransitive" : true
+    }, {
+      "importPath" : "import java.net.URI;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isTransitive" : true
+    }, {
+      "importPath" : "import java.io.InputStream;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isTransitive" : true
+    }, {
+      "importPath" : "import java.util.function.Consumer;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isTransitive" : true
+    }, {
+      "importPath" : "import java.io.IOException;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isTransitive" : true
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/waxmill/com.io7m.waxmill.parser.api/src/main/java/com/io7m/waxmill/parser/api/WXMParseException.java",
+    "useImportReport" : [ {
+      "importPath" : "import com.io7m.waxmill.exceptions.WXMException;",
+      "artifact" : {
+        "artifact" : "com.io7m.waxmill:com.io7m.waxmill.exceptions:0.0.12",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.io7m.waxmill:com.io7m.waxmill.parser.api:0.0.12/dependencies/com/io7m/waxmill/com.io7m.waxmill.exceptions/0.0.12/com.io7m.waxmill.exceptions-0.0.12.jar"
+      },
+      "isTransitive" : false
+    }, {
+      "importPath" : "import java.util.List;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isTransitive" : true
+    }, {
+      "importPath" : "import java.util.Objects;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isTransitive" : true
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/waxmill/com.io7m.waxmill.parser.api/src/main/java/com/io7m/waxmill/parser/api/WXMVirtualMachineParserProviderType.java",
+    "useImportReport" : [ {
+      "importPath" : "import com.io7m.waxmill.machines.WXMVirtualMachineSet;",
+      "artifact" : {
+        "artifact" : "com.io7m.waxmill:com.io7m.waxmill.machines:0.0.12",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.io7m.waxmill:com.io7m.waxmill.parser.api:0.0.12/dependencies/com/io7m/waxmill/com.io7m.waxmill.machines/0.0.12/com.io7m.waxmill.machines-0.0.12.jar"
+      },
+      "isTransitive" : false
+    }, {
+      "importPath" : "import java.nio.file.FileSystem;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isTransitive" : true
+    }, {
+      "importPath" : "import java.net.URI;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isTransitive" : true
+    }, {
+      "importPath" : "import java.io.InputStream;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isTransitive" : true
+    }, {
+      "importPath" : "import java.util.function.Consumer;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isTransitive" : true
+    }, {
+      "importPath" : "import java.io.IOException;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isTransitive" : true
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/waxmill/com.io7m.waxmill.parser.api/src/main/java/com/io7m/waxmill/parser/api/package-info.java",
+    "useImportReport" : [ {
+      "importPath" : "import org.osgi.annotation.bundle.Export;",
+      "artifact" : {
+        "artifact" : "org.osgi:org.osgi.annotation.bundle:1.0.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.io7m.waxmill:com.io7m.waxmill.parser.api:0.0.12/dependencies/org/osgi/org.osgi.annotation.bundle/1.0.0/org.osgi.annotation.bundle-1.0.0.jar"
+      },
+      "isTransitive" : false
+    }, {
+      "importPath" : "import org.osgi.annotation.versioning.Version;",
+      "artifact" : {
+        "artifact" : "org.osgi:org.osgi.annotation.versioning:1.1.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.io7m.waxmill:com.io7m.waxmill.parser.api:0.0.12/dependencies/org/osgi/org.osgi.annotation.versioning/1.1.0/org.osgi.annotation.versioning-1.1.0.jar"
+      },
+      "isTransitive" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  } ],
+  "projectUseDependencies" : [ {
+    "artifact" : "com.io7m.waxmill:com.io7m.waxmill.machines:0.0.12",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.io7m.waxmill:com.io7m.waxmill.parser.api:0.0.12/dependencies/com/io7m/waxmill/com.io7m.waxmill.machines/0.0.12/com.io7m.waxmill.machines-0.0.12.jar"
+  }, {
+    "artifact" : "com.io7m.waxmill:com.io7m.waxmill.client.api:0.0.12",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.io7m.waxmill:com.io7m.waxmill.parser.api:0.0.12/dependencies/com/io7m/waxmill/com.io7m.waxmill.client.api/0.0.12/com.io7m.waxmill.client.api-0.0.12.jar"
+  }, {
+    "artifact" : "com.io7m.waxmill:com.io7m.waxmill.exceptions:0.0.12",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.io7m.waxmill:com.io7m.waxmill.parser.api:0.0.12/dependencies/com/io7m/waxmill/com.io7m.waxmill.exceptions/0.0.12/com.io7m.waxmill.exceptions-0.0.12.jar"
+  }, {
+    "artifact" : "com.io7m.jlexing:com.io7m.jlexing.core:2.0.0",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.io7m.waxmill:com.io7m.waxmill.parser.api:0.0.12/dependencies/com/io7m/jlexing/com.io7m.jlexing.core/2.0.0/com.io7m.jlexing.core-2.0.0.jar"
+  }, {
+    "artifact" : "com.io7m.immutables.style:com.io7m.immutables.style:0.0.1",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.io7m.waxmill:com.io7m.waxmill.parser.api:0.0.12/dependencies/com/io7m/immutables/style/com.io7m.immutables.style/0.0.1/com.io7m.immutables.style-0.0.1.jar"
+  }, {
+    "artifact" : "org.immutables:value:2.8.3",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.io7m.waxmill:com.io7m.waxmill.parser.api:0.0.12/dependencies/org/immutables/value/2.8.3/value-2.8.3.jar"
+  }, {
+    "artifact" : "org.osgi:org.osgi.annotation.bundle:1.0.0",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.io7m.waxmill:com.io7m.waxmill.parser.api:0.0.12/dependencies/org/osgi/org.osgi.annotation.bundle/1.0.0/org.osgi.annotation.bundle-1.0.0.jar"
+  }, {
+    "artifact" : "org.osgi:org.osgi.annotation.versioning:1.1.0",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.io7m.waxmill:com.io7m.waxmill.parser.api:0.0.12/dependencies/org/osgi/org.osgi.annotation.versioning/1.1.0/org.osgi.annotation.versioning-1.1.0.jar"
+  } ],
+  "projectUnusedDependencies" : [ ]
+}

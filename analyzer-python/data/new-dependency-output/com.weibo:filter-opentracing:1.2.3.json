@@ -1,0 +1,231 @@
+{
+  "projectArtifact" : "com.weibo:filter-opentracing:1.2.3",
+  "repositoryDir" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/motan/motan-extension/filter-extension/filter-opentracing",
+  "repositorySubDir" : "/src/main",
+  "artifactLocation" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.weibo:filter-opentracing:1.2.3",
+  "fileImportReports" : [ {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/motan/motan-extension/filter-extension/filter-opentracing/src/main/java/com/weibo/api/motan/filter/opentracing/OpenTracingContext.java",
+    "useImportReport" : [ {
+      "importPath" : "import io.opentracing.Tracer;",
+      "artifact" : {
+        "artifact" : "io.opentracing:opentracing-api:0.20.4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.weibo:filter-opentracing:1.2.3/dependencies/io/opentracing/opentracing-api/0.20.4/opentracing-api-0.20.4.jar"
+      },
+      "isTransitive" : false
+    }, {
+      "importPath" : "import io.opentracing.Span;",
+      "artifact" : {
+        "artifact" : "io.opentracing:opentracing-api:0.20.4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.weibo:filter-opentracing:1.2.3/dependencies/io/opentracing/opentracing-api/0.20.4/opentracing-api-0.20.4.jar"
+      },
+      "isTransitive" : false
+    }, {
+      "importPath" : "import com.weibo.api.motan.rpc.RpcContext;",
+      "artifact" : {
+        "artifact" : "com.weibo:motan-core:1.2.3",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.weibo:filter-opentracing:1.2.3/dependencies/com/weibo/motan-core/1.2.3/motan-core-1.2.3.jar"
+      },
+      "isTransitive" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/motan/motan-extension/filter-extension/filter-opentracing/src/main/java/com/weibo/api/motan/filter/opentracing/TracerFactory.java",
+    "useImportReport" : [ {
+      "importPath" : "import io.opentracing.Tracer;",
+      "artifact" : {
+        "artifact" : "io.opentracing:opentracing-api:0.20.4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.weibo:filter-opentracing:1.2.3/dependencies/io/opentracing/opentracing-api/0.20.4/opentracing-api-0.20.4.jar"
+      },
+      "isTransitive" : false
+    }, {
+      "importPath" : "import io.opentracing.NoopTracerFactory;",
+      "artifact" : {
+        "artifact" : "io.opentracing:opentracing-noop:0.20.4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.weibo:filter-opentracing:1.2.3/dependencies/io/opentracing/opentracing-noop/0.20.4/opentracing-noop-0.20.4.jar"
+      },
+      "isTransitive" : true
+    }, {
+      "importPath" : "import java.util.Iterator;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isTransitive" : true
+    }, {
+      "importPath" : "import java.util.ServiceLoader;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isTransitive" : true
+    }, {
+      "importPath" : "import com.weibo.api.motan.util.LoggerUtil;",
+      "artifact" : {
+        "artifact" : "com.weibo:motan-core:1.2.3",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.weibo:filter-opentracing:1.2.3/dependencies/com/weibo/motan-core/1.2.3/motan-core-1.2.3.jar"
+      },
+      "isTransitive" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/motan/motan-extension/filter-extension/filter-opentracing/src/main/java/com/weibo/api/motan/filter/opentracing/OpenTracingFilter.java",
+    "useImportReport" : [ {
+      "importPath" : "import com.weibo.api.motan.filter.Filter;",
+      "artifact" : {
+        "artifact" : "com.weibo:motan-core:1.2.3",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.weibo:filter-opentracing:1.2.3/dependencies/com/weibo/motan-core/1.2.3/motan-core-1.2.3.jar"
+      },
+      "isTransitive" : false
+    }, {
+      "importPath" : "import com.weibo.api.motan.core.extension.SpiMeta;",
+      "artifact" : {
+        "artifact" : "com.weibo:motan-core:1.2.3",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.weibo:filter-opentracing:1.2.3/dependencies/com/weibo/motan-core/1.2.3/motan-core-1.2.3.jar"
+      },
+      "isTransitive" : false
+    }, {
+      "importPath" : "import com.weibo.api.motan.core.extension.Activation;",
+      "artifact" : {
+        "artifact" : "com.weibo:motan-core:1.2.3",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.weibo:filter-opentracing:1.2.3/dependencies/com/weibo/motan-core/1.2.3/motan-core-1.2.3.jar"
+      },
+      "isTransitive" : false
+    }, {
+      "importPath" : "import com.weibo.api.motan.rpc.Response;",
+      "artifact" : {
+        "artifact" : "com.weibo:motan-core:1.2.3",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.weibo:filter-opentracing:1.2.3/dependencies/com/weibo/motan-core/1.2.3/motan-core-1.2.3.jar"
+      },
+      "isTransitive" : false
+    }, {
+      "importPath" : "import com.weibo.api.motan.rpc.Caller;",
+      "artifact" : {
+        "artifact" : "com.weibo:motan-core:1.2.3",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.weibo:filter-opentracing:1.2.3/dependencies/com/weibo/motan-core/1.2.3/motan-core-1.2.3.jar"
+      },
+      "isTransitive" : false
+    }, {
+      "importPath" : "import com.weibo.api.motan.rpc.Request;",
+      "artifact" : {
+        "artifact" : "com.weibo:motan-core:1.2.3",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.weibo:filter-opentracing:1.2.3/dependencies/com/weibo/motan-core/1.2.3/motan-core-1.2.3.jar"
+      },
+      "isTransitive" : false
+    }, {
+      "importPath" : "import io.opentracing.Tracer;",
+      "artifact" : {
+        "artifact" : "io.opentracing:opentracing-api:0.20.4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.weibo:filter-opentracing:1.2.3/dependencies/io/opentracing/opentracing-api/0.20.4/opentracing-api-0.20.4.jar"
+      },
+      "isTransitive" : false
+    }, {
+      "importPath" : "import io.opentracing.NoopTracer;",
+      "artifact" : {
+        "artifact" : "io.opentracing:opentracing-noop:0.20.4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.weibo:filter-opentracing:1.2.3/dependencies/io/opentracing/opentracing-noop/0.20.4/opentracing-noop-0.20.4.jar"
+      },
+      "isTransitive" : true
+    }, {
+      "importPath" : "import com.weibo.api.motan.rpc.Provider;",
+      "artifact" : {
+        "artifact" : "com.weibo:motan-core:1.2.3",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.weibo:filter-opentracing:1.2.3/dependencies/com/weibo/motan-core/1.2.3/motan-core-1.2.3.jar"
+      },
+      "isTransitive" : false
+    }, {
+      "importPath" : "import io.opentracing.Tracer.SpanBuilder;",
+      "artifact" : {
+        "artifact" : "io.opentracing:opentracing-api:0.20.4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.weibo:filter-opentracing:1.2.3/dependencies/io/opentracing/opentracing-api/0.20.4/opentracing-api-0.20.4.jar"
+      },
+      "isTransitive" : false
+    }, {
+      "importPath" : "import io.opentracing.Span;",
+      "artifact" : {
+        "artifact" : "io.opentracing:opentracing-api:0.20.4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.weibo:filter-opentracing:1.2.3/dependencies/io/opentracing/opentracing-api/0.20.4/opentracing-api-0.20.4.jar"
+      },
+      "isTransitive" : false
+    }, {
+      "importPath" : "import com.weibo.api.motan.util.LoggerUtil;",
+      "artifact" : {
+        "artifact" : "com.weibo:motan-core:1.2.3",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.weibo:filter-opentracing:1.2.3/dependencies/com/weibo/motan-core/1.2.3/motan-core-1.2.3.jar"
+      },
+      "isTransitive" : false
+    }, {
+      "importPath" : "import com.weibo.api.motan.util.MotanFrameworkUtil;",
+      "artifact" : {
+        "artifact" : "com.weibo:motan-core:1.2.3",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.weibo:filter-opentracing:1.2.3/dependencies/com/weibo/motan-core/1.2.3/motan-core-1.2.3.jar"
+      },
+      "isTransitive" : false
+    }, {
+      "importPath" : "import io.opentracing.propagation.Format;",
+      "artifact" : {
+        "artifact" : "io.opentracing:opentracing-api:0.20.4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.weibo:filter-opentracing:1.2.3/dependencies/io/opentracing/opentracing-api/0.20.4/opentracing-api-0.20.4.jar"
+      },
+      "isTransitive" : false
+    }, {
+      "importPath" : "import io.opentracing.propagation.TextMap;",
+      "artifact" : {
+        "artifact" : "io.opentracing:opentracing-api:0.20.4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.weibo:filter-opentracing:1.2.3/dependencies/io/opentracing/opentracing-api/0.20.4/opentracing-api-0.20.4.jar"
+      },
+      "isTransitive" : false
+    }, {
+      "importPath" : "import java.util.Iterator;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isTransitive" : true
+    }, {
+      "importPath" : "import java.util.Map.Entry;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isTransitive" : true
+    }, {
+      "importPath" : "import io.opentracing.SpanContext;",
+      "artifact" : {
+        "artifact" : "io.opentracing:opentracing-api:0.20.4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.weibo:filter-opentracing:1.2.3/dependencies/io/opentracing/opentracing-api/0.20.4/opentracing-api-0.20.4.jar"
+      },
+      "isTransitive" : false
+    }, {
+      "importPath" : "import io.opentracing.propagation.TextMapExtractAdapter;",
+      "artifact" : {
+        "artifact" : "io.opentracing:opentracing-api:0.20.4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.weibo:filter-opentracing:1.2.3/dependencies/io/opentracing/opentracing-api/0.20.4/opentracing-api-0.20.4.jar"
+      },
+      "isTransitive" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  } ],
+  "projectUseDependencies" : [ {
+    "artifact" : "io.opentracing:opentracing-api:0.20.4",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.weibo:filter-opentracing:1.2.3/dependencies/io/opentracing/opentracing-api/0.20.4/opentracing-api-0.20.4.jar"
+  }, {
+    "artifact" : "com.weibo:motan-core:1.2.3",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.weibo:filter-opentracing:1.2.3/dependencies/com/weibo/motan-core/1.2.3/motan-core-1.2.3.jar"
+  } ],
+  "projectUnusedDependencies" : [ {
+    "artifact" : "org.slf4j:slf4j-api:1.7.25",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.weibo:filter-opentracing:1.2.3/dependencies/org/slf4j/slf4j-api/1.7.25/slf4j-api-1.7.25.jar"
+  }, {
+    "artifact" : "org.apache.commons:commons-lang3:3.1",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.weibo:filter-opentracing:1.2.3/dependencies/org/apache/commons/commons-lang3/3.1/commons-lang3-3.1.jar"
+  }, {
+    "artifact" : "io.opentracing:opentracing-impl:0.20.4",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.weibo:filter-opentracing:1.2.3/dependencies/io/opentracing/opentracing-impl/0.20.4/opentracing-impl-0.20.4.jar"
+  } ]
+}
