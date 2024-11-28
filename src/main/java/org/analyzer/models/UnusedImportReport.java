@@ -6,13 +6,13 @@ public class UnusedImportReport {
     public ImportDeclaration importDeclaration;
     public ImportClassPath importClassPath;
     public ImportArtifact fromArtifact = null;
-    public Boolean isTransitive;
+    public Boolean isDirectDependency;
 
-    public UnusedImportReport(ImportDeclaration importDeclaration, ImportArtifact fromArtifact, Boolean isTransitive) {
+    public UnusedImportReport(ImportDeclaration importDeclaration, ImportArtifact fromArtifact, Boolean isDirectDependency) {
         this.importClassPath = new ImportClassPath(importDeclaration.toString().trim());
         this.importDeclaration = importDeclaration;
         this.fromArtifact = fromArtifact;
-        this.isTransitive = isTransitive;
+        this.isDirectDependency = isDirectDependency;
     }
 
     @Override

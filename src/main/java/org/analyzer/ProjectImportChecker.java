@@ -33,13 +33,15 @@ public class ProjectImportChecker {
     private String repoPath;
     private String repoSubPath;
     private String artifactLocation;
+    private RepositoryUtils repositoryUtils;
 
-    public ProjectImportChecker(String repoPath, String repoSubPath, String destinationPath, Boolean skipArtifactInstallation, Boolean skipPomFileModification, String projectArtifactId, Optional<String> jarPath, Optional<String> csvFilePath, Map<String, String> dependencyMap) throws Exception {
+    public ProjectImportChecker(Neo4jConnector neo4jConnector, String repoPath, String repoSubPath, String destinationPath, Boolean skipArtifactInstallation, Boolean skipPomFileModification, String projectArtifactId, Optional<String> jarPath, Optional<String> csvFilePath, Map<String, String> dependencyMap) throws Exception {
         var basePath = destinationPath + "/" + projectArtifactId;
         this.projectArtifact = projectArtifactId;
         this.repoPath = repoPath;
         this.repoSubPath = repoSubPath;
         this.artifactLocation = basePath;
+        this.repositoryUtils = new RepositoryUtils(neo4jConnector);
         var artifactFiles = new ArrayList<File>();
         jarPath.ifPresent(s -> artifactFiles.add(new File(s)));
         var extractedProjectArtifact = DependencyExtractor.extractDependency(projectArtifactId);
@@ -75,7 +77,7 @@ public class ProjectImportChecker {
             finalPomFile = PomUtils.getPomFromArtifact(extractedProjectArtifact.getGroupId(), extractedProjectArtifact.getArtifactId(), extractedProjectArtifact.getVersion(), basePath);
         }
         if (csvFilePath.isPresent()) {
-            this.dependencies = FileUtils.getDependencyListFromFile(csvFilePath.get(), extractedProjectArtifact);
+            this.dependencies = repositoryUtils.getDependencyFromReleaseId(extractedProjectArtifact.toString());
         } else {
             this.dependencies = DependencyExtractor.getProjectDependencies(repoPath, extractedProjectArtifact);
         }
@@ -231,7 +233,7 @@ public class ProjectImportChecker {
                 for (ImportArtifact artifact: this.artifacts) {
                     try {
                         if (isFullPathCallingFromArtifact(calling, artifact)) {
-                            fullPathCallingReports.add(new FullPathCallingReport(new ImportClassPath(calling), artifact, false));
+                            fullPathCallingReports.add(new FullPathCallingReport(new ImportClassPath(calling), artifact, true));
                         }
                     } catch (Exception e) {
                         throw new RuntimeException(e);
@@ -241,7 +243,7 @@ public class ProjectImportChecker {
                 for (ImportArtifact artifact: this.transitiveArtifacts) {
                     try {
                         if (isFullPathCallingFromArtifact(calling, artifact)) {
-                            fullPathCallingReports.add(new FullPathCallingReport(new ImportClassPath(calling), artifact, true));
+                            fullPathCallingReports.add(new FullPathCallingReport(new ImportClassPath(calling), artifact, false));
                         }
                     } catch (Exception e) {
                         throw new RuntimeException(e);
@@ -261,7 +263,7 @@ public class ProjectImportChecker {
         for (ImportArtifact artifact: this.artifacts) {
             try {
                 if (isPathInArtifact(classPath, artifact)) {
-                    unusedImportReports.add(new UnusedImportReport(impDecl, artifact, false));
+                    unusedImportReports.add(new UnusedImportReport(impDecl, artifact, true));
                     isFound = true;
                 }
             } catch (Exception e) {
@@ -272,7 +274,7 @@ public class ProjectImportChecker {
         for (ImportArtifact artifact: this.transitiveArtifacts) {
             try {
                 if (isPathInArtifact(classPath, artifact)) {
-                    unusedImportReports.add(new UnusedImportReport(impDecl, artifact, true));
+                    unusedImportReports.add(new UnusedImportReport(impDecl, artifact, false));
                     isFound = true;
                 }
             } catch (Exception e) {
@@ -280,7 +282,7 @@ public class ProjectImportChecker {
             }
         }
         if (!isFound) {
-            unusedImportReports.add(new UnusedImportReport(impDecl, null, true));
+            unusedImportReports.add(new UnusedImportReport(impDecl, null, false));
         }
     }
 
@@ -289,7 +291,7 @@ public class ProjectImportChecker {
         for (ImportArtifact artifact: this.artifacts) {
             try {
                 if (isPathInArtifact(classPath, artifact)) {
-                    useImportReports.add(new UseImportReport(obj, artifact, false));
+                    useImportReports.add(new UseImportReport(obj, artifact, true));
                     isFound = true;
                 }
             } catch (Exception e) {
@@ -299,7 +301,7 @@ public class ProjectImportChecker {
         for (ImportArtifact transitiveArtifact: this.transitiveArtifacts) {
             try {
                 if (isPathInArtifact(classPath, transitiveArtifact)) {
-                    useImportReports.add(new UseImportReport(obj, transitiveArtifact, true));
+                    useImportReports.add(new UseImportReport(obj, transitiveArtifact, false));
                     isFound = true;
                 }
             } catch (Exception e) {
@@ -308,14 +310,14 @@ public class ProjectImportChecker {
         }
 
         if (!isFound) {
-            useImportReports.add(new UseImportReport(obj, null, true));
+            useImportReports.add(new UseImportReport(obj, null, false));
         }
     }
 
     public ProjectReport check() throws Exception {
         var fileImportList = mapImportToPackage();
         var useImportReportList = fileImportList.stream().flatMap(f -> Arrays.stream(f.useImportReport)).toList();
-        var useArtifact = useImportReportList.stream().filter(t -> !t.isTransitive).map(t -> t.fromArtifact).distinct().filter(Objects::nonNull).toList();
+        var useArtifact = useImportReportList.stream().filter(t -> t.isDirectDependency).map(t -> t.fromArtifact).distinct().filter(Objects::nonNull).toList();
         var fullParhCallingReportList = fileImportList.stream().flatMap(f -> Arrays.stream(f.fullPathCallingReport)).toList();
         var fullPathCallingArtifact = fullParhCallingReportList.stream().map(t -> t.fromArtifact).distinct().toList();
         List<ImportArtifact> combinedUseImportList = new ArrayList<>();
@@ -361,8 +363,13 @@ public class ProjectImportChecker {
         ObjectWriter ow = new ObjectMapper().writer().withDefaultPrettyPrinter();
         String json = ow.writeValueAsString(projectReportJson);
 
-        String filePath = destinationDir + "/" + projectReportJson.projectArtifact + ".json";
+        var splitArtifactId = projectReportJson.projectArtifact.split(":");
+        var artifact = splitArtifactId[0] + splitArtifactId[1];
+        var version = splitArtifactId[2];
 
+        String filePath = destinationDir + "/" + artifact + "/" + version + ".json";
+
+        new File(destinationDir + "/" + artifact).mkdirs();
         // Write the JSON string to the file
         Files.write(Paths.get(filePath), json.getBytes());
 
@@ -414,6 +421,10 @@ public class ProjectImportChecker {
         var destinationPath = "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository";
         var writeFileDestination = "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/java-dependency-analyzer/new-dependency-output";
         var csvFile = "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/java-dependency-analyzer/datasets/artifact-dependency-details.csv";
+        String uri = "neo4j://localhost:7687";
+        String username = "neo4j";
+        String password = "12345678";
+        Neo4jConnector neo4jConnector = new Neo4jConnector(uri, username, password);
 //        var projectArtifact = "us.ihmc:ihmc-perception:0.14.0-240126";
 //        var repoPath = "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/ihmc-open-robotics-software/ihmc-perception";
 //        var subPath = "/src/main/java";
@@ -431,7 +442,7 @@ public class ProjectImportChecker {
         var gitBranch = "flow-0.7.48";
 
         GitUtils.gitCheckoutBranch(repoPath, gitBranch);
-        var checker = new ProjectImportChecker(repoPath, subPath, destinationPath, false, true, projectArtifact, Optional.empty(), Optional.of(csvFile), new HashMap<>(){});
+        var checker = new ProjectImportChecker(neo4jConnector, repoPath, subPath, destinationPath, false, true, projectArtifact, Optional.empty(), Optional.of(csvFile), new HashMap<>(){});
         checker.resolve(false);
         var projectReport = checker.check();
         checker.exportToJson(projectReport, writeFileDestination);

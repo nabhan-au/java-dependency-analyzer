@@ -15,11 +15,10 @@ import org.openqa.selenium.chrome.ChromeOptions;
 import org.w3c.dom.*;
 import javax.xml.parsers.DocumentBuilder;
 import javax.xml.parsers.DocumentBuilderFactory;
-import java.io.File;
-import java.io.FileReader;
-import java.io.FileWriter;
-import java.io.IOException;
+import java.io.*;
+import java.nio.file.Files;
 import java.nio.file.Path;
+import java.nio.file.Paths;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Objects;
@@ -346,6 +345,60 @@ public class PomUtils {
             System.out.println("Error while modifying the POM file.");
         }
     }
+
+    public static List<String> findPomsWithArtifactId(String directoryPath, String targetArtifactId) {
+        List<String> matchingPomPaths = new ArrayList<>();
+        File rootDir = new File(directoryPath);
+
+        if (!rootDir.exists() || !rootDir.isDirectory()) {
+            throw new IllegalArgumentException("Invalid directory path: " + directoryPath);
+        }
+
+        // Recursively search for pom.xml files
+        List<File> pomFiles = findPomFiles(rootDir.getAbsolutePath());
+
+        // Check each pom.xml for the specified artifactId
+        for (File pomFile : pomFiles) {
+            if (hasArtifactId(pomFile, targetArtifactId)) {
+                matchingPomPaths.add(pomFile.getAbsolutePath());
+            }
+        }
+
+        return matchingPomPaths;
+    }
+
+    public static List<File> findPomFiles(String directoryPath) {
+        List<File> pomFiles = new ArrayList<>();
+
+        try {
+            // Walk through the directory and find all pom.xml files
+            Files.walk(Paths.get(directoryPath))
+                    .filter(path -> path.getFileName().toString().equals("pom.xml"))
+                    .forEach(path -> pomFiles.add(path.toFile()));
+        } catch (IOException e) {
+            System.err.println("Error walking directory: " + e.getMessage());
+        }
+        return pomFiles;
+    }
+
+    private static boolean hasArtifactId(File pomFile, String targetArtifactId) {
+        try (Reader reader = new FileReader(pomFile)) {
+            // Create MavenXpp3Reader to parse the pom.xml
+            MavenXpp3Reader mavenReader = new MavenXpp3Reader();
+            Model model = mavenReader.read(reader);
+
+            // Get the artifactId from the parsed model
+            String artifactId = model.getArtifactId();
+            System.out.println("ArtifactId: " + artifactId);
+            System.out.println("Target ArtifactId: " + targetArtifactId);
+
+            return targetArtifactId.equals(artifactId);
+        } catch (Exception e) {
+            System.err.println("Error reading pom.xml: " + pomFile.getAbsolutePath());
+        }
+        return false;
+    }
+
 
     public static void main(String[] args) throws Exception {
         String pomFilePath = "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.hxbkx:ExcelUtils:1.4.2/ExcelUtils-1.4.2.pom";

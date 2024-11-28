@@ -3,12 +3,12 @@ package org.analyzer.models;
 public class UseImportReport {
     public SingleImportDetails importDetails;
     public ImportArtifact fromArtifact = null;
-    public Boolean isTransitive;
+    public Boolean isDirectDependency;
 
-    public UseImportReport(SingleImportDetails importDetails, ImportArtifact fromArtifact, Boolean isTransitive) {
+    public UseImportReport(SingleImportDetails importDetails, ImportArtifact fromArtifact, Boolean isDirectDependency) {
         this.importDetails = importDetails;
         this.fromArtifact = fromArtifact;
-        this.isTransitive = isTransitive;
+        this.isDirectDependency = isDirectDependency;
     }
 
     @Override

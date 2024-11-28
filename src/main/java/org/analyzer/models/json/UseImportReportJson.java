@@ -5,11 +5,11 @@ import org.analyzer.models.UseImportReport;
 public class UseImportReportJson {
     public String importPath;
     public ImportArtifactJson artifact;
-    public Boolean isTransitive;
+    public Boolean isDirectDependency;
 
     public UseImportReportJson(UseImportReport useImportReport) {
         this.importPath = useImportReport.importDetails.classPath.getOriginalPath().replace("\n", "").trim();
         this.artifact = new ImportArtifactJson(useImportReport.fromArtifact);
-        this.isTransitive = useImportReport.isTransitive;
+        this.isDirectDependency = useImportReport.isDirectDependency;
     }
 }
