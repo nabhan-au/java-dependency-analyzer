@@ -1,0 +1,172 @@
+{
+  "projectArtifact" : "org.codehaus.sonar-plugins:sonar-crowd-plugin:0.1",
+  "repositoryDir" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/org.codehaus.sonar-plugins:sonar-crowd-plugin",
+  "repositorySubDir" : "",
+  "artifactLocation" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.codehaus.sonar-plugins:sonar-crowd-plugin:0.1",
+  "fileImportReports" : [ {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/org.codehaus.sonar-plugins:sonar-crowd-plugin/src/main/java/org/sonar/plugins/crowd/CrowdAuthenticator.java",
+    "useImportReport" : [ {
+      "importPath" : "import org.sonar.api.security.LoginPasswordAuthenticator;",
+      "artifact" : {
+        "artifact" : "org.codehaus.sonar:sonar-plugin-api:1.12",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.codehaus.sonar-plugins:sonar-crowd-plugin:0.1/dependencies/org/codehaus/sonar/sonar-plugin-api/1.12/sonar-plugin-api-1.12.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import com.atlassian.crowd.integration.service.AuthenticationManager;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.atlassian.crowd.integration.service.cache.CachingManagerFactory;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.atlassian.crowd.integration.service.soap.client.ClientProperties;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.atlassian.crowd.integration.authentication.UserAuthenticationContext;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.atlassian.crowd.integration.authentication.PasswordCredential;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.atlassian.crowd.integration.exception.InvalidAuthenticationException;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.atlassian.crowd.integration.exception.InactiveAccountException;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.atlassian.crowd.integration.exception.InvalidAuthorizationTokenException;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.rmi.RemoteException;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.atlassian.crowd.integration.exception.ApplicationAccessDeniedException;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/org.codehaus.sonar-plugins:sonar-crowd-plugin/src/main/java/org/sonar/plugins/crowd/CrowdPlugin.java",
+    "useImportReport" : [ {
+      "importPath" : "import org.sonar.api.Plugin;",
+      "artifact" : {
+        "artifact" : "org.codehaus.sonar:sonar-plugin-api:1.12",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.codehaus.sonar-plugins:sonar-crowd-plugin:0.1/dependencies/org/codehaus/sonar/sonar-plugin-api/1.12/sonar-plugin-api-1.12.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import java.util.List;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.sonar.api.Extension;",
+      "artifact" : {
+        "artifact" : "org.codehaus.sonar:sonar-plugin-api:1.12",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.codehaus.sonar-plugins:sonar-crowd-plugin:0.1/dependencies/org/codehaus/sonar/sonar-plugin-api/1.12/sonar-plugin-api-1.12.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import java.util.ArrayList;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/org.codehaus.sonar-plugins:sonar-crowd-plugin/src/main/java/org/sonar/plugins/crowd/CrowdHelper.java",
+    "useImportReport" : [ {
+      "importPath" : "import org.slf4j.Logger;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.slf4j.LoggerFactory;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/org.codehaus.sonar-plugins:sonar-crowd-plugin/src/main/java/org/sonar/plugins/crowd/CrowdConfiguration.java",
+    "useImportReport" : [ {
+      "importPath" : "import org.sonar.api.ServerExtension;",
+      "artifact" : {
+        "artifact" : "org.codehaus.sonar:sonar-plugin-api:1.12",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.codehaus.sonar-plugins:sonar-crowd-plugin:0.1/dependencies/org/codehaus/sonar/sonar-plugin-api/1.12/sonar-plugin-api-1.12.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import java.util.Properties;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ {
+      "importPath" : "import org.apache.commons.configuration.Configuration;"
+    } ]
+  } ],
+  "projectUseDependencies" : [ {
+    "artifact" : "org.codehaus.sonar:sonar-plugin-api:1.12",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.codehaus.sonar-plugins:sonar-crowd-plugin:0.1/dependencies/org/codehaus/sonar/sonar-plugin-api/1.12/sonar-plugin-api-1.12.jar"
+  } ],
+  "projectUseTransitiveDependencies" : [ ],
+  "projectUnusedDependencies" : [ ]
+}

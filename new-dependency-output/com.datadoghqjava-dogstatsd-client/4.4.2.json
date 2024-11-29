@@ -1,0 +1,2975 @@
+{
+  "projectArtifact" : "com.datadoghq:java-dogstatsd-client:4.4.2",
+  "repositoryDir" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/com.datadoghq:java-dogstatsd-client",
+  "repositorySubDir" : "",
+  "artifactLocation" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.datadoghq:java-dogstatsd-client:4.4.2",
+  "fileImportReports" : [ {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/com.datadoghq:java-dogstatsd-client/src/test/java/com/timgroup/statsd/CgroupReaderTest.java",
+    "useImportReport" : [ {
+      "importPath" : "import org.junit.Test;",
+      "artifact" : {
+        "artifact" : "junit:junit:4.13.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.datadoghq:java-dogstatsd-client:4.4.2/dependencies/junit/junit/4.13.1/junit-4.13.1.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import static org.hamcrest.MatcherAssert.assertThat;",
+      "artifact" : {
+        "artifact" : "org.hamcrest:hamcrest-core:1.3",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.datadoghq:java-dogstatsd-client:4.4.2/dependencies/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import static org.hamcrest.Matchers.equalTo;",
+      "artifact" : {
+        "artifact" : "org.hamcrest:hamcrest-library:1.3",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.datadoghq:java-dogstatsd-client:4.4.2/dependencies/org/hamcrest/hamcrest-library/1.3/hamcrest-library-1.3.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import static org.junit.Assert.assertNull;",
+      "artifact" : {
+        "artifact" : "junit:junit:4.13.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.datadoghq:java-dogstatsd-client:4.4.2/dependencies/junit/junit/4.13.1/junit-4.13.1.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.junit.rules.TemporaryFolder;",
+      "artifact" : {
+        "artifact" : "junit:junit:4.13.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.datadoghq:java-dogstatsd-client:4.4.2/dependencies/junit/junit/4.13.1/junit-4.13.1.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.junit.Rule;",
+      "artifact" : {
+        "artifact" : "junit:junit:4.13.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.datadoghq:java-dogstatsd-client:4.4.2/dependencies/junit/junit/4.13.1/junit-4.13.1.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.junit.Before;",
+      "artifact" : {
+        "artifact" : "junit:junit:4.13.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.datadoghq:java-dogstatsd-client:4.4.2/dependencies/junit/junit/4.13.1/junit-4.13.1.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.junit.Assume;",
+      "artifact" : {
+        "artifact" : "junit:junit:4.13.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.datadoghq:java-dogstatsd-client:4.4.2/dependencies/junit/junit/4.13.1/junit-4.13.1.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.io.IOException;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.nio.file.Path;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.nio.file.Files;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import static org.junit.Assert.assertEquals;",
+      "artifact" : {
+        "artifact" : "junit:junit:4.13.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.datadoghq:java-dogstatsd-client:4.4.2/dependencies/junit/junit/4.13.1/junit-4.13.1.jar"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/com.datadoghq:java-dogstatsd-client/src/test/java/com/timgroup/statsd/UnixStreamSocketTest.java",
+    "useImportReport" : [ {
+      "importPath" : "import java.io.File;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.logging.Logger;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.junit.BeforeClass;",
+      "artifact" : {
+        "artifact" : "junit:junit:4.13.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.datadoghq:java-dogstatsd-client:4.4.2/dependencies/junit/junit/4.13.1/junit-4.13.1.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.io.IOException;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.junit.Assume;",
+      "artifact" : {
+        "artifact" : "junit:junit:4.13.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.datadoghq:java-dogstatsd-client:4.4.2/dependencies/junit/junit/4.13.1/junit-4.13.1.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.junit.Before;",
+      "artifact" : {
+        "artifact" : "junit:junit:4.13.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.datadoghq:java-dogstatsd-client:4.4.2/dependencies/junit/junit/4.13.1/junit-4.13.1.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.nio.file.Files;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.junit.After;",
+      "artifact" : {
+        "artifact" : "junit:junit:4.13.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.datadoghq:java-dogstatsd-client:4.4.2/dependencies/junit/junit/4.13.1/junit-4.13.1.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.junit.Test;",
+      "artifact" : {
+        "artifact" : "junit:junit:4.13.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.datadoghq:java-dogstatsd-client:4.4.2/dependencies/junit/junit/4.13.1/junit-4.13.1.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import static org.junit.Assert.assertEquals;",
+      "artifact" : {
+        "artifact" : "junit:junit:4.13.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.datadoghq:java-dogstatsd-client:4.4.2/dependencies/junit/junit/4.13.1/junit-4.13.1.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import static org.hamcrest.MatcherAssert.assertThat;",
+      "artifact" : {
+        "artifact" : "org.hamcrest:hamcrest-core:1.3",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.datadoghq:java-dogstatsd-client:4.4.2/dependencies/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import static org.hamcrest.Matchers.contains;",
+      "artifact" : {
+        "artifact" : "org.hamcrest:hamcrest-library:1.3",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.datadoghq:java-dogstatsd-client:4.4.2/dependencies/org/hamcrest/hamcrest-library/1.3/hamcrest-library-1.3.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import static org.hamcrest.Matchers.nullValue;",
+      "artifact" : {
+        "artifact" : "org.hamcrest:hamcrest-library:1.3",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.datadoghq:java-dogstatsd-client:4.4.2/dependencies/org/hamcrest/hamcrest-library/1.3/hamcrest-library-1.3.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import static org.hamcrest.CoreMatchers.anyOf;",
+      "artifact" : {
+        "artifact" : "org.hamcrest:hamcrest-core:1.3",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.datadoghq:java-dogstatsd-client:4.4.2/dependencies/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import static org.hamcrest.Matchers.containsString;",
+      "artifact" : {
+        "artifact" : "org.hamcrest:hamcrest-library:1.3",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.datadoghq:java-dogstatsd-client:4.4.2/dependencies/org/hamcrest/hamcrest-library/1.3/hamcrest-library-1.3.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import static org.hamcrest.Matchers.hasItem;",
+      "artifact" : {
+        "artifact" : "org.hamcrest:hamcrest-library:1.3",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.datadoghq:java-dogstatsd-client:4.4.2/dependencies/org/hamcrest/hamcrest-library/1.3/hamcrest-library-1.3.jar"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/com.datadoghq:java-dogstatsd-client/src/test/java/com/timgroup/statsd/DummyStatsDServer.java",
+    "useImportReport" : [ {
+      "importPath" : "import java.io.Closeable;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.List;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.ArrayList;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.concurrent.atomic.AtomicInteger;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.nio.ByteBuffer;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import static com.timgroup.statsd.NonBlockingStatsDClient.DEFAULT_UDS_MAX_PACKET_SIZE_BYTES;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.nio.Buffer;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.io.IOException;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.nio.charset.StandardCharsets;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/com.datadoghq:java-dogstatsd-client/src/test/java/com/timgroup/statsd/NamedPipeDummyStatsDServer.java",
+    "useImportReport" : [ {
+      "importPath" : "import java.util.logging.Logger;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.sun.jna.platform.win32.WinNT.HANDLE;",
+      "artifact" : {
+        "artifact" : "net.java.dev.jna:jna-platform:5.10.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.datadoghq:java-dogstatsd-client:4.4.2/dependencies/net/java/dev/jna/jna-platform/5.10.0/jna-platform-5.10.0.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.sun.jna.platform.win32.Kernel32;",
+      "artifact" : {
+        "artifact" : "net.java.dev.jna:jna-platform:5.10.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.datadoghq:java-dogstatsd-client:4.4.2/dependencies/net/java/dev/jna/jna-platform/5.10.0/jna-platform-5.10.0.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.sun.jna.platform.win32.WinBase;",
+      "artifact" : {
+        "artifact" : "net.java.dev.jna:jna-platform:5.10.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.datadoghq:java-dogstatsd-client:4.4.2/dependencies/net/java/dev/jna/jna-platform/5.10.0/jna-platform-5.10.0.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.nio.ByteBuffer;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.io.IOException;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.sun.jna.platform.win32.WinError;",
+      "artifact" : {
+        "artifact" : "net.java.dev.jna:jna-platform:5.10.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.datadoghq:java-dogstatsd-client:4.4.2/dependencies/net/java/dev/jna/jna-platform/5.10.0/jna-platform-5.10.0.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.sun.jna.ptr.IntByReference;",
+      "artifact" : {
+        "artifact" : "net.java.dev.jna:jna:5.10.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.datadoghq:java-dogstatsd-client:4.4.2/dependencies/net/java/dev/jna/jna/5.10.0/jna-5.10.0.jar"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/com.datadoghq:java-dogstatsd-client/src/test/java/com/timgroup/statsd/BuilderAddressTest.java",
+    "useImportReport" : [ {
+      "importPath" : "import org.junit.runner.RunWith;",
+      "artifact" : {
+        "artifact" : "junit:junit:4.13.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.datadoghq:java-dogstatsd-client:4.4.2/dependencies/junit/junit/4.13.1/junit-4.13.1.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.junit.runners.Parameterized;",
+      "artifact" : {
+        "artifact" : "junit:junit:4.13.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.datadoghq:java-dogstatsd-client:4.4.2/dependencies/junit/junit/4.13.1/junit-4.13.1.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.junit.contrib.java.lang.system.EnvironmentVariables;",
+      "artifact" : {
+        "artifact" : "com.github.stefanbirkner:system-rules:1.18.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.datadoghq:java-dogstatsd-client:4.4.2/dependencies/com/github/stefanbirkner/system-rules/1.18.0/system-rules-1.18.0.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.junit.Rule;",
+      "artifact" : {
+        "artifact" : "junit:junit:4.13.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.datadoghq:java-dogstatsd-client:4.4.2/dependencies/junit/junit/4.13.1/junit-4.13.1.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.net.SocketAddress;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.Collection;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.junit.runners.Parameterized.Parameters;",
+      "artifact" : {
+        "artifact" : "junit:junit:4.13.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.datadoghq:java-dogstatsd-client:4.4.2/dependencies/junit/junit/4.13.1/junit-4.13.1.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.ArrayList;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.Arrays;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.net.InetSocketAddress;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.junit.Before;",
+      "artifact" : {
+        "artifact" : "junit:junit:4.13.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.datadoghq:java-dogstatsd-client:4.4.2/dependencies/junit/junit/4.13.1/junit-4.13.1.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.junit.Test;",
+      "artifact" : {
+        "artifact" : "junit:junit:4.13.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.datadoghq:java-dogstatsd-client:4.4.2/dependencies/junit/junit/4.13.1/junit-4.13.1.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import static org.junit.Assert.assertEquals;",
+      "artifact" : {
+        "artifact" : "junit:junit:4.13.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.datadoghq:java-dogstatsd-client:4.4.2/dependencies/junit/junit/4.13.1/junit-4.13.1.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import jnr.unixsocket.UnixSocketAddress;",
+      "artifact" : {
+        "artifact" : "com.github.jnr:jnr-unixsocket:0.36",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.datadoghq:java-dogstatsd-client:4.4.2/dependencies/com/github/jnr/jnr-unixsocket/0.36/jnr-unixsocket-0.36.jar"
+      },
+      "isDirectDependency" : true
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/com.datadoghq:java-dogstatsd-client/src/test/java/com/timgroup/statsd/TelemetryTest.java",
+    "useImportReport" : [ {
+      "importPath" : "import java.util.logging.Logger;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.List;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.ArrayList;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.io.IOException;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.Properties;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.junit.BeforeClass;",
+      "artifact" : {
+        "artifact" : "junit:junit:4.13.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.datadoghq:java-dogstatsd-client:4.4.2/dependencies/junit/junit/4.13.1/junit-4.13.1.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.junit.AfterClass;",
+      "artifact" : {
+        "artifact" : "junit:junit:4.13.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.datadoghq:java-dogstatsd-client:4.4.2/dependencies/junit/junit/4.13.1/junit-4.13.1.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.junit.After;",
+      "artifact" : {
+        "artifact" : "junit:junit:4.13.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.datadoghq:java-dogstatsd-client:4.4.2/dependencies/junit/junit/4.13.1/junit-4.13.1.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.junit.Test;",
+      "artifact" : {
+        "artifact" : "junit:junit:4.13.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.datadoghq:java-dogstatsd-client:4.4.2/dependencies/junit/junit/4.13.1/junit-4.13.1.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import static org.hamcrest.MatcherAssert.assertThat;",
+      "artifact" : {
+        "artifact" : "org.hamcrest:hamcrest-core:1.3",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.datadoghq:java-dogstatsd-client:4.4.2/dependencies/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import static org.hamcrest.Matchers.equalTo;",
+      "artifact" : {
+        "artifact" : "org.hamcrest:hamcrest-library:1.3",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.datadoghq:java-dogstatsd-client:4.4.2/dependencies/org/hamcrest/hamcrest-library/1.3/hamcrest-library-1.3.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import static org.hamcrest.Matchers.hasItem;",
+      "artifact" : {
+        "artifact" : "org.hamcrest:hamcrest-library:1.3",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.datadoghq:java-dogstatsd-client:4.4.2/dependencies/org/hamcrest/hamcrest-library/1.3/hamcrest-library-1.3.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.junit.Assume;",
+      "artifact" : {
+        "artifact" : "junit:junit:4.13.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.datadoghq:java-dogstatsd-client:4.4.2/dependencies/junit/junit/4.13.1/junit-4.13.1.jar"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/com.datadoghq:java-dogstatsd-client/src/test/java/com/timgroup/statsd/DummyLowMemStatsDServer.java",
+    "useImportReport" : [ {
+      "importPath" : "import java.util.concurrent.atomic.AtomicInteger;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.io.IOException;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/com.datadoghq:java-dogstatsd-client/src/test/java/com/timgroup/statsd/TestHelpers.java",
+    "useImportReport" : [ ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/com.datadoghq:java-dogstatsd-client/src/test/java/com/timgroup/statsd/EventTest.java",
+    "useImportReport" : [ {
+      "importPath" : "import org.junit.Test;",
+      "artifact" : {
+        "artifact" : "junit:junit:4.13.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.datadoghq:java-dogstatsd-client:4.4.2/dependencies/junit/junit/4.13.1/junit-4.13.1.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import static org.junit.Assert.assertEquals;",
+      "artifact" : {
+        "artifact" : "junit:junit:4.13.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.datadoghq:java-dogstatsd-client:4.4.2/dependencies/junit/junit/4.13.1/junit-4.13.1.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.Date;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/com.datadoghq:java-dogstatsd-client/src/test/java/com/timgroup/statsd/StatsDAggregatorTest.java",
+    "useImportReport" : [ {
+      "importPath" : "import org.junit.FixMethodOrder;",
+      "artifact" : {
+        "artifact" : "junit:junit:4.13.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.datadoghq:java-dogstatsd-client:4.4.2/dependencies/junit/junit/4.13.1/junit-4.13.1.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.junit.runners.MethodSorters;",
+      "artifact" : {
+        "artifact" : "junit:junit:4.13.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.datadoghq:java-dogstatsd-client:4.4.2/dependencies/junit/junit/4.13.1/junit-4.13.1.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.logging.Logger;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.concurrent.ExecutorService;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.concurrent.Executors;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.concurrent.ThreadFactory;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.junit.contrib.java.lang.system.EnvironmentVariables;",
+      "artifact" : {
+        "artifact" : "com.github.stefanbirkner:system-rules:1.18.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.datadoghq:java-dogstatsd-client:4.4.2/dependencies/com/github/stefanbirkner/system-rules/1.18.0/system-rules-1.18.0.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.junit.Rule;",
+      "artifact" : {
+        "artifact" : "junit:junit:4.13.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.datadoghq:java-dogstatsd-client:4.4.2/dependencies/junit/junit/4.13.1/junit-4.13.1.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.Queue;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.concurrent.atomic.AtomicInteger;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.concurrent.ConcurrentLinkedQueue;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.junit.BeforeClass;",
+      "artifact" : {
+        "artifact" : "junit:junit:4.13.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.datadoghq:java-dogstatsd-client:4.4.2/dependencies/junit/junit/4.13.1/junit-4.13.1.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.junit.AfterClass;",
+      "artifact" : {
+        "artifact" : "junit:junit:4.13.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.datadoghq:java-dogstatsd-client:4.4.2/dependencies/junit/junit/4.13.1/junit-4.13.1.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.junit.After;",
+      "artifact" : {
+        "artifact" : "junit:junit:4.13.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.datadoghq:java-dogstatsd-client:4.4.2/dependencies/junit/junit/4.13.1/junit-4.13.1.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.junit.Test;",
+      "artifact" : {
+        "artifact" : "junit:junit:4.13.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.datadoghq:java-dogstatsd-client:4.4.2/dependencies/junit/junit/4.13.1/junit-4.13.1.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import static org.junit.Assert.assertEquals;",
+      "artifact" : {
+        "artifact" : "junit:junit:4.13.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.datadoghq:java-dogstatsd-client:4.4.2/dependencies/junit/junit/4.13.1/junit-4.13.1.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.Map;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.Iterator;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.junit.Assume;",
+      "artifact" : {
+        "artifact" : "junit:junit:4.13.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.datadoghq:java-dogstatsd-client:4.4.2/dependencies/junit/junit/4.13.1/junit-4.13.1.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import static org.junit.Assert.assertTrue;",
+      "artifact" : {
+        "artifact" : "junit:junit:4.13.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.datadoghq:java-dogstatsd-client:4.4.2/dependencies/junit/junit/4.13.1/junit-4.13.1.jar"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/com.datadoghq:java-dogstatsd-client/src/test/java/com/timgroup/statsd/StatsDTestMessage.java",
+    "useImportReport" : [ ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/com.datadoghq:java-dogstatsd-client/src/test/java/com/timgroup/statsd/UDPDummyStatsDServer.java",
+    "useImportReport" : [ {
+      "importPath" : "import java.nio.channels.DatagramChannel;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.io.IOException;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.net.InetSocketAddress;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.nio.ByteBuffer;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/com.datadoghq:java-dogstatsd-client/src/test/java/com/timgroup/statsd/NonBlockingStatsDClientTest.java",
+    "useImportReport" : [ {
+      "importPath" : "import org.junit.FixMethodOrder;",
+      "artifact" : {
+        "artifact" : "junit:junit:4.13.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.datadoghq:java-dogstatsd-client:4.4.2/dependencies/junit/junit/4.13.1/junit-4.13.1.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.junit.runners.MethodSorters;",
+      "artifact" : {
+        "artifact" : "junit:junit:4.13.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.datadoghq:java-dogstatsd-client:4.4.2/dependencies/junit/junit/4.13.1/junit-4.13.1.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.logging.Logger;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.junit.contrib.java.lang.system.EnvironmentVariables;",
+      "artifact" : {
+        "artifact" : "com.github.stefanbirkner:system-rules:1.18.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.datadoghq:java-dogstatsd-client:4.4.2/dependencies/com/github/stefanbirkner/system-rules/1.18.0/system-rules-1.18.0.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.junit.Rule;",
+      "artifact" : {
+        "artifact" : "junit:junit:4.13.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.datadoghq:java-dogstatsd-client:4.4.2/dependencies/junit/junit/4.13.1/junit-4.13.1.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.junit.BeforeClass;",
+      "artifact" : {
+        "artifact" : "junit:junit:4.13.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.datadoghq:java-dogstatsd-client:4.4.2/dependencies/junit/junit/4.13.1/junit-4.13.1.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.io.IOException;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.junit.AfterClass;",
+      "artifact" : {
+        "artifact" : "junit:junit:4.13.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.datadoghq:java-dogstatsd-client:4.4.2/dependencies/junit/junit/4.13.1/junit-4.13.1.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.junit.After;",
+      "artifact" : {
+        "artifact" : "junit:junit:4.13.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.datadoghq:java-dogstatsd-client:4.4.2/dependencies/junit/junit/4.13.1/junit-4.13.1.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.junit.Test;",
+      "artifact" : {
+        "artifact" : "junit:junit:4.13.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.datadoghq:java-dogstatsd-client:4.4.2/dependencies/junit/junit/4.13.1/junit-4.13.1.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import static org.junit.Assert.assertEquals;",
+      "artifact" : {
+        "artifact" : "junit:junit:4.13.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.datadoghq:java-dogstatsd-client:4.4.2/dependencies/junit/junit/4.13.1/junit-4.13.1.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import static org.hamcrest.MatcherAssert.assertThat;",
+      "artifact" : {
+        "artifact" : "org.hamcrest:hamcrest-core:1.3",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.datadoghq:java-dogstatsd-client:4.4.2/dependencies/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import static org.hamcrest.Matchers.hasItem;",
+      "artifact" : {
+        "artifact" : "org.hamcrest:hamcrest-library:1.3",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.datadoghq:java-dogstatsd-client:4.4.2/dependencies/org/hamcrest/hamcrest-library/1.3/hamcrest-library-1.3.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import static org.hamcrest.Matchers.comparesEqualTo;",
+      "artifact" : {
+        "artifact" : "org.hamcrest:hamcrest-library:1.3",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.datadoghq:java-dogstatsd-client:4.4.2/dependencies/org/hamcrest/hamcrest-library/1.3/hamcrest-library-1.3.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.ArrayList;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import static org.hamcrest.Matchers.hasSize;",
+      "artifact" : {
+        "artifact" : "org.hamcrest:hamcrest-library:1.3",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.datadoghq:java-dogstatsd-client:4.4.2/dependencies/org/hamcrest/hamcrest-library/1.3/hamcrest-library-1.3.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import static org.hamcrest.Matchers.isA;",
+      "artifact" : {
+        "artifact" : "org.hamcrest:hamcrest-library:1.3",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.datadoghq:java-dogstatsd-client:4.4.2/dependencies/org/hamcrest/hamcrest-library/1.3/hamcrest-library-1.3.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.nio.BufferOverflowException;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import static org.hamcrest.Matchers.not;",
+      "artifact" : {
+        "artifact" : "org.hamcrest:hamcrest-library:1.3",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.datadoghq:java-dogstatsd-client:4.4.2/dependencies/org/hamcrest/hamcrest-library/1.3/hamcrest-library-1.3.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import static org.hamcrest.Matchers.startsWith;",
+      "artifact" : {
+        "artifact" : "org.hamcrest:hamcrest-library:1.3",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.datadoghq:java-dogstatsd-client:4.4.2/dependencies/org/hamcrest/hamcrest-library/1.3/hamcrest-library-1.3.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.Locale;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.List;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.Random;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import static org.junit.Assert.assertTrue;",
+      "artifact" : {
+        "artifact" : "junit:junit:4.13.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.datadoghq:java-dogstatsd-client:4.4.2/dependencies/junit/junit/4.13.1/junit-4.13.1.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import static org.junit.Assert.assertFalse;",
+      "artifact" : {
+        "artifact" : "junit:junit:4.13.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.datadoghq:java-dogstatsd-client:4.4.2/dependencies/junit/junit/4.13.1/junit-4.13.1.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.concurrent.CountDownLatch;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.nio.charset.StandardCharsets;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.concurrent.Callable;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.net.SocketAddress;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.nio.ByteBuffer;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.concurrent.BlockingQueue;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.concurrent.ArrayBlockingQueue;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.concurrent.LinkedBlockingQueue;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import static org.junit.Assert.assertThrows;",
+      "artifact" : {
+        "artifact" : "junit:junit:4.13.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.datadoghq:java-dogstatsd-client:4.4.2/dependencies/junit/junit/4.13.1/junit-4.13.1.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.junit.function.ThrowingRunnable;",
+      "artifact" : {
+        "artifact" : "junit:junit:4.13.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.datadoghq:java-dogstatsd-client:4.4.2/dependencies/junit/junit/4.13.1/junit-4.13.1.jar"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ {
+      "importPath" : "import java.text.NumberFormat;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/com.datadoghq:java-dogstatsd-client/src/test/java/com/timgroup/statsd/NamedPipeTest.java",
+    "useImportReport" : [ {
+      "importPath" : "import java.util.logging.Logger;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.Random;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.junit.contrib.java.lang.system.EnvironmentVariables;",
+      "artifact" : {
+        "artifact" : "com.github.stefanbirkner:system-rules:1.18.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.datadoghq:java-dogstatsd-client:4.4.2/dependencies/com/github/stefanbirkner/system-rules/1.18.0/system-rules-1.18.0.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.junit.Rule;",
+      "artifact" : {
+        "artifact" : "junit:junit:4.13.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.datadoghq:java-dogstatsd-client:4.4.2/dependencies/junit/junit/4.13.1/junit-4.13.1.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.junit.BeforeClass;",
+      "artifact" : {
+        "artifact" : "junit:junit:4.13.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.datadoghq:java-dogstatsd-client:4.4.2/dependencies/junit/junit/4.13.1/junit-4.13.1.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.junit.Assume;",
+      "artifact" : {
+        "artifact" : "junit:junit:4.13.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.datadoghq:java-dogstatsd-client:4.4.2/dependencies/junit/junit/4.13.1/junit-4.13.1.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.junit.Before;",
+      "artifact" : {
+        "artifact" : "junit:junit:4.13.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.datadoghq:java-dogstatsd-client:4.4.2/dependencies/junit/junit/4.13.1/junit-4.13.1.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.junit.After;",
+      "artifact" : {
+        "artifact" : "junit:junit:4.13.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.datadoghq:java-dogstatsd-client:4.4.2/dependencies/junit/junit/4.13.1/junit-4.13.1.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.io.IOException;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.junit.Test;",
+      "artifact" : {
+        "artifact" : "junit:junit:4.13.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.datadoghq:java-dogstatsd-client:4.4.2/dependencies/junit/junit/4.13.1/junit-4.13.1.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import static org.hamcrest.MatcherAssert.assertThat;",
+      "artifact" : {
+        "artifact" : "org.hamcrest:hamcrest-core:1.3",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.datadoghq:java-dogstatsd-client:4.4.2/dependencies/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import static org.hamcrest.Matchers.contains;",
+      "artifact" : {
+        "artifact" : "org.hamcrest:hamcrest-library:1.3",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.datadoghq:java-dogstatsd-client:4.4.2/dependencies/org/hamcrest/hamcrest-library/1.3/hamcrest-library-1.3.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import static org.hamcrest.Matchers.nullValue;",
+      "artifact" : {
+        "artifact" : "org.hamcrest:hamcrest-library:1.3",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.datadoghq:java-dogstatsd-client:4.4.2/dependencies/org/hamcrest/hamcrest-library/1.3/hamcrest-library-1.3.jar"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ {
+      "importPath" : "import static org.hamcrest.Matchers.instanceOf;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.net.InetSocketAddress;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import static org.junit.Assert.assertEquals;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/com.datadoghq:java-dogstatsd-client/src/test/java/com/timgroup/statsd/UnixStreamSocketDummyStatsDServer.java",
+    "useImportReport" : [ {
+      "importPath" : "import jnr.unixsocket.UnixServerSocketChannel;",
+      "artifact" : {
+        "artifact" : "com.github.jnr:jnr-unixsocket:0.36",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.datadoghq:java-dogstatsd-client:4.4.2/dependencies/com/github/jnr/jnr-unixsocket/0.36/jnr-unixsocket-0.36.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import java.util.concurrent.ConcurrentLinkedQueue;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import jnr.unixsocket.UnixSocketChannel;",
+      "artifact" : {
+        "artifact" : "com.github.jnr:jnr-unixsocket:0.36",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.datadoghq:java-dogstatsd-client:4.4.2/dependencies/com/github/jnr/jnr-unixsocket/0.36/jnr-unixsocket-0.36.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import java.util.logging.Logger;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.io.IOException;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import jnr.unixsocket.UnixSocketAddress;",
+      "artifact" : {
+        "artifact" : "com.github.jnr:jnr-unixsocket:0.36",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.datadoghq:java-dogstatsd-client:4.4.2/dependencies/com/github/jnr/jnr-unixsocket/0.36/jnr-unixsocket-0.36.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import java.nio.ByteBuffer;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import static com.timgroup.statsd.NonBlockingStatsDClient.DEFAULT_UDS_MAX_PACKET_SIZE_BYTES;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.nio.Buffer;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.nio.channels.SocketChannel;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.nio.ByteOrder;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/com.datadoghq:java-dogstatsd-client/src/test/java/com/timgroup/statsd/NonBlockingDirectStatsDClientTest.java",
+    "useImportReport" : [ {
+      "importPath" : "import org.junit.FixMethodOrder;",
+      "artifact" : {
+        "artifact" : "junit:junit:4.13.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.datadoghq:java-dogstatsd-client:4.4.2/dependencies/junit/junit/4.13.1/junit-4.13.1.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.junit.runners.MethodSorters;",
+      "artifact" : {
+        "artifact" : "junit:junit:4.13.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.datadoghq:java-dogstatsd-client:4.4.2/dependencies/junit/junit/4.13.1/junit-4.13.1.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.junit.contrib.java.lang.system.EnvironmentVariables;",
+      "artifact" : {
+        "artifact" : "com.github.stefanbirkner:system-rules:1.18.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.datadoghq:java-dogstatsd-client:4.4.2/dependencies/com/github/stefanbirkner/system-rules/1.18.0/system-rules-1.18.0.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.junit.Rule;",
+      "artifact" : {
+        "artifact" : "junit:junit:4.13.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.datadoghq:java-dogstatsd-client:4.4.2/dependencies/junit/junit/4.13.1/junit-4.13.1.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.junit.BeforeClass;",
+      "artifact" : {
+        "artifact" : "junit:junit:4.13.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.datadoghq:java-dogstatsd-client:4.4.2/dependencies/junit/junit/4.13.1/junit-4.13.1.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.io.IOException;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.junit.AfterClass;",
+      "artifact" : {
+        "artifact" : "junit:junit:4.13.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.datadoghq:java-dogstatsd-client:4.4.2/dependencies/junit/junit/4.13.1/junit-4.13.1.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.junit.After;",
+      "artifact" : {
+        "artifact" : "junit:junit:4.13.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.datadoghq:java-dogstatsd-client:4.4.2/dependencies/junit/junit/4.13.1/junit-4.13.1.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.junit.Test;",
+      "artifact" : {
+        "artifact" : "junit:junit:4.13.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.datadoghq:java-dogstatsd-client:4.4.2/dependencies/junit/junit/4.13.1/junit-4.13.1.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import static org.hamcrest.MatcherAssert.assertThat;",
+      "artifact" : {
+        "artifact" : "org.hamcrest:hamcrest-core:1.3",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.datadoghq:java-dogstatsd-client:4.4.2/dependencies/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import static org.hamcrest.Matchers.hasItem;",
+      "artifact" : {
+        "artifact" : "org.hamcrest:hamcrest-library:1.3",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.datadoghq:java-dogstatsd-client:4.4.2/dependencies/org/hamcrest/hamcrest-library/1.3/hamcrest-library-1.3.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import static org.hamcrest.Matchers.comparesEqualTo;",
+      "artifact" : {
+        "artifact" : "org.hamcrest:hamcrest-library:1.3",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.datadoghq:java-dogstatsd-client:4.4.2/dependencies/org/hamcrest/hamcrest-library/1.3/hamcrest-library-1.3.jar"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/com.datadoghq:java-dogstatsd-client/src/test/java/com/timgroup/statsd/UnixDatagramSocketDummyStatsDServer.java",
+    "useImportReport" : [ {
+      "importPath" : "import java.nio.channels.DatagramChannel;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.io.IOException;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import jnr.unixsocket.UnixDatagramChannel;",
+      "artifact" : {
+        "artifact" : "com.github.jnr:jnr-unixsocket:0.36",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.datadoghq:java-dogstatsd-client:4.4.2/dependencies/com/github/jnr/jnr-unixsocket/0.36/jnr-unixsocket-0.36.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import jnr.unixsocket.UnixSocketAddress;",
+      "artifact" : {
+        "artifact" : "com.github.jnr:jnr-unixsocket:0.36",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.datadoghq:java-dogstatsd-client:4.4.2/dependencies/com/github/jnr/jnr-unixsocket/0.36/jnr-unixsocket-0.36.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import java.nio.ByteBuffer;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ {
+      "importPath" : "import static com.timgroup.statsd.NonBlockingStatsDClient.DEFAULT_UDS_MAX_PACKET_SIZE_BYTES;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/com.datadoghq:java-dogstatsd-client/src/test/java/com/timgroup/statsd/Utf8Test.java",
+    "useImportReport" : [ {
+      "importPath" : "import org.junit.Test;",
+      "artifact" : {
+        "artifact" : "junit:junit:4.13.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.datadoghq:java-dogstatsd-client:4.4.2/dependencies/junit/junit/4.13.1/junit-4.13.1.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.nio.charset.CharacterCodingException;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import static java.lang.Character.MIN_SURROGATE;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.nio.charset.CharsetEncoder;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.nio.charset.StandardCharsets;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.nio.charset.CodingErrorAction;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.nio.ByteBuffer;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.nio.CharBuffer;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import static org.hamcrest.MatcherAssert.assertThat;",
+      "artifact" : {
+        "artifact" : "org.hamcrest:hamcrest-core:1.3",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.datadoghq:java-dogstatsd-client:4.4.2/dependencies/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import static org.hamcrest.Matchers.equalTo;",
+      "artifact" : {
+        "artifact" : "org.hamcrest:hamcrest-library:1.3",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.datadoghq:java-dogstatsd-client:4.4.2/dependencies/org/hamcrest/hamcrest-library/1.3/hamcrest-library-1.3.jar"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/com.datadoghq:java-dogstatsd-client/src/test/java/com/timgroup/statsd/UnixSocketTest.java",
+    "useImportReport" : [ {
+      "importPath" : "import java.io.File;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.logging.Logger;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.junit.BeforeClass;",
+      "artifact" : {
+        "artifact" : "junit:junit:4.13.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.datadoghq:java-dogstatsd-client:4.4.2/dependencies/junit/junit/4.13.1/junit-4.13.1.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.io.IOException;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.junit.Assume;",
+      "artifact" : {
+        "artifact" : "junit:junit:4.13.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.datadoghq:java-dogstatsd-client:4.4.2/dependencies/junit/junit/4.13.1/junit-4.13.1.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.junit.Before;",
+      "artifact" : {
+        "artifact" : "junit:junit:4.13.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.datadoghq:java-dogstatsd-client:4.4.2/dependencies/junit/junit/4.13.1/junit-4.13.1.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.nio.file.Files;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.junit.After;",
+      "artifact" : {
+        "artifact" : "junit:junit:4.13.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.datadoghq:java-dogstatsd-client:4.4.2/dependencies/junit/junit/4.13.1/junit-4.13.1.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.junit.Test;",
+      "artifact" : {
+        "artifact" : "junit:junit:4.13.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.datadoghq:java-dogstatsd-client:4.4.2/dependencies/junit/junit/4.13.1/junit-4.13.1.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import static org.junit.Assert.assertEquals;",
+      "artifact" : {
+        "artifact" : "junit:junit:4.13.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.datadoghq:java-dogstatsd-client:4.4.2/dependencies/junit/junit/4.13.1/junit-4.13.1.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import static org.hamcrest.MatcherAssert.assertThat;",
+      "artifact" : {
+        "artifact" : "org.hamcrest:hamcrest-core:1.3",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.datadoghq:java-dogstatsd-client:4.4.2/dependencies/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import static org.hamcrest.Matchers.contains;",
+      "artifact" : {
+        "artifact" : "org.hamcrest:hamcrest-library:1.3",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.datadoghq:java-dogstatsd-client:4.4.2/dependencies/org/hamcrest/hamcrest-library/1.3/hamcrest-library-1.3.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import static org.hamcrest.Matchers.nullValue;",
+      "artifact" : {
+        "artifact" : "org.hamcrest:hamcrest-library:1.3",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.datadoghq:java-dogstatsd-client:4.4.2/dependencies/org/hamcrest/hamcrest-library/1.3/hamcrest-library-1.3.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import static org.hamcrest.Matchers.containsString;",
+      "artifact" : {
+        "artifact" : "org.hamcrest:hamcrest-library:1.3",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.datadoghq:java-dogstatsd-client:4.4.2/dependencies/org/hamcrest/hamcrest-library/1.3/hamcrest-library-1.3.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import static org.hamcrest.Matchers.hasItem;",
+      "artifact" : {
+        "artifact" : "org.hamcrest:hamcrest-library:1.3",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.datadoghq:java-dogstatsd-client:4.4.2/dependencies/org/hamcrest/hamcrest-library/1.3/hamcrest-library-1.3.jar"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/com.datadoghq:java-dogstatsd-client/src/test/java/com/timgroup/statsd/RecordingErrorHandler.java",
+    "useImportReport" : [ {
+      "importPath" : "import java.util.Queue;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.concurrent.ConcurrentLinkedQueue;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.List;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.ArrayList;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/com.datadoghq:java-dogstatsd-client/src/test/java/com/timgroup/statsd/NonBlockingStatsDClientMaxPerfTest.java",
+    "useImportReport" : [ {
+      "importPath" : "import org.junit.runner.RunWith;",
+      "artifact" : {
+        "artifact" : "junit:junit:4.13.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.datadoghq:java-dogstatsd-client:4.4.2/dependencies/junit/junit/4.13.1/junit-4.13.1.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.junit.runners.Parameterized;",
+      "artifact" : {
+        "artifact" : "junit:junit:4.13.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.datadoghq:java-dogstatsd-client:4.4.2/dependencies/junit/junit/4.13.1/junit-4.13.1.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.concurrent.atomic.AtomicBoolean;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.concurrent.ExecutorService;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.logging.Logger;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.Collection;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.junit.runners.Parameterized.Parameters;",
+      "artifact" : {
+        "artifact" : "junit:junit:4.13.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.datadoghq:java-dogstatsd-client:4.4.2/dependencies/junit/junit/4.13.1/junit-4.13.1.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.Arrays;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.io.IOException;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.concurrent.Executors;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.junit.Before;",
+      "artifact" : {
+        "artifact" : "junit:junit:4.13.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.datadoghq:java-dogstatsd-client:4.4.2/dependencies/junit/junit/4.13.1/junit-4.13.1.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.junit.Assume;",
+      "artifact" : {
+        "artifact" : "junit:junit:4.13.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.datadoghq:java-dogstatsd-client:4.4.2/dependencies/junit/junit/4.13.1/junit-4.13.1.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.junit.After;",
+      "artifact" : {
+        "artifact" : "junit:junit:4.13.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.datadoghq:java-dogstatsd-client:4.4.2/dependencies/junit/junit/4.13.1/junit-4.13.1.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.junit.Test;",
+      "artifact" : {
+        "artifact" : "junit:junit:4.13.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.datadoghq:java-dogstatsd-client:4.4.2/dependencies/junit/junit/4.13.1/junit-4.13.1.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.concurrent.TimeUnit;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import static org.junit.Assert.assertNotEquals;",
+      "artifact" : {
+        "artifact" : "junit:junit:4.13.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.datadoghq:java-dogstatsd-client:4.4.2/dependencies/junit/junit/4.13.1/junit-4.13.1.jar"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ {
+      "importPath" : "import java.net.SocketException;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.Random;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/com.datadoghq:java-dogstatsd-client/src/test/java/com/timgroup/statsd/NonBlockingStatsDClientPerfTest.java",
+    "useImportReport" : [ {
+      "importPath" : "import java.util.Random;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.concurrent.ExecutorService;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.logging.Logger;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.junit.BeforeClass;",
+      "artifact" : {
+        "artifact" : "junit:junit:4.13.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.datadoghq:java-dogstatsd-client:4.4.2/dependencies/junit/junit/4.13.1/junit-4.13.1.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.io.IOException;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.junit.AfterClass;",
+      "artifact" : {
+        "artifact" : "junit:junit:4.13.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.datadoghq:java-dogstatsd-client:4.4.2/dependencies/junit/junit/4.13.1/junit-4.13.1.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.junit.Before;",
+      "artifact" : {
+        "artifact" : "junit:junit:4.13.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.datadoghq:java-dogstatsd-client:4.4.2/dependencies/junit/junit/4.13.1/junit-4.13.1.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.concurrent.Executors;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.junit.After;",
+      "artifact" : {
+        "artifact" : "junit:junit:4.13.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.datadoghq:java-dogstatsd-client:4.4.2/dependencies/junit/junit/4.13.1/junit-4.13.1.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.concurrent.TimeUnit;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.junit.Test;",
+      "artifact" : {
+        "artifact" : "junit:junit:4.13.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.datadoghq:java-dogstatsd-client:4.4.2/dependencies/junit/junit/4.13.1/junit-4.13.1.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import static org.junit.Assert.assertEquals;",
+      "artifact" : {
+        "artifact" : "junit:junit:4.13.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.datadoghq:java-dogstatsd-client:4.4.2/dependencies/junit/junit/4.13.1/junit-4.13.1.jar"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ {
+      "importPath" : "import java.net.SocketException;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/com.datadoghq:java-dogstatsd-client/src/main/java/com/timgroup/statsd/UnixStreamClientChannel.java",
+    "useImportReport" : [ {
+      "importPath" : "import jnr.unixsocket.UnixSocketAddress;",
+      "artifact" : {
+        "artifact" : "com.github.jnr:jnr-unixsocket:0.36",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.datadoghq:java-dogstatsd-client:4.4.2/dependencies/com/github/jnr/jnr-unixsocket/0.36/jnr-unixsocket-0.36.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import java.nio.channels.SocketChannel;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.nio.ByteBuffer;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.nio.ByteOrder;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.net.SocketAddress;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.io.IOException;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import jnr.unixsocket.UnixSocketChannel;",
+      "artifact" : {
+        "artifact" : "com.github.jnr:jnr-unixsocket:0.36",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.datadoghq:java-dogstatsd-client:4.4.2/dependencies/com/github/jnr/jnr-unixsocket/0.36/jnr-unixsocket-0.36.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import jnr.unixsocket.UnixSocketOptions;",
+      "artifact" : {
+        "artifact" : "com.github.jnr:jnr-unixsocket:0.36",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.datadoghq:java-dogstatsd-client:4.4.2/dependencies/com/github/jnr/jnr-unixsocket/0.36/jnr-unixsocket-0.36.jar"
+      },
+      "isDirectDependency" : true
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/com.datadoghq:java-dogstatsd-client/src/main/java/com/timgroup/statsd/Message.java",
+    "useImportReport" : [ {
+      "importPath" : "import java.util.Set;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.EnumSet;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.Arrays;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ {
+      "importPath" : "import java.util.Objects;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/com.datadoghq:java-dogstatsd-client/src/main/java/com/timgroup/statsd/NumericMessage.java",
+    "useImportReport" : [ ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/com.datadoghq:java-dogstatsd-client/src/main/java/com/timgroup/statsd/DatagramClientChannel.java",
+    "useImportReport" : [ {
+      "importPath" : "import java.nio.channels.DatagramChannel;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.net.SocketAddress;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.io.IOException;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.nio.ByteBuffer;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/com.datadoghq:java-dogstatsd-client/src/main/java/com/timgroup/statsd/DirectStatsDClient.java",
+    "useImportReport" : [ ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/com.datadoghq:java-dogstatsd-client/src/main/java/com/timgroup/statsd/NamedPipeClientChannel.java",
+    "useImportReport" : [ {
+      "importPath" : "import java.io.RandomAccessFile;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.nio.channels.FileChannel;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.io.FileNotFoundException;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.nio.ByteBuffer;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.io.IOException;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/com.datadoghq:java-dogstatsd-client/src/main/java/com/timgroup/statsd/NonBlockingStatsDClient.java",
+    "useImportReport" : [ {
+      "importPath" : "import java.nio.charset.Charset;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.nio.charset.StandardCharsets;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.text.NumberFormat;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.Locale;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.text.DecimalFormat;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.text.DecimalFormatSymbols;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.concurrent.Callable;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.net.SocketAddress;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.concurrent.ThreadFactory;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.List;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.ArrayList;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.Properties;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.nio.channels.WritableByteChannel;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.concurrent.BlockingQueue;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.nio.ByteBuffer;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.io.IOException;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.concurrent.ThreadLocalRandom;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.Arrays;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ {
+      "importPath" : "Class.forName(\"jnr.unixsocket.UnixSocketAddress\")",
+      "artifact" : {
+        "artifact" : "com.github.jnr:jnr-unixsocket:0.36",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.datadoghq:java-dogstatsd-client:4.4.2/dependencies/com/github/jnr/jnr-unixsocket/0.36/jnr-unixsocket-0.36.jar"
+      },
+      "isDirectDependency" : true
+    } ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/com.datadoghq:java-dogstatsd-client/src/main/java/com/timgroup/statsd/StatsDClientException.java",
+    "useImportReport" : [ ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/com.datadoghq:java-dogstatsd-client/src/main/java/com/timgroup/statsd/ClientChannel.java",
+    "useImportReport" : [ {
+      "importPath" : "import java.nio.channels.WritableByteChannel;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/com.datadoghq:java-dogstatsd-client/src/main/java/com/timgroup/statsd/InvalidMessageException.java",
+    "useImportReport" : [ ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/com.datadoghq:java-dogstatsd-client/src/main/java/com/timgroup/statsd/AlphaNumericMessage.java",
+    "useImportReport" : [ ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/com.datadoghq:java-dogstatsd-client/src/main/java/com/timgroup/statsd/NamedPipeSocketAddress.java",
+    "useImportReport" : [ {
+      "importPath" : "import java.net.SocketAddress;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/com.datadoghq:java-dogstatsd-client/src/main/java/com/timgroup/statsd/StatsDThreadFactory.java",
+    "useImportReport" : [ {
+      "importPath" : "import java.util.concurrent.ThreadFactory;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.concurrent.Executors;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/com.datadoghq:java-dogstatsd-client/src/main/java/com/timgroup/statsd/NonBlockingDirectStatsDClient.java",
+    "useImportReport" : [ ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/com.datadoghq:java-dogstatsd-client/src/main/java/com/timgroup/statsd/ServiceCheck.java",
+    "useImportReport" : [ ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/com.datadoghq:java-dogstatsd-client/src/main/java/com/timgroup/statsd/MapUtils.java",
+    "useImportReport" : [ {
+      "importPath" : "import java.lang.invoke.MethodHandle;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.Map;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.lang.invoke.MethodHandles;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.lang.invoke.MethodType;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/com.datadoghq:java-dogstatsd-client/src/main/java/com/timgroup/statsd/Telemetry.java",
+    "useImportReport" : [ {
+      "importPath" : "import java.util.concurrent.atomic.AtomicInteger;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.Timer;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.TimerTask;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.timgroup.statsd.Message;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/com.datadoghq:java-dogstatsd-client/src/main/java/com/timgroup/statsd/StatsDBlockingProcessor.java",
+    "useImportReport" : [ {
+      "importPath" : "import java.util.concurrent.BlockingQueue;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.timgroup.statsd.Message;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.concurrent.TimeUnit;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.concurrent.ThreadFactory;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.concurrent.ArrayBlockingQueue;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ {
+      "importPath" : "import java.nio.BufferOverflowException;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.nio.ByteBuffer;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/com.datadoghq:java-dogstatsd-client/src/main/java/com/timgroup/statsd/StatsDAggregator.java",
+    "useImportReport" : [ {
+      "importPath" : "import java.util.ArrayList;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.Map;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.Timer;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.TimerTask;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.HashMap;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.Iterator;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/com.datadoghq:java-dogstatsd-client/src/main/java/com/timgroup/statsd/StatsDSender.java",
+    "useImportReport" : [ {
+      "importPath" : "import java.nio.channels.WritableByteChannel;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.concurrent.BlockingQueue;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.nio.ByteBuffer;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.concurrent.ThreadFactory;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.concurrent.CountDownLatch;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.concurrent.TimeUnit;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.io.IOException;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ {
+      "importPath" : "import java.net.SocketAddress;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.nio.channels.DatagramChannel;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.concurrent.Callable;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.concurrent.atomic.AtomicInteger;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/com.datadoghq:java-dogstatsd-client/src/main/java/com/timgroup/statsd/StatsDProcessor.java",
+    "useImportReport" : [ {
+      "importPath" : "import java.nio.charset.Charset;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.Queue;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.timgroup.statsd.Message;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.concurrent.BlockingQueue;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.nio.ByteBuffer;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.concurrent.CountDownLatch;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.concurrent.ThreadFactory;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.nio.CharBuffer;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.nio.charset.CharsetEncoder;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.nio.charset.CodingErrorAction;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.nio.BufferOverflowException;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.nio.charset.CoderResult;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.concurrent.ConcurrentLinkedQueue;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.concurrent.ArrayBlockingQueue;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ {
+      "importPath" : "import java.util.concurrent.TimeUnit;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.concurrent.atomic.AtomicInteger;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/com.datadoghq:java-dogstatsd-client/src/main/java/com/timgroup/statsd/UnixSocketAddressWithTransport.java",
+    "useImportReport" : [ {
+      "importPath" : "import java.net.SocketAddress;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.Objects;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/com.datadoghq:java-dogstatsd-client/src/main/java/com/timgroup/statsd/Utf8.java",
+    "useImportReport" : [ {
+      "importPath" : "import java.nio.charset.StandardCharsets;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import static java.lang.Character.MIN_SURROGATE;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import static java.lang.Character.MAX_SURROGATE;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/com.datadoghq:java-dogstatsd-client/src/main/java/com/timgroup/statsd/BufferPool.java",
+    "useImportReport" : [ {
+      "importPath" : "import java.util.concurrent.BlockingQueue;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.nio.ByteBuffer;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.concurrent.ArrayBlockingQueue;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/com.datadoghq:java-dogstatsd-client/src/main/java/com/timgroup/statsd/Event.java",
+    "useImportReport" : [ {
+      "importPath" : "import java.util.Date;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/com.datadoghq:java-dogstatsd-client/src/main/java/com/timgroup/statsd/NoOpDirectStatsDClient.java",
+    "useImportReport" : [ ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/com.datadoghq:java-dogstatsd-client/src/main/java/com/timgroup/statsd/NoOpStatsDClient.java",
+    "useImportReport" : [ ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/com.datadoghq:java-dogstatsd-client/src/main/java/com/timgroup/statsd/CgroupReader.java",
+    "useImportReport" : [ {
+      "importPath" : "import java.nio.file.Path;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.nio.file.Paths;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.regex.Pattern;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.io.IOException;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.nio.file.Files;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.regex.Matcher;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.Map;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.List;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.Arrays;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.HashMap;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.io.BufferedReader;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.io.StringReader;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/com.datadoghq:java-dogstatsd-client/src/main/java/com/timgroup/statsd/StatsDClientErrorHandler.java",
+    "useImportReport" : [ ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/com.datadoghq:java-dogstatsd-client/src/main/java/com/timgroup/statsd/NonBlockingStatsDClientBuilder.java",
+    "useImportReport" : [ {
+      "importPath" : "import java.util.concurrent.Callable;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.net.SocketAddress;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.concurrent.ThreadFactory;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.net.URI;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.net.UnknownHostException;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import jnr.unixsocket.UnixSocketAddress;",
+      "artifact" : {
+        "artifact" : "com.github.jnr:jnr-unixsocket:0.36",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.datadoghq:java-dogstatsd-client:4.4.2/dependencies/com/github/jnr/jnr-unixsocket/0.36/jnr-unixsocket-0.36.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import java.net.InetSocketAddress;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.net.InetAddress;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ {
+      "importPath" : "import jnr.constants.platform.Sock;",
+      "artifact" : {
+        "artifact" : "com.github.jnr:jnr-constants:0.9.17",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.datadoghq:java-dogstatsd-client:4.4.2/dependencies/com/github/jnr/jnr-constants/0.9.17/jnr-constants-0.9.17.jar"
+      },
+      "isDirectDependency" : false
+    } ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/com.datadoghq:java-dogstatsd-client/src/main/java/com/timgroup/statsd/StatsDClient.java",
+    "useImportReport" : [ {
+      "importPath" : "import java.io.Closeable;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/com.datadoghq:java-dogstatsd-client/src/main/java/com/timgroup/statsd/UnixDatagramClientChannel.java",
+    "useImportReport" : [ {
+      "importPath" : "import java.net.SocketAddress;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.io.IOException;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import jnr.unixsocket.UnixDatagramChannel;",
+      "artifact" : {
+        "artifact" : "com.github.jnr:jnr-unixsocket:0.36",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.datadoghq:java-dogstatsd-client:4.4.2/dependencies/com/github/jnr/jnr-unixsocket/0.36/jnr-unixsocket-0.36.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import jnr.unixsocket.UnixSocketOptions;",
+      "artifact" : {
+        "artifact" : "com.github.jnr:jnr-unixsocket:0.36",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.datadoghq:java-dogstatsd-client:4.4.2/dependencies/com/github/jnr/jnr-unixsocket/0.36/jnr-unixsocket-0.36.jar"
+      },
+      "isDirectDependency" : true
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/com.datadoghq:java-dogstatsd-client/src/main/java/com/timgroup/statsd/StatsDNonBlockingProcessor.java",
+    "useImportReport" : [ {
+      "importPath" : "import java.util.Queue;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.timgroup.statsd.Message;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.concurrent.atomic.AtomicInteger;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.concurrent.ThreadFactory;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.concurrent.ConcurrentLinkedQueue;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ {
+      "importPath" : "import java.nio.BufferOverflowException;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.nio.ByteBuffer;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  } ],
+  "projectUseDependencies" : [ {
+    "artifact" : "com.github.jnr:jnr-unixsocket:0.36",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.datadoghq:java-dogstatsd-client:4.4.2/dependencies/com/github/jnr/jnr-unixsocket/0.36/jnr-unixsocket-0.36.jar"
+  } ],
+  "projectUseTransitiveDependencies" : [ ],
+  "projectUnusedDependencies" : [ ]
+}

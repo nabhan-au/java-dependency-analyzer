@@ -7,9 +7,10 @@ public class ProjectReport {
     public String artifactLocation;
     public FileImportReport[] fileImportReports;
     public ImportArtifact[] projectUsedDependencies;
+    public ImportArtifact[] projectUseTransitiveDependencies;
     public ImportArtifact[] projectUnusedDependencies;
 
-    public ProjectReport(String projectArtifact, String repoPath, String repoSubPath, String artifactLocation, FileImportReport[] fileImportReports, ImportArtifact[] projectUsedDependencies, ImportArtifact[] projectUnusedDependencies) {
+    public ProjectReport(String projectArtifact, String repoPath, String repoSubPath, String artifactLocation, FileImportReport[] fileImportReports, ImportArtifact[] projectUsedDependencies, ImportArtifact[] useTransitiveDependencies, ImportArtifact[] projectUnusedDependencies) {
         this.projectArtifact = projectArtifact;
         this.repoPath = repoPath;
         this.repoSubPath = repoSubPath;
@@ -17,5 +18,6 @@ public class ProjectReport {
         this.fileImportReports = fileImportReports;
         this.projectUsedDependencies = projectUsedDependencies;
         this.projectUnusedDependencies = projectUnusedDependencies;
+        this.projectUseTransitiveDependencies = useTransitiveDependencies;
     }
 }

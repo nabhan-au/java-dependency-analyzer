@@ -28,6 +28,7 @@ public class ProjectImportChecker {
     private List<ImportArtifact> transitiveArtifacts = new ArrayList<>();
     private final ArtifactInstaller artifactInstaller = new ArtifactInstaller();
     private List<Path> projectFileList = new ArrayList<>();
+    private Map<ImportArtifact, List<Dependency>> transitiveDependencyMap = new HashMap<>();
     private List<DependencyResolverReport> reportList = new ArrayList<>();
     private String projectArtifact;
     private String repoPath;
@@ -146,6 +147,11 @@ public class ProjectImportChecker {
             }
 
         });
+        System.out.println("--------------------- Map transitive dependencies ---------------------");
+        this.dependencies.forEach(d -> {
+            var transitive = repositoryUtils.getTransitiveDependency(d, 0);
+            transitiveDependencyMap.put(new ImportArtifact(d), transitive);
+        });
         System.out.println("------------------------- Direct dependencies -------------------------");
         System.out.println(this.artifacts);
         System.out.println("----------------------- Transitive dependencies -----------------------");
@@ -155,7 +161,8 @@ public class ProjectImportChecker {
         var artifactPath = FileUtils.getJarPathList(basePath);
         artifactFiles.addAll(artifactPath.stream().map(a -> new File(a.toAbsolutePath().toString())).toList());
         this.projectFileList = getFileList(repoPath + repoSubPath);
-        System.out.println("Getting project file list: " + projectFileList.size());
+        System.out.println("Project file size: " + projectFileList.size());
+        System.out.println("Project file list: " + projectFileList.stream().map(f -> f.toUri().toString()).toList());
         this.staticImportInspector = new StaticImportInspectorFromJar(artifactFiles);
     }
 
@@ -325,15 +332,28 @@ public class ProjectImportChecker {
         combinedUseImportList.addAll(fullPathCallingArtifact);
         combinedUseImportList = combinedUseImportList.stream().distinct().toList();
 
+        List<ImportArtifact> useTransitiveArtifact = new ArrayList<>();
+        var undetectedDependency = useImportReportList.stream().filter(t -> !t.isDirectDependency).map(t -> t.fromArtifact).distinct().filter(Objects::nonNull).toList();
+        for (ImportArtifact undetected: undetectedDependency) {
+            for (ImportArtifact artifact: this.artifacts) {
+                if (!combinedUseImportList.contains(artifact)) {
+                    var transitiveDependencyList = transitiveDependencyMap.get(artifact).stream().map(ImportArtifact::new).distinct().toList();
+                    if (transitiveDependencyList.contains(undetected)) {
+                        useTransitiveArtifact.add(artifact);
+                    }
+                }
+            }
+        }
+
         List<ImportArtifact> unusedArtifact = new ArrayList<>();
         for (ImportArtifact artifact : this.artifacts) {
-            if (!combinedUseImportList.contains(artifact)) {
+            if (!combinedUseImportList.contains(artifact) && !useTransitiveArtifact.contains(artifact)) {
                 unusedArtifact.add(artifact);
             }
         }
         combinedUseImportList = combinedUseImportList.stream().distinct().toList();
         unusedArtifact = unusedArtifact.stream().distinct().toList();
-        return new ProjectReport(projectArtifact, repoPath, repoSubPath, artifactLocation, fileImportList.toArray(FileImportReport[]::new), combinedUseImportList.toArray(ImportArtifact[]::new), unusedArtifact.toArray(ImportArtifact[]::new));
+        return new ProjectReport(projectArtifact, repoPath, repoSubPath, artifactLocation, fileImportList.toArray(FileImportReport[]::new), combinedUseImportList.toArray(ImportArtifact[]::new), useTransitiveArtifact.toArray(ImportArtifact[]::new), unusedArtifact.toArray(ImportArtifact[]::new));
     }
 
     public Boolean isPathInArtifact(String path, ImportArtifact artifact) throws Exception {
@@ -369,6 +389,7 @@ public class ProjectImportChecker {
 
         String filePath = destinationDir + "/" + artifact + "/" + version + ".json";
 
+        System.out.println("Writing result to " + filePath);
         new File(destinationDir + "/" + artifact).mkdirs();
         // Write the JSON string to the file
         Files.write(Paths.get(filePath), json.getBytes());

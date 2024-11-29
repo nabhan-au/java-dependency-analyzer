@@ -1,0 +1,995 @@
+{
+  "projectArtifact" : "org.reaktivity:nukleus-http2.spec:0.52",
+  "repositoryDir" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/org.reaktivity:nukleus-http2.spec",
+  "repositorySubDir" : "",
+  "artifactLocation" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.reaktivity:nukleus-http2.spec:0.52",
+  "fileImportReports" : [ {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/org.reaktivity:nukleus-http2.spec/src/test/java/org/reaktivity/specification/nukleus/http2/streams/rfc7540/ConfigIT.java",
+    "useImportReport" : [ {
+      "importPath" : "import org.kaazing.k3po.junit.rules.K3poRule;",
+      "artifact" : {
+        "artifact" : "org.kaazing:k3po.junit:3.0.0-alpha-96",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.reaktivity:nukleus-http2.spec:0.52/dependencies/org/kaazing/k3po.junit/3.0.0-alpha-96/k3po.junit-3.0.0-alpha-96.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.junit.rules.TestRule;",
+      "artifact" : {
+        "artifact" : "junit:junit:4.12",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.reaktivity:nukleus-http2.spec:0.52/dependencies/junit/junit/4.12/junit-4.12.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.junit.rules.DisableOnDebug;",
+      "artifact" : {
+        "artifact" : "junit:junit:4.12",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.reaktivity:nukleus-http2.spec:0.52/dependencies/junit/junit/4.12/junit-4.12.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.junit.rules.Timeout;",
+      "artifact" : {
+        "artifact" : "junit:junit:4.12",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.reaktivity:nukleus-http2.spec:0.52/dependencies/junit/junit/4.12/junit-4.12.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import static java.util.concurrent.TimeUnit.SECONDS;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import static org.junit.rules.RuleChain.outerRule;",
+      "artifact" : {
+        "artifact" : "junit:junit:4.12",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.reaktivity:nukleus-http2.spec:0.52/dependencies/junit/junit/4.12/junit-4.12.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.junit.Rule;",
+      "artifact" : {
+        "artifact" : "junit:junit:4.12",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.reaktivity:nukleus-http2.spec:0.52/dependencies/junit/junit/4.12/junit-4.12.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.junit.Test;",
+      "artifact" : {
+        "artifact" : "junit:junit:4.12",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.reaktivity:nukleus-http2.spec:0.52/dependencies/junit/junit/4.12/junit-4.12.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.kaazing.k3po.junit.annotation.Specification;",
+      "artifact" : {
+        "artifact" : "org.kaazing:k3po.junit:3.0.0-alpha-96",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.reaktivity:nukleus-http2.spec:0.52/dependencies/org/kaazing/k3po.junit/3.0.0-alpha-96/k3po.junit-3.0.0-alpha-96.jar"
+      },
+      "isDirectDependency" : true
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/org.reaktivity:nukleus-http2.spec/src/test/java/org/reaktivity/specification/nukleus/http2/streams/rfc7540/AbortIT.java",
+    "useImportReport" : [ {
+      "importPath" : "import org.kaazing.k3po.junit.rules.K3poRule;",
+      "artifact" : {
+        "artifact" : "org.kaazing:k3po.junit:3.0.0-alpha-96",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.reaktivity:nukleus-http2.spec:0.52/dependencies/org/kaazing/k3po.junit/3.0.0-alpha-96/k3po.junit-3.0.0-alpha-96.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.junit.rules.TestRule;",
+      "artifact" : {
+        "artifact" : "junit:junit:4.12",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.reaktivity:nukleus-http2.spec:0.52/dependencies/junit/junit/4.12/junit-4.12.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.junit.rules.DisableOnDebug;",
+      "artifact" : {
+        "artifact" : "junit:junit:4.12",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.reaktivity:nukleus-http2.spec:0.52/dependencies/junit/junit/4.12/junit-4.12.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.junit.rules.Timeout;",
+      "artifact" : {
+        "artifact" : "junit:junit:4.12",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.reaktivity:nukleus-http2.spec:0.52/dependencies/junit/junit/4.12/junit-4.12.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import static java.util.concurrent.TimeUnit.SECONDS;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import static org.junit.rules.RuleChain.outerRule;",
+      "artifact" : {
+        "artifact" : "junit:junit:4.12",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.reaktivity:nukleus-http2.spec:0.52/dependencies/junit/junit/4.12/junit-4.12.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.junit.Rule;",
+      "artifact" : {
+        "artifact" : "junit:junit:4.12",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.reaktivity:nukleus-http2.spec:0.52/dependencies/junit/junit/4.12/junit-4.12.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.junit.Test;",
+      "artifact" : {
+        "artifact" : "junit:junit:4.12",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.reaktivity:nukleus-http2.spec:0.52/dependencies/junit/junit/4.12/junit-4.12.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.kaazing.k3po.junit.annotation.Specification;",
+      "artifact" : {
+        "artifact" : "org.kaazing:k3po.junit:3.0.0-alpha-96",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.reaktivity:nukleus-http2.spec:0.52/dependencies/org/kaazing/k3po.junit/3.0.0-alpha-96/k3po.junit-3.0.0-alpha-96.jar"
+      },
+      "isDirectDependency" : true
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/org.reaktivity:nukleus-http2.spec/src/test/java/org/reaktivity/specification/nukleus/http2/streams/rfc7540/FlowControlIT.java",
+    "useImportReport" : [ {
+      "importPath" : "import org.kaazing.k3po.junit.rules.K3poRule;",
+      "artifact" : {
+        "artifact" : "org.kaazing:k3po.junit:3.0.0-alpha-96",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.reaktivity:nukleus-http2.spec:0.52/dependencies/org/kaazing/k3po.junit/3.0.0-alpha-96/k3po.junit-3.0.0-alpha-96.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.junit.rules.TestRule;",
+      "artifact" : {
+        "artifact" : "junit:junit:4.12",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.reaktivity:nukleus-http2.spec:0.52/dependencies/junit/junit/4.12/junit-4.12.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.junit.rules.DisableOnDebug;",
+      "artifact" : {
+        "artifact" : "junit:junit:4.12",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.reaktivity:nukleus-http2.spec:0.52/dependencies/junit/junit/4.12/junit-4.12.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.junit.rules.Timeout;",
+      "artifact" : {
+        "artifact" : "junit:junit:4.12",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.reaktivity:nukleus-http2.spec:0.52/dependencies/junit/junit/4.12/junit-4.12.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import static java.util.concurrent.TimeUnit.SECONDS;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import static org.junit.rules.RuleChain.outerRule;",
+      "artifact" : {
+        "artifact" : "junit:junit:4.12",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.reaktivity:nukleus-http2.spec:0.52/dependencies/junit/junit/4.12/junit-4.12.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.junit.Rule;",
+      "artifact" : {
+        "artifact" : "junit:junit:4.12",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.reaktivity:nukleus-http2.spec:0.52/dependencies/junit/junit/4.12/junit-4.12.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.junit.Test;",
+      "artifact" : {
+        "artifact" : "junit:junit:4.12",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.reaktivity:nukleus-http2.spec:0.52/dependencies/junit/junit/4.12/junit-4.12.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.kaazing.k3po.junit.annotation.ScriptProperty;",
+      "artifact" : {
+        "artifact" : "org.kaazing:k3po.junit:3.0.0-alpha-96",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.reaktivity:nukleus-http2.spec:0.52/dependencies/org/kaazing/k3po.junit/3.0.0-alpha-96/k3po.junit-3.0.0-alpha-96.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.kaazing.k3po.junit.annotation.Specification;",
+      "artifact" : {
+        "artifact" : "org.kaazing:k3po.junit:3.0.0-alpha-96",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.reaktivity:nukleus-http2.spec:0.52/dependencies/org/kaazing/k3po.junit/3.0.0-alpha-96/k3po.junit-3.0.0-alpha-96.jar"
+      },
+      "isDirectDependency" : true
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/org.reaktivity:nukleus-http2.spec/src/test/java/org/reaktivity/specification/nukleus/http2/streams/rfc7540/ConnectionManagementIT.java",
+    "useImportReport" : [ {
+      "importPath" : "import org.kaazing.k3po.junit.rules.K3poRule;",
+      "artifact" : {
+        "artifact" : "org.kaazing:k3po.junit:3.0.0-alpha-96",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.reaktivity:nukleus-http2.spec:0.52/dependencies/org/kaazing/k3po.junit/3.0.0-alpha-96/k3po.junit-3.0.0-alpha-96.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.junit.rules.TestRule;",
+      "artifact" : {
+        "artifact" : "junit:junit:4.12",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.reaktivity:nukleus-http2.spec:0.52/dependencies/junit/junit/4.12/junit-4.12.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.junit.rules.DisableOnDebug;",
+      "artifact" : {
+        "artifact" : "junit:junit:4.12",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.reaktivity:nukleus-http2.spec:0.52/dependencies/junit/junit/4.12/junit-4.12.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.junit.rules.Timeout;",
+      "artifact" : {
+        "artifact" : "junit:junit:4.12",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.reaktivity:nukleus-http2.spec:0.52/dependencies/junit/junit/4.12/junit-4.12.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import static java.util.concurrent.TimeUnit.SECONDS;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import static org.junit.rules.RuleChain.outerRule;",
+      "artifact" : {
+        "artifact" : "junit:junit:4.12",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.reaktivity:nukleus-http2.spec:0.52/dependencies/junit/junit/4.12/junit-4.12.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.junit.Rule;",
+      "artifact" : {
+        "artifact" : "junit:junit:4.12",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.reaktivity:nukleus-http2.spec:0.52/dependencies/junit/junit/4.12/junit-4.12.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.junit.Test;",
+      "artifact" : {
+        "artifact" : "junit:junit:4.12",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.reaktivity:nukleus-http2.spec:0.52/dependencies/junit/junit/4.12/junit-4.12.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.kaazing.k3po.junit.annotation.ScriptProperty;",
+      "artifact" : {
+        "artifact" : "org.kaazing:k3po.junit:3.0.0-alpha-96",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.reaktivity:nukleus-http2.spec:0.52/dependencies/org/kaazing/k3po.junit/3.0.0-alpha-96/k3po.junit-3.0.0-alpha-96.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.kaazing.k3po.junit.annotation.Specification;",
+      "artifact" : {
+        "artifact" : "org.kaazing:k3po.junit:3.0.0-alpha-96",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.reaktivity:nukleus-http2.spec:0.52/dependencies/org/kaazing/k3po.junit/3.0.0-alpha-96/k3po.junit-3.0.0-alpha-96.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.junit.Ignore;",
+      "artifact" : {
+        "artifact" : "junit:junit:4.12",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.reaktivity:nukleus-http2.spec:0.52/dependencies/junit/junit/4.12/junit-4.12.jar"
+      },
+      "isDirectDependency" : true
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/org.reaktivity:nukleus-http2.spec/src/test/java/org/reaktivity/specification/nukleus/http2/streams/rfc7540/MessageFormatIT.java",
+    "useImportReport" : [ {
+      "importPath" : "import org.kaazing.k3po.junit.rules.K3poRule;",
+      "artifact" : {
+        "artifact" : "org.kaazing:k3po.junit:3.0.0-alpha-96",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.reaktivity:nukleus-http2.spec:0.52/dependencies/org/kaazing/k3po.junit/3.0.0-alpha-96/k3po.junit-3.0.0-alpha-96.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.junit.rules.TestRule;",
+      "artifact" : {
+        "artifact" : "junit:junit:4.12",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.reaktivity:nukleus-http2.spec:0.52/dependencies/junit/junit/4.12/junit-4.12.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.junit.rules.DisableOnDebug;",
+      "artifact" : {
+        "artifact" : "junit:junit:4.12",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.reaktivity:nukleus-http2.spec:0.52/dependencies/junit/junit/4.12/junit-4.12.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.junit.rules.Timeout;",
+      "artifact" : {
+        "artifact" : "junit:junit:4.12",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.reaktivity:nukleus-http2.spec:0.52/dependencies/junit/junit/4.12/junit-4.12.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import static java.util.concurrent.TimeUnit.SECONDS;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import static org.junit.rules.RuleChain.outerRule;",
+      "artifact" : {
+        "artifact" : "junit:junit:4.12",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.reaktivity:nukleus-http2.spec:0.52/dependencies/junit/junit/4.12/junit-4.12.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.junit.Rule;",
+      "artifact" : {
+        "artifact" : "junit:junit:4.12",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.reaktivity:nukleus-http2.spec:0.52/dependencies/junit/junit/4.12/junit-4.12.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.junit.Test;",
+      "artifact" : {
+        "artifact" : "junit:junit:4.12",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.reaktivity:nukleus-http2.spec:0.52/dependencies/junit/junit/4.12/junit-4.12.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.kaazing.k3po.junit.annotation.ScriptProperty;",
+      "artifact" : {
+        "artifact" : "org.kaazing:k3po.junit:3.0.0-alpha-96",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.reaktivity:nukleus-http2.spec:0.52/dependencies/org/kaazing/k3po.junit/3.0.0-alpha-96/k3po.junit-3.0.0-alpha-96.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.kaazing.k3po.junit.annotation.Specification;",
+      "artifact" : {
+        "artifact" : "org.kaazing:k3po.junit:3.0.0-alpha-96",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.reaktivity:nukleus-http2.spec:0.52/dependencies/org/kaazing/k3po.junit/3.0.0-alpha-96/k3po.junit-3.0.0-alpha-96.jar"
+      },
+      "isDirectDependency" : true
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/org.reaktivity:nukleus-http2.spec/src/test/java/org/reaktivity/specification/nukleus/http2/control/ControlIT.java",
+    "useImportReport" : [ {
+      "importPath" : "import org.kaazing.k3po.junit.rules.K3poRule;",
+      "artifact" : {
+        "artifact" : "org.kaazing:k3po.junit:3.0.0-alpha-96",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.reaktivity:nukleus-http2.spec:0.52/dependencies/org/kaazing/k3po.junit/3.0.0-alpha-96/k3po.junit-3.0.0-alpha-96.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.junit.rules.TestRule;",
+      "artifact" : {
+        "artifact" : "junit:junit:4.12",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.reaktivity:nukleus-http2.spec:0.52/dependencies/junit/junit/4.12/junit-4.12.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.junit.rules.DisableOnDebug;",
+      "artifact" : {
+        "artifact" : "junit:junit:4.12",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.reaktivity:nukleus-http2.spec:0.52/dependencies/junit/junit/4.12/junit-4.12.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.junit.rules.Timeout;",
+      "artifact" : {
+        "artifact" : "junit:junit:4.12",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.reaktivity:nukleus-http2.spec:0.52/dependencies/junit/junit/4.12/junit-4.12.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import static java.util.concurrent.TimeUnit.SECONDS;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import static org.junit.rules.RuleChain.outerRule;",
+      "artifact" : {
+        "artifact" : "junit:junit:4.12",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.reaktivity:nukleus-http2.spec:0.52/dependencies/junit/junit/4.12/junit-4.12.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.junit.Rule;",
+      "artifact" : {
+        "artifact" : "junit:junit:4.12",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.reaktivity:nukleus-http2.spec:0.52/dependencies/junit/junit/4.12/junit-4.12.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.junit.Test;",
+      "artifact" : {
+        "artifact" : "junit:junit:4.12",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.reaktivity:nukleus-http2.spec:0.52/dependencies/junit/junit/4.12/junit-4.12.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.kaazing.k3po.junit.annotation.Specification;",
+      "artifact" : {
+        "artifact" : "org.kaazing:k3po.junit:3.0.0-alpha-96",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.reaktivity:nukleus-http2.spec:0.52/dependencies/org/kaazing/k3po.junit/3.0.0-alpha-96/k3po.junit-3.0.0-alpha-96.jar"
+      },
+      "isDirectDependency" : true
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/org.reaktivity:nukleus-http2.spec/src/test/java/org/reaktivity/specification/http2/internal/FunctionsTest.java",
+    "useImportReport" : [ {
+      "importPath" : "import javax.el.ExpressionFactory;",
+      "artifact" : {
+        "artifact" : "de.odysseus.juel:juel-api:2.2.7",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.reaktivity:nukleus-http2.spec:0.52/dependencies/de/odysseus/juel/juel-api/2.2.7/juel-api-2.2.7.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import javax.el.ELContext;",
+      "artifact" : {
+        "artifact" : "de.odysseus.juel:juel-api:2.2.7",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.reaktivity:nukleus-http2.spec:0.52/dependencies/de/odysseus/juel/juel-api/2.2.7/juel-api-2.2.7.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.junit.Before;",
+      "artifact" : {
+        "artifact" : "junit:junit:4.12",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.reaktivity:nukleus-http2.spec:0.52/dependencies/junit/junit/4.12/junit-4.12.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import static org.kaazing.k3po.lang.internal.el.ExpressionFactoryUtils.newExpressionFactory;",
+      "artifact" : {
+        "artifact" : "org.kaazing:k3po.lang:3.0.0-alpha-96",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.reaktivity:nukleus-http2.spec:0.52/dependencies/org/kaazing/k3po.lang/3.0.0-alpha-96/k3po.lang-3.0.0-alpha-96.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.kaazing.k3po.lang.internal.el.ExpressionContext;",
+      "artifact" : {
+        "artifact" : "org.kaazing:k3po.lang:3.0.0-alpha-96",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.reaktivity:nukleus-http2.spec:0.52/dependencies/org/kaazing/k3po.lang/3.0.0-alpha-96/k3po.lang-3.0.0-alpha-96.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.junit.Test;",
+      "artifact" : {
+        "artifact" : "junit:junit:4.12",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.reaktivity:nukleus-http2.spec:0.52/dependencies/junit/junit/4.12/junit-4.12.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import javax.el.ValueExpression;",
+      "artifact" : {
+        "artifact" : "de.odysseus.juel:juel-api:2.2.7",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.reaktivity:nukleus-http2.spec:0.52/dependencies/de/odysseus/juel/juel-api/2.2.7/juel-api-2.2.7.jar"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/org.reaktivity:nukleus-http2.spec/src/test/java/org/reaktivity/specification/http2/rfc7540/ConfigIT.java",
+    "useImportReport" : [ {
+      "importPath" : "import org.kaazing.k3po.junit.rules.K3poRule;",
+      "artifact" : {
+        "artifact" : "org.kaazing:k3po.junit:3.0.0-alpha-96",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.reaktivity:nukleus-http2.spec:0.52/dependencies/org/kaazing/k3po.junit/3.0.0-alpha-96/k3po.junit-3.0.0-alpha-96.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.junit.rules.TestRule;",
+      "artifact" : {
+        "artifact" : "junit:junit:4.12",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.reaktivity:nukleus-http2.spec:0.52/dependencies/junit/junit/4.12/junit-4.12.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.junit.rules.DisableOnDebug;",
+      "artifact" : {
+        "artifact" : "junit:junit:4.12",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.reaktivity:nukleus-http2.spec:0.52/dependencies/junit/junit/4.12/junit-4.12.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.junit.rules.Timeout;",
+      "artifact" : {
+        "artifact" : "junit:junit:4.12",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.reaktivity:nukleus-http2.spec:0.52/dependencies/junit/junit/4.12/junit-4.12.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import static java.util.concurrent.TimeUnit.SECONDS;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import static org.junit.rules.RuleChain.outerRule;",
+      "artifact" : {
+        "artifact" : "junit:junit:4.12",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.reaktivity:nukleus-http2.spec:0.52/dependencies/junit/junit/4.12/junit-4.12.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.junit.Rule;",
+      "artifact" : {
+        "artifact" : "junit:junit:4.12",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.reaktivity:nukleus-http2.spec:0.52/dependencies/junit/junit/4.12/junit-4.12.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.junit.Test;",
+      "artifact" : {
+        "artifact" : "junit:junit:4.12",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.reaktivity:nukleus-http2.spec:0.52/dependencies/junit/junit/4.12/junit-4.12.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.kaazing.k3po.junit.annotation.ScriptProperty;",
+      "artifact" : {
+        "artifact" : "org.kaazing:k3po.junit:3.0.0-alpha-96",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.reaktivity:nukleus-http2.spec:0.52/dependencies/org/kaazing/k3po.junit/3.0.0-alpha-96/k3po.junit-3.0.0-alpha-96.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.kaazing.k3po.junit.annotation.Specification;",
+      "artifact" : {
+        "artifact" : "org.kaazing:k3po.junit:3.0.0-alpha-96",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.reaktivity:nukleus-http2.spec:0.52/dependencies/org/kaazing/k3po.junit/3.0.0-alpha-96/k3po.junit-3.0.0-alpha-96.jar"
+      },
+      "isDirectDependency" : true
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/org.reaktivity:nukleus-http2.spec/src/test/java/org/reaktivity/specification/http2/rfc7540/AbortIT.java",
+    "useImportReport" : [ {
+      "importPath" : "import org.kaazing.k3po.junit.rules.K3poRule;",
+      "artifact" : {
+        "artifact" : "org.kaazing:k3po.junit:3.0.0-alpha-96",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.reaktivity:nukleus-http2.spec:0.52/dependencies/org/kaazing/k3po.junit/3.0.0-alpha-96/k3po.junit-3.0.0-alpha-96.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.junit.rules.TestRule;",
+      "artifact" : {
+        "artifact" : "junit:junit:4.12",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.reaktivity:nukleus-http2.spec:0.52/dependencies/junit/junit/4.12/junit-4.12.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.junit.rules.DisableOnDebug;",
+      "artifact" : {
+        "artifact" : "junit:junit:4.12",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.reaktivity:nukleus-http2.spec:0.52/dependencies/junit/junit/4.12/junit-4.12.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.junit.rules.Timeout;",
+      "artifact" : {
+        "artifact" : "junit:junit:4.12",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.reaktivity:nukleus-http2.spec:0.52/dependencies/junit/junit/4.12/junit-4.12.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import static java.util.concurrent.TimeUnit.SECONDS;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import static org.junit.rules.RuleChain.outerRule;",
+      "artifact" : {
+        "artifact" : "junit:junit:4.12",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.reaktivity:nukleus-http2.spec:0.52/dependencies/junit/junit/4.12/junit-4.12.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.junit.Rule;",
+      "artifact" : {
+        "artifact" : "junit:junit:4.12",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.reaktivity:nukleus-http2.spec:0.52/dependencies/junit/junit/4.12/junit-4.12.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.junit.Test;",
+      "artifact" : {
+        "artifact" : "junit:junit:4.12",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.reaktivity:nukleus-http2.spec:0.52/dependencies/junit/junit/4.12/junit-4.12.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.kaazing.k3po.junit.annotation.Specification;",
+      "artifact" : {
+        "artifact" : "org.kaazing:k3po.junit:3.0.0-alpha-96",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.reaktivity:nukleus-http2.spec:0.52/dependencies/org/kaazing/k3po.junit/3.0.0-alpha-96/k3po.junit-3.0.0-alpha-96.jar"
+      },
+      "isDirectDependency" : true
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/org.reaktivity:nukleus-http2.spec/src/test/java/org/reaktivity/specification/http2/rfc7540/FlowControlIT.java",
+    "useImportReport" : [ {
+      "importPath" : "import org.kaazing.k3po.junit.rules.K3poRule;",
+      "artifact" : {
+        "artifact" : "org.kaazing:k3po.junit:3.0.0-alpha-96",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.reaktivity:nukleus-http2.spec:0.52/dependencies/org/kaazing/k3po.junit/3.0.0-alpha-96/k3po.junit-3.0.0-alpha-96.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.junit.rules.TestRule;",
+      "artifact" : {
+        "artifact" : "junit:junit:4.12",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.reaktivity:nukleus-http2.spec:0.52/dependencies/junit/junit/4.12/junit-4.12.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.junit.rules.DisableOnDebug;",
+      "artifact" : {
+        "artifact" : "junit:junit:4.12",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.reaktivity:nukleus-http2.spec:0.52/dependencies/junit/junit/4.12/junit-4.12.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.junit.rules.Timeout;",
+      "artifact" : {
+        "artifact" : "junit:junit:4.12",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.reaktivity:nukleus-http2.spec:0.52/dependencies/junit/junit/4.12/junit-4.12.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import static java.util.concurrent.TimeUnit.SECONDS;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import static org.junit.rules.RuleChain.outerRule;",
+      "artifact" : {
+        "artifact" : "junit:junit:4.12",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.reaktivity:nukleus-http2.spec:0.52/dependencies/junit/junit/4.12/junit-4.12.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.junit.Rule;",
+      "artifact" : {
+        "artifact" : "junit:junit:4.12",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.reaktivity:nukleus-http2.spec:0.52/dependencies/junit/junit/4.12/junit-4.12.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.junit.Test;",
+      "artifact" : {
+        "artifact" : "junit:junit:4.12",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.reaktivity:nukleus-http2.spec:0.52/dependencies/junit/junit/4.12/junit-4.12.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.kaazing.k3po.junit.annotation.ScriptProperty;",
+      "artifact" : {
+        "artifact" : "org.kaazing:k3po.junit:3.0.0-alpha-96",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.reaktivity:nukleus-http2.spec:0.52/dependencies/org/kaazing/k3po.junit/3.0.0-alpha-96/k3po.junit-3.0.0-alpha-96.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.kaazing.k3po.junit.annotation.Specification;",
+      "artifact" : {
+        "artifact" : "org.kaazing:k3po.junit:3.0.0-alpha-96",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.reaktivity:nukleus-http2.spec:0.52/dependencies/org/kaazing/k3po.junit/3.0.0-alpha-96/k3po.junit-3.0.0-alpha-96.jar"
+      },
+      "isDirectDependency" : true
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/org.reaktivity:nukleus-http2.spec/src/test/java/org/reaktivity/specification/http2/rfc7540/ConnectionManagementIT.java",
+    "useImportReport" : [ {
+      "importPath" : "import org.kaazing.k3po.junit.rules.K3poRule;",
+      "artifact" : {
+        "artifact" : "org.kaazing:k3po.junit:3.0.0-alpha-96",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.reaktivity:nukleus-http2.spec:0.52/dependencies/org/kaazing/k3po.junit/3.0.0-alpha-96/k3po.junit-3.0.0-alpha-96.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.junit.rules.TestRule;",
+      "artifact" : {
+        "artifact" : "junit:junit:4.12",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.reaktivity:nukleus-http2.spec:0.52/dependencies/junit/junit/4.12/junit-4.12.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.junit.rules.DisableOnDebug;",
+      "artifact" : {
+        "artifact" : "junit:junit:4.12",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.reaktivity:nukleus-http2.spec:0.52/dependencies/junit/junit/4.12/junit-4.12.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.junit.rules.Timeout;",
+      "artifact" : {
+        "artifact" : "junit:junit:4.12",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.reaktivity:nukleus-http2.spec:0.52/dependencies/junit/junit/4.12/junit-4.12.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import static java.util.concurrent.TimeUnit.SECONDS;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import static org.junit.rules.RuleChain.outerRule;",
+      "artifact" : {
+        "artifact" : "junit:junit:4.12",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.reaktivity:nukleus-http2.spec:0.52/dependencies/junit/junit/4.12/junit-4.12.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.junit.Rule;",
+      "artifact" : {
+        "artifact" : "junit:junit:4.12",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.reaktivity:nukleus-http2.spec:0.52/dependencies/junit/junit/4.12/junit-4.12.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.junit.Test;",
+      "artifact" : {
+        "artifact" : "junit:junit:4.12",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.reaktivity:nukleus-http2.spec:0.52/dependencies/junit/junit/4.12/junit-4.12.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.kaazing.k3po.junit.annotation.ScriptProperty;",
+      "artifact" : {
+        "artifact" : "org.kaazing:k3po.junit:3.0.0-alpha-96",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.reaktivity:nukleus-http2.spec:0.52/dependencies/org/kaazing/k3po.junit/3.0.0-alpha-96/k3po.junit-3.0.0-alpha-96.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.kaazing.k3po.junit.annotation.Specification;",
+      "artifact" : {
+        "artifact" : "org.kaazing:k3po.junit:3.0.0-alpha-96",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.reaktivity:nukleus-http2.spec:0.52/dependencies/org/kaazing/k3po.junit/3.0.0-alpha-96/k3po.junit-3.0.0-alpha-96.jar"
+      },
+      "isDirectDependency" : true
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/org.reaktivity:nukleus-http2.spec/src/test/java/org/reaktivity/specification/http2/rfc7540/MessageFormatIT.java",
+    "useImportReport" : [ {
+      "importPath" : "import org.kaazing.k3po.junit.rules.K3poRule;",
+      "artifact" : {
+        "artifact" : "org.kaazing:k3po.junit:3.0.0-alpha-96",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.reaktivity:nukleus-http2.spec:0.52/dependencies/org/kaazing/k3po.junit/3.0.0-alpha-96/k3po.junit-3.0.0-alpha-96.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.junit.rules.TestRule;",
+      "artifact" : {
+        "artifact" : "junit:junit:4.12",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.reaktivity:nukleus-http2.spec:0.52/dependencies/junit/junit/4.12/junit-4.12.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.junit.rules.DisableOnDebug;",
+      "artifact" : {
+        "artifact" : "junit:junit:4.12",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.reaktivity:nukleus-http2.spec:0.52/dependencies/junit/junit/4.12/junit-4.12.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.junit.rules.Timeout;",
+      "artifact" : {
+        "artifact" : "junit:junit:4.12",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.reaktivity:nukleus-http2.spec:0.52/dependencies/junit/junit/4.12/junit-4.12.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import static java.util.concurrent.TimeUnit.SECONDS;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import static org.junit.rules.RuleChain.outerRule;",
+      "artifact" : {
+        "artifact" : "junit:junit:4.12",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.reaktivity:nukleus-http2.spec:0.52/dependencies/junit/junit/4.12/junit-4.12.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.junit.Rule;",
+      "artifact" : {
+        "artifact" : "junit:junit:4.12",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.reaktivity:nukleus-http2.spec:0.52/dependencies/junit/junit/4.12/junit-4.12.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.junit.Test;",
+      "artifact" : {
+        "artifact" : "junit:junit:4.12",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.reaktivity:nukleus-http2.spec:0.52/dependencies/junit/junit/4.12/junit-4.12.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.kaazing.k3po.junit.annotation.ScriptProperty;",
+      "artifact" : {
+        "artifact" : "org.kaazing:k3po.junit:3.0.0-alpha-96",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.reaktivity:nukleus-http2.spec:0.52/dependencies/org/kaazing/k3po.junit/3.0.0-alpha-96/k3po.junit-3.0.0-alpha-96.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.kaazing.k3po.junit.annotation.Specification;",
+      "artifact" : {
+        "artifact" : "org.kaazing:k3po.junit:3.0.0-alpha-96",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.reaktivity:nukleus-http2.spec:0.52/dependencies/org/kaazing/k3po.junit/3.0.0-alpha-96/k3po.junit-3.0.0-alpha-96.jar"
+      },
+      "isDirectDependency" : true
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/org.reaktivity:nukleus-http2.spec/src/test/java/org/reaktivity/specification/http2/rfc7540/SettingsIT.java",
+    "useImportReport" : [ {
+      "importPath" : "import org.kaazing.k3po.junit.rules.K3poRule;",
+      "artifact" : {
+        "artifact" : "org.kaazing:k3po.junit:3.0.0-alpha-96",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.reaktivity:nukleus-http2.spec:0.52/dependencies/org/kaazing/k3po.junit/3.0.0-alpha-96/k3po.junit-3.0.0-alpha-96.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.junit.rules.TestRule;",
+      "artifact" : {
+        "artifact" : "junit:junit:4.12",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.reaktivity:nukleus-http2.spec:0.52/dependencies/junit/junit/4.12/junit-4.12.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.junit.rules.DisableOnDebug;",
+      "artifact" : {
+        "artifact" : "junit:junit:4.12",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.reaktivity:nukleus-http2.spec:0.52/dependencies/junit/junit/4.12/junit-4.12.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.junit.rules.Timeout;",
+      "artifact" : {
+        "artifact" : "junit:junit:4.12",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.reaktivity:nukleus-http2.spec:0.52/dependencies/junit/junit/4.12/junit-4.12.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import static java.util.concurrent.TimeUnit.SECONDS;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import static org.junit.rules.RuleChain.outerRule;",
+      "artifact" : {
+        "artifact" : "junit:junit:4.12",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.reaktivity:nukleus-http2.spec:0.52/dependencies/junit/junit/4.12/junit-4.12.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.junit.Rule;",
+      "artifact" : {
+        "artifact" : "junit:junit:4.12",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.reaktivity:nukleus-http2.spec:0.52/dependencies/junit/junit/4.12/junit-4.12.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.junit.Test;",
+      "artifact" : {
+        "artifact" : "junit:junit:4.12",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.reaktivity:nukleus-http2.spec:0.52/dependencies/junit/junit/4.12/junit-4.12.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.kaazing.k3po.junit.annotation.ScriptProperty;",
+      "artifact" : {
+        "artifact" : "org.kaazing:k3po.junit:3.0.0-alpha-96",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.reaktivity:nukleus-http2.spec:0.52/dependencies/org/kaazing/k3po.junit/3.0.0-alpha-96/k3po.junit-3.0.0-alpha-96.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.kaazing.k3po.junit.annotation.Specification;",
+      "artifact" : {
+        "artifact" : "org.kaazing:k3po.junit:3.0.0-alpha-96",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.reaktivity:nukleus-http2.spec:0.52/dependencies/org/kaazing/k3po.junit/3.0.0-alpha-96/k3po.junit-3.0.0-alpha-96.jar"
+      },
+      "isDirectDependency" : true
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/org.reaktivity:nukleus-http2.spec/src/main/java/org/reaktivity/specification/http2/internal/Functions.java",
+    "useImportReport" : [ {
+      "importPath" : "import java.util.Random;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.kaazing.k3po.lang.el.Function;",
+      "artifact" : {
+        "artifact" : "org.kaazing:k3po.lang:3.0.0-alpha-96",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.reaktivity:nukleus-http2.spec:0.52/dependencies/org/kaazing/k3po.lang/3.0.0-alpha-96/k3po.lang-3.0.0-alpha-96.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.kaazing.k3po.lang.el.spi.FunctionMapperSpi;",
+      "artifact" : {
+        "artifact" : "org.kaazing:k3po.lang:3.0.0-alpha-96",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.reaktivity:nukleus-http2.spec:0.52/dependencies/org/kaazing/k3po.lang/3.0.0-alpha-96/k3po.lang-3.0.0-alpha-96.jar"
+      },
+      "isDirectDependency" : true
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  } ],
+  "projectUseDependencies" : [ {
+    "artifact" : "org.kaazing:k3po.junit:3.0.0-alpha-96",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.reaktivity:nukleus-http2.spec:0.52/dependencies/org/kaazing/k3po.junit/3.0.0-alpha-96/k3po.junit-3.0.0-alpha-96.jar"
+  }, {
+    "artifact" : "junit:junit:4.12",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.reaktivity:nukleus-http2.spec:0.52/dependencies/junit/junit/4.12/junit-4.12.jar"
+  }, {
+    "artifact" : "org.kaazing:k3po.lang:3.0.0-alpha-96",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.reaktivity:nukleus-http2.spec:0.52/dependencies/org/kaazing/k3po.lang/3.0.0-alpha-96/k3po.lang-3.0.0-alpha-96.jar"
+  } ],
+  "projectUseTransitiveDependencies" : [ {
+    "artifact" : "org.reaktivity:nukleus-http.spec:0.56",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.reaktivity:nukleus-http2.spec:0.52/dependencies/org/reaktivity/nukleus-http.spec/0.56/nukleus-http.spec-0.56.jar"
+  } ],
+  "projectUnusedDependencies" : [ ]
+}

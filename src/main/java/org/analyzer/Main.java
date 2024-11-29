@@ -47,42 +47,62 @@ public class Main {
     }
 
     public static void runSingleProjectWithCSV(Integer csvIndex, String filePath) throws Exception {
+        System.out.println("Running project with index: " + csvIndex);
         var destinationPath = "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository";
         var writeFileDestination = "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/java-dependency-analyzer/new-dependency-output";
         var csvFile = "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/java-dependency-analyzer/datasets/artifact-dependency-details.csv";
         var jsonFile = "save_input.json";
         var repoTarget = "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo";
+        var completePath = "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/java-dependency-analyzer/new-dependency-output/complete.json";
 
         var inputMap = getProjectInputs(filePath, csvIndex);
-        assert inputMap != null;
+        if (inputMap.isEmpty()) {
+            System.out.println("Skipping index: " + csvIndex);
+            return;
+        }
         var artifactId = inputMap.get("artifactId");
         var artifactName = artifactId.split(":")[1];
         var projectOwner = inputMap.get("projectOwner");
         var projectName = inputMap.get("projectName");
         var comparedVersion = inputMap.get("comparedVersion");
         comparedVersion = comparedVersion.replace("'", "\"").replace("None", "null");
+        if (comparedVersion.isEmpty() || comparedVersion.contains("null") || comparedVersion.contains("None")) {
+            System.out.println("Skipping project: " + artifactId);
+            return;
+        }
         // Parse the string into a nested list
         ObjectMapper mapper = new ObjectMapper();
         List<List<String>> parsedList = mapper.readValue(comparedVersion, new TypeReference<List<List<String>>>() {});
 
-        var repoPath = repoTarget + "/" + artifactId;
-        cloneGitRepository(projectOwner, projectName, repoPath);
-        for (List<String> version: parsedList) {
-            var gitTag = version.get(1);
-            var artifactVersion = version.get(0);
-            if(gitTag == null || artifactVersion == null) {
-                System.out.println("Skipping " + artifactId);
-                continue;
-            }
-            gitCheckoutBranch(repoPath, gitTag);
-            var matchedPoms = findPomsWithArtifactId(repoPath, artifactName).getFirst();
-            var repoArtifactPath = matchedPoms.replace("/pom.xml", "");
-            if (findPomFiles(repoArtifactPath).size() != 1) {
-                System.out.println("Skipping " + artifactId);
-                continue;
-            }
-            runSingleProject(destinationPath, writeFileDestination, csvFile, artifactId + ":" + artifactVersion, repoPath, "", gitTag, jsonFile, false);
+        if (parsedList.isEmpty()) {
+            System.out.println("Skipping project: " + artifactId);
+            return;
         }
+        try {
+            var repoPath = repoTarget + "/" + artifactId;
+            cloneGitRepository(projectOwner, projectName, repoPath);
+            for (List<String> version: parsedList) {
+                var gitTag = version.get(1);
+                var artifactVersion = version.get(0);
+                if(gitTag == null || artifactVersion == null) {
+                    System.out.println("Skipping " + artifactId);
+                    return;
+                }
+                gitCheckoutBranch(repoPath, gitTag);
+                var matchedPoms = findPomsWithArtifactId(repoPath, artifactName).getFirst();
+                var repoArtifactPath = matchedPoms.replace("/pom.xml", "");
+                if (findPomFiles(repoArtifactPath).size() != 1) {
+                    System.out.println("Skipping " + artifactId);
+                    return;
+                }
+                System.out.println("Running at path: " + repoArtifactPath);
+                runSingleProject(destinationPath, writeFileDestination, csvFile, artifactId + ":" + artifactVersion, repoArtifactPath, "", gitTag, jsonFile, false);
+            }
+            writeInputToFile(completePath, artifactId, repoPath, "", "");
+        } catch (Exception | Error e) {
+            System.out.println("Uncompleted artifact: " + artifactId);
+        }
+
     }
 
     private static Map<String, String> getProjectInputs(String filePath, int rowIndex) {
@@ -122,7 +142,10 @@ public class Main {
         var subPath = "/src";
         var gitBranch = "1.4.2";
 
-        runSingleProjectWithCSV(3, "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/java-dependency-analyzer/analyzer-python/data/test-compared-result.csv");
+        for (int i = 200; i < 201; i++) { // Equivalent to range(0, 10) in Python
+            runSingleProjectWithCSV(i, "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/java-dependency-analyzer/analyzer-python/data/test-compared-result.csv");
+        }
+//        runSingleProjectWithCSV(3, "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/java-dependency-analyzer/analyzer-python/data/test-compared-result.csv");
 //        runSingleProject(destinationPath, writeFileDestination, csvFile, projectArtifact, repoPath, subPath, gitBranch, jsonFile, false);
 //        runMultipleProjects(jsonFile, destinationPath, writeFileDestination, csvFile);
     }

@@ -27,6 +27,13 @@ public class ImportArtifact {
         this.version = importArtifact.version;
     }
 
+    public ImportArtifact(Dependency dependency) {
+        var splitDependency = dependency.getName().split(":");
+        this.artifactId = splitDependency[1];
+        this.groupId = splitDependency[0];
+        this.version = dependency.getVersion();
+    }
+
     public String getArtifactId() {
         return artifactId;
     }

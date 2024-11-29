@@ -1,0 +1,650 @@
+{
+  "projectArtifact" : "com.spotify:confidence-openfeature-provider:0.0.2",
+  "repositoryDir" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/com.spotify:confidence-openfeature-provider",
+  "repositorySubDir" : "",
+  "artifactLocation" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.spotify:confidence-openfeature-provider:0.0.2",
+  "fileImportReports" : [ {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/com.spotify:confidence-openfeature-provider/src/test/java/com/spotify/confidence/FeatureProviderTest.java",
+    "useImportReport" : [ {
+      "importPath" : "import io.grpc.Server;",
+      "artifact" : {
+        "artifact" : "io.grpc:grpc-api:1.56.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.spotify:confidence-openfeature-provider:0.0.2/dependencies/io/grpc/grpc-api/1.56.1/grpc-api-1.56.1.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import io.grpc.ManagedChannel;",
+      "artifact" : {
+        "artifact" : "io.grpc:grpc-api:1.56.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.spotify:confidence-openfeature-provider:0.0.2/dependencies/io/grpc/grpc-api/1.56.1/grpc-api-1.56.1.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import dev.openfeature.sdk.Value;",
+      "artifact" : {
+        "artifact" : "dev.openfeature:sdk:1.6.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.spotify:confidence-openfeature-provider:0.0.2/dependencies/dev/openfeature/sdk/1.6.1/sdk-1.6.1.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import com.spotify.confidence.flags.resolver.v1.FlagResolverServiceGrpc.FlagResolverServiceImplBase;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import static org.mockito.Mockito.mock;",
+      "artifact" : {
+        "artifact" : "org.mockito:mockito-core:4.11.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.spotify:confidence-openfeature-provider:0.0.2/dependencies/org/mockito/mockito-core/4.11.0/mockito-core-4.11.0.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import dev.openfeature.sdk.Client;",
+      "artifact" : {
+        "artifact" : "dev.openfeature:sdk:1.6.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.spotify:confidence-openfeature-provider:0.0.2/dependencies/dev/openfeature/sdk/1.6.1/sdk-1.6.1.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import com.spotify.confidence.flags.resolver.v1.ResolveFlagsResponse;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.spotify.confidence.flags.resolver.v1.ResolvedFlag;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.google.protobuf.util.Values;",
+      "artifact" : {
+        "artifact" : "com.google.protobuf:protobuf-java-util:3.23.2",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.spotify:confidence-openfeature-provider:0.0.2/dependencies/com/google/protobuf/protobuf-java-util/3.23.2/protobuf-java-util-3.23.2.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import com.spotify.confidence.flags.types.v1.FlagSchema;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.google.protobuf.Struct;",
+      "artifact" : {
+        "artifact" : "com.google.protobuf:protobuf-java:3.23.2",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.spotify:confidence-openfeature-provider:0.0.2/dependencies/com/google/protobuf/protobuf-java/3.23.2/protobuf-java-3.23.2.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import java.util.Map;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.google.protobuf.util.Structs;",
+      "artifact" : {
+        "artifact" : "com.google.protobuf:protobuf-java-util:3.23.2",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.spotify:confidence-openfeature-provider:0.0.2/dependencies/com/google/protobuf/protobuf-java-util/3.23.2/protobuf-java-util-3.23.2.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import java.util.List;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.spotify.confidence.flags.types.v1.FlagSchema.StructFlagSchema;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.spotify.confidence.flags.types.v1.FlagSchema.BoolFlagSchema;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.spotify.confidence.flags.types.v1.FlagSchema.StringFlagSchema;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.spotify.confidence.flags.types.v1.FlagSchema.DoubleFlagSchema;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.spotify.confidence.flags.types.v1.FlagSchema.IntFlagSchema;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.spotify.confidence.flags.types.v1.FlagSchema.ListFlagSchema;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import dev.openfeature.sdk.EvaluationContext;",
+      "artifact" : {
+        "artifact" : "dev.openfeature:sdk:1.6.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.spotify:confidence-openfeature-provider:0.0.2/dependencies/dev/openfeature/sdk/1.6.1/sdk-1.6.1.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import dev.openfeature.sdk.MutableContext;",
+      "artifact" : {
+        "artifact" : "dev.openfeature:sdk:1.6.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.spotify:confidence-openfeature-provider:0.0.2/dependencies/dev/openfeature/sdk/1.6.1/sdk-1.6.1.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.junit.jupiter.api.BeforeAll;",
+      "artifact" : {
+        "artifact" : "org.junit.jupiter:junit-jupiter-api:5.10.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.spotify:confidence-openfeature-provider:0.0.2/dependencies/org/junit/jupiter/junit-jupiter-api/5.10.0/junit-jupiter-api-5.10.0.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.io.IOException;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import io.grpc.inprocess.InProcessServerBuilder;",
+      "artifact" : {
+        "artifact" : "io.grpc:grpc-core:1.56.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.spotify:confidence-openfeature-provider:0.0.2/dependencies/io/grpc/grpc-core/1.56.1/grpc-core-1.56.1.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import io.grpc.inprocess.InProcessChannelBuilder;",
+      "artifact" : {
+        "artifact" : "io.grpc:grpc-core:1.56.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.spotify:confidence-openfeature-provider:0.0.2/dependencies/io/grpc/grpc-core/1.56.1/grpc-core-1.56.1.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import dev.openfeature.sdk.FeatureProvider;",
+      "artifact" : {
+        "artifact" : "dev.openfeature:sdk:1.6.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.spotify:confidence-openfeature-provider:0.0.2/dependencies/dev/openfeature/sdk/1.6.1/sdk-1.6.1.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import com.spotify.confidence.flags.resolver.v1.FlagResolverServiceGrpc;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import dev.openfeature.sdk.OpenFeatureAPI;",
+      "artifact" : {
+        "artifact" : "dev.openfeature:sdk:1.6.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.spotify:confidence-openfeature-provider:0.0.2/dependencies/dev/openfeature/sdk/1.6.1/sdk-1.6.1.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.junit.jupiter.api.AfterAll;",
+      "artifact" : {
+        "artifact" : "org.junit.jupiter:junit-jupiter-api:5.10.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.spotify:confidence-openfeature-provider:0.0.2/dependencies/org/junit/jupiter/junit-jupiter-api/5.10.0/junit-jupiter-api-5.10.0.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.junit.jupiter.api.Test;",
+      "artifact" : {
+        "artifact" : "org.junit.jupiter:junit-jupiter-api:5.10.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.spotify:confidence-openfeature-provider:0.0.2/dependencies/org/junit/jupiter/junit-jupiter-api/5.10.0/junit-jupiter-api-5.10.0.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import dev.openfeature.sdk.FlagEvaluationDetails;",
+      "artifact" : {
+        "artifact" : "dev.openfeature:sdk:1.6.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.spotify:confidence-openfeature-provider:0.0.2/dependencies/dev/openfeature/sdk/1.6.1/sdk-1.6.1.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import static org.assertj.core.api.Assertions.assertThat;",
+      "artifact" : {
+        "artifact" : "org.assertj:assertj-core:3.24.2",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.spotify:confidence-openfeature-provider:0.0.2/dependencies/org/assertj/assertj-core/3.24.2/assertj-core-3.24.2.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import dev.openfeature.sdk.ErrorCode;",
+      "artifact" : {
+        "artifact" : "dev.openfeature:sdk:1.6.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.spotify:confidence-openfeature-provider:0.0.2/dependencies/dev/openfeature/sdk/1.6.1/sdk-1.6.1.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import io.grpc.Status;",
+      "artifact" : {
+        "artifact" : "io.grpc:grpc-api:1.56.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.spotify:confidence-openfeature-provider:0.0.2/dependencies/io/grpc/grpc-api/1.56.1/grpc-api-1.56.1.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import com.spotify.confidence.flags.resolver.v1.ResolveFlagsRequest;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import dev.openfeature.sdk.MutableStructure;",
+      "artifact" : {
+        "artifact" : "dev.openfeature:sdk:1.6.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.spotify:confidence-openfeature-provider:0.0.2/dependencies/dev/openfeature/sdk/1.6.1/sdk-1.6.1.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import java.util.function.BiConsumer;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import io.grpc.stub.StreamObserver;",
+      "artifact" : {
+        "artifact" : "io.grpc:grpc-stub:1.56.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.spotify:confidence-openfeature-provider:0.0.2/dependencies/io/grpc/grpc-stub/1.56.1/grpc-stub-1.56.1.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import static org.mockito.Mockito.doAnswer;",
+      "artifact" : {
+        "artifact" : "org.mockito:mockito-core:4.11.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.spotify:confidence-openfeature-provider:0.0.2/dependencies/org/mockito/mockito-core/4.11.0/mockito-core-4.11.0.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import static org.mockito.ArgumentMatchers.any;",
+      "artifact" : {
+        "artifact" : "org.mockito:mockito-core:4.11.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.spotify:confidence-openfeature-provider:0.0.2/dependencies/org/mockito/mockito-core/4.11.0/mockito-core-4.11.0.jar"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/com.spotify:confidence-openfeature-provider/src/main/java/com/spotify/confidence/ConfidenceFeatureProvider.java",
+    "useImportReport" : [ {
+      "importPath" : "import dev.openfeature.sdk.FeatureProvider;",
+      "artifact" : {
+        "artifact" : "dev.openfeature:sdk:1.6.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.spotify:confidence-openfeature-provider:0.0.2/dependencies/dev/openfeature/sdk/1.6.1/sdk-1.6.1.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import com.spotify.confidence.flags.resolver.v1.FlagResolverServiceGrpc.FlagResolverServiceBlockingStub;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import io.grpc.ManagedChannel;",
+      "artifact" : {
+        "artifact" : "io.grpc:grpc-api:1.56.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.spotify:confidence-openfeature-provider:0.0.2/dependencies/io/grpc/grpc-api/1.56.1/grpc-api-1.56.1.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import io.grpc.ManagedChannelBuilder;",
+      "artifact" : {
+        "artifact" : "io.grpc:grpc-api:1.56.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.spotify:confidence-openfeature-provider:0.0.2/dependencies/io/grpc/grpc-api/1.56.1/grpc-api-1.56.1.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import com.spotify.confidence.flags.resolver.v1.FlagResolverServiceGrpc;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.google.common.base.Strings;",
+      "artifact" : {
+        "artifact" : "com.google.guava:guava:31.1-android",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.spotify:confidence-openfeature-provider:0.0.2/dependencies/com/google/guava/guava/31.1-android/guava-31.1-android.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import dev.openfeature.sdk.Metadata;",
+      "artifact" : {
+        "artifact" : "dev.openfeature:sdk:1.6.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.spotify:confidence-openfeature-provider:0.0.2/dependencies/dev/openfeature/sdk/1.6.1/sdk-1.6.1.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import dev.openfeature.sdk.ProviderEvaluation;",
+      "artifact" : {
+        "artifact" : "dev.openfeature:sdk:1.6.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.spotify:confidence-openfeature-provider:0.0.2/dependencies/dev/openfeature/sdk/1.6.1/sdk-1.6.1.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import dev.openfeature.sdk.EvaluationContext;",
+      "artifact" : {
+        "artifact" : "dev.openfeature:sdk:1.6.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.spotify:confidence-openfeature-provider:0.0.2/dependencies/dev/openfeature/sdk/1.6.1/sdk-1.6.1.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import dev.openfeature.sdk.Value;",
+      "artifact" : {
+        "artifact" : "dev.openfeature:sdk:1.6.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.spotify:confidence-openfeature-provider:0.0.2/dependencies/dev/openfeature/sdk/1.6.1/sdk-1.6.1.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import java.util.function.Function;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import dev.openfeature.sdk.exceptions.TypeMismatchError;",
+      "artifact" : {
+        "artifact" : "dev.openfeature:sdk:1.6.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.spotify:confidence-openfeature-provider:0.0.2/dependencies/dev/openfeature/sdk/1.6.1/sdk-1.6.1.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import com.google.protobuf.Struct;",
+      "artifact" : {
+        "artifact" : "com.google.protobuf:protobuf-java:3.23.2",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.spotify:confidence-openfeature-provider:0.0.2/dependencies/com/google/protobuf/protobuf-java/3.23.2/protobuf-java-3.23.2.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import io.grpc.netty.shaded.io.netty.util.internal.StringUtil;",
+      "artifact" : {
+        "artifact" : "io.grpc:grpc-netty-shaded:1.56.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.spotify:confidence-openfeature-provider:0.0.2/dependencies/io/grpc/grpc-netty-shaded/1.56.1/grpc-netty-shaded-1.56.1.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import dev.openfeature.sdk.exceptions.TargetingKeyMissingError;",
+      "artifact" : {
+        "artifact" : "dev.openfeature:sdk:1.6.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.spotify:confidence-openfeature-provider:0.0.2/dependencies/dev/openfeature/sdk/1.6.1/sdk-1.6.1.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import dev.openfeature.sdk.exceptions.InvalidContextError;",
+      "artifact" : {
+        "artifact" : "dev.openfeature:sdk:1.6.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.spotify:confidence-openfeature-provider:0.0.2/dependencies/dev/openfeature/sdk/1.6.1/sdk-1.6.1.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import com.google.protobuf.util.Values;",
+      "artifact" : {
+        "artifact" : "com.google.protobuf:protobuf-java-util:3.23.2",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.spotify:confidence-openfeature-provider:0.0.2/dependencies/com/google/protobuf/protobuf-java-util/3.23.2/protobuf-java-util-3.23.2.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import com.spotify.confidence.flags.resolver.v1.ResolveFlagsResponse;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.concurrent.TimeUnit;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.spotify.confidence.flags.resolver.v1.ResolveFlagsRequest;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.List;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import dev.openfeature.sdk.exceptions.FlagNotFoundError;",
+      "artifact" : {
+        "artifact" : "dev.openfeature:sdk:1.6.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.spotify:confidence-openfeature-provider:0.0.2/dependencies/dev/openfeature/sdk/1.6.1/sdk-1.6.1.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import com.spotify.confidence.flags.resolver.v1.ResolvedFlag;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import io.grpc.StatusRuntimeException;",
+      "artifact" : {
+        "artifact" : "io.grpc:grpc-api:1.56.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.spotify:confidence-openfeature-provider:0.0.2/dependencies/io/grpc/grpc-api/1.56.1/grpc-api-1.56.1.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import io.grpc.Status.Code;",
+      "artifact" : {
+        "artifact" : "io.grpc:grpc-api:1.56.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.spotify:confidence-openfeature-provider:0.0.2/dependencies/io/grpc/grpc-api/1.56.1/grpc-api-1.56.1.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import dev.openfeature.sdk.exceptions.GeneralError;",
+      "artifact" : {
+        "artifact" : "dev.openfeature:sdk:1.6.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.spotify:confidence-openfeature-provider:0.0.2/dependencies/dev/openfeature/sdk/1.6.1/sdk-1.6.1.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import dev.openfeature.sdk.Structure;",
+      "artifact" : {
+        "artifact" : "dev.openfeature:sdk:1.6.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.spotify:confidence-openfeature-provider:0.0.2/dependencies/dev/openfeature/sdk/1.6.1/sdk-1.6.1.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import java.util.regex.Pattern;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.Arrays;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/com.spotify:confidence-openfeature-provider/src/main/java/com/spotify/confidence/TypeMapper.java",
+    "useImportReport" : [ {
+      "importPath" : "import dev.openfeature.sdk.Value;",
+      "artifact" : {
+        "artifact" : "dev.openfeature:sdk:1.6.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.spotify:confidence-openfeature-provider:0.0.2/dependencies/dev/openfeature/sdk/1.6.1/sdk-1.6.1.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import com.spotify.confidence.flags.types.v1.FlagSchema;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.spotify.confidence.flags.types.v1.FlagSchema.SchemaTypeCase;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import dev.openfeature.sdk.exceptions.ParseError;",
+      "artifact" : {
+        "artifact" : "dev.openfeature:sdk:1.6.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.spotify:confidence-openfeature-provider:0.0.2/dependencies/dev/openfeature/sdk/1.6.1/sdk-1.6.1.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import java.util.List;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.stream.Collectors;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.google.protobuf.Struct;",
+      "artifact" : {
+        "artifact" : "com.google.protobuf:protobuf-java:3.23.2",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.spotify:confidence-openfeature-provider:0.0.2/dependencies/com/google/protobuf/protobuf-java/3.23.2/protobuf-java-3.23.2.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import com.spotify.confidence.flags.types.v1.FlagSchema.StructFlagSchema;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.Map;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import dev.openfeature.sdk.MutableStructure;",
+      "artifact" : {
+        "artifact" : "dev.openfeature:sdk:1.6.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.spotify:confidence-openfeature-provider:0.0.2/dependencies/dev/openfeature/sdk/1.6.1/sdk-1.6.1.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import com.google.protobuf.util.Values;",
+      "artifact" : {
+        "artifact" : "com.google.protobuf:protobuf-java-util:3.23.2",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.spotify:confidence-openfeature-provider:0.0.2/dependencies/com/google/protobuf/protobuf-java-util/3.23.2/protobuf-java-util-3.23.2.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import dev.openfeature.sdk.exceptions.ValueNotConvertableError;",
+      "artifact" : {
+        "artifact" : "dev.openfeature:sdk:1.6.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.spotify:confidence-openfeature-provider:0.0.2/dependencies/dev/openfeature/sdk/1.6.1/sdk-1.6.1.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import dev.openfeature.sdk.Structure;",
+      "artifact" : {
+        "artifact" : "dev.openfeature:sdk:1.6.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.spotify:confidence-openfeature-provider:0.0.2/dependencies/dev/openfeature/sdk/1.6.1/sdk-1.6.1.jar"
+      },
+      "isDirectDependency" : true
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ {
+      "importPath" : "com.google.protobuf.Value",
+      "artifact" : {
+        "artifact" : "com.google.protobuf:protobuf-java:3.23.2",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.spotify:confidence-openfeature-provider:0.0.2/dependencies/com/google/protobuf/protobuf-java/3.23.2/protobuf-java-3.23.2.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "Map<String, com.google.protobuf.Value>",
+      "artifact" : {
+        "artifact" : "com.google.protobuf:protobuf-java:3.23.2",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.spotify:confidence-openfeature-provider:0.0.2/dependencies/com/google/protobuf/protobuf-java/3.23.2/protobuf-java-3.23.2.jar"
+      },
+      "isDirectDependency" : true
+    } ],
+    "failImportReport" : [ ]
+  } ],
+  "projectUseDependencies" : [ {
+    "artifact" : "io.grpc:grpc-api:1.56.1",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.spotify:confidence-openfeature-provider:0.0.2/dependencies/io/grpc/grpc-api/1.56.1/grpc-api-1.56.1.jar"
+  }, {
+    "artifact" : "dev.openfeature:sdk:1.6.1",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.spotify:confidence-openfeature-provider:0.0.2/dependencies/dev/openfeature/sdk/1.6.1/sdk-1.6.1.jar"
+  }, {
+    "artifact" : "com.google.protobuf:protobuf-java-util:3.23.2",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.spotify:confidence-openfeature-provider:0.0.2/dependencies/com/google/protobuf/protobuf-java-util/3.23.2/protobuf-java-util-3.23.2.jar"
+  }, {
+    "artifact" : "com.google.protobuf:protobuf-java:3.23.2",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.spotify:confidence-openfeature-provider:0.0.2/dependencies/com/google/protobuf/protobuf-java/3.23.2/protobuf-java-3.23.2.jar"
+  }, {
+    "artifact" : "io.grpc:grpc-stub:1.56.1",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.spotify:confidence-openfeature-provider:0.0.2/dependencies/io/grpc/grpc-stub/1.56.1/grpc-stub-1.56.1.jar"
+  }, {
+    "artifact" : "io.grpc:grpc-netty-shaded:1.56.1",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.spotify:confidence-openfeature-provider:0.0.2/dependencies/io/grpc/grpc-netty-shaded/1.56.1/grpc-netty-shaded-1.56.1.jar"
+  } ],
+  "projectUseTransitiveDependencies" : [ {
+    "artifact" : "io.grpc:grpc-protobuf:1.56.1",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.spotify:confidence-openfeature-provider:0.0.2/dependencies/io/grpc/grpc-protobuf/1.56.1/grpc-protobuf-1.56.1.jar"
+  }, {
+    "artifact" : "com.google.api.grpc:grpc-google-common-protos:2.21.0",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.spotify:confidence-openfeature-provider:0.0.2/dependencies/com/google/api/grpc/grpc-google-common-protos/2.21.0/grpc-google-common-protos-2.21.0.jar"
+  } ],
+  "projectUnusedDependencies" : [ {
+    "artifact" : "com.google.api.grpc:proto-google-common-protos:2.21.0",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.spotify:confidence-openfeature-provider:0.0.2/dependencies/com/google/api/grpc/proto-google-common-protos/2.21.0/proto-google-common-protos-2.21.0.jar"
+  } ]
+}
