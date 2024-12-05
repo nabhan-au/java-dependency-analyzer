@@ -32,14 +32,24 @@
         "directory" : "Cannot detect from dependency"
       },
       "isDirectDependency" : false
+    }, {
+      "importPath" : "import pl.bgora.rpn.exceptions.WrongArgumentException;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import pl.bgora.rpn.exceptions.NoSuchFunctionFound;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
     } ],
     "unusedImportReport" : [ ],
     "fullPathCallingReport" : [ ],
-    "failImportReport" : [ {
-      "importPath" : "import pl.bgora.rpn.exceptions.NoSuchFunctionFound;"
-    }, {
-      "importPath" : "import pl.bgora.rpn.exceptions.WrongArgumentException;"
-    } ]
+    "failImportReport" : [ ]
   }, {
     "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/com.github.bartlomiej-gora:RPNLibrary/src/main/java/pl/bgora/rpn/DefaultExecutioner.java",
     "useImportReport" : [ {
@@ -56,18 +66,15 @@
         "directory" : "Cannot detect from dependency"
       },
       "isDirectDependency" : false
-    } ],
-    "unusedImportReport" : [ ],
-    "fullPathCallingReport" : [ ],
-    "failImportReport" : [ {
-      "importPath" : "import pl.bgora.rpn.exceptions.NoSuchFunctionFound;"
     }, {
-      "importPath" : "import pl.bgora.rpn.exceptions.WrongArgumentException;"
-    } ]
-  }, {
-    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/com.github.bartlomiej-gora:RPNLibrary/src/main/java/pl/bgora/rpn/advanced/AdvancedCalculator.java",
-    "useImportReport" : [ {
-      "importPath" : "import java.math.RoundingMode;",
+      "importPath" : "import pl.bgora.rpn.exceptions.WrongArgumentException;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import pl.bgora.rpn.exceptions.NoSuchFunctionFound;",
       "artifact" : {
         "artifact" : "Cannot detect from dependency",
         "directory" : "Cannot detect from dependency"
@@ -76,13 +83,41 @@
     } ],
     "unusedImportReport" : [ ],
     "fullPathCallingReport" : [ ],
-    "failImportReport" : [ {
-      "importPath" : "import pl.bgora.rpn.Calculator;"
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/com.github.bartlomiej-gora:RPNLibrary/src/main/java/pl/bgora/rpn/advanced/AdvancedCalculator.java",
+    "useImportReport" : [ {
+      "importPath" : "import pl.bgora.rpn.Calculator;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
     }, {
-      "importPath" : "import pl.bgora.rpn.CalculatorEngine;"
+      "importPath" : "import pl.bgora.rpn.CalculatorInterface;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
     }, {
-      "importPath" : "import pl.bgora.rpn.CalculatorInterface;"
-    } ]
+      "importPath" : "import java.math.RoundingMode;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import pl.bgora.rpn.CalculatorEngine;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
   }, {
     "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/com.github.bartlomiej-gora:RPNLibrary/src/main/java/pl/bgora/rpn/advanced/operators/AbstractOperatorStrategy.java",
     "useImportReport" : [ {
@@ -213,7 +248,84 @@
       },
       "isDirectDependency" : false
     }, {
+      "importPath" : "import pl.bgora.rpn.advanced.operators.AbstractOperatorStrategy;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
       "importPath" : "import java.util.HashMap;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import pl.bgora.rpn.advanced.functions.AbstractFunctionStrategy;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import pl.bgora.rpn.advanced.functions.SinusFunctionStrategy;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import pl.bgora.rpn.advanced.functions.CosinusFunctionStrategy;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import pl.bgora.rpn.advanced.functions.TanFunctionStrategy;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import pl.bgora.rpn.advanced.functions.CtgFunctionStrategy;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import pl.bgora.rpn.advanced.operators.AddOperatorStrategy;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import pl.bgora.rpn.advanced.operators.MinusOperatorStrategy;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import pl.bgora.rpn.advanced.operators.MiltiplyOperatorStrategy;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import pl.bgora.rpn.advanced.operators.DivideOperatorStrategy;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import pl.bgora.rpn.advanced.operators.PowerOperatorStrategy;",
       "artifact" : {
         "artifact" : "Cannot detect from dependency",
         "directory" : "Cannot detect from dependency"
@@ -222,32 +334,31 @@
     } ],
     "unusedImportReport" : [ ],
     "fullPathCallingReport" : [ ],
-    "failImportReport" : [ {
-      "importPath" : "import pl.bgora.rpn.advanced.functions.AbstractFunctionStrategy;"
-    }, {
-      "importPath" : "import pl.bgora.rpn.advanced.functions.CosinusFunctionStrategy;"
-    }, {
-      "importPath" : "import pl.bgora.rpn.advanced.functions.CtgFunctionStrategy;"
-    }, {
-      "importPath" : "import pl.bgora.rpn.advanced.functions.SinusFunctionStrategy;"
-    }, {
-      "importPath" : "import pl.bgora.rpn.advanced.functions.TanFunctionStrategy;"
-    }, {
-      "importPath" : "import pl.bgora.rpn.advanced.operators.AbstractOperatorStrategy;"
-    }, {
-      "importPath" : "import pl.bgora.rpn.advanced.operators.AddOperatorStrategy;"
-    }, {
-      "importPath" : "import pl.bgora.rpn.advanced.operators.DivideOperatorStrategy;"
-    }, {
-      "importPath" : "import pl.bgora.rpn.advanced.operators.MiltiplyOperatorStrategy;"
-    }, {
-      "importPath" : "import pl.bgora.rpn.advanced.operators.MinusOperatorStrategy;"
-    }, {
-      "importPath" : "import pl.bgora.rpn.advanced.operators.PowerOperatorStrategy;"
-    } ]
+    "failImportReport" : [ ]
   }, {
     "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/com.github.bartlomiej-gora:RPNLibrary/src/main/java/pl/bgora/rpn/advanced/AdvancedCalculatorFactory.java",
     "useImportReport" : [ {
+      "importPath" : "import pl.bgora.rpn.factory.AbstractCalculatorFactory;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import pl.bgora.rpn.CalculatorInterface;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import pl.bgora.rpn.CalculatorEngine;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
       "importPath" : "import java.math.RoundingMode;",
       "artifact" : {
         "artifact" : "Cannot detect from dependency",
@@ -257,13 +368,7 @@
     } ],
     "unusedImportReport" : [ ],
     "fullPathCallingReport" : [ ],
-    "failImportReport" : [ {
-      "importPath" : "import pl.bgora.rpn.CalculatorEngine;"
-    }, {
-      "importPath" : "import pl.bgora.rpn.CalculatorInterface;"
-    }, {
-      "importPath" : "import pl.bgora.rpn.factory.AbstractCalculatorFactory;"
-    } ]
+    "failImportReport" : [ ]
   }, {
     "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/com.github.bartlomiej-gora:RPNLibrary/src/main/java/pl/bgora/rpn/advanced/functions/CtgFunctionStrategy.java",
     "useImportReport" : [ {
@@ -380,6 +485,20 @@
       },
       "isDirectDependency" : false
     }, {
+      "importPath" : "import pl.bgora.rpn.advanced.operators.AbstractOperatorStrategy;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import pl.bgora.rpn.advanced.functions.AbstractFunctionStrategy;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
       "importPath" : "import java.math.BigDecimal;",
       "artifact" : {
         "artifact" : "Cannot detect from dependency",
@@ -393,18 +512,24 @@
         "directory" : "Cannot detect from dependency"
       },
       "isDirectDependency" : false
+    }, {
+      "importPath" : "import pl.bgora.rpn.exceptions.WrongArgumentException;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import pl.bgora.rpn.exceptions.NoSuchFunctionFound;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
     } ],
     "unusedImportReport" : [ ],
     "fullPathCallingReport" : [ ],
-    "failImportReport" : [ {
-      "importPath" : "import pl.bgora.rpn.advanced.functions.AbstractFunctionStrategy;"
-    }, {
-      "importPath" : "import pl.bgora.rpn.advanced.operators.AbstractOperatorStrategy;"
-    }, {
-      "importPath" : "import pl.bgora.rpn.exceptions.NoSuchFunctionFound;"
-    }, {
-      "importPath" : "import pl.bgora.rpn.exceptions.WrongArgumentException;"
-    } ]
+    "failImportReport" : [ ]
   }, {
     "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/com.github.bartlomiej-gora:RPNLibrary/src/main/java/pl/bgora/rpn/exceptions/RPNException.java",
     "useImportReport" : [ ],
@@ -425,16 +550,28 @@
     "failImportReport" : [ ]
   }, {
     "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/com.github.bartlomiej-gora:RPNLibrary/src/main/java/pl/bgora/rpn/DefaultCalculatorFactory.java",
-    "useImportReport" : [ ],
+    "useImportReport" : [ {
+      "importPath" : "import pl.bgora.rpn.factory.AbstractCalculatorFactory;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
     "unusedImportReport" : [ ],
     "fullPathCallingReport" : [ ],
-    "failImportReport" : [ {
-      "importPath" : "import pl.bgora.rpn.factory.AbstractCalculatorFactory;"
-    } ]
+    "failImportReport" : [ ]
   }, {
     "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/com.github.bartlomiej-gora:RPNLibrary/src/main/java/pl/bgora/rpn/RPNExecuting.java",
     "useImportReport" : [ {
       "importPath" : "import java.math.BigDecimal;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import pl.bgora.rpn.exceptions.WrongArgumentException;",
       "artifact" : {
         "artifact" : "Cannot detect from dependency",
         "directory" : "Cannot detect from dependency"
@@ -447,24 +584,37 @@
         "directory" : "Cannot detect from dependency"
       },
       "isDirectDependency" : false
+    }, {
+      "importPath" : "import pl.bgora.rpn.exceptions.NoSuchFunctionFound;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
     } ],
     "unusedImportReport" : [ ],
     "fullPathCallingReport" : [ ],
-    "failImportReport" : [ {
-      "importPath" : "import pl.bgora.rpn.exceptions.NoSuchFunctionFound;"
-    }, {
-      "importPath" : "import pl.bgora.rpn.exceptions.WrongArgumentException;"
-    } ]
+    "failImportReport" : [ ]
   }, {
     "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/com.github.bartlomiej-gora:RPNLibrary/src/main/java/pl/bgora/rpn/CalculationEngine.java",
-    "useImportReport" : [ ],
+    "useImportReport" : [ {
+      "importPath" : "import pl.bgora.rpn.advanced.operators.AbstractOperatorStrategy;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import pl.bgora.rpn.advanced.functions.AbstractFunctionStrategy;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
     "unusedImportReport" : [ ],
     "fullPathCallingReport" : [ ],
-    "failImportReport" : [ {
-      "importPath" : "import pl.bgora.rpn.advanced.functions.AbstractFunctionStrategy;"
-    }, {
-      "importPath" : "import pl.bgora.rpn.advanced.operators.AbstractOperatorStrategy;"
-    } ]
+    "failImportReport" : [ ]
   }, {
     "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/com.github.bartlomiej-gora:RPNLibrary/src/main/java/pl/bgora/rpn/Calculator.java",
     "useImportReport" : [ {
@@ -476,6 +626,20 @@
       "isDirectDependency" : false
     }, {
       "importPath" : "import java.math.BigDecimal;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import pl.bgora.rpn.exceptions.WrongArgumentException;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import pl.bgora.rpn.exceptions.NoSuchFunctionFound;",
       "artifact" : {
         "artifact" : "Cannot detect from dependency",
         "directory" : "Cannot detect from dependency"
@@ -498,19 +662,20 @@
     } ],
     "unusedImportReport" : [ ],
     "fullPathCallingReport" : [ ],
-    "failImportReport" : [ {
-      "importPath" : "import pl.bgora.rpn.exceptions.NoSuchFunctionFound;"
-    }, {
-      "importPath" : "import pl.bgora.rpn.exceptions.WrongArgumentException;"
-    } ]
+    "failImportReport" : [ ]
   }, {
     "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/com.github.bartlomiej-gora:RPNLibrary/src/main/java/pl/bgora/rpn/factory/AbstractCalculatorFactory.java",
-    "useImportReport" : [ ],
+    "useImportReport" : [ {
+      "importPath" : "import pl.bgora.rpn.CalculatorInterface;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
     "unusedImportReport" : [ ],
     "fullPathCallingReport" : [ ],
-    "failImportReport" : [ {
-      "importPath" : "import pl.bgora.rpn.CalculatorInterface;"
-    } ]
+    "failImportReport" : [ ]
   } ],
   "projectUseDependencies" : [ ],
   "projectUseTransitiveDependencies" : [ ],

@@ -13,6 +13,13 @@
       },
       "isDirectDependency" : true
     }, {
+      "importPath" : "import com.github.ajurasz.embeddedesannotation.annotation.EmbeddedElasticsearch;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
       "importPath" : "import org.springframework.context.ConfigurableApplicationContext;",
       "artifact" : {
         "artifact" : "org.springframework:spring-context:4.3.12.RELEASE",
@@ -47,14 +54,17 @@
         "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.ajurasz:embedded-es-annotation:0.0/dependencies/org/springframework/spring-beans/4.3.12.RELEASE/spring-beans-4.3.12.RELEASE.jar"
       },
       "isDirectDependency" : true
+    }, {
+      "importPath" : "import com.github.ajurasz.embeddedesannotation.bean.ElasticsearchEmbedded;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
     } ],
     "unusedImportReport" : [ ],
     "fullPathCallingReport" : [ ],
-    "failImportReport" : [ {
-      "importPath" : "import com.github.ajurasz.embeddedesannotation.annotation.EmbeddedElasticsearch;"
-    }, {
-      "importPath" : "import com.github.ajurasz.embeddedesannotation.bean.ElasticsearchEmbedded;"
-    } ]
+    "failImportReport" : [ ]
   }, {
     "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/com.github.ajurasz:embedded-es-annotation/src/main/java/com/github/ajurasz/embeddedesannotation/context/EmbeddedElasticsearchContextCustomizerFactory.java",
     "useImportReport" : [ {
@@ -86,6 +96,13 @@
       },
       "isDirectDependency" : true
     }, {
+      "importPath" : "import com.github.ajurasz.embeddedesannotation.annotation.EmbeddedElasticsearch;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
       "importPath" : "import org.springframework.core.annotation.AnnotatedElementUtils;",
       "artifact" : {
         "artifact" : "org.springframework:spring-core:4.3.12.RELEASE",
@@ -95,9 +112,7 @@
     } ],
     "unusedImportReport" : [ ],
     "fullPathCallingReport" : [ ],
-    "failImportReport" : [ {
-      "importPath" : "import com.github.ajurasz.embeddedesannotation.annotation.EmbeddedElasticsearch;"
-    } ]
+    "failImportReport" : [ ]
   }, {
     "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/com.github.ajurasz:embedded-es-annotation/src/main/java/com/github/ajurasz/embeddedesannotation/bean/ElasticsearchEmbedded.java",
     "useImportReport" : [ {

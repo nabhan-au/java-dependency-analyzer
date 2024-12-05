@@ -11,14 +11,14 @@
         "artifact" : "net.cactusthorn.config:core:0.30",
         "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/net.cactusthorn.config:jasypt:0.30/dependencies/net/cactusthorn/config/core/0.30/core-0.30.jar"
       },
-      "isDirectDependency" : false
+      "isDirectDependency" : true
     }, {
       "importPath" : "import org.jasypt.encryption.pbe.StandardPBEStringEncryptor;",
       "artifact" : {
         "artifact" : "org.jasypt:jasypt:1.9.3",
         "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/net.cactusthorn.config:jasypt:0.30/dependencies/org/jasypt/jasypt/1.9.3/jasypt-1.9.3-lite.jar"
       },
-      "isDirectDependency" : false
+      "isDirectDependency" : true
     } ],
     "unusedImportReport" : [ ],
     "fullPathCallingReport" : [ ],
@@ -59,13 +59,19 @@
         "artifact" : "net.cactusthorn.config:core:0.30",
         "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/net.cactusthorn.config:jasypt:0.30/dependencies/net/cactusthorn/config/core/0.30/core-0.30.jar"
       },
-      "isDirectDependency" : false
+      "isDirectDependency" : true
     } ],
     "unusedImportReport" : [ ],
     "fullPathCallingReport" : [ ],
     "failImportReport" : [ ]
   } ],
-  "projectUseDependencies" : [ ],
+  "projectUseDependencies" : [ {
+    "artifact" : "net.cactusthorn.config:core:0.30",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/net.cactusthorn.config:jasypt:0.30/dependencies/net/cactusthorn/config/core/0.30/core-0.30.jar"
+  }, {
+    "artifact" : "org.jasypt:jasypt:1.9.3",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/net.cactusthorn.config:jasypt:0.30/dependencies/org/jasypt/jasypt/1.9.3/jasypt-1.9.3-lite.jar"
+  } ],
   "projectUseTransitiveDependencies" : [ ],
   "projectUnusedDependencies" : [ ]
 }

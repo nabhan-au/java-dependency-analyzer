@@ -47,7 +47,7 @@ public class Main {
     public static void runSingleProjectWithCSV(Integer csvIndex, String filePath) throws Exception {
         System.out.println("Running project with index: " + csvIndex);
         var destinationPath = "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository";
-        var writeFileDestination = "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/java-dependency-analyzer/new-dependency-output-4";
+        var writeFileDestination = "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/java-dependency-analyzer/new-dependency-output-5";
         var jsonFile = "save_input.json";
         var repoTarget = "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo";
         var completePath = "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/java-dependency-analyzer/new-dependency-output/complete.json";
@@ -102,7 +102,7 @@ public class Main {
                     return;
                 }
                 System.out.println("Running at path: " + repoArtifactPath);
-                runSingleProject(destinationPath, writeFileDestination, artifactId + ":" + artifactVersion, repoPath, repoArtifactPath, "", gitTag, jsonFile, false, true);
+                runSingleProject(destinationPath, writeFileDestination, artifactId + ":" + artifactVersion, repoPath, repoArtifactPath, "", gitTag, jsonFile, false, false);
                 runGitRestore(repoPath);
             }
 
@@ -206,7 +206,7 @@ public class Main {
         var subPath = "/src";
         var gitBranch = "1.4.2";
 
-        for (int i = 257; i < 500; i++) { // Equivalent to range(0, 10) in Python
+        for (int i = 85; i < 500; i++) { // Equivalent to range(0, 10) in Python
             runSingleProjectWithCSV(i, "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/java-dependency-analyzer/analyzer-python/data_with_date/success-compared-result-2.csv");
         }
 //        runSingleProjectWithCSV(3, "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/java-dependency-analyzer/analyzer-python/data/test-compared-result.csv");

@@ -47,12 +47,17 @@
         "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.charlyghislain.authenticator:authenticator-application-api:1.0.3/dependencies/org/jboss/resteasy/jaxrs-api/3.0.6.Final/jaxrs-api-3.0.6.Final.jar"
       },
       "isDirectDependency" : true
+    }, {
+      "importPath" : "import com.charlyghislain.authenticator.application.api.domain.WsApplicationUser;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
     } ],
     "unusedImportReport" : [ ],
     "fullPathCallingReport" : [ ],
-    "failImportReport" : [ {
-      "importPath" : "import com.charlyghislain.authenticator.application.api.domain.WsApplicationUser;"
-    } ]
+    "failImportReport" : [ ]
   }, {
     "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/com.charlyghislain.authenticator:authenticator-application-api/authenticator-application-api/src/main/java/com/charlyghislain/authenticator/application/api/AuthorizationResource.java",
     "useImportReport" : [ {
@@ -64,6 +69,13 @@
       "isDirectDependency" : true
     }, {
       "importPath" : "import java.util.List;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.charlyghislain.authenticator.application.api.domain.WsApplicationRole;",
       "artifact" : {
         "artifact" : "Cannot detect from dependency",
         "directory" : "Cannot detect from dependency"
@@ -104,14 +116,17 @@
         "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.charlyghislain.authenticator:authenticator-application-api:1.0.3/dependencies/org/jboss/resteasy/jaxrs-api/3.0.6.Final/jaxrs-api-3.0.6.Final.jar"
       },
       "isDirectDependency" : true
+    }, {
+      "importPath" : "import com.charlyghislain.authenticator.application.api.domain.WsHealthCheckStatus;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
     } ],
     "unusedImportReport" : [ ],
     "fullPathCallingReport" : [ ],
-    "failImportReport" : [ {
-      "importPath" : "import com.charlyghislain.authenticator.application.api.domain.WsApplicationRole;"
-    }, {
-      "importPath" : "import com.charlyghislain.authenticator.application.api.domain.WsHealthCheckStatus;"
-    } ]
+    "failImportReport" : [ ]
   }, {
     "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/com.charlyghislain.authenticator:authenticator-application-api/authenticator-application-api/src/main/java/com/charlyghislain/authenticator/application/api/domain/WsApplicationUser.java",
     "useImportReport" : [ {
@@ -296,6 +311,13 @@
       },
       "isDirectDependency" : true
     }, {
+      "importPath" : "import com.charlyghislain.authenticator.application.api.domain.WsHealthCheckResponse;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
       "importPath" : "import org.checkerframework.checker.nullness.qual.NonNull;",
       "artifact" : {
         "artifact" : "org.checkerframework:checker-qual:2.5.2",
@@ -312,9 +334,7 @@
     } ],
     "unusedImportReport" : [ ],
     "fullPathCallingReport" : [ ],
-    "failImportReport" : [ {
-      "importPath" : "import com.charlyghislain.authenticator.application.api.domain.WsHealthCheckResponse;"
-    } ]
+    "failImportReport" : [ ]
   } ],
   "projectUseDependencies" : [ {
     "artifact" : "org.jboss.resteasy:jaxrs-api:3.0.6.Final",

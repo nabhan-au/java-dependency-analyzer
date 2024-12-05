@@ -134,17 +134,29 @@
     } ]
   }, {
     "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/at.molindo:molindo-amazonclient/src/main/java/at/molindo/amazonclient/AmazonProductAdvertisingLocale.java",
-    "useImportReport" : [ ],
+    "useImportReport" : [ {
+      "importPath" : "import com.amazon.webservices.awsecommerceservice.AWSECommerceServicePortType;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
     "unusedImportReport" : [ ],
     "fullPathCallingReport" : [ ],
     "failImportReport" : [ {
       "importPath" : "import com.amazon.webservices.awsecommerceservice.AWSECommerceService;"
-    }, {
-      "importPath" : "import com.amazon.webservices.awsecommerceservice.AWSECommerceServicePortType;"
     } ]
   }, {
     "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/at.molindo:molindo-amazonclient/src/main/java/at/molindo/amazonclient/AmazonClient.java",
     "useImportReport" : [ {
+      "importPath" : "import com.amazon.webservices.awsecommerceservice.AWSECommerceServicePortType;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
       "importPath" : "import java.util.Map;",
       "artifact" : {
         "artifact" : "Cannot detect from dependency",
@@ -181,8 +193,6 @@
       "importPath" : "import javax.xml.ws.handler.MessageContext;"
     }, {
       "importPath" : "import com.amazon.webservices.awsecommerceservice.AWSECommerceService;"
-    }, {
-      "importPath" : "import com.amazon.webservices.awsecommerceservice.AWSECommerceServicePortType;"
     } ]
   } ],
   "projectUseDependencies" : [ {

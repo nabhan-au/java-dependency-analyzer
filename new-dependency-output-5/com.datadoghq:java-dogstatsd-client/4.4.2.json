@@ -458,16 +458,28 @@
         "directory" : "Cannot detect from dependency"
       },
       "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.timgroup.statsd.Message;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
     } ],
     "unusedImportReport" : [ ],
     "fullPathCallingReport" : [ ],
-    "failImportReport" : [ {
-      "importPath" : "import com.timgroup.statsd.Message;"
-    } ]
+    "failImportReport" : [ ]
   }, {
     "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/com.datadoghq:java-dogstatsd-client/src/main/java/com/timgroup/statsd/StatsDBlockingProcessor.java",
     "useImportReport" : [ {
       "importPath" : "import java.util.concurrent.BlockingQueue;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.timgroup.statsd.Message;",
       "artifact" : {
         "artifact" : "Cannot detect from dependency",
         "directory" : "Cannot detect from dependency"
@@ -511,9 +523,7 @@
       "isDirectDependency" : false
     } ],
     "fullPathCallingReport" : [ ],
-    "failImportReport" : [ {
-      "importPath" : "import com.timgroup.statsd.Message;"
-    } ]
+    "failImportReport" : [ ]
   }, {
     "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/com.datadoghq:java-dogstatsd-client/src/main/java/com/timgroup/statsd/StatsDAggregator.java",
     "useImportReport" : [ {
@@ -662,6 +672,13 @@
       },
       "isDirectDependency" : false
     }, {
+      "importPath" : "import com.timgroup.statsd.Message;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
       "importPath" : "import java.util.concurrent.BlockingQueue;",
       "artifact" : {
         "artifact" : "Cannot detect from dependency",
@@ -755,9 +772,7 @@
       "isDirectDependency" : false
     } ],
     "fullPathCallingReport" : [ ],
-    "failImportReport" : [ {
-      "importPath" : "import com.timgroup.statsd.Message;"
-    } ]
+    "failImportReport" : [ ]
   }, {
     "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/com.datadoghq:java-dogstatsd-client/src/main/java/com/timgroup/statsd/UnixSocketAddressWithTransport.java",
     "useImportReport" : [ {
@@ -1079,6 +1094,13 @@
       },
       "isDirectDependency" : false
     }, {
+      "importPath" : "import com.timgroup.statsd.Message;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
       "importPath" : "import java.util.concurrent.atomic.AtomicInteger;",
       "artifact" : {
         "artifact" : "Cannot detect from dependency",
@@ -1116,9 +1138,7 @@
       "isDirectDependency" : false
     } ],
     "fullPathCallingReport" : [ ],
-    "failImportReport" : [ {
-      "importPath" : "import com.timgroup.statsd.Message;"
-    } ]
+    "failImportReport" : [ ]
   } ],
   "projectUseDependencies" : [ {
     "artifact" : "com.github.jnr:jnr-unixsocket:0.36",

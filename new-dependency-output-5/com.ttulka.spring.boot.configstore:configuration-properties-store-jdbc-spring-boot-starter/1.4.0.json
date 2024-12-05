@@ -11,7 +11,7 @@
         "artifact" : "com.ttulka.spring.boot.configstore:configuration-properties-store-spring-boot-starter-base:1.4.0",
         "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.ttulka.spring.boot.configstore:configuration-properties-store-jdbc-spring-boot-starter:1.4.0/dependencies/com/ttulka/spring/boot/configstore/configuration-properties-store-spring-boot-starter-base/1.4.0/configuration-properties-store-spring-boot-starter-base-1.4.0.jar"
       },
-      "isDirectDependency" : false
+      "isDirectDependency" : true
     }, {
       "importPath" : "import java.util.Map;",
       "artifact" : {
@@ -178,7 +178,7 @@
         "artifact" : "com.ttulka.spring.boot.configstore:configuration-properties-store-api:1.4.0",
         "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.ttulka.spring.boot.configstore:configuration-properties-store-jdbc-spring-boot-starter:1.4.0/dependencies/com/ttulka/spring/boot/configstore/configuration-properties-store-api/1.4.0/configuration-properties-store-api-1.4.0.jar"
       },
-      "isDirectDependency" : false
+      "isDirectDependency" : true
     }, {
       "importPath" : "import org.springframework.jdbc.core.JdbcTemplate;",
       "artifact" : {
@@ -416,7 +416,7 @@
         "artifact" : "com.ttulka.spring.boot.configstore:configuration-properties-store-spring-boot-starter-base:1.4.0",
         "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.ttulka.spring.boot.configstore:configuration-properties-store-jdbc-spring-boot-starter:1.4.0/dependencies/com/ttulka/spring/boot/configstore/configuration-properties-store-spring-boot-starter-base/1.4.0/configuration-properties-store-spring-boot-starter-base-1.4.0.jar"
       },
-      "isDirectDependency" : false
+      "isDirectDependency" : true
     }, {
       "importPath" : "import org.springframework.context.annotation.Configuration;",
       "artifact" : {
@@ -607,28 +607,28 @@
     }, {
       "importPath" : "import lombok.Getter;",
       "artifact" : {
-        "artifact" : "org.projectlombok:lombok:1.18.18",
+        "artifact" : "org.projectlombok:lombok:1.18.24",
         "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.ttulka.spring.boot.configstore:configuration-properties-store-jdbc-spring-boot-starter:1.4.0/dependencies/org/projectlombok/lombok/1.18.18/lombok-1.18.18.jar"
       },
       "isDirectDependency" : true
     }, {
       "importPath" : "import lombok.Getter;",
       "artifact" : {
-        "artifact" : "org.projectlombok:lombok:1.18.18",
+        "artifact" : "org.projectlombok:lombok:1.18.24",
         "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.ttulka.spring.boot.configstore:configuration-properties-store-jdbc-spring-boot-starter:1.4.0/dependencies/org/projectlombok/lombok/1.18.24/lombok-1.18.24.jar"
       },
       "isDirectDependency" : true
     }, {
       "importPath" : "import lombok.Setter;",
       "artifact" : {
-        "artifact" : "org.projectlombok:lombok:1.18.18",
+        "artifact" : "org.projectlombok:lombok:1.18.24",
         "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.ttulka.spring.boot.configstore:configuration-properties-store-jdbc-spring-boot-starter:1.4.0/dependencies/org/projectlombok/lombok/1.18.18/lombok-1.18.18.jar"
       },
       "isDirectDependency" : true
     }, {
       "importPath" : "import lombok.Setter;",
       "artifact" : {
-        "artifact" : "org.projectlombok:lombok:1.18.18",
+        "artifact" : "org.projectlombok:lombok:1.18.24",
         "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.ttulka.spring.boot.configstore:configuration-properties-store-jdbc-spring-boot-starter:1.4.0/dependencies/org/projectlombok/lombok/1.18.24/lombok-1.18.24.jar"
       },
       "isDirectDependency" : true
@@ -666,50 +666,68 @@
     "failImportReport" : [ ]
   } ],
   "projectUseDependencies" : [ {
-    "artifact" : "org.projectlombok:lombok:1.18.18",
+    "artifact" : "com.ttulka.spring.boot.configstore:configuration-properties-store-spring-boot-starter-base:1.4.0",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.ttulka.spring.boot.configstore:configuration-properties-store-jdbc-spring-boot-starter:1.4.0/dependencies/com/ttulka/spring/boot/configstore/configuration-properties-store-spring-boot-starter-base/1.4.0/configuration-properties-store-spring-boot-starter-base-1.4.0.jar"
+  }, {
+    "artifact" : "com.ttulka.spring.boot.configstore:configuration-properties-store-api:1.4.0",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.ttulka.spring.boot.configstore:configuration-properties-store-jdbc-spring-boot-starter:1.4.0/dependencies/com/ttulka/spring/boot/configstore/configuration-properties-store-api/1.4.0/configuration-properties-store-api-1.4.0.jar"
+  }, {
+    "artifact" : "org.projectlombok:lombok:1.18.24",
     "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.ttulka.spring.boot.configstore:configuration-properties-store-jdbc-spring-boot-starter:1.4.0/dependencies/org/projectlombok/lombok/1.18.18/lombok-1.18.18.jar"
   } ],
   "projectUseTransitiveDependencies" : [ {
-    "artifact" : "org.springframework.boot:spring-boot-starter-jdbc:2.4.3",
+    "artifact" : "org.springframework.boot:spring-boot-starter-jdbc:2.7.0",
     "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.ttulka.spring.boot.configstore:configuration-properties-store-jdbc-spring-boot-starter:1.4.0/dependencies/org/springframework/boot/spring-boot-starter-jdbc/2.7.0/spring-boot-starter-jdbc-2.7.0.jar"
   }, {
-    "artifact" : "org.springframework.boot:spring-boot-starter-jdbc:2.4.3",
+    "artifact" : "org.springframework.boot:spring-boot-starter-jdbc:2.7.0",
     "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.ttulka.spring.boot.configstore:configuration-properties-store-jdbc-spring-boot-starter:1.4.0/dependencies/org/springframework/boot/spring-boot-starter-jdbc/2.4.3/spring-boot-starter-jdbc-2.4.3.jar"
   }, {
-    "artifact" : "org.springframework.boot:spring-boot-starter-jdbc:2.4.3",
+    "artifact" : "com.ttulka.spring.boot.configstore:configuration-properties-store-jdbc:1.4.0",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.ttulka.spring.boot.configstore:configuration-properties-store-jdbc-spring-boot-starter:1.4.0/dependencies/com/ttulka/spring/boot/configstore/configuration-properties-store-jdbc/1.4.0/configuration-properties-store-jdbc-1.4.0.jar"
+  }, {
+    "artifact" : "org.springframework.boot:spring-boot-starter-jdbc:2.7.0",
     "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.ttulka.spring.boot.configstore:configuration-properties-store-jdbc-spring-boot-starter:1.4.0/dependencies/org/springframework/boot/spring-boot-starter-jdbc/2.7.0/spring-boot-starter-jdbc-2.7.0.jar"
   }, {
-    "artifact" : "org.springframework.boot:spring-boot-starter-jdbc:2.4.3",
+    "artifact" : "org.springframework.boot:spring-boot-starter-jdbc:2.7.0",
     "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.ttulka.spring.boot.configstore:configuration-properties-store-jdbc-spring-boot-starter:1.4.0/dependencies/org/springframework/boot/spring-boot-starter-jdbc/2.4.3/spring-boot-starter-jdbc-2.4.3.jar"
   }, {
-    "artifact" : "org.springframework.boot:spring-boot-starter-jdbc:2.4.3",
+    "artifact" : "com.ttulka.spring.boot.configstore:configuration-properties-store-jdbc:1.4.0",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.ttulka.spring.boot.configstore:configuration-properties-store-jdbc-spring-boot-starter:1.4.0/dependencies/com/ttulka/spring/boot/configstore/configuration-properties-store-jdbc/1.4.0/configuration-properties-store-jdbc-1.4.0.jar"
+  }, {
+    "artifact" : "org.springframework.boot:spring-boot-starter-jdbc:2.7.0",
     "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.ttulka.spring.boot.configstore:configuration-properties-store-jdbc-spring-boot-starter:1.4.0/dependencies/org/springframework/boot/spring-boot-starter-jdbc/2.7.0/spring-boot-starter-jdbc-2.7.0.jar"
   }, {
-    "artifact" : "org.springframework.boot:spring-boot-starter-jdbc:2.4.3",
+    "artifact" : "org.springframework.boot:spring-boot-starter-jdbc:2.7.0",
     "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.ttulka.spring.boot.configstore:configuration-properties-store-jdbc-spring-boot-starter:1.4.0/dependencies/org/springframework/boot/spring-boot-starter-jdbc/2.4.3/spring-boot-starter-jdbc-2.4.3.jar"
   }, {
-    "artifact" : "org.springframework.boot:spring-boot-starter-jdbc:2.4.3",
+    "artifact" : "org.springframework.boot:spring-boot-starter-jdbc:2.7.0",
     "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.ttulka.spring.boot.configstore:configuration-properties-store-jdbc-spring-boot-starter:1.4.0/dependencies/org/springframework/boot/spring-boot-starter-jdbc/2.7.0/spring-boot-starter-jdbc-2.7.0.jar"
   }, {
-    "artifact" : "org.springframework.boot:spring-boot-starter-jdbc:2.4.3",
+    "artifact" : "org.springframework.boot:spring-boot-starter-jdbc:2.7.0",
     "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.ttulka.spring.boot.configstore:configuration-properties-store-jdbc-spring-boot-starter:1.4.0/dependencies/org/springframework/boot/spring-boot-starter-jdbc/2.4.3/spring-boot-starter-jdbc-2.4.3.jar"
   }, {
-    "artifact" : "org.springframework.boot:spring-boot-starter-jdbc:2.4.3",
+    "artifact" : "org.springframework.boot:spring-boot-starter-jdbc:2.7.0",
     "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.ttulka.spring.boot.configstore:configuration-properties-store-jdbc-spring-boot-starter:1.4.0/dependencies/org/springframework/boot/spring-boot-starter-jdbc/2.7.0/spring-boot-starter-jdbc-2.7.0.jar"
   }, {
-    "artifact" : "org.springframework.boot:spring-boot-starter-jdbc:2.4.3",
+    "artifact" : "org.springframework.boot:spring-boot-starter-jdbc:2.7.0",
     "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.ttulka.spring.boot.configstore:configuration-properties-store-jdbc-spring-boot-starter:1.4.0/dependencies/org/springframework/boot/spring-boot-starter-jdbc/2.4.3/spring-boot-starter-jdbc-2.4.3.jar"
   }, {
-    "artifact" : "org.springframework.boot:spring-boot-starter-jdbc:2.4.3",
+    "artifact" : "com.ttulka.spring.boot.configstore:configuration-properties-store-jdbc:1.4.0",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.ttulka.spring.boot.configstore:configuration-properties-store-jdbc-spring-boot-starter:1.4.0/dependencies/com/ttulka/spring/boot/configstore/configuration-properties-store-jdbc/1.4.0/configuration-properties-store-jdbc-1.4.0.jar"
+  }, {
+    "artifact" : "org.springframework.boot:spring-boot-starter-jdbc:2.7.0",
     "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.ttulka.spring.boot.configstore:configuration-properties-store-jdbc-spring-boot-starter:1.4.0/dependencies/org/springframework/boot/spring-boot-starter-jdbc/2.7.0/spring-boot-starter-jdbc-2.7.0.jar"
   }, {
-    "artifact" : "org.springframework.boot:spring-boot-starter-jdbc:2.4.3",
+    "artifact" : "org.springframework.boot:spring-boot-starter-jdbc:2.7.0",
     "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.ttulka.spring.boot.configstore:configuration-properties-store-jdbc-spring-boot-starter:1.4.0/dependencies/org/springframework/boot/spring-boot-starter-jdbc/2.4.3/spring-boot-starter-jdbc-2.4.3.jar"
   }, {
-    "artifact" : "org.springframework.boot:spring-boot-starter-jdbc:2.4.3",
+    "artifact" : "com.ttulka.spring.boot.configstore:configuration-properties-store-jdbc:1.4.0",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.ttulka.spring.boot.configstore:configuration-properties-store-jdbc-spring-boot-starter:1.4.0/dependencies/com/ttulka/spring/boot/configstore/configuration-properties-store-jdbc/1.4.0/configuration-properties-store-jdbc-1.4.0.jar"
+  }, {
+    "artifact" : "org.springframework.boot:spring-boot-starter-jdbc:2.7.0",
     "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.ttulka.spring.boot.configstore:configuration-properties-store-jdbc-spring-boot-starter:1.4.0/dependencies/org/springframework/boot/spring-boot-starter-jdbc/2.7.0/spring-boot-starter-jdbc-2.7.0.jar"
   }, {
-    "artifact" : "org.springframework.boot:spring-boot-starter-jdbc:2.4.3",
+    "artifact" : "org.springframework.boot:spring-boot-starter-jdbc:2.7.0",
     "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.ttulka.spring.boot.configstore:configuration-properties-store-jdbc-spring-boot-starter:1.4.0/dependencies/org/springframework/boot/spring-boot-starter-jdbc/2.4.3/spring-boot-starter-jdbc-2.4.3.jar"
   } ],
   "projectUnusedDependencies" : [ ]
