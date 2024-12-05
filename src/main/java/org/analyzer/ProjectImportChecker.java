@@ -36,7 +36,7 @@ public class ProjectImportChecker {
     private String artifactLocation;
     private RepositoryUtils repositoryUtils;
 
-    public ProjectImportChecker(Neo4jConnector neo4jConnector, String repoPath, String repoSubPath, String destinationPath, Boolean skipArtifactInstallation, Boolean skipPomFileModification, String projectArtifactId, Optional<String> jarPath, Optional<String> csvFilePath, Map<String, String> dependencyMap) throws Exception {
+    public ProjectImportChecker(Neo4jConnector neo4jConnector, String repoBasePath, String repoPath, String repoSubPath, String destinationPath, Boolean skipPomFileModification, String projectArtifactId, Map<String, String> dependencyMap, Boolean isPresentOnMavenRepo) throws Exception {
         var basePath = destinationPath + "/" + projectArtifactId;
         this.projectArtifact = projectArtifactId;
         this.repoPath = repoPath;
@@ -44,41 +44,29 @@ public class ProjectImportChecker {
         this.artifactLocation = basePath;
         this.repositoryUtils = new RepositoryUtils(neo4jConnector);
         var artifactFiles = new ArrayList<File>();
-        jarPath.ifPresent(s -> artifactFiles.add(new File(s)));
         var extractedProjectArtifact = DependencyExtractor.extractDependency(projectArtifactId);
         System.out.println("Downloading project artifact");
         new File(basePath).mkdirs();
         ImportArtifact finalPomFile;
-        if (!skipArtifactInstallation) {
-            ImportArtifact pomFile;
+        ImportArtifact pomFile;
+        if (isPresentOnMavenRepo) {
             try {
                 pomFile = artifactInstaller.install(new ImportArtifact(extractedProjectArtifact), basePath, true, false).a;
             } catch (IOException | InterruptedException e) {
                 throw new RuntimeException(e);
             }
-            finalPomFile = pomFile;
-            if (!skipPomFileModification) {
-                PomUtils.getModifiedPomFile(finalPomFile.getArtifactPath());
-            }
-            System.out.println("Downloading project dependencies");
-            artifactInstaller.copyProjectArtifact(basePath, extractedProjectArtifact);
-            artifactInstaller.copyDependencies(basePath, finalPomFile);
-
-//            System.out.println("Checking other pom file in the project");
-//            var pomList = PomUtils.getPomListFromPath(repoPath);
-//            for (ImportArtifact pom: pomList) {
-//                System.out.println("Downloading project dependencies from: " + pom.getArtifactPath());
-//                if (!pom.equals(finalPomFile)) {
-//                    artifactInstaller.copyDependencies(basePath + "/dependencies/" + pom.toString(), pom);
-//                }
-//
-//            }
-
         } else {
-            finalPomFile = PomUtils.getPomFromArtifact(extractedProjectArtifact.getGroupId(), extractedProjectArtifact.getArtifactId(), extractedProjectArtifact.getVersion(), basePath);
+            pomFile = new ImportArtifact(extractedProjectArtifact.getArtifactId(), extractedProjectArtifact.getGroupId(), extractedProjectArtifact.getVersion(), repoPath + "/pom.xml");
         }
-        if (csvFilePath.isPresent()) {
+        finalPomFile = pomFile;
+        if (!skipPomFileModification) {
+            PomUtils.getModifiedPomFile(finalPomFile.getArtifactPath());
+        }
+        System.out.println("Downloading project dependencies");
+        artifactInstaller.copyDependenciesWithRemoval(basePath, repoBasePath, finalPomFile);
+        if (isPresentOnMavenRepo) {
             this.dependencies = repositoryUtils.getDependencyFromReleaseId(extractedProjectArtifact.toString());
+            artifactInstaller.copyProjectArtifact(basePath, extractedProjectArtifact);
         } else {
             this.dependencies = DependencyExtractor.getProjectDependencies(repoPath, extractedProjectArtifact);
         }
@@ -384,7 +372,7 @@ public class ProjectImportChecker {
         String json = ow.writeValueAsString(projectReportJson);
 
         var splitArtifactId = projectReportJson.projectArtifact.split(":");
-        var artifact = splitArtifactId[0] + splitArtifactId[1];
+        var artifact = splitArtifactId[0] + ":" + splitArtifactId[1];
         var version = splitArtifactId[2];
 
         String filePath = destinationDir + "/" + artifact + "/" + version + ".json";
@@ -395,47 +383,6 @@ public class ProjectImportChecker {
         Files.write(Paths.get(filePath), json.getBytes());
 
         System.out.println("JSON written to file: " + filePath);
-    }
-
-    public void checkProjectImports() throws Exception {
-        if (reportList.isEmpty()) {
-            throw new Exception("Please resolve dependency before calling check import");
-        }
-
-        List<ImportArtifact> usingArtifact = new ArrayList<>();
-        List<SingleImportDetails> usingImportDetails = reportList.stream().flatMap(r -> r.useImportObject.stream()).toList();
-        List<String> usingImport = usingImportDetails.stream().map(r -> r.classPath.getPath()).distinct().toList();
-        // Loop check each artifact
-        for (ImportArtifact artifact : this.artifacts) {
-            var artifactClassList = staticImportInspector.getAllClassPathFromJarFile(artifact.getArtifactPath());
-
-            // Check classes in artifact with imports
-            artifactClassList = artifactClassList.stream().map(c -> c.replace("$", "/")).toList();
-            for (String artifactClass : artifactClassList) {
-                for (String importPath : usingImport) {
-                    if (artifactClass.contains(importPath.replace(".", "/"))) {
-                       usingArtifact.add(artifact);
-                    }
-                }
-            }
-        }
-
-        List<ImportArtifact> unusedArtifact = new ArrayList<>();
-        for (ImportArtifact artifact : this.artifacts) {
-            if (!usingArtifact.contains(artifact)) {
-                unusedArtifact.add(artifact);
-            }
-        }
-
-        unusedArtifact.forEach(u -> System.out.println("Unused artifact: " + u.getGroupId() + ":" + u.getArtifactId() + ":" + u.getVersion()));
-    }
-
-    public List<DependencyResolverReport> getReportList() {
-        return reportList;
-    }
-
-    public StaticImportInspectorFromJar getStaticImportInspector() {
-        return staticImportInspector;
     }
 
     public static void main(String[] args) throws Exception {
@@ -457,13 +404,14 @@ public class ProjectImportChecker {
 //        var writeFileDestination = "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/java-dependency-analyzer/dependency-output";
 //        checker.exportToJson(projectReport, writeFileDestination);
 
-        var projectArtifact = "com.lithium.flow:flow:0.7.48";
-        var repoPath = "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/flow";
-        var subPath = "/src/main/java";
-        var gitBranch = "flow-0.7.48";
+        var projectArtifact = "org.terrakube.terraform:terraform-spring-boot-autoconfigure:0.5.0";
+        var repoPath = "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/org.terrakube.terraform:terraform-spring-boot-autoconfigure/terraform-spring-boot-autoconfigure";
+        var repoBasePath = "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/org.terrakube.terraform:terraform-spring-boot-autoconfigure";
+        var subPath = "";
+        var gitBranch = "0.5.0";
 
         GitUtils.gitCheckoutBranch(repoPath, gitBranch);
-        var checker = new ProjectImportChecker(neo4jConnector, repoPath, subPath, destinationPath, false, true, projectArtifact, Optional.empty(), Optional.of(csvFile), new HashMap<>(){});
+        var checker = new ProjectImportChecker(neo4jConnector, repoBasePath, repoPath, subPath, destinationPath, true, projectArtifact, new HashMap<>(){}, false);
         checker.resolve(false);
         var projectReport = checker.check();
         checker.exportToJson(projectReport, writeFileDestination);

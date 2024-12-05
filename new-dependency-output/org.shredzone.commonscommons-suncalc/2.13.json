@@ -1,0 +1,1884 @@
+{
+  "projectArtifact" : "org.shredzone.commons:commons-suncalc:2.13",
+  "repositoryDir" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/org.shredzone.commons:commons-suncalc",
+  "repositorySubDir" : "",
+  "artifactLocation" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.shredzone.commons:commons-suncalc:2.13",
+  "fileImportReports" : [ {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/org.shredzone.commons:commons-suncalc/src/test/java/org/shredzone/commons/suncalc/MoonTimesTest.java",
+    "useImportReport" : [ {
+      "importPath" : "import org.junit.BeforeClass;",
+      "artifact" : {
+        "artifact" : "junit:junit:4.13.2",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.shredzone.commons:commons-suncalc:2.13/dependencies/junit/junit/4.13.2/junit-4.13.2.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.assertj.core.api.AbstractDateAssert;",
+      "artifact" : {
+        "artifact" : "org.assertj:assertj-core:3.19.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.shredzone.commons:commons-suncalc:2.13/dependencies/org/assertj/assertj-core/3.19.0/assertj-core-3.19.0.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.junit.Test;",
+      "artifact" : {
+        "artifact" : "junit:junit:4.13.2",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.shredzone.commons:commons-suncalc:2.13/dependencies/junit/junit/4.13.2/junit-4.13.2.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.shredzone.commons.suncalc.param.TimeResultParameter.Unit;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import static org.assertj.core.api.Assertions.assertThat;",
+      "artifact" : {
+        "artifact" : "org.assertj:assertj-core:3.19.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.shredzone.commons:commons-suncalc:2.13/dependencies/org/assertj/assertj-core/3.19.0/assertj-core-3.19.0.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.Date;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.Calendar;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.TimeZone;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ {
+      "importPath" : "import static org.shredzone.commons.suncalc.Locations.*;"
+    } ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/org.shredzone.commons:commons-suncalc/src/test/java/org/shredzone/commons/suncalc/util/QuadraticInterpolationTest.java",
+    "useImportReport" : [ {
+      "importPath" : "import org.assertj.core.data.Offset;",
+      "artifact" : {
+        "artifact" : "org.assertj:assertj-core:3.19.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.shredzone.commons:commons-suncalc:2.13/dependencies/org/assertj/assertj-core/3.19.0/assertj-core-3.19.0.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.junit.Test;",
+      "artifact" : {
+        "artifact" : "junit:junit:4.13.2",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.shredzone.commons:commons-suncalc:2.13/dependencies/junit/junit/4.13.2/junit-4.13.2.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import static org.assertj.core.api.Assertions.assertThat;",
+      "artifact" : {
+        "artifact" : "org.assertj:assertj-core:3.19.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.shredzone.commons:commons-suncalc:2.13/dependencies/org/assertj/assertj-core/3.19.0/assertj-core-3.19.0.jar"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/org.shredzone.commons:commons-suncalc/src/test/java/org/shredzone/commons/suncalc/util/MatrixTest.java",
+    "useImportReport" : [ {
+      "importPath" : "import org.assertj.core.data.Offset;",
+      "artifact" : {
+        "artifact" : "org.assertj:assertj-core:3.19.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.shredzone.commons:commons-suncalc:2.13/dependencies/org/assertj/assertj-core/3.19.0/assertj-core-3.19.0.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import static java.lang.Math.PI;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.junit.Test;",
+      "artifact" : {
+        "artifact" : "junit:junit:4.13.2",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.shredzone.commons:commons-suncalc:2.13/dependencies/junit/junit/4.13.2/junit-4.13.2.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import static org.assertj.core.api.Assertions.assertThat;",
+      "artifact" : {
+        "artifact" : "org.assertj:assertj-core:3.19.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.shredzone.commons:commons-suncalc:2.13/dependencies/org/assertj/assertj-core/3.19.0/assertj-core-3.19.0.jar"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/org.shredzone.commons:commons-suncalc/src/test/java/org/shredzone/commons/suncalc/util/PegasusTest.java",
+    "useImportReport" : [ {
+      "importPath" : "import org.assertj.core.data.Offset;",
+      "artifact" : {
+        "artifact" : "org.assertj:assertj-core:3.19.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.shredzone.commons:commons-suncalc:2.13/dependencies/org/assertj/assertj-core/3.19.0/assertj-core-3.19.0.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.junit.Test;",
+      "artifact" : {
+        "artifact" : "junit:junit:4.13.2",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.shredzone.commons:commons-suncalc:2.13/dependencies/junit/junit/4.13.2/junit-4.13.2.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import static org.assertj.core.api.Assertions.assertThat;",
+      "artifact" : {
+        "artifact" : "org.assertj:assertj-core:3.19.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.shredzone.commons:commons-suncalc:2.13/dependencies/org/assertj/assertj-core/3.19.0/assertj-core-3.19.0.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import static org.junit.Assert.fail;",
+      "artifact" : {
+        "artifact" : "junit:junit:4.13.2",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.shredzone.commons:commons-suncalc:2.13/dependencies/junit/junit/4.13.2/junit-4.13.2.jar"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/org.shredzone.commons:commons-suncalc/src/test/java/org/shredzone/commons/suncalc/util/JulianDateTest.java",
+    "useImportReport" : [ {
+      "importPath" : "import org.assertj.core.data.Offset;",
+      "artifact" : {
+        "artifact" : "org.assertj:assertj-core:3.19.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.shredzone.commons:commons-suncalc:2.13/dependencies/org/assertj/assertj-core/3.19.0/assertj-core-3.19.0.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.junit.BeforeClass;",
+      "artifact" : {
+        "artifact" : "junit:junit:4.13.2",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.shredzone.commons:commons-suncalc:2.13/dependencies/junit/junit/4.13.2/junit-4.13.2.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.assertj.core.api.AbstractDateAssert;",
+      "artifact" : {
+        "artifact" : "org.assertj:assertj-core:3.19.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.shredzone.commons:commons-suncalc:2.13/dependencies/org/assertj/assertj-core/3.19.0/assertj-core-3.19.0.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.junit.Test;",
+      "artifact" : {
+        "artifact" : "junit:junit:4.13.2",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.shredzone.commons:commons-suncalc:2.13/dependencies/junit/junit/4.13.2/junit-4.13.2.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.Calendar;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import static org.assertj.core.api.Assertions.assertThat;",
+      "artifact" : {
+        "artifact" : "org.assertj:assertj-core:3.19.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.shredzone.commons:commons-suncalc:2.13/dependencies/org/assertj/assertj-core/3.19.0/assertj-core-3.19.0.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import static org.assertj.core.data.Offset.offset;",
+      "artifact" : {
+        "artifact" : "org.assertj:assertj-core:3.19.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.shredzone.commons:commons-suncalc:2.13/dependencies/org/assertj/assertj-core/3.19.0/assertj-core-3.19.0.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import static java.lang.Math.PI;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.TimeZone;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.shredzone.commons.suncalc.param.TimeResultParameter.Unit;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/org.shredzone.commons:commons-suncalc/src/test/java/org/shredzone/commons/suncalc/util/ExtendedMathTest.java",
+    "useImportReport" : [ {
+      "importPath" : "import org.assertj.core.data.Offset;",
+      "artifact" : {
+        "artifact" : "org.assertj:assertj-core:3.19.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.shredzone.commons:commons-suncalc:2.13/dependencies/org/assertj/assertj-core/3.19.0/assertj-core-3.19.0.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.junit.Test;",
+      "artifact" : {
+        "artifact" : "junit:junit:4.13.2",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.shredzone.commons:commons-suncalc:2.13/dependencies/junit/junit/4.13.2/junit-4.13.2.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import static org.assertj.core.api.Assertions.assertThat;",
+      "artifact" : {
+        "artifact" : "org.assertj:assertj-core:3.19.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.shredzone.commons:commons-suncalc:2.13/dependencies/org/assertj/assertj-core/3.19.0/assertj-core-3.19.0.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import static org.shredzone.commons.suncalc.util.ExtendedMath.*;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import static org.shredzone.commons.suncalc.util.ExtendedMath.*;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/org.shredzone.commons:commons-suncalc/src/test/java/org/shredzone/commons/suncalc/util/BaseBuilderTest.java",
+    "useImportReport" : [ {
+      "importPath" : "import org.assertj.core.data.Offset;",
+      "artifact" : {
+        "artifact" : "org.assertj:assertj-core:3.19.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.shredzone.commons:commons-suncalc:2.13/dependencies/org/assertj/assertj-core/3.19.0/assertj-core-3.19.0.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.Calendar;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.junit.BeforeClass;",
+      "artifact" : {
+        "artifact" : "junit:junit:4.13.2",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.shredzone.commons:commons-suncalc:2.13/dependencies/junit/junit/4.13.2/junit-4.13.2.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.assertj.core.api.AbstractDateAssert;",
+      "artifact" : {
+        "artifact" : "org.assertj:assertj-core:3.19.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.shredzone.commons:commons-suncalc:2.13/dependencies/org/assertj/assertj-core/3.19.0/assertj-core-3.19.0.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.junit.Test;",
+      "artifact" : {
+        "artifact" : "junit:junit:4.13.2",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.shredzone.commons:commons-suncalc:2.13/dependencies/junit/junit/4.13.2/junit-4.13.2.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import static org.assertj.core.api.Assertions.assertThat;",
+      "artifact" : {
+        "artifact" : "org.assertj:assertj-core:3.19.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.shredzone.commons:commons-suncalc:2.13/dependencies/org/assertj/assertj-core/3.19.0/assertj-core-3.19.0.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import static org.assertj.core.api.Assertions.failBecauseExceptionWasNotThrown;",
+      "artifact" : {
+        "artifact" : "org.assertj:assertj-core:3.19.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.shredzone.commons:commons-suncalc:2.13/dependencies/org/assertj/assertj-core/3.19.0/assertj-core-3.19.0.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.TimeZone;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.Date;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.shredzone.commons.suncalc.param.TimeResultParameter.Unit;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import static java.lang.Math.toRadians;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ {
+      "importPath" : "import org.shredzone.commons.suncalc.Locations;"
+    } ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/org.shredzone.commons:commons-suncalc/src/test/java/org/shredzone/commons/suncalc/util/VectorTest.java",
+    "useImportReport" : [ {
+      "importPath" : "import org.assertj.core.data.Offset;",
+      "artifact" : {
+        "artifact" : "org.assertj:assertj-core:3.19.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.shredzone.commons:commons-suncalc:2.13/dependencies/org/assertj/assertj-core/3.19.0/assertj-core-3.19.0.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import static java.lang.Math.PI;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.junit.Test;",
+      "artifact" : {
+        "artifact" : "junit:junit:4.13.2",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.shredzone.commons:commons-suncalc:2.13/dependencies/junit/junit/4.13.2/junit-4.13.2.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import static org.assertj.core.api.Assertions.assertThat;",
+      "artifact" : {
+        "artifact" : "org.assertj:assertj-core:3.19.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.shredzone.commons:commons-suncalc:2.13/dependencies/org/assertj/assertj-core/3.19.0/assertj-core-3.19.0.jar"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/org.shredzone.commons:commons-suncalc/src/test/java/org/shredzone/commons/suncalc/MoonIlluminationTest.java",
+    "useImportReport" : [ {
+      "importPath" : "import org.assertj.core.data.Offset;",
+      "artifact" : {
+        "artifact" : "org.assertj:assertj-core:3.19.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.shredzone.commons:commons-suncalc:2.13/dependencies/org/assertj/assertj-core/3.19.0/assertj-core-3.19.0.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.junit.Test;",
+      "artifact" : {
+        "artifact" : "junit:junit:4.13.2",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.shredzone.commons:commons-suncalc:2.13/dependencies/junit/junit/4.13.2/junit-4.13.2.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import static org.assertj.core.api.Assertions.assertThat;",
+      "artifact" : {
+        "artifact" : "org.assertj:assertj-core:3.19.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.shredzone.commons:commons-suncalc:2.13/dependencies/org/assertj/assertj-core/3.19.0/assertj-core-3.19.0.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.shredzone.commons.suncalc.MoonPhase.Phase;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ {
+      "importPath" : "import static org.shredzone.commons.suncalc.Locations.COLOGNE_TZ;"
+    } ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/org.shredzone.commons:commons-suncalc/src/test/java/org/shredzone/commons/suncalc/MoonPositionTest.java",
+    "useImportReport" : [ {
+      "importPath" : "import org.assertj.core.data.Offset;",
+      "artifact" : {
+        "artifact" : "org.assertj:assertj-core:3.19.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.shredzone.commons:commons-suncalc:2.13/dependencies/org/assertj/assertj-core/3.19.0/assertj-core-3.19.0.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.junit.Test;",
+      "artifact" : {
+        "artifact" : "junit:junit:4.13.2",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.shredzone.commons:commons-suncalc:2.13/dependencies/junit/junit/4.13.2/junit-4.13.2.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import static org.assertj.core.api.Assertions.assertThat;",
+      "artifact" : {
+        "artifact" : "org.assertj:assertj-core:3.19.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.shredzone.commons:commons-suncalc:2.13/dependencies/org/assertj/assertj-core/3.19.0/assertj-core-3.19.0.jar"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ {
+      "importPath" : "import static org.shredzone.commons.suncalc.Locations.*;"
+    } ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/org.shredzone.commons:commons-suncalc/src/test/java/org/shredzone/commons/suncalc/ExamplesTest.java",
+    "useImportReport" : [ {
+      "importPath" : "import org.junit.Ignore;",
+      "artifact" : {
+        "artifact" : "junit:junit:4.13.2",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.shredzone.commons:commons-suncalc:2.13/dependencies/junit/junit/4.13.2/junit-4.13.2.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.junit.Test;",
+      "artifact" : {
+        "artifact" : "junit:junit:4.13.2",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.shredzone.commons:commons-suncalc:2.13/dependencies/junit/junit/4.13.2/junit-4.13.2.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.TimeZone;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.text.DateFormat;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.Calendar;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.shredzone.commons.suncalc.param.TimeResultParameter;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.Date;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/org.shredzone.commons:commons-suncalc/src/test/java/org/shredzone/commons/suncalc/MoonPhaseTest.java",
+    "useImportReport" : [ {
+      "importPath" : "import org.assertj.core.data.Offset;",
+      "artifact" : {
+        "artifact" : "org.assertj:assertj-core:3.19.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.shredzone.commons:commons-suncalc:2.13/dependencies/org/assertj/assertj-core/3.19.0/assertj-core-3.19.0.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.junit.BeforeClass;",
+      "artifact" : {
+        "artifact" : "junit:junit:4.13.2",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.shredzone.commons:commons-suncalc:2.13/dependencies/junit/junit/4.13.2/junit-4.13.2.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.assertj.core.api.AbstractDateAssert;",
+      "artifact" : {
+        "artifact" : "org.assertj:assertj-core:3.19.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.shredzone.commons:commons-suncalc:2.13/dependencies/org/assertj/assertj-core/3.19.0/assertj-core-3.19.0.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.junit.Test;",
+      "artifact" : {
+        "artifact" : "junit:junit:4.13.2",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.shredzone.commons:commons-suncalc:2.13/dependencies/junit/junit/4.13.2/junit-4.13.2.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.shredzone.commons.suncalc.MoonPhase.Phase;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.shredzone.commons.suncalc.param.TimeResultParameter.Unit;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import static org.assertj.core.api.Assertions.assertThat;",
+      "artifact" : {
+        "artifact" : "org.assertj:assertj-core:3.19.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.shredzone.commons:commons-suncalc:2.13/dependencies/org/assertj/assertj-core/3.19.0/assertj-core-3.19.0.jar"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/org.shredzone.commons:commons-suncalc/src/test/java/org/shredzone/commons/suncalc/SunPositionTest.java",
+    "useImportReport" : [ {
+      "importPath" : "import org.assertj.core.data.Offset;",
+      "artifact" : {
+        "artifact" : "org.assertj:assertj-core:3.19.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.shredzone.commons:commons-suncalc:2.13/dependencies/org/assertj/assertj-core/3.19.0/assertj-core-3.19.0.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.junit.Test;",
+      "artifact" : {
+        "artifact" : "junit:junit:4.13.2",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.shredzone.commons:commons-suncalc:2.13/dependencies/junit/junit/4.13.2/junit-4.13.2.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import static org.assertj.core.api.Assertions.assertThat;",
+      "artifact" : {
+        "artifact" : "org.assertj:assertj-core:3.19.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.shredzone.commons:commons-suncalc:2.13/dependencies/org/assertj/assertj-core/3.19.0/assertj-core-3.19.0.jar"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ {
+      "importPath" : "import static org.shredzone.commons.suncalc.Locations.*;"
+    } ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/org.shredzone.commons:commons-suncalc/src/test/java/org/shredzone/commons/suncalc/SunTimesTest.java",
+    "useImportReport" : [ {
+      "importPath" : "import org.junit.BeforeClass;",
+      "artifact" : {
+        "artifact" : "junit:junit:4.13.2",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.shredzone.commons:commons-suncalc:2.13/dependencies/junit/junit/4.13.2/junit-4.13.2.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.assertj.core.api.AbstractDateAssert;",
+      "artifact" : {
+        "artifact" : "org.assertj:assertj-core:3.19.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.shredzone.commons:commons-suncalc:2.13/dependencies/org/assertj/assertj-core/3.19.0/assertj-core-3.19.0.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.junit.Test;",
+      "artifact" : {
+        "artifact" : "junit:junit:4.13.2",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.shredzone.commons:commons-suncalc:2.13/dependencies/junit/junit/4.13.2/junit-4.13.2.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.Map;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.shredzone.commons.suncalc.SunTimes.Twilight;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.EnumMap;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.shredzone.commons.suncalc.param.TimeResultParameter.Unit;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import static org.assertj.core.api.Assertions.assertThat;",
+      "artifact" : {
+        "artifact" : "org.assertj:assertj-core:3.19.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.shredzone.commons:commons-suncalc:2.13/dependencies/org/assertj/assertj-core/3.19.0/assertj-core-3.19.0.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.Date;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.Calendar;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.TimeZone;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ {
+      "importPath" : "import static org.shredzone.commons.suncalc.Locations.*;"
+    } ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/org.shredzone.commons:commons-suncalc/src/test/java/org/shredzone/commons/suncalc/Locations.java",
+    "useImportReport" : [ {
+      "importPath" : "import java.util.TimeZone;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/org.shredzone.commons:commons-suncalc/src/main/java/org/shredzone/commons/suncalc/MoonPosition.java",
+    "useImportReport" : [ {
+      "importPath" : "import static java.lang.Math.*;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.shredzone.commons.suncalc.param.GenericParameter;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.shredzone.commons.suncalc.param.LocationParameter;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.shredzone.commons.suncalc.param.TimeParameter;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.shredzone.commons.suncalc.param.Builder;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.shredzone.commons.suncalc.util.BaseBuilder;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.shredzone.commons.suncalc.util.JulianDate;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.shredzone.commons.suncalc.util.Vector;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.shredzone.commons.suncalc.util.Moon;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import static org.shredzone.commons.suncalc.util.ExtendedMath.equatorialToHorizontal;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import static org.shredzone.commons.suncalc.util.ExtendedMath.refraction;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import static java.lang.Math.*;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import static java.lang.Math.*;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import static java.lang.Math.*;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import static java.lang.Math.*;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/org.shredzone.commons:commons-suncalc/src/main/java/org/shredzone/commons/suncalc/SunTimes.java",
+    "useImportReport" : [ {
+      "importPath" : "import java.util.Date;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import edu.umd.cs.findbugs.annotations.Nullable;",
+      "artifact" : {
+        "artifact" : "com.github.spotbugs:spotbugs-annotations:4.2.3",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.shredzone.commons:commons-suncalc:2.13/dependencies/com/github/spotbugs/spotbugs-annotations/4.2.3/spotbugs-annotations-4.2.3.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.shredzone.commons.suncalc.param.GenericParameter;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.shredzone.commons.suncalc.param.LocationParameter;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.shredzone.commons.suncalc.param.TimeParameter;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.shredzone.commons.suncalc.param.TimeResultParameter;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.shredzone.commons.suncalc.param.Builder;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import static java.lang.Math.toRadians;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.shredzone.commons.suncalc.util.BaseBuilder;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import static org.shredzone.commons.suncalc.util.ExtendedMath.apparentRefraction;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.shredzone.commons.suncalc.util.JulianDate;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.shredzone.commons.suncalc.util.QuadraticInterpolation;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.shredzone.commons.suncalc.util.Vector;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.shredzone.commons.suncalc.util.Sun;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import static org.shredzone.commons.suncalc.util.ExtendedMath.parallax;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/org.shredzone.commons:commons-suncalc/src/main/java/org/shredzone/commons/suncalc/util/Vector.java",
+    "useImportReport" : [ {
+      "importPath" : "import static java.lang.Math.*;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import static java.lang.Math.*;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import static java.lang.Math.*;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import edu.umd.cs.findbugs.annotations.Nullable;",
+      "artifact" : {
+        "artifact" : "com.github.spotbugs:spotbugs-annotations:4.2.3",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.shredzone.commons:commons-suncalc:2.13/dependencies/com/github/spotbugs/spotbugs-annotations/4.2.3/spotbugs-annotations-4.2.3.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import static org.shredzone.commons.suncalc.util.ExtendedMath.isZero;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import static java.lang.Math.*;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import static org.shredzone.commons.suncalc.util.ExtendedMath.PI2;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/org.shredzone.commons:commons-suncalc/src/main/java/org/shredzone/commons/suncalc/util/BaseBuilder.java",
+    "useImportReport" : [ {
+      "importPath" : "import org.shredzone.commons.suncalc.param.GenericParameter;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.shredzone.commons.suncalc.param.LocationParameter;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.shredzone.commons.suncalc.param.TimeParameter;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.shredzone.commons.suncalc.param.TimeResultParameter;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.Calendar;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.Date;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.TimeZone;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import static java.lang.Math.*;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import static java.lang.Math.*;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import static java.lang.Math.*;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/org.shredzone.commons:commons-suncalc/src/main/java/org/shredzone/commons/suncalc/util/QuadraticInterpolation.java",
+    "useImportReport" : [ {
+      "importPath" : "import static java.lang.Math.sqrt;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import static java.lang.Math.abs;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/org.shredzone.commons:commons-suncalc/src/main/java/org/shredzone/commons/suncalc/util/Matrix.java",
+    "useImportReport" : [ {
+      "importPath" : "import static java.lang.Math.sin;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import static java.lang.Math.cos;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.Arrays;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/org.shredzone.commons:commons-suncalc/src/main/java/org/shredzone/commons/suncalc/util/Pegasus.java",
+    "useImportReport" : [ {
+      "importPath" : "import static java.lang.Math.abs;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/org.shredzone.commons:commons-suncalc/src/main/java/org/shredzone/commons/suncalc/util/Sun.java",
+    "useImportReport" : [ {
+      "importPath" : "import static org.shredzone.commons.suncalc.util.ExtendedMath.*;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import static org.shredzone.commons.suncalc.util.ExtendedMath.*;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import static org.shredzone.commons.suncalc.util.ExtendedMath.*;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import static org.shredzone.commons.suncalc.util.ExtendedMath.*;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import static java.lang.Math.*;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/org.shredzone.commons:commons-suncalc/src/main/java/org/shredzone/commons/suncalc/util/JulianDate.java",
+    "useImportReport" : [ {
+      "importPath" : "import java.util.Calendar;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import static java.lang.Math.*;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.Date;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.shredzone.commons.suncalc.param.TimeResultParameter.Unit;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import static java.lang.Math.*;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import static org.shredzone.commons.suncalc.util.ExtendedMath.*;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import static org.shredzone.commons.suncalc.util.ExtendedMath.*;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/org.shredzone.commons:commons-suncalc/src/main/java/org/shredzone/commons/suncalc/util/Moon.java",
+    "useImportReport" : [ {
+      "importPath" : "import static org.shredzone.commons.suncalc.util.ExtendedMath.*;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import static org.shredzone.commons.suncalc.util.ExtendedMath.*;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import static java.lang.Math.*;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import static org.shredzone.commons.suncalc.util.ExtendedMath.*;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import static java.lang.Math.*;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import static org.shredzone.commons.suncalc.util.ExtendedMath.*;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import static org.shredzone.commons.suncalc.util.ExtendedMath.*;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import static java.lang.Math.*;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/org.shredzone.commons:commons-suncalc/src/main/java/org/shredzone/commons/suncalc/util/ExtendedMath.java",
+    "useImportReport" : [ {
+      "importPath" : "import static java.lang.Math.*;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import static java.lang.Math.*;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import static java.lang.Math.*;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import static java.lang.Math.*;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import static java.lang.Math.*;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import static java.lang.Math.*;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import static java.lang.Math.*;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import static java.lang.Math.*;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/org.shredzone.commons:commons-suncalc/src/main/java/org/shredzone/commons/suncalc/util/package-info.java",
+    "useImportReport" : [ {
+      "importPath" : "import edu.umd.cs.findbugs.annotations.ReturnValuesAreNonnullByDefault;",
+      "artifact" : {
+        "artifact" : "com.github.spotbugs:spotbugs-annotations:4.2.3",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.shredzone.commons:commons-suncalc:2.13/dependencies/com/github/spotbugs/spotbugs-annotations/4.2.3/spotbugs-annotations-4.2.3.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import edu.umd.cs.findbugs.annotations.DefaultAnnotationForParameters;",
+      "artifact" : {
+        "artifact" : "com.github.spotbugs:spotbugs-annotations:4.2.3",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.shredzone.commons:commons-suncalc:2.13/dependencies/com/github/spotbugs/spotbugs-annotations/4.2.3/spotbugs-annotations-4.2.3.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import edu.umd.cs.findbugs.annotations.NonNull;",
+      "artifact" : {
+        "artifact" : "com.github.spotbugs:spotbugs-annotations:4.2.3",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.shredzone.commons:commons-suncalc:2.13/dependencies/com/github/spotbugs/spotbugs-annotations/4.2.3/spotbugs-annotations-4.2.3.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import edu.umd.cs.findbugs.annotations.DefaultAnnotationForFields;",
+      "artifact" : {
+        "artifact" : "com.github.spotbugs:spotbugs-annotations:4.2.3",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.shredzone.commons:commons-suncalc:2.13/dependencies/com/github/spotbugs/spotbugs-annotations/4.2.3/spotbugs-annotations-4.2.3.jar"
+      },
+      "isDirectDependency" : true
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/org.shredzone.commons:commons-suncalc/src/main/java/org/shredzone/commons/suncalc/MoonTimes.java",
+    "useImportReport" : [ {
+      "importPath" : "import java.util.Date;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import edu.umd.cs.findbugs.annotations.Nullable;",
+      "artifact" : {
+        "artifact" : "com.github.spotbugs:spotbugs-annotations:4.2.3",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.shredzone.commons:commons-suncalc:2.13/dependencies/com/github/spotbugs/spotbugs-annotations/4.2.3/spotbugs-annotations-4.2.3.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.shredzone.commons.suncalc.param.GenericParameter;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.shredzone.commons.suncalc.param.LocationParameter;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.shredzone.commons.suncalc.param.TimeParameter;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.shredzone.commons.suncalc.param.TimeResultParameter;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.shredzone.commons.suncalc.param.Builder;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.shredzone.commons.suncalc.util.BaseBuilder;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import static org.shredzone.commons.suncalc.util.ExtendedMath.apparentRefraction;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.shredzone.commons.suncalc.util.JulianDate;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.shredzone.commons.suncalc.util.QuadraticInterpolation;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.shredzone.commons.suncalc.util.Vector;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.shredzone.commons.suncalc.util.Moon;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import static org.shredzone.commons.suncalc.util.ExtendedMath.parallax;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/org.shredzone.commons:commons-suncalc/src/main/java/org/shredzone/commons/suncalc/MoonIllumination.java",
+    "useImportReport" : [ {
+      "importPath" : "import org.shredzone.commons.suncalc.param.GenericParameter;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.shredzone.commons.suncalc.param.TimeParameter;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.shredzone.commons.suncalc.param.Builder;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.shredzone.commons.suncalc.util.BaseBuilder;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.shredzone.commons.suncalc.util.JulianDate;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.shredzone.commons.suncalc.util.Vector;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.shredzone.commons.suncalc.util.Sun;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.shredzone.commons.suncalc.util.Moon;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import static java.lang.Math.*;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import static java.lang.Math.*;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import static java.lang.Math.*;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import static java.lang.Math.*;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/org.shredzone.commons:commons-suncalc/src/main/java/org/shredzone/commons/suncalc/param/LocationParameter.java",
+    "useImportReport" : [ ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/org.shredzone.commons:commons-suncalc/src/main/java/org/shredzone/commons/suncalc/param/Builder.java",
+    "useImportReport" : [ ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/org.shredzone.commons:commons-suncalc/src/main/java/org/shredzone/commons/suncalc/param/GenericParameter.java",
+    "useImportReport" : [ ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/org.shredzone.commons:commons-suncalc/src/main/java/org/shredzone/commons/suncalc/param/TimeParameter.java",
+    "useImportReport" : [ {
+      "importPath" : "import java.util.Calendar;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.Date;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.TimeZone;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/org.shredzone.commons:commons-suncalc/src/main/java/org/shredzone/commons/suncalc/param/TimeResultParameter.java",
+    "useImportReport" : [ ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/org.shredzone.commons:commons-suncalc/src/main/java/org/shredzone/commons/suncalc/param/package-info.java",
+    "useImportReport" : [ {
+      "importPath" : "import edu.umd.cs.findbugs.annotations.ReturnValuesAreNonnullByDefault;",
+      "artifact" : {
+        "artifact" : "com.github.spotbugs:spotbugs-annotations:4.2.3",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.shredzone.commons:commons-suncalc:2.13/dependencies/com/github/spotbugs/spotbugs-annotations/4.2.3/spotbugs-annotations-4.2.3.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import edu.umd.cs.findbugs.annotations.DefaultAnnotationForParameters;",
+      "artifact" : {
+        "artifact" : "com.github.spotbugs:spotbugs-annotations:4.2.3",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.shredzone.commons:commons-suncalc:2.13/dependencies/com/github/spotbugs/spotbugs-annotations/4.2.3/spotbugs-annotations-4.2.3.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import edu.umd.cs.findbugs.annotations.NonNull;",
+      "artifact" : {
+        "artifact" : "com.github.spotbugs:spotbugs-annotations:4.2.3",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.shredzone.commons:commons-suncalc:2.13/dependencies/com/github/spotbugs/spotbugs-annotations/4.2.3/spotbugs-annotations-4.2.3.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import edu.umd.cs.findbugs.annotations.DefaultAnnotationForFields;",
+      "artifact" : {
+        "artifact" : "com.github.spotbugs:spotbugs-annotations:4.2.3",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.shredzone.commons:commons-suncalc:2.13/dependencies/com/github/spotbugs/spotbugs-annotations/4.2.3/spotbugs-annotations-4.2.3.jar"
+      },
+      "isDirectDependency" : true
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/org.shredzone.commons:commons-suncalc/src/main/java/org/shredzone/commons/suncalc/SunPosition.java",
+    "useImportReport" : [ {
+      "importPath" : "import static java.lang.Math.toDegrees;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.shredzone.commons.suncalc.param.GenericParameter;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.shredzone.commons.suncalc.param.LocationParameter;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.shredzone.commons.suncalc.param.TimeParameter;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.shredzone.commons.suncalc.param.Builder;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.shredzone.commons.suncalc.util.BaseBuilder;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.shredzone.commons.suncalc.util.JulianDate;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import static java.lang.Math.toRadians;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.shredzone.commons.suncalc.util.Vector;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.shredzone.commons.suncalc.util.Sun;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import static org.shredzone.commons.suncalc.util.ExtendedMath.equatorialToHorizontal;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import static org.shredzone.commons.suncalc.util.ExtendedMath.refraction;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/org.shredzone.commons:commons-suncalc/src/main/java/org/shredzone/commons/suncalc/MoonPhase.java",
+    "useImportReport" : [ {
+      "importPath" : "import java.util.Date;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.shredzone.commons.suncalc.param.GenericParameter;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.shredzone.commons.suncalc.param.TimeParameter;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.shredzone.commons.suncalc.param.TimeResultParameter;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.shredzone.commons.suncalc.param.Builder;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import static java.lang.Math.toRadians;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.shredzone.commons.suncalc.util.BaseBuilder;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.shredzone.commons.suncalc.util.JulianDate;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.shredzone.commons.suncalc.util.Pegasus;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.shredzone.commons.suncalc.util.Moon;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.shredzone.commons.suncalc.util.Vector;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.shredzone.commons.suncalc.util.Sun;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import static org.shredzone.commons.suncalc.util.ExtendedMath.PI2;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import static java.lang.Math.PI;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/org.shredzone.commons:commons-suncalc/src/main/java/org/shredzone/commons/suncalc/package-info.java",
+    "useImportReport" : [ {
+      "importPath" : "import edu.umd.cs.findbugs.annotations.ReturnValuesAreNonnullByDefault;",
+      "artifact" : {
+        "artifact" : "com.github.spotbugs:spotbugs-annotations:4.2.3",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.shredzone.commons:commons-suncalc:2.13/dependencies/com/github/spotbugs/spotbugs-annotations/4.2.3/spotbugs-annotations-4.2.3.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import edu.umd.cs.findbugs.annotations.DefaultAnnotationForParameters;",
+      "artifact" : {
+        "artifact" : "com.github.spotbugs:spotbugs-annotations:4.2.3",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.shredzone.commons:commons-suncalc:2.13/dependencies/com/github/spotbugs/spotbugs-annotations/4.2.3/spotbugs-annotations-4.2.3.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import edu.umd.cs.findbugs.annotations.NonNull;",
+      "artifact" : {
+        "artifact" : "com.github.spotbugs:spotbugs-annotations:4.2.3",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.shredzone.commons:commons-suncalc:2.13/dependencies/com/github/spotbugs/spotbugs-annotations/4.2.3/spotbugs-annotations-4.2.3.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import edu.umd.cs.findbugs.annotations.DefaultAnnotationForFields;",
+      "artifact" : {
+        "artifact" : "com.github.spotbugs:spotbugs-annotations:4.2.3",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.shredzone.commons:commons-suncalc:2.13/dependencies/com/github/spotbugs/spotbugs-annotations/4.2.3/spotbugs-annotations-4.2.3.jar"
+      },
+      "isDirectDependency" : true
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  } ],
+  "projectUseDependencies" : [ {
+    "artifact" : "com.github.spotbugs:spotbugs-annotations:4.2.3",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.shredzone.commons:commons-suncalc:2.13/dependencies/com/github/spotbugs/spotbugs-annotations/4.2.3/spotbugs-annotations-4.2.3.jar"
+  } ],
+  "projectUseTransitiveDependencies" : [ ],
+  "projectUnusedDependencies" : [ ]
+}

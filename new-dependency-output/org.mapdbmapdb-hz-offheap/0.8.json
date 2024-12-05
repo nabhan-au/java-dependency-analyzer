@@ -1,0 +1,266 @@
+{
+  "projectArtifact" : "org.mapdb:mapdb-hz-offheap:0.8",
+  "repositoryDir" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/org.mapdb:mapdb-hz-offheap",
+  "repositorySubDir" : "",
+  "artifactLocation" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.mapdb:mapdb-hz-offheap:0.8",
+  "fileImportReports" : [ {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/org.mapdb:mapdb-hz-offheap/src/test/java/org/mapdb/hzoffheap/Benchmark.java",
+    "useImportReport" : [ {
+      "importPath" : "import com.hazelcast.config.Config;",
+      "artifact" : {
+        "artifact" : "com.hazelcast:hazelcast:3.2",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.mapdb:mapdb-hz-offheap:0.8/dependencies/com/hazelcast/hazelcast/3.2/hazelcast-3.2.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import com.hazelcast.core.HazelcastInstance;",
+      "artifact" : {
+        "artifact" : "com.hazelcast:hazelcast:3.2",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.mapdb:mapdb-hz-offheap:0.8/dependencies/com/hazelcast/hazelcast/3.2/hazelcast-3.2.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import com.hazelcast.core.Hazelcast;",
+      "artifact" : {
+        "artifact" : "com.hazelcast:hazelcast:3.2",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.mapdb:mapdb-hz-offheap:0.8/dependencies/com/hazelcast/hazelcast/3.2/hazelcast-3.2.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import java.util.Map;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ {
+      "importPath" : "import com.hazelcast.core.DistributedObjectEvent;",
+      "artifact" : {
+        "artifact" : "com.hazelcast:hazelcast:3.2",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.mapdb:mapdb-hz-offheap:0.8/dependencies/com/hazelcast/hazelcast/3.2/hazelcast-3.2.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import com.hazelcast.core.DistributedObjectListener;",
+      "artifact" : {
+        "artifact" : "com.hazelcast:hazelcast:3.2",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.mapdb:mapdb-hz-offheap:0.8/dependencies/com/hazelcast/hazelcast/3.2/hazelcast-3.2.jar"
+      },
+      "isDirectDependency" : true
+    } ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/org.mapdb:mapdb-hz-offheap/src/main/java/org/mapdb/hzoffheap/HzOffheap.java",
+    "useImportReport" : [ {
+      "importPath" : "import java.util.logging.Logger;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.concurrent.atomic.AtomicBoolean;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.concurrent.ConcurrentMap;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.mapdb.DBMaker;",
+      "artifact" : {
+        "artifact" : "org.mapdb:mapdb:[1.0.0,)",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.mapdb:mapdb-hz-offheap:0.8/dependencies/org/mapdb/mapdb/3.1.0/mapdb-3.1.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import com.hazelcast.nio.serialization.MapDBDataSerializer;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.hazeclast.map.record.MapDBDataRecordSerializer;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/org.mapdb:mapdb-hz-offheap/src/main/java/org/mapdb/hzoffheap/HzOffheapAgent.java",
+    "useImportReport" : [ {
+      "importPath" : "import java.lang.instrument.ClassFileTransformer;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.logging.Logger;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.lang.instrument.Instrumentation;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.logging.Level;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import javassist.ClassPool;",
+      "artifact" : {
+        "artifact" : "org.javassist:javassist:3.18.1-GA",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.mapdb:mapdb-hz-offheap:0.8/dependencies/org/javassist/javassist/3.18.1-GA/javassist-3.18.1-GA.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import javassist.CtClass;",
+      "artifact" : {
+        "artifact" : "org.javassist:javassist:3.18.1-GA",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.mapdb:mapdb-hz-offheap:0.8/dependencies/org/javassist/javassist/3.18.1-GA/javassist-3.18.1-GA.jar"
+      },
+      "isDirectDependency" : true
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/org.mapdb:mapdb-hz-offheap/src/main/java/com/hazeclast/map/record/MapDBDataRecordSerializer.java",
+    "useImportReport" : [ {
+      "importPath" : "import org.mapdb.Serializer;",
+      "artifact" : {
+        "artifact" : "org.mapdb:mapdb:[1.0.0,)",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.mapdb:mapdb-hz-offheap:0.8/dependencies/org/mapdb/mapdb/3.1.0/mapdb-3.1.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import com.hazelcast.map.record.DataRecord;",
+      "artifact" : {
+        "artifact" : "com.hazelcast:hazelcast:3.2",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.mapdb:mapdb-hz-offheap:0.8/dependencies/com/hazelcast/hazelcast/3.2/hazelcast-3.2.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import java.io.Serializable;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.hazelcast.nio.serialization.MapDBDataSerializer;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.io.DataOutput;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.io.IOException;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.io.DataInput;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.hazelcast.nio.serialization.Data;",
+      "artifact" : {
+        "artifact" : "com.hazelcast:hazelcast:3.2",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.mapdb:mapdb-hz-offheap:0.8/dependencies/com/hazelcast/hazelcast/3.2/hazelcast-3.2.jar"
+      },
+      "isDirectDependency" : true
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/org.mapdb:mapdb-hz-offheap/src/main/java/com/hazelcast/nio/serialization/MapDBDataSerializer.java",
+    "useImportReport" : [ {
+      "importPath" : "import java.io.Serializable;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.io.DataOutput;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.io.IOException;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.io.DataInput;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ {
+      "importPath" : "org.mapdb.Serializer<Data>",
+      "artifact" : {
+        "artifact" : "org.mapdb:mapdb:[1.0.0,)",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.mapdb:mapdb-hz-offheap:0.8/dependencies/org/mapdb/mapdb/3.1.0/mapdb-3.1.0.jar"
+      },
+      "isDirectDependency" : true
+    } ],
+    "failImportReport" : [ ]
+  } ],
+  "projectUseDependencies" : [ {
+    "artifact" : "com.hazelcast:hazelcast:3.2",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.mapdb:mapdb-hz-offheap:0.8/dependencies/com/hazelcast/hazelcast/3.2/hazelcast-3.2.jar"
+  }, {
+    "artifact" : "org.mapdb:mapdb:[1.0.0,)",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.mapdb:mapdb-hz-offheap:0.8/dependencies/org/mapdb/mapdb/3.1.0/mapdb-3.1.0.jar"
+  }, {
+    "artifact" : "org.javassist:javassist:3.18.1-GA",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.mapdb:mapdb-hz-offheap:0.8/dependencies/org/javassist/javassist/3.18.1-GA/javassist-3.18.1-GA.jar"
+  } ],
+  "projectUseTransitiveDependencies" : [ ],
+  "projectUnusedDependencies" : [ ]
+}

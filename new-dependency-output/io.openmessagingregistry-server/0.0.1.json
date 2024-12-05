@@ -1,0 +1,1323 @@
+{
+  "projectArtifact" : "io.openmessaging:registry-server:0.0.1",
+  "repositoryDir" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/io.openmessaging:registry-server",
+  "repositorySubDir" : "",
+  "artifactLocation" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.openmessaging:registry-server:0.0.1",
+  "fileImportReports" : [ {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/io.openmessaging:registry-server/src/test/java/io/openschema/registry/server/RegistryServerApplicationTests.java",
+    "useImportReport" : [ {
+      "importPath" : "import org.springframework.boot.test.context.SpringBootTest;",
+      "artifact" : {
+        "artifact" : "org.springframework.boot:spring-boot-test:2.5.4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.openmessaging:registry-server:0.0.1/dependencies/org/springframework/boot/spring-boot-test/2.5.4/spring-boot-test-2.5.4.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.junit.jupiter.api.Test;",
+      "artifact" : {
+        "artifact" : "org.junit.jupiter:junit-jupiter-api:5.7.2",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.openmessaging:registry-server:0.0.1/dependencies/org/junit/jupiter/junit-jupiter-api/5.7.2/junit-jupiter-api-5.7.2.jar"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/io.openmessaging:registry-server/src/main/java/io/openschema/registry/server/enumerate/CompatibilityEnum.java",
+    "useImportReport" : [ {
+      "importPath" : "import lombok.AllArgsConstructor;",
+      "artifact" : {
+        "artifact" : "org.projectlombok:lombok:1.18.22",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.openmessaging:registry-server:0.0.1/dependencies/org/projectlombok/lombok/1.18.22/lombok-1.18.22.jar"
+      },
+      "isDirectDependency" : true
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/io.openmessaging:registry-server/src/main/java/io/openschema/registry/server/repository/SubjectRepository.java",
+    "useImportReport" : [ {
+      "importPath" : "import org.springframework.data.jpa.repository.JpaRepository;",
+      "artifact" : {
+        "artifact" : "org.springframework.data:spring-data-jpa:2.5.4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.openmessaging:registry-server:0.0.1/dependencies/org/springframework/data/spring-data-jpa/2.5.4/spring-data-jpa-2.5.4.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import io.openschema.registry.server.domain.Subject;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.springframework.stereotype.Repository;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-context:5.3.9",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.openmessaging:registry-server:0.0.1/dependencies/org/springframework/spring-context/5.3.9/spring-context-5.3.9.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.List;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.springframework.data.jpa.repository.Query;",
+      "artifact" : {
+        "artifact" : "org.springframework.data:spring-data-jpa:2.5.4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.openmessaging:registry-server:0.0.1/dependencies/org/springframework/data/spring-data-jpa/2.5.4/spring-data-jpa-2.5.4.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.springframework.data.repository.query.Param;",
+      "artifact" : {
+        "artifact" : "org.springframework.data:spring-data-commons:2.5.4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.openmessaging:registry-server:0.0.1/dependencies/org/springframework/data/spring-data-commons/2.5.4/spring-data-commons-2.5.4.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.springframework.transaction.annotation.Transactional;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-tx:5.3.9",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.openmessaging:registry-server:0.0.1/dependencies/org/springframework/spring-tx/5.3.9/spring-tx-5.3.9.jar"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/io.openmessaging:registry-server/src/main/java/io/openschema/registry/server/repository/SchemaRepository.java",
+    "useImportReport" : [ {
+      "importPath" : "import org.springframework.data.jpa.repository.JpaRepository;",
+      "artifact" : {
+        "artifact" : "org.springframework.data:spring-data-jpa:2.5.4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.openmessaging:registry-server:0.0.1/dependencies/org/springframework/data/spring-data-jpa/2.5.4/spring-data-jpa-2.5.4.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import io.openschema.registry.server.domain.SchemaWithSubjectName;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.springframework.stereotype.Repository;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-context:5.3.9",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.openmessaging:registry-server:0.0.1/dependencies/org/springframework/spring-context/5.3.9/spring-context-5.3.9.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.List;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.springframework.data.jpa.repository.Query;",
+      "artifact" : {
+        "artifact" : "org.springframework.data:spring-data-jpa:2.5.4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.openmessaging:registry-server:0.0.1/dependencies/org/springframework/data/spring-data-jpa/2.5.4/spring-data-jpa-2.5.4.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.springframework.transaction.annotation.Transactional;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-tx:5.3.9",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.openmessaging:registry-server:0.0.1/dependencies/org/springframework/spring-tx/5.3.9/spring-tx-5.3.9.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import io.openschema.registry.server.domain.Schema;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/io.openmessaging:registry-server/src/main/java/io/openschema/registry/server/response/CompatibilityResultResponse.java",
+    "useImportReport" : [ {
+      "importPath" : "import lombok.Data;",
+      "artifact" : {
+        "artifact" : "org.projectlombok:lombok:1.18.22",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.openmessaging:registry-server:0.0.1/dependencies/org/projectlombok/lombok/1.18.22/lombok-1.18.22.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import lombok.AllArgsConstructor;",
+      "artifact" : {
+        "artifact" : "org.projectlombok:lombok:1.18.22",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.openmessaging:registry-server:0.0.1/dependencies/org/projectlombok/lombok/1.18.22/lombok-1.18.22.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import lombok.NoArgsConstructor;",
+      "artifact" : {
+        "artifact" : "org.projectlombok:lombok:1.18.22",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.openmessaging:registry-server:0.0.1/dependencies/org/projectlombok/lombok/1.18.22/lombok-1.18.22.jar"
+      },
+      "isDirectDependency" : true
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/io.openmessaging:registry-server/src/main/java/io/openschema/registry/server/response/SubjectAndVersionResponse.java",
+    "useImportReport" : [ {
+      "importPath" : "import lombok.Data;",
+      "artifact" : {
+        "artifact" : "org.projectlombok:lombok:1.18.22",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.openmessaging:registry-server:0.0.1/dependencies/org/projectlombok/lombok/1.18.22/lombok-1.18.22.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import lombok.AllArgsConstructor;",
+      "artifact" : {
+        "artifact" : "org.projectlombok:lombok:1.18.22",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.openmessaging:registry-server:0.0.1/dependencies/org/projectlombok/lombok/1.18.22/lombok-1.18.22.jar"
+      },
+      "isDirectDependency" : true
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/io.openmessaging:registry-server/src/main/java/io/openschema/registry/server/response/SchemaIdResponse.java",
+    "useImportReport" : [ {
+      "importPath" : "import lombok.Data;",
+      "artifact" : {
+        "artifact" : "org.projectlombok:lombok:1.18.22",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.openmessaging:registry-server:0.0.1/dependencies/org/projectlombok/lombok/1.18.22/lombok-1.18.22.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import lombok.AllArgsConstructor;",
+      "artifact" : {
+        "artifact" : "org.projectlombok:lombok:1.18.22",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.openmessaging:registry-server:0.0.1/dependencies/org/projectlombok/lombok/1.18.22/lombok-1.18.22.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import lombok.NoArgsConstructor;",
+      "artifact" : {
+        "artifact" : "org.projectlombok:lombok:1.18.22",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.openmessaging:registry-server:0.0.1/dependencies/org/projectlombok/lombok/1.18.22/lombok-1.18.22.jar"
+      },
+      "isDirectDependency" : true
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/io.openmessaging:registry-server/src/main/java/io/openschema/registry/server/controller/SubjectController.java",
+    "useImportReport" : [ {
+      "importPath" : "import org.springframework.web.bind.annotation.RestController;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-web:5.3.9",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.openmessaging:registry-server:0.0.1/dependencies/org/springframework/spring-web/5.3.9/spring-web-5.3.9.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.springframework.web.bind.annotation.RequestMapping;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-web:5.3.9",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.openmessaging:registry-server:0.0.1/dependencies/org/springframework/spring-web/5.3.9/spring-web-5.3.9.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import io.openschema.registry.server.service.SubjectService;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.springframework.beans.factory.annotation.Autowired;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-beans:5.3.9",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.openmessaging:registry-server:0.0.1/dependencies/org/springframework/spring-beans/5.3.9/spring-beans-5.3.9.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.springframework.http.ResponseEntity;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-web:5.3.9",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.openmessaging:registry-server:0.0.1/dependencies/org/springframework/spring-web/5.3.9/spring-web-5.3.9.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.List;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.springframework.web.bind.annotation.GetMapping;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-web:5.3.9",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.openmessaging:registry-server:0.0.1/dependencies/org/springframework/spring-web/5.3.9/spring-web-5.3.9.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.springframework.web.bind.annotation.PathVariable;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-web:5.3.9",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.openmessaging:registry-server:0.0.1/dependencies/org/springframework/spring-web/5.3.9/spring-web-5.3.9.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.springframework.web.bind.annotation.DeleteMapping;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-web:5.3.9",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.openmessaging:registry-server:0.0.1/dependencies/org/springframework/spring-web/5.3.9/spring-web-5.3.9.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import io.openschema.registry.server.domain.Subject;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import io.openschema.registry.server.domain.SubjectWithSchema;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import io.openschema.registry.server.response.SchemaIdResponse;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.springframework.web.bind.annotation.PostMapping;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-web:5.3.9",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.openmessaging:registry-server:0.0.1/dependencies/org/springframework/spring-web/5.3.9/spring-web-5.3.9.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import io.openschema.registry.server.domain.Schema;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.springframework.web.bind.annotation.RequestBody;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-web:5.3.9",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.openmessaging:registry-server:0.0.1/dependencies/org/springframework/spring-web/5.3.9/spring-web-5.3.9.jar"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/io.openmessaging:registry-server/src/main/java/io/openschema/registry/server/controller/CompatibilityController.java",
+    "useImportReport" : [ {
+      "importPath" : "import org.springframework.web.bind.annotation.RestController;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-web:5.3.9",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.openmessaging:registry-server:0.0.1/dependencies/org/springframework/spring-web/5.3.9/spring-web-5.3.9.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.springframework.web.bind.annotation.RequestMapping;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-web:5.3.9",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.openmessaging:registry-server:0.0.1/dependencies/org/springframework/spring-web/5.3.9/spring-web-5.3.9.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import io.openschema.registry.server.service.CompatibilityService;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.springframework.beans.factory.annotation.Autowired;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-beans:5.3.9",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.openmessaging:registry-server:0.0.1/dependencies/org/springframework/spring-beans/5.3.9/spring-beans-5.3.9.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.springframework.http.ResponseEntity;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-web:5.3.9",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.openmessaging:registry-server:0.0.1/dependencies/org/springframework/spring-web/5.3.9/spring-web-5.3.9.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import io.openschema.registry.server.response.CompatibilityResultResponse;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.springframework.web.bind.annotation.PostMapping;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-web:5.3.9",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.openmessaging:registry-server:0.0.1/dependencies/org/springframework/spring-web/5.3.9/spring-web-5.3.9.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.springframework.web.bind.annotation.PathVariable;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-web:5.3.9",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.openmessaging:registry-server:0.0.1/dependencies/org/springframework/spring-web/5.3.9/spring-web-5.3.9.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import io.openschema.registry.server.domain.Schema;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.springframework.web.bind.annotation.RequestBody;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-web:5.3.9",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.openmessaging:registry-server:0.0.1/dependencies/org/springframework/spring-web/5.3.9/spring-web-5.3.9.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import io.openschema.registry.server.domain.Compatibility;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.springframework.web.bind.annotation.GetMapping;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-web:5.3.9",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.openmessaging:registry-server:0.0.1/dependencies/org/springframework/spring-web/5.3.9/spring-web-5.3.9.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.springframework.web.bind.annotation.PutMapping;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-web:5.3.9",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.openmessaging:registry-server:0.0.1/dependencies/org/springframework/spring-web/5.3.9/spring-web-5.3.9.jar"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/io.openmessaging:registry-server/src/main/java/io/openschema/registry/server/controller/SchemaController.java",
+    "useImportReport" : [ {
+      "importPath" : "import org.springframework.web.bind.annotation.RestController;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-web:5.3.9",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.openmessaging:registry-server:0.0.1/dependencies/org/springframework/spring-web/5.3.9/spring-web-5.3.9.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.springframework.web.bind.annotation.RequestMapping;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-web:5.3.9",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.openmessaging:registry-server:0.0.1/dependencies/org/springframework/spring-web/5.3.9/spring-web-5.3.9.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import io.openschema.registry.server.service.SchemaService;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.springframework.beans.factory.annotation.Autowired;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-beans:5.3.9",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.openmessaging:registry-server:0.0.1/dependencies/org/springframework/spring-beans/5.3.9/spring-beans-5.3.9.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.springframework.http.ResponseEntity;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-web:5.3.9",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.openmessaging:registry-server:0.0.1/dependencies/org/springframework/spring-web/5.3.9/spring-web-5.3.9.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import io.openschema.registry.server.domain.Schema;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.springframework.web.bind.annotation.GetMapping;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-web:5.3.9",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.openmessaging:registry-server:0.0.1/dependencies/org/springframework/spring-web/5.3.9/spring-web-5.3.9.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.springframework.web.bind.annotation.PathVariable;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-web:5.3.9",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.openmessaging:registry-server:0.0.1/dependencies/org/springframework/spring-web/5.3.9/spring-web-5.3.9.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import io.openschema.registry.server.response.SubjectAndVersionResponse;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/io.openmessaging:registry-server/src/main/java/io/openschema/registry/server/common/util/ConverterUtil.java",
+    "useImportReport" : [ {
+      "importPath" : "import org.springframework.stereotype.Component;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-context:5.3.9",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.openmessaging:registry-server:0.0.1/dependencies/org/springframework/spring-context/5.3.9/spring-context-5.3.9.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.UUID;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.sql.Timestamp;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/io.openmessaging:registry-server/src/main/java/io/openschema/registry/server/common/util/JsonUtils.java",
+    "useImportReport" : [ {
+      "importPath" : "import com.fasterxml.jackson.databind.ObjectMapper;",
+      "artifact" : {
+        "artifact" : "com.fasterxml.jackson.core:jackson-databind:2.12.4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.openmessaging:registry-server:0.0.1/dependencies/com/fasterxml/jackson/core/jackson-databind/2.12.4/jackson-databind-2.12.4.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.fasterxml.jackson.annotation.JsonInclude;",
+      "artifact" : {
+        "artifact" : "com.fasterxml.jackson.core:jackson-annotations:2.12.4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.openmessaging:registry-server:0.0.1/dependencies/com/fasterxml/jackson/core/jackson-annotations/2.12.4/jackson-annotations-2.12.4.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.fasterxml.jackson.databind.DeserializationFeature;",
+      "artifact" : {
+        "artifact" : "com.fasterxml.jackson.core:jackson-databind:2.12.4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.openmessaging:registry-server:0.0.1/dependencies/com/fasterxml/jackson/core/jackson-databind/2.12.4/jackson-databind-2.12.4.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.fasterxml.jackson.databind.SerializationFeature;",
+      "artifact" : {
+        "artifact" : "com.fasterxml.jackson.core:jackson-databind:2.12.4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.openmessaging:registry-server:0.0.1/dependencies/com/fasterxml/jackson/core/jackson-databind/2.12.4/jackson-databind-2.12.4.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.fasterxml.jackson.core.JsonProcessingException;",
+      "artifact" : {
+        "artifact" : "com.fasterxml.jackson.core:jackson-core:2.12.4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.openmessaging:registry-server:0.0.1/dependencies/com/fasterxml/jackson/core/jackson-core/2.12.4/jackson-core-2.12.4.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.io.IOException;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/io.openmessaging:registry-server/src/main/java/io/openschema/registry/server/RegistryServerApplication.java",
+    "useImportReport" : [ {
+      "importPath" : "import org.springframework.boot.autoconfigure.SpringBootApplication;",
+      "artifact" : {
+        "artifact" : "org.springframework.boot:spring-boot-autoconfigure:2.5.4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.openmessaging:registry-server:0.0.1/dependencies/org/springframework/boot/spring-boot-autoconfigure/2.5.4/spring-boot-autoconfigure-2.5.4.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.springframework.boot.SpringApplication;",
+      "artifact" : {
+        "artifact" : "org.springframework.boot:spring-boot:2.5.4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.openmessaging:registry-server:0.0.1/dependencies/org/springframework/boot/spring-boot/2.5.4/spring-boot-2.5.4.jar"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/io.openmessaging:registry-server/src/main/java/io/openschema/registry/server/request/SchemaCreateRequest.java",
+    "useImportReport" : [ {
+      "importPath" : "import lombok.Data;",
+      "artifact" : {
+        "artifact" : "org.projectlombok:lombok:1.18.22",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.openmessaging:registry-server:0.0.1/dependencies/org/projectlombok/lombok/1.18.22/lombok-1.18.22.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import lombok.AllArgsConstructor;",
+      "artifact" : {
+        "artifact" : "org.projectlombok:lombok:1.18.22",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.openmessaging:registry-server:0.0.1/dependencies/org/projectlombok/lombok/1.18.22/lombok-1.18.22.jar"
+      },
+      "isDirectDependency" : true
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/io.openmessaging:registry-server/src/main/java/io/openschema/registry/server/request/SubjectCreateRequest.java",
+    "useImportReport" : [ {
+      "importPath" : "import lombok.Data;",
+      "artifact" : {
+        "artifact" : "org.projectlombok:lombok:1.18.22",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.openmessaging:registry-server:0.0.1/dependencies/org/projectlombok/lombok/1.18.22/lombok-1.18.22.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import lombok.AllArgsConstructor;",
+      "artifact" : {
+        "artifact" : "org.projectlombok:lombok:1.18.22",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.openmessaging:registry-server:0.0.1/dependencies/org/projectlombok/lombok/1.18.22/lombok-1.18.22.jar"
+      },
+      "isDirectDependency" : true
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/io.openmessaging:registry-server/src/main/java/io/openschema/registry/server/service/CompatibilityChecker.java",
+    "useImportReport" : [ {
+      "importPath" : "import io.openschema.registry.server.domain.Schema;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/io.openmessaging:registry-server/src/main/java/io/openschema/registry/server/service/CompatibilityService.java",
+    "useImportReport" : [ {
+      "importPath" : "import org.springframework.stereotype.Service;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-context:5.3.9",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.openmessaging:registry-server:0.0.1/dependencies/org/springframework/spring-context/5.3.9/spring-context-5.3.9.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import io.openschema.registry.server.repository.SubjectRepository;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.springframework.beans.factory.annotation.Autowired;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-beans:5.3.9",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.openmessaging:registry-server:0.0.1/dependencies/org/springframework/spring-beans/5.3.9/spring-beans-5.3.9.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import io.openschema.registry.server.repository.SchemaRepository;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import io.openschema.registry.server.response.CompatibilityResultResponse;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import io.openschema.registry.server.domain.Schema;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import io.openschema.registry.server.domain.Subject;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import io.openschema.registry.server.exception.OpenSchemaException;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import io.openschema.registry.server.exception.ExceptionEnum;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import io.openschema.registry.server.domain.Compatibility;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/io.openmessaging:registry-server/src/main/java/io/openschema/registry/server/service/SchemaService.java",
+    "useImportReport" : [ {
+      "importPath" : "import org.springframework.stereotype.Service;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-context:5.3.9",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.openmessaging:registry-server:0.0.1/dependencies/org/springframework/spring-context/5.3.9/spring-context-5.3.9.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import io.openschema.registry.server.repository.SchemaRepository;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.springframework.beans.factory.annotation.Autowired;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-beans:5.3.9",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.openmessaging:registry-server:0.0.1/dependencies/org/springframework/spring-beans/5.3.9/spring-beans-5.3.9.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import io.openschema.registry.server.domain.Schema;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import io.openschema.registry.server.domain.SchemaWithSubjectName;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import io.openschema.registry.server.exception.OpenSchemaException;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import io.openschema.registry.server.exception.ExceptionEnum;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import io.openschema.registry.server.response.SubjectAndVersionResponse;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/io.openmessaging:registry-server/src/main/java/io/openschema/registry/server/service/SubjectService.java",
+    "useImportReport" : [ {
+      "importPath" : "import org.springframework.stereotype.Service;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-context:5.3.9",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.openmessaging:registry-server:0.0.1/dependencies/org/springframework/spring-context/5.3.9/spring-context-5.3.9.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import io.openschema.registry.server.repository.SubjectRepository;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.springframework.beans.factory.annotation.Autowired;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-beans:5.3.9",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.openmessaging:registry-server:0.0.1/dependencies/org/springframework/spring-beans/5.3.9/spring-beans-5.3.9.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import io.openschema.registry.server.repository.SchemaRepository;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import io.openschema.registry.server.common.util.ConverterUtil;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import javax.annotation.Resource;",
+      "artifact" : {
+        "artifact" : "jakarta.annotation:jakarta.annotation-api:1.3.5",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.openmessaging:registry-server:0.0.1/dependencies/jakarta/annotation/jakarta.annotation-api/1.3.5/jakarta.annotation-api-1.3.5.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.List;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import io.openschema.registry.server.exception.OpenSchemaException;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import io.openschema.registry.server.exception.ExceptionEnum;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import io.openschema.registry.server.domain.Subject;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import io.openschema.registry.server.domain.SubjectWithSchema;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import io.openschema.registry.server.domain.Schema;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import io.openschema.registry.server.response.SchemaIdResponse;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import io.openschema.registry.server.domain.SchemaWithSubjectName;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import io.openschema.registry.server.common.util.JsonUtils;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.springframework.transaction.annotation.Transactional;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-tx:5.3.9",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.openmessaging:registry-server:0.0.1/dependencies/org/springframework/spring-tx/5.3.9/spring-tx-5.3.9.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import io.openschema.registry.server.domain.Compatibility;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/io.openmessaging:registry-server/src/main/java/io/openschema/registry/server/domain/Subject.java",
+    "useImportReport" : [ {
+      "importPath" : "import javax.persistence.Entity;",
+      "artifact" : {
+        "artifact" : "jakarta.persistence:jakarta.persistence-api:2.2.3",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.openmessaging:registry-server:0.0.1/dependencies/jakarta/persistence/jakarta.persistence-api/2.2.3/jakarta.persistence-api-2.2.3.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import lombok.Data;",
+      "artifact" : {
+        "artifact" : "org.projectlombok:lombok:1.18.22",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.openmessaging:registry-server:0.0.1/dependencies/org/projectlombok/lombok/1.18.22/lombok-1.18.22.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.hibernate.annotations.DynamicUpdate;",
+      "artifact" : {
+        "artifact" : "org.hibernate:hibernate-core:5.4.32.Final",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.openmessaging:registry-server:0.0.1/dependencies/org/hibernate/hibernate-core/5.4.32.Final/hibernate-core-5.4.32.Final.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import lombok.AllArgsConstructor;",
+      "artifact" : {
+        "artifact" : "org.projectlombok:lombok:1.18.22",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.openmessaging:registry-server:0.0.1/dependencies/org/projectlombok/lombok/1.18.22/lombok-1.18.22.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import lombok.NoArgsConstructor;",
+      "artifact" : {
+        "artifact" : "org.projectlombok:lombok:1.18.22",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.openmessaging:registry-server:0.0.1/dependencies/org/projectlombok/lombok/1.18.22/lombok-1.18.22.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import javax.persistence.Table;",
+      "artifact" : {
+        "artifact" : "jakarta.persistence:jakarta.persistence-api:2.2.3",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.openmessaging:registry-server:0.0.1/dependencies/jakarta/persistence/jakarta.persistence-api/2.2.3/jakarta.persistence-api-2.2.3.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import javax.persistence.Id;",
+      "artifact" : {
+        "artifact" : "jakarta.persistence:jakarta.persistence-api:2.2.3",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.openmessaging:registry-server:0.0.1/dependencies/jakarta/persistence/jakarta.persistence-api/2.2.3/jakarta.persistence-api-2.2.3.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import javax.persistence.Column;",
+      "artifact" : {
+        "artifact" : "jakarta.persistence:jakarta.persistence-api:2.2.3",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.openmessaging:registry-server:0.0.1/dependencies/jakarta/persistence/jakarta.persistence-api/2.2.3/jakarta.persistence-api-2.2.3.jar"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/io.openmessaging:registry-server/src/main/java/io/openschema/registry/server/domain/Schema.java",
+    "useImportReport" : [ {
+      "importPath" : "import lombok.Data;",
+      "artifact" : {
+        "artifact" : "org.projectlombok:lombok:1.18.22",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.openmessaging:registry-server:0.0.1/dependencies/org/projectlombok/lombok/1.18.22/lombok-1.18.22.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import lombok.AllArgsConstructor;",
+      "artifact" : {
+        "artifact" : "org.projectlombok:lombok:1.18.22",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.openmessaging:registry-server:0.0.1/dependencies/org/projectlombok/lombok/1.18.22/lombok-1.18.22.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import lombok.NoArgsConstructor;",
+      "artifact" : {
+        "artifact" : "org.projectlombok:lombok:1.18.22",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.openmessaging:registry-server:0.0.1/dependencies/org/projectlombok/lombok/1.18.22/lombok-1.18.22.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import com.fasterxml.jackson.annotation.JsonProperty;",
+      "artifact" : {
+        "artifact" : "com.fasterxml.jackson.core:jackson-annotations:2.12.4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.openmessaging:registry-server:0.0.1/dependencies/com/fasterxml/jackson/core/jackson-annotations/2.12.4/jackson-annotations-2.12.4.jar"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/io.openmessaging:registry-server/src/main/java/io/openschema/registry/server/domain/SubjectWithSchema.java",
+    "useImportReport" : [ {
+      "importPath" : "import lombok.Data;",
+      "artifact" : {
+        "artifact" : "org.projectlombok:lombok:1.18.22",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.openmessaging:registry-server:0.0.1/dependencies/org/projectlombok/lombok/1.18.22/lombok-1.18.22.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import lombok.AllArgsConstructor;",
+      "artifact" : {
+        "artifact" : "org.projectlombok:lombok:1.18.22",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.openmessaging:registry-server:0.0.1/dependencies/org/projectlombok/lombok/1.18.22/lombok-1.18.22.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import lombok.NoArgsConstructor;",
+      "artifact" : {
+        "artifact" : "org.projectlombok:lombok:1.18.22",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.openmessaging:registry-server:0.0.1/dependencies/org/projectlombok/lombok/1.18.22/lombok-1.18.22.jar"
+      },
+      "isDirectDependency" : true
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/io.openmessaging:registry-server/src/main/java/io/openschema/registry/server/domain/Compatibility.java",
+    "useImportReport" : [ {
+      "importPath" : "import lombok.Data;",
+      "artifact" : {
+        "artifact" : "org.projectlombok:lombok:1.18.22",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.openmessaging:registry-server:0.0.1/dependencies/org/projectlombok/lombok/1.18.22/lombok-1.18.22.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import lombok.AllArgsConstructor;",
+      "artifact" : {
+        "artifact" : "org.projectlombok:lombok:1.18.22",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.openmessaging:registry-server:0.0.1/dependencies/org/projectlombok/lombok/1.18.22/lombok-1.18.22.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import lombok.NoArgsConstructor;",
+      "artifact" : {
+        "artifact" : "org.projectlombok:lombok:1.18.22",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.openmessaging:registry-server:0.0.1/dependencies/org/projectlombok/lombok/1.18.22/lombok-1.18.22.jar"
+      },
+      "isDirectDependency" : true
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/io.openmessaging:registry-server/src/main/java/io/openschema/registry/server/domain/SchemaWithSubjectName.java",
+    "useImportReport" : [ {
+      "importPath" : "import javax.persistence.Entity;",
+      "artifact" : {
+        "artifact" : "jakarta.persistence:jakarta.persistence-api:2.2.3",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.openmessaging:registry-server:0.0.1/dependencies/jakarta/persistence/jakarta.persistence-api/2.2.3/jakarta.persistence-api-2.2.3.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import lombok.Setter;",
+      "artifact" : {
+        "artifact" : "org.projectlombok:lombok:1.18.22",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.openmessaging:registry-server:0.0.1/dependencies/org/projectlombok/lombok/1.18.22/lombok-1.18.22.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import lombok.Getter;",
+      "artifact" : {
+        "artifact" : "org.projectlombok:lombok:1.18.22",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.openmessaging:registry-server:0.0.1/dependencies/org/projectlombok/lombok/1.18.22/lombok-1.18.22.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import lombok.AllArgsConstructor;",
+      "artifact" : {
+        "artifact" : "org.projectlombok:lombok:1.18.22",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.openmessaging:registry-server:0.0.1/dependencies/org/projectlombok/lombok/1.18.22/lombok-1.18.22.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import lombok.NoArgsConstructor;",
+      "artifact" : {
+        "artifact" : "org.projectlombok:lombok:1.18.22",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.openmessaging:registry-server:0.0.1/dependencies/org/projectlombok/lombok/1.18.22/lombok-1.18.22.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import lombok.Builder;",
+      "artifact" : {
+        "artifact" : "org.projectlombok:lombok:1.18.22",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.openmessaging:registry-server:0.0.1/dependencies/org/projectlombok/lombok/1.18.22/lombok-1.18.22.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import javax.persistence.Table;",
+      "artifact" : {
+        "artifact" : "jakarta.persistence:jakarta.persistence-api:2.2.3",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.openmessaging:registry-server:0.0.1/dependencies/jakarta/persistence/jakarta.persistence-api/2.2.3/jakarta.persistence-api-2.2.3.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import javax.persistence.Id;",
+      "artifact" : {
+        "artifact" : "jakarta.persistence:jakarta.persistence-api:2.2.3",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.openmessaging:registry-server:0.0.1/dependencies/jakarta/persistence/jakarta.persistence-api/2.2.3/jakarta.persistence-api-2.2.3.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import javax.persistence.Column;",
+      "artifact" : {
+        "artifact" : "jakarta.persistence:jakarta.persistence-api:2.2.3",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.openmessaging:registry-server:0.0.1/dependencies/jakarta/persistence/jakarta.persistence-api/2.2.3/jakarta.persistence-api-2.2.3.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import javax.persistence.GeneratedValue;",
+      "artifact" : {
+        "artifact" : "jakarta.persistence:jakarta.persistence-api:2.2.3",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.openmessaging:registry-server:0.0.1/dependencies/jakarta/persistence/jakarta.persistence-api/2.2.3/jakarta.persistence-api-2.2.3.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import javax.persistence.GenerationType;",
+      "artifact" : {
+        "artifact" : "jakarta.persistence:jakarta.persistence-api:2.2.3",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.openmessaging:registry-server:0.0.1/dependencies/jakarta/persistence/jakarta.persistence-api/2.2.3/jakarta.persistence-api-2.2.3.jar"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/io.openmessaging:registry-server/src/main/java/io/openschema/registry/server/exception/OpenSchemaExceptionHandler.java",
+    "useImportReport" : [ {
+      "importPath" : "import org.springframework.web.bind.annotation.ControllerAdvice;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-web:5.3.9",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.openmessaging:registry-server:0.0.1/dependencies/org/springframework/spring-web/5.3.9/spring-web-5.3.9.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.springframework.http.ResponseEntity;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-web:5.3.9",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.openmessaging:registry-server:0.0.1/dependencies/org/springframework/spring-web/5.3.9/spring-web-5.3.9.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.springframework.web.bind.annotation.ExceptionHandler;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-web:5.3.9",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.openmessaging:registry-server:0.0.1/dependencies/org/springframework/spring-web/5.3.9/spring-web-5.3.9.jar"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/io.openmessaging:registry-server/src/main/java/io/openschema/registry/server/exception/ExceptionEnum.java",
+    "useImportReport" : [ {
+      "importPath" : "import org.springframework.http.HttpStatus;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-web:5.3.9",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.openmessaging:registry-server:0.0.1/dependencies/org/springframework/spring-web/5.3.9/spring-web-5.3.9.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import lombok.Getter;",
+      "artifact" : {
+        "artifact" : "org.projectlombok:lombok:1.18.22",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.openmessaging:registry-server:0.0.1/dependencies/org/projectlombok/lombok/1.18.22/lombok-1.18.22.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import lombok.AllArgsConstructor;",
+      "artifact" : {
+        "artifact" : "org.projectlombok:lombok:1.18.22",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.openmessaging:registry-server:0.0.1/dependencies/org/projectlombok/lombok/1.18.22/lombok-1.18.22.jar"
+      },
+      "isDirectDependency" : true
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/io.openmessaging:registry-server/src/main/java/io/openschema/registry/server/exception/OpenSchemaException.java",
+    "useImportReport" : [ {
+      "importPath" : "import lombok.Getter;",
+      "artifact" : {
+        "artifact" : "org.projectlombok:lombok:1.18.22",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.openmessaging:registry-server:0.0.1/dependencies/org/projectlombok/lombok/1.18.22/lombok-1.18.22.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import lombok.Setter;",
+      "artifact" : {
+        "artifact" : "org.projectlombok:lombok:1.18.22",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.openmessaging:registry-server:0.0.1/dependencies/org/projectlombok/lombok/1.18.22/lombok-1.18.22.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import lombok.AllArgsConstructor;",
+      "artifact" : {
+        "artifact" : "org.projectlombok:lombok:1.18.22",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.openmessaging:registry-server:0.0.1/dependencies/org/projectlombok/lombok/1.18.22/lombok-1.18.22.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.springframework.http.HttpStatus;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-web:5.3.9",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.openmessaging:registry-server:0.0.1/dependencies/org/springframework/spring-web/5.3.9/spring-web-5.3.9.jar"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/io.openmessaging:registry-server/src/main/java/io/openschema/registry/server/exception/ErrorResponse.java",
+    "useImportReport" : [ {
+      "importPath" : "import lombok.Getter;",
+      "artifact" : {
+        "artifact" : "org.projectlombok:lombok:1.18.22",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.openmessaging:registry-server:0.0.1/dependencies/org/projectlombok/lombok/1.18.22/lombok-1.18.22.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import lombok.Setter;",
+      "artifact" : {
+        "artifact" : "org.projectlombok:lombok:1.18.22",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.openmessaging:registry-server:0.0.1/dependencies/org/projectlombok/lombok/1.18.22/lombok-1.18.22.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import lombok.AllArgsConstructor;",
+      "artifact" : {
+        "artifact" : "org.projectlombok:lombok:1.18.22",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.openmessaging:registry-server:0.0.1/dependencies/org/projectlombok/lombok/1.18.22/lombok-1.18.22.jar"
+      },
+      "isDirectDependency" : true
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  } ],
+  "projectUseDependencies" : [ {
+    "artifact" : "org.projectlombok:lombok:1.18.22",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.openmessaging:registry-server:0.0.1/dependencies/org/projectlombok/lombok/1.18.22/lombok-1.18.22.jar"
+  } ],
+  "projectUseTransitiveDependencies" : [ {
+    "artifact" : "org.springframework.boot:spring-boot-starter-data-jdbc:2.5.4",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.openmessaging:registry-server:0.0.1/dependencies/org/springframework/boot/spring-boot-starter-data-jdbc/2.5.4/spring-boot-starter-data-jdbc-2.5.4.jar"
+  }, {
+    "artifact" : "org.springframework.boot:spring-boot-starter-data-jpa:2.5.4",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.openmessaging:registry-server:0.0.1/dependencies/org/springframework/boot/spring-boot-starter-data-jpa/2.5.4/spring-boot-starter-data-jpa-2.5.4.jar"
+  }, {
+    "artifact" : "org.springframework.boot:spring-boot-starter-web:2.5.4",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.openmessaging:registry-server:0.0.1/dependencies/org/springframework/boot/spring-boot-starter-web/2.5.4/spring-boot-starter-web-2.5.4.jar"
+  }, {
+    "artifact" : "org.springframework.boot:spring-boot-starter-data-jdbc:2.5.4",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.openmessaging:registry-server:0.0.1/dependencies/org/springframework/boot/spring-boot-starter-data-jdbc/2.5.4/spring-boot-starter-data-jdbc-2.5.4.jar"
+  }, {
+    "artifact" : "org.springframework.boot:spring-boot-starter-web:2.5.4",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.openmessaging:registry-server:0.0.1/dependencies/org/springframework/boot/spring-boot-starter-web/2.5.4/spring-boot-starter-web-2.5.4.jar"
+  }, {
+    "artifact" : "org.springframework.boot:spring-boot-starter-web:2.5.4",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.openmessaging:registry-server:0.0.1/dependencies/org/springframework/boot/spring-boot-starter-web/2.5.4/spring-boot-starter-web-2.5.4.jar"
+  }, {
+    "artifact" : "org.springframework.boot:spring-boot-starter-data-jdbc:2.5.4",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.openmessaging:registry-server:0.0.1/dependencies/org/springframework/boot/spring-boot-starter-data-jdbc/2.5.4/spring-boot-starter-data-jdbc-2.5.4.jar"
+  }, {
+    "artifact" : "org.springframework.boot:spring-boot-starter-web:2.5.4",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.openmessaging:registry-server:0.0.1/dependencies/org/springframework/boot/spring-boot-starter-web/2.5.4/spring-boot-starter-web-2.5.4.jar"
+  }, {
+    "artifact" : "org.springframework.boot:spring-boot-starter-web:2.5.4",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.openmessaging:registry-server:0.0.1/dependencies/org/springframework/boot/spring-boot-starter-web/2.5.4/spring-boot-starter-web-2.5.4.jar"
+  }, {
+    "artifact" : "org.springframework.boot:spring-boot-starter-web:2.5.4",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.openmessaging:registry-server:0.0.1/dependencies/org/springframework/boot/spring-boot-starter-web/2.5.4/spring-boot-starter-web-2.5.4.jar"
+  }, {
+    "artifact" : "org.springframework.boot:spring-boot-starter-web:2.5.4",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.openmessaging:registry-server:0.0.1/dependencies/org/springframework/boot/spring-boot-starter-web/2.5.4/spring-boot-starter-web-2.5.4.jar"
+  }, {
+    "artifact" : "org.springframework.boot:spring-boot-starter-web:2.5.4",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.openmessaging:registry-server:0.0.1/dependencies/org/springframework/boot/spring-boot-starter-web/2.5.4/spring-boot-starter-web-2.5.4.jar"
+  }, {
+    "artifact" : "org.springframework.boot:spring-boot-starter-web:2.5.4",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.openmessaging:registry-server:0.0.1/dependencies/org/springframework/boot/spring-boot-starter-web/2.5.4/spring-boot-starter-web-2.5.4.jar"
+  }, {
+    "artifact" : "org.springframework.boot:spring-boot-starter-data-jdbc:2.5.4",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.openmessaging:registry-server:0.0.1/dependencies/org/springframework/boot/spring-boot-starter-data-jdbc/2.5.4/spring-boot-starter-data-jdbc-2.5.4.jar"
+  }, {
+    "artifact" : "org.springframework.boot:spring-boot-starter-data-jpa:2.5.4",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.openmessaging:registry-server:0.0.1/dependencies/org/springframework/boot/spring-boot-starter-data-jpa/2.5.4/spring-boot-starter-data-jpa-2.5.4.jar"
+  }, {
+    "artifact" : "org.springframework.boot:spring-boot-starter-data-jdbc:2.5.4",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.openmessaging:registry-server:0.0.1/dependencies/org/springframework/boot/spring-boot-starter-data-jdbc/2.5.4/spring-boot-starter-data-jdbc-2.5.4.jar"
+  }, {
+    "artifact" : "org.springframework.boot:spring-boot-starter-data-jpa:2.5.4",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.openmessaging:registry-server:0.0.1/dependencies/org/springframework/boot/spring-boot-starter-data-jpa/2.5.4/spring-boot-starter-data-jpa-2.5.4.jar"
+  }, {
+    "artifact" : "org.springframework.boot:spring-boot-starter-data-jpa:2.5.4",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.openmessaging:registry-server:0.0.1/dependencies/org/springframework/boot/spring-boot-starter-data-jpa/2.5.4/spring-boot-starter-data-jpa-2.5.4.jar"
+  } ],
+  "projectUnusedDependencies" : [ {
+    "artifact" : "com.h2database:h2:1.4.200",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.openmessaging:registry-server:0.0.1/dependencies/com/h2database/h2/1.4.200/h2-1.4.200.jar"
+  } ]
+}

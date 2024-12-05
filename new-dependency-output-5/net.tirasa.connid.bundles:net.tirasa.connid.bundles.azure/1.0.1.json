@@ -1,0 +1,1802 @@
+{
+  "projectArtifact" : "net.tirasa.connid.bundles:net.tirasa.connid.bundles.azure:1.0.1",
+  "repositoryDir" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/net.tirasa.connid.bundles:net.tirasa.connid.bundles.azure",
+  "repositorySubDir" : "",
+  "artifactLocation" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/net.tirasa.connid.bundles:net.tirasa.connid.bundles.azure:1.0.1",
+  "fileImportReports" : [ {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/net.tirasa.connid.bundles:net.tirasa.connid.bundles.azure/src/main/java/net/tirasa/connid/bundles/azure/dto/AzureError.java",
+    "useImportReport" : [ {
+      "importPath" : "import com.fasterxml.jackson.annotation.JsonIgnoreProperties;",
+      "artifact" : {
+        "artifact" : "com.fasterxml.jackson.core:jackson-annotations:2.9.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/net.tirasa.connid.bundles:net.tirasa.connid.bundles.azure:1.0.1/dependencies/com/fasterxml/jackson/core/jackson-annotations/2.9.0/jackson-annotations-2.9.0.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.fasterxml.jackson.annotation.JsonProperty;",
+      "artifact" : {
+        "artifact" : "com.fasterxml.jackson.core:jackson-annotations:2.9.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/net.tirasa.connid.bundles:net.tirasa.connid.bundles.azure:1.0.1/dependencies/com/fasterxml/jackson/core/jackson-annotations/2.9.0/jackson-annotations-2.9.0.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import javax.ws.rs.core.Response;",
+      "artifact" : {
+        "artifact" : "javax.ws.rs:javax.ws.rs-api:2.0.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/net.tirasa.connid.bundles:net.tirasa.connid.bundles.azure:1.0.1/dependencies/javax/ws/rs/javax.ws.rs-api/2.0.1/javax.ws.rs-api-2.0.1.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import net.tirasa.connid.bundles.azure.utils.AzureUtils;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import net.tirasa.connid.bundles.azure.service.NoSuchEntityException;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/net.tirasa.connid.bundles:net.tirasa.connid.bundles.azure/src/main/java/net/tirasa/connid/bundles/azure/dto/Group.java",
+    "useImportReport" : [ {
+      "importPath" : "import com.fasterxml.jackson.annotation.JsonIgnoreProperties;",
+      "artifact" : {
+        "artifact" : "com.fasterxml.jackson.core:jackson-annotations:2.9.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/net.tirasa.connid.bundles:net.tirasa.connid.bundles.azure:1.0.1/dependencies/com/fasterxml/jackson/core/jackson-annotations/2.9.0/jackson-annotations-2.9.0.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.fasterxml.jackson.annotation.JsonInclude;",
+      "artifact" : {
+        "artifact" : "com.fasterxml.jackson.core:jackson-annotations:2.9.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/net.tirasa.connid.bundles:net.tirasa.connid.bundles.azure:1.0.1/dependencies/com/fasterxml/jackson/core/jackson-annotations/2.9.0/jackson-annotations-2.9.0.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.fasterxml.jackson.annotation.JsonProperty;",
+      "artifact" : {
+        "artifact" : "com.fasterxml.jackson.core:jackson-annotations:2.9.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/net.tirasa.connid.bundles:net.tirasa.connid.bundles.azure:1.0.1/dependencies/com/fasterxml/jackson/core/jackson-annotations/2.9.0/jackson-annotations-2.9.0.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.List;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.ArrayList;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.Set;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.identityconnectors.framework.common.objects.Attribute;",
+      "artifact" : {
+        "artifact" : "net.tirasa.connid:connector-framework:1.4.1.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/net.tirasa.connid.bundles:net.tirasa.connid.bundles.azure:1.0.1/dependencies/net/tirasa/connid/connector-framework/1.4.1.0/connector-framework-1.4.1.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import java.util.HashSet;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.lang.reflect.Field;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import net.tirasa.connid.bundles.azure.utils.AzureAttributes;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.identityconnectors.common.CollectionUtil;",
+      "artifact" : {
+        "artifact" : "net.tirasa.connid:connector-framework:1.4.1.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/net.tirasa.connid.bundles:net.tirasa.connid.bundles.azure:1.0.1/dependencies/net/tirasa/connid/connector-framework/1.4.1.0/connector-framework-1.4.1.0.jar"
+      },
+      "isDirectDependency" : true
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/net.tirasa.connid.bundles:net.tirasa.connid.bundles.azure/src/main/java/net/tirasa/connid/bundles/azure/dto/ProvisionedPlan.java",
+    "useImportReport" : [ {
+      "importPath" : "import com.fasterxml.jackson.annotation.JsonIgnoreProperties;",
+      "artifact" : {
+        "artifact" : "com.fasterxml.jackson.core:jackson-annotations:2.9.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/net.tirasa.connid.bundles:net.tirasa.connid.bundles.azure:1.0.1/dependencies/com/fasterxml/jackson/core/jackson-annotations/2.9.0/jackson-annotations-2.9.0.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.fasterxml.jackson.annotation.JsonInclude;",
+      "artifact" : {
+        "artifact" : "com.fasterxml.jackson.core:jackson-annotations:2.9.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/net.tirasa.connid.bundles:net.tirasa.connid.bundles.azure:1.0.1/dependencies/com/fasterxml/jackson/core/jackson-annotations/2.9.0/jackson-annotations-2.9.0.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.fasterxml.jackson.annotation.JsonProperty;",
+      "artifact" : {
+        "artifact" : "com.fasterxml.jackson.core:jackson-annotations:2.9.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/net.tirasa.connid.bundles:net.tirasa.connid.bundles.azure:1.0.1/dependencies/com/fasterxml/jackson/core/jackson-annotations/2.9.0/jackson-annotations-2.9.0.jar"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/net.tirasa.connid.bundles:net.tirasa.connid.bundles.azure/src/main/java/net/tirasa/connid/bundles/azure/dto/AzureObject.java",
+    "useImportReport" : [ {
+      "importPath" : "import java.util.Set;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.identityconnectors.framework.common.objects.Attribute;",
+      "artifact" : {
+        "artifact" : "net.tirasa.connid:connector-framework:1.4.1.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/net.tirasa.connid.bundles:net.tirasa.connid.bundles.azure:1.0.1/dependencies/net/tirasa/connid/connector-framework/1.4.1.0/connector-framework-1.4.1.0.jar"
+      },
+      "isDirectDependency" : true
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/net.tirasa.connid.bundles:net.tirasa.connid.bundles.azure/src/main/java/net/tirasa/connid/bundles/azure/dto/ServicePlan.java",
+    "useImportReport" : [ {
+      "importPath" : "import com.fasterxml.jackson.annotation.JsonIgnoreProperties;",
+      "artifact" : {
+        "artifact" : "com.fasterxml.jackson.core:jackson-annotations:2.9.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/net.tirasa.connid.bundles:net.tirasa.connid.bundles.azure:1.0.1/dependencies/com/fasterxml/jackson/core/jackson-annotations/2.9.0/jackson-annotations-2.9.0.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.fasterxml.jackson.annotation.JsonInclude;",
+      "artifact" : {
+        "artifact" : "com.fasterxml.jackson.core:jackson-annotations:2.9.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/net.tirasa.connid.bundles:net.tirasa.connid.bundles.azure:1.0.1/dependencies/com/fasterxml/jackson/core/jackson-annotations/2.9.0/jackson-annotations-2.9.0.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.fasterxml.jackson.annotation.JsonProperty;",
+      "artifact" : {
+        "artifact" : "com.fasterxml.jackson.core:jackson-annotations:2.9.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/net.tirasa.connid.bundles:net.tirasa.connid.bundles.azure:1.0.1/dependencies/com/fasterxml/jackson/core/jackson-annotations/2.9.0/jackson-annotations-2.9.0.jar"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/net.tirasa.connid.bundles:net.tirasa.connid.bundles.azure/src/main/java/net/tirasa/connid/bundles/azure/dto/License.java",
+    "useImportReport" : [ {
+      "importPath" : "import com.fasterxml.jackson.annotation.JsonIgnoreProperties;",
+      "artifact" : {
+        "artifact" : "com.fasterxml.jackson.core:jackson-annotations:2.9.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/net.tirasa.connid.bundles:net.tirasa.connid.bundles.azure:1.0.1/dependencies/com/fasterxml/jackson/core/jackson-annotations/2.9.0/jackson-annotations-2.9.0.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.fasterxml.jackson.annotation.JsonInclude;",
+      "artifact" : {
+        "artifact" : "com.fasterxml.jackson.core:jackson-annotations:2.9.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/net.tirasa.connid.bundles:net.tirasa.connid.bundles.azure:1.0.1/dependencies/com/fasterxml/jackson/core/jackson-annotations/2.9.0/jackson-annotations-2.9.0.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.List;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.ArrayList;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.fasterxml.jackson.annotation.JsonProperty;",
+      "artifact" : {
+        "artifact" : "com.fasterxml.jackson.core:jackson-annotations:2.9.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/net.tirasa.connid.bundles:net.tirasa.connid.bundles.azure:1.0.1/dependencies/com/fasterxml/jackson/core/jackson-annotations/2.9.0/jackson-annotations-2.9.0.jar"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/net.tirasa.connid.bundles:net.tirasa.connid.bundles.azure/src/main/java/net/tirasa/connid/bundles/azure/dto/User.java",
+    "useImportReport" : [ {
+      "importPath" : "import com.fasterxml.jackson.annotation.JsonIgnoreProperties;",
+      "artifact" : {
+        "artifact" : "com.fasterxml.jackson.core:jackson-annotations:2.9.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/net.tirasa.connid.bundles:net.tirasa.connid.bundles.azure:1.0.1/dependencies/com/fasterxml/jackson/core/jackson-annotations/2.9.0/jackson-annotations-2.9.0.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.fasterxml.jackson.annotation.JsonInclude;",
+      "artifact" : {
+        "artifact" : "com.fasterxml.jackson.core:jackson-annotations:2.9.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/net.tirasa.connid.bundles:net.tirasa.connid.bundles.azure:1.0.1/dependencies/com/fasterxml/jackson/core/jackson-annotations/2.9.0/jackson-annotations-2.9.0.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.fasterxml.jackson.annotation.JsonProperty;",
+      "artifact" : {
+        "artifact" : "com.fasterxml.jackson.core:jackson-annotations:2.9.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/net.tirasa.connid.bundles:net.tirasa.connid.bundles.azure:1.0.1/dependencies/com/fasterxml/jackson/core/jackson-annotations/2.9.0/jackson-annotations-2.9.0.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.List;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.ArrayList;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.identityconnectors.common.security.GuardedString;",
+      "artifact" : {
+        "artifact" : "net.tirasa.connid:connector-framework:1.4.1.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/net.tirasa.connid.bundles:net.tirasa.connid.bundles.azure:1.0.1/dependencies/net/tirasa/connid/connector-framework/1.4.1.0/connector-framework-1.4.1.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import com.fasterxml.jackson.annotation.JsonIgnore;",
+      "artifact" : {
+        "artifact" : "com.fasterxml.jackson.core:jackson-annotations:2.9.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/net.tirasa.connid.bundles:net.tirasa.connid.bundles.azure:1.0.1/dependencies/com/fasterxml/jackson/core/jackson-annotations/2.9.0/jackson-annotations-2.9.0.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.Set;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.identityconnectors.framework.common.objects.Attribute;",
+      "artifact" : {
+        "artifact" : "net.tirasa.connid:connector-framework:1.4.1.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/net.tirasa.connid.bundles:net.tirasa.connid.bundles.azure:1.0.1/dependencies/net/tirasa/connid/connector-framework/1.4.1.0/connector-framework-1.4.1.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import java.util.HashSet;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.lang.reflect.Field;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import net.tirasa.connid.bundles.azure.utils.AzureAttributes;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.identityconnectors.common.CollectionUtil;",
+      "artifact" : {
+        "artifact" : "net.tirasa.connid:connector-framework:1.4.1.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/net.tirasa.connid.bundles:net.tirasa.connid.bundles.azure:1.0.1/dependencies/net/tirasa/connid/connector-framework/1.4.1.0/connector-framework-1.4.1.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import net.tirasa.connid.bundles.azure.utils.AzureUtils;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/net.tirasa.connid.bundles:net.tirasa.connid.bundles.azure/src/main/java/net/tirasa/connid/bundles/azure/dto/AssignedPlan.java",
+    "useImportReport" : [ {
+      "importPath" : "import com.fasterxml.jackson.annotation.JsonIgnoreProperties;",
+      "artifact" : {
+        "artifact" : "com.fasterxml.jackson.core:jackson-annotations:2.9.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/net.tirasa.connid.bundles:net.tirasa.connid.bundles.azure:1.0.1/dependencies/com/fasterxml/jackson/core/jackson-annotations/2.9.0/jackson-annotations-2.9.0.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.Date;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.UUID;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.fasterxml.jackson.annotation.JsonProperty;",
+      "artifact" : {
+        "artifact" : "com.fasterxml.jackson.core:jackson-annotations:2.9.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/net.tirasa.connid.bundles:net.tirasa.connid.bundles.azure:1.0.1/dependencies/com/fasterxml/jackson/core/jackson-annotations/2.9.0/jackson-annotations-2.9.0.jar"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/net.tirasa.connid.bundles:net.tirasa.connid.bundles.azure/src/main/java/net/tirasa/connid/bundles/azure/dto/SubscribedSku.java",
+    "useImportReport" : [ {
+      "importPath" : "import com.fasterxml.jackson.annotation.JsonIgnoreProperties;",
+      "artifact" : {
+        "artifact" : "com.fasterxml.jackson.core:jackson-annotations:2.9.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/net.tirasa.connid.bundles:net.tirasa.connid.bundles.azure:1.0.1/dependencies/com/fasterxml/jackson/core/jackson-annotations/2.9.0/jackson-annotations-2.9.0.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.fasterxml.jackson.annotation.JsonInclude;",
+      "artifact" : {
+        "artifact" : "com.fasterxml.jackson.core:jackson-annotations:2.9.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/net.tirasa.connid.bundles:net.tirasa.connid.bundles.azure:1.0.1/dependencies/com/fasterxml/jackson/core/jackson-annotations/2.9.0/jackson-annotations-2.9.0.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.fasterxml.jackson.annotation.JsonProperty;",
+      "artifact" : {
+        "artifact" : "com.fasterxml.jackson.core:jackson-annotations:2.9.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/net.tirasa.connid.bundles:net.tirasa.connid.bundles.azure:1.0.1/dependencies/com/fasterxml/jackson/core/jackson-annotations/2.9.0/jackson-annotations-2.9.0.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.List;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.ArrayList;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.Set;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.identityconnectors.framework.common.objects.Attribute;",
+      "artifact" : {
+        "artifact" : "net.tirasa.connid:connector-framework:1.4.1.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/net.tirasa.connid.bundles:net.tirasa.connid.bundles.azure:1.0.1/dependencies/net/tirasa/connid/connector-framework/1.4.1.0/connector-framework-1.4.1.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import java.util.HashSet;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.lang.reflect.Field;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import net.tirasa.connid.bundles.azure.utils.AzureAttributes;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.identityconnectors.common.CollectionUtil;",
+      "artifact" : {
+        "artifact" : "net.tirasa.connid:connector-framework:1.4.1.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/net.tirasa.connid.bundles:net.tirasa.connid.bundles.azure:1.0.1/dependencies/net/tirasa/connid/connector-framework/1.4.1.0/connector-framework-1.4.1.0.jar"
+      },
+      "isDirectDependency" : true
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/net.tirasa.connid.bundles:net.tirasa.connid.bundles.azure/src/main/java/net/tirasa/connid/bundles/azure/dto/AzurePagedObject.java",
+    "useImportReport" : [ ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/net.tirasa.connid.bundles:net.tirasa.connid.bundles.azure/src/main/java/net/tirasa/connid/bundles/azure/dto/PagedGroups.java",
+    "useImportReport" : [ {
+      "importPath" : "import java.util.List;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.Collections;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.identityconnectors.common.StringUtil;",
+      "artifact" : {
+        "artifact" : "net.tirasa.connid:connector-framework:1.4.1.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/net.tirasa.connid.bundles:net.tirasa.connid.bundles.azure:1.0.1/dependencies/net/tirasa/connid/connector-framework/1.4.1.0/connector-framework-1.4.1.0.jar"
+      },
+      "isDirectDependency" : true
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/net.tirasa.connid.bundles:net.tirasa.connid.bundles.azure/src/main/java/net/tirasa/connid/bundles/azure/dto/PrepaidUnit.java",
+    "useImportReport" : [ {
+      "importPath" : "import com.fasterxml.jackson.annotation.JsonIgnoreProperties;",
+      "artifact" : {
+        "artifact" : "com.fasterxml.jackson.core:jackson-annotations:2.9.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/net.tirasa.connid.bundles:net.tirasa.connid.bundles.azure:1.0.1/dependencies/com/fasterxml/jackson/core/jackson-annotations/2.9.0/jackson-annotations-2.9.0.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.fasterxml.jackson.annotation.JsonInclude;",
+      "artifact" : {
+        "artifact" : "com.fasterxml.jackson.core:jackson-annotations:2.9.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/net.tirasa.connid.bundles:net.tirasa.connid.bundles.azure:1.0.1/dependencies/com/fasterxml/jackson/core/jackson-annotations/2.9.0/jackson-annotations-2.9.0.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.fasterxml.jackson.annotation.JsonProperty;",
+      "artifact" : {
+        "artifact" : "com.fasterxml.jackson.core:jackson-annotations:2.9.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/net.tirasa.connid.bundles:net.tirasa.connid.bundles.azure:1.0.1/dependencies/com/fasterxml/jackson/core/jackson-annotations/2.9.0/jackson-annotations-2.9.0.jar"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/net.tirasa.connid.bundles:net.tirasa.connid.bundles.azure/src/main/java/net/tirasa/connid/bundles/azure/dto/AvailableExtensionProperties.java",
+    "useImportReport" : [ {
+      "importPath" : "import com.fasterxml.jackson.annotation.JsonIgnoreProperties;",
+      "artifact" : {
+        "artifact" : "com.fasterxml.jackson.core:jackson-annotations:2.9.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/net.tirasa.connid.bundles:net.tirasa.connid.bundles.azure:1.0.1/dependencies/com/fasterxml/jackson/core/jackson-annotations/2.9.0/jackson-annotations-2.9.0.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.fasterxml.jackson.annotation.JsonInclude;",
+      "artifact" : {
+        "artifact" : "com.fasterxml.jackson.core:jackson-annotations:2.9.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/net.tirasa.connid.bundles:net.tirasa.connid.bundles.azure:1.0.1/dependencies/com/fasterxml/jackson/core/jackson-annotations/2.9.0/jackson-annotations-2.9.0.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.fasterxml.jackson.annotation.JsonProperty;",
+      "artifact" : {
+        "artifact" : "com.fasterxml.jackson.core:jackson-annotations:2.9.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/net.tirasa.connid.bundles:net.tirasa.connid.bundles.azure:1.0.1/dependencies/com/fasterxml/jackson/core/jackson-annotations/2.9.0/jackson-annotations-2.9.0.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.List;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.ArrayList;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/net.tirasa.connid.bundles:net.tirasa.connid.bundles.azure/src/main/java/net/tirasa/connid/bundles/azure/dto/MemberOf.java",
+    "useImportReport" : [ {
+      "importPath" : "import com.fasterxml.jackson.annotation.JsonIgnoreProperties;",
+      "artifact" : {
+        "artifact" : "com.fasterxml.jackson.core:jackson-annotations:2.9.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/net.tirasa.connid.bundles:net.tirasa.connid.bundles.azure:1.0.1/dependencies/com/fasterxml/jackson/core/jackson-annotations/2.9.0/jackson-annotations-2.9.0.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.fasterxml.jackson.annotation.JsonInclude;",
+      "artifact" : {
+        "artifact" : "com.fasterxml.jackson.core:jackson-annotations:2.9.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/net.tirasa.connid.bundles:net.tirasa.connid.bundles.azure:1.0.1/dependencies/com/fasterxml/jackson/core/jackson-annotations/2.9.0/jackson-annotations-2.9.0.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.fasterxml.jackson.annotation.JsonProperty;",
+      "artifact" : {
+        "artifact" : "com.fasterxml.jackson.core:jackson-annotations:2.9.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/net.tirasa.connid.bundles:net.tirasa.connid.bundles.azure:1.0.1/dependencies/com/fasterxml/jackson/core/jackson-annotations/2.9.0/jackson-annotations-2.9.0.jar"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/net.tirasa.connid.bundles:net.tirasa.connid.bundles.azure/src/main/java/net/tirasa/connid/bundles/azure/dto/PasswordProfile.java",
+    "useImportReport" : [ {
+      "importPath" : "import com.fasterxml.jackson.annotation.JsonIgnoreProperties;",
+      "artifact" : {
+        "artifact" : "com.fasterxml.jackson.core:jackson-annotations:2.9.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/net.tirasa.connid.bundles:net.tirasa.connid.bundles.azure:1.0.1/dependencies/com/fasterxml/jackson/core/jackson-annotations/2.9.0/jackson-annotations-2.9.0.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.fasterxml.jackson.annotation.JsonProperty;",
+      "artifact" : {
+        "artifact" : "com.fasterxml.jackson.core:jackson-annotations:2.9.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/net.tirasa.connid.bundles:net.tirasa.connid.bundles.azure:1.0.1/dependencies/com/fasterxml/jackson/core/jackson-annotations/2.9.0/jackson-annotations-2.9.0.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.identityconnectors.common.security.SecurityUtil;",
+      "artifact" : {
+        "artifact" : "net.tirasa.connid:connector-framework:1.4.1.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/net.tirasa.connid.bundles:net.tirasa.connid.bundles.azure:1.0.1/dependencies/net/tirasa/connid/connector-framework/1.4.1.0/connector-framework-1.4.1.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import net.tirasa.connid.bundles.azure.utils.AzureUtils;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.identityconnectors.common.security.GuardedString;",
+      "artifact" : {
+        "artifact" : "net.tirasa.connid:connector-framework:1.4.1.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/net.tirasa.connid.bundles:net.tirasa.connid.bundles.azure:1.0.1/dependencies/net/tirasa/connid/connector-framework/1.4.1.0/connector-framework-1.4.1.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import java.util.Set;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.identityconnectors.framework.common.objects.Attribute;",
+      "artifact" : {
+        "artifact" : "net.tirasa.connid:connector-framework:1.4.1.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/net.tirasa.connid.bundles:net.tirasa.connid.bundles.azure:1.0.1/dependencies/net/tirasa/connid/connector-framework/1.4.1.0/connector-framework-1.4.1.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import java.util.HashSet;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.identityconnectors.framework.common.objects.AttributeBuilder;",
+      "artifact" : {
+        "artifact" : "net.tirasa.connid:connector-framework:1.4.1.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/net.tirasa.connid.bundles:net.tirasa.connid.bundles.azure:1.0.1/dependencies/net/tirasa/connid/connector-framework/1.4.1.0/connector-framework-1.4.1.0.jar"
+      },
+      "isDirectDependency" : true
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/net.tirasa.connid.bundles:net.tirasa.connid.bundles.azure/src/main/java/net/tirasa/connid/bundles/azure/dto/PagedUsers.java",
+    "useImportReport" : [ {
+      "importPath" : "import java.util.List;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.Collections;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.identityconnectors.common.StringUtil;",
+      "artifact" : {
+        "artifact" : "net.tirasa.connid:connector-framework:1.4.1.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/net.tirasa.connid.bundles:net.tirasa.connid.bundles.azure:1.0.1/dependencies/net/tirasa/connid/connector-framework/1.4.1.0/connector-framework-1.4.1.0.jar"
+      },
+      "isDirectDependency" : true
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/net.tirasa.connid.bundles:net.tirasa.connid.bundles.azure/src/main/java/net/tirasa/connid/bundles/azure/dto/AssignedLicense.java",
+    "useImportReport" : [ {
+      "importPath" : "import com.fasterxml.jackson.annotation.JsonIgnoreProperties;",
+      "artifact" : {
+        "artifact" : "com.fasterxml.jackson.core:jackson-annotations:2.9.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/net.tirasa.connid.bundles:net.tirasa.connid.bundles.azure:1.0.1/dependencies/com/fasterxml/jackson/core/jackson-annotations/2.9.0/jackson-annotations-2.9.0.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.fasterxml.jackson.annotation.JsonInclude;",
+      "artifact" : {
+        "artifact" : "com.fasterxml.jackson.core:jackson-annotations:2.9.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/net.tirasa.connid.bundles:net.tirasa.connid.bundles.azure:1.0.1/dependencies/com/fasterxml/jackson/core/jackson-annotations/2.9.0/jackson-annotations-2.9.0.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.fasterxml.jackson.annotation.JsonProperty;",
+      "artifact" : {
+        "artifact" : "com.fasterxml.jackson.core:jackson-annotations:2.9.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/net.tirasa.connid.bundles:net.tirasa.connid.bundles.azure:1.0.1/dependencies/com/fasterxml/jackson/core/jackson-annotations/2.9.0/jackson-annotations-2.9.0.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.List;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.ArrayList;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/net.tirasa.connid.bundles:net.tirasa.connid.bundles.azure/src/main/java/net/tirasa/connid/bundles/azure/utils/AzureAttributes.java",
+    "useImportReport" : [ {
+      "importPath" : "import java.util.List;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.ArrayList;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.identityconnectors.framework.common.objects.Schema;",
+      "artifact" : {
+        "artifact" : "net.tirasa.connid:connector-framework:1.4.1.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/net.tirasa.connid.bundles:net.tirasa.connid.bundles.azure:1.0.1/dependencies/net/tirasa/connid/connector-framework/1.4.1.0/connector-framework-1.4.1.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.identityconnectors.framework.common.objects.SchemaBuilder;",
+      "artifact" : {
+        "artifact" : "net.tirasa.connid:connector-framework:1.4.1.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/net.tirasa.connid.bundles:net.tirasa.connid.bundles.azure:1.0.1/dependencies/net/tirasa/connid/connector-framework/1.4.1.0/connector-framework-1.4.1.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import net.tirasa.connid.bundles.azure.AzureConnector;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.Map;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import net.tirasa.connid.bundles.azure.service.AzureService;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.identityconnectors.framework.common.objects.ObjectClassInfoBuilder;",
+      "artifact" : {
+        "artifact" : "net.tirasa.connid:connector-framework:1.4.1.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/net.tirasa.connid.bundles:net.tirasa.connid.bundles.azure:1.0.1/dependencies/net/tirasa/connid/connector-framework/1.4.1.0/connector-framework-1.4.1.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.identityconnectors.framework.common.objects.ObjectClass;",
+      "artifact" : {
+        "artifact" : "net.tirasa.connid:connector-framework:1.4.1.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/net.tirasa.connid.bundles:net.tirasa.connid.bundles.azure:1.0.1/dependencies/net/tirasa/connid/connector-framework/1.4.1.0/connector-framework-1.4.1.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.identityconnectors.framework.common.objects.ObjectClassInfo;",
+      "artifact" : {
+        "artifact" : "net.tirasa.connid:connector-framework:1.4.1.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/net.tirasa.connid.bundles:net.tirasa.connid.bundles.azure:1.0.1/dependencies/net/tirasa/connid/connector-framework/1.4.1.0/connector-framework-1.4.1.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.identityconnectors.framework.common.objects.Name;",
+      "artifact" : {
+        "artifact" : "net.tirasa.connid:connector-framework:1.4.1.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/net.tirasa.connid.bundles:net.tirasa.connid.bundles.azure:1.0.1/dependencies/net/tirasa/connid/connector-framework/1.4.1.0/connector-framework-1.4.1.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.identityconnectors.framework.common.objects.AttributeInfoBuilder;",
+      "artifact" : {
+        "artifact" : "net.tirasa.connid:connector-framework:1.4.1.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/net.tirasa.connid.bundles:net.tirasa.connid.bundles.azure:1.0.1/dependencies/net/tirasa/connid/connector-framework/1.4.1.0/connector-framework-1.4.1.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.identityconnectors.common.StringUtil;",
+      "artifact" : {
+        "artifact" : "net.tirasa.connid:connector-framework:1.4.1.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/net.tirasa.connid.bundles:net.tirasa.connid.bundles.azure:1.0.1/dependencies/net/tirasa/connid/connector-framework/1.4.1.0/connector-framework-1.4.1.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.identityconnectors.framework.common.objects.AttributeBuilder;",
+      "artifact" : {
+        "artifact" : "net.tirasa.connid:connector-framework:1.4.1.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/net.tirasa.connid.bundles:net.tirasa.connid.bundles.azure:1.0.1/dependencies/net/tirasa/connid/connector-framework/1.4.1.0/connector-framework-1.4.1.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import java.lang.reflect.Field;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import net.tirasa.connid.bundles.azure.dto.AzureObject;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/net.tirasa.connid.bundles:net.tirasa.connid.bundles.azure/src/main/java/net/tirasa/connid/bundles/azure/utils/AzureUtils.java",
+    "useImportReport" : [ {
+      "importPath" : "import org.identityconnectors.common.logging.Log;",
+      "artifact" : {
+        "artifact" : "net.tirasa.connid:connector-framework:1.4.1.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/net.tirasa.connid.bundles:net.tirasa.connid.bundles.azure:1.0.1/dependencies/net/tirasa/connid/connector-framework/1.4.1.0/connector-framework-1.4.1.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import com.fasterxml.jackson.databind.ObjectMapper;",
+      "artifact" : {
+        "artifact" : "com.fasterxml.jackson.core:jackson-databind:2.9.4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/net.tirasa.connid.bundles:net.tirasa.connid.bundles.azure:1.0.1/dependencies/com/fasterxml/jackson/core/jackson-databind/2.9.4/jackson-databind-2.9.4.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import com.fasterxml.jackson.databind.DeserializationFeature;",
+      "artifact" : {
+        "artifact" : "com.fasterxml.jackson.core:jackson-databind:2.9.4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/net.tirasa.connid.bundles:net.tirasa.connid.bundles.azure:1.0.1/dependencies/com/fasterxml/jackson/core/jackson-databind/2.9.4/jackson-databind-2.9.4.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import com.fasterxml.jackson.databind.JsonNode;",
+      "artifact" : {
+        "artifact" : "com.fasterxml.jackson.core:jackson-databind:2.9.4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/net.tirasa.connid.bundles:net.tirasa.connid.bundles.azure:1.0.1/dependencies/com/fasterxml/jackson/core/jackson-databind/2.9.4/jackson-databind-2.9.4.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.identityconnectors.common.StringUtil;",
+      "artifact" : {
+        "artifact" : "net.tirasa.connid:connector-framework:1.4.1.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/net.tirasa.connid.bundles:net.tirasa.connid.bundles.azure:1.0.1/dependencies/net/tirasa/connid/connector-framework/1.4.1.0/connector-framework-1.4.1.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.identityconnectors.common.security.GuardedString;",
+      "artifact" : {
+        "artifact" : "net.tirasa.connid:connector-framework:1.4.1.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/net.tirasa.connid.bundles:net.tirasa.connid.bundles.azure:1.0.1/dependencies/net/tirasa/connid/connector-framework/1.4.1.0/connector-framework-1.4.1.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.identityconnectors.framework.common.exceptions.ConnectorException;",
+      "artifact" : {
+        "artifact" : "net.tirasa.connid:connector-framework:1.4.1.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/net.tirasa.connid.bundles:net.tirasa.connid.bundles.azure:1.0.1/dependencies/net/tirasa/connid/connector-framework/1.4.1.0/connector-framework-1.4.1.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import java.util.Map;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.List;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.identityconnectors.framework.common.objects.Attribute;",
+      "artifact" : {
+        "artifact" : "net.tirasa.connid:connector-framework:1.4.1.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/net.tirasa.connid.bundles:net.tirasa.connid.bundles.azure:1.0.1/dependencies/net/tirasa/connid/connector-framework/1.4.1.0/connector-framework-1.4.1.0.jar"
+      },
+      "isDirectDependency" : true
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/net.tirasa.connid.bundles:net.tirasa.connid.bundles.azure/src/main/java/net/tirasa/connid/bundles/azure/AzureConnector.java",
+    "useImportReport" : [ {
+      "importPath" : "import org.identityconnectors.framework.spi.Connector;",
+      "artifact" : {
+        "artifact" : "net.tirasa.connid:connector-framework:1.4.1.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/net.tirasa.connid.bundles:net.tirasa.connid.bundles.azure:1.0.1/dependencies/net/tirasa/connid/connector-framework/1.4.1.0/connector-framework-1.4.1.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.identityconnectors.framework.spi.operations.CreateOp;",
+      "artifact" : {
+        "artifact" : "net.tirasa.connid:connector-framework:1.4.1.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/net.tirasa.connid.bundles:net.tirasa.connid.bundles.azure:1.0.1/dependencies/net/tirasa/connid/connector-framework/1.4.1.0/connector-framework-1.4.1.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.identityconnectors.framework.spi.operations.DeleteOp;",
+      "artifact" : {
+        "artifact" : "net.tirasa.connid:connector-framework:1.4.1.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/net.tirasa.connid.bundles:net.tirasa.connid.bundles.azure:1.0.1/dependencies/net/tirasa/connid/connector-framework/1.4.1.0/connector-framework-1.4.1.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.identityconnectors.framework.spi.operations.SchemaOp;",
+      "artifact" : {
+        "artifact" : "net.tirasa.connid:connector-framework:1.4.1.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/net.tirasa.connid.bundles:net.tirasa.connid.bundles.azure:1.0.1/dependencies/net/tirasa/connid/connector-framework/1.4.1.0/connector-framework-1.4.1.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.identityconnectors.framework.spi.operations.SearchOp;",
+      "artifact" : {
+        "artifact" : "net.tirasa.connid:connector-framework:1.4.1.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/net.tirasa.connid.bundles:net.tirasa.connid.bundles.azure:1.0.1/dependencies/net/tirasa/connid/connector-framework/1.4.1.0/connector-framework-1.4.1.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.identityconnectors.framework.common.objects.filter.Filter;",
+      "artifact" : {
+        "artifact" : "net.tirasa.connid:connector-framework:1.4.1.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/net.tirasa.connid.bundles:net.tirasa.connid.bundles.azure:1.0.1/dependencies/net/tirasa/connid/connector-framework/1.4.1.0/connector-framework-1.4.1.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.identityconnectors.framework.spi.operations.TestOp;",
+      "artifact" : {
+        "artifact" : "net.tirasa.connid:connector-framework:1.4.1.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/net.tirasa.connid.bundles:net.tirasa.connid.bundles.azure:1.0.1/dependencies/net/tirasa/connid/connector-framework/1.4.1.0/connector-framework-1.4.1.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.identityconnectors.framework.spi.operations.UpdateOp;",
+      "artifact" : {
+        "artifact" : "net.tirasa.connid:connector-framework:1.4.1.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/net.tirasa.connid.bundles:net.tirasa.connid.bundles.azure:1.0.1/dependencies/net/tirasa/connid/connector-framework/1.4.1.0/connector-framework-1.4.1.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.identityconnectors.framework.spi.ConnectorClass;",
+      "artifact" : {
+        "artifact" : "net.tirasa.connid:connector-framework:1.4.1.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/net.tirasa.connid.bundles:net.tirasa.connid.bundles.azure:1.0.1/dependencies/net/tirasa/connid/connector-framework/1.4.1.0/connector-framework-1.4.1.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.identityconnectors.framework.common.objects.Schema;",
+      "artifact" : {
+        "artifact" : "net.tirasa.connid:connector-framework:1.4.1.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/net.tirasa.connid.bundles:net.tirasa.connid.bundles.azure:1.0.1/dependencies/net/tirasa/connid/connector-framework/1.4.1.0/connector-framework-1.4.1.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.identityconnectors.common.logging.Log;",
+      "artifact" : {
+        "artifact" : "net.tirasa.connid:connector-framework:1.4.1.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/net.tirasa.connid.bundles:net.tirasa.connid.bundles.azure:1.0.1/dependencies/net/tirasa/connid/connector-framework/1.4.1.0/connector-framework-1.4.1.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import net.tirasa.connid.bundles.azure.service.AzureService;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.identityconnectors.framework.spi.Configuration;",
+      "artifact" : {
+        "artifact" : "net.tirasa.connid:connector-framework:1.4.1.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/net.tirasa.connid.bundles:net.tirasa.connid.bundles.azure:1.0.1/dependencies/net/tirasa/connid/connector-framework/1.4.1.0/connector-framework-1.4.1.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import net.tirasa.connid.bundles.azure.utils.AzureAttributes;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.identityconnectors.framework.common.objects.filter.FilterTranslator;",
+      "artifact" : {
+        "artifact" : "net.tirasa.connid:connector-framework:1.4.1.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/net.tirasa.connid.bundles:net.tirasa.connid.bundles.azure:1.0.1/dependencies/net/tirasa/connid/connector-framework/1.4.1.0/connector-framework-1.4.1.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.identityconnectors.framework.common.objects.ObjectClass;",
+      "artifact" : {
+        "artifact" : "net.tirasa.connid:connector-framework:1.4.1.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/net.tirasa.connid.bundles:net.tirasa.connid.bundles.azure:1.0.1/dependencies/net/tirasa/connid/connector-framework/1.4.1.0/connector-framework-1.4.1.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.identityconnectors.framework.common.objects.OperationOptions;",
+      "artifact" : {
+        "artifact" : "net.tirasa.connid:connector-framework:1.4.1.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/net.tirasa.connid.bundles:net.tirasa.connid.bundles.azure:1.0.1/dependencies/net/tirasa/connid/connector-framework/1.4.1.0/connector-framework-1.4.1.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import java.util.List;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.Collections;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.identityconnectors.framework.common.objects.ResultsHandler;",
+      "artifact" : {
+        "artifact" : "net.tirasa.connid:connector-framework:1.4.1.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/net.tirasa.connid.bundles:net.tirasa.connid.bundles.azure:1.0.1/dependencies/net/tirasa/connid/connector-framework/1.4.1.0/connector-framework-1.4.1.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.identityconnectors.framework.common.objects.Attribute;",
+      "artifact" : {
+        "artifact" : "net.tirasa.connid:connector-framework:1.4.1.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/net.tirasa.connid.bundles:net.tirasa.connid.bundles.azure:1.0.1/dependencies/net/tirasa/connid/connector-framework/1.4.1.0/connector-framework-1.4.1.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.identityconnectors.framework.common.objects.filter.EqualsFilter;",
+      "artifact" : {
+        "artifact" : "net.tirasa.connid:connector-framework:1.4.1.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/net.tirasa.connid.bundles:net.tirasa.connid.bundles.azure:1.0.1/dependencies/net/tirasa/connid/connector-framework/1.4.1.0/connector-framework-1.4.1.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.identityconnectors.framework.common.objects.Uid;",
+      "artifact" : {
+        "artifact" : "net.tirasa.connid:connector-framework:1.4.1.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/net.tirasa.connid.bundles:net.tirasa.connid.bundles.azure:1.0.1/dependencies/net/tirasa/connid/connector-framework/1.4.1.0/connector-framework-1.4.1.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import java.util.Set;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.HashSet;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.Arrays;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import net.tirasa.connid.bundles.azure.dto.User;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.identityconnectors.common.StringUtil;",
+      "artifact" : {
+        "artifact" : "net.tirasa.connid:connector-framework:1.4.1.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/net.tirasa.connid.bundles:net.tirasa.connid.bundles.azure:1.0.1/dependencies/net/tirasa/connid/connector-framework/1.4.1.0/connector-framework-1.4.1.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import net.tirasa.connid.bundles.azure.dto.PagedUsers;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import net.tirasa.connid.bundles.azure.utils.AzureUtils;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.identityconnectors.framework.spi.SearchResultsHandler;",
+      "artifact" : {
+        "artifact" : "net.tirasa.connid:connector-framework:1.4.1.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/net.tirasa.connid.bundles:net.tirasa.connid.bundles.azure:1.0.1/dependencies/net/tirasa/connid/connector-framework/1.4.1.0/connector-framework-1.4.1.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.identityconnectors.framework.common.objects.SearchResult;",
+      "artifact" : {
+        "artifact" : "net.tirasa.connid:connector-framework:1.4.1.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/net.tirasa.connid.bundles:net.tirasa.connid.bundles.azure:1.0.1/dependencies/net/tirasa/connid/connector-framework/1.4.1.0/connector-framework-1.4.1.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.identityconnectors.framework.common.objects.AttributeUtil;",
+      "artifact" : {
+        "artifact" : "net.tirasa.connid:connector-framework:1.4.1.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/net.tirasa.connid.bundles:net.tirasa.connid.bundles.azure:1.0.1/dependencies/net/tirasa/connid/connector-framework/1.4.1.0/connector-framework-1.4.1.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import net.tirasa.connid.bundles.azure.dto.Group;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import net.tirasa.connid.bundles.azure.dto.PagedGroups;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import net.tirasa.connid.bundles.azure.dto.SubscribedSku;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.identityconnectors.framework.common.objects.AttributesAccessor;",
+      "artifact" : {
+        "artifact" : "net.tirasa.connid:connector-framework:1.4.1.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/net.tirasa.connid.bundles:net.tirasa.connid.bundles.azure:1.0.1/dependencies/net/tirasa/connid/connector-framework/1.4.1.0/connector-framework-1.4.1.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.identityconnectors.framework.common.objects.Name;",
+      "artifact" : {
+        "artifact" : "net.tirasa.connid:connector-framework:1.4.1.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/net.tirasa.connid.bundles:net.tirasa.connid.bundles.azure:1.0.1/dependencies/net/tirasa/connid/connector-framework/1.4.1.0/connector-framework-1.4.1.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.identityconnectors.common.security.GuardedString;",
+      "artifact" : {
+        "artifact" : "net.tirasa.connid:connector-framework:1.4.1.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/net.tirasa.connid.bundles:net.tirasa.connid.bundles.azure:1.0.1/dependencies/net/tirasa/connid/connector-framework/1.4.1.0/connector-framework-1.4.1.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.identityconnectors.framework.common.objects.OperationalAttributes;",
+      "artifact" : {
+        "artifact" : "net.tirasa.connid:connector-framework:1.4.1.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/net.tirasa.connid.bundles:net.tirasa.connid.bundles.azure:1.0.1/dependencies/net/tirasa/connid/connector-framework/1.4.1.0/connector-framework-1.4.1.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.identityconnectors.framework.common.objects.PredefinedAttributes;",
+      "artifact" : {
+        "artifact" : "net.tirasa.connid:connector-framework:1.4.1.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/net.tirasa.connid.bundles:net.tirasa.connid.bundles.azure:1.0.1/dependencies/net/tirasa/connid/connector-framework/1.4.1.0/connector-framework-1.4.1.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.identityconnectors.common.CollectionUtil;",
+      "artifact" : {
+        "artifact" : "net.tirasa.connid:connector-framework:1.4.1.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/net.tirasa.connid.bundles:net.tirasa.connid.bundles.azure:1.0.1/dependencies/net/tirasa/connid/connector-framework/1.4.1.0/connector-framework-1.4.1.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import net.tirasa.connid.bundles.azure.dto.License;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.identityconnectors.framework.common.exceptions.InvalidAttributeValueException;",
+      "artifact" : {
+        "artifact" : "net.tirasa.connid:connector-framework:1.4.1.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/net.tirasa.connid.bundles:net.tirasa.connid.bundles.azure:1.0.1/dependencies/net/tirasa/connid/connector-framework/1.4.1.0/connector-framework-1.4.1.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import java.util.ArrayList;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import net.tirasa.connid.bundles.azure.dto.AssignedLicense;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.identityconnectors.framework.common.objects.ConnectorObject;",
+      "artifact" : {
+        "artifact" : "net.tirasa.connid:connector-framework:1.4.1.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/net.tirasa.connid.bundles:net.tirasa.connid.bundles.azure:1.0.1/dependencies/net/tirasa/connid/connector-framework/1.4.1.0/connector-framework-1.4.1.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.identityconnectors.framework.common.objects.ConnectorObjectBuilder;",
+      "artifact" : {
+        "artifact" : "net.tirasa.connid:connector-framework:1.4.1.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/net.tirasa.connid.bundles:net.tirasa.connid.bundles.azure:1.0.1/dependencies/net/tirasa/connid/connector-framework/1.4.1.0/connector-framework-1.4.1.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.identityconnectors.framework.common.objects.AttributeBuilder;",
+      "artifact" : {
+        "artifact" : "net.tirasa.connid:connector-framework:1.4.1.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/net.tirasa.connid.bundles:net.tirasa.connid.bundles.azure:1.0.1/dependencies/net/tirasa/connid/connector-framework/1.4.1.0/connector-framework-1.4.1.0.jar"
+      },
+      "isDirectDependency" : true
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/net.tirasa.connid.bundles:net.tirasa.connid.bundles.azure/src/main/java/net/tirasa/connid/bundles/azure/service/NoSuchEntityException.java",
+    "useImportReport" : [ {
+      "importPath" : "import org.identityconnectors.framework.common.exceptions.ConnectorException;",
+      "artifact" : {
+        "artifact" : "net.tirasa.connid:connector-framework:1.4.1.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/net.tirasa.connid.bundles:net.tirasa.connid.bundles.azure:1.0.1/dependencies/net/tirasa/connid/connector-framework/1.4.1.0/connector-framework-1.4.1.0.jar"
+      },
+      "isDirectDependency" : true
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/net.tirasa.connid.bundles:net.tirasa.connid.bundles.azure/src/main/java/net/tirasa/connid/bundles/azure/service/AzureRestAPI.java",
+    "useImportReport" : [ {
+      "importPath" : "import org.identityconnectors.common.logging.Log;",
+      "artifact" : {
+        "artifact" : "net.tirasa.connid:connector-framework:1.4.1.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/net.tirasa.connid.bundles:net.tirasa.connid.bundles.azure:1.0.1/dependencies/net/tirasa/connid/connector-framework/1.4.1.0/connector-framework-1.4.1.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import java.util.List;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import net.tirasa.connid.bundles.azure.dto.User;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.apache.cxf.jaxrs.client.WebClient;",
+      "artifact" : {
+        "artifact" : "org.apache.cxf:cxf-rt-rs-client:3.1.15",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/net.tirasa.connid.bundles:net.tirasa.connid.bundles.azure:1.0.1/dependencies/org/apache/cxf/cxf-rt-rs-client/3.1.15/cxf-rt-rs-client-3.1.15.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import net.tirasa.connid.bundles.azure.dto.PagedUsers;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import net.tirasa.connid.bundles.azure.utils.AzureAttributes;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.Arrays;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import net.tirasa.connid.bundles.azure.utils.AzureUtils;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.fasterxml.jackson.databind.node.ObjectNode;",
+      "artifact" : {
+        "artifact" : "com.fasterxml.jackson.core:jackson-databind:2.9.4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/net.tirasa.connid.bundles:net.tirasa.connid.bundles.azure:1.0.1/dependencies/com/fasterxml/jackson/core/jackson-databind/2.9.4/jackson-databind-2.9.4.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import java.io.IOException;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import javax.ws.rs.core.Response;",
+      "artifact" : {
+        "artifact" : "javax.ws.rs:javax.ws.rs-api:2.0.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/net.tirasa.connid.bundles:net.tirasa.connid.bundles.azure:1.0.1/dependencies/javax/ws/rs/javax.ws.rs-api/2.0.1/javax.ws.rs-api-2.0.1.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import net.tirasa.connid.bundles.azure.dto.Group;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import net.tirasa.connid.bundles.azure.dto.PagedGroups;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.ArrayList;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.fasterxml.jackson.databind.JsonNode;",
+      "artifact" : {
+        "artifact" : "com.fasterxml.jackson.core:jackson-databind:2.9.4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/net.tirasa.connid.bundles:net.tirasa.connid.bundles.azure:1.0.1/dependencies/com/fasterxml/jackson/core/jackson-databind/2.9.4/jackson-databind-2.9.4.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.identityconnectors.common.StringUtil;",
+      "artifact" : {
+        "artifact" : "net.tirasa.connid:connector-framework:1.4.1.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/net.tirasa.connid.bundles:net.tirasa.connid.bundles.azure:1.0.1/dependencies/net/tirasa/connid/connector-framework/1.4.1.0/connector-framework-1.4.1.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import net.tirasa.connid.bundles.azure.dto.AvailableExtensionProperties;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import net.tirasa.connid.bundles.azure.dto.AzureError;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import net.tirasa.connid.bundles.azure.dto.SubscribedSku;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import net.tirasa.connid.bundles.azure.dto.License;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import net.tirasa.connid.bundles.azure.dto.MemberOf;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import net.tirasa.connid.bundles.azure.dto.AzureObject;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import net.tirasa.connid.bundles.azure.dto.PasswordProfile;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.fasterxml.jackson.core.JsonProcessingException;",
+      "artifact" : {
+        "artifact" : "com.fasterxml.jackson.core:jackson-core:2.9.4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/net.tirasa.connid.bundles:net.tirasa.connid.bundles.azure:1.0.1/dependencies/com/fasterxml/jackson/core/jackson-core/2.9.4/jackson-core-2.9.4.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import net.tirasa.connid.bundles.azure.dto.AzurePagedObject;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ {
+      "importPath" : "import org.apache.commons.lang3.StringUtils;",
+      "artifact" : {
+        "artifact" : "org.apache.commons:commons-lang3:3.4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/net.tirasa.connid.bundles:net.tirasa.connid.bundles.azure:1.0.1/dependencies/org/apache/commons/commons-lang3/3.4/commons-lang3-3.4.jar"
+      },
+      "isDirectDependency" : false
+    } ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/net.tirasa.connid.bundles:net.tirasa.connid.bundles.azure/src/main/java/net/tirasa/connid/bundles/azure/service/AzureService.java",
+    "useImportReport" : [ {
+      "importPath" : "import org.identityconnectors.common.logging.Log;",
+      "artifact" : {
+        "artifact" : "net.tirasa.connid:connector-framework:1.4.1.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/net.tirasa.connid.bundles:net.tirasa.connid.bundles.azure:1.0.1/dependencies/net/tirasa/connid/connector-framework/1.4.1.0/connector-framework-1.4.1.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import com.microsoft.aad.adal4j.AuthenticationResult;",
+      "artifact" : {
+        "artifact" : "com.microsoft.azure:adal4j:1.1.2",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/net.tirasa.connid.bundles:net.tirasa.connid.bundles.azure:1.0.1/dependencies/com/microsoft/azure/adal4j/1.1.2/adal4j-1.1.2.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.microsoft.aad.adal4j.AuthenticationContext;",
+      "artifact" : {
+        "artifact" : "com.microsoft.azure:adal4j:1.1.2",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/net.tirasa.connid.bundles:net.tirasa.connid.bundles.azure:1.0.1/dependencies/com/microsoft/azure/adal4j/1.1.2/adal4j-1.1.2.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.concurrent.ExecutorService;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.concurrent.Executors;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.concurrent.Future;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.concurrent.ExecutionException;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.net.MalformedURLException;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import net.tirasa.connid.bundles.azure.utils.AzureUtils;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.identityconnectors.common.StringUtil;",
+      "artifact" : {
+        "artifact" : "net.tirasa.connid:connector-framework:1.4.1.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/net.tirasa.connid.bundles:net.tirasa.connid.bundles.azure:1.0.1/dependencies/net/tirasa/connid/connector-framework/1.4.1.0/connector-framework-1.4.1.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import java.util.Date;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.apache.cxf.jaxrs.client.WebClient;",
+      "artifact" : {
+        "artifact" : "org.apache.cxf:cxf-rt-rs-client:3.1.15",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/net.tirasa.connid.bundles:net.tirasa.connid.bundles.azure:1.0.1/dependencies/org/apache/cxf/cxf-rt-rs-client/3.1.15/cxf-rt-rs-client-3.1.15.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import javax.ws.rs.core.MediaType;",
+      "artifact" : {
+        "artifact" : "javax.ws.rs:javax.ws.rs-api:2.0.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/net.tirasa.connid.bundles:net.tirasa.connid.bundles.azure:1.0.1/dependencies/javax/ws/rs/javax.ws.rs-api/2.0.1/javax.ws.rs-api-2.0.1.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import javax.ws.rs.core.HttpHeaders;",
+      "artifact" : {
+        "artifact" : "javax.ws.rs:javax.ws.rs-api:2.0.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/net.tirasa.connid.bundles:net.tirasa.connid.bundles.azure:1.0.1/dependencies/javax/ws/rs/javax.ws.rs-api/2.0.1/javax.ws.rs-api-2.0.1.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import com.fasterxml.jackson.databind.JsonNode;",
+      "artifact" : {
+        "artifact" : "com.fasterxml.jackson.core:jackson-databind:2.9.4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/net.tirasa.connid.bundles:net.tirasa.connid.bundles.azure:1.0.1/dependencies/com/fasterxml/jackson/core/jackson-databind/2.9.4/jackson-databind-2.9.4.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import javax.ws.rs.core.Response;",
+      "artifact" : {
+        "artifact" : "javax.ws.rs:javax.ws.rs-api:2.0.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/net.tirasa.connid.bundles:net.tirasa.connid.bundles.azure:1.0.1/dependencies/javax/ws/rs/javax.ws.rs-api/2.0.1/javax.ws.rs-api-2.0.1.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.apache.commons.lang3.StringUtils;",
+      "artifact" : {
+        "artifact" : "org.apache.commons:commons-lang3:3.4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/net.tirasa.connid.bundles:net.tirasa.connid.bundles.azure:1.0.1/dependencies/org/apache/commons/commons-lang3/3.4/commons-lang3-3.4.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.io.IOException;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.List;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.ArrayList;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.Iterator;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import net.tirasa.connid.bundles.azure.utils.AzureAttributes;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import net.tirasa.connid.bundles.azure.dto.AzureError;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.Map;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import net.tirasa.connid.bundles.azure.AzureConnectorConfiguration;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.net.HttpURLConnection;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.net.URL;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.io.InputStream;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import javax.xml.parsers.DocumentBuilderFactory;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import javax.xml.parsers.DocumentBuilder;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.w3c.dom.Document;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import javax.xml.parsers.ParserConfigurationException;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.xml.sax.SAXException;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.w3c.dom.NodeList;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.w3c.dom.Node;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.w3c.dom.Element;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.HashMap;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/net.tirasa.connid.bundles:net.tirasa.connid.bundles.azure/src/main/java/net/tirasa/connid/bundles/azure/AzureConnectorConfiguration.java",
+    "useImportReport" : [ {
+      "importPath" : "import org.identityconnectors.framework.spi.AbstractConfiguration;",
+      "artifact" : {
+        "artifact" : "net.tirasa.connid:connector-framework:1.4.1.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/net.tirasa.connid.bundles:net.tirasa.connid.bundles.azure:1.0.1/dependencies/net/tirasa/connid/connector-framework/1.4.1.0/connector-framework-1.4.1.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.identityconnectors.framework.spi.StatefulConfiguration;",
+      "artifact" : {
+        "artifact" : "net.tirasa.connid:connector-framework:1.4.1.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/net.tirasa.connid.bundles:net.tirasa.connid.bundles.azure:1.0.1/dependencies/net/tirasa/connid/connector-framework/1.4.1.0/connector-framework-1.4.1.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.identityconnectors.framework.spi.ConfigurationProperty;",
+      "artifact" : {
+        "artifact" : "net.tirasa.connid:connector-framework:1.4.1.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/net.tirasa.connid.bundles:net.tirasa.connid.bundles.azure:1.0.1/dependencies/net/tirasa/connid/connector-framework/1.4.1.0/connector-framework-1.4.1.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.identityconnectors.common.StringUtil;",
+      "artifact" : {
+        "artifact" : "net.tirasa.connid:connector-framework:1.4.1.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/net.tirasa.connid.bundles:net.tirasa.connid.bundles.azure:1.0.1/dependencies/net/tirasa/connid/connector-framework/1.4.1.0/connector-framework-1.4.1.0.jar"
+      },
+      "isDirectDependency" : true
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  } ],
+  "projectUseDependencies" : [ {
+    "artifact" : "javax.ws.rs:javax.ws.rs-api:2.0.1",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/net.tirasa.connid.bundles:net.tirasa.connid.bundles.azure:1.0.1/dependencies/javax/ws/rs/javax.ws.rs-api/2.0.1/javax.ws.rs-api-2.0.1.jar"
+  }, {
+    "artifact" : "net.tirasa.connid:connector-framework:1.4.1.0",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/net.tirasa.connid.bundles:net.tirasa.connid.bundles.azure:1.0.1/dependencies/net/tirasa/connid/connector-framework/1.4.1.0/connector-framework-1.4.1.0.jar"
+  }, {
+    "artifact" : "com.fasterxml.jackson.core:jackson-databind:2.9.4",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/net.tirasa.connid.bundles:net.tirasa.connid.bundles.azure:1.0.1/dependencies/com/fasterxml/jackson/core/jackson-databind/2.9.4/jackson-databind-2.9.4.jar"
+  }, {
+    "artifact" : "org.apache.cxf:cxf-rt-rs-client:3.1.15",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/net.tirasa.connid.bundles:net.tirasa.connid.bundles.azure:1.0.1/dependencies/org/apache/cxf/cxf-rt-rs-client/3.1.15/cxf-rt-rs-client-3.1.15.jar"
+  } ],
+  "projectUseTransitiveDependencies" : [ {
+    "artifact" : "com.microsoft.azure:azure-client-authentication:1.3.0",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/net.tirasa.connid.bundles:net.tirasa.connid.bundles.azure:1.0.1/dependencies/com/microsoft/azure/azure-client-authentication/1.3.0/azure-client-authentication-1.3.0.jar"
+  } ],
+  "projectUnusedDependencies" : [ {
+    "artifact" : "net.tirasa.connid:connector-framework-internal:1.4.1.0",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/net.tirasa.connid.bundles:net.tirasa.connid.bundles.azure:1.0.1/dependencies/net/tirasa/connid/connector-framework-internal/1.4.1.0/connector-framework-internal-1.4.1.0.jar"
+  }, {
+    "artifact" : "org.apache.cxf:cxf-rt-transports-http-hc:3.1.15",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/net.tirasa.connid.bundles:net.tirasa.connid.bundles.azure:1.0.1/dependencies/org/apache/cxf/cxf-rt-transports-http-hc/3.1.15/cxf-rt-transports-http-hc-3.1.15.jar"
+  }, {
+    "artifact" : "commons-logging:commons-logging:1.1.1",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/net.tirasa.connid.bundles:net.tirasa.connid.bundles.azure:1.0.1/dependencies/commons-logging/commons-logging/1.1.1/commons-logging-1.1.1.jar"
+  } ]
+}

@@ -1,0 +1,1705 @@
+{
+  "projectArtifact" : "com.contrastsecurity:cassandra-migration:0.4",
+  "repositoryDir" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/com.contrastsecurity:cassandra-migration",
+  "repositorySubDir" : "",
+  "artifactLocation" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.contrastsecurity:cassandra-migration:0.4",
+  "fileImportReports" : [ {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/com.contrastsecurity:cassandra-migration/src/main/java/com/contrastsecurity/cassandra/migration/config/ScriptsLocation.java",
+    "useImportReport" : [ ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ {
+      "importPath" : "import com.contrastsecurity.cassandra.migration.CassandraMigrationException;"
+    } ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/com.contrastsecurity:cassandra-migration/src/main/java/com/contrastsecurity/cassandra/migration/config/MigrationType.java",
+    "useImportReport" : [ ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/com.contrastsecurity:cassandra-migration/src/main/java/com/contrastsecurity/cassandra/migration/config/Cluster.java",
+    "useImportReport" : [ ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/com.contrastsecurity:cassandra-migration/src/main/java/com/contrastsecurity/cassandra/migration/config/ScriptsLocations.java",
+    "useImportReport" : [ {
+      "importPath" : "import java.util.List;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.ArrayList;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.Collections;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ {
+      "importPath" : "import com.contrastsecurity.cassandra.migration.logging.Log;"
+    }, {
+      "importPath" : "import com.contrastsecurity.cassandra.migration.logging.LogFactory;"
+    } ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/com.contrastsecurity:cassandra-migration/src/main/java/com/contrastsecurity/cassandra/migration/config/MigrationConfigs.java",
+    "useImportReport" : [ ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ {
+      "importPath" : "import com.contrastsecurity.cassandra.migration.info.MigrationVersion;"
+    }, {
+      "importPath" : "import com.contrastsecurity.cassandra.migration.utils.StringUtils;"
+    } ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/com.contrastsecurity:cassandra-migration/src/main/java/com/contrastsecurity/cassandra/migration/config/Keyspace.java",
+    "useImportReport" : [ ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/com.contrastsecurity:cassandra-migration/src/main/java/com/contrastsecurity/cassandra/migration/dao/SchemaVersionDAO.java",
+    "useImportReport" : [ {
+      "importPath" : "import com.datastax.driver.core.*;",
+      "artifact" : {
+        "artifact" : "com.datastax.cassandra:cassandra-driver-core:2.1.7.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.contrastsecurity:cassandra-migration:0.4/dependencies/com/datastax/cassandra/cassandra-driver-core/2.1.7.1/cassandra-driver-core-2.1.7.1.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import com.datastax.driver.core.*;",
+      "artifact" : {
+        "artifact" : "com.datastax.cassandra:cassandra-driver-core:2.1.7.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.contrastsecurity:cassandra-migration:0.4/dependencies/com/datastax/cassandra/cassandra-driver-core/2.1.7.1/cassandra-driver-core-2.1.7.1.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import com.datastax.driver.core.*;",
+      "artifact" : {
+        "artifact" : "com.datastax.cassandra:cassandra-driver-core:2.1.7.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.contrastsecurity:cassandra-migration:0.4/dependencies/com/datastax/cassandra/cassandra-driver-core/2.1.7.1/cassandra-driver-core-2.1.7.1.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import com.datastax.driver.core.*;",
+      "artifact" : {
+        "artifact" : "com.datastax.cassandra:cassandra-driver-core:2.1.7.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.contrastsecurity:cassandra-migration:0.4/dependencies/com/datastax/cassandra/cassandra-driver-core/2.1.7.1/cassandra-driver-core-2.1.7.1.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import com.datastax.driver.core.querybuilder.QueryBuilder;",
+      "artifact" : {
+        "artifact" : "com.datastax.cassandra:cassandra-driver-core:2.1.7.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.contrastsecurity:cassandra-migration:0.4/dependencies/com/datastax/cassandra/cassandra-driver-core/2.1.7.1/cassandra-driver-core-2.1.7.1.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import static com.datastax.driver.core.querybuilder.QueryBuilder.*;",
+      "artifact" : {
+        "artifact" : "com.datastax.cassandra:cassandra-driver-core:2.1.7.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.contrastsecurity:cassandra-migration:0.4/dependencies/com/datastax/cassandra/cassandra-driver-core/2.1.7.1/cassandra-driver-core-2.1.7.1.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import static com.datastax.driver.core.querybuilder.QueryBuilder.*;",
+      "artifact" : {
+        "artifact" : "com.datastax.cassandra:cassandra-driver-core:2.1.7.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.contrastsecurity:cassandra-migration:0.4/dependencies/com/datastax/cassandra/cassandra-driver-core/2.1.7.1/cassandra-driver-core-2.1.7.1.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import com.datastax.driver.core.*;",
+      "artifact" : {
+        "artifact" : "com.datastax.cassandra:cassandra-driver-core:2.1.7.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.contrastsecurity:cassandra-migration:0.4/dependencies/com/datastax/cassandra/cassandra-driver-core/2.1.7.1/cassandra-driver-core-2.1.7.1.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import com.datastax.driver.core.*;",
+      "artifact" : {
+        "artifact" : "com.datastax.cassandra:cassandra-driver-core:2.1.7.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.contrastsecurity:cassandra-migration:0.4/dependencies/com/datastax/cassandra/cassandra-driver-core/2.1.7.1/cassandra-driver-core-2.1.7.1.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import com.datastax.driver.core.*;",
+      "artifact" : {
+        "artifact" : "com.datastax.cassandra:cassandra-driver-core:2.1.7.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.contrastsecurity:cassandra-migration:0.4/dependencies/com/datastax/cassandra/cassandra-driver-core/2.1.7.1/cassandra-driver-core-2.1.7.1.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import java.util.List;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.ArrayList;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.datastax.driver.core.querybuilder.Select;",
+      "artifact" : {
+        "artifact" : "com.datastax.cassandra:cassandra-driver-core:2.1.7.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.contrastsecurity:cassandra-migration:0.4/dependencies/com/datastax/cassandra/cassandra-driver-core/2.1.7.1/cassandra-driver-core-2.1.7.1.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import java.util.Collections;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.datastax.driver.core.querybuilder.Update;",
+      "artifact" : {
+        "artifact" : "com.datastax.cassandra:cassandra-driver-core:2.1.7.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.contrastsecurity:cassandra-migration:0.4/dependencies/com/datastax/cassandra/cassandra-driver-core/2.1.7.1/cassandra-driver-core-2.1.7.1.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import static com.datastax.driver.core.querybuilder.QueryBuilder.*;",
+      "artifact" : {
+        "artifact" : "com.datastax.cassandra:cassandra-driver-core:2.1.7.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.contrastsecurity:cassandra-migration:0.4/dependencies/com/datastax/cassandra/cassandra-driver-core/2.1.7.1/cassandra-driver-core-2.1.7.1.jar"
+      },
+      "isDirectDependency" : true
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ {
+      "importPath" : "import com.contrastsecurity.cassandra.migration.config.Keyspace;"
+    }, {
+      "importPath" : "import com.contrastsecurity.cassandra.migration.config.MigrationType;"
+    }, {
+      "importPath" : "import com.contrastsecurity.cassandra.migration.info.AppliedMigration;"
+    }, {
+      "importPath" : "import com.contrastsecurity.cassandra.migration.info.MigrationVersion;"
+    }, {
+      "importPath" : "import com.contrastsecurity.cassandra.migration.logging.Log;"
+    }, {
+      "importPath" : "import com.contrastsecurity.cassandra.migration.logging.LogFactory;"
+    } ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/com.contrastsecurity:cassandra-migration/src/main/java/com/contrastsecurity/cassandra/migration/CommandLine.java",
+    "useImportReport" : [ {
+      "importPath" : "import java.util.List;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.ArrayList;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ {
+      "importPath" : "import com.contrastsecurity.cassandra.migration.config.Keyspace;"
+    }, {
+      "importPath" : "import com.contrastsecurity.cassandra.migration.logging.Log;"
+    }, {
+      "importPath" : "import com.contrastsecurity.cassandra.migration.logging.LogFactory;"
+    }, {
+      "importPath" : "import com.contrastsecurity.cassandra.migration.logging.console.ConsoleLog;"
+    }, {
+      "importPath" : "import com.contrastsecurity.cassandra.migration.logging.console.ConsoleLogCreator;"
+    } ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/com.contrastsecurity:cassandra-migration/src/main/java/com/contrastsecurity/cassandra/migration/utils/FileCopyUtils.java",
+    "useImportReport" : [ {
+      "importPath" : "import java.io.*;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.io.*;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.io.*;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.io.*;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.io.*;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.io.*;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.io.*;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/com.contrastsecurity:cassandra-migration/src/main/java/com/contrastsecurity/cassandra/migration/utils/StringUtils.java",
+    "useImportReport" : [ {
+      "importPath" : "import java.util.regex.Pattern;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.regex.Matcher;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.Collection;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.Iterator;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/com.contrastsecurity:cassandra-migration/src/main/java/com/contrastsecurity/cassandra/migration/utils/VersionPrinter.java",
+    "useImportReport" : [ ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ {
+      "importPath" : "import com.contrastsecurity.cassandra.migration.logging.Log;"
+    }, {
+      "importPath" : "import com.contrastsecurity.cassandra.migration.logging.LogFactory;"
+    }, {
+      "importPath" : "import com.contrastsecurity.cassandra.migration.utils.scanner.classpath.ClassPathResource;"
+    } ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/com.contrastsecurity:cassandra-migration/src/main/java/com/contrastsecurity/cassandra/migration/utils/Pair.java",
+    "useImportReport" : [ ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/com.contrastsecurity:cassandra-migration/src/main/java/com/contrastsecurity/cassandra/migration/utils/StopWatch.java",
+    "useImportReport" : [ ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/com.contrastsecurity:cassandra-migration/src/main/java/com/contrastsecurity/cassandra/migration/utils/ClassUtils.java",
+    "useImportReport" : [ {
+      "importPath" : "import java.util.List;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.ArrayList;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.security.ProtectionDomain;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.net.URLDecoder;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.io.UnsupportedEncodingException;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ {
+      "importPath" : "import com.contrastsecurity.cassandra.migration.CassandraMigrationException;"
+    } ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/com.contrastsecurity:cassandra-migration/src/main/java/com/contrastsecurity/cassandra/migration/utils/UrlUtils.java",
+    "useImportReport" : [ {
+      "importPath" : "import java.net.URL;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.io.File;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.net.URLDecoder;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.io.UnsupportedEncodingException;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/com.contrastsecurity:cassandra-migration/src/main/java/com/contrastsecurity/cassandra/migration/utils/FeatureDetector.java",
+    "useImportReport" : [ ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/com.contrastsecurity:cassandra-migration/src/main/java/com/contrastsecurity/cassandra/migration/utils/TimeFormat.java",
+    "useImportReport" : [ ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/com.contrastsecurity:cassandra-migration/src/main/java/com/contrastsecurity/cassandra/migration/utils/ObjectUtils.java",
+    "useImportReport" : [ ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/com.contrastsecurity:cassandra-migration/src/main/java/com/contrastsecurity/cassandra/migration/utils/DateUtils.java",
+    "useImportReport" : [ {
+      "importPath" : "import java.util.Date;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.text.SimpleDateFormat;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/com.contrastsecurity:cassandra-migration/src/main/java/com/contrastsecurity/cassandra/migration/utils/scanner/classpath/DefaultUrlResolver.java",
+    "useImportReport" : [ {
+      "importPath" : "import java.net.URL;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.io.IOException;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/com.contrastsecurity:cassandra-migration/src/main/java/com/contrastsecurity/cassandra/migration/utils/scanner/classpath/ClassPathScanner.java",
+    "useImportReport" : [ {
+      "importPath" : "import java.io.IOException;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.lang.reflect.Modifier;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.net.URL;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.net.URLDecoder;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ {
+      "importPath" : "import java.util.*;",
+      "artifact" : {
+        "artifact" : "com.boundary:high-scale-lib:1.0.6",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.contrastsecurity:cassandra-migration:0.4/dependencies/com/boundary/high-scale-lib/1.0.6/high-scale-lib-1.0.6.jar"
+      },
+      "isDirectDependency" : false
+    } ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ {
+      "importPath" : "import com.contrastsecurity.cassandra.migration.CassandraMigrationException;"
+    }, {
+      "importPath" : "import com.contrastsecurity.cassandra.migration.logging.Log;"
+    }, {
+      "importPath" : "import com.contrastsecurity.cassandra.migration.logging.LogFactory;"
+    }, {
+      "importPath" : "import com.contrastsecurity.cassandra.migration.utils.ClassUtils;"
+    }, {
+      "importPath" : "import com.contrastsecurity.cassandra.migration.utils.FeatureDetector;"
+    }, {
+      "importPath" : "import com.contrastsecurity.cassandra.migration.utils.UrlUtils;"
+    }, {
+      "importPath" : "import com.contrastsecurity.cassandra.migration.utils.scanner.Resource;"
+    } ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/com.contrastsecurity:cassandra-migration/src/main/java/com/contrastsecurity/cassandra/migration/utils/scanner/classpath/UrlResolver.java",
+    "useImportReport" : [ {
+      "importPath" : "import java.net.URL;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.io.IOException;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/com.contrastsecurity:cassandra-migration/src/main/java/com/contrastsecurity/cassandra/migration/utils/scanner/classpath/ClassPathLocationScanner.java",
+    "useImportReport" : [ {
+      "importPath" : "import java.util.Set;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.io.IOException;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.net.URL;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/com.contrastsecurity:cassandra-migration/src/main/java/com/contrastsecurity/cassandra/migration/utils/scanner/classpath/FileSystemClassPathLocationScanner.java",
+    "useImportReport" : [ {
+      "importPath" : "import java.util.Set;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.net.URL;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.io.IOException;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.io.File;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.TreeSet;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ {
+      "importPath" : "import com.contrastsecurity.cassandra.migration.logging.Log;"
+    }, {
+      "importPath" : "import com.contrastsecurity.cassandra.migration.logging.LogFactory;"
+    }, {
+      "importPath" : "import com.contrastsecurity.cassandra.migration.utils.UrlUtils;"
+    } ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/com.contrastsecurity:cassandra-migration/src/main/java/com/contrastsecurity/cassandra/migration/utils/scanner/classpath/ClassPathResource.java",
+    "useImportReport" : [ {
+      "importPath" : "import java.net.URL;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.io.*;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.net.URLDecoder;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.io.*;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.io.*;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.io.*;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.io.*;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.nio.charset.Charset;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.io.*;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ {
+      "importPath" : "import com.contrastsecurity.cassandra.migration.CassandraMigrationException;"
+    }, {
+      "importPath" : "import com.contrastsecurity.cassandra.migration.utils.FileCopyUtils;"
+    }, {
+      "importPath" : "import com.contrastsecurity.cassandra.migration.utils.scanner.Resource;"
+    } ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/com.contrastsecurity:cassandra-migration/src/main/java/com/contrastsecurity/cassandra/migration/utils/scanner/classpath/JarFileClassPathLocationScanner.java",
+    "useImportReport" : [ {
+      "importPath" : "import java.util.Set;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.net.URL;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.io.IOException;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.jar.JarFile;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.net.URLConnection;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.net.JarURLConnection;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.net.URISyntaxException;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.TreeSet;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.Enumeration;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.jar.JarEntry;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/com.contrastsecurity:cassandra-migration/src/main/java/com/contrastsecurity/cassandra/migration/utils/scanner/Scanner.java",
+    "useImportReport" : [ ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ {
+      "importPath" : "import com.contrastsecurity.cassandra.migration.CassandraMigrationException;"
+    }, {
+      "importPath" : "import com.contrastsecurity.cassandra.migration.config.ScriptsLocation;"
+    }, {
+      "importPath" : "import com.contrastsecurity.cassandra.migration.utils.scanner.classpath.ClassPathScanner;"
+    }, {
+      "importPath" : "import com.contrastsecurity.cassandra.migration.utils.scanner.filesystem.FileSystemScanner;"
+    } ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/com.contrastsecurity:cassandra-migration/src/main/java/com/contrastsecurity/cassandra/migration/utils/scanner/Resource.java",
+    "useImportReport" : [ ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/com.contrastsecurity:cassandra-migration/src/main/java/com/contrastsecurity/cassandra/migration/utils/scanner/filesystem/FileSystemResource.java",
+    "useImportReport" : [ {
+      "importPath" : "import java.io.*;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.io.*;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.io.*;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.io.*;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.io.*;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.nio.charset.Charset;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.io.*;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ {
+      "importPath" : "import com.contrastsecurity.cassandra.migration.CassandraMigrationException;"
+    }, {
+      "importPath" : "import com.contrastsecurity.cassandra.migration.utils.FileCopyUtils;"
+    }, {
+      "importPath" : "import com.contrastsecurity.cassandra.migration.utils.StringUtils;"
+    }, {
+      "importPath" : "import com.contrastsecurity.cassandra.migration.utils.scanner.Resource;"
+    } ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/com.contrastsecurity:cassandra-migration/src/main/java/com/contrastsecurity/cassandra/migration/utils/scanner/filesystem/FileSystemScanner.java",
+    "useImportReport" : [ {
+      "importPath" : "import java.io.IOException;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.io.File;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.Set;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.TreeSet;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ {
+      "importPath" : "import com.contrastsecurity.cassandra.migration.CassandraMigrationException;"
+    }, {
+      "importPath" : "import com.contrastsecurity.cassandra.migration.logging.Log;"
+    }, {
+      "importPath" : "import com.contrastsecurity.cassandra.migration.logging.LogFactory;"
+    }, {
+      "importPath" : "import com.contrastsecurity.cassandra.migration.utils.scanner.Resource;"
+    } ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/com.contrastsecurity:cassandra-migration/src/main/java/com/contrastsecurity/cassandra/migration/script/CqlStatementBuilder.java",
+    "useImportReport" : [ {
+      "importPath" : "import java.util.List;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.ArrayList;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ {
+      "importPath" : "import com.contrastsecurity.cassandra.migration.utils.StringUtils;"
+    } ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/com.contrastsecurity:cassandra-migration/src/main/java/com/contrastsecurity/cassandra/migration/script/CqlScript.java",
+    "useImportReport" : [ {
+      "importPath" : "import java.util.List;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.datastax.driver.core.Session;",
+      "artifact" : {
+        "artifact" : "com.datastax.cassandra:cassandra-driver-core:2.1.7.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.contrastsecurity:cassandra-migration:0.4/dependencies/com/datastax/cassandra/cassandra-driver-core/2.1.7.1/cassandra-driver-core-2.1.7.1.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import java.io.StringReader;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.ArrayList;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.io.Reader;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.io.BufferedReader;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.io.IOException;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ {
+      "importPath" : "import com.contrastsecurity.cassandra.migration.CassandraMigrationException;"
+    }, {
+      "importPath" : "import com.contrastsecurity.cassandra.migration.logging.Log;"
+    }, {
+      "importPath" : "import com.contrastsecurity.cassandra.migration.logging.LogFactory;"
+    }, {
+      "importPath" : "import com.contrastsecurity.cassandra.migration.utils.StringUtils;"
+    }, {
+      "importPath" : "import com.contrastsecurity.cassandra.migration.utils.scanner.Resource;"
+    } ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/com.contrastsecurity:cassandra-migration/src/main/java/com/contrastsecurity/cassandra/migration/script/Delimiter.java",
+    "useImportReport" : [ ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/com.contrastsecurity:cassandra-migration/src/main/java/com/contrastsecurity/cassandra/migration/info/MigrationInfoDumper.java",
+    "useImportReport" : [ ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ {
+      "importPath" : "import com.contrastsecurity.cassandra.migration.utils.DateUtils;"
+    }, {
+      "importPath" : "import com.contrastsecurity.cassandra.migration.utils.StringUtils;"
+    } ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/com.contrastsecurity:cassandra-migration/src/main/java/com/contrastsecurity/cassandra/migration/info/MigrationInfo.java",
+    "useImportReport" : [ {
+      "importPath" : "import java.util.Date;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ {
+      "importPath" : "import com.contrastsecurity.cassandra.migration.config.MigrationType;"
+    }, {
+      "importPath" : "import com.contrastsecurity.cassandra.migration.utils.ObjectUtils;"
+    } ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/com.contrastsecurity:cassandra-migration/src/main/java/com/contrastsecurity/cassandra/migration/info/MigrationInfoService.java",
+    "useImportReport" : [ ],
+    "unusedImportReport" : [ {
+      "importPath" : "import java.util.*;",
+      "artifact" : {
+        "artifact" : "com.boundary:high-scale-lib:1.0.6",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.contrastsecurity:cassandra-migration:0.4/dependencies/com/boundary/high-scale-lib/1.0.6/high-scale-lib-1.0.6.jar"
+      },
+      "isDirectDependency" : false
+    } ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ {
+      "importPath" : "import com.contrastsecurity.cassandra.migration.config.MigrationType;"
+    }, {
+      "importPath" : "import com.contrastsecurity.cassandra.migration.dao.SchemaVersionDAO;"
+    }, {
+      "importPath" : "import com.contrastsecurity.cassandra.migration.resolver.MigrationResolver;"
+    } ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/com.contrastsecurity:cassandra-migration/src/main/java/com/contrastsecurity/cassandra/migration/info/MigrationState.java",
+    "useImportReport" : [ ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/com.contrastsecurity:cassandra-migration/src/main/java/com/contrastsecurity/cassandra/migration/info/MigrationInfoContext.java",
+    "useImportReport" : [ ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/com.contrastsecurity:cassandra-migration/src/main/java/com/contrastsecurity/cassandra/migration/info/MigrationVersion.java",
+    "useImportReport" : [ {
+      "importPath" : "import java.math.BigInteger;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.List;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.regex.Pattern;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.ArrayList;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ {
+      "importPath" : "import com.contrastsecurity.cassandra.migration.CassandraMigrationException;"
+    } ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/com.contrastsecurity:cassandra-migration/src/main/java/com/contrastsecurity/cassandra/migration/info/AppliedMigration.java",
+    "useImportReport" : [ {
+      "importPath" : "import java.util.Date;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ {
+      "importPath" : "import com.contrastsecurity.cassandra.migration.config.MigrationType;"
+    } ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/com.contrastsecurity:cassandra-migration/src/main/java/com/contrastsecurity/cassandra/migration/info/ResolvedMigration.java",
+    "useImportReport" : [ ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ {
+      "importPath" : "import com.contrastsecurity.cassandra.migration.config.MigrationType;"
+    }, {
+      "importPath" : "import com.contrastsecurity.cassandra.migration.resolver.MigrationExecutor;"
+    } ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/com.contrastsecurity:cassandra-migration/src/main/java/com/contrastsecurity/cassandra/migration/action/Initialize.java",
+    "useImportReport" : [ {
+      "importPath" : "import com.datastax.driver.core.Session;",
+      "artifact" : {
+        "artifact" : "com.datastax.cassandra:cassandra-driver-core:2.1.7.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.contrastsecurity:cassandra-migration:0.4/dependencies/com/datastax/cassandra/cassandra-driver-core/2.1.7.1/cassandra-driver-core-2.1.7.1.jar"
+      },
+      "isDirectDependency" : true
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ {
+      "importPath" : "import com.contrastsecurity.cassandra.migration.config.Keyspace;"
+    }, {
+      "importPath" : "import com.contrastsecurity.cassandra.migration.dao.SchemaVersionDAO;"
+    } ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/com.contrastsecurity:cassandra-migration/src/main/java/com/contrastsecurity/cassandra/migration/action/Migrate.java",
+    "useImportReport" : [ {
+      "importPath" : "import com.datastax.driver.core.Session;",
+      "artifact" : {
+        "artifact" : "com.datastax.cassandra:cassandra-driver-core:2.1.7.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.contrastsecurity:cassandra-migration:0.4/dependencies/com/datastax/cassandra/cassandra-driver-core/2.1.7.1/cassandra-driver-core-2.1.7.1.jar"
+      },
+      "isDirectDependency" : true
+    } ],
+    "unusedImportReport" : [ {
+      "importPath" : "import com.contrastsecurity.cassandra.migration.info.*;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ {
+      "importPath" : "import com.contrastsecurity.cassandra.migration.CassandraMigrationException;"
+    }, {
+      "importPath" : "import com.contrastsecurity.cassandra.migration.dao.SchemaVersionDAO;"
+    }, {
+      "importPath" : "import com.contrastsecurity.cassandra.migration.logging.Log;"
+    }, {
+      "importPath" : "import com.contrastsecurity.cassandra.migration.logging.LogFactory;"
+    }, {
+      "importPath" : "import com.contrastsecurity.cassandra.migration.resolver.MigrationExecutor;"
+    }, {
+      "importPath" : "import com.contrastsecurity.cassandra.migration.resolver.MigrationResolver;"
+    }, {
+      "importPath" : "import com.contrastsecurity.cassandra.migration.utils.StopWatch;"
+    }, {
+      "importPath" : "import com.contrastsecurity.cassandra.migration.utils.TimeFormat;"
+    } ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/com.contrastsecurity:cassandra-migration/src/main/java/com/contrastsecurity/cassandra/migration/api/MigrationChecksumProvider.java",
+    "useImportReport" : [ ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/com.contrastsecurity:cassandra-migration/src/main/java/com/contrastsecurity/cassandra/migration/api/JavaMigration.java",
+    "useImportReport" : [ {
+      "importPath" : "import com.datastax.driver.core.Session;",
+      "artifact" : {
+        "artifact" : "com.datastax.cassandra:cassandra-driver-core:2.1.7.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.contrastsecurity:cassandra-migration:0.4/dependencies/com/datastax/cassandra/cassandra-driver-core/2.1.7.1/cassandra-driver-core-2.1.7.1.jar"
+      },
+      "isDirectDependency" : true
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/com.contrastsecurity:cassandra-migration/src/main/java/com/contrastsecurity/cassandra/migration/api/MigrationInfoProvider.java",
+    "useImportReport" : [ ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ {
+      "importPath" : "import com.contrastsecurity.cassandra.migration.info.MigrationVersion;"
+    } ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/com.contrastsecurity:cassandra-migration/src/main/java/com/contrastsecurity/cassandra/migration/CassandraMigrationException.java",
+    "useImportReport" : [ ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/com.contrastsecurity:cassandra-migration/src/main/java/com/contrastsecurity/cassandra/migration/CassandraMigration.java",
+    "useImportReport" : [ {
+      "importPath" : "import com.datastax.driver.core.Session;",
+      "artifact" : {
+        "artifact" : "com.datastax.cassandra:cassandra-driver-core:2.1.7.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.contrastsecurity:cassandra-migration:0.4/dependencies/com/datastax/cassandra/cassandra-driver-core/2.1.7.1/cassandra-driver-core-2.1.7.1.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import sun.reflect.generics.reflectiveObjects.NotImplementedException;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.datastax.driver.core.Metadata;",
+      "artifact" : {
+        "artifact" : "com.datastax.cassandra:cassandra-driver-core:2.1.7.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.contrastsecurity:cassandra-migration:0.4/dependencies/com/datastax/cassandra/cassandra-driver-core/2.1.7.1/cassandra-driver-core-2.1.7.1.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import com.datastax.driver.core.Host;",
+      "artifact" : {
+        "artifact" : "com.datastax.cassandra:cassandra-driver-core:2.1.7.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.contrastsecurity:cassandra-migration:0.4/dependencies/com/datastax/cassandra/cassandra-driver-core/2.1.7.1/cassandra-driver-core-2.1.7.1.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import java.util.List;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.datastax.driver.core.KeyspaceMetadata;",
+      "artifact" : {
+        "artifact" : "com.datastax.cassandra:cassandra-driver-core:2.1.7.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.contrastsecurity:cassandra-migration:0.4/dependencies/com/datastax/cassandra/cassandra-driver-core/2.1.7.1/cassandra-driver-core-2.1.7.1.jar"
+      },
+      "isDirectDependency" : true
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ {
+      "importPath" : "com.datastax.driver.core.Cluster",
+      "artifact" : {
+        "artifact" : "com.datastax.cassandra:cassandra-driver-core:2.1.7.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.contrastsecurity:cassandra-migration:0.4/dependencies/com/datastax/cassandra/cassandra-driver-core/2.1.7.1/cassandra-driver-core-2.1.7.1.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "com.datastax.driver.core.Cluster.Builder",
+      "artifact" : {
+        "artifact" : "com.datastax.cassandra:cassandra-driver-core:2.1.7.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.contrastsecurity:cassandra-migration:0.4/dependencies/com/datastax/cassandra/cassandra-driver-core/2.1.7.1/cassandra-driver-core-2.1.7.1.jar"
+      },
+      "isDirectDependency" : true
+    } ],
+    "failImportReport" : [ {
+      "importPath" : "import com.contrastsecurity.cassandra.migration.action.Initialize;"
+    }, {
+      "importPath" : "import com.contrastsecurity.cassandra.migration.action.Migrate;"
+    }, {
+      "importPath" : "import com.contrastsecurity.cassandra.migration.config.Keyspace;"
+    }, {
+      "importPath" : "import com.contrastsecurity.cassandra.migration.config.MigrationConfigs;"
+    }, {
+      "importPath" : "import com.contrastsecurity.cassandra.migration.config.ScriptsLocations;"
+    }, {
+      "importPath" : "import com.contrastsecurity.cassandra.migration.dao.SchemaVersionDAO;"
+    }, {
+      "importPath" : "import com.contrastsecurity.cassandra.migration.info.MigrationInfoService;"
+    }, {
+      "importPath" : "import com.contrastsecurity.cassandra.migration.info.MigrationVersion;"
+    }, {
+      "importPath" : "import com.contrastsecurity.cassandra.migration.logging.Log;"
+    }, {
+      "importPath" : "import com.contrastsecurity.cassandra.migration.logging.LogFactory;"
+    }, {
+      "importPath" : "import com.contrastsecurity.cassandra.migration.resolver.CompositeMigrationResolver;"
+    }, {
+      "importPath" : "import com.contrastsecurity.cassandra.migration.resolver.MigrationResolver;"
+    }, {
+      "importPath" : "import com.contrastsecurity.cassandra.migration.utils.VersionPrinter;"
+    } ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/com.contrastsecurity:cassandra-migration/src/main/java/com/contrastsecurity/cassandra/migration/logging/LogFactory.java",
+    "useImportReport" : [ ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ {
+      "importPath" : "import com.contrastsecurity.cassandra.migration.logging.apachecommons.ApacheCommonsLogCreator;"
+    }, {
+      "importPath" : "import com.contrastsecurity.cassandra.migration.logging.javautil.JavaUtilLogCreator;"
+    }, {
+      "importPath" : "import com.contrastsecurity.cassandra.migration.logging.slf4j.Slf4jLogCreator;"
+    }, {
+      "importPath" : "import com.contrastsecurity.cassandra.migration.utils.FeatureDetector;"
+    } ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/com.contrastsecurity:cassandra-migration/src/main/java/com/contrastsecurity/cassandra/migration/logging/javautil/JavaUtilLog.java",
+    "useImportReport" : [ {
+      "importPath" : "import java.util.logging.Logger;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.logging.Level;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.logging.LogRecord;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ {
+      "importPath" : "import com.contrastsecurity.cassandra.migration.logging.Log;"
+    } ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/com.contrastsecurity:cassandra-migration/src/main/java/com/contrastsecurity/cassandra/migration/logging/javautil/JavaUtilLogCreator.java",
+    "useImportReport" : [ {
+      "importPath" : "import java.util.logging.Logger;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ {
+      "importPath" : "import com.contrastsecurity.cassandra.migration.logging.Log;"
+    }, {
+      "importPath" : "import com.contrastsecurity.cassandra.migration.logging.LogCreator;"
+    } ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/com.contrastsecurity:cassandra-migration/src/main/java/com/contrastsecurity/cassandra/migration/logging/slf4j/Slf4jLog.java",
+    "useImportReport" : [ {
+      "importPath" : "import org.slf4j.Logger;",
+      "artifact" : {
+        "artifact" : "org.slf4j:slf4j-api:1.7.12",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.contrastsecurity:cassandra-migration:0.4/dependencies/org/slf4j/slf4j-api/1.7.12/slf4j-api-1.7.12.jar"
+      },
+      "isDirectDependency" : true
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ {
+      "importPath" : "import com.contrastsecurity.cassandra.migration.logging.Log;"
+    } ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/com.contrastsecurity:cassandra-migration/src/main/java/com/contrastsecurity/cassandra/migration/logging/slf4j/Slf4jLogCreator.java",
+    "useImportReport" : [ {
+      "importPath" : "import org.slf4j.LoggerFactory;",
+      "artifact" : {
+        "artifact" : "org.slf4j:slf4j-api:1.7.12",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.contrastsecurity:cassandra-migration:0.4/dependencies/org/slf4j/slf4j-api/1.7.12/slf4j-api-1.7.12.jar"
+      },
+      "isDirectDependency" : true
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ {
+      "importPath" : "import com.contrastsecurity.cassandra.migration.logging.Log;"
+    }, {
+      "importPath" : "import com.contrastsecurity.cassandra.migration.logging.LogCreator;"
+    } ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/com.contrastsecurity:cassandra-migration/src/main/java/com/contrastsecurity/cassandra/migration/logging/LogCreator.java",
+    "useImportReport" : [ ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/com.contrastsecurity:cassandra-migration/src/main/java/com/contrastsecurity/cassandra/migration/logging/apachecommons/ApacheCommonsLog.java",
+    "useImportReport" : [ ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ {
+      "importPath" : "org.apache.commons.logging.Log",
+      "artifact" : {
+        "artifact" : "commons-logging:commons-logging:1.2",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.contrastsecurity:cassandra-migration:0.4/dependencies/commons-logging/commons-logging/1.2/commons-logging-1.2.jar"
+      },
+      "isDirectDependency" : true
+    } ],
+    "failImportReport" : [ {
+      "importPath" : "import com.contrastsecurity.cassandra.migration.logging.Log;"
+    } ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/com.contrastsecurity:cassandra-migration/src/main/java/com/contrastsecurity/cassandra/migration/logging/apachecommons/ApacheCommonsLogCreator.java",
+    "useImportReport" : [ {
+      "importPath" : "import org.apache.commons.logging.LogFactory;",
+      "artifact" : {
+        "artifact" : "commons-logging:commons-logging:1.2",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.contrastsecurity:cassandra-migration:0.4/dependencies/commons-logging/commons-logging/1.2/commons-logging-1.2.jar"
+      },
+      "isDirectDependency" : true
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ {
+      "importPath" : "import com.contrastsecurity.cassandra.migration.logging.Log;"
+    }, {
+      "importPath" : "import com.contrastsecurity.cassandra.migration.logging.LogCreator;"
+    } ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/com.contrastsecurity:cassandra-migration/src/main/java/com/contrastsecurity/cassandra/migration/logging/Log.java",
+    "useImportReport" : [ ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/com.contrastsecurity:cassandra-migration/src/main/java/com/contrastsecurity/cassandra/migration/logging/console/ConsoleLogCreator.java",
+    "useImportReport" : [ ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ {
+      "importPath" : "import com.contrastsecurity.cassandra.migration.logging.Log;"
+    }, {
+      "importPath" : "import com.contrastsecurity.cassandra.migration.logging.LogCreator;"
+    }, {
+      "importPath" : "import com.contrastsecurity.cassandra.migration.logging.console.ConsoleLog.Level;"
+    } ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/com.contrastsecurity:cassandra-migration/src/main/java/com/contrastsecurity/cassandra/migration/logging/console/ConsoleLog.java",
+    "useImportReport" : [ ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ {
+      "importPath" : "import com.contrastsecurity.cassandra.migration.logging.Log;"
+    } ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/com.contrastsecurity:cassandra-migration/src/main/java/com/contrastsecurity/cassandra/migration/resolver/MigrationExecutor.java",
+    "useImportReport" : [ {
+      "importPath" : "import com.datastax.driver.core.Session;",
+      "artifact" : {
+        "artifact" : "com.datastax.cassandra:cassandra-driver-core:2.1.7.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.contrastsecurity:cassandra-migration:0.4/dependencies/com/datastax/cassandra/cassandra-driver-core/2.1.7.1/cassandra-driver-core-2.1.7.1.jar"
+      },
+      "isDirectDependency" : true
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/com.contrastsecurity:cassandra-migration/src/main/java/com/contrastsecurity/cassandra/migration/resolver/cql/CqlMigrationResolver.java",
+    "useImportReport" : [ {
+      "importPath" : "import java.util.List;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.ArrayList;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.Collections;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.zip.CRC32;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ {
+      "importPath" : "import com.contrastsecurity.cassandra.migration.config.MigrationType;"
+    }, {
+      "importPath" : "import com.contrastsecurity.cassandra.migration.config.ScriptsLocation;"
+    }, {
+      "importPath" : "import com.contrastsecurity.cassandra.migration.info.MigrationVersion;"
+    }, {
+      "importPath" : "import com.contrastsecurity.cassandra.migration.info.ResolvedMigration;"
+    }, {
+      "importPath" : "import com.contrastsecurity.cassandra.migration.resolver.MigrationInfoHelper;"
+    }, {
+      "importPath" : "import com.contrastsecurity.cassandra.migration.resolver.MigrationResolver;"
+    }, {
+      "importPath" : "import com.contrastsecurity.cassandra.migration.resolver.ResolvedMigrationComparator;"
+    }, {
+      "importPath" : "import com.contrastsecurity.cassandra.migration.utils.Pair;"
+    }, {
+      "importPath" : "import com.contrastsecurity.cassandra.migration.utils.scanner.Resource;"
+    }, {
+      "importPath" : "import com.contrastsecurity.cassandra.migration.utils.scanner.Scanner;"
+    } ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/com.contrastsecurity:cassandra-migration/src/main/java/com/contrastsecurity/cassandra/migration/resolver/cql/CqlMigrationExecutor.java",
+    "useImportReport" : [ {
+      "importPath" : "import com.datastax.driver.core.Session;",
+      "artifact" : {
+        "artifact" : "com.datastax.cassandra:cassandra-driver-core:2.1.7.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.contrastsecurity:cassandra-migration:0.4/dependencies/com/datastax/cassandra/cassandra-driver-core/2.1.7.1/cassandra-driver-core-2.1.7.1.jar"
+      },
+      "isDirectDependency" : true
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ {
+      "importPath" : "import com.contrastsecurity.cassandra.migration.resolver.MigrationExecutor;"
+    }, {
+      "importPath" : "import com.contrastsecurity.cassandra.migration.script.CqlScript;"
+    }, {
+      "importPath" : "import com.contrastsecurity.cassandra.migration.utils.scanner.Resource;"
+    } ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/com.contrastsecurity:cassandra-migration/src/main/java/com/contrastsecurity/cassandra/migration/resolver/java/JavaMigrationResolver.java",
+    "useImportReport" : [ {
+      "importPath" : "import java.util.List;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.ArrayList;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.Collections;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ {
+      "importPath" : "import com.contrastsecurity.cassandra.migration.CassandraMigrationException;"
+    }, {
+      "importPath" : "import com.contrastsecurity.cassandra.migration.api.MigrationChecksumProvider;"
+    }, {
+      "importPath" : "import com.contrastsecurity.cassandra.migration.api.MigrationInfoProvider;"
+    }, {
+      "importPath" : "import com.contrastsecurity.cassandra.migration.api.JavaMigration;"
+    }, {
+      "importPath" : "import com.contrastsecurity.cassandra.migration.config.MigrationType;"
+    }, {
+      "importPath" : "import com.contrastsecurity.cassandra.migration.config.ScriptsLocation;"
+    }, {
+      "importPath" : "import com.contrastsecurity.cassandra.migration.info.MigrationVersion;"
+    }, {
+      "importPath" : "import com.contrastsecurity.cassandra.migration.info.ResolvedMigration;"
+    }, {
+      "importPath" : "import com.contrastsecurity.cassandra.migration.resolver.MigrationInfoHelper;"
+    }, {
+      "importPath" : "import com.contrastsecurity.cassandra.migration.resolver.MigrationResolver;"
+    }, {
+      "importPath" : "import com.contrastsecurity.cassandra.migration.resolver.ResolvedMigrationComparator;"
+    }, {
+      "importPath" : "import com.contrastsecurity.cassandra.migration.utils.ClassUtils;"
+    }, {
+      "importPath" : "import com.contrastsecurity.cassandra.migration.utils.Pair;"
+    }, {
+      "importPath" : "import com.contrastsecurity.cassandra.migration.utils.StringUtils;"
+    }, {
+      "importPath" : "import com.contrastsecurity.cassandra.migration.utils.scanner.Scanner;"
+    } ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/com.contrastsecurity:cassandra-migration/src/main/java/com/contrastsecurity/cassandra/migration/resolver/java/JavaMigrationExecutor.java",
+    "useImportReport" : [ {
+      "importPath" : "import com.datastax.driver.core.Session;",
+      "artifact" : {
+        "artifact" : "com.datastax.cassandra:cassandra-driver-core:2.1.7.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.contrastsecurity:cassandra-migration:0.4/dependencies/com/datastax/cassandra/cassandra-driver-core/2.1.7.1/cassandra-driver-core-2.1.7.1.jar"
+      },
+      "isDirectDependency" : true
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ {
+      "importPath" : "import com.contrastsecurity.cassandra.migration.CassandraMigrationException;"
+    }, {
+      "importPath" : "import com.contrastsecurity.cassandra.migration.api.JavaMigration;"
+    }, {
+      "importPath" : "import com.contrastsecurity.cassandra.migration.resolver.MigrationExecutor;"
+    } ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/com.contrastsecurity:cassandra-migration/src/main/java/com/contrastsecurity/cassandra/migration/resolver/ResolvedMigrationComparator.java",
+    "useImportReport" : [ {
+      "importPath" : "import java.util.Comparator;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ {
+      "importPath" : "import com.contrastsecurity.cassandra.migration.info.ResolvedMigration;"
+    } ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/com.contrastsecurity:cassandra-migration/src/main/java/com/contrastsecurity/cassandra/migration/resolver/MigrationInfoHelper.java",
+    "useImportReport" : [ ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ {
+      "importPath" : "import com.contrastsecurity.cassandra.migration.CassandraMigrationException;"
+    }, {
+      "importPath" : "import com.contrastsecurity.cassandra.migration.info.MigrationVersion;"
+    }, {
+      "importPath" : "import com.contrastsecurity.cassandra.migration.utils.Pair;"
+    } ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/com.contrastsecurity:cassandra-migration/src/main/java/com/contrastsecurity/cassandra/migration/resolver/CompositeMigrationResolver.java",
+    "useImportReport" : [ ],
+    "unusedImportReport" : [ {
+      "importPath" : "import java.util.*;",
+      "artifact" : {
+        "artifact" : "com.boundary:high-scale-lib:1.0.6",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.contrastsecurity:cassandra-migration:0.4/dependencies/com/boundary/high-scale-lib/1.0.6/high-scale-lib-1.0.6.jar"
+      },
+      "isDirectDependency" : false
+    } ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ {
+      "importPath" : "import com.contrastsecurity.cassandra.migration.CassandraMigrationException;"
+    }, {
+      "importPath" : "import com.contrastsecurity.cassandra.migration.config.ScriptsLocation;"
+    }, {
+      "importPath" : "import com.contrastsecurity.cassandra.migration.config.ScriptsLocations;"
+    }, {
+      "importPath" : "import com.contrastsecurity.cassandra.migration.info.ResolvedMigration;"
+    }, {
+      "importPath" : "import com.contrastsecurity.cassandra.migration.resolver.cql.CqlMigrationResolver;"
+    }, {
+      "importPath" : "import com.contrastsecurity.cassandra.migration.resolver.java.JavaMigrationResolver;"
+    } ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/com.contrastsecurity:cassandra-migration/src/main/java/com/contrastsecurity/cassandra/migration/resolver/MigrationResolver.java",
+    "useImportReport" : [ {
+      "importPath" : "import java.util.Collection;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ {
+      "importPath" : "import com.contrastsecurity.cassandra.migration.info.ResolvedMigration;"
+    } ]
+  } ],
+  "projectUseDependencies" : [ {
+    "artifact" : "com.datastax.cassandra:cassandra-driver-core:2.1.7.1",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.contrastsecurity:cassandra-migration:0.4/dependencies/com/datastax/cassandra/cassandra-driver-core/2.1.7.1/cassandra-driver-core-2.1.7.1.jar"
+  }, {
+    "artifact" : "org.slf4j:slf4j-api:1.7.12",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.contrastsecurity:cassandra-migration:0.4/dependencies/org/slf4j/slf4j-api/1.7.12/slf4j-api-1.7.12.jar"
+  }, {
+    "artifact" : "commons-logging:commons-logging:1.2",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.contrastsecurity:cassandra-migration:0.4/dependencies/commons-logging/commons-logging/1.2/commons-logging-1.2.jar"
+  } ],
+  "projectUseTransitiveDependencies" : [ ],
+  "projectUnusedDependencies" : [ {
+    "artifact" : "junit:junit:4.12",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.contrastsecurity:cassandra-migration:0.4/dependencies/junit/junit/4.12/junit-4.12.jar"
+  }, {
+    "artifact" : "org.mockito:mockito-core:1.10.19",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.contrastsecurity:cassandra-migration:0.4/dependencies/org/mockito/mockito-core/1.10.19/mockito-core-1.10.19.jar"
+  }, {
+    "artifact" : "org.hamcrest:hamcrest-junit:2.0.0.0",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.contrastsecurity:cassandra-migration:0.4/dependencies/org/hamcrest/hamcrest-junit/2.0.0.0/hamcrest-junit-2.0.0.0.jar"
+  }, {
+    "artifact" : "org.cassandraunit:cassandra-unit:2.1.3.1",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.contrastsecurity:cassandra-migration:0.4/dependencies/org/cassandraunit/cassandra-unit/2.1.3.1/cassandra-unit-2.1.3.1.jar"
+  }, {
+    "artifact" : "com.google.guava:guava:16.0",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.contrastsecurity:cassandra-migration:0.4/dependencies/com/google/guava/guava/16.0/guava-16.0.jar"
+  } ]
+}

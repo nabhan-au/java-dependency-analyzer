@@ -1,0 +1,2459 @@
+{
+  "projectArtifact" : "org.antframework.sync:sync:1.0.0",
+  "repositoryDir" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/org.antframework.sync:sync",
+  "repositorySubDir" : "",
+  "artifactLocation" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.antframework.sync:sync:1.0.0",
+  "fileImportReports" : [ {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/org.antframework.sync:sync/src/main/java/org/antframework/sync/extension/redis/RedisServer.java",
+    "useImportReport" : [ {
+      "importPath" : "import org.antframework.sync.extension.Server;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import lombok.extern.slf4j.Slf4j;",
+      "artifact" : {
+        "artifact" : "org.projectlombok:lombok:1.18.12",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.antframework.sync:sync:1.0.0/dependencies/org/projectlombok/lombok/1.18.12/lombok-1.18.12.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import java.util.Timer;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.antframework.sync.extension.redis.extension.RedisExecutor;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.antframework.sync.extension.redis.support.RedisMutexLockServer;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.antframework.sync.extension.redis.support.RedisRWLockServer;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.antframework.sync.extension.redis.support.RedisSemaphoreServer;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.concurrent.Executor;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.concurrent.ThreadPoolExecutor;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.concurrent.TimeUnit;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.concurrent.ArrayBlockingQueue;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.TimerTask;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/org.antframework.sync:sync/src/main/java/org/antframework/sync/extension/redis/extension/RedisExecutor.java",
+    "useImportReport" : [ {
+      "importPath" : "import java.util.List;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/org.antframework.sync:sync/src/main/java/org/antframework/sync/extension/redis/extension/springdataredis/support/EvalRedisSerializer.java",
+    "useImportReport" : [ {
+      "importPath" : "import org.springframework.data.redis.serializer.RedisSerializer;",
+      "artifact" : {
+        "artifact" : "org.springframework.data:spring-data-redis:2.2.6.RELEASE",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.antframework.sync:sync:1.0.0/dependencies/org/springframework/data/spring-data-redis/2.2.6.RELEASE/spring-data-redis-2.2.6.RELEASE.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.springframework.lang.Nullable;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-core:5.2.5.RELEASE",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.antframework.sync:sync:1.0.0/dependencies/org/springframework/spring-core/5.2.5.RELEASE/spring-core-5.2.5.RELEASE.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.springframework.data.redis.serializer.SerializationException;",
+      "artifact" : {
+        "artifact" : "org.springframework.data:spring-data-redis:2.2.6.RELEASE",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.antframework.sync:sync:1.0.0/dependencies/org/springframework/data/spring-data-redis/2.2.6.RELEASE/spring-data-redis-2.2.6.RELEASE.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import java.nio.charset.StandardCharsets;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/org.antframework.sync:sync/src/main/java/org/antframework/sync/extension/redis/extension/springdataredis/support/RedisListenerContainer.java",
+    "useImportReport" : [ {
+      "importPath" : "import org.springframework.data.redis.listener.RedisMessageListenerContainer;",
+      "artifact" : {
+        "artifact" : "org.springframework.data:spring-data-redis:2.2.6.RELEASE",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.antframework.sync:sync:1.0.0/dependencies/org/springframework/data/spring-data-redis/2.2.6.RELEASE/spring-data-redis-2.2.6.RELEASE.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.springframework.data.redis.connection.RedisConnectionFactory;",
+      "artifact" : {
+        "artifact" : "org.springframework.data:spring-data-redis:2.2.6.RELEASE",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.antframework.sync:sync:1.0.0/dependencies/org/springframework/data/spring-data-redis/2.2.6.RELEASE/spring-data-redis-2.2.6.RELEASE.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.springframework.data.redis.listener.ChannelTopic;",
+      "artifact" : {
+        "artifact" : "org.springframework.data:spring-data-redis:2.2.6.RELEASE",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.antframework.sync:sync:1.0.0/dependencies/org/springframework/data/spring-data-redis/2.2.6.RELEASE/spring-data-redis-2.2.6.RELEASE.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.springframework.data.redis.connection.MessageListener;",
+      "artifact" : {
+        "artifact" : "org.springframework.data:spring-data-redis:2.2.6.RELEASE",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.antframework.sync:sync:1.0.0/dependencies/org/springframework/data/spring-data-redis/2.2.6.RELEASE/spring-data-redis-2.2.6.RELEASE.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.springframework.data.redis.listener.Topic;",
+      "artifact" : {
+        "artifact" : "org.springframework.data:spring-data-redis:2.2.6.RELEASE",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.antframework.sync:sync:1.0.0/dependencies/org/springframework/data/spring-data-redis/2.2.6.RELEASE/spring-data-redis-2.2.6.RELEASE.jar"
+      },
+      "isDirectDependency" : true
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/org.antframework.sync:sync/src/main/java/org/antframework/sync/extension/redis/extension/springdataredis/SpringDataRedisExecutor.java",
+    "useImportReport" : [ {
+      "importPath" : "import org.antframework.sync.extension.redis.extension.RedisExecutor;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.Map;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.springframework.data.redis.connection.MessageListener;",
+      "artifact" : {
+        "artifact" : "org.springframework.data:spring-data-redis:2.2.6.RELEASE",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.antframework.sync:sync:1.0.0/dependencies/org/springframework/data/spring-data-redis/2.2.6.RELEASE/spring-data-redis-2.2.6.RELEASE.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import java.util.concurrent.ConcurrentHashMap;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.springframework.data.redis.core.RedisTemplate;",
+      "artifact" : {
+        "artifact" : "org.springframework.data:spring-data-redis:2.2.6.RELEASE",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.antframework.sync:sync:1.0.0/dependencies/org/springframework/data/spring-data-redis/2.2.6.RELEASE/spring-data-redis-2.2.6.RELEASE.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.antframework.sync.extension.redis.extension.springdataredis.support.RedisListenerContainer;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.springframework.data.redis.connection.RedisConnectionFactory;",
+      "artifact" : {
+        "artifact" : "org.springframework.data:spring-data-redis:2.2.6.RELEASE",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.antframework.sync:sync:1.0.0/dependencies/org/springframework/data/spring-data-redis/2.2.6.RELEASE/spring-data-redis-2.2.6.RELEASE.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.antframework.sync.extension.redis.extension.springdataredis.support.EvalRedisSerializer;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.List;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.springframework.data.redis.core.script.DefaultRedisScript;",
+      "artifact" : {
+        "artifact" : "org.springframework.data:spring-data-redis:2.2.6.RELEASE",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.antframework.sync:sync:1.0.0/dependencies/org/springframework/data/spring-data-redis/2.2.6.RELEASE/spring-data-redis-2.2.6.RELEASE.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.springframework.data.redis.listener.ChannelTopic;",
+      "artifact" : {
+        "artifact" : "org.springframework.data:spring-data-redis:2.2.6.RELEASE",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.antframework.sync:sync:1.0.0/dependencies/org/springframework/data/spring-data-redis/2.2.6.RELEASE/spring-data-redis-2.2.6.RELEASE.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import lombok.AllArgsConstructor;",
+      "artifact" : {
+        "artifact" : "org.projectlombok:lombok:1.18.12",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.antframework.sync:sync:1.0.0/dependencies/org/projectlombok/lombok/1.18.12/lombok-1.18.12.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import java.util.Objects;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/org.antframework.sync:sync/src/main/java/org/antframework/sync/extension/redis/support/RedisMutexLockServer.java",
+    "useImportReport" : [ {
+      "importPath" : "import lombok.AllArgsConstructor;",
+      "artifact" : {
+        "artifact" : "org.projectlombok:lombok:1.18.12",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.antframework.sync:sync:1.0.0/dependencies/org/projectlombok/lombok/1.18.12/lombok-1.18.12.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import lombok.extern.slf4j.Slf4j;",
+      "artifact" : {
+        "artifact" : "org.projectlombok:lombok:1.18.12",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.antframework.sync:sync:1.0.0/dependencies/org/projectlombok/lombok/1.18.12/lombok-1.18.12.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.antframework.sync.common.SyncUtils;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.antframework.sync.extension.redis.extension.RedisExecutor;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.concurrent.Executor;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.Collections;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.Arrays;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.Set;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/org.antframework.sync:sync/src/main/java/org/antframework/sync/extension/redis/support/SyncMaintainer.java",
+    "useImportReport" : [ {
+      "importPath" : "import java.util.Map;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.Set;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.concurrent.ConcurrentHashMap;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.HashSet;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.function.BiFunction;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.Iterator;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/org.antframework.sync:sync/src/main/java/org/antframework/sync/extension/redis/support/RedisSemaphoreServer.java",
+    "useImportReport" : [ {
+      "importPath" : "import lombok.AllArgsConstructor;",
+      "artifact" : {
+        "artifact" : "org.projectlombok:lombok:1.18.12",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.antframework.sync:sync:1.0.0/dependencies/org/projectlombok/lombok/1.18.12/lombok-1.18.12.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import lombok.extern.slf4j.Slf4j;",
+      "artifact" : {
+        "artifact" : "org.projectlombok:lombok:1.18.12",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.antframework.sync:sync:1.0.0/dependencies/org/projectlombok/lombok/1.18.12/lombok-1.18.12.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.antframework.sync.common.SyncUtils;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.antframework.sync.extension.redis.extension.RedisExecutor;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.concurrent.Executor;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.Collections;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.Arrays;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.Set;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/org.antframework.sync:sync/src/main/java/org/antframework/sync/extension/redis/support/RedisRWLockServer.java",
+    "useImportReport" : [ {
+      "importPath" : "import lombok.AllArgsConstructor;",
+      "artifact" : {
+        "artifact" : "org.projectlombok:lombok:1.18.12",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.antframework.sync:sync:1.0.0/dependencies/org/projectlombok/lombok/1.18.12/lombok-1.18.12.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import lombok.extern.slf4j.Slf4j;",
+      "artifact" : {
+        "artifact" : "org.projectlombok:lombok:1.18.12",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.antframework.sync:sync:1.0.0/dependencies/org/projectlombok/lombok/1.18.12/lombok-1.18.12.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.antframework.sync.common.SyncUtils;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.antframework.sync.extension.redis.extension.RedisExecutor;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.concurrent.Executor;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.Collections;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.Arrays;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.Set;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.List;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/org.antframework.sync:sync/src/main/java/org/antframework/sync/extension/local/support/LocalSemaphoreServer.java",
+    "useImportReport" : [ {
+      "importPath" : "import org.antframework.sync.common.FiniteResource;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.concurrent.TimeUnit;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/org.antframework.sync:sync/src/main/java/org/antframework/sync/extension/local/support/LocalMutexLockServer.java",
+    "useImportReport" : [ {
+      "importPath" : "import org.antframework.sync.common.MutexResource;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.concurrent.TimeUnit;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/org.antframework.sync:sync/src/main/java/org/antframework/sync/extension/local/support/LocalRWLockServer.java",
+    "useImportReport" : [ {
+      "importPath" : "import java.util.*;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.*;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.concurrent.ConcurrentHashMap;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.concurrent.atomic.AtomicBoolean;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.concurrent.TimeUnit;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.function.Consumer;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import lombok.RequiredArgsConstructor;",
+      "artifact" : {
+        "artifact" : "org.projectlombok:lombok:1.18.12",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.antframework.sync:sync:1.0.0/dependencies/org/projectlombok/lombok/1.18.12/lombok-1.18.12.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import java.util.*;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.*;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.*;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.*;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/org.antframework.sync:sync/src/main/java/org/antframework/sync/extension/local/support/ListenerManager.java",
+    "useImportReport" : [ {
+      "importPath" : "import lombok.extern.slf4j.Slf4j;",
+      "artifact" : {
+        "artifact" : "org.projectlombok:lombok:1.18.12",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.antframework.sync:sync:1.0.0/dependencies/org/projectlombok/lombok/1.18.12/lombok-1.18.12.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import java.util.Map;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.Set;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.concurrent.ConcurrentHashMap;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.HashSet;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/org.antframework.sync:sync/src/main/java/org/antframework/sync/extension/local/LocalServer.java",
+    "useImportReport" : [ {
+      "importPath" : "import org.antframework.sync.extension.Server;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.antframework.sync.extension.local.support.LocalMutexLockServer;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.antframework.sync.extension.local.support.LocalRWLockServer;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.antframework.sync.extension.local.support.LocalSemaphoreServer;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/org.antframework.sync:sync/src/main/java/org/antframework/sync/extension/Server.java",
+    "useImportReport" : [ ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/org.antframework.sync:sync/src/main/java/org/antframework/sync/boot/SyncProperties.java",
+    "useImportReport" : [ {
+      "importPath" : "import org.springframework.boot.context.properties.ConfigurationProperties;",
+      "artifact" : {
+        "artifact" : "org.springframework.boot:spring-boot:2.2.6.RELEASE",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.antframework.sync:sync:1.0.0/dependencies/org/springframework/boot/spring-boot/2.2.6.RELEASE/spring-boot-2.2.6.RELEASE.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.springframework.validation.annotation.Validated;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-context:5.2.5.RELEASE",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.antframework.sync:sync:1.0.0/dependencies/org/springframework/spring-context/5.2.5.RELEASE/spring-context-5.2.5.RELEASE.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import lombok.Getter;",
+      "artifact" : {
+        "artifact" : "org.projectlombok:lombok:1.18.12",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.antframework.sync:sync:1.0.0/dependencies/org/projectlombok/lombok/1.18.12/lombok-1.18.12.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import lombok.Setter;",
+      "artifact" : {
+        "artifact" : "org.projectlombok:lombok:1.18.12",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.antframework.sync:sync:1.0.0/dependencies/org/projectlombok/lombok/1.18.12/lombok-1.18.12.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.springframework.core.Ordered;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-core:5.2.5.RELEASE",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.antframework.sync:sync:1.0.0/dependencies/org/springframework/spring-core/5.2.5.RELEASE/spring-core-5.2.5.RELEASE.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import javax.validation.constraints.NotNull;",
+      "artifact" : {
+        "artifact" : "javax.validation:validation-api:2.0.1.Final",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.antframework.sync:sync:1.0.0/dependencies/javax/validation/validation-api/2.0.1.Final/validation-api-2.0.1.Final.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import javax.validation.Valid;",
+      "artifact" : {
+        "artifact" : "javax.validation:validation-api:2.0.1.Final",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.antframework.sync:sync:1.0.0/dependencies/javax/validation/validation-api/2.0.1.Final/validation-api-2.0.1.Final.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import javax.validation.constraints.Min;",
+      "artifact" : {
+        "artifact" : "javax.validation:validation-api:2.0.1.Final",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.antframework.sync:sync:1.0.0/dependencies/javax/validation/validation-api/2.0.1.Final/validation-api-2.0.1.Final.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import java.util.Map;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.HashMap;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/org.antframework.sync:sync/src/main/java/org/antframework/sync/boot/SyncAutoConfiguration.java",
+    "useImportReport" : [ {
+      "importPath" : "import org.springframework.context.annotation.Configuration;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-context:5.2.5.RELEASE",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.antframework.sync:sync:1.0.0/dependencies/org/springframework/spring-context/5.2.5.RELEASE/spring-context-5.2.5.RELEASE.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.springframework.context.annotation.EnableAspectJAutoProxy;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-context:5.2.5.RELEASE",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.antframework.sync:sync:1.0.0/dependencies/org/springframework/spring-context/5.2.5.RELEASE/spring-context-5.2.5.RELEASE.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.springframework.boot.context.properties.EnableConfigurationProperties;",
+      "artifact" : {
+        "artifact" : "org.springframework.boot:spring-boot:2.2.6.RELEASE",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.antframework.sync:sync:1.0.0/dependencies/org/springframework/boot/spring-boot/2.2.6.RELEASE/spring-boot-2.2.6.RELEASE.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.antframework.sync.lock.annotation.support.LockAop;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.springframework.context.annotation.Bean;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-context:5.2.5.RELEASE",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.antframework.sync:sync:1.0.0/dependencies/org/springframework/spring-context/5.2.5.RELEASE/spring-context-5.2.5.RELEASE.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.antframework.sync.SyncContext;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.antframework.sync.semaphore.annotation.support.SemaphoreAop;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.function.Function;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.springframework.boot.autoconfigure.condition.ConditionalOnMissingBean;",
+      "artifact" : {
+        "artifact" : "org.springframework.boot:spring-boot-autoconfigure:2.2.6.RELEASE",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.antframework.sync:sync:1.0.0/dependencies/org/springframework/boot/spring-boot-autoconfigure/2.2.6.RELEASE/spring-boot-autoconfigure-2.2.6.RELEASE.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.antframework.sync.extension.Server;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.springframework.boot.autoconfigure.condition.ConditionalOnProperty;",
+      "artifact" : {
+        "artifact" : "org.springframework.boot:spring-boot-autoconfigure:2.2.6.RELEASE",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.antframework.sync:sync:1.0.0/dependencies/org/springframework/boot/spring-boot-autoconfigure/2.2.6.RELEASE/spring-boot-autoconfigure-2.2.6.RELEASE.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.antframework.sync.extension.local.LocalServer;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.antframework.sync.extension.redis.extension.RedisExecutor;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.antframework.sync.extension.redis.RedisServer;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.springframework.data.redis.connection.RedisConnectionFactory;",
+      "artifact" : {
+        "artifact" : "org.springframework.data:spring-data-redis:2.2.6.RELEASE",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.antframework.sync:sync:1.0.0/dependencies/org/springframework/data/spring-data-redis/2.2.6.RELEASE/spring-data-redis-2.2.6.RELEASE.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.antframework.sync.extension.redis.extension.springdataredis.SpringDataRedisExecutor;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/org.antframework.sync:sync/src/main/java/org/antframework/sync/SyncContext.java",
+    "useImportReport" : [ {
+      "importPath" : "import lombok.Getter;",
+      "artifact" : {
+        "artifact" : "org.projectlombok:lombok:1.18.12",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.antframework.sync:sync:1.0.0/dependencies/org/projectlombok/lombok/1.18.12/lombok-1.18.12.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.antframework.sync.lock.LockContext;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.antframework.sync.semaphore.SemaphoreContext;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.antframework.sync.extension.Server;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.antframework.sync.common.SyncExecutor;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/org.antframework.sync:sync/src/main/java/org/antframework/sync/lock/core/AbstractServerReentrantLock.java",
+    "useImportReport" : [ {
+      "importPath" : "import lombok.AllArgsConstructor;",
+      "artifact" : {
+        "artifact" : "org.projectlombok:lombok:1.18.12",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.antframework.sync:sync:1.0.0/dependencies/org/projectlombok/lombok/1.18.12/lombok-1.18.12.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import lombok.extern.slf4j.Slf4j;",
+      "artifact" : {
+        "artifact" : "org.projectlombok:lombok:1.18.12",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.antframework.sync:sync:1.0.0/dependencies/org/projectlombok/lombok/1.18.12/lombok-1.18.12.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import lombok.Getter;",
+      "artifact" : {
+        "artifact" : "org.projectlombok:lombok:1.18.12",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.antframework.sync:sync:1.0.0/dependencies/org/projectlombok/lombok/1.18.12/lombok-1.18.12.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.antframework.sync.common.SyncExecutor;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.concurrent.TimeUnit;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.antframework.sync.common.SyncWaiter;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.concurrent.locks.Condition;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.antframework.sync.lock.support.LockDestroyer;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/org.antframework.sync:sync/src/main/java/org/antframework/sync/lock/core/AbstractReentrantLock.java",
+    "useImportReport" : [ {
+      "importPath" : "import java.util.concurrent.locks.Lock;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import lombok.Getter;",
+      "artifact" : {
+        "artifact" : "org.projectlombok:lombok:1.18.12",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.antframework.sync:sync:1.0.0/dependencies/org/projectlombok/lombok/1.18.12/lombok-1.18.12.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.apache.commons.lang3.exception.ExceptionUtils;",
+      "artifact" : {
+        "artifact" : "org.apache.commons:commons-lang3:3.9",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.antframework.sync:sync:1.0.0/dependencies/org/apache/commons/commons-lang3/3.9/commons-lang3-3.9.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import java.util.concurrent.TimeUnit;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.antframework.sync.common.SyncWaiter;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/org.antframework.sync:sync/src/main/java/org/antframework/sync/lock/core/ServerReentrantWriteLock.java",
+    "useImportReport" : [ {
+      "importPath" : "import org.antframework.sync.lock.support.RWLockServer;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.antframework.sync.common.SyncExecutor;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.antframework.sync.common.SyncWaiter;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/org.antframework.sync:sync/src/main/java/org/antframework/sync/lock/core/ServerReentrantRWLock.java",
+    "useImportReport" : [ {
+      "importPath" : "import java.util.concurrent.locks.ReadWriteLock;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import lombok.Getter;",
+      "artifact" : {
+        "artifact" : "org.projectlombok:lombok:1.18.12",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.antframework.sync:sync:1.0.0/dependencies/org/projectlombok/lombok/1.18.12/lombok-1.18.12.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import java.util.concurrent.locks.Lock;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.antframework.sync.common.SyncExecutor;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.antframework.sync.lock.support.RWLockServer;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/org.antframework.sync:sync/src/main/java/org/antframework/sync/lock/core/ServerReentrantMutexLock.java",
+    "useImportReport" : [ {
+      "importPath" : "import org.antframework.sync.lock.support.MutexLockServer;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.antframework.sync.common.SyncExecutor;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.antframework.sync.common.SyncWaiter;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/org.antframework.sync:sync/src/main/java/org/antframework/sync/lock/core/ServerReentrantReadLock.java",
+    "useImportReport" : [ {
+      "importPath" : "import org.antframework.sync.lock.support.RWLockServer;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.antframework.sync.common.SyncExecutor;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.antframework.sync.common.SyncWaiter;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/org.antframework.sync:sync/src/main/java/org/antframework/sync/lock/annotation/WriteLock.java",
+    "useImportReport" : [ {
+      "importPath" : "import java.lang.annotation.*;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.lang.annotation.*;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.lang.annotation.*;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.lang.annotation.*;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.lang.annotation.*;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/org.antframework.sync:sync/src/main/java/org/antframework/sync/lock/annotation/support/LockAop.java",
+    "useImportReport" : [ {
+      "importPath" : "import org.springframework.core.Ordered;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-core:5.2.5.RELEASE",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.antframework.sync:sync:1.0.0/dependencies/org/springframework/spring-core/5.2.5.RELEASE/spring-core-5.2.5.RELEASE.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.aspectj.lang.annotation.Aspect;",
+      "artifact" : {
+        "artifact" : "org.aspectj:aspectjweaver:1.9.5",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.antframework.sync:sync:1.0.0/dependencies/org/aspectj/aspectjweaver/1.9.5/aspectjweaver-1.9.5.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import lombok.AllArgsConstructor;",
+      "artifact" : {
+        "artifact" : "org.projectlombok:lombok:1.18.12",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.antframework.sync:sync:1.0.0/dependencies/org/projectlombok/lombok/1.18.12/lombok-1.18.12.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.antframework.sync.common.ExpressionEvaluator;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.antframework.sync.lock.LockContext;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.aspectj.lang.annotation.Around;",
+      "artifact" : {
+        "artifact" : "org.aspectj:aspectjweaver:1.9.5",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.antframework.sync:sync:1.0.0/dependencies/org/aspectj/aspectjweaver/1.9.5/aspectjweaver-1.9.5.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.aspectj.lang.ProceedingJoinPoint;",
+      "artifact" : {
+        "artifact" : "org.aspectj:aspectjweaver:1.9.5",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.antframework.sync:sync:1.0.0/dependencies/org/aspectj/aspectjweaver/1.9.5/aspectjweaver-1.9.5.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.antframework.sync.lock.annotation.ReadLock;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.antframework.sync.lock.annotation.WriteLock;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.function.Function;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.concurrent.locks.Lock;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.springframework.aop.framework.AopProxyUtils;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-aop:5.2.5.RELEASE",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.antframework.sync:sync:1.0.0/dependencies/org/springframework/spring-aop/5.2.5.RELEASE/spring-aop-5.2.5.RELEASE.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.lang.reflect.Method;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.springframework.expression.EvaluationContext;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-expression:5.2.5.RELEASE",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.antframework.sync:sync:1.0.0/dependencies/org/springframework/spring-expression/5.2.5.RELEASE/spring-expression-5.2.5.RELEASE.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.springframework.context.expression.AnnotatedElementKey;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-context:5.2.5.RELEASE",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.antframework.sync:sync:1.0.0/dependencies/org/springframework/spring-context/5.2.5.RELEASE/spring-context-5.2.5.RELEASE.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.apache.commons.lang3.StringUtils;",
+      "artifact" : {
+        "artifact" : "org.apache.commons:commons-lang3:3.9",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.antframework.sync:sync:1.0.0/dependencies/org/apache/commons/commons-lang3/3.9/commons-lang3-3.9.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import java.util.concurrent.TimeUnit;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.concurrent.TimeoutException;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.aspectj.lang.Signature;",
+      "artifact" : {
+        "artifact" : "org.aspectj:aspectjweaver:1.9.5",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.antframework.sync:sync:1.0.0/dependencies/org/aspectj/aspectjweaver/1.9.5/aspectjweaver-1.9.5.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.aspectj.lang.reflect.MethodSignature;",
+      "artifact" : {
+        "artifact" : "org.aspectj:aspectjweaver:1.9.5",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.antframework.sync:sync:1.0.0/dependencies/org/aspectj/aspectjweaver/1.9.5/aspectjweaver-1.9.5.jar"
+      },
+      "isDirectDependency" : true
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/org.antframework.sync:sync/src/main/java/org/antframework/sync/lock/annotation/Lock.java",
+    "useImportReport" : [ {
+      "importPath" : "import java.lang.annotation.*;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.lang.annotation.*;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.lang.annotation.*;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.lang.annotation.*;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.lang.annotation.*;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/org.antframework.sync:sync/src/main/java/org/antframework/sync/lock/annotation/ReadLock.java",
+    "useImportReport" : [ {
+      "importPath" : "import java.lang.annotation.*;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.lang.annotation.*;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.lang.annotation.*;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.lang.annotation.*;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.lang.annotation.*;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/org.antframework.sync:sync/src/main/java/org/antframework/sync/lock/LockContext.java",
+    "useImportReport" : [ {
+      "importPath" : "import java.util.Map;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.concurrent.locks.Lock;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.WeakHashMap;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.concurrent.locks.ReadWriteLock;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.antframework.sync.common.SyncExecutor;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.antframework.sync.lock.support.MutexLockServer;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.antframework.sync.lock.support.RWLockServer;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.antframework.sync.extension.Server;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.antframework.sync.lock.core.ServerReentrantMutexLock;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.antframework.sync.common.SyncUtils;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.antframework.sync.lock.core.ServerReentrantRWLock;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/org.antframework.sync:sync/src/main/java/org/antframework/sync/lock/support/MutexLockServer.java",
+    "useImportReport" : [ {
+      "importPath" : "import org.antframework.sync.common.MutexResource;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.antframework.sync.extension.Server;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.antframework.sync.common.ServerSyncManager;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.antframework.sync.common.SyncWaiter;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.antframework.sync.common.ServerSyncWaiter;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/org.antframework.sync:sync/src/main/java/org/antframework/sync/lock/support/RWLockServer.java",
+    "useImportReport" : [ {
+      "importPath" : "import lombok.AllArgsConstructor;",
+      "artifact" : {
+        "artifact" : "org.projectlombok:lombok:1.18.12",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.antframework.sync:sync:1.0.0/dependencies/org/projectlombok/lombok/1.18.12/lombok-1.18.12.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.antframework.sync.common.MutexResource;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.antframework.sync.extension.Server;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.antframework.sync.common.ServerSyncManager;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.antframework.sync.common.SyncWaiter;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.Objects;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.antframework.sync.common.ServerSyncWaiter;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/org.antframework.sync:sync/src/main/java/org/antframework/sync/lock/support/LockDestroyer.java",
+    "useImportReport" : [ {
+      "importPath" : "import lombok.AllArgsConstructor;",
+      "artifact" : {
+        "artifact" : "org.projectlombok:lombok:1.18.12",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.antframework.sync:sync:1.0.0/dependencies/org/projectlombok/lombok/1.18.12/lombok-1.18.12.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import lombok.extern.slf4j.Slf4j;",
+      "artifact" : {
+        "artifact" : "org.projectlombok:lombok:1.18.12",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.antframework.sync:sync:1.0.0/dependencies/org/projectlombok/lombok/1.18.12/lombok-1.18.12.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.antframework.sync.lock.core.AbstractReentrantLock;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/org.antframework.sync:sync/src/main/java/org/antframework/sync/common/ExpressionEvaluator.java",
+    "useImportReport" : [ {
+      "importPath" : "import org.springframework.context.expression.CachedExpressionEvaluator;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-context:5.2.5.RELEASE",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.antframework.sync:sync:1.0.0/dependencies/org/springframework/spring-context/5.2.5.RELEASE/spring-context-5.2.5.RELEASE.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import java.util.Map;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.springframework.context.expression.AnnotatedElementKey;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-context:5.2.5.RELEASE",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.antframework.sync:sync:1.0.0/dependencies/org/springframework/spring-context/5.2.5.RELEASE/spring-context-5.2.5.RELEASE.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import java.lang.reflect.Method;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.concurrent.ConcurrentHashMap;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.springframework.expression.Expression;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-expression:5.2.5.RELEASE",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.antframework.sync:sync:1.0.0/dependencies/org/springframework/spring-expression/5.2.5.RELEASE/spring-expression-5.2.5.RELEASE.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.springframework.expression.EvaluationContext;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-expression:5.2.5.RELEASE",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.antframework.sync:sync:1.0.0/dependencies/org/springframework/spring-expression/5.2.5.RELEASE/spring-expression-5.2.5.RELEASE.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.springframework.context.expression.MethodBasedEvaluationContext;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-context:5.2.5.RELEASE",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.antframework.sync:sync:1.0.0/dependencies/org/springframework/spring-context/5.2.5.RELEASE/spring-context-5.2.5.RELEASE.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.springframework.util.ObjectUtils;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-core:5.2.5.RELEASE",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.antframework.sync:sync:1.0.0/dependencies/org/springframework/spring-core/5.2.5.RELEASE/spring-core-5.2.5.RELEASE.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.springframework.aop.support.AopUtils;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-aop:5.2.5.RELEASE",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.antframework.sync:sync:1.0.0/dependencies/org/springframework/spring-aop/5.2.5.RELEASE/spring-aop-5.2.5.RELEASE.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import lombok.AllArgsConstructor;",
+      "artifact" : {
+        "artifact" : "org.projectlombok:lombok:1.18.12",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.antframework.sync:sync:1.0.0/dependencies/org/projectlombok/lombok/1.18.12/lombok-1.18.12.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import lombok.Getter;",
+      "artifact" : {
+        "artifact" : "org.projectlombok:lombok:1.18.12",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.antframework.sync:sync:1.0.0/dependencies/org/projectlombok/lombok/1.18.12/lombok-1.18.12.jar"
+      },
+      "isDirectDependency" : true
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/org.antframework.sync:sync/src/main/java/org/antframework/sync/common/SyncUtils.java",
+    "useImportReport" : [ {
+      "importPath" : "import java.io.InputStream;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.io.BufferedReader;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.io.InputStreamReader;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.nio.charset.StandardCharsets;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.io.IOException;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.apache.commons.lang3.exception.ExceptionUtils;",
+      "artifact" : {
+        "artifact" : "org.apache.commons:commons-lang3:3.9",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.antframework.sync:sync:1.0.0/dependencies/org/apache/commons/commons-lang3/3.9/commons-lang3-3.9.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import java.util.UUID;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/org.antframework.sync:sync/src/main/java/org/antframework/sync/common/MutexResource.java",
+    "useImportReport" : [ {
+      "importPath" : "import java.util.Map;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.concurrent.ConcurrentHashMap;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.Objects;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/org.antframework.sync:sync/src/main/java/org/antframework/sync/common/ServerSyncManager.java",
+    "useImportReport" : [ {
+      "importPath" : "import lombok.AllArgsConstructor;",
+      "artifact" : {
+        "artifact" : "org.projectlombok:lombok:1.18.12",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.antframework.sync:sync:1.0.0/dependencies/org/projectlombok/lombok/1.18.12/lombok-1.18.12.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import java.util.Map;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.concurrent.ConcurrentHashMap;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.antframework.sync.extension.Server;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.concurrent.atomic.AtomicBoolean;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.concurrent.Semaphore;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.Set;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.HashSet;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.concurrent.TimeUnit;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/org.antframework.sync:sync/src/main/java/org/antframework/sync/common/SyncWaiter.java",
+    "useImportReport" : [ ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/org.antframework.sync:sync/src/main/java/org/antframework/sync/common/FiniteResource.java",
+    "useImportReport" : [ {
+      "importPath" : "import java.util.Map;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.concurrent.ConcurrentHashMap;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.concurrent.atomic.AtomicInteger;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.concurrent.atomic.AtomicBoolean;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.function.Consumer;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.HashMap;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.Objects;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/org.antframework.sync:sync/src/main/java/org/antframework/sync/common/SyncExecutor.java",
+    "useImportReport" : [ {
+      "importPath" : "import java.util.concurrent.Executor;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.concurrent.ThreadPoolExecutor;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.concurrent.TimeUnit;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.concurrent.ArrayBlockingQueue;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/org.antframework.sync:sync/src/main/java/org/antframework/sync/common/ServerSyncWaiter.java",
+    "useImportReport" : [ {
+      "importPath" : "import lombok.AllArgsConstructor;",
+      "artifact" : {
+        "artifact" : "org.projectlombok:lombok:1.18.12",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.antframework.sync:sync:1.0.0/dependencies/org/projectlombok/lombok/1.18.12/lombok-1.18.12.jar"
+      },
+      "isDirectDependency" : true
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/org.antframework.sync:sync/src/main/java/org/antframework/sync/semaphore/Semaphore.java",
+    "useImportReport" : [ {
+      "importPath" : "import java.util.concurrent.TimeUnit;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/org.antframework.sync:sync/src/main/java/org/antframework/sync/semaphore/core/AbstractServerSemaphore.java",
+    "useImportReport" : [ {
+      "importPath" : "import lombok.AllArgsConstructor;",
+      "artifact" : {
+        "artifact" : "org.projectlombok:lombok:1.18.12",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.antframework.sync:sync:1.0.0/dependencies/org/projectlombok/lombok/1.18.12/lombok-1.18.12.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import lombok.extern.slf4j.Slf4j;",
+      "artifact" : {
+        "artifact" : "org.projectlombok:lombok:1.18.12",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.antframework.sync:sync:1.0.0/dependencies/org/projectlombok/lombok/1.18.12/lombok-1.18.12.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import lombok.Getter;",
+      "artifact" : {
+        "artifact" : "org.projectlombok:lombok:1.18.12",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.antframework.sync:sync:1.0.0/dependencies/org/projectlombok/lombok/1.18.12/lombok-1.18.12.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.antframework.sync.common.SyncExecutor;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.concurrent.TimeUnit;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.antframework.sync.common.SyncWaiter;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.antframework.sync.semaphore.support.SemaphoreDestroyer;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/org.antframework.sync:sync/src/main/java/org/antframework/sync/semaphore/core/AbstractSemaphore.java",
+    "useImportReport" : [ {
+      "importPath" : "import org.antframework.sync.semaphore.Semaphore;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import lombok.Getter;",
+      "artifact" : {
+        "artifact" : "org.projectlombok:lombok:1.18.12",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.antframework.sync:sync:1.0.0/dependencies/org/projectlombok/lombok/1.18.12/lombok-1.18.12.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import java.util.concurrent.TimeUnit;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.apache.commons.lang3.exception.ExceptionUtils;",
+      "artifact" : {
+        "artifact" : "org.apache.commons:commons-lang3:3.9",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.antframework.sync:sync:1.0.0/dependencies/org/apache/commons/commons-lang3/3.9/commons-lang3-3.9.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.antframework.sync.common.SyncWaiter;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/org.antframework.sync:sync/src/main/java/org/antframework/sync/semaphore/core/DefaultServerSemaphore.java",
+    "useImportReport" : [ {
+      "importPath" : "import org.antframework.sync.semaphore.support.SemaphoreServer;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.antframework.sync.common.SyncExecutor;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.antframework.sync.common.SyncWaiter;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/org.antframework.sync:sync/src/main/java/org/antframework/sync/semaphore/annotation/Semaphore.java",
+    "useImportReport" : [ {
+      "importPath" : "import java.lang.annotation.*;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.lang.annotation.*;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.lang.annotation.*;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.lang.annotation.*;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.lang.annotation.*;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/org.antframework.sync:sync/src/main/java/org/antframework/sync/semaphore/annotation/support/SemaphoreAop.java",
+    "useImportReport" : [ {
+      "importPath" : "import org.springframework.core.Ordered;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-core:5.2.5.RELEASE",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.antframework.sync:sync:1.0.0/dependencies/org/springframework/spring-core/5.2.5.RELEASE/spring-core-5.2.5.RELEASE.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.aspectj.lang.annotation.Aspect;",
+      "artifact" : {
+        "artifact" : "org.aspectj:aspectjweaver:1.9.5",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.antframework.sync:sync:1.0.0/dependencies/org/aspectj/aspectjweaver/1.9.5/aspectjweaver-1.9.5.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import lombok.AllArgsConstructor;",
+      "artifact" : {
+        "artifact" : "org.projectlombok:lombok:1.18.12",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.antframework.sync:sync:1.0.0/dependencies/org/projectlombok/lombok/1.18.12/lombok-1.18.12.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.antframework.sync.common.ExpressionEvaluator;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.antframework.sync.semaphore.SemaphoreContext;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.function.Function;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.aspectj.lang.annotation.Around;",
+      "artifact" : {
+        "artifact" : "org.aspectj:aspectjweaver:1.9.5",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.antframework.sync:sync:1.0.0/dependencies/org/aspectj/aspectjweaver/1.9.5/aspectjweaver-1.9.5.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.aspectj.lang.ProceedingJoinPoint;",
+      "artifact" : {
+        "artifact" : "org.aspectj:aspectjweaver:1.9.5",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.antframework.sync:sync:1.0.0/dependencies/org/aspectj/aspectjweaver/1.9.5/aspectjweaver-1.9.5.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.springframework.aop.framework.AopProxyUtils;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-aop:5.2.5.RELEASE",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.antframework.sync:sync:1.0.0/dependencies/org/springframework/spring-aop/5.2.5.RELEASE/spring-aop-5.2.5.RELEASE.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.lang.reflect.Method;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.springframework.expression.EvaluationContext;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-expression:5.2.5.RELEASE",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.antframework.sync:sync:1.0.0/dependencies/org/springframework/spring-expression/5.2.5.RELEASE/spring-expression-5.2.5.RELEASE.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.springframework.context.expression.AnnotatedElementKey;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-context:5.2.5.RELEASE",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.antframework.sync:sync:1.0.0/dependencies/org/springframework/spring-context/5.2.5.RELEASE/spring-context-5.2.5.RELEASE.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.apache.commons.lang3.StringUtils;",
+      "artifact" : {
+        "artifact" : "org.apache.commons:commons-lang3:3.9",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.antframework.sync:sync:1.0.0/dependencies/org/apache/commons/commons-lang3/3.9/commons-lang3-3.9.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.antframework.sync.semaphore.Semaphore;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.concurrent.TimeUnit;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.concurrent.TimeoutException;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.aspectj.lang.Signature;",
+      "artifact" : {
+        "artifact" : "org.aspectj:aspectjweaver:1.9.5",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.antframework.sync:sync:1.0.0/dependencies/org/aspectj/aspectjweaver/1.9.5/aspectjweaver-1.9.5.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.aspectj.lang.reflect.MethodSignature;",
+      "artifact" : {
+        "artifact" : "org.aspectj:aspectjweaver:1.9.5",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.antframework.sync:sync:1.0.0/dependencies/org/aspectj/aspectjweaver/1.9.5/aspectjweaver-1.9.5.jar"
+      },
+      "isDirectDependency" : true
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/org.antframework.sync:sync/src/main/java/org/antframework/sync/semaphore/SemaphoreContext.java",
+    "useImportReport" : [ {
+      "importPath" : "import org.antframework.sync.common.SyncExecutor;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.antframework.sync.semaphore.support.SemaphoreServer;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.antframework.sync.extension.Server;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.antframework.sync.semaphore.core.DefaultServerSemaphore;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.antframework.sync.common.SyncUtils;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/org.antframework.sync:sync/src/main/java/org/antframework/sync/semaphore/support/SemaphoreServer.java",
+    "useImportReport" : [ {
+      "importPath" : "import org.antframework.sync.common.FiniteResource;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.antframework.sync.extension.Server;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.antframework.sync.common.ServerSyncManager;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.antframework.sync.common.SyncWaiter;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.antframework.sync.common.ServerSyncWaiter;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/org.antframework.sync:sync/src/main/java/org/antframework/sync/semaphore/support/SemaphoreDestroyer.java",
+    "useImportReport" : [ {
+      "importPath" : "import lombok.AllArgsConstructor;",
+      "artifact" : {
+        "artifact" : "org.projectlombok:lombok:1.18.12",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.antframework.sync:sync:1.0.0/dependencies/org/projectlombok/lombok/1.18.12/lombok-1.18.12.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import lombok.extern.slf4j.Slf4j;",
+      "artifact" : {
+        "artifact" : "org.projectlombok:lombok:1.18.12",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.antframework.sync:sync:1.0.0/dependencies/org/projectlombok/lombok/1.18.12/lombok-1.18.12.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.antframework.sync.semaphore.core.AbstractSemaphore;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  } ],
+  "projectUseDependencies" : [ {
+    "artifact" : "org.projectlombok:lombok:1.18.12",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.antframework.sync:sync:1.0.0/dependencies/org/projectlombok/lombok/1.18.12/lombok-1.18.12.jar"
+  }, {
+    "artifact" : "org.springframework.data:spring-data-redis:2.2.6.RELEASE",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.antframework.sync:sync:1.0.0/dependencies/org/springframework/data/spring-data-redis/2.2.6.RELEASE/spring-data-redis-2.2.6.RELEASE.jar"
+  }, {
+    "artifact" : "org.springframework:spring-context:5.2.5.RELEASE",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.antframework.sync:sync:1.0.0/dependencies/org/springframework/spring-context/5.2.5.RELEASE/spring-context-5.2.5.RELEASE.jar"
+  }, {
+    "artifact" : "javax.validation:validation-api:2.0.1.Final",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.antframework.sync:sync:1.0.0/dependencies/javax/validation/validation-api/2.0.1.Final/validation-api-2.0.1.Final.jar"
+  }, {
+    "artifact" : "org.springframework.boot:spring-boot-autoconfigure:2.2.6.RELEASE",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.antframework.sync:sync:1.0.0/dependencies/org/springframework/boot/spring-boot-autoconfigure/2.2.6.RELEASE/spring-boot-autoconfigure-2.2.6.RELEASE.jar"
+  }, {
+    "artifact" : "org.apache.commons:commons-lang3:3.9",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.antframework.sync:sync:1.0.0/dependencies/org/apache/commons/commons-lang3/3.9/commons-lang3-3.9.jar"
+  }, {
+    "artifact" : "org.aspectj:aspectjweaver:1.9.5",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.antframework.sync:sync:1.0.0/dependencies/org/aspectj/aspectjweaver/1.9.5/aspectjweaver-1.9.5.jar"
+  } ],
+  "projectUseTransitiveDependencies" : [ ],
+  "projectUnusedDependencies" : [ {
+    "artifact" : "org.slf4j:slf4j-api:1.7.30",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.antframework.sync:sync:1.0.0/dependencies/org/slf4j/slf4j-api/1.7.30/slf4j-api-1.7.30.jar"
+  }, {
+    "artifact" : "org.springframework.boot:spring-boot-configuration-processor:2.2.6.RELEASE",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.antframework.sync:sync:1.0.0/dependencies/org/springframework/boot/spring-boot-configuration-processor/2.2.6.RELEASE/spring-boot-configuration-processor-2.2.6.RELEASE.jar"
+  } ]
+}

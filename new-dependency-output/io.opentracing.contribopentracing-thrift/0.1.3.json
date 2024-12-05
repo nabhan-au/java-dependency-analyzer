@@ -1,0 +1,919 @@
+{
+  "projectArtifact" : "io.opentracing.contrib:opentracing-thrift:0.1.3",
+  "repositoryDir" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/io.opentracing.contrib:opentracing-thrift",
+  "repositorySubDir" : "",
+  "artifactLocation" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.opentracing.contrib:opentracing-thrift:0.1.3",
+  "fileImportReports" : [ {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/io.opentracing.contrib:opentracing-thrift/src/test/java/io/opentracing/thrift/TracingTest.java",
+    "useImportReport" : [ {
+      "importPath" : "import io.opentracing.mock.MockTracer;",
+      "artifact" : {
+        "artifact" : "io.opentracing:opentracing-mock:0.33.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.opentracing.contrib:opentracing-thrift:0.1.3/dependencies/io/opentracing/opentracing-mock/0.33.0/opentracing-mock-0.33.0.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import static org.mockito.Mockito.spy;",
+      "artifact" : {
+        "artifact" : "org.mockito:mockito-core:2.28.2",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.opentracing.contrib:opentracing-thrift:0.1.3/dependencies/org/mockito/mockito-core/2.28.2/mockito-core-2.28.2.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.apache.thrift.server.TServer;",
+      "artifact" : {
+        "artifact" : "org.apache.thrift:libthrift:0.12.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.opentracing.contrib:opentracing-thrift:0.1.3/dependencies/org/apache/thrift/libthrift/0.12.0/libthrift-0.12.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.junit.BeforeClass;",
+      "artifact" : {
+        "artifact" : "junit:junit:4.12",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.opentracing.contrib:opentracing-thrift:0.1.3/dependencies/junit/junit/4.12/junit-4.12.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import io.opentracing.util.GlobalTracer;",
+      "artifact" : {
+        "artifact" : "io.opentracing:opentracing-util:0.33.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.opentracing.contrib:opentracing-thrift:0.1.3/dependencies/io/opentracing/opentracing-util/0.33.0/opentracing-util-0.33.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.junit.Before;",
+      "artifact" : {
+        "artifact" : "junit:junit:4.12",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.opentracing.contrib:opentracing-thrift:0.1.3/dependencies/junit/junit/4.12/junit-4.12.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import static org.mockito.Mockito.reset;",
+      "artifact" : {
+        "artifact" : "org.mockito:mockito-core:2.28.2",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.opentracing.contrib:opentracing-thrift:0.1.3/dependencies/org/mockito/mockito-core/2.28.2/mockito-core-2.28.2.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.junit.After;",
+      "artifact" : {
+        "artifact" : "junit:junit:4.12",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.opentracing.contrib:opentracing-thrift:0.1.3/dependencies/junit/junit/4.12/junit-4.12.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.junit.Test;",
+      "artifact" : {
+        "artifact" : "junit:junit:4.12",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.opentracing.contrib:opentracing-thrift:0.1.3/dependencies/junit/junit/4.12/junit-4.12.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.apache.thrift.transport.TTransport;",
+      "artifact" : {
+        "artifact" : "org.apache.thrift:libthrift:0.12.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.opentracing.contrib:opentracing-thrift:0.1.3/dependencies/org/apache/thrift/libthrift/0.12.0/libthrift-0.12.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.apache.thrift.transport.TSocket;",
+      "artifact" : {
+        "artifact" : "org.apache.thrift:libthrift:0.12.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.opentracing.contrib:opentracing-thrift:0.1.3/dependencies/org/apache/thrift/libthrift/0.12.0/libthrift-0.12.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.apache.thrift.protocol.TProtocol;",
+      "artifact" : {
+        "artifact" : "org.apache.thrift:libthrift:0.12.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.opentracing.contrib:opentracing-thrift:0.1.3/dependencies/org/apache/thrift/libthrift/0.12.0/libthrift-0.12.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.apache.thrift.protocol.TBinaryProtocol;",
+      "artifact" : {
+        "artifact" : "org.apache.thrift:libthrift:0.12.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.opentracing.contrib:opentracing-thrift:0.1.3/dependencies/org/apache/thrift/libthrift/0.12.0/libthrift-0.12.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import static org.junit.Assert.assertEquals;",
+      "artifact" : {
+        "artifact" : "junit:junit:4.12",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.opentracing.contrib:opentracing-thrift:0.1.3/dependencies/junit/junit/4.12/junit-4.12.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.concurrent.TimeUnit;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import static org.awaitility.Awaitility.await;",
+      "artifact" : {
+        "artifact" : "org.awaitility:awaitility:3.1.6",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.opentracing.contrib:opentracing-thrift:0.1.3/dependencies/org/awaitility/awaitility/3.1.6/awaitility-3.1.6.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import static org.hamcrest.core.IsEqual.equalTo;",
+      "artifact" : {
+        "artifact" : "org.hamcrest:hamcrest-core:1.3",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.opentracing.contrib:opentracing-thrift:0.1.3/dependencies/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.List;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import io.opentracing.mock.MockSpan;",
+      "artifact" : {
+        "artifact" : "io.opentracing:opentracing-mock:0.33.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.opentracing.contrib:opentracing-thrift:0.1.3/dependencies/io/opentracing/opentracing-mock/0.33.0/opentracing-mock-0.33.0.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.apache.thrift.protocol.TMessageType;",
+      "artifact" : {
+        "artifact" : "org.apache.thrift:libthrift:0.12.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.opentracing.contrib:opentracing-thrift:0.1.3/dependencies/org/apache/thrift/libthrift/0.12.0/libthrift-0.12.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import static org.junit.Assert.assertNull;",
+      "artifact" : {
+        "artifact" : "junit:junit:4.12",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.opentracing.contrib:opentracing-thrift:0.1.3/dependencies/junit/junit/4.12/junit-4.12.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import static org.mockito.Mockito.verify;",
+      "artifact" : {
+        "artifact" : "org.mockito:mockito-core:2.28.2",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.opentracing.contrib:opentracing-thrift:0.1.3/dependencies/org/mockito/mockito-core/2.28.2/mockito-core-2.28.2.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import static org.mockito.Mockito.times;",
+      "artifact" : {
+        "artifact" : "org.mockito:mockito-core:2.28.2",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.opentracing.contrib:opentracing-thrift:0.1.3/dependencies/org/mockito/mockito-core/2.28.2/mockito-core-2.28.2.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import static org.mockito.ArgumentMatchers.anyString;",
+      "artifact" : {
+        "artifact" : "org.mockito:mockito-core:2.28.2",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.opentracing.contrib:opentracing-thrift:0.1.3/dependencies/org/mockito/mockito-core/2.28.2/mockito-core-2.28.2.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import static org.mockito.ArgumentMatchers.any;",
+      "artifact" : {
+        "artifact" : "org.mockito:mockito-core:2.28.2",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.opentracing.contrib:opentracing-thrift:0.1.3/dependencies/org/mockito/mockito-core/2.28.2/mockito-core-2.28.2.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import io.opentracing.SpanContext;",
+      "artifact" : {
+        "artifact" : "io.opentracing:opentracing-api:0.33.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.opentracing.contrib:opentracing-thrift:0.1.3/dependencies/io/opentracing/opentracing-api/0.33.0/opentracing-api-0.33.0.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import io.opentracing.propagation.Format;",
+      "artifact" : {
+        "artifact" : "io.opentracing:opentracing-api:0.33.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.opentracing.contrib:opentracing-thrift:0.1.3/dependencies/io/opentracing/opentracing-api/0.33.0/opentracing-api-0.33.0.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import static org.junit.Assert.assertTrue;",
+      "artifact" : {
+        "artifact" : "junit:junit:4.12",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.opentracing.contrib:opentracing-thrift:0.1.3/dependencies/junit/junit/4.12/junit-4.12.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import static org.junit.Assert.fail;",
+      "artifact" : {
+        "artifact" : "junit:junit:4.12",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.opentracing.contrib:opentracing-thrift:0.1.3/dependencies/junit/junit/4.12/junit-4.12.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.apache.thrift.transport.TNonblockingTransport;",
+      "artifact" : {
+        "artifact" : "org.apache.thrift:libthrift:0.12.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.opentracing.contrib:opentracing-thrift:0.1.3/dependencies/org/apache/thrift/libthrift/0.12.0/libthrift-0.12.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.apache.thrift.transport.TNonblockingSocket;",
+      "artifact" : {
+        "artifact" : "org.apache.thrift:libthrift:0.12.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.opentracing.contrib:opentracing-thrift:0.1.3/dependencies/org/apache/thrift/libthrift/0.12.0/libthrift-0.12.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.apache.thrift.async.TAsyncClientManager;",
+      "artifact" : {
+        "artifact" : "org.apache.thrift:libthrift:0.12.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.opentracing.contrib:opentracing-thrift:0.1.3/dependencies/org/apache/thrift/libthrift/0.12.0/libthrift-0.12.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import java.util.concurrent.atomic.AtomicInteger;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.apache.thrift.async.AsyncMethodCallback;",
+      "artifact" : {
+        "artifact" : "org.apache.thrift:libthrift:0.12.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.opentracing.contrib:opentracing-thrift:0.1.3/dependencies/org/apache/thrift/libthrift/0.12.0/libthrift-0.12.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import static org.junit.Assert.assertNotNull;",
+      "artifact" : {
+        "artifact" : "junit:junit:4.12",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.opentracing.contrib:opentracing-thrift:0.1.3/dependencies/junit/junit/4.12/junit-4.12.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import io.opentracing.Scope;",
+      "artifact" : {
+        "artifact" : "io.opentracing:opentracing-api:0.33.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.opentracing.contrib:opentracing-thrift:0.1.3/dependencies/io/opentracing/opentracing-api/0.33.0/opentracing-api-0.33.0.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.ArrayList;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import io.opentracing.tag.Tags;",
+      "artifact" : {
+        "artifact" : "io.opentracing:opentracing-api:0.33.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.opentracing.contrib:opentracing-thrift:0.1.3/dependencies/io/opentracing/opentracing-api/0.33.0/opentracing-api-0.33.0.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.apache.thrift.transport.TServerTransport;",
+      "artifact" : {
+        "artifact" : "org.apache.thrift:libthrift:0.12.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.opentracing.contrib:opentracing-thrift:0.1.3/dependencies/org/apache/thrift/libthrift/0.12.0/libthrift-0.12.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.apache.thrift.transport.TServerSocket;",
+      "artifact" : {
+        "artifact" : "org.apache.thrift:libthrift:0.12.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.opentracing.contrib:opentracing-thrift:0.1.3/dependencies/org/apache/thrift/libthrift/0.12.0/libthrift-0.12.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.apache.thrift.protocol.TProtocolFactory;",
+      "artifact" : {
+        "artifact" : "org.apache.thrift:libthrift:0.12.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.opentracing.contrib:opentracing-thrift:0.1.3/dependencies/org/apache/thrift/libthrift/0.12.0/libthrift-0.12.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.apache.thrift.TProcessor;",
+      "artifact" : {
+        "artifact" : "org.apache.thrift:libthrift:0.12.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.opentracing.contrib:opentracing-thrift:0.1.3/dependencies/org/apache/thrift/libthrift/0.12.0/libthrift-0.12.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.apache.thrift.server.TThreadPoolServer;",
+      "artifact" : {
+        "artifact" : "org.apache.thrift:libthrift:0.12.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.opentracing.contrib:opentracing-thrift:0.1.3/dependencies/org/apache/thrift/libthrift/0.12.0/libthrift-0.12.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.apache.thrift.TProcessorFactory;",
+      "artifact" : {
+        "artifact" : "org.apache.thrift:libthrift:0.12.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.opentracing.contrib:opentracing-thrift:0.1.3/dependencies/org/apache/thrift/libthrift/0.12.0/libthrift-0.12.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.apache.thrift.transport.TNonblockingServerSocket;",
+      "artifact" : {
+        "artifact" : "org.apache.thrift:libthrift:0.12.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.opentracing.contrib:opentracing-thrift:0.1.3/dependencies/org/apache/thrift/libthrift/0.12.0/libthrift-0.12.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.apache.thrift.server.TNonblockingServer;",
+      "artifact" : {
+        "artifact" : "org.apache.thrift:libthrift:0.12.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.opentracing.contrib:opentracing-thrift:0.1.3/dependencies/org/apache/thrift/libthrift/0.12.0/libthrift-0.12.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.apache.thrift.server.TSimpleServer;",
+      "artifact" : {
+        "artifact" : "org.apache.thrift:libthrift:0.12.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.opentracing.contrib:opentracing-thrift:0.1.3/dependencies/org/apache/thrift/libthrift/0.12.0/libthrift-0.12.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.apache.thrift.server.TServer.Args;",
+      "artifact" : {
+        "artifact" : "org.apache.thrift:libthrift:0.12.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.opentracing.contrib:opentracing-thrift:0.1.3/dependencies/org/apache/thrift/libthrift/0.12.0/libthrift-0.12.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import java.util.concurrent.Callable;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ {
+      "importPath" : "import custom.Address;"
+    }, {
+      "importPath" : "import custom.CustomService;"
+    }, {
+      "importPath" : "import custom.CustomService.AsyncClient;"
+    }, {
+      "importPath" : "import custom.User;"
+    }, {
+      "importPath" : "import custom.UserWithAddress;"
+    } ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/io.opentracing.contrib:opentracing-thrift/src/test/java/io/opentracing/thrift/CustomHandler.java",
+    "useImportReport" : [ {
+      "importPath" : "import java.util.concurrent.TimeUnit;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ {
+      "importPath" : "import custom.Address;"
+    }, {
+      "importPath" : "import custom.CustomService;"
+    }, {
+      "importPath" : "import custom.User;"
+    }, {
+      "importPath" : "import custom.UserWithAddress;"
+    } ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/io.opentracing.contrib:opentracing-thrift/src/main/java/io/opentracing/thrift/DefaultClientSpanDecorator.java",
+    "useImportReport" : [ {
+      "importPath" : "import io.opentracing.Span;",
+      "artifact" : {
+        "artifact" : "io.opentracing:opentracing-api:0.33.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.opentracing.contrib:opentracing-thrift:0.1.3/dependencies/io/opentracing/opentracing-api/0.33.0/opentracing-api-0.33.0.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.apache.thrift.protocol.TMessage;",
+      "artifact" : {
+        "artifact" : "org.apache.thrift:libthrift:0.12.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.opentracing.contrib:opentracing-thrift:0.1.3/dependencies/org/apache/thrift/libthrift/0.12.0/libthrift-0.12.0.jar"
+      },
+      "isDirectDependency" : true
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/io.opentracing.contrib:opentracing-thrift/src/main/java/io/opentracing/thrift/SpanHolder.java",
+    "useImportReport" : [ {
+      "importPath" : "import io.opentracing.Span;",
+      "artifact" : {
+        "artifact" : "io.opentracing:opentracing-api:0.33.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.opentracing.contrib:opentracing-thrift:0.1.3/dependencies/io/opentracing/opentracing-api/0.33.0/opentracing-api-0.33.0.jar"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/io.opentracing.contrib:opentracing-thrift/src/main/java/io/opentracing/thrift/ServerInProtocolDecorator.java",
+    "useImportReport" : [ {
+      "importPath" : "import org.apache.thrift.protocol.TProtocolDecorator;",
+      "artifact" : {
+        "artifact" : "org.apache.thrift:libthrift:0.12.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.opentracing.contrib:opentracing-thrift:0.1.3/dependencies/org/apache/thrift/libthrift/0.12.0/libthrift-0.12.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import io.opentracing.Tracer;",
+      "artifact" : {
+        "artifact" : "io.opentracing:opentracing-api:0.33.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.opentracing.contrib:opentracing-thrift:0.1.3/dependencies/io/opentracing/opentracing-api/0.33.0/opentracing-api-0.33.0.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.apache.thrift.protocol.TMessage;",
+      "artifact" : {
+        "artifact" : "org.apache.thrift:libthrift:0.12.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.opentracing.contrib:opentracing-thrift:0.1.3/dependencies/org/apache/thrift/libthrift/0.12.0/libthrift-0.12.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import io.opentracing.Tracer.SpanBuilder;",
+      "artifact" : {
+        "artifact" : "io.opentracing:opentracing-api:0.33.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.opentracing.contrib:opentracing-thrift:0.1.3/dependencies/io/opentracing/opentracing-api/0.33.0/opentracing-api-0.33.0.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.List;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.ArrayList;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import io.opentracing.Scope;",
+      "artifact" : {
+        "artifact" : "io.opentracing:opentracing-api:0.33.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.opentracing.contrib:opentracing-thrift:0.1.3/dependencies/io/opentracing/opentracing-api/0.33.0/opentracing-api-0.33.0.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import io.opentracing.Span;",
+      "artifact" : {
+        "artifact" : "io.opentracing:opentracing-api:0.33.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.opentracing.contrib:opentracing-thrift:0.1.3/dependencies/io/opentracing/opentracing-api/0.33.0/opentracing-api-0.33.0.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.apache.thrift.protocol.TProtocol;",
+      "artifact" : {
+        "artifact" : "org.apache.thrift:libthrift:0.12.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.opentracing.contrib:opentracing-thrift:0.1.3/dependencies/org/apache/thrift/libthrift/0.12.0/libthrift-0.12.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import io.opentracing.tag.Tags;",
+      "artifact" : {
+        "artifact" : "io.opentracing:opentracing-api:0.33.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.opentracing.contrib:opentracing-thrift:0.1.3/dependencies/io/opentracing/opentracing-api/0.33.0/opentracing-api-0.33.0.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.apache.thrift.TException;",
+      "artifact" : {
+        "artifact" : "org.apache.thrift:libthrift:0.12.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.opentracing.contrib:opentracing-thrift:0.1.3/dependencies/org/apache/thrift/libthrift/0.12.0/libthrift-0.12.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import java.nio.ByteBuffer;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.apache.thrift.protocol.TField;",
+      "artifact" : {
+        "artifact" : "org.apache.thrift:libthrift:0.12.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.opentracing.contrib:opentracing-thrift:0.1.3/dependencies/org/apache/thrift/libthrift/0.12.0/libthrift-0.12.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.apache.thrift.protocol.TType;",
+      "artifact" : {
+        "artifact" : "org.apache.thrift:libthrift:0.12.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.opentracing.contrib:opentracing-thrift:0.1.3/dependencies/org/apache/thrift/libthrift/0.12.0/libthrift-0.12.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import java.util.Map;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.HashMap;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import io.opentracing.SpanContext;",
+      "artifact" : {
+        "artifact" : "io.opentracing:opentracing-api:0.33.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.opentracing.contrib:opentracing-thrift:0.1.3/dependencies/io/opentracing/opentracing-api/0.33.0/opentracing-api-0.33.0.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import io.opentracing.propagation.Format.Builtin;",
+      "artifact" : {
+        "artifact" : "io.opentracing:opentracing-api:0.33.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.opentracing.contrib:opentracing-thrift:0.1.3/dependencies/io/opentracing/opentracing-api/0.33.0/opentracing-api-0.33.0.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import io.opentracing.propagation.TextMapAdapter;",
+      "artifact" : {
+        "artifact" : "io.opentracing:opentracing-api:0.33.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.opentracing.contrib:opentracing-thrift:0.1.3/dependencies/io/opentracing/opentracing-api/0.33.0/opentracing-api-0.33.0.jar"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/io.opentracing.contrib:opentracing-thrift/src/main/java/io/opentracing/thrift/ClientSpanDecorator.java",
+    "useImportReport" : [ {
+      "importPath" : "import io.opentracing.Span;",
+      "artifact" : {
+        "artifact" : "io.opentracing:opentracing-api:0.33.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.opentracing.contrib:opentracing-thrift:0.1.3/dependencies/io/opentracing/opentracing-api/0.33.0/opentracing-api-0.33.0.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.apache.thrift.protocol.TMessage;",
+      "artifact" : {
+        "artifact" : "org.apache.thrift:libthrift:0.12.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.opentracing.contrib:opentracing-thrift:0.1.3/dependencies/org/apache/thrift/libthrift/0.12.0/libthrift-0.12.0.jar"
+      },
+      "isDirectDependency" : true
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/io.opentracing.contrib:opentracing-thrift/src/main/java/io/opentracing/thrift/SpanDecorator.java",
+    "useImportReport" : [ {
+      "importPath" : "import io.opentracing.Span;",
+      "artifact" : {
+        "artifact" : "io.opentracing:opentracing-api:0.33.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.opentracing.contrib:opentracing-thrift:0.1.3/dependencies/io/opentracing/opentracing-api/0.33.0/opentracing-api-0.33.0.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.apache.thrift.protocol.TMessage;",
+      "artifact" : {
+        "artifact" : "org.apache.thrift:libthrift:0.12.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.opentracing.contrib:opentracing-thrift:0.1.3/dependencies/org/apache/thrift/libthrift/0.12.0/libthrift-0.12.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import io.opentracing.tag.Tags;",
+      "artifact" : {
+        "artifact" : "io.opentracing:opentracing-api:0.33.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.opentracing.contrib:opentracing-thrift:0.1.3/dependencies/io/opentracing/opentracing-api/0.33.0/opentracing-api-0.33.0.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.Map;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.HashMap;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/io.opentracing.contrib:opentracing-thrift/src/main/java/io/opentracing/thrift/SpanProtocol.java",
+    "useImportReport" : [ {
+      "importPath" : "import org.apache.thrift.protocol.TProtocolDecorator;",
+      "artifact" : {
+        "artifact" : "org.apache.thrift:libthrift:0.12.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.opentracing.contrib:opentracing-thrift:0.1.3/dependencies/org/apache/thrift/libthrift/0.12.0/libthrift-0.12.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import io.opentracing.Tracer;",
+      "artifact" : {
+        "artifact" : "io.opentracing:opentracing-api:0.33.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.opentracing.contrib:opentracing-thrift:0.1.3/dependencies/io/opentracing/opentracing-api/0.33.0/opentracing-api-0.33.0.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.apache.thrift.protocol.TProtocol;",
+      "artifact" : {
+        "artifact" : "org.apache.thrift:libthrift:0.12.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.opentracing.contrib:opentracing-thrift:0.1.3/dependencies/org/apache/thrift/libthrift/0.12.0/libthrift-0.12.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import io.opentracing.util.GlobalTracer;",
+      "artifact" : {
+        "artifact" : "io.opentracing:opentracing-util:0.33.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.opentracing.contrib:opentracing-thrift:0.1.3/dependencies/io/opentracing/opentracing-util/0.33.0/opentracing-util-0.33.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.apache.thrift.protocol.TMessage;",
+      "artifact" : {
+        "artifact" : "org.apache.thrift:libthrift:0.12.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.opentracing.contrib:opentracing-thrift:0.1.3/dependencies/org/apache/thrift/libthrift/0.12.0/libthrift-0.12.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.apache.thrift.TException;",
+      "artifact" : {
+        "artifact" : "org.apache.thrift:libthrift:0.12.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.opentracing.contrib:opentracing-thrift:0.1.3/dependencies/org/apache/thrift/libthrift/0.12.0/libthrift-0.12.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import io.opentracing.Span;",
+      "artifact" : {
+        "artifact" : "io.opentracing:opentracing-api:0.33.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.opentracing.contrib:opentracing-thrift:0.1.3/dependencies/io/opentracing/opentracing-api/0.33.0/opentracing-api-0.33.0.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import io.opentracing.tag.Tags;",
+      "artifact" : {
+        "artifact" : "io.opentracing:opentracing-api:0.33.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.opentracing.contrib:opentracing-thrift:0.1.3/dependencies/io/opentracing/opentracing-api/0.33.0/opentracing-api-0.33.0.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.apache.thrift.protocol.TMessageType;",
+      "artifact" : {
+        "artifact" : "org.apache.thrift:libthrift:0.12.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.opentracing.contrib:opentracing-thrift:0.1.3/dependencies/org/apache/thrift/libthrift/0.12.0/libthrift-0.12.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import java.util.Map;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.HashMap;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import io.opentracing.propagation.Format.Builtin;",
+      "artifact" : {
+        "artifact" : "io.opentracing:opentracing-api:0.33.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.opentracing.contrib:opentracing-thrift:0.1.3/dependencies/io/opentracing/opentracing-api/0.33.0/opentracing-api-0.33.0.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import io.opentracing.propagation.TextMapAdapter;",
+      "artifact" : {
+        "artifact" : "io.opentracing:opentracing-api:0.33.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.opentracing.contrib:opentracing-thrift:0.1.3/dependencies/io/opentracing/opentracing-api/0.33.0/opentracing-api-0.33.0.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.apache.thrift.protocol.TField;",
+      "artifact" : {
+        "artifact" : "org.apache.thrift:libthrift:0.12.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.opentracing.contrib:opentracing-thrift:0.1.3/dependencies/org/apache/thrift/libthrift/0.12.0/libthrift-0.12.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.apache.thrift.protocol.TType;",
+      "artifact" : {
+        "artifact" : "org.apache.thrift:libthrift:0.12.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.opentracing.contrib:opentracing-thrift:0.1.3/dependencies/org/apache/thrift/libthrift/0.12.0/libthrift-0.12.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.apache.thrift.protocol.TMap;",
+      "artifact" : {
+        "artifact" : "org.apache.thrift:libthrift:0.12.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.opentracing.contrib:opentracing-thrift:0.1.3/dependencies/org/apache/thrift/libthrift/0.12.0/libthrift-0.12.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import java.util.Map.Entry;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.apache.thrift.transport.TTransportException;",
+      "artifact" : {
+        "artifact" : "org.apache.thrift:libthrift:0.12.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.opentracing.contrib:opentracing-thrift:0.1.3/dependencies/org/apache/thrift/libthrift/0.12.0/libthrift-0.12.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.apache.thrift.protocol.TProtocolFactory;",
+      "artifact" : {
+        "artifact" : "org.apache.thrift:libthrift:0.12.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.opentracing.contrib:opentracing-thrift:0.1.3/dependencies/org/apache/thrift/libthrift/0.12.0/libthrift-0.12.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.apache.thrift.transport.TTransport;",
+      "artifact" : {
+        "artifact" : "org.apache.thrift:libthrift:0.12.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.opentracing.contrib:opentracing-thrift:0.1.3/dependencies/org/apache/thrift/libthrift/0.12.0/libthrift-0.12.0.jar"
+      },
+      "isDirectDependency" : true
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/io.opentracing.contrib:opentracing-thrift/src/main/java/io/opentracing/thrift/SpanProcessor.java",
+    "useImportReport" : [ {
+      "importPath" : "import org.apache.thrift.TProcessor;",
+      "artifact" : {
+        "artifact" : "org.apache.thrift:libthrift:0.12.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.opentracing.contrib:opentracing-thrift:0.1.3/dependencies/org/apache/thrift/libthrift/0.12.0/libthrift-0.12.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import io.opentracing.Tracer;",
+      "artifact" : {
+        "artifact" : "io.opentracing:opentracing-api:0.33.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.opentracing.contrib:opentracing-thrift:0.1.3/dependencies/io/opentracing/opentracing-api/0.33.0/opentracing-api-0.33.0.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import io.opentracing.util.GlobalTracer;",
+      "artifact" : {
+        "artifact" : "io.opentracing:opentracing-util:0.33.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.opentracing.contrib:opentracing-thrift:0.1.3/dependencies/io/opentracing/opentracing-util/0.33.0/opentracing-util-0.33.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.apache.thrift.protocol.TProtocol;",
+      "artifact" : {
+        "artifact" : "org.apache.thrift:libthrift:0.12.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.opentracing.contrib:opentracing-thrift:0.1.3/dependencies/org/apache/thrift/libthrift/0.12.0/libthrift-0.12.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.apache.thrift.TException;",
+      "artifact" : {
+        "artifact" : "org.apache.thrift:libthrift:0.12.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.opentracing.contrib:opentracing-thrift:0.1.3/dependencies/org/apache/thrift/libthrift/0.12.0/libthrift-0.12.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.apache.thrift.protocol.TMessage;",
+      "artifact" : {
+        "artifact" : "org.apache.thrift:libthrift:0.12.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.opentracing.contrib:opentracing-thrift:0.1.3/dependencies/org/apache/thrift/libthrift/0.12.0/libthrift-0.12.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.apache.thrift.protocol.TMessageType;",
+      "artifact" : {
+        "artifact" : "org.apache.thrift:libthrift:0.12.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.opentracing.contrib:opentracing-thrift:0.1.3/dependencies/org/apache/thrift/libthrift/0.12.0/libthrift-0.12.0.jar"
+      },
+      "isDirectDependency" : true
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/io.opentracing.contrib:opentracing-thrift/src/main/java/io/opentracing/thrift/ServerOutProtocolDecorator.java",
+    "useImportReport" : [ {
+      "importPath" : "import org.apache.thrift.protocol.TProtocolDecorator;",
+      "artifact" : {
+        "artifact" : "org.apache.thrift:libthrift:0.12.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.opentracing.contrib:opentracing-thrift:0.1.3/dependencies/org/apache/thrift/libthrift/0.12.0/libthrift-0.12.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import io.opentracing.Tracer;",
+      "artifact" : {
+        "artifact" : "io.opentracing:opentracing-api:0.33.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.opentracing.contrib:opentracing-thrift:0.1.3/dependencies/io/opentracing/opentracing-api/0.33.0/opentracing-api-0.33.0.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.apache.thrift.protocol.TProtocol;",
+      "artifact" : {
+        "artifact" : "org.apache.thrift:libthrift:0.12.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.opentracing.contrib:opentracing-thrift:0.1.3/dependencies/org/apache/thrift/libthrift/0.12.0/libthrift-0.12.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.apache.thrift.protocol.TMessage;",
+      "artifact" : {
+        "artifact" : "org.apache.thrift:libthrift:0.12.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.opentracing.contrib:opentracing-thrift:0.1.3/dependencies/org/apache/thrift/libthrift/0.12.0/libthrift-0.12.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.apache.thrift.TException;",
+      "artifact" : {
+        "artifact" : "org.apache.thrift:libthrift:0.12.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.opentracing.contrib:opentracing-thrift:0.1.3/dependencies/org/apache/thrift/libthrift/0.12.0/libthrift-0.12.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.apache.thrift.protocol.TMessageType;",
+      "artifact" : {
+        "artifact" : "org.apache.thrift:libthrift:0.12.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.opentracing.contrib:opentracing-thrift:0.1.3/dependencies/org/apache/thrift/libthrift/0.12.0/libthrift-0.12.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import io.opentracing.tag.Tags;",
+      "artifact" : {
+        "artifact" : "io.opentracing:opentracing-api:0.33.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.opentracing.contrib:opentracing-thrift:0.1.3/dependencies/io/opentracing/opentracing-api/0.33.0/opentracing-api-0.33.0.jar"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/io.opentracing.contrib:opentracing-thrift/src/main/java/io/opentracing/thrift/TracingAsyncMethodCallback.java",
+    "useImportReport" : [ {
+      "importPath" : "import org.apache.thrift.async.AsyncMethodCallback;",
+      "artifact" : {
+        "artifact" : "org.apache.thrift:libthrift:0.12.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.opentracing.contrib:opentracing-thrift:0.1.3/dependencies/org/apache/thrift/libthrift/0.12.0/libthrift-0.12.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import io.opentracing.Tracer;",
+      "artifact" : {
+        "artifact" : "io.opentracing:opentracing-api:0.33.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.opentracing.contrib:opentracing-thrift:0.1.3/dependencies/io/opentracing/opentracing-api/0.33.0/opentracing-api-0.33.0.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import io.opentracing.Span;",
+      "artifact" : {
+        "artifact" : "io.opentracing:opentracing-api:0.33.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.opentracing.contrib:opentracing-thrift:0.1.3/dependencies/io/opentracing/opentracing-api/0.33.0/opentracing-api-0.33.0.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import io.opentracing.Scope;",
+      "artifact" : {
+        "artifact" : "io.opentracing:opentracing-api:0.33.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.opentracing.contrib:opentracing-thrift:0.1.3/dependencies/io/opentracing/opentracing-api/0.33.0/opentracing-api-0.33.0.jar"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  } ],
+  "projectUseDependencies" : [ {
+    "artifact" : "org.apache.thrift:libthrift:0.12.0",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.opentracing.contrib:opentracing-thrift:0.1.3/dependencies/org/apache/thrift/libthrift/0.12.0/libthrift-0.12.0.jar"
+  }, {
+    "artifact" : "io.opentracing:opentracing-util:0.33.0",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.opentracing.contrib:opentracing-thrift:0.1.3/dependencies/io/opentracing/opentracing-util/0.33.0/opentracing-util-0.33.0.jar"
+  } ],
+  "projectUseTransitiveDependencies" : [ ],
+  "projectUnusedDependencies" : [ ]
+}

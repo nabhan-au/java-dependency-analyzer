@@ -1,0 +1,2546 @@
+{
+  "projectArtifact" : "nl.42:spring-boot-starter-onelogin-saml:1.3.0",
+  "repositoryDir" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/nl.42:spring-boot-starter-onelogin-saml",
+  "repositorySubDir" : "",
+  "artifactLocation" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/nl.42:spring-boot-starter-onelogin-saml:1.3.0",
+  "fileImportReports" : [ {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/nl.42:spring-boot-starter-onelogin-saml/src/main/java/nl/_42/boot/onelogin/saml/Saml2OneLoginAutoConfiguration.java",
+    "useImportReport" : [ {
+      "importPath" : "import lombok.extern.slf4j.Slf4j;",
+      "artifact" : {
+        "artifact" : "org.projectlombok:lombok:1.18.28",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/nl.42:spring-boot-starter-onelogin-saml:1.3.0/dependencies/org/projectlombok/lombok/1.18.28/lombok-1.18.28.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.springframework.context.annotation.Configuration;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-context:6.0.11",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/nl.42:spring-boot-starter-onelogin-saml:1.3.0/dependencies/org/springframework/spring-context/6.0.11/spring-context-6.0.11.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.springframework.context.annotation.ComponentScan;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-context:6.0.11",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/nl.42:spring-boot-starter-onelogin-saml:1.3.0/dependencies/org/springframework/spring-context/6.0.11/spring-context-6.0.11.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.springframework.context.annotation.Bean;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-context:6.0.11",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/nl.42:spring-boot-starter-onelogin-saml:1.3.0/dependencies/org/springframework/spring-context/6.0.11/spring-context-6.0.11.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import lombok.AllArgsConstructor;",
+      "artifact" : {
+        "artifact" : "org.projectlombok:lombok:1.18.28",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/nl.42:spring-boot-starter-onelogin-saml:1.3.0/dependencies/org/projectlombok/lombok/1.18.28/lombok-1.18.28.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.springframework.boot.autoconfigure.condition.ConditionalOnProperty;",
+      "artifact" : {
+        "artifact" : "org.springframework.boot:spring-boot-autoconfigure:3.1.3",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/nl.42:spring-boot-starter-onelogin-saml:1.3.0/dependencies/org/springframework/boot/spring-boot-autoconfigure/3.1.3/spring-boot-autoconfigure-3.1.3.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.Optional;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.springframework.security.web.authentication.RememberMeServices;",
+      "artifact" : {
+        "artifact" : "org.springframework.security:spring-security-web:6.1.3",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/nl.42:spring-boot-starter-onelogin-saml:1.3.0/dependencies/org/springframework/security/spring-security-web/6.1.3/spring-security-web-6.1.3.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.springframework.context.annotation.Lazy;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-context:6.0.11",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/nl.42:spring-boot-starter-onelogin-saml:1.3.0/dependencies/org/springframework/spring-context/6.0.11/spring-context-6.0.11.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.springframework.beans.factory.annotation.Autowired;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-beans:6.0.11",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/nl.42:spring-boot-starter-onelogin-saml:1.3.0/dependencies/org/springframework/spring-beans/6.0.11/spring-beans-6.0.11.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.springframework.security.web.context.SecurityContextRepository;",
+      "artifact" : {
+        "artifact" : "org.springframework.security:spring-security-web:6.1.3",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/nl.42:spring-boot-starter-onelogin-saml:1.3.0/dependencies/org/springframework/security/spring-security-web/6.1.3/spring-security-web-6.1.3.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import nl._42.boot.onelogin.saml.web.Saml2Filter;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import nl._42.boot.onelogin.saml.web.Saml2ConfigFilter;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import nl._42.boot.onelogin.saml.web.Saml2LoginFilter;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import nl._42.boot.onelogin.saml.web.Saml2LogoutFilter;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import nl._42.boot.onelogin.saml.web.Saml2LogoutProcessingFilter;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import nl._42.boot.onelogin.saml.web.Saml2MetadataDisplayFilter;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import nl._42.boot.onelogin.saml.web.Saml2LoginProcessingFilter;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.springframework.security.web.context.RequestAttributeSecurityContextRepository;",
+      "artifact" : {
+        "artifact" : "org.springframework.security:spring-security-web:6.1.3",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/nl.42:spring-boot-starter-onelogin-saml:1.3.0/dependencies/org/springframework/security/spring-security-web/6.1.3/spring-security-web-6.1.3.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import nl._42.boot.onelogin.saml.user.Saml2AuthenticationProvider;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import nl._42.boot.onelogin.saml.user.Saml2UserService;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import nl._42.boot.onelogin.saml.web.Saml2SuccessRedirectHandler;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import nl._42.boot.onelogin.saml.web.Saml2FailureHandler;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import nl._42.boot.onelogin.saml.web.Saml2LogoutHandler;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/nl.42:spring-boot-starter-onelogin-saml/src/main/java/nl/_42/boot/onelogin/saml/web/Saml2LoginFilter.java",
+    "useImportReport" : [ {
+      "importPath" : "import lombok.extern.slf4j.Slf4j;",
+      "artifact" : {
+        "artifact" : "org.projectlombok:lombok:1.18.28",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/nl.42:spring-boot-starter-onelogin-saml:1.3.0/dependencies/org/projectlombok/lombok/1.18.28/lombok-1.18.28.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import nl._42.boot.onelogin.saml.Saml2Properties;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.onelogin.saml2.settings.Saml2Settings;",
+      "artifact" : {
+        "artifact" : "com.onelogin:java-saml-core:2.9.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/nl.42:spring-boot-starter-onelogin-saml:1.3.0/dependencies/com/onelogin/java-saml-core/2.9.0/java-saml-core-2.9.0.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import nl._42.boot.onelogin.saml.Registration;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import jakarta.servlet.http.HttpServletRequest;",
+      "artifact" : {
+        "artifact" : "jakarta.servlet:jakarta.servlet-api:6.0.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/nl.42:spring-boot-starter-onelogin-saml:1.3.0/dependencies/jakarta/servlet/jakarta.servlet-api/6.0.0/jakarta.servlet-api-6.0.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import jakarta.servlet.http.HttpServletRequest;",
+      "artifact" : {
+        "artifact" : "org.apache.tomcat.embed:tomcat-embed-core:10.1.12",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/nl.42:spring-boot-starter-onelogin-saml:1.3.0/dependencies/org/apache/tomcat/embed/tomcat-embed-core/10.1.12/tomcat-embed-core-10.1.12.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import jakarta.servlet.http.HttpServletResponse;",
+      "artifact" : {
+        "artifact" : "jakarta.servlet:jakarta.servlet-api:6.0.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/nl.42:spring-boot-starter-onelogin-saml:1.3.0/dependencies/jakarta/servlet/jakarta.servlet-api/6.0.0/jakarta.servlet-api-6.0.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import jakarta.servlet.http.HttpServletResponse;",
+      "artifact" : {
+        "artifact" : "org.apache.tomcat.embed:tomcat-embed-core:10.1.12",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/nl.42:spring-boot-starter-onelogin-saml:1.3.0/dependencies/org/apache/tomcat/embed/tomcat-embed-core/10.1.12/tomcat-embed-core-10.1.12.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import jakarta.servlet.FilterChain;",
+      "artifact" : {
+        "artifact" : "jakarta.servlet:jakarta.servlet-api:6.0.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/nl.42:spring-boot-starter-onelogin-saml:1.3.0/dependencies/jakarta/servlet/jakarta.servlet-api/6.0.0/jakarta.servlet-api-6.0.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import jakarta.servlet.FilterChain;",
+      "artifact" : {
+        "artifact" : "org.apache.tomcat.embed:tomcat-embed-core:10.1.12",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/nl.42:spring-boot-starter-onelogin-saml:1.3.0/dependencies/org/apache/tomcat/embed/tomcat-embed-core/10.1.12/tomcat-embed-core-10.1.12.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.io.IOException;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.onelogin.saml2.exception.SettingsException;",
+      "artifact" : {
+        "artifact" : "com.onelogin:java-saml-core:2.9.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/nl.42:spring-boot-starter-onelogin-saml:1.3.0/dependencies/com/onelogin/java-saml-core/2.9.0/java-saml-core-2.9.0.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.onelogin.saml2.Auth;",
+      "artifact" : {
+        "artifact" : "com.onelogin:java-saml:2.9.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/nl.42:spring-boot-starter-onelogin-saml:1.3.0/dependencies/com/onelogin/java-saml/2.9.0/java-saml-2.9.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import static nl._42.boot.onelogin.saml.web.Saml2SuccessRedirectHandler.SUCCESS_URL_PARAMETER;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.apache.commons.lang3.StringUtils;",
+      "artifact" : {
+        "artifact" : "org.apache.commons:commons-lang3:3.12.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/nl.42:spring-boot-starter-onelogin-saml:1.3.0/dependencies/org/apache/commons/commons-lang3/3.12.0/commons-lang3-3.12.0.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import jakarta.servlet.http.HttpSession;",
+      "artifact" : {
+        "artifact" : "jakarta.servlet:jakarta.servlet-api:6.0.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/nl.42:spring-boot-starter-onelogin-saml:1.3.0/dependencies/jakarta/servlet/jakarta.servlet-api/6.0.0/jakarta.servlet-api-6.0.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import jakarta.servlet.http.HttpSession;",
+      "artifact" : {
+        "artifact" : "org.apache.tomcat.embed:tomcat-embed-core:10.1.12",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/nl.42:spring-boot-starter-onelogin-saml:1.3.0/dependencies/org/apache/tomcat/embed/tomcat-embed-core/10.1.12/tomcat-embed-core-10.1.12.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.onelogin.saml2.authn.AuthnRequestParams;",
+      "artifact" : {
+        "artifact" : "com.onelogin:java-saml-core:2.9.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/nl.42:spring-boot-starter-onelogin-saml:1.3.0/dependencies/com/onelogin/java-saml-core/2.9.0/java-saml-core-2.9.0.jar"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/nl.42:spring-boot-starter-onelogin-saml/src/main/java/nl/_42/boot/onelogin/saml/web/Saml2SuccessRedirectHandler.java",
+    "useImportReport" : [ {
+      "importPath" : "import org.springframework.security.web.authentication.AuthenticationSuccessHandler;",
+      "artifact" : {
+        "artifact" : "org.springframework.security:spring-security-web:6.1.3",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/nl.42:spring-boot-starter-onelogin-saml:1.3.0/dependencies/org/springframework/security/spring-security-web/6.1.3/spring-security-web-6.1.3.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import lombok.extern.slf4j.Slf4j;",
+      "artifact" : {
+        "artifact" : "org.projectlombok:lombok:1.18.28",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/nl.42:spring-boot-starter-onelogin-saml:1.3.0/dependencies/org/projectlombok/lombok/1.18.28/lombok-1.18.28.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import lombok.AllArgsConstructor;",
+      "artifact" : {
+        "artifact" : "org.projectlombok:lombok:1.18.28",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/nl.42:spring-boot-starter-onelogin-saml:1.3.0/dependencies/org/projectlombok/lombok/1.18.28/lombok-1.18.28.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.springframework.security.web.authentication.RememberMeServices;",
+      "artifact" : {
+        "artifact" : "org.springframework.security:spring-security-web:6.1.3",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/nl.42:spring-boot-starter-onelogin-saml:1.3.0/dependencies/org/springframework/security/spring-security-web/6.1.3/spring-security-web-6.1.3.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import nl._42.boot.onelogin.saml.Saml2Properties;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import jakarta.servlet.http.HttpServletRequest;",
+      "artifact" : {
+        "artifact" : "jakarta.servlet:jakarta.servlet-api:6.0.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/nl.42:spring-boot-starter-onelogin-saml:1.3.0/dependencies/jakarta/servlet/jakarta.servlet-api/6.0.0/jakarta.servlet-api-6.0.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import jakarta.servlet.http.HttpServletRequest;",
+      "artifact" : {
+        "artifact" : "org.apache.tomcat.embed:tomcat-embed-core:10.1.12",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/nl.42:spring-boot-starter-onelogin-saml:1.3.0/dependencies/org/apache/tomcat/embed/tomcat-embed-core/10.1.12/tomcat-embed-core-10.1.12.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import jakarta.servlet.http.HttpServletResponse;",
+      "artifact" : {
+        "artifact" : "jakarta.servlet:jakarta.servlet-api:6.0.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/nl.42:spring-boot-starter-onelogin-saml:1.3.0/dependencies/jakarta/servlet/jakarta.servlet-api/6.0.0/jakarta.servlet-api-6.0.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import jakarta.servlet.http.HttpServletResponse;",
+      "artifact" : {
+        "artifact" : "org.apache.tomcat.embed:tomcat-embed-core:10.1.12",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/nl.42:spring-boot-starter-onelogin-saml:1.3.0/dependencies/org/apache/tomcat/embed/tomcat-embed-core/10.1.12/tomcat-embed-core-10.1.12.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.springframework.security.core.Authentication;",
+      "artifact" : {
+        "artifact" : "org.springframework.security:spring-security-core:6.1.3",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/nl.42:spring-boot-starter-onelogin-saml:1.3.0/dependencies/org/springframework/security/spring-security-core/6.1.3/spring-security-core-6.1.3.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import jakarta.servlet.http.HttpSession;",
+      "artifact" : {
+        "artifact" : "jakarta.servlet:jakarta.servlet-api:6.0.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/nl.42:spring-boot-starter-onelogin-saml:1.3.0/dependencies/jakarta/servlet/jakarta.servlet-api/6.0.0/jakarta.servlet-api-6.0.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import jakarta.servlet.http.HttpSession;",
+      "artifact" : {
+        "artifact" : "org.apache.tomcat.embed:tomcat-embed-core:10.1.12",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/nl.42:spring-boot-starter-onelogin-saml:1.3.0/dependencies/org/apache/tomcat/embed/tomcat-embed-core/10.1.12/tomcat-embed-core-10.1.12.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.apache.commons.lang3.StringUtils;",
+      "artifact" : {
+        "artifact" : "org.apache.commons:commons-lang3:3.12.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/nl.42:spring-boot-starter-onelogin-saml:1.3.0/dependencies/org/apache/commons/commons-lang3/3.12.0/commons-lang3-3.12.0.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import nl._42.boot.onelogin.saml.user.ExpiringAuthenticationToken;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.time.LocalDateTime;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.time.ZoneOffset;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/nl.42:spring-boot-starter-onelogin-saml/src/main/java/nl/_42/boot/onelogin/saml/web/Saml2Filter.java",
+    "useImportReport" : [ {
+      "importPath" : "import org.springframework.web.filter.GenericFilterBean;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-web:6.0.11",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/nl.42:spring-boot-starter-onelogin-saml:1.3.0/dependencies/org/springframework/spring-web/6.0.11/spring-web-6.0.11.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import lombok.extern.slf4j.Slf4j;",
+      "artifact" : {
+        "artifact" : "org.projectlombok:lombok:1.18.28",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/nl.42:spring-boot-starter-onelogin-saml:1.3.0/dependencies/org/projectlombok/lombok/1.18.28/lombok-1.18.28.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import java.util.List;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.springframework.security.web.SecurityFilterChain;",
+      "artifact" : {
+        "artifact" : "org.springframework.security:spring-security-web:6.1.3",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/nl.42:spring-boot-starter-onelogin-saml:1.3.0/dependencies/org/springframework/security/spring-security-web/6.1.3/spring-security-web-6.1.3.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.ArrayList;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import jakarta.servlet.Filter;",
+      "artifact" : {
+        "artifact" : "jakarta.servlet:jakarta.servlet-api:6.0.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/nl.42:spring-boot-starter-onelogin-saml:1.3.0/dependencies/jakarta/servlet/jakarta.servlet-api/6.0.0/jakarta.servlet-api-6.0.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import jakarta.servlet.Filter;",
+      "artifact" : {
+        "artifact" : "org.apache.tomcat.embed:tomcat-embed-core:10.1.12",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/nl.42:spring-boot-starter-onelogin-saml:1.3.0/dependencies/org/apache/tomcat/embed/tomcat-embed-core/10.1.12/tomcat-embed-core-10.1.12.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.springframework.security.web.util.matcher.AntPathRequestMatcher;",
+      "artifact" : {
+        "artifact" : "org.springframework.security:spring-security-web:6.1.3",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/nl.42:spring-boot-starter-onelogin-saml:1.3.0/dependencies/org/springframework/security/spring-security-web/6.1.3/spring-security-web-6.1.3.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.springframework.security.web.DefaultSecurityFilterChain;",
+      "artifact" : {
+        "artifact" : "org.springframework.security:spring-security-web:6.1.3",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/nl.42:spring-boot-starter-onelogin-saml:1.3.0/dependencies/org/springframework/security/spring-security-web/6.1.3/spring-security-web-6.1.3.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import jakarta.servlet.ServletRequest;",
+      "artifact" : {
+        "artifact" : "jakarta.servlet:jakarta.servlet-api:6.0.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/nl.42:spring-boot-starter-onelogin-saml:1.3.0/dependencies/jakarta/servlet/jakarta.servlet-api/6.0.0/jakarta.servlet-api-6.0.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import jakarta.servlet.ServletRequest;",
+      "artifact" : {
+        "artifact" : "org.apache.tomcat.embed:tomcat-embed-core:10.1.12",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/nl.42:spring-boot-starter-onelogin-saml:1.3.0/dependencies/org/apache/tomcat/embed/tomcat-embed-core/10.1.12/tomcat-embed-core-10.1.12.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import jakarta.servlet.ServletResponse;",
+      "artifact" : {
+        "artifact" : "jakarta.servlet:jakarta.servlet-api:6.0.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/nl.42:spring-boot-starter-onelogin-saml:1.3.0/dependencies/jakarta/servlet/jakarta.servlet-api/6.0.0/jakarta.servlet-api-6.0.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import jakarta.servlet.ServletResponse;",
+      "artifact" : {
+        "artifact" : "org.apache.tomcat.embed:tomcat-embed-core:10.1.12",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/nl.42:spring-boot-starter-onelogin-saml:1.3.0/dependencies/org/apache/tomcat/embed/tomcat-embed-core/10.1.12/tomcat-embed-core-10.1.12.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import jakarta.servlet.FilterChain;",
+      "artifact" : {
+        "artifact" : "jakarta.servlet:jakarta.servlet-api:6.0.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/nl.42:spring-boot-starter-onelogin-saml:1.3.0/dependencies/jakarta/servlet/jakarta.servlet-api/6.0.0/jakarta.servlet-api-6.0.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import jakarta.servlet.FilterChain;",
+      "artifact" : {
+        "artifact" : "org.apache.tomcat.embed:tomcat-embed-core:10.1.12",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/nl.42:spring-boot-starter-onelogin-saml:1.3.0/dependencies/org/apache/tomcat/embed/tomcat-embed-core/10.1.12/tomcat-embed-core-10.1.12.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.io.IOException;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import jakarta.servlet.ServletException;",
+      "artifact" : {
+        "artifact" : "jakarta.servlet:jakarta.servlet-api:6.0.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/nl.42:spring-boot-starter-onelogin-saml:1.3.0/dependencies/jakarta/servlet/jakarta.servlet-api/6.0.0/jakarta.servlet-api-6.0.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import jakarta.servlet.ServletException;",
+      "artifact" : {
+        "artifact" : "org.apache.tomcat.embed:tomcat-embed-core:10.1.12",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/nl.42:spring-boot-starter-onelogin-saml:1.3.0/dependencies/org/apache/tomcat/embed/tomcat-embed-core/10.1.12/tomcat-embed-core-10.1.12.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import jakarta.servlet.http.HttpServletRequest;",
+      "artifact" : {
+        "artifact" : "jakarta.servlet:jakarta.servlet-api:6.0.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/nl.42:spring-boot-starter-onelogin-saml:1.3.0/dependencies/jakarta/servlet/jakarta.servlet-api/6.0.0/jakarta.servlet-api-6.0.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import jakarta.servlet.http.HttpServletRequest;",
+      "artifact" : {
+        "artifact" : "org.apache.tomcat.embed:tomcat-embed-core:10.1.12",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/nl.42:spring-boot-starter-onelogin-saml:1.3.0/dependencies/org/apache/tomcat/embed/tomcat-embed-core/10.1.12/tomcat-embed-core-10.1.12.jar"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ {
+      "importPath" : "import org.springframework.core.annotation.Order;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-core:6.0.11",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/nl.42:spring-boot-starter-onelogin-saml:1.3.0/dependencies/org/springframework/spring-core/6.0.11/spring-core-6.0.11.jar"
+      },
+      "isDirectDependency" : false
+    } ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/nl.42:spring-boot-starter-onelogin-saml/src/main/java/nl/_42/boot/onelogin/saml/web/Saml2ConfigFilter.java",
+    "useImportReport" : [ {
+      "importPath" : "import org.springframework.web.filter.GenericFilterBean;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-web:6.0.11",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/nl.42:spring-boot-starter-onelogin-saml:1.3.0/dependencies/org/springframework/spring-web/6.0.11/spring-web-6.0.11.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import lombok.extern.slf4j.Slf4j;",
+      "artifact" : {
+        "artifact" : "org.projectlombok:lombok:1.18.28",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/nl.42:spring-boot-starter-onelogin-saml:1.3.0/dependencies/org/projectlombok/lombok/1.18.28/lombok-1.18.28.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import nl._42.boot.onelogin.saml.Saml2Properties;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.fasterxml.jackson.databind.ObjectMapper;",
+      "artifact" : {
+        "artifact" : "com.fasterxml.jackson.core:jackson-databind:2.15.2",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/nl.42:spring-boot-starter-onelogin-saml:1.3.0/dependencies/com/fasterxml/jackson/core/jackson-databind/2.15.2/jackson-databind-2.15.2.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import jakarta.servlet.ServletRequest;",
+      "artifact" : {
+        "artifact" : "jakarta.servlet:jakarta.servlet-api:6.0.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/nl.42:spring-boot-starter-onelogin-saml:1.3.0/dependencies/jakarta/servlet/jakarta.servlet-api/6.0.0/jakarta.servlet-api-6.0.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import jakarta.servlet.ServletRequest;",
+      "artifact" : {
+        "artifact" : "org.apache.tomcat.embed:tomcat-embed-core:10.1.12",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/nl.42:spring-boot-starter-onelogin-saml:1.3.0/dependencies/org/apache/tomcat/embed/tomcat-embed-core/10.1.12/tomcat-embed-core-10.1.12.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import jakarta.servlet.ServletResponse;",
+      "artifact" : {
+        "artifact" : "jakarta.servlet:jakarta.servlet-api:6.0.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/nl.42:spring-boot-starter-onelogin-saml:1.3.0/dependencies/jakarta/servlet/jakarta.servlet-api/6.0.0/jakarta.servlet-api-6.0.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import jakarta.servlet.ServletResponse;",
+      "artifact" : {
+        "artifact" : "org.apache.tomcat.embed:tomcat-embed-core:10.1.12",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/nl.42:spring-boot-starter-onelogin-saml:1.3.0/dependencies/org/apache/tomcat/embed/tomcat-embed-core/10.1.12/tomcat-embed-core-10.1.12.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import jakarta.servlet.FilterChain;",
+      "artifact" : {
+        "artifact" : "jakarta.servlet:jakarta.servlet-api:6.0.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/nl.42:spring-boot-starter-onelogin-saml:1.3.0/dependencies/jakarta/servlet/jakarta.servlet-api/6.0.0/jakarta.servlet-api-6.0.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import jakarta.servlet.FilterChain;",
+      "artifact" : {
+        "artifact" : "org.apache.tomcat.embed:tomcat-embed-core:10.1.12",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/nl.42:spring-boot-starter-onelogin-saml:1.3.0/dependencies/org/apache/tomcat/embed/tomcat-embed-core/10.1.12/tomcat-embed-core-10.1.12.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.io.IOException;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.Map;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.HashMap;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.springframework.http.MediaType;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-web:6.0.11",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/nl.42:spring-boot-starter-onelogin-saml:1.3.0/dependencies/org/springframework/spring-web/6.0.11/spring-web-6.0.11.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.List;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import nl._42.boot.onelogin.saml.Registration;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.stream.Collectors;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.apache.commons.lang3.StringUtils;",
+      "artifact" : {
+        "artifact" : "org.apache.commons:commons-lang3:3.12.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/nl.42:spring-boot-starter-onelogin-saml:1.3.0/dependencies/org/apache/commons/commons-lang3/3.12.0/commons-lang3-3.12.0.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import lombok.Getter;",
+      "artifact" : {
+        "artifact" : "org.projectlombok:lombok:1.18.28",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/nl.42:spring-boot-starter-onelogin-saml:1.3.0/dependencies/org/projectlombok/lombok/1.18.28/lombok-1.18.28.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import lombok.AllArgsConstructor;",
+      "artifact" : {
+        "artifact" : "org.projectlombok:lombok:1.18.28",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/nl.42:spring-boot-starter-onelogin-saml:1.3.0/dependencies/org/projectlombok/lombok/1.18.28/lombok-1.18.28.jar"
+      },
+      "isDirectDependency" : true
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/nl.42:spring-boot-starter-onelogin-saml/src/main/java/nl/_42/boot/onelogin/saml/web/Saml2LogoutListener.java",
+    "useImportReport" : [ {
+      "importPath" : "import nl._42.boot.onelogin.saml.Registration;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/nl.42:spring-boot-starter-onelogin-saml/src/main/java/nl/_42/boot/onelogin/saml/web/Saml2LogoutHandler.java",
+    "useImportReport" : [ {
+      "importPath" : "import lombok.extern.slf4j.Slf4j;",
+      "artifact" : {
+        "artifact" : "org.projectlombok:lombok:1.18.28",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/nl.42:spring-boot-starter-onelogin-saml:1.3.0/dependencies/org/projectlombok/lombok/1.18.28/lombok-1.18.28.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.springframework.security.web.context.SecurityContextRepository;",
+      "artifact" : {
+        "artifact" : "org.springframework.security:spring-security-web:6.1.3",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/nl.42:spring-boot-starter-onelogin-saml:1.3.0/dependencies/org/springframework/security/spring-security-web/6.1.3/spring-security-web-6.1.3.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.List;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.ArrayList;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import nl._42.boot.onelogin.saml.Registration;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import jakarta.servlet.http.HttpServletRequest;",
+      "artifact" : {
+        "artifact" : "jakarta.servlet:jakarta.servlet-api:6.0.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/nl.42:spring-boot-starter-onelogin-saml:1.3.0/dependencies/jakarta/servlet/jakarta.servlet-api/6.0.0/jakarta.servlet-api-6.0.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import jakarta.servlet.http.HttpServletRequest;",
+      "artifact" : {
+        "artifact" : "org.apache.tomcat.embed:tomcat-embed-core:10.1.12",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/nl.42:spring-boot-starter-onelogin-saml:1.3.0/dependencies/org/apache/tomcat/embed/tomcat-embed-core/10.1.12/tomcat-embed-core-10.1.12.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import jakarta.servlet.http.HttpServletResponse;",
+      "artifact" : {
+        "artifact" : "jakarta.servlet:jakarta.servlet-api:6.0.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/nl.42:spring-boot-starter-onelogin-saml:1.3.0/dependencies/jakarta/servlet/jakarta.servlet-api/6.0.0/jakarta.servlet-api-6.0.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import jakarta.servlet.http.HttpServletResponse;",
+      "artifact" : {
+        "artifact" : "org.apache.tomcat.embed:tomcat-embed-core:10.1.12",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/nl.42:spring-boot-starter-onelogin-saml:1.3.0/dependencies/org/apache/tomcat/embed/tomcat-embed-core/10.1.12/tomcat-embed-core-10.1.12.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.springframework.security.core.context.SecurityContext;",
+      "artifact" : {
+        "artifact" : "org.springframework.security:spring-security-core:6.1.3",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/nl.42:spring-boot-starter-onelogin-saml:1.3.0/dependencies/org/springframework/security/spring-security-core/6.1.3/spring-security-core-6.1.3.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.springframework.security.core.context.SecurityContextHolder;",
+      "artifact" : {
+        "artifact" : "org.springframework.security:spring-security-core:6.1.3",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/nl.42:spring-boot-starter-onelogin-saml:1.3.0/dependencies/org/springframework/security/spring-security-core/6.1.3/spring-security-core-6.1.3.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.springframework.beans.factory.annotation.Autowired;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-beans:6.0.11",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/nl.42:spring-boot-starter-onelogin-saml:1.3.0/dependencies/org/springframework/spring-beans/6.0.11/spring-beans-6.0.11.jar"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/nl.42:spring-boot-starter-onelogin-saml/src/main/java/nl/_42/boot/onelogin/saml/web/Saml2FailureHandler.java",
+    "useImportReport" : [ {
+      "importPath" : "import org.springframework.security.web.authentication.AuthenticationFailureHandler;",
+      "artifact" : {
+        "artifact" : "org.springframework.security:spring-security-web:6.1.3",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/nl.42:spring-boot-starter-onelogin-saml:1.3.0/dependencies/org/springframework/security/spring-security-web/6.1.3/spring-security-web-6.1.3.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import lombok.extern.slf4j.Slf4j;",
+      "artifact" : {
+        "artifact" : "org.projectlombok:lombok:1.18.28",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/nl.42:spring-boot-starter-onelogin-saml:1.3.0/dependencies/org/projectlombok/lombok/1.18.28/lombok-1.18.28.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import lombok.AllArgsConstructor;",
+      "artifact" : {
+        "artifact" : "org.projectlombok:lombok:1.18.28",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/nl.42:spring-boot-starter-onelogin-saml:1.3.0/dependencies/org/projectlombok/lombok/1.18.28/lombok-1.18.28.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import nl._42.boot.onelogin.saml.Saml2Properties;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import jakarta.servlet.http.HttpServletRequest;",
+      "artifact" : {
+        "artifact" : "jakarta.servlet:jakarta.servlet-api:6.0.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/nl.42:spring-boot-starter-onelogin-saml:1.3.0/dependencies/jakarta/servlet/jakarta.servlet-api/6.0.0/jakarta.servlet-api-6.0.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import jakarta.servlet.http.HttpServletRequest;",
+      "artifact" : {
+        "artifact" : "org.apache.tomcat.embed:tomcat-embed-core:10.1.12",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/nl.42:spring-boot-starter-onelogin-saml:1.3.0/dependencies/org/apache/tomcat/embed/tomcat-embed-core/10.1.12/tomcat-embed-core-10.1.12.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import jakarta.servlet.http.HttpServletResponse;",
+      "artifact" : {
+        "artifact" : "jakarta.servlet:jakarta.servlet-api:6.0.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/nl.42:spring-boot-starter-onelogin-saml:1.3.0/dependencies/jakarta/servlet/jakarta.servlet-api/6.0.0/jakarta.servlet-api-6.0.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import jakarta.servlet.http.HttpServletResponse;",
+      "artifact" : {
+        "artifact" : "org.apache.tomcat.embed:tomcat-embed-core:10.1.12",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/nl.42:spring-boot-starter-onelogin-saml:1.3.0/dependencies/org/apache/tomcat/embed/tomcat-embed-core/10.1.12/tomcat-embed-core-10.1.12.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.springframework.security.core.AuthenticationException;",
+      "artifact" : {
+        "artifact" : "org.springframework.security:spring-security-core:6.1.3",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/nl.42:spring-boot-starter-onelogin-saml:1.3.0/dependencies/org/springframework/security/spring-security-core/6.1.3/spring-security-core-6.1.3.jar"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/nl.42:spring-boot-starter-onelogin-saml/src/main/java/nl/_42/boot/onelogin/saml/web/Saml2MetadataDisplayFilter.java",
+    "useImportReport" : [ {
+      "importPath" : "import nl._42.boot.onelogin.saml.Saml2Properties;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.apache.commons.lang3.StringUtils;",
+      "artifact" : {
+        "artifact" : "org.apache.commons:commons-lang3:3.12.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/nl.42:spring-boot-starter-onelogin-saml:1.3.0/dependencies/org/apache/commons/commons-lang3/3.12.0/commons-lang3-3.12.0.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.onelogin.saml2.settings.Saml2Settings;",
+      "artifact" : {
+        "artifact" : "com.onelogin:java-saml-core:2.9.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/nl.42:spring-boot-starter-onelogin-saml:1.3.0/dependencies/com/onelogin/java-saml-core/2.9.0/java-saml-core-2.9.0.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import nl._42.boot.onelogin.saml.Registration;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import jakarta.servlet.http.HttpServletRequest;",
+      "artifact" : {
+        "artifact" : "jakarta.servlet:jakarta.servlet-api:6.0.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/nl.42:spring-boot-starter-onelogin-saml:1.3.0/dependencies/jakarta/servlet/jakarta.servlet-api/6.0.0/jakarta.servlet-api-6.0.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import jakarta.servlet.http.HttpServletRequest;",
+      "artifact" : {
+        "artifact" : "org.apache.tomcat.embed:tomcat-embed-core:10.1.12",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/nl.42:spring-boot-starter-onelogin-saml:1.3.0/dependencies/org/apache/tomcat/embed/tomcat-embed-core/10.1.12/tomcat-embed-core-10.1.12.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import jakarta.servlet.http.HttpServletResponse;",
+      "artifact" : {
+        "artifact" : "jakarta.servlet:jakarta.servlet-api:6.0.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/nl.42:spring-boot-starter-onelogin-saml:1.3.0/dependencies/jakarta/servlet/jakarta.servlet-api/6.0.0/jakarta.servlet-api-6.0.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import jakarta.servlet.http.HttpServletResponse;",
+      "artifact" : {
+        "artifact" : "org.apache.tomcat.embed:tomcat-embed-core:10.1.12",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/nl.42:spring-boot-starter-onelogin-saml:1.3.0/dependencies/org/apache/tomcat/embed/tomcat-embed-core/10.1.12/tomcat-embed-core-10.1.12.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import jakarta.servlet.FilterChain;",
+      "artifact" : {
+        "artifact" : "jakarta.servlet:jakarta.servlet-api:6.0.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/nl.42:spring-boot-starter-onelogin-saml:1.3.0/dependencies/jakarta/servlet/jakarta.servlet-api/6.0.0/jakarta.servlet-api-6.0.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import jakarta.servlet.FilterChain;",
+      "artifact" : {
+        "artifact" : "org.apache.tomcat.embed:tomcat-embed-core:10.1.12",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/nl.42:spring-boot-starter-onelogin-saml:1.3.0/dependencies/org/apache/tomcat/embed/tomcat-embed-core/10.1.12/tomcat-embed-core-10.1.12.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.onelogin.saml2.exception.SAMLException;",
+      "artifact" : {
+        "artifact" : "com.onelogin:java-saml-core:2.9.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/nl.42:spring-boot-starter-onelogin-saml:1.3.0/dependencies/com/onelogin/java-saml-core/2.9.0/java-saml-core-2.9.0.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.io.IOException;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.springframework.http.HttpHeaders;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-web:6.0.11",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/nl.42:spring-boot-starter-onelogin-saml:1.3.0/dependencies/org/springframework/spring-web/6.0.11/spring-web-6.0.11.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.security.cert.CertificateEncodingException;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/nl.42:spring-boot-starter-onelogin-saml/src/main/java/nl/_42/boot/onelogin/saml/web/javax/JavaxSessionAdapter.java",
+    "useImportReport" : [ {
+      "importPath" : "import lombok.AllArgsConstructor;",
+      "artifact" : {
+        "artifact" : "org.projectlombok:lombok:1.18.28",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/nl.42:spring-boot-starter-onelogin-saml:1.3.0/dependencies/org/projectlombok/lombok/1.18.28/lombok-1.18.28.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import javax.servlet.ServletContext;",
+      "artifact" : {
+        "artifact" : "javax.servlet:servlet-api:2.5",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/nl.42:spring-boot-starter-onelogin-saml:1.3.0/dependencies/javax/servlet/servlet-api/2.5/servlet-api-2.5.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import javax.servlet.http.HttpSessionContext;",
+      "artifact" : {
+        "artifact" : "javax.servlet:servlet-api:2.5",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/nl.42:spring-boot-starter-onelogin-saml:1.3.0/dependencies/javax/servlet/servlet-api/2.5/servlet-api-2.5.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import java.util.Enumeration;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ {
+      "importPath" : "javax.servlet.http.HttpSession",
+      "artifact" : {
+        "artifact" : "javax.servlet:servlet-api:2.5",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/nl.42:spring-boot-starter-onelogin-saml:1.3.0/dependencies/javax/servlet/servlet-api/2.5/servlet-api-2.5.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "jakarta.servlet.http.HttpSession",
+      "artifact" : {
+        "artifact" : "jakarta.servlet:jakarta.servlet-api:6.0.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/nl.42:spring-boot-starter-onelogin-saml:1.3.0/dependencies/jakarta/servlet/jakarta.servlet-api/6.0.0/jakarta.servlet-api-6.0.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "jakarta.servlet.http.HttpSession",
+      "artifact" : {
+        "artifact" : "org.apache.tomcat.embed:tomcat-embed-core:10.1.12",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/nl.42:spring-boot-starter-onelogin-saml:1.3.0/dependencies/org/apache/tomcat/embed/tomcat-embed-core/10.1.12/tomcat-embed-core-10.1.12.jar"
+      },
+      "isDirectDependency" : false
+    } ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/nl.42:spring-boot-starter-onelogin-saml/src/main/java/nl/_42/boot/onelogin/saml/web/javax/JavaxResponseAdapter.java",
+    "useImportReport" : [ {
+      "importPath" : "import lombok.AllArgsConstructor;",
+      "artifact" : {
+        "artifact" : "org.projectlombok:lombok:1.18.28",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/nl.42:spring-boot-starter-onelogin-saml:1.3.0/dependencies/org/projectlombok/lombok/1.18.28/lombok-1.18.28.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import javax.servlet.http.Cookie;",
+      "artifact" : {
+        "artifact" : "javax.servlet:servlet-api:2.5",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/nl.42:spring-boot-starter-onelogin-saml:1.3.0/dependencies/javax/servlet/servlet-api/2.5/servlet-api-2.5.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import java.io.IOException;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import javax.servlet.ServletOutputStream;",
+      "artifact" : {
+        "artifact" : "javax.servlet:servlet-api:2.5",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/nl.42:spring-boot-starter-onelogin-saml:1.3.0/dependencies/javax/servlet/servlet-api/2.5/servlet-api-2.5.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import java.io.PrintWriter;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.Locale;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ {
+      "importPath" : "javax.servlet.http.HttpServletResponse",
+      "artifact" : {
+        "artifact" : "javax.servlet:servlet-api:2.5",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/nl.42:spring-boot-starter-onelogin-saml:1.3.0/dependencies/javax/servlet/servlet-api/2.5/servlet-api-2.5.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "jakarta.servlet.http.HttpServletResponse",
+      "artifact" : {
+        "artifact" : "jakarta.servlet:jakarta.servlet-api:6.0.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/nl.42:spring-boot-starter-onelogin-saml:1.3.0/dependencies/jakarta/servlet/jakarta.servlet-api/6.0.0/jakarta.servlet-api-6.0.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "jakarta.servlet.http.HttpServletResponse",
+      "artifact" : {
+        "artifact" : "org.apache.tomcat.embed:tomcat-embed-core:10.1.12",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/nl.42:spring-boot-starter-onelogin-saml:1.3.0/dependencies/org/apache/tomcat/embed/tomcat-embed-core/10.1.12/tomcat-embed-core-10.1.12.jar"
+      },
+      "isDirectDependency" : false
+    } ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/nl.42:spring-boot-starter-onelogin-saml/src/main/java/nl/_42/boot/onelogin/saml/web/javax/JavaxRequestAdapter.java",
+    "useImportReport" : [ {
+      "importPath" : "import lombok.AllArgsConstructor;",
+      "artifact" : {
+        "artifact" : "org.projectlombok:lombok:1.18.28",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/nl.42:spring-boot-starter-onelogin-saml:1.3.0/dependencies/org/projectlombok/lombok/1.18.28/lombok-1.18.28.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import javax.servlet.http.Cookie;",
+      "artifact" : {
+        "artifact" : "javax.servlet:servlet-api:2.5",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/nl.42:spring-boot-starter-onelogin-saml:1.3.0/dependencies/javax/servlet/servlet-api/2.5/servlet-api-2.5.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import java.util.Enumeration;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.security.Principal;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import javax.servlet.http.HttpSession;",
+      "artifact" : {
+        "artifact" : "javax.servlet:servlet-api:2.5",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/nl.42:spring-boot-starter-onelogin-saml:1.3.0/dependencies/javax/servlet/servlet-api/2.5/servlet-api-2.5.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import java.io.UnsupportedEncodingException;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import javax.servlet.ServletInputStream;",
+      "artifact" : {
+        "artifact" : "javax.servlet:servlet-api:2.5",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/nl.42:spring-boot-starter-onelogin-saml:1.3.0/dependencies/javax/servlet/servlet-api/2.5/servlet-api-2.5.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import java.io.IOException;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.Map;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.io.BufferedReader;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.Locale;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import javax.servlet.RequestDispatcher;",
+      "artifact" : {
+        "artifact" : "javax.servlet:servlet-api:2.5",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/nl.42:spring-boot-starter-onelogin-saml:1.3.0/dependencies/javax/servlet/servlet-api/2.5/servlet-api-2.5.jar"
+      },
+      "isDirectDependency" : true
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ {
+      "importPath" : "javax.servlet.http.HttpServletRequest",
+      "artifact" : {
+        "artifact" : "javax.servlet:servlet-api:2.5",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/nl.42:spring-boot-starter-onelogin-saml:1.3.0/dependencies/javax/servlet/servlet-api/2.5/servlet-api-2.5.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "jakarta.servlet.http.HttpServletRequest",
+      "artifact" : {
+        "artifact" : "jakarta.servlet:jakarta.servlet-api:6.0.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/nl.42:spring-boot-starter-onelogin-saml:1.3.0/dependencies/jakarta/servlet/jakarta.servlet-api/6.0.0/jakarta.servlet-api-6.0.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "jakarta.servlet.http.HttpServletRequest",
+      "artifact" : {
+        "artifact" : "org.apache.tomcat.embed:tomcat-embed-core:10.1.12",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/nl.42:spring-boot-starter-onelogin-saml:1.3.0/dependencies/org/apache/tomcat/embed/tomcat-embed-core/10.1.12/tomcat-embed-core-10.1.12.jar"
+      },
+      "isDirectDependency" : false
+    } ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/nl.42:spring-boot-starter-onelogin-saml/src/main/java/nl/_42/boot/onelogin/saml/web/AbstractSaml2Filter.java",
+    "useImportReport" : [ {
+      "importPath" : "import org.springframework.web.filter.GenericFilterBean;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-web:6.0.11",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/nl.42:spring-boot-starter-onelogin-saml:1.3.0/dependencies/org/springframework/spring-web/6.0.11/spring-web-6.0.11.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import lombok.extern.slf4j.Slf4j;",
+      "artifact" : {
+        "artifact" : "org.projectlombok:lombok:1.18.28",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/nl.42:spring-boot-starter-onelogin-saml:1.3.0/dependencies/org/projectlombok/lombok/1.18.28/lombok-1.18.28.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import lombok.AllArgsConstructor;",
+      "artifact" : {
+        "artifact" : "org.projectlombok:lombok:1.18.28",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/nl.42:spring-boot-starter-onelogin-saml:1.3.0/dependencies/org/projectlombok/lombok/1.18.28/lombok-1.18.28.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import nl._42.boot.onelogin.saml.Saml2Properties;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import jakarta.servlet.ServletRequest;",
+      "artifact" : {
+        "artifact" : "jakarta.servlet:jakarta.servlet-api:6.0.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/nl.42:spring-boot-starter-onelogin-saml:1.3.0/dependencies/jakarta/servlet/jakarta.servlet-api/6.0.0/jakarta.servlet-api-6.0.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import jakarta.servlet.ServletRequest;",
+      "artifact" : {
+        "artifact" : "org.apache.tomcat.embed:tomcat-embed-core:10.1.12",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/nl.42:spring-boot-starter-onelogin-saml:1.3.0/dependencies/org/apache/tomcat/embed/tomcat-embed-core/10.1.12/tomcat-embed-core-10.1.12.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import jakarta.servlet.ServletResponse;",
+      "artifact" : {
+        "artifact" : "jakarta.servlet:jakarta.servlet-api:6.0.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/nl.42:spring-boot-starter-onelogin-saml:1.3.0/dependencies/jakarta/servlet/jakarta.servlet-api/6.0.0/jakarta.servlet-api-6.0.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import jakarta.servlet.ServletResponse;",
+      "artifact" : {
+        "artifact" : "org.apache.tomcat.embed:tomcat-embed-core:10.1.12",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/nl.42:spring-boot-starter-onelogin-saml:1.3.0/dependencies/org/apache/tomcat/embed/tomcat-embed-core/10.1.12/tomcat-embed-core-10.1.12.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import jakarta.servlet.FilterChain;",
+      "artifact" : {
+        "artifact" : "jakarta.servlet:jakarta.servlet-api:6.0.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/nl.42:spring-boot-starter-onelogin-saml:1.3.0/dependencies/jakarta/servlet/jakarta.servlet-api/6.0.0/jakarta.servlet-api-6.0.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import jakarta.servlet.FilterChain;",
+      "artifact" : {
+        "artifact" : "org.apache.tomcat.embed:tomcat-embed-core:10.1.12",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/nl.42:spring-boot-starter-onelogin-saml:1.3.0/dependencies/org/apache/tomcat/embed/tomcat-embed-core/10.1.12/tomcat-embed-core-10.1.12.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.io.IOException;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import jakarta.servlet.ServletException;",
+      "artifact" : {
+        "artifact" : "jakarta.servlet:jakarta.servlet-api:6.0.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/nl.42:spring-boot-starter-onelogin-saml:1.3.0/dependencies/jakarta/servlet/jakarta.servlet-api/6.0.0/jakarta.servlet-api-6.0.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import jakarta.servlet.ServletException;",
+      "artifact" : {
+        "artifact" : "org.apache.tomcat.embed:tomcat-embed-core:10.1.12",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/nl.42:spring-boot-starter-onelogin-saml:1.3.0/dependencies/org/apache/tomcat/embed/tomcat-embed-core/10.1.12/tomcat-embed-core-10.1.12.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import jakarta.servlet.http.HttpServletRequest;",
+      "artifact" : {
+        "artifact" : "jakarta.servlet:jakarta.servlet-api:6.0.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/nl.42:spring-boot-starter-onelogin-saml:1.3.0/dependencies/jakarta/servlet/jakarta.servlet-api/6.0.0/jakarta.servlet-api-6.0.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import jakarta.servlet.http.HttpServletRequest;",
+      "artifact" : {
+        "artifact" : "org.apache.tomcat.embed:tomcat-embed-core:10.1.12",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/nl.42:spring-boot-starter-onelogin-saml:1.3.0/dependencies/org/apache/tomcat/embed/tomcat-embed-core/10.1.12/tomcat-embed-core-10.1.12.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import jakarta.servlet.http.HttpServletResponse;",
+      "artifact" : {
+        "artifact" : "jakarta.servlet:jakarta.servlet-api:6.0.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/nl.42:spring-boot-starter-onelogin-saml:1.3.0/dependencies/jakarta/servlet/jakarta.servlet-api/6.0.0/jakarta.servlet-api-6.0.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import jakarta.servlet.http.HttpServletResponse;",
+      "artifact" : {
+        "artifact" : "org.apache.tomcat.embed:tomcat-embed-core:10.1.12",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/nl.42:spring-boot-starter-onelogin-saml:1.3.0/dependencies/org/apache/tomcat/embed/tomcat-embed-core/10.1.12/tomcat-embed-core-10.1.12.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import nl._42.boot.onelogin.saml.Registration;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.onelogin.saml2.settings.Saml2Settings;",
+      "artifact" : {
+        "artifact" : "com.onelogin:java-saml-core:2.9.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/nl.42:spring-boot-starter-onelogin-saml:1.3.0/dependencies/com/onelogin/java-saml-core/2.9.0/java-saml-core-2.9.0.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.onelogin.saml2.exception.SAMLException;",
+      "artifact" : {
+        "artifact" : "com.onelogin:java-saml-core:2.9.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/nl.42:spring-boot-starter-onelogin-saml:1.3.0/dependencies/com/onelogin/java-saml-core/2.9.0/java-saml-core-2.9.0.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.security.cert.CertificateException;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.apache.commons.lang3.StringUtils;",
+      "artifact" : {
+        "artifact" : "org.apache.commons:commons-lang3:3.12.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/nl.42:spring-boot-starter-onelogin-saml:1.3.0/dependencies/org/apache/commons/commons-lang3/3.12.0/commons-lang3-3.12.0.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.onelogin.saml2.Auth;",
+      "artifact" : {
+        "artifact" : "com.onelogin:java-saml:2.9.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/nl.42:spring-boot-starter-onelogin-saml:1.3.0/dependencies/com/onelogin/java-saml/2.9.0/java-saml-2.9.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import com.onelogin.saml2.exception.SettingsException;",
+      "artifact" : {
+        "artifact" : "com.onelogin:java-saml-core:2.9.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/nl.42:spring-boot-starter-onelogin-saml:1.3.0/dependencies/com/onelogin/java-saml-core/2.9.0/java-saml-core-2.9.0.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import nl._42.boot.onelogin.saml.web.javax.JavaxRequestAdapter;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import nl._42.boot.onelogin.saml.web.javax.JavaxResponseAdapter;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/nl.42:spring-boot-starter-onelogin-saml/src/main/java/nl/_42/boot/onelogin/saml/web/Saml2LogoutFilter.java",
+    "useImportReport" : [ {
+      "importPath" : "import lombok.extern.slf4j.Slf4j;",
+      "artifact" : {
+        "artifact" : "org.projectlombok:lombok:1.18.28",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/nl.42:spring-boot-starter-onelogin-saml:1.3.0/dependencies/org/projectlombok/lombok/1.18.28/lombok-1.18.28.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import nl._42.boot.onelogin.saml.Saml2Properties;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.onelogin.saml2.settings.Saml2Settings;",
+      "artifact" : {
+        "artifact" : "com.onelogin:java-saml-core:2.9.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/nl.42:spring-boot-starter-onelogin-saml:1.3.0/dependencies/com/onelogin/java-saml-core/2.9.0/java-saml-core-2.9.0.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import nl._42.boot.onelogin.saml.Registration;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import jakarta.servlet.http.HttpServletRequest;",
+      "artifact" : {
+        "artifact" : "jakarta.servlet:jakarta.servlet-api:6.0.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/nl.42:spring-boot-starter-onelogin-saml:1.3.0/dependencies/jakarta/servlet/jakarta.servlet-api/6.0.0/jakarta.servlet-api-6.0.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import jakarta.servlet.http.HttpServletRequest;",
+      "artifact" : {
+        "artifact" : "org.apache.tomcat.embed:tomcat-embed-core:10.1.12",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/nl.42:spring-boot-starter-onelogin-saml:1.3.0/dependencies/org/apache/tomcat/embed/tomcat-embed-core/10.1.12/tomcat-embed-core-10.1.12.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import jakarta.servlet.http.HttpServletResponse;",
+      "artifact" : {
+        "artifact" : "jakarta.servlet:jakarta.servlet-api:6.0.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/nl.42:spring-boot-starter-onelogin-saml:1.3.0/dependencies/jakarta/servlet/jakarta.servlet-api/6.0.0/jakarta.servlet-api-6.0.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import jakarta.servlet.http.HttpServletResponse;",
+      "artifact" : {
+        "artifact" : "org.apache.tomcat.embed:tomcat-embed-core:10.1.12",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/nl.42:spring-boot-starter-onelogin-saml:1.3.0/dependencies/org/apache/tomcat/embed/tomcat-embed-core/10.1.12/tomcat-embed-core-10.1.12.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import jakarta.servlet.FilterChain;",
+      "artifact" : {
+        "artifact" : "jakarta.servlet:jakarta.servlet-api:6.0.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/nl.42:spring-boot-starter-onelogin-saml:1.3.0/dependencies/jakarta/servlet/jakarta.servlet-api/6.0.0/jakarta.servlet-api-6.0.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import jakarta.servlet.FilterChain;",
+      "artifact" : {
+        "artifact" : "org.apache.tomcat.embed:tomcat-embed-core:10.1.12",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/nl.42:spring-boot-starter-onelogin-saml:1.3.0/dependencies/org/apache/tomcat/embed/tomcat-embed-core/10.1.12/tomcat-embed-core-10.1.12.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.io.IOException;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.onelogin.saml2.exception.SAMLException;",
+      "artifact" : {
+        "artifact" : "com.onelogin:java-saml-core:2.9.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/nl.42:spring-boot-starter-onelogin-saml:1.3.0/dependencies/com/onelogin/java-saml-core/2.9.0/java-saml-core-2.9.0.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.apache.commons.lang3.StringUtils;",
+      "artifact" : {
+        "artifact" : "org.apache.commons:commons-lang3:3.12.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/nl.42:spring-boot-starter-onelogin-saml:1.3.0/dependencies/org/apache/commons/commons-lang3/3.12.0/commons-lang3-3.12.0.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.onelogin.saml2.Auth;",
+      "artifact" : {
+        "artifact" : "com.onelogin:java-saml:2.9.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/nl.42:spring-boot-starter-onelogin-saml:1.3.0/dependencies/com/onelogin/java-saml/2.9.0/java-saml-2.9.0.jar"
+      },
+      "isDirectDependency" : true
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/nl.42:spring-boot-starter-onelogin-saml/src/main/java/nl/_42/boot/onelogin/saml/web/Saml2LoginProcessingFilter.java",
+    "useImportReport" : [ {
+      "importPath" : "import lombok.extern.slf4j.Slf4j;",
+      "artifact" : {
+        "artifact" : "org.projectlombok:lombok:1.18.28",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/nl.42:spring-boot-starter-onelogin-saml:1.3.0/dependencies/org/projectlombok/lombok/1.18.28/lombok-1.18.28.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import nl._42.boot.onelogin.saml.user.Saml2AuthenticationProvider;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.springframework.security.web.context.SecurityContextRepository;",
+      "artifact" : {
+        "artifact" : "org.springframework.security:spring-security-web:6.1.3",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/nl.42:spring-boot-starter-onelogin-saml:1.3.0/dependencies/org/springframework/security/spring-security-web/6.1.3/spring-security-web-6.1.3.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.springframework.security.web.authentication.AuthenticationSuccessHandler;",
+      "artifact" : {
+        "artifact" : "org.springframework.security:spring-security-web:6.1.3",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/nl.42:spring-boot-starter-onelogin-saml:1.3.0/dependencies/org/springframework/security/spring-security-web/6.1.3/spring-security-web-6.1.3.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.springframework.security.web.authentication.AuthenticationFailureHandler;",
+      "artifact" : {
+        "artifact" : "org.springframework.security:spring-security-web:6.1.3",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/nl.42:spring-boot-starter-onelogin-saml:1.3.0/dependencies/org/springframework/security/spring-security-web/6.1.3/spring-security-web-6.1.3.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import nl._42.boot.onelogin.saml.Saml2Properties;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.onelogin.saml2.settings.Saml2Settings;",
+      "artifact" : {
+        "artifact" : "com.onelogin:java-saml-core:2.9.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/nl.42:spring-boot-starter-onelogin-saml:1.3.0/dependencies/com/onelogin/java-saml-core/2.9.0/java-saml-core-2.9.0.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import nl._42.boot.onelogin.saml.Registration;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import jakarta.servlet.http.HttpServletRequest;",
+      "artifact" : {
+        "artifact" : "jakarta.servlet:jakarta.servlet-api:6.0.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/nl.42:spring-boot-starter-onelogin-saml:1.3.0/dependencies/jakarta/servlet/jakarta.servlet-api/6.0.0/jakarta.servlet-api-6.0.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import jakarta.servlet.http.HttpServletRequest;",
+      "artifact" : {
+        "artifact" : "org.apache.tomcat.embed:tomcat-embed-core:10.1.12",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/nl.42:spring-boot-starter-onelogin-saml:1.3.0/dependencies/org/apache/tomcat/embed/tomcat-embed-core/10.1.12/tomcat-embed-core-10.1.12.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import jakarta.servlet.http.HttpServletResponse;",
+      "artifact" : {
+        "artifact" : "jakarta.servlet:jakarta.servlet-api:6.0.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/nl.42:spring-boot-starter-onelogin-saml:1.3.0/dependencies/jakarta/servlet/jakarta.servlet-api/6.0.0/jakarta.servlet-api-6.0.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import jakarta.servlet.http.HttpServletResponse;",
+      "artifact" : {
+        "artifact" : "org.apache.tomcat.embed:tomcat-embed-core:10.1.12",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/nl.42:spring-boot-starter-onelogin-saml:1.3.0/dependencies/org/apache/tomcat/embed/tomcat-embed-core/10.1.12/tomcat-embed-core-10.1.12.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import jakarta.servlet.FilterChain;",
+      "artifact" : {
+        "artifact" : "jakarta.servlet:jakarta.servlet-api:6.0.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/nl.42:spring-boot-starter-onelogin-saml:1.3.0/dependencies/jakarta/servlet/jakarta.servlet-api/6.0.0/jakarta.servlet-api-6.0.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import jakarta.servlet.FilterChain;",
+      "artifact" : {
+        "artifact" : "org.apache.tomcat.embed:tomcat-embed-core:10.1.12",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/nl.42:spring-boot-starter-onelogin-saml:1.3.0/dependencies/org/apache/tomcat/embed/tomcat-embed-core/10.1.12/tomcat-embed-core-10.1.12.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.io.IOException;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import jakarta.servlet.ServletException;",
+      "artifact" : {
+        "artifact" : "jakarta.servlet:jakarta.servlet-api:6.0.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/nl.42:spring-boot-starter-onelogin-saml:1.3.0/dependencies/jakarta/servlet/jakarta.servlet-api/6.0.0/jakarta.servlet-api-6.0.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import jakarta.servlet.ServletException;",
+      "artifact" : {
+        "artifact" : "org.apache.tomcat.embed:tomcat-embed-core:10.1.12",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/nl.42:spring-boot-starter-onelogin-saml:1.3.0/dependencies/org/apache/tomcat/embed/tomcat-embed-core/10.1.12/tomcat-embed-core-10.1.12.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.onelogin.saml2.exception.SAMLException;",
+      "artifact" : {
+        "artifact" : "com.onelogin:java-saml-core:2.9.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/nl.42:spring-boot-starter-onelogin-saml:1.3.0/dependencies/com/onelogin/java-saml-core/2.9.0/java-saml-core-2.9.0.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.onelogin.saml2.Auth;",
+      "artifact" : {
+        "artifact" : "com.onelogin:java-saml:2.9.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/nl.42:spring-boot-starter-onelogin-saml:1.3.0/dependencies/com/onelogin/java-saml/2.9.0/java-saml-2.9.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.springframework.security.core.Authentication;",
+      "artifact" : {
+        "artifact" : "org.springframework.security:spring-security-core:6.1.3",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/nl.42:spring-boot-starter-onelogin-saml:1.3.0/dependencies/org/springframework/security/spring-security-core/6.1.3/spring-security-core-6.1.3.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.springframework.security.core.context.SecurityContext;",
+      "artifact" : {
+        "artifact" : "org.springframework.security:spring-security-core:6.1.3",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/nl.42:spring-boot-starter-onelogin-saml:1.3.0/dependencies/org/springframework/security/spring-security-core/6.1.3/spring-security-core-6.1.3.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.springframework.security.core.context.SecurityContextHolder;",
+      "artifact" : {
+        "artifact" : "org.springframework.security:spring-security-core:6.1.3",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/nl.42:spring-boot-starter-onelogin-saml:1.3.0/dependencies/org/springframework/security/spring-security-core/6.1.3/spring-security-core-6.1.3.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.apache.commons.lang3.StringUtils;",
+      "artifact" : {
+        "artifact" : "org.apache.commons:commons-lang3:3.12.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/nl.42:spring-boot-starter-onelogin-saml:1.3.0/dependencies/org/apache/commons/commons-lang3/3.12.0/commons-lang3-3.12.0.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.springframework.security.core.AuthenticationException;",
+      "artifact" : {
+        "artifact" : "org.springframework.security:spring-security-core:6.1.3",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/nl.42:spring-boot-starter-onelogin-saml:1.3.0/dependencies/org/springframework/security/spring-security-core/6.1.3/spring-security-core-6.1.3.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.springframework.security.authentication.AuthenticationServiceException;",
+      "artifact" : {
+        "artifact" : "org.springframework.security:spring-security-core:6.1.3",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/nl.42:spring-boot-starter-onelogin-saml:1.3.0/dependencies/org/springframework/security/spring-security-core/6.1.3/spring-security-core-6.1.3.jar"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/nl.42:spring-boot-starter-onelogin-saml/src/main/java/nl/_42/boot/onelogin/saml/web/Saml2LogoutProcessingFilter.java",
+    "useImportReport" : [ {
+      "importPath" : "import lombok.extern.slf4j.Slf4j;",
+      "artifact" : {
+        "artifact" : "org.projectlombok:lombok:1.18.28",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/nl.42:spring-boot-starter-onelogin-saml:1.3.0/dependencies/org/projectlombok/lombok/1.18.28/lombok-1.18.28.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import nl._42.boot.onelogin.saml.Saml2Properties;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.onelogin.saml2.settings.Saml2Settings;",
+      "artifact" : {
+        "artifact" : "com.onelogin:java-saml-core:2.9.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/nl.42:spring-boot-starter-onelogin-saml:1.3.0/dependencies/com/onelogin/java-saml-core/2.9.0/java-saml-core-2.9.0.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import nl._42.boot.onelogin.saml.Registration;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import jakarta.servlet.http.HttpServletRequest;",
+      "artifact" : {
+        "artifact" : "jakarta.servlet:jakarta.servlet-api:6.0.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/nl.42:spring-boot-starter-onelogin-saml:1.3.0/dependencies/jakarta/servlet/jakarta.servlet-api/6.0.0/jakarta.servlet-api-6.0.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import jakarta.servlet.http.HttpServletRequest;",
+      "artifact" : {
+        "artifact" : "org.apache.tomcat.embed:tomcat-embed-core:10.1.12",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/nl.42:spring-boot-starter-onelogin-saml:1.3.0/dependencies/org/apache/tomcat/embed/tomcat-embed-core/10.1.12/tomcat-embed-core-10.1.12.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import jakarta.servlet.http.HttpServletResponse;",
+      "artifact" : {
+        "artifact" : "jakarta.servlet:jakarta.servlet-api:6.0.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/nl.42:spring-boot-starter-onelogin-saml:1.3.0/dependencies/jakarta/servlet/jakarta.servlet-api/6.0.0/jakarta.servlet-api-6.0.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import jakarta.servlet.http.HttpServletResponse;",
+      "artifact" : {
+        "artifact" : "org.apache.tomcat.embed:tomcat-embed-core:10.1.12",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/nl.42:spring-boot-starter-onelogin-saml:1.3.0/dependencies/org/apache/tomcat/embed/tomcat-embed-core/10.1.12/tomcat-embed-core-10.1.12.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import jakarta.servlet.FilterChain;",
+      "artifact" : {
+        "artifact" : "jakarta.servlet:jakarta.servlet-api:6.0.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/nl.42:spring-boot-starter-onelogin-saml:1.3.0/dependencies/jakarta/servlet/jakarta.servlet-api/6.0.0/jakarta.servlet-api-6.0.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import jakarta.servlet.FilterChain;",
+      "artifact" : {
+        "artifact" : "org.apache.tomcat.embed:tomcat-embed-core:10.1.12",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/nl.42:spring-boot-starter-onelogin-saml:1.3.0/dependencies/org/apache/tomcat/embed/tomcat-embed-core/10.1.12/tomcat-embed-core-10.1.12.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.io.IOException;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/nl.42:spring-boot-starter-onelogin-saml/src/main/java/nl/_42/boot/onelogin/saml/web/Saml2LoginUrlResolver.java",
+    "useImportReport" : [ {
+      "importPath" : "import lombok.extern.slf4j.Slf4j;",
+      "artifact" : {
+        "artifact" : "org.projectlombok:lombok:1.18.28",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/nl.42:spring-boot-starter-onelogin-saml:1.3.0/dependencies/org/projectlombok/lombok/1.18.28/lombok-1.18.28.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.springframework.stereotype.Component;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-context:6.0.11",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/nl.42:spring-boot-starter-onelogin-saml:1.3.0/dependencies/org/springframework/spring-context/6.0.11/spring-context-6.0.11.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import nl._42.boot.onelogin.saml.Saml2Properties;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.springframework.web.client.RestTemplate;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-web:6.0.11",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/nl.42:spring-boot-starter-onelogin-saml:1.3.0/dependencies/org/springframework/spring-web/6.0.11/spring-web-6.0.11.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import jakarta.servlet.ServletRequest;",
+      "artifact" : {
+        "artifact" : "jakarta.servlet:jakarta.servlet-api:6.0.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/nl.42:spring-boot-starter-onelogin-saml:1.3.0/dependencies/jakarta/servlet/jakarta.servlet-api/6.0.0/jakarta.servlet-api-6.0.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import jakarta.servlet.ServletRequest;",
+      "artifact" : {
+        "artifact" : "org.apache.tomcat.embed:tomcat-embed-core:10.1.12",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/nl.42:spring-boot-starter-onelogin-saml:1.3.0/dependencies/org/apache/tomcat/embed/tomcat-embed-core/10.1.12/tomcat-embed-core-10.1.12.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.apache.commons.lang3.StringUtils;",
+      "artifact" : {
+        "artifact" : "org.apache.commons:commons-lang3:3.12.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/nl.42:spring-boot-starter-onelogin-saml:1.3.0/dependencies/org/apache/commons/commons-lang3/3.12.0/commons-lang3-3.12.0.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import static org.apache.commons.lang3.StringUtils.isNotEmpty;",
+      "artifact" : {
+        "artifact" : "org.apache.commons:commons-lang3:3.12.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/nl.42:spring-boot-starter-onelogin-saml:1.3.0/dependencies/org/apache/commons/commons-lang3/3.12.0/commons-lang3-3.12.0.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.springframework.http.ResponseEntity;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-web:6.0.11",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/nl.42:spring-boot-starter-onelogin-saml:1.3.0/dependencies/org/springframework/spring-web/6.0.11/spring-web-6.0.11.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.springframework.http.HttpStatusCode;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-web:6.0.11",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/nl.42:spring-boot-starter-onelogin-saml:1.3.0/dependencies/org/springframework/spring-web/6.0.11/spring-web-6.0.11.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.net.URI;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.Objects;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.springframework.web.client.ResponseErrorHandler;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-web:6.0.11",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/nl.42:spring-boot-starter-onelogin-saml:1.3.0/dependencies/org/springframework/spring-web/6.0.11/spring-web-6.0.11.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.springframework.http.client.ClientHttpResponse;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-web:6.0.11",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/nl.42:spring-boot-starter-onelogin-saml:1.3.0/dependencies/org/springframework/spring-web/6.0.11/spring-web-6.0.11.jar"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/nl.42:spring-boot-starter-onelogin-saml/src/main/java/nl/_42/boot/onelogin/saml/web/Redirects.java",
+    "useImportReport" : [ {
+      "importPath" : "import jakarta.servlet.http.HttpServletResponse;",
+      "artifact" : {
+        "artifact" : "jakarta.servlet:jakarta.servlet-api:6.0.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/nl.42:spring-boot-starter-onelogin-saml:1.3.0/dependencies/jakarta/servlet/jakarta.servlet-api/6.0.0/jakarta.servlet-api-6.0.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import jakarta.servlet.http.HttpServletResponse;",
+      "artifact" : {
+        "artifact" : "org.apache.tomcat.embed:tomcat-embed-core:10.1.12",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/nl.42:spring-boot-starter-onelogin-saml:1.3.0/dependencies/org/apache/tomcat/embed/tomcat-embed-core/10.1.12/tomcat-embed-core-10.1.12.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.springframework.http.HttpStatus;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-web:6.0.11",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/nl.42:spring-boot-starter-onelogin-saml:1.3.0/dependencies/org/springframework/spring-web/6.0.11/spring-web-6.0.11.jar"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/nl.42:spring-boot-starter-onelogin-saml/src/main/java/nl/_42/boot/onelogin/saml/Saml2Properties.java",
+    "useImportReport" : [ {
+      "importPath" : "import org.springframework.beans.factory.InitializingBean;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-beans:6.0.11",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/nl.42:spring-boot-starter-onelogin-saml:1.3.0/dependencies/org/springframework/spring-beans/6.0.11/spring-beans-6.0.11.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import lombok.Data;",
+      "artifact" : {
+        "artifact" : "org.projectlombok:lombok:1.18.28",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/nl.42:spring-boot-starter-onelogin-saml:1.3.0/dependencies/org/projectlombok/lombok/1.18.28/lombok-1.18.28.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import lombok.extern.slf4j.Slf4j;",
+      "artifact" : {
+        "artifact" : "org.projectlombok:lombok:1.18.28",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/nl.42:spring-boot-starter-onelogin-saml:1.3.0/dependencies/org/projectlombok/lombok/1.18.28/lombok-1.18.28.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.springframework.boot.context.properties.ConfigurationProperties;",
+      "artifact" : {
+        "artifact" : "org.springframework.boot:spring-boot:3.1.3",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/nl.42:spring-boot-starter-onelogin-saml:1.3.0/dependencies/org/springframework/boot/spring-boot/3.1.3/spring-boot-3.1.3.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.Properties;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.Map;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.HashMap;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.onelogin.saml2.settings.Saml2Settings;",
+      "artifact" : {
+        "artifact" : "com.onelogin:java-saml-core:2.9.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/nl.42:spring-boot-starter-onelogin-saml:1.3.0/dependencies/com/onelogin/java-saml-core/2.9.0/java-saml-core-2.9.0.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.security.cert.CertificateException;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.onelogin.saml2.settings.SettingsBuilder;",
+      "artifact" : {
+        "artifact" : "com.onelogin:java-saml-core:2.9.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/nl.42:spring-boot-starter-onelogin-saml:1.3.0/dependencies/com/onelogin/java-saml-core/2.9.0/java-saml-core-2.9.0.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.security.cert.X509Certificate;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.apache.commons.lang3.StringUtils;",
+      "artifact" : {
+        "artifact" : "org.apache.commons:commons-lang3:3.12.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/nl.42:spring-boot-starter-onelogin-saml:1.3.0/dependencies/org/apache/commons/commons-lang3/3.12.0/commons-lang3-3.12.0.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.onelogin.saml2.util.Util;",
+      "artifact" : {
+        "artifact" : "com.onelogin:java-saml-core:2.9.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/nl.42:spring-boot-starter-onelogin-saml:1.3.0/dependencies/com/onelogin/java-saml-core/2.9.0/java-saml-core-2.9.0.jar"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/nl.42:spring-boot-starter-onelogin-saml/src/main/java/nl/_42/boot/onelogin/saml/Saml2Response.java",
+    "useImportReport" : [ {
+      "importPath" : "import lombok.AllArgsConstructor;",
+      "artifact" : {
+        "artifact" : "org.projectlombok:lombok:1.18.28",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/nl.42:spring-boot-starter-onelogin-saml:1.3.0/dependencies/org/projectlombok/lombok/1.18.28/lombok-1.18.28.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import com.onelogin.saml2.Auth;",
+      "artifact" : {
+        "artifact" : "com.onelogin:java-saml:2.9.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/nl.42:spring-boot-starter-onelogin-saml:1.3.0/dependencies/com/onelogin/java-saml/2.9.0/java-saml-2.9.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import java.util.Collection;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.List;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.Collections;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.Set;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.apache.commons.lang3.StringUtils;",
+      "artifact" : {
+        "artifact" : "org.apache.commons:commons-lang3:3.12.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/nl.42:spring-boot-starter-onelogin-saml:1.3.0/dependencies/org/apache/commons/commons-lang3/3.12.0/commons-lang3-3.12.0.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.HashSet;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.Optional;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.springframework.security.core.GrantedAuthority;",
+      "artifact" : {
+        "artifact" : "org.springframework.security:spring-security-core:6.1.3",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/nl.42:spring-boot-starter-onelogin-saml:1.3.0/dependencies/org/springframework/security/spring-security-core/6.1.3/spring-security-core-6.1.3.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.springframework.security.core.authority.SimpleGrantedAuthority;",
+      "artifact" : {
+        "artifact" : "org.springframework.security:spring-security-core:6.1.3",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/nl.42:spring-boot-starter-onelogin-saml:1.3.0/dependencies/org/springframework/security/spring-security-core/6.1.3/spring-security-core-6.1.3.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.stream.Collectors;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/nl.42:spring-boot-starter-onelogin-saml/src/main/java/nl/_42/boot/onelogin/saml/user/Saml2AuthenticationProvider.java",
+    "useImportReport" : [ {
+      "importPath" : "import lombok.AllArgsConstructor;",
+      "artifact" : {
+        "artifact" : "org.projectlombok:lombok:1.18.28",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/nl.42:spring-boot-starter-onelogin-saml:1.3.0/dependencies/org/projectlombok/lombok/1.18.28/lombok-1.18.28.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import nl._42.boot.onelogin.saml.Saml2Properties;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.springframework.security.core.Authentication;",
+      "artifact" : {
+        "artifact" : "org.springframework.security:spring-security-core:6.1.3",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/nl.42:spring-boot-starter-onelogin-saml:1.3.0/dependencies/org/springframework/security/spring-security-core/6.1.3/spring-security-core-6.1.3.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.onelogin.saml2.Auth;",
+      "artifact" : {
+        "artifact" : "com.onelogin:java-saml:2.9.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/nl.42:spring-boot-starter-onelogin-saml:1.3.0/dependencies/com/onelogin/java-saml/2.9.0/java-saml-2.9.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import nl._42.boot.onelogin.saml.Registration;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.springframework.security.core.AuthenticationException;",
+      "artifact" : {
+        "artifact" : "org.springframework.security:spring-security-core:6.1.3",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/nl.42:spring-boot-starter-onelogin-saml:1.3.0/dependencies/org/springframework/security/spring-security-core/6.1.3/spring-security-core-6.1.3.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import nl._42.boot.onelogin.saml.Saml2Response;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.springframework.security.core.userdetails.UserDetails;",
+      "artifact" : {
+        "artifact" : "org.springframework.security:spring-security-core:6.1.3",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/nl.42:spring-boot-starter-onelogin-saml:1.3.0/dependencies/org/springframework/security/spring-security-core/6.1.3/spring-security-core-6.1.3.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.time.LocalDateTime;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.joda.time.DateTime;",
+      "artifact" : {
+        "artifact" : "joda-time:joda-time:2.10.6",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/nl.42:spring-boot-starter-onelogin-saml:1.3.0/dependencies/joda-time/joda-time/2.10.6/joda-time-2.10.6.jar"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/nl.42:spring-boot-starter-onelogin-saml/src/main/java/nl/_42/boot/onelogin/saml/user/ExpiringAuthenticationToken.java",
+    "useImportReport" : [ {
+      "importPath" : "import java.time.LocalDateTime;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/nl.42:spring-boot-starter-onelogin-saml/src/main/java/nl/_42/boot/onelogin/saml/user/Saml2UserDecorator.java",
+    "useImportReport" : [ {
+      "importPath" : "import org.springframework.security.core.userdetails.UserDetails;",
+      "artifact" : {
+        "artifact" : "org.springframework.security:spring-security-core:6.1.3",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/nl.42:spring-boot-starter-onelogin-saml:1.3.0/dependencies/org/springframework/security/spring-security-core/6.1.3/spring-security-core-6.1.3.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import nl._42.boot.onelogin.saml.Saml2Response;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/nl.42:spring-boot-starter-onelogin-saml/src/main/java/nl/_42/boot/onelogin/saml/user/Saml2UserService.java",
+    "useImportReport" : [ {
+      "importPath" : "import lombok.extern.slf4j.Slf4j;",
+      "artifact" : {
+        "artifact" : "org.projectlombok:lombok:1.18.28",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/nl.42:spring-boot-starter-onelogin-saml:1.3.0/dependencies/org/projectlombok/lombok/1.18.28/lombok-1.18.28.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import java.util.List;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.ArrayList;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import nl._42.boot.onelogin.saml.Saml2Properties;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.Objects;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.springframework.security.core.userdetails.UserDetails;",
+      "artifact" : {
+        "artifact" : "org.springframework.security:spring-security-core:6.1.3",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/nl.42:spring-boot-starter-onelogin-saml:1.3.0/dependencies/org/springframework/security/spring-security-core/6.1.3/spring-security-core-6.1.3.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import nl._42.boot.onelogin.saml.Saml2Response;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.springframework.security.core.AuthenticationException;",
+      "artifact" : {
+        "artifact" : "org.springframework.security:spring-security-core:6.1.3",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/nl.42:spring-boot-starter-onelogin-saml:1.3.0/dependencies/org/springframework/security/spring-security-core/6.1.3/spring-security-core-6.1.3.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.Collection;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.springframework.security.core.GrantedAuthority;",
+      "artifact" : {
+        "artifact" : "org.springframework.security:spring-security-core:6.1.3",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/nl.42:spring-boot-starter-onelogin-saml:1.3.0/dependencies/org/springframework/security/spring-security-core/6.1.3/spring-security-core-6.1.3.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.springframework.security.core.userdetails.User;",
+      "artifact" : {
+        "artifact" : "org.springframework.security:spring-security-core:6.1.3",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/nl.42:spring-boot-starter-onelogin-saml:1.3.0/dependencies/org/springframework/security/spring-security-core/6.1.3/spring-security-core-6.1.3.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.springframework.beans.factory.annotation.Autowired;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-beans:6.0.11",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/nl.42:spring-boot-starter-onelogin-saml:1.3.0/dependencies/org/springframework/spring-beans/6.0.11/spring-beans-6.0.11.jar"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/nl.42:spring-boot-starter-onelogin-saml/src/main/java/nl/_42/boot/onelogin/saml/user/Saml2Authentication.java",
+    "useImportReport" : [ {
+      "importPath" : "import org.springframework.security.authentication.UsernamePasswordAuthenticationToken;",
+      "artifact" : {
+        "artifact" : "org.springframework.security:spring-security-core:6.1.3",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/nl.42:spring-boot-starter-onelogin-saml:1.3.0/dependencies/org/springframework/security/spring-security-core/6.1.3/spring-security-core-6.1.3.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import lombok.Getter;",
+      "artifact" : {
+        "artifact" : "org.projectlombok:lombok:1.18.28",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/nl.42:spring-boot-starter-onelogin-saml:1.3.0/dependencies/org/projectlombok/lombok/1.18.28/lombok-1.18.28.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import nl._42.boot.onelogin.saml.Saml2Response;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.time.LocalDateTime;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.springframework.security.core.userdetails.UserDetails;",
+      "artifact" : {
+        "artifact" : "org.springframework.security:spring-security-core:6.1.3",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/nl.42:spring-boot-starter-onelogin-saml:1.3.0/dependencies/org/springframework/security/spring-security-core/6.1.3/spring-security-core-6.1.3.jar"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/nl.42:spring-boot-starter-onelogin-saml/src/main/java/nl/_42/boot/onelogin/saml/Registration.java",
+    "useImportReport" : [ {
+      "importPath" : "import lombok.Getter;",
+      "artifact" : {
+        "artifact" : "org.projectlombok:lombok:1.18.28",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/nl.42:spring-boot-starter-onelogin-saml:1.3.0/dependencies/org/projectlombok/lombok/1.18.28/lombok-1.18.28.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import lombok.Setter;",
+      "artifact" : {
+        "artifact" : "org.projectlombok:lombok:1.18.28",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/nl.42:spring-boot-starter-onelogin-saml:1.3.0/dependencies/org/projectlombok/lombok/1.18.28/lombok-1.18.28.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import java.util.Properties;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.Map;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.HashMap;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.Optional;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.apache.commons.lang3.StringUtils;",
+      "artifact" : {
+        "artifact" : "org.apache.commons:commons-lang3:3.12.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/nl.42:spring-boot-starter-onelogin-saml:1.3.0/dependencies/org/apache/commons/commons-lang3/3.12.0/commons-lang3-3.12.0.jar"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/nl.42:spring-boot-starter-onelogin-saml/src/main/java/nl/_42/boot/onelogin/saml/Saml2Exception.java",
+    "useImportReport" : [ {
+      "importPath" : "import org.springframework.security.core.AuthenticationException;",
+      "artifact" : {
+        "artifact" : "org.springframework.security:spring-security-core:6.1.3",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/nl.42:spring-boot-starter-onelogin-saml:1.3.0/dependencies/org/springframework/security/spring-security-core/6.1.3/spring-security-core-6.1.3.jar"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/nl.42:spring-boot-starter-onelogin-saml/src/main/java/nl/_42/boot/onelogin/saml/Saml2RefreshEventListener.java",
+    "useImportReport" : [ {
+      "importPath" : "import lombok.extern.slf4j.Slf4j;",
+      "artifact" : {
+        "artifact" : "org.projectlombok:lombok:1.18.28",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/nl.42:spring-boot-starter-onelogin-saml:1.3.0/dependencies/org/projectlombok/lombok/1.18.28/lombok-1.18.28.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.springframework.stereotype.Component;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-context:6.0.11",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/nl.42:spring-boot-starter-onelogin-saml:1.3.0/dependencies/org/springframework/spring-context/6.0.11/spring-context-6.0.11.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.springframework.boot.autoconfigure.condition.ConditionalOnClass;",
+      "artifact" : {
+        "artifact" : "org.springframework.boot:spring-boot-autoconfigure:3.1.3",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/nl.42:spring-boot-starter-onelogin-saml:1.3.0/dependencies/org/springframework/boot/spring-boot-autoconfigure/3.1.3/spring-boot-autoconfigure-3.1.3.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.springframework.context.ApplicationContext;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-context:6.0.11",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/nl.42:spring-boot-starter-onelogin-saml:1.3.0/dependencies/org/springframework/spring-context/6.0.11/spring-context-6.0.11.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.springframework.context.event.EventListener;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-context:6.0.11",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/nl.42:spring-boot-starter-onelogin-saml:1.3.0/dependencies/org/springframework/spring-context/6.0.11/spring-context-6.0.11.jar"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ {
+      "importPath" : "org.springframework.cloud.endpoint.event.RefreshEvent",
+      "artifact" : {
+        "artifact" : "org.springframework.cloud:spring-cloud-context:4.0.3",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/nl.42:spring-boot-starter-onelogin-saml:1.3.0/dependencies/org/springframework/cloud/spring-cloud-context/4.0.3/spring-cloud-context-4.0.3.jar"
+      },
+      "isDirectDependency" : false
+    } ],
+    "failImportReport" : [ ]
+  } ],
+  "projectUseDependencies" : [ {
+    "artifact" : "org.projectlombok:lombok:1.18.28",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/nl.42:spring-boot-starter-onelogin-saml:1.3.0/dependencies/org/projectlombok/lombok/1.18.28/lombok-1.18.28.jar"
+  }, {
+    "artifact" : "jakarta.servlet:jakarta.servlet-api:6.0.0",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/nl.42:spring-boot-starter-onelogin-saml:1.3.0/dependencies/jakarta/servlet/jakarta.servlet-api/6.0.0/jakarta.servlet-api-6.0.0.jar"
+  }, {
+    "artifact" : "com.onelogin:java-saml:2.9.0",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/nl.42:spring-boot-starter-onelogin-saml:1.3.0/dependencies/com/onelogin/java-saml/2.9.0/java-saml-2.9.0.jar"
+  }, {
+    "artifact" : "javax.servlet:servlet-api:2.5",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/nl.42:spring-boot-starter-onelogin-saml:1.3.0/dependencies/javax/servlet/servlet-api/2.5/servlet-api-2.5.jar"
+  }, {
+    "artifact" : "org.apache.tomcat.embed:tomcat-embed-core:10.1.12",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/nl.42:spring-boot-starter-onelogin-saml:1.3.0/dependencies/org/apache/tomcat/embed/tomcat-embed-core/10.1.12/tomcat-embed-core-10.1.12.jar"
+  }, {
+    "artifact" : "org.springframework.cloud:spring-cloud-context:4.0.3",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/nl.42:spring-boot-starter-onelogin-saml:1.3.0/dependencies/org/springframework/cloud/spring-cloud-context/4.0.3/spring-cloud-context-4.0.3.jar"
+  } ],
+  "projectUseTransitiveDependencies" : [ {
+    "artifact" : "org.springframework.boot:spring-boot-starter-security:3.1.3",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/nl.42:spring-boot-starter-onelogin-saml:1.3.0/dependencies/org/springframework/boot/spring-boot-starter-security/3.1.3/spring-boot-starter-security-3.1.3.jar"
+  }, {
+    "artifact" : "org.springframework.boot:spring-boot-starter-web:3.1.3",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/nl.42:spring-boot-starter-onelogin-saml:1.3.0/dependencies/org/springframework/boot/spring-boot-starter-web/3.1.3/spring-boot-starter-web-3.1.3.jar"
+  }, {
+    "artifact" : "org.springframework.boot:spring-boot-starter-security:3.1.3",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/nl.42:spring-boot-starter-onelogin-saml:1.3.0/dependencies/org/springframework/boot/spring-boot-starter-security/3.1.3/spring-boot-starter-security-3.1.3.jar"
+  }, {
+    "artifact" : "org.springframework.boot:spring-boot-starter-web:3.1.3",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/nl.42:spring-boot-starter-onelogin-saml:1.3.0/dependencies/org/springframework/boot/spring-boot-starter-web/3.1.3/spring-boot-starter-web-3.1.3.jar"
+  }, {
+    "artifact" : "org.springframework.boot:spring-boot-starter-test:3.1.3",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/nl.42:spring-boot-starter-onelogin-saml:1.3.0/dependencies/org/springframework/boot/spring-boot-starter-test/3.1.3/spring-boot-starter-test-3.1.3.jar"
+  }, {
+    "artifact" : "org.springframework.boot:spring-boot-starter-security:3.1.3",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/nl.42:spring-boot-starter-onelogin-saml:1.3.0/dependencies/org/springframework/boot/spring-boot-starter-security/3.1.3/spring-boot-starter-security-3.1.3.jar"
+  }, {
+    "artifact" : "org.springframework.boot:spring-boot-starter-security:3.1.3",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/nl.42:spring-boot-starter-onelogin-saml:1.3.0/dependencies/org/springframework/boot/spring-boot-starter-security/3.1.3/spring-boot-starter-security-3.1.3.jar"
+  }, {
+    "artifact" : "org.springframework.boot:spring-boot-starter-web:3.1.3",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/nl.42:spring-boot-starter-onelogin-saml:1.3.0/dependencies/org/springframework/boot/spring-boot-starter-web/3.1.3/spring-boot-starter-web-3.1.3.jar"
+  }, {
+    "artifact" : "org.springframework.boot:spring-boot-starter-web:3.1.3",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/nl.42:spring-boot-starter-onelogin-saml:1.3.0/dependencies/org/springframework/boot/spring-boot-starter-web/3.1.3/spring-boot-starter-web-3.1.3.jar"
+  }, {
+    "artifact" : "org.springframework.boot:spring-boot-starter-security:3.1.3",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/nl.42:spring-boot-starter-onelogin-saml:1.3.0/dependencies/org/springframework/boot/spring-boot-starter-security/3.1.3/spring-boot-starter-security-3.1.3.jar"
+  }, {
+    "artifact" : "org.springframework.boot:spring-boot-starter-security:3.1.3",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/nl.42:spring-boot-starter-onelogin-saml:1.3.0/dependencies/org/springframework/boot/spring-boot-starter-security/3.1.3/spring-boot-starter-security-3.1.3.jar"
+  }, {
+    "artifact" : "org.springframework.boot:spring-boot-starter-web:3.1.3",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/nl.42:spring-boot-starter-onelogin-saml:1.3.0/dependencies/org/springframework/boot/spring-boot-starter-web/3.1.3/spring-boot-starter-web-3.1.3.jar"
+  }, {
+    "artifact" : "org.springframework.boot:spring-boot-starter-web:3.1.3",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/nl.42:spring-boot-starter-onelogin-saml:1.3.0/dependencies/org/springframework/boot/spring-boot-starter-web/3.1.3/spring-boot-starter-web-3.1.3.jar"
+  }, {
+    "artifact" : "org.springframework.boot:spring-boot-starter-security:3.1.3",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/nl.42:spring-boot-starter-onelogin-saml:1.3.0/dependencies/org/springframework/boot/spring-boot-starter-security/3.1.3/spring-boot-starter-security-3.1.3.jar"
+  }, {
+    "artifact" : "org.springframework.boot:spring-boot-starter-web:3.1.3",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/nl.42:spring-boot-starter-onelogin-saml:1.3.0/dependencies/org/springframework/boot/spring-boot-starter-web/3.1.3/spring-boot-starter-web-3.1.3.jar"
+  }, {
+    "artifact" : "org.springframework.boot:spring-boot-starter-test:3.1.3",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/nl.42:spring-boot-starter-onelogin-saml:1.3.0/dependencies/org/springframework/boot/spring-boot-starter-test/3.1.3/spring-boot-starter-test-3.1.3.jar"
+  } ],
+  "projectUnusedDependencies" : [ {
+    "artifact" : "org.springframework.cloud:spring-cloud-starter-config:4.0.3",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/nl.42:spring-boot-starter-onelogin-saml:1.3.0/dependencies/org/springframework/cloud/spring-cloud-starter-config/4.0.3/spring-cloud-starter-config-4.0.3.jar"
+  }, {
+    "artifact" : "com.fasterxml.jackson.core:jackson-core:2.15.2",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/nl.42:spring-boot-starter-onelogin-saml:1.3.0/dependencies/com/fasterxml/jackson/core/jackson-core/2.15.2/jackson-core-2.15.2.jar"
+  } ]
+}

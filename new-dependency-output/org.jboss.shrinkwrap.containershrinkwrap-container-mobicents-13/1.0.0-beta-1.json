@@ -1,0 +1,817 @@
+{
+  "projectArtifact" : "org.jboss.shrinkwrap.container:shrinkwrap-container-mobicents-13:1.0.0-beta-1",
+  "repositoryDir" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/org.jboss.shrinkwrap.container:shrinkwrap-container-mobicents-13",
+  "repositorySubDir" : "",
+  "artifactLocation" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.jboss.shrinkwrap.container:shrinkwrap-container-mobicents-13:1.0.0-beta-1",
+  "fileImportReports" : [ {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/org.jboss.shrinkwrap.container:shrinkwrap-container-mobicents-13/src/test/java/org/jboss/shrinkwrap/mobicents/servlet/sip/servlet/RequestParamEchoServlet.java",
+    "useImportReport" : [ {
+      "importPath" : "import javax.servlet.http.HttpServlet;",
+      "artifact" : {
+        "artifact" : "org.apache.tomcat:servlet-api:6.0.29",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.jboss.shrinkwrap.container:shrinkwrap-container-mobicents-13:1.0.0-beta-1/dependencies/org/apache/tomcat/servlet-api/6.0.29/servlet-api-6.0.29.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import javax.servlet.sip.SipFactory;",
+      "artifact" : {
+        "artifact" : "org.mobicents.servlet.sip:sip-servlets-spec:1.1.13.2",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.jboss.shrinkwrap.container:shrinkwrap-container-mobicents-13:1.0.0-beta-1/dependencies/org/mobicents/servlet/sip/sip-servlets-spec/1.1.13.2/sip-servlets-spec-1.1.13.2.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import javax.annotation.Resource;",
+      "artifact" : {
+        "artifact" : "org.apache.tomcat:annotations-api:6.0.29",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.jboss.shrinkwrap.container:shrinkwrap-container-mobicents-13:1.0.0-beta-1/dependencies/org/apache/tomcat/annotations-api/6.0.29/annotations-api-6.0.29.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import javax.servlet.http.HttpServletRequest;",
+      "artifact" : {
+        "artifact" : "org.apache.tomcat:servlet-api:6.0.29",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.jboss.shrinkwrap.container:shrinkwrap-container-mobicents-13:1.0.0-beta-1/dependencies/org/apache/tomcat/servlet-api/6.0.29/servlet-api-6.0.29.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import javax.servlet.http.HttpServletResponse;",
+      "artifact" : {
+        "artifact" : "org.apache.tomcat:servlet-api:6.0.29",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.jboss.shrinkwrap.container:shrinkwrap-container-mobicents-13:1.0.0-beta-1/dependencies/org/apache/tomcat/servlet-api/6.0.29/servlet-api-6.0.29.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import javax.servlet.ServletException;",
+      "artifact" : {
+        "artifact" : "org.apache.tomcat:servlet-api:6.0.29",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.jboss.shrinkwrap.container:shrinkwrap-container-mobicents-13:1.0.0-beta-1/dependencies/org/apache/tomcat/servlet-api/6.0.29/servlet-api-6.0.29.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.io.IOException;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import javax.servlet.sip.ConvergedHttpSession;",
+      "artifact" : {
+        "artifact" : "org.mobicents.servlet.sip:sip-servlets-spec:1.1.13.2",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.jboss.shrinkwrap.container:shrinkwrap-container-mobicents-13:1.0.0-beta-1/dependencies/org/mobicents/servlet/sip/sip-servlets-spec/1.1.13.2/sip-servlets-spec-1.1.13.2.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import javax.servlet.sip.SipApplicationSession;",
+      "artifact" : {
+        "artifact" : "org.mobicents.servlet.sip:sip-servlets-spec:1.1.13.2",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.jboss.shrinkwrap.container:shrinkwrap-container-mobicents-13:1.0.0-beta-1/dependencies/org/mobicents/servlet/sip/sip-servlets-spec/1.1.13.2/sip-servlets-spec-1.1.13.2.jar"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/org.jboss.shrinkwrap.container:shrinkwrap-container-mobicents-13/src/test/java/org/jboss/shrinkwrap/mobicents/servlet/sip/servlet/ForwardingServlet.java",
+    "useImportReport" : [ {
+      "importPath" : "import javax.servlet.http.HttpServlet;",
+      "artifact" : {
+        "artifact" : "org.apache.tomcat:servlet-api:6.0.29",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.jboss.shrinkwrap.container:shrinkwrap-container-mobicents-13:1.0.0-beta-1/dependencies/org/apache/tomcat/servlet-api/6.0.29/servlet-api-6.0.29.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.logging.Logger;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import javax.servlet.http.HttpServletRequest;",
+      "artifact" : {
+        "artifact" : "org.apache.tomcat:servlet-api:6.0.29",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.jboss.shrinkwrap.container:shrinkwrap-container-mobicents-13:1.0.0-beta-1/dependencies/org/apache/tomcat/servlet-api/6.0.29/servlet-api-6.0.29.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import javax.servlet.http.HttpServletResponse;",
+      "artifact" : {
+        "artifact" : "org.apache.tomcat:servlet-api:6.0.29",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.jboss.shrinkwrap.container:shrinkwrap-container-mobicents-13:1.0.0-beta-1/dependencies/org/apache/tomcat/servlet-api/6.0.29/servlet-api-6.0.29.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import javax.servlet.ServletException;",
+      "artifact" : {
+        "artifact" : "org.apache.tomcat:servlet-api:6.0.29",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.jboss.shrinkwrap.container:shrinkwrap-container-mobicents-13:1.0.0-beta-1/dependencies/org/apache/tomcat/servlet-api/6.0.29/servlet-api-6.0.29.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.io.IOException;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import javax.servlet.RequestDispatcher;",
+      "artifact" : {
+        "artifact" : "org.apache.tomcat:servlet-api:6.0.29",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.jboss.shrinkwrap.container:shrinkwrap-container-mobicents-13:1.0.0-beta-1/dependencies/org/apache/tomcat/servlet-api/6.0.29/servlet-api-6.0.29.jar"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ {
+      "importPath" : "javax.servlet.http.HttpServlet",
+      "artifact" : {
+        "artifact" : "org.apache.tomcat:servlet-api:6.0.29",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.jboss.shrinkwrap.container:shrinkwrap-container-mobicents-13:1.0.0-beta-1/dependencies/org/apache/tomcat/servlet-api/6.0.29/servlet-api-6.0.29.jar"
+      },
+      "isDirectDependency" : false
+    } ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/org.jboss.shrinkwrap.container:shrinkwrap-container-mobicents-13/src/test/java/org/jboss/shrinkwrap/mobicents/servlet/sip/servlet/ContextServlet.java",
+    "useImportReport" : [ {
+      "importPath" : "import javax.servlet.sip.SipServlet;",
+      "artifact" : {
+        "artifact" : "org.mobicents.servlet.sip:sip-servlets-spec:1.1.13.2",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.jboss.shrinkwrap.container:shrinkwrap-container-mobicents-13:1.0.0-beta-1/dependencies/org/mobicents/servlet/sip/sip-servlets-spec/1.1.13.2/sip-servlets-spec-1.1.13.2.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import javax.servlet.sip.SipFactory;",
+      "artifact" : {
+        "artifact" : "org.mobicents.servlet.sip:sip-servlets-spec:1.1.13.2",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.jboss.shrinkwrap.container:shrinkwrap-container-mobicents-13:1.0.0-beta-1/dependencies/org/mobicents/servlet/sip/sip-servlets-spec/1.1.13.2/sip-servlets-spec-1.1.13.2.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import javax.servlet.ServletConfig;",
+      "artifact" : {
+        "artifact" : "org.apache.tomcat:servlet-api:6.0.29",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.jboss.shrinkwrap.container:shrinkwrap-container-mobicents-13:1.0.0-beta-1/dependencies/org/apache/tomcat/servlet-api/6.0.29/servlet-api-6.0.29.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import javax.servlet.ServletException;",
+      "artifact" : {
+        "artifact" : "org.apache.tomcat:servlet-api:6.0.29",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.jboss.shrinkwrap.container:shrinkwrap-container-mobicents-13:1.0.0-beta-1/dependencies/org/apache/tomcat/servlet-api/6.0.29/servlet-api-6.0.29.jar"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/org.jboss.shrinkwrap.container:shrinkwrap-container-mobicents-13/src/test/java/org/jboss/shrinkwrap/mobicents/servlet/sip/test/MobicentsSipServletsDeploymentIntegrationUnitTestCase.java",
+    "useImportReport" : [ {
+      "importPath" : "import org.jboss.shrinkwrap.mobicents.servlet.sip.api.ShrinkWrapSipStandardContext;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.apache.catalina.startup.Embedded;",
+      "artifact" : {
+        "artifact" : "org.apache.tomcat:catalina:6.0.29",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.jboss.shrinkwrap.container:shrinkwrap-container-mobicents-13:1.0.0-beta-1/dependencies/org/apache/tomcat/catalina/6.0.29/catalina-6.0.29.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import java.util.logging.Logger;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.junit.BeforeClass;",
+      "artifact" : {
+        "artifact" : "junit:junit:4.8",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.jboss.shrinkwrap.container:shrinkwrap-container-mobicents-13:1.0.0-beta-1/dependencies/junit/junit/4.8/junit-4.8.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.jboss.shrinkwrap.sip.api.spec.ConvergedSipWebArchive;",
+      "artifact" : {
+        "artifact" : "org.jboss.shrinkwrap.sip:shrinkwrap-extension-sip-api:1.0.0-beta-1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.jboss.shrinkwrap.container:shrinkwrap-container-mobicents-13:1.0.0-beta-1/dependencies/org/jboss/shrinkwrap/sip/shrinkwrap-extension-sip-api/1.0.0-beta-1/shrinkwrap-extension-sip-api-1.0.0-beta-1.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.jboss.shrinkwrap.api.ShrinkWrap;",
+      "artifact" : {
+        "artifact" : "org.jboss.shrinkwrap:shrinkwrap-api:1.0.0-beta-1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.jboss.shrinkwrap.container:shrinkwrap-container-mobicents-13:1.0.0-beta-1/dependencies/org/jboss/shrinkwrap/shrinkwrap-api/1.0.0-beta-1/shrinkwrap-api-1.0.0-beta-1.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.mobicents.servlet.sip.startup.SipStandardContext;",
+      "artifact" : {
+        "artifact" : "org.mobicents.servlet.sip:sip-servlets-tomcat-jboss4:1.3.2",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.jboss.shrinkwrap.container:shrinkwrap-container-mobicents-13:1.0.0-beta-1/dependencies/org/mobicents/servlet/sip/sip-servlets-tomcat-jboss4/1.3.2/sip-servlets-tomcat-jboss4-1.3.2.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.mobicents.servlet.sip.startup.SipContextConfig;",
+      "artifact" : {
+        "artifact" : "org.mobicents.servlet.sip:sip-servlets-tomcat-jboss4:1.3.2",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.jboss.shrinkwrap.container:shrinkwrap-container-mobicents-13:1.0.0-beta-1/dependencies/org/mobicents/servlet/sip/sip-servlets-tomcat-jboss4/1.3.2/sip-servlets-tomcat-jboss4-1.3.2.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.mobicents.servlet.sip.core.session.SipStandardManager;",
+      "artifact" : {
+        "artifact" : "org.mobicents.servlet.sip:sip-servlets-impl:1.3.2",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.jboss.shrinkwrap.container:shrinkwrap-container-mobicents-13:1.0.0-beta-1/dependencies/org/mobicents/servlet/sip/sip-servlets-impl/1.3.2/sip-servlets-impl-1.3.2.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.junit.AfterClass;",
+      "artifact" : {
+        "artifact" : "junit:junit:4.8",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.jboss.shrinkwrap.container:shrinkwrap-container-mobicents-13:1.0.0-beta-1/dependencies/junit/junit/4.8/junit-4.8.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.junit.Test;",
+      "artifact" : {
+        "artifact" : "junit:junit:4.8",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.jboss.shrinkwrap.container:shrinkwrap-container-mobicents-13:1.0.0-beta-1/dependencies/junit/junit/4.8/junit-4.8.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.apache.http.client.HttpClient;",
+      "artifact" : {
+        "artifact" : "org.apache.httpcomponents:httpclient:4.0.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.jboss.shrinkwrap.container:shrinkwrap-container-mobicents-13:1.0.0-beta-1/dependencies/org/apache/httpcomponents/httpclient/4.0.1/httpclient-4.0.1.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.apache.http.impl.client.DefaultHttpClient;",
+      "artifact" : {
+        "artifact" : "org.apache.httpcomponents:httpclient:4.0.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.jboss.shrinkwrap.container:shrinkwrap-container-mobicents-13:1.0.0-beta-1/dependencies/org/apache/httpcomponents/httpclient/4.0.1/httpclient-4.0.1.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.List;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.apache.http.NameValuePair;",
+      "artifact" : {
+        "artifact" : "org.apache.httpcomponents:httpcore:4.0.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.jboss.shrinkwrap.container:shrinkwrap-container-mobicents-13:1.0.0-beta-1/dependencies/org/apache/httpcomponents/httpcore/4.0.1/httpcore-4.0.1.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.ArrayList;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.apache.http.message.BasicNameValuePair;",
+      "artifact" : {
+        "artifact" : "org.apache.httpcomponents:httpcore:4.0.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.jboss.shrinkwrap.container:shrinkwrap-container-mobicents-13:1.0.0-beta-1/dependencies/org/apache/httpcomponents/httpcore/4.0.1/httpcore-4.0.1.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.net.URI;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.apache.http.client.utils.URIUtils;",
+      "artifact" : {
+        "artifact" : "org.apache.httpcomponents:httpclient:4.0.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.jboss.shrinkwrap.container:shrinkwrap-container-mobicents-13:1.0.0-beta-1/dependencies/org/apache/httpcomponents/httpclient/4.0.1/httpclient-4.0.1.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.apache.http.client.utils.URLEncodedUtils;",
+      "artifact" : {
+        "artifact" : "org.apache.httpcomponents:httpclient:4.0.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.jboss.shrinkwrap.container:shrinkwrap-container-mobicents-13:1.0.0-beta-1/dependencies/org/apache/httpcomponents/httpclient/4.0.1/httpclient-4.0.1.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.apache.http.client.methods.HttpGet;",
+      "artifact" : {
+        "artifact" : "org.apache.httpcomponents:httpclient:4.0.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.jboss.shrinkwrap.container:shrinkwrap-container-mobicents-13:1.0.0-beta-1/dependencies/org/apache/httpcomponents/httpclient/4.0.1/httpclient-4.0.1.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.apache.http.HttpResponse;",
+      "artifact" : {
+        "artifact" : "org.apache.httpcomponents:httpcore:4.0.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.jboss.shrinkwrap.container:shrinkwrap-container-mobicents-13:1.0.0-beta-1/dependencies/org/apache/httpcomponents/httpcore/4.0.1/httpcore-4.0.1.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.apache.http.HttpEntity;",
+      "artifact" : {
+        "artifact" : "org.apache.httpcomponents:httpcore:4.0.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.jboss.shrinkwrap.container:shrinkwrap-container-mobicents-13:1.0.0-beta-1/dependencies/org/apache/httpcomponents/httpcore/4.0.1/httpcore-4.0.1.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import junit.framework.Assert;",
+      "artifact" : {
+        "artifact" : "junit:junit:4.8",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.jboss.shrinkwrap.container:shrinkwrap-container-mobicents-13:1.0.0-beta-1/dependencies/junit/junit/4.8/junit-4.8.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.io.BufferedReader;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.io.InputStreamReader;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ {
+      "importPath" : "import org.jboss.shrinkwrap.mobicents.servlet.sip.servlet.ContextServlet;"
+    }, {
+      "importPath" : "import org.jboss.shrinkwrap.mobicents.servlet.sip.servlet.ForwardingServlet;"
+    }, {
+      "importPath" : "import org.jboss.shrinkwrap.mobicents.servlet.sip.servlet.RequestParamEchoServlet;"
+    }, {
+      "importPath" : "import org.jboss.shrinkwrap.mobicents.servlet.sip.util.SipEmbedded;"
+    } ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/org.jboss.shrinkwrap.container:shrinkwrap-container-mobicents-13/src/test/java/org/jboss/shrinkwrap/mobicents/servlet/sip/util/DummyRouterProvider.java",
+    "useImportReport" : [ {
+      "importPath" : "import javax.servlet.sip.ar.spi.SipApplicationRouterProvider;",
+      "artifact" : {
+        "artifact" : "org.mobicents.servlet.sip:sip-servlets-spec:1.1.13.2",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.jboss.shrinkwrap.container:shrinkwrap-container-mobicents-13:1.0.0-beta-1/dependencies/org/mobicents/servlet/sip/sip-servlets-spec/1.1.13.2/sip-servlets-spec-1.1.13.2.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import javax.servlet.sip.ar.SipApplicationRouter;",
+      "artifact" : {
+        "artifact" : "org.mobicents.servlet.sip:sip-servlets-spec:1.1.13.2",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.jboss.shrinkwrap.container:shrinkwrap-container-mobicents-13:1.0.0-beta-1/dependencies/org/mobicents/servlet/sip/sip-servlets-spec/1.1.13.2/sip-servlets-spec-1.1.13.2.jar"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/org.jboss.shrinkwrap.container:shrinkwrap-container-mobicents-13/src/test/java/org/jboss/shrinkwrap/mobicents/servlet/sip/util/SipEmbedded.java",
+    "useImportReport" : [ {
+      "importPath" : "import java.util.logging.Logger;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.mobicents.servlet.sip.startup.SipStandardService;",
+      "artifact" : {
+        "artifact" : "org.mobicents.servlet.sip:sip-servlets-impl:1.3.2",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.jboss.shrinkwrap.container:shrinkwrap-container-mobicents-13:1.0.0-beta-1/dependencies/org/mobicents/servlet/sip/sip-servlets-impl/1.3.2/sip-servlets-impl-1.3.2.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.apache.catalina.core.StandardHost;",
+      "artifact" : {
+        "artifact" : "org.apache.tomcat:catalina:6.0.29",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.jboss.shrinkwrap.container:shrinkwrap-container-mobicents-13:1.0.0-beta-1/dependencies/org/apache/tomcat/catalina/6.0.29/catalina-6.0.29.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import javax.management.MBeanServer;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.apache.catalina.mbeans.MBeanUtils;",
+      "artifact" : {
+        "artifact" : "org.apache.tomcat:catalina:6.0.29",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.jboss.shrinkwrap.container:shrinkwrap-container-mobicents-13:1.0.0-beta-1/dependencies/org/apache/tomcat/catalina/6.0.29/catalina-6.0.29.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import javax.management.MBeanServerFactory;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.apache.catalina.security.SecurityClassLoad;",
+      "artifact" : {
+        "artifact" : "org.apache.tomcat:catalina:6.0.29",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.jboss.shrinkwrap.container:shrinkwrap-container-mobicents-13:1.0.0-beta-1/dependencies/org/apache/tomcat/catalina/6.0.29/catalina-6.0.29.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.mobicents.servlet.sip.core.SipApplicationDispatcherImpl;",
+      "artifact" : {
+        "artifact" : "org.mobicents.servlet.sip:sip-servlets-impl:1.3.2",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.jboss.shrinkwrap.container:shrinkwrap-container-mobicents-13:1.0.0-beta-1/dependencies/org/mobicents/servlet/sip/sip-servlets-impl/1.3.2/sip-servlets-impl-1.3.2.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.mobicents.servlet.sip.startup.SipStandardEngine;",
+      "artifact" : {
+        "artifact" : "org.mobicents.servlet.sip:sip-servlets-impl:1.3.2",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.jboss.shrinkwrap.container:shrinkwrap-container-mobicents-13:1.0.0-beta-1/dependencies/org/mobicents/servlet/sip/sip-servlets-impl/1.3.2/sip-servlets-impl-1.3.2.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.apache.catalina.core.StandardContext;",
+      "artifact" : {
+        "artifact" : "org.apache.tomcat:catalina:6.0.29",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.jboss.shrinkwrap.container:shrinkwrap-container-mobicents-13:1.0.0-beta-1/dependencies/org/apache/tomcat/catalina/6.0.29/catalina-6.0.29.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.mobicents.servlet.sip.startup.SipHostConfig;",
+      "artifact" : {
+        "artifact" : "org.mobicents.servlet.sip:sip-servlets-impl:1.3.2",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.jboss.shrinkwrap.container:shrinkwrap-container-mobicents-13:1.0.0-beta-1/dependencies/org/mobicents/servlet/sip/sip-servlets-impl/1.3.2/sip-servlets-impl-1.3.2.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.apache.catalina.connector.Connector;",
+      "artifact" : {
+        "artifact" : "org.apache.tomcat:catalina:6.0.29",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.jboss.shrinkwrap.container:shrinkwrap-container-mobicents-13:1.0.0-beta-1/dependencies/org/apache/tomcat/catalina/6.0.29/catalina-6.0.29.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.apache.coyote.http11.Http11Protocol;",
+      "artifact" : {
+        "artifact" : "org.apache.tomcat:coyote:6.0.29",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.jboss.shrinkwrap.container:shrinkwrap-container-mobicents-13:1.0.0-beta-1/dependencies/org/apache/tomcat/coyote/6.0.29/coyote-6.0.29.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import java.net.InetAddress;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.Properties;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.mobicents.servlet.sip.startup.SipProtocolHandler;",
+      "artifact" : {
+        "artifact" : "org.mobicents.servlet.sip:sip-servlets-impl:1.3.2",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.jboss.shrinkwrap.container:shrinkwrap-container-mobicents-13:1.0.0-beta-1/dependencies/org/mobicents/servlet/sip/sip-servlets-impl/1.3.2/sip-servlets-impl-1.3.2.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.apache.catalina.LifecycleException;",
+      "artifact" : {
+        "artifact" : "org.apache.tomcat:catalina:6.0.29",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.jboss.shrinkwrap.container:shrinkwrap-container-mobicents-13:1.0.0-beta-1/dependencies/org/apache/tomcat/catalina/6.0.29/catalina-6.0.29.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import java.util.logging.Level;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.apache.catalina.ServerFactory;",
+      "artifact" : {
+        "artifact" : "org.apache.tomcat:catalina:6.0.29",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.jboss.shrinkwrap.container:shrinkwrap-container-mobicents-13:1.0.0-beta-1/dependencies/org/apache/tomcat/catalina/6.0.29/catalina-6.0.29.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.mobicents.servlet.sip.startup.SipStandardContext;",
+      "artifact" : {
+        "artifact" : "org.mobicents.servlet.sip:sip-servlets-tomcat-jboss4:1.3.2",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.jboss.shrinkwrap.container:shrinkwrap-container-mobicents-13:1.0.0-beta-1/dependencies/org/mobicents/servlet/sip/sip-servlets-tomcat-jboss4/1.3.2/sip-servlets-tomcat-jboss4-1.3.2.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.mobicents.servlet.sip.startup.SipContextConfig;",
+      "artifact" : {
+        "artifact" : "org.mobicents.servlet.sip:sip-servlets-tomcat-jboss4:1.3.2",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.jboss.shrinkwrap.container:shrinkwrap-container-mobicents-13:1.0.0-beta-1/dependencies/org/mobicents/servlet/sip/sip-servlets-tomcat-jboss4/1.3.2/sip-servlets-tomcat-jboss4-1.3.2.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.mobicents.servlet.sip.core.session.SipStandardManager;",
+      "artifact" : {
+        "artifact" : "org.mobicents.servlet.sip:sip-servlets-impl:1.3.2",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.jboss.shrinkwrap.container:shrinkwrap-container-mobicents-13:1.0.0-beta-1/dependencies/org/mobicents/servlet/sip/sip-servlets-impl/1.3.2/sip-servlets-impl-1.3.2.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.apache.catalina.Container;",
+      "artifact" : {
+        "artifact" : "org.apache.tomcat:catalina:6.0.29",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.jboss.shrinkwrap.container:shrinkwrap-container-mobicents-13:1.0.0-beta-1/dependencies/org/apache/tomcat/catalina/6.0.29/catalina-6.0.29.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.apache.catalina.startup.CatalinaProperties;",
+      "artifact" : {
+        "artifact" : "org.apache.tomcat:catalina:6.0.29",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.jboss.shrinkwrap.container:shrinkwrap-container-mobicents-13:1.0.0-beta-1/dependencies/org/apache/tomcat/catalina/6.0.29/catalina-6.0.29.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import java.util.ArrayList;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.StringTokenizer;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.net.URL;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.net.MalformedURLException;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import javax.management.ObjectName;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.io.File;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.apache.catalina.loader.StandardClassLoader;",
+      "artifact" : {
+        "artifact" : "org.apache.tomcat:catalina:6.0.29",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.jboss.shrinkwrap.container:shrinkwrap-container-mobicents-13:1.0.0-beta-1/dependencies/org/apache/tomcat/catalina/6.0.29/catalina-6.0.29.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.apache.catalina.security.SecurityConfig;",
+      "artifact" : {
+        "artifact" : "org.apache.tomcat:catalina:6.0.29",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.jboss.shrinkwrap.container:shrinkwrap-container-mobicents-13:1.0.0-beta-1/dependencies/org/apache/tomcat/catalina/6.0.29/catalina-6.0.29.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.apache.tomcat.util.IntrospectionUtils;",
+      "artifact" : {
+        "artifact" : "org.apache.tomcat:coyote:6.0.29",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.jboss.shrinkwrap.container:shrinkwrap-container-mobicents-13:1.0.0-beta-1/dependencies/org/apache/tomcat/coyote/6.0.29/coyote-6.0.29.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import java.io.IOException;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/org.jboss.shrinkwrap.container:shrinkwrap-container-mobicents-13/src/test/java/org/jboss/shrinkwrap/mobicents/servlet/sip/util/DummyRouter.java",
+    "useImportReport" : [ {
+      "importPath" : "import javax.servlet.sip.ar.SipApplicationRouter;",
+      "artifact" : {
+        "artifact" : "org.mobicents.servlet.sip:sip-servlets-spec:1.1.13.2",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.jboss.shrinkwrap.container:shrinkwrap-container-mobicents-13:1.0.0-beta-1/dependencies/org/mobicents/servlet/sip/sip-servlets-spec/1.1.13.2/sip-servlets-spec-1.1.13.2.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.List;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import javax.servlet.sip.ar.SipApplicationRouterInfo;",
+      "artifact" : {
+        "artifact" : "org.mobicents.servlet.sip:sip-servlets-spec:1.1.13.2",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.jboss.shrinkwrap.container:shrinkwrap-container-mobicents-13:1.0.0-beta-1/dependencies/org/mobicents/servlet/sip/sip-servlets-spec/1.1.13.2/sip-servlets-spec-1.1.13.2.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import javax.servlet.sip.SipServletRequest;",
+      "artifact" : {
+        "artifact" : "org.mobicents.servlet.sip:sip-servlets-spec:1.1.13.2",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.jboss.shrinkwrap.container:shrinkwrap-container-mobicents-13:1.0.0-beta-1/dependencies/org/mobicents/servlet/sip/sip-servlets-spec/1.1.13.2/sip-servlets-spec-1.1.13.2.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import javax.servlet.sip.ar.SipApplicationRoutingRegion;",
+      "artifact" : {
+        "artifact" : "org.mobicents.servlet.sip:sip-servlets-spec:1.1.13.2",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.jboss.shrinkwrap.container:shrinkwrap-container-mobicents-13:1.0.0-beta-1/dependencies/org/mobicents/servlet/sip/sip-servlets-spec/1.1.13.2/sip-servlets-spec-1.1.13.2.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import javax.servlet.sip.ar.SipApplicationRoutingDirective;",
+      "artifact" : {
+        "artifact" : "org.mobicents.servlet.sip:sip-servlets-spec:1.1.13.2",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.jboss.shrinkwrap.container:shrinkwrap-container-mobicents-13:1.0.0-beta-1/dependencies/org/mobicents/servlet/sip/sip-servlets-spec/1.1.13.2/sip-servlets-spec-1.1.13.2.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import javax.servlet.sip.ar.SipTargetedRequestInfo;",
+      "artifact" : {
+        "artifact" : "org.mobicents.servlet.sip:sip-servlets-spec:1.1.13.2",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.jboss.shrinkwrap.container:shrinkwrap-container-mobicents-13:1.0.0-beta-1/dependencies/org/mobicents/servlet/sip/sip-servlets-spec/1.1.13.2/sip-servlets-spec-1.1.13.2.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.io.Serializable;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.Properties;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/org.jboss.shrinkwrap.container:shrinkwrap-container-mobicents-13/src/main/java/org/jboss/shrinkwrap/mobicents/servlet/sip/api/ShrinkWrapSipStandardContext.java",
+    "useImportReport" : [ {
+      "importPath" : "import org.mobicents.servlet.sip.startup.SipStandardContext;",
+      "artifact" : {
+        "artifact" : "org.mobicents.servlet.sip:sip-servlets-tomcat-jboss4:1.3.2",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.jboss.shrinkwrap.container:shrinkwrap-container-mobicents-13:1.0.0-beta-1/dependencies/org/mobicents/servlet/sip/sip-servlets-tomcat-jboss4/1.3.2/sip-servlets-tomcat-jboss4-1.3.2.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.jboss.shrinkwrap.api.Assignable;",
+      "artifact" : {
+        "artifact" : "org.jboss.shrinkwrap:shrinkwrap-api:1.0.0-beta-1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.jboss.shrinkwrap.container:shrinkwrap-container-mobicents-13:1.0.0-beta-1/dependencies/org/jboss/shrinkwrap/shrinkwrap-api/1.0.0-beta-1/shrinkwrap-api-1.0.0-beta-1.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.jboss.shrinkwrap.api.Archive;",
+      "artifact" : {
+        "artifact" : "org.jboss.shrinkwrap:shrinkwrap-api:1.0.0-beta-1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.jboss.shrinkwrap.container:shrinkwrap-container-mobicents-13:1.0.0-beta-1/dependencies/org/jboss/shrinkwrap/shrinkwrap-api/1.0.0-beta-1/shrinkwrap-api-1.0.0-beta-1.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import java.util.logging.Logger;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.io.File;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.jboss.shrinkwrap.sip.api.spec.ConvergedSipWebArchive;",
+      "artifact" : {
+        "artifact" : "org.jboss.shrinkwrap.sip:shrinkwrap-extension-sip-api:1.0.0-beta-1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.jboss.shrinkwrap.container:shrinkwrap-container-mobicents-13:1.0.0-beta-1/dependencies/org/jboss/shrinkwrap/sip/shrinkwrap-extension-sip-api/1.0.0-beta-1/shrinkwrap-extension-sip-api-1.0.0-beta-1.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import java.security.AccessController;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.security.PrivilegedAction;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.io.IOException;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.jboss.shrinkwrap.api.exporter.ZipExporter;",
+      "artifact" : {
+        "artifact" : "org.jboss.shrinkwrap:shrinkwrap-api:1.0.0-beta-1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.jboss.shrinkwrap.container:shrinkwrap-container-mobicents-13:1.0.0-beta-1/dependencies/org/jboss/shrinkwrap/shrinkwrap-api/1.0.0-beta-1/shrinkwrap-api-1.0.0-beta-1.jar"
+      },
+      "isDirectDependency" : true
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ {
+      "importPath" : "org.jboss.shrinkwrap.api.Assignable",
+      "artifact" : {
+        "artifact" : "org.jboss.shrinkwrap:shrinkwrap-api:1.0.0-beta-1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.jboss.shrinkwrap.container:shrinkwrap-container-mobicents-13:1.0.0-beta-1/dependencies/org/jboss/shrinkwrap/shrinkwrap-api/1.0.0-beta-1/shrinkwrap-api-1.0.0-beta-1.jar"
+      },
+      "isDirectDependency" : true
+    } ],
+    "failImportReport" : [ ]
+  } ],
+  "projectUseDependencies" : [ {
+    "artifact" : "org.apache.tomcat:catalina:6.0.29",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.jboss.shrinkwrap.container:shrinkwrap-container-mobicents-13:1.0.0-beta-1/dependencies/org/apache/tomcat/catalina/6.0.29/catalina-6.0.29.jar"
+  }, {
+    "artifact" : "org.jboss.shrinkwrap.sip:shrinkwrap-extension-sip-api:1.0.0-beta-1",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.jboss.shrinkwrap.container:shrinkwrap-container-mobicents-13:1.0.0-beta-1/dependencies/org/jboss/shrinkwrap/sip/shrinkwrap-extension-sip-api/1.0.0-beta-1/shrinkwrap-extension-sip-api-1.0.0-beta-1.jar"
+  }, {
+    "artifact" : "org.jboss.shrinkwrap:shrinkwrap-api:1.0.0-beta-1",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.jboss.shrinkwrap.container:shrinkwrap-container-mobicents-13:1.0.0-beta-1/dependencies/org/jboss/shrinkwrap/shrinkwrap-api/1.0.0-beta-1/shrinkwrap-api-1.0.0-beta-1.jar"
+  }, {
+    "artifact" : "org.mobicents.servlet.sip:sip-servlets-tomcat-jboss4:1.3.2",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.jboss.shrinkwrap.container:shrinkwrap-container-mobicents-13:1.0.0-beta-1/dependencies/org/mobicents/servlet/sip/sip-servlets-tomcat-jboss4/1.3.2/sip-servlets-tomcat-jboss4-1.3.2.jar"
+  }, {
+    "artifact" : "org.mobicents.servlet.sip:sip-servlets-impl:1.3.2",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.jboss.shrinkwrap.container:shrinkwrap-container-mobicents-13:1.0.0-beta-1/dependencies/org/mobicents/servlet/sip/sip-servlets-impl/1.3.2/sip-servlets-impl-1.3.2.jar"
+  }, {
+    "artifact" : "org.apache.tomcat:coyote:6.0.29",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.jboss.shrinkwrap.container:shrinkwrap-container-mobicents-13:1.0.0-beta-1/dependencies/org/apache/tomcat/coyote/6.0.29/coyote-6.0.29.jar"
+  }, {
+    "artifact" : "org.apache.tomcat:servlet-api:6.0.29",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.jboss.shrinkwrap.container:shrinkwrap-container-mobicents-13:1.0.0-beta-1/dependencies/org/apache/tomcat/servlet-api/6.0.29/servlet-api-6.0.29.jar"
+  } ],
+  "projectUseTransitiveDependencies" : [ {
+    "artifact" : "org.apache.tomcat:jasper:6.0.29",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.jboss.shrinkwrap.container:shrinkwrap-container-mobicents-13:1.0.0-beta-1/dependencies/org/apache/tomcat/jasper/6.0.29/jasper-6.0.29.jar"
+  }, {
+    "artifact" : "org.apache.tomcat:jasper:6.0.29",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.jboss.shrinkwrap.container:shrinkwrap-container-mobicents-13:1.0.0-beta-1/dependencies/org/apache/tomcat/jasper/6.0.29/jasper-6.0.29.jar"
+  } ],
+  "projectUnusedDependencies" : [ {
+    "artifact" : "org.jboss.shrinkwrap.sip:shrinkwrap-extension-sip-impl:1.0.0-beta-1",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.jboss.shrinkwrap.container:shrinkwrap-container-mobicents-13:1.0.0-beta-1/dependencies/org/jboss/shrinkwrap/sip/shrinkwrap-extension-sip-impl/1.0.0-beta-1/shrinkwrap-extension-sip-impl-1.0.0-beta-1.jar"
+  } ]
+}

@@ -1,0 +1,813 @@
+{
+  "projectArtifact" : "io.webservices.api:io-webservices-api:1.0",
+  "repositoryDir" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/io.webservices.api:io-webservices-api",
+  "repositorySubDir" : "",
+  "artifactLocation" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.webservices.api:io-webservices-api:1.0",
+  "fileImportReports" : [ {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/io.webservices.api:io-webservices-api/src/main/java/io/webservices/api/WebservicesConfiguration.java",
+    "useImportReport" : [ ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/io.webservices.api:io-webservices-api/src/main/java/io/webservices/api/utils/WebservicesHttpRequestFactory.java",
+    "useImportReport" : [ {
+      "importPath" : "import org.springframework.http.client.HttpComponentsClientHttpRequestFactory;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-web:3.1.2.RELEASE",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.webservices.api:io-webservices-api:1.0/dependencies/org/springframework/spring-web/3.1.2.RELEASE/spring-web-3.1.2.RELEASE.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.apache.http.HttpHost;",
+      "artifact" : {
+        "artifact" : "org.apache.httpcomponents:httpcore:4.2.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.webservices.api:io-webservices-api:1.0/dependencies/org/apache/httpcomponents/httpcore/4.2.1/httpcore-4.2.1.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import io.webservices.api.WebservicesConfiguration;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.apache.http.impl.client.DefaultHttpClient;",
+      "artifact" : {
+        "artifact" : "org.apache.httpcomponents:httpclient:4.2.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.webservices.api:io-webservices-api:1.0/dependencies/org/apache/httpcomponents/httpclient/4.2.1/httpclient-4.2.1.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.apache.http.auth.AuthScope;",
+      "artifact" : {
+        "artifact" : "org.apache.httpcomponents:httpclient:4.2.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.webservices.api:io-webservices-api:1.0/dependencies/org/apache/httpcomponents/httpclient/4.2.1/httpclient-4.2.1.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.apache.http.auth.UsernamePasswordCredentials;",
+      "artifact" : {
+        "artifact" : "org.apache.httpcomponents:httpclient:4.2.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.webservices.api:io-webservices-api:1.0/dependencies/org/apache/httpcomponents/httpclient/4.2.1/httpclient-4.2.1.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import java.net.URL;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.net.MalformedURLException;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.apache.http.protocol.HttpContext;",
+      "artifact" : {
+        "artifact" : "org.apache.httpcomponents:httpcore:4.2.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.webservices.api:io-webservices-api:1.0/dependencies/org/apache/httpcomponents/httpcore/4.2.1/httpcore-4.2.1.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.springframework.http.HttpMethod;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-web:3.1.2.RELEASE",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.webservices.api:io-webservices-api:1.0/dependencies/org/springframework/spring-web/3.1.2.RELEASE/spring-web-3.1.2.RELEASE.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import java.net.URI;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.apache.http.client.AuthCache;",
+      "artifact" : {
+        "artifact" : "org.apache.httpcomponents:httpclient:4.2.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.webservices.api:io-webservices-api:1.0/dependencies/org/apache/httpcomponents/httpclient/4.2.1/httpclient-4.2.1.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.apache.http.impl.client.BasicAuthCache;",
+      "artifact" : {
+        "artifact" : "org.apache.httpcomponents:httpclient:4.2.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.webservices.api:io-webservices-api:1.0/dependencies/org/apache/httpcomponents/httpclient/4.2.1/httpclient-4.2.1.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.apache.http.impl.auth.BasicScheme;",
+      "artifact" : {
+        "artifact" : "org.apache.httpcomponents:httpclient:4.2.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.webservices.api:io-webservices-api:1.0/dependencies/org/apache/httpcomponents/httpclient/4.2.1/httpclient-4.2.1.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.apache.http.protocol.BasicHttpContext;",
+      "artifact" : {
+        "artifact" : "org.apache.httpcomponents:httpcore:4.2.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.webservices.api:io-webservices-api:1.0/dependencies/org/apache/httpcomponents/httpcore/4.2.1/httpcore-4.2.1.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.apache.http.client.protocol.ClientContext;",
+      "artifact" : {
+        "artifact" : "org.apache.httpcomponents:httpclient:4.2.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.webservices.api:io-webservices-api:1.0/dependencies/org/apache/httpcomponents/httpclient/4.2.1/httpclient-4.2.1.jar"
+      },
+      "isDirectDependency" : true
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/io.webservices.api:io-webservices-api/src/main/java/io/webservices/api/utils/WebservicesRestTemplate.java",
+    "useImportReport" : [ {
+      "importPath" : "import org.springframework.web.client.RestTemplate;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-web:3.1.2.RELEASE",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.webservices.api:io-webservices-api:1.0/dependencies/org/springframework/spring-web/3.1.2.RELEASE/spring-web-3.1.2.RELEASE.jar"
+      },
+      "isDirectDependency" : true
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/io.webservices.api:io-webservices-api/src/main/java/io/webservices/api/utils/WebservicesRestTemplateFactory.java",
+    "useImportReport" : [ {
+      "importPath" : "import io.webservices.api.WebservicesConfiguration;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.springframework.web.client.RestTemplate;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-web:3.1.2.RELEASE",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.webservices.api:io-webservices-api:1.0/dependencies/org/springframework/spring-web/3.1.2.RELEASE/spring-web-3.1.2.RELEASE.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import java.util.List;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.springframework.http.converter.HttpMessageConverter;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-web:3.1.2.RELEASE",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.webservices.api:io-webservices-api:1.0/dependencies/org/springframework/spring-web/3.1.2.RELEASE/spring-web-3.1.2.RELEASE.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import java.util.ArrayList;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.springframework.http.converter.StringHttpMessageConverter;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-web:3.1.2.RELEASE",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.webservices.api:io-webservices-api:1.0/dependencies/org/springframework/spring-web/3.1.2.RELEASE/spring-web-3.1.2.RELEASE.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.springframework.http.converter.json.MappingJackson2HttpMessageConverter;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-web:3.1.2.RELEASE",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.webservices.api:io-webservices-api:1.0/dependencies/org/springframework/spring-web/3.1.2.RELEASE/spring-web-3.1.2.RELEASE.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import com.fasterxml.jackson.annotation.JsonInclude;",
+      "artifact" : {
+        "artifact" : "com.fasterxml.jackson.core:jackson-annotations:2.0.6",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.webservices.api:io-webservices-api:1.0/dependencies/com/fasterxml/jackson/core/jackson-annotations/2.0.6/jackson-annotations-2.0.6.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.springframework.http.client.ClientHttpRequestFactory;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-web:3.1.2.RELEASE",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.webservices.api:io-webservices-api:1.0/dependencies/org/springframework/spring-web/3.1.2.RELEASE/spring-web-3.1.2.RELEASE.jar"
+      },
+      "isDirectDependency" : true
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/io.webservices.api:io-webservices-api/src/main/java/io/webservices/api/document/DocumentMerger.java",
+    "useImportReport" : [ {
+      "importPath" : "import io.webservices.api.Webservice;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import io.webservices.api.document.model.merge.MergeResponse;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import io.webservices.api.WebservicesException;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import io.webservices.api.document.model.merge.MergeRequest;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/io.webservices.api:io-webservices-api/src/main/java/io/webservices/api/document/DocumentConverter.java",
+    "useImportReport" : [ {
+      "importPath" : "import io.webservices.api.Webservice;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import io.webservices.api.document.model.convert.ConvertResponse;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import io.webservices.api.WebservicesException;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import io.webservices.api.document.model.convert.ConvertRequest;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/io.webservices.api:io-webservices-api/src/main/java/io/webservices/api/document/DocumentMergerClient.java",
+    "useImportReport" : [ {
+      "importPath" : "import org.springframework.web.client.RestTemplate;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-web:3.1.2.RELEASE",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.webservices.api:io-webservices-api:1.0/dependencies/org/springframework/spring-web/3.1.2.RELEASE/spring-web-3.1.2.RELEASE.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import io.webservices.api.WebservicesConfiguration;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import io.webservices.api.utils.WebservicesRestTemplateFactory;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import io.webservices.api.utils.WebservicesRestTemplate;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import io.webservices.api.document.model.merge.MergeResponse;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import io.webservices.api.document.model.merge.MergeRequest;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import io.webservices.api.WebservicesException;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import io.webservices.api.document.model.merge.MergeResponseWrapper;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/io.webservices.api:io-webservices-api/src/main/java/io/webservices/api/document/utils/DocumentJsonDeserializer.java",
+    "useImportReport" : [ {
+      "importPath" : "import com.fasterxml.jackson.databind.deser.std.StdDeserializer;",
+      "artifact" : {
+        "artifact" : "com.fasterxml.jackson.core:jackson-databind:2.0.6",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.webservices.api:io-webservices-api:1.0/dependencies/com/fasterxml/jackson/core/jackson-databind/2.0.6/jackson-databind-2.0.6.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import io.webservices.api.document.model.Document;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.Map;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.HashMap;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import io.webservices.api.document.model.UrlDocument;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import io.webservices.api.document.model.BytesDocument;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.fasterxml.jackson.core.JsonParser;",
+      "artifact" : {
+        "artifact" : "com.fasterxml.jackson.core:jackson-core:2.0.6",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.webservices.api:io-webservices-api:1.0/dependencies/com/fasterxml/jackson/core/jackson-core/2.0.6/jackson-core-2.0.6.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import com.fasterxml.jackson.databind.DeserializationContext;",
+      "artifact" : {
+        "artifact" : "com.fasterxml.jackson.core:jackson-databind:2.0.6",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.webservices.api:io-webservices-api:1.0/dependencies/com/fasterxml/jackson/core/jackson-databind/2.0.6/jackson-databind-2.0.6.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import java.io.IOException;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.fasterxml.jackson.databind.ObjectMapper;",
+      "artifact" : {
+        "artifact" : "com.fasterxml.jackson.core:jackson-databind:2.0.6",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.webservices.api:io-webservices-api:1.0/dependencies/com/fasterxml/jackson/core/jackson-databind/2.0.6/jackson-databind-2.0.6.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import com.fasterxml.jackson.databind.node.ObjectNode;",
+      "artifact" : {
+        "artifact" : "com.fasterxml.jackson.core:jackson-databind:2.0.6",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.webservices.api:io-webservices-api:1.0/dependencies/com/fasterxml/jackson/core/jackson-databind/2.0.6/jackson-databind-2.0.6.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import java.util.Iterator;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.fasterxml.jackson.databind.JsonNode;",
+      "artifact" : {
+        "artifact" : "com.fasterxml.jackson.core:jackson-databind:2.0.6",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.webservices.api:io-webservices-api:1.0/dependencies/com/fasterxml/jackson/core/jackson-databind/2.0.6/jackson-databind-2.0.6.jar"
+      },
+      "isDirectDependency" : true
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/io.webservices.api:io-webservices-api/src/main/java/io/webservices/api/document/model/WebservicesRequest.java",
+    "useImportReport" : [ ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/io.webservices.api:io-webservices-api/src/main/java/io/webservices/api/document/model/merge/MergeResponseWrapper.java",
+    "useImportReport" : [ {
+      "importPath" : "import io.webservices.api.document.model.ErrorResponse;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.fasterxml.jackson.annotation.JsonUnwrapped;",
+      "artifact" : {
+        "artifact" : "com.fasterxml.jackson.core:jackson-annotations:2.0.6",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.webservices.api:io-webservices-api:1.0/dependencies/com/fasterxml/jackson/core/jackson-annotations/2.0.6/jackson-annotations-2.0.6.jar"
+      },
+      "isDirectDependency" : true
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/io.webservices.api:io-webservices-api/src/main/java/io/webservices/api/document/model/merge/MergeRequest.java",
+    "useImportReport" : [ {
+      "importPath" : "import io.webservices.api.document.model.WebservicesRequest;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.fasterxml.jackson.annotation.JsonTypeInfo;",
+      "artifact" : {
+        "artifact" : "com.fasterxml.jackson.core:jackson-annotations:2.0.6",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.webservices.api:io-webservices-api:1.0/dependencies/com/fasterxml/jackson/core/jackson-annotations/2.0.6/jackson-annotations-2.0.6.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import com.fasterxml.jackson.annotation.JsonTypeName;",
+      "artifact" : {
+        "artifact" : "com.fasterxml.jackson.core:jackson-annotations:2.0.6",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.webservices.api:io-webservices-api:1.0/dependencies/com/fasterxml/jackson/core/jackson-annotations/2.0.6/jackson-annotations-2.0.6.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import io.webservices.api.document.model.Document;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.Map;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.HashMap;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/io.webservices.api:io-webservices-api/src/main/java/io/webservices/api/document/model/merge/MergeResponse.java",
+    "useImportReport" : [ {
+      "importPath" : "import io.webservices.api.document.model.WebservicesResponse;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import io.webservices.api.document.model.Document;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/io.webservices.api:io-webservices-api/src/main/java/io/webservices/api/document/model/Document.java",
+    "useImportReport" : [ {
+      "importPath" : "import com.fasterxml.jackson.databind.annotation.JsonDeserialize;",
+      "artifact" : {
+        "artifact" : "com.fasterxml.jackson.core:jackson-databind:2.0.6",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.webservices.api:io-webservices-api:1.0/dependencies/com/fasterxml/jackson/core/jackson-databind/2.0.6/jackson-databind-2.0.6.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import io.webservices.api.document.utils.DocumentJsonDeserializer;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/io.webservices.api:io-webservices-api/src/main/java/io/webservices/api/document/model/BytesDocument.java",
+    "useImportReport" : [ {
+      "importPath" : "import java.util.Arrays;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/io.webservices.api:io-webservices-api/src/main/java/io/webservices/api/document/model/WebservicesResponse.java",
+    "useImportReport" : [ ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/io.webservices.api:io-webservices-api/src/main/java/io/webservices/api/document/model/UrlDocument.java",
+    "useImportReport" : [ ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/io.webservices.api:io-webservices-api/src/main/java/io/webservices/api/document/model/ErrorResponse.java",
+    "useImportReport" : [ {
+      "importPath" : "import java.util.List;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/io.webservices.api:io-webservices-api/src/main/java/io/webservices/api/document/model/convert/ConvertResponse.java",
+    "useImportReport" : [ {
+      "importPath" : "import io.webservices.api.document.model.WebservicesResponse;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import io.webservices.api.document.model.Document;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/io.webservices.api:io-webservices-api/src/main/java/io/webservices/api/document/model/convert/ConvertResponseWrapper.java",
+    "useImportReport" : [ {
+      "importPath" : "import io.webservices.api.document.model.ErrorResponse;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.fasterxml.jackson.annotation.JsonUnwrapped;",
+      "artifact" : {
+        "artifact" : "com.fasterxml.jackson.core:jackson-annotations:2.0.6",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.webservices.api:io-webservices-api:1.0/dependencies/com/fasterxml/jackson/core/jackson-annotations/2.0.6/jackson-annotations-2.0.6.jar"
+      },
+      "isDirectDependency" : true
+    } ],
+    "unusedImportReport" : [ {
+      "importPath" : "import java.util.List;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/io.webservices.api:io-webservices-api/src/main/java/io/webservices/api/document/model/convert/ConvertRequest.java",
+    "useImportReport" : [ {
+      "importPath" : "import io.webservices.api.document.model.WebservicesRequest;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.fasterxml.jackson.annotation.JsonTypeInfo;",
+      "artifact" : {
+        "artifact" : "com.fasterxml.jackson.core:jackson-annotations:2.0.6",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.webservices.api:io-webservices-api:1.0/dependencies/com/fasterxml/jackson/core/jackson-annotations/2.0.6/jackson-annotations-2.0.6.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import com.fasterxml.jackson.annotation.JsonTypeName;",
+      "artifact" : {
+        "artifact" : "com.fasterxml.jackson.core:jackson-annotations:2.0.6",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.webservices.api:io-webservices-api:1.0/dependencies/com/fasterxml/jackson/core/jackson-annotations/2.0.6/jackson-annotations-2.0.6.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import io.webservices.api.document.model.Document;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/io.webservices.api:io-webservices-api/src/main/java/io/webservices/api/document/DocumentConverterClient.java",
+    "useImportReport" : [ {
+      "importPath" : "import org.springframework.web.client.RestTemplate;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-web:3.1.2.RELEASE",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.webservices.api:io-webservices-api:1.0/dependencies/org/springframework/spring-web/3.1.2.RELEASE/spring-web-3.1.2.RELEASE.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import io.webservices.api.WebservicesConfiguration;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import io.webservices.api.utils.WebservicesRestTemplateFactory;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import io.webservices.api.utils.WebservicesRestTemplate;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import io.webservices.api.document.model.convert.ConvertResponse;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import io.webservices.api.document.model.convert.ConvertRequest;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import io.webservices.api.WebservicesException;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import io.webservices.api.document.model.convert.ConvertResponseWrapper;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/io.webservices.api:io-webservices-api/src/main/java/io/webservices/api/WebservicesException.java",
+    "useImportReport" : [ ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/io.webservices.api:io-webservices-api/src/main/java/io/webservices/api/Webservice.java",
+    "useImportReport" : [ ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/io.webservices.api:io-webservices-api/src/main/java/io/webservices/api/WebservicesClient.java",
+    "useImportReport" : [ {
+      "importPath" : "import io.webservices.api.utils.WebservicesRestTemplate;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import io.webservices.api.utils.WebservicesRestTemplateFactory;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import io.webservices.api.document.DocumentConverter;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import io.webservices.api.document.DocumentConverterClient;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import io.webservices.api.document.DocumentMerger;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import io.webservices.api.document.DocumentMergerClient;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  } ],
+  "projectUseDependencies" : [ {
+    "artifact" : "org.springframework:spring-web:3.1.2.RELEASE",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.webservices.api:io-webservices-api:1.0/dependencies/org/springframework/spring-web/3.1.2.RELEASE/spring-web-3.1.2.RELEASE.jar"
+  }, {
+    "artifact" : "org.apache.httpcomponents:httpclient:4.2.1",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.webservices.api:io-webservices-api:1.0/dependencies/org/apache/httpcomponents/httpclient/4.2.1/httpclient-4.2.1.jar"
+  }, {
+    "artifact" : "com.fasterxml.jackson.core:jackson-annotations:2.0.6",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.webservices.api:io-webservices-api:1.0/dependencies/com/fasterxml/jackson/core/jackson-annotations/2.0.6/jackson-annotations-2.0.6.jar"
+  }, {
+    "artifact" : "com.fasterxml.jackson.core:jackson-databind:2.0.6",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.webservices.api:io-webservices-api:1.0/dependencies/com/fasterxml/jackson/core/jackson-databind/2.0.6/jackson-databind-2.0.6.jar"
+  }, {
+    "artifact" : "com.fasterxml.jackson.core:jackson-core:2.0.6",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.webservices.api:io-webservices-api:1.0/dependencies/com/fasterxml/jackson/core/jackson-core/2.0.6/jackson-core-2.0.6.jar"
+  } ],
+  "projectUseTransitiveDependencies" : [ ],
+  "projectUnusedDependencies" : [ ]
+}

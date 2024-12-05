@@ -1,0 +1,404 @@
+{
+  "projectArtifact" : "org.kiwiproject:retrying-again:1.0.0",
+  "repositoryDir" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/org.kiwiproject:retrying-again",
+  "repositorySubDir" : "",
+  "artifactLocation" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.kiwiproject:retrying-again:1.0.0",
+  "fileImportReports" : [ {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/org.kiwiproject:retrying-again/src/main/java/org/kiwiproject/retry/Retryer.java",
+    "useImportReport" : [ {
+      "importPath" : "import java.util.List;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.function.Predicate;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.Collection;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import javax.annotation.Nonnull;",
+      "artifact" : {
+        "artifact" : "com.google.code.findbugs:jsr305:3.0.2",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.kiwiproject:retrying-again:1.0.0/dependencies/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import static com.google.common.base.Preconditions.checkNotNull;",
+      "artifact" : {
+        "artifact" : "com.google.guava:guava:30.1.1-jre",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.kiwiproject:retrying-again:1.0.0/dependencies/com/google/guava/guava/30.1.1-jre/guava-30.1.1-jre.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import java.util.concurrent.Callable;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.concurrent.TimeUnit;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ {
+      "importPath" : "import static org.kiwiproject.retry.Attempt.newExceptionAttempt;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import static org.kiwiproject.retry.Attempt.newResultAttempt;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/org.kiwiproject:retrying-again/src/main/java/org/kiwiproject/retry/RetryException.java",
+    "useImportReport" : [ {
+      "importPath" : "import javax.annotation.concurrent.Immutable;",
+      "artifact" : {
+        "artifact" : "com.google.code.findbugs:jsr305:3.0.2",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.kiwiproject:retrying-again:1.0.0/dependencies/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import javax.annotation.Nonnull;",
+      "artifact" : {
+        "artifact" : "com.google.code.findbugs:jsr305:3.0.2",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.kiwiproject:retrying-again:1.0.0/dependencies/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import static com.google.common.base.Preconditions.checkState;",
+      "artifact" : {
+        "artifact" : "com.google.guava:guava:30.1.1-jre",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.kiwiproject:retrying-again:1.0.0/dependencies/com/google/guava/guava/30.1.1-jre/guava-30.1.1-jre.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import static java.util.Objects.nonNull;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/org.kiwiproject:retrying-again/src/main/java/org/kiwiproject/retry/Attempt.java",
+    "useImportReport" : [ {
+      "importPath" : "import static com.google.common.base.Preconditions.checkState;",
+      "artifact" : {
+        "artifact" : "com.google.guava:guava:30.1.1-jre",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.kiwiproject:retrying-again:1.0.0/dependencies/com/google/guava/guava/30.1.1-jre/guava-30.1.1-jre.jar"
+      },
+      "isDirectDependency" : true
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/org.kiwiproject:retrying-again/src/main/java/org/kiwiproject/retry/RetryerBuilder.java",
+    "useImportReport" : [ {
+      "importPath" : "import java.util.List;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.function.Predicate;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.ArrayList;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import javax.annotation.Nonnull;",
+      "artifact" : {
+        "artifact" : "com.google.code.findbugs:jsr305:3.0.2",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.kiwiproject:retrying-again:1.0.0/dependencies/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import com.google.common.base.Preconditions;",
+      "artifact" : {
+        "artifact" : "com.google.guava:guava:30.1.1-jre",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.kiwiproject:retrying-again:1.0.0/dependencies/com/google/guava/guava/30.1.1-jre/guava-30.1.1-jre.jar"
+      },
+      "isDirectDependency" : true
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/org.kiwiproject:retrying-again/src/main/java/org/kiwiproject/retry/AttemptTimeLimiter.java",
+    "useImportReport" : [ {
+      "importPath" : "import java.util.concurrent.Callable;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/org.kiwiproject:retrying-again/src/main/java/org/kiwiproject/retry/WaitStrategies.java",
+    "useImportReport" : [ {
+      "importPath" : "import java.util.concurrent.TimeUnit;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import javax.annotation.Nonnull;",
+      "artifact" : {
+        "artifact" : "com.google.code.findbugs:jsr305:3.0.2",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.kiwiproject:retrying-again:1.0.0/dependencies/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import com.google.common.base.Preconditions;",
+      "artifact" : {
+        "artifact" : "com.google.guava:guava:30.1.1-jre",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.kiwiproject:retrying-again:1.0.0/dependencies/com/google/guava/guava/30.1.1-jre/guava-30.1.1-jre.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import java.util.function.Function;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.List;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.ArrayList;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.Arrays;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import javax.annotation.concurrent.Immutable;",
+      "artifact" : {
+        "artifact" : "com.google.code.findbugs:jsr305:3.0.2",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.kiwiproject:retrying-again:1.0.0/dependencies/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import java.util.Random;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/org.kiwiproject:retrying-again/src/main/java/org/kiwiproject/retry/WaitStrategy.java",
+    "useImportReport" : [ ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/org.kiwiproject:retrying-again/src/main/java/org/kiwiproject/retry/AttemptTimeLimiters.java",
+    "useImportReport" : [ {
+      "importPath" : "import java.util.concurrent.ExecutorService;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.concurrent.TimeUnit;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.concurrent.Executors;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import javax.annotation.Nonnull;",
+      "artifact" : {
+        "artifact" : "com.google.code.findbugs:jsr305:3.0.2",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.kiwiproject:retrying-again:1.0.0/dependencies/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import com.google.common.base.Preconditions;",
+      "artifact" : {
+        "artifact" : "com.google.guava:guava:30.1.1-jre",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.kiwiproject:retrying-again:1.0.0/dependencies/com/google/guava/guava/30.1.1-jre/guava-30.1.1-jre.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import javax.annotation.concurrent.Immutable;",
+      "artifact" : {
+        "artifact" : "com.google.code.findbugs:jsr305:3.0.2",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.kiwiproject:retrying-again:1.0.0/dependencies/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import java.util.concurrent.Callable;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.google.common.util.concurrent.TimeLimiter;",
+      "artifact" : {
+        "artifact" : "com.google.guava:guava:30.1.1-jre",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.kiwiproject:retrying-again:1.0.0/dependencies/com/google/guava/guava/30.1.1-jre/guava-30.1.1-jre.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import com.google.common.util.concurrent.SimpleTimeLimiter;",
+      "artifact" : {
+        "artifact" : "com.google.guava:guava:30.1.1-jre",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.kiwiproject:retrying-again:1.0.0/dependencies/com/google/guava/guava/30.1.1-jre/guava-30.1.1-jre.jar"
+      },
+      "isDirectDependency" : true
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/org.kiwiproject:retrying-again/src/main/java/org/kiwiproject/retry/StopStrategies.java",
+    "useImportReport" : [ {
+      "importPath" : "import java.util.concurrent.TimeUnit;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import javax.annotation.Nonnull;",
+      "artifact" : {
+        "artifact" : "com.google.code.findbugs:jsr305:3.0.2",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.kiwiproject:retrying-again:1.0.0/dependencies/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import com.google.common.base.Preconditions;",
+      "artifact" : {
+        "artifact" : "com.google.guava:guava:30.1.1-jre",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.kiwiproject:retrying-again:1.0.0/dependencies/com/google/guava/guava/30.1.1-jre/guava-30.1.1-jre.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import javax.annotation.concurrent.Immutable;",
+      "artifact" : {
+        "artifact" : "com.google.code.findbugs:jsr305:3.0.2",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.kiwiproject:retrying-again:1.0.0/dependencies/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar"
+      },
+      "isDirectDependency" : true
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/org.kiwiproject:retrying-again/src/main/java/org/kiwiproject/retry/BlockStrategies.java",
+    "useImportReport" : [ {
+      "importPath" : "import javax.annotation.concurrent.Immutable;",
+      "artifact" : {
+        "artifact" : "com.google.code.findbugs:jsr305:3.0.2",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.kiwiproject:retrying-again:1.0.0/dependencies/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar"
+      },
+      "isDirectDependency" : true
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/org.kiwiproject:retrying-again/src/main/java/org/kiwiproject/retry/StopStrategy.java",
+    "useImportReport" : [ ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/org.kiwiproject:retrying-again/src/main/java/org/kiwiproject/retry/RetryListener.java",
+    "useImportReport" : [ ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/org.kiwiproject:retrying-again/src/main/java/org/kiwiproject/retry/BlockStrategy.java",
+    "useImportReport" : [ ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  } ],
+  "projectUseDependencies" : [ {
+    "artifact" : "com.google.code.findbugs:jsr305:3.0.2",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.kiwiproject:retrying-again:1.0.0/dependencies/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar"
+  }, {
+    "artifact" : "com.google.guava:guava:30.1.1-jre",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.kiwiproject:retrying-again:1.0.0/dependencies/com/google/guava/guava/30.1.1-jre/guava-30.1.1-jre.jar"
+  } ],
+  "projectUseTransitiveDependencies" : [ ],
+  "projectUnusedDependencies" : [ {
+    "artifact" : "com.google.errorprone:error_prone_annotations:2.9.0",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.kiwiproject:retrying-again:1.0.0/dependencies/com/google/errorprone/error_prone_annotations/2.9.0/error_prone_annotations-2.9.0.jar"
+  }, {
+    "artifact" : "org.slf4j:slf4j-api:1.7.32",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.kiwiproject:retrying-again:1.0.0/dependencies/org/slf4j/slf4j-api/1.7.32/slf4j-api-1.7.32.jar"
+  }, {
+    "artifact" : "org.projectlombok:lombok:1.18.20",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.kiwiproject:retrying-again:1.0.0/dependencies/org/projectlombok/lombok/1.18.20/lombok-1.18.20.jar"
+  } ]
+}

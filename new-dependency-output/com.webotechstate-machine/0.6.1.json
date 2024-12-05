@@ -1,0 +1,1564 @@
+{
+  "projectArtifact" : "com.webotech:state-machine:0.6.1",
+  "repositoryDir" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/com.webotech:state-machine",
+  "repositorySubDir" : "",
+  "artifactLocation" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.webotech:state-machine:0.6.1",
+  "fileImportReports" : [ {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/com.webotech:state-machine/src/test/java/com/webotech/statemachine/NamedStateEventTest.java",
+    "useImportReport" : [ {
+      "importPath" : "import org.junit.jupiter.api.Test;",
+      "artifact" : {
+        "artifact" : "org.junit.jupiter:junit-jupiter-api:5.10.2",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.webotech:state-machine:0.6.1/dependencies/org/junit/jupiter/junit-jupiter-api/5.10.2/junit-jupiter-api-5.10.2.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.webotech.statemachine.api.StateEvent;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import static org.junit.jupiter.api.Assertions.assertEquals;",
+      "artifact" : {
+        "artifact" : "org.junit.jupiter:junit-jupiter-api:5.10.2",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.webotech:state-machine:0.6.1/dependencies/org/junit/jupiter/junit-jupiter-api/5.10.2/junit-jupiter-api-5.10.2.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import static org.junit.jupiter.api.Assertions.assertNotEquals;",
+      "artifact" : {
+        "artifact" : "org.junit.jupiter:junit-jupiter-api:5.10.2",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.webotech:state-machine:0.6.1/dependencies/org/junit/jupiter/junit-jupiter-api/5.10.2/junit-jupiter-api-5.10.2.jar"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/com.webotech:state-machine/src/test/java/com/webotech/statemachine/HandleExceptionActionTest.java",
+    "useImportReport" : [ {
+      "importPath" : "import java.util.function.Consumer;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.webotech.statemachine.api.StateMachine;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.function.BiConsumer;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.junit.jupiter.api.BeforeEach;",
+      "artifact" : {
+        "artifact" : "org.junit.jupiter:junit-jupiter-api:5.10.2",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.webotech:state-machine:0.6.1/dependencies/org/junit/jupiter/junit-jupiter-api/5.10.2/junit-jupiter-api-5.10.2.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import static org.mockito.Mockito.mock;",
+      "artifact" : {
+        "artifact" : "org.mockito:mockito-core:5.11.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.webotech:state-machine:0.6.1/dependencies/org/mockito/mockito-core/5.11.0/mockito-core-5.11.0.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.junit.jupiter.api.Test;",
+      "artifact" : {
+        "artifact" : "org.junit.jupiter:junit-jupiter-api:5.10.2",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.webotech:state-machine:0.6.1/dependencies/org/junit/jupiter/junit-jupiter-api/5.10.2/junit-jupiter-api-5.10.2.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import static org.mockito.Mockito.verify;",
+      "artifact" : {
+        "artifact" : "org.mockito:mockito-core:5.11.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.webotech:state-machine:0.6.1/dependencies/org/mockito/mockito-core/5.11.0/mockito-core-5.11.0.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import static org.mockito.Mockito.times;",
+      "artifact" : {
+        "artifact" : "org.mockito:mockito-core:5.11.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.webotech:state-machine:0.6.1/dependencies/org/mockito/mockito-core/5.11.0/mockito-core-5.11.0.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import static org.mockito.Mockito.verifyNoInteractions;",
+      "artifact" : {
+        "artifact" : "org.mockito:mockito-core:5.11.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.webotech:state-machine:0.6.1/dependencies/org/mockito/mockito-core/5.11.0/mockito-core-5.11.0.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import static org.mockito.Mockito.doThrow;",
+      "artifact" : {
+        "artifact" : "org.mockito:mockito-core:5.11.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.webotech:state-machine:0.6.1/dependencies/org/mockito/mockito-core/5.11.0/mockito-core-5.11.0.jar"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/com.webotech:state-machine/src/test/java/com/webotech/statemachine/NamedStateTest.java",
+    "useImportReport" : [ {
+      "importPath" : "import com.webotech.statemachine.api.State;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.webotech.statemachine.api.StateMachine;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.junit.jupiter.api.BeforeEach;",
+      "artifact" : {
+        "artifact" : "org.junit.jupiter:junit-jupiter-api:5.10.2",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.webotech:state-machine:0.6.1/dependencies/org/junit/jupiter/junit-jupiter-api/5.10.2/junit-jupiter-api-5.10.2.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import static org.mockito.Mockito.mock;",
+      "artifact" : {
+        "artifact" : "org.mockito:mockito-core:5.11.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.webotech:state-machine:0.6.1/dependencies/org/mockito/mockito-core/5.11.0/mockito-core-5.11.0.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.junit.jupiter.api.Test;",
+      "artifact" : {
+        "artifact" : "org.junit.jupiter:junit-jupiter-api:5.10.2",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.webotech:state-machine:0.6.1/dependencies/org/junit/jupiter/junit-jupiter-api/5.10.2/junit-jupiter-api-5.10.2.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import static org.junit.jupiter.api.Assertions.assertEquals;",
+      "artifact" : {
+        "artifact" : "org.junit.jupiter:junit-jupiter-api:5.10.2",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.webotech:state-machine:0.6.1/dependencies/org/junit/jupiter/junit-jupiter-api/5.10.2/junit-jupiter-api-5.10.2.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import static org.junit.jupiter.api.Assertions.assertNotEquals;",
+      "artifact" : {
+        "artifact" : "org.junit.jupiter:junit-jupiter-api:5.10.2",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.webotech:state-machine:0.6.1/dependencies/org/junit/jupiter/junit-jupiter-api/5.10.2/junit-jupiter-api-5.10.2.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.concurrent.atomic.AtomicInteger;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.webotech.statemachine.api.StateAction;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/com.webotech:state-machine/src/test/java/com/webotech/statemachine/EventManagerTest.java",
+    "useImportReport" : [ {
+      "importPath" : "import com.webotech.statemachine.api.StateMachine;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.concurrent.ExecutorService;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.junit.jupiter.api.BeforeEach;",
+      "artifact" : {
+        "artifact" : "org.junit.jupiter:junit-jupiter-api:5.10.2",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.webotech:state-machine:0.6.1/dependencies/org/junit/jupiter/junit-jupiter-api/5.10.2/junit-jupiter-api-5.10.2.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import static org.mockito.Mockito.mock;",
+      "artifact" : {
+        "artifact" : "org.mockito:mockito-core:5.11.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.webotech:state-machine:0.6.1/dependencies/org/mockito/mockito-core/5.11.0/mockito-core-5.11.0.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.junit.jupiter.api.Test;",
+      "artifact" : {
+        "artifact" : "org.junit.jupiter:junit-jupiter-api:5.10.2",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.webotech:state-machine:0.6.1/dependencies/org/junit/jupiter/junit-jupiter-api/5.10.2/junit-jupiter-api-5.10.2.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.webotech.statemachine.api.StateEvent;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.mockito.ArgumentCaptor;",
+      "artifact" : {
+        "artifact" : "org.mockito:mockito-core:5.11.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.webotech:state-machine:0.6.1/dependencies/org/mockito/mockito-core/5.11.0/mockito-core-5.11.0.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import static org.mockito.Mockito.verify;",
+      "artifact" : {
+        "artifact" : "org.mockito:mockito-core:5.11.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.webotech:state-machine:0.6.1/dependencies/org/mockito/mockito-core/5.11.0/mockito-core-5.11.0.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import static org.mockito.Mockito.times;",
+      "artifact" : {
+        "artifact" : "org.mockito:mockito-core:5.11.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.webotech:state-machine:0.6.1/dependencies/org/mockito/mockito-core/5.11.0/mockito-core-5.11.0.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import static org.mockito.ArgumentMatchers.any;",
+      "artifact" : {
+        "artifact" : "org.mockito:mockito-core:5.11.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.webotech:state-machine:0.6.1/dependencies/org/mockito/mockito-core/5.11.0/mockito-core-5.11.0.jar"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/com.webotech:state-machine/src/test/java/com/webotech/statemachine/LoggingStateMachineListenerTest.java",
+    "useImportReport" : [ {
+      "importPath" : "import com.webotech.statemachine.api.State;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.webotech.statemachine.api.StateEvent;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.junit.jupiter.api.BeforeEach;",
+      "artifact" : {
+        "artifact" : "org.junit.jupiter:junit-jupiter-api:5.10.2",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.webotech:state-machine:0.6.1/dependencies/org/junit/jupiter/junit-jupiter-api/5.10.2/junit-jupiter-api-5.10.2.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.junit.jupiter.api.Test;",
+      "artifact" : {
+        "artifact" : "org.junit.jupiter:junit-jupiter-api:5.10.2",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.webotech:state-machine:0.6.1/dependencies/org/junit/jupiter/junit-jupiter-api/5.10.2/junit-jupiter-api-5.10.2.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.io.IOException;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.io.OutputStream;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import static org.junit.jupiter.api.Assertions.assertEquals;",
+      "artifact" : {
+        "artifact" : "org.junit.jupiter:junit-jupiter-api:5.10.2",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.webotech:state-machine:0.6.1/dependencies/org/junit/jupiter/junit-jupiter-api/5.10.2/junit-jupiter-api-5.10.2.jar"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/com.webotech:state-machine/src/test/java/com/webotech/statemachine/util/AtomicBooleanPoolTest.java",
+    "useImportReport" : [ {
+      "importPath" : "import org.junit.jupiter.api.BeforeEach;",
+      "artifact" : {
+        "artifact" : "org.junit.jupiter:junit-jupiter-api:5.10.2",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.webotech:state-machine:0.6.1/dependencies/org/junit/jupiter/junit-jupiter-api/5.10.2/junit-jupiter-api-5.10.2.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.junit.jupiter.api.Test;",
+      "artifact" : {
+        "artifact" : "org.junit.jupiter:junit-jupiter-api:5.10.2",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.webotech:state-machine:0.6.1/dependencies/org/junit/jupiter/junit-jupiter-api/5.10.2/junit-jupiter-api-5.10.2.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.concurrent.atomic.AtomicBoolean;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import static org.junit.jupiter.api.Assertions.assertNotNull;",
+      "artifact" : {
+        "artifact" : "org.junit.jupiter:junit-jupiter-api:5.10.2",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.webotech:state-machine:0.6.1/dependencies/org/junit/jupiter/junit-jupiter-api/5.10.2/junit-jupiter-api-5.10.2.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import static org.junit.jupiter.api.Assertions.assertFalse;",
+      "artifact" : {
+        "artifact" : "org.junit.jupiter:junit-jupiter-api:5.10.2",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.webotech:state-machine:0.6.1/dependencies/org/junit/jupiter/junit-jupiter-api/5.10.2/junit-jupiter-api-5.10.2.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import static org.junit.jupiter.api.Assertions.assertSame;",
+      "artifact" : {
+        "artifact" : "org.junit.jupiter:junit-jupiter-api:5.10.2",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.webotech:state-machine:0.6.1/dependencies/org/junit/jupiter/junit-jupiter-api/5.10.2/junit-jupiter-api-5.10.2.jar"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/com.webotech:state-machine/src/test/java/com/webotech/statemachine/util/ObjectPoolTest.java",
+    "useImportReport" : [ {
+      "importPath" : "import org.junit.jupiter.api.Test;",
+      "artifact" : {
+        "artifact" : "org.junit.jupiter:junit-jupiter-api:5.10.2",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.webotech:state-machine:0.6.1/dependencies/org/junit/jupiter/junit-jupiter-api/5.10.2/junit-jupiter-api-5.10.2.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import static org.junit.jupiter.api.Assertions.assertNotNull;",
+      "artifact" : {
+        "artifact" : "org.junit.jupiter:junit-jupiter-api:5.10.2",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.webotech:state-machine:0.6.1/dependencies/org/junit/jupiter/junit-jupiter-api/5.10.2/junit-jupiter-api-5.10.2.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import static org.junit.jupiter.api.Assertions.assertEquals;",
+      "artifact" : {
+        "artifact" : "org.junit.jupiter:junit-jupiter-api:5.10.2",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.webotech:state-machine:0.6.1/dependencies/org/junit/jupiter/junit-jupiter-api/5.10.2/junit-jupiter-api-5.10.2.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import static org.junit.jupiter.api.Assertions.assertSame;",
+      "artifact" : {
+        "artifact" : "org.junit.jupiter:junit-jupiter-api:5.10.2",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.webotech:state-machine:0.6.1/dependencies/org/junit/jupiter/junit-jupiter-api/5.10.2/junit-jupiter-api-5.10.2.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.concurrent.atomic.AtomicBoolean;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import static org.junit.jupiter.api.Assertions.assertFalse;",
+      "artifact" : {
+        "artifact" : "org.junit.jupiter:junit-jupiter-api:5.10.2",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.webotech:state-machine:0.6.1/dependencies/org/junit/jupiter/junit-jupiter-api/5.10.2/junit-jupiter-api-5.10.2.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import static org.junit.jupiter.api.Assertions.assertThrows;",
+      "artifact" : {
+        "artifact" : "org.junit.jupiter:junit-jupiter-api:5.10.2",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.webotech:state-machine:0.6.1/dependencies/org/junit/jupiter/junit-jupiter-api/5.10.2/junit-jupiter-api-5.10.2.jar"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/com.webotech:state-machine/src/test/java/com/webotech/statemachine/util/ThreadsTest.java",
+    "useImportReport" : [ {
+      "importPath" : "import java.util.concurrent.atomic.AtomicReference;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.concurrent.CountDownLatch;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.concurrent.ExecutorService;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.concurrent.Executors;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.junit.jupiter.api.BeforeEach;",
+      "artifact" : {
+        "artifact" : "org.junit.jupiter:junit-jupiter-api:5.10.2",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.webotech:state-machine:0.6.1/dependencies/org/junit/jupiter/junit-jupiter-api/5.10.2/junit-jupiter-api-5.10.2.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.junit.jupiter.api.Test;",
+      "artifact" : {
+        "artifact" : "org.junit.jupiter:junit-jupiter-api:5.10.2",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.webotech:state-machine:0.6.1/dependencies/org/junit/jupiter/junit-jupiter-api/5.10.2/junit-jupiter-api-5.10.2.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import static org.junit.jupiter.api.Assertions.assertEquals;",
+      "artifact" : {
+        "artifact" : "org.junit.jupiter:junit-jupiter-api:5.10.2",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.webotech:state-machine:0.6.1/dependencies/org/junit/jupiter/junit-jupiter-api/5.10.2/junit-jupiter-api-5.10.2.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.concurrent.TimeUnit;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import static org.junit.jupiter.api.Assertions.fail;",
+      "artifact" : {
+        "artifact" : "org.junit.jupiter:junit-jupiter-api:5.10.2",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.webotech:state-machine:0.6.1/dependencies/org/junit/jupiter/junit-jupiter-api/5.10.2/junit-jupiter-api-5.10.2.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import static org.junit.jupiter.api.Assertions.assertTrue;",
+      "artifact" : {
+        "artifact" : "org.junit.jupiter:junit-jupiter-api:5.10.2",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.webotech:state-machine:0.6.1/dependencies/org/junit/jupiter/junit-jupiter-api/5.10.2/junit-jupiter-api-5.10.2.jar"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/com.webotech:state-machine/src/test/java/com/webotech/statemachine/GenericStateMachineTest.java",
+    "useImportReport" : [ {
+      "importPath" : "import com.webotech.statemachine.api.State;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.webotech.statemachine.api.StateEvent;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.List;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.junit.jupiter.api.BeforeEach;",
+      "artifact" : {
+        "artifact" : "org.junit.jupiter:junit-jupiter-api:5.10.2",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.webotech:state-machine:0.6.1/dependencies/org/junit/jupiter/junit-jupiter-api/5.10.2/junit-jupiter-api-5.10.2.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.webotech.statemachine.GenericStateMachine.Builder;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.ArrayList;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.junit.jupiter.api.Test;",
+      "artifact" : {
+        "artifact" : "org.junit.jupiter:junit-jupiter-api:5.10.2",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.webotech:state-machine:0.6.1/dependencies/org/junit/jupiter/junit-jupiter-api/5.10.2/junit-jupiter-api-5.10.2.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.io.OutputStream;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import static org.junit.jupiter.api.Assertions.assertEquals;",
+      "artifact" : {
+        "artifact" : "org.junit.jupiter:junit-jupiter-api:5.10.2",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.webotech:state-machine:0.6.1/dependencies/org/junit/jupiter/junit-jupiter-api/5.10.2/junit-jupiter-api-5.10.2.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.webotech.statemachine.api.StateMachineListener;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import static org.junit.jupiter.api.Assertions.assertTrue;",
+      "artifact" : {
+        "artifact" : "org.junit.jupiter:junit-jupiter-api:5.10.2",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.webotech:state-machine:0.6.1/dependencies/org/junit/jupiter/junit-jupiter-api/5.10.2/junit-jupiter-api-5.10.2.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import static org.junit.jupiter.api.Assertions.assertFalse;",
+      "artifact" : {
+        "artifact" : "org.junit.jupiter:junit-jupiter-api:5.10.2",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.webotech:state-machine:0.6.1/dependencies/org/junit/jupiter/junit-jupiter-api/5.10.2/junit-jupiter-api-5.10.2.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import static org.junit.jupiter.api.Assertions.assertThrows;",
+      "artifact" : {
+        "artifact" : "org.junit.jupiter:junit-jupiter-api:5.10.2",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.webotech:state-machine:0.6.1/dependencies/org/junit/jupiter/junit-jupiter-api/5.10.2/junit-jupiter-api-5.10.2.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.webotech.statemachine.api.StateAction;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import static org.mockito.Mockito.mock;",
+      "artifact" : {
+        "artifact" : "org.mockito:mockito-core:5.11.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.webotech:state-machine:0.6.1/dependencies/org/mockito/mockito-core/5.11.0/mockito-core-5.11.0.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import static org.mockito.Mockito.verifyNoInteractions;",
+      "artifact" : {
+        "artifact" : "org.mockito:mockito-core:5.11.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.webotech:state-machine:0.6.1/dependencies/org/mockito/mockito-core/5.11.0/mockito-core-5.11.0.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.webotech.statemachine.api.StateMachine;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import static org.junit.jupiter.api.Assertions.assertNull;",
+      "artifact" : {
+        "artifact" : "org.junit.jupiter:junit-jupiter-api:5.10.2",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.webotech:state-machine:0.6.1/dependencies/org/junit/jupiter/junit-jupiter-api/5.10.2/junit-jupiter-api-5.10.2.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.function.BiConsumer;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import static org.junit.jupiter.api.Assertions.assertSame;",
+      "artifact" : {
+        "artifact" : "org.junit.jupiter:junit-jupiter-api:5.10.2",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.webotech:state-machine:0.6.1/dependencies/org/junit/jupiter/junit-jupiter-api/5.10.2/junit-jupiter-api-5.10.2.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.function.Supplier;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.concurrent.atomic.AtomicBoolean;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.function.Consumer;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/com.webotech:state-machine/src/test/java/com/webotech/statemachine/MultiConsumerStateMachineListenerTest.java",
+    "useImportReport" : [ {
+      "importPath" : "import com.webotech.statemachine.api.State;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.webotech.statemachine.api.StateEvent;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.junit.jupiter.api.BeforeEach;",
+      "artifact" : {
+        "artifact" : "org.junit.jupiter:junit-jupiter-api:5.10.2",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.webotech:state-machine:0.6.1/dependencies/org/junit/jupiter/junit-jupiter-api/5.10.2/junit-jupiter-api-5.10.2.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.junit.jupiter.api.Test;",
+      "artifact" : {
+        "artifact" : "org.junit.jupiter:junit-jupiter-api:5.10.2",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.webotech:state-machine:0.6.1/dependencies/org/junit/jupiter/junit-jupiter-api/5.10.2/junit-jupiter-api-5.10.2.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.List;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.ArrayList;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.webotech.statemachine.api.StateMachineListener;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import static org.junit.jupiter.api.Assertions.assertTrue;",
+      "artifact" : {
+        "artifact" : "org.junit.jupiter:junit-jupiter-api:5.10.2",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.webotech:state-machine:0.6.1/dependencies/org/junit/jupiter/junit-jupiter-api/5.10.2/junit-jupiter-api-5.10.2.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import static org.junit.jupiter.api.Assertions.assertFalse;",
+      "artifact" : {
+        "artifact" : "org.junit.jupiter:junit-jupiter-api:5.10.2",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.webotech:state-machine:0.6.1/dependencies/org/junit/jupiter/junit-jupiter-api/5.10.2/junit-jupiter-api-5.10.2.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import static org.junit.jupiter.api.Assertions.assertEquals;",
+      "artifact" : {
+        "artifact" : "org.junit.jupiter:junit-jupiter-api:5.10.2",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.webotech:state-machine:0.6.1/dependencies/org/junit/jupiter/junit-jupiter-api/5.10.2/junit-jupiter-api-5.10.2.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import static org.junit.jupiter.api.Assertions.assertSame;",
+      "artifact" : {
+        "artifact" : "org.junit.jupiter:junit-jupiter-api:5.10.2",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.webotech:state-machine:0.6.1/dependencies/org/junit/jupiter/junit-jupiter-api/5.10.2/junit-jupiter-api-5.10.2.jar"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/com.webotech:state-machine/src/test/java/com/webotech/statemachine/StateMachineIntegrationTest.java",
+    "useImportReport" : [ ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/com.webotech:state-machine/src/test/java/com/webotech/statemachine/TestingUtil.java",
+    "useImportReport" : [ {
+      "importPath" : "import java.util.concurrent.atomic.AtomicInteger;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.io.OutputStream;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.io.ByteArrayOutputStream;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.apache.logging.log4j.core.LoggerContext;",
+      "artifact" : {
+        "artifact" : "org.apache.logging.log4j:log4j-core:2.23.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.webotech:state-machine:0.6.1/dependencies/org/apache/logging/log4j/log4j-core/2.23.1/log4j-core-2.23.1.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.apache.logging.log4j.core.config.Configuration;",
+      "artifact" : {
+        "artifact" : "org.apache.logging.log4j:log4j-core:2.23.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.webotech:state-machine:0.6.1/dependencies/org/apache/logging/log4j/log4j-core/2.23.1/log4j-core-2.23.1.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.apache.logging.log4j.core.layout.PatternLayout;",
+      "artifact" : {
+        "artifact" : "org.apache.logging.log4j:log4j-core:2.23.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.webotech:state-machine:0.6.1/dependencies/org/apache/logging/log4j/log4j-core/2.23.1/log4j-core-2.23.1.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.apache.logging.log4j.Level;",
+      "artifact" : {
+        "artifact" : "org.apache.logging.log4j:log4j-api:2.23.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.webotech:state-machine:0.6.1/dependencies/org/apache/logging/log4j/log4j-api/2.23.1/log4j-api-2.23.1.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.apache.logging.log4j.core.Filter;",
+      "artifact" : {
+        "artifact" : "org.apache.logging.log4j:log4j-core:2.23.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.webotech:state-machine:0.6.1/dependencies/org/apache/logging/log4j/log4j-core/2.23.1/log4j-core-2.23.1.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.apache.logging.log4j.core.Appender;",
+      "artifact" : {
+        "artifact" : "org.apache.logging.log4j:log4j-core:2.23.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.webotech:state-machine:0.6.1/dependencies/org/apache/logging/log4j/log4j-core/2.23.1/log4j-core-2.23.1.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.apache.logging.log4j.core.appender.OutputStreamAppender;",
+      "artifact" : {
+        "artifact" : "org.apache.logging.log4j:log4j-core:2.23.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.webotech:state-machine:0.6.1/dependencies/org/apache/logging/log4j/log4j-core/2.23.1/log4j-core-2.23.1.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.apache.logging.log4j.core.config.LoggerConfig;",
+      "artifact" : {
+        "artifact" : "org.apache.logging.log4j:log4j-core:2.23.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.webotech:state-machine:0.6.1/dependencies/org/apache/logging/log4j/log4j-core/2.23.1/log4j-core-2.23.1.jar"
+      },
+      "isDirectDependency" : true
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/com.webotech:state-machine/src/test/java/com/webotech/statemachine/service/TestApp.java",
+    "useImportReport" : [ ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/com.webotech:state-machine/src/test/java/com/webotech/statemachine/service/AbstractAppServiceTest.java",
+    "useImportReport" : [ ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/com.webotech:state-machine/src/test/java/com/webotech/statemachine/service/Component.java",
+    "useImportReport" : [ ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/com.webotech:state-machine/src/test/java/com/webotech/statemachine/service/AbstractAppContext.java",
+    "useImportReport" : [ {
+      "importPath" : "import java.util.concurrent.atomic.AtomicReference;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.List;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/com.webotech:state-machine/src/test/java/com/webotech/statemachine/service/AbstractAppService.java",
+    "useImportReport" : [ {
+      "importPath" : "import org.apache.logging.log4j.Logger;",
+      "artifact" : {
+        "artifact" : "org.apache.logging.log4j:log4j-api:2.23.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.webotech:state-machine:0.6.1/dependencies/org/apache/logging/log4j/log4j-api/2.23.1/log4j-api-2.23.1.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import com.webotech.statemachine.api.StateMachine;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.concurrent.CountDownLatch;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.webotech.statemachine.EventManager;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.webotech.statemachine.api.State;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.apache.logging.log4j.LogManager;",
+      "artifact" : {
+        "artifact" : "org.apache.logging.log4j:log4j-api:2.23.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.webotech:state-machine:0.6.1/dependencies/org/apache/logging/log4j/log4j-api/2.23.1/log4j-api-2.23.1.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import com.webotech.statemachine.GenericStateMachine;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.webotech.statemachine.LifecycleStateMachineFactory;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.function.BiConsumer;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import static com.webotech.statemachine.LifecycleStateMachineFactory.errorEvt;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.webotech.statemachine.HandleExceptionAction;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.Arrays;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import static com.webotech.statemachine.LifecycleStateMachineFactory.completeEvt;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.List;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.ListIterator;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import static com.webotech.statemachine.LifecycleStateMachineFactory.startEvt;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import static com.webotech.statemachine.LifecycleStateMachineFactory.stopEvt;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.webotech.statemachine.api.StateMachineListener;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/com.webotech:state-machine/src/test/java/com/webotech/statemachine/service/TestAppContext.java",
+    "useImportReport" : [ ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/com.webotech:state-machine/src/main/java/com/webotech/statemachine/HandleExceptionAction.java",
+    "useImportReport" : [ {
+      "importPath" : "import com.webotech.statemachine.api.StateAction;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.function.Consumer;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.function.BiConsumer;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.webotech.statemachine.api.StateMachine;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/com.webotech:state-machine/src/main/java/com/webotech/statemachine/LoggingStateMachineListener.java",
+    "useImportReport" : [ {
+      "importPath" : "import com.webotech.statemachine.api.StateMachineListener;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.apache.logging.log4j.Logger;",
+      "artifact" : {
+        "artifact" : "org.apache.logging.log4j:log4j-api:2.23.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.webotech:state-machine:0.6.1/dependencies/org/apache/logging/log4j/log4j-api/2.23.1/log4j-api-2.23.1.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.apache.logging.log4j.LogManager;",
+      "artifact" : {
+        "artifact" : "org.apache.logging.log4j:log4j-api:2.23.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.webotech:state-machine:0.6.1/dependencies/org/apache/logging/log4j/log4j-api/2.23.1/log4j-api-2.23.1.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import com.webotech.statemachine.api.State;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.webotech.statemachine.api.StateEvent;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/com.webotech:state-machine/src/main/java/com/webotech/statemachine/util/Threads.java",
+    "useImportReport" : [ {
+      "importPath" : "import java.util.concurrent.ThreadFactory;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.lang.Thread.UncaughtExceptionHandler;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.concurrent.atomic.AtomicInteger;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/com.webotech:state-machine/src/main/java/com/webotech/statemachine/util/AtomicBooleanPool.java",
+    "useImportReport" : [ {
+      "importPath" : "import java.util.function.Supplier;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.concurrent.atomic.AtomicBoolean;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.function.Consumer;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/com.webotech:state-machine/src/main/java/com/webotech/statemachine/util/ObjectPool.java",
+    "useImportReport" : [ {
+      "importPath" : "import java.util.Queue;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.concurrent.atomic.AtomicBoolean;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.concurrent.ConcurrentLinkedQueue;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/com.webotech:state-machine/src/main/java/com/webotech/statemachine/EventManager.java",
+    "useImportReport" : [ {
+      "importPath" : "import com.webotech.statemachine.api.StateEvent;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.webotech.statemachine.api.StateMachine;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.concurrent.ExecutorService;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.apache.logging.log4j.Logger;",
+      "artifact" : {
+        "artifact" : "org.apache.logging.log4j:log4j-api:2.23.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.webotech:state-machine:0.6.1/dependencies/org/apache/logging/log4j/log4j-api/2.23.1/log4j-api-2.23.1.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.apache.logging.log4j.LogManager;",
+      "artifact" : {
+        "artifact" : "org.apache.logging.log4j:log4j-api:2.23.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.webotech:state-machine:0.6.1/dependencies/org/apache/logging/log4j/log4j-api/2.23.1/log4j-api-2.23.1.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import java.util.concurrent.Executors;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.webotech.statemachine.util.Threads;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/com.webotech:state-machine/src/main/java/com/webotech/statemachine/NamedState.java",
+    "useImportReport" : [ {
+      "importPath" : "import com.webotech.statemachine.api.State;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.List;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.webotech.statemachine.api.StateAction;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.ArrayList;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.webotech.statemachine.api.StateMachine;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.stream.Stream;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.Objects;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.StringJoiner;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/com.webotech:state-machine/src/main/java/com/webotech/statemachine/MultiConsumerStateMachineListener.java",
+    "useImportReport" : [ {
+      "importPath" : "import com.webotech.statemachine.api.StateMachineListener;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.Map;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.concurrent.ConcurrentHashMap;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.webotech.statemachine.api.State;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.webotech.statemachine.api.StateEvent;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/com.webotech:state-machine/src/main/java/com/webotech/statemachine/NamedStateEvent.java",
+    "useImportReport" : [ {
+      "importPath" : "import com.webotech.statemachine.api.StateEvent;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.Objects;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.StringJoiner;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/com.webotech:state-machine/src/main/java/com/webotech/statemachine/GenericStateMachine.java",
+    "useImportReport" : [ {
+      "importPath" : "import com.webotech.statemachine.api.StateMachine;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.apache.logging.log4j.Logger;",
+      "artifact" : {
+        "artifact" : "org.apache.logging.log4j:log4j-api:2.23.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.webotech:state-machine:0.6.1/dependencies/org/apache/logging/log4j/log4j-api/2.23.1/log4j-api-2.23.1.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.apache.logging.log4j.LogManager;",
+      "artifact" : {
+        "artifact" : "org.apache.logging.log4j:log4j-api:2.23.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.webotech:state-machine:0.6.1/dependencies/org/apache/logging/log4j/log4j-api/2.23.1/log4j-api-2.23.1.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import java.util.List;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.webotech.statemachine.api.StateEvent;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.function.Supplier;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.concurrent.atomic.AtomicBoolean;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.function.Consumer;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.webotech.statemachine.api.State;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.Map;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.concurrent.ConcurrentMap;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.webotech.statemachine.api.StateMachineListener;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.function.BiConsumer;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.HashMap;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.concurrent.ConcurrentHashMap;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.Map.Entry;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.webotech.statemachine.util.AtomicBooleanPool;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/com.webotech:state-machine/src/main/java/com/webotech/statemachine/api/StateMachineListener.java",
+    "useImportReport" : [ ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/com.webotech:state-machine/src/main/java/com/webotech/statemachine/api/StateAction.java",
+    "useImportReport" : [ ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/com.webotech:state-machine/src/main/java/com/webotech/statemachine/api/StateMachine.java",
+    "useImportReport" : [ {
+      "importPath" : "import java.util.function.BiConsumer;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/com.webotech:state-machine/src/main/java/com/webotech/statemachine/api/State.java",
+    "useImportReport" : [ ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/com.webotech:state-machine/src/main/java/com/webotech/statemachine/api/StateEvent.java",
+    "useImportReport" : [ ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/com.webotech:state-machine/src/main/java/com/webotech/statemachine/LifecycleStateMachineFactory.java",
+    "useImportReport" : [ {
+      "importPath" : "import com.webotech.statemachine.api.StateMachine;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.webotech.statemachine.api.StateEvent;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.webotech.statemachine.api.State;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.webotech.statemachine.api.StateAction;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.webotech.statemachine.api.StateMachineListener;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  } ],
+  "projectUseDependencies" : [ {
+    "artifact" : "org.apache.logging.log4j:log4j-core:2.23.1",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.webotech:state-machine:0.6.1/dependencies/org/apache/logging/log4j/log4j-core/2.23.1/log4j-core-2.23.1.jar"
+  }, {
+    "artifact" : "org.apache.logging.log4j:log4j-api:2.23.1",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.webotech:state-machine:0.6.1/dependencies/org/apache/logging/log4j/log4j-api/2.23.1/log4j-api-2.23.1.jar"
+  } ],
+  "projectUseTransitiveDependencies" : [ ],
+  "projectUnusedDependencies" : [ ]
+}

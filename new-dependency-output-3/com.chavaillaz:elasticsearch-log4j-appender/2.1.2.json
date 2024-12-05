@@ -1,0 +1,650 @@
+{
+  "projectArtifact" : "com.chavaillaz:elasticsearch-log4j-appender:2.1.2",
+  "repositoryDir" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/com.chavaillaz:elasticsearch-log4j-appender",
+  "repositorySubDir" : "",
+  "artifactLocation" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.chavaillaz:elasticsearch-log4j-appender:2.1.2",
+  "fileImportReports" : [ {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/com.chavaillaz:elasticsearch-log4j-appender/src/main/java/com/chavaillaz/appender/log4j/ElasticsearchConfiguration.java",
+    "useImportReport" : [ {
+      "importPath" : "import lombok.extern.log4j.Log4j2;",
+      "artifact" : {
+        "artifact" : "org.projectlombok:lombok:1.18.26",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.chavaillaz:elasticsearch-log4j-appender:2.1.2/dependencies/org/projectlombok/lombok/1.18.26/lombok-1.18.26.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import lombok.Getter;",
+      "artifact" : {
+        "artifact" : "org.projectlombok:lombok:1.18.26",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.chavaillaz:elasticsearch-log4j-appender:2.1.2/dependencies/org/projectlombok/lombok/1.18.26/lombok-1.18.26.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import lombok.Setter;",
+      "artifact" : {
+        "artifact" : "org.projectlombok:lombok:1.18.26",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.chavaillaz:elasticsearch-log4j-appender:2.1.2/dependencies/org/projectlombok/lombok/1.18.26/lombok-1.18.26.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import java.time.format.DateTimeFormatter;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.lang.reflect.Constructor;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.time.OffsetDateTime;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ {
+      "importPath" : "import com.chavaillaz.appender.log4j.converter.DefaultEventConverter;"
+    }, {
+      "importPath" : "import com.chavaillaz.appender.log4j.converter.EventConverter;"
+    } ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/com.chavaillaz:elasticsearch-log4j-appender/src/main/java/com/chavaillaz/appender/log4j/ElasticsearchAppender.java",
+    "useImportReport" : [ {
+      "importPath" : "import org.apache.logging.log4j.core.appender.AbstractAppender;",
+      "artifact" : {
+        "artifact" : "org.apache.logging.log4j:log4j-core:2.20.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.chavaillaz:elasticsearch-log4j-appender:2.1.2/dependencies/org/apache/logging/log4j/log4j-core/2.20.0/log4j-core-2.20.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import lombok.extern.log4j.Log4j2;",
+      "artifact" : {
+        "artifact" : "org.projectlombok:lombok:1.18.26",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.chavaillaz:elasticsearch-log4j-appender:2.1.2/dependencies/org/projectlombok/lombok/1.18.26/lombok-1.18.26.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import lombok.Getter;",
+      "artifact" : {
+        "artifact" : "org.projectlombok:lombok:1.18.26",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.chavaillaz:elasticsearch-log4j-appender:2.1.2/dependencies/org/projectlombok/lombok/1.18.26/lombok-1.18.26.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import lombok.ToString;",
+      "artifact" : {
+        "artifact" : "org.projectlombok:lombok:1.18.26",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.chavaillaz:elasticsearch-log4j-appender:2.1.2/dependencies/org/projectlombok/lombok/1.18.26/lombok-1.18.26.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.apache.logging.log4j.core.config.plugins.Plugin;",
+      "artifact" : {
+        "artifact" : "org.apache.logging.log4j:log4j-core:2.20.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.chavaillaz:elasticsearch-log4j-appender:2.1.2/dependencies/org/apache/logging/log4j/log4j-core/2.20.0/log4j-core-2.20.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import static org.apache.logging.log4j.core.Core.CATEGORY_NAME;",
+      "artifact" : {
+        "artifact" : "org.apache.logging.log4j:log4j-core:2.20.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.chavaillaz:elasticsearch-log4j-appender:2.1.2/dependencies/org/apache/logging/log4j/log4j-core/2.20.0/log4j-core-2.20.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import static org.apache.logging.log4j.core.Appender.ELEMENT_TYPE;",
+      "artifact" : {
+        "artifact" : "org.apache.logging.log4j:log4j-core:2.20.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.chavaillaz:elasticsearch-log4j-appender:2.1.2/dependencies/org/apache/logging/log4j/log4j-core/2.20.0/log4j-core-2.20.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import java.util.concurrent.ScheduledExecutorService;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import static java.util.concurrent.Executors.newSingleThreadScheduledExecutor;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import lombok.ToString.Exclude;",
+      "artifact" : {
+        "artifact" : "org.projectlombok:lombok:1.18.26",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.chavaillaz:elasticsearch-log4j-appender:2.1.2/dependencies/org/projectlombok/lombok/1.18.26/lombok-1.18.26.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.apache.logging.log4j.core.Filter;",
+      "artifact" : {
+        "artifact" : "org.apache.logging.log4j:log4j-core:2.20.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.chavaillaz:elasticsearch-log4j-appender:2.1.2/dependencies/org/apache/logging/log4j/log4j-core/2.20.0/log4j-core-2.20.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.apache.logging.log4j.core.Layout;",
+      "artifact" : {
+        "artifact" : "org.apache.logging.log4j:log4j-core:2.20.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.chavaillaz:elasticsearch-log4j-appender:2.1.2/dependencies/org/apache/logging/log4j/log4j-core/2.20.0/log4j-core-2.20.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.apache.logging.log4j.core.config.Property;",
+      "artifact" : {
+        "artifact" : "org.apache.logging.log4j:log4j-core:2.20.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.chavaillaz:elasticsearch-log4j-appender:2.1.2/dependencies/org/apache/logging/log4j/log4j-core/2.20.0/log4j-core-2.20.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.apache.logging.log4j.core.config.plugins.PluginBuilderFactory;",
+      "artifact" : {
+        "artifact" : "org.apache.logging.log4j:log4j-core:2.20.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.chavaillaz:elasticsearch-log4j-appender:2.1.2/dependencies/org/apache/logging/log4j/log4j-core/2.20.0/log4j-core-2.20.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import static java.util.concurrent.TimeUnit.MILLISECONDS;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.apache.logging.log4j.core.LogEvent;",
+      "artifact" : {
+        "artifact" : "org.apache.logging.log4j:log4j-core:2.20.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.chavaillaz:elasticsearch-log4j-appender:2.1.2/dependencies/org/apache/logging/log4j/log4j-core/2.20.0/log4j-core-2.20.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import java.util.concurrent.TimeUnit;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import static java.lang.Thread.currentThread;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import lombok.Setter;",
+      "artifact" : {
+        "artifact" : "org.projectlombok:lombok:1.18.26",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.chavaillaz:elasticsearch-log4j-appender:2.1.2/dependencies/org/projectlombok/lombok/1.18.26/lombok-1.18.26.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.apache.logging.log4j.core.config.plugins.PluginBuilderAttribute;",
+      "artifact" : {
+        "artifact" : "org.apache.logging.log4j:log4j-core:2.20.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.chavaillaz:elasticsearch-log4j-appender:2.1.2/dependencies/org/apache/logging/log4j/log4j-core/2.20.0/log4j-core-2.20.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.apache.logging.log4j.core.config.plugins.validation.constraints.Required;",
+      "artifact" : {
+        "artifact" : "org.apache.logging.log4j:log4j-core:2.20.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.chavaillaz:elasticsearch-log4j-appender:2.1.2/dependencies/org/apache/logging/log4j/log4j-core/2.20.0/log4j-core-2.20.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import static org.apache.logging.log4j.core.layout.PatternLayout.createDefaultLayout;",
+      "artifact" : {
+        "artifact" : "org.apache.logging.log4j:log4j-core:2.20.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.chavaillaz:elasticsearch-log4j-appender:2.1.2/dependencies/org/apache/logging/log4j/log4j-core/2.20.0/log4j-core-2.20.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.apache.logging.log4j.core.config.plugins.PluginElement;",
+      "artifact" : {
+        "artifact" : "org.apache.logging.log4j:log4j-core:2.20.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.chavaillaz:elasticsearch-log4j-appender:2.1.2/dependencies/org/apache/logging/log4j/log4j-core/2.20.0/log4j-core-2.20.0.jar"
+      },
+      "isDirectDependency" : true
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ {
+      "importPath" : "org.apache.logging.log4j.core.util.Builder<ElasticsearchAppender>",
+      "artifact" : {
+        "artifact" : "org.apache.logging.log4j:log4j-core:2.20.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.chavaillaz:elasticsearch-log4j-appender:2.1.2/dependencies/org/apache/logging/log4j/log4j-core/2.20.0/log4j-core-2.20.0.jar"
+      },
+      "isDirectDependency" : true
+    } ],
+    "failImportReport" : [ {
+      "importPath" : "import static com.chavaillaz.appender.log4j.ElasticsearchUtils.getInitialHostname;"
+    }, {
+      "importPath" : "import static com.chavaillaz.appender.log4j.ElasticsearchUtils.getProperty;"
+    }, {
+      "importPath" : "import com.chavaillaz.appender.log4j.converter.DefaultEventConverter;"
+    } ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/com.chavaillaz:elasticsearch-log4j-appender/src/main/java/com/chavaillaz/appender/log4j/converter/DefaultEventConverter.java",
+    "useImportReport" : [ {
+      "importPath" : "import java.util.Map;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.apache.logging.log4j.core.LogEvent;",
+      "artifact" : {
+        "artifact" : "org.apache.logging.log4j:log4j-core:2.20.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.chavaillaz:elasticsearch-log4j-appender:2.1.2/dependencies/org/apache/logging/log4j/log4j-core/2.20.0/log4j-core-2.20.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import java.util.HashMap;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.time.Instant;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.Optional;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.apache.logging.log4j.Level;",
+      "artifact" : {
+        "artifact" : "org.apache.logging.log4j:log4j-api:2.20.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.chavaillaz:elasticsearch-log4j-appender:2.1.2/dependencies/org/apache/logging/log4j/log4j-api/2.20.0/log4j-api-2.20.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.apache.logging.log4j.message.Message;",
+      "artifact" : {
+        "artifact" : "org.apache.logging.log4j:log4j-api:2.20.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.chavaillaz:elasticsearch-log4j-appender:2.1.2/dependencies/org/apache/logging/log4j/log4j-api/2.20.0/log4j-api-2.20.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import java.io.Writer;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.io.StringWriter;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.io.PrintWriter;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ {
+      "importPath" : "import com.chavaillaz.appender.log4j.ElasticsearchAppender;"
+    } ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/com.chavaillaz:elasticsearch-log4j-appender/src/main/java/com/chavaillaz/appender/log4j/converter/EventConverter.java",
+    "useImportReport" : [ {
+      "importPath" : "import java.util.Map;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.apache.logging.log4j.core.LogEvent;",
+      "artifact" : {
+        "artifact" : "org.apache.logging.log4j:log4j-core:2.20.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.chavaillaz:elasticsearch-log4j-appender:2.1.2/dependencies/org/apache/logging/log4j/log4j-core/2.20.0/log4j-core-2.20.0.jar"
+      },
+      "isDirectDependency" : true
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ {
+      "importPath" : "import com.chavaillaz.appender.log4j.ElasticsearchAppender;"
+    } ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/com.chavaillaz:elasticsearch-log4j-appender/src/main/java/com/chavaillaz/appender/log4j/ElasticsearchUtils.java",
+    "useImportReport" : [ {
+      "importPath" : "import lombok.extern.log4j.Log4j2;",
+      "artifact" : {
+        "artifact" : "org.projectlombok:lombok:1.18.26",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.chavaillaz:elasticsearch-log4j-appender:2.1.2/dependencies/org/projectlombok/lombok/1.18.26/lombok-1.18.26.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import lombok.experimental.UtilityClass;",
+      "artifact" : {
+        "artifact" : "org.projectlombok:lombok:1.18.26",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.chavaillaz:elasticsearch-log4j-appender:2.1.2/dependencies/org/projectlombok/lombok/1.18.26/lombok-1.18.26.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import java.util.Optional;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import co.elastic.clients.elasticsearch.ElasticsearchClient;",
+      "artifact" : {
+        "artifact" : "co.elastic.clients:elasticsearch-java:8.7.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.chavaillaz:elasticsearch-log4j-appender:2.1.2/dependencies/co/elastic/clients/elasticsearch-java/8.7.1/elasticsearch-java-8.7.1.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import javax.net.ssl.SSLContext;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.apache.http.client.CredentialsProvider;",
+      "artifact" : {
+        "artifact" : "org.apache.httpcomponents:httpclient:4.5.13",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.chavaillaz:elasticsearch-log4j-appender:2.1.2/dependencies/org/apache/httpcomponents/httpclient/4.5.13/httpclient-4.5.13.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.apache.http.impl.client.BasicCredentialsProvider;",
+      "artifact" : {
+        "artifact" : "org.apache.httpcomponents:httpclient:4.5.13",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.chavaillaz:elasticsearch-log4j-appender:2.1.2/dependencies/org/apache/httpcomponents/httpclient/4.5.13/httpclient-4.5.13.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import static org.apache.http.auth.AuthScope.ANY;",
+      "artifact" : {
+        "artifact" : "org.apache.httpcomponents:httpclient:4.5.13",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.chavaillaz:elasticsearch-log4j-appender:2.1.2/dependencies/org/apache/httpcomponents/httpclient/4.5.13/httpclient-4.5.13.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.apache.http.auth.UsernamePasswordCredentials;",
+      "artifact" : {
+        "artifact" : "org.apache.httpcomponents:httpclient:4.5.13",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.chavaillaz:elasticsearch-log4j-appender:2.1.2/dependencies/org/apache/httpcomponents/httpclient/4.5.13/httpclient-4.5.13.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.apache.http.Header;",
+      "artifact" : {
+        "artifact" : "org.apache.httpcomponents:httpcore:4.4.13",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.chavaillaz:elasticsearch-log4j-appender:2.1.2/dependencies/org/apache/httpcomponents/httpcore/4.4.13/httpcore-4.4.13.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.apache.http.message.BasicHeader;",
+      "artifact" : {
+        "artifact" : "org.apache.httpcomponents:httpcore:4.4.13",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.chavaillaz:elasticsearch-log4j-appender:2.1.2/dependencies/org/apache/httpcomponents/httpcore/4.4.13/httpcore-4.4.13.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.elasticsearch.client.RestClient;",
+      "artifact" : {
+        "artifact" : "org.elasticsearch.client:elasticsearch-rest-client:8.7.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.chavaillaz:elasticsearch-log4j-appender:2.1.2/dependencies/org/elasticsearch/client/elasticsearch-rest-client/8.7.1/elasticsearch-rest-client-8.7.1.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import co.elastic.clients.json.jackson.JacksonJsonpMapper;",
+      "artifact" : {
+        "artifact" : "co.elastic.clients:elasticsearch-java:8.7.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.chavaillaz:elasticsearch-log4j-appender:2.1.2/dependencies/co/elastic/clients/elasticsearch-java/8.7.1/elasticsearch-java-8.7.1.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import com.fasterxml.jackson.datatype.jsr310.JavaTimeModule;",
+      "artifact" : {
+        "artifact" : "com.fasterxml.jackson.datatype:jackson-datatype-jsr310:2.15.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.chavaillaz:elasticsearch-log4j-appender:2.1.2/dependencies/com/fasterxml/jackson/datatype/jackson-datatype-jsr310/2.15.1/jackson-datatype-jsr310-2.15.1.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import co.elastic.clients.transport.rest_client.RestClientTransport;",
+      "artifact" : {
+        "artifact" : "co.elastic.clients:elasticsearch-java:8.7.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.chavaillaz:elasticsearch-log4j-appender:2.1.2/dependencies/co/elastic/clients/elasticsearch-java/8.7.1/elasticsearch-java-8.7.1.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.apache.http.HttpHost;",
+      "artifact" : {
+        "artifact" : "org.apache.httpcomponents:httpcore:4.4.13",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.chavaillaz:elasticsearch-log4j-appender:2.1.2/dependencies/org/apache/httpcomponents/httpcore/4.4.13/httpcore-4.4.13.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.apache.http.conn.ssl.NoopHostnameVerifier;",
+      "artifact" : {
+        "artifact" : "org.apache.httpcomponents:httpclient:4.5.13",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.chavaillaz:elasticsearch-log4j-appender:2.1.2/dependencies/org/apache/httpcomponents/httpclient/4.5.13/httpclient-4.5.13.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import lombok.SneakyThrows;",
+      "artifact" : {
+        "artifact" : "org.projectlombok:lombok:1.18.26",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.chavaillaz:elasticsearch-log4j-appender:2.1.2/dependencies/org/projectlombok/lombok/1.18.26/lombok-1.18.26.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.apache.http.conn.ssl.TrustAllStrategy;",
+      "artifact" : {
+        "artifact" : "org.apache.httpcomponents:httpclient:4.5.13",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.chavaillaz:elasticsearch-log4j-appender:2.1.2/dependencies/org/apache/httpcomponents/httpclient/4.5.13/httpclient-4.5.13.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.apache.http.ssl.SSLContextBuilder;",
+      "artifact" : {
+        "artifact" : "org.apache.httpcomponents:httpcore:4.4.13",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.chavaillaz:elasticsearch-log4j-appender:2.1.2/dependencies/org/apache/httpcomponents/httpcore/4.4.13/httpcore-4.4.13.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.net.InetAddress;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.net.UnknownHostException;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/com.chavaillaz:elasticsearch-log4j-appender/src/main/java/com/chavaillaz/appender/log4j/ElasticsearchSender.java",
+    "useImportReport" : [ {
+      "importPath" : "import lombok.extern.log4j.Log4j2;",
+      "artifact" : {
+        "artifact" : "org.projectlombok:lombok:1.18.26",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.chavaillaz:elasticsearch-log4j-appender:2.1.2/dependencies/org/projectlombok/lombok/1.18.26/lombok-1.18.26.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import java.util.List;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.Map;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.ArrayList;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import lombok.Getter;",
+      "artifact" : {
+        "artifact" : "org.projectlombok:lombok:1.18.26",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.chavaillaz:elasticsearch-log4j-appender:2.1.2/dependencies/org/projectlombok/lombok/1.18.26/lombok-1.18.26.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import co.elastic.clients.elasticsearch.ElasticsearchClient;",
+      "artifact" : {
+        "artifact" : "co.elastic.clients:elasticsearch-java:8.7.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.chavaillaz:elasticsearch-log4j-appender:2.1.2/dependencies/co/elastic/clients/elasticsearch-java/8.7.1/elasticsearch-java-8.7.1.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import static org.apache.commons.lang3.StringUtils.isNotBlank;",
+      "artifact" : {
+        "artifact" : "org.apache.commons:commons-lang3:3.12.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.chavaillaz:elasticsearch-log4j-appender:2.1.2/dependencies/org/apache/commons/commons-lang3/3.12.0/commons-lang3-3.12.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import static org.apache.commons.lang3.StringUtils.isNotBlank;",
+      "artifact" : {
+        "artifact" : "org.testcontainers:testcontainers:1.18.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.chavaillaz:elasticsearch-log4j-appender:2.1.2/dependencies/org/testcontainers/testcontainers/1.18.1/testcontainers-1.18.1.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import static java.util.Collections.singletonList;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import co.elastic.clients.elasticsearch.core.BulkRequest;",
+      "artifact" : {
+        "artifact" : "co.elastic.clients:elasticsearch-java:8.7.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.chavaillaz:elasticsearch-log4j-appender:2.1.2/dependencies/co/elastic/clients/elasticsearch-java/8.7.1/elasticsearch-java-8.7.1.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import co.elastic.clients.elasticsearch.core.BulkResponse;",
+      "artifact" : {
+        "artifact" : "co.elastic.clients:elasticsearch-java:8.7.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.chavaillaz:elasticsearch-log4j-appender:2.1.2/dependencies/co/elastic/clients/elasticsearch-java/8.7.1/elasticsearch-java-8.7.1.jar"
+      },
+      "isDirectDependency" : true
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ {
+      "importPath" : "import static com.chavaillaz.appender.log4j.ElasticsearchUtils.createClient;"
+    }, {
+      "importPath" : "import static com.chavaillaz.appender.log4j.ElasticsearchUtils.createSSLContext;"
+    } ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/com.chavaillaz:elasticsearch-log4j-appender/src/main/java/com/chavaillaz/appender/log4j/ElasticsearchAppenderTask.java",
+    "useImportReport" : [ {
+      "importPath" : "import java.util.concurrent.Callable;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.apache.logging.log4j.core.LogEvent;",
+      "artifact" : {
+        "artifact" : "org.apache.logging.log4j:log4j-core:2.20.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.chavaillaz:elasticsearch-log4j-appender:2.1.2/dependencies/org/apache/logging/log4j/log4j-core/2.20.0/log4j-core-2.20.0.jar"
+      },
+      "isDirectDependency" : true
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ {
+      "importPath" : "import com.chavaillaz.appender.log4j.converter.EventConverter;"
+    } ]
+  } ],
+  "projectUseDependencies" : [ {
+    "artifact" : "org.projectlombok:lombok:1.18.26",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.chavaillaz:elasticsearch-log4j-appender:2.1.2/dependencies/org/projectlombok/lombok/1.18.26/lombok-1.18.26.jar"
+  }, {
+    "artifact" : "org.apache.logging.log4j:log4j-core:2.20.0",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.chavaillaz:elasticsearch-log4j-appender:2.1.2/dependencies/org/apache/logging/log4j/log4j-core/2.20.0/log4j-core-2.20.0.jar"
+  }, {
+    "artifact" : "org.apache.logging.log4j:log4j-api:2.20.0",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.chavaillaz:elasticsearch-log4j-appender:2.1.2/dependencies/org/apache/logging/log4j/log4j-api/2.20.0/log4j-api-2.20.0.jar"
+  }, {
+    "artifact" : "co.elastic.clients:elasticsearch-java:8.7.1",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.chavaillaz:elasticsearch-log4j-appender:2.1.2/dependencies/co/elastic/clients/elasticsearch-java/8.7.1/elasticsearch-java-8.7.1.jar"
+  }, {
+    "artifact" : "org.elasticsearch.client:elasticsearch-rest-client:8.7.1",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.chavaillaz:elasticsearch-log4j-appender:2.1.2/dependencies/org/elasticsearch/client/elasticsearch-rest-client/8.7.1/elasticsearch-rest-client-8.7.1.jar"
+  }, {
+    "artifact" : "com.fasterxml.jackson.datatype:jackson-datatype-jsr310:2.15.1",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.chavaillaz:elasticsearch-log4j-appender:2.1.2/dependencies/com/fasterxml/jackson/datatype/jackson-datatype-jsr310/2.15.1/jackson-datatype-jsr310-2.15.1.jar"
+  }, {
+    "artifact" : "org.apache.commons:commons-lang3:3.12.0",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.chavaillaz:elasticsearch-log4j-appender:2.1.2/dependencies/org/apache/commons/commons-lang3/3.12.0/commons-lang3-3.12.0.jar"
+  } ],
+  "projectUseTransitiveDependencies" : [ {
+    "artifact" : "org.testcontainers:elasticsearch:1.18.1",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.chavaillaz:elasticsearch-log4j-appender:2.1.2/dependencies/org/testcontainers/elasticsearch/1.18.1/elasticsearch-1.18.1.jar"
+  } ],
+  "projectUnusedDependencies" : [ {
+    "artifact" : "com.fasterxml.jackson.core:jackson-databind:2.15.1",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.chavaillaz:elasticsearch-log4j-appender:2.1.2/dependencies/com/fasterxml/jackson/core/jackson-databind/2.15.1/jackson-databind-2.15.1.jar"
+  }, {
+    "artifact" : "org.junit.jupiter:junit-jupiter:5.9.3",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.chavaillaz:elasticsearch-log4j-appender:2.1.2/dependencies/org/junit/jupiter/junit-jupiter/5.9.3/junit-jupiter-5.9.3.jar"
+  }, {
+    "artifact" : "org.junit.jupiter:junit-jupiter-params:5.9.3",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.chavaillaz:elasticsearch-log4j-appender:2.1.2/dependencies/org/junit/jupiter/junit-jupiter-params/5.9.3/junit-jupiter-params-5.9.3.jar"
+  }, {
+    "artifact" : "org.apache.logging.log4j:log4j-slf4j-impl:2.20.0",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.chavaillaz:elasticsearch-log4j-appender:2.1.2/dependencies/org/apache/logging/log4j/log4j-slf4j-impl/2.20.0/log4j-slf4j-impl-2.20.0.jar"
+  }, {
+    "artifact" : "org.assertj:assertj-core:3.24.2",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.chavaillaz:elasticsearch-log4j-appender:2.1.2/dependencies/org/assertj/assertj-core/3.24.2/assertj-core-3.24.2.jar"
+  } ]
+}

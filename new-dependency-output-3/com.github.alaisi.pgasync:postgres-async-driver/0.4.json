@@ -1,0 +1,1494 @@
+{
+  "projectArtifact" : "com.github.alaisi.pgasync:postgres-async-driver:0.4",
+  "repositoryDir" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/com.github.alaisi.pgasync:postgres-async-driver",
+  "repositorySubDir" : "",
+  "artifactLocation" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.alaisi.pgasync:postgres-async-driver:0.4",
+  "fileImportReports" : [ {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/com.github.alaisi.pgasync:postgres-async-driver/src/main/java/com/github/pgasync/impl/Functions.java",
+    "useImportReport" : [ {
+      "importPath" : "import java.util.logging.Logger;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.function.Supplier;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.function.Function;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.stream.Stream;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.function.Consumer;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.logging.Level;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/com.github.alaisi.pgasync:postgres-async-driver/src/main/java/com/github/pgasync/impl/PgProtocolStream.java",
+    "useImportReport" : [ {
+      "importPath" : "import java.util.function.Consumer;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.List;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ {
+      "importPath" : "import com.github.pgasync.impl.message.Message;"
+    }, {
+      "importPath" : "import com.github.pgasync.impl.message.StartupMessage;"
+    } ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/com.github.alaisi.pgasync:postgres-async-driver/src/main/java/com/github/pgasync/impl/io/StartupMessageEncoder.java",
+    "useImportReport" : [ {
+      "importPath" : "import java.nio.ByteBuffer;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ {
+      "importPath" : "import com.github.pgasync.impl.message.StartupMessage;"
+    }, {
+      "importPath" : "import static com.github.pgasync.impl.io.IO.putCString;"
+    } ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/com.github.alaisi.pgasync:postgres-async-driver/src/main/java/com/github/pgasync/impl/io/BindEncoder.java",
+    "useImportReport" : [ {
+      "importPath" : "import java.nio.ByteBuffer;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ {
+      "importPath" : "import com.github.pgasync.impl.message.Bind;"
+    } ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/com.github.alaisi.pgasync:postgres-async-driver/src/main/java/com/github/pgasync/impl/io/AuthenticationDecoder.java",
+    "useImportReport" : [ {
+      "importPath" : "import java.nio.ByteBuffer;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ {
+      "importPath" : "import com.github.pgasync.impl.message.Authentication;"
+    } ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/com.github.alaisi.pgasync:postgres-async-driver/src/main/java/com/github/pgasync/impl/io/SSLHandshakeEncoder.java",
+    "useImportReport" : [ {
+      "importPath" : "import java.nio.ByteBuffer;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ {
+      "importPath" : "import com.github.pgasync.impl.message.SSLHandshake;"
+    } ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/com.github.alaisi.pgasync:postgres-async-driver/src/main/java/com/github/pgasync/impl/io/Decoder.java",
+    "useImportReport" : [ {
+      "importPath" : "import java.nio.ByteBuffer;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ {
+      "importPath" : "import com.github.pgasync.impl.message.Message;"
+    } ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/com.github.alaisi.pgasync:postgres-async-driver/src/main/java/com/github/pgasync/impl/io/RowDescriptionDecoder.java",
+    "useImportReport" : [ {
+      "importPath" : "import java.nio.ByteBuffer;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ {
+      "importPath" : "import com.github.pgasync.impl.Oid;"
+    }, {
+      "importPath" : "import com.github.pgasync.impl.message.RowDescription;"
+    }, {
+      "importPath" : "import com.github.pgasync.impl.message.RowDescription.ColumnDescription;"
+    }, {
+      "importPath" : "import static com.github.pgasync.impl.io.IO.getCString;"
+    } ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/com.github.alaisi.pgasync:postgres-async-driver/src/main/java/com/github/pgasync/impl/io/IO.java",
+    "useImportReport" : [ {
+      "importPath" : "import static java.nio.charset.StandardCharsets.UTF_8;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.nio.ByteBuffer;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ {
+      "importPath" : "import java.nio.charset.Charset;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.nio.charset.StandardCharsets;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/com.github.alaisi.pgasync:postgres-async-driver/src/main/java/com/github/pgasync/impl/io/ErrorResponseDecoder.java",
+    "useImportReport" : [ {
+      "importPath" : "import java.nio.ByteBuffer;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ {
+      "importPath" : "import com.github.pgasync.impl.message.ErrorResponse;"
+    }, {
+      "importPath" : "import com.github.pgasync.impl.message.ErrorResponse.Level;"
+    }, {
+      "importPath" : "import static com.github.pgasync.impl.io.IO.getCString;"
+    } ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/com.github.alaisi.pgasync:postgres-async-driver/src/main/java/com/github/pgasync/impl/io/ReadyForQueryDecoder.java",
+    "useImportReport" : [ {
+      "importPath" : "import java.nio.ByteBuffer;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ {
+      "importPath" : "import com.github.pgasync.impl.message.ReadyForQuery;"
+    } ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/com.github.alaisi.pgasync:postgres-async-driver/src/main/java/com/github/pgasync/impl/io/ExtendedQueryEncoder.java",
+    "useImportReport" : [ {
+      "importPath" : "import java.nio.ByteBuffer;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ {
+      "importPath" : "import com.github.pgasync.impl.message.ExtendedQuery;"
+    } ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/com.github.alaisi.pgasync:postgres-async-driver/src/main/java/com/github/pgasync/impl/io/CommandCompleteDecoder.java",
+    "useImportReport" : [ {
+      "importPath" : "import java.nio.ByteBuffer;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ {
+      "importPath" : "import com.github.pgasync.impl.message.CommandComplete;"
+    }, {
+      "importPath" : "import static com.github.pgasync.impl.io.IO.getCString;"
+    } ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/com.github.alaisi.pgasync:postgres-async-driver/src/main/java/com/github/pgasync/impl/io/DataRowDecoder.java",
+    "useImportReport" : [ {
+      "importPath" : "import java.nio.ByteBuffer;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ {
+      "importPath" : "import com.github.pgasync.impl.message.DataRow;"
+    } ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/com.github.alaisi.pgasync:postgres-async-driver/src/main/java/com/github/pgasync/impl/io/ParseEncoder.java",
+    "useImportReport" : [ {
+      "importPath" : "import java.nio.ByteBuffer;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ {
+      "importPath" : "import com.github.pgasync.impl.message.Parse;"
+    }, {
+      "importPath" : "import static com.github.pgasync.impl.io.IO.putCString;"
+    } ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/com.github.alaisi.pgasync:postgres-async-driver/src/main/java/com/github/pgasync/impl/io/Encoder.java",
+    "useImportReport" : [ {
+      "importPath" : "import java.nio.ByteBuffer;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ {
+      "importPath" : "import com.github.pgasync.impl.message.Message;"
+    } ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/com.github.alaisi.pgasync:postgres-async-driver/src/main/java/com/github/pgasync/impl/io/QueryEncoder.java",
+    "useImportReport" : [ {
+      "importPath" : "import java.nio.ByteBuffer;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ {
+      "importPath" : "import com.github.pgasync.impl.message.Query;"
+    }, {
+      "importPath" : "import static com.github.pgasync.impl.io.IO.putCString;"
+    } ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/com.github.alaisi.pgasync:postgres-async-driver/src/main/java/com/github/pgasync/impl/io/PasswordMessageEncoder.java",
+    "useImportReport" : [ {
+      "importPath" : "import java.nio.ByteBuffer;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ {
+      "importPath" : "import com.github.pgasync.impl.message.PasswordMessage;"
+    }, {
+      "importPath" : "import static com.github.pgasync.impl.io.IO.bytes;"
+    } ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/com.github.alaisi.pgasync:postgres-async-driver/src/main/java/com/github/pgasync/impl/PgConnection.java",
+    "useImportReport" : [ {
+      "importPath" : "import java.util.function.Consumer;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.List;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import static java.util.Arrays.asList;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.stream.Stream;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.function.Function;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.function.Supplier;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.Map;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.ArrayList;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.LinkedHashMap;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ {
+      "importPath" : "import com.github.pgasync.*;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.github.pgasync.impl.message.*;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ {
+      "importPath" : "import com.github.pgasync.impl.conversion.DataConverter;"
+    }, {
+      "importPath" : "import static com.github.pgasync.impl.Functions.*;"
+    }, {
+      "importPath" : "import static com.github.pgasync.impl.message.RowDescription.ColumnDescription;"
+    } ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/com.github.alaisi.pgasync:postgres-async-driver/src/main/java/com/github/pgasync/impl/PgRow.java",
+    "useImportReport" : [ {
+      "importPath" : "import java.util.Map;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.Collection;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.math.BigInteger;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.math.BigDecimal;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.sql.Date;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.sql.Time;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.sql.Timestamp;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ {
+      "importPath" : "import com.github.pgasync.Row;"
+    }, {
+      "importPath" : "import com.github.pgasync.SqlException;"
+    }, {
+      "importPath" : "import com.github.pgasync.impl.conversion.DataConverter;"
+    }, {
+      "importPath" : "import com.github.pgasync.impl.message.DataRow;"
+    } ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/com.github.alaisi.pgasync:postgres-async-driver/src/main/java/com/github/pgasync/impl/message/StartupMessage.java",
+    "useImportReport" : [ ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/com.github.alaisi.pgasync:postgres-async-driver/src/main/java/com/github/pgasync/impl/message/Message.java",
+    "useImportReport" : [ ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/com.github.alaisi.pgasync:postgres-async-driver/src/main/java/com/github/pgasync/impl/message/RowDescription.java",
+    "useImportReport" : [ ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ {
+      "importPath" : "import com.github.pgasync.impl.Oid;"
+    } ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/com.github.alaisi.pgasync:postgres-async-driver/src/main/java/com/github/pgasync/impl/message/Bind.java",
+    "useImportReport" : [ ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/com.github.alaisi.pgasync:postgres-async-driver/src/main/java/com/github/pgasync/impl/message/SSLHandshake.java",
+    "useImportReport" : [ ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/com.github.alaisi.pgasync:postgres-async-driver/src/main/java/com/github/pgasync/impl/message/ReadyForQuery.java",
+    "useImportReport" : [ ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/com.github.alaisi.pgasync:postgres-async-driver/src/main/java/com/github/pgasync/impl/message/Authentication.java",
+    "useImportReport" : [ ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/com.github.alaisi.pgasync:postgres-async-driver/src/main/java/com/github/pgasync/impl/message/Query.java",
+    "useImportReport" : [ ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/com.github.alaisi.pgasync:postgres-async-driver/src/main/java/com/github/pgasync/impl/message/DataRow.java",
+    "useImportReport" : [ ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/com.github.alaisi.pgasync:postgres-async-driver/src/main/java/com/github/pgasync/impl/message/ExtendedQuery.java",
+    "useImportReport" : [ ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/com.github.alaisi.pgasync:postgres-async-driver/src/main/java/com/github/pgasync/impl/message/ErrorResponse.java",
+    "useImportReport" : [ ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/com.github.alaisi.pgasync:postgres-async-driver/src/main/java/com/github/pgasync/impl/message/Parse.java",
+    "useImportReport" : [ ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/com.github.alaisi.pgasync:postgres-async-driver/src/main/java/com/github/pgasync/impl/message/PasswordMessage.java",
+    "useImportReport" : [ {
+      "importPath" : "import java.security.MessageDigest;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.security.NoSuchAlgorithmException;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ {
+      "importPath" : "import static com.github.pgasync.impl.io.IO.bytes;"
+    }, {
+      "importPath" : "import static javax.xml.bind.DatatypeConverter.printHexBinary;"
+    } ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/com.github.alaisi.pgasync:postgres-async-driver/src/main/java/com/github/pgasync/impl/message/CommandComplete.java",
+    "useImportReport" : [ ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/com.github.alaisi.pgasync:postgres-async-driver/src/main/java/com/github/pgasync/impl/netty/ByteBufMessageEncoder.java",
+    "useImportReport" : [ {
+      "importPath" : "import io.netty.handler.codec.MessageToByteEncoder;",
+      "artifact" : {
+        "artifact" : "io.netty:netty-codec:4.0.24.Final",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.alaisi.pgasync:postgres-async-driver:0.4/dependencies/io/netty/netty-codec/4.0.24.Final/netty-codec-4.0.24.Final.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.Map;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.HashMap;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.nio.ByteBuffer;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import io.netty.channel.ChannelHandlerContext;",
+      "artifact" : {
+        "artifact" : "io.netty:netty-transport:4.0.24.Final",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.alaisi.pgasync:postgres-async-driver:0.4/dependencies/io/netty/netty-transport/4.0.24.Final/netty-transport-4.0.24.Final.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import io.netty.buffer.ByteBuf;",
+      "artifact" : {
+        "artifact" : "io.netty:netty-buffer:4.0.24.Final",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.alaisi.pgasync:postgres-async-driver:0.4/dependencies/io/netty/netty-buffer/4.0.24.Final/netty-buffer-4.0.24.Final.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.nio.BufferOverflowException;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ {
+      "importPath" : "import com.github.pgasync.impl.io.*;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ {
+      "importPath" : "import com.github.pgasync.impl.message.Message;"
+    } ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/com.github.alaisi.pgasync:postgres-async-driver/src/main/java/com/github/pgasync/impl/netty/NettyPgProtocolStream.java",
+    "useImportReport" : [ {
+      "importPath" : "import io.netty.channel.*;",
+      "artifact" : {
+        "artifact" : "io.netty:netty-transport:4.0.24.Final",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.alaisi.pgasync:postgres-async-driver:0.4/dependencies/io/netty/netty-transport/4.0.24.Final/netty-transport-4.0.24.Final.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.net.SocketAddress;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import io.netty.channel.*;",
+      "artifact" : {
+        "artifact" : "io.netty:netty-transport:4.0.24.Final",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.alaisi.pgasync:postgres-async-driver:0.4/dependencies/io/netty/netty-transport/4.0.24.Final/netty-transport-4.0.24.Final.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.function.Consumer;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.List;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import io.netty.bootstrap.Bootstrap;",
+      "artifact" : {
+        "artifact" : "io.netty:netty-transport:4.0.24.Final",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.alaisi.pgasync:postgres-async-driver:0.4/dependencies/io/netty/netty-transport/4.0.24.Final/netty-transport-4.0.24.Final.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import io.netty.channel.socket.nio.NioSocketChannel;",
+      "artifact" : {
+        "artifact" : "io.netty:netty-transport:4.0.24.Final",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.alaisi.pgasync:postgres-async-driver:0.4/dependencies/io/netty/netty-transport/4.0.24.Final/netty-transport-4.0.24.Final.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import static java.util.Arrays.asList;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.ArrayList;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import io.netty.channel.*;",
+      "artifact" : {
+        "artifact" : "io.netty:netty-transport:4.0.24.Final",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.alaisi.pgasync:postgres-async-driver:0.4/dependencies/io/netty/netty-transport/4.0.24.Final/netty-transport-4.0.24.Final.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import io.netty.handler.ssl.SslHandshakeCompletionEvent;",
+      "artifact" : {
+        "artifact" : "io.netty:netty-handler:4.0.24.Final",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.alaisi.pgasync:postgres-async-driver:0.4/dependencies/io/netty/netty-handler/4.0.24.Final/netty-handler-4.0.24.Final.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import io.netty.channel.*;",
+      "artifact" : {
+        "artifact" : "io.netty:netty-transport:4.0.24.Final",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.alaisi.pgasync:postgres-async-driver:0.4/dependencies/io/netty/netty-transport/4.0.24.Final/netty-transport-4.0.24.Final.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import io.netty.channel.*;",
+      "artifact" : {
+        "artifact" : "io.netty:netty-transport:4.0.24.Final",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.alaisi.pgasync:postgres-async-driver:0.4/dependencies/io/netty/netty-transport/4.0.24.Final/netty-transport-4.0.24.Final.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import io.netty.channel.*;",
+      "artifact" : {
+        "artifact" : "io.netty:netty-transport:4.0.24.Final",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.alaisi.pgasync:postgres-async-driver:0.4/dependencies/io/netty/netty-transport/4.0.24.Final/netty-transport-4.0.24.Final.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import io.netty.handler.codec.LengthFieldBasedFrameDecoder;",
+      "artifact" : {
+        "artifact" : "io.netty:netty-codec:4.0.24.Final",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.alaisi.pgasync:postgres-async-driver:0.4/dependencies/io/netty/netty-codec/4.0.24.Final/netty-codec-4.0.24.Final.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import io.netty.handler.codec.ByteToMessageDecoder;",
+      "artifact" : {
+        "artifact" : "io.netty:netty-codec:4.0.24.Final",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.alaisi.pgasync:postgres-async-driver:0.4/dependencies/io/netty/netty-codec/4.0.24.Final/netty-codec-4.0.24.Final.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import io.netty.buffer.ByteBuf;",
+      "artifact" : {
+        "artifact" : "io.netty:netty-buffer:4.0.24.Final",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.alaisi.pgasync:postgres-async-driver:0.4/dependencies/io/netty/netty-buffer/4.0.24.Final/netty-buffer-4.0.24.Final.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import io.netty.handler.ssl.SslContext;",
+      "artifact" : {
+        "artifact" : "io.netty:netty-handler:4.0.24.Final",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.alaisi.pgasync:postgres-async-driver:0.4/dependencies/io/netty/netty-handler/4.0.24.Final/netty-handler-4.0.24.Final.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import io.netty.handler.ssl.util.InsecureTrustManagerFactory;",
+      "artifact" : {
+        "artifact" : "io.netty:netty-handler:4.0.24.Final",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.alaisi.pgasync:postgres-async-driver:0.4/dependencies/io/netty/netty-handler/4.0.24.Final/netty-handler-4.0.24.Final.jar"
+      },
+      "isDirectDependency" : true
+    } ],
+    "unusedImportReport" : [ {
+      "importPath" : "import com.github.pgasync.impl.message.*;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ {
+      "importPath" : "import com.github.pgasync.SqlException;"
+    }, {
+      "importPath" : "import com.github.pgasync.impl.PgProtocolStream;"
+    } ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/com.github.alaisi.pgasync:postgres-async-driver/src/main/java/com/github/pgasync/impl/netty/ByteBufMessageDecoder.java",
+    "useImportReport" : [ {
+      "importPath" : "import io.netty.handler.codec.ByteToMessageDecoder;",
+      "artifact" : {
+        "artifact" : "io.netty:netty-codec:4.0.24.Final",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.alaisi.pgasync:postgres-async-driver:0.4/dependencies/io/netty/netty-codec/4.0.24.Final/netty-codec-4.0.24.Final.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.Map;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.HashMap;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import io.netty.channel.ChannelHandlerContext;",
+      "artifact" : {
+        "artifact" : "io.netty:netty-transport:4.0.24.Final",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.alaisi.pgasync:postgres-async-driver:0.4/dependencies/io/netty/netty-transport/4.0.24.Final/netty-transport-4.0.24.Final.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import io.netty.buffer.ByteBuf;",
+      "artifact" : {
+        "artifact" : "io.netty:netty-buffer:4.0.24.Final",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.alaisi.pgasync:postgres-async-driver:0.4/dependencies/io/netty/netty-buffer/4.0.24.Final/netty-buffer-4.0.24.Final.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.List;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.nio.ByteBuffer;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ {
+      "importPath" : "import com.github.pgasync.impl.io.*;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/com.github.alaisi.pgasync:postgres-async-driver/src/main/java/com/github/pgasync/impl/netty/NettyPgConnectionPool.java",
+    "useImportReport" : [ {
+      "importPath" : "import io.netty.channel.EventLoopGroup;",
+      "artifact" : {
+        "artifact" : "io.netty:netty-transport:4.0.24.Final",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.alaisi.pgasync:postgres-async-driver:0.4/dependencies/io/netty/netty-transport/4.0.24.Final/netty-transport-4.0.24.Final.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import io.netty.channel.nio.NioEventLoopGroup;",
+      "artifact" : {
+        "artifact" : "io.netty:netty-transport:4.0.24.Final",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.alaisi.pgasync:postgres-async-driver:0.4/dependencies/io/netty/netty-transport/4.0.24.Final/netty-transport-4.0.24.Final.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.net.InetSocketAddress;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ {
+      "importPath" : "import com.github.pgasync.ConnectionPoolBuilder.PoolProperties;"
+    }, {
+      "importPath" : "import com.github.pgasync.impl.PgConnectionPool;"
+    }, {
+      "importPath" : "import com.github.pgasync.impl.PgProtocolStream;"
+    } ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/com.github.alaisi.pgasync:postgres-async-driver/src/main/java/com/github/pgasync/impl/PgColumn.java",
+    "useImportReport" : [ ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/com.github.alaisi.pgasync:postgres-async-driver/src/main/java/com/github/pgasync/impl/PgResultSet.java",
+    "useImportReport" : [ {
+      "importPath" : "import java.util.*;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.*;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.*;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.*;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.*;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ {
+      "importPath" : "import com.github.pgasync.ResultSet;"
+    }, {
+      "importPath" : "import com.github.pgasync.Row;"
+    }, {
+      "importPath" : "import com.github.pgasync.impl.message.RowDescription.ColumnDescription;"
+    } ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/com.github.alaisi.pgasync:postgres-async-driver/src/main/java/com/github/pgasync/impl/conversion/NumericConversions.java",
+    "useImportReport" : [ {
+      "importPath" : "import static java.nio.charset.StandardCharsets.UTF_8;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.math.BigInteger;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.math.BigDecimal;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ {
+      "importPath" : "import com.github.pgasync.SqlException;"
+    }, {
+      "importPath" : "import com.github.pgasync.impl.Oid;"
+    }, {
+      "importPath" : "import com.github.pgasync.impl.io.IO;"
+    } ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/com.github.alaisi.pgasync:postgres-async-driver/src/main/java/com/github/pgasync/impl/conversion/TemporalConversions.java",
+    "useImportReport" : [ {
+      "importPath" : "import java.text.DateFormat;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.text.SimpleDateFormat;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.sql.Date;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import static java.nio.charset.StandardCharsets.UTF_8;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.text.ParseException;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.sql.Time;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.sql.Timestamp;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.TimeZone;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ {
+      "importPath" : "import com.github.pgasync.SqlException;"
+    }, {
+      "importPath" : "import com.github.pgasync.impl.Oid;"
+    } ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/com.github.alaisi.pgasync:postgres-async-driver/src/main/java/com/github/pgasync/impl/conversion/DataConverter.java",
+    "useImportReport" : [ {
+      "importPath" : "import java.util.*;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.*;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.*;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.*;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.math.BigInteger;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.math.BigDecimal;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.sql.Date;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.sql.Time;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.sql.Timestamp;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.*;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import static java.nio.charset.StandardCharsets.UTF_8;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ {
+      "importPath" : "import com.github.pgasync.Converter;"
+    }, {
+      "importPath" : "import com.github.pgasync.impl.Oid;"
+    } ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/com.github.alaisi.pgasync:postgres-async-driver/src/main/java/com/github/pgasync/impl/conversion/ArrayConversions.java",
+    "useImportReport" : [ {
+      "importPath" : "import java.util.function.BiFunction;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.function.Function;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import static java.nio.charset.StandardCharsets.UTF_8;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.List;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.ArrayList;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ {
+      "importPath" : "import com.github.pgasync.impl.Oid;"
+    } ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/com.github.alaisi.pgasync:postgres-async-driver/src/main/java/com/github/pgasync/impl/conversion/BlobConversions.java",
+    "useImportReport" : [ {
+      "importPath" : "import static java.nio.charset.StandardCharsets.UTF_8;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ {
+      "importPath" : "import com.github.pgasync.SqlException;"
+    }, {
+      "importPath" : "import com.github.pgasync.impl.Oid;"
+    }, {
+      "importPath" : "import static javax.xml.bind.DatatypeConverter.parseHexBinary;"
+    }, {
+      "importPath" : "import static javax.xml.bind.DatatypeConverter.printHexBinary;"
+    } ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/com.github.alaisi.pgasync:postgres-async-driver/src/main/java/com/github/pgasync/impl/conversion/StringConversions.java",
+    "useImportReport" : [ {
+      "importPath" : "import static java.nio.charset.StandardCharsets.UTF_8;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.nio.ByteBuffer;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ {
+      "importPath" : "import com.github.pgasync.SqlException;"
+    }, {
+      "importPath" : "import com.github.pgasync.impl.Oid;"
+    } ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/com.github.alaisi.pgasync:postgres-async-driver/src/main/java/com/github/pgasync/impl/PgConnectionPool.java",
+    "useImportReport" : [ {
+      "importPath" : "import java.util.function.Consumer;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.*;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.*;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.net.InetSocketAddress;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.*;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ {
+      "importPath" : "import com.github.pgasync.*;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ {
+      "importPath" : "import com.github.pgasync.ConnectionPoolBuilder.PoolProperties;"
+    }, {
+      "importPath" : "import com.github.pgasync.impl.conversion.DataConverter;"
+    } ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/com.github.alaisi.pgasync:postgres-async-driver/src/main/java/com/github/pgasync/impl/Oid.java",
+    "useImportReport" : [ ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/com.github.alaisi.pgasync:postgres-async-driver/src/main/java/com/github/pgasync/ConnectionPool.java",
+    "useImportReport" : [ {
+      "importPath" : "import java.util.function.Consumer;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/com.github.alaisi.pgasync:postgres-async-driver/src/main/java/com/github/pgasync/QueryExecutor.java",
+    "useImportReport" : [ {
+      "importPath" : "import java.util.function.Consumer;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.List;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/com.github.alaisi.pgasync:postgres-async-driver/src/main/java/com/github/pgasync/TransactionExecutor.java",
+    "useImportReport" : [ {
+      "importPath" : "import java.util.function.Consumer;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/com.github.alaisi.pgasync:postgres-async-driver/src/main/java/com/github/pgasync/Row.java",
+    "useImportReport" : [ {
+      "importPath" : "import java.math.BigInteger;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.math.BigDecimal;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.sql.Date;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.sql.Time;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.sql.Timestamp;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/com.github.alaisi.pgasync:postgres-async-driver/src/main/java/com/github/pgasync/ConnectionPoolBuilder.java",
+    "useImportReport" : [ {
+      "importPath" : "import java.util.Collections;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.List;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.ArrayList;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ {
+      "importPath" : "import com.github.pgasync.impl.conversion.DataConverter;"
+    }, {
+      "importPath" : "import com.github.pgasync.impl.netty.NettyPgConnectionPool;"
+    } ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/com.github.alaisi.pgasync:postgres-async-driver/src/main/java/com/github/pgasync/Converter.java",
+    "useImportReport" : [ ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ {
+      "importPath" : "import com.github.pgasync.impl.Oid;"
+    } ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/com.github.alaisi.pgasync:postgres-async-driver/src/main/java/com/github/pgasync/Connection.java",
+    "useImportReport" : [ ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/com.github.alaisi.pgasync:postgres-async-driver/src/main/java/com/github/pgasync/Db.java",
+    "useImportReport" : [ ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/com.github.alaisi.pgasync:postgres-async-driver/src/main/java/com/github/pgasync/ResultSet.java",
+    "useImportReport" : [ {
+      "importPath" : "import java.util.Collection;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.Iterator;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/com.github.alaisi.pgasync:postgres-async-driver/src/main/java/com/github/pgasync/SqlException.java",
+    "useImportReport" : [ ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/com.github.alaisi.pgasync:postgres-async-driver/src/main/java/com/github/pgasync/Transaction.java",
+    "useImportReport" : [ {
+      "importPath" : "import java.util.function.Consumer;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  } ],
+  "projectUseDependencies" : [ {
+    "artifact" : "io.netty:netty-handler:4.0.24.Final",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.alaisi.pgasync:postgres-async-driver:0.4/dependencies/io/netty/netty-handler/4.0.24.Final/netty-handler-4.0.24.Final.jar"
+  } ],
+  "projectUseTransitiveDependencies" : [ ],
+  "projectUnusedDependencies" : [ {
+    "artifact" : "junit:junit:4.11",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.alaisi.pgasync:postgres-async-driver:0.4/dependencies/junit/junit/4.11/junit-4.11.jar"
+  } ]
+}

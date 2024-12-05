@@ -1,0 +1,1195 @@
+{
+  "projectArtifact" : "nl.42:spring-boot-starter-csv:0.3.0",
+  "repositoryDir" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/nl.42:spring-boot-starter-csv",
+  "repositorySubDir" : "",
+  "artifactLocation" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/nl.42:spring-boot-starter-csv:0.3.0",
+  "fileImportReports" : [ {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/nl.42:spring-boot-starter-csv/src/test/java/nl/_42/boot/csv/OrderCsvRow.java",
+    "useImportReport" : [ {
+      "importPath" : "import lombok.Getter;",
+      "artifact" : {
+        "artifact" : "org.projectlombok:lombok:1.18.10",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/nl.42:spring-boot-starter-csv:0.3.0/dependencies/org/projectlombok/lombok/1.18.10/lombok-1.18.10.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import lombok.Setter;",
+      "artifact" : {
+        "artifact" : "org.projectlombok:lombok:1.18.10",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/nl.42:spring-boot-starter-csv:0.3.0/dependencies/org/projectlombok/lombok/1.18.10/lombok-1.18.10.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import java.time.LocalDate;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.csveed.annotations.CsvConverter;",
+      "artifact" : {
+        "artifact" : "org.csveed:csveed:0.5.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/nl.42:spring-boot-starter-csv:0.3.0/dependencies/org/csveed/csveed/0.5.0/csveed-0.5.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import java.math.BigDecimal;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ {
+      "importPath" : "import nl._42.boot.csv.converter.BigDecimalConverter;"
+    }, {
+      "importPath" : "import nl._42.boot.csv.converter.LocalDateConverter;"
+    } ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/nl.42:spring-boot-starter-csv/src/test/java/nl/_42/boot/csv/Application.java",
+    "useImportReport" : [ {
+      "importPath" : "import org.springframework.boot.autoconfigure.SpringBootApplication;",
+      "artifact" : {
+        "artifact" : "org.springframework.boot:spring-boot-autoconfigure:2.2.2.RELEASE",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/nl.42:spring-boot-starter-csv:0.3.0/dependencies/org/springframework/boot/spring-boot-autoconfigure/2.2.2.RELEASE/spring-boot-autoconfigure-2.2.2.RELEASE.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.springframework.boot.SpringApplication;",
+      "artifact" : {
+        "artifact" : "org.springframework.boot:spring-boot:2.2.2.RELEASE",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/nl.42:spring-boot-starter-csv:0.3.0/dependencies/org/springframework/boot/spring-boot/2.2.2.RELEASE/spring-boot-2.2.2.RELEASE.jar"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/nl.42:spring-boot-starter-csv/src/test/java/nl/_42/boot/csv/converter/LocalDateConverter.java",
+    "useImportReport" : [ {
+      "importPath" : "import org.csveed.bean.conversion.AbstractConverter;",
+      "artifact" : {
+        "artifact" : "org.csveed:csveed:0.5.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/nl.42:spring-boot-starter-csv:0.3.0/dependencies/org/csveed/csveed/0.5.0/csveed-0.5.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import java.time.LocalDate;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/nl.42:spring-boot-starter-csv/src/test/java/nl/_42/boot/csv/converter/BigDecimalConverter.java",
+    "useImportReport" : [ {
+      "importPath" : "import org.csveed.bean.conversion.AbstractConverter;",
+      "artifact" : {
+        "artifact" : "org.csveed:csveed:0.5.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/nl.42:spring-boot-starter-csv:0.3.0/dependencies/org/csveed/csveed/0.5.0/csveed-0.5.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import java.math.BigDecimal;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/nl.42:spring-boot-starter-csv/src/test/java/nl/_42/boot/csv/file/CsvFileTest.java",
+    "useImportReport" : [ {
+      "importPath" : "import org.springframework.boot.test.context.SpringBootTest;",
+      "artifact" : {
+        "artifact" : "org.springframework.boot:spring-boot-test:2.2.2.RELEASE",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/nl.42:spring-boot-starter-csv:0.3.0/dependencies/org/springframework/boot/spring-boot-test/2.2.2.RELEASE/spring-boot-test-2.2.2.RELEASE.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.junit.runner.RunWith;",
+      "artifact" : {
+        "artifact" : "junit:junit:4.12",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/nl.42:spring-boot-starter-csv:0.3.0/dependencies/junit/junit/4.12/junit-4.12.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.springframework.test.context.junit4.SpringRunner;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-test:5.2.2.RELEASE",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/nl.42:spring-boot-starter-csv:0.3.0/dependencies/org/springframework/spring-test/5.2.2.RELEASE/spring-test-5.2.2.RELEASE.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.springframework.beans.factory.annotation.Autowired;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-beans:5.2.2.RELEASE",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/nl.42:spring-boot-starter-csv:0.3.0/dependencies/org/springframework/spring-beans/5.2.2.RELEASE/spring-beans-5.2.2.RELEASE.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.junit.Test;",
+      "artifact" : {
+        "artifact" : "junit:junit:4.12",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/nl.42:spring-boot-starter-csv:0.3.0/dependencies/junit/junit/4.12/junit-4.12.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.io.IOException;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.io.File;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.google.common.io.Files;",
+      "artifact" : {
+        "artifact" : "com.google.guava:guava:23.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/nl.42:spring-boot-starter-csv:0.3.0/dependencies/com/google/guava/guava/23.0/guava-23.0.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import static org.junit.Assert.assertEquals;",
+      "artifact" : {
+        "artifact" : "junit:junit:4.12",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/nl.42:spring-boot-starter-csv:0.3.0/dependencies/junit/junit/4.12/junit-4.12.jar"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/nl.42:spring-boot-starter-csv/src/test/java/nl/_42/boot/csv/CsvTest.java",
+    "useImportReport" : [ {
+      "importPath" : "import org.springframework.boot.test.context.SpringBootTest;",
+      "artifact" : {
+        "artifact" : "org.springframework.boot:spring-boot-test:2.2.2.RELEASE",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/nl.42:spring-boot-starter-csv:0.3.0/dependencies/org/springframework/boot/spring-boot-test/2.2.2.RELEASE/spring-boot-test-2.2.2.RELEASE.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.junit.runner.RunWith;",
+      "artifact" : {
+        "artifact" : "junit:junit:4.12",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/nl.42:spring-boot-starter-csv:0.3.0/dependencies/junit/junit/4.12/junit-4.12.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.springframework.test.context.junit4.SpringRunner;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-test:5.2.2.RELEASE",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/nl.42:spring-boot-starter-csv:0.3.0/dependencies/org/springframework/spring-test/5.2.2.RELEASE/spring-test-5.2.2.RELEASE.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.springframework.beans.factory.annotation.Autowired;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-beans:5.2.2.RELEASE",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/nl.42:spring-boot-starter-csv:0.3.0/dependencies/org/springframework/spring-beans/5.2.2.RELEASE/spring-beans-5.2.2.RELEASE.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.junit.Before;",
+      "artifact" : {
+        "artifact" : "junit:junit:4.12",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/nl.42:spring-boot-starter-csv:0.3.0/dependencies/junit/junit/4.12/junit-4.12.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.junit.Test;",
+      "artifact" : {
+        "artifact" : "junit:junit:4.12",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/nl.42:spring-boot-starter-csv:0.3.0/dependencies/junit/junit/4.12/junit-4.12.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.io.IOException;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.io.InputStream;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.springframework.core.io.ClassPathResource;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-core:5.2.2.RELEASE",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/nl.42:spring-boot-starter-csv:0.3.0/dependencies/org/springframework/spring-core/5.2.2.RELEASE/spring-core-5.2.2.RELEASE.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import static org.junit.Assert.assertEquals;",
+      "artifact" : {
+        "artifact" : "junit:junit:4.12",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/nl.42:spring-boot-starter-csv:0.3.0/dependencies/junit/junit/4.12/junit-4.12.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.List;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.time.LocalDate;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.math.BigDecimal;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.Scanner;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.io.ByteArrayInputStream;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.stream.Collectors;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/nl.42:spring-boot-starter-csv/src/test/java/nl/_42/boot/csv/OrderCsvHandler.java",
+    "useImportReport" : [ {
+      "importPath" : "import lombok.extern.slf4j.Slf4j;",
+      "artifact" : {
+        "artifact" : "org.projectlombok:lombok:1.18.10",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/nl.42:spring-boot-starter-csv:0.3.0/dependencies/org/projectlombok/lombok/1.18.10/lombok-1.18.10.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.springframework.stereotype.Component;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-context:5.2.2.RELEASE",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/nl.42:spring-boot-starter-csv:0.3.0/dependencies/org/springframework/spring-context/5.2.2.RELEASE/spring-context-5.2.2.RELEASE.jar"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/nl.42:spring-boot-starter-csv/src/test/java/nl/_42/boot/csv/PersonCsvRow.java",
+    "useImportReport" : [ {
+      "importPath" : "import lombok.Getter;",
+      "artifact" : {
+        "artifact" : "org.projectlombok:lombok:1.18.10",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/nl.42:spring-boot-starter-csv:0.3.0/dependencies/org/projectlombok/lombok/1.18.10/lombok-1.18.10.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import lombok.Setter;",
+      "artifact" : {
+        "artifact" : "org.projectlombok:lombok:1.18.10",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/nl.42:spring-boot-starter-csv:0.3.0/dependencies/org/projectlombok/lombok/1.18.10/lombok-1.18.10.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import java.util.Map;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.HashMap;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/nl.42:spring-boot-starter-csv/src/test/java/nl/_42/boot/csv/Results.java",
+    "useImportReport" : [ {
+      "importPath" : "import java.util.List;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.ArrayList;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.Collections;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/nl.42:spring-boot-starter-csv/src/test/java/nl/_42/boot/csv/PersonCsvHandler.java",
+    "useImportReport" : [ {
+      "importPath" : "import lombok.extern.slf4j.Slf4j;",
+      "artifact" : {
+        "artifact" : "org.projectlombok:lombok:1.18.10",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/nl.42:spring-boot-starter-csv:0.3.0/dependencies/org/projectlombok/lombok/1.18.10/lombok-1.18.10.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.springframework.stereotype.Component;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-context:5.2.2.RELEASE",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/nl.42:spring-boot-starter-csv:0.3.0/dependencies/org/springframework/spring-context/5.2.2.RELEASE/spring-context-5.2.2.RELEASE.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.csveed.api.Header;",
+      "artifact" : {
+        "artifact" : "org.csveed:csveed:0.5.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/nl.42:spring-boot-starter-csv:0.3.0/dependencies/org/csveed/csveed/0.5.0/csveed-0.5.0.jar"
+      },
+      "isDirectDependency" : true
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/nl.42:spring-boot-starter-csv/src/main/java/nl/_42/boot/csv/CsvParameters.java",
+    "useImportReport" : [ {
+      "importPath" : "import lombok.AllArgsConstructor;",
+      "artifact" : {
+        "artifact" : "org.projectlombok:lombok:1.18.10",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/nl.42:spring-boot-starter-csv:0.3.0/dependencies/org/projectlombok/lombok/1.18.10/lombok-1.18.10.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import java.util.Collection;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/nl.42:spring-boot-starter-csv/src/main/java/nl/_42/boot/csv/file/CsvFileStarter.java",
+    "useImportReport" : [ {
+      "importPath" : "import org.springframework.context.ApplicationListener;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-context:5.2.2.RELEASE",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/nl.42:spring-boot-starter-csv:0.3.0/dependencies/org/springframework/spring-context/5.2.2.RELEASE/spring-context-5.2.2.RELEASE.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.springframework.boot.context.event.ApplicationReadyEvent;",
+      "artifact" : {
+        "artifact" : "org.springframework.boot:spring-boot:2.2.2.RELEASE",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/nl.42:spring-boot-starter-csv:0.3.0/dependencies/org/springframework/boot/spring-boot/2.2.2.RELEASE/spring-boot-2.2.2.RELEASE.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.springframework.stereotype.Component;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-context:5.2.2.RELEASE",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/nl.42:spring-boot-starter-csv:0.3.0/dependencies/org/springframework/spring-context/5.2.2.RELEASE/spring-context-5.2.2.RELEASE.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import lombok.AllArgsConstructor;",
+      "artifact" : {
+        "artifact" : "org.projectlombok:lombok:1.18.10",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/nl.42:spring-boot-starter-csv:0.3.0/dependencies/org/projectlombok/lombok/1.18.10/lombok-1.18.10.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.springframework.boot.autoconfigure.condition.ConditionalOnProperty;",
+      "artifact" : {
+        "artifact" : "org.springframework.boot:spring-boot-autoconfigure:2.2.2.RELEASE",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/nl.42:spring-boot-starter-csv:0.3.0/dependencies/org/springframework/boot/spring-boot-autoconfigure/2.2.2.RELEASE/spring-boot-autoconfigure-2.2.2.RELEASE.jar"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/nl.42:spring-boot-starter-csv/src/main/java/nl/_42/boot/csv/file/CsvFileService.java",
+    "useImportReport" : [ {
+      "importPath" : "import lombok.extern.slf4j.Slf4j;",
+      "artifact" : {
+        "artifact" : "org.projectlombok:lombok:1.18.10",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/nl.42:spring-boot-starter-csv:0.3.0/dependencies/org/projectlombok/lombok/1.18.10/lombok-1.18.10.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.springframework.stereotype.Service;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-context:5.2.2.RELEASE",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/nl.42:spring-boot-starter-csv:0.3.0/dependencies/org/springframework/spring-context/5.2.2.RELEASE/spring-context-5.2.2.RELEASE.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import lombok.AllArgsConstructor;",
+      "artifact" : {
+        "artifact" : "org.projectlombok:lombok:1.18.10",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/nl.42:spring-boot-starter-csv:0.3.0/dependencies/org/projectlombok/lombok/1.18.10/lombok-1.18.10.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.springframework.boot.autoconfigure.condition.ConditionalOnProperty;",
+      "artifact" : {
+        "artifact" : "org.springframework.boot:spring-boot-autoconfigure:2.2.2.RELEASE",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/nl.42:spring-boot-starter-csv:0.3.0/dependencies/org/springframework/boot/spring-boot-autoconfigure/2.2.2.RELEASE/spring-boot-autoconfigure-2.2.2.RELEASE.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import nl._42.boot.csv.CsvService;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.springframework.scheduling.annotation.Scheduled;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-context:5.2.2.RELEASE",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/nl.42:spring-boot-starter-csv:0.3.0/dependencies/org/springframework/spring-context/5.2.2.RELEASE/spring-context-5.2.2.RELEASE.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.Collection;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.io.File;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.Optional;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.time.Instant;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import static java.lang.String.format;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import nl._42.boot.csv.CsvResult;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.io.InputStream;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.io.FileInputStream;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.io.IOException;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.io.BufferedWriter;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.io.FileWriter;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/nl.42:spring-boot-starter-csv/src/main/java/nl/_42/boot/csv/file/CsvFileProperties.java",
+    "useImportReport" : [ {
+      "importPath" : "import lombok.Getter;",
+      "artifact" : {
+        "artifact" : "org.projectlombok:lombok:1.18.10",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/nl.42:spring-boot-starter-csv:0.3.0/dependencies/org/projectlombok/lombok/1.18.10/lombok-1.18.10.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import lombok.Setter;",
+      "artifact" : {
+        "artifact" : "org.projectlombok:lombok:1.18.10",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/nl.42:spring-boot-starter-csv:0.3.0/dependencies/org/projectlombok/lombok/1.18.10/lombok-1.18.10.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.springframework.stereotype.Component;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-context:5.2.2.RELEASE",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/nl.42:spring-boot-starter-csv:0.3.0/dependencies/org/springframework/spring-context/5.2.2.RELEASE/spring-context-5.2.2.RELEASE.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.springframework.boot.context.properties.ConfigurationProperties;",
+      "artifact" : {
+        "artifact" : "org.springframework.boot:spring-boot:2.2.2.RELEASE",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/nl.42:spring-boot-starter-csv:0.3.0/dependencies/org/springframework/boot/spring-boot/2.2.2.RELEASE/spring-boot-2.2.2.RELEASE.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.io.File;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import static java.lang.String.format;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/nl.42:spring-boot-starter-csv/src/main/java/nl/_42/boot/csv/CsvMapper.java",
+    "useImportReport" : [ {
+      "importPath" : "import java.util.function.Function;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.csveed.api.Row;",
+      "artifact" : {
+        "artifact" : "org.csveed:csveed:0.5.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/nl.42:spring-boot-starter-csv:0.3.0/dependencies/org/csveed/csveed/0.5.0/csveed-0.5.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import java.util.Map;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.function.BiConsumer;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.HashMap;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.function.Supplier;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.csveed.api.Header;",
+      "artifact" : {
+        "artifact" : "org.csveed:csveed:0.5.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/nl.42:spring-boot-starter-csv:0.3.0/dependencies/org/csveed/csveed/0.5.0/csveed-0.5.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.apache.commons.lang3.StringUtils;",
+      "artifact" : {
+        "artifact" : "org.apache.commons:commons-lang3:3.9",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/nl.42:spring-boot-starter-csv:0.3.0/dependencies/org/apache/commons/commons-lang3/3.9/commons-lang3-3.9.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import java.util.Objects;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import static java.lang.String.format;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/nl.42:spring-boot-starter-csv/src/main/java/nl/_42/boot/csv/CsvController.java",
+    "useImportReport" : [ {
+      "importPath" : "import lombok.extern.slf4j.Slf4j;",
+      "artifact" : {
+        "artifact" : "org.projectlombok:lombok:1.18.10",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/nl.42:spring-boot-starter-csv:0.3.0/dependencies/org/projectlombok/lombok/1.18.10/lombok-1.18.10.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.springframework.web.bind.annotation.RestController;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-web:5.2.2.RELEASE",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/nl.42:spring-boot-starter-csv:0.3.0/dependencies/org/springframework/spring-web/5.2.2.RELEASE/spring-web-5.2.2.RELEASE.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.springframework.web.bind.annotation.RequestMapping;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-web:5.2.2.RELEASE",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/nl.42:spring-boot-starter-csv:0.3.0/dependencies/org/springframework/spring-web/5.2.2.RELEASE/spring-web-5.2.2.RELEASE.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import lombok.AllArgsConstructor;",
+      "artifact" : {
+        "artifact" : "org.projectlombok:lombok:1.18.10",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/nl.42:spring-boot-starter-csv:0.3.0/dependencies/org/projectlombok/lombok/1.18.10/lombok-1.18.10.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.springframework.web.bind.annotation.GetMapping;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-web:5.2.2.RELEASE",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/nl.42:spring-boot-starter-csv:0.3.0/dependencies/org/springframework/spring-web/5.2.2.RELEASE/spring-web-5.2.2.RELEASE.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.springframework.web.bind.annotation.PostMapping;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-web:5.2.2.RELEASE",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/nl.42:spring-boot-starter-csv:0.3.0/dependencies/org/springframework/spring-web/5.2.2.RELEASE/spring-web-5.2.2.RELEASE.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.springframework.web.multipart.MultipartFile;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-web:5.2.2.RELEASE",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/nl.42:spring-boot-starter-csv:0.3.0/dependencies/org/springframework/spring-web/5.2.2.RELEASE/spring-web-5.2.2.RELEASE.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.springframework.web.bind.annotation.RequestParam;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-web:5.2.2.RELEASE",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/nl.42:spring-boot-starter-csv:0.3.0/dependencies/org/springframework/spring-web/5.2.2.RELEASE/spring-web-5.2.2.RELEASE.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.io.InputStream;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.io.IOException;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/nl.42:spring-boot-starter-csv/src/main/java/nl/_42/boot/csv/CsvProperties.java",
+    "useImportReport" : [ {
+      "importPath" : "import lombok.Getter;",
+      "artifact" : {
+        "artifact" : "org.projectlombok:lombok:1.18.10",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/nl.42:spring-boot-starter-csv:0.3.0/dependencies/org/projectlombok/lombok/1.18.10/lombok-1.18.10.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import lombok.Setter;",
+      "artifact" : {
+        "artifact" : "org.projectlombok:lombok:1.18.10",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/nl.42:spring-boot-starter-csv:0.3.0/dependencies/org/projectlombok/lombok/1.18.10/lombok-1.18.10.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.springframework.stereotype.Component;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-context:5.2.2.RELEASE",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/nl.42:spring-boot-starter-csv:0.3.0/dependencies/org/springframework/spring-context/5.2.2.RELEASE/spring-context-5.2.2.RELEASE.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.springframework.boot.context.properties.ConfigurationProperties;",
+      "artifact" : {
+        "artifact" : "org.springframework.boot:spring-boot:2.2.2.RELEASE",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/nl.42:spring-boot-starter-csv:0.3.0/dependencies/org/springframework/boot/spring-boot/2.2.2.RELEASE/spring-boot-2.2.2.RELEASE.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.List;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.Collections;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/nl.42:spring-boot-starter-csv/src/main/java/nl/_42/boot/csv/AbstractCsvHandler.java",
+    "useImportReport" : [ {
+      "importPath" : "import lombok.Getter;",
+      "artifact" : {
+        "artifact" : "org.projectlombok:lombok:1.18.10",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/nl.42:spring-boot-starter-csv:0.3.0/dependencies/org/projectlombok/lombok/1.18.10/lombok-1.18.10.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.csveed.api.CsvClient;",
+      "artifact" : {
+        "artifact" : "org.csveed:csveed:0.5.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/nl.42:spring-boot-starter-csv:0.3.0/dependencies/org/csveed/csveed/0.5.0/csveed-0.5.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import java.util.function.Supplier;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/nl.42:spring-boot-starter-csv/src/main/java/nl/_42/boot/csv/CsvService.java",
+    "useImportReport" : [ {
+      "importPath" : "import lombok.extern.slf4j.Slf4j;",
+      "artifact" : {
+        "artifact" : "org.projectlombok:lombok:1.18.10",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/nl.42:spring-boot-starter-csv:0.3.0/dependencies/org/projectlombok/lombok/1.18.10/lombok-1.18.10.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.springframework.stereotype.Service;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-context:5.2.2.RELEASE",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/nl.42:spring-boot-starter-csv:0.3.0/dependencies/org/springframework/spring-context/5.2.2.RELEASE/spring-context-5.2.2.RELEASE.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.Map;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.HashMap;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.Collection;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.List;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.TreeSet;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.stream.Collectors;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.io.InputStream;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.Objects;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.csveed.api.CsvClient;",
+      "artifact" : {
+        "artifact" : "org.csveed:csveed:0.5.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/nl.42:spring-boot-starter-csv:0.3.0/dependencies/org/csveed/csveed/0.5.0/csveed-0.5.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import java.io.BufferedReader;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.io.InputStreamReader;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.csveed.api.CsvClientImpl;",
+      "artifact" : {
+        "artifact" : "org.csveed:csveed:0.5.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/nl.42:spring-boot-starter-csv:0.3.0/dependencies/org/csveed/csveed/0.5.0/csveed-0.5.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.springframework.beans.factory.annotation.Autowired;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-beans:5.2.2.RELEASE",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/nl.42:spring-boot-starter-csv:0.3.0/dependencies/org/springframework/spring-beans/5.2.2.RELEASE/spring-beans-5.2.2.RELEASE.jar"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/nl.42:spring-boot-starter-csv/src/main/java/nl/_42/boot/csv/CsvAutoConfiguration.java",
+    "useImportReport" : [ {
+      "importPath" : "import lombok.extern.slf4j.Slf4j;",
+      "artifact" : {
+        "artifact" : "org.projectlombok:lombok:1.18.10",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/nl.42:spring-boot-starter-csv:0.3.0/dependencies/org/projectlombok/lombok/1.18.10/lombok-1.18.10.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.springframework.context.annotation.Configuration;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-context:5.2.2.RELEASE",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/nl.42:spring-boot-starter-csv:0.3.0/dependencies/org/springframework/spring-context/5.2.2.RELEASE/spring-context-5.2.2.RELEASE.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.springframework.context.annotation.ComponentScan;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-context:5.2.2.RELEASE",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/nl.42:spring-boot-starter-csv:0.3.0/dependencies/org/springframework/spring-context/5.2.2.RELEASE/spring-context-5.2.2.RELEASE.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.springframework.boot.autoconfigure.condition.ConditionalOnProperty;",
+      "artifact" : {
+        "artifact" : "org.springframework.boot:spring-boot-autoconfigure:2.2.2.RELEASE",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/nl.42:spring-boot-starter-csv:0.3.0/dependencies/org/springframework/boot/spring-boot-autoconfigure/2.2.2.RELEASE/spring-boot-autoconfigure-2.2.2.RELEASE.jar"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/nl.42:spring-boot-starter-csv/src/main/java/nl/_42/boot/csv/AbstractRowCsvHandler.java",
+    "useImportReport" : [ {
+      "importPath" : "import org.csveed.api.Row;",
+      "artifact" : {
+        "artifact" : "org.csveed:csveed:0.5.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/nl.42:spring-boot-starter-csv:0.3.0/dependencies/org/csveed/csveed/0.5.0/csveed-0.5.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import lombok.Getter;",
+      "artifact" : {
+        "artifact" : "org.projectlombok:lombok:1.18.10",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/nl.42:spring-boot-starter-csv:0.3.0/dependencies/org/projectlombok/lombok/1.18.10/lombok-1.18.10.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.csveed.api.CsvClient;",
+      "artifact" : {
+        "artifact" : "org.csveed:csveed:0.5.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/nl.42:spring-boot-starter-csv:0.3.0/dependencies/org/csveed/csveed/0.5.0/csveed-0.5.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.csveed.api.Header;",
+      "artifact" : {
+        "artifact" : "org.csveed:csveed:0.5.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/nl.42:spring-boot-starter-csv:0.3.0/dependencies/org/csveed/csveed/0.5.0/csveed-0.5.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import java.util.function.Function;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/nl.42:spring-boot-starter-csv/src/main/java/nl/_42/boot/csv/CsvTemplate.java",
+    "useImportReport" : [ {
+      "importPath" : "import lombok.extern.slf4j.Slf4j;",
+      "artifact" : {
+        "artifact" : "org.projectlombok:lombok:1.18.10",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/nl.42:spring-boot-starter-csv:0.3.0/dependencies/org/projectlombok/lombok/1.18.10/lombok-1.18.10.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import lombok.AllArgsConstructor;",
+      "artifact" : {
+        "artifact" : "org.projectlombok:lombok:1.18.10",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/nl.42:spring-boot-starter-csv:0.3.0/dependencies/org/projectlombok/lombok/1.18.10/lombok-1.18.10.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import java.util.function.Supplier;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.function.Consumer;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.function.Function;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/nl.42:spring-boot-starter-csv/src/main/java/nl/_42/boot/csv/CsvHandler.java",
+    "useImportReport" : [ {
+      "importPath" : "import org.csveed.api.CsvClient;",
+      "artifact" : {
+        "artifact" : "org.csveed:csveed:0.5.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/nl.42:spring-boot-starter-csv:0.3.0/dependencies/org/csveed/csveed/0.5.0/csveed-0.5.0.jar"
+      },
+      "isDirectDependency" : true
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/nl.42:spring-boot-starter-csv/src/main/java/nl/_42/boot/csv/CsvResult.java",
+    "useImportReport" : [ {
+      "importPath" : "import lombok.Getter;",
+      "artifact" : {
+        "artifact" : "org.projectlombok:lombok:1.18.10",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/nl.42:spring-boot-starter-csv:0.3.0/dependencies/org/projectlombok/lombok/1.18.10/lombok-1.18.10.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import java.util.List;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.ArrayList;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.Set;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.HashSet;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.stream.Collectors;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  } ],
+  "projectUseDependencies" : [ {
+    "artifact" : "org.projectlombok:lombok:1.18.10",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/nl.42:spring-boot-starter-csv:0.3.0/dependencies/org/projectlombok/lombok/1.18.10/lombok-1.18.10.jar"
+  }, {
+    "artifact" : "org.csveed:csveed:0.5.0",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/nl.42:spring-boot-starter-csv:0.3.0/dependencies/org/csveed/csveed/0.5.0/csveed-0.5.0.jar"
+  }, {
+    "artifact" : "org.apache.commons:commons-lang3:3.9",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/nl.42:spring-boot-starter-csv:0.3.0/dependencies/org/apache/commons/commons-lang3/3.9/commons-lang3-3.9.jar"
+  } ],
+  "projectUseTransitiveDependencies" : [ {
+    "artifact" : "org.springframework.boot:spring-boot-starter-security:2.2.2.RELEASE",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/nl.42:spring-boot-starter-csv:0.3.0/dependencies/org/springframework/boot/spring-boot-starter-security/2.2.2.RELEASE/spring-boot-starter-security-2.2.2.RELEASE.jar"
+  }, {
+    "artifact" : "org.springframework.boot:spring-boot-starter-web:2.2.2.RELEASE",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/nl.42:spring-boot-starter-csv:0.3.0/dependencies/org/springframework/boot/spring-boot-starter-web/2.2.2.RELEASE/spring-boot-starter-web-2.2.2.RELEASE.jar"
+  }, {
+    "artifact" : "org.springframework.boot:spring-boot-starter-security:2.2.2.RELEASE",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/nl.42:spring-boot-starter-csv:0.3.0/dependencies/org/springframework/boot/spring-boot-starter-security/2.2.2.RELEASE/spring-boot-starter-security-2.2.2.RELEASE.jar"
+  }, {
+    "artifact" : "org.springframework.boot:spring-boot-starter-web:2.2.2.RELEASE",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/nl.42:spring-boot-starter-csv:0.3.0/dependencies/org/springframework/boot/spring-boot-starter-web/2.2.2.RELEASE/spring-boot-starter-web-2.2.2.RELEASE.jar"
+  }, {
+    "artifact" : "org.springframework.boot:spring-boot-starter-security:2.2.2.RELEASE",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/nl.42:spring-boot-starter-csv:0.3.0/dependencies/org/springframework/boot/spring-boot-starter-security/2.2.2.RELEASE/spring-boot-starter-security-2.2.2.RELEASE.jar"
+  }, {
+    "artifact" : "org.springframework.boot:spring-boot-starter-security:2.2.2.RELEASE",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/nl.42:spring-boot-starter-csv:0.3.0/dependencies/org/springframework/boot/spring-boot-starter-security/2.2.2.RELEASE/spring-boot-starter-security-2.2.2.RELEASE.jar"
+  }, {
+    "artifact" : "org.springframework.boot:spring-boot-starter-security:2.2.2.RELEASE",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/nl.42:spring-boot-starter-csv:0.3.0/dependencies/org/springframework/boot/spring-boot-starter-security/2.2.2.RELEASE/spring-boot-starter-security-2.2.2.RELEASE.jar"
+  }, {
+    "artifact" : "org.springframework.boot:spring-boot-starter-web:2.2.2.RELEASE",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/nl.42:spring-boot-starter-csv:0.3.0/dependencies/org/springframework/boot/spring-boot-starter-web/2.2.2.RELEASE/spring-boot-starter-web-2.2.2.RELEASE.jar"
+  }, {
+    "artifact" : "org.springframework.boot:spring-boot-starter-web:2.2.2.RELEASE",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/nl.42:spring-boot-starter-csv:0.3.0/dependencies/org/springframework/boot/spring-boot-starter-web/2.2.2.RELEASE/spring-boot-starter-web-2.2.2.RELEASE.jar"
+  } ],
+  "projectUnusedDependencies" : [ ]
+}

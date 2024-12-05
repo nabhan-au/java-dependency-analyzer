@@ -1,0 +1,1804 @@
+{
+  "projectArtifact" : "network.oxalis:pkix-ocsp:1.0.0-RC1",
+  "repositoryDir" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/network.oxalis:pkix-ocsp",
+  "repositorySubDir" : "",
+  "artifactLocation" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/network.oxalis:pkix-ocsp:1.0.0-RC1",
+  "fileImportReports" : [ {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/network.oxalis:pkix-ocsp/src/test/java/network/oxalis/pkix/ocsp/CertificateIssuerTest.java",
+    "useImportReport" : [ {
+      "importPath" : "import java.security.cert.X509Certificate;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.testng.annotations.Test;",
+      "artifact" : {
+        "artifact" : "org.testng:testng:6.14.3",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/network.oxalis:pkix-ocsp:1.0.0-RC1/dependencies/org/testng/testng/6.14.3/testng-6.14.3.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.testng.Assert;",
+      "artifact" : {
+        "artifact" : "org.testng:testng:6.14.3",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/network.oxalis:pkix-ocsp:1.0.0-RC1/dependencies/org/testng/testng/6.14.3/testng-6.14.3.jar"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ {
+      "importPath" : "import network.oxalis.pkix.ocsp.util.CertificateHelper;"
+    } ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/network.oxalis:pkix-ocsp/src/test/java/network/oxalis/pkix/ocsp/util/CertificateHelper.java",
+    "useImportReport" : [ {
+      "importPath" : "import java.security.cert.CertificateFactory;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.security.cert.CertificateException;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.security.cert.X509Certificate;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.io.InputStream;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/network.oxalis:pkix-ocsp/src/test/java/network/oxalis/pkix/ocsp/OcspResponseTest.java",
+    "useImportReport" : [ {
+      "importPath" : "import org.testng.annotations.Test;",
+      "artifact" : {
+        "artifact" : "org.testng:testng:6.14.3",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/network.oxalis:pkix-ocsp:1.0.0-RC1/dependencies/org/testng/testng/6.14.3/testng-6.14.3.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.io.IOException;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.io.ByteArrayInputStream;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/network.oxalis:pkix-ocsp/src/test/java/network/oxalis/pkix/ocsp/CertificateStatusTest.java",
+    "useImportReport" : [ {
+      "importPath" : "import org.testng.annotations.Test;",
+      "artifact" : {
+        "artifact" : "org.testng:testng:6.14.3",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/network.oxalis:pkix-ocsp:1.0.0-RC1/dependencies/org/testng/testng/6.14.3/testng-6.14.3.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.testng.Assert;",
+      "artifact" : {
+        "artifact" : "org.testng:testng:6.14.3",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/network.oxalis:pkix-ocsp:1.0.0-RC1/dependencies/org/testng/testng/6.14.3/testng-6.14.3.jar"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/network.oxalis:pkix-ocsp/src/test/java/network/oxalis/pkix/ocsp/AbstractOcspClientTest.java",
+    "useImportReport" : [ {
+      "importPath" : "import java.security.cert.X509Certificate;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.testng.annotations.Test;",
+      "artifact" : {
+        "artifact" : "org.testng:testng:6.14.3",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/network.oxalis:pkix-ocsp:1.0.0-RC1/dependencies/org/testng/testng/6.14.3/testng-6.14.3.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.io.IOException;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import network.oxalis.pkix.ocsp.api.OcspFetcherResponse;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.mockito.Mockito;",
+      "artifact" : {
+        "artifact" : "org.mockito:mockito-core:2.28.2",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/network.oxalis:pkix-ocsp:1.0.0-RC1/dependencies/org/mockito/mockito-core/2.28.2/mockito-core-2.28.2.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import network.oxalis.pkix.ocsp.api.OcspFetcher;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.net.URI;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ {
+      "importPath" : "import network.oxalis.pkix.ocsp.util.CertificateHelper;"
+    } ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/network.oxalis:pkix-ocsp/src/test/java/network/oxalis/pkix/ocsp/OcspDigestOutputStreamTest.java",
+    "useImportReport" : [ {
+      "importPath" : "import org.testng.annotations.Test;",
+      "artifact" : {
+        "artifact" : "org.testng:testng:6.14.3",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/network.oxalis:pkix-ocsp:1.0.0-RC1/dependencies/org/testng/testng/6.14.3/testng-6.14.3.jar"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/network.oxalis:pkix-ocsp/src/test/java/network/oxalis/pkix/ocsp/IOHelperTest.java",
+    "useImportReport" : [ {
+      "importPath" : "import org.testng.annotations.Test;",
+      "artifact" : {
+        "artifact" : "org.testng:testng:6.14.3",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/network.oxalis:pkix-ocsp:1.0.0-RC1/dependencies/org/testng/testng/6.14.3/testng-6.14.3.jar"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/network.oxalis:pkix-ocsp/src/test/java/network/oxalis/pkix/ocsp/OcspMultiClientTest.java",
+    "useImportReport" : [ {
+      "importPath" : "import org.testng.annotations.Test;",
+      "artifact" : {
+        "artifact" : "org.testng:testng:6.14.3",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/network.oxalis:pkix-ocsp:1.0.0-RC1/dependencies/org/testng/testng/6.14.3/testng-6.14.3.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.testng.Assert;",
+      "artifact" : {
+        "artifact" : "org.testng:testng:6.14.3",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/network.oxalis:pkix-ocsp:1.0.0-RC1/dependencies/org/testng/testng/6.14.3/testng-6.14.3.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.security.cert.X509Certificate;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/network.oxalis:pkix-ocsp/src/test/java/network/oxalis/pkix/ocsp/OcspClientTest.java",
+    "useImportReport" : [ {
+      "importPath" : "import org.testng.annotations.Test;",
+      "artifact" : {
+        "artifact" : "org.testng:testng:6.14.3",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/network.oxalis:pkix-ocsp:1.0.0-RC1/dependencies/org/testng/testng/6.14.3/testng-6.14.3.jar"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/network.oxalis:pkix-ocsp/src/test/java/network/oxalis/pkix/ocsp/issuer/PeppolTestOcspTest.java",
+    "useImportReport" : [ {
+      "importPath" : "import java.security.cert.X509Certificate;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.testng.annotations.Test;",
+      "artifact" : {
+        "artifact" : "org.testng:testng:6.14.3",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/network.oxalis:pkix-ocsp:1.0.0-RC1/dependencies/org/testng/testng/6.14.3/testng-6.14.3.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import network.oxalis.pkix.ocsp.OcspException;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import network.oxalis.pkix.ocsp.OcspClient;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.testng.Assert;",
+      "artifact" : {
+        "artifact" : "org.testng:testng:6.14.3",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/network.oxalis:pkix-ocsp:1.0.0-RC1/dependencies/org/testng/testng/6.14.3/testng-6.14.3.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import network.oxalis.pkix.ocsp.CertificateStatus;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.Collections;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ {
+      "importPath" : "import network.oxalis.pkix.ocsp.util.CertificateHelper;"
+    } ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/network.oxalis:pkix-ocsp/src/test/java/network/oxalis/pkix/ocsp/issuer/PeppolTestMultiOcspTest.java",
+    "useImportReport" : [ {
+      "importPath" : "import java.security.cert.X509Certificate;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.testng.annotations.Test;",
+      "artifact" : {
+        "artifact" : "org.testng:testng:6.14.3",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/network.oxalis:pkix-ocsp:1.0.0-RC1/dependencies/org/testng/testng/6.14.3/testng-6.14.3.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import network.oxalis.pkix.ocsp.OcspException;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import network.oxalis.pkix.ocsp.OcspMultiClient;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.Collections;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import network.oxalis.pkix.ocsp.OcspResult;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.testng.Assert;",
+      "artifact" : {
+        "artifact" : "org.testng:testng:6.14.3",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/network.oxalis:pkix-ocsp:1.0.0-RC1/dependencies/org/testng/testng/6.14.3/testng-6.14.3.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import network.oxalis.pkix.ocsp.CertificateStatus;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ {
+      "importPath" : "import network.oxalis.pkix.ocsp.util.CertificateHelper;"
+    } ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/network.oxalis:pkix-ocsp/src/test/java/network/oxalis/pkix/ocsp/issuer/CommfidesTestOcspTest.java",
+    "useImportReport" : [ {
+      "importPath" : "import java.security.cert.X509Certificate;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.testng.annotations.Test;",
+      "artifact" : {
+        "artifact" : "org.testng:testng:6.14.3",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/network.oxalis:pkix-ocsp:1.0.0-RC1/dependencies/org/testng/testng/6.14.3/testng-6.14.3.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import network.oxalis.pkix.ocsp.*;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import network.oxalis.pkix.ocsp.*;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import network.oxalis.pkix.ocsp.*;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.testng.Assert;",
+      "artifact" : {
+        "artifact" : "org.testng:testng:6.14.3",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/network.oxalis:pkix-ocsp:1.0.0-RC1/dependencies/org/testng/testng/6.14.3/testng-6.14.3.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import network.oxalis.pkix.ocsp.*;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import network.oxalis.pkix.ocsp.*;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.net.URI;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.math.BigInteger;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ {
+      "importPath" : "import network.oxalis.pkix.ocsp.util.CertificateHelper;"
+    } ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/network.oxalis:pkix-ocsp/src/test/java/network/oxalis/pkix/ocsp/issuer/BuypassTestMultiOcspTest.java",
+    "useImportReport" : [ {
+      "importPath" : "import java.security.cert.X509Certificate;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.testng.annotations.Test;",
+      "artifact" : {
+        "artifact" : "org.testng:testng:6.14.3",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/network.oxalis:pkix-ocsp:1.0.0-RC1/dependencies/org/testng/testng/6.14.3/testng-6.14.3.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import network.oxalis.pkix.ocsp.OcspException;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import network.oxalis.pkix.ocsp.OcspMultiClient;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.Collections;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import network.oxalis.pkix.ocsp.fetcher.ApacheOcspFetcher;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import network.oxalis.pkix.ocsp.OcspResult;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.testng.Assert;",
+      "artifact" : {
+        "artifact" : "org.testng:testng:6.14.3",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/network.oxalis:pkix-ocsp:1.0.0-RC1/dependencies/org/testng/testng/6.14.3/testng-6.14.3.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import network.oxalis.pkix.ocsp.CertificateStatus;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ {
+      "importPath" : "import network.oxalis.pkix.ocsp.util.CertificateHelper;"
+    } ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/network.oxalis:pkix-ocsp/src/test/java/network/oxalis/pkix/ocsp/issuer/PeppolProdMultiOcspTest.java",
+    "useImportReport" : [ {
+      "importPath" : "import java.security.cert.X509Certificate;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.testng.annotations.Test;",
+      "artifact" : {
+        "artifact" : "org.testng:testng:6.14.3",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/network.oxalis:pkix-ocsp:1.0.0-RC1/dependencies/org/testng/testng/6.14.3/testng-6.14.3.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import network.oxalis.pkix.ocsp.OcspException;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import network.oxalis.pkix.ocsp.OcspMultiClient;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.Collections;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import network.oxalis.pkix.ocsp.OcspResult;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.testng.Assert;",
+      "artifact" : {
+        "artifact" : "org.testng:testng:6.14.3",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/network.oxalis:pkix-ocsp:1.0.0-RC1/dependencies/org/testng/testng/6.14.3/testng-6.14.3.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import network.oxalis.pkix.ocsp.CertificateStatus;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ {
+      "importPath" : "import network.oxalis.pkix.ocsp.util.CertificateHelper;"
+    } ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/network.oxalis:pkix-ocsp/src/test/java/network/oxalis/pkix/ocsp/issuer/BuypassTestOcspTest.java",
+    "useImportReport" : [ {
+      "importPath" : "import java.security.cert.X509Certificate;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.testng.annotations.Test;",
+      "artifact" : {
+        "artifact" : "org.testng:testng:6.14.3",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/network.oxalis:pkix-ocsp:1.0.0-RC1/dependencies/org/testng/testng/6.14.3/testng-6.14.3.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import network.oxalis.pkix.ocsp.*;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import network.oxalis.pkix.ocsp.*;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import network.oxalis.pkix.ocsp.*;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.testng.Assert;",
+      "artifact" : {
+        "artifact" : "org.testng:testng:6.14.3",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/network.oxalis:pkix-ocsp:1.0.0-RC1/dependencies/org/testng/testng/6.14.3/testng-6.14.3.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import network.oxalis.pkix.ocsp.*;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import network.oxalis.pkix.ocsp.*;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.net.URI;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.math.BigInteger;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ {
+      "importPath" : "import network.oxalis.pkix.ocsp.util.CertificateHelper;"
+    } ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/network.oxalis:pkix-ocsp/src/test/java/network/oxalis/pkix/ocsp/issuer/SelfsignedOcspTest.java",
+    "useImportReport" : [ {
+      "importPath" : "import java.security.cert.X509Certificate;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.testng.annotations.Test;",
+      "artifact" : {
+        "artifact" : "org.testng:testng:6.14.3",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/network.oxalis:pkix-ocsp:1.0.0-RC1/dependencies/org/testng/testng/6.14.3/testng-6.14.3.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import network.oxalis.pkix.ocsp.OcspException;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import network.oxalis.pkix.ocsp.OcspClient;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.testng.Assert;",
+      "artifact" : {
+        "artifact" : "org.testng:testng:6.14.3",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/network.oxalis:pkix-ocsp:1.0.0-RC1/dependencies/org/testng/testng/6.14.3/testng-6.14.3.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import network.oxalis.pkix.ocsp.CertificateStatus;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ {
+      "importPath" : "import network.oxalis.pkix.ocsp.util.CertificateHelper;"
+    } ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/network.oxalis:pkix-ocsp/src/test/java/network/oxalis/pkix/ocsp/issuer/CommfidesTestMultiOcspTest.java",
+    "useImportReport" : [ {
+      "importPath" : "import java.security.cert.X509Certificate;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.testng.annotations.Test;",
+      "artifact" : {
+        "artifact" : "org.testng:testng:6.14.3",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/network.oxalis:pkix-ocsp:1.0.0-RC1/dependencies/org/testng/testng/6.14.3/testng-6.14.3.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import network.oxalis.pkix.ocsp.OcspException;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import network.oxalis.pkix.ocsp.OcspMultiClient;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.Collections;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import network.oxalis.pkix.ocsp.OcspResult;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.testng.Assert;",
+      "artifact" : {
+        "artifact" : "org.testng:testng:6.14.3",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/network.oxalis:pkix-ocsp:1.0.0-RC1/dependencies/org/testng/testng/6.14.3/testng-6.14.3.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import network.oxalis.pkix.ocsp.CertificateStatus;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ {
+      "importPath" : "import network.oxalis.pkix.ocsp.util.CertificateHelper;"
+    } ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/network.oxalis:pkix-ocsp/src/test/java/network/oxalis/pkix/ocsp/issuer/PeppolProdOcspTest.java",
+    "useImportReport" : [ {
+      "importPath" : "import java.security.cert.X509Certificate;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.testng.annotations.Test;",
+      "artifact" : {
+        "artifact" : "org.testng:testng:6.14.3",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/network.oxalis:pkix-ocsp:1.0.0-RC1/dependencies/org/testng/testng/6.14.3/testng-6.14.3.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import network.oxalis.pkix.ocsp.OcspException;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import network.oxalis.pkix.ocsp.OcspClient;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.testng.Assert;",
+      "artifact" : {
+        "artifact" : "org.testng:testng:6.14.3",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/network.oxalis:pkix-ocsp:1.0.0-RC1/dependencies/org/testng/testng/6.14.3/testng-6.14.3.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import network.oxalis.pkix.ocsp.CertificateStatus;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.Collections;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ {
+      "importPath" : "import network.oxalis.pkix.ocsp.util.CertificateHelper;"
+    } ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/network.oxalis:pkix-ocsp/src/main/java/network/oxalis/pkix/ocsp/CertificateIssuer.java",
+    "useImportReport" : [ {
+      "importPath" : "import java.io.Serializable;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.security.cert.X509Certificate;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.bouncycastle.cert.X509CertificateHolder;",
+      "artifact" : {
+        "artifact" : "org.bouncycastle:bcpkix-jdk15on:1.70",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/network.oxalis:pkix-ocsp:1.0.0-RC1/dependencies/org/bouncycastle/bcpkix-jdk15on/1.70/bcpkix-jdk15on-1.70.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.bouncycastle.asn1.ASN1Encoding;",
+      "artifact" : {
+        "artifact" : "org.bouncycastle:bcprov-jdk15on:1.70",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/network.oxalis:pkix-ocsp:1.0.0-RC1/dependencies/org/bouncycastle/bcprov-jdk15on/1.70/bcprov-jdk15on-1.70.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.bouncycastle.cert.ocsp.CertificateID;",
+      "artifact" : {
+        "artifact" : "org.bouncycastle:bcpkix-jdk15on:1.70",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/network.oxalis:pkix-ocsp:1.0.0-RC1/dependencies/org/bouncycastle/bcpkix-jdk15on/1.70/bcpkix-jdk15on-1.70.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import java.util.Arrays;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/network.oxalis:pkix-ocsp/src/main/java/network/oxalis/pkix/ocsp/OcspMultiClient.java",
+    "useImportReport" : [ {
+      "importPath" : "import network.oxalis.pkix.ocsp.builder.Builder;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import network.oxalis.pkix.ocsp.builder.BuildHandler;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import network.oxalis.pkix.ocsp.builder.Properties;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.security.cert.X509Certificate;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.net.URI;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.math.BigInteger;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/network.oxalis:pkix-ocsp/src/main/java/network/oxalis/pkix/ocsp/OcspResult.java",
+    "useImportReport" : [ {
+      "importPath" : "import java.util.Collections;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.math.BigInteger;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.Map;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.security.cert.X509Certificate;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/network.oxalis:pkix-ocsp/src/main/java/network/oxalis/pkix/ocsp/OcspRequest.java",
+    "useImportReport" : [ {
+      "importPath" : "import java.util.List;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.bouncycastle.asn1.x509.Extension;",
+      "artifact" : {
+        "artifact" : "org.bouncycastle:bcprov-jdk15on:1.70",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/network.oxalis:pkix-ocsp:1.0.0-RC1/dependencies/org/bouncycastle/bcprov-jdk15on/1.70/bcprov-jdk15on-1.70.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.ArrayList;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.math.BigInteger;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.bouncycastle.asn1.ASN1OctetString;",
+      "artifact" : {
+        "artifact" : "org.bouncycastle:bcprov-jdk15on:1.70",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/network.oxalis:pkix-ocsp:1.0.0-RC1/dependencies/org/bouncycastle/bcprov-jdk15on/1.70/bcprov-jdk15on-1.70.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.bouncycastle.asn1.x509.AlgorithmIdentifier;",
+      "artifact" : {
+        "artifact" : "org.bouncycastle:bcprov-jdk15on:1.70",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/network.oxalis:pkix-ocsp:1.0.0-RC1/dependencies/org/bouncycastle/bcprov-jdk15on/1.70/bcprov-jdk15on-1.70.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.bouncycastle.asn1.DEROctetString;",
+      "artifact" : {
+        "artifact" : "org.bouncycastle:bcprov-jdk15on:1.70",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/network.oxalis:pkix-ocsp:1.0.0-RC1/dependencies/org/bouncycastle/bcprov-jdk15on/1.70/bcprov-jdk15on-1.70.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.bouncycastle.asn1.ASN1ObjectIdentifier;",
+      "artifact" : {
+        "artifact" : "org.bouncycastle:bcprov-jdk15on:1.70",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/network.oxalis:pkix-ocsp:1.0.0-RC1/dependencies/org/bouncycastle/bcprov-jdk15on/1.70/bcprov-jdk15on-1.70.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.concurrent.ThreadLocalRandom;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.bouncycastle.asn1.ocsp.OCSPObjectIdentifiers;",
+      "artifact" : {
+        "artifact" : "org.bouncycastle:bcprov-jdk15on:1.70",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/network.oxalis:pkix-ocsp:1.0.0-RC1/dependencies/org/bouncycastle/bcprov-jdk15on/1.70/bcprov-jdk15on-1.70.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.Collections;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.bouncycastle.cert.ocsp.OCSPReqBuilder;",
+      "artifact" : {
+        "artifact" : "org.bouncycastle:bcpkix-jdk15on:1.70",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/network.oxalis:pkix-ocsp:1.0.0-RC1/dependencies/org/bouncycastle/bcpkix-jdk15on/1.70/bcpkix-jdk15on-1.70.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.bouncycastle.cert.ocsp.CertificateID;",
+      "artifact" : {
+        "artifact" : "org.bouncycastle:bcpkix-jdk15on:1.70",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/network.oxalis:pkix-ocsp:1.0.0-RC1/dependencies/org/bouncycastle/bcpkix-jdk15on/1.70/bcpkix-jdk15on-1.70.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.bouncycastle.asn1.ocsp.CertID;",
+      "artifact" : {
+        "artifact" : "org.bouncycastle:bcprov-jdk15on:1.70",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/network.oxalis:pkix-ocsp:1.0.0-RC1/dependencies/org/bouncycastle/bcprov-jdk15on/1.70/bcprov-jdk15on-1.70.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.bouncycastle.asn1.ASN1Integer;",
+      "artifact" : {
+        "artifact" : "org.bouncycastle:bcprov-jdk15on:1.70",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/network.oxalis:pkix-ocsp:1.0.0-RC1/dependencies/org/bouncycastle/bcprov-jdk15on/1.70/bcprov-jdk15on-1.70.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.bouncycastle.asn1.x509.Extensions;",
+      "artifact" : {
+        "artifact" : "org.bouncycastle:bcprov-jdk15on:1.70",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/network.oxalis:pkix-ocsp:1.0.0-RC1/dependencies/org/bouncycastle/bcprov-jdk15on/1.70/bcprov-jdk15on-1.70.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.bouncycastle.cert.ocsp.OCSPException;",
+      "artifact" : {
+        "artifact" : "org.bouncycastle:bcpkix-jdk15on:1.70",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/network.oxalis:pkix-ocsp:1.0.0-RC1/dependencies/org/bouncycastle/bcpkix-jdk15on/1.70/bcpkix-jdk15on-1.70.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import java.io.IOException;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/network.oxalis:pkix-ocsp/src/main/java/network/oxalis/pkix/ocsp/AbstractOcspClient.java",
+    "useImportReport" : [ {
+      "importPath" : "import network.oxalis.pkix.ocsp.builder.Property;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import network.oxalis.pkix.ocsp.api.OcspFetcher;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import network.oxalis.pkix.ocsp.fetcher.UrlOcspFetcher;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.List;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.security.cert.X509Certificate;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.Collections;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.net.URI;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import network.oxalis.pkix.ocsp.builder.Properties;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.bouncycastle.asn1.x509.Extension;",
+      "artifact" : {
+        "artifact" : "org.bouncycastle:bcprov-jdk15on:1.70",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/network.oxalis:pkix-ocsp:1.0.0-RC1/dependencies/org/bouncycastle/bcprov-jdk15on/1.70/bcprov-jdk15on-1.70.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.bouncycastle.asn1.ASN1Sequence;",
+      "artifact" : {
+        "artifact" : "org.bouncycastle:bcprov-jdk15on:1.70",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/network.oxalis:pkix-ocsp:1.0.0-RC1/dependencies/org/bouncycastle/bcprov-jdk15on/1.70/bcprov-jdk15on-1.70.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.bouncycastle.x509.extension.X509ExtensionUtil;",
+      "artifact" : {
+        "artifact" : "org.bouncycastle:bcprov-jdk15on:1.70",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/network.oxalis:pkix-ocsp:1.0.0-RC1/dependencies/org/bouncycastle/bcprov-jdk15on/1.70/bcprov-jdk15on-1.70.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.Enumeration;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.bouncycastle.asn1.x509.X509ObjectIdentifiers;",
+      "artifact" : {
+        "artifact" : "org.bouncycastle:bcprov-jdk15on:1.70",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/network.oxalis:pkix-ocsp:1.0.0-RC1/dependencies/org/bouncycastle/bcprov-jdk15on/1.70/bcprov-jdk15on-1.70.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.bouncycastle.asn1.ASN1TaggedObject;",
+      "artifact" : {
+        "artifact" : "org.bouncycastle:bcprov-jdk15on:1.70",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/network.oxalis:pkix-ocsp:1.0.0-RC1/dependencies/org/bouncycastle/bcprov-jdk15on/1.70/bcprov-jdk15on-1.70.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.bouncycastle.asn1.x509.GeneralName;",
+      "artifact" : {
+        "artifact" : "org.bouncycastle:bcprov-jdk15on:1.70",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/network.oxalis:pkix-ocsp:1.0.0-RC1/dependencies/org/bouncycastle/bcprov-jdk15on/1.70/bcprov-jdk15on-1.70.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.bouncycastle.asn1.ASN1OctetString;",
+      "artifact" : {
+        "artifact" : "org.bouncycastle:bcprov-jdk15on:1.70",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/network.oxalis:pkix-ocsp:1.0.0-RC1/dependencies/org/bouncycastle/bcprov-jdk15on/1.70/bcprov-jdk15on-1.70.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import network.oxalis.pkix.ocsp.api.OcspFetcherResponse;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.io.InputStream;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.io.IOException;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/network.oxalis:pkix-ocsp/src/main/java/network/oxalis/pkix/ocsp/OcspResponse.java",
+    "useImportReport" : [ {
+      "importPath" : "import java.net.URI;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.bouncycastle.cert.ocsp.*;",
+      "artifact" : {
+        "artifact" : "org.bouncycastle:bcpkix-jdk15on:1.70",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/network.oxalis:pkix-ocsp:1.0.0-RC1/dependencies/org/bouncycastle/bcpkix-jdk15on/1.70/bcpkix-jdk15on-1.70.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import java.io.InputStream;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.io.IOException;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.bouncycastle.asn1.ocsp.OCSPResponseStatus;",
+      "artifact" : {
+        "artifact" : "org.bouncycastle:bcprov-jdk15on:1.70",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/network.oxalis:pkix-ocsp:1.0.0-RC1/dependencies/org/bouncycastle/bcprov-jdk15on/1.70/bcprov-jdk15on-1.70.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.bouncycastle.cert.ocsp.*;",
+      "artifact" : {
+        "artifact" : "org.bouncycastle:bcpkix-jdk15on:1.70",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/network.oxalis:pkix-ocsp:1.0.0-RC1/dependencies/org/bouncycastle/bcpkix-jdk15on/1.70/bcpkix-jdk15on-1.70.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.bouncycastle.cert.ocsp.*;",
+      "artifact" : {
+        "artifact" : "org.bouncycastle:bcpkix-jdk15on:1.70",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/network.oxalis:pkix-ocsp:1.0.0-RC1/dependencies/org/bouncycastle/bcpkix-jdk15on/1.70/bcpkix-jdk15on-1.70.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import java.util.Map;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.math.BigInteger;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.HashMap;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.bouncycastle.cert.ocsp.*;",
+      "artifact" : {
+        "artifact" : "org.bouncycastle:bcpkix-jdk15on:1.70",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/network.oxalis:pkix-ocsp:1.0.0-RC1/dependencies/org/bouncycastle/bcpkix-jdk15on/1.70/bcpkix-jdk15on-1.70.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.bouncycastle.cert.ocsp.*;",
+      "artifact" : {
+        "artifact" : "org.bouncycastle:bcpkix-jdk15on:1.70",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/network.oxalis:pkix-ocsp:1.0.0-RC1/dependencies/org/bouncycastle/bcpkix-jdk15on/1.70/bcpkix-jdk15on-1.70.jar"
+      },
+      "isDirectDependency" : true
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ {
+      "importPath" : "org.bouncycastle.cert.ocsp.CertificateStatus",
+      "artifact" : {
+        "artifact" : "org.bouncycastle:bcpkix-jdk15on:1.70",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/network.oxalis:pkix-ocsp:1.0.0-RC1/dependencies/org/bouncycastle/bcpkix-jdk15on/1.70/bcpkix-jdk15on-1.70.jar"
+      },
+      "isDirectDependency" : true
+    } ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/network.oxalis:pkix-ocsp/src/main/java/network/oxalis/pkix/ocsp/IOHelper.java",
+    "useImportReport" : [ {
+      "importPath" : "import java.io.InputStream;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.io.IOException;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.io.ByteArrayOutputStream;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/network.oxalis:pkix-ocsp/src/main/java/network/oxalis/pkix/ocsp/fetcher/AbstractOcspFetcher.java",
+    "useImportReport" : [ {
+      "importPath" : "import network.oxalis.pkix.ocsp.api.OcspFetcher;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import network.oxalis.pkix.ocsp.builder.Property;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import network.oxalis.pkix.ocsp.builder.Properties;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/network.oxalis:pkix-ocsp/src/main/java/network/oxalis/pkix/ocsp/fetcher/ApacheOcspFetcher.java",
+    "useImportReport" : [ {
+      "importPath" : "import network.oxalis.pkix.ocsp.builder.Property;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.apache.http.conn.HttpClientConnectionManager;",
+      "artifact" : {
+        "artifact" : "org.apache.httpcomponents:httpclient:4.5.13",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/network.oxalis:pkix-ocsp:1.0.0-RC1/dependencies/org/apache/httpcomponents/httpclient/4.5.13/httpclient-4.5.13.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import network.oxalis.pkix.ocsp.builder.Builder;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import network.oxalis.pkix.ocsp.api.OcspFetcher;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import network.oxalis.pkix.ocsp.builder.BuildHandler;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import network.oxalis.pkix.ocsp.builder.Properties;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import network.oxalis.pkix.ocsp.api.OcspFetcherResponse;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.net.URI;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.io.IOException;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.apache.http.client.methods.HttpPost;",
+      "artifact" : {
+        "artifact" : "org.apache.httpcomponents:httpclient:4.5.13",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/network.oxalis:pkix-ocsp:1.0.0-RC1/dependencies/org/apache/httpcomponents/httpclient/4.5.13/httpclient-4.5.13.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.apache.http.entity.ByteArrayEntity;",
+      "artifact" : {
+        "artifact" : "org.apache.httpcomponents:httpcore:4.4.13",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/network.oxalis:pkix-ocsp:1.0.0-RC1/dependencies/org/apache/httpcomponents/httpcore/4.4.13/httpcore-4.4.13.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.apache.http.impl.client.CloseableHttpClient;",
+      "artifact" : {
+        "artifact" : "org.apache.httpcomponents:httpclient:4.5.13",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/network.oxalis:pkix-ocsp:1.0.0-RC1/dependencies/org/apache/httpcomponents/httpclient/4.5.13/httpclient-4.5.13.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.apache.http.impl.client.HttpClientBuilder;",
+      "artifact" : {
+        "artifact" : "org.apache.httpcomponents:httpclient:4.5.13",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/network.oxalis:pkix-ocsp:1.0.0-RC1/dependencies/org/apache/httpcomponents/httpclient/4.5.13/httpclient-4.5.13.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.apache.http.client.config.RequestConfig;",
+      "artifact" : {
+        "artifact" : "org.apache.httpcomponents:httpclient:4.5.13",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/network.oxalis:pkix-ocsp:1.0.0-RC1/dependencies/org/apache/httpcomponents/httpclient/4.5.13/httpclient-4.5.13.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.apache.http.client.methods.CloseableHttpResponse;",
+      "artifact" : {
+        "artifact" : "org.apache.httpcomponents:httpclient:4.5.13",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/network.oxalis:pkix-ocsp:1.0.0-RC1/dependencies/org/apache/httpcomponents/httpclient/4.5.13/httpclient-4.5.13.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import java.io.InputStream;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/network.oxalis:pkix-ocsp/src/main/java/network/oxalis/pkix/ocsp/fetcher/UrlOcspFetcher.java",
+    "useImportReport" : [ {
+      "importPath" : "import network.oxalis.pkix.ocsp.builder.Builder;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import network.oxalis.pkix.ocsp.api.OcspFetcher;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import network.oxalis.pkix.ocsp.builder.BuildHandler;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import network.oxalis.pkix.ocsp.builder.Properties;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import network.oxalis.pkix.ocsp.api.OcspFetcherResponse;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.net.URI;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.io.IOException;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.net.HttpURLConnection;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.io.InputStream;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/network.oxalis:pkix-ocsp/src/main/java/network/oxalis/pkix/ocsp/CertificateStatus.java",
+    "useImportReport" : [ ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/network.oxalis:pkix-ocsp/src/main/java/network/oxalis/pkix/ocsp/OcspDigestOutputStream.java",
+    "useImportReport" : [ {
+      "importPath" : "import java.io.OutputStream;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.security.MessageDigest;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.security.NoSuchAlgorithmException;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.io.IOException;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/network.oxalis:pkix-ocsp/src/main/java/network/oxalis/pkix/ocsp/CertificateResult.java",
+    "useImportReport" : [ {
+      "importPath" : "import java.io.Serializable;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.net.URI;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.math.BigInteger;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.Date;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/network.oxalis:pkix-ocsp/src/main/java/network/oxalis/pkix/ocsp/api/OcspFetcherResponse.java",
+    "useImportReport" : [ {
+      "importPath" : "import java.io.Closeable;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.io.IOException;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.io.InputStream;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/network.oxalis:pkix-ocsp/src/main/java/network/oxalis/pkix/ocsp/api/OcspFetcher.java",
+    "useImportReport" : [ {
+      "importPath" : "import java.net.URI;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.io.IOException;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/network.oxalis:pkix-ocsp/src/main/java/network/oxalis/pkix/ocsp/builder/Property.java",
+    "useImportReport" : [ ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/network.oxalis:pkix-ocsp/src/main/java/network/oxalis/pkix/ocsp/builder/Builder.java",
+    "useImportReport" : [ {
+      "importPath" : "import java.util.Map;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.HashMap;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/network.oxalis:pkix-ocsp/src/main/java/network/oxalis/pkix/ocsp/builder/BuildHandler.java",
+    "useImportReport" : [ ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/network.oxalis:pkix-ocsp/src/main/java/network/oxalis/pkix/ocsp/builder/Properties.java",
+    "useImportReport" : [ {
+      "importPath" : "import java.util.Map;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/network.oxalis:pkix-ocsp/src/main/java/network/oxalis/pkix/ocsp/OcspServerException.java",
+    "useImportReport" : [ ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/network.oxalis:pkix-ocsp/src/main/java/network/oxalis/pkix/ocsp/OcspException.java",
+    "useImportReport" : [ ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/network.oxalis:pkix-ocsp/src/main/java/network/oxalis/pkix/ocsp/OcspClient.java",
+    "useImportReport" : [ {
+      "importPath" : "import network.oxalis.pkix.ocsp.builder.Property;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import network.oxalis.pkix.ocsp.builder.Builder;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import network.oxalis.pkix.ocsp.builder.BuildHandler;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import network.oxalis.pkix.ocsp.builder.Properties;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.security.cert.X509Certificate;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.net.URI;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.math.BigInteger;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  } ],
+  "projectUseDependencies" : [ {
+    "artifact" : "org.bouncycastle:bcpkix-jdk15on:1.70",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/network.oxalis:pkix-ocsp:1.0.0-RC1/dependencies/org/bouncycastle/bcpkix-jdk15on/1.70/bcpkix-jdk15on-1.70.jar"
+  }, {
+    "artifact" : "org.apache.httpcomponents:httpclient:4.5.13",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/network.oxalis:pkix-ocsp:1.0.0-RC1/dependencies/org/apache/httpcomponents/httpclient/4.5.13/httpclient-4.5.13.jar"
+  } ],
+  "projectUseTransitiveDependencies" : [ ],
+  "projectUnusedDependencies" : [ ]
+}

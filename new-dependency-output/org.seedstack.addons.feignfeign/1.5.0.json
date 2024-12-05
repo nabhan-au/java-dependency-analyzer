@@ -1,0 +1,1563 @@
+{
+  "projectArtifact" : "org.seedstack.addons.feign:feign:1.5.0",
+  "repositoryDir" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/org.seedstack.addons.feign:feign",
+  "repositorySubDir" : "",
+  "artifactLocation" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.seedstack.addons.feign:feign:1.5.0",
+  "fileImportReports" : [ {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/org.seedstack.addons.feign:feign/src/test/java/org/seedstack/feign/fixtures/Message.java",
+    "useImportReport" : [ ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/org.seedstack.addons.feign:feign/src/test/java/org/seedstack/feign/fixtures/TimeoutFallbackFactory.java",
+    "useImportReport" : [ {
+      "importPath" : "import feign.hystrix.FallbackFactory;",
+      "artifact" : {
+        "artifact" : "io.github.openfeign:feign-hystrix:11.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.seedstack.addons.feign:feign:1.5.0/dependencies/io/github/openfeign/feign-hystrix/11.0/feign-hystrix-11.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import java.util.concurrent.atomic.AtomicBoolean;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ {
+      "importPath" : "import org.seedstack.feign.fixtures.apis.TimeoutAPI;"
+    } ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/org.seedstack.addons.feign:feign/src/test/java/org/seedstack/feign/fixtures/FeignTestException.java",
+    "useImportReport" : [ ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/org.seedstack.addons.feign:feign/src/test/java/org/seedstack/feign/fixtures/apis/TestAPI.java",
+    "useImportReport" : [ {
+      "importPath" : "import org.seedstack.feign.FeignApi;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import feign.Headers;",
+      "artifact" : {
+        "artifact" : "io.github.openfeign:feign-core:11.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.seedstack.addons.feign:feign:1.5.0/dependencies/io/github/openfeign/feign-core/11.0/feign-core-11.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import feign.RequestLine;",
+      "artifact" : {
+        "artifact" : "io.github.openfeign:feign-core:11.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.seedstack.addons.feign:feign:1.5.0/dependencies/io/github/openfeign/feign-core/11.0/feign-core-11.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import feign.Param;",
+      "artifact" : {
+        "artifact" : "io.github.openfeign:feign-core:11.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.seedstack.addons.feign:feign:1.5.0/dependencies/io/github/openfeign/feign-core/11.0/feign-core-11.0.jar"
+      },
+      "isDirectDependency" : true
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ {
+      "importPath" : "import org.seedstack.feign.fixtures.Message;"
+    } ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/org.seedstack.addons.feign:feign/src/test/java/org/seedstack/feign/fixtures/apis/RetryTestAPI.java",
+    "useImportReport" : [ {
+      "importPath" : "import org.seedstack.feign.FeignApi;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import feign.RequestLine;",
+      "artifact" : {
+        "artifact" : "io.github.openfeign:feign-core:11.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.seedstack.addons.feign:feign:1.5.0/dependencies/io/github/openfeign/feign-core/11.0/feign-core-11.0.jar"
+      },
+      "isDirectDependency" : true
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ {
+      "importPath" : "import org.seedstack.feign.fixtures.Message;"
+    } ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/org.seedstack.addons.feign:feign/src/test/java/org/seedstack/feign/fixtures/apis/HystrixEnabledAPI.java",
+    "useImportReport" : [ {
+      "importPath" : "import org.seedstack.feign.FeignApi;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import feign.RequestLine;",
+      "artifact" : {
+        "artifact" : "io.github.openfeign:feign-core:11.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.seedstack.addons.feign:feign:1.5.0/dependencies/io/github/openfeign/feign-core/11.0/feign-core-11.0.jar"
+      },
+      "isDirectDependency" : true
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ {
+      "importPath" : "import org.seedstack.feign.fixtures.Message;"
+    } ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/org.seedstack.addons.feign:feign/src/test/java/org/seedstack/feign/fixtures/apis/TimeoutAPI.java",
+    "useImportReport" : [ {
+      "importPath" : "import org.seedstack.feign.FeignApi;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import feign.Headers;",
+      "artifact" : {
+        "artifact" : "io.github.openfeign:feign-core:11.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.seedstack.addons.feign:feign:1.5.0/dependencies/io/github/openfeign/feign-core/11.0/feign-core-11.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import feign.RequestLine;",
+      "artifact" : {
+        "artifact" : "io.github.openfeign:feign-core:11.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.seedstack.addons.feign:feign:1.5.0/dependencies/io/github/openfeign/feign-core/11.0/feign-core-11.0.jar"
+      },
+      "isDirectDependency" : true
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ {
+      "importPath" : "import org.seedstack.feign.fixtures.Message;"
+    } ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/org.seedstack.addons.feign:feign/src/test/java/org/seedstack/feign/fixtures/apis/RetryerTestAPI.java",
+    "useImportReport" : [ {
+      "importPath" : "import org.seedstack.feign.FeignApi;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import feign.RequestLine;",
+      "artifact" : {
+        "artifact" : "io.github.openfeign:feign-core:11.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.seedstack.addons.feign:feign:1.5.0/dependencies/io/github/openfeign/feign-core/11.0/feign-core-11.0.jar"
+      },
+      "isDirectDependency" : true
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ {
+      "importPath" : "import org.seedstack.feign.fixtures.Message;"
+    } ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/org.seedstack.addons.feign:feign/src/test/java/org/seedstack/feign/fixtures/apis/TargetableAPI.java",
+    "useImportReport" : [ {
+      "importPath" : "import org.seedstack.feign.FeignApi;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import feign.RequestLine;",
+      "artifact" : {
+        "artifact" : "io.github.openfeign:feign-core:11.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.seedstack.addons.feign:feign:1.5.0/dependencies/io/github/openfeign/feign-core/11.0/feign-core-11.0.jar"
+      },
+      "isDirectDependency" : true
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ {
+      "importPath" : "import org.seedstack.feign.fixtures.Message;"
+    } ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/org.seedstack.addons.feign:feign/src/test/java/org/seedstack/feign/fixtures/apis/TestContractAPI.java",
+    "useImportReport" : [ {
+      "importPath" : "import org.seedstack.feign.FeignApi;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import feign.RequestLine;",
+      "artifact" : {
+        "artifact" : "io.github.openfeign:feign-core:11.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.seedstack.addons.feign:feign:1.5.0/dependencies/io/github/openfeign/feign-core/11.0/feign-core-11.0.jar"
+      },
+      "isDirectDependency" : true
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ {
+      "importPath" : "import org.seedstack.feign.fixtures.Message;"
+    } ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/org.seedstack.addons.feign:feign/src/test/java/org/seedstack/feign/fixtures/apis/RetryGlobalConfTestAPI.java",
+    "useImportReport" : [ {
+      "importPath" : "import org.seedstack.feign.FeignApi;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import feign.RequestLine;",
+      "artifact" : {
+        "artifact" : "io.github.openfeign:feign-core:11.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.seedstack.addons.feign:feign:1.5.0/dependencies/io/github/openfeign/feign-core/11.0/feign-core-11.0.jar"
+      },
+      "isDirectDependency" : true
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ {
+      "importPath" : "import org.seedstack.feign.fixtures.Message;"
+    } ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/org.seedstack.addons.feign:feign/src/test/java/org/seedstack/feign/fixtures/apis/ErrorDecoderTestAPI.java",
+    "useImportReport" : [ {
+      "importPath" : "import org.seedstack.feign.FeignApi;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import feign.RequestLine;",
+      "artifact" : {
+        "artifact" : "io.github.openfeign:feign-core:11.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.seedstack.addons.feign:feign:1.5.0/dependencies/io/github/openfeign/feign-core/11.0/feign-core-11.0.jar"
+      },
+      "isDirectDependency" : true
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ {
+      "importPath" : "import org.seedstack.feign.fixtures.Message;"
+    } ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/org.seedstack.addons.feign:feign/src/test/java/org/seedstack/feign/fixtures/apis/HystrixDisabledAPI.java",
+    "useImportReport" : [ {
+      "importPath" : "import org.seedstack.feign.FeignApi;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import feign.RequestLine;",
+      "artifact" : {
+        "artifact" : "io.github.openfeign:feign-core:11.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.seedstack.addons.feign:feign:1.5.0/dependencies/io/github/openfeign/feign-core/11.0/feign-core-11.0.jar"
+      },
+      "isDirectDependency" : true
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ {
+      "importPath" : "import org.seedstack.feign.fixtures.Message;"
+    } ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/org.seedstack.addons.feign:feign/src/test/java/org/seedstack/feign/fixtures/TestErrorDecoder.java",
+    "useImportReport" : [ {
+      "importPath" : "import feign.codec.ErrorDecoder;",
+      "artifact" : {
+        "artifact" : "io.github.openfeign:feign-core:11.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.seedstack.addons.feign:feign:1.5.0/dependencies/io/github/openfeign/feign-core/11.0/feign-core-11.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import feign.Response;",
+      "artifact" : {
+        "artifact" : "io.github.openfeign:feign-core:11.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.seedstack.addons.feign:feign:1.5.0/dependencies/io/github/openfeign/feign-core/11.0/feign-core-11.0.jar"
+      },
+      "isDirectDependency" : true
+    } ],
+    "unusedImportReport" : [ {
+      "importPath" : "import feign.FeignException;",
+      "artifact" : {
+        "artifact" : "io.github.openfeign:feign-core:11.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.seedstack.addons.feign:feign:1.5.0/dependencies/io/github/openfeign/feign-core/11.0/feign-core-11.0.jar"
+      },
+      "isDirectDependency" : true
+    } ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/org.seedstack.addons.feign:feign/src/test/java/org/seedstack/feign/fixtures/TestFallback.java",
+    "useImportReport" : [ ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ {
+      "importPath" : "import org.seedstack.feign.fixtures.apis.HystrixEnabledAPI;"
+    }, {
+      "importPath" : "import org.seedstack.feign.fixtures.apis.TestAPI;"
+    } ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/org.seedstack.addons.feign:feign/src/test/java/org/seedstack/feign/fixtures/TestRetryer.java",
+    "useImportReport" : [ {
+      "importPath" : "import feign.Retryer;",
+      "artifact" : {
+        "artifact" : "io.github.openfeign:feign-core:11.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.seedstack.addons.feign:feign:1.5.0/dependencies/io/github/openfeign/feign-core/11.0/feign-core-11.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.slf4j.Logger;",
+      "artifact" : {
+        "artifact" : "org.slf4j:slf4j-api:1.7.30",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.seedstack.addons.feign:feign:1.5.0/dependencies/org/slf4j/slf4j-api/1.7.30/slf4j-api-1.7.30.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.seedstack.seed.Logging;",
+      "artifact" : {
+        "artifact" : "org.seedstack.seed:seed-specs:3.12.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.seedstack.addons.feign:feign:1.5.0/dependencies/org/seedstack/seed/seed-specs/3.12.0/seed-specs-3.12.0.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import feign.RetryableException;",
+      "artifact" : {
+        "artifact" : "io.github.openfeign:feign-core:11.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.seedstack.addons.feign:feign:1.5.0/dependencies/io/github/openfeign/feign-core/11.0/feign-core-11.0.jar"
+      },
+      "isDirectDependency" : true
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/org.seedstack.addons.feign:feign/src/test/java/org/seedstack/feign/fixtures/TestInterceptor.java",
+    "useImportReport" : [ {
+      "importPath" : "import feign.RequestInterceptor;",
+      "artifact" : {
+        "artifact" : "io.github.openfeign:feign-core:11.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.seedstack.addons.feign:feign:1.5.0/dependencies/io/github/openfeign/feign-core/11.0/feign-core-11.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.seedstack.seed.Application;",
+      "artifact" : {
+        "artifact" : "org.seedstack.seed:seed-specs:3.12.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.seedstack.addons.feign:feign:1.5.0/dependencies/org/seedstack/seed/seed-specs/3.12.0/seed-specs-3.12.0.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import javax.inject.Inject;",
+      "artifact" : {
+        "artifact" : "org.glassfish.hk2.external:jakarta.inject:2.6.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.seedstack.addons.feign:feign:1.5.0/dependencies/org/glassfish/hk2/external/jakarta.inject/2.6.1/jakarta.inject-2.6.1.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import javax.inject.Inject;",
+      "artifact" : {
+        "artifact" : "javax.inject:javax.inject:1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.seedstack.addons.feign:feign:1.5.0/dependencies/javax/inject/javax.inject/1/javax.inject-1.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import feign.RequestTemplate;",
+      "artifact" : {
+        "artifact" : "io.github.openfeign:feign-core:11.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.seedstack.addons.feign:feign:1.5.0/dependencies/io/github/openfeign/feign-core/11.0/feign-core-11.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import static org.assertj.core.api.Assertions.assertThat;",
+      "artifact" : {
+        "artifact" : "org.assertj:assertj-core:3.12.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.seedstack.addons.feign:feign:1.5.0/dependencies/org/assertj/assertj-core/3.12.1/assertj-core-3.12.1.jar"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/org.seedstack.addons.feign:feign/src/test/java/org/seedstack/feign/fixtures/RetryErrorDecoder.java",
+    "useImportReport" : [ {
+      "importPath" : "import feign.codec.ErrorDecoder;",
+      "artifact" : {
+        "artifact" : "io.github.openfeign:feign-core:11.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.seedstack.addons.feign:feign:1.5.0/dependencies/io/github/openfeign/feign-core/11.0/feign-core-11.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import feign.Response;",
+      "artifact" : {
+        "artifact" : "io.github.openfeign:feign-core:11.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.seedstack.addons.feign:feign:1.5.0/dependencies/io/github/openfeign/feign-core/11.0/feign-core-11.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import feign.RetryableException;",
+      "artifact" : {
+        "artifact" : "io.github.openfeign:feign-core:11.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.seedstack.addons.feign:feign:1.5.0/dependencies/io/github/openfeign/feign-core/11.0/feign-core-11.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import java.util.Date;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/org.seedstack.addons.feign:feign/src/test/java/org/seedstack/feign/fixtures/TestResource.java",
+    "useImportReport" : [ {
+      "importPath" : "import javax.ws.rs.Path;",
+      "artifact" : {
+        "artifact" : "jakarta.ws.rs:jakarta.ws.rs-api:2.1.6",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.seedstack.addons.feign:feign:1.5.0/dependencies/jakarta/ws/rs/jakarta.ws.rs-api/2.1.6/jakarta.ws.rs-api-2.1.6.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import javax.ws.rs.Path;",
+      "artifact" : {
+        "artifact" : "javax.ws.rs:javax.ws.rs-api:2.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.seedstack.addons.feign:feign:1.5.0/dependencies/javax/ws/rs/javax.ws.rs-api/2.1/javax.ws.rs-api-2.1.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.slf4j.Logger;",
+      "artifact" : {
+        "artifact" : "org.slf4j:slf4j-api:1.7.30",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.seedstack.addons.feign:feign:1.5.0/dependencies/org/slf4j/slf4j-api/1.7.30/slf4j-api-1.7.30.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.seedstack.seed.Logging;",
+      "artifact" : {
+        "artifact" : "org.seedstack.seed:seed-specs:3.12.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.seedstack.addons.feign:feign:1.5.0/dependencies/org/seedstack/seed/seed-specs/3.12.0/seed-specs-3.12.0.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import javax.ws.rs.GET;",
+      "artifact" : {
+        "artifact" : "jakarta.ws.rs:jakarta.ws.rs-api:2.1.6",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.seedstack.addons.feign:feign:1.5.0/dependencies/jakarta/ws/rs/jakarta.ws.rs-api/2.1.6/jakarta.ws.rs-api-2.1.6.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import javax.ws.rs.GET;",
+      "artifact" : {
+        "artifact" : "javax.ws.rs:javax.ws.rs-api:2.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.seedstack.addons.feign:feign:1.5.0/dependencies/javax/ws/rs/javax.ws.rs-api/2.1/javax.ws.rs-api-2.1.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import javax.ws.rs.Produces;",
+      "artifact" : {
+        "artifact" : "jakarta.ws.rs:jakarta.ws.rs-api:2.1.6",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.seedstack.addons.feign:feign:1.5.0/dependencies/jakarta/ws/rs/jakarta.ws.rs-api/2.1.6/jakarta.ws.rs-api-2.1.6.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import javax.ws.rs.Produces;",
+      "artifact" : {
+        "artifact" : "javax.ws.rs:javax.ws.rs-api:2.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.seedstack.addons.feign:feign:1.5.0/dependencies/javax/ws/rs/javax.ws.rs-api/2.1/javax.ws.rs-api-2.1.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import javax.ws.rs.core.MediaType;",
+      "artifact" : {
+        "artifact" : "jakarta.ws.rs:jakarta.ws.rs-api:2.1.6",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.seedstack.addons.feign:feign:1.5.0/dependencies/jakarta/ws/rs/jakarta.ws.rs-api/2.1.6/jakarta.ws.rs-api-2.1.6.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import javax.ws.rs.core.MediaType;",
+      "artifact" : {
+        "artifact" : "javax.ws.rs:javax.ws.rs-api:2.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.seedstack.addons.feign:feign:1.5.0/dependencies/javax/ws/rs/javax.ws.rs-api/2.1/javax.ws.rs-api-2.1.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import javax.ws.rs.core.Response;",
+      "artifact" : {
+        "artifact" : "jakarta.ws.rs:jakarta.ws.rs-api:2.1.6",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.seedstack.addons.feign:feign:1.5.0/dependencies/jakarta/ws/rs/jakarta.ws.rs-api/2.1.6/jakarta.ws.rs-api-2.1.6.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import javax.ws.rs.core.Response;",
+      "artifact" : {
+        "artifact" : "javax.ws.rs:javax.ws.rs-api:2.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.seedstack.addons.feign:feign:1.5.0/dependencies/javax/ws/rs/javax.ws.rs-api/2.1/javax.ws.rs-api-2.1.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.net.UnknownHostException;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ {
+      "importPath" : "import feign.Request;",
+      "artifact" : {
+        "artifact" : "io.github.openfeign:feign-core:11.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.seedstack.addons.feign:feign:1.5.0/dependencies/io/github/openfeign/feign-core/11.0/feign-core-11.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import feign.RetryableException;",
+      "artifact" : {
+        "artifact" : "io.github.openfeign:feign-core:11.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.seedstack.addons.feign:feign:1.5.0/dependencies/io/github/openfeign/feign-core/11.0/feign-core-11.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import feign.Util;",
+      "artifact" : {
+        "artifact" : "io.github.openfeign:feign-core:11.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.seedstack.addons.feign:feign:1.5.0/dependencies/io/github/openfeign/feign-core/11.0/feign-core-11.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import java.io.IOException;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.Collections;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.Date;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/org.seedstack.addons.feign:feign/src/test/java/org/seedstack/feign/fixtures/TestTarget.java",
+    "useImportReport" : [ {
+      "importPath" : "import feign.Target.HardCodedTarget;",
+      "artifact" : {
+        "artifact" : "io.github.openfeign:feign-core:11.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.seedstack.addons.feign:feign:1.5.0/dependencies/io/github/openfeign/feign-core/11.0/feign-core-11.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import javax.inject.Inject;",
+      "artifact" : {
+        "artifact" : "org.glassfish.hk2.external:jakarta.inject:2.6.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.seedstack.addons.feign:feign:1.5.0/dependencies/org/glassfish/hk2/external/jakarta.inject/2.6.1/jakarta.inject-2.6.1.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import javax.inject.Inject;",
+      "artifact" : {
+        "artifact" : "javax.inject:javax.inject:1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.seedstack.addons.feign:feign:1.5.0/dependencies/javax/inject/javax.inject/1/javax.inject-1.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.seedstack.seed.Application;",
+      "artifact" : {
+        "artifact" : "org.seedstack.seed:seed-specs:3.12.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.seedstack.addons.feign:feign:1.5.0/dependencies/org/seedstack/seed/seed-specs/3.12.0/seed-specs-3.12.0.jar"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ {
+      "importPath" : "import org.seedstack.feign.fixtures.apis.TargetableAPI;"
+    } ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/org.seedstack.addons.feign:feign/src/test/java/org/seedstack/feign/fixtures/TestContract.java",
+    "useImportReport" : [ {
+      "importPath" : "import feign.Contract;",
+      "artifact" : {
+        "artifact" : "io.github.openfeign:feign-core:11.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.seedstack.addons.feign:feign:1.5.0/dependencies/io/github/openfeign/feign-core/11.0/feign-core-11.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import java.util.Map;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.Collection;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.LinkedHashMap;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.ArrayList;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import feign.MethodMetadata;",
+      "artifact" : {
+        "artifact" : "io.github.openfeign:feign-core:11.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.seedstack.addons.feign:feign:1.5.0/dependencies/io/github/openfeign/feign-core/11.0/feign-core-11.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import feign.Headers;",
+      "artifact" : {
+        "artifact" : "io.github.openfeign:feign-core:11.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.seedstack.addons.feign:feign:1.5.0/dependencies/io/github/openfeign/feign-core/11.0/feign-core-11.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import static feign.Util.checkState;",
+      "artifact" : {
+        "artifact" : "io.github.openfeign:feign-core:11.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.seedstack.addons.feign:feign:1.5.0/dependencies/io/github/openfeign/feign-core/11.0/feign-core-11.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import java.lang.annotation.Annotation;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.lang.reflect.Method;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import feign.RequestLine;",
+      "artifact" : {
+        "artifact" : "io.github.openfeign:feign-core:11.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.seedstack.addons.feign:feign:1.5.0/dependencies/io/github/openfeign/feign-core/11.0/feign-core-11.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import static feign.Util.emptyToNull;",
+      "artifact" : {
+        "artifact" : "io.github.openfeign:feign-core:11.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.seedstack.addons.feign:feign:1.5.0/dependencies/io/github/openfeign/feign-core/11.0/feign-core-11.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import feign.Request;",
+      "artifact" : {
+        "artifact" : "io.github.openfeign:feign-core:11.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.seedstack.addons.feign:feign:1.5.0/dependencies/io/github/openfeign/feign-core/11.0/feign-core-11.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import feign.Body;",
+      "artifact" : {
+        "artifact" : "io.github.openfeign:feign-core:11.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.seedstack.addons.feign:feign:1.5.0/dependencies/io/github/openfeign/feign-core/11.0/feign-core-11.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import java.nio.charset.Charset;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import feign.Param;",
+      "artifact" : {
+        "artifact" : "io.github.openfeign:feign-core:11.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.seedstack.addons.feign:feign:1.5.0/dependencies/io/github/openfeign/feign-core/11.0/feign-core-11.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import feign.QueryMap;",
+      "artifact" : {
+        "artifact" : "io.github.openfeign:feign-core:11.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.seedstack.addons.feign:feign:1.5.0/dependencies/io/github/openfeign/feign-core/11.0/feign-core-11.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import feign.HeaderMap;",
+      "artifact" : {
+        "artifact" : "io.github.openfeign:feign-core:11.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.seedstack.addons.feign:feign:1.5.0/dependencies/io/github/openfeign/feign-core/11.0/feign-core-11.0.jar"
+      },
+      "isDirectDependency" : true
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/org.seedstack.addons.feign:feign/src/test/java/org/seedstack/feign/HttpsFeignIT.java",
+    "useImportReport" : [ {
+      "importPath" : "import org.seedstack.seed.testing.ConfigurationProfiles;",
+      "artifact" : {
+        "artifact" : "org.seedstack.seed:seed-testing-specs:3.12.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.seedstack.addons.feign:feign:1.5.0/dependencies/org/seedstack/seed/seed-testing-specs/3.12.0/seed-testing-specs-3.12.0.jar"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/org.seedstack.addons.feign:feign/src/test/java/org/seedstack/feign/HttpFeignIT.java",
+    "useImportReport" : [ ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/org.seedstack.addons.feign:feign/src/test/java/org/seedstack/feign/AbstractFeignIT.java",
+    "useImportReport" : [ {
+      "importPath" : "import org.junit.runner.RunWith;",
+      "artifact" : {
+        "artifact" : "junit:junit:4.12",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.seedstack.addons.feign:feign:1.5.0/dependencies/junit/junit/4.12/junit-4.12.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.seedstack.seed.testing.junit4.SeedITRunner;",
+      "artifact" : {
+        "artifact" : "org.seedstack.seed:seed-testing-junit4:3.12.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.seedstack.addons.feign:feign:1.5.0/dependencies/org/seedstack/seed/seed-testing-junit4/3.12.0/seed-testing-junit4-3.12.0.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.seedstack.seed.undertow.LaunchWithUndertow;",
+      "artifact" : {
+        "artifact" : "org.seedstack.seed:seed-web-undertow:3.12.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.seedstack.addons.feign:feign:1.5.0/dependencies/org/seedstack/seed/seed-web-undertow/3.12.0/seed-web-undertow-3.12.0.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.slf4j.Logger;",
+      "artifact" : {
+        "artifact" : "org.slf4j:slf4j-api:1.7.30",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.seedstack.addons.feign:feign:1.5.0/dependencies/org/slf4j/slf4j-api/1.7.30/slf4j-api-1.7.30.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.seedstack.seed.Logging;",
+      "artifact" : {
+        "artifact" : "org.seedstack.seed:seed-specs:3.12.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.seedstack.addons.feign:feign:1.5.0/dependencies/org/seedstack/seed/seed-specs/3.12.0/seed-specs-3.12.0.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.net.URL;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.seedstack.seed.Configuration;",
+      "artifact" : {
+        "artifact" : "org.seedstack.seed:seed-specs:3.12.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.seedstack.addons.feign:feign:1.5.0/dependencies/org/seedstack/seed/seed-specs/3.12.0/seed-specs-3.12.0.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import javax.inject.Inject;",
+      "artifact" : {
+        "artifact" : "org.glassfish.hk2.external:jakarta.inject:2.6.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.seedstack.addons.feign:feign:1.5.0/dependencies/org/glassfish/hk2/external/jakarta.inject/2.6.1/jakarta.inject-2.6.1.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import javax.inject.Inject;",
+      "artifact" : {
+        "artifact" : "javax.inject:javax.inject:1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.seedstack.addons.feign:feign:1.5.0/dependencies/javax/inject/javax.inject/1/javax.inject-1.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.junit.Test;",
+      "artifact" : {
+        "artifact" : "junit:junit:4.12",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.seedstack.addons.feign:feign:1.5.0/dependencies/junit/junit/4.12/junit-4.12.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import static org.assertj.core.api.Assertions.assertThat;",
+      "artifact" : {
+        "artifact" : "org.assertj:assertj-core:3.12.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.seedstack.addons.feign:feign:1.5.0/dependencies/org/assertj/assertj-core/3.12.1/assertj-core-3.12.1.jar"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ {
+      "importPath" : "import feign.FeignException;",
+      "artifact" : {
+        "artifact" : "io.github.openfeign:feign-core:11.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.seedstack.addons.feign:feign:1.5.0/dependencies/io/github/openfeign/feign-core/11.0/feign-core-11.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.seedstack.feign.fixtures.apis.*;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ {
+      "importPath" : "import org.seedstack.feign.fixtures.FeignTestException;"
+    }, {
+      "importPath" : "import org.seedstack.feign.fixtures.Message;"
+    }, {
+      "importPath" : "import org.seedstack.feign.fixtures.RetryErrorDecoder;"
+    }, {
+      "importPath" : "import org.seedstack.feign.fixtures.TestContract;"
+    }, {
+      "importPath" : "import org.seedstack.feign.fixtures.TestInterceptor;"
+    }, {
+      "importPath" : "import org.seedstack.feign.fixtures.TestRetryer;"
+    } ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/org.seedstack.addons.feign:feign/src/main/java/org/seedstack/feign/FeignApi.java",
+    "useImportReport" : [ {
+      "importPath" : "import java.lang.annotation.Retention;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.lang.annotation.RetentionPolicy;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.lang.annotation.Target;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.lang.annotation.ElementType;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.lang.annotation.Documented;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/org.seedstack.addons.feign:feign/src/main/java/org/seedstack/feign/internal/FeignModule.java",
+    "useImportReport" : [ {
+      "importPath" : "import com.google.inject.AbstractModule;",
+      "artifact" : {
+        "artifact" : "com.google.inject:guice:5.0.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.seedstack.addons.feign:feign:1.5.0/dependencies/com/google/inject/guice/5.0.1/guice-5.0.1.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.Collection;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import javax.net.ssl.SSLContext;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/org.seedstack.addons.feign:feign/src/main/java/org/seedstack/feign/internal/FeignProvider.java",
+    "useImportReport" : [ {
+      "importPath" : "import javax.inject.Provider;",
+      "artifact" : {
+        "artifact" : "org.glassfish.hk2.external:jakarta.inject:2.6.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.seedstack.addons.feign:feign:1.5.0/dependencies/org/glassfish/hk2/external/jakarta.inject/2.6.1/jakarta.inject-2.6.1.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import javax.inject.Provider;",
+      "artifact" : {
+        "artifact" : "javax.inject:javax.inject:1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.seedstack.addons.feign:feign:1.5.0/dependencies/javax/inject/javax.inject/1/javax.inject-1.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.seedstack.shed.reflect.Classes;",
+      "artifact" : {
+        "artifact" : "org.seedstack.shed:shed:1.1.6",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.seedstack.addons.feign:feign:1.5.0/dependencies/org/seedstack/shed/shed/1.1.6/shed-1.1.6.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import javax.net.ssl.SSLContext;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.seedstack.feign.FeignConfig;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.seedstack.seed.Configuration;",
+      "artifact" : {
+        "artifact" : "org.seedstack.seed:seed-specs:3.12.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.seedstack.addons.feign:feign:1.5.0/dependencies/org/seedstack/seed/seed-specs/3.12.0/seed-specs-3.12.0.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.google.inject.Injector;",
+      "artifact" : {
+        "artifact" : "com.google.inject:guice:5.0.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.seedstack.addons.feign:feign:1.5.0/dependencies/com/google/inject/guice/5.0.1/guice-5.0.1.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import javax.inject.Inject;",
+      "artifact" : {
+        "artifact" : "org.glassfish.hk2.external:jakarta.inject:2.6.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.seedstack.addons.feign:feign:1.5.0/dependencies/org/glassfish/hk2/external/jakarta.inject/2.6.1/jakarta.inject-2.6.1.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import javax.inject.Inject;",
+      "artifact" : {
+        "artifact" : "javax.inject:javax.inject:1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.seedstack.addons.feign:feign:1.5.0/dependencies/javax/inject/javax.inject/1/javax.inject-1.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import feign.*;",
+      "artifact" : {
+        "artifact" : "io.github.openfeign:feign-core:11.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.seedstack.addons.feign:feign:1.5.0/dependencies/io/github/openfeign/feign-core/11.0/feign-core-11.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import feign.*;",
+      "artifact" : {
+        "artifact" : "io.github.openfeign:feign-core:11.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.seedstack.addons.feign:feign:1.5.0/dependencies/io/github/openfeign/feign-core/11.0/feign-core-11.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import feign.*;",
+      "artifact" : {
+        "artifact" : "io.github.openfeign:feign-core:11.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.seedstack.addons.feign:feign:1.5.0/dependencies/io/github/openfeign/feign-core/11.0/feign-core-11.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import feign.hystrix.HystrixFeign;",
+      "artifact" : {
+        "artifact" : "io.github.openfeign:feign-hystrix:11.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.seedstack.addons.feign:feign:1.5.0/dependencies/io/github/openfeign/feign-hystrix/11.0/feign-hystrix-11.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import feign.hystrix.FallbackFactory;",
+      "artifact" : {
+        "artifact" : "io.github.openfeign:feign-hystrix:11.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.seedstack.addons.feign:feign:1.5.0/dependencies/io/github/openfeign/feign-hystrix/11.0/feign-hystrix-11.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.seedstack.seed.SeedException;",
+      "artifact" : {
+        "artifact" : "org.seedstack.seed:seed-specs:3.12.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.seedstack.addons.feign:feign:1.5.0/dependencies/org/seedstack/seed/seed-specs/3.12.0/seed-specs-3.12.0.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import feign.*;",
+      "artifact" : {
+        "artifact" : "io.github.openfeign:feign-core:11.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.seedstack.addons.feign:feign:1.5.0/dependencies/io/github/openfeign/feign-core/11.0/feign-core-11.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import feign.*;",
+      "artifact" : {
+        "artifact" : "io.github.openfeign:feign-core:11.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.seedstack.addons.feign:feign:1.5.0/dependencies/io/github/openfeign/feign-core/11.0/feign-core-11.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import feign.codec.Encoder;",
+      "artifact" : {
+        "artifact" : "io.github.openfeign:feign-core:11.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.seedstack.addons.feign:feign:1.5.0/dependencies/io/github/openfeign/feign-core/11.0/feign-core-11.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import feign.codec.Decoder;",
+      "artifact" : {
+        "artifact" : "io.github.openfeign:feign-core:11.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.seedstack.addons.feign:feign:1.5.0/dependencies/io/github/openfeign/feign-core/11.0/feign-core-11.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import feign.codec.ErrorDecoder;",
+      "artifact" : {
+        "artifact" : "io.github.openfeign:feign-core:11.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.seedstack.addons.feign:feign:1.5.0/dependencies/io/github/openfeign/feign-core/11.0/feign-core-11.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import feign.*;",
+      "artifact" : {
+        "artifact" : "io.github.openfeign:feign-core:11.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.seedstack.addons.feign:feign:1.5.0/dependencies/io/github/openfeign/feign-core/11.0/feign-core-11.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.seedstack.feign.FeignConfig.EndpointConfig;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import feign.Target.HardCodedTarget;",
+      "artifact" : {
+        "artifact" : "io.github.openfeign:feign-core:11.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.seedstack.addons.feign:feign:1.5.0/dependencies/io/github/openfeign/feign-core/11.0/feign-core-11.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import feign.*;",
+      "artifact" : {
+        "artifact" : "io.github.openfeign:feign-core:11.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.seedstack.addons.feign:feign:1.5.0/dependencies/io/github/openfeign/feign-core/11.0/feign-core-11.0.jar"
+      },
+      "isDirectDependency" : true
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ {
+      "importPath" : "Classes.optional(\"com.netflix.hystrix.Hystrix\")",
+      "artifact" : {
+        "artifact" : "com.netflix.hystrix:hystrix-core:1.5.18",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.seedstack.addons.feign:feign:1.5.0/dependencies/com/netflix/hystrix/hystrix-core/1.5.18/hystrix-core-1.5.18.jar"
+      },
+      "isDirectDependency" : false
+    } ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/org.seedstack.addons.feign:feign/src/main/java/org/seedstack/feign/internal/FeignInterceptorPredicate.java",
+    "useImportReport" : [ {
+      "importPath" : "import java.util.function.Predicate;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import feign.RequestLine;",
+      "artifact" : {
+        "artifact" : "io.github.openfeign:feign-core:11.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.seedstack.addons.feign:feign:1.5.0/dependencies/io/github/openfeign/feign-core/11.0/feign-core-11.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.seedstack.shed.reflect.ClassPredicates;",
+      "artifact" : {
+        "artifact" : "org.seedstack.shed:shed:1.1.6",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.seedstack.addons.feign:feign:1.5.0/dependencies/org/seedstack/shed/shed/1.1.6/shed-1.1.6.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import feign.RequestInterceptor;",
+      "artifact" : {
+        "artifact" : "io.github.openfeign:feign-core:11.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.seedstack.addons.feign:feign:1.5.0/dependencies/io/github/openfeign/feign-core/11.0/feign-core-11.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import java.lang.reflect.Modifier;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/org.seedstack.addons.feign:feign/src/main/java/org/seedstack/feign/internal/FeignConfigurableRetryer.java",
+    "useImportReport" : [ {
+      "importPath" : "import feign.Retryer;",
+      "artifact" : {
+        "artifact" : "io.github.openfeign:feign-core:11.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.seedstack.addons.feign:feign:1.5.0/dependencies/io/github/openfeign/feign-core/11.0/feign-core-11.0.jar"
+      },
+      "isDirectDependency" : true
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/org.seedstack.addons.feign:feign/src/main/java/org/seedstack/feign/internal/FeignErrorCode.java",
+    "useImportReport" : [ {
+      "importPath" : "import org.seedstack.shed.exception.ErrorCode;",
+      "artifact" : {
+        "artifact" : "org.seedstack.shed:shed:1.1.6",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.seedstack.addons.feign:feign:1.5.0/dependencies/org/seedstack/shed/shed/1.1.6/shed-1.1.6.jar"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/org.seedstack.addons.feign:feign/src/main/java/org/seedstack/feign/internal/FeignPlugin.java",
+    "useImportReport" : [ {
+      "importPath" : "import org.seedstack.seed.core.internal.AbstractSeedPlugin;",
+      "artifact" : {
+        "artifact" : "org.seedstack.seed:seed-core:3.12.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.seedstack.addons.feign:feign:1.5.0/dependencies/org/seedstack/seed/seed-core/3.12.0/seed-core-3.12.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import java.util.*;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.*;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.*;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.*;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import javax.net.ssl.SSLContext;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.google.common.collect.Lists;",
+      "artifact" : {
+        "artifact" : "com.google.guava:guava:30.1.1-jre",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.seedstack.addons.feign:feign:1.5.0/dependencies/com/google/guava/guava/30.1.1-jre/guava-30.1.1-jre.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.seedstack.seed.core.internal.crypto.CryptoPlugin;",
+      "artifact" : {
+        "artifact" : "org.seedstack.seed:seed-core:3.12.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.seedstack.addons.feign:feign:1.5.0/dependencies/org/seedstack/seed/seed-core/3.12.0/seed-core-3.12.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import io.nuun.kernel.api.plugin.request.ClasspathScanRequest;",
+      "artifact" : {
+        "artifact" : "io.nuun.kernel:kernel-specs:1.0.M11",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.seedstack.addons.feign:feign:1.5.0/dependencies/io/nuun/kernel/kernel-specs/1.0.M11/kernel-specs-1.0.M11.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import io.nuun.kernel.api.plugin.InitState;",
+      "artifact" : {
+        "artifact" : "io.nuun.kernel:kernel-specs:1.0.M11",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.seedstack.addons.feign:feign:1.5.0/dependencies/io/nuun/kernel/kernel-specs/1.0.M11/kernel-specs-1.0.M11.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import io.nuun.kernel.api.plugin.context.InitContext;",
+      "artifact" : {
+        "artifact" : "io.nuun.kernel:kernel-specs:1.0.M11",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.seedstack.addons.feign:feign:1.5.0/dependencies/io/nuun/kernel/kernel-specs/1.0.M11/kernel-specs-1.0.M11.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.*;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.function.Predicate;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.seedstack.feign.FeignConfig;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import feign.Target;",
+      "artifact" : {
+        "artifact" : "io.github.openfeign:feign-core:11.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.seedstack.addons.feign:feign:1.5.0/dependencies/io/github/openfeign/feign-core/11.0/feign-core-11.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import feign.Contract;",
+      "artifact" : {
+        "artifact" : "io.github.openfeign:feign-core:11.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.seedstack.addons.feign:feign:1.5.0/dependencies/io/github/openfeign/feign-core/11.0/feign-core-11.0.jar"
+      },
+      "isDirectDependency" : true
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/org.seedstack.addons.feign:feign/src/main/java/org/seedstack/feign/internal/FeignInterfacePredicate.java",
+    "useImportReport" : [ {
+      "importPath" : "import java.util.function.Predicate;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import feign.RequestLine;",
+      "artifact" : {
+        "artifact" : "io.github.openfeign:feign-core:11.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.seedstack.addons.feign:feign:1.5.0/dependencies/io/github/openfeign/feign-core/11.0/feign-core-11.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.seedstack.shed.reflect.ClassPredicates;",
+      "artifact" : {
+        "artifact" : "org.seedstack.shed:shed:1.1.6",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.seedstack.addons.feign:feign:1.5.0/dependencies/org/seedstack/shed/shed/1.1.6/shed-1.1.6.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.seedstack.shed.reflect.AnnotationPredicates;",
+      "artifact" : {
+        "artifact" : "org.seedstack.shed:shed:1.1.6",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.seedstack.addons.feign:feign:1.5.0/dependencies/org/seedstack/shed/shed/1.1.6/shed-1.1.6.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.seedstack.feign.FeignApi;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/org.seedstack.addons.feign:feign/src/main/java/org/seedstack/feign/FeignConfig.java",
+    "useImportReport" : [ {
+      "importPath" : "import org.seedstack.coffig.Config;",
+      "artifact" : {
+        "artifact" : "org.seedstack.coffig:coffig:3.1.7",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.seedstack.addons.feign:feign:1.5.0/dependencies/org/seedstack/coffig/coffig/3.1.7/coffig-3.1.7.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.*;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.*;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import javax.validation.constraints.NotNull;",
+      "artifact" : {
+        "artifact" : "javax.validation:validation-api:1.1.0.Final",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.seedstack.addons.feign:feign:1.5.0/dependencies/javax/validation/validation-api/1.1.0.Final/validation-api-1.1.0.Final.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import javax.validation.constraints.NotNull;",
+      "artifact" : {
+        "artifact" : "jakarta.validation:jakarta.validation-api:2.0.2",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.seedstack.addons.feign:feign:1.5.0/dependencies/jakarta/validation/jakarta.validation-api/2.0.2/jakarta.validation-api-2.0.2.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.*;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import feign.Retryer;",
+      "artifact" : {
+        "artifact" : "io.github.openfeign:feign-core:11.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.seedstack.addons.feign:feign:1.5.0/dependencies/io/github/openfeign/feign-core/11.0/feign-core-11.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.seedstack.coffig.SingleValue;",
+      "artifact" : {
+        "artifact" : "org.seedstack.coffig:coffig:3.1.7",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.seedstack.addons.feign:feign:1.5.0/dependencies/org/seedstack/coffig/coffig/3.1.7/coffig-3.1.7.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import feign.Contract;",
+      "artifact" : {
+        "artifact" : "io.github.openfeign:feign-core:11.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.seedstack.addons.feign:feign:1.5.0/dependencies/io/github/openfeign/feign-core/11.0/feign-core-11.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import feign.Target;",
+      "artifact" : {
+        "artifact" : "io.github.openfeign:feign-core:11.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.seedstack.addons.feign:feign:1.5.0/dependencies/io/github/openfeign/feign-core/11.0/feign-core-11.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import feign.Target.HardCodedTarget;",
+      "artifact" : {
+        "artifact" : "io.github.openfeign:feign-core:11.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.seedstack.addons.feign:feign:1.5.0/dependencies/io/github/openfeign/feign-core/11.0/feign-core-11.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import feign.codec.Encoder;",
+      "artifact" : {
+        "artifact" : "io.github.openfeign:feign-core:11.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.seedstack.addons.feign:feign:1.5.0/dependencies/io/github/openfeign/feign-core/11.0/feign-core-11.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import feign.jackson.JacksonEncoder;",
+      "artifact" : {
+        "artifact" : "io.github.openfeign:feign-jackson:11.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.seedstack.addons.feign:feign:1.5.0/dependencies/io/github/openfeign/feign-jackson/11.0/feign-jackson-11.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import feign.codec.Decoder;",
+      "artifact" : {
+        "artifact" : "io.github.openfeign:feign-core:11.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.seedstack.addons.feign:feign:1.5.0/dependencies/io/github/openfeign/feign-core/11.0/feign-core-11.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import feign.jackson.JacksonDecoder;",
+      "artifact" : {
+        "artifact" : "io.github.openfeign:feign-jackson:11.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.seedstack.addons.feign:feign:1.5.0/dependencies/io/github/openfeign/feign-jackson/11.0/feign-jackson-11.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import feign.Logger;",
+      "artifact" : {
+        "artifact" : "io.github.openfeign:feign-core:11.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.seedstack.addons.feign:feign:1.5.0/dependencies/io/github/openfeign/feign-core/11.0/feign-core-11.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import feign.slf4j.Slf4jLogger;",
+      "artifact" : {
+        "artifact" : "io.github.openfeign:feign-slf4j:11.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.seedstack.addons.feign:feign:1.5.0/dependencies/io/github/openfeign/feign-slf4j/11.0/feign-slf4j-11.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import java.util.concurrent.TimeUnit;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import javax.validation.constraints.Min;",
+      "artifact" : {
+        "artifact" : "javax.validation:validation-api:1.1.0.Final",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.seedstack.addons.feign:feign:1.5.0/dependencies/javax/validation/validation-api/1.1.0.Final/validation-api-1.1.0.Final.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import javax.validation.constraints.Min;",
+      "artifact" : {
+        "artifact" : "jakarta.validation:jakarta.validation-api:2.0.2",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.seedstack.addons.feign:feign:1.5.0/dependencies/jakarta/validation/jakarta.validation-api/2.0.2/jakarta.validation-api-2.0.2.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.*;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import feign.RequestInterceptor;",
+      "artifact" : {
+        "artifact" : "io.github.openfeign:feign-core:11.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.seedstack.addons.feign:feign:1.5.0/dependencies/io/github/openfeign/feign-core/11.0/feign-core-11.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import java.util.*;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import feign.codec.ErrorDecoder;",
+      "artifact" : {
+        "artifact" : "io.github.openfeign:feign-core:11.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.seedstack.addons.feign:feign:1.5.0/dependencies/io/github/openfeign/feign-core/11.0/feign-core-11.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.seedstack.seed.SeedException;",
+      "artifact" : {
+        "artifact" : "org.seedstack.seed:seed-specs:3.12.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.seedstack.addons.feign:feign:1.5.0/dependencies/org/seedstack/seed/seed-specs/3.12.0/seed-specs-3.12.0.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.seedstack.feign.internal.FeignErrorCode;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  } ],
+  "projectUseDependencies" : [ {
+    "artifact" : "io.github.openfeign:feign-hystrix:11.0",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.seedstack.addons.feign:feign:1.5.0/dependencies/io/github/openfeign/feign-hystrix/11.0/feign-hystrix-11.0.jar"
+  }, {
+    "artifact" : "io.github.openfeign:feign-core:11.0",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.seedstack.addons.feign:feign:1.5.0/dependencies/io/github/openfeign/feign-core/11.0/feign-core-11.0.jar"
+  }, {
+    "artifact" : "org.seedstack.seed:seed-core:3.12.0",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.seedstack.addons.feign:feign:1.5.0/dependencies/org/seedstack/seed/seed-core/3.12.0/seed-core-3.12.0.jar"
+  }, {
+    "artifact" : "javax.validation:validation-api:1.1.0.Final",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.seedstack.addons.feign:feign:1.5.0/dependencies/javax/validation/validation-api/1.1.0.Final/validation-api-1.1.0.Final.jar"
+  }, {
+    "artifact" : "io.github.openfeign:feign-jackson:11.0",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.seedstack.addons.feign:feign:1.5.0/dependencies/io/github/openfeign/feign-jackson/11.0/feign-jackson-11.0.jar"
+  }, {
+    "artifact" : "io.github.openfeign:feign-slf4j:11.0",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.seedstack.addons.feign:feign:1.5.0/dependencies/io/github/openfeign/feign-slf4j/11.0/feign-slf4j-11.0.jar"
+  }, {
+    "artifact" : "com.netflix.hystrix:hystrix-core:1.5.18",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.seedstack.addons.feign:feign:1.5.0/dependencies/com/netflix/hystrix/hystrix-core/1.5.18/hystrix-core-1.5.18.jar"
+  } ],
+  "projectUseTransitiveDependencies" : [ ],
+  "projectUnusedDependencies" : [ {
+    "artifact" : "com.google.code.findbugs:annotations:3.0.1",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.seedstack.addons.feign:feign:1.5.0/dependencies/com/google/code/findbugs/annotations/3.0.1/annotations-3.0.1.jar"
+  }, {
+    "artifact" : "com.google.code.findbugs:jsr305:3.0.2",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.seedstack.addons.feign:feign:1.5.0/dependencies/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar"
+  } ]
+}

@@ -1,0 +1,1008 @@
+{
+  "projectArtifact" : "net.smartcosmos:smartcosmos-dao-relationships-default:3.0.0",
+  "repositoryDir" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/net.smartcosmos:smartcosmos-dao-relationships-default",
+  "repositorySubDir" : "",
+  "artifactLocation" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/net.smartcosmos:smartcosmos-dao-relationships-default:3.0.0",
+  "fileImportReports" : [ {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/net.smartcosmos:smartcosmos-dao-relationships-default/src/main/java/net/smartcosmos/dao/relationships/impl/RelationshipPersistenceService.java",
+    "useImportReport" : [ {
+      "importPath" : "import net.smartcosmos.dao.relationships.RelationshipDao;",
+      "artifact" : {
+        "artifact" : "net.smartcosmos:smartcosmos-dao-relationships:3.0.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/net.smartcosmos:smartcosmos-dao-relationships-default:3.0.0/dependencies/net/smartcosmos/smartcosmos-dao-relationships/3.0.0/smartcosmos-dao-relationships-3.0.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import lombok.extern.slf4j.Slf4j;",
+      "artifact" : {
+        "artifact" : "org.projectlombok:lombok:1.16.6",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/net.smartcosmos:smartcosmos-dao-relationships-default:3.0.0/dependencies/org/projectlombok/lombok/1.16.6/lombok-1.16.6.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.springframework.stereotype.Service;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-context:4.2.6.RELEASE",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/net.smartcosmos:smartcosmos-dao-relationships-default:3.0.0/dependencies/org/springframework/spring-context/4.2.6.RELEASE/spring-context-4.2.6.RELEASE.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import net.smartcosmos.dao.relationships.repository.RelationshipRepository;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.springframework.core.convert.ConversionService;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-core:4.2.6.RELEASE",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/net.smartcosmos:smartcosmos-dao-relationships-default:3.0.0/dependencies/org/springframework/spring-core/4.2.6.RELEASE/spring-core-4.2.6.RELEASE.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import net.smartcosmos.dao.relationships.util.SearchSpecifications;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import net.smartcosmos.dao.relationships.domain.RelationshipEntity;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.springframework.beans.factory.annotation.Autowired;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-beans:4.2.6.RELEASE",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/net.smartcosmos:smartcosmos-dao-relationships-default:3.0.0/dependencies/org/springframework/spring-beans/4.2.6.RELEASE/spring-beans-4.2.6.RELEASE.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.Optional;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import net.smartcosmos.dto.relationships.RelationshipResponse;",
+      "artifact" : {
+        "artifact" : "net.smartcosmos:smartcosmos-dao-relationships:3.0.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/net.smartcosmos:smartcosmos-dao-relationships-default:3.0.0/dependencies/net/smartcosmos/smartcosmos-dao-relationships/3.0.0/smartcosmos-dao-relationships-3.0.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import net.smartcosmos.dto.relationships.RelationshipCreate;",
+      "artifact" : {
+        "artifact" : "net.smartcosmos:smartcosmos-dao-relationships:3.0.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/net.smartcosmos:smartcosmos-dao-relationships-default:3.0.0/dependencies/net/smartcosmos/smartcosmos-dao-relationships/3.0.0/smartcosmos-dao-relationships-3.0.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import java.util.UUID;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import net.smartcosmos.dao.relationships.util.UuidUtil;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.springframework.core.convert.ConversionException;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-core:4.2.6.RELEASE",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/net.smartcosmos:smartcosmos-dao-relationships-default:3.0.0/dependencies/org/springframework/spring-core/4.2.6.RELEASE/spring-core-4.2.6.RELEASE.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.List;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import net.smartcosmos.dto.relationships.Page;",
+      "artifact" : {
+        "artifact" : "net.smartcosmos:smartcosmos-dao-relationships:3.0.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/net.smartcosmos:smartcosmos-dao-relationships-default:3.0.0/dependencies/net/smartcosmos/smartcosmos-dao-relationships/3.0.0/smartcosmos-dao-relationships-3.0.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import net.smartcosmos.dao.relationships.SortOrder;",
+      "artifact" : {
+        "artifact" : "net.smartcosmos:smartcosmos-dao-relationships:3.0.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/net.smartcosmos:smartcosmos-dao-relationships-default:3.0.0/dependencies/net/smartcosmos/smartcosmos-dao-relationships/3.0.0/smartcosmos-dao-relationships-3.0.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.springframework.data.domain.Pageable;",
+      "artifact" : {
+        "artifact" : "org.springframework.data:spring-data-commons:1.12.1.RELEASE",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/net.smartcosmos:smartcosmos-dao-relationships-default:3.0.0/dependencies/org/springframework/data/spring-data-commons/1.12.1.RELEASE/spring-data-commons-1.12.1.RELEASE.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import net.smartcosmos.dao.relationships.util.PageableUtil;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import net.smartcosmos.dao.relationships.util.RelationshipPersistenceUtil;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import javax.validation.ConstraintViolationException;",
+      "artifact" : {
+        "artifact" : "javax.validation:validation-api:1.1.0.Final",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/net.smartcosmos:smartcosmos-dao-relationships-default:3.0.0/dependencies/javax/validation/validation-api/1.1.0.Final/validation-api-1.1.0.Final.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.springframework.transaction.TransactionException;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-tx:4.2.6.RELEASE",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/net.smartcosmos:smartcosmos-dao-relationships-default:3.0.0/dependencies/org/springframework/spring-tx/4.2.6.RELEASE/spring-tx-4.2.6.RELEASE.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.apache.commons.lang.exception.ExceptionUtils;",
+      "artifact" : {
+        "artifact" : "commons-lang:commons-lang:2.6",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/net.smartcosmos:smartcosmos-dao-relationships-default:3.0.0/dependencies/commons-lang/commons-lang/2.6/commons-lang-2.6.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.stream.Collectors;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ {
+      "importPath" : "org.springframework.data.domain.Page<RelationshipEntity>",
+      "artifact" : {
+        "artifact" : "org.springframework.data:spring-data-commons:1.12.1.RELEASE",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/net.smartcosmos:smartcosmos-dao-relationships-default:3.0.0/dependencies/org/springframework/data/spring-data-commons/1.12.1.RELEASE/spring-data-commons-1.12.1.RELEASE.jar"
+      },
+      "isDirectDependency" : false
+    } ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/net.smartcosmos:smartcosmos-dao-relationships-default/src/main/java/net/smartcosmos/dao/relationships/repository/RelationshipRepository.java",
+    "useImportReport" : [ {
+      "importPath" : "import org.springframework.data.jpa.repository.JpaRepository;",
+      "artifact" : {
+        "artifact" : "org.springframework.data:spring-data-jpa:1.10.1.RELEASE",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/net.smartcosmos:smartcosmos-dao-relationships-default:3.0.0/dependencies/org/springframework/data/spring-data-jpa/1.10.1.RELEASE/spring-data-jpa-1.10.1.RELEASE.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import net.smartcosmos.dao.relationships.domain.RelationshipEntity;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.UUID;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.springframework.data.repository.query.QueryByExampleExecutor;",
+      "artifact" : {
+        "artifact" : "org.springframework.data:spring-data-commons:1.12.1.RELEASE",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/net.smartcosmos:smartcosmos-dao-relationships-default:3.0.0/dependencies/org/springframework/data/spring-data-commons/1.12.1.RELEASE/spring-data-commons-1.12.1.RELEASE.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.springframework.data.jpa.repository.JpaSpecificationExecutor;",
+      "artifact" : {
+        "artifact" : "org.springframework.data:spring-data-jpa:1.10.1.RELEASE",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/net.smartcosmos:smartcosmos-dao-relationships-default:3.0.0/dependencies/org/springframework/data/spring-data-jpa/1.10.1.RELEASE/spring-data-jpa-1.10.1.RELEASE.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.springframework.data.repository.PagingAndSortingRepository;",
+      "artifact" : {
+        "artifact" : "org.springframework.data:spring-data-commons:1.12.1.RELEASE",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/net.smartcosmos:smartcosmos-dao-relationships-default:3.0.0/dependencies/org/springframework/data/spring-data-commons/1.12.1.RELEASE/spring-data-commons-1.12.1.RELEASE.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.Optional;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.springframework.data.domain.Page;",
+      "artifact" : {
+        "artifact" : "org.springframework.data:spring-data-commons:1.12.1.RELEASE",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/net.smartcosmos:smartcosmos-dao-relationships-default:3.0.0/dependencies/org/springframework/data/spring-data-commons/1.12.1.RELEASE/spring-data-commons-1.12.1.RELEASE.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.springframework.data.domain.Pageable;",
+      "artifact" : {
+        "artifact" : "org.springframework.data:spring-data-commons:1.12.1.RELEASE",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/net.smartcosmos:smartcosmos-dao-relationships-default:3.0.0/dependencies/org/springframework/data/spring-data-commons/1.12.1.RELEASE/spring-data-commons-1.12.1.RELEASE.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.List;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.springframework.transaction.annotation.Transactional;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-tx:4.2.6.RELEASE",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/net.smartcosmos:smartcosmos-dao-relationships-default:3.0.0/dependencies/org/springframework/spring-tx/4.2.6.RELEASE/spring-tx-4.2.6.RELEASE.jar"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/net.smartcosmos:smartcosmos-dao-relationships-default/src/main/java/net/smartcosmos/dao/relationships/converter/ConversionServiceAwareConverter.java",
+    "useImportReport" : [ {
+      "importPath" : "import org.springframework.core.convert.converter.Converter;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-core:4.2.6.RELEASE",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/net.smartcosmos:smartcosmos-dao-relationships-default:3.0.0/dependencies/org/springframework/spring-core/4.2.6.RELEASE/spring-core-4.2.6.RELEASE.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.springframework.core.convert.ConversionService;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-core:4.2.6.RELEASE",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/net.smartcosmos:smartcosmos-dao-relationships-default:3.0.0/dependencies/org/springframework/spring-core/4.2.6.RELEASE/spring-core-4.2.6.RELEASE.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.springframework.beans.factory.annotation.Autowired;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-beans:4.2.6.RELEASE",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/net.smartcosmos:smartcosmos-dao-relationships-default:3.0.0/dependencies/org/springframework/spring-beans/4.2.6.RELEASE/spring-beans-4.2.6.RELEASE.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import javax.annotation.PostConstruct;",
+      "artifact" : {
+        "artifact" : "org.apache.tomcat.embed:tomcat-embed-core:8.0.33",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/net.smartcosmos:smartcosmos-dao-relationships-default:3.0.0/dependencies/org/apache/tomcat/embed/tomcat-embed-core/8.0.33/tomcat-embed-core-8.0.33.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.springframework.core.convert.converter.ConverterRegistry;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-core:4.2.6.RELEASE",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/net.smartcosmos:smartcosmos-dao-relationships-default:3.0.0/dependencies/org/springframework/spring-core/4.2.6.RELEASE/spring-core-4.2.6.RELEASE.jar"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/net.smartcosmos:smartcosmos-dao-relationships-default/src/main/java/net/smartcosmos/dao/relationships/converter/RelationshipEntityToRelationshipResponseConverter.java",
+    "useImportReport" : [ {
+      "importPath" : "import org.springframework.core.convert.converter.Converter;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-core:4.2.6.RELEASE",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/net.smartcosmos:smartcosmos-dao-relationships-default:3.0.0/dependencies/org/springframework/spring-core/4.2.6.RELEASE/spring-core-4.2.6.RELEASE.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import net.smartcosmos.dao.relationships.domain.RelationshipEntity;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import net.smartcosmos.dto.relationships.RelationshipResponse;",
+      "artifact" : {
+        "artifact" : "net.smartcosmos:smartcosmos-dao-relationships:3.0.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/net.smartcosmos:smartcosmos-dao-relationships-default:3.0.0/dependencies/net/smartcosmos/smartcosmos-dao-relationships/3.0.0/smartcosmos-dao-relationships-3.0.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.springframework.format.FormatterRegistrar;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-context:4.2.6.RELEASE",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/net.smartcosmos:smartcosmos-dao-relationships-default:3.0.0/dependencies/org/springframework/spring-context/4.2.6.RELEASE/spring-context-4.2.6.RELEASE.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.springframework.stereotype.Component;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-context:4.2.6.RELEASE",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/net.smartcosmos:smartcosmos-dao-relationships-default:3.0.0/dependencies/org/springframework/spring-context/4.2.6.RELEASE/spring-context-4.2.6.RELEASE.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import net.smartcosmos.dto.relationships.RelationshipReference;",
+      "artifact" : {
+        "artifact" : "net.smartcosmos:smartcosmos-dao-relationships:3.0.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/net.smartcosmos:smartcosmos-dao-relationships-default:3.0.0/dependencies/net/smartcosmos/smartcosmos-dao-relationships/3.0.0/smartcosmos-dao-relationships-3.0.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import net.smartcosmos.dao.relationships.util.UuidUtil;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.springframework.format.FormatterRegistry;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-context:4.2.6.RELEASE",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/net.smartcosmos:smartcosmos-dao-relationships-default:3.0.0/dependencies/org/springframework/spring-context/4.2.6.RELEASE/spring-context-4.2.6.RELEASE.jar"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/net.smartcosmos:smartcosmos-dao-relationships-default/src/main/java/net/smartcosmos/dao/relationships/converter/RelationshipCreateToRelationshipEntityConverter.java",
+    "useImportReport" : [ {
+      "importPath" : "import org.springframework.core.convert.converter.Converter;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-core:4.2.6.RELEASE",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/net.smartcosmos:smartcosmos-dao-relationships-default:3.0.0/dependencies/org/springframework/spring-core/4.2.6.RELEASE/spring-core-4.2.6.RELEASE.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import net.smartcosmos.dto.relationships.RelationshipCreate;",
+      "artifact" : {
+        "artifact" : "net.smartcosmos:smartcosmos-dao-relationships:3.0.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/net.smartcosmos:smartcosmos-dao-relationships-default:3.0.0/dependencies/net/smartcosmos/smartcosmos-dao-relationships/3.0.0/smartcosmos-dao-relationships-3.0.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import net.smartcosmos.dao.relationships.domain.RelationshipEntity;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.springframework.format.FormatterRegistrar;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-context:4.2.6.RELEASE",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/net.smartcosmos:smartcosmos-dao-relationships-default:3.0.0/dependencies/org/springframework/spring-context/4.2.6.RELEASE/spring-context-4.2.6.RELEASE.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.springframework.stereotype.Component;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-context:4.2.6.RELEASE",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/net.smartcosmos:smartcosmos-dao-relationships-default:3.0.0/dependencies/org/springframework/spring-context/4.2.6.RELEASE/spring-context-4.2.6.RELEASE.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import net.smartcosmos.dao.relationships.util.UuidUtil;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.springframework.format.FormatterRegistry;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-context:4.2.6.RELEASE",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/net.smartcosmos:smartcosmos-dao-relationships-default:3.0.0/dependencies/org/springframework/spring-context/4.2.6.RELEASE/spring-context-4.2.6.RELEASE.jar"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/net.smartcosmos:smartcosmos-dao-relationships-default/src/main/java/net/smartcosmos/dao/relationships/converter/SpringDataPageToRelationshipResponsePageConverter.java",
+    "useImportReport" : [ {
+      "importPath" : "import net.smartcosmos.dao.relationships.domain.RelationshipEntity;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import net.smartcosmos.dto.relationships.Page;",
+      "artifact" : {
+        "artifact" : "net.smartcosmos:smartcosmos-dao-relationships:3.0.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/net.smartcosmos:smartcosmos-dao-relationships-default:3.0.0/dependencies/net/smartcosmos/smartcosmos-dao-relationships/3.0.0/smartcosmos-dao-relationships-3.0.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import net.smartcosmos.dto.relationships.RelationshipResponse;",
+      "artifact" : {
+        "artifact" : "net.smartcosmos:smartcosmos-dao-relationships:3.0.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/net.smartcosmos:smartcosmos-dao-relationships-default:3.0.0/dependencies/net/smartcosmos/smartcosmos-dao-relationships/3.0.0/smartcosmos-dao-relationships-3.0.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.springframework.stereotype.Component;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-context:4.2.6.RELEASE",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/net.smartcosmos:smartcosmos-dao-relationships-default:3.0.0/dependencies/org/springframework/spring-context/4.2.6.RELEASE/spring-context-4.2.6.RELEASE.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.springframework.core.convert.ConversionService;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-core:4.2.6.RELEASE",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/net.smartcosmos:smartcosmos-dao-relationships-default:3.0.0/dependencies/org/springframework/spring-core/4.2.6.RELEASE/spring-core-4.2.6.RELEASE.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.springframework.beans.factory.annotation.Autowired;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-beans:4.2.6.RELEASE",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/net.smartcosmos:smartcosmos-dao-relationships-default:3.0.0/dependencies/org/springframework/spring-beans/4.2.6.RELEASE/spring-beans-4.2.6.RELEASE.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import net.smartcosmos.dto.relationships.PageInformation;",
+      "artifact" : {
+        "artifact" : "net.smartcosmos:smartcosmos-dao-relationships:3.0.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/net.smartcosmos:smartcosmos-dao-relationships-default:3.0.0/dependencies/net/smartcosmos/smartcosmos-dao-relationships/3.0.0/smartcosmos-dao-relationships-3.0.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import java.util.List;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.stream.Collectors;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ {
+      "importPath" : "ConversionServiceAwareConverter<org.springframework.data.domain.Page<RelationshipEntity>, Page<RelationshipResponse>>",
+      "artifact" : {
+        "artifact" : "org.springframework.data:spring-data-commons:1.12.1.RELEASE",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/net.smartcosmos:smartcosmos-dao-relationships-default:3.0.0/dependencies/org/springframework/data/spring-data-commons/1.12.1.RELEASE/spring-data-commons-1.12.1.RELEASE.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "org.springframework.data.domain.Page<RelationshipEntity>",
+      "artifact" : {
+        "artifact" : "org.springframework.data:spring-data-commons:1.12.1.RELEASE",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/net.smartcosmos:smartcosmos-dao-relationships-default:3.0.0/dependencies/org/springframework/data/spring-data-commons/1.12.1.RELEASE/spring-data-commons-1.12.1.RELEASE.jar"
+      },
+      "isDirectDependency" : false
+    } ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/net.smartcosmos:smartcosmos-dao-relationships-default/src/main/java/net/smartcosmos/dao/relationships/util/PageableUtil.java",
+    "useImportReport" : [ {
+      "importPath" : "import org.springframework.data.domain.Pageable;",
+      "artifact" : {
+        "artifact" : "org.springframework.data:spring-data-commons:1.12.1.RELEASE",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/net.smartcosmos:smartcosmos-dao-relationships-default:3.0.0/dependencies/org/springframework/data/spring-data-commons/1.12.1.RELEASE/spring-data-commons-1.12.1.RELEASE.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import net.smartcosmos.dao.relationships.SortOrder;",
+      "artifact" : {
+        "artifact" : "net.smartcosmos:smartcosmos-dao-relationships:3.0.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/net.smartcosmos:smartcosmos-dao-relationships-default:3.0.0/dependencies/net/smartcosmos/smartcosmos-dao-relationships/3.0.0/smartcosmos-dao-relationships-3.0.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.springframework.data.domain.Sort;",
+      "artifact" : {
+        "artifact" : "org.springframework.data:spring-data-commons:1.12.1.RELEASE",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/net.smartcosmos:smartcosmos-dao-relationships-default:3.0.0/dependencies/org/springframework/data/spring-data-commons/1.12.1.RELEASE/spring-data-commons-1.12.1.RELEASE.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.springframework.data.domain.PageRequest;",
+      "artifact" : {
+        "artifact" : "org.springframework.data:spring-data-commons:1.12.1.RELEASE",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/net.smartcosmos:smartcosmos-dao-relationships-default:3.0.0/dependencies/org/springframework/data/spring-data-commons/1.12.1.RELEASE/spring-data-commons-1.12.1.RELEASE.jar"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/net.smartcosmos:smartcosmos-dao-relationships-default/src/main/java/net/smartcosmos/dao/relationships/util/RelationshipPersistenceUtil.java",
+    "useImportReport" : [ {
+      "importPath" : "import org.apache.commons.lang.StringUtils;",
+      "artifact" : {
+        "artifact" : "commons-lang:commons-lang:2.6",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/net.smartcosmos:smartcosmos-dao-relationships-default:3.0.0/dependencies/commons-lang/commons-lang/2.6/commons-lang-2.6.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import net.smartcosmos.dao.relationships.domain.RelationshipEntity;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.springframework.data.domain.Sort;",
+      "artifact" : {
+        "artifact" : "org.springframework.data:spring-data-commons:1.12.1.RELEASE",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/net.smartcosmos:smartcosmos-dao-relationships-default:3.0.0/dependencies/org/springframework/data/spring-data-commons/1.12.1.RELEASE/spring-data-commons-1.12.1.RELEASE.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import net.smartcosmos.dao.relationships.SortOrder;",
+      "artifact" : {
+        "artifact" : "net.smartcosmos:smartcosmos-dao-relationships:3.0.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/net.smartcosmos:smartcosmos-dao-relationships-default:3.0.0/dependencies/net/smartcosmos/smartcosmos-dao-relationships/3.0.0/smartcosmos-dao-relationships-3.0.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import net.smartcosmos.dto.relationships.Page;",
+      "artifact" : {
+        "artifact" : "net.smartcosmos:smartcosmos-dao-relationships:3.0.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/net.smartcosmos:smartcosmos-dao-relationships-default:3.0.0/dependencies/net/smartcosmos/smartcosmos-dao-relationships/3.0.0/smartcosmos-dao-relationships-3.0.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import net.smartcosmos.dto.relationships.RelationshipResponse;",
+      "artifact" : {
+        "artifact" : "net.smartcosmos:smartcosmos-dao-relationships:3.0.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/net.smartcosmos:smartcosmos-dao-relationships-default:3.0.0/dependencies/net/smartcosmos/smartcosmos-dao-relationships/3.0.0/smartcosmos-dao-relationships-3.0.0.jar"
+      },
+      "isDirectDependency" : true
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/net.smartcosmos:smartcosmos-dao-relationships-default/src/main/java/net/smartcosmos/dao/relationships/util/SearchSpecifications.java",
+    "useImportReport" : [ {
+      "importPath" : "import org.springframework.data.jpa.domain.Specification;",
+      "artifact" : {
+        "artifact" : "org.springframework.data:spring-data-jpa:1.10.1.RELEASE",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/net.smartcosmos:smartcosmos-dao-relationships-default:3.0.0/dependencies/org/springframework/data/spring-data-jpa/1.10.1.RELEASE/spring-data-jpa-1.10.1.RELEASE.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.UUID;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import javax.persistence.criteria.Predicate;",
+      "artifact" : {
+        "artifact" : "org.hibernate.javax.persistence:hibernate-jpa-2.1-api:1.0.0.Final",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/net.smartcosmos:smartcosmos-dao-relationships-default:3.0.0/dependencies/org/hibernate/javax/persistence/hibernate-jpa-2.1-api/1.0.0.Final/hibernate-jpa-2.1-api-1.0.0.Final.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import javax.persistence.criteria.Root;",
+      "artifact" : {
+        "artifact" : "org.hibernate.javax.persistence:hibernate-jpa-2.1-api:1.0.0.Final",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/net.smartcosmos:smartcosmos-dao-relationships-default:3.0.0/dependencies/org/hibernate/javax/persistence/hibernate-jpa-2.1-api/1.0.0.Final/hibernate-jpa-2.1-api-1.0.0.Final.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import javax.persistence.criteria.CriteriaQuery;",
+      "artifact" : {
+        "artifact" : "org.hibernate.javax.persistence:hibernate-jpa-2.1-api:1.0.0.Final",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/net.smartcosmos:smartcosmos-dao-relationships-default:3.0.0/dependencies/org/hibernate/javax/persistence/hibernate-jpa-2.1-api/1.0.0.Final/hibernate-jpa-2.1-api-1.0.0.Final.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import javax.persistence.criteria.CriteriaBuilder;",
+      "artifact" : {
+        "artifact" : "org.hibernate.javax.persistence:hibernate-jpa-2.1-api:1.0.0.Final",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/net.smartcosmos:smartcosmos-dao-relationships-default:3.0.0/dependencies/org/hibernate/javax/persistence/hibernate-jpa-2.1-api/1.0.0.Final/hibernate-jpa-2.1-api-1.0.0.Final.jar"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/net.smartcosmos:smartcosmos-dao-relationships-default/src/main/java/net/smartcosmos/dao/relationships/util/UuidUtil.java",
+    "useImportReport" : [ {
+      "importPath" : "import java.util.UUID;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.regex.Pattern;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.regex.Matcher;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.fasterxml.uuid.Generators;",
+      "artifact" : {
+        "artifact" : "com.fasterxml.uuid:java-uuid-generator:3.1.4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/net.smartcosmos:smartcosmos-dao-relationships-default:3.0.0/dependencies/com/fasterxml/uuid/java-uuid-generator/3.1.4/java-uuid-generator-3.1.4.jar"
+      },
+      "isDirectDependency" : true
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/net.smartcosmos:smartcosmos-dao-relationships-default/src/main/java/net/smartcosmos/dao/relationships/RelationshipPersistenceConfig.java",
+    "useImportReport" : [ {
+      "importPath" : "import org.springframework.web.servlet.config.annotation.WebMvcConfigurerAdapter;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-webmvc:4.2.6.RELEASE",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/net.smartcosmos:smartcosmos-dao-relationships-default:3.0.0/dependencies/org/springframework/spring-webmvc/4.2.6.RELEASE/spring-webmvc-4.2.6.RELEASE.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.springframework.data.jpa.repository.config.EnableJpaRepositories;",
+      "artifact" : {
+        "artifact" : "org.springframework.data:spring-data-jpa:1.10.1.RELEASE",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/net.smartcosmos:smartcosmos-dao-relationships-default:3.0.0/dependencies/org/springframework/data/spring-data-jpa/1.10.1.RELEASE/spring-data-jpa-1.10.1.RELEASE.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.springframework.data.jpa.repository.config.EnableJpaAuditing;",
+      "artifact" : {
+        "artifact" : "org.springframework.data:spring-data-jpa:1.10.1.RELEASE",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/net.smartcosmos:smartcosmos-dao-relationships-default:3.0.0/dependencies/org/springframework/data/spring-data-jpa/1.10.1.RELEASE/spring-data-jpa-1.10.1.RELEASE.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.springframework.boot.orm.jpa.EntityScan;",
+      "artifact" : {
+        "artifact" : "org.springframework.boot:spring-boot:1.3.4.RELEASE",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/net.smartcosmos:smartcosmos-dao-relationships-default:3.0.0/dependencies/org/springframework/boot/spring-boot/1.3.4.RELEASE/spring-boot-1.3.4.RELEASE.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.springframework.context.annotation.ComponentScan;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-context:4.2.6.RELEASE",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/net.smartcosmos:smartcosmos-dao-relationships-default:3.0.0/dependencies/org/springframework/spring-context/4.2.6.RELEASE/spring-context-4.2.6.RELEASE.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.springframework.context.annotation.Configuration;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-context:4.2.6.RELEASE",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/net.smartcosmos:smartcosmos-dao-relationships-default:3.0.0/dependencies/org/springframework/spring-context/4.2.6.RELEASE/spring-context-4.2.6.RELEASE.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.Map;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.springframework.format.FormatterRegistrar;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-context:4.2.6.RELEASE",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/net.smartcosmos:smartcosmos-dao-relationships-default:3.0.0/dependencies/org/springframework/spring-context/4.2.6.RELEASE/spring-context-4.2.6.RELEASE.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.springframework.beans.factory.annotation.Autowired;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-beans:4.2.6.RELEASE",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/net.smartcosmos:smartcosmos-dao-relationships-default:3.0.0/dependencies/org/springframework/spring-beans/4.2.6.RELEASE/spring-beans-4.2.6.RELEASE.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.springframework.format.FormatterRegistry;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-context:4.2.6.RELEASE",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/net.smartcosmos:smartcosmos-dao-relationships-default:3.0.0/dependencies/org/springframework/spring-context/4.2.6.RELEASE/spring-context-4.2.6.RELEASE.jar"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/net.smartcosmos:smartcosmos-dao-relationships-default/src/main/java/net/smartcosmos/dao/relationships/domain/RelationshipEntity.java",
+    "useImportReport" : [ {
+      "importPath" : "import java.io.Serializable;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import javax.persistence.Entity;",
+      "artifact" : {
+        "artifact" : "org.hibernate.javax.persistence:hibernate-jpa-2.1-api:1.0.0.Final",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/net.smartcosmos:smartcosmos-dao-relationships-default:3.0.0/dependencies/org/hibernate/javax/persistence/hibernate-jpa-2.1-api/1.0.0.Final/hibernate-jpa-2.1-api-1.0.0.Final.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import lombok.NoArgsConstructor;",
+      "artifact" : {
+        "artifact" : "org.projectlombok:lombok:1.16.6",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/net.smartcosmos:smartcosmos-dao-relationships-default:3.0.0/dependencies/org/projectlombok/lombok/1.16.6/lombok-1.16.6.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import lombok.AccessLevel;",
+      "artifact" : {
+        "artifact" : "org.projectlombok:lombok:1.16.6",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/net.smartcosmos:smartcosmos-dao-relationships-default:3.0.0/dependencies/org/projectlombok/lombok/1.16.6/lombok-1.16.6.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import lombok.Data;",
+      "artifact" : {
+        "artifact" : "org.projectlombok:lombok:1.16.6",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/net.smartcosmos:smartcosmos-dao-relationships-default:3.0.0/dependencies/org/projectlombok/lombok/1.16.6/lombok-1.16.6.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import lombok.Builder;",
+      "artifact" : {
+        "artifact" : "org.projectlombok:lombok:1.16.6",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/net.smartcosmos:smartcosmos-dao-relationships-default:3.0.0/dependencies/org/projectlombok/lombok/1.16.6/lombok-1.16.6.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import lombok.AllArgsConstructor;",
+      "artifact" : {
+        "artifact" : "org.projectlombok:lombok:1.16.6",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/net.smartcosmos:smartcosmos-dao-relationships-default:3.0.0/dependencies/org/projectlombok/lombok/1.16.6/lombok-1.16.6.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import javax.persistence.EntityListeners;",
+      "artifact" : {
+        "artifact" : "org.hibernate.javax.persistence:hibernate-jpa-2.1-api:1.0.0.Final",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/net.smartcosmos:smartcosmos-dao-relationships-default:3.0.0/dependencies/org/hibernate/javax/persistence/hibernate-jpa-2.1-api/1.0.0.Final/hibernate-jpa-2.1-api-1.0.0.Final.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.springframework.data.jpa.domain.support.AuditingEntityListener;",
+      "artifact" : {
+        "artifact" : "org.springframework.data:spring-data-jpa:1.10.1.RELEASE",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/net.smartcosmos:smartcosmos-dao-relationships-default:3.0.0/dependencies/org/springframework/data/spring-data-jpa/1.10.1.RELEASE/spring-data-jpa-1.10.1.RELEASE.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import javax.persistence.Table;",
+      "artifact" : {
+        "artifact" : "org.hibernate.javax.persistence:hibernate-jpa-2.1-api:1.0.0.Final",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/net.smartcosmos:smartcosmos-dao-relationships-default:3.0.0/dependencies/org/hibernate/javax/persistence/hibernate-jpa-2.1-api/1.0.0.Final/hibernate-jpa-2.1-api-1.0.0.Final.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import javax.persistence.Index;",
+      "artifact" : {
+        "artifact" : "org.hibernate.javax.persistence:hibernate-jpa-2.1-api:1.0.0.Final",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/net.smartcosmos:smartcosmos-dao-relationships-default:3.0.0/dependencies/org/hibernate/javax/persistence/hibernate-jpa-2.1-api/1.0.0.Final/hibernate-jpa-2.1-api-1.0.0.Final.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.UUID;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import javax.persistence.Id;",
+      "artifact" : {
+        "artifact" : "org.hibernate.javax.persistence:hibernate-jpa-2.1-api:1.0.0.Final",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/net.smartcosmos:smartcosmos-dao-relationships-default:3.0.0/dependencies/org/hibernate/javax/persistence/hibernate-jpa-2.1-api/1.0.0.Final/hibernate-jpa-2.1-api-1.0.0.Final.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import javax.persistence.GeneratedValue;",
+      "artifact" : {
+        "artifact" : "org.hibernate.javax.persistence:hibernate-jpa-2.1-api:1.0.0.Final",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/net.smartcosmos:smartcosmos-dao-relationships-default:3.0.0/dependencies/org/hibernate/javax/persistence/hibernate-jpa-2.1-api/1.0.0.Final/hibernate-jpa-2.1-api-1.0.0.Final.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.hibernate.annotations.GenericGenerator;",
+      "artifact" : {
+        "artifact" : "org.hibernate:hibernate-core:4.3.11.Final",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/net.smartcosmos:smartcosmos-dao-relationships-default:3.0.0/dependencies/org/hibernate/hibernate-core/4.3.11.Final/hibernate-core-4.3.11.Final.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.hibernate.annotations.Type;",
+      "artifact" : {
+        "artifact" : "org.hibernate:hibernate-core:4.3.11.Final",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/net.smartcosmos:smartcosmos-dao-relationships-default:3.0.0/dependencies/org/hibernate/hibernate-core/4.3.11.Final/hibernate-core-4.3.11.Final.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import javax.persistence.Column;",
+      "artifact" : {
+        "artifact" : "org.hibernate.javax.persistence:hibernate-jpa-2.1-api:1.0.0.Final",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/net.smartcosmos:smartcosmos-dao-relationships-default:3.0.0/dependencies/org/hibernate/javax/persistence/hibernate-jpa-2.1-api/1.0.0.Final/hibernate-jpa-2.1-api-1.0.0.Final.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.hibernate.validator.constraints.NotEmpty;",
+      "artifact" : {
+        "artifact" : "org.hibernate:hibernate-validator:5.2.4.Final",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/net.smartcosmos:smartcosmos-dao-relationships-default:3.0.0/dependencies/org/hibernate/hibernate-validator/5.2.4.Final/hibernate-validator-5.2.4.Final.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import javax.validation.constraints.Size;",
+      "artifact" : {
+        "artifact" : "javax.validation:validation-api:1.1.0.Final",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/net.smartcosmos:smartcosmos-dao-relationships-default:3.0.0/dependencies/javax/validation/validation-api/1.1.0.Final/validation-api-1.1.0.Final.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import javax.validation.constraints.NotNull;",
+      "artifact" : {
+        "artifact" : "javax.validation:validation-api:1.1.0.Final",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/net.smartcosmos:smartcosmos-dao-relationships-default:3.0.0/dependencies/javax/validation/validation-api/1.1.0.Final/validation-api-1.1.0.Final.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.Date;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.springframework.data.annotation.CreatedDate;",
+      "artifact" : {
+        "artifact" : "org.springframework.data:spring-data-commons:1.12.1.RELEASE",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/net.smartcosmos:smartcosmos-dao-relationships-default:3.0.0/dependencies/org/springframework/data/spring-data-commons/1.12.1.RELEASE/spring-data-commons-1.12.1.RELEASE.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import javax.persistence.Temporal;",
+      "artifact" : {
+        "artifact" : "org.hibernate.javax.persistence:hibernate-jpa-2.1-api:1.0.0.Final",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/net.smartcosmos:smartcosmos-dao-relationships-default:3.0.0/dependencies/org/hibernate/javax/persistence/hibernate-jpa-2.1-api/1.0.0.Final/hibernate-jpa-2.1-api-1.0.0.Final.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import javax.persistence.TemporalType;",
+      "artifact" : {
+        "artifact" : "org.hibernate.javax.persistence:hibernate-jpa-2.1-api:1.0.0.Final",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/net.smartcosmos:smartcosmos-dao-relationships-default:3.0.0/dependencies/org/hibernate/javax/persistence/hibernate-jpa-2.1-api/1.0.0.Final/hibernate-jpa-2.1-api-1.0.0.Final.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.springframework.data.annotation.LastModifiedDate;",
+      "artifact" : {
+        "artifact" : "org.springframework.data:spring-data-commons:1.12.1.RELEASE",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/net.smartcosmos:smartcosmos-dao-relationships-default:3.0.0/dependencies/org/springframework/data/spring-data-commons/1.12.1.RELEASE/spring-data-commons-1.12.1.RELEASE.jar"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  } ],
+  "projectUseDependencies" : [ {
+    "artifact" : "net.smartcosmos:smartcosmos-dao-relationships:3.0.0",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/net.smartcosmos:smartcosmos-dao-relationships-default:3.0.0/dependencies/net/smartcosmos/smartcosmos-dao-relationships/3.0.0/smartcosmos-dao-relationships-3.0.0.jar"
+  }, {
+    "artifact" : "org.projectlombok:lombok:1.16.6",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/net.smartcosmos:smartcosmos-dao-relationships-default:3.0.0/dependencies/org/projectlombok/lombok/1.16.6/lombok-1.16.6.jar"
+  }, {
+    "artifact" : "com.fasterxml.uuid:java-uuid-generator:3.1.4",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/net.smartcosmos:smartcosmos-dao-relationships-default:3.0.0/dependencies/com/fasterxml/uuid/java-uuid-generator/3.1.4/java-uuid-generator-3.1.4.jar"
+  }, {
+    "artifact" : "org.springframework.data:spring-data-commons:1.12.1.RELEASE",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/net.smartcosmos:smartcosmos-dao-relationships-default:3.0.0/dependencies/org/springframework/data/spring-data-commons/1.12.1.RELEASE/spring-data-commons-1.12.1.RELEASE.jar"
+  } ],
+  "projectUseTransitiveDependencies" : [ {
+    "artifact" : "org.springframework.boot:spring-boot-starter-data-jpa:1.3.4.RELEASE",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/net.smartcosmos:smartcosmos-dao-relationships-default:3.0.0/dependencies/org/springframework/boot/spring-boot-starter-data-jpa/1.3.4.RELEASE/spring-boot-starter-data-jpa-1.3.4.RELEASE.jar"
+  }, {
+    "artifact" : "org.springframework.boot:spring-boot-starter-validation:1.3.4.RELEASE",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/net.smartcosmos:smartcosmos-dao-relationships-default:3.0.0/dependencies/org/springframework/boot/spring-boot-starter-validation/1.3.4.RELEASE/spring-boot-starter-validation-1.3.4.RELEASE.jar"
+  }, {
+    "artifact" : "net.smartcosmos:smartcosmos-framework:3.0.0",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/net.smartcosmos:smartcosmos-dao-relationships-default:3.0.0/dependencies/net/smartcosmos/smartcosmos-framework/3.0.0/smartcosmos-framework-3.0.0.jar"
+  }, {
+    "artifact" : "org.springframework.boot:spring-boot-starter-data-jpa:1.3.4.RELEASE",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/net.smartcosmos:smartcosmos-dao-relationships-default:3.0.0/dependencies/org/springframework/boot/spring-boot-starter-data-jpa/1.3.4.RELEASE/spring-boot-starter-data-jpa-1.3.4.RELEASE.jar"
+  }, {
+    "artifact" : "org.springframework.boot:spring-boot-starter-validation:1.3.4.RELEASE",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/net.smartcosmos:smartcosmos-dao-relationships-default:3.0.0/dependencies/org/springframework/boot/spring-boot-starter-validation/1.3.4.RELEASE/spring-boot-starter-validation-1.3.4.RELEASE.jar"
+  }, {
+    "artifact" : "org.springframework.boot:spring-boot-starter-data-jpa:1.3.4.RELEASE",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/net.smartcosmos:smartcosmos-dao-relationships-default:3.0.0/dependencies/org/springframework/boot/spring-boot-starter-data-jpa/1.3.4.RELEASE/spring-boot-starter-data-jpa-1.3.4.RELEASE.jar"
+  }, {
+    "artifact" : "org.springframework.boot:spring-boot-starter-validation:1.3.4.RELEASE",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/net.smartcosmos:smartcosmos-dao-relationships-default:3.0.0/dependencies/org/springframework/boot/spring-boot-starter-validation/1.3.4.RELEASE/spring-boot-starter-validation-1.3.4.RELEASE.jar"
+  }, {
+    "artifact" : "org.springframework.boot:spring-boot-starter-data-jpa:1.3.4.RELEASE",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/net.smartcosmos:smartcosmos-dao-relationships-default:3.0.0/dependencies/org/springframework/boot/spring-boot-starter-data-jpa/1.3.4.RELEASE/spring-boot-starter-data-jpa-1.3.4.RELEASE.jar"
+  }, {
+    "artifact" : "org.springframework.boot:spring-boot-starter-validation:1.3.4.RELEASE",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/net.smartcosmos:smartcosmos-dao-relationships-default:3.0.0/dependencies/org/springframework/boot/spring-boot-starter-validation/1.3.4.RELEASE/spring-boot-starter-validation-1.3.4.RELEASE.jar"
+  }, {
+    "artifact" : "org.springframework.boot:spring-boot-starter-data-jpa:1.3.4.RELEASE",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/net.smartcosmos:smartcosmos-dao-relationships-default:3.0.0/dependencies/org/springframework/boot/spring-boot-starter-data-jpa/1.3.4.RELEASE/spring-boot-starter-data-jpa-1.3.4.RELEASE.jar"
+  }, {
+    "artifact" : "org.springframework.boot:spring-boot-starter-validation:1.3.4.RELEASE",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/net.smartcosmos:smartcosmos-dao-relationships-default:3.0.0/dependencies/org/springframework/boot/spring-boot-starter-validation/1.3.4.RELEASE/spring-boot-starter-validation-1.3.4.RELEASE.jar"
+  }, {
+    "artifact" : "org.springframework.boot:spring-boot-starter-data-jpa:1.3.4.RELEASE",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/net.smartcosmos:smartcosmos-dao-relationships-default:3.0.0/dependencies/org/springframework/boot/spring-boot-starter-data-jpa/1.3.4.RELEASE/spring-boot-starter-data-jpa-1.3.4.RELEASE.jar"
+  }, {
+    "artifact" : "org.springframework.boot:spring-boot-starter-validation:1.3.4.RELEASE",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/net.smartcosmos:smartcosmos-dao-relationships-default:3.0.0/dependencies/org/springframework/boot/spring-boot-starter-validation/1.3.4.RELEASE/spring-boot-starter-validation-1.3.4.RELEASE.jar"
+  }, {
+    "artifact" : "org.springframework.boot:spring-boot-starter-validation:1.3.4.RELEASE",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/net.smartcosmos:smartcosmos-dao-relationships-default:3.0.0/dependencies/org/springframework/boot/spring-boot-starter-validation/1.3.4.RELEASE/spring-boot-starter-validation-1.3.4.RELEASE.jar"
+  }, {
+    "artifact" : "org.springframework.boot:spring-boot-starter-data-jpa:1.3.4.RELEASE",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/net.smartcosmos:smartcosmos-dao-relationships-default:3.0.0/dependencies/org/springframework/boot/spring-boot-starter-data-jpa/1.3.4.RELEASE/spring-boot-starter-data-jpa-1.3.4.RELEASE.jar"
+  }, {
+    "artifact" : "org.springframework.boot:spring-boot-starter-validation:1.3.4.RELEASE",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/net.smartcosmos:smartcosmos-dao-relationships-default:3.0.0/dependencies/org/springframework/boot/spring-boot-starter-validation/1.3.4.RELEASE/spring-boot-starter-validation-1.3.4.RELEASE.jar"
+  }, {
+    "artifact" : "org.springframework.boot:spring-boot-starter-validation:1.3.4.RELEASE",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/net.smartcosmos:smartcosmos-dao-relationships-default:3.0.0/dependencies/org/springframework/boot/spring-boot-starter-validation/1.3.4.RELEASE/spring-boot-starter-validation-1.3.4.RELEASE.jar"
+  } ],
+  "projectUnusedDependencies" : [ {
+    "artifact" : "org.apache.commons:commons-collections4:4.1",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/net.smartcosmos:smartcosmos-dao-relationships-default:3.0.0/dependencies/org/apache/commons/commons-collections4/4.1/commons-collections4-4.1.jar"
+  }, {
+    "artifact" : "org.mariadb.jdbc:mariadb-java-client:1.4.3",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/net.smartcosmos:smartcosmos-dao-relationships-default:3.0.0/dependencies/org/mariadb/jdbc/mariadb-java-client/1.4.3/mariadb-java-client-1.4.3.jar"
+  }, {
+    "artifact" : "com.querydsl:querydsl-apt:4.0.8",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/net.smartcosmos:smartcosmos-dao-relationships-default:3.0.0/dependencies/com/querydsl/querydsl-apt/4.0.8/querydsl-apt-4.0.8.jar"
+  } ]
+}

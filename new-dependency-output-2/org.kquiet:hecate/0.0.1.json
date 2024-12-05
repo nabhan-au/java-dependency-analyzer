@@ -1,0 +1,459 @@
+{
+  "projectArtifact" : "org.kquiet:hecate:0.0.1",
+  "repositoryDir" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/org.kquiet:hecate",
+  "repositorySubDir" : "",
+  "artifactLocation" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.kquiet:hecate:0.0.1",
+  "fileImportReports" : [ {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/org.kquiet:hecate/src/main/java/org/kquiet/hecate/BeanConfiguration.java",
+    "useImportReport" : [ {
+      "importPath" : "import org.springframework.context.annotation.Configuration;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-context:6.0.4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.kquiet:hecate:0.0.1/dependencies/org/springframework/spring-context/6.0.4/spring-context-6.0.4.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.springframework.context.annotation.Bean;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-context:6.0.4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.kquiet:hecate:0.0.1/dependencies/org/springframework/spring-context/6.0.4/spring-context-6.0.4.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.springframework.boot.context.properties.ConfigurationProperties;",
+      "artifact" : {
+        "artifact" : "org.springframework.boot:spring-boot:3.0.2",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.kquiet:hecate:0.0.1/dependencies/org/springframework/boot/spring-boot/3.0.2/spring-boot-3.0.2.jar"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/org.kquiet:hecate/src/main/java/org/kquiet/hecate/HecateConfig.java",
+    "useImportReport" : [ ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/org.kquiet:hecate/src/main/java/org/kquiet/hecate/telegram/TelegramService.java",
+    "useImportReport" : [ {
+      "importPath" : "import org.springframework.stereotype.Component;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-context:6.0.4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.kquiet:hecate:0.0.1/dependencies/org/springframework/spring-context/6.0.4/spring-context-6.0.4.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.springframework.beans.factory.annotation.Autowired;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-beans:6.0.4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.kquiet:hecate:0.0.1/dependencies/org/springframework/spring-beans/6.0.4/spring-beans-6.0.4.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import reactor.core.publisher.Mono;",
+      "artifact" : {
+        "artifact" : "io.projectreactor:reactor-core:3.5.2",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.kquiet:hecate:0.0.1/dependencies/io/projectreactor/reactor-core/3.5.2/reactor-core-3.5.2.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import io.opentelemetry.instrumentation.annotations.WithSpan;",
+      "artifact" : {
+        "artifact" : "io.opentelemetry.instrumentation:opentelemetry-instrumentation-annotations:1.22.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.kquiet:hecate:0.0.1/dependencies/io/opentelemetry/instrumentation/opentelemetry-instrumentation-annotations/1.22.1/opentelemetry-instrumentation-annotations-1.22.1.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.kquiet.hecate.api.telegram.SendPhotoRequest;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import io.opentelemetry.instrumentation.annotations.SpanAttribute;",
+      "artifact" : {
+        "artifact" : "io.opentelemetry.instrumentation:opentelemetry-instrumentation-annotations:1.22.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.kquiet:hecate:0.0.1/dependencies/io/opentelemetry/instrumentation/opentelemetry-instrumentation-annotations/1.22.1/opentelemetry-instrumentation-annotations-1.22.1.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import reactor.core.publisher.Flux;",
+      "artifact" : {
+        "artifact" : "io.projectreactor:reactor-core:3.5.2",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.kquiet:hecate:0.0.1/dependencies/io/projectreactor/reactor-core/3.5.2/reactor-core-3.5.2.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.springframework.core.io.buffer.DataBuffer;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-core:6.0.4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.kquiet:hecate:0.0.1/dependencies/org/springframework/spring-core/6.0.4/spring-core-6.0.4.jar"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/org.kquiet:hecate/src/main/java/org/kquiet/hecate/telegram/TelegramDao.java",
+    "useImportReport" : [ {
+      "importPath" : "import org.springframework.stereotype.Component;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-context:6.0.4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.kquiet:hecate:0.0.1/dependencies/org/springframework/spring-context/6.0.4/spring-context-6.0.4.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.slf4j.Logger;",
+      "artifact" : {
+        "artifact" : "org.slf4j:slf4j-api:2.0.6",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.kquiet:hecate:0.0.1/dependencies/org/slf4j/slf4j-api/2.0.6/slf4j-api-2.0.6.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.slf4j.LoggerFactory;",
+      "artifact" : {
+        "artifact" : "org.slf4j:slf4j-api:2.0.6",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.kquiet:hecate:0.0.1/dependencies/org/slf4j/slf4j-api/2.0.6/slf4j-api-2.0.6.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.kquiet.hecate.HecateConfig;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.springframework.beans.factory.annotation.Autowired;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-beans:6.0.4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.kquiet:hecate:0.0.1/dependencies/org/springframework/spring-beans/6.0.4/spring-beans-6.0.4.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import io.micrometer.core.instrument.MeterRegistry;",
+      "artifact" : {
+        "artifact" : "io.micrometer:micrometer-core:1.10.3",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.kquiet:hecate:0.0.1/dependencies/io/micrometer/micrometer-core/1.10.3/micrometer-core-1.10.3.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import reactor.core.publisher.Mono;",
+      "artifact" : {
+        "artifact" : "io.projectreactor:reactor-core:3.5.2",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.kquiet:hecate:0.0.1/dependencies/io/projectreactor/reactor-core/3.5.2/reactor-core-3.5.2.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import io.opentelemetry.instrumentation.annotations.WithSpan;",
+      "artifact" : {
+        "artifact" : "io.opentelemetry.instrumentation:opentelemetry-instrumentation-annotations:1.22.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.kquiet:hecate:0.0.1/dependencies/io/opentelemetry/instrumentation/opentelemetry-instrumentation-annotations/1.22.1/opentelemetry-instrumentation-annotations-1.22.1.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.kquiet.hecate.api.telegram.SendPhotoRequest;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import io.opentelemetry.instrumentation.annotations.SpanAttribute;",
+      "artifact" : {
+        "artifact" : "io.opentelemetry.instrumentation:opentelemetry-instrumentation-annotations:1.22.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.kquiet:hecate:0.0.1/dependencies/io/opentelemetry/instrumentation/opentelemetry-instrumentation-annotations/1.22.1/opentelemetry-instrumentation-annotations-1.22.1.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import reactor.core.publisher.Flux;",
+      "artifact" : {
+        "artifact" : "io.projectreactor:reactor-core:3.5.2",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.kquiet:hecate:0.0.1/dependencies/io/projectreactor/reactor-core/3.5.2/reactor-core-3.5.2.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.springframework.core.io.buffer.DataBuffer;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-core:6.0.4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.kquiet:hecate:0.0.1/dependencies/org/springframework/spring-core/6.0.4/spring-core-6.0.4.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.springframework.web.reactive.function.client.WebClient;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-webflux:6.0.4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.kquiet:hecate:0.0.1/dependencies/org/springframework/spring-webflux/6.0.4/spring-webflux-6.0.4.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.springframework.http.MediaType;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-web:6.0.4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.kquiet:hecate:0.0.1/dependencies/org/springframework/spring-web/6.0.4/spring-web-6.0.4.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.springframework.http.client.MultipartBodyBuilder;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-web:6.0.4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.kquiet:hecate:0.0.1/dependencies/org/springframework/spring-web/6.0.4/spring-web-6.0.4.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.springframework.web.reactive.function.BodyInserters;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-webflux:6.0.4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.kquiet:hecate:0.0.1/dependencies/org/springframework/spring-webflux/6.0.4/spring-webflux-6.0.4.jar"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/org.kquiet:hecate/src/main/java/org/kquiet/hecate/telegram/TelegramController.java",
+    "useImportReport" : [ {
+      "importPath" : "import org.springframework.web.bind.annotation.RestController;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-web:6.0.4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.kquiet:hecate:0.0.1/dependencies/org/springframework/spring-web/6.0.4/spring-web-6.0.4.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.springframework.web.bind.annotation.RequestMapping;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-web:6.0.4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.kquiet:hecate:0.0.1/dependencies/org/springframework/spring-web/6.0.4/spring-web-6.0.4.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.springframework.beans.factory.annotation.Autowired;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-beans:6.0.4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.kquiet:hecate:0.0.1/dependencies/org/springframework/spring-beans/6.0.4/spring-beans-6.0.4.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import reactor.core.publisher.Mono;",
+      "artifact" : {
+        "artifact" : "io.projectreactor:reactor-core:3.5.2",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.kquiet:hecate:0.0.1/dependencies/io/projectreactor/reactor-core/3.5.2/reactor-core-3.5.2.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.springframework.web.bind.annotation.PostMapping;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-web:6.0.4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.kquiet:hecate:0.0.1/dependencies/org/springframework/spring-web/6.0.4/spring-web-6.0.4.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.springframework.http.MediaType;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-web:6.0.4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.kquiet:hecate:0.0.1/dependencies/org/springframework/spring-web/6.0.4/spring-web-6.0.4.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.kquiet.hecate.api.telegram.SendPhotoRequest;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.springframework.web.bind.annotation.RequestPart;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-web:6.0.4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.kquiet:hecate:0.0.1/dependencies/org/springframework/spring-web/6.0.4/spring-web-6.0.4.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.springframework.http.codec.multipart.FilePart;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-web:6.0.4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.kquiet:hecate:0.0.1/dependencies/org/springframework/spring-web/6.0.4/spring-web-6.0.4.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import reactor.core.publisher.Flux;",
+      "artifact" : {
+        "artifact" : "io.projectreactor:reactor-core:3.5.2",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.kquiet:hecate:0.0.1/dependencies/io/projectreactor/reactor-core/3.5.2/reactor-core-3.5.2.jar"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/org.kquiet:hecate/src/main/java/org/kquiet/hecate/api/telegram/SendPhotoRequest.java",
+    "useImportReport" : [ {
+      "importPath" : "import java.util.Objects;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/org.kquiet:hecate/src/main/java/org/kquiet/hecate/Launcher.java",
+    "useImportReport" : [ {
+      "importPath" : "import org.springframework.boot.autoconfigure.SpringBootApplication;",
+      "artifact" : {
+        "artifact" : "org.springframework.boot:spring-boot-autoconfigure:3.0.2",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.kquiet:hecate:0.0.1/dependencies/org/springframework/boot/spring-boot-autoconfigure/3.0.2/spring-boot-autoconfigure-3.0.2.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.springframework.boot.autoconfigure.jdbc.DataSourceAutoConfiguration;",
+      "artifact" : {
+        "artifact" : "org.springframework.boot:spring-boot-autoconfigure:3.0.2",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.kquiet:hecate:0.0.1/dependencies/org/springframework/boot/spring-boot-autoconfigure/3.0.2/spring-boot-autoconfigure-3.0.2.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.springframework.boot.autoconfigure.jdbc.DataSourceTransactionManagerAutoConfiguration;",
+      "artifact" : {
+        "artifact" : "org.springframework.boot:spring-boot-autoconfigure:3.0.2",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.kquiet:hecate:0.0.1/dependencies/org/springframework/boot/spring-boot-autoconfigure/3.0.2/spring-boot-autoconfigure-3.0.2.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.springframework.boot.autoconfigure.orm.jpa.HibernateJpaAutoConfiguration;",
+      "artifact" : {
+        "artifact" : "org.springframework.boot:spring-boot-autoconfigure:3.0.2",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.kquiet:hecate:0.0.1/dependencies/org/springframework/boot/spring-boot-autoconfigure/3.0.2/spring-boot-autoconfigure-3.0.2.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.springframework.web.reactive.config.EnableWebFlux;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-webflux:6.0.4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.kquiet:hecate:0.0.1/dependencies/org/springframework/spring-webflux/6.0.4/spring-webflux-6.0.4.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.springframework.boot.SpringApplication;",
+      "artifact" : {
+        "artifact" : "org.springframework.boot:spring-boot:3.0.2",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.kquiet:hecate:0.0.1/dependencies/org/springframework/boot/spring-boot/3.0.2/spring-boot-3.0.2.jar"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  } ],
+  "projectUseDependencies" : [ {
+    "artifact" : "io.opentelemetry.instrumentation:opentelemetry-instrumentation-annotations:1.22.1",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.kquiet:hecate:0.0.1/dependencies/io/opentelemetry/instrumentation/opentelemetry-instrumentation-annotations/1.22.1/opentelemetry-instrumentation-annotations-1.22.1.jar"
+  } ],
+  "projectUseTransitiveDependencies" : [ {
+    "artifact" : "org.springframework.boot:spring-boot-starter-actuator:3.0.2",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.kquiet:hecate:0.0.1/dependencies/org/springframework/boot/spring-boot-starter-actuator/3.0.2/spring-boot-starter-actuator-3.0.2.jar"
+  }, {
+    "artifact" : "org.springframework.boot:spring-boot-starter-data-jpa:3.0.2",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.kquiet:hecate:0.0.1/dependencies/org/springframework/boot/spring-boot-starter-data-jpa/3.0.2/spring-boot-starter-data-jpa-3.0.2.jar"
+  }, {
+    "artifact" : "org.springframework.boot:spring-boot-starter-webflux:3.0.2",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.kquiet:hecate:0.0.1/dependencies/org/springframework/boot/spring-boot-starter-webflux/3.0.2/spring-boot-starter-webflux-3.0.2.jar"
+  }, {
+    "artifact" : "org.springframework.boot:spring-boot-starter-test:3.0.2",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.kquiet:hecate:0.0.1/dependencies/org/springframework/boot/spring-boot-starter-test/3.0.2/spring-boot-starter-test-3.0.2.jar"
+  }, {
+    "artifact" : "org.springframework.boot:spring-boot-starter-actuator:3.0.2",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.kquiet:hecate:0.0.1/dependencies/org/springframework/boot/spring-boot-starter-actuator/3.0.2/spring-boot-starter-actuator-3.0.2.jar"
+  }, {
+    "artifact" : "org.springframework.boot:spring-boot-starter-data-jpa:3.0.2",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.kquiet:hecate:0.0.1/dependencies/org/springframework/boot/spring-boot-starter-data-jpa/3.0.2/spring-boot-starter-data-jpa-3.0.2.jar"
+  }, {
+    "artifact" : "org.springframework.boot:spring-boot-starter-webflux:3.0.2",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.kquiet:hecate:0.0.1/dependencies/org/springframework/boot/spring-boot-starter-webflux/3.0.2/spring-boot-starter-webflux-3.0.2.jar"
+  }, {
+    "artifact" : "org.springframework.boot:spring-boot-starter-test:3.0.2",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.kquiet:hecate:0.0.1/dependencies/org/springframework/boot/spring-boot-starter-test/3.0.2/spring-boot-starter-test-3.0.2.jar"
+  }, {
+    "artifact" : "org.springframework.boot:spring-boot-starter-data-jpa:3.0.2",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.kquiet:hecate:0.0.1/dependencies/org/springframework/boot/spring-boot-starter-data-jpa/3.0.2/spring-boot-starter-data-jpa-3.0.2.jar"
+  }, {
+    "artifact" : "org.springframework.boot:spring-boot-starter-webflux:3.0.2",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.kquiet:hecate:0.0.1/dependencies/org/springframework/boot/spring-boot-starter-webflux/3.0.2/spring-boot-starter-webflux-3.0.2.jar"
+  }, {
+    "artifact" : "org.springframework.boot:spring-boot-starter-data-jpa:3.0.2",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.kquiet:hecate:0.0.1/dependencies/org/springframework/boot/spring-boot-starter-data-jpa/3.0.2/spring-boot-starter-data-jpa-3.0.2.jar"
+  }, {
+    "artifact" : "org.springframework.boot:spring-boot-starter-webflux:3.0.2",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.kquiet:hecate:0.0.1/dependencies/org/springframework/boot/spring-boot-starter-webflux/3.0.2/spring-boot-starter-webflux-3.0.2.jar"
+  }, {
+    "artifact" : "io.projectreactor:reactor-test:3.5.2",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.kquiet:hecate:0.0.1/dependencies/io/projectreactor/reactor-test/3.5.2/reactor-test-3.5.2.jar"
+  }, {
+    "artifact" : "org.springframework.boot:spring-boot-starter-actuator:3.0.2",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.kquiet:hecate:0.0.1/dependencies/org/springframework/boot/spring-boot-starter-actuator/3.0.2/spring-boot-starter-actuator-3.0.2.jar"
+  }, {
+    "artifact" : "org.springframework.boot:spring-boot-starter-data-jpa:3.0.2",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.kquiet:hecate:0.0.1/dependencies/org/springframework/boot/spring-boot-starter-data-jpa/3.0.2/spring-boot-starter-data-jpa-3.0.2.jar"
+  }, {
+    "artifact" : "org.springframework.boot:spring-boot-starter-webflux:3.0.2",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.kquiet:hecate:0.0.1/dependencies/org/springframework/boot/spring-boot-starter-webflux/3.0.2/spring-boot-starter-webflux-3.0.2.jar"
+  }, {
+    "artifact" : "org.springframework.boot:spring-boot-starter-test:3.0.2",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.kquiet:hecate:0.0.1/dependencies/org/springframework/boot/spring-boot-starter-test/3.0.2/spring-boot-starter-test-3.0.2.jar"
+  }, {
+    "artifact" : "org.springframework.boot:spring-boot-starter-actuator:3.0.2",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.kquiet:hecate:0.0.1/dependencies/org/springframework/boot/spring-boot-starter-actuator/3.0.2/spring-boot-starter-actuator-3.0.2.jar"
+  }, {
+    "artifact" : "org.springframework.boot:spring-boot-starter-data-jpa:3.0.2",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.kquiet:hecate:0.0.1/dependencies/org/springframework/boot/spring-boot-starter-data-jpa/3.0.2/spring-boot-starter-data-jpa-3.0.2.jar"
+  }, {
+    "artifact" : "org.springframework.boot:spring-boot-starter-webflux:3.0.2",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.kquiet:hecate:0.0.1/dependencies/org/springframework/boot/spring-boot-starter-webflux/3.0.2/spring-boot-starter-webflux-3.0.2.jar"
+  }, {
+    "artifact" : "org.springframework.boot:spring-boot-starter-data-jpa:3.0.2",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.kquiet:hecate:0.0.1/dependencies/org/springframework/boot/spring-boot-starter-data-jpa/3.0.2/spring-boot-starter-data-jpa-3.0.2.jar"
+  }, {
+    "artifact" : "org.springframework.boot:spring-boot-starter-webflux:3.0.2",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.kquiet:hecate:0.0.1/dependencies/org/springframework/boot/spring-boot-starter-webflux/3.0.2/spring-boot-starter-webflux-3.0.2.jar"
+  }, {
+    "artifact" : "org.springframework.boot:spring-boot-starter-actuator:3.0.2",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.kquiet:hecate:0.0.1/dependencies/org/springframework/boot/spring-boot-starter-actuator/3.0.2/spring-boot-starter-actuator-3.0.2.jar"
+  }, {
+    "artifact" : "org.springframework.boot:spring-boot-starter-data-jpa:3.0.2",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.kquiet:hecate:0.0.1/dependencies/org/springframework/boot/spring-boot-starter-data-jpa/3.0.2/spring-boot-starter-data-jpa-3.0.2.jar"
+  }, {
+    "artifact" : "org.springframework.boot:spring-boot-starter-webflux:3.0.2",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.kquiet:hecate:0.0.1/dependencies/org/springframework/boot/spring-boot-starter-webflux/3.0.2/spring-boot-starter-webflux-3.0.2.jar"
+  }, {
+    "artifact" : "org.springframework.boot:spring-boot-starter-test:3.0.2",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.kquiet:hecate:0.0.1/dependencies/org/springframework/boot/spring-boot-starter-test/3.0.2/spring-boot-starter-test-3.0.2.jar"
+  } ],
+  "projectUnusedDependencies" : [ {
+    "artifact" : "org.springframework.boot:spring-boot-configuration-processor:3.0.2",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.kquiet:hecate:0.0.1/dependencies/org/springframework/boot/spring-boot-configuration-processor/3.0.2/spring-boot-configuration-processor-3.0.2.jar"
+  }, {
+    "artifact" : "net.logstash.logback:logstash-logback-encoder:7.2",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.kquiet:hecate:0.0.1/dependencies/net/logstash/logback/logstash-logback-encoder/7.2/logstash-logback-encoder-7.2.jar"
+  }, {
+    "artifact" : "org.junit.jupiter:junit-jupiter:5.9.2",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.kquiet:hecate:0.0.1/dependencies/org/junit/jupiter/junit-jupiter/5.9.2/junit-jupiter-5.9.2.jar"
+  }, {
+    "artifact" : "org.mockito:mockito-core:4.11.0",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.kquiet:hecate:0.0.1/dependencies/org/mockito/mockito-core/4.11.0/mockito-core-4.11.0.jar"
+  }, {
+    "artifact" : "org.mockito:mockito-junit-jupiter:4.11.0",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.kquiet:hecate:0.0.1/dependencies/org/mockito/mockito-junit-jupiter/4.11.0/mockito-junit-jupiter-4.11.0.jar"
+  }, {
+    "artifact" : "com.squareup.okhttp3:mockwebserver:4.10.0",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.kquiet:hecate:0.0.1/dependencies/com/squareup/okhttp3/mockwebserver/4.10.0/mockwebserver-4.10.0.jar"
+  } ]
+}

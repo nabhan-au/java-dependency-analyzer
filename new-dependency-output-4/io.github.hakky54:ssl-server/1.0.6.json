@@ -1,0 +1,285 @@
+{
+  "projectArtifact" : "io.github.hakky54:ssl-server:1.0.6",
+  "repositoryDir" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/io.github.hakky54:ssl-server",
+  "repositorySubDir" : "",
+  "artifactLocation" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.github.hakky54:ssl-server:1.0.6",
+  "fileImportReports" : [ {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/io.github.hakky54:ssl-server/src/main/java/module-info.java",
+    "useImportReport" : [ ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/io.github.hakky54:ssl-server/src/main/java/nl/altindag/ssl/server/service/Server.java",
+    "useImportReport" : [ {
+      "importPath" : "import nl.altindag.ssl.SSLFactory;",
+      "artifact" : {
+        "artifact" : "io.github.hakky54:sslcontext-kickstart:8.3.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.github.hakky54:ssl-server:1.0.6/dependencies/io/github/hakky54/sslcontext-kickstart/8.3.0/sslcontext-kickstart-8.3.0.jar"
+      },
+      "isDirectDependency" : true
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/io.github.hakky54:ssl-server/src/main/java/nl/altindag/ssl/server/service/NettyServer.java",
+    "useImportReport" : [ {
+      "importPath" : "import io.netty.channel.ChannelFuture;",
+      "artifact" : {
+        "artifact" : "io.netty:netty-transport:4.1.106.Final",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.github.hakky54:ssl-server:1.0.6/dependencies/io/netty/netty-transport/4.1.106.Final/netty-transport-4.1.106.Final.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import io.netty.channel.nio.NioEventLoopGroup;",
+      "artifact" : {
+        "artifact" : "io.netty:netty-transport:4.1.106.Final",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.github.hakky54:ssl-server:1.0.6/dependencies/io/netty/netty-transport/4.1.106.Final/netty-transport-4.1.106.Final.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import nl.altindag.ssl.SSLFactory;",
+      "artifact" : {
+        "artifact" : "io.github.hakky54:sslcontext-kickstart:8.3.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.github.hakky54:ssl-server:1.0.6/dependencies/io/github/hakky54/sslcontext-kickstart/8.3.0/sslcontext-kickstart-8.3.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import javax.net.ssl.X509ExtendedKeyManager;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import io.netty.handler.ssl.SslContextBuilder;",
+      "artifact" : {
+        "artifact" : "io.netty:netty-handler:4.1.106.Final",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.github.hakky54:ssl-server:1.0.6/dependencies/io/netty/netty-handler/4.1.106.Final/netty-handler-4.1.106.Final.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import io.netty.handler.ssl.SupportedCipherSuiteFilter;",
+      "artifact" : {
+        "artifact" : "io.netty:netty-handler:4.1.106.Final",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.github.hakky54:ssl-server:1.0.6/dependencies/io/netty/netty-handler/4.1.106.Final/netty-handler-4.1.106.Final.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import io.netty.handler.ssl.SslContext;",
+      "artifact" : {
+        "artifact" : "io.netty:netty-handler:4.1.106.Final",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.github.hakky54:ssl-server:1.0.6/dependencies/io/netty/netty-handler/4.1.106.Final/netty-handler-4.1.106.Final.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import io.netty.bootstrap.ServerBootstrap;",
+      "artifact" : {
+        "artifact" : "io.netty:netty-transport:4.1.106.Final",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.github.hakky54:ssl-server:1.0.6/dependencies/io/netty/netty-transport/4.1.106.Final/netty-transport-4.1.106.Final.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import io.netty.channel.ChannelOption;",
+      "artifact" : {
+        "artifact" : "io.netty:netty-transport:4.1.106.Final",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.github.hakky54:ssl-server:1.0.6/dependencies/io/netty/netty-transport/4.1.106.Final/netty-transport-4.1.106.Final.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import io.netty.channel.socket.nio.NioServerSocketChannel;",
+      "artifact" : {
+        "artifact" : "io.netty:netty-transport:4.1.106.Final",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.github.hakky54:ssl-server:1.0.6/dependencies/io/netty/netty-transport/4.1.106.Final/netty-transport-4.1.106.Final.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import nl.altindag.ssl.server.exception.ServerException;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import io.netty.channel.ChannelInitializer;",
+      "artifact" : {
+        "artifact" : "io.netty:netty-transport:4.1.106.Final",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.github.hakky54:ssl-server:1.0.6/dependencies/io/netty/netty-transport/4.1.106.Final/netty-transport-4.1.106.Final.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import io.netty.channel.Channel;",
+      "artifact" : {
+        "artifact" : "io.netty:netty-transport:4.1.106.Final",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.github.hakky54:ssl-server:1.0.6/dependencies/io/netty/netty-transport/4.1.106.Final/netty-transport-4.1.106.Final.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import io.netty.handler.ssl.SslHandler;",
+      "artifact" : {
+        "artifact" : "io.netty:netty-handler:4.1.106.Final",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.github.hakky54:ssl-server:1.0.6/dependencies/io/netty/netty-handler/4.1.106.Final/netty-handler-4.1.106.Final.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import io.netty.handler.codec.http.HttpServerCodec;",
+      "artifact" : {
+        "artifact" : "io.netty:netty-codec-http:4.1.106.Final",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.github.hakky54:ssl-server:1.0.6/dependencies/io/netty/netty-codec-http/4.1.106.Final/netty-codec-http-4.1.106.Final.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import io.netty.channel.ChannelInboundHandlerAdapter;",
+      "artifact" : {
+        "artifact" : "io.netty:netty-transport:4.1.106.Final",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.github.hakky54:ssl-server:1.0.6/dependencies/io/netty/netty-transport/4.1.106.Final/netty-transport-4.1.106.Final.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import io.netty.channel.ChannelHandlerContext;",
+      "artifact" : {
+        "artifact" : "io.netty:netty-transport:4.1.106.Final",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.github.hakky54:ssl-server:1.0.6/dependencies/io/netty/netty-transport/4.1.106.Final/netty-transport-4.1.106.Final.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.concurrent.TimeUnit;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import io.netty.handler.codec.http.HttpRequest;",
+      "artifact" : {
+        "artifact" : "io.netty:netty-codec-http:4.1.106.Final",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.github.hakky54:ssl-server:1.0.6/dependencies/io/netty/netty-codec-http/4.1.106.Final/netty-codec-http-4.1.106.Final.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import io.netty.handler.codec.http.HttpUtil;",
+      "artifact" : {
+        "artifact" : "io.netty:netty-codec-http:4.1.106.Final",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.github.hakky54:ssl-server:1.0.6/dependencies/io/netty/netty-codec-http/4.1.106.Final/netty-codec-http-4.1.106.Final.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import io.netty.handler.codec.http.DefaultFullHttpResponse;",
+      "artifact" : {
+        "artifact" : "io.netty:netty-codec-http:4.1.106.Final",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.github.hakky54:ssl-server:1.0.6/dependencies/io/netty/netty-codec-http/4.1.106.Final/netty-codec-http-4.1.106.Final.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import static io.netty.handler.codec.http.HttpVersion.HTTP_1_1;",
+      "artifact" : {
+        "artifact" : "io.netty:netty-codec-http:4.1.106.Final",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.github.hakky54:ssl-server:1.0.6/dependencies/io/netty/netty-codec-http/4.1.106.Final/netty-codec-http-4.1.106.Final.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import static io.netty.handler.codec.http.HttpResponseStatus.CONTINUE;",
+      "artifact" : {
+        "artifact" : "io.netty:netty-codec-http:4.1.106.Final",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.github.hakky54:ssl-server:1.0.6/dependencies/io/netty/netty-codec-http/4.1.106.Final/netty-codec-http-4.1.106.Final.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import io.netty.handler.codec.http.FullHttpResponse;",
+      "artifact" : {
+        "artifact" : "io.netty:netty-codec-http:4.1.106.Final",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.github.hakky54:ssl-server:1.0.6/dependencies/io/netty/netty-codec-http/4.1.106.Final/netty-codec-http-4.1.106.Final.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import static io.netty.handler.codec.http.HttpResponseStatus.OK;",
+      "artifact" : {
+        "artifact" : "io.netty:netty-codec-http:4.1.106.Final",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.github.hakky54:ssl-server:1.0.6/dependencies/io/netty/netty-codec-http/4.1.106.Final/netty-codec-http-4.1.106.Final.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import io.netty.buffer.Unpooled;",
+      "artifact" : {
+        "artifact" : "io.netty:netty-buffer:4.1.106.Final",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.github.hakky54:ssl-server:1.0.6/dependencies/io/netty/netty-buffer/4.1.106.Final/netty-buffer-4.1.106.Final.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import static java.nio.charset.StandardCharsets.UTF_8;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import static io.netty.handler.codec.http.HttpHeaderNames.CONTENT_TYPE;",
+      "artifact" : {
+        "artifact" : "io.netty:netty-codec-http:4.1.106.Final",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.github.hakky54:ssl-server:1.0.6/dependencies/io/netty/netty-codec-http/4.1.106.Final/netty-codec-http-4.1.106.Final.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import static io.netty.handler.codec.http.HttpHeaderNames.CONTENT_LENGTH;",
+      "artifact" : {
+        "artifact" : "io.netty:netty-codec-http:4.1.106.Final",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.github.hakky54:ssl-server:1.0.6/dependencies/io/netty/netty-codec-http/4.1.106.Final/netty-codec-http-4.1.106.Final.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import static io.netty.channel.ChannelFutureListener.CLOSE;",
+      "artifact" : {
+        "artifact" : "io.netty:netty-transport:4.1.106.Final",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.github.hakky54:ssl-server:1.0.6/dependencies/io/netty/netty-transport/4.1.106.Final/netty-transport-4.1.106.Final.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import static io.netty.handler.codec.http.HttpHeaderNames.CONNECTION;",
+      "artifact" : {
+        "artifact" : "io.netty:netty-codec-http:4.1.106.Final",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.github.hakky54:ssl-server:1.0.6/dependencies/io/netty/netty-codec-http/4.1.106.Final/netty-codec-http-4.1.106.Final.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import static io.netty.handler.codec.http.HttpHeaderValues.KEEP_ALIVE;",
+      "artifact" : {
+        "artifact" : "io.netty:netty-codec-http:4.1.106.Final",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.github.hakky54:ssl-server:1.0.6/dependencies/io/netty/netty-codec-http/4.1.106.Final/netty-codec-http-4.1.106.Final.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import io.netty.handler.ssl.ClientAuth;",
+      "artifact" : {
+        "artifact" : "io.netty:netty-handler:4.1.106.Final",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.github.hakky54:ssl-server:1.0.6/dependencies/io/netty/netty-handler/4.1.106.Final/netty-handler-4.1.106.Final.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import javax.net.ssl.SSLParameters;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/io.github.hakky54:ssl-server/src/main/java/nl/altindag/ssl/server/exception/ServerException.java",
+    "useImportReport" : [ ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  } ],
+  "projectUseDependencies" : [ {
+    "artifact" : "io.github.hakky54:sslcontext-kickstart:8.3.0",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.github.hakky54:ssl-server:1.0.6/dependencies/io/github/hakky54/sslcontext-kickstart/8.3.0/sslcontext-kickstart-8.3.0.jar"
+  }, {
+    "artifact" : "io.netty:netty-codec-http:4.1.106.Final",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.github.hakky54:ssl-server:1.0.6/dependencies/io/netty/netty-codec-http/4.1.106.Final/netty-codec-http-4.1.106.Final.jar"
+  } ],
+  "projectUseTransitiveDependencies" : [ ],
+  "projectUnusedDependencies" : [ ]
+}

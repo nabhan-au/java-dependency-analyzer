@@ -1,0 +1,464 @@
+{
+  "projectArtifact" : "org.ianitrix:kafka-tracing-interceptors:0.0.1",
+  "repositoryDir" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/org.ianitrix:kafka-tracing-interceptors",
+  "repositorySubDir" : "",
+  "artifactLocation" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.ianitrix:kafka-tracing-interceptors:0.0.1",
+  "fileImportReports" : [ {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/org.ianitrix:kafka-tracing-interceptors/src/main/java/org/ianitrix/kafka/interceptors/AbstractTracingInterceptor.java",
+    "useImportReport" : [ {
+      "importPath" : "import lombok.extern.slf4j.Slf4j;",
+      "artifact" : {
+        "artifact" : "org.projectlombok:lombok:1.18.12",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.ianitrix:kafka-tracing-interceptors:0.0.1/dependencies/org/projectlombok/lombok/1.18.12/lombok-1.18.12.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import com.fasterxml.jackson.databind.ObjectMapper;",
+      "artifact" : {
+        "artifact" : "com.fasterxml.jackson.core:jackson-databind:2.11.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.ianitrix:kafka-tracing-interceptors:0.0.1/dependencies/com/fasterxml/jackson/core/jackson-databind/2.11.1/jackson-databind-2.11.1.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import com.fasterxml.jackson.databind.ObjectMapper;",
+      "artifact" : {
+        "artifact" : "org.testcontainers:testcontainers:1.14.3",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.ianitrix:kafka-tracing-interceptors:0.0.1/dependencies/org/testcontainers/testcontainers/1.14.3/testcontainers-1.14.3.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.apache.kafka.clients.producer.KafkaProducer;",
+      "artifact" : {
+        "artifact" : "org.apache.kafka:kafka-clients:2.5.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.ianitrix:kafka-tracing-interceptors:0.0.1/dependencies/org/apache/kafka/kafka-clients/2.5.0/kafka-clients-2.5.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import java.util.*;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.apache.kafka.clients.producer.ProducerConfig;",
+      "artifact" : {
+        "artifact" : "org.apache.kafka:kafka-clients:2.5.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.ianitrix:kafka-tracing-interceptors:0.0.1/dependencies/org/apache/kafka/kafka-clients/2.5.0/kafka-clients-2.5.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import java.util.*;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.apache.kafka.common.serialization.StringSerializer;",
+      "artifact" : {
+        "artifact" : "org.apache.kafka:kafka-clients:2.5.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.ianitrix:kafka-tracing-interceptors:0.0.1/dependencies/org/apache/kafka/kafka-clients/2.5.0/kafka-clients-2.5.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import java.util.*;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.stream.Collectors;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.apache.kafka.common.header.Headers;",
+      "artifact" : {
+        "artifact" : "org.apache.kafka:kafka-clients:2.5.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.ianitrix:kafka-tracing-interceptors:0.0.1/dependencies/org/apache/kafka/kafka-clients/2.5.0/kafka-clients-2.5.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.apache.kafka.common.header.Header;",
+      "artifact" : {
+        "artifact" : "org.apache.kafka:kafka-clients:2.5.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.ianitrix:kafka-tracing-interceptors:0.0.1/dependencies/org/apache/kafka/kafka-clients/2.5.0/kafka-clients-2.5.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import java.util.*;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.nio.charset.StandardCharsets;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.ianitrix.kafka.interceptors.pojo.TracingKey;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.ianitrix.kafka.interceptors.pojo.TracingValue;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.apache.kafka.clients.producer.ProducerRecord;",
+      "artifact" : {
+        "artifact" : "org.apache.kafka:kafka-clients:2.5.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.ianitrix:kafka-tracing-interceptors:0.0.1/dependencies/org/apache/kafka/kafka-clients/2.5.0/kafka-clients-2.5.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import com.fasterxml.jackson.core.JsonProcessingException;",
+      "artifact" : {
+        "artifact" : "org.testcontainers:testcontainers:1.14.3",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.ianitrix:kafka-tracing-interceptors:0.0.1/dependencies/org/testcontainers/testcontainers/1.14.3/testcontainers-1.14.3.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.fasterxml.jackson.core.JsonProcessingException;",
+      "artifact" : {
+        "artifact" : "com.fasterxml.jackson.core:jackson-core:2.11.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.ianitrix:kafka-tracing-interceptors:0.0.1/dependencies/com/fasterxml/jackson/core/jackson-core/2.11.1/jackson-core-2.11.1.jar"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/org.ianitrix:kafka-tracing-interceptors/src/main/java/org/ianitrix/kafka/interceptors/ConsumerTracingInterceptor.java",
+    "useImportReport" : [ {
+      "importPath" : "import org.apache.kafka.clients.consumer.*;",
+      "artifact" : {
+        "artifact" : "org.apache.kafka:kafka-clients:2.5.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.ianitrix:kafka-tracing-interceptors:0.0.1/dependencies/org/apache/kafka/kafka-clients/2.5.0/kafka-clients-2.5.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import lombok.extern.slf4j.Slf4j;",
+      "artifact" : {
+        "artifact" : "org.projectlombok:lombok:1.18.12",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.ianitrix:kafka-tracing-interceptors:0.0.1/dependencies/org/projectlombok/lombok/1.18.12/lombok-1.18.12.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import java.util.Map;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.apache.kafka.clients.consumer.*;",
+      "artifact" : {
+        "artifact" : "org.apache.kafka:kafka-clients:2.5.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.ianitrix:kafka-tracing-interceptors:0.0.1/dependencies/org/apache/kafka/kafka-clients/2.5.0/kafka-clients-2.5.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.apache.kafka.clients.consumer.*;",
+      "artifact" : {
+        "artifact" : "org.apache.kafka:kafka-clients:2.5.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.ianitrix:kafka-tracing-interceptors:0.0.1/dependencies/org/apache/kafka/kafka-clients/2.5.0/kafka-clients-2.5.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.apache.kafka.clients.consumer.*;",
+      "artifact" : {
+        "artifact" : "org.apache.kafka:kafka-clients:2.5.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.ianitrix:kafka-tracing-interceptors:0.0.1/dependencies/org/apache/kafka/kafka-clients/2.5.0/kafka-clients-2.5.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.ianitrix.kafka.interceptors.pojo.TracingKey;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.ianitrix.kafka.interceptors.pojo.TracingValue;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.time.Instant;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.ianitrix.kafka.interceptors.pojo.TraceType;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.apache.kafka.common.TopicPartition;",
+      "artifact" : {
+        "artifact" : "org.apache.kafka:kafka-clients:2.5.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.ianitrix:kafka-tracing-interceptors:0.0.1/dependencies/org/apache/kafka/kafka-clients/2.5.0/kafka-clients-2.5.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.apache.kafka.clients.consumer.*;",
+      "artifact" : {
+        "artifact" : "org.apache.kafka:kafka-clients:2.5.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.ianitrix:kafka-tracing-interceptors:0.0.1/dependencies/org/apache/kafka/kafka-clients/2.5.0/kafka-clients-2.5.0.jar"
+      },
+      "isDirectDependency" : true
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/org.ianitrix:kafka-tracing-interceptors/src/main/java/org/ianitrix/kafka/interceptors/ProducerTracingInterceptor.java",
+    "useImportReport" : [ {
+      "importPath" : "import org.apache.kafka.clients.producer.ProducerInterceptor;",
+      "artifact" : {
+        "artifact" : "org.apache.kafka:kafka-clients:2.5.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.ianitrix:kafka-tracing-interceptors:0.0.1/dependencies/org/apache/kafka/kafka-clients/2.5.0/kafka-clients-2.5.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import lombok.extern.slf4j.Slf4j;",
+      "artifact" : {
+        "artifact" : "org.projectlombok:lombok:1.18.12",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.ianitrix:kafka-tracing-interceptors:0.0.1/dependencies/org/projectlombok/lombok/1.18.12/lombok-1.18.12.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import java.util.Map;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.apache.kafka.clients.producer.ProducerRecord;",
+      "artifact" : {
+        "artifact" : "org.apache.kafka:kafka-clients:2.5.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.ianitrix:kafka-tracing-interceptors:0.0.1/dependencies/org/apache/kafka/kafka-clients/2.5.0/kafka-clients-2.5.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.ianitrix.kafka.interceptors.pojo.TracingKey;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.ianitrix.kafka.interceptors.pojo.TracingValue;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.time.Instant;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.ianitrix.kafka.interceptors.pojo.TraceType;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.apache.kafka.clients.producer.RecordMetadata;",
+      "artifact" : {
+        "artifact" : "org.apache.kafka:kafka-clients:2.5.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.ianitrix:kafka-tracing-interceptors:0.0.1/dependencies/org/apache/kafka/kafka-clients/2.5.0/kafka-clients-2.5.0.jar"
+      },
+      "isDirectDependency" : true
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/org.ianitrix:kafka-tracing-interceptors/src/main/java/org/ianitrix/kafka/interceptors/pojo/TracingValue.java",
+    "useImportReport" : [ {
+      "importPath" : "import lombok.*;",
+      "artifact" : {
+        "artifact" : "org.projectlombok:lombok:1.18.12",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.ianitrix:kafka-tracing-interceptors:0.0.1/dependencies/org/projectlombok/lombok/1.18.12/lombok-1.18.12.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import lombok.*;",
+      "artifact" : {
+        "artifact" : "org.projectlombok:lombok:1.18.12",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.ianitrix:kafka-tracing-interceptors:0.0.1/dependencies/org/projectlombok/lombok/1.18.12/lombok-1.18.12.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import lombok.*;",
+      "artifact" : {
+        "artifact" : "org.projectlombok:lombok:1.18.12",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.ianitrix:kafka-tracing-interceptors:0.0.1/dependencies/org/projectlombok/lombok/1.18.12/lombok-1.18.12.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import lombok.*;",
+      "artifact" : {
+        "artifact" : "org.projectlombok:lombok:1.18.12",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.ianitrix:kafka-tracing-interceptors:0.0.1/dependencies/org/projectlombok/lombok/1.18.12/lombok-1.18.12.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import lombok.*;",
+      "artifact" : {
+        "artifact" : "org.projectlombok:lombok:1.18.12",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.ianitrix:kafka-tracing-interceptors:0.0.1/dependencies/org/projectlombok/lombok/1.18.12/lombok-1.18.12.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import com.fasterxml.jackson.annotation.JsonIgnoreProperties;",
+      "artifact" : {
+        "artifact" : "org.testcontainers:testcontainers:1.14.3",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.ianitrix:kafka-tracing-interceptors:0.0.1/dependencies/org/testcontainers/testcontainers/1.14.3/testcontainers-1.14.3.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.fasterxml.jackson.annotation.JsonIgnoreProperties;",
+      "artifact" : {
+        "artifact" : "com.fasterxml.jackson.core:jackson-annotations:2.11.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.ianitrix:kafka-tracing-interceptors:0.0.1/dependencies/com/fasterxml/jackson/core/jackson-annotations/2.11.1/jackson-annotations-2.11.1.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.fasterxml.jackson.annotation.JsonInclude;",
+      "artifact" : {
+        "artifact" : "org.testcontainers:testcontainers:1.14.3",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.ianitrix:kafka-tracing-interceptors:0.0.1/dependencies/org/testcontainers/testcontainers/1.14.3/testcontainers-1.14.3.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.fasterxml.jackson.annotation.JsonInclude;",
+      "artifact" : {
+        "artifact" : "com.fasterxml.jackson.core:jackson-annotations:2.11.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.ianitrix:kafka-tracing-interceptors:0.0.1/dependencies/com/fasterxml/jackson/core/jackson-annotations/2.11.1/jackson-annotations-2.11.1.jar"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/org.ianitrix:kafka-tracing-interceptors/src/main/java/org/ianitrix/kafka/interceptors/pojo/TracingKey.java",
+    "useImportReport" : [ {
+      "importPath" : "import lombok.*;",
+      "artifact" : {
+        "artifact" : "org.projectlombok:lombok:1.18.12",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.ianitrix:kafka-tracing-interceptors:0.0.1/dependencies/org/projectlombok/lombok/1.18.12/lombok-1.18.12.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import lombok.*;",
+      "artifact" : {
+        "artifact" : "org.projectlombok:lombok:1.18.12",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.ianitrix:kafka-tracing-interceptors:0.0.1/dependencies/org/projectlombok/lombok/1.18.12/lombok-1.18.12.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import lombok.*;",
+      "artifact" : {
+        "artifact" : "org.projectlombok:lombok:1.18.12",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.ianitrix:kafka-tracing-interceptors:0.0.1/dependencies/org/projectlombok/lombok/1.18.12/lombok-1.18.12.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import lombok.*;",
+      "artifact" : {
+        "artifact" : "org.projectlombok:lombok:1.18.12",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.ianitrix:kafka-tracing-interceptors:0.0.1/dependencies/org/projectlombok/lombok/1.18.12/lombok-1.18.12.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import lombok.*;",
+      "artifact" : {
+        "artifact" : "org.projectlombok:lombok:1.18.12",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.ianitrix:kafka-tracing-interceptors:0.0.1/dependencies/org/projectlombok/lombok/1.18.12/lombok-1.18.12.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import com.fasterxml.jackson.annotation.JsonIgnoreProperties;",
+      "artifact" : {
+        "artifact" : "org.testcontainers:testcontainers:1.14.3",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.ianitrix:kafka-tracing-interceptors:0.0.1/dependencies/org/testcontainers/testcontainers/1.14.3/testcontainers-1.14.3.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.fasterxml.jackson.annotation.JsonIgnoreProperties;",
+      "artifact" : {
+        "artifact" : "com.fasterxml.jackson.core:jackson-annotations:2.11.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.ianitrix:kafka-tracing-interceptors:0.0.1/dependencies/com/fasterxml/jackson/core/jackson-annotations/2.11.1/jackson-annotations-2.11.1.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.fasterxml.jackson.annotation.JsonInclude;",
+      "artifact" : {
+        "artifact" : "org.testcontainers:testcontainers:1.14.3",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.ianitrix:kafka-tracing-interceptors:0.0.1/dependencies/org/testcontainers/testcontainers/1.14.3/testcontainers-1.14.3.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.fasterxml.jackson.annotation.JsonInclude;",
+      "artifact" : {
+        "artifact" : "com.fasterxml.jackson.core:jackson-annotations:2.11.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.ianitrix:kafka-tracing-interceptors:0.0.1/dependencies/com/fasterxml/jackson/core/jackson-annotations/2.11.1/jackson-annotations-2.11.1.jar"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/org.ianitrix:kafka-tracing-interceptors/src/main/java/org/ianitrix/kafka/interceptors/pojo/TraceType.java",
+    "useImportReport" : [ ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  } ],
+  "projectUseDependencies" : [ {
+    "artifact" : "org.projectlombok:lombok:1.18.12",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.ianitrix:kafka-tracing-interceptors:0.0.1/dependencies/org/projectlombok/lombok/1.18.12/lombok-1.18.12.jar"
+  }, {
+    "artifact" : "com.fasterxml.jackson.core:jackson-databind:2.11.1",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.ianitrix:kafka-tracing-interceptors:0.0.1/dependencies/com/fasterxml/jackson/core/jackson-databind/2.11.1/jackson-databind-2.11.1.jar"
+  }, {
+    "artifact" : "org.apache.kafka:kafka-clients:2.5.0",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.ianitrix:kafka-tracing-interceptors:0.0.1/dependencies/org/apache/kafka/kafka-clients/2.5.0/kafka-clients-2.5.0.jar"
+  } ],
+  "projectUseTransitiveDependencies" : [ ],
+  "projectUnusedDependencies" : [ {
+    "artifact" : "ch.qos.logback:logback-classic:1.2.3",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.ianitrix:kafka-tracing-interceptors:0.0.1/dependencies/ch/qos/logback/logback-classic/1.2.3/logback-classic-1.2.3.jar"
+  } ]
+}

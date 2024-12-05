@@ -1,0 +1,2692 @@
+{
+  "projectArtifact" : "org.mule.services:mule-service-oauth:1.0.0-BETA.4",
+  "repositoryDir" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/org.mule.services:mule-service-oauth",
+  "repositorySubDir" : "",
+  "artifactLocation" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.mule.services:mule-service-oauth:1.0.0-BETA.4",
+  "fileImportReports" : [ {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/org.mule.services:mule-service-oauth/src/test/java/org/mule/test/oauth/internal/OAuthContextTestCase.java",
+    "useImportReport" : [ {
+      "importPath" : "import org.mule.tck.junit4.AbstractMuleContextTestCase;",
+      "artifact" : {
+        "artifact" : "org.mule.tests:mule-tests-unit:4.0.0-BETA.4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.mule.services:mule-service-oauth:1.0.0-BETA.4/dependencies/org/mule/tests/mule-tests-unit/4.0.0-BETA.4/mule-tests-unit-4.0.0-BETA.4.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import ru.yandex.qatools.allure.annotations.Features;",
+      "artifact" : {
+        "artifact" : "ru.yandex.qatools.allure:allure-java-annotations:1.4.23",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.mule.services:mule-service-oauth:1.0.0-BETA.4/dependencies/ru/yandex/qatools/allure/allure-java-annotations/1.4.23/allure-java-annotations-1.4.23.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.mule.runtime.oauth.api.OAuthService;",
+      "artifact" : {
+        "artifact" : "org.mule.runtime:mule-service-oauth-api:4.0.0-BETA.4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.mule.services:mule-service-oauth:1.0.0-BETA.4/dependencies/org/mule/runtime/mule-service-oauth-api/4.0.0-BETA.4/mule-service-oauth-api-4.0.0-BETA.4.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import java.util.Map;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.mule.runtime.oauth.api.state.ResourceOwnerOAuthContext;",
+      "artifact" : {
+        "artifact" : "org.mule.runtime:mule-service-oauth-api:4.0.0-BETA.4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.mule.services:mule-service-oauth:1.0.0-BETA.4/dependencies/org/mule/runtime/mule-service-oauth-api/4.0.0-BETA.4/mule-service-oauth-api-4.0.0-BETA.4.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.junit.Before;",
+      "artifact" : {
+        "artifact" : "junit:junit:4.12",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.mule.services:mule-service-oauth:1.0.0-BETA.4/dependencies/junit/junit/4.12/junit-4.12.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.mule.runtime.api.connection.ConnectionException;",
+      "artifact" : {
+        "artifact" : "org.mule.runtime:mule-api:1.0.0-BETA.4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.mule.services:mule-service-oauth:1.0.0-BETA.4/dependencies/org/mule/runtime/mule-api/1.0.0-BETA.4/mule-api-1.0.0-BETA.4.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import java.io.IOException;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.concurrent.TimeoutException;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.mule.runtime.http.api.HttpService;",
+      "artifact" : {
+        "artifact" : "org.mule.runtime:mule-service-http-api:4.0.0-BETA.4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.mule.services:mule-service-oauth:1.0.0-BETA.4/dependencies/org/mule/runtime/mule-service-http-api/4.0.0-BETA.4/mule-service-http-api-4.0.0-BETA.4.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import static org.mockito.Mockito.mock;",
+      "artifact" : {
+        "artifact" : "org.mockito:mockito-core:1.10.19",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.mule.services:mule-service-oauth:1.0.0-BETA.4/dependencies/org/mockito/mockito-core/1.10.19/mockito-core-1.10.19.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.mule.service.oauth.internal.DefaultOAuthService;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.mule.runtime.core.api.scheduler.SchedulerService;",
+      "artifact" : {
+        "artifact" : "org.mule.runtime:mule-core:4.0.0-BETA.4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.mule.services:mule-service-oauth:1.0.0-BETA.4/dependencies/org/mule/runtime/mule-core/4.0.0-BETA.4/mule-core-4.0.0-BETA.4.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import java.util.HashMap;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.junit.Test;",
+      "artifact" : {
+        "artifact" : "junit:junit:4.12",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.mule.services:mule-service-oauth:1.0.0-BETA.4/dependencies/junit/junit/4.12/junit-4.12.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.mule.runtime.oauth.api.ClientCredentialsOAuthDancer;",
+      "artifact" : {
+        "artifact" : "org.mule.runtime:mule-service-oauth-api:4.0.0-BETA.4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.mule.services:mule-service-oauth:1.0.0-BETA.4/dependencies/org/mule/runtime/mule-service-oauth-api/4.0.0-BETA.4/mule-service-oauth-api-4.0.0-BETA.4.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.mule.runtime.http.api.client.HttpClient;",
+      "artifact" : {
+        "artifact" : "org.mule.runtime:mule-service-http-api:4.0.0-BETA.4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.mule.services:mule-service-oauth:1.0.0-BETA.4/dependencies/org/mule/runtime/mule-service-http-api/4.0.0-BETA.4/mule-service-http-api-4.0.0-BETA.4.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import static org.junit.Assert.assertThat;",
+      "artifact" : {
+        "artifact" : "junit:junit:4.12",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.mule.services:mule-service-oauth:1.0.0-BETA.4/dependencies/junit/junit/4.12/junit-4.12.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import static org.hamcrest.Matchers.not;",
+      "artifact" : {
+        "artifact" : "org.hamcrest:hamcrest-library:1.3",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.mule.services:mule-service-oauth:1.0.0-BETA.4/dependencies/org/hamcrest/hamcrest-library/1.3/hamcrest-library-1.3.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import static org.hamcrest.collection.IsMapContaining.hasKey;",
+      "artifact" : {
+        "artifact" : "org.hamcrest:hamcrest-library:1.3",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.mule.services:mule-service-oauth:1.0.0-BETA.4/dependencies/org/hamcrest/hamcrest-library/1.3/hamcrest-library-1.3.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import static org.mule.runtime.oauth.api.state.ResourceOwnerOAuthContext.DEFAULT_RESOURCE_OWNER_ID;",
+      "artifact" : {
+        "artifact" : "org.mule.runtime:mule-service-oauth-api:4.0.0-BETA.4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.mule.services:mule-service-oauth:1.0.0-BETA.4/dependencies/org/mule/runtime/mule-service-oauth-api/4.0.0-BETA.4/mule-service-oauth-api-4.0.0-BETA.4.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import static org.hamcrest.Matchers.nullValue;",
+      "artifact" : {
+        "artifact" : "org.hamcrest:hamcrest-library:1.3",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.mule.services:mule-service-oauth:1.0.0-BETA.4/dependencies/org/hamcrest/hamcrest-library/1.3/hamcrest-library-1.3.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import static org.hamcrest.collection.IsMapContaining.hasEntry;",
+      "artifact" : {
+        "artifact" : "org.hamcrest:hamcrest-library:1.3",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.mule.services:mule-service-oauth:1.0.0-BETA.4/dependencies/org/hamcrest/hamcrest-library/1.3/hamcrest-library-1.3.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import static org.hamcrest.Matchers.sameInstance;",
+      "artifact" : {
+        "artifact" : "org.hamcrest:hamcrest-library:1.3",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.mule.services:mule-service-oauth:1.0.0-BETA.4/dependencies/org/hamcrest/hamcrest-library/1.3/hamcrest-library-1.3.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import static org.hamcrest.collection.IsCollectionWithSize.hasSize;",
+      "artifact" : {
+        "artifact" : "org.hamcrest:hamcrest-library:1.3",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.mule.services:mule-service-oauth:1.0.0-BETA.4/dependencies/org/hamcrest/hamcrest-library/1.3/hamcrest-library-1.3.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.mule.runtime.oauth.api.AuthorizationCodeOAuthDancer;",
+      "artifact" : {
+        "artifact" : "org.mule.runtime:mule-service-oauth-api:4.0.0-BETA.4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.mule.services:mule-service-oauth:1.0.0-BETA.4/dependencies/org/mule/runtime/mule-service-oauth-api/4.0.0-BETA.4/mule-service-oauth-api-4.0.0-BETA.4.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.mule.runtime.oauth.api.builder.OAuthClientCredentialsDancerBuilder;",
+      "artifact" : {
+        "artifact" : "org.mule.runtime:mule-service-oauth-api:4.0.0-BETA.4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.mule.services:mule-service-oauth:1.0.0-BETA.4/dependencies/org/mule/runtime/mule-service-oauth-api/4.0.0-BETA.4/mule-service-oauth-api-4.0.0-BETA.4.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.mule.runtime.api.lock.LockFactory;",
+      "artifact" : {
+        "artifact" : "org.mule.runtime:mule-api:1.0.0-BETA.4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.mule.services:mule-service-oauth:1.0.0-BETA.4/dependencies/org/mule/runtime/mule-api/1.0.0-BETA.4/mule-api-1.0.0-BETA.4.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.mule.runtime.api.el.MuleExpressionLanguage;",
+      "artifact" : {
+        "artifact" : "org.mule.runtime:mule-api:1.0.0-BETA.4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.mule.services:mule-service-oauth:1.0.0-BETA.4/dependencies/org/mule/runtime/mule-api/1.0.0-BETA.4/mule-api-1.0.0-BETA.4.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.mule.runtime.oauth.api.builder.OAuthAuthorizationCodeDancerBuilder;",
+      "artifact" : {
+        "artifact" : "org.mule.runtime:mule-service-oauth-api:4.0.0-BETA.4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.mule.services:mule-service-oauth:1.0.0-BETA.4/dependencies/org/mule/runtime/mule-service-oauth-api/4.0.0-BETA.4/mule-service-oauth-api-4.0.0-BETA.4.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.mule.runtime.http.api.server.HttpServer;",
+      "artifact" : {
+        "artifact" : "org.mule.runtime:mule-service-http-api:4.0.0-BETA.4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.mule.services:mule-service-oauth:1.0.0-BETA.4/dependencies/org/mule/runtime/mule-service-http-api/4.0.0-BETA.4/mule-service-http-api-4.0.0-BETA.4.jar"
+      },
+      "isDirectDependency" : true
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/org.mule.services:mule-service-oauth/src/test/java/org/mule/test/oauth/internal/DancerConfigTestCase.java",
+    "useImportReport" : [ {
+      "importPath" : "import org.mule.tck.junit4.AbstractMuleContextTestCase;",
+      "artifact" : {
+        "artifact" : "org.mule.tests:mule-tests-unit:4.0.0-BETA.4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.mule.services:mule-service-oauth:1.0.0-BETA.4/dependencies/org/mule/tests/mule-tests-unit/4.0.0-BETA.4/mule-tests-unit-4.0.0-BETA.4.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import ru.yandex.qatools.allure.annotations.Features;",
+      "artifact" : {
+        "artifact" : "ru.yandex.qatools.allure:allure-java-annotations:1.4.23",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.mule.services:mule-service-oauth:1.0.0-BETA.4/dependencies/ru/yandex/qatools/allure/allure-java-annotations/1.4.23/allure-java-annotations-1.4.23.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.mule.runtime.oauth.api.OAuthService;",
+      "artifact" : {
+        "artifact" : "org.mule.runtime:mule-service-oauth-api:4.0.0-BETA.4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.mule.services:mule-service-oauth:1.0.0-BETA.4/dependencies/org/mule/runtime/mule-service-oauth-api/4.0.0-BETA.4/mule-service-oauth-api-4.0.0-BETA.4.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.mule.runtime.http.api.client.HttpClient;",
+      "artifact" : {
+        "artifact" : "org.mule.runtime:mule-service-http-api:4.0.0-BETA.4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.mule.services:mule-service-oauth:1.0.0-BETA.4/dependencies/org/mule/runtime/mule-service-http-api/4.0.0-BETA.4/mule-service-http-api-4.0.0-BETA.4.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.mule.runtime.http.api.server.HttpServer;",
+      "artifact" : {
+        "artifact" : "org.mule.runtime:mule-service-http-api:4.0.0-BETA.4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.mule.services:mule-service-oauth:1.0.0-BETA.4/dependencies/org/mule/runtime/mule-service-http-api/4.0.0-BETA.4/mule-service-http-api-4.0.0-BETA.4.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.mockito.ArgumentCaptor;",
+      "artifact" : {
+        "artifact" : "org.mockito:mockito-core:1.10.19",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.mule.services:mule-service-oauth:1.0.0-BETA.4/dependencies/org/mockito/mockito-core/1.10.19/mockito-core-1.10.19.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.mule.runtime.http.api.server.RequestHandler;",
+      "artifact" : {
+        "artifact" : "org.mule.runtime:mule-service-http-api:4.0.0-BETA.4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.mule.services:mule-service-oauth:1.0.0-BETA.4/dependencies/org/mule/runtime/mule-service-http-api/4.0.0-BETA.4/mule-service-http-api-4.0.0-BETA.4.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import static org.mockito.ArgumentCaptor.forClass;",
+      "artifact" : {
+        "artifact" : "org.mockito:mockito-core:1.10.19",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.mule.services:mule-service-oauth:1.0.0-BETA.4/dependencies/org/mockito/mockito-core/1.10.19/mockito-core-1.10.19.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.junit.Before;",
+      "artifact" : {
+        "artifact" : "junit:junit:4.12",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.mule.services:mule-service-oauth:1.0.0-BETA.4/dependencies/junit/junit/4.12/junit-4.12.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.mule.runtime.api.connection.ConnectionException;",
+      "artifact" : {
+        "artifact" : "org.mule.runtime:mule-api:1.0.0-BETA.4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.mule.services:mule-service-oauth:1.0.0-BETA.4/dependencies/org/mule/runtime/mule-api/1.0.0-BETA.4/mule-api-1.0.0-BETA.4.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import java.io.IOException;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.concurrent.TimeoutException;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.mule.runtime.http.api.HttpService;",
+      "artifact" : {
+        "artifact" : "org.mule.runtime:mule-service-http-api:4.0.0-BETA.4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.mule.services:mule-service-oauth:1.0.0-BETA.4/dependencies/org/mule/runtime/mule-service-http-api/4.0.0-BETA.4/mule-service-http-api-4.0.0-BETA.4.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import static org.mockito.Mockito.mock;",
+      "artifact" : {
+        "artifact" : "org.mockito:mockito-core:1.10.19",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.mule.services:mule-service-oauth:1.0.0-BETA.4/dependencies/org/mockito/mockito-core/1.10.19/mockito-core-1.10.19.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.mule.runtime.http.api.client.HttpClientFactory;",
+      "artifact" : {
+        "artifact" : "org.mule.runtime:mule-service-http-api:4.0.0-BETA.4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.mule.services:mule-service-oauth:1.0.0-BETA.4/dependencies/org/mule/runtime/mule-service-http-api/4.0.0-BETA.4/mule-service-http-api-4.0.0-BETA.4.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import static org.mockito.Mockito.when;",
+      "artifact" : {
+        "artifact" : "org.mockito:mockito-core:1.10.19",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.mule.services:mule-service-oauth:1.0.0-BETA.4/dependencies/org/mockito/mockito-core/1.10.19/mockito-core-1.10.19.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import static org.mockito.Matchers.any;",
+      "artifact" : {
+        "artifact" : "org.mockito:mockito-core:1.10.19",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.mule.services:mule-service-oauth:1.0.0-BETA.4/dependencies/org/mockito/mockito-core/1.10.19/mockito-core-1.10.19.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.mule.runtime.http.api.server.HttpServerFactory;",
+      "artifact" : {
+        "artifact" : "org.mule.runtime:mule-service-http-api:4.0.0-BETA.4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.mule.services:mule-service-oauth:1.0.0-BETA.4/dependencies/org/mule/runtime/mule-service-http-api/4.0.0-BETA.4/mule-service-http-api-4.0.0-BETA.4.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import static org.mockito.Matchers.anyString;",
+      "artifact" : {
+        "artifact" : "org.mockito:mockito-core:1.10.19",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.mule.services:mule-service-oauth:1.0.0-BETA.4/dependencies/org/mockito/mockito-core/1.10.19/mockito-core-1.10.19.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.mule.runtime.http.api.server.RequestHandlerManager;",
+      "artifact" : {
+        "artifact" : "org.mule.runtime:mule-service-http-api:4.0.0-BETA.4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.mule.services:mule-service-oauth:1.0.0-BETA.4/dependencies/org/mule/runtime/mule-service-http-api/4.0.0-BETA.4/mule-service-http-api-4.0.0-BETA.4.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.mule.service.oauth.internal.DefaultOAuthService;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.mule.runtime.core.api.scheduler.SchedulerService;",
+      "artifact" : {
+        "artifact" : "org.mule.runtime:mule-core:4.0.0-BETA.4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.mule.services:mule-service-oauth:1.0.0-BETA.4/dependencies/org/mule/runtime/mule-core/4.0.0-BETA.4/mule-core-4.0.0-BETA.4.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.mule.runtime.http.api.domain.message.response.HttpResponse;",
+      "artifact" : {
+        "artifact" : "org.mule.runtime:mule-service-http-api:4.0.0-BETA.4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.mule.services:mule-service-oauth:1.0.0-BETA.4/dependencies/org/mule/runtime/mule-service-http-api/4.0.0-BETA.4/mule-service-http-api-4.0.0-BETA.4.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.mule.runtime.http.api.domain.entity.InputStreamHttpEntity;",
+      "artifact" : {
+        "artifact" : "org.mule.runtime:mule-service-http-api:4.0.0-BETA.4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.mule.services:mule-service-oauth:1.0.0-BETA.4/dependencies/org/mule/runtime/mule-service-http-api/4.0.0-BETA.4/mule-service-http-api-4.0.0-BETA.4.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.apache.commons.io.input.ReaderInputStream;",
+      "artifact" : {
+        "artifact" : "commons-io:commons-io:2.4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.mule.services:mule-service-oauth:1.0.0-BETA.4/dependencies/commons-io/commons-io/2.4/commons-io-2.4.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.io.StringReader;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import static org.mockito.Matchers.anyInt;",
+      "artifact" : {
+        "artifact" : "org.mockito:mockito-core:1.10.19",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.mule.services:mule-service-oauth:1.0.0-BETA.4/dependencies/org/mockito/mockito-core/1.10.19/mockito-core-1.10.19.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import static org.mockito.Matchers.anyBoolean;",
+      "artifact" : {
+        "artifact" : "org.mockito:mockito-core:1.10.19",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.mule.services:mule-service-oauth:1.0.0-BETA.4/dependencies/org/mockito/mockito-core/1.10.19/mockito-core-1.10.19.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.junit.Test;",
+      "artifact" : {
+        "artifact" : "junit:junit:4.12",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.mule.services:mule-service-oauth:1.0.0-BETA.4/dependencies/junit/junit/4.12/junit-4.12.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.mule.runtime.api.exception.MuleException;",
+      "artifact" : {
+        "artifact" : "org.mule.runtime:mule-api:1.0.0-BETA.4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.mule.services:mule-service-oauth:1.0.0-BETA.4/dependencies/org/mule/runtime/mule-api/1.0.0-BETA.4/mule-api-1.0.0-BETA.4.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.mule.runtime.oauth.api.builder.OAuthClientCredentialsDancerBuilder;",
+      "artifact" : {
+        "artifact" : "org.mule.runtime:mule-service-oauth-api:4.0.0-BETA.4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.mule.services:mule-service-oauth:1.0.0-BETA.4/dependencies/org/mule/runtime/mule-service-oauth-api/4.0.0-BETA.4/mule-service-oauth-api-4.0.0-BETA.4.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import static org.mockito.Mockito.verify;",
+      "artifact" : {
+        "artifact" : "org.mockito:mockito-core:1.10.19",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.mule.services:mule-service-oauth:1.0.0-BETA.4/dependencies/org/mockito/mockito-core/1.10.19/mockito-core-1.10.19.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import static org.mule.runtime.core.api.lifecycle.LifecycleUtils.stopIfNeeded;",
+      "artifact" : {
+        "artifact" : "org.mule.runtime:mule-core:4.0.0-BETA.4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.mule.services:mule-service-oauth:1.0.0-BETA.4/dependencies/org/mule/runtime/mule-core/4.0.0-BETA.4/mule-core-4.0.0-BETA.4.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import java.net.MalformedURLException;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.mule.runtime.oauth.api.builder.OAuthAuthorizationCodeDancerBuilder;",
+      "artifact" : {
+        "artifact" : "org.mule.runtime:mule-service-oauth-api:4.0.0-BETA.4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.mule.services:mule-service-oauth:1.0.0-BETA.4/dependencies/org/mule/runtime/mule-service-oauth-api/4.0.0-BETA.4/mule-service-oauth-api-4.0.0-BETA.4.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import java.net.URL;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import static org.mockito.Mockito.never;",
+      "artifact" : {
+        "artifact" : "org.mockito:mockito-core:1.10.19",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.mule.services:mule-service-oauth:1.0.0-BETA.4/dependencies/org/mockito/mockito-core/1.10.19/mockito-core-1.10.19.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import static org.mockito.Matchers.eq;",
+      "artifact" : {
+        "artifact" : "org.mockito:mockito-core:1.10.19",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.mule.services:mule-service-oauth:1.0.0-BETA.4/dependencies/org/mockito/mockito-core/1.10.19/mockito-core-1.10.19.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import static java.util.Collections.singleton;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import static org.mule.runtime.http.api.HttpConstants.Method.GET;",
+      "artifact" : {
+        "artifact" : "org.mule.runtime:mule-service-http-api:4.0.0-BETA.4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.mule.services:mule-service-oauth:1.0.0-BETA.4/dependencies/org/mule/runtime/mule-service-http-api/4.0.0-BETA.4/mule-service-http-api-4.0.0-BETA.4.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import java.util.concurrent.atomic.AtomicBoolean;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import static org.junit.Assert.assertThat;",
+      "artifact" : {
+        "artifact" : "junit:junit:4.12",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.mule.services:mule-service-oauth:1.0.0-BETA.4/dependencies/junit/junit/4.12/junit-4.12.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import static org.hamcrest.core.Is.is;",
+      "artifact" : {
+        "artifact" : "org.hamcrest:hamcrest-core:1.3",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.mule.services:mule-service-oauth:1.0.0-BETA.4/dependencies/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import static org.hamcrest.Matchers.nullValue;",
+      "artifact" : {
+        "artifact" : "org.hamcrest:hamcrest-library:1.3",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.mule.services:mule-service-oauth:1.0.0-BETA.4/dependencies/org/hamcrest/hamcrest-library/1.3/hamcrest-library-1.3.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import static java.util.Optional.empty;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import static org.hamcrest.Matchers.equalTo;",
+      "artifact" : {
+        "artifact" : "org.hamcrest:hamcrest-library:1.3",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.mule.services:mule-service-oauth:1.0.0-BETA.4/dependencies/org/hamcrest/hamcrest-library/1.3/hamcrest-library-1.3.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import static java.util.Collections.emptyMap;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import static java.util.Collections.singletonMap;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.mule.runtime.oauth.api.builder.AuthorizationCodeDanceCallbackContext;",
+      "artifact" : {
+        "artifact" : "org.mule.runtime:mule-service-oauth-api:4.0.0-BETA.4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.mule.services:mule-service-oauth:1.0.0-BETA.4/dependencies/org/mule/runtime/mule-service-oauth-api/4.0.0-BETA.4/mule-service-oauth-api-4.0.0-BETA.4.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import static org.hamcrest.Matchers.sameInstance;",
+      "artifact" : {
+        "artifact" : "org.hamcrest:hamcrest-library:1.3",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.mule.services:mule-service-oauth:1.0.0-BETA.4/dependencies/org/hamcrest/hamcrest-library/1.3/hamcrest-library-1.3.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.mule.runtime.api.lifecycle.InitialisationException;",
+      "artifact" : {
+        "artifact" : "org.mule.runtime:mule-api:1.0.0-BETA.4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.mule.services:mule-service-oauth:1.0.0-BETA.4/dependencies/org/mule/runtime/mule-api/1.0.0-BETA.4/mule-api-1.0.0-BETA.4.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.mule.runtime.api.lock.LockFactory;",
+      "artifact" : {
+        "artifact" : "org.mule.runtime:mule-api:1.0.0-BETA.4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.mule.services:mule-service-oauth:1.0.0-BETA.4/dependencies/org/mule/runtime/mule-api/1.0.0-BETA.4/mule-api-1.0.0-BETA.4.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import java.util.Map;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.HashMap;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.mule.runtime.api.el.MuleExpressionLanguage;",
+      "artifact" : {
+        "artifact" : "org.mule.runtime:mule-api:1.0.0-BETA.4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.mule.services:mule-service-oauth:1.0.0-BETA.4/dependencies/org/mule/runtime/mule-api/1.0.0-BETA.4/mule-api-1.0.0-BETA.4.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.mule.runtime.oauth.api.AuthorizationCodeOAuthDancer;",
+      "artifact" : {
+        "artifact" : "org.mule.runtime:mule-service-oauth-api:4.0.0-BETA.4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.mule.services:mule-service-oauth:1.0.0-BETA.4/dependencies/org/mule/runtime/mule-service-oauth-api/4.0.0-BETA.4/mule-service-oauth-api-4.0.0-BETA.4.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.mule.runtime.oauth.api.state.DefaultResourceOwnerOAuthContext;",
+      "artifact" : {
+        "artifact" : "org.mule.runtime:mule-service-oauth-api:4.0.0-BETA.4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.mule.services:mule-service-oauth:1.0.0-BETA.4/dependencies/org/mule/runtime/mule-service-oauth-api/4.0.0-BETA.4/mule-service-oauth-api-4.0.0-BETA.4.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import java.util.concurrent.locks.ReentrantLock;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.mule.runtime.core.api.registry.RegistrationException;",
+      "artifact" : {
+        "artifact" : "org.mule.runtime:mule-core:4.0.0-BETA.4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.mule.services:mule-service-oauth:1.0.0-BETA.4/dependencies/org/mule/runtime/mule-core/4.0.0-BETA.4/mule-core-4.0.0-BETA.4.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.mule.runtime.oauth.api.builder.OAuthDancerBuilder;",
+      "artifact" : {
+        "artifact" : "org.mule.runtime:mule-service-oauth-api:4.0.0-BETA.4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.mule.services:mule-service-oauth:1.0.0-BETA.4/dependencies/org/mule/runtime/mule-service-oauth-api/4.0.0-BETA.4/mule-service-oauth-api-4.0.0-BETA.4.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import static org.mule.runtime.core.api.lifecycle.LifecycleUtils.initialiseIfNeeded;",
+      "artifact" : {
+        "artifact" : "org.mule.runtime:mule-core:4.0.0-BETA.4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.mule.services:mule-service-oauth:1.0.0-BETA.4/dependencies/org/mule/runtime/mule-core/4.0.0-BETA.4/mule-core-4.0.0-BETA.4.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import static org.mule.runtime.core.api.lifecycle.LifecycleUtils.startIfNeeded;",
+      "artifact" : {
+        "artifact" : "org.mule.runtime:mule-core:4.0.0-BETA.4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.mule.services:mule-service-oauth:1.0.0-BETA.4/dependencies/org/mule/runtime/mule-core/4.0.0-BETA.4/mule-core-4.0.0-BETA.4.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.mule.runtime.http.api.domain.message.request.HttpRequest;",
+      "artifact" : {
+        "artifact" : "org.mule.runtime:mule-service-http-api:4.0.0-BETA.4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.mule.services:mule-service-oauth:1.0.0-BETA.4/dependencies/org/mule/runtime/mule-service-http-api/4.0.0-BETA.4/mule-service-http-api-4.0.0-BETA.4.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.mule.runtime.http.api.domain.ParameterMap;",
+      "artifact" : {
+        "artifact" : "org.mule.runtime:mule-service-http-api:4.0.0-BETA.4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.mule.services:mule-service-oauth:1.0.0-BETA.4/dependencies/org/mule/runtime/mule-service-http-api/4.0.0-BETA.4/mule-service-http-api-4.0.0-BETA.4.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import static org.mule.service.oauth.internal.OAuthConstants.STATE_PARAMETER;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import static org.mule.service.oauth.internal.state.StateEncoder.RESOURCE_OWNER_PARAM_NAME_ASSIGN;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import static org.mule.service.oauth.internal.OAuthConstants.CODE_PARAMETER;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.mule.runtime.http.api.domain.request.HttpRequestContext;",
+      "artifact" : {
+        "artifact" : "org.mule.runtime:mule-service-http-api:4.0.0-BETA.4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.mule.services:mule-service-oauth:1.0.0-BETA.4/dependencies/org/mule/runtime/mule-service-http-api/4.0.0-BETA.4/mule-service-http-api-4.0.0-BETA.4.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.mule.runtime.http.api.server.async.HttpResponseReadyCallback;",
+      "artifact" : {
+        "artifact" : "org.mule.runtime:mule-service-http-api:4.0.0-BETA.4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.mule.services:mule-service-oauth:1.0.0-BETA.4/dependencies/org/mule/runtime/mule-service-http-api/4.0.0-BETA.4/mule-service-http-api-4.0.0-BETA.4.jar"
+      },
+      "isDirectDependency" : true
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/org.mule.services:mule-service-oauth/src/test/java/org/mule/test/oauth2/internal/authorizationcode/StateEncoderTestCase.java",
+    "useImportReport" : [ {
+      "importPath" : "import org.mule.tck.junit4.AbstractMuleTestCase;",
+      "artifact" : {
+        "artifact" : "org.mule.tests:mule-tests-unit:4.0.0-BETA.4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.mule.services:mule-service-oauth:1.0.0-BETA.4/dependencies/org/mule/tests/mule-tests-unit/4.0.0-BETA.4/mule-tests-unit-4.0.0-BETA.4.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.junit.Test;",
+      "artifact" : {
+        "artifact" : "junit:junit:4.12",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.mule.services:mule-service-oauth:1.0.0-BETA.4/dependencies/junit/junit/4.12/junit-4.12.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.mule.service.oauth.internal.state.StateEncoder;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.mule.service.oauth.internal.state.StateDecoder;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import static org.junit.Assert.assertThat;",
+      "artifact" : {
+        "artifact" : "junit:junit:4.12",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.mule.services:mule-service-oauth:1.0.0-BETA.4/dependencies/junit/junit/4.12/junit-4.12.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import static org.hamcrest.core.Is.is;",
+      "artifact" : {
+        "artifact" : "org.hamcrest:hamcrest-core:1.3",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.mule.services:mule-service-oauth:1.0.0-BETA.4/dependencies/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import static org.hamcrest.core.IsNull.nullValue;",
+      "artifact" : {
+        "artifact" : "org.hamcrest:hamcrest-core:1.3",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.mule.services:mule-service-oauth:1.0.0-BETA.4/dependencies/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/org.mule.services:mule-service-oauth/src/main/java/org/mule/service/oauth/internal/DefaultAuthorizationCodeOAuthDancer.java",
+    "useImportReport" : [ {
+      "importPath" : "import org.mule.runtime.oauth.api.AuthorizationCodeOAuthDancer;",
+      "artifact" : {
+        "artifact" : "org.mule.runtime:mule-service-oauth-api:4.0.0-BETA.4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.mule.services:mule-service-oauth:1.0.0-BETA.4/dependencies/org/mule/runtime/mule-service-oauth-api/4.0.0-BETA.4/mule-service-oauth-api-4.0.0-BETA.4.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.mule.runtime.api.lifecycle.Lifecycle;",
+      "artifact" : {
+        "artifact" : "org.mule.runtime:mule-api:1.0.0-BETA.4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.mule.services:mule-service-oauth:1.0.0-BETA.4/dependencies/org/mule/runtime/mule-api/1.0.0-BETA.4/mule-api-1.0.0-BETA.4.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.slf4j.Logger;",
+      "artifact" : {
+        "artifact" : "org.slf4j:slf4j-api:1.7.25",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.mule.services:mule-service-oauth:1.0.0-BETA.4/dependencies/org/slf4j/slf4j-api/1.7.25/slf4j-api-1.7.25.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import static org.slf4j.LoggerFactory.getLogger;",
+      "artifact" : {
+        "artifact" : "org.slf4j:slf4j-api:1.7.25",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.mule.services:mule-service-oauth:1.0.0-BETA.4/dependencies/org/slf4j/slf4j-api/1.7.25/slf4j-api-1.7.25.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.mule.runtime.http.api.server.HttpServer;",
+      "artifact" : {
+        "artifact" : "org.mule.runtime:mule-service-http-api:4.0.0-BETA.4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.mule.services:mule-service-oauth:1.0.0-BETA.4/dependencies/org/mule/runtime/mule-service-http-api/4.0.0-BETA.4/mule-service-http-api-4.0.0-BETA.4.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import java.util.function.Supplier;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.Map;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.function.Function;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.mule.runtime.oauth.api.AuthorizationCodeRequest;",
+      "artifact" : {
+        "artifact" : "org.mule.runtime:mule-service-oauth-api:4.0.0-BETA.4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.mule.services:mule-service-oauth:1.0.0-BETA.4/dependencies/org/mule/runtime/mule-service-oauth-api/4.0.0-BETA.4/mule-service-oauth-api-4.0.0-BETA.4.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.mule.runtime.oauth.api.builder.AuthorizationCodeDanceCallbackContext;",
+      "artifact" : {
+        "artifact" : "org.mule.runtime:mule-service-oauth-api:4.0.0-BETA.4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.mule.services:mule-service-oauth:1.0.0-BETA.4/dependencies/org/mule/runtime/mule-service-oauth-api/4.0.0-BETA.4/mule-service-oauth-api-4.0.0-BETA.4.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import java.util.function.BiConsumer;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.mule.runtime.oauth.api.state.ResourceOwnerOAuthContext;",
+      "artifact" : {
+        "artifact" : "org.mule.runtime:mule-service-oauth-api:4.0.0-BETA.4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.mule.services:mule-service-oauth:1.0.0-BETA.4/dependencies/org/mule/runtime/mule-service-oauth-api/4.0.0-BETA.4/mule-service-oauth-api-4.0.0-BETA.4.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.mule.runtime.http.api.server.RequestHandlerManager;",
+      "artifact" : {
+        "artifact" : "org.mule.runtime:mule-service-http-api:4.0.0-BETA.4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.mule.services:mule-service-oauth:1.0.0-BETA.4/dependencies/org/mule/runtime/mule-service-http-api/4.0.0-BETA.4/mule-service-http-api-4.0.0-BETA.4.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import java.nio.charset.Charset;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.mule.runtime.api.lock.LockFactory;",
+      "artifact" : {
+        "artifact" : "org.mule.runtime:mule-api:1.0.0-BETA.4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.mule.services:mule-service-oauth:1.0.0-BETA.4/dependencies/org/mule/runtime/mule-api/1.0.0-BETA.4/mule-api-1.0.0-BETA.4.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.mule.runtime.oauth.api.state.DefaultResourceOwnerOAuthContext;",
+      "artifact" : {
+        "artifact" : "org.mule.runtime:mule-service-oauth-api:4.0.0-BETA.4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.mule.services:mule-service-oauth:1.0.0-BETA.4/dependencies/org/mule/runtime/mule-service-oauth-api/4.0.0-BETA.4/mule-service-oauth-api-4.0.0-BETA.4.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.mule.runtime.http.api.client.HttpClient;",
+      "artifact" : {
+        "artifact" : "org.mule.runtime:mule-service-http-api:4.0.0-BETA.4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.mule.services:mule-service-oauth:1.0.0-BETA.4/dependencies/org/mule/runtime/mule-service-http-api/4.0.0-BETA.4/mule-service-http-api-4.0.0-BETA.4.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.mule.runtime.api.el.MuleExpressionLanguage;",
+      "artifact" : {
+        "artifact" : "org.mule.runtime:mule-api:1.0.0-BETA.4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.mule.services:mule-service-oauth:1.0.0-BETA.4/dependencies/org/mule/runtime/mule-api/1.0.0-BETA.4/mule-api-1.0.0-BETA.4.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.mule.runtime.api.lifecycle.InitialisationException;",
+      "artifact" : {
+        "artifact" : "org.mule.runtime:mule-api:1.0.0-BETA.4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.mule.services:mule-service-oauth:1.0.0-BETA.4/dependencies/org/mule/runtime/mule-api/1.0.0-BETA.4/mule-api-1.0.0-BETA.4.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import static org.mule.runtime.http.api.HttpConstants.Method.GET;",
+      "artifact" : {
+        "artifact" : "org.mule.runtime:mule-service-http-api:4.0.0-BETA.4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.mule.services:mule-service-oauth:1.0.0-BETA.4/dependencies/org/mule/runtime/mule-service-http-api/4.0.0-BETA.4/mule-service-http-api-4.0.0-BETA.4.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.mule.runtime.http.api.HttpConstants.Method;",
+      "artifact" : {
+        "artifact" : "org.mule.runtime:mule-service-http-api:4.0.0-BETA.4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.mule.services:mule-service-oauth:1.0.0-BETA.4/dependencies/org/mule/runtime/mule-service-http-api/4.0.0-BETA.4/mule-service-http-api-4.0.0-BETA.4.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.mule.runtime.http.api.server.RequestHandler;",
+      "artifact" : {
+        "artifact" : "org.mule.runtime:mule-service-http-api:4.0.0-BETA.4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.mule.services:mule-service-oauth:1.0.0-BETA.4/dependencies/org/mule/runtime/mule-service-http-api/4.0.0-BETA.4/mule-service-http-api-4.0.0-BETA.4.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import static java.util.Collections.singleton;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import static java.lang.Thread.currentThread;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import static org.mule.runtime.http.api.HttpConstants.HttpStatus.INTERNAL_SERVER_ERROR;",
+      "artifact" : {
+        "artifact" : "org.mule.runtime:mule-service-http-api:4.0.0-BETA.4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.mule.services:mule-service-oauth:1.0.0-BETA.4/dependencies/org/mule/runtime/mule-service-http-api/4.0.0-BETA.4/mule-service-http-api-4.0.0-BETA.4.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.mule.runtime.http.api.HttpConstants;",
+      "artifact" : {
+        "artifact" : "org.mule.runtime:mule-service-http-api:4.0.0-BETA.4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.mule.services:mule-service-oauth:1.0.0-BETA.4/dependencies/org/mule/runtime/mule-service-http-api/4.0.0-BETA.4/mule-service-http-api-4.0.0-BETA.4.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.mule.runtime.http.api.server.async.HttpResponseReadyCallback;",
+      "artifact" : {
+        "artifact" : "org.mule.runtime:mule-service-http-api:4.0.0-BETA.4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.mule.services:mule-service-oauth:1.0.0-BETA.4/dependencies/org/mule/runtime/mule-service-http-api/4.0.0-BETA.4/mule-service-http-api-4.0.0-BETA.4.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.mule.runtime.http.api.domain.message.response.HttpResponse;",
+      "artifact" : {
+        "artifact" : "org.mule.runtime:mule-service-http-api:4.0.0-BETA.4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.mule.services:mule-service-oauth:1.0.0-BETA.4/dependencies/org/mule/runtime/mule-service-http-api/4.0.0-BETA.4/mule-service-http-api-4.0.0-BETA.4.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import static org.mule.runtime.http.api.HttpHeaders.Names.CONTENT_LENGTH;",
+      "artifact" : {
+        "artifact" : "org.mule.runtime:mule-service-http-api:4.0.0-BETA.4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.mule.services:mule-service-oauth:1.0.0-BETA.4/dependencies/org/mule/runtime/mule-service-http-api/4.0.0-BETA.4/mule-service-http-api-4.0.0-BETA.4.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.mule.runtime.http.api.server.async.ResponseStatusCallback;",
+      "artifact" : {
+        "artifact" : "org.mule.runtime:mule-service-http-api:4.0.0-BETA.4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.mule.services:mule-service-oauth:1.0.0-BETA.4/dependencies/org/mule/runtime/mule-service-http-api/4.0.0-BETA.4/mule-service-http-api-4.0.0-BETA.4.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.mule.runtime.http.api.domain.entity.ByteArrayHttpEntity;",
+      "artifact" : {
+        "artifact" : "org.mule.runtime:mule-service-http-api:4.0.0-BETA.4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.mule.services:mule-service-oauth:1.0.0-BETA.4/dependencies/org/mule/runtime/mule-service-http-api/4.0.0-BETA.4/mule-service-http-api-4.0.0-BETA.4.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.mule.runtime.http.api.domain.entity.EmptyHttpEntity;",
+      "artifact" : {
+        "artifact" : "org.mule.runtime:mule-service-http-api:4.0.0-BETA.4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.mule.services:mule-service-oauth:1.0.0-BETA.4/dependencies/org/mule/runtime/mule-service-http-api/4.0.0-BETA.4/mule-service-http-api-4.0.0-BETA.4.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import static java.lang.String.valueOf;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.mule.runtime.http.api.domain.message.request.HttpRequest;",
+      "artifact" : {
+        "artifact" : "org.mule.runtime:mule-service-http-api:4.0.0-BETA.4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.mule.services:mule-service-oauth:1.0.0-BETA.4/dependencies/org/mule/runtime/mule-service-http-api/4.0.0-BETA.4/mule-service-http-api-4.0.0-BETA.4.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.mule.runtime.http.api.domain.ParameterMap;",
+      "artifact" : {
+        "artifact" : "org.mule.runtime:mule-service-http-api:4.0.0-BETA.4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.mule.services:mule-service-oauth:1.0.0-BETA.4/dependencies/org/mule/runtime/mule-service-http-api/4.0.0-BETA.4/mule-service-http-api-4.0.0-BETA.4.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import static org.mule.service.oauth.internal.OAuthConstants.STATE_PARAMETER;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.mule.service.oauth.internal.state.StateDecoder;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import static org.mule.service.oauth.internal.OAuthConstants.CODE_PARAMETER;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import static org.mule.runtime.http.api.HttpConstants.HttpStatus.BAD_REQUEST;",
+      "artifact" : {
+        "artifact" : "org.mule.runtime:mule-service-http-api:4.0.0-BETA.4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.mule.services:mule-service-oauth:1.0.0-BETA.4/dependencies/org/mule/runtime/mule-service-http-api/4.0.0-BETA.4/mule-service-http-api-4.0.0-BETA.4.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import static org.mule.runtime.oauth.api.OAuthAuthorizationStatusCode.NO_AUTHORIZATION_CODE_STATUS;",
+      "artifact" : {
+        "artifact" : "org.mule.runtime:mule-service-oauth-api:4.0.0-BETA.4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.mule.services:mule-service-oauth:1.0.0-BETA.4/dependencies/org/mule/runtime/mule-service-oauth-api/4.0.0-BETA.4/mule-service-oauth-api-4.0.0-BETA.4.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.mule.service.oauth.internal.authorizationcode.DefaultAuthorizationCodeRequest;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.HashMap;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import static org.mule.service.oauth.internal.OAuthConstants.CLIENT_ID_PARAMETER;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import static org.mule.service.oauth.internal.OAuthConstants.CLIENT_SECRET_PARAMETER;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import static org.mule.service.oauth.internal.OAuthConstants.GRANT_TYPE_PARAMETER;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import static org.mule.service.oauth.internal.OAuthConstants.GRANT_TYPE_AUTHENTICATION_CODE;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import static org.mule.service.oauth.internal.OAuthConstants.REDIRECT_URI_PARAMETER;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.mule.service.oauth.internal.state.TokenResponse;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import static org.mule.runtime.oauth.api.state.ResourceOwnerOAuthContext.DEFAULT_RESOURCE_OWNER_ID;",
+      "artifact" : {
+        "artifact" : "org.mule.runtime:mule-service-oauth-api:4.0.0-BETA.4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.mule.services:mule-service-oauth:1.0.0-BETA.4/dependencies/org/mule/runtime/mule-service-oauth-api/4.0.0-BETA.4/mule-service-oauth-api-4.0.0-BETA.4.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import static org.mule.runtime.http.api.HttpConstants.HttpStatus.OK;",
+      "artifact" : {
+        "artifact" : "org.mule.runtime:mule-service-http-api:4.0.0-BETA.4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.mule.services:mule-service-oauth:1.0.0-BETA.4/dependencies/org/mule/runtime/mule-service-http-api/4.0.0-BETA.4/mule-service-http-api-4.0.0-BETA.4.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import static org.mule.runtime.oauth.api.OAuthAuthorizationStatusCode.AUTHORIZATION_CODE_RECEIVED_STATUS;",
+      "artifact" : {
+        "artifact" : "org.mule.runtime:mule-service-oauth-api:4.0.0-BETA.4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.mule.services:mule-service-oauth:1.0.0-BETA.4/dependencies/org/mule/runtime/mule-service-oauth-api/4.0.0-BETA.4/mule-service-oauth-api-4.0.0-BETA.4.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.mule.runtime.oauth.api.exception.TokenUrlResponseException;",
+      "artifact" : {
+        "artifact" : "org.mule.runtime:mule-service-oauth-api:4.0.0-BETA.4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.mule.services:mule-service-oauth:1.0.0-BETA.4/dependencies/org/mule/runtime/mule-service-oauth-api/4.0.0-BETA.4/mule-service-oauth-api-4.0.0-BETA.4.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import static java.lang.String.format;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import static org.mule.runtime.oauth.api.OAuthAuthorizationStatusCode.TOKEN_URL_CALL_FAILED_STATUS;",
+      "artifact" : {
+        "artifact" : "org.mule.runtime:mule-service-oauth-api:4.0.0-BETA.4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.mule.services:mule-service-oauth:1.0.0-BETA.4/dependencies/org/mule/runtime/mule-service-oauth-api/4.0.0-BETA.4/mule-service-oauth-api-4.0.0-BETA.4.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.mule.runtime.oauth.api.exception.TokenNotFoundException;",
+      "artifact" : {
+        "artifact" : "org.mule.runtime:mule-service-oauth-api:4.0.0-BETA.4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.mule.services:mule-service-oauth:1.0.0-BETA.4/dependencies/org/mule/runtime/mule-service-oauth-api/4.0.0-BETA.4/mule-service-oauth-api-4.0.0-BETA.4.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import static org.mule.runtime.oauth.api.OAuthAuthorizationStatusCode.TOKEN_NOT_FOUND_STATUS;",
+      "artifact" : {
+        "artifact" : "org.mule.runtime:mule-service-oauth-api:4.0.0-BETA.4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.mule.services:mule-service-oauth:1.0.0-BETA.4/dependencies/org/mule/runtime/mule-service-oauth-api/4.0.0-BETA.4/mule-service-oauth-api-4.0.0-BETA.4.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.mule.runtime.http.api.HttpConstants.HttpStatus;",
+      "artifact" : {
+        "artifact" : "org.mule.runtime:mule-service-http-api:4.0.0-BETA.4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.mule.services:mule-service-oauth:1.0.0-BETA.4/dependencies/org/mule/runtime/mule-service-http-api/4.0.0-BETA.4/mule-service-http-api-4.0.0-BETA.4.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import static org.mule.runtime.http.api.HttpConstants.HttpStatus.MOVED_TEMPORARILY;",
+      "artifact" : {
+        "artifact" : "org.mule.runtime:mule-service-http-api:4.0.0-BETA.4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.mule.services:mule-service-oauth:1.0.0-BETA.4/dependencies/org/mule/runtime/mule-service-http-api/4.0.0-BETA.4/mule-service-http-api-4.0.0-BETA.4.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import static org.mule.runtime.http.api.utils.HttpEncoderDecoderUtils.appendQueryParam;",
+      "artifact" : {
+        "artifact" : "org.mule.runtime:mule-service-http-api:4.0.0-BETA.4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.mule.services:mule-service-oauth:1.0.0-BETA.4/dependencies/org/mule/runtime/mule-service-http-api/4.0.0-BETA.4/mule-service-http-api-4.0.0-BETA.4.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import static org.mule.runtime.oauth.api.OAuthAuthorizationStatusCode.AUTHORIZATION_STATUS_QUERY_PARAM_KEY;",
+      "artifact" : {
+        "artifact" : "org.mule.runtime:mule-service-oauth-api:4.0.0-BETA.4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.mule.services:mule-service-oauth:1.0.0-BETA.4/dependencies/org/mule/runtime/mule-service-oauth-api/4.0.0-BETA.4/mule-service-oauth-api-4.0.0-BETA.4.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.mule.runtime.http.api.domain.message.response.HttpResponseBuilder;",
+      "artifact" : {
+        "artifact" : "org.mule.runtime:mule-service-http-api:4.0.0-BETA.4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.mule.services:mule-service-oauth:1.0.0-BETA.4/dependencies/org/mule/runtime/mule-service-http-api/4.0.0-BETA.4/mule-service-http-api-4.0.0-BETA.4.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import static org.mule.runtime.http.api.HttpHeaders.Names.LOCATION;",
+      "artifact" : {
+        "artifact" : "org.mule.runtime:mule-service-http-api:4.0.0-BETA.4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.mule.services:mule-service-oauth:1.0.0-BETA.4/dependencies/org/mule/runtime/mule-service-http-api/4.0.0-BETA.4/mule-service-http-api-4.0.0-BETA.4.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.mule.runtime.core.api.util.StringUtils;",
+      "artifact" : {
+        "artifact" : "org.mule.runtime:mule-core:4.0.0-BETA.4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.mule.services:mule-service-oauth:1.0.0-BETA.4/dependencies/org/mule/runtime/mule-core/4.0.0-BETA.4/mule-core-4.0.0-BETA.4.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.mule.runtime.api.metadata.MediaType;",
+      "artifact" : {
+        "artifact" : "org.mule.runtime:mule-api:1.0.0-BETA.4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.mule.services:mule-service-oauth:1.0.0-BETA.4/dependencies/org/mule/runtime/mule-api/1.0.0-BETA.4/mule-api-1.0.0-BETA.4.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.mule.service.oauth.internal.state.StateEncoder;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.mule.service.oauth.internal.authorizationcode.AuthorizationRequestUrlBuilder;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.mule.runtime.http.api.domain.entity.InputStreamHttpEntity;",
+      "artifact" : {
+        "artifact" : "org.mule.runtime:mule-service-http-api:4.0.0-BETA.4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.mule.services:mule-service-oauth:1.0.0-BETA.4/dependencies/org/mule/runtime/mule-service-http-api/4.0.0-BETA.4/mule-service-http-api-4.0.0-BETA.4.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.apache.commons.io.IOUtils;",
+      "artifact" : {
+        "artifact" : "commons-io:commons-io:2.4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.mule.services:mule-service-oauth:1.0.0-BETA.4/dependencies/commons-io/commons-io/2.4/commons-io-2.4.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.io.IOException;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.mule.runtime.api.exception.MuleRuntimeException;",
+      "artifact" : {
+        "artifact" : "org.mule.runtime:mule-api:1.0.0-BETA.4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.mule.services:mule-service-oauth:1.0.0-BETA.4/dependencies/org/mule/runtime/mule-api/1.0.0-BETA.4/mule-api-1.0.0-BETA.4.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import static org.mule.runtime.http.api.HttpHeaders.Names.CONTENT_TYPE;",
+      "artifact" : {
+        "artifact" : "org.mule.runtime:mule-service-http-api:4.0.0-BETA.4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.mule.services:mule-service-oauth:1.0.0-BETA.4/dependencies/org/mule/runtime/mule-service-http-api/4.0.0-BETA.4/mule-service-http-api-4.0.0-BETA.4.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.mule.runtime.api.exception.MuleException;",
+      "artifact" : {
+        "artifact" : "org.mule.runtime:mule-api:1.0.0-BETA.4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.mule.services:mule-service-oauth:1.0.0-BETA.4/dependencies/org/mule/runtime/mule-api/1.0.0-BETA.4/mule-api-1.0.0-BETA.4.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.mule.runtime.core.api.DefaultMuleException;",
+      "artifact" : {
+        "artifact" : "org.mule.runtime:mule-core:4.0.0-BETA.4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.mule.services:mule-service-oauth:1.0.0-BETA.4/dependencies/org/mule/runtime/mule-core/4.0.0-BETA.4/mule-core-4.0.0-BETA.4.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import java.util.concurrent.CompletableFuture;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.mule.runtime.oauth.api.exception.RequestAuthenticationException;",
+      "artifact" : {
+        "artifact" : "org.mule.runtime:mule-service-oauth-api:4.0.0-BETA.4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.mule.services:mule-service-oauth:1.0.0-BETA.4/dependencies/org/mule/runtime/mule-service-oauth-api/4.0.0-BETA.4/mule-service-oauth-api-4.0.0-BETA.4.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import static org.mule.runtime.api.i18n.I18nMessageFactory.createStaticMessage;",
+      "artifact" : {
+        "artifact" : "org.mule.runtime:mule-api:1.0.0-BETA.4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.mule.services:mule-service-oauth:1.0.0-BETA.4/dependencies/org/mule/runtime/mule-api/1.0.0-BETA.4/mule-api-1.0.0-BETA.4.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import static java.util.concurrent.CompletableFuture.completedFuture;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import static org.mule.service.oauth.internal.OAuthConstants.REFRESH_TOKEN_PARAMETER;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import static org.mule.service.oauth.internal.OAuthConstants.GRANT_TYPE_REFRESH_TOKEN;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import static org.mule.runtime.core.api.util.StringUtils.isBlank;",
+      "artifact" : {
+        "artifact" : "org.mule.runtime:mule-core:4.0.0-BETA.4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.mule.services:mule-service-oauth:1.0.0-BETA.4/dependencies/org/mule/runtime/mule-core/4.0.0-BETA.4/mule-core-4.0.0-BETA.4.jar"
+      },
+      "isDirectDependency" : true
+    } ],
+    "unusedImportReport" : [ {
+      "importPath" : "import static org.mule.runtime.api.metadata.MediaType.ANY;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import static org.mule.runtime.api.metadata.MediaType.parse;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/org.mule.services:mule-service-oauth/src/main/java/org/mule/service/oauth/internal/DefaultOAuthService.java",
+    "useImportReport" : [ {
+      "importPath" : "import org.mule.runtime.oauth.api.OAuthService;",
+      "artifact" : {
+        "artifact" : "org.mule.runtime:mule-service-oauth-api:4.0.0-BETA.4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.mule.services:mule-service-oauth:1.0.0-BETA.4/dependencies/org/mule/runtime/mule-service-oauth-api/4.0.0-BETA.4/mule-service-oauth-api-4.0.0-BETA.4.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.mule.runtime.http.api.HttpService;",
+      "artifact" : {
+        "artifact" : "org.mule.runtime:mule-service-http-api:4.0.0-BETA.4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.mule.services:mule-service-oauth:1.0.0-BETA.4/dependencies/org/mule/runtime/mule-service-http-api/4.0.0-BETA.4/mule-service-http-api-4.0.0-BETA.4.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.mule.runtime.core.api.scheduler.SchedulerService;",
+      "artifact" : {
+        "artifact" : "org.mule.runtime:mule-core:4.0.0-BETA.4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.mule.services:mule-service-oauth:1.0.0-BETA.4/dependencies/org/mule/runtime/mule-core/4.0.0-BETA.4/mule-core-4.0.0-BETA.4.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.mule.runtime.oauth.api.builder.OAuthClientCredentialsDancerBuilder;",
+      "artifact" : {
+        "artifact" : "org.mule.runtime:mule-service-oauth-api:4.0.0-BETA.4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.mule.services:mule-service-oauth:1.0.0-BETA.4/dependencies/org/mule/runtime/mule-service-oauth-api/4.0.0-BETA.4/mule-service-oauth-api-4.0.0-BETA.4.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.mule.runtime.api.lock.LockFactory;",
+      "artifact" : {
+        "artifact" : "org.mule.runtime:mule-api:1.0.0-BETA.4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.mule.services:mule-service-oauth:1.0.0-BETA.4/dependencies/org/mule/runtime/mule-api/1.0.0-BETA.4/mule-api-1.0.0-BETA.4.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import java.util.Map;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.mule.runtime.api.el.MuleExpressionLanguage;",
+      "artifact" : {
+        "artifact" : "org.mule.runtime:mule-api:1.0.0-BETA.4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.mule.services:mule-service-oauth:1.0.0-BETA.4/dependencies/org/mule/runtime/mule-api/1.0.0-BETA.4/mule-api-1.0.0-BETA.4.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.mule.service.oauth.internal.builder.DefaultOAuthClientCredentialsDancerBuilder;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.mule.runtime.oauth.api.state.DefaultResourceOwnerOAuthContext;",
+      "artifact" : {
+        "artifact" : "org.mule.runtime:mule-service-oauth-api:4.0.0-BETA.4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.mule.services:mule-service-oauth:1.0.0-BETA.4/dependencies/org/mule/runtime/mule-service-oauth-api/4.0.0-BETA.4/mule-service-oauth-api-4.0.0-BETA.4.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.mule.runtime.oauth.api.builder.OAuthAuthorizationCodeDancerBuilder;",
+      "artifact" : {
+        "artifact" : "org.mule.runtime:mule-service-oauth-api:4.0.0-BETA.4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.mule.services:mule-service-oauth:1.0.0-BETA.4/dependencies/org/mule/runtime/mule-service-oauth-api/4.0.0-BETA.4/mule-service-oauth-api-4.0.0-BETA.4.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.mule.service.oauth.internal.builder.DefaultOAuthAuthorizationCodeDancerBuilder;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/org.mule.services:mule-service-oauth/src/main/java/org/mule/service/oauth/internal/state/StateEncoder.java",
+    "useImportReport" : [ {
+      "importPath" : "import org.mule.runtime.api.util.Preconditions;",
+      "artifact" : {
+        "artifact" : "org.mule.runtime:mule-api:1.0.0-BETA.4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.mule.services:mule-service-oauth:1.0.0-BETA.4/dependencies/org/mule/runtime/mule-api/1.0.0-BETA.4/mule-api-1.0.0-BETA.4.jar"
+      },
+      "isDirectDependency" : true
+    } ],
+    "unusedImportReport" : [ {
+      "importPath" : "import org.mule.runtime.core.api.util.StringUtils;",
+      "artifact" : {
+        "artifact" : "org.mule.runtime:mule-core:4.0.0-BETA.4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.mule.services:mule-service-oauth:1.0.0-BETA.4/dependencies/org/mule/runtime/mule-core/4.0.0-BETA.4/mule-core-4.0.0-BETA.4.jar"
+      },
+      "isDirectDependency" : true
+    } ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/org.mule.services:mule-service-oauth/src/main/java/org/mule/service/oauth/internal/state/TokenResponse.java",
+    "useImportReport" : [ {
+      "importPath" : "import java.util.Map;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.HashMap;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import static java.util.Collections.unmodifiableMap;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.mule.runtime.core.api.util.StringUtils;",
+      "artifact" : {
+        "artifact" : "org.mule.runtime:mule-core:4.0.0-BETA.4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.mule.services:mule-service-oauth:1.0.0-BETA.4/dependencies/org/mule/runtime/mule-core/4.0.0-BETA.4/mule-core-4.0.0-BETA.4.jar"
+      },
+      "isDirectDependency" : true
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/org.mule.services:mule-service-oauth/src/main/java/org/mule/service/oauth/internal/state/StateDecoder.java",
+    "useImportReport" : [ {
+      "importPath" : "import static org.mule.service.oauth.internal.state.StateEncoder.RESOURCE_OWNER_PARAM_NAME_ASSIGN;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import static org.mule.service.oauth.internal.state.StateEncoder.ON_COMPLETE_REDIRECT_TO_PARAM_NAME_ASSIGN;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/org.mule.services:mule-service-oauth/src/main/java/org/mule/service/oauth/internal/DefaultClientCredentialsOAuthDancer.java",
+    "useImportReport" : [ {
+      "importPath" : "import org.mule.runtime.api.lifecycle.Startable;",
+      "artifact" : {
+        "artifact" : "org.mule.runtime:mule-api:1.0.0-BETA.4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.mule.services:mule-service-oauth:1.0.0-BETA.4/dependencies/org/mule/runtime/mule-api/1.0.0-BETA.4/mule-api-1.0.0-BETA.4.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.mule.runtime.oauth.api.ClientCredentialsOAuthDancer;",
+      "artifact" : {
+        "artifact" : "org.mule.runtime:mule-service-oauth-api:4.0.0-BETA.4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.mule.services:mule-service-oauth:1.0.0-BETA.4/dependencies/org/mule/runtime/mule-service-oauth-api/4.0.0-BETA.4/mule-service-oauth-api-4.0.0-BETA.4.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.slf4j.Logger;",
+      "artifact" : {
+        "artifact" : "org.slf4j:slf4j-api:1.7.25",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.mule.services:mule-service-oauth:1.0.0-BETA.4/dependencies/org/slf4j/slf4j-api/1.7.25/slf4j-api-1.7.25.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import static org.slf4j.LoggerFactory.getLogger;",
+      "artifact" : {
+        "artifact" : "org.slf4j:slf4j-api:1.7.25",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.mule.services:mule-service-oauth:1.0.0-BETA.4/dependencies/org/slf4j/slf4j-api/1.7.25/slf4j-api-1.7.25.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.nio.charset.Charset;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.Map;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.function.Function;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.mule.runtime.api.lock.LockFactory;",
+      "artifact" : {
+        "artifact" : "org.mule.runtime:mule-api:1.0.0-BETA.4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.mule.services:mule-service-oauth:1.0.0-BETA.4/dependencies/org/mule/runtime/mule-api/1.0.0-BETA.4/mule-api-1.0.0-BETA.4.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.mule.runtime.oauth.api.state.DefaultResourceOwnerOAuthContext;",
+      "artifact" : {
+        "artifact" : "org.mule.runtime:mule-service-oauth-api:4.0.0-BETA.4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.mule.services:mule-service-oauth:1.0.0-BETA.4/dependencies/org/mule/runtime/mule-service-oauth-api/4.0.0-BETA.4/mule-service-oauth-api-4.0.0-BETA.4.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.mule.runtime.http.api.client.HttpClient;",
+      "artifact" : {
+        "artifact" : "org.mule.runtime:mule-service-http-api:4.0.0-BETA.4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.mule.services:mule-service-oauth:1.0.0-BETA.4/dependencies/org/mule/runtime/mule-service-http-api/4.0.0-BETA.4/mule-service-http-api-4.0.0-BETA.4.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.mule.runtime.api.el.MuleExpressionLanguage;",
+      "artifact" : {
+        "artifact" : "org.mule.runtime:mule-api:1.0.0-BETA.4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.mule.services:mule-service-oauth:1.0.0-BETA.4/dependencies/org/mule/runtime/mule-api/1.0.0-BETA.4/mule-api-1.0.0-BETA.4.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.mule.runtime.api.exception.MuleException;",
+      "artifact" : {
+        "artifact" : "org.mule.runtime:mule-api:1.0.0-BETA.4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.mule.services:mule-service-oauth:1.0.0-BETA.4/dependencies/org/mule/runtime/mule-api/1.0.0-BETA.4/mule-api-1.0.0-BETA.4.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import java.util.concurrent.ExecutionException;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.mule.runtime.api.lifecycle.LifecycleException;",
+      "artifact" : {
+        "artifact" : "org.mule.runtime:mule-api:1.0.0-BETA.4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.mule.services:mule-service-oauth:1.0.0-BETA.4/dependencies/org/mule/runtime/mule-api/1.0.0-BETA.4/mule-api-1.0.0-BETA.4.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import static java.lang.Thread.currentThread;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.concurrent.CompletableFuture;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.mule.runtime.oauth.api.exception.RequestAuthenticationException;",
+      "artifact" : {
+        "artifact" : "org.mule.runtime:mule-service-oauth-api:4.0.0-BETA.4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.mule.services:mule-service-oauth:1.0.0-BETA.4/dependencies/org/mule/runtime/mule-service-oauth-api/4.0.0-BETA.4/mule-service-oauth-api-4.0.0-BETA.4.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import static org.mule.runtime.api.i18n.I18nMessageFactory.createStaticMessage;",
+      "artifact" : {
+        "artifact" : "org.mule.runtime:mule-api:1.0.0-BETA.4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.mule.services:mule-service-oauth:1.0.0-BETA.4/dependencies/org/mule/runtime/mule-api/1.0.0-BETA.4/mule-api-1.0.0-BETA.4.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import static java.lang.String.format;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import static java.util.concurrent.CompletableFuture.completedFuture;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.HashMap;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import static org.mule.service.oauth.internal.OAuthConstants.GRANT_TYPE_PARAMETER;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import static org.mule.service.oauth.internal.OAuthConstants.GRANT_TYPE_CLIENT_CREDENTIALS;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import static org.mule.service.oauth.internal.OAuthConstants.SCOPE_PARAMETER;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import static org.mule.service.oauth.internal.OAuthConstants.CLIENT_ID_PARAMETER;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import static org.mule.service.oauth.internal.OAuthConstants.CLIENT_SECRET_PARAMETER;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import static org.apache.commons.codec.binary.Base64.encodeBase64String;",
+      "artifact" : {
+        "artifact" : "commons-codec:commons-codec:1.9",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.mule.services:mule-service-oauth:1.0.0-BETA.4/dependencies/commons-codec/commons-codec/1.9/commons-codec-1.9.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.mule.service.oauth.internal.state.TokenResponse;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.Map.Entry;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.mule.runtime.oauth.api.exception.TokenUrlResponseException;",
+      "artifact" : {
+        "artifact" : "org.mule.runtime:mule-service-oauth-api:4.0.0-BETA.4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.mule.services:mule-service-oauth:1.0.0-BETA.4/dependencies/org/mule/runtime/mule-service-oauth-api/4.0.0-BETA.4/mule-service-oauth-api-4.0.0-BETA.4.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.mule.runtime.oauth.api.exception.TokenNotFoundException;",
+      "artifact" : {
+        "artifact" : "org.mule.runtime:mule-service-oauth-api:4.0.0-BETA.4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.mule.services:mule-service-oauth:1.0.0-BETA.4/dependencies/org/mule/runtime/mule-service-oauth-api/4.0.0-BETA.4/mule-service-oauth-api-4.0.0-BETA.4.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import static org.mule.runtime.oauth.api.state.ResourceOwnerOAuthContext.DEFAULT_RESOURCE_OWNER_ID;",
+      "artifact" : {
+        "artifact" : "org.mule.runtime:mule-service-oauth-api:4.0.0-BETA.4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.mule.services:mule-service-oauth:1.0.0-BETA.4/dependencies/org/mule/runtime/mule-service-oauth-api/4.0.0-BETA.4/mule-service-oauth-api-4.0.0-BETA.4.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.mule.runtime.oauth.api.state.ResourceOwnerOAuthContext;",
+      "artifact" : {
+        "artifact" : "org.mule.runtime:mule-service-oauth-api:4.0.0-BETA.4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.mule.services:mule-service-oauth:1.0.0-BETA.4/dependencies/org/mule/runtime/mule-service-oauth-api/4.0.0-BETA.4/mule-service-oauth-api-4.0.0-BETA.4.jar"
+      },
+      "isDirectDependency" : true
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/org.mule.services:mule-service-oauth/src/main/java/org/mule/service/oauth/internal/builder/AbstractOAuthDancerBuilder.java",
+    "useImportReport" : [ {
+      "importPath" : "import org.mule.runtime.oauth.api.builder.OAuthDancerBuilder;",
+      "artifact" : {
+        "artifact" : "org.mule.runtime:mule-service-oauth-api:4.0.0-BETA.4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.mule.services:mule-service-oauth:1.0.0-BETA.4/dependencies/org/mule/runtime/mule-service-oauth-api/4.0.0-BETA.4/mule-service-oauth-api-4.0.0-BETA.4.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.mule.runtime.api.lock.LockFactory;",
+      "artifact" : {
+        "artifact" : "org.mule.runtime:mule-api:1.0.0-BETA.4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.mule.services:mule-service-oauth:1.0.0-BETA.4/dependencies/org/mule/runtime/mule-api/1.0.0-BETA.4/mule-api-1.0.0-BETA.4.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import java.util.Map;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.mule.runtime.oauth.api.state.DefaultResourceOwnerOAuthContext;",
+      "artifact" : {
+        "artifact" : "org.mule.runtime:mule-service-oauth-api:4.0.0-BETA.4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.mule.services:mule-service-oauth:1.0.0-BETA.4/dependencies/org/mule/runtime/mule-service-oauth-api/4.0.0-BETA.4/mule-service-oauth-api-4.0.0-BETA.4.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.mule.runtime.http.api.HttpService;",
+      "artifact" : {
+        "artifact" : "org.mule.runtime:mule-service-http-api:4.0.0-BETA.4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.mule.services:mule-service-oauth:1.0.0-BETA.4/dependencies/org/mule/runtime/mule-service-http-api/4.0.0-BETA.4/mule-service-http-api-4.0.0-BETA.4.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.mule.runtime.api.el.MuleExpressionLanguage;",
+      "artifact" : {
+        "artifact" : "org.mule.runtime:mule-api:1.0.0-BETA.4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.mule.services:mule-service-oauth:1.0.0-BETA.4/dependencies/org/mule/runtime/mule-api/1.0.0-BETA.4/mule-api-1.0.0-BETA.4.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import java.util.function.Supplier;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.mule.runtime.http.api.client.HttpClient;",
+      "artifact" : {
+        "artifact" : "org.mule.runtime:mule-service-http-api:4.0.0-BETA.4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.mule.services:mule-service-oauth:1.0.0-BETA.4/dependencies/org/mule/runtime/mule-service-http-api/4.0.0-BETA.4/mule-service-http-api-4.0.0-BETA.4.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import java.nio.charset.Charset;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import static java.nio.charset.StandardCharsets.UTF_8;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.function.Function;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.mule.runtime.http.api.client.HttpClientConfiguration.Builder;",
+      "artifact" : {
+        "artifact" : "org.mule.runtime:mule-service-http-api:4.0.0-BETA.4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.mule.services:mule-service-oauth:1.0.0-BETA.4/dependencies/org/mule/runtime/mule-service-http-api/4.0.0-BETA.4/mule-service-http-api-4.0.0-BETA.4.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.mule.runtime.http.api.client.HttpClientConfiguration;",
+      "artifact" : {
+        "artifact" : "org.mule.runtime:mule-service-http-api:4.0.0-BETA.4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.mule.services:mule-service-oauth:1.0.0-BETA.4/dependencies/org/mule/runtime/mule-service-http-api/4.0.0-BETA.4/mule-service-http-api-4.0.0-BETA.4.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import static java.lang.String.format;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.mule.runtime.http.api.domain.message.request.HttpRequest;",
+      "artifact" : {
+        "artifact" : "org.mule.runtime:mule-service-http-api:4.0.0-BETA.4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.mule.services:mule-service-oauth:1.0.0-BETA.4/dependencies/org/mule/runtime/mule-service-http-api/4.0.0-BETA.4/mule-service-http-api-4.0.0-BETA.4.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.mule.runtime.http.api.client.HttpRequestAuthentication;",
+      "artifact" : {
+        "artifact" : "org.mule.runtime:mule-service-http-api:4.0.0-BETA.4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.mule.services:mule-service-oauth:1.0.0-BETA.4/dependencies/org/mule/runtime/mule-service-http-api/4.0.0-BETA.4/mule-service-http-api-4.0.0-BETA.4.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.mule.runtime.http.api.client.async.ResponseHandler;",
+      "artifact" : {
+        "artifact" : "org.mule.runtime:mule-service-http-api:4.0.0-BETA.4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.mule.services:mule-service-oauth:1.0.0-BETA.4/dependencies/org/mule/runtime/mule-service-http-api/4.0.0-BETA.4/mule-service-http-api-4.0.0-BETA.4.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.mule.runtime.http.api.domain.message.response.HttpResponse;",
+      "artifact" : {
+        "artifact" : "org.mule.runtime:mule-service-http-api:4.0.0-BETA.4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.mule.services:mule-service-oauth:1.0.0-BETA.4/dependencies/org/mule/runtime/mule-service-http-api/4.0.0-BETA.4/mule-service-http-api-4.0.0-BETA.4.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import java.io.IOException;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.concurrent.TimeoutException;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.mule.runtime.api.tls.TlsContextFactory;",
+      "artifact" : {
+        "artifact" : "org.mule.runtime:mule-api:1.0.0-BETA.4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.mule.services:mule-service-oauth:1.0.0-BETA.4/dependencies/org/mule/runtime/mule-api/1.0.0-BETA.4/mule-api-1.0.0-BETA.4.jar"
+      },
+      "isDirectDependency" : true
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/org.mule.services:mule-service-oauth/src/main/java/org/mule/service/oauth/internal/builder/DefaultOAuthAuthorizationCodeDancerBuilder.java",
+    "useImportReport" : [ {
+      "importPath" : "import org.mule.runtime.oauth.api.AuthorizationCodeOAuthDancer;",
+      "artifact" : {
+        "artifact" : "org.mule.runtime:mule-service-oauth-api:4.0.0-BETA.4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.mule.services:mule-service-oauth:1.0.0-BETA.4/dependencies/org/mule/runtime/mule-service-oauth-api/4.0.0-BETA.4/mule-service-oauth-api-4.0.0-BETA.4.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.mule.runtime.oauth.api.builder.OAuthAuthorizationCodeDancerBuilder;",
+      "artifact" : {
+        "artifact" : "org.mule.runtime:mule-service-oauth-api:4.0.0-BETA.4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.mule.services:mule-service-oauth:1.0.0-BETA.4/dependencies/org/mule/runtime/mule-service-oauth-api/4.0.0-BETA.4/mule-service-oauth-api-4.0.0-BETA.4.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import java.util.function.Supplier;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.mule.runtime.http.api.server.HttpServer;",
+      "artifact" : {
+        "artifact" : "org.mule.runtime:mule-service-http-api:4.0.0-BETA.4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.mule.services:mule-service-oauth:1.0.0-BETA.4/dependencies/org/mule/runtime/mule-service-http-api/4.0.0-BETA.4/mule-service-http-api-4.0.0-BETA.4.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import java.util.Map;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import static java.util.Collections.emptyMap;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.function.Function;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.mule.runtime.oauth.api.AuthorizationCodeRequest;",
+      "artifact" : {
+        "artifact" : "org.mule.runtime:mule-service-oauth-api:4.0.0-BETA.4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.mule.services:mule-service-oauth:1.0.0-BETA.4/dependencies/org/mule/runtime/mule-service-oauth-api/4.0.0-BETA.4/mule-service-oauth-api-4.0.0-BETA.4.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.mule.runtime.oauth.api.builder.AuthorizationCodeDanceCallbackContext;",
+      "artifact" : {
+        "artifact" : "org.mule.runtime:mule-service-oauth-api:4.0.0-BETA.4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.mule.services:mule-service-oauth:1.0.0-BETA.4/dependencies/org/mule/runtime/mule-service-oauth-api/4.0.0-BETA.4/mule-service-oauth-api-4.0.0-BETA.4.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import static java.util.Optional.empty;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.function.BiConsumer;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.mule.runtime.oauth.api.state.ResourceOwnerOAuthContext;",
+      "artifact" : {
+        "artifact" : "org.mule.runtime:mule-service-oauth-api:4.0.0-BETA.4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.mule.services:mule-service-oauth:1.0.0-BETA.4/dependencies/org/mule/runtime/mule-service-oauth-api/4.0.0-BETA.4/mule-service-oauth-api-4.0.0-BETA.4.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.mule.runtime.core.api.scheduler.SchedulerService;",
+      "artifact" : {
+        "artifact" : "org.mule.runtime:mule-core:4.0.0-BETA.4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.mule.services:mule-service-oauth:1.0.0-BETA.4/dependencies/org/mule/runtime/mule-core/4.0.0-BETA.4/mule-core-4.0.0-BETA.4.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.mule.runtime.api.lock.LockFactory;",
+      "artifact" : {
+        "artifact" : "org.mule.runtime:mule-api:1.0.0-BETA.4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.mule.services:mule-service-oauth:1.0.0-BETA.4/dependencies/org/mule/runtime/mule-api/1.0.0-BETA.4/mule-api-1.0.0-BETA.4.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.mule.runtime.oauth.api.state.DefaultResourceOwnerOAuthContext;",
+      "artifact" : {
+        "artifact" : "org.mule.runtime:mule-service-oauth-api:4.0.0-BETA.4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.mule.services:mule-service-oauth:1.0.0-BETA.4/dependencies/org/mule/runtime/mule-service-oauth-api/4.0.0-BETA.4/mule-service-oauth-api-4.0.0-BETA.4.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.mule.runtime.http.api.HttpService;",
+      "artifact" : {
+        "artifact" : "org.mule.runtime:mule-service-http-api:4.0.0-BETA.4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.mule.services:mule-service-oauth:1.0.0-BETA.4/dependencies/org/mule/runtime/mule-service-http-api/4.0.0-BETA.4/mule-service-http-api-4.0.0-BETA.4.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.mule.runtime.api.el.MuleExpressionLanguage;",
+      "artifact" : {
+        "artifact" : "org.mule.runtime:mule-api:1.0.0-BETA.4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.mule.services:mule-service-oauth:1.0.0-BETA.4/dependencies/org/mule/runtime/mule-api/1.0.0-BETA.4/mule-api-1.0.0-BETA.4.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import java.net.URL;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.mule.runtime.http.api.server.HttpServerConfiguration;",
+      "artifact" : {
+        "artifact" : "org.mule.runtime:mule-service-http-api:4.0.0-BETA.4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.mule.services:mule-service-oauth:1.0.0-BETA.4/dependencies/org/mule/runtime/mule-service-http-api/4.0.0-BETA.4/mule-service-http-api-4.0.0-BETA.4.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.mule.runtime.api.connection.ConnectionException;",
+      "artifact" : {
+        "artifact" : "org.mule.runtime:mule-api:1.0.0-BETA.4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.mule.services:mule-service-oauth:1.0.0-BETA.4/dependencies/org/mule/runtime/mule-api/1.0.0-BETA.4/mule-api-1.0.0-BETA.4.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.mule.runtime.api.exception.MuleRuntimeException;",
+      "artifact" : {
+        "artifact" : "org.mule.runtime:mule-api:1.0.0-BETA.4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.mule.services:mule-service-oauth:1.0.0-BETA.4/dependencies/org/mule/runtime/mule-api/1.0.0-BETA.4/mule-api-1.0.0-BETA.4.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.mule.runtime.api.tls.TlsContextFactory;",
+      "artifact" : {
+        "artifact" : "org.mule.runtime:mule-api:1.0.0-BETA.4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.mule.services:mule-service-oauth:1.0.0-BETA.4/dependencies/org/mule/runtime/mule-api/1.0.0-BETA.4/mule-api-1.0.0-BETA.4.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import static java.util.Objects.requireNonNull;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import static org.mule.runtime.api.util.Preconditions.checkArgument;",
+      "artifact" : {
+        "artifact" : "org.mule.runtime:mule-api:1.0.0-BETA.4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.mule.services:mule-service-oauth:1.0.0-BETA.4/dependencies/org/mule/runtime/mule-api/1.0.0-BETA.4/mule-api-1.0.0-BETA.4.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import static org.apache.commons.lang3.StringUtils.isNotBlank;",
+      "artifact" : {
+        "artifact" : "org.apache.commons:commons-lang3:3.4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.mule.services:mule-service-oauth:1.0.0-BETA.4/dependencies/org/apache/commons/commons-lang3/3.4/commons-lang3-3.4.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.mule.service.oauth.internal.DefaultAuthorizationCodeOAuthDancer;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/org.mule.services:mule-service-oauth/src/main/java/org/mule/service/oauth/internal/builder/DefaultOAuthClientCredentialsDancerBuilder.java",
+    "useImportReport" : [ {
+      "importPath" : "import org.mule.runtime.oauth.api.ClientCredentialsOAuthDancer;",
+      "artifact" : {
+        "artifact" : "org.mule.runtime:mule-service-oauth-api:4.0.0-BETA.4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.mule.services:mule-service-oauth:1.0.0-BETA.4/dependencies/org/mule/runtime/mule-service-oauth-api/4.0.0-BETA.4/mule-service-oauth-api-4.0.0-BETA.4.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.mule.runtime.oauth.api.builder.OAuthClientCredentialsDancerBuilder;",
+      "artifact" : {
+        "artifact" : "org.mule.runtime:mule-service-oauth-api:4.0.0-BETA.4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.mule.services:mule-service-oauth:1.0.0-BETA.4/dependencies/org/mule/runtime/mule-service-oauth-api/4.0.0-BETA.4/mule-service-oauth-api-4.0.0-BETA.4.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.mule.runtime.api.lock.LockFactory;",
+      "artifact" : {
+        "artifact" : "org.mule.runtime:mule-api:1.0.0-BETA.4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.mule.services:mule-service-oauth:1.0.0-BETA.4/dependencies/org/mule/runtime/mule-api/1.0.0-BETA.4/mule-api-1.0.0-BETA.4.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import java.util.Map;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.mule.runtime.oauth.api.state.DefaultResourceOwnerOAuthContext;",
+      "artifact" : {
+        "artifact" : "org.mule.runtime:mule-service-oauth-api:4.0.0-BETA.4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.mule.services:mule-service-oauth:1.0.0-BETA.4/dependencies/org/mule/runtime/mule-service-oauth-api/4.0.0-BETA.4/mule-service-oauth-api-4.0.0-BETA.4.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.mule.runtime.http.api.HttpService;",
+      "artifact" : {
+        "artifact" : "org.mule.runtime:mule-service-http-api:4.0.0-BETA.4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.mule.services:mule-service-oauth:1.0.0-BETA.4/dependencies/org/mule/runtime/mule-service-http-api/4.0.0-BETA.4/mule-service-http-api-4.0.0-BETA.4.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.mule.runtime.api.el.MuleExpressionLanguage;",
+      "artifact" : {
+        "artifact" : "org.mule.runtime:mule-api:1.0.0-BETA.4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.mule.services:mule-service-oauth:1.0.0-BETA.4/dependencies/org/mule/runtime/mule-api/1.0.0-BETA.4/mule-api-1.0.0-BETA.4.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import static org.mule.runtime.api.util.Preconditions.checkArgument;",
+      "artifact" : {
+        "artifact" : "org.mule.runtime:mule-api:1.0.0-BETA.4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.mule.services:mule-service-oauth:1.0.0-BETA.4/dependencies/org/mule/runtime/mule-api/1.0.0-BETA.4/mule-api-1.0.0-BETA.4.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import static org.apache.commons.lang3.StringUtils.isNotBlank;",
+      "artifact" : {
+        "artifact" : "org.apache.commons:commons-lang3:3.4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.mule.services:mule-service-oauth:1.0.0-BETA.4/dependencies/org/apache/commons/commons-lang3/3.4/commons-lang3-3.4.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.mule.service.oauth.internal.DefaultClientCredentialsOAuthDancer;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/org.mule.services:mule-service-oauth/src/main/java/org/mule/service/oauth/internal/authorizationcode/AuthorizationRequestUrlBuilder.java",
+    "useImportReport" : [ {
+      "importPath" : "import org.slf4j.Logger;",
+      "artifact" : {
+        "artifact" : "org.slf4j:slf4j-api:1.7.25",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.mule.services:mule-service-oauth:1.0.0-BETA.4/dependencies/org/slf4j/slf4j-api/1.7.25/slf4j-api-1.7.25.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import static org.slf4j.LoggerFactory.getLogger;",
+      "artifact" : {
+        "artifact" : "org.slf4j:slf4j-api:1.7.25",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.mule.services:mule-service-oauth:1.0.0-BETA.4/dependencies/org/slf4j/slf4j-api/1.7.25/slf4j-api-1.7.25.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.Map;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.HashMap;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.nio.charset.Charset;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import static org.mule.runtime.api.util.Preconditions.checkArgument;",
+      "artifact" : {
+        "artifact" : "org.mule.runtime:mule-api:1.0.0-BETA.4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.mule.services:mule-service-oauth:1.0.0-BETA.4/dependencies/org/mule/runtime/mule-api/1.0.0-BETA.4/mule-api-1.0.0-BETA.4.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import static org.mule.runtime.core.api.util.StringUtils.isBlank;",
+      "artifact" : {
+        "artifact" : "org.mule.runtime:mule-core:4.0.0-BETA.4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.mule.services:mule-service-oauth:1.0.0-BETA.4/dependencies/org/mule/runtime/mule-core/4.0.0-BETA.4/mule-core-4.0.0-BETA.4.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import static org.mule.service.oauth.internal.OAuthConstants.CLIENT_ID_PARAMETER;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import static java.lang.String.format;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import static org.mule.service.oauth.internal.OAuthConstants.SCOPE_PARAMETER;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import static java.net.URLEncoder.encode;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import static org.mule.service.oauth.internal.OAuthConstants.STATE_PARAMETER;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import static org.mule.service.oauth.internal.OAuthConstants.REDIRECT_URI_PARAMETER;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.io.UnsupportedEncodingException;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/org.mule.services:mule-service-oauth/src/main/java/org/mule/service/oauth/internal/authorizationcode/DefaultAuthorizationCodeRequest.java",
+    "useImportReport" : [ {
+      "importPath" : "import org.mule.runtime.oauth.api.AuthorizationCodeRequest;",
+      "artifact" : {
+        "artifact" : "org.mule.runtime:mule-service-oauth-api:4.0.0-BETA.4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.mule.services:mule-service-oauth:1.0.0-BETA.4/dependencies/org/mule/runtime/mule-service-oauth-api/4.0.0-BETA.4/mule-service-oauth-api-4.0.0-BETA.4.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import java.util.Optional;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import static java.util.Optional.ofNullable;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/org.mule.services:mule-service-oauth/src/main/java/org/mule/service/oauth/internal/AbstractOAuthDancer.java",
+    "useImportReport" : [ {
+      "importPath" : "import org.mule.runtime.api.lifecycle.Startable;",
+      "artifact" : {
+        "artifact" : "org.mule.runtime:mule-api:1.0.0-BETA.4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.mule.services:mule-service-oauth:1.0.0-BETA.4/dependencies/org/mule/runtime/mule-api/1.0.0-BETA.4/mule-api-1.0.0-BETA.4.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.mule.runtime.api.lifecycle.Stoppable;",
+      "artifact" : {
+        "artifact" : "org.mule.runtime:mule-api:1.0.0-BETA.4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.mule.services:mule-service-oauth:1.0.0-BETA.4/dependencies/org/mule/runtime/mule-api/1.0.0-BETA.4/mule-api-1.0.0-BETA.4.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import java.nio.charset.Charset;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.Map;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.function.Function;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.mule.runtime.api.lock.LockFactory;",
+      "artifact" : {
+        "artifact" : "org.mule.runtime:mule-api:1.0.0-BETA.4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.mule.services:mule-service-oauth:1.0.0-BETA.4/dependencies/org/mule/runtime/mule-api/1.0.0-BETA.4/mule-api-1.0.0-BETA.4.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.mule.runtime.oauth.api.state.DefaultResourceOwnerOAuthContext;",
+      "artifact" : {
+        "artifact" : "org.mule.runtime:mule-service-oauth-api:4.0.0-BETA.4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.mule.services:mule-service-oauth:1.0.0-BETA.4/dependencies/org/mule/runtime/mule-service-oauth-api/4.0.0-BETA.4/mule-service-oauth-api-4.0.0-BETA.4.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.mule.runtime.http.api.client.HttpClient;",
+      "artifact" : {
+        "artifact" : "org.mule.runtime:mule-service-http-api:4.0.0-BETA.4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.mule.services:mule-service-oauth:1.0.0-BETA.4/dependencies/org/mule/runtime/mule-service-http-api/4.0.0-BETA.4/mule-service-http-api-4.0.0-BETA.4.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.mule.runtime.api.el.MuleExpressionLanguage;",
+      "artifact" : {
+        "artifact" : "org.mule.runtime:mule-api:1.0.0-BETA.4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.mule.services:mule-service-oauth:1.0.0-BETA.4/dependencies/org/mule/runtime/mule-api/1.0.0-BETA.4/mule-api-1.0.0-BETA.4.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.mule.runtime.api.exception.MuleException;",
+      "artifact" : {
+        "artifact" : "org.mule.runtime:mule-api:1.0.0-BETA.4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.mule.services:mule-service-oauth:1.0.0-BETA.4/dependencies/org/mule/runtime/mule-api/1.0.0-BETA.4/mule-api-1.0.0-BETA.4.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.mule.service.oauth.internal.state.TokenResponse;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.mule.runtime.oauth.api.exception.TokenUrlResponseException;",
+      "artifact" : {
+        "artifact" : "org.mule.runtime:mule-service-oauth-api:4.0.0-BETA.4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.mule.services:mule-service-oauth:1.0.0-BETA.4/dependencies/org/mule/runtime/mule-service-oauth-api/4.0.0-BETA.4/mule-service-oauth-api-4.0.0-BETA.4.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.mule.runtime.oauth.api.exception.TokenNotFoundException;",
+      "artifact" : {
+        "artifact" : "org.mule.runtime:mule-service-oauth-api:4.0.0-BETA.4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.mule.services:mule-service-oauth:1.0.0-BETA.4/dependencies/org/mule/runtime/mule-service-oauth-api/4.0.0-BETA.4/mule-service-oauth-api-4.0.0-BETA.4.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.mule.runtime.http.api.domain.message.request.HttpRequestBuilder;",
+      "artifact" : {
+        "artifact" : "org.mule.runtime:mule-service-http-api:4.0.0-BETA.4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.mule.services:mule-service-oauth:1.0.0-BETA.4/dependencies/org/mule/runtime/mule-service-http-api/4.0.0-BETA.4/mule-service-http-api-4.0.0-BETA.4.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.mule.runtime.http.api.domain.message.request.HttpRequest;",
+      "artifact" : {
+        "artifact" : "org.mule.runtime:mule-service-http-api:4.0.0-BETA.4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.mule.services:mule-service-oauth:1.0.0-BETA.4/dependencies/org/mule/runtime/mule-service-http-api/4.0.0-BETA.4/mule-service-http-api-4.0.0-BETA.4.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import static org.mule.runtime.http.api.HttpConstants.Method.POST;",
+      "artifact" : {
+        "artifact" : "org.mule.runtime:mule-service-http-api:4.0.0-BETA.4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.mule.services:mule-service-oauth:1.0.0-BETA.4/dependencies/org/mule/runtime/mule-service-http-api/4.0.0-BETA.4/mule-service-http-api-4.0.0-BETA.4.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.mule.runtime.http.api.domain.entity.ByteArrayHttpEntity;",
+      "artifact" : {
+        "artifact" : "org.mule.runtime:mule-service-http-api:4.0.0-BETA.4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.mule.services:mule-service-oauth:1.0.0-BETA.4/dependencies/org/mule/runtime/mule-service-http-api/4.0.0-BETA.4/mule-service-http-api-4.0.0-BETA.4.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import static org.mule.runtime.http.api.utils.HttpEncoderDecoderUtils.encodeString;",
+      "artifact" : {
+        "artifact" : "org.mule.runtime:mule-service-http-api:4.0.0-BETA.4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.mule.services:mule-service-oauth:1.0.0-BETA.4/dependencies/org/mule/runtime/mule-service-http-api/4.0.0-BETA.4/mule-service-http-api-4.0.0-BETA.4.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import static org.mule.runtime.http.api.HttpHeaders.Names.CONTENT_TYPE;",
+      "artifact" : {
+        "artifact" : "org.mule.runtime:mule-service-http-api:4.0.0-BETA.4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.mule.services:mule-service-oauth:1.0.0-BETA.4/dependencies/org/mule/runtime/mule-service-http-api/4.0.0-BETA.4/mule-service-http-api-4.0.0-BETA.4.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import static org.mule.runtime.http.api.HttpHeaders.Values.APPLICATION_X_WWW_FORM_URLENCODED;",
+      "artifact" : {
+        "artifact" : "org.mule.runtime:mule-service-http-api:4.0.0-BETA.4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.mule.services:mule-service-oauth:1.0.0-BETA.4/dependencies/org/mule/runtime/mule-service-http-api/4.0.0-BETA.4/mule-service-http-api-4.0.0-BETA.4.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import static org.mule.runtime.http.api.HttpHeaders.Names.AUTHORIZATION;",
+      "artifact" : {
+        "artifact" : "org.mule.runtime:mule-service-http-api:4.0.0-BETA.4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.mule.services:mule-service-oauth:1.0.0-BETA.4/dependencies/org/mule/runtime/mule-service-http-api/4.0.0-BETA.4/mule-service-http-api-4.0.0-BETA.4.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.mule.runtime.http.api.domain.message.response.HttpResponse;",
+      "artifact" : {
+        "artifact" : "org.mule.runtime:mule-service-http-api:4.0.0-BETA.4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.mule.services:mule-service-oauth:1.0.0-BETA.4/dependencies/org/mule/runtime/mule-service-http-api/4.0.0-BETA.4/mule-service-http-api-4.0.0-BETA.4.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.mule.runtime.api.metadata.MediaType;",
+      "artifact" : {
+        "artifact" : "org.mule.runtime:mule-api:1.0.0-BETA.4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.mule.services:mule-service-oauth:1.0.0-BETA.4/dependencies/org/mule/runtime/mule-api/1.0.0-BETA.4/mule-api-1.0.0-BETA.4.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.mule.runtime.http.api.domain.ParameterMap;",
+      "artifact" : {
+        "artifact" : "org.mule.runtime:mule-service-http-api:4.0.0-BETA.4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.mule.services:mule-service-oauth:1.0.0-BETA.4/dependencies/org/mule/runtime/mule-service-http-api/4.0.0-BETA.4/mule-service-http-api-4.0.0-BETA.4.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.mule.runtime.core.api.util.IOUtils;",
+      "artifact" : {
+        "artifact" : "org.mule.runtime:mule-core:4.0.0-BETA.4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.mule.services:mule-service-oauth:1.0.0-BETA.4/dependencies/org/mule/runtime/mule-core/4.0.0-BETA.4/mule-core-4.0.0-BETA.4.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.mule.runtime.http.api.domain.entity.InputStreamHttpEntity;",
+      "artifact" : {
+        "artifact" : "org.mule.runtime:mule-service-http-api:4.0.0-BETA.4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.mule.services:mule-service-oauth:1.0.0-BETA.4/dependencies/org/mule/runtime/mule-service-http-api/4.0.0-BETA.4/mule-service-http-api-4.0.0-BETA.4.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import static org.mule.runtime.http.api.HttpConstants.HttpStatus.BAD_REQUEST;",
+      "artifact" : {
+        "artifact" : "org.mule.runtime:mule-service-http-api:4.0.0-BETA.4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.mule.services:mule-service-oauth:1.0.0-BETA.4/dependencies/org/mule/runtime/mule-service-http-api/4.0.0-BETA.4/mule-service-http-api-4.0.0-BETA.4.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import java.util.HashMap;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.Map.Entry;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.io.IOException;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.concurrent.TimeoutException;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.mule.runtime.api.el.BindingContext;",
+      "artifact" : {
+        "artifact" : "org.mule.runtime:mule-api:1.0.0-BETA.4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.mule.services:mule-service-oauth:1.0.0-BETA.4/dependencies/org/mule/runtime/mule-api/1.0.0-BETA.4/mule-api-1.0.0-BETA.4.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.mule.runtime.api.metadata.DataType;",
+      "artifact" : {
+        "artifact" : "org.mule.runtime:mule-api:1.0.0-BETA.4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.mule.services:mule-service-oauth:1.0.0-BETA.4/dependencies/org/mule/runtime/mule-api/1.0.0-BETA.4/mule-api-1.0.0-BETA.4.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.mule.runtime.api.metadata.TypedValue;",
+      "artifact" : {
+        "artifact" : "org.mule.runtime:mule-api:1.0.0-BETA.4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.mule.services:mule-service-oauth:1.0.0-BETA.4/dependencies/org/mule/runtime/mule-api/1.0.0-BETA.4/mule-api-1.0.0-BETA.4.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import java.util.Collections;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import static org.mule.runtime.api.metadata.DataType.STRING;",
+      "artifact" : {
+        "artifact" : "org.mule.runtime:mule-api:1.0.0-BETA.4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.mule.services:mule-service-oauth:1.0.0-BETA.4/dependencies/org/mule/runtime/mule-api/1.0.0-BETA.4/mule-api-1.0.0-BETA.4.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.mule.runtime.oauth.api.state.ResourceOwnerOAuthContext;",
+      "artifact" : {
+        "artifact" : "org.mule.runtime:mule-service-oauth-api:4.0.0-BETA.4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.mule.services:mule-service-oauth:1.0.0-BETA.4/dependencies/org/mule/runtime/mule-service-oauth-api/4.0.0-BETA.4/mule-service-oauth-api-4.0.0-BETA.4.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import static org.mule.runtime.oauth.api.state.ResourceOwnerOAuthContext.DEFAULT_RESOURCE_OWNER_ID;",
+      "artifact" : {
+        "artifact" : "org.mule.runtime:mule-service-oauth-api:4.0.0-BETA.4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.mule.services:mule-service-oauth:1.0.0-BETA.4/dependencies/org/mule/runtime/mule-service-oauth-api/4.0.0-BETA.4/mule-service-oauth-api-4.0.0-BETA.4.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import java.util.concurrent.locks.Lock;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ {
+      "importPath" : "import static org.apache.commons.lang3.StringUtils.isBlank;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import static org.mule.runtime.api.metadata.MediaType.ANY;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import static org.mule.runtime.api.metadata.MediaType.parse;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/org.mule.services:mule-service-oauth/src/main/java/org/mule/service/oauth/internal/OAuthConstants.java",
+    "useImportReport" : [ ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/org.mule.services:mule-service-oauth/src/main/java/org/mule/service/oauth/provider/OAuthServiceProvider.java",
+    "useImportReport" : [ {
+      "importPath" : "import org.mule.runtime.api.service.ServiceProvider;",
+      "artifact" : {
+        "artifact" : "org.mule.runtime:mule-api:1.0.0-BETA.4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.mule.services:mule-service-oauth:1.0.0-BETA.4/dependencies/org/mule/runtime/mule-api/1.0.0-BETA.4/mule-api-1.0.0-BETA.4.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.mule.runtime.http.api.HttpService;",
+      "artifact" : {
+        "artifact" : "org.mule.runtime:mule-service-http-api:4.0.0-BETA.4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.mule.services:mule-service-oauth:1.0.0-BETA.4/dependencies/org/mule/runtime/mule-service-http-api/4.0.0-BETA.4/mule-service-http-api-4.0.0-BETA.4.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import javax.inject.Inject;",
+      "artifact" : {
+        "artifact" : "javax.inject:javax.inject:1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.mule.services:mule-service-oauth:1.0.0-BETA.4/dependencies/javax/inject/javax.inject/1/javax.inject-1.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.mule.runtime.core.api.scheduler.SchedulerService;",
+      "artifact" : {
+        "artifact" : "org.mule.runtime:mule-core:4.0.0-BETA.4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.mule.services:mule-service-oauth:1.0.0-BETA.4/dependencies/org/mule/runtime/mule-core/4.0.0-BETA.4/mule-core-4.0.0-BETA.4.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import java.util.List;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.mule.runtime.api.service.ServiceDefinition;",
+      "artifact" : {
+        "artifact" : "org.mule.runtime:mule-api:1.0.0-BETA.4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.mule.services:mule-service-oauth:1.0.0-BETA.4/dependencies/org/mule/runtime/mule-api/1.0.0-BETA.4/mule-api-1.0.0-BETA.4.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.mule.service.oauth.internal.DefaultOAuthService;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.mule.runtime.oauth.api.OAuthService;",
+      "artifact" : {
+        "artifact" : "org.mule.runtime:mule-service-oauth-api:4.0.0-BETA.4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.mule.services:mule-service-oauth:1.0.0-BETA.4/dependencies/org/mule/runtime/mule-service-oauth-api/4.0.0-BETA.4/mule-service-oauth-api-4.0.0-BETA.4.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import static java.util.Collections.singletonList;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  } ],
+  "projectUseDependencies" : [ {
+    "artifact" : "org.mule.runtime:mule-service-oauth-api:4.0.0-BETA.4",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.mule.services:mule-service-oauth:1.0.0-BETA.4/dependencies/org/mule/runtime/mule-service-oauth-api/4.0.0-BETA.4/mule-service-oauth-api-4.0.0-BETA.4.jar"
+  }, {
+    "artifact" : "org.mule.runtime:mule-api:1.0.0-BETA.4",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.mule.services:mule-service-oauth:1.0.0-BETA.4/dependencies/org/mule/runtime/mule-api/1.0.0-BETA.4/mule-api-1.0.0-BETA.4.jar"
+  }, {
+    "artifact" : "org.mule.runtime:mule-service-http-api:4.0.0-BETA.4",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.mule.services:mule-service-oauth:1.0.0-BETA.4/dependencies/org/mule/runtime/mule-service-http-api/4.0.0-BETA.4/mule-service-http-api-4.0.0-BETA.4.jar"
+  }, {
+    "artifact" : "org.mule.runtime:mule-core:4.0.0-BETA.4",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.mule.services:mule-service-oauth:1.0.0-BETA.4/dependencies/org/mule/runtime/mule-core/4.0.0-BETA.4/mule-core-4.0.0-BETA.4.jar"
+  }, {
+    "artifact" : "commons-codec:commons-codec:1.9",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.mule.services:mule-service-oauth:1.0.0-BETA.4/dependencies/commons-codec/commons-codec/1.9/commons-codec-1.9.jar"
+  }, {
+    "artifact" : "org.apache.commons:commons-lang3:3.4",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.mule.services:mule-service-oauth:1.0.0-BETA.4/dependencies/org/apache/commons/commons-lang3/3.4/commons-lang3-3.4.jar"
+  } ],
+  "projectUseTransitiveDependencies" : [ ],
+  "projectUnusedDependencies" : [ ]
+}

@@ -1,0 +1,3529 @@
+{
+  "projectArtifact" : "smartrics.restfixture:smartrics-RestFixtureExtensions:3.1",
+  "repositoryDir" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/smartrics.restfixture:smartrics-RestFixtureExtensions",
+  "repositorySubDir" : "",
+  "artifactLocation" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/smartrics.restfixture:smartrics-RestFixtureExtensions:3.1",
+  "fileImportReports" : [ {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/smartrics.restfixture:smartrics-RestFixtureExtensions/src/test/java/smartrics/rest/fitnesse/fixture/ext/RestFixtureTestHelper.java",
+    "useImportReport" : [ {
+      "importPath" : "import smartrics.rest.fitnesse.fixture.support.RowWrapper;",
+      "artifact" : {
+        "artifact" : "smartrics.restfixture:smartrics-RestFixture:3.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/smartrics.restfixture:smartrics-RestFixtureExtensions:3.1/dependencies/smartrics/restfixture/smartrics-RestFixture/3.1/smartrics-RestFixture-3.1.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import static org.mockito.Mockito.mock;",
+      "artifact" : {
+        "artifact" : "org.mockito:mockito-all:1.9.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/smartrics.restfixture:smartrics-RestFixtureExtensions:3.1/dependencies/org/mockito/mockito-all/1.9.0/mockito-all-1.9.0.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import smartrics.rest.fitnesse.fixture.support.CellWrapper;",
+      "artifact" : {
+        "artifact" : "smartrics.restfixture:smartrics-RestFixture:3.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/smartrics.restfixture:smartrics-RestFixtureExtensions:3.1/dependencies/smartrics/restfixture/smartrics-RestFixture/3.1/smartrics-RestFixture-3.1.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import static org.mockito.Mockito.when;",
+      "artifact" : {
+        "artifact" : "org.mockito:mockito-all:1.9.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/smartrics.restfixture:smartrics-RestFixtureExtensions:3.1/dependencies/org/mockito/mockito-all/1.9.0/mockito-all-1.9.0.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import fit.Parse;",
+      "artifact" : {
+        "artifact" : "org.fitnesse:fitnesse:20140901",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/smartrics.restfixture:smartrics-RestFixtureExtensions:3.1/dependencies/org/fitnesse/fitnesse/20140901/fitnesse-20140901.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import fit.exception.FitParseException;",
+      "artifact" : {
+        "artifact" : "org.fitnesse:fitnesse:20140901",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/smartrics.restfixture:smartrics-RestFixtureExtensions:3.1/dependencies/org/fitnesse/fitnesse/20140901/fitnesse-20140901.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.List;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.ArrayList;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.Arrays;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import smartrics.rest.fitnesse.fixture.support.Config;",
+      "artifact" : {
+        "artifact" : "smartrics.restfixture:smartrics-RestFixture:3.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/smartrics.restfixture:smartrics-RestFixtureExtensions:3.1/dependencies/smartrics/restfixture/smartrics-RestFixture/3.1/smartrics-RestFixture-3.1.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import smartrics.rest.fitnesse.fixture.PartsFactory;",
+      "artifact" : {
+        "artifact" : "smartrics.restfixture:smartrics-RestFixture:3.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/smartrics.restfixture:smartrics-RestFixtureExtensions:3.1/dependencies/smartrics/restfixture/smartrics-RestFixture/3.1/smartrics-RestFixture-3.1.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import smartrics.rest.client.RestClient;",
+      "artifact" : {
+        "artifact" : "smartrics.restfixture:smartrics-RestClient:2.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/smartrics.restfixture:smartrics-RestFixtureExtensions:3.1/dependencies/smartrics/restfixture/smartrics-RestClient/2.1/smartrics-RestClient-2.1.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import smartrics.rest.client.RestRequest;",
+      "artifact" : {
+        "artifact" : "smartrics.restfixture:smartrics-RestClient:2.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/smartrics.restfixture:smartrics-RestFixtureExtensions:3.1/dependencies/smartrics/restfixture/smartrics-RestClient/2.1/smartrics-RestClient-2.1.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import smartrics.rest.client.RestResponse;",
+      "artifact" : {
+        "artifact" : "smartrics.restfixture:smartrics-RestClient:2.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/smartrics.restfixture:smartrics-RestFixtureExtensions:3.1/dependencies/smartrics/restfixture/smartrics-RestClient/2.1/smartrics-RestClient-2.1.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import smartrics.rest.fitnesse.fixture.support.CellFormatter;",
+      "artifact" : {
+        "artifact" : "smartrics.restfixture:smartrics-RestFixture:3.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/smartrics.restfixture:smartrics-RestFixtureExtensions:3.1/dependencies/smartrics/restfixture/smartrics-RestFixture/3.1/smartrics-RestFixture-3.1.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import smartrics.rest.fitnesse.fixture.support.BodyTypeAdapter;",
+      "artifact" : {
+        "artifact" : "smartrics.restfixture:smartrics-RestFixture:3.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/smartrics.restfixture:smartrics-RestFixtureExtensions:3.1/dependencies/smartrics/restfixture/smartrics-RestFixture/3.1/smartrics-RestFixture-3.1.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import static org.mockito.Matchers.any;",
+      "artifact" : {
+        "artifact" : "org.mockito:mockito-all:1.9.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/smartrics.restfixture:smartrics-RestFixtureExtensions:3.1/dependencies/org/mockito/mockito-all/1.9.0/mockito-all-1.9.0.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import smartrics.rest.fitnesse.fixture.RestFixture;",
+      "artifact" : {
+        "artifact" : "smartrics.restfixture:smartrics-RestFixture:3.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/smartrics.restfixture:smartrics-RestFixtureExtensions:3.1/dependencies/smartrics/restfixture/smartrics-RestFixture/3.1/smartrics-RestFixture-3.1.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import static org.mockito.Matchers.isA;",
+      "artifact" : {
+        "artifact" : "org.mockito:mockito-all:1.9.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/smartrics.restfixture:smartrics-RestFixtureExtensions:3.1/dependencies/org/mockito/mockito-all/1.9.0/mockito-all-1.9.0.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import smartrics.rest.fitnesse.fixture.support.ContentType;",
+      "artifact" : {
+        "artifact" : "smartrics.restfixture:smartrics-RestFixture:3.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/smartrics.restfixture:smartrics-RestFixtureExtensions:3.1/dependencies/smartrics/restfixture/smartrics-RestFixture/3.1/smartrics-RestFixture-3.1.jar"
+      },
+      "isDirectDependency" : true
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/smartrics.restfixture:smartrics-RestFixtureExtensions/src/test/java/smartrics/rest/fitnesse/fixture/ext/RestScriptFixtureTest.java",
+    "useImportReport" : [ {
+      "importPath" : "import smartrics.rest.fitnesse.fixture.support.Variables;",
+      "artifact" : {
+        "artifact" : "smartrics.restfixture:smartrics-RestFixture:3.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/smartrics.restfixture:smartrics-RestFixtureExtensions:3.1/dependencies/smartrics/restfixture/smartrics-RestFixture/3.1/smartrics-RestFixture-3.1.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import smartrics.rest.fitnesse.fixture.PartsFactory;",
+      "artifact" : {
+        "artifact" : "smartrics.restfixture:smartrics-RestFixture:3.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/smartrics.restfixture:smartrics-RestFixtureExtensions:3.1/dependencies/smartrics/restfixture/smartrics-RestFixture/3.1/smartrics-RestFixture-3.1.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import smartrics.rest.client.RestClient;",
+      "artifact" : {
+        "artifact" : "smartrics.restfixture:smartrics-RestClient:2.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/smartrics.restfixture:smartrics-RestFixtureExtensions:3.1/dependencies/smartrics/restfixture/smartrics-RestClient/2.1/smartrics-RestClient-2.1.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import smartrics.rest.client.RestRequest;",
+      "artifact" : {
+        "artifact" : "smartrics.restfixture:smartrics-RestClient:2.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/smartrics.restfixture:smartrics-RestFixtureExtensions:3.1/dependencies/smartrics/restfixture/smartrics-RestClient/2.1/smartrics-RestClient-2.1.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import smartrics.rest.fitnesse.fixture.support.CellFormatter;",
+      "artifact" : {
+        "artifact" : "smartrics.restfixture:smartrics-RestFixture:3.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/smartrics.restfixture:smartrics-RestFixtureExtensions:3.1/dependencies/smartrics/restfixture/smartrics-RestFixture/3.1/smartrics-RestFixture-3.1.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import smartrics.rest.fitnesse.fixture.support.Config;",
+      "artifact" : {
+        "artifact" : "smartrics.restfixture:smartrics-RestFixture:3.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/smartrics.restfixture:smartrics-RestFixtureExtensions:3.1/dependencies/smartrics/restfixture/smartrics-RestFixture/3.1/smartrics-RestFixture-3.1.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import smartrics.rest.client.RestResponse;",
+      "artifact" : {
+        "artifact" : "smartrics.restfixture:smartrics-RestClient:2.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/smartrics.restfixture:smartrics-RestFixtureExtensions:3.1/dependencies/smartrics/restfixture/smartrics-RestClient/2.1/smartrics-RestClient-2.1.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import smartrics.rest.fitnesse.fixture.support.BodyTypeAdapter;",
+      "artifact" : {
+        "artifact" : "smartrics.restfixture:smartrics-RestFixture:3.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/smartrics.restfixture:smartrics-RestFixtureExtensions:3.1/dependencies/smartrics/restfixture/smartrics-RestFixture/3.1/smartrics-RestFixture-3.1.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.junit.Before;",
+      "artifact" : {
+        "artifact" : "junit:junit:4.10",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/smartrics.restfixture:smartrics-RestFixtureExtensions:3.1/dependencies/junit/junit/4.10/junit-4.10.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import static org.mockito.Mockito.mock;",
+      "artifact" : {
+        "artifact" : "org.mockito:mockito-all:1.9.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/smartrics.restfixture:smartrics-RestFixtureExtensions:3.1/dependencies/org/mockito/mockito-all/1.9.0/mockito-all-1.9.0.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import smartrics.rest.fitnesse.fixture.support.ContentType;",
+      "artifact" : {
+        "artifact" : "smartrics.restfixture:smartrics-RestFixture:3.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/smartrics.restfixture:smartrics-RestFixtureExtensions:3.1/dependencies/smartrics/restfixture/smartrics-RestFixture/3.1/smartrics-RestFixture-3.1.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import smartrics.rest.fitnesse.fixture.RestFixture.Runner;",
+      "artifact" : {
+        "artifact" : "smartrics.restfixture:smartrics-RestFixture:3.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/smartrics.restfixture:smartrics-RestFixtureExtensions:3.1/dependencies/smartrics/restfixture/smartrics-RestFixture/3.1/smartrics-RestFixture-3.1.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.junit.After;",
+      "artifact" : {
+        "artifact" : "junit:junit:4.10",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/smartrics.restfixture:smartrics-RestFixtureExtensions:3.1/dependencies/junit/junit/4.10/junit-4.10.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.junit.Test;",
+      "artifact" : {
+        "artifact" : "junit:junit:4.10",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/smartrics.restfixture:smartrics-RestFixtureExtensions:3.1/dependencies/junit/junit/4.10/junit-4.10.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import static org.junit.Assert.assertEquals;",
+      "artifact" : {
+        "artifact" : "junit:junit:4.10",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/smartrics.restfixture:smartrics-RestFixtureExtensions:3.1/dependencies/junit/junit/4.10/junit-4.10.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import static org.mockito.Mockito.when;",
+      "artifact" : {
+        "artifact" : "org.mockito:mockito-all:1.9.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/smartrics.restfixture:smartrics-RestFixtureExtensions:3.1/dependencies/org/mockito/mockito-all/1.9.0/mockito-all-1.9.0.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import static org.mockito.Mockito.verify;",
+      "artifact" : {
+        "artifact" : "org.mockito:mockito-all:1.9.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/smartrics.restfixture:smartrics-RestFixtureExtensions:3.1/dependencies/org/mockito/mockito-all/1.9.0/mockito-all-1.9.0.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import static org.mockito.Matchers.any;",
+      "artifact" : {
+        "artifact" : "org.mockito:mockito-all:1.9.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/smartrics.restfixture:smartrics-RestFixtureExtensions:3.1/dependencies/org/mockito/mockito-all/1.9.0/mockito-all-1.9.0.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import static org.junit.Assert.assertTrue;",
+      "artifact" : {
+        "artifact" : "junit:junit:4.10",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/smartrics.restfixture:smartrics-RestFixtureExtensions:3.1/dependencies/junit/junit/4.10/junit-4.10.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import static org.junit.Assert.assertFalse;",
+      "artifact" : {
+        "artifact" : "junit:junit:4.10",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/smartrics.restfixture:smartrics-RestFixtureExtensions:3.1/dependencies/junit/junit/4.10/junit-4.10.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.Map;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ {
+      "importPath" : "import java.util.Arrays;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import smartrics.rest.fitnesse.fixture.SlimRow;",
+      "artifact" : {
+        "artifact" : "smartrics.restfixture:smartrics-RestFixture:3.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/smartrics.restfixture:smartrics-RestFixtureExtensions:3.1/dependencies/smartrics/restfixture/smartrics-RestFixture/3.1/smartrics-RestFixture-3.1.jar"
+      },
+      "isDirectDependency" : true
+    } ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/smartrics.restfixture:smartrics-RestFixtureExtensions/src/test/java/smartrics/rest/fitnesse/fixture/ext/SlimRestFixtureWithSeqTest.java",
+    "useImportReport" : [ {
+      "importPath" : "import org.junit.rules.TemporaryFolder;",
+      "artifact" : {
+        "artifact" : "junit:junit:4.10",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/smartrics.restfixture:smartrics-RestFixtureExtensions:3.1/dependencies/junit/junit/4.10/junit-4.10.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.junit.Rule;",
+      "artifact" : {
+        "artifact" : "junit:junit:4.10",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/smartrics.restfixture:smartrics-RestFixtureExtensions:3.1/dependencies/junit/junit/4.10/junit-4.10.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import smartrics.rest.fitnesse.fixture.support.Variables;",
+      "artifact" : {
+        "artifact" : "smartrics.restfixture:smartrics-RestFixture:3.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/smartrics.restfixture:smartrics-RestFixtureExtensions:3.1/dependencies/smartrics/restfixture/smartrics-RestFixture/3.1/smartrics-RestFixture-3.1.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import smartrics.rest.fitnesse.fixture.PartsFactory;",
+      "artifact" : {
+        "artifact" : "smartrics.restfixture:smartrics-RestFixture:3.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/smartrics.restfixture:smartrics-RestFixtureExtensions:3.1/dependencies/smartrics/restfixture/smartrics-RestFixture/3.1/smartrics-RestFixture-3.1.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import smartrics.rest.client.RestClient;",
+      "artifact" : {
+        "artifact" : "smartrics.restfixture:smartrics-RestClient:2.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/smartrics.restfixture:smartrics-RestFixtureExtensions:3.1/dependencies/smartrics/restfixture/smartrics-RestClient/2.1/smartrics-RestClient-2.1.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import smartrics.rest.client.RestRequest;",
+      "artifact" : {
+        "artifact" : "smartrics.restfixture:smartrics-RestClient:2.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/smartrics.restfixture:smartrics-RestFixtureExtensions:3.1/dependencies/smartrics/restfixture/smartrics-RestClient/2.1/smartrics-RestClient-2.1.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import smartrics.rest.fitnesse.fixture.support.BodyTypeAdapter;",
+      "artifact" : {
+        "artifact" : "smartrics.restfixture:smartrics-RestFixture:3.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/smartrics.restfixture:smartrics-RestFixtureExtensions:3.1/dependencies/smartrics/restfixture/smartrics-RestFixture/3.1/smartrics-RestFixture-3.1.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import smartrics.rest.fitnesse.fixture.support.CellFormatter;",
+      "artifact" : {
+        "artifact" : "smartrics.restfixture:smartrics-RestFixture:3.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/smartrics.restfixture:smartrics-RestFixtureExtensions:3.1/dependencies/smartrics/restfixture/smartrics-RestFixture/3.1/smartrics-RestFixture-3.1.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import smartrics.rest.fitnesse.fixture.support.Config;",
+      "artifact" : {
+        "artifact" : "smartrics.restfixture:smartrics-RestFixture:3.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/smartrics.restfixture:smartrics-RestFixtureExtensions:3.1/dependencies/smartrics/restfixture/smartrics-RestFixture/3.1/smartrics-RestFixture-3.1.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import smartrics.rest.client.RestResponse;",
+      "artifact" : {
+        "artifact" : "smartrics.restfixture:smartrics-RestClient:2.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/smartrics.restfixture:smartrics-RestFixtureExtensions:3.1/dependencies/smartrics/restfixture/smartrics-RestClient/2.1/smartrics-RestClient-2.1.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import smartrics.rest.fitnesse.fixture.ext.SlimRestFixtureWithSeq.Model;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.mockito.ArgumentMatcher;",
+      "artifact" : {
+        "artifact" : "org.mockito:mockito-all:1.9.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/smartrics.restfixture:smartrics-RestFixtureExtensions:3.1/dependencies/org/mockito/mockito-all/1.9.0/mockito-all-1.9.0.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.junit.Before;",
+      "artifact" : {
+        "artifact" : "junit:junit:4.10",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/smartrics.restfixture:smartrics-RestFixtureExtensions:3.1/dependencies/junit/junit/4.10/junit-4.10.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import static org.mockito.Mockito.mock;",
+      "artifact" : {
+        "artifact" : "org.mockito:mockito-all:1.9.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/smartrics.restfixture:smartrics-RestFixtureExtensions:3.1/dependencies/org/mockito/mockito-all/1.9.0/mockito-all-1.9.0.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import smartrics.rest.fitnesse.fixture.support.ContentType;",
+      "artifact" : {
+        "artifact" : "smartrics.restfixture:smartrics-RestFixture:3.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/smartrics.restfixture:smartrics-RestFixtureExtensions:3.1/dependencies/smartrics/restfixture/smartrics-RestFixture/3.1/smartrics-RestFixture-3.1.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import smartrics.rest.fitnesse.fixture.RestFixture.Runner;",
+      "artifact" : {
+        "artifact" : "smartrics.restfixture:smartrics-RestFixture:3.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/smartrics.restfixture:smartrics-RestFixtureExtensions:3.1/dependencies/smartrics/restfixture/smartrics-RestFixture/3.1/smartrics-RestFixture-3.1.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.junit.Test;",
+      "artifact" : {
+        "artifact" : "junit:junit:4.10",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/smartrics.restfixture:smartrics-RestFixtureExtensions:3.1/dependencies/junit/junit/4.10/junit-4.10.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import static org.junit.Assert.assertThat;",
+      "artifact" : {
+        "artifact" : "junit:junit:4.10",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/smartrics.restfixture:smartrics-RestFixtureExtensions:3.1/dependencies/junit/junit/4.10/junit-4.10.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import static org.hamcrest.CoreMatchers.is;",
+      "artifact" : {
+        "artifact" : "junit:junit:4.10",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/smartrics.restfixture:smartrics-RestFixtureExtensions:3.1/dependencies/junit/junit/4.10/junit-4.10.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import static org.hamcrest.CoreMatchers.is;",
+      "artifact" : {
+        "artifact" : "org.hamcrest:hamcrest-all:1.3",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/smartrics.restfixture:smartrics-RestFixtureExtensions:3.1/dependencies/org/hamcrest/hamcrest-all/1.3/hamcrest-all-1.3.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import static org.hamcrest.CoreMatchers.is;",
+      "artifact" : {
+        "artifact" : "org.hamcrest:hamcrest-core:1.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/smartrics.restfixture:smartrics-RestFixtureExtensions:3.1/dependencies/org/hamcrest/hamcrest-core/1.1/hamcrest-core-1.1.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import static org.hamcrest.CoreMatchers.is;",
+      "artifact" : {
+        "artifact" : "org.mockito:mockito-all:1.9.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/smartrics.restfixture:smartrics-RestFixtureExtensions:3.1/dependencies/org/mockito/mockito-all/1.9.0/mockito-all-1.9.0.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import static org.hamcrest.CoreMatchers.equalTo;",
+      "artifact" : {
+        "artifact" : "junit:junit:4.10",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/smartrics.restfixture:smartrics-RestFixtureExtensions:3.1/dependencies/junit/junit/4.10/junit-4.10.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import static org.hamcrest.CoreMatchers.equalTo;",
+      "artifact" : {
+        "artifact" : "org.hamcrest:hamcrest-all:1.3",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/smartrics.restfixture:smartrics-RestFixtureExtensions:3.1/dependencies/org/hamcrest/hamcrest-all/1.3/hamcrest-all-1.3.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import static org.hamcrest.CoreMatchers.equalTo;",
+      "artifact" : {
+        "artifact" : "org.hamcrest:hamcrest-core:1.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/smartrics.restfixture:smartrics-RestFixtureExtensions:3.1/dependencies/org/hamcrest/hamcrest-core/1.1/hamcrest-core-1.1.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import static org.hamcrest.CoreMatchers.equalTo;",
+      "artifact" : {
+        "artifact" : "org.mockito:mockito-all:1.9.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/smartrics.restfixture:smartrics-RestFixtureExtensions:3.1/dependencies/org/mockito/mockito-all/1.9.0/mockito-all-1.9.0.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import static org.mockito.Mockito.when;",
+      "artifact" : {
+        "artifact" : "org.mockito:mockito-all:1.9.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/smartrics.restfixture:smartrics-RestFixtureExtensions:3.1/dependencies/org/mockito/mockito-all/1.9.0/mockito-all-1.9.0.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import static org.mockito.Matchers.argThat;",
+      "artifact" : {
+        "artifact" : "org.mockito:mockito-all:1.9.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/smartrics.restfixture:smartrics-RestFixtureExtensions:3.1/dependencies/org/mockito/mockito-all/1.9.0/mockito-all-1.9.0.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import smartrics.rest.fitnesse.fixture.support.RowWrapper;",
+      "artifact" : {
+        "artifact" : "smartrics.restfixture:smartrics-RestFixture:3.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/smartrics.restfixture:smartrics-RestFixtureExtensions:3.1/dependencies/smartrics/restfixture/smartrics-RestFixture/3.1/smartrics-RestFixture-3.1.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import static org.mockito.Mockito.verify;",
+      "artifact" : {
+        "artifact" : "org.mockito:mockito-all:1.9.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/smartrics.restfixture:smartrics-RestFixtureExtensions:3.1/dependencies/org/mockito/mockito-all/1.9.0/mockito-all-1.9.0.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import static org.mockito.Mockito.verifyNoMoreInteractions;",
+      "artifact" : {
+        "artifact" : "org.mockito:mockito-all:1.9.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/smartrics.restfixture:smartrics-RestFixtureExtensions:3.1/dependencies/org/mockito/mockito-all/1.9.0/mockito-all-1.9.0.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import static org.junit.Assert.fail;",
+      "artifact" : {
+        "artifact" : "junit:junit:4.10",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/smartrics.restfixture:smartrics-RestFixtureExtensions:3.1/dependencies/junit/junit/4.10/junit-4.10.jar"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/smartrics.restfixture:smartrics-RestFixtureExtensions/src/test/java/com/patternity/documentation/graphic/layout/LayeredOccurrenceTest.java",
+    "useImportReport" : [ {
+      "importPath" : "import com.patternity.core.metamodel.Pattern;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.junit.Test;",
+      "artifact" : {
+        "artifact" : "junit:junit:4.10",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/smartrics.restfixture:smartrics-RestFixtureExtensions:3.1/dependencies/junit/junit/4.10/junit-4.10.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.patternity.core.metamodel.LayeredOccurrence;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.patternity.core.metamodel.OccurrenceTemplate;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.patternity.core.metamodel.PatternOccurrence;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.patternity.core.metamodel.Type;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.Map;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.HashMap;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.io.File;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/smartrics.restfixture:smartrics-RestFixtureExtensions/src/test/java/com/patternity/documentation/graphic/layout/CombinationTest.java",
+    "useImportReport" : [ {
+      "importPath" : "import com.patternity.graphic.layout.FlowLayout;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.junit.Test;",
+      "artifact" : {
+        "artifact" : "junit:junit:4.10",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/smartrics.restfixture:smartrics-RestFixtureExtensions:3.1/dependencies/junit/junit/4.10/junit-4.10.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.patternity.graphic.svg.LinkStyle;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.io.File;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.patternity.util.FileUtils;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.patternity.graphic.Position;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.patternity.graphic.svg.Diagram;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.patternity.graphic.dag.Node;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.patternity.graphic.svg.BoxStyle;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.patternity.graphic.BoundingBox;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.patternity.graphic.svg.DiagramRenderer;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.patternity.graphic.layout.HierarchyLayout;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.patternity.util.TemplatedWriter;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.patternity.util.Named;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/smartrics.restfixture:smartrics-RestFixtureExtensions/src/test/java/com/patternity/graphic/util/NodeTest.java",
+    "useImportReport" : [ {
+      "importPath" : "import junit.framework.TestCase;",
+      "artifact" : {
+        "artifact" : "junit:junit:4.10",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/smartrics.restfixture:smartrics-RestFixtureExtensions:3.1/dependencies/junit/junit/4.10/junit-4.10.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.patternity.graphic.dag.Node;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/smartrics.restfixture:smartrics-RestFixtureExtensions/src/test/java/com/patternity/graphic/layout/HierarchyLayoutTest.java",
+    "useImportReport" : [ {
+      "importPath" : "import com.patternity.graphic.dag.Node;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.Iterator;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.patternity.graphic.dag.DepthFirstIterator;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/smartrics.restfixture:smartrics-RestFixtureExtensions/src/test/java/com/patternity/graphic/layout/FlowLayoutTest.java",
+    "useImportReport" : [ {
+      "importPath" : "import com.patternity.graphic.dag.Node;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.Iterator;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.patternity.graphic.dag.BreadthFirstIterator;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/smartrics.restfixture:smartrics-RestFixtureExtensions/src/test/java/com/patternity/graphic/layout/RadialLayoutTest.java",
+    "useImportReport" : [ {
+      "importPath" : "import com.patternity.graphic.dag.Node;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.Iterator;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.patternity.graphic.dag.BreadthFirstIterator;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/smartrics.restfixture:smartrics-RestFixtureExtensions/src/test/java/com/patternity/graphic/layout/AbstractLayoutTest.java",
+    "useImportReport" : [ {
+      "importPath" : "import junit.framework.TestCase;",
+      "artifact" : {
+        "artifact" : "junit:junit:4.10",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/smartrics.restfixture:smartrics-RestFixtureExtensions:3.1/dependencies/junit/junit/4.10/junit-4.10.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.Iterator;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.patternity.graphic.svg.Diagram;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.patternity.graphic.svg.BoxStyle;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.patternity.graphic.dag.Node;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.patternity.graphic.svg.LinkStyle;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.io.File;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.patternity.util.TemplatedWriter;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.patternity.graphic.BoundingBox;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.patternity.graphic.svg.DiagramRenderer;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.patternity.util.Named;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/smartrics.restfixture:smartrics-RestFixtureExtensions/src/test/java/com/patternity/graphic/layout/sequence/SequenceLayoutTest.java",
+    "useImportReport" : [ {
+      "importPath" : "import java.io.File;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.junit.Before;",
+      "artifact" : {
+        "artifact" : "junit:junit:4.10",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/smartrics.restfixture:smartrics-RestFixtureExtensions:3.1/dependencies/junit/junit/4.10/junit-4.10.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.patternity.util.FileUtils;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.junit.Test;",
+      "artifact" : {
+        "artifact" : "junit:junit:4.10",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/smartrics.restfixture:smartrics-RestFixtureExtensions:3.1/dependencies/junit/junit/4.10/junit-4.10.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.patternity.graphic.behavioral.Agent;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.patternity.graphic.dag.Node;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.patternity.graphic.behavioral.Note;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.patternity.util.TemplatedWriter;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.patternity.graphic.behavioral.Event;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.patternity.graphic.behavioral.Message;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.patternity.graphic.behavioral.Composite;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.patternity.graphic.behavioral.Chain;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.patternity.graphic.behavioral.PingPong;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ {
+      "importPath" : "import junit.framework.TestCase;",
+      "artifact" : {
+        "artifact" : "junit:junit:4.10",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/smartrics.restfixture:smartrics-RestFixtureExtensions:3.1/dependencies/junit/junit/4.10/junit-4.10.jar"
+      },
+      "isDirectDependency" : false
+    } ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/smartrics.restfixture:smartrics-RestFixtureExtensions/src/main/java/smartrics/rest/fitnesse/fixture/ext/RestScriptFixture.java",
+    "useImportReport" : [ {
+      "importPath" : "import smartrics.rest.fitnesse.fixture.RestFixture;",
+      "artifact" : {
+        "artifact" : "smartrics.restfixture:smartrics-RestFixture:3.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/smartrics.restfixture:smartrics-RestFixtureExtensions:3.1/dependencies/smartrics/restfixture/smartrics-RestFixture/3.1/smartrics-RestFixture-3.1.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import smartrics.rest.fitnesse.fixture.PartsFactory;",
+      "artifact" : {
+        "artifact" : "smartrics.restfixture:smartrics-RestFixture:3.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/smartrics.restfixture:smartrics-RestFixtureExtensions:3.1/dependencies/smartrics/restfixture/smartrics-RestFixture/3.1/smartrics-RestFixture-3.1.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import smartrics.rest.fitnesse.fixture.support.Config;",
+      "artifact" : {
+        "artifact" : "smartrics.restfixture:smartrics-RestFixture:3.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/smartrics.restfixture:smartrics-RestFixtureExtensions:3.1/dependencies/smartrics/restfixture/smartrics-RestFixture/3.1/smartrics-RestFixture-3.1.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import smartrics.rest.fitnesse.fixture.support.BodyTypeAdapter;",
+      "artifact" : {
+        "artifact" : "smartrics.restfixture:smartrics-RestFixture:3.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/smartrics.restfixture:smartrics-RestFixtureExtensions:3.1/dependencies/smartrics/restfixture/smartrics-RestFixture/3.1/smartrics-RestFixture-3.1.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import smartrics.rest.fitnesse.fixture.support.ContentType;",
+      "artifact" : {
+        "artifact" : "smartrics.restfixture:smartrics-RestFixture:3.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/smartrics.restfixture:smartrics-RestFixtureExtensions:3.1/dependencies/smartrics/restfixture/smartrics-RestFixture/3.1/smartrics-RestFixture-3.1.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import smartrics.rest.fitnesse.fixture.support.HeadersTypeAdapter;",
+      "artifact" : {
+        "artifact" : "smartrics.restfixture:smartrics-RestFixture:3.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/smartrics.restfixture:smartrics-RestFixtureExtensions:3.1/dependencies/smartrics/restfixture/smartrics-RestFixture/3.1/smartrics-RestFixture-3.1.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import smartrics.rest.fitnesse.fixture.support.RestDataTypeAdapter;",
+      "artifact" : {
+        "artifact" : "smartrics.restfixture:smartrics-RestFixture:3.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/smartrics.restfixture:smartrics-RestFixtureExtensions:3.1/dependencies/smartrics/restfixture/smartrics-RestFixture/3.1/smartrics-RestFixture-3.1.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import smartrics.rest.fitnesse.fixture.support.LetHandler;",
+      "artifact" : {
+        "artifact" : "smartrics.restfixture:smartrics-RestFixture:3.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/smartrics.restfixture:smartrics-RestFixtureExtensions:3.1/dependencies/smartrics/restfixture/smartrics-RestFixture/3.1/smartrics-RestFixture-3.1.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import smartrics.rest.fitnesse.fixture.support.LetHandlerFactory;",
+      "artifact" : {
+        "artifact" : "smartrics.restfixture:smartrics-RestFixture:3.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/smartrics.restfixture:smartrics-RestFixtureExtensions:3.1/dependencies/smartrics/restfixture/smartrics-RestFixture/3.1/smartrics-RestFixture-3.1.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import java.util.List;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import smartrics.rest.client.RestData.Header;",
+      "artifact" : {
+        "artifact" : "smartrics.restfixture:smartrics-RestClient:2.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/smartrics.restfixture:smartrics-RestFixtureExtensions:3.1/dependencies/smartrics/restfixture/smartrics-RestClient/2.1/smartrics-RestClient-2.1.jar"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/smartrics.restfixture:smartrics-RestFixtureExtensions/src/main/java/smartrics/rest/fitnesse/fixture/ext/SlimRestFixtureWithSeq.java",
+    "useImportReport" : [ {
+      "importPath" : "import smartrics.rest.fitnesse.fixture.RestFixture;",
+      "artifact" : {
+        "artifact" : "smartrics.restfixture:smartrics-RestFixture:3.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/smartrics.restfixture:smartrics-RestFixtureExtensions:3.1/dependencies/smartrics/restfixture/smartrics-RestFixture/3.1/smartrics-RestFixture-3.1.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.apache.commons.logging.Log;",
+      "artifact" : {
+        "artifact" : "commons-logging:commons-logging:1.0.4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/smartrics.restfixture:smartrics-RestFixtureExtensions:3.1/dependencies/commons-logging/commons-logging/1.0.4/commons-logging-1.0.4.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.apache.commons.logging.LogFactory;",
+      "artifact" : {
+        "artifact" : "commons-logging:commons-logging:1.0.4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/smartrics.restfixture:smartrics-RestFixtureExtensions:3.1/dependencies/commons-logging/commons-logging/1.0.4/commons-logging-1.0.4.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.io.*;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.Map;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import smartrics.rest.fitnesse.fixture.support.CellWrapper;",
+      "artifact" : {
+        "artifact" : "smartrics.restfixture:smartrics-RestFixture:3.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/smartrics.restfixture:smartrics-RestFixtureExtensions:3.1/dependencies/smartrics/restfixture/smartrics-RestFixture/3.1/smartrics-RestFixture-3.1.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import smartrics.rest.fitnesse.fixture.PartsFactory;",
+      "artifact" : {
+        "artifact" : "smartrics.restfixture:smartrics-RestFixture:3.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/smartrics.restfixture:smartrics-RestFixtureExtensions:3.1/dependencies/smartrics/restfixture/smartrics-RestFixture/3.1/smartrics-RestFixture-3.1.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import fitnesse.util.Base64;",
+      "artifact" : {
+        "artifact" : "org.fitnesse:fitnesse:20140901",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/smartrics.restfixture:smartrics-RestFixtureExtensions:3.1/dependencies/org/fitnesse/fitnesse/20140901/fitnesse-20140901.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.List;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import smartrics.rest.fitnesse.fixture.support.Tools;",
+      "artifact" : {
+        "artifact" : "smartrics.restfixture:smartrics-RestFixture:3.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/smartrics.restfixture:smartrics-RestFixtureExtensions:3.1/dependencies/smartrics/restfixture/smartrics-RestFixture/3.1/smartrics-RestFixture-3.1.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import java.util.HashMap;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import smartrics.rest.client.RestData.Header;",
+      "artifact" : {
+        "artifact" : "smartrics.restfixture:smartrics-RestClient:2.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/smartrics.restfixture:smartrics-RestFixtureExtensions:3.1/dependencies/smartrics/restfixture/smartrics-RestClient/2.1/smartrics-RestClient-2.1.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import smartrics.rest.fitnesse.fixture.ext.SlimRestFixtureWithSeq.Model;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.patternity.graphic.dag.Node;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.patternity.graphic.layout.sequence.SequenceLayout;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.patternity.graphic.behavioral.Message;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.patternity.graphic.behavioral.Note;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.patternity.graphic.behavioral.Agent;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.EventListener;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.io.*;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.io.*;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.io.*;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.io.*;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.patternity.util.TemplatedWriter;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.apache.batik.transcoder.image.ImageTranscoder;",
+      "artifact" : {
+        "artifact" : "batik:batik-transcoder:1.6-1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/smartrics.restfixture:smartrics-RestFixtureExtensions:3.1/dependencies/batik/batik-transcoder/1.6-1/batik-transcoder-1.6-1.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.apache.batik.transcoder.image.ImageTranscoder;",
+      "artifact" : {
+        "artifact" : "batik:batik-1.5-fop:0.20-5",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/smartrics.restfixture:smartrics-RestFixtureExtensions:3.1/dependencies/batik/batik-1.5-fop/0.20-5/batik-1.5-fop-0.20-5.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.apache.batik.transcoder.image.JPEGTranscoder;",
+      "artifact" : {
+        "artifact" : "batik:batik-transcoder:1.6-1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/smartrics.restfixture:smartrics-RestFixtureExtensions:3.1/dependencies/batik/batik-transcoder/1.6-1/batik-transcoder-1.6-1.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.apache.batik.transcoder.image.JPEGTranscoder;",
+      "artifact" : {
+        "artifact" : "batik:batik-1.5-fop:0.20-5",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/smartrics.restfixture:smartrics-RestFixtureExtensions:3.1/dependencies/batik/batik-1.5-fop/0.20-5/batik-1.5-fop-0.20-5.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.apache.batik.transcoder.image.PNGTranscoder;",
+      "artifact" : {
+        "artifact" : "batik:batik-transcoder:1.6-1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/smartrics.restfixture:smartrics-RestFixtureExtensions:3.1/dependencies/batik/batik-transcoder/1.6-1/batik-transcoder-1.6-1.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.apache.batik.transcoder.image.PNGTranscoder;",
+      "artifact" : {
+        "artifact" : "batik:batik-1.5-fop:0.20-5",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/smartrics.restfixture:smartrics-RestFixtureExtensions:3.1/dependencies/batik/batik-1.5-fop/0.20-5/batik-1.5-fop-0.20-5.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.apache.batik.transcoder.TranscoderInput;",
+      "artifact" : {
+        "artifact" : "batik:batik-transcoder:1.6-1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/smartrics.restfixture:smartrics-RestFixtureExtensions:3.1/dependencies/batik/batik-transcoder/1.6-1/batik-transcoder-1.6-1.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.apache.batik.transcoder.TranscoderInput;",
+      "artifact" : {
+        "artifact" : "batik:batik-1.5-fop:0.20-5",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/smartrics.restfixture:smartrics-RestFixtureExtensions:3.1/dependencies/batik/batik-1.5-fop/0.20-5/batik-1.5-fop-0.20-5.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.io.*;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.apache.batik.transcoder.TranscoderOutput;",
+      "artifact" : {
+        "artifact" : "batik:batik-transcoder:1.6-1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/smartrics.restfixture:smartrics-RestFixtureExtensions:3.1/dependencies/batik/batik-transcoder/1.6-1/batik-transcoder-1.6-1.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.apache.batik.transcoder.TranscoderOutput;",
+      "artifact" : {
+        "artifact" : "batik:batik-1.5-fop:0.20-5",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/smartrics.restfixture:smartrics-RestFixtureExtensions:3.1/dependencies/batik/batik-1.5-fop/0.20-5/batik-1.5-fop-0.20-5.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.apache.batik.transcoder.TranscoderException;",
+      "artifact" : {
+        "artifact" : "batik:batik-transcoder:1.6-1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/smartrics.restfixture:smartrics-RestFixtureExtensions:3.1/dependencies/batik/batik-transcoder/1.6-1/batik-transcoder-1.6-1.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.apache.batik.transcoder.TranscoderException;",
+      "artifact" : {
+        "artifact" : "batik:batik-1.5-fop:0.20-5",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/smartrics.restfixture:smartrics-RestFixtureExtensions:3.1/dependencies/batik/batik-1.5-fop/0.20-5/batik-1.5-fop-0.20-5.jar"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ {
+      "importPath" : "import java.awt.*;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/smartrics.restfixture:smartrics-RestFixtureExtensions/src/main/java/smartrics/rest/fitnesse/fixture/ext/SvgImage.java",
+    "useImportReport" : [ {
+      "importPath" : "import fitnesse.wikitext.parser.SymbolType;",
+      "artifact" : {
+        "artifact" : "org.fitnesse:fitnesse:20140901",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/smartrics.restfixture:smartrics-RestFixtureExtensions:3.1/dependencies/org/fitnesse/fitnesse/20140901/fitnesse-20140901.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import fitnesse.wikitext.parser.Rule;",
+      "artifact" : {
+        "artifact" : "org.fitnesse:fitnesse:20140901",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/smartrics.restfixture:smartrics-RestFixtureExtensions:3.1/dependencies/org/fitnesse/fitnesse/20140901/fitnesse-20140901.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import fitnesse.wikitext.parser.Translation;",
+      "artifact" : {
+        "artifact" : "org.fitnesse:fitnesse:20140901",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/smartrics.restfixture:smartrics-RestFixtureExtensions:3.1/dependencies/org/fitnesse/fitnesse/20140901/fitnesse-20140901.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.apache.commons.logging.Log;",
+      "artifact" : {
+        "artifact" : "commons-logging:commons-logging:1.0.4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/smartrics.restfixture:smartrics-RestFixtureExtensions:3.1/dependencies/commons-logging/commons-logging/1.0.4/commons-logging-1.0.4.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.apache.commons.logging.LogFactory;",
+      "artifact" : {
+        "artifact" : "commons-logging:commons-logging:1.0.4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/smartrics.restfixture:smartrics-RestFixtureExtensions:3.1/dependencies/commons-logging/commons-logging/1.0.4/commons-logging-1.0.4.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import fitnesse.wikitext.parser.Matcher;",
+      "artifact" : {
+        "artifact" : "org.fitnesse:fitnesse:20140901",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/smartrics.restfixture:smartrics-RestFixtureExtensions:3.1/dependencies/org/fitnesse/fitnesse/20140901/fitnesse-20140901.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import util.Maybe;",
+      "artifact" : {
+        "artifact" : "org.fitnesse:fitnesse:20140901",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/smartrics.restfixture:smartrics-RestFixtureExtensions:3.1/dependencies/org/fitnesse/fitnesse/20140901/fitnesse-20140901.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import fitnesse.wikitext.parser.Symbol;",
+      "artifact" : {
+        "artifact" : "org.fitnesse:fitnesse:20140901",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/smartrics.restfixture:smartrics-RestFixtureExtensions:3.1/dependencies/org/fitnesse/fitnesse/20140901/fitnesse-20140901.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import fitnesse.wikitext.parser.Parser;",
+      "artifact" : {
+        "artifact" : "org.fitnesse:fitnesse:20140901",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/smartrics.restfixture:smartrics-RestFixtureExtensions:3.1/dependencies/org/fitnesse/fitnesse/20140901/fitnesse-20140901.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import fitnesse.wikitext.parser.SymbolProvider;",
+      "artifact" : {
+        "artifact" : "org.fitnesse:fitnesse:20140901",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/smartrics.restfixture:smartrics-RestFixtureExtensions:3.1/dependencies/org/fitnesse/fitnesse/20140901/fitnesse-20140901.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import fitnesse.wikitext.parser.Translator;",
+      "artifact" : {
+        "artifact" : "org.fitnesse:fitnesse:20140901",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/smartrics.restfixture:smartrics-RestFixtureExtensions:3.1/dependencies/org/fitnesse/fitnesse/20140901/fitnesse-20140901.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.io.File;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.io.FileNotFoundException;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.io.FileReader;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.io.BufferedReader;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.io.IOException;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import fitnesse.html.HtmlTag;",
+      "artifact" : {
+        "artifact" : "org.fitnesse:fitnesse:20140901",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/smartrics.restfixture:smartrics-RestFixtureExtensions:3.1/dependencies/org/fitnesse/fitnesse/20140901/fitnesse-20140901.jar"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/smartrics.restfixture:smartrics-RestFixtureExtensions/src/main/java/com/patternity/documentation/graphic/layout/DiagramPrinter.java",
+    "useImportReport" : [ {
+      "importPath" : "import java.util.Map;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.io.File;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.patternity.core.metamodel.LayeredOccurrence;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.patternity.core.metamodel.OccurrenceTemplate;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.Iterator;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.patternity.core.metamodel.Element;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.patternity.core.metamodel.TextTemplate;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.patternity.core.metamodel.PatternOccurrence;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.List;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.ArrayList;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.Collections;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.patternity.core.metamodel.Definition;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.patternity.core.metamodel.ElementReference;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.patternity.core.metamodel.Role;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.patternity.core.metamodel.Relation;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.patternity.core.metamodel.Type;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.patternity.util.SimpleTemplate;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.patternity.core.metamodel.Note;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.patternity.util.Named;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ {
+      "importPath" : "import com.patternity.core.metamodel.Native;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.patternity.graphic.dag.Node;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/smartrics.restfixture:smartrics-RestFixtureExtensions/src/main/java/com/patternity/documentation/graphic/layout/BinaryRelation.java",
+    "useImportReport" : [ {
+      "importPath" : "import com.patternity.core.metamodel.Element;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.Collection;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.List;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.ArrayList;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/smartrics.restfixture:smartrics-RestFixtureExtensions/src/main/java/com/patternity/documentation/graphic/layout/ClassDiagramPrinter.java",
+    "useImportReport" : [ {
+      "importPath" : "import com.patternity.graphic.BoundingBox;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.patternity.graphic.layout.GridLayout;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.patternity.graphic.layout.HierarchyLayout;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.patternity.graphic.Position;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.patternity.graphic.svg.BoxRenderer;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.patternity.graphic.svg.LinkRenderer;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.Map;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.HashMap;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.io.File;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.patternity.util.FileUtils;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.patternity.core.metamodel.Element;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.patternity.core.metamodel.OccurrenceTemplate;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.patternity.core.metamodel.PatternOccurrence;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.patternity.util.TemplatedWriter;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.patternity.core.metamodel.Relation;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.patternity.core.metamodel.Role;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.Iterator;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.Collection;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.patternity.graphic.dag.Node;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.patternity.graphic.svg.BoxStyle;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.patternity.graphic.svg.LinkStyle;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.patternity.core.metamodel.Type;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.patternity.core.metamodel.Note;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.patternity.core.metamodel.Pattern;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/smartrics.restfixture:smartrics-RestFixtureExtensions/src/main/java/com/patternity/documentation/graphic/layout/Hierarchy.java",
+    "useImportReport" : [ {
+      "importPath" : "import com.patternity.graphic.dag.NodeBuilder;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.List;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.ArrayList;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.patternity.graphic.dag.Node;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.patternity.core.metamodel.Element;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.patternity.core.metamodel.Relation;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.patternity.core.metamodel.PatternOccurrence;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.patternity.core.metamodel.Role;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.patternity.core.metamodel.Item;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.Iterator;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.Collection;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.patternity.graphic.dag.DepthFirstIterator;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.apache.commons.collections.iterators.FilterIterator;",
+      "artifact" : {
+        "artifact" : "commons-collections:commons-collections:3.2.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/smartrics.restfixture:smartrics-RestFixtureExtensions:3.1/dependencies/commons-collections/commons-collections/3.2.1/commons-collections-3.2.1.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.apache.commons.collections.Predicate;",
+      "artifact" : {
+        "artifact" : "commons-collections:commons-collections:3.2.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/smartrics.restfixture:smartrics-RestFixtureExtensions:3.1/dependencies/commons-collections/commons-collections/3.2.1/commons-collections-3.2.1.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import com.patternity.graphic.dag.BreadthFirstIterator;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/smartrics.restfixture:smartrics-RestFixtureExtensions/src/main/java/com/patternity/documentation/graphic/layout/SequenceDiagramPrinter.java",
+    "useImportReport" : [ {
+      "importPath" : "import java.io.File;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.patternity.core.metamodel.Element;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.patternity.core.metamodel.OccurrenceTemplate;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.patternity.core.metamodel.PatternOccurrence;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.patternity.graphic.dag.Node;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.patternity.graphic.behavioral.Message;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.patternity.graphic.layout.sequence.SequenceLayout;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.patternity.util.FileUtils;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.patternity.util.TemplatedWriter;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.patternity.core.metamodel.Note;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.patternity.core.metamodel.Relation;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.patternity.core.metamodel.Role;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.Iterator;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.patternity.core.metamodel.Method;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.patternity.core.metamodel.Type;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.patternity.graphic.behavioral.Agent;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/smartrics.restfixture:smartrics-RestFixtureExtensions/src/main/java/com/patternity/core/metamodel/Meta.java",
+    "useImportReport" : [ ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/smartrics.restfixture:smartrics-RestFixtureExtensions/src/main/java/com/patternity/core/metamodel/Definition.java",
+    "useImportReport" : [ ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/smartrics.restfixture:smartrics-RestFixtureExtensions/src/main/java/com/patternity/core/metamodel/Element.java",
+    "useImportReport" : [ ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/smartrics.restfixture:smartrics-RestFixtureExtensions/src/main/java/com/patternity/core/metamodel/Method.java",
+    "useImportReport" : [ ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/smartrics.restfixture:smartrics-RestFixtureExtensions/src/main/java/com/patternity/core/metamodel/Type.java",
+    "useImportReport" : [ {
+      "importPath" : "import java.util.List;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.ArrayList;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/smartrics.restfixture:smartrics-RestFixtureExtensions/src/main/java/com/patternity/core/metamodel/Modifiers.java",
+    "useImportReport" : [ ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/smartrics.restfixture:smartrics-RestFixtureExtensions/src/main/java/com/patternity/core/metamodel/OccurrenceTemplate.java",
+    "useImportReport" : [ {
+      "importPath" : "import com.patternity.core.metamodel.Meta.MetaPattern;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.Map;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.HashMap;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.Set;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.List;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.ArrayList;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/smartrics.restfixture:smartrics-RestFixtureExtensions/src/main/java/com/patternity/core/metamodel/Pattern.java",
+    "useImportReport" : [ {
+      "importPath" : "import com.patternity.util.Named;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/smartrics.restfixture:smartrics-RestFixtureExtensions/src/main/java/com/patternity/core/metamodel/Native.java",
+    "useImportReport" : [ ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/smartrics.restfixture:smartrics-RestFixtureExtensions/src/main/java/com/patternity/core/metamodel/Note.java",
+    "useImportReport" : [ {
+      "importPath" : "import com.patternity.util.Named;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.StringTokenizer;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/smartrics.restfixture:smartrics-RestFixtureExtensions/src/main/java/com/patternity/core/metamodel/PatternOccurrence.java",
+    "useImportReport" : [ {
+      "importPath" : "import com.patternity.util.Named;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.apache.commons.collections.MultiMap;",
+      "artifact" : {
+        "artifact" : "commons-collections:commons-collections:3.2.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/smartrics.restfixture:smartrics-RestFixtureExtensions:3.1/dependencies/commons-collections/commons-collections/3.2.1/commons-collections-3.2.1.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.apache.commons.collections.MultiHashMap;",
+      "artifact" : {
+        "artifact" : "commons-collections:commons-collections:3.2.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/smartrics.restfixture:smartrics-RestFixtureExtensions:3.1/dependencies/commons-collections/commons-collections/3.2.1/commons-collections-3.2.1.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import java.util.Collection;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.Iterator;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.List;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.ArrayList;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.Map.Entry;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.Collections;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.Set;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.HashSet;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/smartrics.restfixture:smartrics-RestFixtureExtensions/src/main/java/com/patternity/core/metamodel/CommonPattern.java",
+    "useImportReport" : [ ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/smartrics.restfixture:smartrics-RestFixtureExtensions/src/main/java/com/patternity/core/metamodel/TextTemplate.java",
+    "useImportReport" : [ ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/smartrics.restfixture:smartrics-RestFixtureExtensions/src/main/java/com/patternity/core/metamodel/Role.java",
+    "useImportReport" : [ {
+      "importPath" : "import com.patternity.util.Named;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/smartrics.restfixture:smartrics-RestFixtureExtensions/src/main/java/com/patternity/core/metamodel/LayeredOccurrence.java",
+    "useImportReport" : [ ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/smartrics.restfixture:smartrics-RestFixtureExtensions/src/main/java/com/patternity/core/metamodel/ElementReference.java",
+    "useImportReport" : [ ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/smartrics.restfixture:smartrics-RestFixtureExtensions/src/main/java/com/patternity/core/metamodel/Relation.java",
+    "useImportReport" : [ ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/smartrics.restfixture:smartrics-RestFixtureExtensions/src/main/java/com/patternity/core/metamodel/Item.java",
+    "useImportReport" : [ {
+      "importPath" : "import com.patternity.util.Named;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/smartrics.restfixture:smartrics-RestFixtureExtensions/src/main/java/com/patternity/util/FileUtils.java",
+    "useImportReport" : [ {
+      "importPath" : "import java.io.File;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.io.Writer;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.io.FileWriter;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.io.IOException;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.io.FilenameFilter;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.List;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.ArrayList;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.io.FileReader;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.io.FileNotFoundException;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.io.InputStream;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.io.InputStreamReader;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.io.Reader;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.io.BufferedReader;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/smartrics.restfixture:smartrics-RestFixtureExtensions/src/main/java/com/patternity/util/LimitedIterator.java",
+    "useImportReport" : [ {
+      "importPath" : "import java.util.Iterator;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/smartrics.restfixture:smartrics-RestFixtureExtensions/src/main/java/com/patternity/util/TemplatedWriter.java",
+    "useImportReport" : [ {
+      "importPath" : "import java.io.OutputStream;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.io.File;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.io.FileOutputStream;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.io.FileNotFoundException;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.io.IOException;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/smartrics.restfixture:smartrics-RestFixtureExtensions/src/main/java/com/patternity/util/Named.java",
+    "useImportReport" : [ ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/smartrics.restfixture:smartrics-RestFixtureExtensions/src/main/java/com/patternity/util/SimpleTemplate.java",
+    "useImportReport" : [ {
+      "importPath" : "import org.apache.commons.collections.Transformer;",
+      "artifact" : {
+        "artifact" : "commons-collections:commons-collections:3.2.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/smartrics.restfixture:smartrics-RestFixtureExtensions:3.1/dependencies/commons-collections/commons-collections/3.2.1/commons-collections-3.2.1.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import java.util.StringTokenizer;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/smartrics.restfixture:smartrics-RestFixtureExtensions/src/main/java/com/patternity/graphic/svg/DiagramRenderer.java",
+    "useImportReport" : [ {
+      "importPath" : "import com.patternity.graphic.BoundingBox;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.patternity.graphic.layout.Layout;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.patternity.graphic.layout.GridLayout;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.Map;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.HashMap;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.Iterator;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/smartrics.restfixture:smartrics-RestFixtureExtensions/src/main/java/com/patternity/graphic/svg/Link.java",
+    "useImportReport" : [ {
+      "importPath" : "import com.patternity.graphic.Styled;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.patternity.graphic.Style;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/smartrics.restfixture:smartrics-RestFixtureExtensions/src/main/java/com/patternity/graphic/svg/LinkStyle.java",
+    "useImportReport" : [ {
+      "importPath" : "import com.patternity.graphic.Style;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.patternity.graphic.Orientation;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.patternity.graphic.Position;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/smartrics.restfixture:smartrics-RestFixtureExtensions/src/main/java/com/patternity/graphic/svg/BoxRenderer.java",
+    "useImportReport" : [ {
+      "importPath" : "import com.patternity.graphic.BoundingBox;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.patternity.graphic.layout.Layout;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.patternity.graphic.dag.Node;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.Map;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.patternity.graphic.Position;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.patternity.graphic.Rectangle;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.patternity.util.Named;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.patternity.graphic.Text;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/smartrics.restfixture:smartrics-RestFixtureExtensions/src/main/java/com/patternity/graphic/svg/LinkRenderer.java",
+    "useImportReport" : [ {
+      "importPath" : "import com.patternity.graphic.Rectangle;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.Map;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.patternity.graphic.dag.Node;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/smartrics.restfixture:smartrics-RestFixtureExtensions/src/main/java/com/patternity/graphic/svg/BoxStyle.java",
+    "useImportReport" : [ {
+      "importPath" : "import com.patternity.graphic.Style;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.patternity.graphic.Rectangle;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.patternity.graphic.Position;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.patternity.util.Named;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/smartrics.restfixture:smartrics-RestFixtureExtensions/src/main/java/com/patternity/graphic/svg/Graphic.java",
+    "useImportReport" : [ {
+      "importPath" : "import com.patternity.graphic.Position;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.text.MessageFormat;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.patternity.graphic.Rectangle;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.patternity.graphic.Orientation;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.patternity.graphic.Orientation.HorizontalOrientation;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/smartrics.restfixture:smartrics-RestFixtureExtensions/src/main/java/com/patternity/graphic/svg/Diagram.java",
+    "useImportReport" : [ {
+      "importPath" : "import java.util.List;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.ArrayList;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.patternity.graphic.dag.Node;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.Iterator;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.patternity.graphic.dag.DepthFirstIterator;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/smartrics.restfixture:smartrics-RestFixtureExtensions/src/main/java/com/patternity/graphic/svg/Box.java",
+    "useImportReport" : [ {
+      "importPath" : "import com.patternity.graphic.Styled;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.patternity.graphic.dag.Node;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.patternity.graphic.Style;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/smartrics.restfixture:smartrics-RestFixtureExtensions/src/main/java/com/patternity/graphic/Orientation.java",
+    "useImportReport" : [ ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/smartrics.restfixture:smartrics-RestFixtureExtensions/src/main/java/com/patternity/graphic/BoundingBox.java",
+    "useImportReport" : [ ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/smartrics.restfixture:smartrics-RestFixtureExtensions/src/main/java/com/patternity/graphic/Text.java",
+    "useImportReport" : [ {
+      "importPath" : "import java.util.List;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.ArrayList;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.StringTokenizer;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/smartrics.restfixture:smartrics-RestFixtureExtensions/src/main/java/com/patternity/graphic/layout/HierarchyLayout.java",
+    "useImportReport" : [ {
+      "importPath" : "import java.util.Map;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.Iterator;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.HashMap;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.patternity.graphic.dag.Node;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.patternity.graphic.Position;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/smartrics.restfixture:smartrics-RestFixtureExtensions/src/main/java/com/patternity/graphic/layout/Layout.java",
+    "useImportReport" : [ {
+      "importPath" : "import com.patternity.graphic.Position;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.patternity.graphic.dag.Node;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/smartrics.restfixture:smartrics-RestFixtureExtensions/src/main/java/com/patternity/graphic/layout/FlowLayout.java",
+    "useImportReport" : [ {
+      "importPath" : "import com.patternity.graphic.Position;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.patternity.graphic.dag.Node;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/smartrics.restfixture:smartrics-RestFixtureExtensions/src/main/java/com/patternity/graphic/layout/RadialLayout.java",
+    "useImportReport" : [ {
+      "importPath" : "import com.patternity.graphic.Position;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.patternity.graphic.dag.Node;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/smartrics.restfixture:smartrics-RestFixtureExtensions/src/main/java/com/patternity/graphic/layout/sequence/SnippetGenerator.java",
+    "useImportReport" : [ {
+      "importPath" : "import java.util.Map;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.HashMap;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.patternity.graphic.dag.Node;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.Iterator;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.patternity.graphic.behavioral.Agent;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.patternity.graphic.behavioral.Event;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.patternity.graphic.behavioral.Message;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.patternity.graphic.behavioral.Activation;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/smartrics.restfixture:smartrics-RestFixtureExtensions/src/main/java/com/patternity/graphic/layout/sequence/SequenceLayout.java",
+    "useImportReport" : [ {
+      "importPath" : "import java.util.Map;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.HashMap;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.patternity.graphic.svg.Graphic;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.patternity.graphic.dag.Node;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.List;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.Collection;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.Iterator;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.patternity.graphic.behavioral.Agent;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.patternity.graphic.behavioral.Event;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.patternity.graphic.behavioral.Message;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.patternity.graphic.behavioral.Note;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.patternity.graphic.behavioral.Activation;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.ArrayList;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/smartrics.restfixture:smartrics-RestFixtureExtensions/src/main/java/com/patternity/graphic/layout/GridLayout.java",
+    "useImportReport" : [ {
+      "importPath" : "import com.patternity.graphic.Position;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.patternity.graphic.BoundingBox;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.patternity.graphic.dag.Node;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/smartrics.restfixture:smartrics-RestFixtureExtensions/src/main/java/com/patternity/graphic/dag/Node.java",
+    "useImportReport" : [ {
+      "importPath" : "import java.util.List;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.ArrayList;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.apache.commons.collections.Predicate;",
+      "artifact" : {
+        "artifact" : "commons-collections:commons-collections:3.2.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/smartrics.restfixture:smartrics-RestFixtureExtensions:3.1/dependencies/commons-collections/commons-collections/3.2.1/commons-collections-3.2.1.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import java.util.Iterator;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.apache.commons.collections.iterators.EmptyIterator;",
+      "artifact" : {
+        "artifact" : "commons-collections:commons-collections:3.2.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/smartrics.restfixture:smartrics-RestFixtureExtensions:3.1/dependencies/commons-collections/commons-collections/3.2.1/commons-collections-3.2.1.jar"
+      },
+      "isDirectDependency" : true
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/smartrics.restfixture:smartrics-RestFixtureExtensions/src/main/java/com/patternity/graphic/dag/BreadthFirstIterator.java",
+    "useImportReport" : [ {
+      "importPath" : "import java.util.Iterator;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.apache.commons.collections.Buffer;",
+      "artifact" : {
+        "artifact" : "commons-collections:commons-collections:3.2.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/smartrics.restfixture:smartrics-RestFixtureExtensions:3.1/dependencies/commons-collections/commons-collections/3.2.1/commons-collections-3.2.1.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.apache.commons.collections.buffer.UnboundedFifoBuffer;",
+      "artifact" : {
+        "artifact" : "commons-collections:commons-collections:3.2.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/smartrics.restfixture:smartrics-RestFixtureExtensions:3.1/dependencies/commons-collections/commons-collections/3.2.1/commons-collections-3.2.1.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.apache.commons.collections.iterators.SingletonIterator;",
+      "artifact" : {
+        "artifact" : "commons-collections:commons-collections:3.2.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/smartrics.restfixture:smartrics-RestFixtureExtensions:3.1/dependencies/commons-collections/commons-collections/3.2.1/commons-collections-3.2.1.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import java.util.NoSuchElementException;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/smartrics.restfixture:smartrics-RestFixtureExtensions/src/main/java/com/patternity/graphic/dag/NodeBuilder.java",
+    "useImportReport" : [ {
+      "importPath" : "import java.util.Map;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.HashMap;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.Iterator;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.Set;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.Collection;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/smartrics.restfixture:smartrics-RestFixtureExtensions/src/main/java/com/patternity/graphic/dag/DepthFirstIterator.java",
+    "useImportReport" : [ {
+      "importPath" : "import java.util.Iterator;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.Stack;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.apache.commons.collections.iterators.SingletonIterator;",
+      "artifact" : {
+        "artifact" : "commons-collections:commons-collections:3.2.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/smartrics.restfixture:smartrics-RestFixtureExtensions:3.1/dependencies/commons-collections/commons-collections/3.2.1/commons-collections-3.2.1.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import java.util.NoSuchElementException;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/smartrics.restfixture:smartrics-RestFixtureExtensions/src/main/java/com/patternity/graphic/behavioral/Message.java",
+    "useImportReport" : [ ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/smartrics.restfixture:smartrics-RestFixtureExtensions/src/main/java/com/patternity/graphic/behavioral/PingPong.java",
+    "useImportReport" : [ {
+      "importPath" : "import java.util.List;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.ArrayList;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.patternity.graphic.dag.Node;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.Arrays;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/smartrics.restfixture:smartrics-RestFixtureExtensions/src/main/java/com/patternity/graphic/behavioral/Invocation.java",
+    "useImportReport" : [ ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/smartrics.restfixture:smartrics-RestFixtureExtensions/src/main/java/com/patternity/graphic/behavioral/MultipleDelegation.java",
+    "useImportReport" : [ {
+      "importPath" : "import java.util.Arrays;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/smartrics.restfixture:smartrics-RestFixtureExtensions/src/main/java/com/patternity/graphic/behavioral/Collaboration.java",
+    "useImportReport" : [ {
+      "importPath" : "import com.patternity.graphic.dag.Node;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/smartrics.restfixture:smartrics-RestFixtureExtensions/src/main/java/com/patternity/graphic/behavioral/Chain.java",
+    "useImportReport" : [ {
+      "importPath" : "import java.text.MessageFormat;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.patternity.graphic.dag.Node;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/smartrics.restfixture:smartrics-RestFixtureExtensions/src/main/java/com/patternity/graphic/behavioral/Event.java",
+    "useImportReport" : [ ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/smartrics.restfixture:smartrics-RestFixtureExtensions/src/main/java/com/patternity/graphic/behavioral/Note.java",
+    "useImportReport" : [ ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/smartrics.restfixture:smartrics-RestFixtureExtensions/src/main/java/com/patternity/graphic/behavioral/Composite.java",
+    "useImportReport" : [ {
+      "importPath" : "import java.text.MessageFormat;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.patternity.graphic.dag.Node;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/smartrics.restfixture:smartrics-RestFixtureExtensions/src/main/java/com/patternity/graphic/behavioral/Agent.java",
+    "useImportReport" : [ ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/smartrics.restfixture:smartrics-RestFixtureExtensions/src/main/java/com/patternity/graphic/behavioral/Activation.java",
+    "useImportReport" : [ {
+      "importPath" : "import java.util.Stack;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/smartrics.restfixture:smartrics-RestFixtureExtensions/src/main/java/com/patternity/graphic/Styled.java",
+    "useImportReport" : [ ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/smartrics.restfixture:smartrics-RestFixtureExtensions/src/main/java/com/patternity/graphic/Position.java",
+    "useImportReport" : [ ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/smartrics.restfixture:smartrics-RestFixtureExtensions/src/main/java/com/patternity/graphic/Rectangle.java",
+    "useImportReport" : [ ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/smartrics.restfixture:smartrics-RestFixtureExtensions/src/main/java/com/patternity/graphic/Style.java",
+    "useImportReport" : [ ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  } ],
+  "projectUseDependencies" : [ {
+    "artifact" : "smartrics.restfixture:smartrics-RestFixture:3.1",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/smartrics.restfixture:smartrics-RestFixtureExtensions:3.1/dependencies/smartrics/restfixture/smartrics-RestFixture/3.1/smartrics-RestFixture-3.1.jar"
+  }, {
+    "artifact" : "batik:batik-transcoder:1.6-1",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/smartrics.restfixture:smartrics-RestFixtureExtensions:3.1/dependencies/batik/batik-transcoder/1.6-1/batik-transcoder-1.6-1.jar"
+  }, {
+    "artifact" : "commons-collections:commons-collections:3.2.1",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/smartrics.restfixture:smartrics-RestFixtureExtensions:3.1/dependencies/commons-collections/commons-collections/3.2.1/commons-collections-3.2.1.jar"
+  } ],
+  "projectUseTransitiveDependencies" : [ ],
+  "projectUnusedDependencies" : [ {
+    "artifact" : "batik:batik-xml:1.6-1",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/smartrics.restfixture:smartrics-RestFixtureExtensions:3.1/dependencies/batik/batik-xml/1.6-1/batik-xml-1.6-1.jar"
+  }, {
+    "artifact" : "batik:batik-svggen:1.6-1",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/smartrics.restfixture:smartrics-RestFixtureExtensions:3.1/dependencies/batik/batik-svggen/1.6-1/batik-svggen-1.6-1.jar"
+  } ]
+}

@@ -1,0 +1,1395 @@
+{
+  "projectArtifact" : "com.ontimize.jee.dms:ontimize-jee-dms-server:3.0.0",
+  "repositoryDir" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/com.ontimize.jee.dms:ontimize-jee-dms-server/ontimize-jee-dms-server",
+  "repositorySubDir" : "",
+  "artifactLocation" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.ontimize.jee.dms:ontimize-jee-dms-server:3.0.0",
+  "fileImportReports" : [ {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/com.ontimize.jee.dms:ontimize-jee-dms-server/ontimize-jee-dms-server/src/main/java/com/ontimize/jee/server/services/dms/DMSConfiguration.java",
+    "useImportReport" : [ {
+      "importPath" : "import com.ontimize.jee.common.tools.CheckingTools;",
+      "artifact" : {
+        "artifact" : "com.ontimize.jee:ontimize-jee-common:5.4.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.ontimize.jee.dms:ontimize-jee-dms-server:3.0.0/dependencies/com/ontimize/jee/ontimize-jee-common/5.4.0/ontimize-jee-common-5.4.0.jar"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/com.ontimize.jee.dms:ontimize-jee-dms-server/ontimize-jee-dms-server/src/main/java/com/ontimize/jee/server/services/dms/DMSCreationHelper.java",
+    "useImportReport" : [ {
+      "importPath" : "import org.springframework.stereotype.Component;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-context:5.3.6",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.ontimize.jee.dms:ontimize-jee-dms-server:3.0.0/dependencies/org/springframework/spring-context/5.3.6/spring-context-5.3.6.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.springframework.context.annotation.Lazy;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-context:5.3.6",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.ontimize.jee.dms:ontimize-jee-dms-server:3.0.0/dependencies/org/springframework/spring-context/5.3.6/spring-context-5.3.6.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.ontimize.jee.common.services.dms.IDMSService;",
+      "artifact" : {
+        "artifact" : "com.ontimize.jee.dms:ontimize-jee-dms-common:3.0.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.ontimize.jee.dms:ontimize-jee-dms-server:3.0.0/dependencies/com/ontimize/jee/dms/ontimize-jee-dms-common/3.0.0/ontimize-jee-dms-common-3.0.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.springframework.beans.factory.annotation.Autowired;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-beans:5.3.6",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.ontimize.jee.dms:ontimize-jee-dms-server:3.0.0/dependencies/org/springframework/spring-beans/5.3.6/spring-beans-5.3.6.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.ontimize.jee.common.services.dms.DocumentIdentifier;",
+      "artifact" : {
+        "artifact" : "com.ontimize.jee.dms:ontimize-jee-dms-common:3.0.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.ontimize.jee.dms:ontimize-jee-dms-server:3.0.0/dependencies/com/ontimize/jee/dms/ontimize-jee-dms-common/3.0.0/ontimize-jee-dms-common-3.0.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import com.ontimize.jee.common.exceptions.DmsException;",
+      "artifact" : {
+        "artifact" : "com.ontimize.jee.dms:ontimize-jee-dms-common:3.0.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.ontimize.jee.dms:ontimize-jee-dms-server:3.0.0/dependencies/com/ontimize/jee/dms/ontimize-jee-dms-common/3.0.0/ontimize-jee-dms-common-3.0.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import java.util.Map;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.HashMap;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/com.ontimize.jee.dms:ontimize-jee-dms-server/ontimize-jee-dms-server/src/main/java/com/ontimize/jee/server/services/dms/DMSServiceFileHelper.java",
+    "useImportReport" : [ {
+      "importPath" : "import org.springframework.stereotype.Component;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-context:5.3.6",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.ontimize.jee.dms:ontimize-jee-dms-server:3.0.0/dependencies/org/springframework/spring-context/5.3.6/spring-context-5.3.6.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.springframework.context.annotation.Lazy;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-context:5.3.6",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.ontimize.jee.dms:ontimize-jee-dms-server:3.0.0/dependencies/org/springframework/spring-context/5.3.6/spring-context-5.3.6.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.ontimize.jee.server.dao.DefaultOntimizeDaoHelper;",
+      "artifact" : {
+        "artifact" : "com.ontimize.jee:ontimize-jee-server:5.4.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.ontimize.jee.dms:ontimize-jee-dms-server:3.0.0/dependencies/com/ontimize/jee/ontimize-jee-server/5.4.0/ontimize-jee-server-5.4.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.springframework.beans.factory.annotation.Autowired;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-beans:5.3.6",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.ontimize.jee.dms:ontimize-jee-dms-server:3.0.0/dependencies/org/springframework/spring-beans/5.3.6/spring-beans-5.3.6.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.slf4j.Logger;",
+      "artifact" : {
+        "artifact" : "org.slf4j:slf4j-api:1.7.30",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.ontimize.jee.dms:ontimize-jee-dms-server:3.0.0/dependencies/org/slf4j/slf4j-api/1.7.30/slf4j-api-1.7.30.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.slf4j.LoggerFactory;",
+      "artifact" : {
+        "artifact" : "org.slf4j:slf4j-api:1.7.30",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.ontimize.jee.dms:ontimize-jee-dms-server:3.0.0/dependencies/org/slf4j/slf4j-api/1.7.30/slf4j-api-1.7.30.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.text.DecimalFormat;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.ontimize.jee.server.spring.namespace.OntimizeDMSConfiguration;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.ontimize.jee.server.services.dms.dao.IDMSDocumentFileVersionDao;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.ontimize.jee.server.services.dms.dao.IDMSDocumentFileDao;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.io.InputStream;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.ontimize.jee.common.exceptions.DmsException;",
+      "artifact" : {
+        "artifact" : "com.ontimize.jee.dms:ontimize-jee-dms-common:3.0.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.ontimize.jee.dms:ontimize-jee-dms-server:3.0.0/dependencies/com/ontimize/jee/dms/ontimize-jee-dms-common/3.0.0/ontimize-jee-dms-common-3.0.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import java.io.Serializable;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.ontimize.jee.common.tools.CheckingTools;",
+      "artifact" : {
+        "artifact" : "com.ontimize.jee:ontimize-jee-common:5.4.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.ontimize.jee.dms:ontimize-jee-dms-server:3.0.0/dependencies/com/ontimize/jee/ontimize-jee-common/5.4.0/ontimize-jee-common-5.4.0.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.ontimize.jee.common.naming.DMSNaming;",
+      "artifact" : {
+        "artifact" : "com.ontimize.jee.dms:ontimize-jee-dms-common:3.0.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.ontimize.jee.dms:ontimize-jee-dms-server:3.0.0/dependencies/com/ontimize/jee/dms/ontimize-jee-dms-common/3.0.0/ontimize-jee-dms-common-3.0.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import java.nio.file.Path;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.nio.file.Files;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.io.IOException;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.ontimize.jee.common.services.dms.DocumentIdentifier;",
+      "artifact" : {
+        "artifact" : "com.ontimize.jee.dms:ontimize-jee-dms-common:3.0.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.ontimize.jee.dms:ontimize-jee-dms-server:3.0.0/dependencies/com/ontimize/jee/dms/ontimize-jee-dms-common/3.0.0/ontimize-jee-dms-common-3.0.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import java.util.Map;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.HashMap;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.ontimize.jee.common.dto.EntityResult;",
+      "artifact" : {
+        "artifact" : "com.ontimize.jee:ontimize-jee-common:5.4.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.ontimize.jee.dms:ontimize-jee-dms-server:3.0.0/dependencies/com/ontimize/jee/ontimize-jee-common/5.4.0/ontimize-jee-common-5.4.0.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.ontimize.jee.common.tools.EntityResultTools;",
+      "artifact" : {
+        "artifact" : "com.ontimize.jee:ontimize-jee-common:5.4.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.ontimize.jee.dms:ontimize-jee-dms-server:3.0.0/dependencies/com/ontimize/jee/ontimize-jee-common/5.4.0/ontimize-jee-common-5.4.0.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.List;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.ontimize.jee.common.tools.FileTools;",
+      "artifact" : {
+        "artifact" : "com.ontimize.jee:ontimize-jee-common:5.4.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.ontimize.jee.dms:ontimize-jee-dms-server:3.0.0/dependencies/com/ontimize/jee/ontimize-jee-common/5.4.0/ontimize-jee-common-5.4.0.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.ArrayList;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.Map.Entry;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.ontimize.jee.common.db.NullValue;",
+      "artifact" : {
+        "artifact" : "com.ontimize.jee:ontimize-jee-common:5.4.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.ontimize.jee.dms:ontimize-jee-dms-server:3.0.0/dependencies/com/ontimize/jee/ontimize-jee-common/5.4.0/ontimize-jee-common-5.4.0.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.io.File;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.io.FilenameFilter;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.apache.commons.io.FileUtils;",
+      "artifact" : {
+        "artifact" : "commons-io:commons-io:2.7",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.ontimize.jee.dms:ontimize-jee-dms-server:3.0.0/dependencies/commons-io/commons-io/2.7/commons-io-2.7.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.Date;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.ontimize.jee.common.tools.MapTools;",
+      "artifact" : {
+        "artifact" : "com.ontimize.jee:ontimize-jee-common:5.4.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.ontimize.jee.dms:ontimize-jee-dms-server:3.0.0/dependencies/com/ontimize/jee/ontimize-jee-common/5.4.0/ontimize-jee-common-5.4.0.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.io.OutputStream;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.apache.commons.io.IOUtils;",
+      "artifact" : {
+        "artifact" : "commons-io:commons-io:2.7",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.ontimize.jee.dms:ontimize-jee-dms-server:3.0.0/dependencies/commons-io/commons-io/2.7/commons-io-2.7.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.springframework.security.core.context.SecurityContextHolder;",
+      "artifact" : {
+        "artifact" : "org.springframework.security:spring-security-core:5.5.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.ontimize.jee.dms:ontimize-jee-dms-server:3.0.0/dependencies/org/springframework/security/spring-security-core/5.5.0/spring-security-core-5.5.0.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.ontimize.jee.common.services.user.UserInformation;",
+      "artifact" : {
+        "artifact" : "com.ontimize.jee:ontimize-jee-common:5.4.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.ontimize.jee.dms:ontimize-jee-dms-server:3.0.0/dependencies/com/ontimize/jee/ontimize-jee-common/5.4.0/ontimize-jee-common-5.4.0.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.ontimize.jee.common.tools.ObjectTools;",
+      "artifact" : {
+        "artifact" : "com.ontimize.jee:ontimize-jee-common:5.4.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.ontimize.jee.dms:ontimize-jee-dms-server:3.0.0/dependencies/com/ontimize/jee/ontimize-jee-common/5.4.0/ontimize-jee-common-5.4.0.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.ontimize.jee.common.gui.SearchValue;",
+      "artifact" : {
+        "artifact" : "com.ontimize.jee:ontimize-jee-common:5.4.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.ontimize.jee.dms:ontimize-jee-dms-server:3.0.0/dependencies/com/ontimize/jee/ontimize-jee-common/5.4.0/ontimize-jee-common-5.4.0.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.Vector;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/com.ontimize.jee.dms:ontimize-jee-dms-server/ontimize-jee-dms-server/src/main/java/com/ontimize/jee/server/services/dms/dao/IDMSCategoryDao.java",
+    "useImportReport" : [ {
+      "importPath" : "import com.ontimize.jee.server.dao.IOntimizeDaoSupport;",
+      "artifact" : {
+        "artifact" : "com.ontimize.jee:ontimize-jee-server:5.4.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.ontimize.jee.dms:ontimize-jee-dms-server:3.0.0/dependencies/com/ontimize/jee/ontimize-jee-server/5.4.0/ontimize-jee-server-5.4.0.jar"
+      },
+      "isDirectDependency" : true
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/com.ontimize.jee.dms:ontimize-jee-dms-server/ontimize-jee-dms-server/src/main/java/com/ontimize/jee/server/services/dms/dao/IDMSDocumentFileVersionDao.java",
+    "useImportReport" : [ {
+      "importPath" : "import com.ontimize.jee.server.dao.IOntimizeDaoSupport;",
+      "artifact" : {
+        "artifact" : "com.ontimize.jee:ontimize-jee-server:5.4.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.ontimize.jee.dms:ontimize-jee-dms-server:3.0.0/dependencies/com/ontimize/jee/ontimize-jee-server/5.4.0/ontimize-jee-server-5.4.0.jar"
+      },
+      "isDirectDependency" : true
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/com.ontimize.jee.dms:ontimize-jee-dms-server/ontimize-jee-dms-server/src/main/java/com/ontimize/jee/server/services/dms/dao/IDMSRelatedDocumentDao.java",
+    "useImportReport" : [ {
+      "importPath" : "import com.ontimize.jee.server.dao.IOntimizeDaoSupport;",
+      "artifact" : {
+        "artifact" : "com.ontimize.jee:ontimize-jee-server:5.4.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.ontimize.jee.dms:ontimize-jee-dms-server:3.0.0/dependencies/com/ontimize/jee/ontimize-jee-server/5.4.0/ontimize-jee-server-5.4.0.jar"
+      },
+      "isDirectDependency" : true
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/com.ontimize.jee.dms:ontimize-jee-dms-server/ontimize-jee-dms-server/src/main/java/com/ontimize/jee/server/services/dms/dao/IDMSDocumentDao.java",
+    "useImportReport" : [ {
+      "importPath" : "import com.ontimize.jee.server.dao.IOntimizeDaoSupport;",
+      "artifact" : {
+        "artifact" : "com.ontimize.jee:ontimize-jee-server:5.4.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.ontimize.jee.dms:ontimize-jee-dms-server:3.0.0/dependencies/com/ontimize/jee/ontimize-jee-server/5.4.0/ontimize-jee-server-5.4.0.jar"
+      },
+      "isDirectDependency" : true
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/com.ontimize.jee.dms:ontimize-jee-dms-server/ontimize-jee-dms-server/src/main/java/com/ontimize/jee/server/services/dms/dao/IDMSDocumentFileDao.java",
+    "useImportReport" : [ {
+      "importPath" : "import com.ontimize.jee.server.dao.IOntimizeDaoSupport;",
+      "artifact" : {
+        "artifact" : "com.ontimize.jee:ontimize-jee-server:5.4.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.ontimize.jee.dms:ontimize-jee-dms-server:3.0.0/dependencies/com/ontimize/jee/ontimize-jee-server/5.4.0/ontimize-jee-server-5.4.0.jar"
+      },
+      "isDirectDependency" : true
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/com.ontimize.jee.dms:ontimize-jee-dms-server/ontimize-jee-dms-server/src/main/java/com/ontimize/jee/server/services/dms/dao/IDMSDocumentPropertyDao.java",
+    "useImportReport" : [ {
+      "importPath" : "import com.ontimize.jee.server.dao.IOntimizeDaoSupport;",
+      "artifact" : {
+        "artifact" : "com.ontimize.jee:ontimize-jee-server:5.4.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.ontimize.jee.dms:ontimize-jee-dms-server:3.0.0/dependencies/com/ontimize/jee/ontimize-jee-server/5.4.0/ontimize-jee-server-5.4.0.jar"
+      },
+      "isDirectDependency" : true
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/com.ontimize.jee.dms:ontimize-jee-dms-server/ontimize-jee-dms-server/src/main/java/com/ontimize/jee/server/services/dms/DMSColumnHelper.java",
+    "useImportReport" : [ {
+      "importPath" : "import java.util.Map;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.HashMap;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.ontimize.jee.common.naming.DMSNaming;",
+      "artifact" : {
+        "artifact" : "com.ontimize.jee.dms:ontimize-jee-dms-common:3.0.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.ontimize.jee.dms:ontimize-jee-dms-server:3.0.0/dependencies/com/ontimize/jee/dms/ontimize-jee-dms-common/3.0.0/ontimize-jee-dms-common-3.0.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import java.util.Map.Entry;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.ontimize.jee.common.tools.ObjectTools;",
+      "artifact" : {
+        "artifact" : "com.ontimize.jee:ontimize-jee-common:5.4.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.ontimize.jee.dms:ontimize-jee-dms-server:3.0.0/dependencies/com/ontimize/jee/ontimize-jee-common/5.4.0/ontimize-jee-common-5.4.0.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.ontimize.jee.common.tools.MapTools;",
+      "artifact" : {
+        "artifact" : "com.ontimize.jee:ontimize-jee-common:5.4.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.ontimize.jee.dms:ontimize-jee-dms-server:3.0.0/dependencies/com/ontimize/jee/ontimize-jee-common/5.4.0/ontimize-jee-common-5.4.0.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.List;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.ArrayList;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.ontimize.jee.common.db.SQLStatementBuilder.BasicExpression;",
+      "artifact" : {
+        "artifact" : "com.ontimize.jee:ontimize-jee-common:5.4.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.ontimize.jee.dms:ontimize-jee-dms-server:3.0.0/dependencies/com/ontimize/jee/ontimize-jee-common/5.4.0/ontimize-jee-common-5.4.0.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.ontimize.jee.common.db.SQLStatementBuilder.ExtendedSQLConditionValuesProcessor;",
+      "artifact" : {
+        "artifact" : "com.ontimize.jee:ontimize-jee-common:5.4.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.ontimize.jee.dms:ontimize-jee-dms-server:3.0.0/dependencies/com/ontimize/jee/ontimize-jee-common/5.4.0/ontimize-jee-common-5.4.0.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.ontimize.jee.common.tools.BasicExpressionTools;",
+      "artifact" : {
+        "artifact" : "com.ontimize.jee:ontimize-jee-common:5.4.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.ontimize.jee.dms:ontimize-jee-dms-server:3.0.0/dependencies/com/ontimize/jee/ontimize-jee-common/5.4.0/ontimize-jee-common-5.4.0.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.ontimize.jee.common.dto.EntityResult;",
+      "artifact" : {
+        "artifact" : "com.ontimize.jee:ontimize-jee-common:5.4.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.ontimize.jee.dms:ontimize-jee-dms-server:3.0.0/dependencies/com/ontimize/jee/ontimize-jee-common/5.4.0/ontimize-jee-common-5.4.0.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.ontimize.jee.common.tools.EntityResultTools;",
+      "artifact" : {
+        "artifact" : "com.ontimize.jee:ontimize-jee-common:5.4.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.ontimize.jee.dms:ontimize-jee-dms-server:3.0.0/dependencies/com/ontimize/jee/ontimize-jee-common/5.4.0/ontimize-jee-common-5.4.0.jar"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/com.ontimize.jee.dms:ontimize-jee-dms-server/ontimize-jee-dms-server/src/main/java/com/ontimize/jee/server/services/dms/IDMSServiceServer.java",
+    "useImportReport" : [ {
+      "importPath" : "import com.ontimize.jee.common.services.dms.IDMSService;",
+      "artifact" : {
+        "artifact" : "com.ontimize.jee.dms:ontimize-jee-dms-common:3.0.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.ontimize.jee.dms:ontimize-jee-dms-server:3.0.0/dependencies/com/ontimize/jee/dms/ontimize-jee-dms-common/3.0.0/ontimize-jee-dms-common-3.0.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import java.nio.file.Path;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.ontimize.jee.common.exceptions.DmsException;",
+      "artifact" : {
+        "artifact" : "com.ontimize.jee.dms:ontimize-jee-dms-common:3.0.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.ontimize.jee.dms:ontimize-jee-dms-server:3.0.0/dependencies/com/ontimize/jee/dms/ontimize-jee-dms-common/3.0.0/ontimize-jee-dms-common-3.0.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import java.io.Serializable;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/com.ontimize.jee.dms:ontimize-jee-dms-server/ontimize-jee-dms-server/src/main/java/com/ontimize/jee/server/services/dms/DMSServiceImpl.java",
+    "useImportReport" : [ {
+      "importPath" : "import org.springframework.context.ApplicationContextAware;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-context:5.3.6",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.ontimize.jee.dms:ontimize-jee-dms-server:3.0.0/dependencies/org/springframework/spring-context/5.3.6/spring-context-5.3.6.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.springframework.stereotype.Service;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-context:5.3.6",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.ontimize.jee.dms:ontimize-jee-dms-server:3.0.0/dependencies/org/springframework/spring-context/5.3.6/spring-context-5.3.6.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.springframework.context.annotation.Lazy;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-context:5.3.6",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.ontimize.jee.dms:ontimize-jee-dms-server:3.0.0/dependencies/org/springframework/spring-context/5.3.6/spring-context-5.3.6.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.ontimize.jee.common.tools.CheckingTools;",
+      "artifact" : {
+        "artifact" : "com.ontimize.jee:ontimize-jee-common:5.4.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.ontimize.jee.dms:ontimize-jee-dms-server:3.0.0/dependencies/com/ontimize/jee/ontimize-jee-common/5.4.0/ontimize-jee-common-5.4.0.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.springframework.context.ApplicationContext;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-context:5.3.6",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.ontimize.jee.dms:ontimize-jee-dms-server:3.0.0/dependencies/org/springframework/spring-context/5.3.6/spring-context-5.3.6.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.springframework.beans.BeansException;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-beans:5.3.6",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.ontimize.jee.dms:ontimize-jee-dms-server:3.0.0/dependencies/org/springframework/spring-beans/5.3.6/spring-beans-5.3.6.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.ontimize.jee.server.spring.namespace.OntimizeDMSConfiguration;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.io.InputStream;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.springframework.security.access.annotation.Secured;",
+      "artifact" : {
+        "artifact" : "org.springframework.security:spring-security-core:5.5.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.ontimize.jee.dms:ontimize-jee-dms-server:3.0.0/dependencies/org/springframework/security/spring-security-core/5.5.0/spring-security-core-5.5.0.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.ontimize.jee.common.security.PermissionsProviderSecured;",
+      "artifact" : {
+        "artifact" : "com.ontimize.jee:ontimize-jee-common:5.4.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.ontimize.jee.dms:ontimize-jee-dms-server:3.0.0/dependencies/com/ontimize/jee/ontimize-jee-common/5.4.0/ontimize-jee-common-5.4.0.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.io.Serializable;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.ontimize.jee.common.exceptions.DmsException;",
+      "artifact" : {
+        "artifact" : "com.ontimize.jee.dms:ontimize-jee-dms-common:3.0.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.ontimize.jee.dms:ontimize-jee-dms-server:3.0.0/dependencies/com/ontimize/jee/dms/ontimize-jee-dms-common/3.0.0/ontimize-jee-dms-common-3.0.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import java.nio.file.Path;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.ontimize.jee.common.services.dms.DocumentIdentifier;",
+      "artifact" : {
+        "artifact" : "com.ontimize.jee.dms:ontimize-jee-dms-common:3.0.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.ontimize.jee.dms:ontimize-jee-dms-server:3.0.0/dependencies/com/ontimize/jee/dms/ontimize-jee-dms-common/3.0.0/ontimize-jee-dms-common-3.0.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.springframework.transaction.annotation.Transactional;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-tx:5.3.6",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.ontimize.jee.dms:ontimize-jee-dms-server:3.0.0/dependencies/org/springframework/spring-tx/5.3.6/spring-tx-5.3.6.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.Map;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.ontimize.jee.common.dto.EntityResult;",
+      "artifact" : {
+        "artifact" : "com.ontimize.jee:ontimize-jee-common:5.4.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.ontimize.jee.dms:ontimize-jee-dms-server:3.0.0/dependencies/com/ontimize/jee/ontimize-jee-common/5.4.0/ontimize-jee-common-5.4.0.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.List;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.ontimize.jee.common.services.dms.DMSCategory;",
+      "artifact" : {
+        "artifact" : "com.ontimize.jee.dms:ontimize-jee-dms-common:3.0.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.ontimize.jee.dms:ontimize-jee-dms-server:3.0.0/dependencies/com/ontimize/jee/dms/ontimize-jee-dms-common/3.0.0/ontimize-jee-dms-common-3.0.0.jar"
+      },
+      "isDirectDependency" : true
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ {
+      "importPath" : "org.springframework.context.ApplicationContextAware",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-context:5.3.6",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.ontimize.jee.dms:ontimize-jee-dms-server:3.0.0/dependencies/org/springframework/spring-context/5.3.6/spring-context-5.3.6.jar"
+      },
+      "isDirectDependency" : false
+    } ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/com.ontimize.jee.dms:ontimize-jee-dms-server/ontimize-jee-dms-server/src/main/java/com/ontimize/jee/server/services/dms/OntimizeDMSEngine.java",
+    "useImportReport" : [ {
+      "importPath" : "import org.springframework.beans.factory.InitializingBean;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-beans:5.3.6",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.ontimize.jee.dms:ontimize-jee-dms-server:3.0.0/dependencies/org/springframework/spring-beans/5.3.6/spring-beans-5.3.6.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.slf4j.Logger;",
+      "artifact" : {
+        "artifact" : "org.slf4j:slf4j-api:1.7.30",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.ontimize.jee.dms:ontimize-jee-dms-server:3.0.0/dependencies/org/slf4j/slf4j-api/1.7.30/slf4j-api-1.7.30.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.slf4j.LoggerFactory;",
+      "artifact" : {
+        "artifact" : "org.slf4j:slf4j-api:1.7.30",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.ontimize.jee.dms:ontimize-jee-dms-server:3.0.0/dependencies/org/slf4j/slf4j-api/1.7.30/slf4j-api-1.7.30.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.ontimize.jee.server.configuration.OntimizeConfiguration;",
+      "artifact" : {
+        "artifact" : "com.ontimize.jee:ontimize-jee-server:5.4.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.ontimize.jee.dms:ontimize-jee-dms-server:3.0.0/dependencies/com/ontimize/jee/ontimize-jee-server/5.4.0/ontimize-jee-server-5.4.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.springframework.beans.factory.annotation.Autowired;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-beans:5.3.6",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.ontimize.jee.dms:ontimize-jee-dms-server:3.0.0/dependencies/org/springframework/spring-beans/5.3.6/spring-beans-5.3.6.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.nio.file.Path;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.ontimize.jee.common.spring.parser.AbstractPropertyResolver;",
+      "artifact" : {
+        "artifact" : "com.ontimize.jee:ontimize-jee-common:5.4.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.ontimize.jee.dms:ontimize-jee-dms-server:3.0.0/dependencies/com/ontimize/jee/ontimize-jee-common/5.4.0/ontimize-jee-common-5.4.0.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.ontimize.jee.common.tools.CheckingTools;",
+      "artifact" : {
+        "artifact" : "com.ontimize.jee:ontimize-jee-common:5.4.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.ontimize.jee.dms:ontimize-jee-dms-server:3.0.0/dependencies/com/ontimize/jee/ontimize-jee-common/5.4.0/ontimize-jee-common-5.4.0.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.io.InputStream;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.io.Serializable;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.ontimize.jee.common.exceptions.DmsException;",
+      "artifact" : {
+        "artifact" : "com.ontimize.jee.dms:ontimize-jee-dms-common:3.0.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.ontimize.jee.dms:ontimize-jee-dms-server:3.0.0/dependencies/com/ontimize/jee/dms/ontimize-jee-dms-common/3.0.0/ontimize-jee-dms-common-3.0.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import com.ontimize.jee.common.services.dms.DocumentIdentifier;",
+      "artifact" : {
+        "artifact" : "com.ontimize.jee.dms:ontimize-jee-dms-common:3.0.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.ontimize.jee.dms:ontimize-jee-dms-server:3.0.0/dependencies/com/ontimize/jee/dms/ontimize-jee-dms-common/3.0.0/ontimize-jee-dms-common-3.0.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import java.util.Map;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.ontimize.jee.common.dto.EntityResult;",
+      "artifact" : {
+        "artifact" : "com.ontimize.jee:ontimize-jee-common:5.4.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.ontimize.jee.dms:ontimize-jee-dms-server:3.0.0/dependencies/com/ontimize/jee/ontimize-jee-common/5.4.0/ontimize-jee-common-5.4.0.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.List;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.ontimize.jee.common.services.dms.DMSCategory;",
+      "artifact" : {
+        "artifact" : "com.ontimize.jee.dms:ontimize-jee-dms-common:3.0.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.ontimize.jee.dms:ontimize-jee-dms-server:3.0.0/dependencies/com/ontimize/jee/dms/ontimize-jee-dms-common/3.0.0/ontimize-jee-dms-common-3.0.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import java.nio.file.Paths;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.net.URI;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/com.ontimize.jee.dms:ontimize-jee-dms-server/ontimize-jee-dms-server/src/main/java/com/ontimize/jee/server/services/dms/DMSServiceDocumentHelper.java",
+    "useImportReport" : [ {
+      "importPath" : "import org.springframework.stereotype.Component;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-context:5.3.6",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.ontimize.jee.dms:ontimize-jee-dms-server:3.0.0/dependencies/org/springframework/spring-context/5.3.6/spring-context-5.3.6.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.springframework.context.annotation.Lazy;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-context:5.3.6",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.ontimize.jee.dms:ontimize-jee-dms-server:3.0.0/dependencies/org/springframework/spring-context/5.3.6/spring-context-5.3.6.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.ontimize.jee.server.dao.DefaultOntimizeDaoHelper;",
+      "artifact" : {
+        "artifact" : "com.ontimize.jee:ontimize-jee-server:5.4.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.ontimize.jee.dms:ontimize-jee-dms-server:3.0.0/dependencies/com/ontimize/jee/ontimize-jee-server/5.4.0/ontimize-jee-server-5.4.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.springframework.beans.factory.annotation.Autowired;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-beans:5.3.6",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.ontimize.jee.dms:ontimize-jee-dms-server:3.0.0/dependencies/org/springframework/spring-beans/5.3.6/spring-beans-5.3.6.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.ontimize.jee.server.services.dms.dao.IDMSDocumentDao;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.ontimize.jee.server.services.dms.dao.IDMSRelatedDocumentDao;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.ontimize.jee.server.services.dms.dao.IDMSDocumentPropertyDao;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.ontimize.jee.server.services.dms.dao.IDMSDocumentFileDao;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.ontimize.jee.server.services.dms.dao.IDMSCategoryDao;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.ontimize.jee.common.dto.EntityResult;",
+      "artifact" : {
+        "artifact" : "com.ontimize.jee:ontimize-jee-common:5.4.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.ontimize.jee.dms:ontimize-jee-dms-server:3.0.0/dependencies/com/ontimize/jee/ontimize-jee-common/5.4.0/ontimize-jee-common-5.4.0.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.List;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.Map;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.ontimize.jee.common.services.dms.DocumentIdentifier;",
+      "artifact" : {
+        "artifact" : "com.ontimize.jee.dms:ontimize-jee-dms-common:3.0.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.ontimize.jee.dms:ontimize-jee-dms-server:3.0.0/dependencies/com/ontimize/jee/dms/ontimize-jee-dms-common/3.0.0/ontimize-jee-dms-common-3.0.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import java.io.Serializable;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.ontimize.jee.common.tools.CheckingTools;",
+      "artifact" : {
+        "artifact" : "com.ontimize.jee:ontimize-jee-common:5.4.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.ontimize.jee.dms:ontimize-jee-dms-server:3.0.0/dependencies/com/ontimize/jee/ontimize-jee-common/5.4.0/ontimize-jee-common-5.4.0.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.ontimize.jee.common.naming.DMSNaming;",
+      "artifact" : {
+        "artifact" : "com.ontimize.jee.dms:ontimize-jee-dms-common:3.0.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.ontimize.jee.dms:ontimize-jee-dms-server:3.0.0/dependencies/com/ontimize/jee/dms/ontimize-jee-dms-common/3.0.0/ontimize-jee-dms-common-3.0.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import java.util.HashMap;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.ontimize.jee.common.exceptions.DmsException;",
+      "artifact" : {
+        "artifact" : "com.ontimize.jee.dms:ontimize-jee-dms-common:3.0.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.ontimize.jee.dms:ontimize-jee-dms-server:3.0.0/dependencies/com/ontimize/jee/dms/ontimize-jee-dms-common/3.0.0/ontimize-jee-dms-common-3.0.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import com.ontimize.jee.common.tools.EntityResultTools;",
+      "artifact" : {
+        "artifact" : "com.ontimize.jee:ontimize-jee-common:5.4.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.ontimize.jee.dms:ontimize-jee-dms-server:3.0.0/dependencies/com/ontimize/jee/ontimize-jee-common/5.4.0/ontimize-jee-common-5.4.0.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.nio.file.Path;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.ArrayList;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.ontimize.jee.common.tools.FileTools;",
+      "artifact" : {
+        "artifact" : "com.ontimize.jee:ontimize-jee-common:5.4.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.ontimize.jee.dms:ontimize-jee-dms-server:3.0.0/dependencies/com/ontimize/jee/ontimize-jee-common/5.4.0/ontimize-jee-common-5.4.0.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.Map.Entry;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.ontimize.jee.common.gui.SearchValue;",
+      "artifact" : {
+        "artifact" : "com.ontimize.jee:ontimize-jee-common:5.4.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.ontimize.jee.dms:ontimize-jee-dms-server:3.0.0/dependencies/com/ontimize/jee/ontimize-jee-common/5.4.0/ontimize-jee-common-5.4.0.jar"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/com.ontimize.jee.dms:ontimize-jee-dms-server/ontimize-jee-dms-server/src/main/java/com/ontimize/jee/server/services/dms/DMSServiceCategoryHelper.java",
+    "useImportReport" : [ {
+      "importPath" : "import org.springframework.stereotype.Component;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-context:5.3.6",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.ontimize.jee.dms:ontimize-jee-dms-server:3.0.0/dependencies/org/springframework/spring-context/5.3.6/spring-context-5.3.6.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.springframework.context.annotation.Lazy;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-context:5.3.6",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.ontimize.jee.dms:ontimize-jee-dms-server:3.0.0/dependencies/org/springframework/spring-context/5.3.6/spring-context-5.3.6.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.slf4j.Logger;",
+      "artifact" : {
+        "artifact" : "org.slf4j:slf4j-api:1.7.30",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.ontimize.jee.dms:ontimize-jee-dms-server:3.0.0/dependencies/org/slf4j/slf4j-api/1.7.30/slf4j-api-1.7.30.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.slf4j.LoggerFactory;",
+      "artifact" : {
+        "artifact" : "org.slf4j:slf4j-api:1.7.30",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.ontimize.jee.dms:ontimize-jee-dms-server:3.0.0/dependencies/org/slf4j/slf4j-api/1.7.30/slf4j-api-1.7.30.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.ontimize.jee.server.dao.DefaultOntimizeDaoHelper;",
+      "artifact" : {
+        "artifact" : "com.ontimize.jee:ontimize-jee-server:5.4.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.ontimize.jee.dms:ontimize-jee-dms-server:3.0.0/dependencies/com/ontimize/jee/ontimize-jee-server/5.4.0/ontimize-jee-server-5.4.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.springframework.beans.factory.annotation.Autowired;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-beans:5.3.6",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.ontimize.jee.dms:ontimize-jee-dms-server:3.0.0/dependencies/org/springframework/spring-beans/5.3.6/spring-beans-5.3.6.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.ontimize.jee.server.services.dms.dao.IDMSCategoryDao;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.ontimize.jee.server.services.dms.dao.IDMSDocumentFileDao;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.ontimize.jee.common.services.dms.DMSCategory;",
+      "artifact" : {
+        "artifact" : "com.ontimize.jee.dms:ontimize-jee-dms-common:3.0.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.ontimize.jee.dms:ontimize-jee-dms-server:3.0.0/dependencies/com/ontimize/jee/dms/ontimize-jee-dms-common/3.0.0/ontimize-jee-dms-common-3.0.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import java.io.Serializable;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.List;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.ontimize.jee.common.tools.CheckingTools;",
+      "artifact" : {
+        "artifact" : "com.ontimize.jee:ontimize-jee-common:5.4.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.ontimize.jee.dms:ontimize-jee-dms-server:3.0.0/dependencies/com/ontimize/jee/ontimize-jee-common/5.4.0/ontimize-jee-common-5.4.0.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.ontimize.jee.common.naming.DMSNaming;",
+      "artifact" : {
+        "artifact" : "com.ontimize.jee.dms:ontimize-jee-dms-common:3.0.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.ontimize.jee.dms:ontimize-jee-dms-server:3.0.0/dependencies/com/ontimize/jee/dms/ontimize-jee-dms-common/3.0.0/ontimize-jee-dms-common-3.0.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import java.util.ArrayList;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.ontimize.jee.common.tools.ListTools;",
+      "artifact" : {
+        "artifact" : "com.ontimize.jee:ontimize-jee-common:5.4.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.ontimize.jee.dms:ontimize-jee-dms-server:3.0.0/dependencies/com/ontimize/jee/ontimize-jee-common/5.4.0/ontimize-jee-common-5.4.0.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.Map;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.ontimize.jee.common.tools.EntityResultTools;",
+      "artifact" : {
+        "artifact" : "com.ontimize.jee:ontimize-jee-common:5.4.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.ontimize.jee.dms:ontimize-jee-dms-server:3.0.0/dependencies/com/ontimize/jee/ontimize-jee-common/5.4.0/ontimize-jee-common-5.4.0.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.ontimize.jee.common.dto.EntityResult;",
+      "artifact" : {
+        "artifact" : "com.ontimize.jee:ontimize-jee-common:5.4.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.ontimize.jee.dms:ontimize-jee-dms-server:3.0.0/dependencies/com/ontimize/jee/ontimize-jee-common/5.4.0/ontimize-jee-common-5.4.0.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.HashMap;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.ontimize.jee.common.db.NullValue;",
+      "artifact" : {
+        "artifact" : "com.ontimize.jee:ontimize-jee-common:5.4.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.ontimize.jee.dms:ontimize-jee-dms-server:3.0.0/dependencies/com/ontimize/jee/ontimize-jee-common/5.4.0/ontimize-jee-common-5.4.0.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.springframework.jdbc.SQLWarningException;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-jdbc:5.3.6",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.ontimize.jee.dms:ontimize-jee-dms-server:3.0.0/dependencies/org/springframework/spring-jdbc/5.3.6/spring-jdbc-5.3.6.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import java.sql.Types;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.math.BigInteger;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.math.BigDecimal;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.ontimize.jee.common.tools.ObjectTools;",
+      "artifact" : {
+        "artifact" : "com.ontimize.jee:ontimize-jee-common:5.4.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.ontimize.jee.dms:ontimize-jee-dms-server:3.0.0/dependencies/com/ontimize/jee/ontimize-jee-common/5.4.0/ontimize-jee-common-5.4.0.jar"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/com.ontimize.jee.dms:ontimize-jee-dms-server/ontimize-jee-dms-server/src/main/java/com/ontimize/jee/server/services/dms/AbstractDMSServiceHelper.java",
+    "useImportReport" : [ {
+      "importPath" : "import org.springframework.beans.factory.InitializingBean;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-beans:5.3.6",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.ontimize.jee.dms:ontimize-jee-dms-server:3.0.0/dependencies/org/springframework/spring-beans/5.3.6/spring-beans-5.3.6.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.springframework.beans.factory.annotation.Autowired;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-beans:5.3.6",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.ontimize.jee.dms:ontimize-jee-dms-server:3.0.0/dependencies/org/springframework/spring-beans/5.3.6/spring-beans-5.3.6.jar"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/com.ontimize.jee.dms:ontimize-jee-dms-server/ontimize-jee-dms-server/src/main/java/com/ontimize/jee/server/spring/namespace/OntimizeDMSConfigurationBeanDefinitionParser.java",
+    "useImportReport" : [ {
+      "importPath" : "import org.springframework.beans.factory.xml.AbstractSimpleBeanDefinitionParser;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-beans:5.3.6",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.ontimize.jee.dms:ontimize-jee-dms-server:3.0.0/dependencies/org/springframework/spring-beans/5.3.6/spring-beans-5.3.6.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.w3c.dom.Element;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.springframework.beans.factory.xml.ParserContext;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-beans:5.3.6",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.ontimize.jee.dms:ontimize-jee-dms-server:3.0.0/dependencies/org/springframework/spring-beans/5.3.6/spring-beans-5.3.6.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.springframework.beans.factory.support.BeanDefinitionBuilder;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-beans:5.3.6",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.ontimize.jee.dms:ontimize-jee-dms-server:3.0.0/dependencies/org/springframework/spring-beans/5.3.6/spring-beans-5.3.6.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.springframework.util.xml.DomUtils;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-core:5.3.6",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.ontimize.jee.dms:ontimize-jee-dms-server:3.0.0/dependencies/org/springframework/spring-core/5.3.6/spring-core-5.3.6.jar"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/com.ontimize.jee.dms:ontimize-jee-dms-server/ontimize-jee-dms-server/src/main/java/com/ontimize/jee/server/spring/namespace/DMSBeanDefinitionParser.java",
+    "useImportReport" : [ {
+      "importPath" : "import org.springframework.beans.factory.xml.AbstractSingleBeanDefinitionParser;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-beans:5.3.6",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.ontimize.jee.dms:ontimize-jee-dms-server:3.0.0/dependencies/org/springframework/spring-beans/5.3.6/spring-beans-5.3.6.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.w3c.dom.Element;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.ontimize.jee.server.services.dms.DMSConfiguration;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.springframework.beans.factory.xml.ParserContext;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-beans:5.3.6",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.ontimize.jee.dms:ontimize-jee-dms-server:3.0.0/dependencies/org/springframework/spring-beans/5.3.6/spring-beans-5.3.6.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.springframework.beans.factory.support.BeanDefinitionBuilder;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-beans:5.3.6",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.ontimize.jee.dms:ontimize-jee-dms-server:3.0.0/dependencies/org/springframework/spring-beans/5.3.6/spring-beans-5.3.6.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.springframework.util.xml.DomUtils;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-core:5.3.6",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.ontimize.jee.dms:ontimize-jee-dms-server:3.0.0/dependencies/org/springframework/spring-core/5.3.6/spring-core-5.3.6.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.ontimize.jee.common.spring.parser.DefinitionParserUtil;",
+      "artifact" : {
+        "artifact" : "com.ontimize.jee:ontimize-jee-common:5.4.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.ontimize.jee.dms:ontimize-jee-dms-server:3.0.0/dependencies/com/ontimize/jee/ontimize-jee-common/5.4.0/ontimize-jee-common-5.4.0.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.ontimize.jee.server.services.dms.OntimizeDMSEngine;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.List;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.springframework.beans.factory.support.GenericBeanDefinition;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-beans:5.3.6",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.ontimize.jee.dms:ontimize-jee-dms-server:3.0.0/dependencies/org/springframework/spring-beans/5.3.6/spring-beans-5.3.6.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.springframework.beans.factory.support.AbstractBeanDefinition;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-beans:5.3.6",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.ontimize.jee.dms:ontimize-jee-dms-server:3.0.0/dependencies/org/springframework/spring-beans/5.3.6/spring-beans-5.3.6.jar"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/com.ontimize.jee.dms:ontimize-jee-dms-server/ontimize-jee-dms-server/src/main/java/com/ontimize/jee/server/spring/namespace/OntimizeDMSConfiguration.java",
+    "useImportReport" : [ {
+      "importPath" : "import com.ontimize.jee.server.services.dms.DMSConfiguration;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/com.ontimize.jee.dms:ontimize-jee-dms-server/ontimize-jee-dms-server/src/main/java/com/ontimize/jee/server/spring/namespace/OntimizeDMSServerSpringHandler.java",
+    "useImportReport" : [ {
+      "importPath" : "import org.springframework.beans.factory.xml.NamespaceHandlerSupport;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-beans:5.3.6",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.ontimize.jee.dms:ontimize-jee-dms-server:3.0.0/dependencies/org/springframework/spring-beans/5.3.6/spring-beans-5.3.6.jar"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  } ],
+  "projectUseDependencies" : [ {
+    "artifact" : "com.ontimize.jee.dms:ontimize-jee-dms-common:3.0.0",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.ontimize.jee.dms:ontimize-jee-dms-server:3.0.0/dependencies/com/ontimize/jee/dms/ontimize-jee-dms-common/3.0.0/ontimize-jee-dms-common-3.0.0.jar"
+  }, {
+    "artifact" : "com.ontimize.jee:ontimize-jee-server:5.4.0",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.ontimize.jee.dms:ontimize-jee-dms-server:3.0.0/dependencies/com/ontimize/jee/ontimize-jee-server/5.4.0/ontimize-jee-server-5.4.0.jar"
+  }, {
+    "artifact" : "org.springframework:spring-jdbc:5.3.6",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.ontimize.jee.dms:ontimize-jee-dms-server:3.0.0/dependencies/org/springframework/spring-jdbc/5.3.6/spring-jdbc-5.3.6.jar"
+  }, {
+    "artifact" : "org.springframework:spring-context:5.3.6",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.ontimize.jee.dms:ontimize-jee-dms-server:3.0.0/dependencies/org/springframework/spring-context/5.3.6/spring-context-5.3.6.jar"
+  } ],
+  "projectUseTransitiveDependencies" : [ ],
+  "projectUnusedDependencies" : [ ]
+}

@@ -1,0 +1,2350 @@
+{
+  "projectArtifact" : "de.jaggl.sqlbuilder:sqlbuilder-springjdbc:1.0.0",
+  "repositoryDir" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/de.jaggl.sqlbuilder:sqlbuilder-springjdbc",
+  "repositorySubDir" : "",
+  "artifactLocation" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/de.jaggl.sqlbuilder:sqlbuilder-springjdbc:1.0.0",
+  "fileImportReports" : [ {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/de.jaggl.sqlbuilder:sqlbuilder-springjdbc/src/test/java/de/jaggl/sqlbuilder/springjdbc/builders/InsertFromTableBuilderTest.java",
+    "useImportReport" : [ {
+      "importPath" : "import de.jaggl.sqlbuilder.schema.Schema;",
+      "artifact" : {
+        "artifact" : "de.jaggl.sqlbuilder:sqlbuilder-core:2.6.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/de.jaggl.sqlbuilder:sqlbuilder-springjdbc:1.0.0/dependencies/de/jaggl/sqlbuilder/sqlbuilder-core/2.6.0/sqlbuilder-core-2.6.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import de.jaggl.sqlbuilder.schema.Table;",
+      "artifact" : {
+        "artifact" : "de.jaggl.sqlbuilder:sqlbuilder-core:2.6.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/de.jaggl.sqlbuilder:sqlbuilder-springjdbc:1.0.0/dependencies/de/jaggl/sqlbuilder/sqlbuilder-core/2.6.0/sqlbuilder-core-2.6.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import de.jaggl.sqlbuilder.columns.number.integer.BigIntColumn;",
+      "artifact" : {
+        "artifact" : "de.jaggl.sqlbuilder:sqlbuilder-core:2.6.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/de.jaggl.sqlbuilder:sqlbuilder-springjdbc:1.0.0/dependencies/de/jaggl/sqlbuilder/sqlbuilder-core/2.6.0/sqlbuilder-core-2.6.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import de.jaggl.sqlbuilder.columns.string.VarCharColumn;",
+      "artifact" : {
+        "artifact" : "de.jaggl.sqlbuilder:sqlbuilder-core:2.6.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/de.jaggl.sqlbuilder:sqlbuilder-springjdbc:1.0.0/dependencies/de/jaggl/sqlbuilder/sqlbuilder-core/2.6.0/sqlbuilder-core-2.6.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.junit.jupiter.api.Test;",
+      "artifact" : {
+        "artifact" : "org.junit.jupiter:junit-jupiter-api:5.5.2",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/de.jaggl.sqlbuilder:sqlbuilder-springjdbc:1.0.0/dependencies/org/junit/jupiter/junit-jupiter-api/5.5.2/junit-jupiter-api-5.5.2.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.sql.SQLException;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import static org.powermock.api.easymock.PowerMock.replayAll;",
+      "artifact" : {
+        "artifact" : "org.powermock:powermock-api-easymock:2.0.2",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/de.jaggl.sqlbuilder:sqlbuilder-springjdbc:1.0.0/dependencies/org/powermock/powermock-api-easymock/2.0.2/powermock-api-easymock-2.0.2.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import static de.jaggl.sqlbuilder.springjdbc.builders.SqlOperations.insert;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import static org.assertj.core.api.Assertions.assertThat;",
+      "artifact" : {
+        "artifact" : "org.assertj:assertj-core:3.11.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/de.jaggl.sqlbuilder:sqlbuilder-springjdbc:1.0.0/dependencies/org/assertj/assertj-core/3.11.1/assertj-core-3.11.1.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import static org.powermock.api.easymock.PowerMock.verifyAll;",
+      "artifact" : {
+        "artifact" : "org.powermock:powermock-api-easymock:2.0.2",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/de.jaggl.sqlbuilder:sqlbuilder-springjdbc:1.0.0/dependencies/org/powermock/powermock-api-easymock/2.0.2/powermock-api-easymock-2.0.2.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import static de.jaggl.sqlbuilder.springjdbc.builders.SqlOperations.insertBuilder;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import javax.sql.DataSource;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import static org.powermock.api.easymock.PowerMock.createNiceMock;",
+      "artifact" : {
+        "artifact" : "org.powermock:powermock-api-easymock:2.0.2",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/de.jaggl.sqlbuilder:sqlbuilder-springjdbc:1.0.0/dependencies/org/powermock/powermock-api-easymock/2.0.2/powermock-api-easymock-2.0.2.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.sql.Connection;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.sql.DatabaseMetaData;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import static org.easymock.EasyMock.expect;",
+      "artifact" : {
+        "artifact" : "org.easymock:easymock:4.0.2",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/de.jaggl.sqlbuilder:sqlbuilder-springjdbc:1.0.0/dependencies/org/easymock/easymock/4.0.2/easymock-4.0.2.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import static java.lang.Boolean.TRUE;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/de.jaggl.sqlbuilder:sqlbuilder-springjdbc/src/test/java/de/jaggl/sqlbuilder/springjdbc/builders/utils/SingletonRowMapperSqlQueryTest.java",
+    "useImportReport" : [ {
+      "importPath" : "import org.junit.jupiter.api.Test;",
+      "artifact" : {
+        "artifact" : "org.junit.jupiter:junit-jupiter-api:5.5.2",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/de.jaggl.sqlbuilder:sqlbuilder-springjdbc:1.0.0/dependencies/org/junit/jupiter/junit-jupiter-api/5.5.2/junit-jupiter-api-5.5.2.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import static org.powermock.api.easymock.PowerMock.createStrictMock;",
+      "artifact" : {
+        "artifact" : "org.powermock:powermock-api-easymock:2.0.2",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/de.jaggl.sqlbuilder:sqlbuilder-springjdbc:1.0.0/dependencies/org/powermock/powermock-api-easymock/2.0.2/powermock-api-easymock-2.0.2.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.springframework.jdbc.core.RowMapper;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-jdbc:5.2.2.RELEASE",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/de.jaggl.sqlbuilder:sqlbuilder-springjdbc:1.0.0/dependencies/org/springframework/spring-jdbc/5.2.2.RELEASE/spring-jdbc-5.2.2.RELEASE.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import javax.sql.DataSource;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import static org.assertj.core.api.Assertions.assertThat;",
+      "artifact" : {
+        "artifact" : "org.assertj:assertj-core:3.11.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/de.jaggl.sqlbuilder:sqlbuilder-springjdbc:1.0.0/dependencies/org/assertj/assertj-core/3.11.1/assertj-core-3.11.1.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.HashMap;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/de.jaggl.sqlbuilder:sqlbuilder-springjdbc/src/test/java/de/jaggl/sqlbuilder/springjdbc/builders/SelectFromSelectBuilderTest.java",
+    "useImportReport" : [ {
+      "importPath" : "import de.jaggl.sqlbuilder.schema.Table;",
+      "artifact" : {
+        "artifact" : "de.jaggl.sqlbuilder:sqlbuilder-core:2.6.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/de.jaggl.sqlbuilder:sqlbuilder-springjdbc:1.0.0/dependencies/de/jaggl/sqlbuilder/sqlbuilder-core/2.6.0/sqlbuilder-core-2.6.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.junit.jupiter.api.Test;",
+      "artifact" : {
+        "artifact" : "org.junit.jupiter:junit-jupiter-api:5.5.2",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/de.jaggl.sqlbuilder:sqlbuilder-springjdbc:1.0.0/dependencies/org/junit/jupiter/junit-jupiter-api/5.5.2/junit-jupiter-api-5.5.2.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import static org.powermock.api.easymock.PowerMock.createNiceMock;",
+      "artifact" : {
+        "artifact" : "org.powermock:powermock-api-easymock:2.0.2",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/de.jaggl.sqlbuilder:sqlbuilder-springjdbc:1.0.0/dependencies/org/powermock/powermock-api-easymock/2.0.2/powermock-api-easymock-2.0.2.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import javax.sql.DataSource;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import static de.jaggl.sqlbuilder.queries.Queries.select;",
+      "artifact" : {
+        "artifact" : "de.jaggl.sqlbuilder:sqlbuilder-core:2.6.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/de.jaggl.sqlbuilder:sqlbuilder-springjdbc:1.0.0/dependencies/de/jaggl/sqlbuilder/sqlbuilder-core/2.6.0/sqlbuilder-core-2.6.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import static org.assertj.core.api.Assertions.assertThat;",
+      "artifact" : {
+        "artifact" : "org.assertj:assertj-core:3.11.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/de.jaggl.sqlbuilder:sqlbuilder-springjdbc:1.0.0/dependencies/org/assertj/assertj-core/3.11.1/assertj-core-3.11.1.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import static de.jaggl.sqlbuilder.dialect.Dialects.MYSQL;",
+      "artifact" : {
+        "artifact" : "de.jaggl.sqlbuilder:sqlbuilder-core:2.6.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/de.jaggl.sqlbuilder:sqlbuilder-springjdbc:1.0.0/dependencies/de/jaggl/sqlbuilder/sqlbuilder-core/2.6.0/sqlbuilder-core-2.6.0.jar"
+      },
+      "isDirectDependency" : true
+    } ],
+    "unusedImportReport" : [ {
+      "importPath" : "import static de.jaggl.sqlbuilder.springjdbc.builders.SqlOperations.select;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/de.jaggl.sqlbuilder:sqlbuilder-springjdbc/src/test/java/de/jaggl/sqlbuilder/springjdbc/builders/UpdateFromUpdateBuilderTest.java",
+    "useImportReport" : [ {
+      "importPath" : "import de.jaggl.sqlbuilder.schema.Schema;",
+      "artifact" : {
+        "artifact" : "de.jaggl.sqlbuilder:sqlbuilder-core:2.6.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/de.jaggl.sqlbuilder:sqlbuilder-springjdbc:1.0.0/dependencies/de/jaggl/sqlbuilder/sqlbuilder-core/2.6.0/sqlbuilder-core-2.6.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import de.jaggl.sqlbuilder.schema.Table;",
+      "artifact" : {
+        "artifact" : "de.jaggl.sqlbuilder:sqlbuilder-core:2.6.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/de.jaggl.sqlbuilder:sqlbuilder-springjdbc:1.0.0/dependencies/de/jaggl/sqlbuilder/sqlbuilder-core/2.6.0/sqlbuilder-core-2.6.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import de.jaggl.sqlbuilder.columns.string.VarCharColumn;",
+      "artifact" : {
+        "artifact" : "de.jaggl.sqlbuilder:sqlbuilder-core:2.6.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/de.jaggl.sqlbuilder:sqlbuilder-springjdbc:1.0.0/dependencies/de/jaggl/sqlbuilder/sqlbuilder-core/2.6.0/sqlbuilder-core-2.6.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.junit.jupiter.api.Test;",
+      "artifact" : {
+        "artifact" : "org.junit.jupiter:junit-jupiter-api:5.5.2",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/de.jaggl.sqlbuilder:sqlbuilder-springjdbc:1.0.0/dependencies/org/junit/jupiter/junit-jupiter-api/5.5.2/junit-jupiter-api-5.5.2.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.sql.SQLException;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import static de.jaggl.sqlbuilder.queries.Queries.update;",
+      "artifact" : {
+        "artifact" : "de.jaggl.sqlbuilder:sqlbuilder-core:2.6.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/de.jaggl.sqlbuilder:sqlbuilder-springjdbc:1.0.0/dependencies/de/jaggl/sqlbuilder/sqlbuilder-core/2.6.0/sqlbuilder-core-2.6.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import static de.jaggl.sqlbuilder.domain.Placeholder.placeholder;",
+      "artifact" : {
+        "artifact" : "de.jaggl.sqlbuilder:sqlbuilder-core:2.6.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/de.jaggl.sqlbuilder:sqlbuilder-springjdbc:1.0.0/dependencies/de/jaggl/sqlbuilder/sqlbuilder-core/2.6.0/sqlbuilder-core-2.6.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import static org.powermock.api.easymock.PowerMock.replayAll;",
+      "artifact" : {
+        "artifact" : "org.powermock:powermock-api-easymock:2.0.2",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/de.jaggl.sqlbuilder:sqlbuilder-springjdbc:1.0.0/dependencies/org/powermock/powermock-api-easymock/2.0.2/powermock-api-easymock-2.0.2.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import static org.powermock.api.easymock.PowerMock.verifyAll;",
+      "artifact" : {
+        "artifact" : "org.powermock:powermock-api-easymock:2.0.2",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/de.jaggl.sqlbuilder:sqlbuilder-springjdbc:1.0.0/dependencies/org/powermock/powermock-api-easymock/2.0.2/powermock-api-easymock-2.0.2.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import static org.assertj.core.api.Assertions.assertThat;",
+      "artifact" : {
+        "artifact" : "org.assertj:assertj-core:3.11.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/de.jaggl.sqlbuilder:sqlbuilder-springjdbc:1.0.0/dependencies/org/assertj/assertj-core/3.11.1/assertj-core-3.11.1.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import static de.jaggl.sqlbuilder.dialect.Dialects.MYSQL;",
+      "artifact" : {
+        "artifact" : "de.jaggl.sqlbuilder:sqlbuilder-core:2.6.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/de.jaggl.sqlbuilder:sqlbuilder-springjdbc:1.0.0/dependencies/de/jaggl/sqlbuilder/sqlbuilder-core/2.6.0/sqlbuilder-core-2.6.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import javax.sql.DataSource;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import static org.powermock.api.easymock.PowerMock.createNiceMock;",
+      "artifact" : {
+        "artifact" : "org.powermock:powermock-api-easymock:2.0.2",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/de.jaggl.sqlbuilder:sqlbuilder-springjdbc:1.0.0/dependencies/org/powermock/powermock-api-easymock/2.0.2/powermock-api-easymock-2.0.2.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.sql.Connection;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.sql.DatabaseMetaData;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import static org.easymock.EasyMock.expect;",
+      "artifact" : {
+        "artifact" : "org.easymock:easymock:4.0.2",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/de.jaggl.sqlbuilder:sqlbuilder-springjdbc:1.0.0/dependencies/org/easymock/easymock/4.0.2/easymock-4.0.2.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import static java.lang.Boolean.TRUE;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ {
+      "importPath" : "import static de.jaggl.sqlbuilder.springjdbc.builders.SqlOperations.update;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/de.jaggl.sqlbuilder:sqlbuilder-springjdbc/src/test/java/de/jaggl/sqlbuilder/springjdbc/builders/InsertFromInsertBuilderTest.java",
+    "useImportReport" : [ {
+      "importPath" : "import de.jaggl.sqlbuilder.schema.Schema;",
+      "artifact" : {
+        "artifact" : "de.jaggl.sqlbuilder:sqlbuilder-core:2.6.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/de.jaggl.sqlbuilder:sqlbuilder-springjdbc:1.0.0/dependencies/de/jaggl/sqlbuilder/sqlbuilder-core/2.6.0/sqlbuilder-core-2.6.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import de.jaggl.sqlbuilder.schema.Table;",
+      "artifact" : {
+        "artifact" : "de.jaggl.sqlbuilder:sqlbuilder-core:2.6.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/de.jaggl.sqlbuilder:sqlbuilder-springjdbc:1.0.0/dependencies/de/jaggl/sqlbuilder/sqlbuilder-core/2.6.0/sqlbuilder-core-2.6.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import de.jaggl.sqlbuilder.columns.string.VarCharColumn;",
+      "artifact" : {
+        "artifact" : "de.jaggl.sqlbuilder:sqlbuilder-core:2.6.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/de.jaggl.sqlbuilder:sqlbuilder-springjdbc:1.0.0/dependencies/de/jaggl/sqlbuilder/sqlbuilder-core/2.6.0/sqlbuilder-core-2.6.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.junit.jupiter.api.Test;",
+      "artifact" : {
+        "artifact" : "org.junit.jupiter:junit-jupiter-api:5.5.2",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/de.jaggl.sqlbuilder:sqlbuilder-springjdbc:1.0.0/dependencies/org/junit/jupiter/junit-jupiter-api/5.5.2/junit-jupiter-api-5.5.2.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.sql.SQLException;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import static de.jaggl.sqlbuilder.queries.Queries.insertInto;",
+      "artifact" : {
+        "artifact" : "de.jaggl.sqlbuilder:sqlbuilder-core:2.6.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/de.jaggl.sqlbuilder:sqlbuilder-springjdbc:1.0.0/dependencies/de/jaggl/sqlbuilder/sqlbuilder-core/2.6.0/sqlbuilder-core-2.6.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import static de.jaggl.sqlbuilder.domain.Placeholder.placeholder;",
+      "artifact" : {
+        "artifact" : "de.jaggl.sqlbuilder:sqlbuilder-core:2.6.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/de.jaggl.sqlbuilder:sqlbuilder-springjdbc:1.0.0/dependencies/de/jaggl/sqlbuilder/sqlbuilder-core/2.6.0/sqlbuilder-core-2.6.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import static org.powermock.api.easymock.PowerMock.replayAll;",
+      "artifact" : {
+        "artifact" : "org.powermock:powermock-api-easymock:2.0.2",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/de.jaggl.sqlbuilder:sqlbuilder-springjdbc:1.0.0/dependencies/org/powermock/powermock-api-easymock/2.0.2/powermock-api-easymock-2.0.2.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import static de.jaggl.sqlbuilder.springjdbc.builders.SqlOperations.insert;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import static org.powermock.api.easymock.PowerMock.verifyAll;",
+      "artifact" : {
+        "artifact" : "org.powermock:powermock-api-easymock:2.0.2",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/de.jaggl.sqlbuilder:sqlbuilder-springjdbc:1.0.0/dependencies/org/powermock/powermock-api-easymock/2.0.2/powermock-api-easymock-2.0.2.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import static org.assertj.core.api.Assertions.assertThat;",
+      "artifact" : {
+        "artifact" : "org.assertj:assertj-core:3.11.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/de.jaggl.sqlbuilder:sqlbuilder-springjdbc:1.0.0/dependencies/org/assertj/assertj-core/3.11.1/assertj-core-3.11.1.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import static de.jaggl.sqlbuilder.dialect.Dialects.MYSQL;",
+      "artifact" : {
+        "artifact" : "de.jaggl.sqlbuilder:sqlbuilder-core:2.6.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/de.jaggl.sqlbuilder:sqlbuilder-springjdbc:1.0.0/dependencies/de/jaggl/sqlbuilder/sqlbuilder-core/2.6.0/sqlbuilder-core-2.6.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import javax.sql.DataSource;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import static org.powermock.api.easymock.PowerMock.createNiceMock;",
+      "artifact" : {
+        "artifact" : "org.powermock:powermock-api-easymock:2.0.2",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/de.jaggl.sqlbuilder:sqlbuilder-springjdbc:1.0.0/dependencies/org/powermock/powermock-api-easymock/2.0.2/powermock-api-easymock-2.0.2.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.sql.Connection;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.sql.DatabaseMetaData;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import static org.easymock.EasyMock.expect;",
+      "artifact" : {
+        "artifact" : "org.easymock:easymock:4.0.2",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/de.jaggl.sqlbuilder:sqlbuilder-springjdbc:1.0.0/dependencies/org/easymock/easymock/4.0.2/easymock-4.0.2.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import static java.lang.Boolean.TRUE;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/de.jaggl.sqlbuilder:sqlbuilder-springjdbc/src/test/java/de/jaggl/sqlbuilder/springjdbc/builders/SelectFromTableBuilderTest.java",
+    "useImportReport" : [ {
+      "importPath" : "import de.jaggl.sqlbuilder.schema.Schema;",
+      "artifact" : {
+        "artifact" : "de.jaggl.sqlbuilder:sqlbuilder-core:2.6.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/de.jaggl.sqlbuilder:sqlbuilder-springjdbc:1.0.0/dependencies/de/jaggl/sqlbuilder/sqlbuilder-core/2.6.0/sqlbuilder-core-2.6.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import de.jaggl.sqlbuilder.schema.Table;",
+      "artifact" : {
+        "artifact" : "de.jaggl.sqlbuilder:sqlbuilder-core:2.6.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/de.jaggl.sqlbuilder:sqlbuilder-springjdbc:1.0.0/dependencies/de/jaggl/sqlbuilder/sqlbuilder-core/2.6.0/sqlbuilder-core-2.6.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import de.jaggl.sqlbuilder.columns.number.integer.BigIntColumn;",
+      "artifact" : {
+        "artifact" : "de.jaggl.sqlbuilder:sqlbuilder-core:2.6.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/de.jaggl.sqlbuilder:sqlbuilder-springjdbc:1.0.0/dependencies/de/jaggl/sqlbuilder/sqlbuilder-core/2.6.0/sqlbuilder-core-2.6.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import de.jaggl.sqlbuilder.columns.string.VarCharColumn;",
+      "artifact" : {
+        "artifact" : "de.jaggl.sqlbuilder:sqlbuilder-core:2.6.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/de.jaggl.sqlbuilder:sqlbuilder-springjdbc:1.0.0/dependencies/de/jaggl/sqlbuilder/sqlbuilder-core/2.6.0/sqlbuilder-core-2.6.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.junit.jupiter.api.Test;",
+      "artifact" : {
+        "artifact" : "org.junit.jupiter:junit-jupiter-api:5.5.2",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/de.jaggl.sqlbuilder:sqlbuilder-springjdbc:1.0.0/dependencies/org/junit/jupiter/junit-jupiter-api/5.5.2/junit-jupiter-api-5.5.2.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.sql.SQLException;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import static org.powermock.api.easymock.PowerMock.replayAll;",
+      "artifact" : {
+        "artifact" : "org.powermock:powermock-api-easymock:2.0.2",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/de.jaggl.sqlbuilder:sqlbuilder-springjdbc:1.0.0/dependencies/org/powermock/powermock-api-easymock/2.0.2/powermock-api-easymock-2.0.2.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import static de.jaggl.sqlbuilder.springjdbc.builders.SqlOperations.selectOne;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import static org.powermock.api.easymock.PowerMock.verifyAll;",
+      "artifact" : {
+        "artifact" : "org.powermock:powermock-api-easymock:2.0.2",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/de.jaggl.sqlbuilder:sqlbuilder-springjdbc:1.0.0/dependencies/org/powermock/powermock-api-easymock/2.0.2/powermock-api-easymock-2.0.2.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import static org.assertj.core.api.Assertions.assertThat;",
+      "artifact" : {
+        "artifact" : "org.assertj:assertj-core:3.11.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/de.jaggl.sqlbuilder:sqlbuilder-springjdbc:1.0.0/dependencies/org/assertj/assertj-core/3.11.1/assertj-core-3.11.1.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import static de.jaggl.sqlbuilder.springjdbc.builders.SqlOperations.selectAll;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import static de.jaggl.sqlbuilder.dialect.Dialects.MYSQL;",
+      "artifact" : {
+        "artifact" : "de.jaggl.sqlbuilder:sqlbuilder-core:2.6.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/de.jaggl.sqlbuilder:sqlbuilder-springjdbc:1.0.0/dependencies/de/jaggl/sqlbuilder/sqlbuilder-core/2.6.0/sqlbuilder-core-2.6.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import static de.jaggl.sqlbuilder.springjdbc.builders.SqlOperations.selectBuilder;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import static org.assertj.core.api.Assertions.assertThatThrownBy;",
+      "artifact" : {
+        "artifact" : "org.assertj:assertj-core:3.11.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/de.jaggl.sqlbuilder:sqlbuilder-springjdbc:1.0.0/dependencies/org/assertj/assertj-core/3.11.1/assertj-core-3.11.1.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import static de.jaggl.sqlbuilder.domain.Placeholder.placeholder;",
+      "artifact" : {
+        "artifact" : "de.jaggl.sqlbuilder:sqlbuilder-core:2.6.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/de.jaggl.sqlbuilder:sqlbuilder-springjdbc:1.0.0/dependencies/de/jaggl/sqlbuilder/sqlbuilder-core/2.6.0/sqlbuilder-core-2.6.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import javax.sql.DataSource;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import static org.powermock.api.easymock.PowerMock.createNiceMock;",
+      "artifact" : {
+        "artifact" : "org.powermock:powermock-api-easymock:2.0.2",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/de.jaggl.sqlbuilder:sqlbuilder-springjdbc:1.0.0/dependencies/org/powermock/powermock-api-easymock/2.0.2/powermock-api-easymock-2.0.2.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.sql.Connection;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.sql.DatabaseMetaData;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import static org.easymock.EasyMock.expect;",
+      "artifact" : {
+        "artifact" : "org.easymock:easymock:4.0.2",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/de.jaggl.sqlbuilder:sqlbuilder-springjdbc:1.0.0/dependencies/org/easymock/easymock/4.0.2/easymock-4.0.2.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import static java.lang.Boolean.TRUE;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/de.jaggl.sqlbuilder:sqlbuilder-springjdbc/src/test/java/de/jaggl/sqlbuilder/springjdbc/builders/UpdateFromTableBuilderTest.java",
+    "useImportReport" : [ {
+      "importPath" : "import de.jaggl.sqlbuilder.schema.Schema;",
+      "artifact" : {
+        "artifact" : "de.jaggl.sqlbuilder:sqlbuilder-core:2.6.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/de.jaggl.sqlbuilder:sqlbuilder-springjdbc:1.0.0/dependencies/de/jaggl/sqlbuilder/sqlbuilder-core/2.6.0/sqlbuilder-core-2.6.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import de.jaggl.sqlbuilder.schema.Table;",
+      "artifact" : {
+        "artifact" : "de.jaggl.sqlbuilder:sqlbuilder-core:2.6.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/de.jaggl.sqlbuilder:sqlbuilder-springjdbc:1.0.0/dependencies/de/jaggl/sqlbuilder/sqlbuilder-core/2.6.0/sqlbuilder-core-2.6.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import de.jaggl.sqlbuilder.columns.number.integer.BigIntColumn;",
+      "artifact" : {
+        "artifact" : "de.jaggl.sqlbuilder:sqlbuilder-core:2.6.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/de.jaggl.sqlbuilder:sqlbuilder-springjdbc:1.0.0/dependencies/de/jaggl/sqlbuilder/sqlbuilder-core/2.6.0/sqlbuilder-core-2.6.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import de.jaggl.sqlbuilder.columns.string.VarCharColumn;",
+      "artifact" : {
+        "artifact" : "de.jaggl.sqlbuilder:sqlbuilder-core:2.6.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/de.jaggl.sqlbuilder:sqlbuilder-springjdbc:1.0.0/dependencies/de/jaggl/sqlbuilder/sqlbuilder-core/2.6.0/sqlbuilder-core-2.6.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.junit.jupiter.api.Test;",
+      "artifact" : {
+        "artifact" : "org.junit.jupiter:junit-jupiter-api:5.5.2",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/de.jaggl.sqlbuilder:sqlbuilder-springjdbc:1.0.0/dependencies/org/junit/jupiter/junit-jupiter-api/5.5.2/junit-jupiter-api-5.5.2.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.sql.SQLException;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import static org.powermock.api.easymock.PowerMock.replayAll;",
+      "artifact" : {
+        "artifact" : "org.powermock:powermock-api-easymock:2.0.2",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/de.jaggl.sqlbuilder:sqlbuilder-springjdbc:1.0.0/dependencies/org/powermock/powermock-api-easymock/2.0.2/powermock-api-easymock-2.0.2.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import static de.jaggl.sqlbuilder.springjdbc.builders.SqlOperations.update;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import static org.powermock.api.easymock.PowerMock.verifyAll;",
+      "artifact" : {
+        "artifact" : "org.powermock:powermock-api-easymock:2.0.2",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/de.jaggl.sqlbuilder:sqlbuilder-springjdbc:1.0.0/dependencies/org/powermock/powermock-api-easymock/2.0.2/powermock-api-easymock-2.0.2.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import static org.assertj.core.api.Assertions.assertThat;",
+      "artifact" : {
+        "artifact" : "org.assertj:assertj-core:3.11.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/de.jaggl.sqlbuilder:sqlbuilder-springjdbc:1.0.0/dependencies/org/assertj/assertj-core/3.11.1/assertj-core-3.11.1.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import static de.jaggl.sqlbuilder.dialect.Dialects.MYSQL;",
+      "artifact" : {
+        "artifact" : "de.jaggl.sqlbuilder:sqlbuilder-core:2.6.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/de.jaggl.sqlbuilder:sqlbuilder-springjdbc:1.0.0/dependencies/de/jaggl/sqlbuilder/sqlbuilder-core/2.6.0/sqlbuilder-core-2.6.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import static de.jaggl.sqlbuilder.springjdbc.builders.SqlOperations.updateBuilder;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import static org.assertj.core.api.Assertions.assertThatThrownBy;",
+      "artifact" : {
+        "artifact" : "org.assertj:assertj-core:3.11.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/de.jaggl.sqlbuilder:sqlbuilder-springjdbc:1.0.0/dependencies/org/assertj/assertj-core/3.11.1/assertj-core-3.11.1.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import static de.jaggl.sqlbuilder.domain.Placeholder.placeholder;",
+      "artifact" : {
+        "artifact" : "de.jaggl.sqlbuilder:sqlbuilder-core:2.6.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/de.jaggl.sqlbuilder:sqlbuilder-springjdbc:1.0.0/dependencies/de/jaggl/sqlbuilder/sqlbuilder-core/2.6.0/sqlbuilder-core-2.6.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import javax.sql.DataSource;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import static org.powermock.api.easymock.PowerMock.createNiceMock;",
+      "artifact" : {
+        "artifact" : "org.powermock:powermock-api-easymock:2.0.2",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/de.jaggl.sqlbuilder:sqlbuilder-springjdbc:1.0.0/dependencies/org/powermock/powermock-api-easymock/2.0.2/powermock-api-easymock-2.0.2.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.sql.Connection;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.sql.DatabaseMetaData;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import static org.easymock.EasyMock.expect;",
+      "artifact" : {
+        "artifact" : "org.easymock:easymock:4.0.2",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/de.jaggl.sqlbuilder:sqlbuilder-springjdbc:1.0.0/dependencies/org/easymock/easymock/4.0.2/easymock-4.0.2.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import static java.lang.Boolean.TRUE;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/de.jaggl.sqlbuilder:sqlbuilder-springjdbc/src/test/java/de/jaggl/sqlbuilder/springjdbc/builders/DeleteFromDeleteBuilderTest.java",
+    "useImportReport" : [ {
+      "importPath" : "import de.jaggl.sqlbuilder.schema.Schema;",
+      "artifact" : {
+        "artifact" : "de.jaggl.sqlbuilder:sqlbuilder-core:2.6.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/de.jaggl.sqlbuilder:sqlbuilder-springjdbc:1.0.0/dependencies/de/jaggl/sqlbuilder/sqlbuilder-core/2.6.0/sqlbuilder-core-2.6.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import de.jaggl.sqlbuilder.schema.Table;",
+      "artifact" : {
+        "artifact" : "de.jaggl.sqlbuilder:sqlbuilder-core:2.6.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/de.jaggl.sqlbuilder:sqlbuilder-springjdbc:1.0.0/dependencies/de/jaggl/sqlbuilder/sqlbuilder-core/2.6.0/sqlbuilder-core-2.6.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import de.jaggl.sqlbuilder.columns.string.VarCharColumn;",
+      "artifact" : {
+        "artifact" : "de.jaggl.sqlbuilder:sqlbuilder-core:2.6.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/de.jaggl.sqlbuilder:sqlbuilder-springjdbc:1.0.0/dependencies/de/jaggl/sqlbuilder/sqlbuilder-core/2.6.0/sqlbuilder-core-2.6.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.junit.jupiter.api.Test;",
+      "artifact" : {
+        "artifact" : "org.junit.jupiter:junit-jupiter-api:5.5.2",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/de.jaggl.sqlbuilder:sqlbuilder-springjdbc:1.0.0/dependencies/org/junit/jupiter/junit-jupiter-api/5.5.2/junit-jupiter-api-5.5.2.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.sql.SQLException;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import static de.jaggl.sqlbuilder.queries.Queries.deleteFrom;",
+      "artifact" : {
+        "artifact" : "de.jaggl.sqlbuilder:sqlbuilder-core:2.6.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/de.jaggl.sqlbuilder:sqlbuilder-springjdbc:1.0.0/dependencies/de/jaggl/sqlbuilder/sqlbuilder-core/2.6.0/sqlbuilder-core-2.6.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import static de.jaggl.sqlbuilder.domain.Placeholder.placeholder;",
+      "artifact" : {
+        "artifact" : "de.jaggl.sqlbuilder:sqlbuilder-core:2.6.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/de.jaggl.sqlbuilder:sqlbuilder-springjdbc:1.0.0/dependencies/de/jaggl/sqlbuilder/sqlbuilder-core/2.6.0/sqlbuilder-core-2.6.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import static org.powermock.api.easymock.PowerMock.replayAll;",
+      "artifact" : {
+        "artifact" : "org.powermock:powermock-api-easymock:2.0.2",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/de.jaggl.sqlbuilder:sqlbuilder-springjdbc:1.0.0/dependencies/org/powermock/powermock-api-easymock/2.0.2/powermock-api-easymock-2.0.2.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import static de.jaggl.sqlbuilder.springjdbc.builders.SqlOperations.delete;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import static org.powermock.api.easymock.PowerMock.verifyAll;",
+      "artifact" : {
+        "artifact" : "org.powermock:powermock-api-easymock:2.0.2",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/de.jaggl.sqlbuilder:sqlbuilder-springjdbc:1.0.0/dependencies/org/powermock/powermock-api-easymock/2.0.2/powermock-api-easymock-2.0.2.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import static org.assertj.core.api.Assertions.assertThat;",
+      "artifact" : {
+        "artifact" : "org.assertj:assertj-core:3.11.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/de.jaggl.sqlbuilder:sqlbuilder-springjdbc:1.0.0/dependencies/org/assertj/assertj-core/3.11.1/assertj-core-3.11.1.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import static de.jaggl.sqlbuilder.dialect.Dialects.MYSQL;",
+      "artifact" : {
+        "artifact" : "de.jaggl.sqlbuilder:sqlbuilder-core:2.6.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/de.jaggl.sqlbuilder:sqlbuilder-springjdbc:1.0.0/dependencies/de/jaggl/sqlbuilder/sqlbuilder-core/2.6.0/sqlbuilder-core-2.6.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import javax.sql.DataSource;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import static org.powermock.api.easymock.PowerMock.createNiceMock;",
+      "artifact" : {
+        "artifact" : "org.powermock:powermock-api-easymock:2.0.2",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/de.jaggl.sqlbuilder:sqlbuilder-springjdbc:1.0.0/dependencies/org/powermock/powermock-api-easymock/2.0.2/powermock-api-easymock-2.0.2.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.sql.Connection;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.sql.DatabaseMetaData;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import static org.easymock.EasyMock.expect;",
+      "artifact" : {
+        "artifact" : "org.easymock:easymock:4.0.2",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/de.jaggl.sqlbuilder:sqlbuilder-springjdbc:1.0.0/dependencies/org/easymock/easymock/4.0.2/easymock-4.0.2.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import static java.lang.Boolean.TRUE;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/de.jaggl.sqlbuilder:sqlbuilder-springjdbc/src/test/java/de/jaggl/sqlbuilder/springjdbc/builders/DeleteFromTableBuilderTest.java",
+    "useImportReport" : [ {
+      "importPath" : "import de.jaggl.sqlbuilder.schema.Schema;",
+      "artifact" : {
+        "artifact" : "de.jaggl.sqlbuilder:sqlbuilder-core:2.6.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/de.jaggl.sqlbuilder:sqlbuilder-springjdbc:1.0.0/dependencies/de/jaggl/sqlbuilder/sqlbuilder-core/2.6.0/sqlbuilder-core-2.6.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import de.jaggl.sqlbuilder.schema.Table;",
+      "artifact" : {
+        "artifact" : "de.jaggl.sqlbuilder:sqlbuilder-core:2.6.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/de.jaggl.sqlbuilder:sqlbuilder-springjdbc:1.0.0/dependencies/de/jaggl/sqlbuilder/sqlbuilder-core/2.6.0/sqlbuilder-core-2.6.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import de.jaggl.sqlbuilder.columns.number.integer.BigIntColumn;",
+      "artifact" : {
+        "artifact" : "de.jaggl.sqlbuilder:sqlbuilder-core:2.6.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/de.jaggl.sqlbuilder:sqlbuilder-springjdbc:1.0.0/dependencies/de/jaggl/sqlbuilder/sqlbuilder-core/2.6.0/sqlbuilder-core-2.6.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import de.jaggl.sqlbuilder.columns.string.VarCharColumn;",
+      "artifact" : {
+        "artifact" : "de.jaggl.sqlbuilder:sqlbuilder-core:2.6.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/de.jaggl.sqlbuilder:sqlbuilder-springjdbc:1.0.0/dependencies/de/jaggl/sqlbuilder/sqlbuilder-core/2.6.0/sqlbuilder-core-2.6.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.junit.jupiter.api.Test;",
+      "artifact" : {
+        "artifact" : "org.junit.jupiter:junit-jupiter-api:5.5.2",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/de.jaggl.sqlbuilder:sqlbuilder-springjdbc:1.0.0/dependencies/org/junit/jupiter/junit-jupiter-api/5.5.2/junit-jupiter-api-5.5.2.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.sql.SQLException;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import static org.powermock.api.easymock.PowerMock.replayAll;",
+      "artifact" : {
+        "artifact" : "org.powermock:powermock-api-easymock:2.0.2",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/de.jaggl.sqlbuilder:sqlbuilder-springjdbc:1.0.0/dependencies/org/powermock/powermock-api-easymock/2.0.2/powermock-api-easymock-2.0.2.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import static de.jaggl.sqlbuilder.springjdbc.builders.SqlOperations.delete;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import static org.powermock.api.easymock.PowerMock.verifyAll;",
+      "artifact" : {
+        "artifact" : "org.powermock:powermock-api-easymock:2.0.2",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/de.jaggl.sqlbuilder:sqlbuilder-springjdbc:1.0.0/dependencies/org/powermock/powermock-api-easymock/2.0.2/powermock-api-easymock-2.0.2.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import static org.assertj.core.api.Assertions.assertThat;",
+      "artifact" : {
+        "artifact" : "org.assertj:assertj-core:3.11.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/de.jaggl.sqlbuilder:sqlbuilder-springjdbc:1.0.0/dependencies/org/assertj/assertj-core/3.11.1/assertj-core-3.11.1.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import static de.jaggl.sqlbuilder.dialect.Dialects.MYSQL;",
+      "artifact" : {
+        "artifact" : "de.jaggl.sqlbuilder:sqlbuilder-core:2.6.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/de.jaggl.sqlbuilder:sqlbuilder-springjdbc:1.0.0/dependencies/de/jaggl/sqlbuilder/sqlbuilder-core/2.6.0/sqlbuilder-core-2.6.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import static de.jaggl.sqlbuilder.springjdbc.builders.SqlOperations.deleteBuilder;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import static org.assertj.core.api.Assertions.assertThatThrownBy;",
+      "artifact" : {
+        "artifact" : "org.assertj:assertj-core:3.11.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/de.jaggl.sqlbuilder:sqlbuilder-springjdbc:1.0.0/dependencies/org/assertj/assertj-core/3.11.1/assertj-core-3.11.1.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import static de.jaggl.sqlbuilder.domain.Placeholder.placeholder;",
+      "artifact" : {
+        "artifact" : "de.jaggl.sqlbuilder:sqlbuilder-core:2.6.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/de.jaggl.sqlbuilder:sqlbuilder-springjdbc:1.0.0/dependencies/de/jaggl/sqlbuilder/sqlbuilder-core/2.6.0/sqlbuilder-core-2.6.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import javax.sql.DataSource;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import static org.powermock.api.easymock.PowerMock.createNiceMock;",
+      "artifact" : {
+        "artifact" : "org.powermock:powermock-api-easymock:2.0.2",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/de.jaggl.sqlbuilder:sqlbuilder-springjdbc:1.0.0/dependencies/org/powermock/powermock-api-easymock/2.0.2/powermock-api-easymock-2.0.2.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.sql.Connection;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.sql.DatabaseMetaData;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import static org.easymock.EasyMock.expect;",
+      "artifact" : {
+        "artifact" : "org.easymock:easymock:4.0.2",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/de.jaggl.sqlbuilder:sqlbuilder-springjdbc:1.0.0/dependencies/org/easymock/easymock/4.0.2/easymock-4.0.2.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import static java.lang.Boolean.TRUE;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/de.jaggl.sqlbuilder:sqlbuilder-springjdbc/src/test/java/de/jaggl/sqlbuilder/springjdbc/queryexecutors/SpringJdbcQueryExecutorTest.java",
+    "useImportReport" : [ {
+      "importPath" : "import de.jaggl.sqlbuilder.schema.Table;",
+      "artifact" : {
+        "artifact" : "de.jaggl.sqlbuilder:sqlbuilder-core:2.6.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/de.jaggl.sqlbuilder:sqlbuilder-springjdbc:1.0.0/dependencies/de/jaggl/sqlbuilder/sqlbuilder-core/2.6.0/sqlbuilder-core-2.6.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import de.jaggl.sqlbuilder.columns.string.VarCharColumn;",
+      "artifact" : {
+        "artifact" : "de.jaggl.sqlbuilder:sqlbuilder-core:2.6.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/de.jaggl.sqlbuilder:sqlbuilder-springjdbc:1.0.0/dependencies/de/jaggl/sqlbuilder/sqlbuilder-core/2.6.0/sqlbuilder-core-2.6.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import de.jaggl.sqlbuilder.queryexecutor.QueryExecutor;",
+      "artifact" : {
+        "artifact" : "de.jaggl.sqlbuilder:sqlbuilder-core:2.6.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/de.jaggl.sqlbuilder:sqlbuilder-springjdbc:1.0.0/dependencies/de/jaggl/sqlbuilder/sqlbuilder-core/2.6.0/sqlbuilder-core-2.6.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.springframework.jdbc.core.JdbcTemplate;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-jdbc:5.2.2.RELEASE",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/de.jaggl.sqlbuilder:sqlbuilder-springjdbc:1.0.0/dependencies/org/springframework/spring-jdbc/5.2.2.RELEASE/spring-jdbc-5.2.2.RELEASE.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import static org.powermock.api.easymock.PowerMock.createStrictMock;",
+      "artifact" : {
+        "artifact" : "org.powermock:powermock-api-easymock:2.0.2",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/de.jaggl.sqlbuilder:sqlbuilder-springjdbc:1.0.0/dependencies/org/powermock/powermock-api-easymock/2.0.2/powermock-api-easymock-2.0.2.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.junit.jupiter.api.Test;",
+      "artifact" : {
+        "artifact" : "org.junit.jupiter:junit-jupiter-api:5.5.2",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/de.jaggl.sqlbuilder:sqlbuilder-springjdbc:1.0.0/dependencies/org/junit/jupiter/junit-jupiter-api/5.5.2/junit-jupiter-api-5.5.2.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import de.jaggl.sqlbuilder.springjdbc.queryexecutors.SpringJdbcQueryExecutor;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import static org.easymock.EasyMock.expect;",
+      "artifact" : {
+        "artifact" : "org.easymock:easymock:4.0.2",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/de.jaggl.sqlbuilder:sqlbuilder-springjdbc:1.0.0/dependencies/org/easymock/easymock/4.0.2/easymock-4.0.2.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import static org.powermock.api.easymock.PowerMock.replayAll;",
+      "artifact" : {
+        "artifact" : "org.powermock:powermock-api-easymock:2.0.2",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/de.jaggl.sqlbuilder:sqlbuilder-springjdbc:1.0.0/dependencies/org/powermock/powermock-api-easymock/2.0.2/powermock-api-easymock-2.0.2.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import static de.jaggl.sqlbuilder.queries.Queries.update;",
+      "artifact" : {
+        "artifact" : "de.jaggl.sqlbuilder:sqlbuilder-core:2.6.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/de.jaggl.sqlbuilder:sqlbuilder-springjdbc:1.0.0/dependencies/de/jaggl/sqlbuilder/sqlbuilder-core/2.6.0/sqlbuilder-core-2.6.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import static org.powermock.api.easymock.PowerMock.verifyAll;",
+      "artifact" : {
+        "artifact" : "org.powermock:powermock-api-easymock:2.0.2",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/de.jaggl.sqlbuilder:sqlbuilder-springjdbc:1.0.0/dependencies/org/powermock/powermock-api-easymock/2.0.2/powermock-api-easymock-2.0.2.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import static org.assertj.core.api.Assertions.assertThat;",
+      "artifact" : {
+        "artifact" : "org.assertj:assertj-core:3.11.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/de.jaggl.sqlbuilder:sqlbuilder-springjdbc:1.0.0/dependencies/org/assertj/assertj-core/3.11.1/assertj-core-3.11.1.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import de.jaggl.sqlbuilder.dialect.Dialects;",
+      "artifact" : {
+        "artifact" : "de.jaggl.sqlbuilder:sqlbuilder-core:2.6.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/de.jaggl.sqlbuilder:sqlbuilder-springjdbc:1.0.0/dependencies/de/jaggl/sqlbuilder/sqlbuilder-core/2.6.0/sqlbuilder-core-2.6.0.jar"
+      },
+      "isDirectDependency" : true
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/de.jaggl.sqlbuilder:sqlbuilder-springjdbc/src/test/java/de/jaggl/sqlbuilder/springjdbc/queryexecutors/SpringJdbcSelectQueryExecutorTest.java",
+    "useImportReport" : [ {
+      "importPath" : "import de.jaggl.sqlbuilder.schema.Table;",
+      "artifact" : {
+        "artifact" : "de.jaggl.sqlbuilder:sqlbuilder-core:2.6.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/de.jaggl.sqlbuilder:sqlbuilder-springjdbc:1.0.0/dependencies/de/jaggl/sqlbuilder/sqlbuilder-core/2.6.0/sqlbuilder-core-2.6.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import de.jaggl.sqlbuilder.columns.string.VarCharColumn;",
+      "artifact" : {
+        "artifact" : "de.jaggl.sqlbuilder:sqlbuilder-core:2.6.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/de.jaggl.sqlbuilder:sqlbuilder-springjdbc:1.0.0/dependencies/de/jaggl/sqlbuilder/sqlbuilder-core/2.6.0/sqlbuilder-core-2.6.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import de.jaggl.sqlbuilder.queryexecutor.QueryExecutor;",
+      "artifact" : {
+        "artifact" : "de.jaggl.sqlbuilder:sqlbuilder-core:2.6.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/de.jaggl.sqlbuilder:sqlbuilder-springjdbc:1.0.0/dependencies/de/jaggl/sqlbuilder/sqlbuilder-core/2.6.0/sqlbuilder-core-2.6.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.springframework.jdbc.core.JdbcTemplate;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-jdbc:5.2.2.RELEASE",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/de.jaggl.sqlbuilder:sqlbuilder-springjdbc:1.0.0/dependencies/org/springframework/spring-jdbc/5.2.2.RELEASE/spring-jdbc-5.2.2.RELEASE.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import static org.powermock.api.easymock.PowerMock.createStrictMock;",
+      "artifact" : {
+        "artifact" : "org.powermock:powermock-api-easymock:2.0.2",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/de.jaggl.sqlbuilder:sqlbuilder-springjdbc:1.0.0/dependencies/org/powermock/powermock-api-easymock/2.0.2/powermock-api-easymock-2.0.2.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.junit.jupiter.api.Test;",
+      "artifact" : {
+        "artifact" : "org.junit.jupiter:junit-jupiter-api:5.5.2",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/de.jaggl.sqlbuilder:sqlbuilder-springjdbc:1.0.0/dependencies/org/junit/jupiter/junit-jupiter-api/5.5.2/junit-jupiter-api-5.5.2.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import static org.easymock.EasyMock.expect;",
+      "artifact" : {
+        "artifact" : "org.easymock:easymock:4.0.2",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/de.jaggl.sqlbuilder:sqlbuilder-springjdbc:1.0.0/dependencies/org/easymock/easymock/4.0.2/easymock-4.0.2.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import static org.easymock.EasyMock.eq;",
+      "artifact" : {
+        "artifact" : "org.easymock:easymock:4.0.2",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/de.jaggl.sqlbuilder:sqlbuilder-springjdbc:1.0.0/dependencies/org/easymock/easymock/4.0.2/easymock-4.0.2.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.List;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import static org.powermock.api.easymock.PowerMock.replayAll;",
+      "artifact" : {
+        "artifact" : "org.powermock:powermock-api-easymock:2.0.2",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/de.jaggl.sqlbuilder:sqlbuilder-springjdbc:1.0.0/dependencies/org/powermock/powermock-api-easymock/2.0.2/powermock-api-easymock-2.0.2.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import static de.jaggl.sqlbuilder.queries.Queries.select;",
+      "artifact" : {
+        "artifact" : "de.jaggl.sqlbuilder:sqlbuilder-core:2.6.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/de.jaggl.sqlbuilder:sqlbuilder-springjdbc:1.0.0/dependencies/de/jaggl/sqlbuilder/sqlbuilder-core/2.6.0/sqlbuilder-core-2.6.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import static org.powermock.api.easymock.PowerMock.verifyAll;",
+      "artifact" : {
+        "artifact" : "org.powermock:powermock-api-easymock:2.0.2",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/de.jaggl.sqlbuilder:sqlbuilder-springjdbc:1.0.0/dependencies/org/powermock/powermock-api-easymock/2.0.2/powermock-api-easymock-2.0.2.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import static org.assertj.core.api.Assertions.assertThat;",
+      "artifact" : {
+        "artifact" : "org.assertj:assertj-core:3.11.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/de.jaggl.sqlbuilder:sqlbuilder-springjdbc:1.0.0/dependencies/org/assertj/assertj-core/3.11.1/assertj-core-3.11.1.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import static org.easymock.EasyMock.same;",
+      "artifact" : {
+        "artifact" : "org.easymock:easymock:4.0.2",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/de.jaggl.sqlbuilder:sqlbuilder-springjdbc:1.0.0/dependencies/org/easymock/easymock/4.0.2/easymock-4.0.2.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import static org.assertj.core.api.Assertions.assertThatThrownBy;",
+      "artifact" : {
+        "artifact" : "org.assertj:assertj-core:3.11.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/de.jaggl.sqlbuilder:sqlbuilder-springjdbc:1.0.0/dependencies/org/assertj/assertj-core/3.11.1/assertj-core-3.11.1.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.springframework.dao.IncorrectResultSizeDataAccessException;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-tx:5.2.2.RELEASE",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/de.jaggl.sqlbuilder:sqlbuilder-springjdbc:1.0.0/dependencies/org/springframework/spring-tx/5.2.2.RELEASE/spring-tx-5.2.2.RELEASE.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import de.jaggl.sqlbuilder.queryexecutor.RowExtractor;",
+      "artifact" : {
+        "artifact" : "de.jaggl.sqlbuilder:sqlbuilder-core:2.6.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/de.jaggl.sqlbuilder:sqlbuilder-springjdbc:1.0.0/dependencies/de/jaggl/sqlbuilder/sqlbuilder-core/2.6.0/sqlbuilder-core-2.6.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import java.sql.ResultSet;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.sql.SQLException;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.springframework.jdbc.core.RowMapper;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-jdbc:5.2.2.RELEASE",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/de.jaggl.sqlbuilder:sqlbuilder-springjdbc:1.0.0/dependencies/org/springframework/spring-jdbc/5.2.2.RELEASE/spring-jdbc-5.2.2.RELEASE.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import static org.easymock.EasyMock.anyObject;",
+      "artifact" : {
+        "artifact" : "org.easymock:easymock:4.0.2",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/de.jaggl.sqlbuilder:sqlbuilder-springjdbc:1.0.0/dependencies/org/easymock/easymock/4.0.2/easymock-4.0.2.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import lombok.AllArgsConstructor;",
+      "artifact" : {
+        "artifact" : "org.projectlombok:lombok:1.18.10",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/de.jaggl.sqlbuilder:sqlbuilder-springjdbc:1.0.0/dependencies/org/projectlombok/lombok/1.18.10/lombok-1.18.10.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import lombok.EqualsAndHashCode;",
+      "artifact" : {
+        "artifact" : "org.projectlombok:lombok:1.18.10",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/de.jaggl.sqlbuilder:sqlbuilder-springjdbc:1.0.0/dependencies/org/projectlombok/lombok/1.18.10/lombok-1.18.10.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import lombok.Getter;",
+      "artifact" : {
+        "artifact" : "org.projectlombok:lombok:1.18.10",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/de.jaggl.sqlbuilder:sqlbuilder-springjdbc:1.0.0/dependencies/org/projectlombok/lombok/1.18.10/lombok-1.18.10.jar"
+      },
+      "isDirectDependency" : true
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/de.jaggl.sqlbuilder:sqlbuilder-springjdbc/src/main/java/de/jaggl/sqlbuilder/springjdbc/builders/UpdateFromQueryBuilder.java",
+    "useImportReport" : [ {
+      "importPath" : "import lombok.AllArgsConstructor;",
+      "artifact" : {
+        "artifact" : "org.projectlombok:lombok:1.18.10",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/de.jaggl.sqlbuilder:sqlbuilder-springjdbc:1.0.0/dependencies/org/projectlombok/lombok/1.18.10/lombok-1.18.10.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import static lombok.AccessLevel.PROTECTED;",
+      "artifact" : {
+        "artifact" : "org.projectlombok:lombok:1.18.10",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/de.jaggl.sqlbuilder:sqlbuilder-springjdbc:1.0.0/dependencies/org/projectlombok/lombok/1.18.10/lombok-1.18.10.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import javax.sql.DataSource;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import de.jaggl.sqlbuilder.dialect.Dialect;",
+      "artifact" : {
+        "artifact" : "de.jaggl.sqlbuilder:sqlbuilder-core:2.6.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/de.jaggl.sqlbuilder:sqlbuilder-springjdbc:1.0.0/dependencies/de/jaggl/sqlbuilder/sqlbuilder-core/2.6.0/sqlbuilder-core-2.6.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import java.util.List;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.springframework.jdbc.object.SqlUpdate;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-jdbc:5.2.2.RELEASE",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/de.jaggl.sqlbuilder:sqlbuilder-springjdbc:1.0.0/dependencies/org/springframework/spring-jdbc/5.2.2.RELEASE/spring-jdbc-5.2.2.RELEASE.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.springframework.jdbc.core.SqlParameter;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-jdbc:5.2.2.RELEASE",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/de.jaggl.sqlbuilder:sqlbuilder-springjdbc:1.0.0/dependencies/org/springframework/spring-jdbc/5.2.2.RELEASE/spring-jdbc-5.2.2.RELEASE.jar"
+      },
+      "isDirectDependency" : true
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/de.jaggl.sqlbuilder:sqlbuilder-springjdbc/src/main/java/de/jaggl/sqlbuilder/springjdbc/builders/DeleteFromTableBuilder.java",
+    "useImportReport" : [ {
+      "importPath" : "import lombok.RequiredArgsConstructor;",
+      "artifact" : {
+        "artifact" : "org.projectlombok:lombok:1.18.10",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/de.jaggl.sqlbuilder:sqlbuilder-springjdbc:1.0.0/dependencies/org/projectlombok/lombok/1.18.10/lombok-1.18.10.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import static lombok.AccessLevel.PACKAGE;",
+      "artifact" : {
+        "artifact" : "org.projectlombok:lombok:1.18.10",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/de.jaggl.sqlbuilder:sqlbuilder-springjdbc:1.0.0/dependencies/org/projectlombok/lombok/1.18.10/lombok-1.18.10.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import de.jaggl.sqlbuilder.schema.Table;",
+      "artifact" : {
+        "artifact" : "de.jaggl.sqlbuilder:sqlbuilder-core:2.6.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/de.jaggl.sqlbuilder:sqlbuilder-springjdbc:1.0.0/dependencies/de/jaggl/sqlbuilder/sqlbuilder-core/2.6.0/sqlbuilder-core-2.6.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import javax.sql.DataSource;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import de.jaggl.sqlbuilder.dialect.Dialect;",
+      "artifact" : {
+        "artifact" : "de.jaggl.sqlbuilder:sqlbuilder-core:2.6.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/de.jaggl.sqlbuilder:sqlbuilder-springjdbc:1.0.0/dependencies/de/jaggl/sqlbuilder/sqlbuilder-core/2.6.0/sqlbuilder-core-2.6.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import de.jaggl.sqlbuilder.conditions.Condition;",
+      "artifact" : {
+        "artifact" : "de.jaggl.sqlbuilder:sqlbuilder-core:2.6.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/de.jaggl.sqlbuilder:sqlbuilder-springjdbc:1.0.0/dependencies/de/jaggl/sqlbuilder/sqlbuilder-core/2.6.0/sqlbuilder-core-2.6.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.springframework.jdbc.object.SqlUpdate;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-jdbc:5.2.2.RELEASE",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/de.jaggl.sqlbuilder:sqlbuilder-springjdbc:1.0.0/dependencies/org/springframework/spring-jdbc/5.2.2.RELEASE/spring-jdbc-5.2.2.RELEASE.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import java.util.ArrayList;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.springframework.jdbc.core.SqlParameter;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-jdbc:5.2.2.RELEASE",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/de.jaggl.sqlbuilder:sqlbuilder-springjdbc:1.0.0/dependencies/org/springframework/spring-jdbc/5.2.2.RELEASE/spring-jdbc-5.2.2.RELEASE.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import de.jaggl.sqlbuilder.columns.Column;",
+      "artifact" : {
+        "artifact" : "de.jaggl.sqlbuilder:sqlbuilder-core:2.6.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/de.jaggl.sqlbuilder:sqlbuilder-springjdbc:1.0.0/dependencies/de/jaggl/sqlbuilder/sqlbuilder-core/2.6.0/sqlbuilder-core-2.6.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import java.util.List;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import static de.jaggl.sqlbuilder.queries.Queries.deleteFrom;",
+      "artifact" : {
+        "artifact" : "de.jaggl.sqlbuilder:sqlbuilder-core:2.6.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/de.jaggl.sqlbuilder:sqlbuilder-springjdbc:1.0.0/dependencies/de/jaggl/sqlbuilder/sqlbuilder-core/2.6.0/sqlbuilder-core-2.6.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import static org.springframework.util.CollectionUtils.isEmpty;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-core:5.2.2.RELEASE",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/de.jaggl.sqlbuilder:sqlbuilder-springjdbc:1.0.0/dependencies/org/springframework/spring-core/5.2.2.RELEASE/spring-core-5.2.2.RELEASE.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import de.jaggl.sqlbuilder.domain.Placeholder;",
+      "artifact" : {
+        "artifact" : "de.jaggl.sqlbuilder:sqlbuilder-core:2.6.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/de.jaggl.sqlbuilder:sqlbuilder-springjdbc:1.0.0/dependencies/de/jaggl/sqlbuilder/sqlbuilder-core/2.6.0/sqlbuilder-core-2.6.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import static de.jaggl.sqlbuilder.domain.Placeholder.placeholder;",
+      "artifact" : {
+        "artifact" : "de.jaggl.sqlbuilder:sqlbuilder-core:2.6.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/de.jaggl.sqlbuilder:sqlbuilder-springjdbc:1.0.0/dependencies/de/jaggl/sqlbuilder/sqlbuilder-core/2.6.0/sqlbuilder-core-2.6.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import static java.util.stream.Collectors.toList;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.text.MessageFormat;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/de.jaggl.sqlbuilder:sqlbuilder-springjdbc/src/main/java/de/jaggl/sqlbuilder/springjdbc/builders/InsertFromTableBuilder.java",
+    "useImportReport" : [ {
+      "importPath" : "import lombok.RequiredArgsConstructor;",
+      "artifact" : {
+        "artifact" : "org.projectlombok:lombok:1.18.10",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/de.jaggl.sqlbuilder:sqlbuilder-springjdbc:1.0.0/dependencies/org/projectlombok/lombok/1.18.10/lombok-1.18.10.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import static lombok.AccessLevel.PACKAGE;",
+      "artifact" : {
+        "artifact" : "org.projectlombok:lombok:1.18.10",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/de.jaggl.sqlbuilder:sqlbuilder-springjdbc:1.0.0/dependencies/org/projectlombok/lombok/1.18.10/lombok-1.18.10.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import de.jaggl.sqlbuilder.schema.Table;",
+      "artifact" : {
+        "artifact" : "de.jaggl.sqlbuilder:sqlbuilder-core:2.6.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/de.jaggl.sqlbuilder:sqlbuilder-springjdbc:1.0.0/dependencies/de/jaggl/sqlbuilder/sqlbuilder-core/2.6.0/sqlbuilder-core-2.6.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import javax.sql.DataSource;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.List;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import de.jaggl.sqlbuilder.columns.Column;",
+      "artifact" : {
+        "artifact" : "de.jaggl.sqlbuilder:sqlbuilder-core:2.6.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/de.jaggl.sqlbuilder:sqlbuilder-springjdbc:1.0.0/dependencies/de/jaggl/sqlbuilder/sqlbuilder-core/2.6.0/sqlbuilder-core-2.6.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.springframework.jdbc.core.simple.SimpleJdbcInsert;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-jdbc:5.2.2.RELEASE",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/de.jaggl.sqlbuilder:sqlbuilder-springjdbc:1.0.0/dependencies/org/springframework/spring-jdbc/5.2.2.RELEASE/spring-jdbc-5.2.2.RELEASE.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import java.util.ArrayList;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import static java.util.stream.Collectors.toList;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/de.jaggl.sqlbuilder:sqlbuilder-springjdbc/src/main/java/de/jaggl/sqlbuilder/springjdbc/builders/utils/SingletonRowMapperSqlQuery.java",
+    "useImportReport" : [ {
+      "importPath" : "import org.springframework.jdbc.object.SqlQuery;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-jdbc:5.2.2.RELEASE",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/de.jaggl.sqlbuilder:sqlbuilder-springjdbc:1.0.0/dependencies/org/springframework/spring-jdbc/5.2.2.RELEASE/spring-jdbc-5.2.2.RELEASE.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.springframework.jdbc.core.RowMapper;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-jdbc:5.2.2.RELEASE",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/de.jaggl.sqlbuilder:sqlbuilder-springjdbc:1.0.0/dependencies/org/springframework/spring-jdbc/5.2.2.RELEASE/spring-jdbc-5.2.2.RELEASE.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import javax.sql.DataSource;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.Map;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/de.jaggl.sqlbuilder:sqlbuilder-springjdbc/src/main/java/de/jaggl/sqlbuilder/springjdbc/builders/UpdateFromTableBuilder.java",
+    "useImportReport" : [ {
+      "importPath" : "import lombok.RequiredArgsConstructor;",
+      "artifact" : {
+        "artifact" : "org.projectlombok:lombok:1.18.10",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/de.jaggl.sqlbuilder:sqlbuilder-springjdbc:1.0.0/dependencies/org/projectlombok/lombok/1.18.10/lombok-1.18.10.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import static lombok.AccessLevel.PACKAGE;",
+      "artifact" : {
+        "artifact" : "org.projectlombok:lombok:1.18.10",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/de.jaggl.sqlbuilder:sqlbuilder-springjdbc:1.0.0/dependencies/org/projectlombok/lombok/1.18.10/lombok-1.18.10.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import de.jaggl.sqlbuilder.schema.Table;",
+      "artifact" : {
+        "artifact" : "de.jaggl.sqlbuilder:sqlbuilder-core:2.6.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/de.jaggl.sqlbuilder:sqlbuilder-springjdbc:1.0.0/dependencies/de/jaggl/sqlbuilder/sqlbuilder-core/2.6.0/sqlbuilder-core-2.6.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import javax.sql.DataSource;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import de.jaggl.sqlbuilder.dialect.Dialect;",
+      "artifact" : {
+        "artifact" : "de.jaggl.sqlbuilder:sqlbuilder-core:2.6.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/de.jaggl.sqlbuilder:sqlbuilder-springjdbc:1.0.0/dependencies/de/jaggl/sqlbuilder/sqlbuilder-core/2.6.0/sqlbuilder-core-2.6.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import java.util.List;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import de.jaggl.sqlbuilder.columns.Column;",
+      "artifact" : {
+        "artifact" : "de.jaggl.sqlbuilder:sqlbuilder-core:2.6.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/de.jaggl.sqlbuilder:sqlbuilder-springjdbc:1.0.0/dependencies/de/jaggl/sqlbuilder/sqlbuilder-core/2.6.0/sqlbuilder-core-2.6.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import de.jaggl.sqlbuilder.conditions.Condition;",
+      "artifact" : {
+        "artifact" : "de.jaggl.sqlbuilder:sqlbuilder-core:2.6.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/de.jaggl.sqlbuilder:sqlbuilder-springjdbc:1.0.0/dependencies/de/jaggl/sqlbuilder/sqlbuilder-core/2.6.0/sqlbuilder-core-2.6.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.springframework.jdbc.object.SqlUpdate;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-jdbc:5.2.2.RELEASE",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/de.jaggl.sqlbuilder:sqlbuilder-springjdbc:1.0.0/dependencies/org/springframework/spring-jdbc/5.2.2.RELEASE/spring-jdbc-5.2.2.RELEASE.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import java.util.ArrayList;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.springframework.jdbc.core.SqlParameter;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-jdbc:5.2.2.RELEASE",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/de.jaggl.sqlbuilder:sqlbuilder-springjdbc:1.0.0/dependencies/org/springframework/spring-jdbc/5.2.2.RELEASE/spring-jdbc-5.2.2.RELEASE.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import static de.jaggl.sqlbuilder.queries.Queries.update;",
+      "artifact" : {
+        "artifact" : "de.jaggl.sqlbuilder:sqlbuilder-core:2.6.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/de.jaggl.sqlbuilder:sqlbuilder-springjdbc:1.0.0/dependencies/de/jaggl/sqlbuilder/sqlbuilder-core/2.6.0/sqlbuilder-core-2.6.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import static org.springframework.util.CollectionUtils.isEmpty;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-core:5.2.2.RELEASE",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/de.jaggl.sqlbuilder:sqlbuilder-springjdbc:1.0.0/dependencies/org/springframework/spring-core/5.2.2.RELEASE/spring-core-5.2.2.RELEASE.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import de.jaggl.sqlbuilder.domain.Placeholder;",
+      "artifact" : {
+        "artifact" : "de.jaggl.sqlbuilder:sqlbuilder-core:2.6.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/de.jaggl.sqlbuilder:sqlbuilder-springjdbc:1.0.0/dependencies/de/jaggl/sqlbuilder/sqlbuilder-core/2.6.0/sqlbuilder-core-2.6.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import static de.jaggl.sqlbuilder.domain.Placeholder.placeholder;",
+      "artifact" : {
+        "artifact" : "de.jaggl.sqlbuilder:sqlbuilder-core:2.6.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/de.jaggl.sqlbuilder:sqlbuilder-springjdbc:1.0.0/dependencies/de/jaggl/sqlbuilder/sqlbuilder-core/2.6.0/sqlbuilder-core-2.6.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import static java.util.stream.Collectors.toList;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.text.MessageFormat;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/de.jaggl.sqlbuilder:sqlbuilder-springjdbc/src/main/java/de/jaggl/sqlbuilder/springjdbc/builders/UpdateFromUpdateBuilder.java",
+    "useImportReport" : [ {
+      "importPath" : "import de.jaggl.sqlbuilder.queries.Update;",
+      "artifact" : {
+        "artifact" : "de.jaggl.sqlbuilder:sqlbuilder-core:2.6.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/de.jaggl.sqlbuilder:sqlbuilder-springjdbc:1.0.0/dependencies/de/jaggl/sqlbuilder/sqlbuilder-core/2.6.0/sqlbuilder-core-2.6.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import javax.sql.DataSource;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import de.jaggl.sqlbuilder.dialect.Dialect;",
+      "artifact" : {
+        "artifact" : "de.jaggl.sqlbuilder:sqlbuilder-core:2.6.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/de.jaggl.sqlbuilder:sqlbuilder-springjdbc:1.0.0/dependencies/de/jaggl/sqlbuilder/sqlbuilder-core/2.6.0/sqlbuilder-core-2.6.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import java.util.List;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import static java.util.Collections.emptyList;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/de.jaggl.sqlbuilder:sqlbuilder-springjdbc/src/main/java/de/jaggl/sqlbuilder/springjdbc/builders/SelectFromSelectBuilder.java",
+    "useImportReport" : [ {
+      "importPath" : "import lombok.RequiredArgsConstructor;",
+      "artifact" : {
+        "artifact" : "org.projectlombok:lombok:1.18.10",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/de.jaggl.sqlbuilder:sqlbuilder-springjdbc:1.0.0/dependencies/org/projectlombok/lombok/1.18.10/lombok-1.18.10.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import static lombok.AccessLevel.PACKAGE;",
+      "artifact" : {
+        "artifact" : "org.projectlombok:lombok:1.18.10",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/de.jaggl.sqlbuilder:sqlbuilder-springjdbc:1.0.0/dependencies/org/projectlombok/lombok/1.18.10/lombok-1.18.10.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import de.jaggl.sqlbuilder.queries.Select;",
+      "artifact" : {
+        "artifact" : "de.jaggl.sqlbuilder:sqlbuilder-core:2.6.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/de.jaggl.sqlbuilder:sqlbuilder-springjdbc:1.0.0/dependencies/de/jaggl/sqlbuilder/sqlbuilder-core/2.6.0/sqlbuilder-core-2.6.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import javax.sql.DataSource;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import de.jaggl.sqlbuilder.dialect.Dialect;",
+      "artifact" : {
+        "artifact" : "de.jaggl.sqlbuilder:sqlbuilder-core:2.6.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/de.jaggl.sqlbuilder:sqlbuilder-springjdbc:1.0.0/dependencies/de/jaggl/sqlbuilder/sqlbuilder-core/2.6.0/sqlbuilder-core-2.6.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.springframework.jdbc.core.RowMapper;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-jdbc:5.2.2.RELEASE",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/de.jaggl.sqlbuilder:sqlbuilder-springjdbc:1.0.0/dependencies/org/springframework/spring-jdbc/5.2.2.RELEASE/spring-jdbc-5.2.2.RELEASE.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.springframework.jdbc.object.SqlQuery;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-jdbc:5.2.2.RELEASE",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/de.jaggl.sqlbuilder:sqlbuilder-springjdbc:1.0.0/dependencies/org/springframework/spring-jdbc/5.2.2.RELEASE/spring-jdbc-5.2.2.RELEASE.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import de.jaggl.sqlbuilder.springjdbc.builders.utils.SingletonRowMapperSqlQuery;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/de.jaggl.sqlbuilder:sqlbuilder-springjdbc/src/main/java/de/jaggl/sqlbuilder/springjdbc/builders/DeleteFromDeleteBuilder.java",
+    "useImportReport" : [ {
+      "importPath" : "import de.jaggl.sqlbuilder.queries.Delete;",
+      "artifact" : {
+        "artifact" : "de.jaggl.sqlbuilder:sqlbuilder-core:2.6.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/de.jaggl.sqlbuilder:sqlbuilder-springjdbc:1.0.0/dependencies/de/jaggl/sqlbuilder/sqlbuilder-core/2.6.0/sqlbuilder-core-2.6.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import javax.sql.DataSource;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import de.jaggl.sqlbuilder.dialect.Dialect;",
+      "artifact" : {
+        "artifact" : "de.jaggl.sqlbuilder:sqlbuilder-core:2.6.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/de.jaggl.sqlbuilder:sqlbuilder-springjdbc:1.0.0/dependencies/de/jaggl/sqlbuilder/sqlbuilder-core/2.6.0/sqlbuilder-core-2.6.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import java.util.List;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import static java.util.Collections.emptyList;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/de.jaggl.sqlbuilder:sqlbuilder-springjdbc/src/main/java/de/jaggl/sqlbuilder/springjdbc/builders/SelectFromTableBuilder.java",
+    "useImportReport" : [ {
+      "importPath" : "import lombok.RequiredArgsConstructor;",
+      "artifact" : {
+        "artifact" : "org.projectlombok:lombok:1.18.10",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/de.jaggl.sqlbuilder:sqlbuilder-springjdbc:1.0.0/dependencies/org/projectlombok/lombok/1.18.10/lombok-1.18.10.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import static lombok.AccessLevel.PACKAGE;",
+      "artifact" : {
+        "artifact" : "org.projectlombok:lombok:1.18.10",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/de.jaggl.sqlbuilder:sqlbuilder-springjdbc:1.0.0/dependencies/org/projectlombok/lombok/1.18.10/lombok-1.18.10.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import de.jaggl.sqlbuilder.schema.Table;",
+      "artifact" : {
+        "artifact" : "de.jaggl.sqlbuilder:sqlbuilder-core:2.6.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/de.jaggl.sqlbuilder:sqlbuilder-springjdbc:1.0.0/dependencies/de/jaggl/sqlbuilder/sqlbuilder-core/2.6.0/sqlbuilder-core-2.6.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import javax.sql.DataSource;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import de.jaggl.sqlbuilder.dialect.Dialect;",
+      "artifact" : {
+        "artifact" : "de.jaggl.sqlbuilder:sqlbuilder-core:2.6.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/de.jaggl.sqlbuilder:sqlbuilder-springjdbc:1.0.0/dependencies/de/jaggl/sqlbuilder/sqlbuilder-core/2.6.0/sqlbuilder-core-2.6.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.springframework.jdbc.core.RowMapper;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-jdbc:5.2.2.RELEASE",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/de.jaggl.sqlbuilder:sqlbuilder-springjdbc:1.0.0/dependencies/org/springframework/spring-jdbc/5.2.2.RELEASE/spring-jdbc-5.2.2.RELEASE.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import de.jaggl.sqlbuilder.domain.Selectable;",
+      "artifact" : {
+        "artifact" : "de.jaggl.sqlbuilder:sqlbuilder-core:2.6.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/de.jaggl.sqlbuilder:sqlbuilder-springjdbc:1.0.0/dependencies/de/jaggl/sqlbuilder/sqlbuilder-core/2.6.0/sqlbuilder-core-2.6.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import de.jaggl.sqlbuilder.conditions.Condition;",
+      "artifact" : {
+        "artifact" : "de.jaggl.sqlbuilder:sqlbuilder-core:2.6.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/de.jaggl.sqlbuilder:sqlbuilder-springjdbc:1.0.0/dependencies/de/jaggl/sqlbuilder/sqlbuilder-core/2.6.0/sqlbuilder-core-2.6.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.springframework.jdbc.object.SqlQuery;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-jdbc:5.2.2.RELEASE",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/de.jaggl.sqlbuilder:sqlbuilder-springjdbc:1.0.0/dependencies/org/springframework/spring-jdbc/5.2.2.RELEASE/spring-jdbc-5.2.2.RELEASE.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import java.util.ArrayList;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.springframework.jdbc.core.SqlParameter;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-jdbc:5.2.2.RELEASE",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/de.jaggl.sqlbuilder:sqlbuilder-springjdbc:1.0.0/dependencies/org/springframework/spring-jdbc/5.2.2.RELEASE/spring-jdbc-5.2.2.RELEASE.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import de.jaggl.sqlbuilder.springjdbc.builders.utils.SingletonRowMapperSqlQuery;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import de.jaggl.sqlbuilder.columns.Column;",
+      "artifact" : {
+        "artifact" : "de.jaggl.sqlbuilder:sqlbuilder-core:2.6.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/de.jaggl.sqlbuilder:sqlbuilder-springjdbc:1.0.0/dependencies/de/jaggl/sqlbuilder/sqlbuilder-core/2.6.0/sqlbuilder-core-2.6.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import java.util.List;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import static de.jaggl.sqlbuilder.queries.Queries.select;",
+      "artifact" : {
+        "artifact" : "de.jaggl.sqlbuilder:sqlbuilder-core:2.6.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/de.jaggl.sqlbuilder:sqlbuilder-springjdbc:1.0.0/dependencies/de/jaggl/sqlbuilder/sqlbuilder-core/2.6.0/sqlbuilder-core-2.6.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import de.jaggl.sqlbuilder.queries.Select;",
+      "artifact" : {
+        "artifact" : "de.jaggl.sqlbuilder:sqlbuilder-core:2.6.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/de.jaggl.sqlbuilder:sqlbuilder-springjdbc:1.0.0/dependencies/de/jaggl/sqlbuilder/sqlbuilder-core/2.6.0/sqlbuilder-core-2.6.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import static org.springframework.util.CollectionUtils.isEmpty;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-core:5.2.2.RELEASE",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/de.jaggl.sqlbuilder:sqlbuilder-springjdbc:1.0.0/dependencies/org/springframework/spring-core/5.2.2.RELEASE/spring-core-5.2.2.RELEASE.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import de.jaggl.sqlbuilder.domain.Placeholder;",
+      "artifact" : {
+        "artifact" : "de.jaggl.sqlbuilder:sqlbuilder-core:2.6.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/de.jaggl.sqlbuilder:sqlbuilder-springjdbc:1.0.0/dependencies/de/jaggl/sqlbuilder/sqlbuilder-core/2.6.0/sqlbuilder-core-2.6.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import static de.jaggl.sqlbuilder.domain.Placeholder.placeholder;",
+      "artifact" : {
+        "artifact" : "de.jaggl.sqlbuilder:sqlbuilder-core:2.6.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/de.jaggl.sqlbuilder:sqlbuilder-springjdbc:1.0.0/dependencies/de/jaggl/sqlbuilder/sqlbuilder-core/2.6.0/sqlbuilder-core-2.6.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import static java.util.stream.Collectors.toList;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.text.MessageFormat;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/de.jaggl.sqlbuilder:sqlbuilder-springjdbc/src/main/java/de/jaggl/sqlbuilder/springjdbc/builders/InsertFromInsertBuilder.java",
+    "useImportReport" : [ {
+      "importPath" : "import de.jaggl.sqlbuilder.queries.Insert;",
+      "artifact" : {
+        "artifact" : "de.jaggl.sqlbuilder:sqlbuilder-core:2.6.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/de.jaggl.sqlbuilder:sqlbuilder-springjdbc:1.0.0/dependencies/de/jaggl/sqlbuilder/sqlbuilder-core/2.6.0/sqlbuilder-core-2.6.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import javax.sql.DataSource;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import de.jaggl.sqlbuilder.dialect.Dialect;",
+      "artifact" : {
+        "artifact" : "de.jaggl.sqlbuilder:sqlbuilder-core:2.6.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/de.jaggl.sqlbuilder:sqlbuilder-springjdbc:1.0.0/dependencies/de/jaggl/sqlbuilder/sqlbuilder-core/2.6.0/sqlbuilder-core-2.6.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import java.util.List;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import static java.util.stream.Collectors.toList;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/de.jaggl.sqlbuilder:sqlbuilder-springjdbc/src/main/java/de/jaggl/sqlbuilder/springjdbc/builders/SqlOperations.java",
+    "useImportReport" : [ {
+      "importPath" : "import lombok.NoArgsConstructor;",
+      "artifact" : {
+        "artifact" : "org.projectlombok:lombok:1.18.10",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/de.jaggl.sqlbuilder:sqlbuilder-springjdbc:1.0.0/dependencies/org/projectlombok/lombok/1.18.10/lombok-1.18.10.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import static lombok.AccessLevel.PRIVATE;",
+      "artifact" : {
+        "artifact" : "org.projectlombok:lombok:1.18.10",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/de.jaggl.sqlbuilder:sqlbuilder-springjdbc:1.0.0/dependencies/org/projectlombok/lombok/1.18.10/lombok-1.18.10.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.springframework.jdbc.object.SqlQuery;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-jdbc:5.2.2.RELEASE",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/de.jaggl.sqlbuilder:sqlbuilder-springjdbc:1.0.0/dependencies/org/springframework/spring-jdbc/5.2.2.RELEASE/spring-jdbc-5.2.2.RELEASE.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import de.jaggl.sqlbuilder.queries.Select;",
+      "artifact" : {
+        "artifact" : "de.jaggl.sqlbuilder:sqlbuilder-core:2.6.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/de.jaggl.sqlbuilder:sqlbuilder-springjdbc:1.0.0/dependencies/de/jaggl/sqlbuilder/sqlbuilder-core/2.6.0/sqlbuilder-core-2.6.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import javax.sql.DataSource;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import de.jaggl.sqlbuilder.dialect.Dialect;",
+      "artifact" : {
+        "artifact" : "de.jaggl.sqlbuilder:sqlbuilder-core:2.6.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/de.jaggl.sqlbuilder:sqlbuilder-springjdbc:1.0.0/dependencies/de/jaggl/sqlbuilder/sqlbuilder-core/2.6.0/sqlbuilder-core-2.6.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.springframework.jdbc.core.RowMapper;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-jdbc:5.2.2.RELEASE",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/de.jaggl.sqlbuilder:sqlbuilder-springjdbc:1.0.0/dependencies/org/springframework/spring-jdbc/5.2.2.RELEASE/spring-jdbc-5.2.2.RELEASE.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import de.jaggl.sqlbuilder.schema.Table;",
+      "artifact" : {
+        "artifact" : "de.jaggl.sqlbuilder:sqlbuilder-core:2.6.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/de.jaggl.sqlbuilder:sqlbuilder-springjdbc:1.0.0/dependencies/de/jaggl/sqlbuilder/sqlbuilder-core/2.6.0/sqlbuilder-core-2.6.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.springframework.jdbc.object.SqlUpdate;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-jdbc:5.2.2.RELEASE",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/de.jaggl.sqlbuilder:sqlbuilder-springjdbc:1.0.0/dependencies/org/springframework/spring-jdbc/5.2.2.RELEASE/spring-jdbc-5.2.2.RELEASE.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import de.jaggl.sqlbuilder.queries.Insert;",
+      "artifact" : {
+        "artifact" : "de.jaggl.sqlbuilder:sqlbuilder-core:2.6.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/de.jaggl.sqlbuilder:sqlbuilder-springjdbc:1.0.0/dependencies/de/jaggl/sqlbuilder/sqlbuilder-core/2.6.0/sqlbuilder-core-2.6.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.springframework.jdbc.core.simple.SimpleJdbcInsert;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-jdbc:5.2.2.RELEASE",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/de.jaggl.sqlbuilder:sqlbuilder-springjdbc:1.0.0/dependencies/org/springframework/spring-jdbc/5.2.2.RELEASE/spring-jdbc-5.2.2.RELEASE.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import de.jaggl.sqlbuilder.queries.Update;",
+      "artifact" : {
+        "artifact" : "de.jaggl.sqlbuilder:sqlbuilder-core:2.6.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/de.jaggl.sqlbuilder:sqlbuilder-springjdbc:1.0.0/dependencies/de/jaggl/sqlbuilder/sqlbuilder-core/2.6.0/sqlbuilder-core-2.6.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import de.jaggl.sqlbuilder.queries.Delete;",
+      "artifact" : {
+        "artifact" : "de.jaggl.sqlbuilder:sqlbuilder-core:2.6.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/de.jaggl.sqlbuilder:sqlbuilder-springjdbc:1.0.0/dependencies/de/jaggl/sqlbuilder/sqlbuilder-core/2.6.0/sqlbuilder-core-2.6.0.jar"
+      },
+      "isDirectDependency" : true
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/de.jaggl.sqlbuilder:sqlbuilder-springjdbc/src/main/java/de/jaggl/sqlbuilder/springjdbc/queryexecutors/SpringJdbcQueryExecutor.java",
+    "useImportReport" : [ {
+      "importPath" : "import de.jaggl.sqlbuilder.queryexecutor.QueryExecutor;",
+      "artifact" : {
+        "artifact" : "de.jaggl.sqlbuilder:sqlbuilder-core:2.6.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/de.jaggl.sqlbuilder:sqlbuilder-springjdbc:1.0.0/dependencies/de/jaggl/sqlbuilder/sqlbuilder-core/2.6.0/sqlbuilder-core-2.6.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import lombok.RequiredArgsConstructor;",
+      "artifact" : {
+        "artifact" : "org.projectlombok:lombok:1.18.10",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/de.jaggl.sqlbuilder:sqlbuilder-springjdbc:1.0.0/dependencies/org/projectlombok/lombok/1.18.10/lombok-1.18.10.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.springframework.jdbc.core.JdbcTemplate;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-jdbc:5.2.2.RELEASE",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/de.jaggl.sqlbuilder:sqlbuilder-springjdbc:1.0.0/dependencies/org/springframework/spring-jdbc/5.2.2.RELEASE/spring-jdbc-5.2.2.RELEASE.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import de.jaggl.sqlbuilder.dialect.Dialect;",
+      "artifact" : {
+        "artifact" : "de.jaggl.sqlbuilder:sqlbuilder-core:2.6.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/de.jaggl.sqlbuilder:sqlbuilder-springjdbc:1.0.0/dependencies/de/jaggl/sqlbuilder/sqlbuilder-core/2.6.0/sqlbuilder-core-2.6.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import de.jaggl.sqlbuilder.queryexecutor.SelectQueryExecutor;",
+      "artifact" : {
+        "artifact" : "de.jaggl.sqlbuilder:sqlbuilder-core:2.6.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/de.jaggl.sqlbuilder:sqlbuilder-springjdbc:1.0.0/dependencies/de/jaggl/sqlbuilder/sqlbuilder-core/2.6.0/sqlbuilder-core-2.6.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import de.jaggl.sqlbuilder.queryexecutor.RowExtractor;",
+      "artifact" : {
+        "artifact" : "de.jaggl.sqlbuilder:sqlbuilder-core:2.6.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/de.jaggl.sqlbuilder:sqlbuilder-springjdbc:1.0.0/dependencies/de/jaggl/sqlbuilder/sqlbuilder-core/2.6.0/sqlbuilder-core-2.6.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import de.jaggl.sqlbuilder.queries.UpdatebleQuery;",
+      "artifact" : {
+        "artifact" : "de.jaggl.sqlbuilder:sqlbuilder-core:2.6.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/de.jaggl.sqlbuilder:sqlbuilder-springjdbc:1.0.0/dependencies/de/jaggl/sqlbuilder/sqlbuilder-core/2.6.0/sqlbuilder-core-2.6.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import de.jaggl.sqlbuilder.queries.ExecutableQuery;",
+      "artifact" : {
+        "artifact" : "de.jaggl.sqlbuilder:sqlbuilder-core:2.6.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/de.jaggl.sqlbuilder:sqlbuilder-springjdbc:1.0.0/dependencies/de/jaggl/sqlbuilder/sqlbuilder-core/2.6.0/sqlbuilder-core-2.6.0.jar"
+      },
+      "isDirectDependency" : true
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/de.jaggl.sqlbuilder:sqlbuilder-springjdbc/src/main/java/de/jaggl/sqlbuilder/springjdbc/queryexecutors/SpringJdbcSelectQueryExecutor.java",
+    "useImportReport" : [ {
+      "importPath" : "import de.jaggl.sqlbuilder.queryexecutor.SelectQueryExecutor;",
+      "artifact" : {
+        "artifact" : "de.jaggl.sqlbuilder:sqlbuilder-core:2.6.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/de.jaggl.sqlbuilder:sqlbuilder-springjdbc:1.0.0/dependencies/de/jaggl/sqlbuilder/sqlbuilder-core/2.6.0/sqlbuilder-core-2.6.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import lombok.RequiredArgsConstructor;",
+      "artifact" : {
+        "artifact" : "org.projectlombok:lombok:1.18.10",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/de.jaggl.sqlbuilder:sqlbuilder-springjdbc:1.0.0/dependencies/org/projectlombok/lombok/1.18.10/lombok-1.18.10.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.springframework.jdbc.core.JdbcTemplate;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-jdbc:5.2.2.RELEASE",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/de.jaggl.sqlbuilder:sqlbuilder-springjdbc:1.0.0/dependencies/org/springframework/spring-jdbc/5.2.2.RELEASE/spring-jdbc-5.2.2.RELEASE.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.springframework.jdbc.core.RowMapper;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-jdbc:5.2.2.RELEASE",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/de.jaggl.sqlbuilder:sqlbuilder-springjdbc:1.0.0/dependencies/org/springframework/spring-jdbc/5.2.2.RELEASE/spring-jdbc-5.2.2.RELEASE.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import de.jaggl.sqlbuilder.dialect.Dialect;",
+      "artifact" : {
+        "artifact" : "de.jaggl.sqlbuilder:sqlbuilder-core:2.6.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/de.jaggl.sqlbuilder:sqlbuilder-springjdbc:1.0.0/dependencies/de/jaggl/sqlbuilder/sqlbuilder-core/2.6.0/sqlbuilder-core-2.6.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import java.util.List;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import de.jaggl.sqlbuilder.queries.Query;",
+      "artifact" : {
+        "artifact" : "de.jaggl.sqlbuilder:sqlbuilder-core:2.6.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/de.jaggl.sqlbuilder:sqlbuilder-springjdbc:1.0.0/dependencies/de/jaggl/sqlbuilder/sqlbuilder-core/2.6.0/sqlbuilder-core-2.6.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import java.util.Optional;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import static java.util.Optional.ofNullable;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import static org.springframework.dao.support.DataAccessUtils.singleResult;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-tx:5.2.2.RELEASE",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/de.jaggl.sqlbuilder:sqlbuilder-springjdbc:1.0.0/dependencies/org/springframework/spring-tx/5.2.2.RELEASE/spring-tx-5.2.2.RELEASE.jar"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  } ],
+  "projectUseDependencies" : [ {
+    "artifact" : "de.jaggl.sqlbuilder:sqlbuilder-core:2.6.0",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/de.jaggl.sqlbuilder:sqlbuilder-springjdbc:1.0.0/dependencies/de/jaggl/sqlbuilder/sqlbuilder-core/2.6.0/sqlbuilder-core-2.6.0.jar"
+  }, {
+    "artifact" : "org.springframework:spring-jdbc:5.2.2.RELEASE",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/de.jaggl.sqlbuilder:sqlbuilder-springjdbc:1.0.0/dependencies/org/springframework/spring-jdbc/5.2.2.RELEASE/spring-jdbc-5.2.2.RELEASE.jar"
+  }, {
+    "artifact" : "org.projectlombok:lombok:1.18.10",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/de.jaggl.sqlbuilder:sqlbuilder-springjdbc:1.0.0/dependencies/org/projectlombok/lombok/1.18.10/lombok-1.18.10.jar"
+  } ],
+  "projectUseTransitiveDependencies" : [ ],
+  "projectUnusedDependencies" : [ {
+    "artifact" : "org.slf4j:slf4j-api:1.7.30",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/de.jaggl.sqlbuilder:sqlbuilder-springjdbc:1.0.0/dependencies/org/slf4j/slf4j-api/1.7.30/slf4j-api-1.7.30.jar"
+  } ]
+}

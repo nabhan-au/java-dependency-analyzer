@@ -1,0 +1,457 @@
+{
+  "projectArtifact" : "com.github.robtimus:obfuscation-json:1.2.1",
+  "repositoryDir" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/com.github.robtimus:obfuscation-json",
+  "repositorySubDir" : "",
+  "artifactLocation" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.robtimus:obfuscation-json:1.2.1",
+  "fileImportReports" : [ {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/com.github.robtimus:obfuscation-json/src/moditect/module-info.java",
+    "useImportReport" : [ ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/com.github.robtimus:obfuscation-json/src/main/java/com/github/robtimus/obfuscation/json/JSONObfuscator.java",
+    "useImportReport" : [ {
+      "importPath" : "import com.github.robtimus.obfuscation.Obfuscator;",
+      "artifact" : {
+        "artifact" : "com.github.robtimus:obfuscation-core:1.4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.robtimus:obfuscation-json:1.2.1/dependencies/com/github/robtimus/obfuscation-core/1.4/obfuscation-core-1.4.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.slf4j.Logger;",
+      "artifact" : {
+        "artifact" : "org.slf4j:slf4j-api:1.7.36",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.robtimus:obfuscation-json:1.2.1/dependencies/org/slf4j/slf4j-api/1.7.36/slf4j-api-1.7.36.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.slf4j.LoggerFactory;",
+      "artifact" : {
+        "artifact" : "org.slf4j:slf4j-api:1.7.36",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.robtimus:obfuscation-json:1.2.1/dependencies/org/slf4j/slf4j-api/1.7.36/slf4j-api-1.7.36.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import javax.json.spi.JsonProvider;",
+      "artifact" : {
+        "artifact" : "jakarta.json:jakarta.json-api:1.1.6",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.robtimus:obfuscation-json:1.2.1/dependencies/jakarta/json/jakarta.json-api/1.1.6/jakarta.json-api-1.1.6.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import java.util.Map;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import javax.json.stream.JsonGeneratorFactory;",
+      "artifact" : {
+        "artifact" : "jakarta.json:jakarta.json-api:1.1.6",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.robtimus:obfuscation-json:1.2.1/dependencies/jakarta/json/jakarta.json-api/1.1.6/jakarta.json-api-1.1.6.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import java.util.Collections;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import javax.json.stream.JsonGenerator;",
+      "artifact" : {
+        "artifact" : "jakarta.json:jakarta.json-api:1.1.6",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.robtimus:obfuscation-json:1.2.1/dependencies/jakarta/json/jakarta.json-api/1.1.6/jakarta.json-api-1.1.6.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import static com.github.robtimus.obfuscation.support.ObfuscatorUtils.checkStartAndEnd;",
+      "artifact" : {
+        "artifact" : "com.github.robtimus:obfuscation-core:1.4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.robtimus:obfuscation-json:1.2.1/dependencies/com/github/robtimus/obfuscation-core/1.4/obfuscation-core-1.4.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import java.io.IOException;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.io.Reader;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import static com.github.robtimus.obfuscation.support.ObfuscatorUtils.reader;",
+      "artifact" : {
+        "artifact" : "com.github.robtimus:obfuscation-core:1.4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.robtimus:obfuscation-json:1.2.1/dependencies/com/github/robtimus/obfuscation-core/1.4/obfuscation-core-1.4.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import com.github.robtimus.obfuscation.support.LimitAppendable;",
+      "artifact" : {
+        "artifact" : "com.github.robtimus:obfuscation-core:1.4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.robtimus:obfuscation-json:1.2.1/dependencies/com/github/robtimus/obfuscation-core/1.4/obfuscation-core-1.4.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import static com.github.robtimus.obfuscation.support.ObfuscatorUtils.appendAtMost;",
+      "artifact" : {
+        "artifact" : "com.github.robtimus:obfuscation-core:1.4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.robtimus:obfuscation-json:1.2.1/dependencies/com/github/robtimus/obfuscation-core/1.4/obfuscation-core-1.4.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import static com.github.robtimus.obfuscation.support.ObfuscatorUtils.writer;",
+      "artifact" : {
+        "artifact" : "com.github.robtimus:obfuscation-core:1.4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.robtimus:obfuscation-json:1.2.1/dependencies/com/github/robtimus/obfuscation-core/1.4/obfuscation-core-1.4.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import com.github.robtimus.obfuscation.support.CountingReader;",
+      "artifact" : {
+        "artifact" : "com.github.robtimus:obfuscation-core:1.4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.robtimus:obfuscation-json:1.2.1/dependencies/com/github/robtimus/obfuscation-core/1.4/obfuscation-core-1.4.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import static com.github.robtimus.obfuscation.support.ObfuscatorUtils.counting;",
+      "artifact" : {
+        "artifact" : "com.github.robtimus:obfuscation-core:1.4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.robtimus:obfuscation-json:1.2.1/dependencies/com/github/robtimus/obfuscation-core/1.4/obfuscation-core-1.4.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import javax.json.stream.JsonParser;",
+      "artifact" : {
+        "artifact" : "jakarta.json:jakarta.json-api:1.1.6",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.robtimus:obfuscation-json:1.2.1/dependencies/jakarta/json/jakarta.json-api/1.1.6/jakarta.json-api-1.1.6.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import javax.json.stream.JsonParser.Event;",
+      "artifact" : {
+        "artifact" : "jakarta.json:jakarta.json-api:1.1.6",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.robtimus:obfuscation-json:1.2.1/dependencies/jakarta/json/jakarta.json-api/1.1.6/jakarta.json-api-1.1.6.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import javax.json.stream.JsonParsingException;",
+      "artifact" : {
+        "artifact" : "jakarta.json:jakarta.json-api:1.1.6",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.robtimus:obfuscation-json:1.2.1/dependencies/jakarta/json/jakarta.json-api/1.1.6/jakarta.json-api-1.1.6.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import javax.json.JsonException;",
+      "artifact" : {
+        "artifact" : "jakarta.json:jakarta.json-api:1.1.6",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.robtimus:obfuscation-json:1.2.1/dependencies/jakarta/json/jakarta.json-api/1.1.6/jakarta.json-api-1.1.6.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import java.io.Writer;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.github.robtimus.obfuscation.support.CachingObfuscatingWriter;",
+      "artifact" : {
+        "artifact" : "com.github.robtimus:obfuscation-core:1.4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.robtimus:obfuscation-json:1.2.1/dependencies/com/github/robtimus/obfuscation-core/1.4/obfuscation-core-1.4.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import java.util.Objects;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.github.robtimus.obfuscation.support.CaseSensitivity;",
+      "artifact" : {
+        "artifact" : "com.github.robtimus:obfuscation-core:1.4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.robtimus:obfuscation-json:1.2.1/dependencies/com/github/robtimus/obfuscation-core/1.4/obfuscation-core-1.4.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import java.util.function.Function;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.github.robtimus.obfuscation.support.MapBuilder;",
+      "artifact" : {
+        "artifact" : "com.github.robtimus:obfuscation-core:1.4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.robtimus:obfuscation-json:1.2.1/dependencies/com/github/robtimus/obfuscation-core/1.4/obfuscation-core-1.4.jar"
+      },
+      "isDirectDependency" : true
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/com.github.robtimus:obfuscation-json/src/main/java/com/github/robtimus/obfuscation/json/PropertyConfig.java",
+    "useImportReport" : [ {
+      "importPath" : "import com.github.robtimus.obfuscation.Obfuscator;",
+      "artifact" : {
+        "artifact" : "com.github.robtimus:obfuscation-core:1.4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.robtimus:obfuscation-json:1.2.1/dependencies/com/github/robtimus/obfuscation-core/1.4/obfuscation-core-1.4.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import java.util.Objects;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/com.github.robtimus:obfuscation-json/src/main/java/com/github/robtimus/obfuscation/json/JSONObfuscatorWriter.java",
+    "useImportReport" : [ {
+      "importPath" : "import java.io.Writer;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.Objects;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import static com.github.robtimus.obfuscation.support.ObfuscatorUtils.writer;",
+      "artifact" : {
+        "artifact" : "com.github.robtimus:obfuscation-core:1.4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.robtimus:obfuscation-json:1.2.1/dependencies/com/github/robtimus/obfuscation-core/1.4/obfuscation-core-1.4.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import com.github.robtimus.obfuscation.Obfuscator;",
+      "artifact" : {
+        "artifact" : "com.github.robtimus:obfuscation-core:1.4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.robtimus:obfuscation-json:1.2.1/dependencies/com/github/robtimus/obfuscation-core/1.4/obfuscation-core-1.4.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import java.io.IOException;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/com.github.robtimus:obfuscation-json/src/main/java/com/github/robtimus/obfuscation/json/ObfuscatingJsonGenerator.java",
+    "useImportReport" : [ {
+      "importPath" : "import javax.json.stream.JsonGenerator;",
+      "artifact" : {
+        "artifact" : "jakarta.json:jakarta.json-api:1.1.6",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.robtimus:obfuscation-json:1.2.1/dependencies/jakarta/json/jakarta.json-api/1.1.6/jakarta.json-api-1.1.6.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import javax.json.stream.JsonGeneratorFactory;",
+      "artifact" : {
+        "artifact" : "jakarta.json:jakarta.json-api:1.1.6",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.robtimus:obfuscation-json:1.2.1/dependencies/jakarta/json/jakarta.json-api/1.1.6/jakarta.json-api-1.1.6.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import com.github.robtimus.obfuscation.support.LimitAppendable;",
+      "artifact" : {
+        "artifact" : "com.github.robtimus:obfuscation-core:1.4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.robtimus:obfuscation-json:1.2.1/dependencies/com/github/robtimus/obfuscation-core/1.4/obfuscation-core-1.4.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import java.util.Map;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.io.Writer;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import static com.github.robtimus.obfuscation.support.ObfuscatorUtils.writer;",
+      "artifact" : {
+        "artifact" : "com.github.robtimus:obfuscation-core:1.4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.robtimus:obfuscation-json:1.2.1/dependencies/com/github/robtimus/obfuscation-core/1.4/obfuscation-core-1.4.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import javax.json.JsonValue;",
+      "artifact" : {
+        "artifact" : "jakarta.json:jakarta.json-api:1.1.6",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.robtimus:obfuscation-json:1.2.1/dependencies/jakarta/json/jakarta.json-api/1.1.6/jakarta.json-api-1.1.6.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import java.math.BigInteger;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.math.BigDecimal;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.io.IOException;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.io.UncheckedIOException;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import javax.json.JsonString;",
+      "artifact" : {
+        "artifact" : "jakarta.json:jakarta.json-api:1.1.6",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.robtimus:obfuscation-json:1.2.1/dependencies/jakarta/json/jakarta.json-api/1.1.6/jakarta.json-api-1.1.6.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import javax.json.JsonNumber;",
+      "artifact" : {
+        "artifact" : "jakarta.json:jakarta.json-api:1.1.6",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.robtimus:obfuscation-json:1.2.1/dependencies/jakarta/json/jakarta.json-api/1.1.6/jakarta.json-api-1.1.6.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import javax.json.JsonObject;",
+      "artifact" : {
+        "artifact" : "jakarta.json:jakarta.json-api:1.1.6",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.robtimus:obfuscation-json:1.2.1/dependencies/jakarta/json/jakarta.json-api/1.1.6/jakarta.json-api-1.1.6.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import javax.json.JsonArray;",
+      "artifact" : {
+        "artifact" : "jakarta.json:jakarta.json-api:1.1.6",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.robtimus:obfuscation-json:1.2.1/dependencies/jakarta/json/jakarta.json-api/1.1.6/jakarta.json-api-1.1.6.jar"
+      },
+      "isDirectDependency" : true
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/com.github.robtimus:obfuscation-json/src/main/java/com/github/robtimus/obfuscation/json/DontCloseReader.java",
+    "useImportReport" : [ {
+      "importPath" : "import java.io.Reader;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.nio.CharBuffer;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.io.IOException;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/com.github.robtimus:obfuscation-json/src/main/java/com/github/robtimus/obfuscation/json/package-info.java",
+    "useImportReport" : [ ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/com.github.robtimus:obfuscation-json/src/main/java/com/github/robtimus/obfuscation/json/DontCloseWriter.java",
+    "useImportReport" : [ {
+      "importPath" : "import java.io.Writer;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.io.IOException;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  } ],
+  "projectUseDependencies" : [ {
+    "artifact" : "com.github.robtimus:obfuscation-core:1.4",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.robtimus:obfuscation-json:1.2.1/dependencies/com/github/robtimus/obfuscation-core/1.4/obfuscation-core-1.4.jar"
+  }, {
+    "artifact" : "org.slf4j:slf4j-api:1.7.36",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.robtimus:obfuscation-json:1.2.1/dependencies/org/slf4j/slf4j-api/1.7.36/slf4j-api-1.7.36.jar"
+  }, {
+    "artifact" : "jakarta.json:jakarta.json-api:1.1.6",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.robtimus:obfuscation-json:1.2.1/dependencies/jakarta/json/jakarta.json-api/1.1.6/jakarta.json-api-1.1.6.jar"
+  } ],
+  "projectUseTransitiveDependencies" : [ ],
+  "projectUnusedDependencies" : [ {
+    "artifact" : "org.slf4j:slf4j-nop:1.7.36",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.robtimus:obfuscation-json:1.2.1/dependencies/org/slf4j/slf4j-nop/1.7.36/slf4j-nop-1.7.36.jar"
+  }, {
+    "artifact" : "org.junit.jupiter:junit-jupiter:5.9.1",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.robtimus:obfuscation-json:1.2.1/dependencies/org/junit/jupiter/junit-jupiter/5.9.1/junit-jupiter-5.9.1.jar"
+  }, {
+    "artifact" : "org.hamcrest:hamcrest:2.2",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.robtimus:obfuscation-json:1.2.1/dependencies/org/hamcrest/hamcrest/2.2/hamcrest-2.2.jar"
+  }, {
+    "artifact" : "org.mockito:mockito-inline:4.9.0",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.robtimus:obfuscation-json:1.2.1/dependencies/org/mockito/mockito-inline/4.9.0/mockito-inline-4.9.0.jar"
+  } ]
+}

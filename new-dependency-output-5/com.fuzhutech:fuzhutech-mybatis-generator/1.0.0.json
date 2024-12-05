@@ -1,0 +1,986 @@
+{
+  "projectArtifact" : "com.fuzhutech:fuzhutech-mybatis-generator:1.0.0",
+  "repositoryDir" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/com.fuzhutech:fuzhutech-mybatis-generator",
+  "repositorySubDir" : "",
+  "artifactLocation" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.fuzhutech:fuzhutech-mybatis-generator:1.0.0",
+  "fileImportReports" : [ {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/com.fuzhutech:fuzhutech-mybatis-generator/src/main/java/com/fuzhutech/mybatis/generator/internal/types/JavaTypeResolverImpl.java",
+    "useImportReport" : [ {
+      "importPath" : "import org.mybatis.generator.internal.types.JavaTypeResolverDefaultImpl;",
+      "artifact" : {
+        "artifact" : "org.mybatis.generator:mybatis-generator-core:1.3.5",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.fuzhutech:fuzhutech-mybatis-generator:1.0.0/dependencies/org/mybatis/generator/mybatis-generator-core/1.3.5/mybatis-generator-core-1.3.5.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import java.sql.Types;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.mybatis.generator.api.dom.java.FullyQualifiedJavaType;",
+      "artifact" : {
+        "artifact" : "org.mybatis.generator:mybatis-generator-core:1.3.5",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.fuzhutech:fuzhutech-mybatis-generator:1.0.0/dependencies/org/mybatis/generator/mybatis-generator-core/1.3.5/mybatis-generator-core-1.3.5.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.mybatis.generator.api.IntrospectedColumn;",
+      "artifact" : {
+        "artifact" : "org.mybatis.generator:mybatis-generator-core:1.3.5",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.fuzhutech:fuzhutech-mybatis-generator:1.0.0/dependencies/org/mybatis/generator/mybatis-generator-core/1.3.5/mybatis-generator-core-1.3.5.jar"
+      },
+      "isDirectDependency" : true
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/com.fuzhutech:fuzhutech-mybatis-generator/src/main/java/com/fuzhutech/mybatis/generator/codegen/mybatis3/model/BaseRecordGenerator.java",
+    "useImportReport" : [ {
+      "importPath" : "import java.util.List;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.mybatis.generator.api.dom.java.CompilationUnit;",
+      "artifact" : {
+        "artifact" : "org.mybatis.generator:mybatis-generator-core:1.3.5",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.fuzhutech:fuzhutech-mybatis-generator:1.0.0/dependencies/org/mybatis/generator/mybatis-generator-core/1.3.5/mybatis-generator-core-1.3.5.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.mybatis.generator.api.dom.java.TopLevelClass;",
+      "artifact" : {
+        "artifact" : "org.mybatis.generator:mybatis-generator-core:1.3.5",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.fuzhutech:fuzhutech-mybatis-generator:1.0.0/dependencies/org/mybatis/generator/mybatis-generator-core/1.3.5/mybatis-generator-core-1.3.5.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.mybatis.generator.config.PropertyRegistry;",
+      "artifact" : {
+        "artifact" : "org.mybatis.generator:mybatis-generator-core:1.3.5",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.fuzhutech:fuzhutech-mybatis-generator:1.0.0/dependencies/org/mybatis/generator/mybatis-generator-core/1.3.5/mybatis-generator-core-1.3.5.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import static org.mybatis.generator.internal.util.StringUtility.stringHasValue;",
+      "artifact" : {
+        "artifact" : "org.mybatis.generator:mybatis-generator-core:1.3.5",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.fuzhutech:fuzhutech-mybatis-generator:1.0.0/dependencies/org/mybatis/generator/mybatis-generator-core/1.3.5/mybatis-generator-core-1.3.5.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.mybatis.generator.api.dom.java.FullyQualifiedJavaType;",
+      "artifact" : {
+        "artifact" : "org.mybatis.generator:mybatis-generator-core:1.3.5",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.fuzhutech:fuzhutech-mybatis-generator:1.0.0/dependencies/org/mybatis/generator/mybatis-generator-core/1.3.5/mybatis-generator-core-1.3.5.jar"
+      },
+      "isDirectDependency" : true
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ {
+      "importPath" : "org.mybatis.generator.codegen.mybatis3.model.BaseRecordGenerator",
+      "artifact" : {
+        "artifact" : "org.mybatis.generator:mybatis-generator-core:1.3.5",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.fuzhutech:fuzhutech-mybatis-generator:1.0.0/dependencies/org/mybatis/generator/mybatis-generator-core/1.3.5/mybatis-generator-core-1.3.5.jar"
+      },
+      "isDirectDependency" : true
+    } ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/com.fuzhutech:fuzhutech-mybatis-generator/src/main/java/com/fuzhutech/mybatis/generator/codegen/mybatis3/xmlmapper/elements/BatchDeleteElementGenerator.java",
+    "useImportReport" : [ {
+      "importPath" : "import org.mybatis.generator.codegen.mybatis3.xmlmapper.elements.AbstractXmlElementGenerator;",
+      "artifact" : {
+        "artifact" : "org.mybatis.generator:mybatis-generator-core:1.3.5",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.fuzhutech:fuzhutech-mybatis-generator:1.0.0/dependencies/org/mybatis/generator/mybatis-generator-core/1.3.5/mybatis-generator-core-1.3.5.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.mybatis.generator.api.dom.xml.XmlElement;",
+      "artifact" : {
+        "artifact" : "org.mybatis.generator:mybatis-generator-core:1.3.5",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.fuzhutech:fuzhutech-mybatis-generator:1.0.0/dependencies/org/mybatis/generator/mybatis-generator-core/1.3.5/mybatis-generator-core-1.3.5.jar"
+      },
+      "isDirectDependency" : true
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/com.fuzhutech:fuzhutech-mybatis-generator/src/main/java/com/fuzhutech/mybatis/generator/codegen/mybatis3/xmlmapper/elements/SelectByPageInfoElementGenerator.java",
+    "useImportReport" : [ {
+      "importPath" : "import org.mybatis.generator.codegen.mybatis3.xmlmapper.elements.AbstractXmlElementGenerator;",
+      "artifact" : {
+        "artifact" : "org.mybatis.generator:mybatis-generator-core:1.3.5",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.fuzhutech:fuzhutech-mybatis-generator:1.0.0/dependencies/org/mybatis/generator/mybatis-generator-core/1.3.5/mybatis-generator-core-1.3.5.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.mybatis.generator.api.dom.xml.XmlElement;",
+      "artifact" : {
+        "artifact" : "org.mybatis.generator:mybatis-generator-core:1.3.5",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.fuzhutech:fuzhutech-mybatis-generator:1.0.0/dependencies/org/mybatis/generator/mybatis-generator-core/1.3.5/mybatis-generator-core-1.3.5.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.mybatis.generator.api.dom.xml.Attribute;",
+      "artifact" : {
+        "artifact" : "org.mybatis.generator:mybatis-generator-core:1.3.5",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.fuzhutech:fuzhutech-mybatis-generator:1.0.0/dependencies/org/mybatis/generator/mybatis-generator-core/1.3.5/mybatis-generator-core-1.3.5.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.mybatis.generator.api.dom.xml.TextElement;",
+      "artifact" : {
+        "artifact" : "org.mybatis.generator:mybatis-generator-core:1.3.5",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.fuzhutech:fuzhutech-mybatis-generator:1.0.0/dependencies/org/mybatis/generator/mybatis-generator-core/1.3.5/mybatis-generator-core-1.3.5.jar"
+      },
+      "isDirectDependency" : true
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/com.fuzhutech:fuzhutech-mybatis-generator/src/main/java/com/fuzhutech/mybatis/generator/codegen/mybatis3/xmlmapper/elements/BatchInsertElementGenerator.java",
+    "useImportReport" : [ {
+      "importPath" : "import org.mybatis.generator.codegen.mybatis3.xmlmapper.elements.AbstractXmlElementGenerator;",
+      "artifact" : {
+        "artifact" : "org.mybatis.generator:mybatis-generator-core:1.3.5",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.fuzhutech:fuzhutech-mybatis-generator:1.0.0/dependencies/org/mybatis/generator/mybatis-generator-core/1.3.5/mybatis-generator-core-1.3.5.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.mybatis.generator.api.dom.xml.XmlElement;",
+      "artifact" : {
+        "artifact" : "org.mybatis.generator:mybatis-generator-core:1.3.5",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.fuzhutech:fuzhutech-mybatis-generator:1.0.0/dependencies/org/mybatis/generator/mybatis-generator-core/1.3.5/mybatis-generator-core-1.3.5.jar"
+      },
+      "isDirectDependency" : true
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/com.fuzhutech:fuzhutech-mybatis-generator/src/main/java/com/fuzhutech/mybatis/generator/codegen/mybatis3/xmlmapper/elements/DeleteByWhereElementGenerator.java",
+    "useImportReport" : [ {
+      "importPath" : "import org.mybatis.generator.codegen.mybatis3.xmlmapper.elements.AbstractXmlElementGenerator;",
+      "artifact" : {
+        "artifact" : "org.mybatis.generator:mybatis-generator-core:1.3.5",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.fuzhutech:fuzhutech-mybatis-generator:1.0.0/dependencies/org/mybatis/generator/mybatis-generator-core/1.3.5/mybatis-generator-core-1.3.5.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.mybatis.generator.api.dom.xml.XmlElement;",
+      "artifact" : {
+        "artifact" : "org.mybatis.generator:mybatis-generator-core:1.3.5",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.fuzhutech:fuzhutech-mybatis-generator:1.0.0/dependencies/org/mybatis/generator/mybatis-generator-core/1.3.5/mybatis-generator-core-1.3.5.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.mybatis.generator.api.dom.xml.Attribute;",
+      "artifact" : {
+        "artifact" : "org.mybatis.generator:mybatis-generator-core:1.3.5",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.fuzhutech:fuzhutech-mybatis-generator:1.0.0/dependencies/org/mybatis/generator/mybatis-generator-core/1.3.5/mybatis-generator-core-1.3.5.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.mybatis.generator.api.dom.xml.TextElement;",
+      "artifact" : {
+        "artifact" : "org.mybatis.generator:mybatis-generator-core:1.3.5",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.fuzhutech:fuzhutech-mybatis-generator:1.0.0/dependencies/org/mybatis/generator/mybatis-generator-core/1.3.5/mybatis-generator-core-1.3.5.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.mybatis.generator.api.IntrospectedColumn;",
+      "artifact" : {
+        "artifact" : "org.mybatis.generator:mybatis-generator-core:1.3.5",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.fuzhutech:fuzhutech-mybatis-generator:1.0.0/dependencies/org/mybatis/generator/mybatis-generator-core/1.3.5/mybatis-generator-core-1.3.5.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.mybatis.generator.codegen.mybatis3.ListUtilities;",
+      "artifact" : {
+        "artifact" : "org.mybatis.generator:mybatis-generator-core:1.3.5",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.fuzhutech:fuzhutech-mybatis-generator:1.0.0/dependencies/org/mybatis/generator/mybatis-generator-core/1.3.5/mybatis-generator-core-1.3.5.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.mybatis.generator.codegen.mybatis3.MyBatis3FormattingUtilities;",
+      "artifact" : {
+        "artifact" : "org.mybatis.generator:mybatis-generator-core:1.3.5",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.fuzhutech:fuzhutech-mybatis-generator:1.0.0/dependencies/org/mybatis/generator/mybatis-generator-core/1.3.5/mybatis-generator-core-1.3.5.jar"
+      },
+      "isDirectDependency" : true
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/com.fuzhutech:fuzhutech-mybatis-generator/src/main/java/com/fuzhutech/mybatis/generator/codegen/mybatis3/xmlmapper/elements/SelectByWhereElementGenerator.java",
+    "useImportReport" : [ {
+      "importPath" : "import org.mybatis.generator.codegen.mybatis3.xmlmapper.elements.AbstractXmlElementGenerator;",
+      "artifact" : {
+        "artifact" : "org.mybatis.generator:mybatis-generator-core:1.3.5",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.fuzhutech:fuzhutech-mybatis-generator:1.0.0/dependencies/org/mybatis/generator/mybatis-generator-core/1.3.5/mybatis-generator-core-1.3.5.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.mybatis.generator.api.dom.xml.XmlElement;",
+      "artifact" : {
+        "artifact" : "org.mybatis.generator:mybatis-generator-core:1.3.5",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.fuzhutech:fuzhutech-mybatis-generator:1.0.0/dependencies/org/mybatis/generator/mybatis-generator-core/1.3.5/mybatis-generator-core-1.3.5.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.mybatis.generator.api.dom.xml.Attribute;",
+      "artifact" : {
+        "artifact" : "org.mybatis.generator:mybatis-generator-core:1.3.5",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.fuzhutech:fuzhutech-mybatis-generator:1.0.0/dependencies/org/mybatis/generator/mybatis-generator-core/1.3.5/mybatis-generator-core-1.3.5.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.mybatis.generator.api.dom.xml.TextElement;",
+      "artifact" : {
+        "artifact" : "org.mybatis.generator:mybatis-generator-core:1.3.5",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.fuzhutech:fuzhutech-mybatis-generator:1.0.0/dependencies/org/mybatis/generator/mybatis-generator-core/1.3.5/mybatis-generator-core-1.3.5.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.mybatis.generator.api.IntrospectedColumn;",
+      "artifact" : {
+        "artifact" : "org.mybatis.generator:mybatis-generator-core:1.3.5",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.fuzhutech:fuzhutech-mybatis-generator:1.0.0/dependencies/org/mybatis/generator/mybatis-generator-core/1.3.5/mybatis-generator-core-1.3.5.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.mybatis.generator.codegen.mybatis3.ListUtilities;",
+      "artifact" : {
+        "artifact" : "org.mybatis.generator:mybatis-generator-core:1.3.5",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.fuzhutech:fuzhutech-mybatis-generator:1.0.0/dependencies/org/mybatis/generator/mybatis-generator-core/1.3.5/mybatis-generator-core-1.3.5.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.mybatis.generator.codegen.mybatis3.MyBatis3FormattingUtilities;",
+      "artifact" : {
+        "artifact" : "org.mybatis.generator:mybatis-generator-core:1.3.5",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.fuzhutech:fuzhutech-mybatis-generator:1.0.0/dependencies/org/mybatis/generator/mybatis-generator-core/1.3.5/mybatis-generator-core-1.3.5.jar"
+      },
+      "isDirectDependency" : true
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/com.fuzhutech:fuzhutech-mybatis-generator/src/main/java/com/fuzhutech/mybatis/generator/codegen/mybatis3/xmlmapper/elements/CountByPageInfoElementGenerator.java",
+    "useImportReport" : [ {
+      "importPath" : "import org.mybatis.generator.codegen.mybatis3.xmlmapper.elements.AbstractXmlElementGenerator;",
+      "artifact" : {
+        "artifact" : "org.mybatis.generator:mybatis-generator-core:1.3.5",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.fuzhutech:fuzhutech-mybatis-generator:1.0.0/dependencies/org/mybatis/generator/mybatis-generator-core/1.3.5/mybatis-generator-core-1.3.5.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.mybatis.generator.api.dom.xml.XmlElement;",
+      "artifact" : {
+        "artifact" : "org.mybatis.generator:mybatis-generator-core:1.3.5",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.fuzhutech:fuzhutech-mybatis-generator:1.0.0/dependencies/org/mybatis/generator/mybatis-generator-core/1.3.5/mybatis-generator-core-1.3.5.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.mybatis.generator.api.dom.xml.Attribute;",
+      "artifact" : {
+        "artifact" : "org.mybatis.generator:mybatis-generator-core:1.3.5",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.fuzhutech:fuzhutech-mybatis-generator:1.0.0/dependencies/org/mybatis/generator/mybatis-generator-core/1.3.5/mybatis-generator-core-1.3.5.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.mybatis.generator.api.dom.xml.TextElement;",
+      "artifact" : {
+        "artifact" : "org.mybatis.generator:mybatis-generator-core:1.3.5",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.fuzhutech:fuzhutech-mybatis-generator:1.0.0/dependencies/org/mybatis/generator/mybatis-generator-core/1.3.5/mybatis-generator-core-1.3.5.jar"
+      },
+      "isDirectDependency" : true
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/com.fuzhutech:fuzhutech-mybatis-generator/src/main/java/com/fuzhutech/mybatis/generator/codegen/mybatis3/xmlmapper/XMLMapperGenerator.java",
+    "useImportReport" : [ {
+      "importPath" : "import org.mybatis.generator.api.dom.xml.XmlElement;",
+      "artifact" : {
+        "artifact" : "org.mybatis.generator:mybatis-generator-core:1.3.5",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.fuzhutech:fuzhutech-mybatis-generator:1.0.0/dependencies/org/mybatis/generator/mybatis-generator-core/1.3.5/mybatis-generator-core-1.3.5.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.mybatis.generator.codegen.mybatis3.xmlmapper.elements.AbstractXmlElementGenerator;",
+      "artifact" : {
+        "artifact" : "org.mybatis.generator:mybatis-generator-core:1.3.5",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.fuzhutech:fuzhutech-mybatis-generator:1.0.0/dependencies/org/mybatis/generator/mybatis-generator-core/1.3.5/mybatis-generator-core-1.3.5.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.mybatis.generator.codegen.mybatis3.xmlmapper.elements.SimpleSelectAllElementGenerator;",
+      "artifact" : {
+        "artifact" : "org.mybatis.generator:mybatis-generator-core:1.3.5",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.fuzhutech:fuzhutech-mybatis-generator:1.0.0/dependencies/org/mybatis/generator/mybatis-generator-core/1.3.5/mybatis-generator-core-1.3.5.jar"
+      },
+      "isDirectDependency" : true
+    } ],
+    "unusedImportReport" : [ {
+      "importPath" : "import com.fuzhutech.mybatis.generator.codegen.mybatis3.xmlmapper.elements.*;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "fullPathCallingReport" : [ {
+      "importPath" : "org.mybatis.generator.codegen.mybatis3.xmlmapper.XMLMapperGenerator",
+      "artifact" : {
+        "artifact" : "org.mybatis.generator:mybatis-generator-core:1.3.5",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.fuzhutech:fuzhutech-mybatis-generator:1.0.0/dependencies/org/mybatis/generator/mybatis-generator-core/1.3.5/mybatis-generator-core-1.3.5.jar"
+      },
+      "isDirectDependency" : true
+    } ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/com.fuzhutech:fuzhutech-mybatis-generator/src/main/java/com/fuzhutech/mybatis/generator/codegen/mybatis3/javamapper/JavaMapperGenerator.java",
+    "useImportReport" : [ {
+      "importPath" : "import java.util.List;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.mybatis.generator.api.dom.java.CompilationUnit;",
+      "artifact" : {
+        "artifact" : "org.mybatis.generator:mybatis-generator-core:1.3.5",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.fuzhutech:fuzhutech-mybatis-generator:1.0.0/dependencies/org/mybatis/generator/mybatis-generator-core/1.3.5/mybatis-generator-core-1.3.5.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import static org.mybatis.generator.internal.util.messages.Messages.getString;",
+      "artifact" : {
+        "artifact" : "org.mybatis.generator:mybatis-generator-core:1.3.5",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.fuzhutech:fuzhutech-mybatis-generator:1.0.0/dependencies/org/mybatis/generator/mybatis-generator-core/1.3.5/mybatis-generator-core-1.3.5.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.mybatis.generator.api.CommentGenerator;",
+      "artifact" : {
+        "artifact" : "org.mybatis.generator:mybatis-generator-core:1.3.5",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.fuzhutech:fuzhutech-mybatis-generator:1.0.0/dependencies/org/mybatis/generator/mybatis-generator-core/1.3.5/mybatis-generator-core-1.3.5.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.mybatis.generator.api.dom.java.FullyQualifiedJavaType;",
+      "artifact" : {
+        "artifact" : "org.mybatis.generator:mybatis-generator-core:1.3.5",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.fuzhutech:fuzhutech-mybatis-generator:1.0.0/dependencies/org/mybatis/generator/mybatis-generator-core/1.3.5/mybatis-generator-core-1.3.5.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.mybatis.generator.api.dom.java.Interface;",
+      "artifact" : {
+        "artifact" : "org.mybatis.generator:mybatis-generator-core:1.3.5",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.fuzhutech:fuzhutech-mybatis-generator:1.0.0/dependencies/org/mybatis/generator/mybatis-generator-core/1.3.5/mybatis-generator-core-1.3.5.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.mybatis.generator.api.dom.java.JavaVisibility;",
+      "artifact" : {
+        "artifact" : "org.mybatis.generator:mybatis-generator-core:1.3.5",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.fuzhutech:fuzhutech-mybatis-generator:1.0.0/dependencies/org/mybatis/generator/mybatis-generator-core/1.3.5/mybatis-generator-core-1.3.5.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.mybatis.generator.config.PropertyRegistry;",
+      "artifact" : {
+        "artifact" : "org.mybatis.generator:mybatis-generator-core:1.3.5",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.fuzhutech:fuzhutech-mybatis-generator:1.0.0/dependencies/org/mybatis/generator/mybatis-generator-core/1.3.5/mybatis-generator-core-1.3.5.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import static org.mybatis.generator.internal.util.StringUtility.stringHasValue;",
+      "artifact" : {
+        "artifact" : "org.mybatis.generator:mybatis-generator-core:1.3.5",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.fuzhutech:fuzhutech-mybatis-generator:1.0.0/dependencies/org/mybatis/generator/mybatis-generator-core/1.3.5/mybatis-generator-core-1.3.5.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import java.util.ArrayList;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.mybatis.generator.codegen.AbstractXmlGenerator;",
+      "artifact" : {
+        "artifact" : "org.mybatis.generator:mybatis-generator-core:1.3.5",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.fuzhutech:fuzhutech-mybatis-generator:1.0.0/dependencies/org/mybatis/generator/mybatis-generator-core/1.3.5/mybatis-generator-core-1.3.5.jar"
+      },
+      "isDirectDependency" : true
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ {
+      "importPath" : "org.mybatis.generator.codegen.mybatis3.javamapper.JavaMapperGenerator",
+      "artifact" : {
+        "artifact" : "org.mybatis.generator:mybatis-generator-core:1.3.5",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.fuzhutech:fuzhutech-mybatis-generator:1.0.0/dependencies/org/mybatis/generator/mybatis-generator-core/1.3.5/mybatis-generator-core-1.3.5.jar"
+      },
+      "isDirectDependency" : true
+    } ],
+    "failImportReport" : [ {
+      "importPath" : "import com.fuzhutech.mybatis.generator.codegen.mybatis3.xmlmapper.XMLMapperGenerator;"
+    } ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/com.fuzhutech:fuzhutech-mybatis-generator/src/main/java/com/fuzhutech/mybatis/generator/codegen/mybatis3/javamapper/elements/CountByPageInfoMethodGenerator.java",
+    "useImportReport" : [ {
+      "importPath" : "import org.mybatis.generator.codegen.mybatis3.javamapper.elements.AbstractJavaMapperMethodGenerator;",
+      "artifact" : {
+        "artifact" : "org.mybatis.generator:mybatis-generator-core:1.3.5",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.fuzhutech:fuzhutech-mybatis-generator:1.0.0/dependencies/org/mybatis/generator/mybatis-generator-core/1.3.5/mybatis-generator-core-1.3.5.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.mybatis.generator.api.dom.java.Interface;",
+      "artifact" : {
+        "artifact" : "org.mybatis.generator:mybatis-generator-core:1.3.5",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.fuzhutech:fuzhutech-mybatis-generator:1.0.0/dependencies/org/mybatis/generator/mybatis-generator-core/1.3.5/mybatis-generator-core-1.3.5.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.mybatis.generator.api.dom.java.FullyQualifiedJavaType;",
+      "artifact" : {
+        "artifact" : "org.mybatis.generator:mybatis-generator-core:1.3.5",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.fuzhutech:fuzhutech-mybatis-generator:1.0.0/dependencies/org/mybatis/generator/mybatis-generator-core/1.3.5/mybatis-generator-core-1.3.5.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import java.util.Set;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.TreeSet;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.mybatis.generator.api.dom.java.Method;",
+      "artifact" : {
+        "artifact" : "org.mybatis.generator:mybatis-generator-core:1.3.5",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.fuzhutech:fuzhutech-mybatis-generator:1.0.0/dependencies/org/mybatis/generator/mybatis-generator-core/1.3.5/mybatis-generator-core-1.3.5.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.mybatis.generator.api.dom.java.JavaVisibility;",
+      "artifact" : {
+        "artifact" : "org.mybatis.generator:mybatis-generator-core:1.3.5",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.fuzhutech:fuzhutech-mybatis-generator:1.0.0/dependencies/org/mybatis/generator/mybatis-generator-core/1.3.5/mybatis-generator-core-1.3.5.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.mybatis.generator.api.dom.java.Parameter;",
+      "artifact" : {
+        "artifact" : "org.mybatis.generator:mybatis-generator-core:1.3.5",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.fuzhutech:fuzhutech-mybatis-generator:1.0.0/dependencies/org/mybatis/generator/mybatis-generator-core/1.3.5/mybatis-generator-core-1.3.5.jar"
+      },
+      "isDirectDependency" : true
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/com.fuzhutech:fuzhutech-mybatis-generator/src/main/java/com/fuzhutech/mybatis/generator/codegen/mybatis3/javamapper/elements/SelectByWhereMethodGenerator.java",
+    "useImportReport" : [ {
+      "importPath" : "import org.mybatis.generator.codegen.mybatis3.javamapper.elements.AbstractJavaMapperMethodGenerator;",
+      "artifact" : {
+        "artifact" : "org.mybatis.generator:mybatis-generator-core:1.3.5",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.fuzhutech:fuzhutech-mybatis-generator:1.0.0/dependencies/org/mybatis/generator/mybatis-generator-core/1.3.5/mybatis-generator-core-1.3.5.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.mybatis.generator.api.dom.java.Interface;",
+      "artifact" : {
+        "artifact" : "org.mybatis.generator:mybatis-generator-core:1.3.5",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.fuzhutech:fuzhutech-mybatis-generator:1.0.0/dependencies/org/mybatis/generator/mybatis-generator-core/1.3.5/mybatis-generator-core-1.3.5.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import java.util.Set;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.mybatis.generator.api.dom.java.FullyQualifiedJavaType;",
+      "artifact" : {
+        "artifact" : "org.mybatis.generator:mybatis-generator-core:1.3.5",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.fuzhutech:fuzhutech-mybatis-generator:1.0.0/dependencies/org/mybatis/generator/mybatis-generator-core/1.3.5/mybatis-generator-core-1.3.5.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import java.util.TreeSet;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.mybatis.generator.api.dom.java.Method;",
+      "artifact" : {
+        "artifact" : "org.mybatis.generator:mybatis-generator-core:1.3.5",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.fuzhutech:fuzhutech-mybatis-generator:1.0.0/dependencies/org/mybatis/generator/mybatis-generator-core/1.3.5/mybatis-generator-core-1.3.5.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.mybatis.generator.api.dom.java.JavaVisibility;",
+      "artifact" : {
+        "artifact" : "org.mybatis.generator:mybatis-generator-core:1.3.5",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.fuzhutech:fuzhutech-mybatis-generator:1.0.0/dependencies/org/mybatis/generator/mybatis-generator-core/1.3.5/mybatis-generator-core-1.3.5.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.mybatis.generator.api.dom.java.Parameter;",
+      "artifact" : {
+        "artifact" : "org.mybatis.generator:mybatis-generator-core:1.3.5",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.fuzhutech:fuzhutech-mybatis-generator:1.0.0/dependencies/org/mybatis/generator/mybatis-generator-core/1.3.5/mybatis-generator-core-1.3.5.jar"
+      },
+      "isDirectDependency" : true
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/com.fuzhutech:fuzhutech-mybatis-generator/src/main/java/com/fuzhutech/mybatis/generator/codegen/mybatis3/javamapper/elements/BatchDeleteMethodGenerator.java",
+    "useImportReport" : [ {
+      "importPath" : "import org.mybatis.generator.codegen.mybatis3.javamapper.elements.AbstractJavaMapperMethodGenerator;",
+      "artifact" : {
+        "artifact" : "org.mybatis.generator:mybatis-generator-core:1.3.5",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.fuzhutech:fuzhutech-mybatis-generator:1.0.0/dependencies/org/mybatis/generator/mybatis-generator-core/1.3.5/mybatis-generator-core-1.3.5.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.mybatis.generator.api.dom.java.Interface;",
+      "artifact" : {
+        "artifact" : "org.mybatis.generator:mybatis-generator-core:1.3.5",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.fuzhutech:fuzhutech-mybatis-generator:1.0.0/dependencies/org/mybatis/generator/mybatis-generator-core/1.3.5/mybatis-generator-core-1.3.5.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import java.util.Set;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.mybatis.generator.api.dom.java.FullyQualifiedJavaType;",
+      "artifact" : {
+        "artifact" : "org.mybatis.generator:mybatis-generator-core:1.3.5",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.fuzhutech:fuzhutech-mybatis-generator:1.0.0/dependencies/org/mybatis/generator/mybatis-generator-core/1.3.5/mybatis-generator-core-1.3.5.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import java.util.TreeSet;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.mybatis.generator.api.dom.java.Method;",
+      "artifact" : {
+        "artifact" : "org.mybatis.generator:mybatis-generator-core:1.3.5",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.fuzhutech:fuzhutech-mybatis-generator:1.0.0/dependencies/org/mybatis/generator/mybatis-generator-core/1.3.5/mybatis-generator-core-1.3.5.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.mybatis.generator.api.dom.java.JavaVisibility;",
+      "artifact" : {
+        "artifact" : "org.mybatis.generator:mybatis-generator-core:1.3.5",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.fuzhutech:fuzhutech-mybatis-generator:1.0.0/dependencies/org/mybatis/generator/mybatis-generator-core/1.3.5/mybatis-generator-core-1.3.5.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.mybatis.generator.api.dom.java.Parameter;",
+      "artifact" : {
+        "artifact" : "org.mybatis.generator:mybatis-generator-core:1.3.5",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.fuzhutech:fuzhutech-mybatis-generator:1.0.0/dependencies/org/mybatis/generator/mybatis-generator-core/1.3.5/mybatis-generator-core-1.3.5.jar"
+      },
+      "isDirectDependency" : true
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/com.fuzhutech:fuzhutech-mybatis-generator/src/main/java/com/fuzhutech/mybatis/generator/codegen/mybatis3/javamapper/elements/ExtendsRootInterfaceGenerator.java",
+    "useImportReport" : [ {
+      "importPath" : "import org.mybatis.generator.codegen.mybatis3.javamapper.elements.AbstractJavaMapperMethodGenerator;",
+      "artifact" : {
+        "artifact" : "org.mybatis.generator:mybatis-generator-core:1.3.5",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.fuzhutech:fuzhutech-mybatis-generator:1.0.0/dependencies/org/mybatis/generator/mybatis-generator-core/1.3.5/mybatis-generator-core-1.3.5.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.mybatis.generator.api.dom.java.Interface;",
+      "artifact" : {
+        "artifact" : "org.mybatis.generator:mybatis-generator-core:1.3.5",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.fuzhutech:fuzhutech-mybatis-generator:1.0.0/dependencies/org/mybatis/generator/mybatis-generator-core/1.3.5/mybatis-generator-core-1.3.5.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import java.util.Set;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.mybatis.generator.api.dom.java.FullyQualifiedJavaType;",
+      "artifact" : {
+        "artifact" : "org.mybatis.generator:mybatis-generator-core:1.3.5",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.fuzhutech:fuzhutech-mybatis-generator:1.0.0/dependencies/org/mybatis/generator/mybatis-generator-core/1.3.5/mybatis-generator-core-1.3.5.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import java.util.TreeSet;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.mybatis.generator.api.dom.java.Method;",
+      "artifact" : {
+        "artifact" : "org.mybatis.generator:mybatis-generator-core:1.3.5",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.fuzhutech:fuzhutech-mybatis-generator:1.0.0/dependencies/org/mybatis/generator/mybatis-generator-core/1.3.5/mybatis-generator-core-1.3.5.jar"
+      },
+      "isDirectDependency" : true
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/com.fuzhutech:fuzhutech-mybatis-generator/src/main/java/com/fuzhutech/mybatis/generator/codegen/mybatis3/javamapper/elements/SelectByPageInfoMethodGenerator.java",
+    "useImportReport" : [ {
+      "importPath" : "import org.mybatis.generator.codegen.mybatis3.javamapper.elements.AbstractJavaMapperMethodGenerator;",
+      "artifact" : {
+        "artifact" : "org.mybatis.generator:mybatis-generator-core:1.3.5",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.fuzhutech:fuzhutech-mybatis-generator:1.0.0/dependencies/org/mybatis/generator/mybatis-generator-core/1.3.5/mybatis-generator-core-1.3.5.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.mybatis.generator.api.dom.java.Interface;",
+      "artifact" : {
+        "artifact" : "org.mybatis.generator:mybatis-generator-core:1.3.5",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.fuzhutech:fuzhutech-mybatis-generator:1.0.0/dependencies/org/mybatis/generator/mybatis-generator-core/1.3.5/mybatis-generator-core-1.3.5.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import java.util.Set;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.mybatis.generator.api.dom.java.FullyQualifiedJavaType;",
+      "artifact" : {
+        "artifact" : "org.mybatis.generator:mybatis-generator-core:1.3.5",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.fuzhutech:fuzhutech-mybatis-generator:1.0.0/dependencies/org/mybatis/generator/mybatis-generator-core/1.3.5/mybatis-generator-core-1.3.5.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import java.util.TreeSet;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.mybatis.generator.api.dom.java.Method;",
+      "artifact" : {
+        "artifact" : "org.mybatis.generator:mybatis-generator-core:1.3.5",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.fuzhutech:fuzhutech-mybatis-generator:1.0.0/dependencies/org/mybatis/generator/mybatis-generator-core/1.3.5/mybatis-generator-core-1.3.5.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.mybatis.generator.api.dom.java.JavaVisibility;",
+      "artifact" : {
+        "artifact" : "org.mybatis.generator:mybatis-generator-core:1.3.5",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.fuzhutech:fuzhutech-mybatis-generator:1.0.0/dependencies/org/mybatis/generator/mybatis-generator-core/1.3.5/mybatis-generator-core-1.3.5.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.mybatis.generator.api.dom.java.Parameter;",
+      "artifact" : {
+        "artifact" : "org.mybatis.generator:mybatis-generator-core:1.3.5",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.fuzhutech:fuzhutech-mybatis-generator:1.0.0/dependencies/org/mybatis/generator/mybatis-generator-core/1.3.5/mybatis-generator-core-1.3.5.jar"
+      },
+      "isDirectDependency" : true
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/com.fuzhutech:fuzhutech-mybatis-generator/src/main/java/com/fuzhutech/mybatis/generator/codegen/mybatis3/javamapper/elements/DeleteByWhereMethodGenerator.java",
+    "useImportReport" : [ {
+      "importPath" : "import org.mybatis.generator.codegen.mybatis3.javamapper.elements.AbstractJavaMapperMethodGenerator;",
+      "artifact" : {
+        "artifact" : "org.mybatis.generator:mybatis-generator-core:1.3.5",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.fuzhutech:fuzhutech-mybatis-generator:1.0.0/dependencies/org/mybatis/generator/mybatis-generator-core/1.3.5/mybatis-generator-core-1.3.5.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.mybatis.generator.api.dom.java.Interface;",
+      "artifact" : {
+        "artifact" : "org.mybatis.generator:mybatis-generator-core:1.3.5",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.fuzhutech:fuzhutech-mybatis-generator:1.0.0/dependencies/org/mybatis/generator/mybatis-generator-core/1.3.5/mybatis-generator-core-1.3.5.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import java.util.Set;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.mybatis.generator.api.dom.java.FullyQualifiedJavaType;",
+      "artifact" : {
+        "artifact" : "org.mybatis.generator:mybatis-generator-core:1.3.5",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.fuzhutech:fuzhutech-mybatis-generator:1.0.0/dependencies/org/mybatis/generator/mybatis-generator-core/1.3.5/mybatis-generator-core-1.3.5.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import java.util.TreeSet;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.mybatis.generator.api.dom.java.Method;",
+      "artifact" : {
+        "artifact" : "org.mybatis.generator:mybatis-generator-core:1.3.5",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.fuzhutech:fuzhutech-mybatis-generator:1.0.0/dependencies/org/mybatis/generator/mybatis-generator-core/1.3.5/mybatis-generator-core-1.3.5.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.mybatis.generator.api.dom.java.JavaVisibility;",
+      "artifact" : {
+        "artifact" : "org.mybatis.generator:mybatis-generator-core:1.3.5",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.fuzhutech:fuzhutech-mybatis-generator:1.0.0/dependencies/org/mybatis/generator/mybatis-generator-core/1.3.5/mybatis-generator-core-1.3.5.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.mybatis.generator.api.dom.java.Parameter;",
+      "artifact" : {
+        "artifact" : "org.mybatis.generator:mybatis-generator-core:1.3.5",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.fuzhutech:fuzhutech-mybatis-generator:1.0.0/dependencies/org/mybatis/generator/mybatis-generator-core/1.3.5/mybatis-generator-core-1.3.5.jar"
+      },
+      "isDirectDependency" : true
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/com.fuzhutech:fuzhutech-mybatis-generator/src/main/java/com/fuzhutech/mybatis/generator/codegen/mybatis3/javamapper/elements/BatchInsertMethodGenerator.java",
+    "useImportReport" : [ {
+      "importPath" : "import org.mybatis.generator.codegen.mybatis3.javamapper.elements.AbstractJavaMapperMethodGenerator;",
+      "artifact" : {
+        "artifact" : "org.mybatis.generator:mybatis-generator-core:1.3.5",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.fuzhutech:fuzhutech-mybatis-generator:1.0.0/dependencies/org/mybatis/generator/mybatis-generator-core/1.3.5/mybatis-generator-core-1.3.5.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.mybatis.generator.api.dom.java.Interface;",
+      "artifact" : {
+        "artifact" : "org.mybatis.generator:mybatis-generator-core:1.3.5",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.fuzhutech:fuzhutech-mybatis-generator:1.0.0/dependencies/org/mybatis/generator/mybatis-generator-core/1.3.5/mybatis-generator-core-1.3.5.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import java.util.Set;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.mybatis.generator.api.dom.java.FullyQualifiedJavaType;",
+      "artifact" : {
+        "artifact" : "org.mybatis.generator:mybatis-generator-core:1.3.5",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.fuzhutech:fuzhutech-mybatis-generator:1.0.0/dependencies/org/mybatis/generator/mybatis-generator-core/1.3.5/mybatis-generator-core-1.3.5.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import java.util.TreeSet;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.mybatis.generator.api.dom.java.Method;",
+      "artifact" : {
+        "artifact" : "org.mybatis.generator:mybatis-generator-core:1.3.5",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.fuzhutech:fuzhutech-mybatis-generator:1.0.0/dependencies/org/mybatis/generator/mybatis-generator-core/1.3.5/mybatis-generator-core-1.3.5.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.mybatis.generator.api.dom.java.JavaVisibility;",
+      "artifact" : {
+        "artifact" : "org.mybatis.generator:mybatis-generator-core:1.3.5",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.fuzhutech:fuzhutech-mybatis-generator:1.0.0/dependencies/org/mybatis/generator/mybatis-generator-core/1.3.5/mybatis-generator-core-1.3.5.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.mybatis.generator.api.dom.java.Parameter;",
+      "artifact" : {
+        "artifact" : "org.mybatis.generator:mybatis-generator-core:1.3.5",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.fuzhutech:fuzhutech-mybatis-generator:1.0.0/dependencies/org/mybatis/generator/mybatis-generator-core/1.3.5/mybatis-generator-core-1.3.5.jar"
+      },
+      "isDirectDependency" : true
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/com.fuzhutech:fuzhutech-mybatis-generator/src/main/java/com/fuzhutech/mybatis/generator/codegen/mybatis3/IntrospectedTableMyBatis3Impl.java",
+    "useImportReport" : [ {
+      "importPath" : "import org.mybatis.generator.codegen.AbstractJavaClientGenerator;",
+      "artifact" : {
+        "artifact" : "org.mybatis.generator:mybatis-generator-core:1.3.5",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.fuzhutech:fuzhutech-mybatis-generator:1.0.0/dependencies/org/mybatis/generator/mybatis-generator-core/1.3.5/mybatis-generator-core-1.3.5.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import java.util.List;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.mybatis.generator.api.ProgressCallback;",
+      "artifact" : {
+        "artifact" : "org.mybatis.generator:mybatis-generator-core:1.3.5",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.fuzhutech:fuzhutech-mybatis-generator:1.0.0/dependencies/org/mybatis/generator/mybatis-generator-core/1.3.5/mybatis-generator-core-1.3.5.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.mybatis.generator.codegen.mybatis3.javamapper.MixedClientGenerator;",
+      "artifact" : {
+        "artifact" : "org.mybatis.generator:mybatis-generator-core:1.3.5",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.fuzhutech:fuzhutech-mybatis-generator:1.0.0/dependencies/org/mybatis/generator/mybatis-generator-core/1.3.5/mybatis-generator-core-1.3.5.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.mybatis.generator.codegen.mybatis3.javamapper.AnnotatedClientGenerator;",
+      "artifact" : {
+        "artifact" : "org.mybatis.generator:mybatis-generator-core:1.3.5",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.fuzhutech:fuzhutech-mybatis-generator:1.0.0/dependencies/org/mybatis/generator/mybatis-generator-core/1.3.5/mybatis-generator-core-1.3.5.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.mybatis.generator.internal.ObjectFactory;",
+      "artifact" : {
+        "artifact" : "org.mybatis.generator:mybatis-generator-core:1.3.5",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.fuzhutech:fuzhutech-mybatis-generator:1.0.0/dependencies/org/mybatis/generator/mybatis-generator-core/1.3.5/mybatis-generator-core-1.3.5.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.mybatis.generator.codegen.AbstractJavaGenerator;",
+      "artifact" : {
+        "artifact" : "org.mybatis.generator:mybatis-generator-core:1.3.5",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.fuzhutech:fuzhutech-mybatis-generator:1.0.0/dependencies/org/mybatis/generator/mybatis-generator-core/1.3.5/mybatis-generator-core-1.3.5.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.mybatis.generator.codegen.mybatis3.model.ExampleGenerator;",
+      "artifact" : {
+        "artifact" : "org.mybatis.generator:mybatis-generator-core:1.3.5",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.fuzhutech:fuzhutech-mybatis-generator:1.0.0/dependencies/org/mybatis/generator/mybatis-generator-core/1.3.5/mybatis-generator-core-1.3.5.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.mybatis.generator.codegen.mybatis3.model.PrimaryKeyGenerator;",
+      "artifact" : {
+        "artifact" : "org.mybatis.generator:mybatis-generator-core:1.3.5",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.fuzhutech:fuzhutech-mybatis-generator:1.0.0/dependencies/org/mybatis/generator/mybatis-generator-core/1.3.5/mybatis-generator-core-1.3.5.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.mybatis.generator.codegen.mybatis3.model.RecordWithBLOBsGenerator;",
+      "artifact" : {
+        "artifact" : "org.mybatis.generator:mybatis-generator-core:1.3.5",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.fuzhutech:fuzhutech-mybatis-generator:1.0.0/dependencies/org/mybatis/generator/mybatis-generator-core/1.3.5/mybatis-generator-core-1.3.5.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.mybatis.generator.api.GeneratedXmlFile;",
+      "artifact" : {
+        "artifact" : "org.mybatis.generator:mybatis-generator-core:1.3.5",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.fuzhutech:fuzhutech-mybatis-generator:1.0.0/dependencies/org/mybatis/generator/mybatis-generator-core/1.3.5/mybatis-generator-core-1.3.5.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import java.util.ArrayList;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.mybatis.generator.api.dom.xml.Document;",
+      "artifact" : {
+        "artifact" : "org.mybatis.generator:mybatis-generator-core:1.3.5",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.fuzhutech:fuzhutech-mybatis-generator:1.0.0/dependencies/org/mybatis/generator/mybatis-generator-core/1.3.5/mybatis-generator-core-1.3.5.jar"
+      },
+      "isDirectDependency" : true
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ {
+      "importPath" : "org.mybatis.generator.codegen.mybatis3.IntrospectedTableMyBatis3Impl",
+      "artifact" : {
+        "artifact" : "org.mybatis.generator:mybatis-generator-core:1.3.5",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.fuzhutech:fuzhutech-mybatis-generator:1.0.0/dependencies/org/mybatis/generator/mybatis-generator-core/1.3.5/mybatis-generator-core-1.3.5.jar"
+      },
+      "isDirectDependency" : true
+    } ],
+    "failImportReport" : [ {
+      "importPath" : "import com.fuzhutech.mybatis.generator.codegen.mybatis3.javamapper.JavaMapperGenerator;"
+    }, {
+      "importPath" : "import com.fuzhutech.mybatis.generator.codegen.mybatis3.model.BaseRecordGenerator;"
+    }, {
+      "importPath" : "import com.fuzhutech.mybatis.generator.codegen.mybatis3.xmlmapper.XMLMapperGenerator;"
+    } ]
+  } ],
+  "projectUseDependencies" : [ {
+    "artifact" : "org.mybatis.generator:mybatis-generator-core:1.3.5",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.fuzhutech:fuzhutech-mybatis-generator:1.0.0/dependencies/org/mybatis/generator/mybatis-generator-core/1.3.5/mybatis-generator-core-1.3.5.jar"
+  } ],
+  "projectUseTransitiveDependencies" : [ ],
+  "projectUnusedDependencies" : [ {
+    "artifact" : "org.slf4j:slf4j-log4j12:1.7.7",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.fuzhutech:fuzhutech-mybatis-generator:1.0.0/dependencies/org/slf4j/slf4j-log4j12/1.7.7/slf4j-log4j12-1.7.7.jar"
+  } ]
+}

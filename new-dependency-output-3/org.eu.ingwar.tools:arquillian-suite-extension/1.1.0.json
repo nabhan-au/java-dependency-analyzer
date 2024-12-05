@@ -1,0 +1,818 @@
+{
+  "projectArtifact" : "org.eu.ingwar.tools:arquillian-suite-extension:1.1.0",
+  "repositoryDir" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/org.eu.ingwar.tools:arquillian-suite-extension",
+  "repositorySubDir" : "",
+  "artifactLocation" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.eu.ingwar.tools:arquillian-suite-extension:1.1.0",
+  "fileImportReports" : [ {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/org.eu.ingwar.tools:arquillian-suite-extension/src/main/java/org/eu/ingwar/tools/arquillian/extension/deployment/EarGenericBuilder.java",
+    "useImportReport" : [ {
+      "importPath" : "import java.util.logging.Logger;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.jboss.shrinkwrap.api.spec.EnterpriseArchive;",
+      "artifact" : {
+        "artifact" : "org.jboss.shrinkwrap:shrinkwrap-api:1.1.2",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.eu.ingwar.tools:arquillian-suite-extension:1.1.0/dependencies/org/jboss/shrinkwrap/shrinkwrap-api/1.1.2/shrinkwrap-api-1.1.2.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.jboss.shrinkwrap.resolver.api.maven.MavenResolverSystem;",
+      "artifact" : {
+        "artifact" : "org.jboss.shrinkwrap.resolver:shrinkwrap-resolver-api-maven:2.0.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.eu.ingwar.tools:arquillian-suite-extension:1.1.0/dependencies/org/jboss/shrinkwrap/resolver/shrinkwrap-resolver-api-maven/2.0.0/shrinkwrap-resolver-api-maven-2.0.0.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.jboss.shrinkwrap.resolver.api.maven.Maven;",
+      "artifact" : {
+        "artifact" : "org.jboss.shrinkwrap.resolver:shrinkwrap-resolver-api-maven:2.0.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.eu.ingwar.tools:arquillian-suite-extension:1.1.0/dependencies/org/jboss/shrinkwrap/resolver/shrinkwrap-resolver-api-maven/2.0.0/shrinkwrap-resolver-api-maven-2.0.0.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.jboss.shrinkwrap.api.ShrinkWrap;",
+      "artifact" : {
+        "artifact" : "org.jboss.shrinkwrap:shrinkwrap-api:1.1.2",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.eu.ingwar.tools:arquillian-suite-extension:1.1.0/dependencies/org/jboss/shrinkwrap/shrinkwrap-api/1.1.2/shrinkwrap-api-1.1.2.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.jboss.shrinkwrap.resolver.api.maven.PomEquippedResolveStage;",
+      "artifact" : {
+        "artifact" : "org.jboss.shrinkwrap.resolver:shrinkwrap-resolver-api-maven:2.0.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.eu.ingwar.tools:arquillian-suite-extension:1.1.0/dependencies/org/jboss/shrinkwrap/resolver/shrinkwrap-resolver-api-maven/2.0.0/shrinkwrap-resolver-api-maven-2.0.0.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.jboss.shrinkwrap.resolver.api.maven.MavenResolvedArtifact;",
+      "artifact" : {
+        "artifact" : "org.jboss.shrinkwrap.resolver:shrinkwrap-resolver-api-maven:2.0.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.eu.ingwar.tools:arquillian-suite-extension:1.1.0/dependencies/org/jboss/shrinkwrap/resolver/shrinkwrap-resolver-api-maven/2.0.0/shrinkwrap-resolver-api-maven-2.0.0.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.jboss.shrinkwrap.resolver.api.maven.ScopeType;",
+      "artifact" : {
+        "artifact" : "org.jboss.shrinkwrap.resolver:shrinkwrap-resolver-api-maven:2.0.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.eu.ingwar.tools:arquillian-suite-extension:1.1.0/dependencies/org/jboss/shrinkwrap/resolver/shrinkwrap-resolver-api-maven/2.0.0/shrinkwrap-resolver-api-maven-2.0.0.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.jboss.shrinkwrap.resolver.api.maven.strategy.AcceptScopesStrategy;",
+      "artifact" : {
+        "artifact" : "org.jboss.shrinkwrap.resolver:shrinkwrap-resolver-api-maven:2.0.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.eu.ingwar.tools:arquillian-suite-extension:1.1.0/dependencies/org/jboss/shrinkwrap/resolver/shrinkwrap-resolver-api-maven/2.0.0/shrinkwrap-resolver-api-maven-2.0.0.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.jboss.shrinkwrap.api.spec.JavaArchive;",
+      "artifact" : {
+        "artifact" : "org.jboss.shrinkwrap:shrinkwrap-api:1.1.2",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.eu.ingwar.tools:arquillian-suite-extension:1.1.0/dependencies/org/jboss/shrinkwrap/shrinkwrap-api/1.1.2/shrinkwrap-api-1.1.2.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.jboss.shrinkwrap.resolver.api.maven.MavenArtifactInfo;",
+      "artifact" : {
+        "artifact" : "org.jboss.shrinkwrap.resolver:shrinkwrap-resolver-api-maven:2.0.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.eu.ingwar.tools:arquillian-suite-extension:1.1.0/dependencies/org/jboss/shrinkwrap/resolver/shrinkwrap-resolver-api-maven/2.0.0/shrinkwrap-resolver-api-maven-2.0.0.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.jboss.shrinkwrap.resolver.api.maven.coordinate.MavenCoordinate;",
+      "artifact" : {
+        "artifact" : "org.jboss.shrinkwrap.resolver:shrinkwrap-resolver-api-maven:2.0.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.eu.ingwar.tools:arquillian-suite-extension:1.1.0/dependencies/org/jboss/shrinkwrap/resolver/shrinkwrap-resolver-api-maven/2.0.0/shrinkwrap-resolver-api-maven-2.0.0.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.jboss.shrinkwrap.resolver.api.maven.PackagingType;",
+      "artifact" : {
+        "artifact" : "org.jboss.shrinkwrap.resolver:shrinkwrap-resolver-api-maven:2.0.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.eu.ingwar.tools:arquillian-suite-extension:1.1.0/dependencies/org/jboss/shrinkwrap/resolver/shrinkwrap-resolver-api-maven/2.0.0/shrinkwrap-resolver-api-maven-2.0.0.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.logging.Level;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.jboss.shrinkwrap.api.spec.WebArchive;",
+      "artifact" : {
+        "artifact" : "org.jboss.shrinkwrap:shrinkwrap-api:1.1.2",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.eu.ingwar.tools:arquillian-suite-extension:1.1.0/dependencies/org/jboss/shrinkwrap/shrinkwrap-api/1.1.2/shrinkwrap-api-1.1.2.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.jboss.shrinkwrap.api.Archive;",
+      "artifact" : {
+        "artifact" : "org.jboss.shrinkwrap:shrinkwrap-api:1.1.2",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.eu.ingwar.tools:arquillian-suite-extension:1.1.0/dependencies/org/jboss/shrinkwrap/shrinkwrap-api/1.1.2/shrinkwrap-api-1.1.2.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.jboss.shrinkwrap.api.importer.ExplodedImporter;",
+      "artifact" : {
+        "artifact" : "org.jboss.shrinkwrap:shrinkwrap-api:1.1.2",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.eu.ingwar.tools:arquillian-suite-extension:1.1.0/dependencies/org/jboss/shrinkwrap/shrinkwrap-api/1.1.2/shrinkwrap-api-1.1.2.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.jboss.shrinkwrap.api.asset.StringAsset;",
+      "artifact" : {
+        "artifact" : "org.jboss.shrinkwrap:shrinkwrap-api:1.1.2",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.eu.ingwar.tools:arquillian-suite-extension:1.1.0/dependencies/org/jboss/shrinkwrap/shrinkwrap-api/1.1.2/shrinkwrap-api-1.1.2.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.jboss.shrinkwrap.resolver.api.InvalidConfigurationFileException;",
+      "artifact" : {
+        "artifact" : "org.jboss.shrinkwrap.resolver:shrinkwrap-resolver-api:2.0.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.eu.ingwar.tools:arquillian-suite-extension:1.1.0/dependencies/org/jboss/shrinkwrap/resolver/shrinkwrap-resolver-api/2.0.0/shrinkwrap-resolver-api-2.0.0.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.jboss.shrinkwrap.api.importer.ArchiveImportException;",
+      "artifact" : {
+        "artifact" : "org.jboss.shrinkwrap:shrinkwrap-api:1.1.2",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.eu.ingwar.tools:arquillian-suite-extension:1.1.0/dependencies/org/jboss/shrinkwrap/shrinkwrap-api/1.1.2/shrinkwrap-api-1.1.2.jar"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ {
+      "importPath" : "import org.jboss.shrinkwrap.api.ArchivePath;",
+      "artifact" : {
+        "artifact" : "org.jboss.shrinkwrap:shrinkwrap-api:1.1.2",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.eu.ingwar.tools:arquillian-suite-extension:1.1.0/dependencies/org/jboss/shrinkwrap/shrinkwrap-api/1.1.2/shrinkwrap-api-1.1.2.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.jboss.shrinkwrap.api.Node;",
+      "artifact" : {
+        "artifact" : "org.jboss.shrinkwrap:shrinkwrap-api:1.1.2",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.eu.ingwar.tools:arquillian-suite-extension:1.1.0/dependencies/org/jboss/shrinkwrap/shrinkwrap-api/1.1.2/shrinkwrap-api-1.1.2.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.jboss.shrinkwrap.api.asset.Asset;",
+      "artifact" : {
+        "artifact" : "org.jboss.shrinkwrap:shrinkwrap-api:1.1.2",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.eu.ingwar.tools:arquillian-suite-extension:1.1.0/dependencies/org/jboss/shrinkwrap/shrinkwrap-api/1.1.2/shrinkwrap-api-1.1.2.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.jboss.shrinkwrap.impl.base.filter.ExcludeRegExpPaths;",
+      "artifact" : {
+        "artifact" : "org.jboss.shrinkwrap:shrinkwrap-impl-base:1.1.2",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.eu.ingwar.tools:arquillian-suite-extension:1.1.0/dependencies/org/jboss/shrinkwrap/shrinkwrap-impl-base/1.1.2/shrinkwrap-impl-base-1.1.2.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.jboss.shrinkwrap.impl.base.filter.IncludeRegExpPaths;",
+      "artifact" : {
+        "artifact" : "org.jboss.shrinkwrap:shrinkwrap-impl-base:1.1.2",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.eu.ingwar.tools:arquillian-suite-extension:1.1.0/dependencies/org/jboss/shrinkwrap/shrinkwrap-impl-base/1.1.2/shrinkwrap-impl-base-1.1.2.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.jboss.shrinkwrap.impl.base.path.BasicPath;",
+      "artifact" : {
+        "artifact" : "org.jboss.shrinkwrap:shrinkwrap-impl-base:1.1.2",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.eu.ingwar.tools:arquillian-suite-extension:1.1.0/dependencies/org/jboss/shrinkwrap/shrinkwrap-impl-base/1.1.2/shrinkwrap-impl-base-1.1.2.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.jboss.shrinkwrap.resolver.api.maven.ConfigurableMavenResolverSystem;",
+      "artifact" : {
+        "artifact" : "org.jboss.shrinkwrap.resolver:shrinkwrap-resolver-api-maven:2.0.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.eu.ingwar.tools:arquillian-suite-extension:1.1.0/dependencies/org/jboss/shrinkwrap/resolver/shrinkwrap-resolver-api-maven/2.0.0/shrinkwrap-resolver-api-maven-2.0.0.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.jboss.shrinkwrap.resolver.api.maven.archive.importer.MavenImporter;",
+      "artifact" : {
+        "artifact" : "org.jboss.shrinkwrap.resolver:shrinkwrap-resolver-api-maven-archive:2.0.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.eu.ingwar.tools:arquillian-suite-extension:1.1.0/dependencies/org/jboss/shrinkwrap/resolver/shrinkwrap-resolver-api-maven-archive/2.0.0/shrinkwrap-resolver-api-maven-archive-2.0.0.jar"
+      },
+      "isDirectDependency" : false
+    } ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ {
+      "importPath" : "/*\n * #%L\n * Arquillian suite extension\n * %%\n * Copyright (C) 2013 Ingwar & co.\n * %%\n * Licensed under the Apache License, Version 2.0 (the \"License\");\n * you may not use this file except in compliance with the License.\n * You may obtain a copy of the License at\n * \n *      http://www.apache.org/licenses/LICENSE-2.0\n * \n * Unless required by applicable law or agreed to in writing, software\n * distributed under the License is distributed on an \"AS IS\" BASIS,\n * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.\n * See the License for the specific language governing permissions and\n * limitations under the License.\n * #L%\n */\nimport java.util.Map;"
+    } ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/org.eu.ingwar.tools:arquillian-suite-extension/src/main/java/org/eu/ingwar/tools/arquillian/extension/deployment/ModuleType.java",
+    "useImportReport" : [ {
+      "importPath" : "import org.jboss.shrinkwrap.api.Archive;",
+      "artifact" : {
+        "artifact" : "org.jboss.shrinkwrap:shrinkwrap-api:1.1.2",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.eu.ingwar.tools:arquillian-suite-extension:1.1.0/dependencies/org/jboss/shrinkwrap/shrinkwrap-api/1.1.2/shrinkwrap-api-1.1.2.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.jboss.shrinkwrap.api.spec.WebArchive;",
+      "artifact" : {
+        "artifact" : "org.jboss.shrinkwrap:shrinkwrap-api:1.1.2",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.eu.ingwar.tools:arquillian-suite-extension:1.1.0/dependencies/org/jboss/shrinkwrap/shrinkwrap-api/1.1.2/shrinkwrap-api-1.1.2.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.jboss.shrinkwrap.api.spec.JavaArchive;",
+      "artifact" : {
+        "artifact" : "org.jboss.shrinkwrap:shrinkwrap-api:1.1.2",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.eu.ingwar.tools:arquillian-suite-extension:1.1.0/dependencies/org/jboss/shrinkwrap/shrinkwrap-api/1.1.2/shrinkwrap-api-1.1.2.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.Random;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/org.eu.ingwar.tools:arquillian-suite-extension/src/main/java/org/eu/ingwar/tools/arquillian/extension/deployment/EarDescriptorBuilder.java",
+    "useImportReport" : [ {
+      "importPath" : "import java.util.List;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.ArrayList;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.Map;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.w3c.dom.Document;",
+      "artifact" : {
+        "artifact" : "xml-apis:xml-apis:1.0.b2",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.eu.ingwar.tools:arquillian-suite-extension:1.1.0/dependencies/xml-apis/xml-apis/1.0.b2/xml-apis-1.0.b2.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.w3c.dom.Element;",
+      "artifact" : {
+        "artifact" : "xml-apis:xml-apis:1.0.b2",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.eu.ingwar.tools:arquillian-suite-extension:1.1.0/dependencies/xml-apis/xml-apis/1.0.b2/xml-apis-1.0.b2.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.AbstractMap;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.Random;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import javax.xml.parsers.DocumentBuilderFactory;",
+      "artifact" : {
+        "artifact" : "xml-apis:xml-apis:1.0.b2",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.eu.ingwar.tools:arquillian-suite-extension:1.1.0/dependencies/xml-apis/xml-apis/1.0.b2/xml-apis-1.0.b2.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import javax.xml.parsers.DocumentBuilder;",
+      "artifact" : {
+        "artifact" : "xml-apis:xml-apis:1.0.b2",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.eu.ingwar.tools:arquillian-suite-extension:1.1.0/dependencies/xml-apis/xml-apis/1.0.b2/xml-apis-1.0.b2.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import javax.xml.transform.TransformerFactory;",
+      "artifact" : {
+        "artifact" : "xml-apis:xml-apis:1.0.b2",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.eu.ingwar.tools:arquillian-suite-extension:1.1.0/dependencies/xml-apis/xml-apis/1.0.b2/xml-apis-1.0.b2.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import javax.xml.transform.Transformer;",
+      "artifact" : {
+        "artifact" : "xml-apis:xml-apis:1.0.b2",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.eu.ingwar.tools:arquillian-suite-extension:1.1.0/dependencies/xml-apis/xml-apis/1.0.b2/xml-apis-1.0.b2.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import javax.xml.transform.dom.DOMSource;",
+      "artifact" : {
+        "artifact" : "xml-apis:xml-apis:1.0.b2",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.eu.ingwar.tools:arquillian-suite-extension:1.1.0/dependencies/xml-apis/xml-apis/1.0.b2/xml-apis-1.0.b2.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import javax.xml.transform.stream.StreamResult;",
+      "artifact" : {
+        "artifact" : "xml-apis:xml-apis:1.0.b2",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.eu.ingwar.tools:arquillian-suite-extension:1.1.0/dependencies/xml-apis/xml-apis/1.0.b2/xml-apis-1.0.b2.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import javax.xml.transform.OutputKeys;",
+      "artifact" : {
+        "artifact" : "xml-apis:xml-apis:1.0.b2",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.eu.ingwar.tools:arquillian-suite-extension:1.1.0/dependencies/xml-apis/xml-apis/1.0.b2/xml-apis-1.0.b2.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import javax.xml.transform.TransformerException;",
+      "artifact" : {
+        "artifact" : "xml-apis:xml-apis:1.0.b2",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.eu.ingwar.tools:arquillian-suite-extension:1.1.0/dependencies/xml-apis/xml-apis/1.0.b2/xml-apis-1.0.b2.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import javax.xml.parsers.ParserConfigurationException;",
+      "artifact" : {
+        "artifact" : "xml-apis:xml-apis:1.0.b2",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.eu.ingwar.tools:arquillian-suite-extension:1.1.0/dependencies/xml-apis/xml-apis/1.0.b2/xml-apis-1.0.b2.jar"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ {
+      "importPath" : "/*\n * #%L\n * Arquillian suite extension\n * %%\n * Copyright (C) 2013 Ingwar & co.\n * %%\n * Licensed under the Apache License, Version 2.0 (the \"License\");\n * you may not use this file except in compliance with the License.\n * You may obtain a copy of the License at\n * \n *      http://www.apache.org/licenses/LICENSE-2.0\n * \n * Unless required by applicable law or agreed to in writing, software\n * distributed under the License is distributed on an \"AS IS\" BASIS,\n * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.\n * See the License for the specific language governing permissions and\n * limitations under the License.\n * #L%\n */\nimport java.io.ByteArrayOutputStream;"
+    } ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/org.eu.ingwar.tools:arquillian-suite-extension/src/main/java/org/eu/ingwar/tools/arquillian/extension/suite/ExtendedSuiteContextImpl.java",
+    "useImportReport" : [ {
+      "importPath" : "import org.jboss.arquillian.core.spi.context.AbstractContext;",
+      "artifact" : {
+        "artifact" : "org.jboss.arquillian.core:arquillian-core-spi:1.1.2.Final",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.eu.ingwar.tools:arquillian-suite-extension:1.1.0/dependencies/org/jboss/arquillian/core/arquillian-core-spi/1.1.2.Final/arquillian-core-spi-1.1.2.Final.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.lang.annotation.Annotation;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.jboss.arquillian.core.spi.context.ObjectStore;",
+      "artifact" : {
+        "artifact" : "org.jboss.arquillian.core:arquillian-core-spi:1.1.2.Final",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.eu.ingwar.tools:arquillian-suite-extension:1.1.0/dependencies/org/jboss/arquillian/core/arquillian-core-spi/1.1.2.Final/arquillian-core-spi-1.1.2.Final.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.jboss.arquillian.core.spi.HashObjectStore;",
+      "artifact" : {
+        "artifact" : "org.jboss.arquillian.core:arquillian-core-spi:1.1.2.Final",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.eu.ingwar.tools:arquillian-suite-extension:1.1.0/dependencies/org/jboss/arquillian/core/arquillian-core-spi/1.1.2.Final/arquillian-core-spi-1.1.2.Final.jar"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ {
+      "importPath" : "/*\n * #%L\n * Arquillian suite extension\n * %%\n * Copyright (C) 2013 Ingwar & co.\n * %%\n * Licensed under the Apache License, Version 2.0 (the \"License\");\n * you may not use this file except in compliance with the License.\n * You may obtain a copy of the License at\n * \n *      http://www.apache.org/licenses/LICENSE-2.0\n * \n * Unless required by applicable law or agreed to in writing, software\n * distributed under the License is distributed on an \"AS IS\" BASIS,\n * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.\n * See the License for the specific language governing permissions and\n * limitations under the License.\n * #L%\n */\nimport org.eu.ingwar.tools.arquillian.extension.suite.annotations.ExtendedSuiteScoped;"
+    } ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/org.eu.ingwar.tools:arquillian-suite-extension/src/main/java/org/eu/ingwar/tools/arquillian/extension/suite/ExtendedSuiteContext.java",
+    "useImportReport" : [ ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ {
+      "importPath" : "/*\n * #%L\n * Arquillian suite extension\n * %%\n * Copyright (C) 2013 Ingwar & co.\n * %%\n * Licensed under the Apache License, Version 2.0 (the \"License\");\n * you may not use this file except in compliance with the License.\n * You may obtain a copy of the License at\n * \n *      http://www.apache.org/licenses/LICENSE-2.0\n * \n * Unless required by applicable law or agreed to in writing, software\n * distributed under the License is distributed on an \"AS IS\" BASIS,\n * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.\n * See the License for the specific language governing permissions and\n * limitations under the License.\n * #L%\n */\nimport org.jboss.arquillian.core.spi.context.NonIdBoundContext;"
+    } ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/org.eu.ingwar.tools:arquillian-suite-extension/src/main/java/org/eu/ingwar/tools/arquillian/extension/suite/ArquillianSuiteExtension.java",
+    "useImportReport" : [ {
+      "importPath" : "import org.jboss.arquillian.core.spi.LoadableExtension;",
+      "artifact" : {
+        "artifact" : "org.jboss.arquillian.core:arquillian-core-spi:1.1.2.Final",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.eu.ingwar.tools:arquillian-suite-extension:1.1.0/dependencies/org/jboss/arquillian/core/arquillian-core-spi/1.1.2.Final/arquillian-core-spi-1.1.2.Final.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.logging.Logger;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.logging.Level;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.reflections.Reflections;",
+      "artifact" : {
+        "artifact" : "org.reflections:reflections:0.9.8",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.eu.ingwar.tools:arquillian-suite-extension:1.1.0/dependencies/org/reflections/reflections/0.9.8/reflections-0.9.8.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import java.util.Set;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.eu.ingwar.tools.arquillian.extension.suite.annotations.ArquillianSuiteDeployment;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.eu.ingwar.tools.arquillian.extension.suite.annotations.ArquilianSuiteDeployment;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.jboss.arquillian.core.api.Instance;",
+      "artifact" : {
+        "artifact" : "org.jboss.arquillian.core:arquillian-core-api:1.1.2.Final",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.eu.ingwar.tools:arquillian-suite-extension:1.1.0/dependencies/org/jboss/arquillian/core/arquillian-core-api/1.1.2.Final/arquillian-core-api-1.1.2.Final.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.jboss.arquillian.test.spi.context.ClassContext;",
+      "artifact" : {
+        "artifact" : "org.jboss.arquillian.test:arquillian-test-spi:1.1.2.Final",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.eu.ingwar.tools:arquillian-suite-extension:1.1.0/dependencies/org/jboss/arquillian/test/arquillian-test-spi/1.1.2.Final/arquillian-test-spi-1.1.2.Final.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.jboss.arquillian.core.api.annotation.Inject;",
+      "artifact" : {
+        "artifact" : "org.jboss.arquillian.core:arquillian-core-api:1.1.2.Final",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.eu.ingwar.tools:arquillian-suite-extension:1.1.0/dependencies/org/jboss/arquillian/core/arquillian-core-api/1.1.2.Final/arquillian-core-api-1.1.2.Final.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.jboss.arquillian.core.api.InstanceProducer;",
+      "artifact" : {
+        "artifact" : "org.jboss.arquillian.core:arquillian-core-api:1.1.2.Final",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.eu.ingwar.tools:arquillian-suite-extension:1.1.0/dependencies/org/jboss/arquillian/core/arquillian-core-api/1.1.2.Final/arquillian-core-api-1.1.2.Final.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.jboss.arquillian.container.spi.client.deployment.DeploymentScenario;",
+      "artifact" : {
+        "artifact" : "org.jboss.arquillian.container:arquillian-container-spi:1.1.2.Final",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.eu.ingwar.tools:arquillian-suite-extension:1.1.0/dependencies/org/jboss/arquillian/container/arquillian-container-spi/1.1.2.Final/arquillian-container-spi-1.1.2.Final.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.jboss.arquillian.test.spi.annotation.ClassScoped;",
+      "artifact" : {
+        "artifact" : "org.jboss.arquillian.test:arquillian-test-spi:1.1.2.Final",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.eu.ingwar.tools:arquillian-suite-extension:1.1.0/dependencies/org/jboss/arquillian/test/arquillian-test-spi/1.1.2.Final/arquillian-test-spi-1.1.2.Final.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.jboss.arquillian.core.api.Event;",
+      "artifact" : {
+        "artifact" : "org.jboss.arquillian.core:arquillian-core-api:1.1.2.Final",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.eu.ingwar.tools:arquillian-suite-extension:1.1.0/dependencies/org/jboss/arquillian/core/arquillian-core-api/1.1.2.Final/arquillian-core-api-1.1.2.Final.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.jboss.arquillian.container.spi.event.DeploymentEvent;",
+      "artifact" : {
+        "artifact" : "org.jboss.arquillian.container:arquillian-container-spi:1.1.2.Final",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.eu.ingwar.tools:arquillian-suite-extension:1.1.0/dependencies/org/jboss/arquillian/container/arquillian-container-spi/1.1.2.Final/arquillian-container-spi-1.1.2.Final.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.jboss.arquillian.container.test.impl.client.deployment.event.GenerateDeployment;",
+      "artifact" : {
+        "artifact" : "org.jboss.arquillian.container:arquillian-container-test-impl-base:1.1.2.Final",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.eu.ingwar.tools:arquillian-suite-extension:1.1.0/dependencies/org/jboss/arquillian/container/arquillian-container-test-impl-base/1.1.2.Final/arquillian-container-test-impl-base-1.1.2.Final.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.jboss.arquillian.core.spi.EventContext;",
+      "artifact" : {
+        "artifact" : "org.jboss.arquillian.core:arquillian-core-spi:1.1.2.Final",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.eu.ingwar.tools:arquillian-suite-extension:1.1.0/dependencies/org/jboss/arquillian/core/arquillian-core-spi/1.1.2.Final/arquillian-core-spi-1.1.2.Final.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.jboss.arquillian.container.spi.event.DeployManagedDeployments;",
+      "artifact" : {
+        "artifact" : "org.jboss.arquillian.container:arquillian-container-spi:1.1.2.Final",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.eu.ingwar.tools:arquillian-suite-extension:1.1.0/dependencies/org/jboss/arquillian/container/arquillian-container-spi/1.1.2.Final/arquillian-container-spi-1.1.2.Final.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.jboss.arquillian.core.api.annotation.Observes;",
+      "artifact" : {
+        "artifact" : "org.jboss.arquillian.core:arquillian-core-api:1.1.2.Final",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.eu.ingwar.tools:arquillian-suite-extension:1.1.0/dependencies/org/jboss/arquillian/core/arquillian-core-api/1.1.2.Final/arquillian-core-api-1.1.2.Final.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.jboss.arquillian.container.spi.event.UnDeployManagedDeployments;",
+      "artifact" : {
+        "artifact" : "org.jboss.arquillian.container:arquillian-container-spi:1.1.2.Final",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.eu.ingwar.tools:arquillian-suite-extension:1.1.0/dependencies/org/jboss/arquillian/container/arquillian-container-spi/1.1.2.Final/arquillian-container-spi-1.1.2.Final.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.jboss.arquillian.container.spi.event.container.AfterStart;",
+      "artifact" : {
+        "artifact" : "org.jboss.arquillian.container:arquillian-container-spi:1.1.2.Final",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.eu.ingwar.tools:arquillian-suite-extension:1.1.0/dependencies/org/jboss/arquillian/container/arquillian-container-spi/1.1.2.Final/arquillian-container-spi-1.1.2.Final.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.jboss.arquillian.container.spi.ContainerRegistry;",
+      "artifact" : {
+        "artifact" : "org.jboss.arquillian.container:arquillian-container-spi:1.1.2.Final",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.eu.ingwar.tools:arquillian-suite-extension:1.1.0/dependencies/org/jboss/arquillian/container/arquillian-container-spi/1.1.2.Final/arquillian-container-spi-1.1.2.Final.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.concurrent.Callable;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.jboss.arquillian.container.spi.client.deployment.Deployment;",
+      "artifact" : {
+        "artifact" : "org.jboss.arquillian.container:arquillian-container-spi:1.1.2.Final",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.eu.ingwar.tools:arquillian-suite-extension:1.1.0/dependencies/org/jboss/arquillian/container/arquillian-container-spi/1.1.2.Final/arquillian-container-spi-1.1.2.Final.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.jboss.arquillian.container.spi.event.DeployDeployment;",
+      "artifact" : {
+        "artifact" : "org.jboss.arquillian.container:arquillian-container-spi:1.1.2.Final",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.eu.ingwar.tools:arquillian-suite-extension:1.1.0/dependencies/org/jboss/arquillian/container/arquillian-container-spi/1.1.2.Final/arquillian-container-spi-1.1.2.Final.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.jboss.arquillian.test.spi.TestClass;",
+      "artifact" : {
+        "artifact" : "org.jboss.arquillian.test:arquillian-test-spi:1.1.2.Final",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.eu.ingwar.tools:arquillian-suite-extension:1.1.0/dependencies/org/jboss/arquillian/test/arquillian-test-spi/1.1.2.Final/arquillian-test-spi-1.1.2.Final.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.jboss.arquillian.container.spi.event.container.BeforeStop;",
+      "artifact" : {
+        "artifact" : "org.jboss.arquillian.container:arquillian-container-spi:1.1.2.Final",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.eu.ingwar.tools:arquillian-suite-extension:1.1.0/dependencies/org/jboss/arquillian/container/arquillian-container-spi/1.1.2.Final/arquillian-container-spi-1.1.2.Final.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.jboss.arquillian.container.spi.event.UnDeployDeployment;",
+      "artifact" : {
+        "artifact" : "org.jboss.arquillian.container:arquillian-container-spi:1.1.2.Final",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.eu.ingwar.tools:arquillian-suite-extension:1.1.0/dependencies/org/jboss/arquillian/container/arquillian-container-spi/1.1.2.Final/arquillian-container-spi-1.1.2.Final.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.jboss.arquillian.core.impl.ManagerImpl;",
+      "artifact" : {
+        "artifact" : "org.jboss.arquillian.core:arquillian-core-impl-base:1.1.2.Final",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.eu.ingwar.tools:arquillian-suite-extension:1.1.0/dependencies/org/jboss/arquillian/core/arquillian-core-impl-base/1.1.2.Final/arquillian-core-impl-base-1.1.2.Final.jar"
+      },
+      "isDirectDependency" : true
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ {
+      "importPath" : "/*\n * #%L\n * Arquillian suite extension\n * %%\n * Copyright (C) 2013 Ingwar & co.\n * %%\n * Licensed under the Apache License, Version 2.0 (the \"License\");\n * you may not use this file except in compliance with the License.\n * You may obtain a copy of the License at\n * \n *      http://www.apache.org/licenses/LICENSE-2.0\n * \n * Unless required by applicable law or agreed to in writing, software\n * distributed under the License is distributed on an \"AS IS\" BASIS,\n * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.\n * See the License for the specific language governing permissions and\n * limitations under the License.\n * #L%\n */\nimport org.eu.ingwar.tools.arquillian.extension.suite.annotations.ExtendedSuiteScoped;"
+    } ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/org.eu.ingwar.tools:arquillian-suite-extension/src/main/java/org/eu/ingwar/tools/arquillian/extension/suite/annotations/ExtendedSuiteScoped.java",
+    "useImportReport" : [ {
+      "importPath" : "import java.lang.annotation.Documented;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.lang.annotation.Retention;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import static java.lang.annotation.RetentionPolicy.RUNTIME;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.lang.annotation.Target;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.lang.annotation.ElementType;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ {
+      "importPath" : "/*\n * #%L\n * Arquillian suite extension\n * %%\n * Copyright (C) 2013 Ingwar & co.\n * %%\n * Licensed under the Apache License, Version 2.0 (the \"License\");\n * you may not use this file except in compliance with the License.\n * You may obtain a copy of the License at\n * \n *      http://www.apache.org/licenses/LICENSE-2.0\n * \n * Unless required by applicable law or agreed to in writing, software\n * distributed under the License is distributed on an \"AS IS\" BASIS,\n * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.\n * See the License for the specific language governing permissions and\n * limitations under the License.\n * #L%\n */\nimport org.jboss.arquillian.core.api.annotation.Scope;"
+    } ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/org.eu.ingwar.tools:arquillian-suite-extension/src/main/java/org/eu/ingwar/tools/arquillian/extension/suite/annotations/ArquillianSuiteDeployment.java",
+    "useImportReport" : [ {
+      "importPath" : "import java.lang.annotation.Documented;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.lang.annotation.Retention;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import static java.lang.annotation.RetentionPolicy.RUNTIME;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.lang.annotation.Target;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.lang.annotation.ElementType;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ {
+      "importPath" : "/*\n * #%L\n * Arquillian suite extension\n * %%\n * Copyright (C) 2013 Ingwar & co.\n * %%\n * Licensed under the Apache License, Version 2.0 (the \"License\");\n * you may not use this file except in compliance with the License.\n * You may obtain a copy of the License at\n * \n *      http://www.apache.org/licenses/LICENSE-2.0\n * \n * Unless required by applicable law or agreed to in writing, software\n * distributed under the License is distributed on an \"AS IS\" BASIS,\n * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.\n * See the License for the specific language governing permissions and\n * limitations under the License.\n * #L%\n */\nimport org.jboss.arquillian.core.api.annotation.Scope;"
+    } ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/org.eu.ingwar.tools:arquillian-suite-extension/src/main/java/org/eu/ingwar/tools/arquillian/extension/suite/annotations/ArquilianSuiteDeployment.java",
+    "useImportReport" : [ {
+      "importPath" : "import java.lang.annotation.Documented;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.lang.annotation.Retention;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import static java.lang.annotation.RetentionPolicy.RUNTIME;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.lang.annotation.Target;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.lang.annotation.ElementType;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ {
+      "importPath" : "/*\n * #%L\n * Arquillian suite extension\n * %%\n * Copyright (C) 2013 Ingwar & co.\n * %%\n * Licensed under the Apache License, Version 2.0 (the \"License\");\n * you may not use this file except in compliance with the License.\n * You may obtain a copy of the License at\n * \n *      http://www.apache.org/licenses/LICENSE-2.0\n * \n * Unless required by applicable law or agreed to in writing, software\n * distributed under the License is distributed on an \"AS IS\" BASIS,\n * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.\n * See the License for the specific language governing permissions and\n * limitations under the License.\n * #L%\n */\nimport org.jboss.arquillian.core.api.annotation.Scope;"
+    } ]
+  } ],
+  "projectUseDependencies" : [ {
+    "artifact" : "org.reflections:reflections:0.9.8",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.eu.ingwar.tools:arquillian-suite-extension:1.1.0/dependencies/org/reflections/reflections/0.9.8/reflections-0.9.8.jar"
+  }, {
+    "artifact" : "org.jboss.arquillian.container:arquillian-container-test-impl-base:1.1.2.Final",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.eu.ingwar.tools:arquillian-suite-extension:1.1.0/dependencies/org/jboss/arquillian/container/arquillian-container-test-impl-base/1.1.2.Final/arquillian-container-test-impl-base-1.1.2.Final.jar"
+  }, {
+    "artifact" : "org.jboss.arquillian.core:arquillian-core-impl-base:1.1.2.Final",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.eu.ingwar.tools:arquillian-suite-extension:1.1.0/dependencies/org/jboss/arquillian/core/arquillian-core-impl-base/1.1.2.Final/arquillian-core-impl-base-1.1.2.Final.jar"
+  } ],
+  "projectUseTransitiveDependencies" : [ {
+    "artifact" : "org.jboss.shrinkwrap.resolver:shrinkwrap-resolver-impl-maven-archive:2.0.0",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.eu.ingwar.tools:arquillian-suite-extension:1.1.0/dependencies/org/jboss/shrinkwrap/resolver/shrinkwrap-resolver-impl-maven-archive/2.0.0/shrinkwrap-resolver-impl-maven-archive-2.0.0.jar"
+  }, {
+    "artifact" : "org.jboss.arquillian.protocol:arquillian-protocol-servlet:1.1.2.Final",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.eu.ingwar.tools:arquillian-suite-extension:1.1.0/dependencies/org/jboss/arquillian/protocol/arquillian-protocol-servlet/1.1.2.Final/arquillian-protocol-servlet-1.1.2.Final.jar"
+  }, {
+    "artifact" : "org.jboss.arquillian.junit:arquillian-junit-container:1.1.2.Final",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.eu.ingwar.tools:arquillian-suite-extension:1.1.0/dependencies/org/jboss/arquillian/junit/arquillian-junit-container/1.1.2.Final/arquillian-junit-container-1.1.2.Final.jar"
+  }, {
+    "artifact" : "org.jboss.shrinkwrap:shrinkwrap-impl-base:1.1.2",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.eu.ingwar.tools:arquillian-suite-extension:1.1.0/dependencies/org/jboss/shrinkwrap/shrinkwrap-impl-base/1.1.2/shrinkwrap-impl-base-1.1.2.jar"
+  }, {
+    "artifact" : "org.jboss.shrinkwrap.resolver:shrinkwrap-resolver-impl-maven:2.0.0",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.eu.ingwar.tools:arquillian-suite-extension:1.1.0/dependencies/org/jboss/shrinkwrap/resolver/shrinkwrap-resolver-impl-maven/2.0.0/shrinkwrap-resolver-impl-maven-2.0.0.jar"
+  }, {
+    "artifact" : "org.jboss.shrinkwrap.resolver:shrinkwrap-resolver-impl-maven-archive:2.0.0",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.eu.ingwar.tools:arquillian-suite-extension:1.1.0/dependencies/org/jboss/shrinkwrap/resolver/shrinkwrap-resolver-impl-maven-archive/2.0.0/shrinkwrap-resolver-impl-maven-archive-2.0.0.jar"
+  }, {
+    "artifact" : "org.jboss.shrinkwrap.resolver:shrinkwrap-resolver-impl-maven:2.0.0",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.eu.ingwar.tools:arquillian-suite-extension:1.1.0/dependencies/org/jboss/shrinkwrap/resolver/shrinkwrap-resolver-impl-maven/2.0.0/shrinkwrap-resolver-impl-maven-2.0.0.jar"
+  }, {
+    "artifact" : "org.jboss.shrinkwrap.resolver:shrinkwrap-resolver-impl-maven-archive:2.0.0",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.eu.ingwar.tools:arquillian-suite-extension:1.1.0/dependencies/org/jboss/shrinkwrap/resolver/shrinkwrap-resolver-impl-maven-archive/2.0.0/shrinkwrap-resolver-impl-maven-archive-2.0.0.jar"
+  }, {
+    "artifact" : "org.jboss.arquillian.protocol:arquillian-protocol-servlet:1.1.2.Final",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.eu.ingwar.tools:arquillian-suite-extension:1.1.0/dependencies/org/jboss/arquillian/protocol/arquillian-protocol-servlet/1.1.2.Final/arquillian-protocol-servlet-1.1.2.Final.jar"
+  }, {
+    "artifact" : "org.jboss.arquillian.junit:arquillian-junit-container:1.1.2.Final",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.eu.ingwar.tools:arquillian-suite-extension:1.1.0/dependencies/org/jboss/arquillian/junit/arquillian-junit-container/1.1.2.Final/arquillian-junit-container-1.1.2.Final.jar"
+  }, {
+    "artifact" : "org.jboss.arquillian.protocol:arquillian-protocol-servlet:1.1.2.Final",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.eu.ingwar.tools:arquillian-suite-extension:1.1.0/dependencies/org/jboss/arquillian/protocol/arquillian-protocol-servlet/1.1.2.Final/arquillian-protocol-servlet-1.1.2.Final.jar"
+  }, {
+    "artifact" : "org.jboss.arquillian.junit:arquillian-junit-container:1.1.2.Final",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.eu.ingwar.tools:arquillian-suite-extension:1.1.0/dependencies/org/jboss/arquillian/junit/arquillian-junit-container/1.1.2.Final/arquillian-junit-container-1.1.2.Final.jar"
+  }, {
+    "artifact" : "org.jboss.arquillian.protocol:arquillian-protocol-servlet:1.1.2.Final",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.eu.ingwar.tools:arquillian-suite-extension:1.1.0/dependencies/org/jboss/arquillian/protocol/arquillian-protocol-servlet/1.1.2.Final/arquillian-protocol-servlet-1.1.2.Final.jar"
+  }, {
+    "artifact" : "org.jboss.arquillian.junit:arquillian-junit-container:1.1.2.Final",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.eu.ingwar.tools:arquillian-suite-extension:1.1.0/dependencies/org/jboss/arquillian/junit/arquillian-junit-container/1.1.2.Final/arquillian-junit-container-1.1.2.Final.jar"
+  }, {
+    "artifact" : "org.jboss.arquillian.protocol:arquillian-protocol-servlet:1.1.2.Final",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.eu.ingwar.tools:arquillian-suite-extension:1.1.0/dependencies/org/jboss/arquillian/protocol/arquillian-protocol-servlet/1.1.2.Final/arquillian-protocol-servlet-1.1.2.Final.jar"
+  }, {
+    "artifact" : "org.jboss.arquillian.junit:arquillian-junit-container:1.1.2.Final",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.eu.ingwar.tools:arquillian-suite-extension:1.1.0/dependencies/org/jboss/arquillian/junit/arquillian-junit-container/1.1.2.Final/arquillian-junit-container-1.1.2.Final.jar"
+  } ],
+  "projectUnusedDependencies" : [ {
+    "artifact" : "junit:junit:4.11",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.eu.ingwar.tools:arquillian-suite-extension:1.1.0/dependencies/junit/junit/4.11/junit-4.11.jar"
+  }, {
+    "artifact" : "org.jboss.spec.javax.ejb:jboss-ejb-api_3.1_spec:1.0.2.Final",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.eu.ingwar.tools:arquillian-suite-extension:1.1.0/dependencies/org/jboss/spec/javax/ejb/jboss-ejb-api_3.1_spec/1.0.2.Final/jboss-ejb-api_3.1_spec-1.0.2.Final.jar"
+  }, {
+    "artifact" : "org.jboss.as:jboss-as-arquillian-container-managed:7.1.1.Final",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.eu.ingwar.tools:arquillian-suite-extension:1.1.0/dependencies/org/jboss/as/jboss-as-arquillian-container-managed/7.1.1.Final/jboss-as-arquillian-container-managed-7.1.1.Final.jar"
+  } ]
+}

@@ -1,0 +1,688 @@
+{
+  "projectArtifact" : "ru.blizzed:pixabay-lib:1.0.2",
+  "repositoryDir" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/ru.blizzed:pixabay-lib",
+  "repositorySubDir" : "",
+  "artifactLocation" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/ru.blizzed:pixabay-lib:1.0.2",
+  "fileImportReports" : [ {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/ru.blizzed:pixabay-lib/src/main/java/ru/blizzed/pixabaylib/PixabayCallException.java",
+    "useImportReport" : [ {
+      "importPath" : "import java.io.IOException;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/ru.blizzed:pixabay-lib/src/main/java/ru/blizzed/pixabaylib/Pixabay.java",
+    "useImportReport" : [ {
+      "importPath" : "import ru.blizzed.pixabaylib.params.LangParam;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import retrofit2.Retrofit;",
+      "artifact" : {
+        "artifact" : "com.squareup.retrofit2:retrofit:2.3.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/ru.blizzed:pixabay-lib:1.0.2/dependencies/com/squareup/retrofit2/retrofit/2.3.0/retrofit-2.3.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import ru.blizzed.pixabaylib.methods.Searcher;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import ru.blizzed.pixabaylib.methods.RxSearcher;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import okhttp3.OkHttpClient;",
+      "artifact" : {
+        "artifact" : "com.squareup.okhttp3:okhttp:3.8.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/ru.blizzed:pixabay-lib:1.0.2/dependencies/com/squareup/okhttp3/okhttp/3.8.0/okhttp-3.8.0.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import ru.blizzed.pixabaylib.params.PixabayParams;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import okhttp3.Request;",
+      "artifact" : {
+        "artifact" : "com.squareup.okhttp3:okhttp:3.8.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/ru.blizzed:pixabay-lib:1.0.2/dependencies/com/squareup/okhttp3/okhttp/3.8.0/okhttp-3.8.0.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import okhttp3.HttpUrl;",
+      "artifact" : {
+        "artifact" : "com.squareup.okhttp3:okhttp:3.8.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/ru.blizzed:pixabay-lib:1.0.2/dependencies/com/squareup/okhttp3/okhttp/3.8.0/okhttp-3.8.0.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import retrofit2.adapter.rxjava2.RxJava2CallAdapterFactory;",
+      "artifact" : {
+        "artifact" : "com.squareup.retrofit2:adapter-rxjava2:2.4.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/ru.blizzed:pixabay-lib:1.0.2/dependencies/com/squareup/retrofit2/adapter-rxjava2/2.4.0/adapter-rxjava2-2.4.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import retrofit2.converter.gson.GsonConverterFactory;",
+      "artifact" : {
+        "artifact" : "com.squareup.retrofit2:converter-gson:2.3.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/ru.blizzed:pixabay-lib:1.0.2/dependencies/com/squareup/retrofit2/converter-gson/2.3.0/converter-gson-2.3.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import ru.blizzed.pixabaylib.methods.SearchCaller;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import ru.blizzed.pixabaylib.methods.RxSearchCaller;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/ru.blizzed:pixabay-lib/src/main/java/ru/blizzed/pixabaylib/PixabayCaller.java",
+    "useImportReport" : [ {
+      "importPath" : "import ru.blizzed.pixabaylib.model.PixabayError;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import retrofit2.Call;",
+      "artifact" : {
+        "artifact" : "com.squareup.retrofit2:retrofit:2.3.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/ru.blizzed:pixabay-lib:1.0.2/dependencies/com/squareup/retrofit2/retrofit/2.3.0/retrofit-2.3.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import retrofit2.Response;",
+      "artifact" : {
+        "artifact" : "com.squareup.retrofit2:retrofit:2.3.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/ru.blizzed:pixabay-lib:1.0.2/dependencies/com/squareup/retrofit2/retrofit/2.3.0/retrofit-2.3.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import java.io.IOException;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import retrofit2.Callback;",
+      "artifact" : {
+        "artifact" : "com.squareup.retrofit2:retrofit:2.3.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/ru.blizzed:pixabay-lib:1.0.2/dependencies/com/squareup/retrofit2/retrofit/2.3.0/retrofit-2.3.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import okhttp3.ResponseBody;",
+      "artifact" : {
+        "artifact" : "com.squareup.okhttp3:okhttp:3.8.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/ru.blizzed:pixabay-lib:1.0.2/dependencies/com/squareup/okhttp3/okhttp/3.8.0/okhttp-3.8.0.jar"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/ru.blizzed:pixabay-lib/src/main/java/ru/blizzed/pixabaylib/methods/SearchCaller.java",
+    "useImportReport" : [ {
+      "importPath" : "import retrofit2.Call;",
+      "artifact" : {
+        "artifact" : "com.squareup.retrofit2:retrofit:2.3.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/ru.blizzed:pixabay-lib:1.0.2/dependencies/com/squareup/retrofit2/retrofit/2.3.0/retrofit-2.3.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import ru.blizzed.pixabaylib.model.PixabayResult;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import ru.blizzed.pixabaylib.model.PixabayImage;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import retrofit2.http.GET;",
+      "artifact" : {
+        "artifact" : "com.squareup.retrofit2:retrofit:2.3.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/ru.blizzed:pixabay-lib:1.0.2/dependencies/com/squareup/retrofit2/retrofit/2.3.0/retrofit-2.3.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import java.util.Map;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import retrofit2.http.QueryMap;",
+      "artifact" : {
+        "artifact" : "com.squareup.retrofit2:retrofit:2.3.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/ru.blizzed:pixabay-lib:1.0.2/dependencies/com/squareup/retrofit2/retrofit/2.3.0/retrofit-2.3.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import ru.blizzed.pixabaylib.model.PixabayVideo;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/ru.blizzed:pixabay-lib/src/main/java/ru/blizzed/pixabaylib/methods/RxSearchCaller.java",
+    "useImportReport" : [ {
+      "importPath" : "import io.reactivex.Observable;",
+      "artifact" : {
+        "artifact" : "io.reactivex.rxjava2:rxjava:2.0.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/ru.blizzed:pixabay-lib:1.0.2/dependencies/io/reactivex/rxjava2/rxjava/2.0.0/rxjava-2.0.0.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import ru.blizzed.pixabaylib.model.PixabayResult;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import ru.blizzed.pixabaylib.model.PixabayImage;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import retrofit2.http.GET;",
+      "artifact" : {
+        "artifact" : "com.squareup.retrofit2:retrofit:2.3.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/ru.blizzed:pixabay-lib:1.0.2/dependencies/com/squareup/retrofit2/retrofit/2.3.0/retrofit-2.3.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import java.util.Map;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import retrofit2.http.QueryMap;",
+      "artifact" : {
+        "artifact" : "com.squareup.retrofit2:retrofit:2.3.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/ru.blizzed:pixabay-lib:1.0.2/dependencies/com/squareup/retrofit2/retrofit/2.3.0/retrofit-2.3.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import ru.blizzed.pixabaylib.model.PixabayVideo;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/ru.blizzed:pixabay-lib/src/main/java/ru/blizzed/pixabaylib/methods/Searcher.java",
+    "useImportReport" : [ {
+      "importPath" : "import ru.blizzed.pixabaylib.PixabayCaller;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import ru.blizzed.pixabaylib.model.PixabayResult;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import ru.blizzed.pixabaylib.model.PixabayImage;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import ru.blizzed.pixabaylib.params.Param;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import ru.blizzed.pixabaylib.params.ParamsConverter;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import ru.blizzed.pixabaylib.model.PixabayVideo;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import ru.blizzed.pixabaylib.params.PixabayParams;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/ru.blizzed:pixabay-lib/src/main/java/ru/blizzed/pixabaylib/methods/RxSearcher.java",
+    "useImportReport" : [ {
+      "importPath" : "import io.reactivex.Observable;",
+      "artifact" : {
+        "artifact" : "io.reactivex.rxjava2:rxjava:2.0.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/ru.blizzed:pixabay-lib:1.0.2/dependencies/io/reactivex/rxjava2/rxjava/2.0.0/rxjava-2.0.0.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import ru.blizzed.pixabaylib.model.PixabayResult;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import ru.blizzed.pixabaylib.model.PixabayImage;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import ru.blizzed.pixabaylib.params.Param;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import ru.blizzed.pixabaylib.params.ParamsConverter;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import ru.blizzed.pixabaylib.model.PixabayVideo;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import ru.blizzed.pixabaylib.params.PixabayParams;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/ru.blizzed:pixabay-lib/src/main/java/ru/blizzed/pixabaylib/params/ColorsParam.java",
+    "useImportReport" : [ ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/ru.blizzed:pixabay-lib/src/main/java/ru/blizzed/pixabaylib/params/VideoTypeParam.java",
+    "useImportReport" : [ ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/ru.blizzed:pixabay-lib/src/main/java/ru/blizzed/pixabaylib/params/PixabayParams.java",
+    "useImportReport" : [ ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/ru.blizzed:pixabay-lib/src/main/java/ru/blizzed/pixabaylib/params/OrderParam.java",
+    "useImportReport" : [ ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/ru.blizzed:pixabay-lib/src/main/java/ru/blizzed/pixabaylib/params/EnumParam.java",
+    "useImportReport" : [ ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/ru.blizzed:pixabay-lib/src/main/java/ru/blizzed/pixabaylib/params/ParamsConverter.java",
+    "useImportReport" : [ {
+      "importPath" : "import java.util.Map;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.Collections;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.LinkedHashMap;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.Arrays;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/ru.blizzed:pixabay-lib/src/main/java/ru/blizzed/pixabaylib/params/OrientationParam.java",
+    "useImportReport" : [ ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/ru.blizzed:pixabay-lib/src/main/java/ru/blizzed/pixabaylib/params/BooleanParam.java",
+    "useImportReport" : [ ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/ru.blizzed:pixabay-lib/src/main/java/ru/blizzed/pixabaylib/params/ImageTypeParam.java",
+    "useImportReport" : [ ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/ru.blizzed:pixabay-lib/src/main/java/ru/blizzed/pixabaylib/params/Param.java",
+    "useImportReport" : [ {
+      "importPath" : "import java.util.Objects;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/ru.blizzed:pixabay-lib/src/main/java/ru/blizzed/pixabaylib/params/CategoryParam.java",
+    "useImportReport" : [ ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/ru.blizzed:pixabay-lib/src/main/java/ru/blizzed/pixabaylib/params/LangParam.java",
+    "useImportReport" : [ ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/ru.blizzed:pixabay-lib/src/main/java/ru/blizzed/pixabaylib/model/PixabayVideo.java",
+    "useImportReport" : [ {
+      "importPath" : "import java.io.Serializable;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.google.gson.annotations.SerializedName;",
+      "artifact" : {
+        "artifact" : "com.google.code.gson:gson:2.7",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/ru.blizzed:pixabay-lib:1.0.2/dependencies/com/google/code/gson/gson/2.7/gson-2.7.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.google.gson.annotations.JsonAdapter;",
+      "artifact" : {
+        "artifact" : "com.google.code.gson:gson:2.7",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/ru.blizzed:pixabay-lib:1.0.2/dependencies/com/google/code/gson/gson/2.7/gson-2.7.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.Map;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.HashMap;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.google.gson.*;",
+      "artifact" : {
+        "artifact" : "com.google.code.gson:gson:2.7",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/ru.blizzed:pixabay-lib:1.0.2/dependencies/com/google/code/gson/gson/2.7/gson-2.7.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.google.gson.*;",
+      "artifact" : {
+        "artifact" : "com.google.code.gson:gson:2.7",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/ru.blizzed:pixabay-lib:1.0.2/dependencies/com/google/code/gson/gson/2.7/gson-2.7.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.lang.reflect.Type;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.google.gson.*;",
+      "artifact" : {
+        "artifact" : "com.google.code.gson:gson:2.7",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/ru.blizzed:pixabay-lib:1.0.2/dependencies/com/google/code/gson/gson/2.7/gson-2.7.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.google.gson.*;",
+      "artifact" : {
+        "artifact" : "com.google.code.gson:gson:2.7",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/ru.blizzed:pixabay-lib:1.0.2/dependencies/com/google/code/gson/gson/2.7/gson-2.7.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.google.gson.*;",
+      "artifact" : {
+        "artifact" : "com.google.code.gson:gson:2.7",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/ru.blizzed:pixabay-lib:1.0.2/dependencies/com/google/code/gson/gson/2.7/gson-2.7.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.Arrays;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/ru.blizzed:pixabay-lib/src/main/java/ru/blizzed/pixabaylib/model/PixabayImage.java",
+    "useImportReport" : [ {
+      "importPath" : "import java.io.Serializable;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.google.gson.annotations.SerializedName;",
+      "artifact" : {
+        "artifact" : "com.google.code.gson:gson:2.7",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/ru.blizzed:pixabay-lib:1.0.2/dependencies/com/google/code/gson/gson/2.7/gson-2.7.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.List;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.Arrays;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/ru.blizzed:pixabay-lib/src/main/java/ru/blizzed/pixabaylib/model/PixabayResult.java",
+    "useImportReport" : [ {
+      "importPath" : "import java.util.List;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.google.gson.JsonDeserializer;",
+      "artifact" : {
+        "artifact" : "com.google.code.gson:gson:2.7",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/ru.blizzed:pixabay-lib:1.0.2/dependencies/com/google/code/gson/gson/2.7/gson-2.7.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.google.gson.JsonElement;",
+      "artifact" : {
+        "artifact" : "com.google.code.gson:gson:2.7",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/ru.blizzed:pixabay-lib:1.0.2/dependencies/com/google/code/gson/gson/2.7/gson-2.7.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.lang.reflect.Type;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.google.gson.JsonDeserializationContext;",
+      "artifact" : {
+        "artifact" : "com.google.code.gson:gson:2.7",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/ru.blizzed:pixabay-lib:1.0.2/dependencies/com/google/code/gson/gson/2.7/gson-2.7.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.google.gson.JsonParseException;",
+      "artifact" : {
+        "artifact" : "com.google.code.gson:gson:2.7",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/ru.blizzed:pixabay-lib:1.0.2/dependencies/com/google/code/gson/gson/2.7/gson-2.7.jar"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/ru.blizzed:pixabay-lib/src/main/java/ru/blizzed/pixabaylib/model/PixabayError.java",
+    "useImportReport" : [ ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/ru.blizzed:pixabay-lib/src/main/java/ru/blizzed/pixabaylib/PixabayErrorException.java",
+    "useImportReport" : [ {
+      "importPath" : "import ru.blizzed.pixabaylib.model.PixabayError;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  } ],
+  "projectUseDependencies" : [ {
+    "artifact" : "com.squareup.retrofit2:retrofit:2.3.0",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/ru.blizzed:pixabay-lib:1.0.2/dependencies/com/squareup/retrofit2/retrofit/2.3.0/retrofit-2.3.0.jar"
+  }, {
+    "artifact" : "com.squareup.retrofit2:adapter-rxjava2:2.4.0",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/ru.blizzed:pixabay-lib:1.0.2/dependencies/com/squareup/retrofit2/adapter-rxjava2/2.4.0/adapter-rxjava2-2.4.0.jar"
+  }, {
+    "artifact" : "com.squareup.retrofit2:converter-gson:2.3.0",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/ru.blizzed:pixabay-lib:1.0.2/dependencies/com/squareup/retrofit2/converter-gson/2.3.0/converter-gson-2.3.0.jar"
+  } ],
+  "projectUseTransitiveDependencies" : [ ],
+  "projectUnusedDependencies" : [ ]
+}

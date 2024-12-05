@@ -51,7 +51,32 @@ public class ArtifactInstaller {
         return artifactPath.stream().map(p -> new ImportArtifact(artifactId, groupId, version, p.toAbsolutePath().toString())).toList();
     }
 
-    public void copyDependencies(String basePath, ImportArtifact pomFile) throws Exception {
+    public void copyDependenciesWithRemoval(String basePath, String repoBasePath, ImportArtifact pomFile) throws Exception {
+        var result = copyDependencies(basePath, pomFile);
+        var output = result.a;
+        var isSuccess = result.b;
+        if (isSuccess) {
+            return;
+        }
+        var removeList = PomUtils.extractDependencyFromError(output);
+        var pomFileList = PomUtils.findPomFiles(repoBasePath);
+        for (File file : pomFileList) {
+            for (ImportArtifact remove: removeList) {
+                System.out.println(file.getAbsolutePath());
+                System.out.println(remove.getGroupId());
+                System.out.println(remove.getArtifactId());
+                PomUtils.removeDependency(file.getAbsolutePath(), remove.getGroupId(), remove.getArtifactId());
+            }
+        }
+
+        result = copyDependencies(basePath, pomFile);
+        isSuccess = result.b;
+        if (!isSuccess) {
+            throw new Exception("Failed to copy dependencies: " + result.a);
+        }
+    }
+
+    public Pair<List<String>, Boolean> copyDependencies(String basePath, ImportArtifact pomFile) throws Exception {
         var outPutDir = "-DoutputDirectory=" + basePath + "/dependencies";
         ProcessBuilder processBuilder = new ProcessBuilder();
         processBuilder.command("mvn", "dependency:copy-dependencies", outPutDir, "-Dmdep.useRepositoryLayout=true", "-f", pomFile.getArtifactPath());
@@ -63,15 +88,19 @@ public class ArtifactInstaller {
         BufferedReader reader = new BufferedReader(new InputStreamReader(process.getInputStream()));
         String line;
 
+        List<String> lines = new ArrayList<>();
         while ((line = reader.readLine()) != null) {
-            System.out.println(line);
+            if (line.contains("[ERROR]")) {
+                lines.add(line);
+            }
         }
 
         int exitCode = process.waitFor();
 
         if (exitCode != 0) {
-            throw new Exception("Error while copying dependencies");
+            return new Pair<>(lines, false);
         }
+        return new Pair<>(lines, true);
     }
 
     public void copyProjectArtifact(String basePath, ImportArtifact projectArtifact) throws Exception {

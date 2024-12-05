@@ -1,0 +1,1155 @@
+{
+  "projectArtifact" : "org.springframework.cloud:spring-cloud-kubernetes-configserver:3.1.1",
+  "repositoryDir" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/org.springframework.cloud:spring-cloud-kubernetes-configserver/spring-cloud-kubernetes-controllers/spring-cloud-kubernetes-configserver",
+  "repositorySubDir" : "",
+  "artifactLocation" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.springframework.cloud:spring-cloud-kubernetes-configserver:3.1.1",
+  "fileImportReports" : [ {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/org.springframework.cloud:spring-cloud-kubernetes-configserver/spring-cloud-kubernetes-controllers/spring-cloud-kubernetes-configserver/src/test/java/org/springframework/cloud/kubernetes/configserver/ConfigServerAutoConfigurationKubernetesEnabledProfileIncludedConfigApiDisabled.java",
+    "useImportReport" : [ {
+      "importPath" : "import org.springframework.context.ConfigurableApplicationContext;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-context:6.1.5",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.springframework.cloud:spring-cloud-kubernetes-configserver:3.1.1/dependencies/org/springframework/spring-context/6.1.5/spring-context-6.1.5.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.springframework.beans.factory.annotation.Autowired;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-beans:6.1.5",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.springframework.cloud:spring-cloud-kubernetes-configserver:3.1.1/dependencies/org/springframework/spring-beans/6.1.5/spring-beans-6.1.5.jar"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ {
+      "importPath" : "import org.junit.jupiter.api.Test;"
+    }, {
+      "importPath" : "import org.springframework.boot.test.context.SpringBootTest;"
+    }, {
+      "importPath" : "import static org.assertj.core.api.Assertions.assertThat;"
+    } ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/org.springframework.cloud:spring-cloud-kubernetes-configserver/spring-cloud-kubernetes-controllers/spring-cloud-kubernetes-configserver/src/test/java/org/springframework/cloud/kubernetes/configserver/KubernetesPropertySourceSupplierTests.java",
+    "useImportReport" : [ {
+      "importPath" : "import io.kubernetes.client.openapi.apis.CoreV1Api;",
+      "artifact" : {
+        "artifact" : "io.kubernetes:client-java-api:19.0.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.springframework.cloud:spring-cloud-kubernetes-configserver:3.1.1/dependencies/io/kubernetes/client-java-api/19.0.1/client-java-api-19.0.1.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import io.kubernetes.client.openapi.models.V1ConfigMapList;",
+      "artifact" : {
+        "artifact" : "io.kubernetes:client-java-api:19.0.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.springframework.cloud:spring-cloud-kubernetes-configserver:3.1.1/dependencies/io/kubernetes/client-java-api/19.0.1/client-java-api-19.0.1.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import io.kubernetes.client.openapi.models.V1ConfigMapList;",
+      "artifact" : {
+        "artifact" : "io.kubernetes:client-java-api-fluent:19.0.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.springframework.cloud:spring-cloud-kubernetes-configserver:3.1.1/dependencies/io/kubernetes/client-java-api-fluent/19.0.1/client-java-api-fluent-19.0.1.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import io.kubernetes.client.openapi.models.V1SecretList;",
+      "artifact" : {
+        "artifact" : "io.kubernetes:client-java-api:19.0.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.springframework.cloud:spring-cloud-kubernetes-configserver:3.1.1/dependencies/io/kubernetes/client-java-api/19.0.1/client-java-api-19.0.1.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import io.kubernetes.client.openapi.models.V1SecretList;",
+      "artifact" : {
+        "artifact" : "io.kubernetes:client-java-api-fluent:19.0.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.springframework.cloud:spring-cloud-kubernetes-configserver:3.1.1/dependencies/io/kubernetes/client-java-api-fluent/19.0.1/client-java-api-fluent-19.0.1.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import io.kubernetes.client.openapi.models.V1SecretListBuilder;",
+      "artifact" : {
+        "artifact" : "io.kubernetes:client-java-api-fluent:19.0.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.springframework.cloud:spring-cloud-kubernetes-configserver:3.1.1/dependencies/io/kubernetes/client-java-api-fluent/19.0.1/client-java-api-fluent-19.0.1.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import io.kubernetes.client.openapi.ApiException;",
+      "artifact" : {
+        "artifact" : "io.kubernetes:client-java-api:19.0.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.springframework.cloud:spring-cloud-kubernetes-configserver:3.1.1/dependencies/io/kubernetes/client-java-api/19.0.1/client-java-api-19.0.1.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.Collections;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.springframework.cloud.config.environment.Environment;",
+      "artifact" : {
+        "artifact" : "org.springframework.cloud:spring-cloud-config-client:4.1.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.springframework.cloud:spring-cloud-kubernetes-configserver:3.1.1/dependencies/org/springframework/cloud/spring-cloud-config-client/4.1.1/spring-cloud-config-client-4.1.1.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import io.kubernetes.client.openapi.models.V1ConfigMap;",
+      "artifact" : {
+        "artifact" : "io.kubernetes:client-java-api:19.0.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.springframework.cloud:spring-cloud-kubernetes-configserver:3.1.1/dependencies/io/kubernetes/client-java-api/19.0.1/client-java-api-19.0.1.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import io.kubernetes.client.openapi.models.V1ConfigMap;",
+      "artifact" : {
+        "artifact" : "io.kubernetes:client-java-api-fluent:19.0.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.springframework.cloud:spring-cloud-kubernetes-configserver:3.1.1/dependencies/io/kubernetes/client-java-api-fluent/19.0.1/client-java-api-fluent-19.0.1.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import io.kubernetes.client.openapi.models.V1ConfigMapBuilder;",
+      "artifact" : {
+        "artifact" : "io.kubernetes:client-java-api-fluent:19.0.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.springframework.cloud:spring-cloud-kubernetes-configserver:3.1.1/dependencies/io/kubernetes/client-java-api-fluent/19.0.1/client-java-api-fluent-19.0.1.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import io.kubernetes.client.openapi.models.V1ObjectMetaBuilder;",
+      "artifact" : {
+        "artifact" : "io.kubernetes:client-java-api-fluent:19.0.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.springframework.cloud:spring-cloud-kubernetes-configserver:3.1.1/dependencies/io/kubernetes/client-java-api-fluent/19.0.1/client-java-api-fluent-19.0.1.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import io.kubernetes.client.openapi.models.V1Secret;",
+      "artifact" : {
+        "artifact" : "io.kubernetes:client-java-api:19.0.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.springframework.cloud:spring-cloud-kubernetes-configserver:3.1.1/dependencies/io/kubernetes/client-java-api/19.0.1/client-java-api-19.0.1.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import io.kubernetes.client.openapi.models.V1Secret;",
+      "artifact" : {
+        "artifact" : "io.kubernetes:client-java-api-fluent:19.0.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.springframework.cloud:spring-cloud-kubernetes-configserver:3.1.1/dependencies/io/kubernetes/client-java-api-fluent/19.0.1/client-java-api-fluent-19.0.1.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import io.kubernetes.client.openapi.models.V1SecretBuilder;",
+      "artifact" : {
+        "artifact" : "io.kubernetes:client-java-api-fluent:19.0.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.springframework.cloud:spring-cloud-kubernetes-configserver:3.1.1/dependencies/io/kubernetes/client-java-api-fluent/19.0.1/client-java-api-fluent-19.0.1.jar"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ {
+      "importPath" : "import org.junit.jupiter.api.BeforeAll;"
+    }, {
+      "importPath" : "import org.junit.jupiter.api.Test;"
+    }, {
+      "importPath" : "import static org.assertj.core.api.Assertions.assertThat;"
+    }, {
+      "importPath" : "import static org.mockito.ArgumentMatchers.eq;"
+    }, {
+      "importPath" : "import static org.mockito.Mockito.mock;"
+    }, {
+      "importPath" : "import static org.mockito.Mockito.when;"
+    } ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/org.springframework.cloud:spring-cloud-kubernetes-configserver/spring-cloud-kubernetes-controllers/spring-cloud-kubernetes-configserver/src/test/java/org/springframework/cloud/kubernetes/configserver/ConfigServerAutoConfigurationKubernetesEnabledProfileIncluded.java",
+    "useImportReport" : [ {
+      "importPath" : "import org.springframework.context.ConfigurableApplicationContext;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-context:6.1.5",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.springframework.cloud:spring-cloud-kubernetes-configserver:3.1.1/dependencies/org/springframework/spring-context/6.1.5/spring-context-6.1.5.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.springframework.beans.factory.annotation.Autowired;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-beans:6.1.5",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.springframework.cloud:spring-cloud-kubernetes-configserver:3.1.1/dependencies/org/springframework/spring-beans/6.1.5/spring-beans-6.1.5.jar"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ {
+      "importPath" : "import org.junit.jupiter.api.Test;"
+    }, {
+      "importPath" : "import org.springframework.boot.test.context.SpringBootTest;"
+    }, {
+      "importPath" : "import static org.assertj.core.api.Assertions.assertThat;"
+    } ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/org.springframework.cloud:spring-cloud-kubernetes-configserver/spring-cloud-kubernetes-controllers/spring-cloud-kubernetes-configserver/src/test/java/org/springframework/cloud/kubernetes/configserver/ConfigServerAutoConfigurationKubernetesEnabledProfileIncludedSecretsApiEnabled.java",
+    "useImportReport" : [ {
+      "importPath" : "import org.springframework.context.ConfigurableApplicationContext;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-context:6.1.5",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.springframework.cloud:spring-cloud-kubernetes-configserver:3.1.1/dependencies/org/springframework/spring-context/6.1.5/spring-context-6.1.5.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.springframework.beans.factory.annotation.Autowired;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-beans:6.1.5",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.springframework.cloud:spring-cloud-kubernetes-configserver:3.1.1/dependencies/org/springframework/spring-beans/6.1.5/spring-beans-6.1.5.jar"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ {
+      "importPath" : "import org.junit.jupiter.api.Test;"
+    }, {
+      "importPath" : "import org.springframework.boot.test.context.SpringBootTest;"
+    }, {
+      "importPath" : "import static org.assertj.core.api.Assertions.assertThat;"
+    } ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/org.springframework.cloud:spring-cloud-kubernetes-configserver/spring-cloud-kubernetes-controllers/spring-cloud-kubernetes-configserver/src/test/java/org/springframework/cloud/kubernetes/configserver/KubernetesEnvironmentRepositoryTests.java",
+    "useImportReport" : [ {
+      "importPath" : "import java.util.List;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.ArrayList;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import io.kubernetes.client.openapi.models.V1ConfigMapList;",
+      "artifact" : {
+        "artifact" : "io.kubernetes:client-java-api:19.0.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.springframework.cloud:spring-cloud-kubernetes-configserver:3.1.1/dependencies/io/kubernetes/client-java-api/19.0.1/client-java-api-19.0.1.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import io.kubernetes.client.openapi.models.V1ConfigMapList;",
+      "artifact" : {
+        "artifact" : "io.kubernetes:client-java-api-fluent:19.0.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.springframework.cloud:spring-cloud-kubernetes-configserver:3.1.1/dependencies/io/kubernetes/client-java-api-fluent/19.0.1/client-java-api-fluent-19.0.1.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import io.kubernetes.client.openapi.models.V1ConfigMapBuilder;",
+      "artifact" : {
+        "artifact" : "io.kubernetes:client-java-api-fluent:19.0.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.springframework.cloud:spring-cloud-kubernetes-configserver:3.1.1/dependencies/io/kubernetes/client-java-api-fluent/19.0.1/client-java-api-fluent-19.0.1.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import io.kubernetes.client.openapi.models.V1ObjectMetaBuilder;",
+      "artifact" : {
+        "artifact" : "io.kubernetes:client-java-api-fluent:19.0.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.springframework.cloud:spring-cloud-kubernetes-configserver:3.1.1/dependencies/io/kubernetes/client-java-api-fluent/19.0.1/client-java-api-fluent-19.0.1.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import io.kubernetes.client.openapi.models.V1SecretList;",
+      "artifact" : {
+        "artifact" : "io.kubernetes:client-java-api:19.0.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.springframework.cloud:spring-cloud-kubernetes-configserver:3.1.1/dependencies/io/kubernetes/client-java-api/19.0.1/client-java-api-19.0.1.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import io.kubernetes.client.openapi.models.V1SecretList;",
+      "artifact" : {
+        "artifact" : "io.kubernetes:client-java-api-fluent:19.0.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.springframework.cloud:spring-cloud-kubernetes-configserver:3.1.1/dependencies/io/kubernetes/client-java-api-fluent/19.0.1/client-java-api-fluent-19.0.1.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import io.kubernetes.client.openapi.models.V1SecretListBuilder;",
+      "artifact" : {
+        "artifact" : "io.kubernetes:client-java-api-fluent:19.0.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.springframework.cloud:spring-cloud-kubernetes-configserver:3.1.1/dependencies/io/kubernetes/client-java-api-fluent/19.0.1/client-java-api-fluent-19.0.1.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import io.kubernetes.client.openapi.models.V1SecretBuilder;",
+      "artifact" : {
+        "artifact" : "io.kubernetes:client-java-api-fluent:19.0.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.springframework.cloud:spring-cloud-kubernetes-configserver:3.1.1/dependencies/io/kubernetes/client-java-api-fluent/19.0.1/client-java-api-fluent-19.0.1.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.springframework.core.env.MapPropertySource;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-core:6.1.5",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.springframework.cloud:spring-cloud-kubernetes-configserver:3.1.1/dependencies/org/springframework/spring-core/6.1.5/spring-core-6.1.5.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.springframework.cloud.kubernetes.commons.config.NormalizedSource;",
+      "artifact" : {
+        "artifact" : "org.springframework.cloud:spring-cloud-kubernetes-commons:3.1.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.springframework.cloud:spring-cloud-kubernetes-configserver:3.1.1/dependencies/org/springframework/cloud/spring-cloud-kubernetes-commons/3.1.1/spring-cloud-kubernetes-commons-3.1.1.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.springframework.cloud.kubernetes.commons.config.NamedConfigMapNormalizedSource;",
+      "artifact" : {
+        "artifact" : "org.springframework.cloud:spring-cloud-kubernetes-commons:3.1.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.springframework.cloud:spring-cloud-kubernetes-configserver:3.1.1/dependencies/org/springframework/cloud/spring-cloud-kubernetes-commons/3.1.1/spring-cloud-kubernetes-commons-3.1.1.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.springframework.cloud.kubernetes.client.config.KubernetesClientConfigContext;",
+      "artifact" : {
+        "artifact" : "org.springframework.cloud:spring-cloud-kubernetes-client-config:3.1.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.springframework.cloud:spring-cloud-kubernetes-configserver:3.1.1/dependencies/org/springframework/cloud/spring-cloud-kubernetes-client-config/3.1.1/spring-cloud-kubernetes-client-config-3.1.1.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.springframework.cloud.kubernetes.client.config.KubernetesClientConfigMapPropertySource;",
+      "artifact" : {
+        "artifact" : "org.springframework.cloud:spring-cloud-kubernetes-client-config:3.1.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.springframework.cloud:spring-cloud-kubernetes-configserver:3.1.1/dependencies/org/springframework/cloud/spring-cloud-kubernetes-client-config/3.1.1/spring-cloud-kubernetes-client-config-3.1.1.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.springframework.cloud.kubernetes.commons.config.NamedSecretNormalizedSource;",
+      "artifact" : {
+        "artifact" : "org.springframework.cloud:spring-cloud-kubernetes-commons:3.1.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.springframework.cloud:spring-cloud-kubernetes-configserver:3.1.1/dependencies/org/springframework/cloud/spring-cloud-kubernetes-commons/3.1.1/spring-cloud-kubernetes-commons-3.1.1.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.springframework.cloud.kubernetes.client.config.KubernetesClientSecretsPropertySource;",
+      "artifact" : {
+        "artifact" : "org.springframework.cloud:spring-cloud-kubernetes-client-config:3.1.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.springframework.cloud:spring-cloud-kubernetes-configserver:3.1.1/dependencies/org/springframework/cloud/spring-cloud-kubernetes-client-config/3.1.1/spring-cloud-kubernetes-client-config-3.1.1.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import io.kubernetes.client.openapi.ApiException;",
+      "artifact" : {
+        "artifact" : "io.kubernetes:client-java-api:19.0.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.springframework.cloud:spring-cloud-kubernetes-configserver:3.1.1/dependencies/io/kubernetes/client-java-api/19.0.1/client-java-api-19.0.1.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import io.kubernetes.client.openapi.apis.CoreV1Api;",
+      "artifact" : {
+        "artifact" : "io.kubernetes:client-java-api:19.0.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.springframework.cloud:spring-cloud-kubernetes-configserver:3.1.1/dependencies/io/kubernetes/client-java-api/19.0.1/client-java-api-19.0.1.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.springframework.cloud.config.environment.Environment;",
+      "artifact" : {
+        "artifact" : "org.springframework.cloud:spring-cloud-config-client:4.1.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.springframework.cloud:spring-cloud-kubernetes-configserver:3.1.1/dependencies/org/springframework/cloud/spring-cloud-config-client/4.1.1/spring-cloud-config-client-4.1.1.jar"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ {
+      "importPath" : "import org.junit.jupiter.api.Assertions;"
+    }, {
+      "importPath" : "import org.junit.jupiter.api.BeforeAll;"
+    }, {
+      "importPath" : "import org.junit.jupiter.api.Test;"
+    }, {
+      "importPath" : "import static org.assertj.core.api.Assertions.assertThat;"
+    }, {
+      "importPath" : "import static org.mockito.ArgumentMatchers.eq;"
+    }, {
+      "importPath" : "import static org.mockito.Mockito.mock;"
+    }, {
+      "importPath" : "import static org.mockito.Mockito.when;"
+    } ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/org.springframework.cloud:spring-cloud-kubernetes-configserver/spring-cloud-kubernetes-controllers/spring-cloud-kubernetes-configserver/src/test/java/org/springframework/cloud/kubernetes/configserver/it/ConfigServerIntegrationTest.java",
+    "useImportReport" : [ {
+      "importPath" : "import org.springframework.beans.factory.annotation.Autowired;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-beans:6.1.5",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.springframework.cloud:spring-cloud-kubernetes-configserver:3.1.1/dependencies/org/springframework/spring-beans/6.1.5/spring-beans-6.1.5.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import io.kubernetes.client.openapi.models.V1ConfigMapList;",
+      "artifact" : {
+        "artifact" : "io.kubernetes:client-java-api:19.0.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.springframework.cloud:spring-cloud-kubernetes-configserver:3.1.1/dependencies/io/kubernetes/client-java-api/19.0.1/client-java-api-19.0.1.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import io.kubernetes.client.openapi.models.V1ConfigMapList;",
+      "artifact" : {
+        "artifact" : "io.kubernetes:client-java-api-fluent:19.0.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.springframework.cloud:spring-cloud-kubernetes-configserver:3.1.1/dependencies/io/kubernetes/client-java-api-fluent/19.0.1/client-java-api-fluent-19.0.1.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import io.kubernetes.client.openapi.models.V1ConfigMapBuilder;",
+      "artifact" : {
+        "artifact" : "io.kubernetes:client-java-api-fluent:19.0.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.springframework.cloud:spring-cloud-kubernetes-configserver:3.1.1/dependencies/io/kubernetes/client-java-api-fluent/19.0.1/client-java-api-fluent-19.0.1.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import io.kubernetes.client.openapi.models.V1ObjectMetaBuilder;",
+      "artifact" : {
+        "artifact" : "io.kubernetes:client-java-api-fluent:19.0.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.springframework.cloud:spring-cloud-kubernetes-configserver:3.1.1/dependencies/io/kubernetes/client-java-api-fluent/19.0.1/client-java-api-fluent-19.0.1.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import io.kubernetes.client.openapi.models.V1SecretList;",
+      "artifact" : {
+        "artifact" : "io.kubernetes:client-java-api:19.0.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.springframework.cloud:spring-cloud-kubernetes-configserver:3.1.1/dependencies/io/kubernetes/client-java-api/19.0.1/client-java-api-19.0.1.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import io.kubernetes.client.openapi.models.V1SecretList;",
+      "artifact" : {
+        "artifact" : "io.kubernetes:client-java-api-fluent:19.0.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.springframework.cloud:spring-cloud-kubernetes-configserver:3.1.1/dependencies/io/kubernetes/client-java-api-fluent/19.0.1/client-java-api-fluent-19.0.1.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import io.kubernetes.client.openapi.models.V1SecretListBuilder;",
+      "artifact" : {
+        "artifact" : "io.kubernetes:client-java-api-fluent:19.0.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.springframework.cloud:spring-cloud-kubernetes-configserver:3.1.1/dependencies/io/kubernetes/client-java-api-fluent/19.0.1/client-java-api-fluent-19.0.1.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import io.kubernetes.client.openapi.models.V1ListMetaBuilder;",
+      "artifact" : {
+        "artifact" : "io.kubernetes:client-java-api-fluent:19.0.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.springframework.cloud:spring-cloud-kubernetes-configserver:3.1.1/dependencies/io/kubernetes/client-java-api-fluent/19.0.1/client-java-api-fluent-19.0.1.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import io.kubernetes.client.openapi.models.V1SecretBuilder;",
+      "artifact" : {
+        "artifact" : "io.kubernetes:client-java-api-fluent:19.0.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.springframework.cloud:spring-cloud-kubernetes-configserver:3.1.1/dependencies/io/kubernetes/client-java-api-fluent/19.0.1/client-java-api-fluent-19.0.1.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import io.kubernetes.client.openapi.JSON;",
+      "artifact" : {
+        "artifact" : "io.kubernetes:client-java-api:19.0.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.springframework.cloud:spring-cloud-kubernetes-configserver:3.1.1/dependencies/io/kubernetes/client-java-api/19.0.1/client-java-api-19.0.1.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.springframework.cloud.config.environment.Environment;",
+      "artifact" : {
+        "artifact" : "org.springframework.cloud:spring-cloud-config-client:4.1.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.springframework.cloud:spring-cloud-kubernetes-configserver:3.1.1/dependencies/org/springframework/cloud/spring-cloud-config-client/4.1.1/spring-cloud-config-client-4.1.1.jar"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ {
+      "importPath" : "import com.github.tomakehurst.wiremock.WireMockServer;"
+    }, {
+      "importPath" : "import com.github.tomakehurst.wiremock.client.WireMock;"
+    }, {
+      "importPath" : "import org.junit.jupiter.api.BeforeEach;"
+    }, {
+      "importPath" : "import org.junit.jupiter.api.Test;"
+    }, {
+      "importPath" : "import org.springframework.boot.test.web.client.TestRestTemplate;"
+    }, {
+      "importPath" : "import static com.github.tomakehurst.wiremock.client.WireMock.aResponse;"
+    }, {
+      "importPath" : "import static com.github.tomakehurst.wiremock.client.WireMock.get;"
+    }, {
+      "importPath" : "import static com.github.tomakehurst.wiremock.client.WireMock.urlMatching;"
+    }, {
+      "importPath" : "import static org.assertj.core.api.Assertions.assertThat;"
+    } ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/org.springframework.cloud:spring-cloud-kubernetes-configserver/spring-cloud-kubernetes-controllers/spring-cloud-kubernetes-configserver/src/test/java/org/springframework/cloud/kubernetes/configserver/it/BootstrapConfigServerIntegrationTest.java",
+    "useImportReport" : [ ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ {
+      "importPath" : "import org.springframework.boot.test.context.SpringBootTest;"
+    }, {
+      "importPath" : "import org.springframework.cloud.kubernetes.configserver.KubernetesConfigServerApplication;"
+    } ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/org.springframework.cloud:spring-cloud-kubernetes-configserver/spring-cloud-kubernetes-controllers/spring-cloud-kubernetes-configserver/src/test/java/org/springframework/cloud/kubernetes/configserver/it/ConfigDataConfigServerIntegrationTest.java",
+    "useImportReport" : [ {
+      "importPath" : "import org.springframework.cloud.kubernetes.client.KubernetesClientUtils;",
+      "artifact" : {
+        "artifact" : "org.springframework.cloud:spring-cloud-kubernetes-client-autoconfig:3.1.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.springframework.cloud:spring-cloud-kubernetes-configserver:3.1.1/dependencies/org/springframework/cloud/spring-cloud-kubernetes-client-autoconfig/3.1.1/spring-cloud-kubernetes-client-autoconfig-3.1.1.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import io.kubernetes.client.util.ClientBuilder;",
+      "artifact" : {
+        "artifact" : "io.kubernetes:client-java:19.0.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.springframework.cloud:spring-cloud-kubernetes-configserver:3.1.1/dependencies/io/kubernetes/client-java/19.0.1/client-java-19.0.1.jar"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ {
+      "importPath" : "import com.github.tomakehurst.wiremock.client.WireMock;"
+    }, {
+      "importPath" : "import org.junit.jupiter.api.AfterEach;"
+    }, {
+      "importPath" : "import org.junit.jupiter.api.BeforeEach;"
+    }, {
+      "importPath" : "import org.mockito.MockedStatic;"
+    }, {
+      "importPath" : "import org.springframework.boot.test.context.SpringBootTest;"
+    }, {
+      "importPath" : "import org.springframework.cloud.kubernetes.configserver.KubernetesConfigServerApplication;"
+    }, {
+      "importPath" : "import org.springframework.cloud.kubernetes.configserver.TestBootstrapConfig;"
+    }, {
+      "importPath" : "import static org.mockito.Mockito.mockStatic;"
+    } ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/org.springframework.cloud:spring-cloud-kubernetes-configserver/spring-cloud-kubernetes-controllers/spring-cloud-kubernetes-configserver/src/test/java/org/springframework/cloud/kubernetes/configserver/ConfigServerAutoConfigurationKubernetesDisabled.java",
+    "useImportReport" : [ {
+      "importPath" : "import org.springframework.context.ConfigurableApplicationContext;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-context:6.1.5",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.springframework.cloud:spring-cloud-kubernetes-configserver:3.1.1/dependencies/org/springframework/spring-context/6.1.5/spring-context-6.1.5.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.springframework.beans.factory.annotation.Autowired;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-beans:6.1.5",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.springframework.cloud:spring-cloud-kubernetes-configserver:3.1.1/dependencies/org/springframework/spring-beans/6.1.5/spring-beans-6.1.5.jar"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ {
+      "importPath" : "import org.junit.jupiter.api.Test;"
+    }, {
+      "importPath" : "import org.springframework.boot.test.context.SpringBootTest;"
+    }, {
+      "importPath" : "import static org.assertj.core.api.Assertions.assertThat;"
+    } ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/org.springframework.cloud:spring-cloud-kubernetes-configserver/spring-cloud-kubernetes-controllers/spring-cloud-kubernetes-configserver/src/test/java/org/springframework/cloud/kubernetes/configserver/ConfigServerAutoConfigurationKubernetesEnabledProfileIncludedConfigMapDisabled.java",
+    "useImportReport" : [ {
+      "importPath" : "import org.springframework.context.ConfigurableApplicationContext;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-context:6.1.5",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.springframework.cloud:spring-cloud-kubernetes-configserver:3.1.1/dependencies/org/springframework/spring-context/6.1.5/spring-context-6.1.5.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.springframework.beans.factory.annotation.Autowired;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-beans:6.1.5",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.springframework.cloud:spring-cloud-kubernetes-configserver:3.1.1/dependencies/org/springframework/spring-beans/6.1.5/spring-beans-6.1.5.jar"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ {
+      "importPath" : "import org.junit.jupiter.api.Test;"
+    }, {
+      "importPath" : "import org.springframework.boot.test.context.SpringBootTest;"
+    }, {
+      "importPath" : "import static org.assertj.core.api.Assertions.assertThat;"
+    } ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/org.springframework.cloud:spring-cloud-kubernetes-configserver/spring-cloud-kubernetes-controllers/spring-cloud-kubernetes-configserver/src/test/java/org/springframework/cloud/kubernetes/configserver/ConfigServerAutoConfigurationKubernetesProfileMissing.java",
+    "useImportReport" : [ {
+      "importPath" : "import org.springframework.context.ConfigurableApplicationContext;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-context:6.1.5",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.springframework.cloud:spring-cloud-kubernetes-configserver:3.1.1/dependencies/org/springframework/spring-context/6.1.5/spring-context-6.1.5.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.springframework.beans.factory.annotation.Autowired;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-beans:6.1.5",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.springframework.cloud:spring-cloud-kubernetes-configserver:3.1.1/dependencies/org/springframework/spring-beans/6.1.5/spring-beans-6.1.5.jar"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ {
+      "importPath" : "import org.junit.jupiter.api.Test;"
+    }, {
+      "importPath" : "import org.springframework.boot.test.context.SpringBootTest;"
+    }, {
+      "importPath" : "import static org.assertj.core.api.Assertions.assertThat;"
+    } ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/org.springframework.cloud:spring-cloud-kubernetes-configserver/spring-cloud-kubernetes-controllers/spring-cloud-kubernetes-configserver/src/test/java/org/springframework/cloud/kubernetes/configserver/MockConfig.java",
+    "useImportReport" : [ {
+      "importPath" : "import org.springframework.context.annotation.Configuration;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-context:6.1.5",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.springframework.cloud:spring-cloud-kubernetes-configserver:3.1.1/dependencies/org/springframework/spring-context/6.1.5/spring-context-6.1.5.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.springframework.cloud.config.server.environment.EnvironmentRepository;",
+      "artifact" : {
+        "artifact" : "org.springframework.cloud:spring-cloud-config-server:4.1.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.springframework.cloud:spring-cloud-kubernetes-configserver:3.1.1/dependencies/org/springframework/cloud/spring-cloud-config-server/4.1.1/spring-cloud-config-server-4.1.1.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.springframework.context.annotation.Bean;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-context:6.1.5",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.springframework.cloud:spring-cloud-kubernetes-configserver:3.1.1/dependencies/org/springframework/spring-context/6.1.5/spring-context-6.1.5.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.springframework.context.annotation.Profile;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-context:6.1.5",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.springframework.cloud:spring-cloud-kubernetes-configserver:3.1.1/dependencies/org/springframework/spring-context/6.1.5/spring-context-6.1.5.jar"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ {
+      "importPath" : "import static org.mockito.Mockito.mock;"
+    } ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/org.springframework.cloud:spring-cloud-kubernetes-configserver/spring-cloud-kubernetes-controllers/spring-cloud-kubernetes-configserver/src/test/java/org/springframework/cloud/kubernetes/configserver/ConfigServerAutoConfigurationKubernetesEnabledProfileIncludedSecretsApiDisabled.java",
+    "useImportReport" : [ {
+      "importPath" : "import org.springframework.context.ConfigurableApplicationContext;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-context:6.1.5",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.springframework.cloud:spring-cloud-kubernetes-configserver:3.1.1/dependencies/org/springframework/spring-context/6.1.5/spring-context-6.1.5.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.springframework.beans.factory.annotation.Autowired;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-beans:6.1.5",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.springframework.cloud:spring-cloud-kubernetes-configserver:3.1.1/dependencies/org/springframework/spring-beans/6.1.5/spring-beans-6.1.5.jar"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ {
+      "importPath" : "import org.junit.jupiter.api.Test;"
+    }, {
+      "importPath" : "import org.springframework.boot.test.context.SpringBootTest;"
+    }, {
+      "importPath" : "import static org.assertj.core.api.Assertions.assertThat;"
+    } ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/org.springframework.cloud:spring-cloud-kubernetes-configserver/spring-cloud-kubernetes-controllers/spring-cloud-kubernetes-configserver/src/test/java/org/springframework/cloud/kubernetes/configserver/TestBootstrapConfig.java",
+    "useImportReport" : [ {
+      "importPath" : "import org.springframework.context.annotation.Bean;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-context:6.1.5",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.springframework.cloud:spring-cloud-kubernetes-configserver:3.1.1/dependencies/org/springframework/spring-context/6.1.5/spring-context-6.1.5.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import io.kubernetes.client.openapi.ApiClient;",
+      "artifact" : {
+        "artifact" : "io.kubernetes:client-java-api:19.0.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.springframework.cloud:spring-cloud-kubernetes-configserver:3.1.1/dependencies/io/kubernetes/client-java-api/19.0.1/client-java-api-19.0.1.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import io.kubernetes.client.util.ClientBuilder;",
+      "artifact" : {
+        "artifact" : "io.kubernetes:client-java:19.0.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.springframework.cloud:spring-cloud-kubernetes-configserver:3.1.1/dependencies/io/kubernetes/client-java/19.0.1/client-java-19.0.1.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import io.kubernetes.client.openapi.apis.CoreV1Api;",
+      "artifact" : {
+        "artifact" : "io.kubernetes:client-java-api:19.0.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.springframework.cloud:spring-cloud-kubernetes-configserver:3.1.1/dependencies/io/kubernetes/client-java-api/19.0.1/client-java-api-19.0.1.jar"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ {
+      "importPath" : "import com.github.tomakehurst.wiremock.WireMockServer;"
+    }, {
+      "importPath" : "import com.github.tomakehurst.wiremock.client.WireMock;"
+    }, {
+      "importPath" : "import static com.github.tomakehurst.wiremock.core.WireMockConfiguration.options;"
+    } ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/org.springframework.cloud:spring-cloud-kubernetes-configserver/spring-cloud-kubernetes-controllers/spring-cloud-kubernetes-configserver/src/main/java/org/springframework/cloud/kubernetes/configserver/KubernetesConfigServerAutoConfiguration.java",
+    "useImportReport" : [ {
+      "importPath" : "import org.springframework.context.annotation.Configuration;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-context:6.1.5",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.springframework.cloud:spring-cloud-kubernetes-configserver:3.1.1/dependencies/org/springframework/spring-context/6.1.5/spring-context-6.1.5.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.springframework.boot.autoconfigure.AutoConfigureAfter;",
+      "artifact" : {
+        "artifact" : "org.springframework.boot:spring-boot-autoconfigure:3.2.4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.springframework.cloud:spring-cloud-kubernetes-configserver:3.1.1/dependencies/org/springframework/boot/spring-boot-autoconfigure/3.2.4/spring-boot-autoconfigure-3.2.4.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.springframework.cloud.kubernetes.client.KubernetesClientAutoConfiguration;",
+      "artifact" : {
+        "artifact" : "org.springframework.cloud:spring-cloud-kubernetes-client-autoconfig:3.1.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.springframework.cloud:spring-cloud-kubernetes-configserver:3.1.1/dependencies/org/springframework/cloud/spring-cloud-kubernetes-client-autoconfig/3.1.1/spring-cloud-kubernetes-client-autoconfig-3.1.1.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.springframework.boot.autoconfigure.AutoConfigureBefore;",
+      "artifact" : {
+        "artifact" : "org.springframework.boot:spring-boot-autoconfigure:3.2.4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.springframework.cloud:spring-cloud-kubernetes-configserver:3.1.1/dependencies/org/springframework/boot/spring-boot-autoconfigure/3.2.4/spring-boot-autoconfigure-3.2.4.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.springframework.cloud.config.server.config.ConfigServerAutoConfiguration;",
+      "artifact" : {
+        "artifact" : "org.springframework.cloud:spring-cloud-config-server:4.1.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.springframework.cloud:spring-cloud-kubernetes-configserver:3.1.1/dependencies/org/springframework/cloud/spring-cloud-config-server/4.1.1/spring-cloud-config-server-4.1.1.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.springframework.boot.autoconfigure.condition.ConditionalOnCloudPlatform;",
+      "artifact" : {
+        "artifact" : "org.springframework.boot:spring-boot-autoconfigure:3.2.4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.springframework.cloud:spring-cloud-kubernetes-configserver:3.1.1/dependencies/org/springframework/boot/spring-boot-autoconfigure/3.2.4/spring-boot-autoconfigure-3.2.4.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.springframework.boot.cloud.CloudPlatform;",
+      "artifact" : {
+        "artifact" : "org.springframework.boot:spring-boot:3.2.4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.springframework.cloud:spring-cloud-kubernetes-configserver:3.1.1/dependencies/org/springframework/boot/spring-boot/3.2.4/spring-boot-3.2.4.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.springframework.boot.context.properties.EnableConfigurationProperties;",
+      "artifact" : {
+        "artifact" : "org.springframework.boot:spring-boot:3.2.4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.springframework.cloud:spring-cloud-kubernetes-configserver:3.1.1/dependencies/org/springframework/boot/spring-boot/3.2.4/spring-boot-3.2.4.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.springframework.cloud.config.server.environment.EnvironmentRepository;",
+      "artifact" : {
+        "artifact" : "org.springframework.cloud:spring-cloud-config-server:4.1.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.springframework.cloud:spring-cloud-kubernetes-configserver:3.1.1/dependencies/org/springframework/cloud/spring-cloud-config-server/4.1.1/spring-cloud-config-server-4.1.1.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.springframework.context.annotation.Bean;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-context:6.1.5",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.springframework.cloud:spring-cloud-kubernetes-configserver:3.1.1/dependencies/org/springframework/spring-context/6.1.5/spring-context-6.1.5.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.springframework.context.annotation.Profile;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-context:6.1.5",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.springframework.cloud:spring-cloud-kubernetes-configserver:3.1.1/dependencies/org/springframework/spring-context/6.1.5/spring-context-6.1.5.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import io.kubernetes.client.openapi.apis.CoreV1Api;",
+      "artifact" : {
+        "artifact" : "io.kubernetes:client-java-api:19.0.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.springframework.cloud:spring-cloud-kubernetes-configserver:3.1.1/dependencies/io/kubernetes/client-java-api/19.0.1/client-java-api-19.0.1.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.List;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.springframework.cloud.kubernetes.commons.KubernetesNamespaceProvider;",
+      "artifact" : {
+        "artifact" : "org.springframework.cloud:spring-cloud-kubernetes-commons:3.1.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.springframework.cloud:spring-cloud-kubernetes-configserver:3.1.1/dependencies/org/springframework/cloud/spring-cloud-kubernetes-commons/3.1.1/spring-cloud-kubernetes-commons-3.1.1.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.springframework.cloud.kubernetes.commons.ConditionalOnKubernetesConfigEnabled;",
+      "artifact" : {
+        "artifact" : "org.springframework.cloud:spring-cloud-kubernetes-commons:3.1.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.springframework.cloud:spring-cloud-kubernetes-configserver:3.1.1/dependencies/org/springframework/cloud/spring-cloud-kubernetes-commons/3.1.1/spring-cloud-kubernetes-commons-3.1.1.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.springframework.boot.autoconfigure.condition.ConditionalOnProperty;",
+      "artifact" : {
+        "artifact" : "org.springframework.boot:spring-boot-autoconfigure:3.2.4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.springframework.cloud:spring-cloud-kubernetes-configserver:3.1.1/dependencies/org/springframework/boot/spring-boot-autoconfigure/3.2.4/spring-boot-autoconfigure-3.2.4.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.springframework.core.env.MapPropertySource;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-core:6.1.5",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.springframework.cloud:spring-cloud-kubernetes-configserver:3.1.1/dependencies/org/springframework/spring-core/6.1.5/spring-core-6.1.5.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.ArrayList;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.springframework.cloud.kubernetes.commons.config.NamedConfigMapNormalizedSource;",
+      "artifact" : {
+        "artifact" : "org.springframework.cloud:spring-cloud-kubernetes-commons:3.1.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.springframework.cloud:spring-cloud-kubernetes-configserver:3.1.1/dependencies/org/springframework/cloud/spring-cloud-kubernetes-commons/3.1.1/spring-cloud-kubernetes-commons-3.1.1.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.springframework.cloud.kubernetes.client.config.KubernetesClientConfigContext;",
+      "artifact" : {
+        "artifact" : "org.springframework.cloud:spring-cloud-kubernetes-client-config:3.1.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.springframework.cloud:spring-cloud-kubernetes-configserver:3.1.1/dependencies/org/springframework/cloud/spring-cloud-kubernetes-client-config/3.1.1/spring-cloud-kubernetes-client-config-3.1.1.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.springframework.cloud.kubernetes.client.config.KubernetesClientConfigMapPropertySource;",
+      "artifact" : {
+        "artifact" : "org.springframework.cloud:spring-cloud-kubernetes-client-config:3.1.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.springframework.cloud:spring-cloud-kubernetes-configserver:3.1.1/dependencies/org/springframework/cloud/spring-cloud-kubernetes-client-config/3.1.1/spring-cloud-kubernetes-client-config-3.1.1.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.springframework.cloud.kubernetes.commons.ConditionalOnKubernetesSecretsEnabled;",
+      "artifact" : {
+        "artifact" : "org.springframework.cloud:spring-cloud-kubernetes-commons:3.1.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.springframework.cloud:spring-cloud-kubernetes-configserver:3.1.1/dependencies/org/springframework/cloud/spring-cloud-kubernetes-commons/3.1.1/spring-cloud-kubernetes-commons-3.1.1.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.springframework.cloud.kubernetes.commons.config.NormalizedSource;",
+      "artifact" : {
+        "artifact" : "org.springframework.cloud:spring-cloud-kubernetes-commons:3.1.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.springframework.cloud:spring-cloud-kubernetes-configserver:3.1.1/dependencies/org/springframework/cloud/spring-cloud-kubernetes-commons/3.1.1/spring-cloud-kubernetes-commons-3.1.1.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.springframework.cloud.kubernetes.commons.config.NamedSecretNormalizedSource;",
+      "artifact" : {
+        "artifact" : "org.springframework.cloud:spring-cloud-kubernetes-commons:3.1.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.springframework.cloud:spring-cloud-kubernetes-configserver:3.1.1/dependencies/org/springframework/cloud/spring-cloud-kubernetes-commons/3.1.1/spring-cloud-kubernetes-commons-3.1.1.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.springframework.cloud.kubernetes.client.config.KubernetesClientSecretsPropertySource;",
+      "artifact" : {
+        "artifact" : "org.springframework.cloud:spring-cloud-kubernetes-client-config:3.1.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.springframework.cloud:spring-cloud-kubernetes-configserver:3.1.1/dependencies/org/springframework/cloud/spring-cloud-kubernetes-client-config/3.1.1/spring-cloud-kubernetes-client-config-3.1.1.jar"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ {
+      "importPath" : "import static org.springframework.cloud.kubernetes.configserver.KubernetesPropertySourceSupplier.namespaceSplitter;"
+    } ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/org.springframework.cloud:spring-cloud-kubernetes-configserver/spring-cloud-kubernetes-controllers/spring-cloud-kubernetes-configserver/src/main/java/org/springframework/cloud/kubernetes/configserver/KubernetesConfigServerProperties.java",
+    "useImportReport" : [ {
+      "importPath" : "import org.springframework.boot.context.properties.ConfigurationProperties;",
+      "artifact" : {
+        "artifact" : "org.springframework.boot:spring-boot:3.2.4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.springframework.cloud:spring-cloud-kubernetes-configserver:3.1.1/dependencies/org/springframework/boot/spring-boot/3.2.4/spring-boot-3.2.4.jar"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/org.springframework.cloud:spring-cloud-kubernetes-configserver/spring-cloud-kubernetes-controllers/spring-cloud-kubernetes-configserver/src/main/java/org/springframework/cloud/kubernetes/configserver/KubernetesConfigServerApplication.java",
+    "useImportReport" : [ {
+      "importPath" : "import org.springframework.boot.autoconfigure.SpringBootApplication;",
+      "artifact" : {
+        "artifact" : "org.springframework.boot:spring-boot-autoconfigure:3.2.4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.springframework.cloud:spring-cloud-kubernetes-configserver:3.1.1/dependencies/org/springframework/boot/spring-boot-autoconfigure/3.2.4/spring-boot-autoconfigure-3.2.4.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.springframework.cloud.config.server.EnableConfigServer;",
+      "artifact" : {
+        "artifact" : "org.springframework.cloud:spring-cloud-config-server:4.1.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.springframework.cloud:spring-cloud-kubernetes-configserver:3.1.1/dependencies/org/springframework/cloud/spring-cloud-config-server/4.1.1/spring-cloud-config-server-4.1.1.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.springframework.boot.builder.SpringApplicationBuilder;",
+      "artifact" : {
+        "artifact" : "org.springframework.boot:spring-boot:3.2.4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.springframework.cloud:spring-cloud-kubernetes-configserver:3.1.1/dependencies/org/springframework/boot/spring-boot/3.2.4/spring-boot-3.2.4.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.springframework.cloud.config.server.ConfigServerApplication;",
+      "artifact" : {
+        "artifact" : "org.springframework.cloud:spring-cloud-config-server:4.1.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.springframework.cloud:spring-cloud-kubernetes-configserver:3.1.1/dependencies/org/springframework/cloud/spring-cloud-config-server/4.1.1/spring-cloud-config-server-4.1.1.jar"
+      },
+      "isDirectDependency" : true
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/org.springframework.cloud:spring-cloud-kubernetes-configserver/spring-cloud-kubernetes-controllers/spring-cloud-kubernetes-configserver/src/main/java/org/springframework/cloud/kubernetes/configserver/KubernetesPropertySourceSupplier.java",
+    "useImportReport" : [ {
+      "importPath" : "import java.util.List;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.springframework.core.env.MapPropertySource;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-core:6.1.5",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.springframework.cloud:spring-cloud-kubernetes-configserver:3.1.1/dependencies/org/springframework/spring-core/6.1.5/spring-core-6.1.5.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import io.kubernetes.client.openapi.apis.CoreV1Api;",
+      "artifact" : {
+        "artifact" : "io.kubernetes:client-java-api:19.0.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.springframework.cloud:spring-cloud-kubernetes-configserver:3.1.1/dependencies/io/kubernetes/client-java-api/19.0.1/client-java-api-19.0.1.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.springframework.core.env.Environment;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-core:6.1.5",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.springframework.cloud:spring-cloud-kubernetes-configserver:3.1.1/dependencies/org/springframework/spring-core/6.1.5/spring-core-6.1.5.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.Collections;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.springframework.util.StringUtils;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-core:6.1.5",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.springframework.cloud:spring-cloud-kubernetes-configserver:3.1.1/dependencies/org/springframework/spring-core/6.1.5/spring-core-6.1.5.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.Arrays;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/org.springframework.cloud:spring-cloud-kubernetes-configserver/spring-cloud-kubernetes-controllers/spring-cloud-kubernetes-configserver/src/main/java/org/springframework/cloud/kubernetes/configserver/KubernetesEnvironmentRepository.java",
+    "useImportReport" : [ {
+      "importPath" : "import org.springframework.cloud.config.server.environment.EnvironmentRepository;",
+      "artifact" : {
+        "artifact" : "org.springframework.cloud:spring-cloud-config-server:4.1.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.springframework.cloud:spring-cloud-kubernetes-configserver:3.1.1/dependencies/org/springframework/cloud/spring-cloud-config-server/4.1.1/spring-cloud-config-server-4.1.1.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.apache.commons.logging.Log;",
+      "artifact" : {
+        "artifact" : "commons-logging:commons-logging:1.2",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.springframework.cloud:spring-cloud-kubernetes-configserver:3.1.1/dependencies/commons-logging/commons-logging/1.2/commons-logging-1.2.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.apache.commons.logging.Log;",
+      "artifact" : {
+        "artifact" : "org.slf4j:jcl-over-slf4j:2.0.12",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.springframework.cloud:spring-cloud-kubernetes-configserver:3.1.1/dependencies/org/slf4j/jcl-over-slf4j/2.0.12/jcl-over-slf4j-2.0.12.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.apache.commons.logging.Log;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-jcl:6.1.5",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.springframework.cloud:spring-cloud-kubernetes-configserver:3.1.1/dependencies/org/springframework/spring-jcl/6.1.5/spring-jcl-6.1.5.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.apache.commons.logging.LogFactory;",
+      "artifact" : {
+        "artifact" : "commons-logging:commons-logging:1.2",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.springframework.cloud:spring-cloud-kubernetes-configserver:3.1.1/dependencies/commons-logging/commons-logging/1.2/commons-logging-1.2.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.apache.commons.logging.LogFactory;",
+      "artifact" : {
+        "artifact" : "org.slf4j:jcl-over-slf4j:2.0.12",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.springframework.cloud:spring-cloud-kubernetes-configserver:3.1.1/dependencies/org/slf4j/jcl-over-slf4j/2.0.12/jcl-over-slf4j-2.0.12.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.apache.commons.logging.LogFactory;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-jcl:6.1.5",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.springframework.cloud:spring-cloud-kubernetes-configserver:3.1.1/dependencies/org/springframework/spring-jcl/6.1.5/spring-jcl-6.1.5.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import io.kubernetes.client.openapi.apis.CoreV1Api;",
+      "artifact" : {
+        "artifact" : "io.kubernetes:client-java-api:19.0.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.springframework.cloud:spring-cloud-kubernetes-configserver:3.1.1/dependencies/io/kubernetes/client-java-api/19.0.1/client-java-api-19.0.1.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.List;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.springframework.cloud.config.environment.Environment;",
+      "artifact" : {
+        "artifact" : "org.springframework.cloud:spring-cloud-config-client:4.1.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.springframework.cloud:spring-cloud-kubernetes-configserver:3.1.1/dependencies/org/springframework/cloud/spring-cloud-config-client/4.1.1/spring-cloud-config-client-4.1.1.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.springframework.util.StringUtils;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-core:6.1.5",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.springframework.cloud:spring-cloud-kubernetes-configserver:3.1.1/dependencies/org/springframework/spring-core/6.1.5/spring-core-6.1.5.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.springframework.core.env.StandardEnvironment;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-core:6.1.5",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.springframework.cloud:spring-cloud-kubernetes-configserver:3.1.1/dependencies/org/springframework/spring-core/6.1.5/spring-core-6.1.5.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.springframework.core.env.MapPropertySource;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-core:6.1.5",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.springframework.cloud:spring-cloud-kubernetes-configserver:3.1.1/dependencies/org/springframework/spring-core/6.1.5/spring-core-6.1.5.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.springframework.cloud.config.environment.PropertySource;",
+      "artifact" : {
+        "artifact" : "org.springframework.cloud:spring-cloud-config-client:4.1.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.springframework.cloud:spring-cloud-kubernetes-configserver:3.1.1/dependencies/org/springframework/cloud/spring-cloud-config-client/4.1.1/spring-cloud-config-client-4.1.1.jar"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  } ],
+  "projectUseDependencies" : [ {
+    "artifact" : "org.springframework.cloud:spring-cloud-config-server:4.1.1",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.springframework.cloud:spring-cloud-kubernetes-configserver:3.1.1/dependencies/org/springframework/cloud/spring-cloud-config-server/4.1.1/spring-cloud-config-server-4.1.1.jar"
+  } ],
+  "projectUseTransitiveDependencies" : [ {
+    "artifact" : "org.springframework.boot:spring-boot-starter-actuator:3.2.4",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.springframework.cloud:spring-cloud-kubernetes-configserver:3.1.1/dependencies/org/springframework/boot/spring-boot-starter-actuator/3.2.4/spring-boot-starter-actuator-3.2.4.jar"
+  }, {
+    "artifact" : "org.springframework.boot:spring-boot-starter-actuator:3.2.4",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.springframework.cloud:spring-cloud-kubernetes-configserver:3.1.1/dependencies/org/springframework/boot/spring-boot-starter-actuator/3.2.4/spring-boot-starter-actuator-3.2.4.jar"
+  }, {
+    "artifact" : "org.springframework.cloud:spring-cloud-starter-kubernetes-client-config:3.1.1",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.springframework.cloud:spring-cloud-kubernetes-configserver:3.1.1/dependencies/org/springframework/cloud/spring-cloud-starter-kubernetes-client-config/3.1.1/spring-cloud-starter-kubernetes-client-config-3.1.1.jar"
+  }, {
+    "artifact" : "org.springframework.cloud:spring-cloud-starter-kubernetes-client-config:3.1.1",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.springframework.cloud:spring-cloud-kubernetes-configserver:3.1.1/dependencies/org/springframework/cloud/spring-cloud-starter-kubernetes-client-config/3.1.1/spring-cloud-starter-kubernetes-client-config-3.1.1.jar"
+  }, {
+    "artifact" : "org.springframework.cloud:spring-cloud-starter-kubernetes-client-config:3.1.1",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.springframework.cloud:spring-cloud-kubernetes-configserver:3.1.1/dependencies/org/springframework/cloud/spring-cloud-starter-kubernetes-client-config/3.1.1/spring-cloud-starter-kubernetes-client-config-3.1.1.jar"
+  }, {
+    "artifact" : "org.springframework.boot:spring-boot-starter-actuator:3.2.4",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.springframework.cloud:spring-cloud-kubernetes-configserver:3.1.1/dependencies/org/springframework/boot/spring-boot-starter-actuator/3.2.4/spring-boot-starter-actuator-3.2.4.jar"
+  }, {
+    "artifact" : "org.springframework.cloud:spring-cloud-starter-kubernetes-client-config:3.1.1",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.springframework.cloud:spring-cloud-kubernetes-configserver:3.1.1/dependencies/org/springframework/cloud/spring-cloud-starter-kubernetes-client-config/3.1.1/spring-cloud-starter-kubernetes-client-config-3.1.1.jar"
+  }, {
+    "artifact" : "org.springframework.cloud:spring-cloud-starter-kubernetes-client-config:3.1.1",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.springframework.cloud:spring-cloud-kubernetes-configserver:3.1.1/dependencies/org/springframework/cloud/spring-cloud-starter-kubernetes-client-config/3.1.1/spring-cloud-starter-kubernetes-client-config-3.1.1.jar"
+  }, {
+    "artifact" : "org.springframework.cloud:spring-cloud-starter-kubernetes-client-config:3.1.1",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.springframework.cloud:spring-cloud-kubernetes-configserver:3.1.1/dependencies/org/springframework/cloud/spring-cloud-starter-kubernetes-client-config/3.1.1/spring-cloud-starter-kubernetes-client-config-3.1.1.jar"
+  }, {
+    "artifact" : "org.springframework.cloud:spring-cloud-starter-kubernetes-client-config:3.1.1",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.springframework.cloud:spring-cloud-kubernetes-configserver:3.1.1/dependencies/org/springframework/cloud/spring-cloud-starter-kubernetes-client-config/3.1.1/spring-cloud-starter-kubernetes-client-config-3.1.1.jar"
+  }, {
+    "artifact" : "org.springframework.cloud:spring-cloud-starter-kubernetes-client-config:3.1.1",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.springframework.cloud:spring-cloud-kubernetes-configserver:3.1.1/dependencies/org/springframework/cloud/spring-cloud-starter-kubernetes-client-config/3.1.1/spring-cloud-starter-kubernetes-client-config-3.1.1.jar"
+  }, {
+    "artifact" : "org.springframework.boot:spring-boot-starter-actuator:3.2.4",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.springframework.cloud:spring-cloud-kubernetes-configserver:3.1.1/dependencies/org/springframework/boot/spring-boot-starter-actuator/3.2.4/spring-boot-starter-actuator-3.2.4.jar"
+  }, {
+    "artifact" : "org.springframework.cloud:spring-cloud-starter-kubernetes-client-config:3.1.1",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.springframework.cloud:spring-cloud-kubernetes-configserver:3.1.1/dependencies/org/springframework/cloud/spring-cloud-starter-kubernetes-client-config/3.1.1/spring-cloud-starter-kubernetes-client-config-3.1.1.jar"
+  }, {
+    "artifact" : "org.springframework.boot:spring-boot-starter-actuator:3.2.4",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.springframework.cloud:spring-cloud-kubernetes-configserver:3.1.1/dependencies/org/springframework/boot/spring-boot-starter-actuator/3.2.4/spring-boot-starter-actuator-3.2.4.jar"
+  }, {
+    "artifact" : "org.springframework.cloud:spring-cloud-starter-kubernetes-client-config:3.1.1",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.springframework.cloud:spring-cloud-kubernetes-configserver:3.1.1/dependencies/org/springframework/cloud/spring-cloud-starter-kubernetes-client-config/3.1.1/spring-cloud-starter-kubernetes-client-config-3.1.1.jar"
+  }, {
+    "artifact" : "org.springframework.boot:spring-boot-starter-actuator:3.2.4",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.springframework.cloud:spring-cloud-kubernetes-configserver:3.1.1/dependencies/org/springframework/boot/spring-boot-starter-actuator/3.2.4/spring-boot-starter-actuator-3.2.4.jar"
+  }, {
+    "artifact" : "org.springframework.boot:spring-boot-starter-actuator:3.2.4",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.springframework.cloud:spring-cloud-kubernetes-configserver:3.1.1/dependencies/org/springframework/boot/spring-boot-starter-actuator/3.2.4/spring-boot-starter-actuator-3.2.4.jar"
+  } ],
+  "projectUnusedDependencies" : [ ]
+}

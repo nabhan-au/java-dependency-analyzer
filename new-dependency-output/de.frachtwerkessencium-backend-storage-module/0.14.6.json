@@ -1,0 +1,3665 @@
+{
+  "projectArtifact" : "de.frachtwerk:essencium-backend-storage-module:0.14.6",
+  "repositoryDir" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/de.frachtwerk:essencium-backend-storage-module",
+  "repositorySubDir" : "",
+  "artifactLocation" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/de.frachtwerk:essencium-backend-storage-module:0.14.6",
+  "fileImportReports" : [ {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/de.frachtwerk:essencium-backend-storage-module/src/main/java/de/frachtwerk/essencium/storage/impl/identity/repository/IdentityFileRepository.java",
+    "useImportReport" : [ {
+      "importPath" : "import de.frachtwerk.essencium.storage.generic.repository.AbstractFileRepository;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import de.frachtwerk.essencium.storage.impl.identity.model.IdentityFile;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import de.frachtwerk.essencium.storage.impl.identity.model.IdentityStorageInfo;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.springframework.stereotype.Repository;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-context:6.1.3",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/de.frachtwerk:essencium-backend-storage-module:0.14.6/dependencies/org/springframework/spring-context/6.1.3/spring-context-6.1.3.jar"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/de.frachtwerk:essencium-backend-storage-module/src/main/java/de/frachtwerk/essencium/storage/impl/identity/provider/s3/S3IdentityStorageInfo.java",
+    "useImportReport" : [ {
+      "importPath" : "import de.frachtwerk.essencium.storage.impl.identity.model.IdentityStorageInfo;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import de.frachtwerk.essencium.storage.generic.provider.s3.AbstractS3StorageInfo;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import de.frachtwerk.essencium.storage.impl.identity.model.IdentityFile;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import lombok.EqualsAndHashCode;",
+      "artifact" : {
+        "artifact" : "org.projectlombok:lombok:1.18.30",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/de.frachtwerk:essencium-backend-storage-module:0.14.6/dependencies/org/projectlombok/lombok/1.18.30/lombok-1.18.30.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import lombok.AllArgsConstructor;",
+      "artifact" : {
+        "artifact" : "org.projectlombok:lombok:1.18.30",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/de.frachtwerk:essencium-backend-storage-module:0.14.6/dependencies/org/projectlombok/lombok/1.18.30/lombok-1.18.30.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import jakarta.persistence.*;",
+      "artifact" : {
+        "artifact" : "jakarta.persistence:jakarta.persistence-api:3.1.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/de.frachtwerk:essencium-backend-storage-module:0.14.6/dependencies/jakarta/persistence/jakarta.persistence-api/3.1.0/jakarta.persistence-api-3.1.0.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import lombok.NoArgsConstructor;",
+      "artifact" : {
+        "artifact" : "org.projectlombok:lombok:1.18.30",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/de.frachtwerk:essencium-backend-storage-module:0.14.6/dependencies/org/projectlombok/lombok/1.18.30/lombok-1.18.30.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import lombok.Data;",
+      "artifact" : {
+        "artifact" : "org.projectlombok:lombok:1.18.30",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/de.frachtwerk:essencium-backend-storage-module:0.14.6/dependencies/org/projectlombok/lombok/1.18.30/lombok-1.18.30.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import lombok.experimental.SuperBuilder;",
+      "artifact" : {
+        "artifact" : "org.projectlombok:lombok:1.18.30",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/de.frachtwerk:essencium-backend-storage-module:0.14.6/dependencies/org/projectlombok/lombok/1.18.30/lombok-1.18.30.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import jakarta.persistence.*;",
+      "artifact" : {
+        "artifact" : "jakarta.persistence:jakarta.persistence-api:3.1.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/de.frachtwerk:essencium-backend-storage-module:0.14.6/dependencies/jakarta/persistence/jakarta.persistence-api/3.1.0/jakarta.persistence-api-3.1.0.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import jakarta.persistence.*;",
+      "artifact" : {
+        "artifact" : "jakarta.persistence:jakarta.persistence-api:3.1.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/de.frachtwerk:essencium-backend-storage-module:0.14.6/dependencies/jakarta/persistence/jakarta.persistence-api/3.1.0/jakarta.persistence-api-3.1.0.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import jakarta.persistence.*;",
+      "artifact" : {
+        "artifact" : "jakarta.persistence:jakarta.persistence-api:3.1.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/de.frachtwerk:essencium-backend-storage-module:0.14.6/dependencies/jakarta/persistence/jakarta.persistence-api/3.1.0/jakarta.persistence-api-3.1.0.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import jakarta.validation.constraints.NotNull;",
+      "artifact" : {
+        "artifact" : "jakarta.validation:jakarta.validation-api:3.0.2",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/de.frachtwerk:essencium-backend-storage-module:0.14.6/dependencies/jakarta/validation/jakarta.validation-api/3.0.2/jakarta.validation-api-3.0.2.jar"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/de.frachtwerk:essencium-backend-storage-module/src/main/java/de/frachtwerk/essencium/storage/impl/identity/provider/s3/S3IdentityStorageService.java",
+    "useImportReport" : [ {
+      "importPath" : "import de.frachtwerk.essencium.storage.generic.provider.s3.AbstractS3StorageService;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import de.frachtwerk.essencium.storage.impl.identity.model.IdentityFile;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import de.frachtwerk.essencium.storage.impl.identity.model.IdentityStorageInfo;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.springframework.stereotype.Service;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-context:6.1.3",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/de.frachtwerk:essencium-backend-storage-module:0.14.6/dependencies/org/springframework/spring-context/6.1.3/spring-context-6.1.3.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import de.frachtwerk.essencium.storage.generic.provider.s3.S3StorageConfiguration;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import jakarta.validation.constraints.NotNull;",
+      "artifact" : {
+        "artifact" : "jakarta.validation:jakarta.validation-api:3.0.2",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/de.frachtwerk:essencium-backend-storage-module:0.14.6/dependencies/jakarta/validation/jakarta.validation-api/3.0.2/jakarta.validation-api-3.0.2.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import de.frachtwerk.essencium.storage.generic.service.MimeTypeHelper;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import de.frachtwerk.essencium.storage.generic.provider.s3.AbstractS3StorageInfo;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/de.frachtwerk:essencium-backend-storage-module/src/main/java/de/frachtwerk/essencium/storage/impl/identity/provider/local/LocalStorageService.java",
+    "useImportReport" : [ {
+      "importPath" : "import de.frachtwerk.essencium.storage.generic.provider.local.AbstractLocalStorageService;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import de.frachtwerk.essencium.storage.impl.identity.model.IdentityFile;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import de.frachtwerk.essencium.storage.impl.identity.model.IdentityStorageInfo;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.springframework.stereotype.Service;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-context:6.1.3",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/de.frachtwerk:essencium-backend-storage-module:0.14.6/dependencies/org/springframework/spring-context/6.1.3/spring-context-6.1.3.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import de.frachtwerk.essencium.storage.generic.provider.local.LocalFileCreator;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import jakarta.validation.constraints.NotNull;",
+      "artifact" : {
+        "artifact" : "jakarta.validation:jakarta.validation-api:3.0.2",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/de.frachtwerk:essencium-backend-storage-module:0.14.6/dependencies/jakarta/validation/jakarta.validation-api/3.0.2/jakarta.validation-api-3.0.2.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import de.frachtwerk.essencium.storage.generic.provider.local.LocalStorageConfiguration;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import de.frachtwerk.essencium.storage.generic.service.UniqueNameCreator;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import de.frachtwerk.essencium.storage.generic.provider.local.AbstractLocalStorageInfo;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/de.frachtwerk:essencium-backend-storage-module/src/main/java/de/frachtwerk/essencium/storage/impl/identity/provider/local/LocalIdentityStorageInfo.java",
+    "useImportReport" : [ {
+      "importPath" : "import de.frachtwerk.essencium.storage.impl.identity.model.IdentityStorageInfo;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import de.frachtwerk.essencium.storage.generic.provider.local.AbstractLocalStorageInfo;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import de.frachtwerk.essencium.storage.impl.identity.model.IdentityFile;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import lombok.EqualsAndHashCode;",
+      "artifact" : {
+        "artifact" : "org.projectlombok:lombok:1.18.30",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/de.frachtwerk:essencium-backend-storage-module:0.14.6/dependencies/org/projectlombok/lombok/1.18.30/lombok-1.18.30.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import lombok.AllArgsConstructor;",
+      "artifact" : {
+        "artifact" : "org.projectlombok:lombok:1.18.30",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/de.frachtwerk:essencium-backend-storage-module:0.14.6/dependencies/org/projectlombok/lombok/1.18.30/lombok-1.18.30.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import jakarta.persistence.*;",
+      "artifact" : {
+        "artifact" : "jakarta.persistence:jakarta.persistence-api:3.1.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/de.frachtwerk:essencium-backend-storage-module:0.14.6/dependencies/jakarta/persistence/jakarta.persistence-api/3.1.0/jakarta.persistence-api-3.1.0.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import lombok.NoArgsConstructor;",
+      "artifact" : {
+        "artifact" : "org.projectlombok:lombok:1.18.30",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/de.frachtwerk:essencium-backend-storage-module:0.14.6/dependencies/org/projectlombok/lombok/1.18.30/lombok-1.18.30.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import lombok.Data;",
+      "artifact" : {
+        "artifact" : "org.projectlombok:lombok:1.18.30",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/de.frachtwerk:essencium-backend-storage-module:0.14.6/dependencies/org/projectlombok/lombok/1.18.30/lombok-1.18.30.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import lombok.experimental.SuperBuilder;",
+      "artifact" : {
+        "artifact" : "org.projectlombok:lombok:1.18.30",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/de.frachtwerk:essencium-backend-storage-module:0.14.6/dependencies/org/projectlombok/lombok/1.18.30/lombok-1.18.30.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import jakarta.persistence.*;",
+      "artifact" : {
+        "artifact" : "jakarta.persistence:jakarta.persistence-api:3.1.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/de.frachtwerk:essencium-backend-storage-module:0.14.6/dependencies/jakarta/persistence/jakarta.persistence-api/3.1.0/jakarta.persistence-api-3.1.0.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import jakarta.persistence.*;",
+      "artifact" : {
+        "artifact" : "jakarta.persistence:jakarta.persistence-api:3.1.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/de.frachtwerk:essencium-backend-storage-module:0.14.6/dependencies/jakarta/persistence/jakarta.persistence-api/3.1.0/jakarta.persistence-api-3.1.0.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import jakarta.persistence.*;",
+      "artifact" : {
+        "artifact" : "jakarta.persistence:jakarta.persistence-api:3.1.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/de.frachtwerk:essencium-backend-storage-module:0.14.6/dependencies/jakarta/persistence/jakarta.persistence-api/3.1.0/jakarta.persistence-api-3.1.0.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import jakarta.validation.constraints.NotNull;",
+      "artifact" : {
+        "artifact" : "jakarta.validation:jakarta.validation-api:3.0.2",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/de.frachtwerk:essencium-backend-storage-module:0.14.6/dependencies/jakarta/validation/jakarta.validation-api/3.0.2/jakarta.validation-api-3.0.2.jar"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/de.frachtwerk:essencium-backend-storage-module/src/main/java/de/frachtwerk/essencium/storage/impl/identity/model/IdentityStorageInfo.java",
+    "useImportReport" : [ {
+      "importPath" : "import de.frachtwerk.essencium.storage.generic.model.AbstractStorageInfo;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import jakarta.persistence.*;",
+      "artifact" : {
+        "artifact" : "jakarta.persistence:jakarta.persistence-api:3.1.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/de.frachtwerk:essencium-backend-storage-module:0.14.6/dependencies/jakarta/persistence/jakarta.persistence-api/3.1.0/jakarta.persistence-api-3.1.0.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import lombok.Data;",
+      "artifact" : {
+        "artifact" : "org.projectlombok:lombok:1.18.30",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/de.frachtwerk:essencium-backend-storage-module:0.14.6/dependencies/org/projectlombok/lombok/1.18.30/lombok-1.18.30.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import lombok.NoArgsConstructor;",
+      "artifact" : {
+        "artifact" : "org.projectlombok:lombok:1.18.30",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/de.frachtwerk:essencium-backend-storage-module:0.14.6/dependencies/org/projectlombok/lombok/1.18.30/lombok-1.18.30.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import lombok.EqualsAndHashCode;",
+      "artifact" : {
+        "artifact" : "org.projectlombok:lombok:1.18.30",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/de.frachtwerk:essencium-backend-storage-module:0.14.6/dependencies/org/projectlombok/lombok/1.18.30/lombok-1.18.30.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import jakarta.persistence.*;",
+      "artifact" : {
+        "artifact" : "jakarta.persistence:jakarta.persistence-api:3.1.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/de.frachtwerk:essencium-backend-storage-module:0.14.6/dependencies/jakarta/persistence/jakarta.persistence-api/3.1.0/jakarta.persistence-api-3.1.0.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import jakarta.persistence.*;",
+      "artifact" : {
+        "artifact" : "jakarta.persistence:jakarta.persistence-api:3.1.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/de.frachtwerk:essencium-backend-storage-module:0.14.6/dependencies/jakarta/persistence/jakarta.persistence-api/3.1.0/jakarta.persistence-api-3.1.0.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import lombok.experimental.SuperBuilder;",
+      "artifact" : {
+        "artifact" : "org.projectlombok:lombok:1.18.30",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/de.frachtwerk:essencium-backend-storage-module:0.14.6/dependencies/org/projectlombok/lombok/1.18.30/lombok-1.18.30.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import jakarta.persistence.*;",
+      "artifact" : {
+        "artifact" : "jakarta.persistence:jakarta.persistence-api:3.1.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/de.frachtwerk:essencium-backend-storage-module:0.14.6/dependencies/jakarta/persistence/jakarta.persistence-api/3.1.0/jakarta.persistence-api-3.1.0.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import jakarta.persistence.*;",
+      "artifact" : {
+        "artifact" : "jakarta.persistence:jakarta.persistence-api:3.1.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/de.frachtwerk:essencium-backend-storage-module:0.14.6/dependencies/jakarta/persistence/jakarta.persistence-api/3.1.0/jakarta.persistence-api-3.1.0.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import jakarta.persistence.*;",
+      "artifact" : {
+        "artifact" : "jakarta.persistence:jakarta.persistence-api:3.1.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/de.frachtwerk:essencium-backend-storage-module:0.14.6/dependencies/jakarta/persistence/jakarta.persistence-api/3.1.0/jakarta.persistence-api-3.1.0.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import de.frachtwerk.essencium.storage.generic.model.StorageInfoVisitor;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/de.frachtwerk:essencium-backend-storage-module/src/main/java/de/frachtwerk/essencium/storage/impl/identity/model/IdentityFile.java",
+    "useImportReport" : [ {
+      "importPath" : "import de.frachtwerk.essencium.storage.generic.model.AbstractFile;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import lombok.Data;",
+      "artifact" : {
+        "artifact" : "org.projectlombok:lombok:1.18.30",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/de.frachtwerk:essencium-backend-storage-module:0.14.6/dependencies/org/projectlombok/lombok/1.18.30/lombok-1.18.30.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import lombok.EqualsAndHashCode;",
+      "artifact" : {
+        "artifact" : "org.projectlombok:lombok:1.18.30",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/de.frachtwerk:essencium-backend-storage-module:0.14.6/dependencies/org/projectlombok/lombok/1.18.30/lombok-1.18.30.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import lombok.NoArgsConstructor;",
+      "artifact" : {
+        "artifact" : "org.projectlombok:lombok:1.18.30",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/de.frachtwerk:essencium-backend-storage-module:0.14.6/dependencies/org/projectlombok/lombok/1.18.30/lombok-1.18.30.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import jakarta.persistence.*;",
+      "artifact" : {
+        "artifact" : "jakarta.persistence:jakarta.persistence-api:3.1.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/de.frachtwerk:essencium-backend-storage-module:0.14.6/dependencies/jakarta/persistence/jakarta.persistence-api/3.1.0/jakarta.persistence-api-3.1.0.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import lombok.AllArgsConstructor;",
+      "artifact" : {
+        "artifact" : "org.projectlombok:lombok:1.18.30",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/de.frachtwerk:essencium-backend-storage-module:0.14.6/dependencies/org/projectlombok/lombok/1.18.30/lombok-1.18.30.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import jakarta.persistence.*;",
+      "artifact" : {
+        "artifact" : "jakarta.persistence:jakarta.persistence-api:3.1.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/de.frachtwerk:essencium-backend-storage-module:0.14.6/dependencies/jakarta/persistence/jakarta.persistence-api/3.1.0/jakarta.persistence-api-3.1.0.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import jakarta.persistence.*;",
+      "artifact" : {
+        "artifact" : "jakarta.persistence:jakarta.persistence-api:3.1.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/de.frachtwerk:essencium-backend-storage-module:0.14.6/dependencies/jakarta/persistence/jakarta.persistence-api/3.1.0/jakarta.persistence-api-3.1.0.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import jakarta.persistence.*;",
+      "artifact" : {
+        "artifact" : "jakarta.persistence:jakarta.persistence-api:3.1.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/de.frachtwerk:essencium-backend-storage-module:0.14.6/dependencies/jakarta/persistence/jakarta.persistence-api/3.1.0/jakarta.persistence-api-3.1.0.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.List;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import jakarta.validation.constraints.NotNull;",
+      "artifact" : {
+        "artifact" : "jakarta.validation:jakarta.validation-api:3.0.2",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/de.frachtwerk:essencium-backend-storage-module:0.14.6/dependencies/jakarta/validation/jakarta.validation-api/3.0.2/jakarta.validation-api-3.0.2.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import jakarta.persistence.*;",
+      "artifact" : {
+        "artifact" : "jakarta.persistence:jakarta.persistence-api:3.1.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/de.frachtwerk:essencium-backend-storage-module:0.14.6/dependencies/jakarta/persistence/jakarta.persistence-api/3.1.0/jakarta.persistence-api-3.1.0.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import jakarta.persistence.*;",
+      "artifact" : {
+        "artifact" : "jakarta.persistence:jakarta.persistence-api:3.1.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/de.frachtwerk:essencium-backend-storage-module:0.14.6/dependencies/jakarta/persistence/jakarta.persistence-api/3.1.0/jakarta.persistence-api-3.1.0.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import jakarta.persistence.*;",
+      "artifact" : {
+        "artifact" : "jakarta.persistence:jakarta.persistence-api:3.1.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/de.frachtwerk:essencium-backend-storage-module:0.14.6/dependencies/jakarta/persistence/jakarta.persistence-api/3.1.0/jakarta.persistence-api-3.1.0.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.springframework.core.io.Resource;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-core:6.1.3",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/de.frachtwerk:essencium-backend-storage-module:0.14.6/dependencies/org/springframework/spring-core/6.1.3/spring-core-6.1.3.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.fasterxml.jackson.annotation.JsonIgnore;",
+      "artifact" : {
+        "artifact" : "com.fasterxml.jackson.core:jackson-annotations:2.15.3",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/de.frachtwerk:essencium-backend-storage-module:0.14.6/dependencies/com/fasterxml/jackson/core/jackson-annotations/2.15.3/jackson-annotations-2.15.3.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.Objects;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.Set;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import de.frachtwerk.essencium.storage.generic.model.StorageInfoVisitor;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.stream.Collectors;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/de.frachtwerk:essencium-backend-storage-module/src/main/java/de/frachtwerk/essencium/storage/impl/identity/service/DefaultIdentityFileService.java",
+    "useImportReport" : [ {
+      "importPath" : "import de.frachtwerk.essencium.storage.generic.service.AbstractFileService;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import de.frachtwerk.essencium.storage.impl.identity.model.IdentityFile;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import de.frachtwerk.essencium.storage.impl.identity.model.IdentityStorageInfo;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.springframework.stereotype.Service;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-context:6.1.3",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/de.frachtwerk:essencium-backend-storage-module:0.14.6/dependencies/org/springframework/spring-context/6.1.3/spring-context-6.1.3.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import de.frachtwerk.essencium.storage.generic.service.StorageServiceDispatcher;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import de.frachtwerk.essencium.storage.impl.identity.repository.IdentityFileRepository;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import de.frachtwerk.essencium.storage.generic.service.MimeTypeHelper;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.List;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/de.frachtwerk:essencium-backend-storage-module/src/main/java/de/frachtwerk/essencium/storage/impl/sequence/repository/SequenceFileRepository.java",
+    "useImportReport" : [ {
+      "importPath" : "import de.frachtwerk.essencium.storage.generic.repository.AbstractFileRepository;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import de.frachtwerk.essencium.storage.impl.sequence.model.SequenceFile;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import de.frachtwerk.essencium.storage.impl.sequence.model.SequenceStorageInfo;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.springframework.stereotype.Repository;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-context:6.1.3",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/de.frachtwerk:essencium-backend-storage-module:0.14.6/dependencies/org/springframework/spring-context/6.1.3/spring-context-6.1.3.jar"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/de.frachtwerk:essencium-backend-storage-module/src/main/java/de/frachtwerk/essencium/storage/impl/sequence/provider/s3/S3StorageService.java",
+    "useImportReport" : [ {
+      "importPath" : "import de.frachtwerk.essencium.storage.generic.provider.s3.AbstractS3StorageService;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import de.frachtwerk.essencium.storage.impl.sequence.model.SequenceFile;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import de.frachtwerk.essencium.storage.impl.sequence.model.SequenceStorageInfo;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.springframework.stereotype.Service;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-context:6.1.3",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/de.frachtwerk:essencium-backend-storage-module:0.14.6/dependencies/org/springframework/spring-context/6.1.3/spring-context-6.1.3.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import de.frachtwerk.essencium.storage.generic.provider.s3.S3StorageConfiguration;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import jakarta.validation.constraints.NotNull;",
+      "artifact" : {
+        "artifact" : "jakarta.validation:jakarta.validation-api:3.0.2",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/de.frachtwerk:essencium-backend-storage-module:0.14.6/dependencies/jakarta/validation/jakarta.validation-api/3.0.2/jakarta.validation-api-3.0.2.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import de.frachtwerk.essencium.storage.generic.service.MimeTypeHelper;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import de.frachtwerk.essencium.storage.generic.provider.s3.AbstractS3StorageInfo;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/de.frachtwerk:essencium-backend-storage-module/src/main/java/de/frachtwerk/essencium/storage/impl/sequence/provider/s3/S3SequenceStorageInfo.java",
+    "useImportReport" : [ {
+      "importPath" : "import de.frachtwerk.essencium.storage.impl.sequence.model.SequenceStorageInfo;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import de.frachtwerk.essencium.storage.generic.provider.s3.AbstractS3StorageInfo;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import de.frachtwerk.essencium.storage.impl.sequence.model.SequenceFile;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import lombok.EqualsAndHashCode;",
+      "artifact" : {
+        "artifact" : "org.projectlombok:lombok:1.18.30",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/de.frachtwerk:essencium-backend-storage-module:0.14.6/dependencies/org/projectlombok/lombok/1.18.30/lombok-1.18.30.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import lombok.AllArgsConstructor;",
+      "artifact" : {
+        "artifact" : "org.projectlombok:lombok:1.18.30",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/de.frachtwerk:essencium-backend-storage-module:0.14.6/dependencies/org/projectlombok/lombok/1.18.30/lombok-1.18.30.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import jakarta.persistence.*;",
+      "artifact" : {
+        "artifact" : "jakarta.persistence:jakarta.persistence-api:3.1.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/de.frachtwerk:essencium-backend-storage-module:0.14.6/dependencies/jakarta/persistence/jakarta.persistence-api/3.1.0/jakarta.persistence-api-3.1.0.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import lombok.NoArgsConstructor;",
+      "artifact" : {
+        "artifact" : "org.projectlombok:lombok:1.18.30",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/de.frachtwerk:essencium-backend-storage-module:0.14.6/dependencies/org/projectlombok/lombok/1.18.30/lombok-1.18.30.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import lombok.Data;",
+      "artifact" : {
+        "artifact" : "org.projectlombok:lombok:1.18.30",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/de.frachtwerk:essencium-backend-storage-module:0.14.6/dependencies/org/projectlombok/lombok/1.18.30/lombok-1.18.30.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import lombok.experimental.SuperBuilder;",
+      "artifact" : {
+        "artifact" : "org.projectlombok:lombok:1.18.30",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/de.frachtwerk:essencium-backend-storage-module:0.14.6/dependencies/org/projectlombok/lombok/1.18.30/lombok-1.18.30.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import jakarta.persistence.*;",
+      "artifact" : {
+        "artifact" : "jakarta.persistence:jakarta.persistence-api:3.1.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/de.frachtwerk:essencium-backend-storage-module:0.14.6/dependencies/jakarta/persistence/jakarta.persistence-api/3.1.0/jakarta.persistence-api-3.1.0.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import jakarta.persistence.*;",
+      "artifact" : {
+        "artifact" : "jakarta.persistence:jakarta.persistence-api:3.1.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/de.frachtwerk:essencium-backend-storage-module:0.14.6/dependencies/jakarta/persistence/jakarta.persistence-api/3.1.0/jakarta.persistence-api-3.1.0.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import jakarta.persistence.*;",
+      "artifact" : {
+        "artifact" : "jakarta.persistence:jakarta.persistence-api:3.1.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/de.frachtwerk:essencium-backend-storage-module:0.14.6/dependencies/jakarta/persistence/jakarta.persistence-api/3.1.0/jakarta.persistence-api-3.1.0.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import jakarta.persistence.*;",
+      "artifact" : {
+        "artifact" : "jakarta.persistence:jakarta.persistence-api:3.1.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/de.frachtwerk:essencium-backend-storage-module:0.14.6/dependencies/jakarta/persistence/jakarta.persistence-api/3.1.0/jakarta.persistence-api-3.1.0.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import jakarta.validation.constraints.NotNull;",
+      "artifact" : {
+        "artifact" : "jakarta.validation:jakarta.validation-api:3.0.2",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/de.frachtwerk:essencium-backend-storage-module:0.14.6/dependencies/jakarta/validation/jakarta.validation-api/3.0.2/jakarta.validation-api-3.0.2.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import de.frachtwerk.essencium.storage.generic.model.StorageInfoVisitor;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/de.frachtwerk:essencium-backend-storage-module/src/main/java/de/frachtwerk/essencium/storage/impl/sequence/provider/local/LocalSequenceStorageInfo.java",
+    "useImportReport" : [ {
+      "importPath" : "import de.frachtwerk.essencium.storage.impl.sequence.model.SequenceStorageInfo;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import de.frachtwerk.essencium.storage.generic.provider.local.AbstractLocalStorageInfo;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import de.frachtwerk.essencium.storage.impl.sequence.model.SequenceFile;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import lombok.EqualsAndHashCode;",
+      "artifact" : {
+        "artifact" : "org.projectlombok:lombok:1.18.30",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/de.frachtwerk:essencium-backend-storage-module:0.14.6/dependencies/org/projectlombok/lombok/1.18.30/lombok-1.18.30.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import lombok.AllArgsConstructor;",
+      "artifact" : {
+        "artifact" : "org.projectlombok:lombok:1.18.30",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/de.frachtwerk:essencium-backend-storage-module:0.14.6/dependencies/org/projectlombok/lombok/1.18.30/lombok-1.18.30.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import jakarta.persistence.*;",
+      "artifact" : {
+        "artifact" : "jakarta.persistence:jakarta.persistence-api:3.1.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/de.frachtwerk:essencium-backend-storage-module:0.14.6/dependencies/jakarta/persistence/jakarta.persistence-api/3.1.0/jakarta.persistence-api-3.1.0.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import lombok.NoArgsConstructor;",
+      "artifact" : {
+        "artifact" : "org.projectlombok:lombok:1.18.30",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/de.frachtwerk:essencium-backend-storage-module:0.14.6/dependencies/org/projectlombok/lombok/1.18.30/lombok-1.18.30.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import lombok.Data;",
+      "artifact" : {
+        "artifact" : "org.projectlombok:lombok:1.18.30",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/de.frachtwerk:essencium-backend-storage-module:0.14.6/dependencies/org/projectlombok/lombok/1.18.30/lombok-1.18.30.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import lombok.experimental.SuperBuilder;",
+      "artifact" : {
+        "artifact" : "org.projectlombok:lombok:1.18.30",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/de.frachtwerk:essencium-backend-storage-module:0.14.6/dependencies/org/projectlombok/lombok/1.18.30/lombok-1.18.30.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import jakarta.persistence.*;",
+      "artifact" : {
+        "artifact" : "jakarta.persistence:jakarta.persistence-api:3.1.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/de.frachtwerk:essencium-backend-storage-module:0.14.6/dependencies/jakarta/persistence/jakarta.persistence-api/3.1.0/jakarta.persistence-api-3.1.0.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import jakarta.persistence.*;",
+      "artifact" : {
+        "artifact" : "jakarta.persistence:jakarta.persistence-api:3.1.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/de.frachtwerk:essencium-backend-storage-module:0.14.6/dependencies/jakarta/persistence/jakarta.persistence-api/3.1.0/jakarta.persistence-api-3.1.0.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import jakarta.persistence.*;",
+      "artifact" : {
+        "artifact" : "jakarta.persistence:jakarta.persistence-api:3.1.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/de.frachtwerk:essencium-backend-storage-module:0.14.6/dependencies/jakarta/persistence/jakarta.persistence-api/3.1.0/jakarta.persistence-api-3.1.0.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import jakarta.persistence.*;",
+      "artifact" : {
+        "artifact" : "jakarta.persistence:jakarta.persistence-api:3.1.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/de.frachtwerk:essencium-backend-storage-module:0.14.6/dependencies/jakarta/persistence/jakarta.persistence-api/3.1.0/jakarta.persistence-api-3.1.0.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import jakarta.validation.constraints.NotNull;",
+      "artifact" : {
+        "artifact" : "jakarta.validation:jakarta.validation-api:3.0.2",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/de.frachtwerk:essencium-backend-storage-module:0.14.6/dependencies/jakarta/validation/jakarta.validation-api/3.0.2/jakarta.validation-api-3.0.2.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import de.frachtwerk.essencium.storage.generic.model.StorageInfoVisitor;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/de.frachtwerk:essencium-backend-storage-module/src/main/java/de/frachtwerk/essencium/storage/impl/sequence/provider/local/LocalStorageService.java",
+    "useImportReport" : [ {
+      "importPath" : "import de.frachtwerk.essencium.storage.generic.provider.local.AbstractLocalStorageService;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import de.frachtwerk.essencium.storage.impl.sequence.model.SequenceFile;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import de.frachtwerk.essencium.storage.impl.sequence.model.SequenceStorageInfo;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.springframework.stereotype.Service;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-context:6.1.3",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/de.frachtwerk:essencium-backend-storage-module:0.14.6/dependencies/org/springframework/spring-context/6.1.3/spring-context-6.1.3.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import de.frachtwerk.essencium.storage.generic.provider.local.LocalFileCreator;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import jakarta.validation.constraints.NotNull;",
+      "artifact" : {
+        "artifact" : "jakarta.validation:jakarta.validation-api:3.0.2",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/de.frachtwerk:essencium-backend-storage-module:0.14.6/dependencies/jakarta/validation/jakarta.validation-api/3.0.2/jakarta.validation-api-3.0.2.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import de.frachtwerk.essencium.storage.generic.provider.local.LocalStorageConfiguration;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import de.frachtwerk.essencium.storage.generic.service.UniqueNameCreator;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import de.frachtwerk.essencium.storage.generic.provider.local.AbstractLocalStorageInfo;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/de.frachtwerk:essencium-backend-storage-module/src/main/java/de/frachtwerk/essencium/storage/impl/sequence/model/SequenceFile.java",
+    "useImportReport" : [ {
+      "importPath" : "import de.frachtwerk.essencium.storage.generic.model.AbstractFile;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import lombok.Data;",
+      "artifact" : {
+        "artifact" : "org.projectlombok:lombok:1.18.30",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/de.frachtwerk:essencium-backend-storage-module:0.14.6/dependencies/org/projectlombok/lombok/1.18.30/lombok-1.18.30.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import lombok.EqualsAndHashCode;",
+      "artifact" : {
+        "artifact" : "org.projectlombok:lombok:1.18.30",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/de.frachtwerk:essencium-backend-storage-module:0.14.6/dependencies/org/projectlombok/lombok/1.18.30/lombok-1.18.30.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import lombok.NoArgsConstructor;",
+      "artifact" : {
+        "artifact" : "org.projectlombok:lombok:1.18.30",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/de.frachtwerk:essencium-backend-storage-module:0.14.6/dependencies/org/projectlombok/lombok/1.18.30/lombok-1.18.30.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import jakarta.persistence.*;",
+      "artifact" : {
+        "artifact" : "jakarta.persistence:jakarta.persistence-api:3.1.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/de.frachtwerk:essencium-backend-storage-module:0.14.6/dependencies/jakarta/persistence/jakarta.persistence-api/3.1.0/jakarta.persistence-api-3.1.0.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import lombok.AllArgsConstructor;",
+      "artifact" : {
+        "artifact" : "org.projectlombok:lombok:1.18.30",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/de.frachtwerk:essencium-backend-storage-module:0.14.6/dependencies/org/projectlombok/lombok/1.18.30/lombok-1.18.30.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import jakarta.persistence.*;",
+      "artifact" : {
+        "artifact" : "jakarta.persistence:jakarta.persistence-api:3.1.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/de.frachtwerk:essencium-backend-storage-module:0.14.6/dependencies/jakarta/persistence/jakarta.persistence-api/3.1.0/jakarta.persistence-api-3.1.0.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import jakarta.persistence.*;",
+      "artifact" : {
+        "artifact" : "jakarta.persistence:jakarta.persistence-api:3.1.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/de.frachtwerk:essencium-backend-storage-module:0.14.6/dependencies/jakarta/persistence/jakarta.persistence-api/3.1.0/jakarta.persistence-api-3.1.0.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import jakarta.persistence.*;",
+      "artifact" : {
+        "artifact" : "jakarta.persistence:jakarta.persistence-api:3.1.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/de.frachtwerk:essencium-backend-storage-module:0.14.6/dependencies/jakarta/persistence/jakarta.persistence-api/3.1.0/jakarta.persistence-api-3.1.0.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import jakarta.persistence.*;",
+      "artifact" : {
+        "artifact" : "jakarta.persistence:jakarta.persistence-api:3.1.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/de.frachtwerk:essencium-backend-storage-module:0.14.6/dependencies/jakarta/persistence/jakarta.persistence-api/3.1.0/jakarta.persistence-api-3.1.0.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.List;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import jakarta.validation.constraints.NotNull;",
+      "artifact" : {
+        "artifact" : "jakarta.validation:jakarta.validation-api:3.0.2",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/de.frachtwerk:essencium-backend-storage-module:0.14.6/dependencies/jakarta/validation/jakarta.validation-api/3.0.2/jakarta.validation-api-3.0.2.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import jakarta.persistence.*;",
+      "artifact" : {
+        "artifact" : "jakarta.persistence:jakarta.persistence-api:3.1.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/de.frachtwerk:essencium-backend-storage-module:0.14.6/dependencies/jakarta/persistence/jakarta.persistence-api/3.1.0/jakarta.persistence-api-3.1.0.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import jakarta.persistence.*;",
+      "artifact" : {
+        "artifact" : "jakarta.persistence:jakarta.persistence-api:3.1.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/de.frachtwerk:essencium-backend-storage-module:0.14.6/dependencies/jakarta/persistence/jakarta.persistence-api/3.1.0/jakarta.persistence-api-3.1.0.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import jakarta.persistence.*;",
+      "artifact" : {
+        "artifact" : "jakarta.persistence:jakarta.persistence-api:3.1.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/de.frachtwerk:essencium-backend-storage-module:0.14.6/dependencies/jakarta/persistence/jakarta.persistence-api/3.1.0/jakarta.persistence-api-3.1.0.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.springframework.core.io.Resource;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-core:6.1.3",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/de.frachtwerk:essencium-backend-storage-module:0.14.6/dependencies/org/springframework/spring-core/6.1.3/spring-core-6.1.3.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.fasterxml.jackson.annotation.JsonIgnore;",
+      "artifact" : {
+        "artifact" : "com.fasterxml.jackson.core:jackson-annotations:2.15.3",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/de.frachtwerk:essencium-backend-storage-module:0.14.6/dependencies/com/fasterxml/jackson/core/jackson-annotations/2.15.3/jackson-annotations-2.15.3.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.Objects;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.Set;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import de.frachtwerk.essencium.storage.generic.model.StorageInfoVisitor;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.stream.Collectors;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/de.frachtwerk:essencium-backend-storage-module/src/main/java/de/frachtwerk/essencium/storage/impl/sequence/model/SequenceStorageInfo.java",
+    "useImportReport" : [ {
+      "importPath" : "import de.frachtwerk.essencium.storage.generic.model.AbstractStorageInfo;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import jakarta.persistence.*;",
+      "artifact" : {
+        "artifact" : "jakarta.persistence:jakarta.persistence-api:3.1.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/de.frachtwerk:essencium-backend-storage-module:0.14.6/dependencies/jakarta/persistence/jakarta.persistence-api/3.1.0/jakarta.persistence-api-3.1.0.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import lombok.Data;",
+      "artifact" : {
+        "artifact" : "org.projectlombok:lombok:1.18.30",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/de.frachtwerk:essencium-backend-storage-module:0.14.6/dependencies/org/projectlombok/lombok/1.18.30/lombok-1.18.30.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import lombok.NoArgsConstructor;",
+      "artifact" : {
+        "artifact" : "org.projectlombok:lombok:1.18.30",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/de.frachtwerk:essencium-backend-storage-module:0.14.6/dependencies/org/projectlombok/lombok/1.18.30/lombok-1.18.30.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import lombok.EqualsAndHashCode;",
+      "artifact" : {
+        "artifact" : "org.projectlombok:lombok:1.18.30",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/de.frachtwerk:essencium-backend-storage-module:0.14.6/dependencies/org/projectlombok/lombok/1.18.30/lombok-1.18.30.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import jakarta.persistence.*;",
+      "artifact" : {
+        "artifact" : "jakarta.persistence:jakarta.persistence-api:3.1.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/de.frachtwerk:essencium-backend-storage-module:0.14.6/dependencies/jakarta/persistence/jakarta.persistence-api/3.1.0/jakarta.persistence-api-3.1.0.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import jakarta.persistence.*;",
+      "artifact" : {
+        "artifact" : "jakarta.persistence:jakarta.persistence-api:3.1.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/de.frachtwerk:essencium-backend-storage-module:0.14.6/dependencies/jakarta/persistence/jakarta.persistence-api/3.1.0/jakarta.persistence-api-3.1.0.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import lombok.experimental.SuperBuilder;",
+      "artifact" : {
+        "artifact" : "org.projectlombok:lombok:1.18.30",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/de.frachtwerk:essencium-backend-storage-module:0.14.6/dependencies/org/projectlombok/lombok/1.18.30/lombok-1.18.30.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import jakarta.persistence.*;",
+      "artifact" : {
+        "artifact" : "jakarta.persistence:jakarta.persistence-api:3.1.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/de.frachtwerk:essencium-backend-storage-module:0.14.6/dependencies/jakarta/persistence/jakarta.persistence-api/3.1.0/jakarta.persistence-api-3.1.0.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import jakarta.persistence.*;",
+      "artifact" : {
+        "artifact" : "jakarta.persistence:jakarta.persistence-api:3.1.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/de.frachtwerk:essencium-backend-storage-module:0.14.6/dependencies/jakarta/persistence/jakarta.persistence-api/3.1.0/jakarta.persistence-api-3.1.0.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import jakarta.persistence.*;",
+      "artifact" : {
+        "artifact" : "jakarta.persistence:jakarta.persistence-api:3.1.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/de.frachtwerk:essencium-backend-storage-module:0.14.6/dependencies/jakarta/persistence/jakarta.persistence-api/3.1.0/jakarta.persistence-api-3.1.0.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import jakarta.persistence.*;",
+      "artifact" : {
+        "artifact" : "jakarta.persistence:jakarta.persistence-api:3.1.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/de.frachtwerk:essencium-backend-storage-module:0.14.6/dependencies/jakarta/persistence/jakarta.persistence-api/3.1.0/jakarta.persistence-api-3.1.0.jar"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/de.frachtwerk:essencium-backend-storage-module/src/main/java/de/frachtwerk/essencium/storage/impl/sequence/service/DefaultSequenceFileService.java",
+    "useImportReport" : [ {
+      "importPath" : "import de.frachtwerk.essencium.storage.generic.service.AbstractFileService;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import de.frachtwerk.essencium.storage.impl.sequence.model.SequenceFile;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import de.frachtwerk.essencium.storage.impl.sequence.model.SequenceStorageInfo;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.springframework.stereotype.Service;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-context:6.1.3",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/de.frachtwerk:essencium-backend-storage-module:0.14.6/dependencies/org/springframework/spring-context/6.1.3/spring-context-6.1.3.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import de.frachtwerk.essencium.storage.generic.service.StorageServiceDispatcher;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import de.frachtwerk.essencium.storage.impl.sequence.repository.SequenceFileRepository;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import de.frachtwerk.essencium.storage.generic.service.MimeTypeHelper;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.List;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/de.frachtwerk:essencium-backend-storage-module/src/main/java/de/frachtwerk/essencium/storage/impl/uuid/repository/UUIDFileRepository.java",
+    "useImportReport" : [ {
+      "importPath" : "import de.frachtwerk.essencium.storage.generic.repository.AbstractFileRepository;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import de.frachtwerk.essencium.storage.impl.uuid.model.UUIDFile;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.UUID;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import de.frachtwerk.essencium.storage.impl.uuid.model.UUIDStorageInfo;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.springframework.stereotype.Repository;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-context:6.1.3",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/de.frachtwerk:essencium-backend-storage-module:0.14.6/dependencies/org/springframework/spring-context/6.1.3/spring-context-6.1.3.jar"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/de.frachtwerk:essencium-backend-storage-module/src/main/java/de/frachtwerk/essencium/storage/impl/uuid/provider/s3/S3UUIDStorageInfo.java",
+    "useImportReport" : [ {
+      "importPath" : "import de.frachtwerk.essencium.storage.impl.uuid.model.UUIDStorageInfo;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import de.frachtwerk.essencium.storage.generic.provider.s3.AbstractS3StorageInfo;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import de.frachtwerk.essencium.storage.impl.uuid.model.UUIDFile;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.UUID;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import lombok.EqualsAndHashCode;",
+      "artifact" : {
+        "artifact" : "org.projectlombok:lombok:1.18.30",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/de.frachtwerk:essencium-backend-storage-module:0.14.6/dependencies/org/projectlombok/lombok/1.18.30/lombok-1.18.30.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import lombok.AllArgsConstructor;",
+      "artifact" : {
+        "artifact" : "org.projectlombok:lombok:1.18.30",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/de.frachtwerk:essencium-backend-storage-module:0.14.6/dependencies/org/projectlombok/lombok/1.18.30/lombok-1.18.30.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import jakarta.persistence.*;",
+      "artifact" : {
+        "artifact" : "jakarta.persistence:jakarta.persistence-api:3.1.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/de.frachtwerk:essencium-backend-storage-module:0.14.6/dependencies/jakarta/persistence/jakarta.persistence-api/3.1.0/jakarta.persistence-api-3.1.0.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import lombok.NoArgsConstructor;",
+      "artifact" : {
+        "artifact" : "org.projectlombok:lombok:1.18.30",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/de.frachtwerk:essencium-backend-storage-module:0.14.6/dependencies/org/projectlombok/lombok/1.18.30/lombok-1.18.30.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import lombok.Data;",
+      "artifact" : {
+        "artifact" : "org.projectlombok:lombok:1.18.30",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/de.frachtwerk:essencium-backend-storage-module:0.14.6/dependencies/org/projectlombok/lombok/1.18.30/lombok-1.18.30.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import lombok.experimental.SuperBuilder;",
+      "artifact" : {
+        "artifact" : "org.projectlombok:lombok:1.18.30",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/de.frachtwerk:essencium-backend-storage-module:0.14.6/dependencies/org/projectlombok/lombok/1.18.30/lombok-1.18.30.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import jakarta.persistence.*;",
+      "artifact" : {
+        "artifact" : "jakarta.persistence:jakarta.persistence-api:3.1.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/de.frachtwerk:essencium-backend-storage-module:0.14.6/dependencies/jakarta/persistence/jakarta.persistence-api/3.1.0/jakarta.persistence-api-3.1.0.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import jakarta.persistence.*;",
+      "artifact" : {
+        "artifact" : "jakarta.persistence:jakarta.persistence-api:3.1.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/de.frachtwerk:essencium-backend-storage-module:0.14.6/dependencies/jakarta/persistence/jakarta.persistence-api/3.1.0/jakarta.persistence-api-3.1.0.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import jakarta.persistence.*;",
+      "artifact" : {
+        "artifact" : "jakarta.persistence:jakarta.persistence-api:3.1.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/de.frachtwerk:essencium-backend-storage-module:0.14.6/dependencies/jakarta/persistence/jakarta.persistence-api/3.1.0/jakarta.persistence-api-3.1.0.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import jakarta.validation.constraints.NotNull;",
+      "artifact" : {
+        "artifact" : "jakarta.validation:jakarta.validation-api:3.0.2",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/de.frachtwerk:essencium-backend-storage-module:0.14.6/dependencies/jakarta/validation/jakarta.validation-api/3.0.2/jakarta.validation-api-3.0.2.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import de.frachtwerk.essencium.storage.generic.model.StorageInfoVisitor;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/de.frachtwerk:essencium-backend-storage-module/src/main/java/de/frachtwerk/essencium/storage/impl/uuid/provider/s3/S3UUIDStorageService.java",
+    "useImportReport" : [ {
+      "importPath" : "import de.frachtwerk.essencium.storage.generic.provider.s3.AbstractS3StorageService;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import de.frachtwerk.essencium.storage.impl.uuid.model.UUIDFile;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.UUID;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import de.frachtwerk.essencium.storage.impl.uuid.model.UUIDStorageInfo;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.springframework.stereotype.Service;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-context:6.1.3",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/de.frachtwerk:essencium-backend-storage-module:0.14.6/dependencies/org/springframework/spring-context/6.1.3/spring-context-6.1.3.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import de.frachtwerk.essencium.storage.generic.provider.s3.S3StorageConfiguration;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import jakarta.validation.constraints.NotNull;",
+      "artifact" : {
+        "artifact" : "jakarta.validation:jakarta.validation-api:3.0.2",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/de.frachtwerk:essencium-backend-storage-module:0.14.6/dependencies/jakarta/validation/jakarta.validation-api/3.0.2/jakarta.validation-api-3.0.2.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import de.frachtwerk.essencium.storage.generic.service.MimeTypeHelper;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import de.frachtwerk.essencium.storage.generic.provider.s3.AbstractS3StorageInfo;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/de.frachtwerk:essencium-backend-storage-module/src/main/java/de/frachtwerk/essencium/storage/impl/uuid/provider/local/LocalStorageService.java",
+    "useImportReport" : [ {
+      "importPath" : "import de.frachtwerk.essencium.storage.generic.provider.local.AbstractLocalStorageService;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import de.frachtwerk.essencium.storage.impl.uuid.model.UUIDFile;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.UUID;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import de.frachtwerk.essencium.storage.impl.uuid.model.UUIDStorageInfo;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.springframework.stereotype.Service;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-context:6.1.3",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/de.frachtwerk:essencium-backend-storage-module:0.14.6/dependencies/org/springframework/spring-context/6.1.3/spring-context-6.1.3.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import de.frachtwerk.essencium.storage.generic.provider.local.LocalFileCreator;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import jakarta.validation.constraints.NotNull;",
+      "artifact" : {
+        "artifact" : "jakarta.validation:jakarta.validation-api:3.0.2",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/de.frachtwerk:essencium-backend-storage-module:0.14.6/dependencies/jakarta/validation/jakarta.validation-api/3.0.2/jakarta.validation-api-3.0.2.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import de.frachtwerk.essencium.storage.generic.provider.local.LocalStorageConfiguration;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import de.frachtwerk.essencium.storage.generic.service.UniqueNameCreator;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import de.frachtwerk.essencium.storage.generic.provider.local.AbstractLocalStorageInfo;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/de.frachtwerk:essencium-backend-storage-module/src/main/java/de/frachtwerk/essencium/storage/impl/uuid/provider/local/LocalUUIDStorageInfo.java",
+    "useImportReport" : [ {
+      "importPath" : "import de.frachtwerk.essencium.storage.impl.uuid.model.UUIDStorageInfo;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import de.frachtwerk.essencium.storage.generic.provider.local.AbstractLocalStorageInfo;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import de.frachtwerk.essencium.storage.impl.uuid.model.UUIDFile;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.UUID;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import lombok.EqualsAndHashCode;",
+      "artifact" : {
+        "artifact" : "org.projectlombok:lombok:1.18.30",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/de.frachtwerk:essencium-backend-storage-module:0.14.6/dependencies/org/projectlombok/lombok/1.18.30/lombok-1.18.30.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import lombok.AllArgsConstructor;",
+      "artifact" : {
+        "artifact" : "org.projectlombok:lombok:1.18.30",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/de.frachtwerk:essencium-backend-storage-module:0.14.6/dependencies/org/projectlombok/lombok/1.18.30/lombok-1.18.30.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import jakarta.persistence.*;",
+      "artifact" : {
+        "artifact" : "jakarta.persistence:jakarta.persistence-api:3.1.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/de.frachtwerk:essencium-backend-storage-module:0.14.6/dependencies/jakarta/persistence/jakarta.persistence-api/3.1.0/jakarta.persistence-api-3.1.0.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import lombok.NoArgsConstructor;",
+      "artifact" : {
+        "artifact" : "org.projectlombok:lombok:1.18.30",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/de.frachtwerk:essencium-backend-storage-module:0.14.6/dependencies/org/projectlombok/lombok/1.18.30/lombok-1.18.30.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import lombok.Data;",
+      "artifact" : {
+        "artifact" : "org.projectlombok:lombok:1.18.30",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/de.frachtwerk:essencium-backend-storage-module:0.14.6/dependencies/org/projectlombok/lombok/1.18.30/lombok-1.18.30.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import lombok.experimental.SuperBuilder;",
+      "artifact" : {
+        "artifact" : "org.projectlombok:lombok:1.18.30",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/de.frachtwerk:essencium-backend-storage-module:0.14.6/dependencies/org/projectlombok/lombok/1.18.30/lombok-1.18.30.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import jakarta.persistence.*;",
+      "artifact" : {
+        "artifact" : "jakarta.persistence:jakarta.persistence-api:3.1.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/de.frachtwerk:essencium-backend-storage-module:0.14.6/dependencies/jakarta/persistence/jakarta.persistence-api/3.1.0/jakarta.persistence-api-3.1.0.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import jakarta.persistence.*;",
+      "artifact" : {
+        "artifact" : "jakarta.persistence:jakarta.persistence-api:3.1.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/de.frachtwerk:essencium-backend-storage-module:0.14.6/dependencies/jakarta/persistence/jakarta.persistence-api/3.1.0/jakarta.persistence-api-3.1.0.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import jakarta.persistence.*;",
+      "artifact" : {
+        "artifact" : "jakarta.persistence:jakarta.persistence-api:3.1.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/de.frachtwerk:essencium-backend-storage-module:0.14.6/dependencies/jakarta/persistence/jakarta.persistence-api/3.1.0/jakarta.persistence-api-3.1.0.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import jakarta.validation.constraints.NotNull;",
+      "artifact" : {
+        "artifact" : "jakarta.validation:jakarta.validation-api:3.0.2",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/de.frachtwerk:essencium-backend-storage-module:0.14.6/dependencies/jakarta/validation/jakarta.validation-api/3.0.2/jakarta.validation-api-3.0.2.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import de.frachtwerk.essencium.storage.generic.model.StorageInfoVisitor;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/de.frachtwerk:essencium-backend-storage-module/src/main/java/de/frachtwerk/essencium/storage/impl/uuid/model/UUIDFile.java",
+    "useImportReport" : [ {
+      "importPath" : "import de.frachtwerk.essencium.storage.generic.model.AbstractFile;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.UUID;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import lombok.Data;",
+      "artifact" : {
+        "artifact" : "org.projectlombok:lombok:1.18.30",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/de.frachtwerk:essencium-backend-storage-module:0.14.6/dependencies/org/projectlombok/lombok/1.18.30/lombok-1.18.30.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import lombok.EqualsAndHashCode;",
+      "artifact" : {
+        "artifact" : "org.projectlombok:lombok:1.18.30",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/de.frachtwerk:essencium-backend-storage-module:0.14.6/dependencies/org/projectlombok/lombok/1.18.30/lombok-1.18.30.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import lombok.NoArgsConstructor;",
+      "artifact" : {
+        "artifact" : "org.projectlombok:lombok:1.18.30",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/de.frachtwerk:essencium-backend-storage-module:0.14.6/dependencies/org/projectlombok/lombok/1.18.30/lombok-1.18.30.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import jakarta.persistence.*;",
+      "artifact" : {
+        "artifact" : "jakarta.persistence:jakarta.persistence-api:3.1.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/de.frachtwerk:essencium-backend-storage-module:0.14.6/dependencies/jakarta/persistence/jakarta.persistence-api/3.1.0/jakarta.persistence-api-3.1.0.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import lombok.AllArgsConstructor;",
+      "artifact" : {
+        "artifact" : "org.projectlombok:lombok:1.18.30",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/de.frachtwerk:essencium-backend-storage-module:0.14.6/dependencies/org/projectlombok/lombok/1.18.30/lombok-1.18.30.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import jakarta.persistence.*;",
+      "artifact" : {
+        "artifact" : "jakarta.persistence:jakarta.persistence-api:3.1.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/de.frachtwerk:essencium-backend-storage-module:0.14.6/dependencies/jakarta/persistence/jakarta.persistence-api/3.1.0/jakarta.persistence-api-3.1.0.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import jakarta.persistence.*;",
+      "artifact" : {
+        "artifact" : "jakarta.persistence:jakarta.persistence-api:3.1.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/de.frachtwerk:essencium-backend-storage-module:0.14.6/dependencies/jakarta/persistence/jakarta.persistence-api/3.1.0/jakarta.persistence-api-3.1.0.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import jakarta.persistence.*;",
+      "artifact" : {
+        "artifact" : "jakarta.persistence:jakarta.persistence-api:3.1.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/de.frachtwerk:essencium-backend-storage-module:0.14.6/dependencies/jakarta/persistence/jakarta.persistence-api/3.1.0/jakarta.persistence-api-3.1.0.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.List;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import jakarta.validation.constraints.NotNull;",
+      "artifact" : {
+        "artifact" : "jakarta.validation:jakarta.validation-api:3.0.2",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/de.frachtwerk:essencium-backend-storage-module:0.14.6/dependencies/jakarta/validation/jakarta.validation-api/3.0.2/jakarta.validation-api-3.0.2.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import jakarta.persistence.*;",
+      "artifact" : {
+        "artifact" : "jakarta.persistence:jakarta.persistence-api:3.1.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/de.frachtwerk:essencium-backend-storage-module:0.14.6/dependencies/jakarta/persistence/jakarta.persistence-api/3.1.0/jakarta.persistence-api-3.1.0.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import jakarta.persistence.*;",
+      "artifact" : {
+        "artifact" : "jakarta.persistence:jakarta.persistence-api:3.1.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/de.frachtwerk:essencium-backend-storage-module:0.14.6/dependencies/jakarta/persistence/jakarta.persistence-api/3.1.0/jakarta.persistence-api-3.1.0.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import jakarta.persistence.*;",
+      "artifact" : {
+        "artifact" : "jakarta.persistence:jakarta.persistence-api:3.1.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/de.frachtwerk:essencium-backend-storage-module:0.14.6/dependencies/jakarta/persistence/jakarta.persistence-api/3.1.0/jakarta.persistence-api-3.1.0.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.springframework.core.io.Resource;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-core:6.1.3",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/de.frachtwerk:essencium-backend-storage-module:0.14.6/dependencies/org/springframework/spring-core/6.1.3/spring-core-6.1.3.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.fasterxml.jackson.annotation.JsonIgnore;",
+      "artifact" : {
+        "artifact" : "com.fasterxml.jackson.core:jackson-annotations:2.15.3",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/de.frachtwerk:essencium-backend-storage-module:0.14.6/dependencies/com/fasterxml/jackson/core/jackson-annotations/2.15.3/jackson-annotations-2.15.3.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.Objects;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.Set;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import de.frachtwerk.essencium.storage.generic.model.StorageInfoVisitor;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.stream.Collectors;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/de.frachtwerk:essencium-backend-storage-module/src/main/java/de/frachtwerk/essencium/storage/impl/uuid/model/UUIDStorageInfo.java",
+    "useImportReport" : [ {
+      "importPath" : "import de.frachtwerk.essencium.storage.generic.model.AbstractStorageInfo;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.UUID;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import jakarta.persistence.*;",
+      "artifact" : {
+        "artifact" : "jakarta.persistence:jakarta.persistence-api:3.1.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/de.frachtwerk:essencium-backend-storage-module:0.14.6/dependencies/jakarta/persistence/jakarta.persistence-api/3.1.0/jakarta.persistence-api-3.1.0.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import lombok.Data;",
+      "artifact" : {
+        "artifact" : "org.projectlombok:lombok:1.18.30",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/de.frachtwerk:essencium-backend-storage-module:0.14.6/dependencies/org/projectlombok/lombok/1.18.30/lombok-1.18.30.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import lombok.NoArgsConstructor;",
+      "artifact" : {
+        "artifact" : "org.projectlombok:lombok:1.18.30",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/de.frachtwerk:essencium-backend-storage-module:0.14.6/dependencies/org/projectlombok/lombok/1.18.30/lombok-1.18.30.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import lombok.EqualsAndHashCode;",
+      "artifact" : {
+        "artifact" : "org.projectlombok:lombok:1.18.30",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/de.frachtwerk:essencium-backend-storage-module:0.14.6/dependencies/org/projectlombok/lombok/1.18.30/lombok-1.18.30.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import jakarta.persistence.*;",
+      "artifact" : {
+        "artifact" : "jakarta.persistence:jakarta.persistence-api:3.1.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/de.frachtwerk:essencium-backend-storage-module:0.14.6/dependencies/jakarta/persistence/jakarta.persistence-api/3.1.0/jakarta.persistence-api-3.1.0.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import jakarta.persistence.*;",
+      "artifact" : {
+        "artifact" : "jakarta.persistence:jakarta.persistence-api:3.1.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/de.frachtwerk:essencium-backend-storage-module:0.14.6/dependencies/jakarta/persistence/jakarta.persistence-api/3.1.0/jakarta.persistence-api-3.1.0.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import lombok.experimental.SuperBuilder;",
+      "artifact" : {
+        "artifact" : "org.projectlombok:lombok:1.18.30",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/de.frachtwerk:essencium-backend-storage-module:0.14.6/dependencies/org/projectlombok/lombok/1.18.30/lombok-1.18.30.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import jakarta.persistence.*;",
+      "artifact" : {
+        "artifact" : "jakarta.persistence:jakarta.persistence-api:3.1.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/de.frachtwerk:essencium-backend-storage-module:0.14.6/dependencies/jakarta/persistence/jakarta.persistence-api/3.1.0/jakarta.persistence-api-3.1.0.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import jakarta.persistence.*;",
+      "artifact" : {
+        "artifact" : "jakarta.persistence:jakarta.persistence-api:3.1.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/de.frachtwerk:essencium-backend-storage-module:0.14.6/dependencies/jakarta/persistence/jakarta.persistence-api/3.1.0/jakarta.persistence-api-3.1.0.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import jakarta.persistence.*;",
+      "artifact" : {
+        "artifact" : "jakarta.persistence:jakarta.persistence-api:3.1.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/de.frachtwerk:essencium-backend-storage-module:0.14.6/dependencies/jakarta/persistence/jakarta.persistence-api/3.1.0/jakarta.persistence-api-3.1.0.jar"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/de.frachtwerk:essencium-backend-storage-module/src/main/java/de/frachtwerk/essencium/storage/impl/uuid/service/DefaultUUIDFileService.java",
+    "useImportReport" : [ {
+      "importPath" : "import de.frachtwerk.essencium.storage.generic.service.AbstractFileService;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import de.frachtwerk.essencium.storage.impl.uuid.model.UUIDFile;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.UUID;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import de.frachtwerk.essencium.storage.impl.uuid.model.UUIDStorageInfo;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.springframework.stereotype.Service;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-context:6.1.3",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/de.frachtwerk:essencium-backend-storage-module:0.14.6/dependencies/org/springframework/spring-context/6.1.3/spring-context-6.1.3.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import de.frachtwerk.essencium.storage.generic.service.StorageServiceDispatcher;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import de.frachtwerk.essencium.storage.generic.repository.AbstractFileRepository;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import de.frachtwerk.essencium.storage.generic.service.MimeTypeHelper;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.List;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/de.frachtwerk:essencium-backend-storage-module/src/main/java/de/frachtwerk/essencium/storage/generic/configuration/FileStorageConfiguration.java",
+    "useImportReport" : [ {
+      "importPath" : "import org.springframework.stereotype.Component;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-context:6.1.3",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/de.frachtwerk:essencium-backend-storage-module:0.14.6/dependencies/org/springframework/spring-context/6.1.3/spring-context-6.1.3.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.springframework.boot.context.properties.ConfigurationProperties;",
+      "artifact" : {
+        "artifact" : "org.springframework.boot:spring-boot:3.2.2",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/de.frachtwerk:essencium-backend-storage-module:0.14.6/dependencies/org/springframework/boot/spring-boot/3.2.2/spring-boot-3.2.2.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import lombok.Data;",
+      "artifact" : {
+        "artifact" : "org.projectlombok:lombok:1.18.30",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/de.frachtwerk:essencium-backend-storage-module:0.14.6/dependencies/org/projectlombok/lombok/1.18.30/lombok-1.18.30.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.Set;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import de.frachtwerk.essencium.storage.generic.model.Providers;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/de.frachtwerk:essencium-backend-storage-module/src/main/java/de/frachtwerk/essencium/storage/generic/repository/AbstractFileRepository.java",
+    "useImportReport" : [ {
+      "importPath" : "import de.frachtwerk.essencium.backend.repository.BaseRepository;",
+      "artifact" : {
+        "artifact" : "de.frachtwerk:essencium-backend:2.5.4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/de.frachtwerk:essencium-backend-storage-module:0.14.6/dependencies/de/frachtwerk/essencium-backend/2.5.4/essencium-backend-2.5.4.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import de.frachtwerk.essencium.storage.generic.model.AbstractFile;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.io.Serializable;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import de.frachtwerk.essencium.storage.generic.model.AbstractStorageInfo;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.springframework.data.repository.NoRepositoryBean;",
+      "artifact" : {
+        "artifact" : "org.springframework.data:spring-data-commons:3.2.2",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/de.frachtwerk:essencium-backend-storage-module:0.14.6/dependencies/org/springframework/data/spring-data-commons/3.2.2/spring-data-commons-3.2.2.jar"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/de.frachtwerk:essencium-backend-storage-module/src/main/java/de/frachtwerk/essencium/storage/generic/provider/s3/AbstractS3StorageService.java",
+    "useImportReport" : [ {
+      "importPath" : "import de.frachtwerk.essencium.storage.generic.service.StorageService;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import de.frachtwerk.essencium.storage.generic.model.AbstractFile;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.io.Serializable;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import de.frachtwerk.essencium.storage.generic.model.AbstractStorageInfo;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.slf4j.Logger;",
+      "artifact" : {
+        "artifact" : "org.slf4j:slf4j-api:2.0.11",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/de.frachtwerk:essencium-backend-storage-module:0.14.6/dependencies/org/slf4j/slf4j-api/2.0.11/slf4j-api-2.0.11.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.slf4j.LoggerFactory;",
+      "artifact" : {
+        "artifact" : "org.slf4j:slf4j-api:2.0.11",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/de.frachtwerk:essencium-backend-storage-module:0.14.6/dependencies/org/slf4j/slf4j-api/2.0.11/slf4j-api-2.0.11.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import jakarta.validation.constraints.NotNull;",
+      "artifact" : {
+        "artifact" : "jakarta.validation:jakarta.validation-api:3.0.2",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/de.frachtwerk:essencium-backend-storage-module:0.14.6/dependencies/jakarta/validation/jakarta.validation-api/3.0.2/jakarta.validation-api-3.0.2.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import de.frachtwerk.essencium.storage.generic.service.MimeTypeHelper;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import software.amazon.awssdk.services.s3.S3Client;",
+      "artifact" : {
+        "artifact" : "software.amazon.awssdk:s3:2.23.9",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/de.frachtwerk:essencium-backend-storage-module:0.14.6/dependencies/software/amazon/awssdk/s3/2.23.9/s3-2.23.9.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import software.amazon.awssdk.auth.credentials.*;",
+      "artifact" : {
+        "artifact" : "software.amazon.awssdk:auth:2.23.9",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/de.frachtwerk:essencium-backend-storage-module:0.14.6/dependencies/software/amazon/awssdk/auth/2.23.9/auth-2.23.9.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import software.amazon.awssdk.services.s3.S3ClientBuilder;",
+      "artifact" : {
+        "artifact" : "software.amazon.awssdk:s3:2.23.9",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/de.frachtwerk:essencium-backend-storage-module:0.14.6/dependencies/software/amazon/awssdk/s3/2.23.9/s3-2.23.9.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.apache.commons.lang3.StringUtils;",
+      "artifact" : {
+        "artifact" : "org.apache.commons:commons-lang3:3.13.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/de.frachtwerk:essencium-backend-storage-module:0.14.6/dependencies/org/apache/commons/commons-lang3/3.13.0/commons-lang3-3.13.0.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.net.URI;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import software.amazon.awssdk.auth.credentials.*;",
+      "artifact" : {
+        "artifact" : "software.amazon.awssdk:auth:2.23.9",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/de.frachtwerk:essencium-backend-storage-module:0.14.6/dependencies/software/amazon/awssdk/auth/2.23.9/auth-2.23.9.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import software.amazon.awssdk.auth.credentials.*;",
+      "artifact" : {
+        "artifact" : "software.amazon.awssdk:auth:2.23.9",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/de.frachtwerk:essencium-backend-storage-module:0.14.6/dependencies/software/amazon/awssdk/auth/2.23.9/auth-2.23.9.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import software.amazon.awssdk.auth.credentials.*;",
+      "artifact" : {
+        "artifact" : "software.amazon.awssdk:auth:2.23.9",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/de.frachtwerk:essencium-backend-storage-module:0.14.6/dependencies/software/amazon/awssdk/auth/2.23.9/auth-2.23.9.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import software.amazon.awssdk.auth.credentials.*;",
+      "artifact" : {
+        "artifact" : "software.amazon.awssdk:auth:2.23.9",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/de.frachtwerk:essencium-backend-storage-module:0.14.6/dependencies/software/amazon/awssdk/auth/2.23.9/auth-2.23.9.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import software.amazon.awssdk.regions.Region;",
+      "artifact" : {
+        "artifact" : "software.amazon.awssdk:regions:2.23.9",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/de.frachtwerk:essencium-backend-storage-module:0.14.6/dependencies/software/amazon/awssdk/regions/2.23.9/regions-2.23.9.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import jakarta.annotation.Nullable;",
+      "artifact" : {
+        "artifact" : "jakarta.annotation:jakarta.annotation-api:2.1.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/de.frachtwerk:essencium-backend-storage-module:0.14.6/dependencies/jakarta/annotation/jakarta.annotation-api/2.1.1/jakarta.annotation-api-2.1.1.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.io.IOException;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import software.amazon.awssdk.services.s3.model.*;",
+      "artifact" : {
+        "artifact" : "software.amazon.awssdk:s3:2.23.9",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/de.frachtwerk:essencium-backend-storage-module:0.14.6/dependencies/software/amazon/awssdk/s3/2.23.9/s3-2.23.9.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import software.amazon.awssdk.services.s3.model.*;",
+      "artifact" : {
+        "artifact" : "software.amazon.awssdk:s3:2.23.9",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/de.frachtwerk:essencium-backend-storage-module:0.14.6/dependencies/software/amazon/awssdk/s3/2.23.9/s3-2.23.9.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import software.amazon.awssdk.core.sync.RequestBody;",
+      "artifact" : {
+        "artifact" : "software.amazon.awssdk:sdk-core:2.23.9",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/de.frachtwerk:essencium-backend-storage-module:0.14.6/dependencies/software/amazon/awssdk/sdk-core/2.23.9/sdk-core-2.23.9.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.springframework.core.io.InputStreamResource;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-core:6.1.3",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/de.frachtwerk:essencium-backend-storage-module:0.14.6/dependencies/org/springframework/spring-core/6.1.3/spring-core-6.1.3.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.io.ByteArrayInputStream;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import software.amazon.awssdk.services.s3.model.*;",
+      "artifact" : {
+        "artifact" : "software.amazon.awssdk:s3:2.23.9",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/de.frachtwerk:essencium-backend-storage-module:0.14.6/dependencies/software/amazon/awssdk/s3/2.23.9/s3-2.23.9.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import software.amazon.awssdk.services.s3.model.*;",
+      "artifact" : {
+        "artifact" : "software.amazon.awssdk:s3:2.23.9",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/de.frachtwerk:essencium-backend-storage-module:0.14.6/dependencies/software/amazon/awssdk/s3/2.23.9/s3-2.23.9.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import java.util.*;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import software.amazon.awssdk.services.s3.model.*;",
+      "artifact" : {
+        "artifact" : "software.amazon.awssdk:s3:2.23.9",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/de.frachtwerk:essencium-backend-storage-module:0.14.6/dependencies/software/amazon/awssdk/s3/2.23.9/s3-2.23.9.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import software.amazon.awssdk.services.s3.model.*;",
+      "artifact" : {
+        "artifact" : "software.amazon.awssdk:s3:2.23.9",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/de.frachtwerk:essencium-backend-storage-module:0.14.6/dependencies/software/amazon/awssdk/s3/2.23.9/s3-2.23.9.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.springframework.core.io.ByteArrayResource;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-core:6.1.3",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/de.frachtwerk:essencium-backend-storage-module:0.14.6/dependencies/org/springframework/spring-core/6.1.3/spring-core-6.1.3.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import de.frachtwerk.essencium.storage.generic.model.Providers;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import software.amazon.awssdk.services.s3.model.*;",
+      "artifact" : {
+        "artifact" : "software.amazon.awssdk:s3:2.23.9",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/de.frachtwerk:essencium-backend-storage-module:0.14.6/dependencies/software/amazon/awssdk/s3/2.23.9/s3-2.23.9.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import software.amazon.awssdk.services.s3.model.*;",
+      "artifact" : {
+        "artifact" : "software.amazon.awssdk:s3:2.23.9",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/de.frachtwerk:essencium-backend-storage-module:0.14.6/dependencies/software/amazon/awssdk/s3/2.23.9/s3-2.23.9.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import jakarta.validation.constraints.NotBlank;",
+      "artifact" : {
+        "artifact" : "jakarta.validation:jakarta.validation-api:3.0.2",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/de.frachtwerk:essencium-backend-storage-module:0.14.6/dependencies/jakarta/validation/jakarta.validation-api/3.0.2/jakarta.validation-api-3.0.2.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import software.amazon.awssdk.services.s3.model.*;",
+      "artifact" : {
+        "artifact" : "software.amazon.awssdk:s3:2.23.9",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/de.frachtwerk:essencium-backend-storage-module:0.14.6/dependencies/software/amazon/awssdk/s3/2.23.9/s3-2.23.9.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import software.amazon.awssdk.services.s3.model.*;",
+      "artifact" : {
+        "artifact" : "software.amazon.awssdk:s3:2.23.9",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/de.frachtwerk:essencium-backend-storage-module:0.14.6/dependencies/software/amazon/awssdk/s3/2.23.9/s3-2.23.9.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import software.amazon.awssdk.services.s3.model.*;",
+      "artifact" : {
+        "artifact" : "software.amazon.awssdk:s3:2.23.9",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/de.frachtwerk:essencium-backend-storage-module:0.14.6/dependencies/software/amazon/awssdk/s3/2.23.9/s3-2.23.9.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import java.util.*;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/de.frachtwerk:essencium-backend-storage-module/src/main/java/de/frachtwerk/essencium/storage/generic/provider/s3/S3StorageConfiguration.java",
+    "useImportReport" : [ {
+      "importPath" : "import org.springframework.stereotype.Component;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-context:6.1.3",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/de.frachtwerk:essencium-backend-storage-module:0.14.6/dependencies/org/springframework/spring-context/6.1.3/spring-context-6.1.3.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.springframework.boot.context.properties.ConfigurationProperties;",
+      "artifact" : {
+        "artifact" : "org.springframework.boot:spring-boot:3.2.2",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/de.frachtwerk:essencium-backend-storage-module:0.14.6/dependencies/org/springframework/boot/spring-boot/3.2.2/spring-boot-3.2.2.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import lombok.Data;",
+      "artifact" : {
+        "artifact" : "org.projectlombok:lombok:1.18.30",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/de.frachtwerk:essencium-backend-storage-module:0.14.6/dependencies/org/projectlombok/lombok/1.18.30/lombok-1.18.30.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import jakarta.validation.constraints.NotNull;",
+      "artifact" : {
+        "artifact" : "jakarta.validation:jakarta.validation-api:3.0.2",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/de.frachtwerk:essencium-backend-storage-module:0.14.6/dependencies/jakarta/validation/jakarta.validation-api/3.0.2/jakarta.validation-api-3.0.2.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import jakarta.validation.constraints.NotBlank;",
+      "artifact" : {
+        "artifact" : "jakarta.validation:jakarta.validation-api:3.0.2",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/de.frachtwerk:essencium-backend-storage-module:0.14.6/dependencies/jakarta/validation/jakarta.validation-api/3.0.2/jakarta.validation-api-3.0.2.jar"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/de.frachtwerk:essencium-backend-storage-module/src/main/java/de/frachtwerk/essencium/storage/generic/provider/s3/AbstractS3StorageInfo.java",
+    "useImportReport" : [ {
+      "importPath" : "import de.frachtwerk.essencium.storage.generic.model.AbstractFile;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.io.Serializable;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import de.frachtwerk.essencium.storage.generic.model.AbstractStorageInfo;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import de.frachtwerk.essencium.storage.generic.model.StorageInfoVisitor;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.springframework.core.io.Resource;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-core:6.1.3",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/de.frachtwerk:essencium-backend-storage-module:0.14.6/dependencies/org/springframework/spring-core/6.1.3/spring-core-6.1.3.jar"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/de.frachtwerk:essencium-backend-storage-module/src/main/java/de/frachtwerk/essencium/storage/generic/provider/local/LocalFileCreator.java",
+    "useImportReport" : [ {
+      "importPath" : "import org.springframework.stereotype.Service;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-context:6.1.3",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/de.frachtwerk:essencium-backend-storage-module:0.14.6/dependencies/org/springframework/spring-context/6.1.3/spring-context-6.1.3.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import lombok.RequiredArgsConstructor;",
+      "artifact" : {
+        "artifact" : "org.projectlombok:lombok:1.18.30",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/de.frachtwerk:essencium-backend-storage-module:0.14.6/dependencies/org/projectlombok/lombok/1.18.30/lombok-1.18.30.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.slf4j.Logger;",
+      "artifact" : {
+        "artifact" : "org.slf4j:slf4j-api:2.0.11",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/de.frachtwerk:essencium-backend-storage-module:0.14.6/dependencies/org/slf4j/slf4j-api/2.0.11/slf4j-api-2.0.11.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.slf4j.LoggerFactory;",
+      "artifact" : {
+        "artifact" : "org.slf4j:slf4j-api:2.0.11",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/de.frachtwerk:essencium-backend-storage-module:0.14.6/dependencies/org/slf4j/slf4j-api/2.0.11/slf4j-api-2.0.11.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.springframework.context.event.EventListener;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-context:6.1.3",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/de.frachtwerk:essencium-backend-storage-module:0.14.6/dependencies/org/springframework/spring-context/6.1.3/spring-context-6.1.3.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.springframework.boot.context.event.ApplicationReadyEvent;",
+      "artifact" : {
+        "artifact" : "org.springframework.boot:spring-boot:3.2.2",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/de.frachtwerk:essencium-backend-storage-module:0.14.6/dependencies/org/springframework/boot/spring-boot/3.2.2/spring-boot-3.2.2.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.io.IOException;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.nio.file.Path;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.nio.file.Files;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.io.File;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/de.frachtwerk:essencium-backend-storage-module/src/main/java/de/frachtwerk/essencium/storage/generic/provider/local/AbstractLocalStorageService.java",
+    "useImportReport" : [ {
+      "importPath" : "import de.frachtwerk.essencium.storage.generic.service.StorageService;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import de.frachtwerk.essencium.storage.generic.model.AbstractFile;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.io.Serializable;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import de.frachtwerk.essencium.storage.generic.model.AbstractStorageInfo;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import lombok.RequiredArgsConstructor;",
+      "artifact" : {
+        "artifact" : "org.projectlombok:lombok:1.18.30",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/de.frachtwerk:essencium-backend-storage-module:0.14.6/dependencies/org/projectlombok/lombok/1.18.30/lombok-1.18.30.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.slf4j.Logger;",
+      "artifact" : {
+        "artifact" : "org.slf4j:slf4j-api:2.0.11",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/de.frachtwerk:essencium-backend-storage-module:0.14.6/dependencies/org/slf4j/slf4j-api/2.0.11/slf4j-api-2.0.11.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.slf4j.LoggerFactory;",
+      "artifact" : {
+        "artifact" : "org.slf4j:slf4j-api:2.0.11",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/de.frachtwerk:essencium-backend-storage-module:0.14.6/dependencies/org/slf4j/slf4j-api/2.0.11/slf4j-api-2.0.11.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import jakarta.validation.constraints.NotNull;",
+      "artifact" : {
+        "artifact" : "jakarta.validation:jakarta.validation-api:3.0.2",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/de.frachtwerk:essencium-backend-storage-module:0.14.6/dependencies/jakarta/validation/jakarta.validation-api/3.0.2/jakarta.validation-api-3.0.2.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import de.frachtwerk.essencium.storage.generic.service.UniqueNameCreator;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.io.IOException;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.UUID;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.nio.file.Files;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.springframework.core.io.FileSystemResource;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-core:6.1.3",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/de.frachtwerk:essencium-backend-storage-module:0.14.6/dependencies/org/springframework/spring-core/6.1.3/spring-core-6.1.3.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.nio.file.Path;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import de.frachtwerk.essencium.storage.generic.model.Providers;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/de.frachtwerk:essencium-backend-storage-module/src/main/java/de/frachtwerk/essencium/storage/generic/provider/local/LocalStorageConfiguration.java",
+    "useImportReport" : [ {
+      "importPath" : "import org.springframework.stereotype.Component;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-context:6.1.3",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/de.frachtwerk:essencium-backend-storage-module:0.14.6/dependencies/org/springframework/spring-context/6.1.3/spring-context-6.1.3.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.springframework.boot.context.properties.ConfigurationProperties;",
+      "artifact" : {
+        "artifact" : "org.springframework.boot:spring-boot:3.2.2",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/de.frachtwerk:essencium-backend-storage-module:0.14.6/dependencies/org/springframework/boot/spring-boot/3.2.2/spring-boot-3.2.2.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import lombok.Data;",
+      "artifact" : {
+        "artifact" : "org.projectlombok:lombok:1.18.30",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/de.frachtwerk:essencium-backend-storage-module:0.14.6/dependencies/org/projectlombok/lombok/1.18.30/lombok-1.18.30.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.nio.file.Path;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/de.frachtwerk:essencium-backend-storage-module/src/main/java/de/frachtwerk/essencium/storage/generic/provider/local/AbstractLocalStorageInfo.java",
+    "useImportReport" : [ {
+      "importPath" : "import de.frachtwerk.essencium.storage.generic.model.AbstractFile;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.io.Serializable;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import de.frachtwerk.essencium.storage.generic.model.AbstractStorageInfo;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import de.frachtwerk.essencium.storage.generic.model.StorageInfoVisitor;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.springframework.core.io.Resource;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-core:6.1.3",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/de.frachtwerk:essencium-backend-storage-module:0.14.6/dependencies/org/springframework/spring-core/6.1.3/spring-core-6.1.3.jar"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/de.frachtwerk:essencium-backend-storage-module/src/main/java/de/frachtwerk/essencium/storage/generic/controller/DownloadEndpoint.java",
+    "useImportReport" : [ {
+      "importPath" : "import de.frachtwerk.essencium.storage.generic.model.AbstractFile;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.io.*;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import de.frachtwerk.essencium.storage.generic.model.AbstractStorageInfo;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.springframework.stereotype.Component;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-context:6.1.3",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/de.frachtwerk:essencium-backend-storage-module:0.14.6/dependencies/org/springframework/spring-context/6.1.3/spring-context-6.1.3.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import lombok.RequiredArgsConstructor;",
+      "artifact" : {
+        "artifact" : "org.projectlombok:lombok:1.18.30",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/de.frachtwerk:essencium-backend-storage-module:0.14.6/dependencies/org/projectlombok/lombok/1.18.30/lombok-1.18.30.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.slf4j.Logger;",
+      "artifact" : {
+        "artifact" : "org.slf4j:slf4j-api:2.0.11",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/de.frachtwerk:essencium-backend-storage-module:0.14.6/dependencies/org/slf4j/slf4j-api/2.0.11/slf4j-api-2.0.11.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.slf4j.LoggerFactory;",
+      "artifact" : {
+        "artifact" : "org.slf4j:slf4j-api:2.0.11",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/de.frachtwerk:essencium-backend-storage-module:0.14.6/dependencies/org/slf4j/slf4j-api/2.0.11/slf4j-api-2.0.11.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import de.frachtwerk.essencium.storage.generic.service.FileService;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import de.frachtwerk.essencium.storage.generic.service.UniqueNameCreator;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.springframework.http.ResponseEntity;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-web:6.1.3",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/de.frachtwerk:essencium-backend-storage-module:0.14.6/dependencies/org/springframework/spring-web/6.1.3/spring-web-6.1.3.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.springframework.core.io.Resource;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-core:6.1.3",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/de.frachtwerk:essencium-backend-storage-module:0.14.6/dependencies/org/springframework/spring-core/6.1.3/spring-core-6.1.3.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import jakarta.validation.constraints.NotNull;",
+      "artifact" : {
+        "artifact" : "jakarta.validation:jakarta.validation-api:3.0.2",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/de.frachtwerk:essencium-backend-storage-module:0.14.6/dependencies/jakarta/validation/jakarta.validation-api/3.0.2/jakarta.validation-api-3.0.2.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import de.frachtwerk.essencium.backend.model.exception.ResourceNotFoundException;",
+      "artifact" : {
+        "artifact" : "de.frachtwerk:essencium-backend:2.5.4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/de.frachtwerk:essencium-backend-storage-module:0.14.6/dependencies/de/frachtwerk/essencium-backend/2.5.4/essencium-backend-2.5.4.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import java.util.Optional;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.springframework.http.MediaType;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-web:6.1.3",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/de.frachtwerk:essencium-backend-storage-module:0.14.6/dependencies/org/springframework/spring-web/6.1.3/spring-web-6.1.3.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.Collection;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.io.*;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.io.*;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.io.*;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.zip.ZipOutputStream;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.Set;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.HashSet;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.io.*;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.zip.ZipEntry;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.apache.tomcat.util.http.fileupload.IOUtils;",
+      "artifact" : {
+        "artifact" : "org.apache.tomcat.embed:tomcat-embed-core:10.1.18",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/de.frachtwerk:essencium-backend-storage-module:0.14.6/dependencies/org/apache/tomcat/embed/tomcat-embed-core/10.1.18/tomcat-embed-core-10.1.18.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.io.*;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.springframework.core.io.InputStreamResource;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-core:6.1.3",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/de.frachtwerk:essencium-backend-storage-module:0.14.6/dependencies/org/springframework/spring-core/6.1.3/spring-core-6.1.3.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.springframework.http.HttpHeaders;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-web:6.1.3",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/de.frachtwerk:essencium-backend-storage-module:0.14.6/dependencies/org/springframework/spring-web/6.1.3/spring-web-6.1.3.jar"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/de.frachtwerk:essencium-backend-storage-module/src/main/java/de/frachtwerk/essencium/storage/generic/controller/FileNotAvailableException.java",
+    "useImportReport" : [ {
+      "importPath" : "import org.springframework.web.bind.annotation.ResponseStatus;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-web:6.1.3",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/de.frachtwerk:essencium-backend-storage-module:0.14.6/dependencies/org/springframework/spring-web/6.1.3/spring-web-6.1.3.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.springframework.http.HttpStatus;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-web:6.1.3",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/de.frachtwerk:essencium-backend-storage-module:0.14.6/dependencies/org/springframework/spring-web/6.1.3/spring-web-6.1.3.jar"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/de.frachtwerk:essencium-backend-storage-module/src/main/java/de/frachtwerk/essencium/storage/generic/model/AbstractFile.java",
+    "useImportReport" : [ {
+      "importPath" : "import de.frachtwerk.essencium.backend.model.AbstractBaseModel;",
+      "artifact" : {
+        "artifact" : "de.frachtwerk:essencium-backend:2.5.4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/de.frachtwerk:essencium-backend-storage-module:0.14.6/dependencies/de/frachtwerk/essencium-backend/2.5.4/essencium-backend-2.5.4.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import java.io.Serializable;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import lombok.Data;",
+      "artifact" : {
+        "artifact" : "org.projectlombok:lombok:1.18.30",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/de.frachtwerk:essencium-backend-storage-module:0.14.6/dependencies/org/projectlombok/lombok/1.18.30/lombok-1.18.30.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import lombok.EqualsAndHashCode;",
+      "artifact" : {
+        "artifact" : "org.projectlombok:lombok:1.18.30",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/de.frachtwerk:essencium-backend-storage-module:0.14.6/dependencies/org/projectlombok/lombok/1.18.30/lombok-1.18.30.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import lombok.NoArgsConstructor;",
+      "artifact" : {
+        "artifact" : "org.projectlombok:lombok:1.18.30",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/de.frachtwerk:essencium-backend-storage-module:0.14.6/dependencies/org/projectlombok/lombok/1.18.30/lombok-1.18.30.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import jakarta.persistence.*;",
+      "artifact" : {
+        "artifact" : "jakarta.persistence:jakarta.persistence-api:3.1.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/de.frachtwerk:essencium-backend-storage-module:0.14.6/dependencies/jakarta/persistence/jakarta.persistence-api/3.1.0/jakarta.persistence-api-3.1.0.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import lombok.AllArgsConstructor;",
+      "artifact" : {
+        "artifact" : "org.projectlombok:lombok:1.18.30",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/de.frachtwerk:essencium-backend-storage-module:0.14.6/dependencies/org/projectlombok/lombok/1.18.30/lombok-1.18.30.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.List;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import jakarta.validation.constraints.NotNull;",
+      "artifact" : {
+        "artifact" : "jakarta.validation:jakarta.validation-api:3.0.2",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/de.frachtwerk:essencium-backend-storage-module:0.14.6/dependencies/jakarta/validation/jakarta.validation-api/3.0.2/jakarta.validation-api-3.0.2.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import jakarta.persistence.*;",
+      "artifact" : {
+        "artifact" : "jakarta.persistence:jakarta.persistence-api:3.1.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/de.frachtwerk:essencium-backend-storage-module:0.14.6/dependencies/jakarta/persistence/jakarta.persistence-api/3.1.0/jakarta.persistence-api-3.1.0.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import jakarta.persistence.*;",
+      "artifact" : {
+        "artifact" : "jakarta.persistence:jakarta.persistence-api:3.1.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/de.frachtwerk:essencium-backend-storage-module:0.14.6/dependencies/jakarta/persistence/jakarta.persistence-api/3.1.0/jakarta.persistence-api-3.1.0.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import jakarta.persistence.*;",
+      "artifact" : {
+        "artifact" : "jakarta.persistence:jakarta.persistence-api:3.1.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/de.frachtwerk:essencium-backend-storage-module:0.14.6/dependencies/jakarta/persistence/jakarta.persistence-api/3.1.0/jakarta.persistence-api-3.1.0.jar"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/de.frachtwerk:essencium-backend-storage-module/src/main/java/de/frachtwerk/essencium/storage/generic/model/StorageInfoVisitor.java",
+    "useImportReport" : [ {
+      "importPath" : "import java.io.Serializable;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import de.frachtwerk.essencium.storage.generic.provider.local.AbstractLocalStorageInfo;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import de.frachtwerk.essencium.storage.generic.provider.s3.AbstractS3StorageInfo;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.function.Function;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/de.frachtwerk:essencium-backend-storage-module/src/main/java/de/frachtwerk/essencium/storage/generic/model/Providers.java",
+    "useImportReport" : [ ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/de.frachtwerk:essencium-backend-storage-module/src/main/java/de/frachtwerk/essencium/storage/generic/model/AbstractStorageInfo.java",
+    "useImportReport" : [ {
+      "importPath" : "import de.frachtwerk.essencium.backend.model.AbstractBaseModel;",
+      "artifact" : {
+        "artifact" : "de.frachtwerk:essencium-backend:2.5.4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/de.frachtwerk:essencium-backend-storage-module:0.14.6/dependencies/de/frachtwerk/essencium-backend/2.5.4/essencium-backend-2.5.4.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import java.io.Serializable;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import jakarta.persistence.*;",
+      "artifact" : {
+        "artifact" : "jakarta.persistence:jakarta.persistence-api:3.1.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/de.frachtwerk:essencium-backend-storage-module:0.14.6/dependencies/jakarta/persistence/jakarta.persistence-api/3.1.0/jakarta.persistence-api-3.1.0.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import lombok.*;",
+      "artifact" : {
+        "artifact" : "org.projectlombok:lombok:1.18.30",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/de.frachtwerk:essencium-backend-storage-module:0.14.6/dependencies/org/projectlombok/lombok/1.18.30/lombok-1.18.30.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import lombok.*;",
+      "artifact" : {
+        "artifact" : "org.projectlombok:lombok:1.18.30",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/de.frachtwerk:essencium-backend-storage-module:0.14.6/dependencies/org/projectlombok/lombok/1.18.30/lombok-1.18.30.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import lombok.*;",
+      "artifact" : {
+        "artifact" : "org.projectlombok:lombok:1.18.30",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/de.frachtwerk:essencium-backend-storage-module:0.14.6/dependencies/org/projectlombok/lombok/1.18.30/lombok-1.18.30.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import lombok.experimental.SuperBuilder;",
+      "artifact" : {
+        "artifact" : "org.projectlombok:lombok:1.18.30",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/de.frachtwerk:essencium-backend-storage-module:0.14.6/dependencies/org/projectlombok/lombok/1.18.30/lombok-1.18.30.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import jakarta.persistence.*;",
+      "artifact" : {
+        "artifact" : "jakarta.persistence:jakarta.persistence-api:3.1.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/de.frachtwerk:essencium-backend-storage-module:0.14.6/dependencies/jakarta/persistence/jakarta.persistence-api/3.1.0/jakarta.persistence-api-3.1.0.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.fasterxml.jackson.annotation.JsonIgnore;",
+      "artifact" : {
+        "artifact" : "com.fasterxml.jackson.core:jackson-annotations:2.15.3",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/de.frachtwerk:essencium-backend-storage-module:0.14.6/dependencies/com/fasterxml/jackson/core/jackson-annotations/2.15.3/jackson-annotations-2.15.3.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import lombok.*;",
+      "artifact" : {
+        "artifact" : "org.projectlombok:lombok:1.18.30",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/de.frachtwerk:essencium-backend-storage-module:0.14.6/dependencies/org/projectlombok/lombok/1.18.30/lombok-1.18.30.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import lombok.*;",
+      "artifact" : {
+        "artifact" : "org.projectlombok:lombok:1.18.30",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/de.frachtwerk:essencium-backend-storage-module:0.14.6/dependencies/org/projectlombok/lombok/1.18.30/lombok-1.18.30.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.springframework.core.io.Resource;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-core:6.1.3",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/de.frachtwerk:essencium-backend-storage-module:0.14.6/dependencies/org/springframework/spring-core/6.1.3/spring-core-6.1.3.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import jakarta.persistence.*;",
+      "artifact" : {
+        "artifact" : "jakarta.persistence:jakarta.persistence-api:3.1.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/de.frachtwerk:essencium-backend-storage-module:0.14.6/dependencies/jakarta/persistence/jakarta.persistence-api/3.1.0/jakarta.persistence-api-3.1.0.jar"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/de.frachtwerk:essencium-backend-storage-module/src/main/java/de/frachtwerk/essencium/storage/generic/service/MimeTypeHelper.java",
+    "useImportReport" : [ {
+      "importPath" : "import org.springframework.stereotype.Component;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-context:6.1.3",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/de.frachtwerk:essencium-backend-storage-module:0.14.6/dependencies/org/springframework/spring-context/6.1.3/spring-context-6.1.3.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.io.IOException;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.nio.file.Files;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/de.frachtwerk:essencium-backend-storage-module/src/main/java/de/frachtwerk/essencium/storage/generic/service/UniqueNameCreator.java",
+    "useImportReport" : [ {
+      "importPath" : "import org.springframework.stereotype.Component;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-context:6.1.3",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/de.frachtwerk:essencium-backend-storage-module:0.14.6/dependencies/org/springframework/spring-context/6.1.3/spring-context-6.1.3.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import jakarta.validation.constraints.NotNull;",
+      "artifact" : {
+        "artifact" : "jakarta.validation:jakarta.validation-api:3.0.2",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/de.frachtwerk:essencium-backend-storage-module:0.14.6/dependencies/jakarta/validation/jakarta.validation-api/3.0.2/jakarta.validation-api-3.0.2.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.function.Predicate;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.List;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.Arrays;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.stream.Collectors;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/de.frachtwerk:essencium-backend-storage-module/src/main/java/de/frachtwerk/essencium/storage/generic/service/FileService.java",
+    "useImportReport" : [ {
+      "importPath" : "import de.frachtwerk.essencium.storage.generic.model.AbstractFile;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.io.Serializable;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import de.frachtwerk.essencium.storage.generic.model.AbstractStorageInfo;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.springframework.stereotype.Service;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-context:6.1.3",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/de.frachtwerk:essencium-backend-storage-module:0.14.6/dependencies/org/springframework/spring-context/6.1.3/spring-context-6.1.3.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.io.IOException;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.Optional;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.List;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import jakarta.validation.constraints.NotNull;",
+      "artifact" : {
+        "artifact" : "jakarta.validation:jakarta.validation-api:3.0.2",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/de.frachtwerk:essencium-backend-storage-module:0.14.6/dependencies/jakarta/validation/jakarta.validation-api/3.0.2/jakarta.validation-api-3.0.2.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.springframework.data.jpa.domain.Specification;",
+      "artifact" : {
+        "artifact" : "org.springframework.data:spring-data-jpa:3.2.2",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/de.frachtwerk:essencium-backend-storage-module:0.14.6/dependencies/org/springframework/data/spring-data-jpa/3.2.2/spring-data-jpa-3.2.2.jar"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/de.frachtwerk:essencium-backend-storage-module/src/main/java/de/frachtwerk/essencium/storage/generic/service/StorageServiceDispatcher.java",
+    "useImportReport" : [ {
+      "importPath" : "import de.frachtwerk.essencium.storage.generic.model.AbstractFile;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.io.Serializable;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import de.frachtwerk.essencium.storage.generic.model.AbstractStorageInfo;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.springframework.stereotype.Service;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-context:6.1.3",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/de.frachtwerk:essencium-backend-storage-module:0.14.6/dependencies/org/springframework/spring-context/6.1.3/spring-context-6.1.3.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import lombok.RequiredArgsConstructor;",
+      "artifact" : {
+        "artifact" : "org.projectlombok:lombok:1.18.30",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/de.frachtwerk:essencium-backend-storage-module:0.14.6/dependencies/org/projectlombok/lombok/1.18.30/lombok-1.18.30.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import de.frachtwerk.essencium.storage.generic.provider.local.AbstractLocalStorageService;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import jakarta.annotation.Nullable;",
+      "artifact" : {
+        "artifact" : "jakarta.annotation:jakarta.annotation-api:2.1.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/de.frachtwerk:essencium-backend-storage-module:0.14.6/dependencies/jakarta/annotation/jakarta.annotation-api/2.1.1/jakarta.annotation-api-2.1.1.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import de.frachtwerk.essencium.storage.generic.provider.s3.AbstractS3StorageService;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import de.frachtwerk.essencium.storage.generic.configuration.FileStorageConfiguration;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.List;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.io.IOException;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.ArrayList;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import de.frachtwerk.essencium.storage.generic.model.Providers;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.Objects;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import de.frachtwerk.essencium.storage.generic.model.StorageInfoVisitor;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import de.frachtwerk.essencium.storage.generic.provider.local.AbstractLocalStorageInfo;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import de.frachtwerk.essencium.storage.generic.provider.s3.AbstractS3StorageInfo;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/de.frachtwerk:essencium-backend-storage-module/src/main/java/de/frachtwerk/essencium/storage/generic/service/StorageService.java",
+    "useImportReport" : [ {
+      "importPath" : "import de.frachtwerk.essencium.storage.generic.model.AbstractFile;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.io.Serializable;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import de.frachtwerk.essencium.storage.generic.model.AbstractStorageInfo;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.io.IOException;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import de.frachtwerk.essencium.storage.generic.model.Providers;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/de.frachtwerk:essencium-backend-storage-module/src/main/java/de/frachtwerk/essencium/storage/generic/service/AbstractFileService.java",
+    "useImportReport" : [ {
+      "importPath" : "import de.frachtwerk.essencium.storage.generic.model.AbstractFile;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.io.Serializable;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import de.frachtwerk.essencium.storage.generic.model.AbstractStorageInfo;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import lombok.RequiredArgsConstructor;",
+      "artifact" : {
+        "artifact" : "org.projectlombok:lombok:1.18.30",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/de.frachtwerk:essencium-backend-storage-module:0.14.6/dependencies/org/projectlombok/lombok/1.18.30/lombok-1.18.30.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.slf4j.Logger;",
+      "artifact" : {
+        "artifact" : "org.slf4j:slf4j-api:2.0.11",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/de.frachtwerk:essencium-backend-storage-module:0.14.6/dependencies/org/slf4j/slf4j-api/2.0.11/slf4j-api-2.0.11.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.slf4j.LoggerFactory;",
+      "artifact" : {
+        "artifact" : "org.slf4j:slf4j-api:2.0.11",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/de.frachtwerk:essencium-backend-storage-module:0.14.6/dependencies/org/slf4j/slf4j-api/2.0.11/slf4j-api-2.0.11.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import de.frachtwerk.essencium.storage.generic.repository.AbstractFileRepository;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.io.IOException;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.List;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.apache.commons.lang3.StringUtils;",
+      "artifact" : {
+        "artifact" : "org.apache.commons:commons-lang3:3.13.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/de.frachtwerk:essencium-backend-storage-module:0.14.6/dependencies/org/apache/commons/commons-lang3/3.13.0/commons-lang3-3.13.0.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.Optional;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import jakarta.validation.constraints.NotNull;",
+      "artifact" : {
+        "artifact" : "jakarta.validation:jakarta.validation-api:3.0.2",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/de.frachtwerk:essencium-backend-storage-module:0.14.6/dependencies/jakarta/validation/jakarta.validation-api/3.0.2/jakarta.validation-api-3.0.2.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.springframework.data.jpa.domain.Specification;",
+      "artifact" : {
+        "artifact" : "org.springframework.data:spring-data-jpa:3.2.2",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/de.frachtwerk:essencium-backend-storage-module:0.14.6/dependencies/org/springframework/data/spring-data-jpa/3.2.2/spring-data-jpa-3.2.2.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.springframework.cache.annotation.CachePut;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-context:6.1.3",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/de.frachtwerk:essencium-backend-storage-module:0.14.6/dependencies/org/springframework/spring-context/6.1.3/spring-context-6.1.3.jar"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  } ],
+  "projectUseDependencies" : [ {
+    "artifact" : "de.frachtwerk:essencium-backend:2.5.4",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/de.frachtwerk:essencium-backend-storage-module:0.14.6/dependencies/de/frachtwerk/essencium-backend/2.5.4/essencium-backend-2.5.4.jar"
+  }, {
+    "artifact" : "software.amazon.awssdk:s3:2.23.9",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/de.frachtwerk:essencium-backend-storage-module:0.14.6/dependencies/software/amazon/awssdk/s3/2.23.9/s3-2.23.9.jar"
+  } ],
+  "projectUseTransitiveDependencies" : [ ],
+  "projectUnusedDependencies" : [ {
+    "artifact" : "software.amazon.awssdk:sts:2.23.9",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/de.frachtwerk:essencium-backend-storage-module:0.14.6/dependencies/software/amazon/awssdk/sts/2.23.9/sts-2.23.9.jar"
+  }, {
+    "artifact" : "software.amazon.awssdk:iam:2.23.9",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/de.frachtwerk:essencium-backend-storage-module:0.14.6/dependencies/software/amazon/awssdk/iam/2.23.9/iam-2.23.9.jar"
+  }, {
+    "artifact" : "org.yaml:snakeyaml:2.2",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/de.frachtwerk:essencium-backend-storage-module:0.14.6/dependencies/org/yaml/snakeyaml/2.2/snakeyaml-2.2.jar"
+  }, {
+    "artifact" : "org.springframework.boot:spring-boot-configuration-processor:3.2.2",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/de.frachtwerk:essencium-backend-storage-module:0.14.6/dependencies/org/springframework/boot/spring-boot-configuration-processor/3.2.2/spring-boot-configuration-processor-3.2.2.jar"
+  } ]
+}

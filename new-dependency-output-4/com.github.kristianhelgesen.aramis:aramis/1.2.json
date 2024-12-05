@@ -1,0 +1,822 @@
+{
+  "projectArtifact" : "com.github.kristianhelgesen.aramis:aramis:1.2",
+  "repositoryDir" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/com.github.kristianhelgesen.aramis:aramis",
+  "repositorySubDir" : "",
+  "artifactLocation" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.kristianhelgesen.aramis:aramis:1.2",
+  "fileImportReports" : [ {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/com.github.kristianhelgesen.aramis:aramis/src/main/java/com/github/aramis/ContentProvider.java",
+    "useImportReport" : [ ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/com.github.kristianhelgesen.aramis:aramis/src/main/java/com/github/aramis/Parser.java",
+    "useImportReport" : [ {
+      "importPath" : "import java.io.InputStream;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/com.github.kristianhelgesen.aramis:aramis/src/main/java/com/github/aramis/ParserException.java",
+    "useImportReport" : [ ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/com.github.kristianhelgesen.aramis:aramis/src/main/java/com/github/aramis/Tag.java",
+    "useImportReport" : [ ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/com.github.kristianhelgesen.aramis:aramis/src/main/java/com/github/aramis/Context.java",
+    "useImportReport" : [ {
+      "importPath" : "import java.util.Map;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.HashMap;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/com.github.kristianhelgesen.aramis:aramis/src/main/java/com/github/aramis/ParserCallback.java",
+    "useImportReport" : [ ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/com.github.kristianhelgesen.aramis:aramis/src/main/java/com/github/aramis/DecorationReceivingTemplate.java",
+    "useImportReport" : [ {
+      "importPath" : "import org.slf4j.Logger;",
+      "artifact" : {
+        "artifact" : "org.slf4j:slf4j-api:1.7.2",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.kristianhelgesen.aramis:aramis:1.2/dependencies/org/slf4j/slf4j-api/1.7.2/slf4j-api-1.7.2.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.slf4j.LoggerFactory;",
+      "artifact" : {
+        "artifact" : "org.slf4j:slf4j-api:1.7.2",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.kristianhelgesen.aramis:aramis:1.2/dependencies/org/slf4j/slf4j-api/1.7.2/slf4j-api-1.7.2.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import java.util.Map;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.List;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.HashMap;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.LinkedList;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.io.OutputStream;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.io.IOException;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ {
+      "importPath" : "import com.github.aramis.renderinstruction.RenderInstruction;"
+    }, {
+      "importPath" : "import com.github.aramis.renderinstruction.RenderInstructionContainer;"
+    } ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/com.github.kristianhelgesen.aramis:aramis/src/main/java/com/github/aramis/renderinstruction/RenderInstructionContainer.java",
+    "useImportReport" : [ ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/com.github.kristianhelgesen.aramis:aramis/src/main/java/com/github/aramis/renderinstruction/Util.java",
+    "useImportReport" : [ {
+      "importPath" : "import org.slf4j.Logger;",
+      "artifact" : {
+        "artifact" : "org.slf4j:slf4j-api:1.7.2",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.kristianhelgesen.aramis:aramis:1.2/dependencies/org/slf4j/slf4j-api/1.7.2/slf4j-api-1.7.2.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.slf4j.LoggerFactory;",
+      "artifact" : {
+        "artifact" : "org.slf4j:slf4j-api:1.7.2",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.kristianhelgesen.aramis:aramis:1.2/dependencies/org/slf4j/slf4j-api/1.7.2/slf4j-api-1.7.2.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.mvel2.MVEL;",
+      "artifact" : {
+        "artifact" : "org.mvel:mvel2:2.1.3.Final",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.kristianhelgesen.aramis:aramis:1.2/dependencies/org/mvel/mvel2/2.1.3.Final/mvel2-2.1.3.Final.jar"
+      },
+      "isDirectDependency" : true
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ {
+      "importPath" : "import com.github.aramis.Context;"
+    } ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/com.github.kristianhelgesen.aramis:aramis/src/main/java/com/github/aramis/renderinstruction/SectionInvRenderInstruction.java",
+    "useImportReport" : [ {
+      "importPath" : "import org.slf4j.Logger;",
+      "artifact" : {
+        "artifact" : "org.slf4j:slf4j-api:1.7.2",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.kristianhelgesen.aramis:aramis:1.2/dependencies/org/slf4j/slf4j-api/1.7.2/slf4j-api-1.7.2.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.slf4j.LoggerFactory;",
+      "artifact" : {
+        "artifact" : "org.slf4j:slf4j-api:1.7.2",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.kristianhelgesen.aramis:aramis:1.2/dependencies/org/slf4j/slf4j-api/1.7.2/slf4j-api-1.7.2.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import java.util.List;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.LinkedList;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.mvel2.MVEL;",
+      "artifact" : {
+        "artifact" : "org.mvel:mvel2:2.1.3.Final",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.kristianhelgesen.aramis:aramis:1.2/dependencies/org/mvel/mvel2/2.1.3.Final/mvel2-2.1.3.Final.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import java.io.OutputStream;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.io.IOException;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ {
+      "importPath" : "import com.github.aramis.Context;"
+    } ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/com.github.kristianhelgesen.aramis:aramis/src/main/java/com/github/aramis/renderinstruction/RenderInstruction.java",
+    "useImportReport" : [ {
+      "importPath" : "import java.io.OutputStream;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.io.IOException;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ {
+      "importPath" : "import com.github.aramis.Context;"
+    } ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/com.github.kristianhelgesen.aramis:aramis/src/main/java/com/github/aramis/renderinstruction/TextRenderInstruction.java",
+    "useImportReport" : [ {
+      "importPath" : "import java.io.OutputStream;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.io.IOException;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ {
+      "importPath" : "import com.github.aramis.Context;"
+    } ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/com.github.kristianhelgesen.aramis:aramis/src/main/java/com/github/aramis/renderinstruction/SectionRenderInstruction.java",
+    "useImportReport" : [ {
+      "importPath" : "import org.slf4j.Logger;",
+      "artifact" : {
+        "artifact" : "org.slf4j:slf4j-api:1.7.2",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.kristianhelgesen.aramis:aramis:1.2/dependencies/org/slf4j/slf4j-api/1.7.2/slf4j-api-1.7.2.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.slf4j.LoggerFactory;",
+      "artifact" : {
+        "artifact" : "org.slf4j:slf4j-api:1.7.2",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.kristianhelgesen.aramis:aramis:1.2/dependencies/org/slf4j/slf4j-api/1.7.2/slf4j-api-1.7.2.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import java.util.List;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.LinkedList;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.mvel2.MVEL;",
+      "artifact" : {
+        "artifact" : "org.mvel:mvel2:2.1.3.Final",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.kristianhelgesen.aramis:aramis:1.2/dependencies/org/mvel/mvel2/2.1.3.Final/mvel2-2.1.3.Final.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import java.io.OutputStream;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.io.IOException;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ {
+      "importPath" : "import com.github.aramis.Context;"
+    } ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/com.github.kristianhelgesen.aramis:aramis/src/main/java/com/github/aramis/renderinstruction/TemplateRenderInstruction.java",
+    "useImportReport" : [ {
+      "importPath" : "import java.util.Map;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.HashMap;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.mvel2.MVEL;",
+      "artifact" : {
+        "artifact" : "org.mvel:mvel2:2.1.3.Final",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.kristianhelgesen.aramis:aramis:1.2/dependencies/org/mvel/mvel2/2.1.3.Final/mvel2-2.1.3.Final.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import java.io.OutputStream;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.io.IOException;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ {
+      "importPath" : "import com.github.aramis.ContentProvider;"
+    }, {
+      "importPath" : "import com.github.aramis.Context;"
+    }, {
+      "importPath" : "import com.github.aramis.RenderEngine;"
+    } ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/com.github.kristianhelgesen.aramis:aramis/src/main/java/com/github/aramis/renderinstruction/MvelRenderInstruction.java",
+    "useImportReport" : [ {
+      "importPath" : "import org.slf4j.Logger;",
+      "artifact" : {
+        "artifact" : "org.slf4j:slf4j-api:1.7.2",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.kristianhelgesen.aramis:aramis:1.2/dependencies/org/slf4j/slf4j-api/1.7.2/slf4j-api-1.7.2.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.slf4j.LoggerFactory;",
+      "artifact" : {
+        "artifact" : "org.slf4j:slf4j-api:1.7.2",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.kristianhelgesen.aramis:aramis:1.2/dependencies/org/slf4j/slf4j-api/1.7.2/slf4j-api-1.7.2.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.mvel2.MVEL;",
+      "artifact" : {
+        "artifact" : "org.mvel:mvel2:2.1.3.Final",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.kristianhelgesen.aramis:aramis:1.2/dependencies/org/mvel/mvel2/2.1.3.Final/mvel2-2.1.3.Final.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import java.io.OutputStream;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.io.IOException;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import static org.apache.commons.lang3.StringEscapeUtils.escapeHtml4;",
+      "artifact" : {
+        "artifact" : "org.apache.commons:commons-lang3:3.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.kristianhelgesen.aramis:aramis:1.2/dependencies/org/apache/commons/commons-lang3/3.1/commons-lang3-3.1.jar"
+      },
+      "isDirectDependency" : true
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ {
+      "importPath" : "import com.github.aramis.Context;"
+    } ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/com.github.kristianhelgesen.aramis:aramis/src/main/java/com/github/aramis/renderinstruction/DecoratorRenderInstruction.java",
+    "useImportReport" : [ {
+      "importPath" : "import java.io.OutputStream;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.io.IOException;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ {
+      "importPath" : "import com.github.aramis.Context;"
+    }, {
+      "importPath" : "import com.github.aramis.DecorationReceivingTemplate;"
+    } ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/com.github.kristianhelgesen.aramis:aramis/src/main/java/com/github/aramis/Lexer.java",
+    "useImportReport" : [ {
+      "importPath" : "import org.slf4j.Logger;",
+      "artifact" : {
+        "artifact" : "org.slf4j:slf4j-api:1.7.2",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.kristianhelgesen.aramis:aramis:1.2/dependencies/org/slf4j/slf4j-api/1.7.2/slf4j-api-1.7.2.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.slf4j.LoggerFactory;",
+      "artifact" : {
+        "artifact" : "org.slf4j:slf4j-api:1.7.2",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.kristianhelgesen.aramis:aramis:1.2/dependencies/org/slf4j/slf4j-api/1.7.2/slf4j-api-1.7.2.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import java.util.Set;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.HashSet;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.io.InputStream;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.io.IOException;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.nio.charset.Charset;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.io.InputStreamReader;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ {
+      "importPath" : "import com.github.aramis.Tag.TagType;"
+    } ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/com.github.kristianhelgesen.aramis:aramis/src/main/java/com/github/aramis/TemplateBuilder.java",
+    "useImportReport" : [ {
+      "importPath" : "import org.slf4j.Logger;",
+      "artifact" : {
+        "artifact" : "org.slf4j:slf4j-api:1.7.2",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.kristianhelgesen.aramis:aramis:1.2/dependencies/org/slf4j/slf4j-api/1.7.2/slf4j-api-1.7.2.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.slf4j.LoggerFactory;",
+      "artifact" : {
+        "artifact" : "org.slf4j:slf4j-api:1.7.2",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.kristianhelgesen.aramis:aramis:1.2/dependencies/org/slf4j/slf4j-api/1.7.2/slf4j-api-1.7.2.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import java.util.Stack;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ {
+      "importPath" : "import com.github.aramis.renderinstruction.DecoratorRenderInstruction;"
+    }, {
+      "importPath" : "import com.github.aramis.renderinstruction.MvelRenderInstruction;"
+    }, {
+      "importPath" : "import com.github.aramis.renderinstruction.RenderInstruction;"
+    }, {
+      "importPath" : "import com.github.aramis.renderinstruction.RenderInstructionContainer;"
+    }, {
+      "importPath" : "import com.github.aramis.renderinstruction.SectionInvRenderInstruction;"
+    }, {
+      "importPath" : "import com.github.aramis.renderinstruction.SectionRenderInstruction;"
+    }, {
+      "importPath" : "import com.github.aramis.renderinstruction.TemplateRenderInstruction;"
+    }, {
+      "importPath" : "import com.github.aramis.renderinstruction.TextRenderInstruction;"
+    } ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/com.github.kristianhelgesen.aramis:aramis/src/main/java/com/github/aramis/RenderEngine.java",
+    "useImportReport" : [ {
+      "importPath" : "import org.slf4j.Logger;",
+      "artifact" : {
+        "artifact" : "org.slf4j:slf4j-api:1.7.2",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.kristianhelgesen.aramis:aramis:1.2/dependencies/org/slf4j/slf4j-api/1.7.2/slf4j-api-1.7.2.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.slf4j.LoggerFactory;",
+      "artifact" : {
+        "artifact" : "org.slf4j:slf4j-api:1.7.2",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.kristianhelgesen.aramis:aramis:1.2/dependencies/org/slf4j/slf4j-api/1.7.2/slf4j-api-1.7.2.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import java.io.OutputStream;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.Map;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.lang.reflect.Constructor;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.lang.reflect.InvocationTargetException;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.mvel2.MVEL;",
+      "artifact" : {
+        "artifact" : "org.mvel:mvel2:2.1.3.Final",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.kristianhelgesen.aramis:aramis:1.2/dependencies/org/mvel/mvel2/2.1.3.Final/mvel2-2.1.3.Final.jar"
+      },
+      "isDirectDependency" : true
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/com.github.kristianhelgesen.aramis:aramis/src/main/java/com/github/aramis/site/RenderDispatcher.java",
+    "useImportReport" : [ {
+      "importPath" : "import javax.servlet.Filter;",
+      "artifact" : {
+        "artifact" : "javax.servlet:javax.servlet-api:3.0.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.kristianhelgesen.aramis:aramis:1.2/dependencies/javax/servlet/javax.servlet-api/3.0.1/javax.servlet-api-3.0.1.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.slf4j.Logger;",
+      "artifact" : {
+        "artifact" : "org.slf4j:slf4j-api:1.7.2",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.kristianhelgesen.aramis:aramis:1.2/dependencies/org/slf4j/slf4j-api/1.7.2/slf4j-api-1.7.2.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.slf4j.LoggerFactory;",
+      "artifact" : {
+        "artifact" : "org.slf4j:slf4j-api:1.7.2",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.kristianhelgesen.aramis:aramis:1.2/dependencies/org/slf4j/slf4j-api/1.7.2/slf4j-api-1.7.2.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import javax.servlet.FilterConfig;",
+      "artifact" : {
+        "artifact" : "javax.servlet:javax.servlet-api:3.0.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.kristianhelgesen.aramis:aramis:1.2/dependencies/javax/servlet/javax.servlet-api/3.0.1/javax.servlet-api-3.0.1.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import javax.servlet.ServletException;",
+      "artifact" : {
+        "artifact" : "javax.servlet:javax.servlet-api:3.0.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.kristianhelgesen.aramis:aramis:1.2/dependencies/javax/servlet/javax.servlet-api/3.0.1/javax.servlet-api-3.0.1.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import javax.servlet.ServletRequest;",
+      "artifact" : {
+        "artifact" : "javax.servlet:javax.servlet-api:3.0.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.kristianhelgesen.aramis:aramis:1.2/dependencies/javax/servlet/javax.servlet-api/3.0.1/javax.servlet-api-3.0.1.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import javax.servlet.ServletResponse;",
+      "artifact" : {
+        "artifact" : "javax.servlet:javax.servlet-api:3.0.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.kristianhelgesen.aramis:aramis:1.2/dependencies/javax/servlet/javax.servlet-api/3.0.1/javax.servlet-api-3.0.1.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import javax.servlet.FilterChain;",
+      "artifact" : {
+        "artifact" : "javax.servlet:javax.servlet-api:3.0.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.kristianhelgesen.aramis:aramis:1.2/dependencies/javax/servlet/javax.servlet-api/3.0.1/javax.servlet-api-3.0.1.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import java.io.IOException;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import javax.servlet.http.HttpServletRequest;",
+      "artifact" : {
+        "artifact" : "javax.servlet:javax.servlet-api:3.0.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.kristianhelgesen.aramis:aramis:1.2/dependencies/javax/servlet/javax.servlet-api/3.0.1/javax.servlet-api-3.0.1.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import java.io.OutputStream;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.HashMap;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ {
+      "importPath" : "import com.github.aramis.ContentProvider;"
+    }, {
+      "importPath" : "import com.github.aramis.RenderEngine;"
+    } ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/com.github.kristianhelgesen.aramis:aramis/src/main/java/com/github/aramis/site/URLResolver.java",
+    "useImportReport" : [ ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/com.github.kristianhelgesen.aramis:aramis/src/main/java/com/github/aramis/Template.java",
+    "useImportReport" : [ {
+      "importPath" : "import org.slf4j.Logger;",
+      "artifact" : {
+        "artifact" : "org.slf4j:slf4j-api:1.7.2",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.kristianhelgesen.aramis:aramis:1.2/dependencies/org/slf4j/slf4j-api/1.7.2/slf4j-api-1.7.2.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.slf4j.LoggerFactory;",
+      "artifact" : {
+        "artifact" : "org.slf4j:slf4j-api:1.7.2",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.kristianhelgesen.aramis:aramis:1.2/dependencies/org/slf4j/slf4j-api/1.7.2/slf4j-api-1.7.2.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import java.util.List;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.LinkedList;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.io.OutputStream;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.io.IOException;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ {
+      "importPath" : "import com.github.aramis.renderinstruction.RenderInstruction;"
+    }, {
+      "importPath" : "import com.github.aramis.renderinstruction.RenderInstructionContainer;"
+    } ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/com.github.kristianhelgesen.aramis:aramis/src/main/java/com/github/aramis/Token.java",
+    "useImportReport" : [ ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ {
+      "importPath" : "import com.github.aramis.Tag.TagType;"
+    } ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/com.github.kristianhelgesen.aramis:aramis/src/main/java/com/github/aramis/TemplateFactory.java",
+    "useImportReport" : [ {
+      "importPath" : "import org.slf4j.Logger;",
+      "artifact" : {
+        "artifact" : "org.slf4j:slf4j-api:1.7.2",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.kristianhelgesen.aramis:aramis:1.2/dependencies/org/slf4j/slf4j-api/1.7.2/slf4j-api-1.7.2.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.slf4j.LoggerFactory;",
+      "artifact" : {
+        "artifact" : "org.slf4j:slf4j-api:1.7.2",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.kristianhelgesen.aramis:aramis:1.2/dependencies/org/slf4j/slf4j-api/1.7.2/slf4j-api-1.7.2.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import java.util.Map;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.HashMap;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.io.InputStream;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  } ],
+  "projectUseDependencies" : [ {
+    "artifact" : "org.slf4j:slf4j-api:1.7.2",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.kristianhelgesen.aramis:aramis:1.2/dependencies/org/slf4j/slf4j-api/1.7.2/slf4j-api-1.7.2.jar"
+  }, {
+    "artifact" : "org.mvel:mvel2:2.1.3.Final",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.kristianhelgesen.aramis:aramis:1.2/dependencies/org/mvel/mvel2/2.1.3.Final/mvel2-2.1.3.Final.jar"
+  }, {
+    "artifact" : "org.apache.commons:commons-lang3:3.1",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.kristianhelgesen.aramis:aramis:1.2/dependencies/org/apache/commons/commons-lang3/3.1/commons-lang3-3.1.jar"
+  }, {
+    "artifact" : "javax.servlet:javax.servlet-api:3.0.1",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.kristianhelgesen.aramis:aramis:1.2/dependencies/javax/servlet/javax.servlet-api/3.0.1/javax.servlet-api-3.0.1.jar"
+  } ],
+  "projectUseTransitiveDependencies" : [ ],
+  "projectUnusedDependencies" : [ ]
+}

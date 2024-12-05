@@ -1,0 +1,507 @@
+{
+  "projectArtifact" : "org.eclipse.ditto:ditto-signals-acks-things:1.2.0",
+  "repositoryDir" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/org.eclipse.ditto:ditto-signals-acks-things/signals/acks/things",
+  "repositorySubDir" : "",
+  "artifactLocation" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.eclipse.ditto:ditto-signals-acks-things:1.2.0",
+  "fileImportReports" : [ {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/org.eclipse.ditto:ditto-signals-acks-things/signals/acks/things/src/test/java/org/eclipse/ditto/signals/acks/things/ThingAcknowledgementJsonParserTest.java",
+    "useImportReport" : [ {
+      "importPath" : "import org.eclipse.ditto.signals.acks.things.ThingAcknowledgementFactory.JsonParser;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.eclipse.ditto.model.base.acks.AcknowledgementLabel;",
+      "artifact" : {
+        "artifact" : "org.eclipse.ditto:ditto-model-base:1.2.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.eclipse.ditto:ditto-signals-acks-things:1.2.0/dependencies/org/eclipse/ditto/ditto-model-base/1.2.0/ditto-model-base-1.2.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.eclipse.ditto.model.base.acks.DittoAcknowledgementLabel;",
+      "artifact" : {
+        "artifact" : "org.eclipse.ditto:ditto-model-base:1.2.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.eclipse.ditto:ditto-signals-acks-things:1.2.0/dependencies/org/eclipse/ditto/ditto-model-base/1.2.0/ditto-model-base-1.2.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.eclipse.ditto.model.things.ThingId;",
+      "artifact" : {
+        "artifact" : "org.eclipse.ditto:ditto-model-things:1.2.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.eclipse.ditto:ditto-signals-acks-things:1.2.0/dependencies/org/eclipse/ditto/ditto-model-things/1.2.0/ditto-model-things-1.2.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.eclipse.ditto.json.JsonObject;",
+      "artifact" : {
+        "artifact" : "org.eclipse.ditto:ditto-json:1.2.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.eclipse.ditto:ditto-signals-acks-things:1.2.0/dependencies/org/eclipse/ditto/ditto-json/1.2.0/ditto-json-1.2.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.eclipse.ditto.model.base.headers.DittoHeaders;",
+      "artifact" : {
+        "artifact" : "org.eclipse.ditto:ditto-model-base:1.2.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.eclipse.ditto:ditto-signals-acks-things:1.2.0/dependencies/org/eclipse/ditto/ditto-model-base/1.2.0/ditto-model-base-1.2.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.eclipse.ditto.signals.acks.base.Acknowledgement;",
+      "artifact" : {
+        "artifact" : "org.eclipse.ditto:ditto-signals-acks-base:1.2.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.eclipse.ditto:ditto-signals-acks-things:1.2.0/dependencies/org/eclipse/ditto/ditto-signals-acks-base/1.2.0/ditto-signals-acks-base-1.2.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.eclipse.ditto.model.base.common.HttpStatusCode;",
+      "artifact" : {
+        "artifact" : "org.eclipse.ditto:ditto-model-base:1.2.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.eclipse.ditto:ditto-signals-acks-things:1.2.0/dependencies/org/eclipse/ditto/ditto-model-base/1.2.0/ditto-model-base-1.2.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.eclipse.ditto.json.JsonFieldDefinition;",
+      "artifact" : {
+        "artifact" : "org.eclipse.ditto:ditto-json:1.2.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.eclipse.ditto:ditto-signals-acks-things:1.2.0/dependencies/org/eclipse/ditto/ditto-json/1.2.0/ditto-json-1.2.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.eclipse.ditto.json.JsonFactory;",
+      "artifact" : {
+        "artifact" : "org.eclipse.ditto:ditto-json:1.2.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.eclipse.ditto:ditto-signals-acks-things:1.2.0/dependencies/org/eclipse/ditto/ditto-json/1.2.0/ditto-json-1.2.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.eclipse.ditto.json.JsonMissingFieldException;",
+      "artifact" : {
+        "artifact" : "org.eclipse.ditto:ditto-json:1.2.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.eclipse.ditto:ditto-signals-acks-things:1.2.0/dependencies/org/eclipse/ditto/ditto-json/1.2.0/ditto-json-1.2.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.eclipse.ditto.json.JsonParseException;",
+      "artifact" : {
+        "artifact" : "org.eclipse.ditto:ditto-json:1.2.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.eclipse.ditto:ditto-signals-acks-things:1.2.0/dependencies/org/eclipse/ditto/ditto-json/1.2.0/ditto-json-1.2.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.eclipse.ditto.model.base.acks.AcknowledgementLabelInvalidException;",
+      "artifact" : {
+        "artifact" : "org.eclipse.ditto:ditto-model-base:1.2.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.eclipse.ditto:ditto-signals-acks-things:1.2.0/dependencies/org/eclipse/ditto/ditto-model-base/1.2.0/ditto-model-base-1.2.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.eclipse.ditto.model.things.ThingIdInvalidException;",
+      "artifact" : {
+        "artifact" : "org.eclipse.ditto:ditto-model-things:1.2.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.eclipse.ditto:ditto-signals-acks-things:1.2.0/dependencies/org/eclipse/ditto/ditto-model-things/1.2.0/ditto-model-things-1.2.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.eclipse.ditto.model.base.entity.type.EntityType;",
+      "artifact" : {
+        "artifact" : "org.eclipse.ditto:ditto-model-base:1.2.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.eclipse.ditto:ditto-signals-acks-things:1.2.0/dependencies/org/eclipse/ditto/ditto-model-base/1.2.0/ditto-model-base-1.2.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.eclipse.ditto.json.JsonValue;",
+      "artifact" : {
+        "artifact" : "org.eclipse.ditto:ditto-json:1.2.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.eclipse.ditto:ditto-signals-acks-things:1.2.0/dependencies/org/eclipse/ditto/ditto-json/1.2.0/ditto-json-1.2.0.jar"
+      },
+      "isDirectDependency" : true
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ {
+      "importPath" : "import static org.assertj.core.api.Assertions.assertThat;"
+    }, {
+      "importPath" : "import static org.assertj.core.api.Assertions.assertThatExceptionOfType;"
+    }, {
+      "importPath" : "import static org.assertj.core.api.Assertions.assertThatNullPointerException;"
+    }, {
+      "importPath" : "import static org.mutabilitydetector.unittesting.MutabilityAssert.assertInstancesOf;"
+    }, {
+      "importPath" : "import static org.mutabilitydetector.unittesting.MutabilityMatchers.areImmutable;"
+    }, {
+      "importPath" : "import org.junit.Before;"
+    }, {
+      "importPath" : "import org.junit.Rule;"
+    }, {
+      "importPath" : "import org.junit.Test;"
+    }, {
+      "importPath" : "import org.junit.rules.TestName;"
+    } ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/org.eclipse.ditto:ditto-signals-acks-things/signals/acks/things/src/test/java/org/eclipse/ditto/signals/acks/things/ThingAcknowledgementFactoryTest.java",
+    "useImportReport" : [ {
+      "importPath" : "import org.eclipse.ditto.model.base.acks.AcknowledgementLabel;",
+      "artifact" : {
+        "artifact" : "org.eclipse.ditto:ditto-model-base:1.2.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.eclipse.ditto:ditto-signals-acks-things:1.2.0/dependencies/org/eclipse/ditto/ditto-model-base/1.2.0/ditto-model-base-1.2.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.eclipse.ditto.model.base.acks.DittoAcknowledgementLabel;",
+      "artifact" : {
+        "artifact" : "org.eclipse.ditto:ditto-model-base:1.2.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.eclipse.ditto:ditto-signals-acks-things:1.2.0/dependencies/org/eclipse/ditto/ditto-model-base/1.2.0/ditto-model-base-1.2.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.eclipse.ditto.model.things.ThingId;",
+      "artifact" : {
+        "artifact" : "org.eclipse.ditto:ditto-model-things:1.2.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.eclipse.ditto:ditto-signals-acks-things:1.2.0/dependencies/org/eclipse/ditto/ditto-model-things/1.2.0/ditto-model-things-1.2.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.eclipse.ditto.model.base.common.HttpStatusCode;",
+      "artifact" : {
+        "artifact" : "org.eclipse.ditto:ditto-model-base:1.2.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.eclipse.ditto:ditto-signals-acks-things:1.2.0/dependencies/org/eclipse/ditto/ditto-model-base/1.2.0/ditto-model-base-1.2.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.eclipse.ditto.json.JsonObject;",
+      "artifact" : {
+        "artifact" : "org.eclipse.ditto:ditto-json:1.2.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.eclipse.ditto:ditto-signals-acks-things:1.2.0/dependencies/org/eclipse/ditto/ditto-json/1.2.0/ditto-json-1.2.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.eclipse.ditto.model.base.headers.DittoHeaders;",
+      "artifact" : {
+        "artifact" : "org.eclipse.ditto:ditto-model-base:1.2.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.eclipse.ditto:ditto-signals-acks-things:1.2.0/dependencies/org/eclipse/ditto/ditto-model-base/1.2.0/ditto-model-base-1.2.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.eclipse.ditto.signals.acks.base.Acknowledgement;",
+      "artifact" : {
+        "artifact" : "org.eclipse.ditto:ditto-signals-acks-base:1.2.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.eclipse.ditto:ditto-signals-acks-things:1.2.0/dependencies/org/eclipse/ditto/ditto-signals-acks-base/1.2.0/ditto-signals-acks-base-1.2.0.jar"
+      },
+      "isDirectDependency" : true
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ {
+      "importPath" : "import static org.assertj.core.api.Assertions.assertThat;"
+    }, {
+      "importPath" : "import static org.mutabilitydetector.unittesting.MutabilityAssert.assertInstancesOf;"
+    }, {
+      "importPath" : "import static org.mutabilitydetector.unittesting.MutabilityMatchers.areImmutable;"
+    }, {
+      "importPath" : "import org.assertj.core.api.AutoCloseableSoftAssertions;"
+    }, {
+      "importPath" : "import org.junit.Before;"
+    }, {
+      "importPath" : "import org.junit.Rule;"
+    }, {
+      "importPath" : "import org.junit.Test;"
+    }, {
+      "importPath" : "import org.junit.rules.TestName;"
+    } ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/org.eclipse.ditto:ditto-signals-acks-things/signals/acks/things/src/test/java/org/eclipse/ditto/signals/acks/things/ThingAcknowledgementsFactoryTest.java",
+    "useImportReport" : [ {
+      "importPath" : "import org.eclipse.ditto.model.base.headers.DittoHeaders;",
+      "artifact" : {
+        "artifact" : "org.eclipse.ditto:ditto-model-base:1.2.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.eclipse.ditto:ditto-signals-acks-things:1.2.0/dependencies/org/eclipse/ditto/ditto-model-base/1.2.0/ditto-model-base-1.2.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.eclipse.ditto.signals.acks.base.Acknowledgement;",
+      "artifact" : {
+        "artifact" : "org.eclipse.ditto:ditto-signals-acks-base:1.2.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.eclipse.ditto:ditto-signals-acks-things:1.2.0/dependencies/org/eclipse/ditto/ditto-signals-acks-base/1.2.0/ditto-signals-acks-base-1.2.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import java.util.List;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.eclipse.ditto.model.things.ThingId;",
+      "artifact" : {
+        "artifact" : "org.eclipse.ditto:ditto-model-things:1.2.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.eclipse.ditto:ditto-signals-acks-things:1.2.0/dependencies/org/eclipse/ditto/ditto-model-things/1.2.0/ditto-model-things-1.2.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.eclipse.ditto.model.base.acks.AcknowledgementLabel;",
+      "artifact" : {
+        "artifact" : "org.eclipse.ditto:ditto-model-base:1.2.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.eclipse.ditto:ditto-signals-acks-things:1.2.0/dependencies/org/eclipse/ditto/ditto-model-base/1.2.0/ditto-model-base-1.2.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.eclipse.ditto.model.base.common.HttpStatusCode;",
+      "artifact" : {
+        "artifact" : "org.eclipse.ditto:ditto-model-base:1.2.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.eclipse.ditto:ditto-signals-acks-things:1.2.0/dependencies/org/eclipse/ditto/ditto-model-base/1.2.0/ditto-model-base-1.2.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.eclipse.ditto.json.JsonValue;",
+      "artifact" : {
+        "artifact" : "org.eclipse.ditto:ditto-json:1.2.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.eclipse.ditto:ditto-signals-acks-things:1.2.0/dependencies/org/eclipse/ditto/ditto-json/1.2.0/ditto-json-1.2.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.eclipse.ditto.signals.acks.base.Acknowledgements;",
+      "artifact" : {
+        "artifact" : "org.eclipse.ditto:ditto-signals-acks-base:1.2.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.eclipse.ditto:ditto-signals-acks-things:1.2.0/dependencies/org/eclipse/ditto/ditto-signals-acks-base/1.2.0/ditto-signals-acks-base-1.2.0.jar"
+      },
+      "isDirectDependency" : true
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ {
+      "importPath" : "import static org.assertj.core.api.Assertions.assertThat;"
+    }, {
+      "importPath" : "import static org.mutabilitydetector.unittesting.MutabilityAssert.assertInstancesOf;"
+    }, {
+      "importPath" : "import static org.mutabilitydetector.unittesting.MutabilityMatchers.areImmutable;"
+    }, {
+      "importPath" : "import org.assertj.core.api.AutoCloseableSoftAssertions;"
+    }, {
+      "importPath" : "import org.assertj.core.util.Lists;"
+    }, {
+      "importPath" : "import org.junit.Before;"
+    }, {
+      "importPath" : "import org.junit.Rule;"
+    }, {
+      "importPath" : "import org.junit.Test;"
+    }, {
+      "importPath" : "import org.junit.rules.TestName;"
+    } ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/org.eclipse.ditto:ditto-signals-acks-things/signals/acks/things/src/main/java/org/eclipse/ditto/signals/acks/things/ThingAcknowledgementFactory.java",
+    "useImportReport" : [ {
+      "importPath" : "import org.eclipse.ditto.signals.acks.base.Acknowledgement;",
+      "artifact" : {
+        "artifact" : "org.eclipse.ditto:ditto-signals-acks-base:1.2.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.eclipse.ditto:ditto-signals-acks-things:1.2.0/dependencies/org/eclipse/ditto/ditto-signals-acks-base/1.2.0/ditto-signals-acks-base-1.2.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import javax.annotation.concurrent.Immutable;",
+      "artifact" : {
+        "artifact" : "com.google.code.findbugs:jsr305:3.0.2",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.eclipse.ditto:ditto-signals-acks-things:1.2.0/dependencies/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.eclipse.ditto.model.base.acks.AcknowledgementLabel;",
+      "artifact" : {
+        "artifact" : "org.eclipse.ditto:ditto-model-base:1.2.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.eclipse.ditto:ditto-signals-acks-things:1.2.0/dependencies/org/eclipse/ditto/ditto-model-base/1.2.0/ditto-model-base-1.2.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.eclipse.ditto.model.things.ThingId;",
+      "artifact" : {
+        "artifact" : "org.eclipse.ditto:ditto-model-things:1.2.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.eclipse.ditto:ditto-signals-acks-things:1.2.0/dependencies/org/eclipse/ditto/ditto-model-things/1.2.0/ditto-model-things-1.2.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.eclipse.ditto.model.base.common.HttpStatusCode;",
+      "artifact" : {
+        "artifact" : "org.eclipse.ditto:ditto-model-base:1.2.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.eclipse.ditto:ditto-signals-acks-things:1.2.0/dependencies/org/eclipse/ditto/ditto-model-base/1.2.0/ditto-model-base-1.2.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.eclipse.ditto.model.base.headers.DittoHeaders;",
+      "artifact" : {
+        "artifact" : "org.eclipse.ditto:ditto-model-base:1.2.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.eclipse.ditto:ditto-signals-acks-things:1.2.0/dependencies/org/eclipse/ditto/ditto-model-base/1.2.0/ditto-model-base-1.2.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.eclipse.ditto.json.JsonValue;",
+      "artifact" : {
+        "artifact" : "org.eclipse.ditto:ditto-json:1.2.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.eclipse.ditto:ditto-signals-acks-things:1.2.0/dependencies/org/eclipse/ditto/ditto-json/1.2.0/ditto-json-1.2.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import javax.annotation.Nullable;",
+      "artifact" : {
+        "artifact" : "com.google.code.findbugs:jsr305:3.0.2",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.eclipse.ditto:ditto-signals-acks-things:1.2.0/dependencies/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.eclipse.ditto.json.JsonParseException;",
+      "artifact" : {
+        "artifact" : "org.eclipse.ditto:ditto-json:1.2.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.eclipse.ditto:ditto-signals-acks-things:1.2.0/dependencies/org/eclipse/ditto/ditto-json/1.2.0/ditto-json-1.2.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.eclipse.ditto.json.JsonObject;",
+      "artifact" : {
+        "artifact" : "org.eclipse.ditto:ditto-json:1.2.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.eclipse.ditto:ditto-signals-acks-things:1.2.0/dependencies/org/eclipse/ditto/ditto-json/1.2.0/ditto-json-1.2.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.eclipse.ditto.signals.acks.base.AcknowledgementJsonParser;",
+      "artifact" : {
+        "artifact" : "org.eclipse.ditto:ditto-signals-acks-base:1.2.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.eclipse.ditto:ditto-signals-acks-things:1.2.0/dependencies/org/eclipse/ditto/ditto-signals-acks-base/1.2.0/ditto-signals-acks-base-1.2.0.jar"
+      },
+      "isDirectDependency" : true
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ {
+      "importPath" : "org.eclipse.ditto.json.JsonMissingFieldException",
+      "artifact" : {
+        "artifact" : "org.eclipse.ditto:ditto-json:1.2.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.eclipse.ditto:ditto-signals-acks-things:1.2.0/dependencies/org/eclipse/ditto/ditto-json/1.2.0/ditto-json-1.2.0.jar"
+      },
+      "isDirectDependency" : true
+    } ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/org.eclipse.ditto:ditto-signals-acks-things/signals/acks/things/src/main/java/org/eclipse/ditto/signals/acks/things/ThingAcknowledgementsFactory.java",
+    "useImportReport" : [ {
+      "importPath" : "import org.eclipse.ditto.signals.acks.base.Acknowledgements;",
+      "artifact" : {
+        "artifact" : "org.eclipse.ditto:ditto-signals-acks-base:1.2.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.eclipse.ditto:ditto-signals-acks-things:1.2.0/dependencies/org/eclipse/ditto/ditto-signals-acks-base/1.2.0/ditto-signals-acks-base-1.2.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import javax.annotation.concurrent.Immutable;",
+      "artifact" : {
+        "artifact" : "com.google.code.findbugs:jsr305:3.0.2",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.eclipse.ditto:ditto-signals-acks-things:1.2.0/dependencies/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import java.util.Collection;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.eclipse.ditto.signals.acks.base.Acknowledgement;",
+      "artifact" : {
+        "artifact" : "org.eclipse.ditto:ditto-signals-acks-base:1.2.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.eclipse.ditto:ditto-signals-acks-things:1.2.0/dependencies/org/eclipse/ditto/ditto-signals-acks-base/1.2.0/ditto-signals-acks-base-1.2.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.eclipse.ditto.model.base.headers.DittoHeaders;",
+      "artifact" : {
+        "artifact" : "org.eclipse.ditto:ditto-model-base:1.2.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.eclipse.ditto:ditto-signals-acks-things:1.2.0/dependencies/org/eclipse/ditto/ditto-model-base/1.2.0/ditto-model-base-1.2.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.eclipse.ditto.model.base.entity.id.EntityIdWithType;",
+      "artifact" : {
+        "artifact" : "org.eclipse.ditto:ditto-model-base:1.2.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.eclipse.ditto:ditto-signals-acks-things:1.2.0/dependencies/org/eclipse/ditto/ditto-model-base/1.2.0/ditto-model-base-1.2.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.eclipse.ditto.model.base.common.HttpStatusCode;",
+      "artifact" : {
+        "artifact" : "org.eclipse.ditto:ditto-model-base:1.2.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.eclipse.ditto:ditto-signals-acks-things:1.2.0/dependencies/org/eclipse/ditto/ditto-model-base/1.2.0/ditto-model-base-1.2.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.eclipse.ditto.json.JsonObject;",
+      "artifact" : {
+        "artifact" : "org.eclipse.ditto:ditto-json:1.2.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.eclipse.ditto:ditto-signals-acks-things:1.2.0/dependencies/org/eclipse/ditto/ditto-json/1.2.0/ditto-json-1.2.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.eclipse.ditto.signals.acks.base.AcknowledgementsJsonParser;",
+      "artifact" : {
+        "artifact" : "org.eclipse.ditto:ditto-signals-acks-base:1.2.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.eclipse.ditto:ditto-signals-acks-things:1.2.0/dependencies/org/eclipse/ditto/ditto-signals-acks-base/1.2.0/ditto-signals-acks-base-1.2.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.eclipse.ditto.model.things.ThingId;",
+      "artifact" : {
+        "artifact" : "org.eclipse.ditto:ditto-model-things:1.2.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.eclipse.ditto:ditto-signals-acks-things:1.2.0/dependencies/org/eclipse/ditto/ditto-model-things/1.2.0/ditto-model-things-1.2.0.jar"
+      },
+      "isDirectDependency" : true
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ {
+      "importPath" : "org.eclipse.ditto.json.JsonMissingFieldException",
+      "artifact" : {
+        "artifact" : "org.eclipse.ditto:ditto-json:1.2.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.eclipse.ditto:ditto-signals-acks-things:1.2.0/dependencies/org/eclipse/ditto/ditto-json/1.2.0/ditto-json-1.2.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "org.eclipse.ditto.json.JsonParseException",
+      "artifact" : {
+        "artifact" : "org.eclipse.ditto:ditto-json:1.2.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.eclipse.ditto:ditto-signals-acks-things:1.2.0/dependencies/org/eclipse/ditto/ditto-json/1.2.0/ditto-json-1.2.0.jar"
+      },
+      "isDirectDependency" : true
+    } ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/org.eclipse.ditto:ditto-signals-acks-things/signals/acks/things/src/main/java/org/eclipse/ditto/signals/acks/things/package-info.java",
+    "useImportReport" : [ ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  } ],
+  "projectUseDependencies" : [ {
+    "artifact" : "org.eclipse.ditto:ditto-model-base:1.2.0",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.eclipse.ditto:ditto-signals-acks-things:1.2.0/dependencies/org/eclipse/ditto/ditto-model-base/1.2.0/ditto-model-base-1.2.0.jar"
+  }, {
+    "artifact" : "org.eclipse.ditto:ditto-model-things:1.2.0",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.eclipse.ditto:ditto-signals-acks-things:1.2.0/dependencies/org/eclipse/ditto/ditto-model-things/1.2.0/ditto-model-things-1.2.0.jar"
+  }, {
+    "artifact" : "org.eclipse.ditto:ditto-json:1.2.0",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.eclipse.ditto:ditto-signals-acks-things:1.2.0/dependencies/org/eclipse/ditto/ditto-json/1.2.0/ditto-json-1.2.0.jar"
+  }, {
+    "artifact" : "org.eclipse.ditto:ditto-signals-acks-base:1.2.0",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.eclipse.ditto:ditto-signals-acks-things:1.2.0/dependencies/org/eclipse/ditto/ditto-signals-acks-base/1.2.0/ditto-signals-acks-base-1.2.0.jar"
+  }, {
+    "artifact" : "com.google.code.findbugs:jsr305:3.0.2",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.eclipse.ditto:ditto-signals-acks-things:1.2.0/dependencies/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar"
+  } ],
+  "projectUseTransitiveDependencies" : [ ],
+  "projectUnusedDependencies" : [ {
+    "artifact" : "org.eclipse.ditto:ditto-legal:1.2.0",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.eclipse.ditto:ditto-signals-acks-things:1.2.0/dependencies/org/eclipse/ditto/ditto-legal/1.2.0/ditto-legal-1.2.0.jar"
+  }, {
+    "artifact" : "org.eclipse.ditto:ditto-utils-jsr305:1.2.0",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.eclipse.ditto:ditto-signals-acks-things:1.2.0/dependencies/org/eclipse/ditto/ditto-utils-jsr305/1.2.0/ditto-utils-jsr305-1.2.0.jar"
+  }, {
+    "artifact" : "org.eclipse.ditto:ditto-signals-base:1.2.0",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.eclipse.ditto:ditto-signals-acks-things:1.2.0/dependencies/org/eclipse/ditto/ditto-signals-base/1.2.0/ditto-signals-base-1.2.0.jar"
+  } ]
+}

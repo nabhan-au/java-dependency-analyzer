@@ -1,0 +1,205 @@
+{
+  "projectArtifact" : "org.ibboost.orqa:orqa-maven-plugin:1.1.1",
+  "repositoryDir" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/org.ibboost.orqa:orqa-maven-plugin",
+  "repositorySubDir" : "",
+  "artifactLocation" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.ibboost.orqa:orqa-maven-plugin:1.1.1",
+  "fileImportReports" : [ {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/org.ibboost.orqa:orqa-maven-plugin/src/main/java/org/ibboost/orqa/maven/ExecuteMojo.java",
+    "useImportReport" : [ {
+      "importPath" : "import org.apache.maven.plugin.AbstractMojo;",
+      "artifact" : {
+        "artifact" : "org.apache.maven:maven-plugin-api:3.9.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.ibboost.orqa:orqa-maven-plugin:1.1.1/dependencies/org/apache/maven/maven-plugin-api/3.9.1/maven-plugin-api-3.9.1.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.apache.maven.plugins.annotations.Mojo;",
+      "artifact" : {
+        "artifact" : "org.apache.maven.plugin-tools:maven-plugin-annotations:3.8.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.ibboost.orqa:orqa-maven-plugin:1.1.1/dependencies/org/apache/maven/plugin-tools/maven-plugin-annotations/3.8.1/maven-plugin-annotations-3.8.1.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.apache.maven.plugins.annotations.LifecyclePhase;",
+      "artifact" : {
+        "artifact" : "org.apache.maven.plugin-tools:maven-plugin-annotations:3.8.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.ibboost.orqa:orqa-maven-plugin:1.1.1/dependencies/org/apache/maven/plugin-tools/maven-plugin-annotations/3.8.1/maven-plugin-annotations-3.8.1.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import java.io.File;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.apache.maven.plugins.annotations.Parameter;",
+      "artifact" : {
+        "artifact" : "org.apache.maven.plugin-tools:maven-plugin-annotations:3.8.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.ibboost.orqa:orqa-maven-plugin:1.1.1/dependencies/org/apache/maven/plugin-tools/maven-plugin-annotations/3.8.1/maven-plugin-annotations-3.8.1.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import java.util.Map;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.apache.maven.plugin.MojoExecutionException;",
+      "artifact" : {
+        "artifact" : "org.apache.maven:maven-plugin-api:3.9.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.ibboost.orqa:orqa-maven-plugin:1.1.1/dependencies/org/apache/maven/maven-plugin-api/3.9.1/maven-plugin-api-3.9.1.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.apache.maven.plugin.MojoFailureException;",
+      "artifact" : {
+        "artifact" : "org.apache.maven:maven-plugin-api:3.9.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.ibboost.orqa:orqa-maven-plugin:1.1.1/dependencies/org/apache/maven/maven-plugin-api/3.9.1/maven-plugin-api-3.9.1.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import java.util.Map.Entry;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ {
+      "importPath" : "import org.ibboost.orqa.maven.domain.OrqaExecution;"
+    }, {
+      "importPath" : "import org.ibboost.orqa.maven.services.OrqaExecutionResult;"
+    }, {
+      "importPath" : "import org.ibboost.orqa.maven.services.OrqaExecutionService;"
+    }, {
+      "importPath" : "import org.ibboost.orqa.maven.utils.OutputHandler;"
+    } ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/org.ibboost.orqa:orqa-maven-plugin/src/main/java/org/ibboost/orqa/maven/utils/OutputHandler.java",
+    "useImportReport" : [ {
+      "importPath" : "import org.apache.maven.plugin.logging.Log;",
+      "artifact" : {
+        "artifact" : "org.apache.maven:maven-plugin-api:3.9.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.ibboost.orqa:orqa-maven-plugin:1.1.1/dependencies/org/apache/maven/maven-plugin-api/3.9.1/maven-plugin-api-3.9.1.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import java.io.InputStream;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.io.BufferedReader;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.io.InputStreamReader;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/org.ibboost.orqa:orqa-maven-plugin/src/main/java/org/ibboost/orqa/maven/domain/OrqaExecution.java",
+    "useImportReport" : [ {
+      "importPath" : "import java.io.File;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.Map;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/org.ibboost.orqa:orqa-maven-plugin/src/main/java/org/ibboost/orqa/maven/services/OrqaExecutionService.java",
+    "useImportReport" : [ {
+      "importPath" : "import java.util.List;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.ArrayList;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.Map;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.Map.Entry;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.lang.ProcessBuilder.Redirect;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.io.IOException;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ {
+      "importPath" : "import org.ibboost.orqa.maven.domain.OrqaExecution;"
+    }, {
+      "importPath" : "import org.ibboost.orqa.maven.utils.OutputHandler;"
+    } ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/org.ibboost.orqa:orqa-maven-plugin/src/main/java/org/ibboost/orqa/maven/services/OrqaExecutionResult.java",
+    "useImportReport" : [ ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  } ],
+  "projectUseDependencies" : [ {
+    "artifact" : "org.apache.maven:maven-plugin-api:3.9.1",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.ibboost.orqa:orqa-maven-plugin:1.1.1/dependencies/org/apache/maven/maven-plugin-api/3.9.1/maven-plugin-api-3.9.1.jar"
+  }, {
+    "artifact" : "org.apache.maven.plugin-tools:maven-plugin-annotations:3.8.1",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.ibboost.orqa:orqa-maven-plugin:1.1.1/dependencies/org/apache/maven/plugin-tools/maven-plugin-annotations/3.8.1/maven-plugin-annotations-3.8.1.jar"
+  } ],
+  "projectUseTransitiveDependencies" : [ ],
+  "projectUnusedDependencies" : [ ]
+}

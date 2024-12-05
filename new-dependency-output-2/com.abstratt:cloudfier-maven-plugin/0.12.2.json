@@ -1,0 +1,451 @@
+{
+  "projectArtifact" : "com.abstratt:cloudfier-maven-plugin:0.12.2",
+  "repositoryDir" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/com.abstratt:cloudfier-maven-plugin",
+  "repositorySubDir" : "",
+  "artifactLocation" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.abstratt:cloudfier-maven-plugin:0.12.2",
+  "fileImportReports" : [ {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/com.abstratt:cloudfier-maven-plugin/src/main/java/com/abstratt/kirra/mojo/AbstractCloudfierMojo.java",
+    "useImportReport" : [ {
+      "importPath" : "import org.apache.maven.plugin.AbstractMojo;",
+      "artifact" : {
+        "artifact" : "org.apache.maven:maven-plugin-api:2.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.abstratt:cloudfier-maven-plugin:0.12.2/dependencies/org/apache/maven/maven-plugin-api/2.0/maven-plugin-api-2.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import java.util.UUID;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.apache.maven.plugins.annotations.Parameter;",
+      "artifact" : {
+        "artifact" : "org.apache.maven.plugin-tools:maven-plugin-annotations:3.3",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.abstratt:cloudfier-maven-plugin:0.12.2/dependencies/org/apache/maven/plugin-tools/maven-plugin-annotations/3.3/maven-plugin-annotations-3.3.jar"
+      },
+      "isDirectDependency" : true
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/com.abstratt:cloudfier-maven-plugin/src/main/java/com/abstratt/kirra/mojo/TesterMojo.java",
+    "useImportReport" : [ {
+      "importPath" : "import org.apache.maven.plugins.annotations.Mojo;",
+      "artifact" : {
+        "artifact" : "org.apache.maven.plugin-tools:maven-plugin-annotations:3.3",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.abstratt:cloudfier-maven-plugin:0.12.2/dependencies/org/apache/maven/plugin-tools/maven-plugin-annotations/3.3/maven-plugin-annotations-3.3.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.apache.maven.plugins.annotations.LifecyclePhase;",
+      "artifact" : {
+        "artifact" : "org.apache.maven.plugin-tools:maven-plugin-annotations:3.3",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.abstratt:cloudfier-maven-plugin:0.12.2/dependencies/org/apache/maven/plugin-tools/maven-plugin-annotations/3.3/maven-plugin-annotations-3.3.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.apache.maven.plugin.MojoExecutionException;",
+      "artifact" : {
+        "artifact" : "org.apache.maven:maven-plugin-api:2.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.abstratt:cloudfier-maven-plugin:0.12.2/dependencies/org/apache/maven/maven-plugin-api/2.0/maven-plugin-api-2.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.apache.commons.httpclient.HttpClient;",
+      "artifact" : {
+        "artifact" : "commons-httpclient:commons-httpclient:3.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.abstratt:cloudfier-maven-plugin:0.12.2/dependencies/commons-httpclient/commons-httpclient/3.1/commons-httpclient-3.1.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.apache.commons.httpclient.methods.PostMethod;",
+      "artifact" : {
+        "artifact" : "commons-httpclient:commons-httpclient:3.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.abstratt:cloudfier-maven-plugin:0.12.2/dependencies/commons-httpclient/commons-httpclient/3.1/commons-httpclient-3.1.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import java.io.IOException;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.fasterxml.jackson.databind.JsonNode;",
+      "artifact" : {
+        "artifact" : "com.fasterxml.jackson.core:jackson-databind:2.3.2",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.abstratt:cloudfier-maven-plugin:0.12.2/dependencies/com/fasterxml/jackson/core/jackson-databind/2.3.2/jackson-databind-2.3.2.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import java.io.StringReader;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.fasterxml.jackson.databind.node.ArrayNode;",
+      "artifact" : {
+        "artifact" : "com.fasterxml.jackson.core:jackson-databind:2.3.2",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.abstratt:cloudfier-maven-plugin:0.12.2/dependencies/com/fasterxml/jackson/core/jackson-databind/2.3.2/jackson-databind-2.3.2.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import com.fasterxml.jackson.core.JsonProcessingException;",
+      "artifact" : {
+        "artifact" : "com.fasterxml.jackson.core:jackson-core:2.3.2",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.abstratt:cloudfier-maven-plugin:0.12.2/dependencies/com/fasterxml/jackson/core/jackson-core/2.3.2/jackson-core-2.3.2.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import java.io.Reader;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.fasterxml.jackson.core.JsonParseException;",
+      "artifact" : {
+        "artifact" : "com.fasterxml.jackson.core:jackson-core:2.3.2",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.abstratt:cloudfier-maven-plugin:0.12.2/dependencies/com/fasterxml/jackson/core/jackson-core/2.3.2/jackson-core-2.3.2.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import com.fasterxml.jackson.core.JsonParser;",
+      "artifact" : {
+        "artifact" : "com.fasterxml.jackson.core:jackson-core:2.3.2",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.abstratt:cloudfier-maven-plugin:0.12.2/dependencies/com/fasterxml/jackson/core/jackson-core/2.3.2/jackson-core-2.3.2.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import com.fasterxml.jackson.core.JsonFactory;",
+      "artifact" : {
+        "artifact" : "com.fasterxml.jackson.core:jackson-core:2.3.2",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.abstratt:cloudfier-maven-plugin:0.12.2/dependencies/com/fasterxml/jackson/core/jackson-core/2.3.2/jackson-core-2.3.2.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import com.fasterxml.jackson.databind.ObjectMapper;",
+      "artifact" : {
+        "artifact" : "com.fasterxml.jackson.core:jackson-databind:2.3.2",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.abstratt:cloudfier-maven-plugin:0.12.2/dependencies/com/fasterxml/jackson/core/jackson-databind/2.3.2/jackson-databind-2.3.2.jar"
+      },
+      "isDirectDependency" : true
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/com.abstratt:cloudfier-maven-plugin/src/main/java/com/abstratt/kirra/mojo/PublisherMojo.java",
+    "useImportReport" : [ {
+      "importPath" : "import org.apache.maven.plugins.annotations.Mojo;",
+      "artifact" : {
+        "artifact" : "org.apache.maven.plugin-tools:maven-plugin-annotations:3.3",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.abstratt:cloudfier-maven-plugin:0.12.2/dependencies/org/apache/maven/plugin-tools/maven-plugin-annotations/3.3/maven-plugin-annotations-3.3.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.apache.maven.plugins.annotations.LifecyclePhase;",
+      "artifact" : {
+        "artifact" : "org.apache.maven.plugin-tools:maven-plugin-annotations:3.3",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.abstratt:cloudfier-maven-plugin:0.12.2/dependencies/org/apache/maven/plugin-tools/maven-plugin-annotations/3.3/maven-plugin-annotations-3.3.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.apache.maven.plugins.annotations.Parameter;",
+      "artifact" : {
+        "artifact" : "org.apache.maven.plugin-tools:maven-plugin-annotations:3.3",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.abstratt:cloudfier-maven-plugin:0.12.2/dependencies/org/apache/maven/plugin-tools/maven-plugin-annotations/3.3/maven-plugin-annotations-3.3.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.apache.maven.plugin.MojoExecutionException;",
+      "artifact" : {
+        "artifact" : "org.apache.maven:maven-plugin-api:2.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.abstratt:cloudfier-maven-plugin:0.12.2/dependencies/org/apache/maven/maven-plugin-api/2.0/maven-plugin-api-2.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.apache.commons.httpclient.HttpClient;",
+      "artifact" : {
+        "artifact" : "commons-httpclient:commons-httpclient:3.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.abstratt:cloudfier-maven-plugin:0.12.2/dependencies/commons-httpclient/commons-httpclient/3.1/commons-httpclient-3.1.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import java.io.File;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.apache.commons.httpclient.HttpMethod;",
+      "artifact" : {
+        "artifact" : "commons-httpclient:commons-httpclient:3.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.abstratt:cloudfier-maven-plugin:0.12.2/dependencies/commons-httpclient/commons-httpclient/3.1/commons-httpclient-3.1.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import java.nio.file.Path;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.stream.Stream;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.nio.file.Files;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.Map;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.stream.Collectors;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.net.URI;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.io.IOException;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.apache.commons.io.FileUtils;",
+      "artifact" : {
+        "artifact" : "commons-io:commons-io:1.4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.abstratt:cloudfier-maven-plugin:0.12.2/dependencies/commons-io/commons-io/1.4/commons-io-1.4.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.apache.commons.httpclient.HttpException;",
+      "artifact" : {
+        "artifact" : "commons-httpclient:commons-httpclient:3.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.abstratt:cloudfier-maven-plugin:0.12.2/dependencies/commons-httpclient/commons-httpclient/3.1/commons-httpclient-3.1.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.apache.commons.httpclient.methods.PostMethod;",
+      "artifact" : {
+        "artifact" : "commons-httpclient:commons-httpclient:3.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.abstratt:cloudfier-maven-plugin:0.12.2/dependencies/commons-httpclient/commons-httpclient/3.1/commons-httpclient-3.1.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import java.util.List;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.apache.commons.httpclient.methods.multipart.Part;",
+      "artifact" : {
+        "artifact" : "commons-httpclient:commons-httpclient:3.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.abstratt:cloudfier-maven-plugin:0.12.2/dependencies/commons-httpclient/commons-httpclient/3.1/commons-httpclient-3.1.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import java.util.ArrayList;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.Map.Entry;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.apache.commons.httpclient.methods.multipart.FilePart;",
+      "artifact" : {
+        "artifact" : "commons-httpclient:commons-httpclient:3.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.abstratt:cloudfier-maven-plugin:0.12.2/dependencies/commons-httpclient/commons-httpclient/3.1/commons-httpclient-3.1.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.apache.commons.httpclient.methods.multipart.ByteArrayPartSource;",
+      "artifact" : {
+        "artifact" : "commons-httpclient:commons-httpclient:3.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.abstratt:cloudfier-maven-plugin:0.12.2/dependencies/commons-httpclient/commons-httpclient/3.1/commons-httpclient-3.1.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.apache.commons.httpclient.methods.multipart.MultipartRequestEntity;",
+      "artifact" : {
+        "artifact" : "commons-httpclient:commons-httpclient:3.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.abstratt:cloudfier-maven-plugin:0.12.2/dependencies/commons-httpclient/commons-httpclient/3.1/commons-httpclient-3.1.jar"
+      },
+      "isDirectDependency" : true
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/com.abstratt:cloudfier-maven-plugin/src/main/java/com/abstratt/kirra/mojo/GeneratorMojo.java",
+    "useImportReport" : [ {
+      "importPath" : "import org.apache.maven.plugins.annotations.Mojo;",
+      "artifact" : {
+        "artifact" : "org.apache.maven.plugin-tools:maven-plugin-annotations:3.3",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.abstratt:cloudfier-maven-plugin:0.12.2/dependencies/org/apache/maven/plugin-tools/maven-plugin-annotations/3.3/maven-plugin-annotations-3.3.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.apache.maven.plugins.annotations.LifecyclePhase;",
+      "artifact" : {
+        "artifact" : "org.apache.maven.plugin-tools:maven-plugin-annotations:3.3",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.abstratt:cloudfier-maven-plugin:0.12.2/dependencies/org/apache/maven/plugin-tools/maven-plugin-annotations/3.3/maven-plugin-annotations-3.3.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.apache.maven.plugins.annotations.Parameter;",
+      "artifact" : {
+        "artifact" : "org.apache.maven.plugin-tools:maven-plugin-annotations:3.3",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.abstratt:cloudfier-maven-plugin:0.12.2/dependencies/org/apache/maven/plugin-tools/maven-plugin-annotations/3.3/maven-plugin-annotations-3.3.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.apache.maven.plugin.MojoExecutionException;",
+      "artifact" : {
+        "artifact" : "org.apache.maven:maven-plugin-api:2.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.abstratt:cloudfier-maven-plugin:0.12.2/dependencies/org/apache/maven/maven-plugin-api/2.0/maven-plugin-api-2.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.apache.commons.httpclient.methods.GetMethod;",
+      "artifact" : {
+        "artifact" : "commons-httpclient:commons-httpclient:3.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.abstratt:cloudfier-maven-plugin:0.12.2/dependencies/commons-httpclient/commons-httpclient/3.1/commons-httpclient-3.1.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.apache.commons.httpclient.HttpClient;",
+      "artifact" : {
+        "artifact" : "commons-httpclient:commons-httpclient:3.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.abstratt:cloudfier-maven-plugin:0.12.2/dependencies/commons-httpclient/commons-httpclient/3.1/commons-httpclient-3.1.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import java.io.File;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.apache.commons.io.FileUtils;",
+      "artifact" : {
+        "artifact" : "commons-io:commons-io:1.4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.abstratt:cloudfier-maven-plugin:0.12.2/dependencies/commons-io/commons-io/1.4/commons-io-1.4.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import java.util.zip.ZipFile;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.Enumeration;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.zip.ZipEntry;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.io.InputStream;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.io.OutputStream;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.apache.commons.io.IOUtils;",
+      "artifact" : {
+        "artifact" : "commons-io:commons-io:1.4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.abstratt:cloudfier-maven-plugin:0.12.2/dependencies/commons-io/commons-io/1.4/commons-io-1.4.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import java.io.IOException;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  } ],
+  "projectUseDependencies" : [ {
+    "artifact" : "org.apache.maven:maven-plugin-api:2.0",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.abstratt:cloudfier-maven-plugin:0.12.2/dependencies/org/apache/maven/maven-plugin-api/2.0/maven-plugin-api-2.0.jar"
+  }, {
+    "artifact" : "org.apache.maven.plugin-tools:maven-plugin-annotations:3.3",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.abstratt:cloudfier-maven-plugin:0.12.2/dependencies/org/apache/maven/plugin-tools/maven-plugin-annotations/3.3/maven-plugin-annotations-3.3.jar"
+  }, {
+    "artifact" : "commons-httpclient:commons-httpclient:3.1",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.abstratt:cloudfier-maven-plugin:0.12.2/dependencies/commons-httpclient/commons-httpclient/3.1/commons-httpclient-3.1.jar"
+  }, {
+    "artifact" : "com.fasterxml.jackson.core:jackson-databind:2.3.2",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.abstratt:cloudfier-maven-plugin:0.12.2/dependencies/com/fasterxml/jackson/core/jackson-databind/2.3.2/jackson-databind-2.3.2.jar"
+  }, {
+    "artifact" : "com.fasterxml.jackson.core:jackson-core:2.3.2",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.abstratt:cloudfier-maven-plugin:0.12.2/dependencies/com/fasterxml/jackson/core/jackson-core/2.3.2/jackson-core-2.3.2.jar"
+  }, {
+    "artifact" : "commons-io:commons-io:1.4",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.abstratt:cloudfier-maven-plugin:0.12.2/dependencies/commons-io/commons-io/1.4/commons-io-1.4.jar"
+  } ],
+  "projectUseTransitiveDependencies" : [ ],
+  "projectUnusedDependencies" : [ ]
+}

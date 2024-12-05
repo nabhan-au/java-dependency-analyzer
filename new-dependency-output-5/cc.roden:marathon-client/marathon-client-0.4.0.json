@@ -1,0 +1,292 @@
+{
+  "projectArtifact" : "cc.roden:marathon-client:marathon-client-0.4.0",
+  "repositoryDir" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/cc.roden:marathon-client",
+  "repositorySubDir" : "",
+  "artifactLocation" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/cc.roden:marathon-client:marathon-client-0.4.0",
+  "fileImportReports" : [ {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/cc.roden:marathon-client/src/main/java/mesosphere/marathon/client/MarathonClient.java",
+    "useImportReport" : [ {
+      "importPath" : "import feign.RequestInterceptor;",
+      "artifact" : {
+        "artifact" : "com.netflix.feign:feign-core:6.1.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/cc.roden:marathon-client:marathon-client-0.4.0/dependencies/com/netflix/feign/feign-core/6.1.1/feign-core-6.1.1.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import feign.RequestTemplate;",
+      "artifact" : {
+        "artifact" : "com.netflix.feign:feign-core:6.1.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/cc.roden:marathon-client:marathon-client-0.4.0/dependencies/com/netflix/feign/feign-core/6.1.1/feign-core-6.1.1.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import feign.gson.GsonDecoder;",
+      "artifact" : {
+        "artifact" : "com.netflix.feign:feign-gson:6.1.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/cc.roden:marathon-client:marathon-client-0.4.0/dependencies/com/netflix/feign/feign-gson/6.1.1/feign-gson-6.1.1.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import feign.gson.GsonEncoder;",
+      "artifact" : {
+        "artifact" : "com.netflix.feign:feign-gson:6.1.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/cc.roden:marathon-client:marathon-client-0.4.0/dependencies/com/netflix/feign/feign-gson/6.1.1/feign-gson-6.1.1.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import feign.Feign;",
+      "artifact" : {
+        "artifact" : "com.netflix.feign:feign-core:6.1.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/cc.roden:marathon-client:marathon-client-0.4.0/dependencies/com/netflix/feign/feign-core/6.1.1/feign-core-6.1.1.jar"
+      },
+      "isDirectDependency" : true
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ {
+      "importPath" : "import mesosphere.marathon.client.utils.ModelUtils;"
+    } ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/cc.roden:marathon-client/src/main/java/mesosphere/marathon/client/utils/ModelUtils.java",
+    "useImportReport" : [ {
+      "importPath" : "import com.google.gson.Gson;",
+      "artifact" : {
+        "artifact" : "com.google.code.gson:gson:2.2.4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/cc.roden:marathon-client:marathon-client-0.4.0/dependencies/com/google/code/gson/gson/2.2.4/gson-2.2.4.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import com.google.gson.GsonBuilder;",
+      "artifact" : {
+        "artifact" : "com.google.code.gson:gson:2.2.4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/cc.roden:marathon-client:marathon-client-0.4.0/dependencies/com/google/code/gson/gson/2.2.4/gson-2.2.4.jar"
+      },
+      "isDirectDependency" : true
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/cc.roden:marathon-client/src/main/java/mesosphere/marathon/client/model/v2/GetAppsResponse.java",
+    "useImportReport" : [ {
+      "importPath" : "import java.util.List;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ {
+      "importPath" : "import mesosphere.marathon.client.utils.ModelUtils;"
+    } ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/cc.roden:marathon-client/src/main/java/mesosphere/marathon/client/model/v2/DeleteAppTaskResponse.java",
+    "useImportReport" : [ ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ {
+      "importPath" : "import mesosphere.marathon.client.utils.ModelUtils;"
+    } ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/cc.roden:marathon-client/src/main/java/mesosphere/marathon/client/model/v2/DeleteAppTasksResponse.java",
+    "useImportReport" : [ {
+      "importPath" : "import java.util.Collection;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ {
+      "importPath" : "import mesosphere.marathon.client.utils.ModelUtils;"
+    } ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/cc.roden:marathon-client/src/main/java/mesosphere/marathon/client/model/v2/GetAppTasksResponse.java",
+    "useImportReport" : [ {
+      "importPath" : "import java.util.Collection;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ {
+      "importPath" : "import mesosphere.marathon.client.utils.ModelUtils;"
+    } ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/cc.roden:marathon-client/src/main/java/mesosphere/marathon/client/model/v2/ConstraintOperator.java",
+    "useImportReport" : [ ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/cc.roden:marathon-client/src/main/java/mesosphere/marathon/client/model/v2/GetAppResponse.java",
+    "useImportReport" : [ ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ {
+      "importPath" : "import mesosphere.marathon.client.utils.ModelUtils;"
+    } ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/cc.roden:marathon-client/src/main/java/mesosphere/marathon/client/model/v2/Task.java",
+    "useImportReport" : [ {
+      "importPath" : "import java.util.Collection;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ {
+      "importPath" : "import mesosphere.marathon.client.utils.ModelUtils;"
+    } ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/cc.roden:marathon-client/src/main/java/mesosphere/marathon/client/model/v2/ContainerInfo.java",
+    "useImportReport" : [ {
+      "importPath" : "import java.util.Collection;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.ArrayList;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ {
+      "importPath" : "import mesosphere.marathon.client.utils.ModelUtils;"
+    } ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/cc.roden:marathon-client/src/main/java/mesosphere/marathon/client/model/v2/GetTasksResponse.java",
+    "useImportReport" : [ {
+      "importPath" : "import java.util.Collection;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ {
+      "importPath" : "import mesosphere.marathon.client.utils.ModelUtils;"
+    } ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/cc.roden:marathon-client/src/main/java/mesosphere/marathon/client/model/v2/App.java",
+    "useImportReport" : [ {
+      "importPath" : "import java.util.Collection;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.List;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.Map;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.ArrayList;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ {
+      "importPath" : "import mesosphere.marathon.client.utils.ModelUtils;"
+    } ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/cc.roden:marathon-client/src/main/java/mesosphere/marathon/client/model/v2/package-info.java",
+    "useImportReport" : [ ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/cc.roden:marathon-client/src/main/java/mesosphere/marathon/client/model/package-info.java",
+    "useImportReport" : [ ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/cc.roden:marathon-client/src/main/java/mesosphere/marathon/client/Marathon.java",
+    "useImportReport" : [ {
+      "importPath" : "import feign.RequestLine;",
+      "artifact" : {
+        "artifact" : "com.netflix.feign:feign-core:6.1.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/cc.roden:marathon-client:marathon-client-0.4.0/dependencies/com/netflix/feign/feign-core/6.1.1/feign-core-6.1.1.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import javax.inject.Named;",
+      "artifact" : {
+        "artifact" : "javax.inject:javax.inject:1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/cc.roden:marathon-client:marathon-client-0.4.0/dependencies/javax/inject/javax.inject/1/javax.inject-1.jar"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ {
+      "importPath" : "import mesosphere.marathon.client.model.v2.App;"
+    }, {
+      "importPath" : "import mesosphere.marathon.client.model.v2.DeleteAppTaskResponse;"
+    }, {
+      "importPath" : "import mesosphere.marathon.client.model.v2.DeleteAppTasksResponse;"
+    }, {
+      "importPath" : "import mesosphere.marathon.client.model.v2.GetAppResponse;"
+    }, {
+      "importPath" : "import mesosphere.marathon.client.model.v2.GetAppTasksResponse;"
+    }, {
+      "importPath" : "import mesosphere.marathon.client.model.v2.GetAppsResponse;"
+    }, {
+      "importPath" : "import mesosphere.marathon.client.model.v2.GetTasksResponse;"
+    } ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/cc.roden:marathon-client/src/main/java/mesosphere/marathon/client/package-info.java",
+    "useImportReport" : [ ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  } ],
+  "projectUseDependencies" : [ {
+    "artifact" : "com.netflix.feign:feign-core:6.1.1",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/cc.roden:marathon-client:marathon-client-0.4.0/dependencies/com/netflix/feign/feign-core/6.1.1/feign-core-6.1.1.jar"
+  }, {
+    "artifact" : "com.netflix.feign:feign-gson:6.1.1",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/cc.roden:marathon-client:marathon-client-0.4.0/dependencies/com/netflix/feign/feign-gson/6.1.1/feign-gson-6.1.1.jar"
+  }, {
+    "artifact" : "com.google.code.gson:gson:2.2.4",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/cc.roden:marathon-client:marathon-client-0.4.0/dependencies/com/google/code/gson/gson/2.2.4/gson-2.2.4.jar"
+  } ],
+  "projectUseTransitiveDependencies" : [ ],
+  "projectUnusedDependencies" : [ {
+    "artifact" : "junit:junit:4.11",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/cc.roden:marathon-client:marathon-client-0.4.0/dependencies/junit/junit/4.11/junit-4.11.jar"
+  } ]
+}

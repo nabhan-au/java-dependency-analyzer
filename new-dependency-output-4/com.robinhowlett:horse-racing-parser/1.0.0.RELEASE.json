@@ -1,0 +1,232 @@
+{
+  "projectArtifact" : "com.robinhowlett:horse-racing-parser:1.0.0.RELEASE",
+  "repositoryDir" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/com.robinhowlett:horse-racing-parser",
+  "repositorySubDir" : "",
+  "artifactLocation" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.robinhowlett:horse-racing-parser:1.0.0.RELEASE",
+  "fileImportReports" : [ {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/com.robinhowlett:horse-racing-parser/src/main/java/com/robinhowlett/parsers/Parser.java",
+    "useImportReport" : [ ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/com.robinhowlett:horse-racing-parser/src/main/java/com/robinhowlett/parsers/tracks/TrackRepository.java",
+    "useImportReport" : [ {
+      "importPath" : "import java.util.Optional;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.robinhowlett.data.Track;",
+      "artifact" : {
+        "artifact" : "com.robinhowlett:horse-racing-data-model:1.0.0.RELEASE",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.robinhowlett:horse-racing-parser:1.0.0.RELEASE/dependencies/com/robinhowlett/horse-racing-data-model/1.0.0.RELEASE/horse-racing-data-model-1.0.0.RELEASE.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import java.util.List;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/com.robinhowlett:horse-racing-parser/src/main/java/com/robinhowlett/parsers/tracks/TrackCsvRepository.java",
+    "useImportReport" : [ {
+      "importPath" : "import com.robinhowlett.data.Track;",
+      "artifact" : {
+        "artifact" : "com.robinhowlett:horse-racing-data-model:1.0.0.RELEASE",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.robinhowlett:horse-racing-parser:1.0.0.RELEASE/dependencies/com/robinhowlett/horse-racing-data-model/1.0.0.RELEASE/horse-racing-data-model-1.0.0.RELEASE.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.slf4j.Logger;",
+      "artifact" : {
+        "artifact" : "org.slf4j:slf4j-api:1.7.23",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.robinhowlett:horse-racing-parser:1.0.0.RELEASE/dependencies/org/slf4j/slf4j-api/1.7.23/slf4j-api-1.7.23.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.slf4j.LoggerFactory;",
+      "artifact" : {
+        "artifact" : "org.slf4j:slf4j-api:1.7.23",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.robinhowlett:horse-racing-parser:1.0.0.RELEASE/dependencies/org/slf4j/slf4j-api/1.7.23/slf4j-api-1.7.23.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.fasterxml.jackson.dataformat.csv.CsvMapper;",
+      "artifact" : {
+        "artifact" : "com.fasterxml.jackson.dataformat:jackson-dataformat-csv:2.8.8",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.robinhowlett:horse-racing-parser:1.0.0.RELEASE/dependencies/com/fasterxml/jackson/dataformat/jackson-dataformat-csv/2.8.8/jackson-dataformat-csv-2.8.8.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.Optional;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import static java.util.Optional.of;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import static java.util.Optional.empty;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.List;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.ArrayList;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.fasterxml.jackson.dataformat.csv.CsvSchema;",
+      "artifact" : {
+        "artifact" : "com.fasterxml.jackson.dataformat:jackson-dataformat-csv:2.8.8",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.robinhowlett:horse-racing-parser:1.0.0.RELEASE/dependencies/com/fasterxml/jackson/dataformat/jackson-dataformat-csv/2.8.8/jackson-dataformat-csv-2.8.8.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.io.InputStream;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.fasterxml.jackson.databind.MappingIterator;",
+      "artifact" : {
+        "artifact" : "com.fasterxml.jackson.core:jackson-databind:2.8.8",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.robinhowlett:horse-racing-parser:1.0.0.RELEASE/dependencies/com/fasterxml/jackson/core/jackson-databind/2.8.8/jackson-databind-2.8.8.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.io.IOException;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.fasterxml.jackson.databind.MapperFeature;",
+      "artifact" : {
+        "artifact" : "com.fasterxml.jackson.core:jackson-databind:2.8.8",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.robinhowlett:horse-racing-parser:1.0.0.RELEASE/dependencies/com/fasterxml/jackson/core/jackson-databind/2.8.8/jackson-databind-2.8.8.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.fasterxml.jackson.module.paramnames.ParameterNamesModule;",
+      "artifact" : {
+        "artifact" : "com.fasterxml.jackson.module:jackson-module-parameter-names:2.8.8",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.robinhowlett:horse-racing-parser:1.0.0.RELEASE/dependencies/com/fasterxml/jackson/module/jackson-module-parameter-names/2.8.8/jackson-module-parameter-names-2.8.8.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.fasterxml.jackson.annotation.JsonCreator;",
+      "artifact" : {
+        "artifact" : "com.fasterxml.jackson.core:jackson-annotations:2.8.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.robinhowlett:horse-racing-parser:1.0.0.RELEASE/dependencies/com/fasterxml/jackson/core/jackson-annotations/2.8.0/jackson-annotations-2.8.0.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.fasterxml.jackson.databind.module.SimpleModule;",
+      "artifact" : {
+        "artifact" : "com.fasterxml.jackson.core:jackson-databind:2.8.8",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.robinhowlett:horse-racing-parser:1.0.0.RELEASE/dependencies/com/fasterxml/jackson/core/jackson-databind/2.8.8/jackson-databind-2.8.8.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.time.LocalDate;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.robinhowlett.ser.SimpleLocalDateSerializer;",
+      "artifact" : {
+        "artifact" : "com.robinhowlett:horse-racing-data-model:1.0.0.RELEASE",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.robinhowlett:horse-racing-parser:1.0.0.RELEASE/dependencies/com/robinhowlett/horse-racing-data-model/1.0.0.RELEASE/horse-racing-data-model-1.0.0.RELEASE.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import com.robinhowlett.ser.SimpleLocalDateDeserializer;",
+      "artifact" : {
+        "artifact" : "com.robinhowlett:horse-racing-data-model:1.0.0.RELEASE",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.robinhowlett:horse-racing-parser:1.0.0.RELEASE/dependencies/com/robinhowlett/horse-racing-data-model/1.0.0.RELEASE/horse-racing-data-model-1.0.0.RELEASE.jar"
+      },
+      "isDirectDependency" : true
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/com.robinhowlett:horse-racing-parser/src/main/java/com/robinhowlett/parsers/tracks/TrackService.java",
+    "useImportReport" : [ {
+      "importPath" : "import com.robinhowlett.data.Track;",
+      "artifact" : {
+        "artifact" : "com.robinhowlett:horse-racing-data-model:1.0.0.RELEASE",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.robinhowlett:horse-racing-parser:1.0.0.RELEASE/dependencies/com/robinhowlett/horse-racing-data-model/1.0.0.RELEASE/horse-racing-data-model-1.0.0.RELEASE.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import java.util.Optional;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.List;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/com.robinhowlett:horse-racing-parser/src/main/java/com/robinhowlett/parsers/exceptions/ParserException.java",
+    "useImportReport" : [ {
+      "importPath" : "import com.robinhowlett.exceptions.HorseRacingException;",
+      "artifact" : {
+        "artifact" : "com.robinhowlett:horse-racing-data-model:1.0.0.RELEASE",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.robinhowlett:horse-racing-parser:1.0.0.RELEASE/dependencies/com/robinhowlett/horse-racing-data-model/1.0.0.RELEASE/horse-racing-data-model-1.0.0.RELEASE.jar"
+      },
+      "isDirectDependency" : true
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  } ],
+  "projectUseDependencies" : [ {
+    "artifact" : "com.robinhowlett:horse-racing-data-model:1.0.0.RELEASE",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.robinhowlett:horse-racing-parser:1.0.0.RELEASE/dependencies/com/robinhowlett/horse-racing-data-model/1.0.0.RELEASE/horse-racing-data-model-1.0.0.RELEASE.jar"
+  } ],
+  "projectUseTransitiveDependencies" : [ ],
+  "projectUnusedDependencies" : [ ]
+}

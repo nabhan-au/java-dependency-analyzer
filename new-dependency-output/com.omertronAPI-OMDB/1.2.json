@@ -1,0 +1,807 @@
+{
+  "projectArtifact" : "com.omertron:API-OMDB:1.2",
+  "repositoryDir" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/com.omertron:API-OMDB",
+  "repositorySubDir" : "",
+  "artifactLocation" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.omertron:API-OMDB:1.2",
+  "fileImportReports" : [ {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/com.omertron:API-OMDB/src/test/java/com/omertron/omdbapi/tools/OmdbUrlBuilderTest.java",
+    "useImportReport" : [ {
+      "importPath" : "import org.slf4j.Logger;",
+      "artifact" : {
+        "artifact" : "org.slf4j:slf4j-api:1.7.16",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.omertron:API-OMDB:1.2/dependencies/org/slf4j/slf4j-api/1.7.16/slf4j-api-1.7.16.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.slf4j.LoggerFactory;",
+      "artifact" : {
+        "artifact" : "org.slf4j:slf4j-api:1.7.16",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.omertron:API-OMDB:1.2/dependencies/org/slf4j/slf4j-api/1.7.16/slf4j-api-1.7.16.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.junit.BeforeClass;",
+      "artifact" : {
+        "artifact" : "junit:junit:4.12",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.omertron:API-OMDB:1.2/dependencies/junit/junit/4.12/junit-4.12.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.junit.Test;",
+      "artifact" : {
+        "artifact" : "junit:junit:4.12",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.omertron:API-OMDB:1.2/dependencies/junit/junit/4.12/junit-4.12.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.omertron.omdbapi.OMDBException;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import static org.junit.Assert.assertEquals;",
+      "artifact" : {
+        "artifact" : "junit:junit:4.12",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.omertron:API-OMDB:1.2/dependencies/junit/junit/4.12/junit-4.12.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.omertron.omdbapi.emumerations.ResultType;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.yamj.api.common.exception.ApiExceptionType;",
+      "artifact" : {
+        "artifact" : "org.yamj:api-common:2.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.omertron:API-OMDB:1.2/dependencies/org/yamj/api-common/2.0/api-common-2.0.jar"
+      },
+      "isDirectDependency" : true
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ {
+      "importPath" : "import com.omertron.omdbapi.TestLogger;"
+    } ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/com.omertron:API-OMDB/src/test/java/com/omertron/omdbapi/OmdbApiTest.java",
+    "useImportReport" : [ {
+      "importPath" : "import org.slf4j.Logger;",
+      "artifact" : {
+        "artifact" : "org.slf4j:slf4j-api:1.7.16",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.omertron:API-OMDB:1.2/dependencies/org/slf4j/slf4j-api/1.7.16/slf4j-api-1.7.16.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.slf4j.LoggerFactory;",
+      "artifact" : {
+        "artifact" : "org.slf4j:slf4j-api:1.7.16",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.omertron:API-OMDB:1.2/dependencies/org/slf4j/slf4j-api/1.7.16/slf4j-api-1.7.16.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import java.util.List;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.ArrayList;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.junit.BeforeClass;",
+      "artifact" : {
+        "artifact" : "junit:junit:4.12",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.omertron:API-OMDB:1.2/dependencies/junit/junit/4.12/junit-4.12.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.junit.Test;",
+      "artifact" : {
+        "artifact" : "junit:junit:4.12",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.omertron:API-OMDB:1.2/dependencies/junit/junit/4.12/junit-4.12.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.omertron.omdbapi.model.SearchResults;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.omertron.omdbapi.tools.OmdbBuilder;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import static org.junit.Assert.assertNotNull;",
+      "artifact" : {
+        "artifact" : "junit:junit:4.12",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.omertron:API-OMDB:1.2/dependencies/junit/junit/4.12/junit-4.12.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import static org.junit.Assert.assertTrue;",
+      "artifact" : {
+        "artifact" : "junit:junit:4.12",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.omertron:API-OMDB:1.2/dependencies/junit/junit/4.12/junit-4.12.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.omertron.omdbapi.model.OmdbVideoBasic;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.apache.commons.lang3.StringUtils;",
+      "artifact" : {
+        "artifact" : "org.apache.commons:commons-lang3:3.4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.omertron:API-OMDB:1.2/dependencies/org/apache/commons/commons-lang3/3.4/commons-lang3-3.4.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import com.omertron.omdbapi.model.OmdbVideoFull;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import static org.junit.Assert.assertEquals;",
+      "artifact" : {
+        "artifact" : "junit:junit:4.12",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.omertron:API-OMDB:1.2/dependencies/junit/junit/4.12/junit-4.12.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import static org.junit.Assert.assertFalse;",
+      "artifact" : {
+        "artifact" : "junit:junit:4.12",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.omertron:API-OMDB:1.2/dependencies/junit/junit/4.12/junit-4.12.jar"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/com.omertron:API-OMDB/src/test/java/com/omertron/omdbapi/TestLogger.java",
+    "useImportReport" : [ {
+      "importPath" : "import org.slf4j.Logger;",
+      "artifact" : {
+        "artifact" : "org.slf4j:slf4j-api:1.7.16",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.omertron:API-OMDB:1.2/dependencies/org/slf4j/slf4j-api/1.7.16/slf4j-api-1.7.16.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.slf4j.LoggerFactory;",
+      "artifact" : {
+        "artifact" : "org.slf4j:slf4j-api:1.7.16",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.omertron:API-OMDB:1.2/dependencies/org/slf4j/slf4j-api/1.7.16/slf4j-api-1.7.16.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import java.io.InputStream;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.io.ByteArrayInputStream;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.logging.LogManager;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.io.IOException;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/com.omertron:API-OMDB/src/test/java/com/omertron/omdbapi/TestID.java",
+    "useImportReport" : [ {
+      "importPath" : "import org.apache.commons.lang3.builder.ToStringBuilder;",
+      "artifact" : {
+        "artifact" : "org.apache.commons:commons-lang3:3.4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.omertron:API-OMDB:1.2/dependencies/org/apache/commons/commons-lang3/3.4/commons-lang3-3.4.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.apache.commons.lang3.builder.ToStringStyle;",
+      "artifact" : {
+        "artifact" : "org.apache.commons:commons-lang3:3.4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.omertron:API-OMDB:1.2/dependencies/org/apache/commons/commons-lang3/3.4/commons-lang3-3.4.jar"
+      },
+      "isDirectDependency" : true
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/com.omertron:API-OMDB/src/main/java/com/omertron/omdbapi/OmdbApi.java",
+    "useImportReport" : [ {
+      "importPath" : "import org.slf4j.Logger;",
+      "artifact" : {
+        "artifact" : "org.slf4j:slf4j-api:1.7.16",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.omertron:API-OMDB:1.2/dependencies/org/slf4j/slf4j-api/1.7.16/slf4j-api-1.7.16.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.slf4j.LoggerFactory;",
+      "artifact" : {
+        "artifact" : "org.slf4j:slf4j-api:1.7.16",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.omertron:API-OMDB:1.2/dependencies/org/slf4j/slf4j-api/1.7.16/slf4j-api-1.7.16.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.apache.http.client.HttpClient;",
+      "artifact" : {
+        "artifact" : "org.apache.httpcomponents:httpclient:4.5.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.omertron:API-OMDB:1.2/dependencies/org/apache/httpcomponents/httpclient/4.5.1/httpclient-4.5.1.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.fasterxml.jackson.databind.ObjectMapper;",
+      "artifact" : {
+        "artifact" : "com.fasterxml.jackson.core:jackson-databind:2.7.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.omertron:API-OMDB:1.2/dependencies/com/fasterxml/jackson/core/jackson-databind/2.7.1/jackson-databind-2.7.1.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import java.nio.charset.Charset;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.yamj.api.common.http.SimpleHttpClientBuilder;",
+      "artifact" : {
+        "artifact" : "org.yamj:api-common:2.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.omertron:API-OMDB:1.2/dependencies/org/yamj/api-common/2.0/api-common-2.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import java.net.URL;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.apache.http.client.methods.HttpGet;",
+      "artifact" : {
+        "artifact" : "org.apache.httpcomponents:httpclient:4.5.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.omertron:API-OMDB:1.2/dependencies/org/apache/httpcomponents/httpclient/4.5.1/httpclient-4.5.1.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.apache.http.protocol.HTTP;",
+      "artifact" : {
+        "artifact" : "org.apache.httpcomponents:httpcore:4.4.3",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.omertron:API-OMDB:1.2/dependencies/org/apache/httpcomponents/httpcore/4.4.3/httpcore-4.4.3.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.yamj.api.common.http.UserAgentSelector;",
+      "artifact" : {
+        "artifact" : "org.yamj:api-common:2.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.omertron:API-OMDB:1.2/dependencies/org/yamj/api-common/2.0/api-common-2.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.yamj.api.common.http.DigestedResponse;",
+      "artifact" : {
+        "artifact" : "org.yamj:api-common:2.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.omertron:API-OMDB:1.2/dependencies/org/yamj/api-common/2.0/api-common-2.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.yamj.api.common.http.DigestedResponseReader;",
+      "artifact" : {
+        "artifact" : "org.yamj:api-common:2.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.omertron:API-OMDB:1.2/dependencies/org/yamj/api-common/2.0/api-common-2.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.yamj.api.common.exception.ApiExceptionType;",
+      "artifact" : {
+        "artifact" : "org.yamj:api-common:2.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.omertron:API-OMDB:1.2/dependencies/org/yamj/api-common/2.0/api-common-2.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import java.net.URISyntaxException;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.io.IOException;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.omertron.omdbapi.model.SearchResults;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.omertron.omdbapi.tools.OmdbParameters;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.omertron.omdbapi.tools.OmdbUrlBuilder;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.omertron.omdbapi.tools.OmdbBuilder;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.omertron.omdbapi.model.OmdbVideoFull;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/com.omertron:API-OMDB/src/main/java/com/omertron/omdbapi/OMDBException.java",
+    "useImportReport" : [ {
+      "importPath" : "import org.yamj.api.common.exception.ApiException;",
+      "artifact" : {
+        "artifact" : "org.yamj:api-common:2.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.omertron:API-OMDB:1.2/dependencies/org/yamj/api-common/2.0/api-common-2.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.yamj.api.common.exception.ApiExceptionType;",
+      "artifact" : {
+        "artifact" : "org.yamj:api-common:2.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.omertron:API-OMDB:1.2/dependencies/org/yamj/api-common/2.0/api-common-2.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import java.net.URL;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/com.omertron:API-OMDB/src/main/java/com/omertron/omdbapi/tools/OmdbUrlBuilder.java",
+    "useImportReport" : [ {
+      "importPath" : "import org.slf4j.Logger;",
+      "artifact" : {
+        "artifact" : "org.slf4j:slf4j-api:1.7.16",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.omertron:API-OMDB:1.2/dependencies/org/slf4j/slf4j-api/1.7.16/slf4j-api-1.7.16.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.slf4j.LoggerFactory;",
+      "artifact" : {
+        "artifact" : "org.slf4j:slf4j-api:1.7.16",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.omertron:API-OMDB:1.2/dependencies/org/slf4j/slf4j-api/1.7.16/slf4j-api-1.7.16.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import com.omertron.omdbapi.OMDBException;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.yamj.api.common.exception.ApiExceptionType;",
+      "artifact" : {
+        "artifact" : "org.yamj:api-common:2.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.omertron:API-OMDB:1.2/dependencies/org/yamj/api-common/2.0/api-common-2.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import com.omertron.omdbapi.emumerations.PlotType;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.net.URL;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.net.MalformedURLException;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/com.omertron:API-OMDB/src/main/java/com/omertron/omdbapi/tools/OmdbParameters.java",
+    "useImportReport" : [ {
+      "importPath" : "import java.util.Map;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.EnumMap;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.omertron.omdbapi.emumerations.PlotType;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.omertron.omdbapi.emumerations.ResultType;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.omertron.omdbapi.emumerations.DataType;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.apache.commons.lang3.builder.ToStringBuilder;",
+      "artifact" : {
+        "artifact" : "org.apache.commons:commons-lang3:3.4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.omertron:API-OMDB:1.2/dependencies/org/apache/commons/commons-lang3/3.4/commons-lang3-3.4.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.apache.commons.lang3.builder.ToStringStyle;",
+      "artifact" : {
+        "artifact" : "org.apache.commons:commons-lang3:3.4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.omertron:API-OMDB:1.2/dependencies/org/apache/commons/commons-lang3/3.4/commons-lang3-3.4.jar"
+      },
+      "isDirectDependency" : true
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/com.omertron:API-OMDB/src/main/java/com/omertron/omdbapi/tools/OmdbBuilder.java",
+    "useImportReport" : [ {
+      "importPath" : "import org.slf4j.Logger;",
+      "artifact" : {
+        "artifact" : "org.slf4j:slf4j-api:1.7.16",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.omertron:API-OMDB:1.2/dependencies/org/slf4j/slf4j-api/1.7.16/slf4j-api-1.7.16.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.slf4j.LoggerFactory;",
+      "artifact" : {
+        "artifact" : "org.slf4j:slf4j-api:1.7.16",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.omertron:API-OMDB:1.2/dependencies/org/slf4j/slf4j-api/1.7.16/slf4j-api-1.7.16.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import com.omertron.omdbapi.OMDBException;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.apache.commons.lang3.StringUtils;",
+      "artifact" : {
+        "artifact" : "org.apache.commons:commons-lang3:3.4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.omertron:API-OMDB:1.2/dependencies/org/apache/commons/commons-lang3/3.4/commons-lang3-3.4.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.yamj.api.common.exception.ApiExceptionType;",
+      "artifact" : {
+        "artifact" : "org.yamj:api-common:2.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.omertron:API-OMDB:1.2/dependencies/org/yamj/api-common/2.0/api-common-2.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import com.omertron.omdbapi.emumerations.ResultType;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.omertron.omdbapi.emumerations.PlotType;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.apache.commons.lang3.builder.ToStringBuilder;",
+      "artifact" : {
+        "artifact" : "org.apache.commons:commons-lang3:3.4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.omertron:API-OMDB:1.2/dependencies/org/apache/commons/commons-lang3/3.4/commons-lang3-3.4.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.apache.commons.lang3.builder.ToStringStyle;",
+      "artifact" : {
+        "artifact" : "org.apache.commons:commons-lang3:3.4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.omertron:API-OMDB:1.2/dependencies/org/apache/commons/commons-lang3/3.4/commons-lang3-3.4.jar"
+      },
+      "isDirectDependency" : true
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/com.omertron:API-OMDB/src/main/java/com/omertron/omdbapi/tools/Param.java",
+    "useImportReport" : [ {
+      "importPath" : "import org.apache.commons.lang3.StringUtils;",
+      "artifact" : {
+        "artifact" : "org.apache.commons:commons-lang3:3.4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.omertron:API-OMDB:1.2/dependencies/org/apache/commons/commons-lang3/3.4/commons-lang3-3.4.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import java.util.EnumSet;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/com.omertron:API-OMDB/src/main/java/com/omertron/omdbapi/model/OmdbVideoFull.java",
+    "useImportReport" : [ {
+      "importPath" : "import java.io.Serializable;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.fasterxml.jackson.annotation.JsonProperty;",
+      "artifact" : {
+        "artifact" : "com.fasterxml.jackson.core:jackson-annotations:2.7.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.omertron:API-OMDB:1.2/dependencies/com/fasterxml/jackson/core/jackson-annotations/2.7.1/jackson-annotations-2.7.1.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import java.util.List;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.Collections;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.apache.commons.lang3.math.NumberUtils;",
+      "artifact" : {
+        "artifact" : "org.apache.commons:commons-lang3:3.4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.omertron:API-OMDB:1.2/dependencies/org/apache/commons/commons-lang3/3.4/commons-lang3-3.4.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import com.fasterxml.jackson.annotation.JsonSetter;",
+      "artifact" : {
+        "artifact" : "com.fasterxml.jackson.core:jackson-annotations:2.7.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.omertron:API-OMDB:1.2/dependencies/com/fasterxml/jackson/core/jackson-annotations/2.7.1/jackson-annotations-2.7.1.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import java.util.Arrays;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/com.omertron:API-OMDB/src/main/java/com/omertron/omdbapi/model/OmdbVideoBasic.java",
+    "useImportReport" : [ {
+      "importPath" : "import java.io.Serializable;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.fasterxml.jackson.annotation.JsonProperty;",
+      "artifact" : {
+        "artifact" : "com.fasterxml.jackson.core:jackson-annotations:2.7.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.omertron:API-OMDB:1.2/dependencies/com/fasterxml/jackson/core/jackson-annotations/2.7.1/jackson-annotations-2.7.1.jar"
+      },
+      "isDirectDependency" : true
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/com.omertron:API-OMDB/src/main/java/com/omertron/omdbapi/model/SearchResults.java",
+    "useImportReport" : [ {
+      "importPath" : "import java.util.List;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.fasterxml.jackson.annotation.JsonProperty;",
+      "artifact" : {
+        "artifact" : "com.fasterxml.jackson.core:jackson-annotations:2.7.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.omertron:API-OMDB:1.2/dependencies/com/fasterxml/jackson/core/jackson-annotations/2.7.1/jackson-annotations-2.7.1.jar"
+      },
+      "isDirectDependency" : true
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/com.omertron:API-OMDB/src/main/java/com/omertron/omdbapi/model/AbstractJsonMapping.java",
+    "useImportReport" : [ {
+      "importPath" : "import org.slf4j.Logger;",
+      "artifact" : {
+        "artifact" : "org.slf4j:slf4j-api:1.7.16",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.omertron:API-OMDB:1.2/dependencies/org/slf4j/slf4j-api/1.7.16/slf4j-api-1.7.16.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.slf4j.LoggerFactory;",
+      "artifact" : {
+        "artifact" : "org.slf4j:slf4j-api:1.7.16",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.omertron:API-OMDB:1.2/dependencies/org/slf4j/slf4j-api/1.7.16/slf4j-api-1.7.16.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import com.fasterxml.jackson.annotation.JsonProperty;",
+      "artifact" : {
+        "artifact" : "com.fasterxml.jackson.core:jackson-annotations:2.7.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.omertron:API-OMDB:1.2/dependencies/com/fasterxml/jackson/core/jackson-annotations/2.7.1/jackson-annotations-2.7.1.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import com.fasterxml.jackson.annotation.JsonAnySetter;",
+      "artifact" : {
+        "artifact" : "com.fasterxml.jackson.core:jackson-annotations:2.7.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.omertron:API-OMDB:1.2/dependencies/com/fasterxml/jackson/core/jackson-annotations/2.7.1/jackson-annotations-2.7.1.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.apache.commons.lang3.builder.ToStringBuilder;",
+      "artifact" : {
+        "artifact" : "org.apache.commons:commons-lang3:3.4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.omertron:API-OMDB:1.2/dependencies/org/apache/commons/commons-lang3/3.4/commons-lang3-3.4.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.apache.commons.lang3.builder.ToStringStyle;",
+      "artifact" : {
+        "artifact" : "org.apache.commons:commons-lang3:3.4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.omertron:API-OMDB:1.2/dependencies/org/apache/commons/commons-lang3/3.4/commons-lang3-3.4.jar"
+      },
+      "isDirectDependency" : true
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/com.omertron:API-OMDB/src/main/java/com/omertron/omdbapi/emumerations/ResultType.java",
+    "useImportReport" : [ ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/com.omertron:API-OMDB/src/main/java/com/omertron/omdbapi/emumerations/DataType.java",
+    "useImportReport" : [ ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/com.omertron:API-OMDB/src/main/java/com/omertron/omdbapi/emumerations/PlotType.java",
+    "useImportReport" : [ ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  } ],
+  "projectUseDependencies" : [ {
+    "artifact" : "org.slf4j:slf4j-api:1.7.16",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.omertron:API-OMDB:1.2/dependencies/org/slf4j/slf4j-api/1.7.16/slf4j-api-1.7.16.jar"
+  }, {
+    "artifact" : "org.yamj:api-common:2.0",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.omertron:API-OMDB:1.2/dependencies/org/yamj/api-common/2.0/api-common-2.0.jar"
+  }, {
+    "artifact" : "org.apache.commons:commons-lang3:3.4",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.omertron:API-OMDB:1.2/dependencies/org/apache/commons/commons-lang3/3.4/commons-lang3-3.4.jar"
+  }, {
+    "artifact" : "com.fasterxml.jackson.core:jackson-databind:2.7.1",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.omertron:API-OMDB:1.2/dependencies/com/fasterxml/jackson/core/jackson-databind/2.7.1/jackson-databind-2.7.1.jar"
+  }, {
+    "artifact" : "com.fasterxml.jackson.core:jackson-annotations:2.7.1",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.omertron:API-OMDB:1.2/dependencies/com/fasterxml/jackson/core/jackson-annotations/2.7.1/jackson-annotations-2.7.1.jar"
+  } ],
+  "projectUseTransitiveDependencies" : [ {
+    "artifact" : "com.fasterxml.jackson.core:jackson-core:2.7.1",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.omertron:API-OMDB:1.2/dependencies/com/fasterxml/jackson/core/jackson-core/2.7.1/jackson-core-2.7.1.jar"
+  } ],
+  "projectUnusedDependencies" : [ {
+    "artifact" : "commons-codec:commons-codec:1.10",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.omertron:API-OMDB:1.2/dependencies/commons-codec/commons-codec/1.10/commons-codec-1.10.jar"
+  } ]
+}

@@ -1,0 +1,634 @@
+{
+  "projectArtifact" : "org.littleshoot:sip-bootstrap:1.0.3",
+  "repositoryDir" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/org.littleshoot:sip-bootstrap",
+  "repositorySubDir" : "",
+  "artifactLocation" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.littleshoot:sip-bootstrap:1.0.3",
+  "fileImportReports" : [ {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/org.littleshoot:sip-bootstrap/src/main/java/org/lastbamboo/common/sip/bootstrap/ProxyRegistrarImpl.java",
+    "useImportReport" : [ {
+      "importPath" : "import org.slf4j.Logger;",
+      "artifact" : {
+        "artifact" : "org.slf4j:slf4j-api:1.7.2",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.littleshoot:sip-bootstrap:1.0.3/dependencies/org/slf4j/slf4j-api/1.7.2/slf4j-api-1.7.2.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.slf4j.LoggerFactory;",
+      "artifact" : {
+        "artifact" : "org.slf4j:slf4j-api:1.7.2",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.littleshoot:sip-bootstrap:1.0.3/dependencies/org/slf4j/slf4j-api/1.7.2/slf4j-api-1.7.2.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import java.net.URI;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.lastbamboo.common.sip.client.util.ProxyRegistrationListener;",
+      "artifact" : {
+        "artifact" : "org.littleshoot:sip-client:1.0.3",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.littleshoot:sip-bootstrap:1.0.3/dependencies/org/littleshoot/sip-client/1.0.3/sip-client-1.0.3.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.lastbamboo.common.sip.stack.message.SipMessageFactory;",
+      "artifact" : {
+        "artifact" : "org.littleshoot:sip-stack:1.0.3",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.littleshoot:sip-bootstrap:1.0.3/dependencies/org/littleshoot/sip-stack/1.0.3/sip-stack-1.0.3.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.lastbamboo.common.sip.client.SipClientTracker;",
+      "artifact" : {
+        "artifact" : "org.littleshoot:sip-client:1.0.3",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.littleshoot:sip-bootstrap:1.0.3/dependencies/org/littleshoot/sip-client/1.0.3/sip-client-1.0.3.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.lastbamboo.common.sip.stack.util.UriUtils;",
+      "artifact" : {
+        "artifact" : "org.littleshoot:sip-stack:1.0.3",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.littleshoot:sip-bootstrap:1.0.3/dependencies/org/littleshoot/sip-stack/1.0.3/sip-stack-1.0.3.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.lastbamboo.common.sip.stack.transaction.client.SipTransactionTracker;",
+      "artifact" : {
+        "artifact" : "org.littleshoot:sip-stack:1.0.3",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.littleshoot:sip-bootstrap:1.0.3/dependencies/org/littleshoot/sip-stack/1.0.3/sip-stack-1.0.3.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.lastbamboo.common.sip.stack.transport.SipTcpTransportLayer;",
+      "artifact" : {
+        "artifact" : "org.littleshoot:sip-stack:1.0.3",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.littleshoot:sip-bootstrap:1.0.3/dependencies/org/littleshoot/sip-stack/1.0.3/sip-stack-1.0.3.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.lastbamboo.common.offer.answer.OfferAnswerFactory;",
+      "artifact" : {
+        "artifact" : "org.littleshoot:offer-answer:1.0.3",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.littleshoot:sip-bootstrap:1.0.3/dependencies/org/littleshoot/offer-answer/1.0.3/offer-answer-1.0.3.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.lastbamboo.common.sip.stack.IdleSipSessionListener;",
+      "artifact" : {
+        "artifact" : "org.littleshoot:sip-stack:1.0.3",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.littleshoot:sip-bootstrap:1.0.3/dependencies/org/littleshoot/sip-stack/1.0.3/sip-stack-1.0.3.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.littleshoot.util.SessionSocketListener;",
+      "artifact" : {
+        "artifact" : "org.littleshoot:util:1.0.3",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.littleshoot:sip-bootstrap:1.0.3/dependencies/org/littleshoot/util/1.0.3/util-1.0.3.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import java.net.InetSocketAddress;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.lastbamboo.common.sip.client.CrlfDelayCalculator;",
+      "artifact" : {
+        "artifact" : "org.littleshoot:sip-client:1.0.3",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.littleshoot:sip-bootstrap:1.0.3/dependencies/org/littleshoot/sip-client/1.0.3/sip-client-1.0.3.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.lastbamboo.common.sip.client.DefaultCrlfDelayCalculator;",
+      "artifact" : {
+        "artifact" : "org.littleshoot:sip-client:1.0.3",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.littleshoot:sip-bootstrap:1.0.3/dependencies/org/littleshoot/sip-client/1.0.3/sip-client-1.0.3.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.lastbamboo.common.sip.client.SipClient;",
+      "artifact" : {
+        "artifact" : "org.littleshoot:sip-client:1.0.3",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.littleshoot:sip-bootstrap:1.0.3/dependencies/org/littleshoot/sip-client/1.0.3/sip-client-1.0.3.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.lastbamboo.common.sip.client.SipClientImpl;",
+      "artifact" : {
+        "artifact" : "org.littleshoot:sip-client:1.0.3",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.littleshoot:sip-bootstrap:1.0.3/dependencies/org/littleshoot/sip-client/1.0.3/sip-client-1.0.3.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import java.io.IOException;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ {
+      "importPath" : "import org.lastbamboo.common.offer.answer.OfferAnswer;",
+      "artifact" : {
+        "artifact" : "org.littleshoot:offer-answer:1.0.3",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.littleshoot:sip-bootstrap:1.0.3/dependencies/org/littleshoot/offer-answer/1.0.3/offer-answer-1.0.3.jar"
+      },
+      "isDirectDependency" : false
+    } ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/org.littleshoot:sip-bootstrap/src/main/java/org/lastbamboo/common/sip/bootstrap/SipClientLauncher.java",
+    "useImportReport" : [ {
+      "importPath" : "import org.lastbamboo.common.p2p.P2PClient;",
+      "artifact" : {
+        "artifact" : "org.littleshoot:p2p-sockets:1.0.3",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.littleshoot:sip-bootstrap:1.0.3/dependencies/org/littleshoot/p2p-sockets/1.0.3/p2p-sockets-1.0.3.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.slf4j.Logger;",
+      "artifact" : {
+        "artifact" : "org.slf4j:slf4j-api:1.7.2",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.littleshoot:sip-bootstrap:1.0.3/dependencies/org/slf4j/slf4j-api/1.7.2/slf4j-api-1.7.2.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.slf4j.LoggerFactory;",
+      "artifact" : {
+        "artifact" : "org.slf4j:slf4j-api:1.7.2",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.littleshoot:sip-bootstrap:1.0.3/dependencies/org/slf4j/slf4j-api/1.7.2/slf4j-api-1.7.2.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.lastbamboo.common.sip.client.SipClientTracker;",
+      "artifact" : {
+        "artifact" : "org.littleshoot:sip-client:1.0.3",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.littleshoot:sip-bootstrap:1.0.3/dependencies/org/littleshoot/sip-client/1.0.3/sip-client-1.0.3.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.lastbamboo.common.offer.answer.OfferAnswerFactory;",
+      "artifact" : {
+        "artifact" : "org.littleshoot:offer-answer:1.0.3",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.littleshoot:sip-bootstrap:1.0.3/dependencies/org/littleshoot/offer-answer/1.0.3/offer-answer-1.0.3.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.net.URI;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.lastbamboo.common.sip.stack.SipUriFactory;",
+      "artifact" : {
+        "artifact" : "org.littleshoot:sip-stack:1.0.3",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.littleshoot:sip-bootstrap:1.0.3/dependencies/org/littleshoot/sip-stack/1.0.3/sip-stack-1.0.3.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.io.IOException;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.lastbamboo.common.sip.client.util.ProxyRegistrationListener;",
+      "artifact" : {
+        "artifact" : "org.littleshoot:sip-client:1.0.3",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.littleshoot:sip-bootstrap:1.0.3/dependencies/org/littleshoot/sip-client/1.0.3/sip-client-1.0.3.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.lastbamboo.common.offer.answer.OfferAnswerTransactionListener;",
+      "artifact" : {
+        "artifact" : "org.littleshoot:offer-answer:1.0.3",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.littleshoot:sip-bootstrap:1.0.3/dependencies/org/littleshoot/offer-answer/1.0.3/offer-answer-1.0.3.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.littleshoot.util.KeyStorage;",
+      "artifact" : {
+        "artifact" : "org.littleshoot:util:1.0.3",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.littleshoot:sip-bootstrap:1.0.3/dependencies/org/littleshoot/util/1.0.3/util-1.0.3.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import java.net.Socket;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.lastbamboo.common.offer.answer.NoAnswerException;",
+      "artifact" : {
+        "artifact" : "org.littleshoot:offer-answer:1.0.3",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.littleshoot:sip-bootstrap:1.0.3/dependencies/org/littleshoot/offer-answer/1.0.3/offer-answer-1.0.3.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.lastbamboo.common.sip.client.SipClient;",
+      "artifact" : {
+        "artifact" : "org.littleshoot:sip-client:1.0.3",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.littleshoot:sip-bootstrap:1.0.3/dependencies/org/littleshoot/sip-client/1.0.3/sip-client-1.0.3.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.lastbamboo.common.offer.answer.IceMediaStreamDesc;",
+      "artifact" : {
+        "artifact" : "org.littleshoot:offer-answer:1.0.3",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.littleshoot:sip-bootstrap:1.0.3/dependencies/org/littleshoot/offer-answer/1.0.3/offer-answer-1.0.3.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.lastbamboo.common.p2p.TcpUdpSocket;",
+      "artifact" : {
+        "artifact" : "org.littleshoot:p2p-sockets:1.0.3",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.littleshoot:sip-bootstrap:1.0.3/dependencies/org/littleshoot/p2p-sockets/1.0.3/p2p-sockets-1.0.3.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.lastbamboo.common.p2p.DefaultTcpUdpSocket;",
+      "artifact" : {
+        "artifact" : "org.littleshoot:p2p-sockets:1.0.3",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.littleshoot:sip-bootstrap:1.0.3/dependencies/org/littleshoot/p2p-sockets/1.0.3/p2p-sockets-1.0.3.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.lastbamboo.common.p2p.P2PConnectionListener;",
+      "artifact" : {
+        "artifact" : "org.littleshoot:p2p-sockets:1.0.3",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.littleshoot:sip-bootstrap:1.0.3/dependencies/org/littleshoot/p2p-sockets/1.0.3/p2p-sockets-1.0.3.jar"
+      },
+      "isDirectDependency" : true
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/org.littleshoot:sip-bootstrap/src/main/java/org/lastbamboo/common/sip/bootstrap/RobustProxyRegistrarFactoryImpl.java",
+    "useImportReport" : [ {
+      "importPath" : "import org.slf4j.Logger;",
+      "artifact" : {
+        "artifact" : "org.slf4j:slf4j-api:1.7.2",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.littleshoot:sip-bootstrap:1.0.3/dependencies/org/slf4j/slf4j-api/1.7.2/slf4j-api-1.7.2.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.slf4j.LoggerFactory;",
+      "artifact" : {
+        "artifact" : "org.slf4j:slf4j-api:1.7.2",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.littleshoot:sip-bootstrap:1.0.3/dependencies/org/slf4j/slf4j-api/1.7.2/slf4j-api-1.7.2.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.lastbamboo.common.sip.stack.util.UriUtils;",
+      "artifact" : {
+        "artifact" : "org.littleshoot:sip-stack:1.0.3",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.littleshoot:sip-bootstrap:1.0.3/dependencies/org/littleshoot/sip-stack/1.0.3/sip-stack-1.0.3.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.littleshoot.util.CandidateProvider;",
+      "artifact" : {
+        "artifact" : "org.littleshoot:util:1.0.3",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.littleshoot:sip-bootstrap:1.0.3/dependencies/org/littleshoot/util/1.0.3/util-1.0.3.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import java.net.URI;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.net.InetSocketAddress;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.Collection;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.LinkedList;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.net.InetAddress;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.lastbamboo.common.sip.client.util.ProxyRegistrationListener;",
+      "artifact" : {
+        "artifact" : "org.littleshoot:sip-client:1.0.3",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.littleshoot:sip-bootstrap:1.0.3/dependencies/org/littleshoot/sip-client/1.0.3/sip-client-1.0.3.jar"
+      },
+      "isDirectDependency" : true
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/org.littleshoot:sip-bootstrap/src/main/java/org/lastbamboo/common/sip/bootstrap/ProxyRegistrar.java",
+    "useImportReport" : [ ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/org.littleshoot:sip-bootstrap/src/main/java/org/lastbamboo/common/sip/bootstrap/ProxyRegistrarFactory.java",
+    "useImportReport" : [ {
+      "importPath" : "import java.net.URI;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.lastbamboo.common.sip.client.util.ProxyRegistrationListener;",
+      "artifact" : {
+        "artifact" : "org.littleshoot:sip-client:1.0.3",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.littleshoot:sip-bootstrap:1.0.3/dependencies/org/littleshoot/sip-client/1.0.3/sip-client-1.0.3.jar"
+      },
+      "isDirectDependency" : true
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/org.littleshoot:sip-bootstrap/src/main/java/org/lastbamboo/common/sip/bootstrap/RobustProxyRegistrarFactory.java",
+    "useImportReport" : [ {
+      "importPath" : "import java.net.URI;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.lastbamboo.common.sip.client.util.ProxyRegistrationListener;",
+      "artifact" : {
+        "artifact" : "org.littleshoot:sip-client:1.0.3",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.littleshoot:sip-bootstrap:1.0.3/dependencies/org/littleshoot/sip-client/1.0.3/sip-client-1.0.3.jar"
+      },
+      "isDirectDependency" : true
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/org.littleshoot:sip-bootstrap/src/main/java/org/lastbamboo/common/sip/bootstrap/RobustProxyRegistrarImpl.java",
+    "useImportReport" : [ {
+      "importPath" : "import org.littleshoot.util.ConnectionMaintainer;",
+      "artifact" : {
+        "artifact" : "org.littleshoot:util:1.0.3",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.littleshoot:sip-bootstrap:1.0.3/dependencies/org/littleshoot/util/1.0.3/util-1.0.3.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import java.net.URI;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.littleshoot.util.CandidateProvider;",
+      "artifact" : {
+        "artifact" : "org.littleshoot:util:1.0.3",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.littleshoot:sip-bootstrap:1.0.3/dependencies/org/littleshoot/util/1.0.3/util-1.0.3.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.lastbamboo.common.sip.client.util.ProxyRegistrationListener;",
+      "artifact" : {
+        "artifact" : "org.littleshoot:sip-client:1.0.3",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.littleshoot:sip-bootstrap:1.0.3/dependencies/org/littleshoot/sip-client/1.0.3/sip-client-1.0.3.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.littleshoot.util.ConnectionEstablisher;",
+      "artifact" : {
+        "artifact" : "org.littleshoot:util:1.0.3",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.littleshoot:sip-bootstrap:1.0.3/dependencies/org/littleshoot/util/1.0.3/util-1.0.3.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.littleshoot.util.ConnectionMaintainerImpl;",
+      "artifact" : {
+        "artifact" : "org.littleshoot:util:1.0.3",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.littleshoot:sip-bootstrap:1.0.3/dependencies/org/littleshoot/util/1.0.3/util-1.0.3.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.littleshoot.util.Optional;",
+      "artifact" : {
+        "artifact" : "org.littleshoot:util:1.0.3",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.littleshoot:sip-bootstrap:1.0.3/dependencies/org/littleshoot/util/1.0.3/util-1.0.3.jar"
+      },
+      "isDirectDependency" : true
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/org.littleshoot:sip-bootstrap/src/main/java/org/lastbamboo/common/sip/bootstrap/RegistrarConnectionEstablisher.java",
+    "useImportReport" : [ {
+      "importPath" : "import org.littleshoot.util.ConnectionEstablisher;",
+      "artifact" : {
+        "artifact" : "org.littleshoot:util:1.0.3",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.littleshoot:sip-bootstrap:1.0.3/dependencies/org/littleshoot/util/1.0.3/util-1.0.3.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import java.net.URI;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.slf4j.Logger;",
+      "artifact" : {
+        "artifact" : "org.slf4j:slf4j-api:1.7.2",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.littleshoot:sip-bootstrap:1.0.3/dependencies/org/slf4j/slf4j-api/1.7.2/slf4j-api-1.7.2.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.slf4j.LoggerFactory;",
+      "artifact" : {
+        "artifact" : "org.slf4j:slf4j-api:1.7.2",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.littleshoot:sip-bootstrap:1.0.3/dependencies/org/slf4j/slf4j-api/1.7.2/slf4j-api-1.7.2.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.lastbamboo.common.sip.client.util.ProxyRegistrationListener;",
+      "artifact" : {
+        "artifact" : "org.littleshoot:sip-client:1.0.3",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.littleshoot:sip-bootstrap:1.0.3/dependencies/org/littleshoot/sip-client/1.0.3/sip-client-1.0.3.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import java.util.Map;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.littleshoot.util.ConnectionMaintainerListener;",
+      "artifact" : {
+        "artifact" : "org.littleshoot:util:1.0.3",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.littleshoot:sip-bootstrap:1.0.3/dependencies/org/littleshoot/util/1.0.3/util-1.0.3.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import java.util.HashMap;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/org.littleshoot:sip-bootstrap/src/main/java/org/lastbamboo/common/sip/bootstrap/ProxyRegistrarFactoryImpl.java",
+    "useImportReport" : [ {
+      "importPath" : "import org.lastbamboo.common.sip.stack.message.SipMessageFactory;",
+      "artifact" : {
+        "artifact" : "org.littleshoot:sip-stack:1.0.3",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.littleshoot:sip-bootstrap:1.0.3/dependencies/org/littleshoot/sip-stack/1.0.3/sip-stack-1.0.3.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.lastbamboo.common.sip.client.SipClientTracker;",
+      "artifact" : {
+        "artifact" : "org.littleshoot:sip-client:1.0.3",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.littleshoot:sip-bootstrap:1.0.3/dependencies/org/littleshoot/sip-client/1.0.3/sip-client-1.0.3.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.lastbamboo.common.sip.stack.util.UriUtils;",
+      "artifact" : {
+        "artifact" : "org.littleshoot:sip-stack:1.0.3",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.littleshoot:sip-bootstrap:1.0.3/dependencies/org/littleshoot/sip-stack/1.0.3/sip-stack-1.0.3.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.lastbamboo.common.sip.stack.transaction.client.SipTransactionTracker;",
+      "artifact" : {
+        "artifact" : "org.littleshoot:sip-stack:1.0.3",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.littleshoot:sip-bootstrap:1.0.3/dependencies/org/littleshoot/sip-stack/1.0.3/sip-stack-1.0.3.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.lastbamboo.common.sip.stack.transport.SipTcpTransportLayer;",
+      "artifact" : {
+        "artifact" : "org.littleshoot:sip-stack:1.0.3",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.littleshoot:sip-bootstrap:1.0.3/dependencies/org/littleshoot/sip-stack/1.0.3/sip-stack-1.0.3.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.lastbamboo.common.offer.answer.OfferAnswerFactory;",
+      "artifact" : {
+        "artifact" : "org.littleshoot:offer-answer:1.0.3",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.littleshoot:sip-bootstrap:1.0.3/dependencies/org/littleshoot/offer-answer/1.0.3/offer-answer-1.0.3.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.lastbamboo.common.sip.stack.IdleSipSessionListener;",
+      "artifact" : {
+        "artifact" : "org.littleshoot:sip-stack:1.0.3",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.littleshoot:sip-bootstrap:1.0.3/dependencies/org/littleshoot/sip-stack/1.0.3/sip-stack-1.0.3.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.littleshoot.util.SessionSocketListener;",
+      "artifact" : {
+        "artifact" : "org.littleshoot:util:1.0.3",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.littleshoot:sip-bootstrap:1.0.3/dependencies/org/littleshoot/util/1.0.3/util-1.0.3.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import java.net.InetSocketAddress;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.net.URI;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.lastbamboo.common.sip.client.util.ProxyRegistrationListener;",
+      "artifact" : {
+        "artifact" : "org.littleshoot:sip-client:1.0.3",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.littleshoot:sip-bootstrap:1.0.3/dependencies/org/littleshoot/sip-client/1.0.3/sip-client-1.0.3.jar"
+      },
+      "isDirectDependency" : true
+    } ],
+    "unusedImportReport" : [ {
+      "importPath" : "import org.littleshoot.util.SocketListener;",
+      "artifact" : {
+        "artifact" : "org.littleshoot:util:1.0.3",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.littleshoot:sip-bootstrap:1.0.3/dependencies/org/littleshoot/util/1.0.3/util-1.0.3.jar"
+      },
+      "isDirectDependency" : true
+    } ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  } ],
+  "projectUseDependencies" : [ {
+    "artifact" : "org.slf4j:slf4j-api:1.7.2",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.littleshoot:sip-bootstrap:1.0.3/dependencies/org/slf4j/slf4j-api/1.7.2/slf4j-api-1.7.2.jar"
+  }, {
+    "artifact" : "org.littleshoot:sip-client:1.0.3",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.littleshoot:sip-bootstrap:1.0.3/dependencies/org/littleshoot/sip-client/1.0.3/sip-client-1.0.3.jar"
+  }, {
+    "artifact" : "org.littleshoot:util:1.0.3",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.littleshoot:sip-bootstrap:1.0.3/dependencies/org/littleshoot/util/1.0.3/util-1.0.3.jar"
+  }, {
+    "artifact" : "org.littleshoot:p2p-sockets:1.0.3",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.littleshoot:sip-bootstrap:1.0.3/dependencies/org/littleshoot/p2p-sockets/1.0.3/p2p-sockets-1.0.3.jar"
+  } ],
+  "projectUseTransitiveDependencies" : [ {
+    "artifact" : "org.littleshoot:littleshoot-ice:1.0.3",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.littleshoot:sip-bootstrap:1.0.3/dependencies/org/littleshoot/littleshoot-ice/1.0.3/littleshoot-ice-1.0.3.jar"
+  } ],
+  "projectUnusedDependencies" : [ {
+    "artifact" : "junit:junit:4.11",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.littleshoot:sip-bootstrap:1.0.3/dependencies/junit/junit/4.11/junit-4.11.jar"
+  }, {
+    "artifact" : "log4j:log4j:1.2.17",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.littleshoot:sip-bootstrap:1.0.3/dependencies/log4j/log4j/1.2.17/log4j-1.2.17.jar"
+  }, {
+    "artifact" : "org.slf4j:slf4j-log4j12:1.7.2",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.littleshoot:sip-bootstrap:1.0.3/dependencies/org/slf4j/slf4j-log4j12/1.7.2/slf4j-log4j12-1.7.2.jar"
+  } ]
+}

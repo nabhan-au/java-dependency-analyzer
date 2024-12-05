@@ -1,0 +1,3558 @@
+{
+  "projectArtifact" : "org.jsmart:rest-bdd-zerocode:1.1.1",
+  "repositoryDir" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/org.jsmart:rest-bdd-zerocode",
+  "repositorySubDir" : "",
+  "artifactLocation" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.jsmart:rest-bdd-zerocode:1.1.1",
+  "fileImportReports" : [ {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/org.jsmart:rest-bdd-zerocode/src/test/java/org/jsmart/smarttester/core/defaultrunner/DefaultRunnerTestRunManuallyOnly.java",
+    "useImportReport" : [ {
+      "importPath" : "import org.jsmart.smarttester.core.domain.TestPackageRoot;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.junit.runner.RunWith;",
+      "artifact" : {
+        "artifact" : "junit:junit:4.12",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.jsmart:rest-bdd-zerocode:1.1.1/dependencies/junit/junit/4.12/junit-4.12.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.jsmart.smarttester.core.runner.ZeroCodePackageRunner;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/org.jsmart:rest-bdd-zerocode/src/test/java/org/jsmart/smarttester/core/di/ApplicationMainModuleTest.java",
+    "useImportReport" : [ {
+      "importPath" : "import org.junit.runner.RunWith;",
+      "artifact" : {
+        "artifact" : "junit:junit:4.12",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.jsmart:rest-bdd-zerocode:1.1.1/dependencies/junit/junit/4.12/junit-4.12.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.jukito.JukitoRunner;",
+      "artifact" : {
+        "artifact" : "org.jukito:jukito:1.4.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.jsmart:rest-bdd-zerocode:1.1.1/dependencies/org/jukito/jukito/1.4.1/jukito-1.4.1.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.jukito.TestModule;",
+      "artifact" : {
+        "artifact" : "org.jukito:jukito:1.4.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.jsmart:rest-bdd-zerocode:1.1.1/dependencies/org/jukito/jukito/1.4.1/jukito-1.4.1.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.jsmart.smarttester.core.utils.SmartUtils;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.google.inject.Inject;",
+      "artifact" : {
+        "artifact" : "com.google.inject:guice:4.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.jsmart:rest-bdd-zerocode:1.1.1/dependencies/com/google/inject/guice/4.0/guice-4.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import com.google.inject.name.Named;",
+      "artifact" : {
+        "artifact" : "com.google.inject:guice:4.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.jsmart:rest-bdd-zerocode:1.1.1/dependencies/com/google/inject/guice/4.0/guice-4.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.junit.rules.ExpectedException;",
+      "artifact" : {
+        "artifact" : "junit:junit:4.12",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.jsmart:rest-bdd-zerocode:1.1.1/dependencies/junit/junit/4.12/junit-4.12.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.junit.Rule;",
+      "artifact" : {
+        "artifact" : "junit:junit:4.12",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.jsmart:rest-bdd-zerocode:1.1.1/dependencies/junit/junit/4.12/junit-4.12.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.junit.Test;",
+      "artifact" : {
+        "artifact" : "junit:junit:4.12",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.jsmart:rest-bdd-zerocode:1.1.1/dependencies/junit/junit/4.12/junit-4.12.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import static org.hamcrest.MatcherAssert.assertThat;",
+      "artifact" : {
+        "artifact" : "org.hamcrest:hamcrest-core:1.3",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.jsmart:rest-bdd-zerocode:1.1.1/dependencies/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import static org.hamcrest.CoreMatchers.notNullValue;",
+      "artifact" : {
+        "artifact" : "org.hamcrest:hamcrest-core:1.3",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.jsmart:rest-bdd-zerocode:1.1.1/dependencies/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import static org.hamcrest.CoreMatchers.is;",
+      "artifact" : {
+        "artifact" : "org.hamcrest:hamcrest-core:1.3",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.jsmart:rest-bdd-zerocode:1.1.1/dependencies/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/org.jsmart:rest-bdd-zerocode/src/test/java/org/jsmart/smarttester/core/runner/ZeroCodeJUnitRunnerTest.java",
+    "useImportReport" : [ {
+      "importPath" : "import org.junit.rules.ExpectedException;",
+      "artifact" : {
+        "artifact" : "junit:junit:4.12",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.jsmart:rest-bdd-zerocode:1.1.1/dependencies/junit/junit/4.12/junit-4.12.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.junit.Rule;",
+      "artifact" : {
+        "artifact" : "junit:junit:4.12",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.jsmart:rest-bdd-zerocode:1.1.1/dependencies/junit/junit/4.12/junit-4.12.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.jsmart.smarttester.core.domain.JsonTestCase;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.junit.Test;",
+      "artifact" : {
+        "artifact" : "junit:junit:4.12",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.jsmart:rest-bdd-zerocode:1.1.1/dependencies/junit/junit/4.12/junit-4.12.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.junit.Before;",
+      "artifact" : {
+        "artifact" : "junit:junit:4.12",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.jsmart:rest-bdd-zerocode:1.1.1/dependencies/junit/junit/4.12/junit-4.12.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import static org.hamcrest.MatcherAssert.assertThat;",
+      "artifact" : {
+        "artifact" : "org.hamcrest:hamcrest-core:1.3",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.jsmart:rest-bdd-zerocode:1.1.1/dependencies/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import static org.hamcrest.CoreMatchers.is;",
+      "artifact" : {
+        "artifact" : "org.hamcrest:hamcrest-core:1.3",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.jsmart:rest-bdd-zerocode:1.1.1/dependencies/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.junit.runner.notification.RunNotifier;",
+      "artifact" : {
+        "artifact" : "junit:junit:4.12",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.jsmart:rest-bdd-zerocode:1.1.1/dependencies/junit/junit/4.12/junit-4.12.jar"
+      },
+      "isDirectDependency" : true
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/org.jsmart:rest-bdd-zerocode/src/test/java/org/jsmart/smarttester/core/runner/ZeroCodePackageRunnerTest.java",
+    "useImportReport" : [ {
+      "importPath" : "import org.junit.rules.ExpectedException;",
+      "artifact" : {
+        "artifact" : "junit:junit:4.12",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.jsmart:rest-bdd-zerocode:1.1.1/dependencies/junit/junit/4.12/junit-4.12.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.junit.Rule;",
+      "artifact" : {
+        "artifact" : "junit:junit:4.12",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.jsmart:rest-bdd-zerocode:1.1.1/dependencies/junit/junit/4.12/junit-4.12.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.jsmart.smarttester.core.domain.TestPackageRoot;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.junit.Before;",
+      "artifact" : {
+        "artifact" : "junit:junit:4.12",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.jsmart:rest-bdd-zerocode:1.1.1/dependencies/junit/junit/4.12/junit-4.12.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.junit.Test;",
+      "artifact" : {
+        "artifact" : "junit:junit:4.12",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.jsmart:rest-bdd-zerocode:1.1.1/dependencies/junit/junit/4.12/junit-4.12.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import java.util.List;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.jsmart.smarttester.core.domain.ScenarioSpec;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import static org.hamcrest.MatcherAssert.assertThat;",
+      "artifact" : {
+        "artifact" : "org.hamcrest:hamcrest-core:1.3",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.jsmart:rest-bdd-zerocode:1.1.1/dependencies/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import static org.hamcrest.CoreMatchers.is;",
+      "artifact" : {
+        "artifact" : "org.hamcrest:hamcrest-core:1.3",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.jsmart:rest-bdd-zerocode:1.1.1/dependencies/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.junit.runner.Description;",
+      "artifact" : {
+        "artifact" : "junit:junit:4.12",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.jsmart:rest-bdd-zerocode:1.1.1/dependencies/junit/junit/4.12/junit-4.12.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import static org.hamcrest.CoreMatchers.containsString;",
+      "artifact" : {
+        "artifact" : "org.hamcrest:hamcrest-core:1.3",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.jsmart:rest-bdd-zerocode:1.1.1/dependencies/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.junit.Ignore;",
+      "artifact" : {
+        "artifact" : "junit:junit:4.12",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.jsmart:rest-bdd-zerocode:1.1.1/dependencies/junit/junit/4.12/junit-4.12.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.junit.runner.notification.RunNotifier;",
+      "artifact" : {
+        "artifact" : "junit:junit:4.12",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.jsmart:rest-bdd-zerocode:1.1.1/dependencies/junit/junit/4.12/junit-4.12.jar"
+      },
+      "isDirectDependency" : true
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/org.jsmart:rest-bdd-zerocode/src/test/java/org/jsmart/smarttester/core/runner/FlowExampleWithoutAnnotationClass.java",
+    "useImportReport" : [ ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/org.jsmart:rest-bdd-zerocode/src/test/java/org/jsmart/smarttester/core/runner/FlowExamplePackagePickerClass.java",
+    "useImportReport" : [ {
+      "importPath" : "import org.jsmart.smarttester.core.domain.TestPackageRoot;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/org.jsmart:rest-bdd-zerocode/src/test/java/org/jsmart/smarttester/core/tests/customrunner/TestOnlyZeroCodePackageRunner.java",
+    "useImportReport" : [ {
+      "importPath" : "import org.jsmart.smarttester.core.runner.ZeroCodePackageRunner;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.jsmart.simulator.main.SimpleRestJsonSimulatorsMain;",
+      "artifact" : {
+        "artifact" : "org.jsmart:micro-simulator:1.1.4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.jsmart:rest-bdd-zerocode:1.1.1/dependencies/org/jsmart/micro-simulator/1.1.4/micro-simulator-1.1.4.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.junit.runners.model.InitializationError;",
+      "artifact" : {
+        "artifact" : "junit:junit:4.12",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.jsmart:rest-bdd-zerocode:1.1.1/dependencies/junit/junit/4.12/junit-4.12.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.jsmart.smarttester.core.utils.SmartUtils;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/org.jsmart:rest-bdd-zerocode/src/test/java/org/jsmart/smarttester/core/tests/customrunner/TestOnlyZeroCodeJUnitRunner.java",
+    "useImportReport" : [ {
+      "importPath" : "import org.jsmart.smarttester.core.runner.ZeroCodeJUnitRunner;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.jsmart.simulator.main.SimpleRestJsonSimulatorsMain;",
+      "artifact" : {
+        "artifact" : "org.jsmart:micro-simulator:1.1.4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.jsmart:rest-bdd-zerocode:1.1.1/dependencies/org/jsmart/micro-simulator/1.1.4/micro-simulator-1.1.4.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.junit.runners.model.InitializationError;",
+      "artifact" : {
+        "artifact" : "junit:junit:4.12",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.jsmart:rest-bdd-zerocode:1.1.1/dependencies/junit/junit/4.12/junit-4.12.jar"
+      },
+      "isDirectDependency" : true
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/org.jsmart:rest-bdd-zerocode/src/test/java/org/jsmart/smarttester/core/tests/SmartJUnitRunnerTestCases.java",
+    "useImportReport" : [ {
+      "importPath" : "import org.jsmart.smarttester.core.domain.TargetEnv;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.junit.runner.RunWith;",
+      "artifact" : {
+        "artifact" : "junit:junit:4.12",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.jsmart:rest-bdd-zerocode:1.1.1/dependencies/junit/junit/4.12/junit-4.12.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.jsmart.smarttester.core.domain.JsonTestCase;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.junit.Test;",
+      "artifact" : {
+        "artifact" : "junit:junit:4.12",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.jsmart:rest-bdd-zerocode:1.1.1/dependencies/junit/junit/4.12/junit-4.12.jar"
+      },
+      "isDirectDependency" : true
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ {
+      "importPath" : "import org.jsmart.smarttester.core.tests.customrunner.TestOnlyZeroCodeJUnitRunner;"
+    } ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/org.jsmart:rest-bdd-zerocode/src/test/java/org/jsmart/smarttester/core/tests/SmartPackagedTestCases.java",
+    "useImportReport" : [ {
+      "importPath" : "import org.jsmart.smarttester.core.domain.TargetEnv;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.jsmart.smarttester.core.domain.TestPackageRoot;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.junit.runner.RunWith;",
+      "artifact" : {
+        "artifact" : "junit:junit:4.12",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.jsmart:rest-bdd-zerocode:1.1.1/dependencies/junit/junit/4.12/junit-4.12.jar"
+      },
+      "isDirectDependency" : true
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ {
+      "importPath" : "import org.jsmart.smarttester.core.tests.customrunner.TestOnlyZeroCodePackageRunner;"
+    } ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/org.jsmart:rest-bdd-zerocode/src/test/java/org/jsmart/smarttester/core/utils/SmartUtilsTest.java",
+    "useImportReport" : [ {
+      "importPath" : "import org.junit.runner.RunWith;",
+      "artifact" : {
+        "artifact" : "junit:junit:4.12",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.jsmart:rest-bdd-zerocode:1.1.1/dependencies/junit/junit/4.12/junit-4.12.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.jukito.JukitoRunner;",
+      "artifact" : {
+        "artifact" : "org.jukito:jukito:1.4.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.jsmart:rest-bdd-zerocode:1.1.1/dependencies/org/jukito/jukito/1.4.1/jukito-1.4.1.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.jukito.TestModule;",
+      "artifact" : {
+        "artifact" : "org.jukito:jukito:1.4.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.jsmart:rest-bdd-zerocode:1.1.1/dependencies/org/jukito/jukito/1.4.1/jukito-1.4.1.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.jsmart.smarttester.core.di.ApplicationMainModule;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.google.inject.Inject;",
+      "artifact" : {
+        "artifact" : "com.google.inject:guice:4.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.jsmart:rest-bdd-zerocode:1.1.1/dependencies/com/google/inject/guice/4.0/guice-4.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.junit.rules.ExpectedException;",
+      "artifact" : {
+        "artifact" : "junit:junit:4.12",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.jsmart:rest-bdd-zerocode:1.1.1/dependencies/junit/junit/4.12/junit-4.12.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.junit.Rule;",
+      "artifact" : {
+        "artifact" : "junit:junit:4.12",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.jsmart:rest-bdd-zerocode:1.1.1/dependencies/junit/junit/4.12/junit-4.12.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.junit.Test;",
+      "artifact" : {
+        "artifact" : "junit:junit:4.12",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.jsmart:rest-bdd-zerocode:1.1.1/dependencies/junit/junit/4.12/junit-4.12.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import static org.hamcrest.MatcherAssert.assertThat;",
+      "artifact" : {
+        "artifact" : "org.hamcrest:hamcrest-core:1.3",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.jsmart:rest-bdd-zerocode:1.1.1/dependencies/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import static org.hamcrest.CoreMatchers.notNullValue;",
+      "artifact" : {
+        "artifact" : "org.hamcrest:hamcrest-core:1.3",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.jsmart:rest-bdd-zerocode:1.1.1/dependencies/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.jsmart.smarttester.core.domain.Step;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import static org.hamcrest.CoreMatchers.is;",
+      "artifact" : {
+        "artifact" : "org.hamcrest:hamcrest-core:1.3",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.jsmart:rest-bdd-zerocode:1.1.1/dependencies/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.jsmart.smarttester.core.domain.ScenarioSpec;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import static org.hamcrest.CoreMatchers.containsString;",
+      "artifact" : {
+        "artifact" : "org.hamcrest:hamcrest-core:1.3",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.jsmart:rest-bdd-zerocode:1.1.1/dependencies/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.List;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ {
+      "importPath" : "import static org.mockito.Matchers.any;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import static org.mockito.Mockito.mock;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/org.jsmart:rest-bdd-zerocode/src/test/java/org/jsmart/smarttester/core/verification/SmartJUnitNavigatorVerification.java",
+    "useImportReport" : [ {
+      "importPath" : "import org.jsmart.smarttester.core.domain.TargetEnv;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.junit.runner.RunWith;",
+      "artifact" : {
+        "artifact" : "junit:junit:4.12",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.jsmart:rest-bdd-zerocode:1.1.1/dependencies/junit/junit/4.12/junit-4.12.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.jsmart.smarttester.core.domain.JsonTestCase;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.junit.Test;",
+      "artifact" : {
+        "artifact" : "junit:junit:4.12",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.jsmart:rest-bdd-zerocode:1.1.1/dependencies/junit/junit/4.12/junit-4.12.jar"
+      },
+      "isDirectDependency" : true
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ {
+      "importPath" : "import org.jsmart.smarttester.core.tests.customrunner.TestOnlyZeroCodeJUnitRunner;"
+    } ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/org.jsmart:rest-bdd-zerocode/src/test/java/org/jsmart/smarttester/core/verification/SmartPackagedVerification.java",
+    "useImportReport" : [ {
+      "importPath" : "import org.jsmart.smarttester.core.domain.TargetEnv;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.jsmart.smarttester.core.domain.TestPackageRoot;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.junit.runner.RunWith;",
+      "artifact" : {
+        "artifact" : "junit:junit:4.12",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.jsmart:rest-bdd-zerocode:1.1.1/dependencies/junit/junit/4.12/junit-4.12.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.jsmart.smarttester.core.runner.ZeroCodePackageRunner;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/org.jsmart:rest-bdd-zerocode/src/test/java/org/jsmart/smarttester/core/AddServiceTest.java",
+    "useImportReport" : [ {
+      "importPath" : "import org.junit.Test;",
+      "artifact" : {
+        "artifact" : "junit:junit:4.12",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.jsmart:rest-bdd-zerocode:1.1.1/dependencies/junit/junit/4.12/junit-4.12.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import static org.junit.Assert.assertThat;",
+      "artifact" : {
+        "artifact" : "junit:junit:4.12",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.jsmart:rest-bdd-zerocode:1.1.1/dependencies/junit/junit/4.12/junit-4.12.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import static org.hamcrest.CoreMatchers.is;",
+      "artifact" : {
+        "artifact" : "org.hamcrest:hamcrest-core:1.3",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.jsmart:rest-bdd-zerocode:1.1.1/dependencies/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/org.jsmart:rest-bdd-zerocode/src/test/java/org/jsmart/smarttester/core/engine/assertion/NumberComparatorTest.java",
+    "useImportReport" : [ {
+      "importPath" : "import org.junit.Test;",
+      "artifact" : {
+        "artifact" : "junit:junit:4.12",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.jsmart:rest-bdd-zerocode:1.1.1/dependencies/junit/junit/4.12/junit-4.12.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import static org.hamcrest.MatcherAssert.assertThat;",
+      "artifact" : {
+        "artifact" : "org.hamcrest:hamcrest-core:1.3",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.jsmart:rest-bdd-zerocode:1.1.1/dependencies/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.math.BigDecimal;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import static org.hamcrest.CoreMatchers.is;",
+      "artifact" : {
+        "artifact" : "org.hamcrest:hamcrest-core:1.3",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.jsmart:rest-bdd-zerocode:1.1.1/dependencies/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/org.jsmart:rest-bdd-zerocode/src/test/java/org/jsmart/smarttester/core/engine/executor/JavaExecutorImplTest.java",
+    "useImportReport" : [ {
+      "importPath" : "import com.google.inject.Injector;",
+      "artifact" : {
+        "artifact" : "com.google.inject:guice:4.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.jsmart:rest-bdd-zerocode:1.1.1/dependencies/com/google/inject/guice/4.0/guice-4.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.jsmart.smarttester.core.utils.SmartUtils;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.fasterxml.jackson.databind.ObjectMapper;",
+      "artifact" : {
+        "artifact" : "com.fasterxml.jackson.core:jackson-databind:2.7.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.jsmart:rest-bdd-zerocode:1.1.1/dependencies/com/fasterxml/jackson/core/jackson-databind/2.7.1/jackson-databind-2.7.1.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.junit.Before;",
+      "artifact" : {
+        "artifact" : "junit:junit:4.12",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.jsmart:rest-bdd-zerocode:1.1.1/dependencies/junit/junit/4.12/junit-4.12.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import com.google.inject.Guice;",
+      "artifact" : {
+        "artifact" : "com.google.inject:guice:4.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.jsmart:rest-bdd-zerocode:1.1.1/dependencies/com/google/inject/guice/4.0/guice-4.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.jsmart.smarttester.core.di.ApplicationMainModule;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.junit.Test;",
+      "artifact" : {
+        "artifact" : "junit:junit:4.12",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.jsmart:rest-bdd-zerocode:1.1.1/dependencies/junit/junit/4.12/junit-4.12.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import static org.hamcrest.MatcherAssert.assertThat;",
+      "artifact" : {
+        "artifact" : "org.hamcrest:hamcrest-core:1.3",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.jsmart:rest-bdd-zerocode:1.1.1/dependencies/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import static org.hamcrest.core.Is.is;",
+      "artifact" : {
+        "artifact" : "org.hamcrest:hamcrest-core:1.3",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.jsmart:rest-bdd-zerocode:1.1.1/dependencies/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.List;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.jsmart.smarttester.core.domain.ScenarioSpec;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/org.jsmart:rest-bdd-zerocode/src/test/java/org/jsmart/smarttester/core/engine/executor/JsonServiceExecutorTest.java",
+    "useImportReport" : [ {
+      "importPath" : "import com.google.inject.Injector;",
+      "artifact" : {
+        "artifact" : "com.google.inject:guice:4.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.jsmart:rest-bdd-zerocode:1.1.1/dependencies/com/google/inject/guice/4.0/guice-4.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.jsmart.smarttester.core.utils.SmartUtils;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.jsmart.simulator.main.SimpleRestJsonSimulatorsMain;",
+      "artifact" : {
+        "artifact" : "org.jsmart:micro-simulator:1.1.4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.jsmart:rest-bdd-zerocode:1.1.1/dependencies/org/jsmart/micro-simulator/1.1.4/micro-simulator-1.1.4.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.junit.Before;",
+      "artifact" : {
+        "artifact" : "junit:junit:4.12",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.jsmart:rest-bdd-zerocode:1.1.1/dependencies/junit/junit/4.12/junit-4.12.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.jboss.resteasy.client.core.executors.ApacheHttpClientExecutor;",
+      "artifact" : {
+        "artifact" : "org.jboss.resteasy:resteasy-jaxrs:2.2.1.GA",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.jsmart:rest-bdd-zerocode:1.1.1/dependencies/org/jboss/resteasy/resteasy-jaxrs/2.2.1.GA/resteasy-jaxrs-2.2.1.GA.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.jsmart.smarttester.core.di.ObjectMapperProvider;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.google.inject.Guice;",
+      "artifact" : {
+        "artifact" : "com.google.inject:guice:4.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.jsmart:rest-bdd-zerocode:1.1.1/dependencies/com/google/inject/guice/4.0/guice-4.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.jsmart.smarttester.core.di.ApplicationMainModule;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.junit.After;",
+      "artifact" : {
+        "artifact" : "junit:junit:4.12",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.jsmart:rest-bdd-zerocode:1.1.1/dependencies/junit/junit/4.12/junit-4.12.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.junit.Test;",
+      "artifact" : {
+        "artifact" : "junit:junit:4.12",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.jsmart:rest-bdd-zerocode:1.1.1/dependencies/junit/junit/4.12/junit-4.12.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import com.jayway.jsonpath.JsonPath;",
+      "artifact" : {
+        "artifact" : "com.jayway.jsonpath:json-path:2.2.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.jsmart:rest-bdd-zerocode:1.1.1/dependencies/com/jayway/jsonpath/json-path/2.2.0/json-path-2.2.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import static org.junit.Assert.assertThat;",
+      "artifact" : {
+        "artifact" : "junit:junit:4.12",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.jsmart:rest-bdd-zerocode:1.1.1/dependencies/junit/junit/4.12/junit-4.12.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import static org.hamcrest.CoreMatchers.is;",
+      "artifact" : {
+        "artifact" : "org.hamcrest:hamcrest-core:1.3",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.jsmart:rest-bdd-zerocode:1.1.1/dependencies/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import static org.hamcrest.CoreMatchers.nullValue;",
+      "artifact" : {
+        "artifact" : "org.hamcrest:hamcrest-core:1.3",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.jsmart:rest-bdd-zerocode:1.1.1/dependencies/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import static org.hamcrest.CoreMatchers.containsString;",
+      "artifact" : {
+        "artifact" : "org.hamcrest:hamcrest-core:1.3",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.jsmart:rest-bdd-zerocode:1.1.1/dependencies/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.skyscreamer.jsonassert.JSONAssert;",
+      "artifact" : {
+        "artifact" : "org.skyscreamer:jsonassert:1.2.3",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.jsmart:rest-bdd-zerocode:1.1.1/dependencies/org/skyscreamer/jsonassert/1.2.3/jsonassert-1.2.3.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.jsmart.smarttester.core.domain.ScenarioSpec;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/org.jsmart:rest-bdd-zerocode/src/test/java/org/jsmart/smarttester/core/engine/preprocessor/JsonTestProcesorImplTest.java",
+    "useImportReport" : [ {
+      "importPath" : "import org.jsmart.smarttester.core.engine.executor.JsonServiceExecutorImpl;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.google.inject.Injector;",
+      "artifact" : {
+        "artifact" : "com.google.inject:guice:4.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.jsmart:rest-bdd-zerocode:1.1.1/dependencies/com/google/inject/guice/4.0/guice-4.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.jsmart.smarttester.core.utils.SmartUtils;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.jsmart.simulator.main.SimpleRestJsonSimulatorsMain;",
+      "artifact" : {
+        "artifact" : "org.jsmart:micro-simulator:1.1.4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.jsmart:rest-bdd-zerocode:1.1.1/dependencies/org/jsmart/micro-simulator/1.1.4/micro-simulator-1.1.4.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.junit.Before;",
+      "artifact" : {
+        "artifact" : "junit:junit:4.12",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.jsmart:rest-bdd-zerocode:1.1.1/dependencies/junit/junit/4.12/junit-4.12.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import com.google.inject.Guice;",
+      "artifact" : {
+        "artifact" : "com.google.inject:guice:4.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.jsmart:rest-bdd-zerocode:1.1.1/dependencies/com/google/inject/guice/4.0/guice-4.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.jsmart.smarttester.core.di.ApplicationMainModule;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.junit.Test;",
+      "artifact" : {
+        "artifact" : "junit:junit:4.12",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.jsmart:rest-bdd-zerocode:1.1.1/dependencies/junit/junit/4.12/junit-4.12.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.jsmart.smarttester.core.domain.ScenarioSpec;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.jayway.jsonpath.JsonPath;",
+      "artifact" : {
+        "artifact" : "com.jayway.jsonpath:json-path:2.2.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.jsmart:rest-bdd-zerocode:1.1.1/dependencies/com/jayway/jsonpath/json-path/2.2.0/json-path-2.2.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import static org.junit.Assert.assertNotEquals;",
+      "artifact" : {
+        "artifact" : "junit:junit:4.12",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.jsmart:rest-bdd-zerocode:1.1.1/dependencies/junit/junit/4.12/junit-4.12.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import java.util.List;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import static org.junit.Assert.assertThat;",
+      "artifact" : {
+        "artifact" : "junit:junit:4.12",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.jsmart:rest-bdd-zerocode:1.1.1/dependencies/junit/junit/4.12/junit-4.12.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import static org.hamcrest.CoreMatchers.is;",
+      "artifact" : {
+        "artifact" : "org.hamcrest:hamcrest-core:1.3",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.jsmart:rest-bdd-zerocode:1.1.1/dependencies/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import static org.hamcrest.CoreMatchers.containsString;",
+      "artifact" : {
+        "artifact" : "org.hamcrest:hamcrest-core:1.3",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.jsmart:rest-bdd-zerocode:1.1.1/dependencies/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.jsmart.smarttester.core.engine.assertion.JsonAsserter;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.jsmart.smarttester.core.engine.assertion.AssertionReport;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import static org.hamcrest.CoreMatchers.not;",
+      "artifact" : {
+        "artifact" : "org.hamcrest:hamcrest-core:1.3",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.jsmart:rest-bdd-zerocode:1.1.1/dependencies/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/org.jsmart:rest-bdd-zerocode/src/test/java/org/jsmart/smarttester/core/engine/preprocessor/ScenarioExecutionStateTest.java",
+    "useImportReport" : [ {
+      "importPath" : "import org.junit.Before;",
+      "artifact" : {
+        "artifact" : "junit:junit:4.12",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.jsmart:rest-bdd-zerocode:1.1.1/dependencies/junit/junit/4.12/junit-4.12.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.junit.Test;",
+      "artifact" : {
+        "artifact" : "junit:junit:4.12",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.jsmart:rest-bdd-zerocode:1.1.1/dependencies/junit/junit/4.12/junit-4.12.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.skyscreamer.jsonassert.JSONAssert;",
+      "artifact" : {
+        "artifact" : "org.skyscreamer:jsonassert:1.2.3",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.jsmart:rest-bdd-zerocode:1.1.1/dependencies/org/skyscreamer/jsonassert/1.2.3/jsonassert-1.2.3.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import java.util.Map;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.HashMap;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.apache.commons.lang.text.StrSubstitutor;",
+      "artifact" : {
+        "artifact" : "commons-lang:commons-lang:2.6",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.jsmart:rest-bdd-zerocode:1.1.1/dependencies/commons-lang/commons-lang/2.6/commons-lang-2.6.jar"
+      },
+      "isDirectDependency" : true
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/org.jsmart:rest-bdd-zerocode/src/test/java/org/jsmart/smarttester/core/engine/preprocessor/StepExecutionStateTest.java",
+    "useImportReport" : [ {
+      "importPath" : "import org.junit.Before;",
+      "artifact" : {
+        "artifact" : "junit:junit:4.12",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.jsmart:rest-bdd-zerocode:1.1.1/dependencies/junit/junit/4.12/junit-4.12.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.junit.Test;",
+      "artifact" : {
+        "artifact" : "junit:junit:4.12",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.jsmart:rest-bdd-zerocode:1.1.1/dependencies/junit/junit/4.12/junit-4.12.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import java.util.Map;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.HashMap;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.apache.commons.lang.text.StrSubstitutor;",
+      "artifact" : {
+        "artifact" : "commons-lang:commons-lang:2.6",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.jsmart:rest-bdd-zerocode:1.1.1/dependencies/commons-lang/commons-lang/2.6/commons-lang-2.6.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.skyscreamer.jsonassert.JSONAssert;",
+      "artifact" : {
+        "artifact" : "org.skyscreamer:jsonassert:1.2.3",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.jsmart:rest-bdd-zerocode:1.1.1/dependencies/org/skyscreamer/jsonassert/1.2.3/jsonassert-1.2.3.jar"
+      },
+      "isDirectDependency" : true
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/org.jsmart:rest-bdd-zerocode/src/test/java/org/jsmart/smarttester/core/domain/ScenarioSpecTest.java",
+    "useImportReport" : [ {
+      "importPath" : "import org.junit.runner.RunWith;",
+      "artifact" : {
+        "artifact" : "junit:junit:4.12",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.jsmart:rest-bdd-zerocode:1.1.1/dependencies/junit/junit/4.12/junit-4.12.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.jukito.JukitoRunner;",
+      "artifact" : {
+        "artifact" : "org.jukito:jukito:1.4.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.jsmart:rest-bdd-zerocode:1.1.1/dependencies/org/jukito/jukito/1.4.1/jukito-1.4.1.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.jukito.TestModule;",
+      "artifact" : {
+        "artifact" : "org.jukito:jukito:1.4.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.jsmart:rest-bdd-zerocode:1.1.1/dependencies/org/jukito/jukito/1.4.1/jukito-1.4.1.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.jsmart.smarttester.core.di.ApplicationMainModule;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.jsmart.smarttester.core.utils.SmartUtils;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import javax.inject.Inject;",
+      "artifact" : {
+        "artifact" : "javax.inject:javax.inject:1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.jsmart:rest-bdd-zerocode:1.1.1/dependencies/javax/inject/javax.inject/1/javax.inject-1.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.fasterxml.jackson.databind.ObjectMapper;",
+      "artifact" : {
+        "artifact" : "com.fasterxml.jackson.core:jackson-databind:2.7.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.jsmart:rest-bdd-zerocode:1.1.1/dependencies/com/fasterxml/jackson/core/jackson-databind/2.7.1/jackson-databind-2.7.1.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.junit.Before;",
+      "artifact" : {
+        "artifact" : "junit:junit:4.12",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.jsmart:rest-bdd-zerocode:1.1.1/dependencies/junit/junit/4.12/junit-4.12.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.junit.Test;",
+      "artifact" : {
+        "artifact" : "junit:junit:4.12",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.jsmart:rest-bdd-zerocode:1.1.1/dependencies/junit/junit/4.12/junit-4.12.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import static org.hamcrest.MatcherAssert.assertThat;",
+      "artifact" : {
+        "artifact" : "org.hamcrest:hamcrest-core:1.3",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.jsmart:rest-bdd-zerocode:1.1.1/dependencies/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import static org.hamcrest.CoreMatchers.notNullValue;",
+      "artifact" : {
+        "artifact" : "org.hamcrest:hamcrest-core:1.3",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.jsmart:rest-bdd-zerocode:1.1.1/dependencies/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import static org.hamcrest.CoreMatchers.is;",
+      "artifact" : {
+        "artifact" : "org.hamcrest:hamcrest-core:1.3",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.jsmart:rest-bdd-zerocode:1.1.1/dependencies/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import static org.hamcrest.CoreMatchers.containsString;",
+      "artifact" : {
+        "artifact" : "org.hamcrest:hamcrest-core:1.3",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.jsmart:rest-bdd-zerocode:1.1.1/dependencies/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.fasterxml.jackson.databind.JsonNode;",
+      "artifact" : {
+        "artifact" : "com.fasterxml.jackson.core:jackson-databind:2.7.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.jsmart:rest-bdd-zerocode:1.1.1/dependencies/com/fasterxml/jackson/core/jackson-databind/2.7.1/jackson-databind-2.7.1.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.skyscreamer.jsonassert.JSONAssert;",
+      "artifact" : {
+        "artifact" : "org.skyscreamer:jsonassert:1.2.3",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.jsmart:rest-bdd-zerocode:1.1.1/dependencies/org/skyscreamer/jsonassert/1.2.3/jsonassert-1.2.3.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.junit.Ignore;",
+      "artifact" : {
+        "artifact" : "junit:junit:4.12",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.jsmart:rest-bdd-zerocode:1.1.1/dependencies/junit/junit/4.12/junit-4.12.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import static org.junit.Assert.fail;",
+      "artifact" : {
+        "artifact" : "junit:junit:4.12",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.jsmart:rest-bdd-zerocode:1.1.1/dependencies/junit/junit/4.12/junit-4.12.jar"
+      },
+      "isDirectDependency" : true
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/org.jsmart:rest-bdd-zerocode/src/test/java/org/jsmart/smarttester/core/domain/StepTest.java",
+    "useImportReport" : [ {
+      "importPath" : "import org.junit.runner.RunWith;",
+      "artifact" : {
+        "artifact" : "junit:junit:4.12",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.jsmart:rest-bdd-zerocode:1.1.1/dependencies/junit/junit/4.12/junit-4.12.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.jukito.JukitoRunner;",
+      "artifact" : {
+        "artifact" : "org.jukito:jukito:1.4.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.jsmart:rest-bdd-zerocode:1.1.1/dependencies/org/jukito/jukito/1.4.1/jukito-1.4.1.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.jukito.TestModule;",
+      "artifact" : {
+        "artifact" : "org.jukito:jukito:1.4.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.jsmart:rest-bdd-zerocode:1.1.1/dependencies/org/jukito/jukito/1.4.1/jukito-1.4.1.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.jsmart.smarttester.core.di.ApplicationMainModule;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.jsmart.smarttester.core.utils.SmartUtils;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.google.inject.Inject;",
+      "artifact" : {
+        "artifact" : "com.google.inject:guice:4.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.jsmart:rest-bdd-zerocode:1.1.1/dependencies/com/google/inject/guice/4.0/guice-4.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import com.fasterxml.jackson.databind.ObjectMapper;",
+      "artifact" : {
+        "artifact" : "com.fasterxml.jackson.core:jackson-databind:2.7.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.jsmart:rest-bdd-zerocode:1.1.1/dependencies/com/fasterxml/jackson/core/jackson-databind/2.7.1/jackson-databind-2.7.1.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.junit.Before;",
+      "artifact" : {
+        "artifact" : "junit:junit:4.12",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.jsmart:rest-bdd-zerocode:1.1.1/dependencies/junit/junit/4.12/junit-4.12.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.junit.Test;",
+      "artifact" : {
+        "artifact" : "junit:junit:4.12",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.jsmart:rest-bdd-zerocode:1.1.1/dependencies/junit/junit/4.12/junit-4.12.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import static org.hamcrest.MatcherAssert.assertThat;",
+      "artifact" : {
+        "artifact" : "org.hamcrest:hamcrest-core:1.3",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.jsmart:rest-bdd-zerocode:1.1.1/dependencies/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import static org.hamcrest.CoreMatchers.notNullValue;",
+      "artifact" : {
+        "artifact" : "org.hamcrest:hamcrest-core:1.3",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.jsmart:rest-bdd-zerocode:1.1.1/dependencies/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import static org.hamcrest.CoreMatchers.containsString;",
+      "artifact" : {
+        "artifact" : "org.hamcrest:hamcrest-core:1.3",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.jsmart:rest-bdd-zerocode:1.1.1/dependencies/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.jayway.jsonpath.JsonPath;",
+      "artifact" : {
+        "artifact" : "com.jayway.jsonpath:json-path:2.2.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.jsmart:rest-bdd-zerocode:1.1.1/dependencies/com/jayway/jsonpath/json-path/2.2.0/json-path-2.2.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import static org.hamcrest.CoreMatchers.is;",
+      "artifact" : {
+        "artifact" : "org.hamcrest:hamcrest-core:1.3",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.jsmart:rest-bdd-zerocode:1.1.1/dependencies/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.Map;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.HashMap;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.fasterxml.jackson.databind.JsonNode;",
+      "artifact" : {
+        "artifact" : "com.fasterxml.jackson.core:jackson-databind:2.7.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.jsmart:rest-bdd-zerocode:1.1.1/dependencies/com/fasterxml/jackson/core/jackson-databind/2.7.1/jackson-databind-2.7.1.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.skyscreamer.jsonassert.JSONAssert;",
+      "artifact" : {
+        "artifact" : "org.skyscreamer:jsonassert:1.2.3",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.jsmart:rest-bdd-zerocode:1.1.1/dependencies/org/skyscreamer/jsonassert/1.2.3/jsonassert-1.2.3.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import java.io.IOException;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.google.common.io.Resources;",
+      "artifact" : {
+        "artifact" : "com.google.guava:guava:16.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.jsmart:rest-bdd-zerocode:1.1.1/dependencies/com/google/guava/guava/16.0/guava-16.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import java.nio.charset.StandardCharsets;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/org.jsmart:rest-bdd-zerocode/src/main/java/org/trick/NotifierImpl.java",
+    "useImportReport" : [ {
+      "importPath" : "import org.jsmart.smarttester.core.runner.Notifier;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/org.jsmart:rest-bdd-zerocode/src/main/java/org/trick/LogHello.java",
+    "useImportReport" : [ {
+      "importPath" : "import org.slf4j.Logger;",
+      "artifact" : {
+        "artifact" : "org.slf4j:slf4j-api:1.6.6",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.jsmart:rest-bdd-zerocode:1.1.1/dependencies/org/slf4j/slf4j-api/1.6.6/slf4j-api-1.6.6.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.slf4j.LoggerFactory;",
+      "artifact" : {
+        "artifact" : "org.slf4j:slf4j-api:1.6.6",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.jsmart:rest-bdd-zerocode:1.1.1/dependencies/org/slf4j/slf4j-api/1.6.6/slf4j-api-1.6.6.jar"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/org.jsmart:rest-bdd-zerocode/src/main/java/org/jsmart/smarttester/core/di/SmartUtilsModule.java",
+    "useImportReport" : [ ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/org.jsmart:rest-bdd-zerocode/src/main/java/org/jsmart/smarttester/core/di/ObjectMapperModule.java",
+    "useImportReport" : [ {
+      "importPath" : "import com.google.inject.Module;",
+      "artifact" : {
+        "artifact" : "com.google.inject:guice:4.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.jsmart:rest-bdd-zerocode:1.1.1/dependencies/com/google/inject/guice/4.0/guice-4.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import com.google.inject.Binder;",
+      "artifact" : {
+        "artifact" : "com.google.inject:guice:4.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.jsmart:rest-bdd-zerocode:1.1.1/dependencies/com/google/inject/guice/4.0/guice-4.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import com.fasterxml.jackson.databind.ObjectMapper;",
+      "artifact" : {
+        "artifact" : "com.fasterxml.jackson.core:jackson-databind:2.7.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.jsmart:rest-bdd-zerocode:1.1.1/dependencies/com/fasterxml/jackson/core/jackson-databind/2.7.1/jackson-databind-2.7.1.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import javax.inject.Singleton;",
+      "artifact" : {
+        "artifact" : "javax.inject:javax.inject:1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.jsmart:rest-bdd-zerocode:1.1.1/dependencies/javax/inject/javax.inject/1/javax.inject-1.jar"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/org.jsmart:rest-bdd-zerocode/src/main/java/org/jsmart/smarttester/core/di/ApplicationMainModule.java",
+    "useImportReport" : [ {
+      "importPath" : "import com.google.inject.AbstractModule;",
+      "artifact" : {
+        "artifact" : "com.google.inject:guice:4.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.jsmart:rest-bdd-zerocode:1.1.1/dependencies/com/google/inject/guice/4.0/guice-4.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import java.util.logging.Logger;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.jsmart.smarttester.core.runner.MultiStepsScenarioRunner;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.jsmart.smarttester.core.runner.MultiStepsScenarioRunnerImpl;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.jsmart.smarttester.core.engine.executor.JsonServiceExecutor;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.jsmart.smarttester.core.engine.executor.JsonServiceExecutorImpl;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.jsmart.smarttester.core.engine.executor.JavaExecutor;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.jsmart.smarttester.core.engine.executor.JavaExecutorImpl;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.jsmart.smarttester.core.engine.preprocessor.JsonTestProcesor;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.jsmart.smarttester.core.engine.preprocessor.JsonTestProcesorImpl;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.google.inject.name.Names;",
+      "artifact" : {
+        "artifact" : "com.google.inject:guice:4.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.jsmart:rest-bdd-zerocode:1.1.1/dependencies/com/google/inject/guice/4.0/guice-4.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import java.util.Properties;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/org.jsmart:rest-bdd-zerocode/src/main/java/org/jsmart/smarttester/core/di/ObjectMapperProvider.java",
+    "useImportReport" : [ {
+      "importPath" : "import javax.inject.Provider;",
+      "artifact" : {
+        "artifact" : "javax.inject:javax.inject:1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.jsmart:rest-bdd-zerocode:1.1.1/dependencies/javax/inject/javax.inject/1/javax.inject-1.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.fasterxml.jackson.databind.ObjectMapper;",
+      "artifact" : {
+        "artifact" : "com.fasterxml.jackson.core:jackson-databind:2.7.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.jsmart:rest-bdd-zerocode:1.1.1/dependencies/com/fasterxml/jackson/core/jackson-databind/2.7.1/jackson-databind-2.7.1.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import com.fasterxml.jackson.core.JsonParser;",
+      "artifact" : {
+        "artifact" : "com.fasterxml.jackson.core:jackson-core:2.7.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.jsmart:rest-bdd-zerocode:1.1.1/dependencies/com/fasterxml/jackson/core/jackson-core/2.7.1/jackson-core-2.7.1.jar"
+      },
+      "isDirectDependency" : true
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/org.jsmart:rest-bdd-zerocode/src/main/java/org/jsmart/smarttester/core/verify/SmartJUnitNavigatorVerification.java",
+    "useImportReport" : [ {
+      "importPath" : "import org.jsmart.smarttester.core.domain.TargetEnv;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.junit.runner.RunWith;",
+      "artifact" : {
+        "artifact" : "junit:junit:4.12",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.jsmart:rest-bdd-zerocode:1.1.1/dependencies/junit/junit/4.12/junit-4.12.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.jsmart.smarttester.core.runner.ZeroCodeJUnitRunner;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.jsmart.smarttester.core.domain.JsonTestCase;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.junit.Test;",
+      "artifact" : {
+        "artifact" : "junit:junit:4.12",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.jsmart:rest-bdd-zerocode:1.1.1/dependencies/junit/junit/4.12/junit-4.12.jar"
+      },
+      "isDirectDependency" : true
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/org.jsmart:rest-bdd-zerocode/src/main/java/org/jsmart/smarttester/core/verify/SmartPackagedVerification.java",
+    "useImportReport" : [ {
+      "importPath" : "import org.jsmart.smarttester.core.domain.TargetEnv;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.jsmart.smarttester.core.domain.TestPackageRoot;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.junit.runner.RunWith;",
+      "artifact" : {
+        "artifact" : "junit:junit:4.12",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.jsmart:rest-bdd-zerocode:1.1.1/dependencies/junit/junit/4.12/junit-4.12.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.jsmart.smarttester.core.runner.ZeroCodePackageRunner;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/org.jsmart:rest-bdd-zerocode/src/main/java/org/jsmart/smarttester/core/runner/StepNotificationHandler.java",
+    "useImportReport" : [ {
+      "importPath" : "import org.slf4j.Logger;",
+      "artifact" : {
+        "artifact" : "org.slf4j:slf4j-api:1.6.6",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.jsmart:rest-bdd-zerocode:1.1.1/dependencies/org/slf4j/slf4j-api/1.6.6/slf4j-api-1.6.6.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.slf4j.LoggerFactory;",
+      "artifact" : {
+        "artifact" : "org.slf4j:slf4j-api:1.6.6",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.jsmart:rest-bdd-zerocode:1.1.1/dependencies/org/slf4j/slf4j-api/1.6.6/slf4j-api-1.6.6.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.junit.runner.notification.RunNotifier;",
+      "artifact" : {
+        "artifact" : "junit:junit:4.12",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.jsmart:rest-bdd-zerocode:1.1.1/dependencies/junit/junit/4.12/junit-4.12.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.junit.runner.Description;",
+      "artifact" : {
+        "artifact" : "junit:junit:4.12",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.jsmart:rest-bdd-zerocode:1.1.1/dependencies/junit/junit/4.12/junit-4.12.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import java.util.List;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.jsmart.smarttester.core.engine.assertion.AssertionReport;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.apache.commons.lang.StringUtils;",
+      "artifact" : {
+        "artifact" : "commons-lang:commons-lang:2.6",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.jsmart:rest-bdd-zerocode:1.1.1/dependencies/commons-lang/commons-lang/2.6/commons-lang-2.6.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.junit.runner.notification.Failure;",
+      "artifact" : {
+        "artifact" : "junit:junit:4.12",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.jsmart:rest-bdd-zerocode:1.1.1/dependencies/junit/junit/4.12/junit-4.12.jar"
+      },
+      "isDirectDependency" : true
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/org.jsmart:rest-bdd-zerocode/src/main/java/org/jsmart/smarttester/core/runner/Notifier.java",
+    "useImportReport" : [ ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/org.jsmart:rest-bdd-zerocode/src/main/java/org/jsmart/smarttester/core/runner/ScenarioSingleStepStatusNotifier.java",
+    "useImportReport" : [ {
+      "importPath" : "import java.util.List;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.jsmart.smarttester.core.engine.assertion.AssertionReport;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/org.jsmart:rest-bdd-zerocode/src/main/java/org/jsmart/smarttester/core/runner/MultiStepsScenarioRunner.java",
+    "useImportReport" : [ {
+      "importPath" : "import org.jsmart.smarttester.core.domain.ScenarioSpec;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.junit.runner.notification.RunNotifier;",
+      "artifact" : {
+        "artifact" : "junit:junit:4.12",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.jsmart:rest-bdd-zerocode:1.1.1/dependencies/junit/junit/4.12/junit-4.12.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.junit.runner.Description;",
+      "artifact" : {
+        "artifact" : "junit:junit:4.12",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.jsmart:rest-bdd-zerocode:1.1.1/dependencies/junit/junit/4.12/junit-4.12.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import java.util.function.BiConsumer;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/org.jsmart:rest-bdd-zerocode/src/main/java/org/jsmart/smarttester/core/runner/MultiStepsScenarioRunnerImpl.java",
+    "useImportReport" : [ {
+      "importPath" : "import com.google.inject.Singleton;",
+      "artifact" : {
+        "artifact" : "com.google.inject:guice:4.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.jsmart:rest-bdd-zerocode:1.1.1/dependencies/com/google/inject/guice/4.0/guice-4.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.slf4j.LoggerFactory;",
+      "artifact" : {
+        "artifact" : "org.slf4j:slf4j-api:1.6.6",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.jsmart:rest-bdd-zerocode:1.1.1/dependencies/org/slf4j/slf4j-api/1.6.6/slf4j-api-1.6.6.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.fasterxml.jackson.databind.ObjectMapper;",
+      "artifact" : {
+        "artifact" : "com.fasterxml.jackson.core:jackson-databind:2.7.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.jsmart:rest-bdd-zerocode:1.1.1/dependencies/com/fasterxml/jackson/core/jackson-databind/2.7.1/jackson-databind-2.7.1.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import com.google.inject.Inject;",
+      "artifact" : {
+        "artifact" : "com.google.inject:guice:4.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.jsmart:rest-bdd-zerocode:1.1.1/dependencies/com/google/inject/guice/4.0/guice-4.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.jsmart.smarttester.core.engine.preprocessor.JsonTestProcesor;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.jsmart.smarttester.core.engine.executor.JsonServiceExecutor;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.google.inject.name.Named;",
+      "artifact" : {
+        "artifact" : "com.google.inject:guice:4.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.jsmart:rest-bdd-zerocode:1.1.1/dependencies/com/google/inject/guice/4.0/guice-4.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.jsmart.smarttester.core.logbuilder.LogCorelationshipPrinter;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import static org.jsmart.smarttester.core.logbuilder.LogCorelationshipPrinter.newInstance;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.jsmart.smarttester.core.domain.ScenarioSpec;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.junit.runner.notification.RunNotifier;",
+      "artifact" : {
+        "artifact" : "junit:junit:4.12",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.jsmart:rest-bdd-zerocode:1.1.1/dependencies/junit/junit/4.12/junit-4.12.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.junit.runner.Description;",
+      "artifact" : {
+        "artifact" : "junit:junit:4.12",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.jsmart:rest-bdd-zerocode:1.1.1/dependencies/junit/junit/4.12/junit-4.12.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.jsmart.smarttester.core.engine.preprocessor.ScenarioExecutionState;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.jsmart.smarttester.core.domain.Step;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.jsmart.smarttester.core.engine.preprocessor.StepExecutionState;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import static org.jsmart.smarttester.core.logbuilder.LogCorelationshipPrinter.createRelationshipId;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.time.LocalDateTime;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.jsmart.smarttester.core.utils.SmartUtils;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import static org.jsmart.smarttester.core.utils.SmartUtils.prettyPrintJson;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.List;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.jsmart.smarttester.core.engine.assertion.JsonAsserter;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.jsmart.smarttester.core.engine.assertion.AssertionReport;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.apache.commons.lang.StringUtils;",
+      "artifact" : {
+        "artifact" : "commons-lang:commons-lang:2.6",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.jsmart:rest-bdd-zerocode:1.1.1/dependencies/commons-lang/commons-lang/2.6/commons-lang-2.6.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import java.util.function.BiConsumer;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ {
+      "importPath" : "org.slf4j.Logger",
+      "artifact" : {
+        "artifact" : "org.slf4j:slf4j-api:1.6.6",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.jsmart:rest-bdd-zerocode:1.1.1/dependencies/org/slf4j/slf4j-api/1.6.6/slf4j-api-1.6.6.jar"
+      },
+      "isDirectDependency" : false
+    } ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/org.jsmart:rest-bdd-zerocode/src/main/java/org/jsmart/smarttester/core/runner/ZeroCodePackageRunner.java",
+    "useImportReport" : [ {
+      "importPath" : "import org.junit.runners.ParentRunner;",
+      "artifact" : {
+        "artifact" : "junit:junit:4.12",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.jsmart:rest-bdd-zerocode:1.1.1/dependencies/junit/junit/4.12/junit-4.12.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.jsmart.smarttester.core.domain.ScenarioSpec;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.slf4j.LoggerFactory;",
+      "artifact" : {
+        "artifact" : "org.slf4j:slf4j-api:1.6.6",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.jsmart:rest-bdd-zerocode:1.1.1/dependencies/org/slf4j/slf4j-api/1.6.6/slf4j-api-1.6.6.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.List;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.google.inject.Injector;",
+      "artifact" : {
+        "artifact" : "com.google.inject:guice:4.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.jsmart:rest-bdd-zerocode:1.1.1/dependencies/com/google/inject/guice/4.0/guice-4.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.jsmart.smarttester.core.utils.SmartUtils;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.junit.runner.Description;",
+      "artifact" : {
+        "artifact" : "junit:junit:4.12",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.jsmart:rest-bdd-zerocode:1.1.1/dependencies/junit/junit/4.12/junit-4.12.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.junit.runners.model.InitializationError;",
+      "artifact" : {
+        "artifact" : "junit:junit:4.12",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.jsmart:rest-bdd-zerocode:1.1.1/dependencies/junit/junit/4.12/junit-4.12.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import com.google.inject.Inject;",
+      "artifact" : {
+        "artifact" : "com.google.inject:guice:4.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.jsmart:rest-bdd-zerocode:1.1.1/dependencies/com/google/inject/guice/4.0/guice-4.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.jsmart.smarttester.core.domain.TestPackageRoot;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.junit.runner.notification.RunNotifier;",
+      "artifact" : {
+        "artifact" : "junit:junit:4.12",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.jsmart:rest-bdd-zerocode:1.1.1/dependencies/junit/junit/4.12/junit-4.12.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.jsmart.smarttester.core.domain.TargetEnv;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.google.inject.Guice;",
+      "artifact" : {
+        "artifact" : "com.google.inject:guice:4.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.jsmart:rest-bdd-zerocode:1.1.1/dependencies/com/google/inject/guice/4.0/guice-4.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.jsmart.smarttester.core.di.ApplicationMainModule;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ {
+      "importPath" : "org.slf4j.Logger",
+      "artifact" : {
+        "artifact" : "org.slf4j:slf4j-api:1.6.6",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.jsmart:rest-bdd-zerocode:1.1.1/dependencies/org/slf4j/slf4j-api/1.6.6/slf4j-api-1.6.6.jar"
+      },
+      "isDirectDependency" : false
+    } ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/org.jsmart:rest-bdd-zerocode/src/main/java/org/jsmart/smarttester/core/runner/ZeroCodeJUnitRunner.java",
+    "useImportReport" : [ {
+      "importPath" : "import org.junit.runners.BlockJUnit4ClassRunner;",
+      "artifact" : {
+        "artifact" : "junit:junit:4.12",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.jsmart:rest-bdd-zerocode:1.1.1/dependencies/junit/junit/4.12/junit-4.12.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.slf4j.Logger;",
+      "artifact" : {
+        "artifact" : "org.slf4j:slf4j-api:1.6.6",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.jsmart:rest-bdd-zerocode:1.1.1/dependencies/org/slf4j/slf4j-api/1.6.6/slf4j-api-1.6.6.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.slf4j.LoggerFactory;",
+      "artifact" : {
+        "artifact" : "org.slf4j:slf4j-api:1.6.6",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.jsmart:rest-bdd-zerocode:1.1.1/dependencies/org/slf4j/slf4j-api/1.6.6/slf4j-api-1.6.6.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.google.inject.Injector;",
+      "artifact" : {
+        "artifact" : "com.google.inject:guice:4.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.jsmart:rest-bdd-zerocode:1.1.1/dependencies/com/google/inject/guice/4.0/guice-4.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.jsmart.smarttester.core.utils.SmartUtils;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.List;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.ArrayList;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.junit.runners.model.InitializationError;",
+      "artifact" : {
+        "artifact" : "junit:junit:4.12",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.jsmart:rest-bdd-zerocode:1.1.1/dependencies/junit/junit/4.12/junit-4.12.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.junit.runners.model.FrameworkMethod;",
+      "artifact" : {
+        "artifact" : "junit:junit:4.12",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.jsmart:rest-bdd-zerocode:1.1.1/dependencies/junit/junit/4.12/junit-4.12.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.jsmart.smarttester.core.domain.JsonTestCase;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.junit.runner.notification.RunNotifier;",
+      "artifact" : {
+        "artifact" : "junit:junit:4.12",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.jsmart:rest-bdd-zerocode:1.1.1/dependencies/junit/junit/4.12/junit-4.12.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.junit.runner.Description;",
+      "artifact" : {
+        "artifact" : "junit:junit:4.12",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.jsmart:rest-bdd-zerocode:1.1.1/dependencies/junit/junit/4.12/junit-4.12.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.jsmart.smarttester.core.domain.ScenarioSpec;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.junit.runner.notification.Failure;",
+      "artifact" : {
+        "artifact" : "junit:junit:4.12",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.jsmart:rest-bdd-zerocode:1.1.1/dependencies/junit/junit/4.12/junit-4.12.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import java.util.stream.Collectors;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.jsmart.smarttester.core.domain.TargetEnv;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.google.inject.Guice;",
+      "artifact" : {
+        "artifact" : "com.google.inject:guice:4.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.jsmart:rest-bdd-zerocode:1.1.1/dependencies/com/google/inject/guice/4.0/guice-4.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.jsmart.smarttester.core.di.ApplicationMainModule;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/org.jsmart:rest-bdd-zerocode/src/main/java/org/jsmart/smarttester/core/utils/SmartUtils.java",
+    "useImportReport" : [ {
+      "importPath" : "import com.google.inject.Singleton;",
+      "artifact" : {
+        "artifact" : "com.google.inject:guice:4.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.jsmart:rest-bdd-zerocode:1.1.1/dependencies/com/google/inject/guice/4.0/guice-4.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import com.fasterxml.jackson.databind.ObjectMapper;",
+      "artifact" : {
+        "artifact" : "com.fasterxml.jackson.core:jackson-databind:2.7.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.jsmart:rest-bdd-zerocode:1.1.1/dependencies/com/fasterxml/jackson/core/jackson-databind/2.7.1/jackson-databind-2.7.1.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import com.google.inject.Inject;",
+      "artifact" : {
+        "artifact" : "com.google.inject:guice:4.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.jsmart:rest-bdd-zerocode:1.1.1/dependencies/com/google/inject/guice/4.0/guice-4.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import java.io.IOException;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.google.common.io.Resources;",
+      "artifact" : {
+        "artifact" : "com.google.guava:guava:16.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.jsmart:rest-bdd-zerocode:1.1.1/dependencies/com/google/guava/guava/16.0/guava-16.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import java.nio.charset.StandardCharsets;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import static java.nio.charset.Charset.defaultCharset;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.Map;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.HashMap;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.fasterxml.jackson.core.type.TypeReference;",
+      "artifact" : {
+        "artifact" : "com.fasterxml.jackson.core:jackson-core:2.7.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.jsmart:rest-bdd-zerocode:1.1.1/dependencies/com/fasterxml/jackson/core/jackson-core/2.7.1/jackson-core-2.7.1.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import java.util.List;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.google.classpath.ClassPathFactory;",
+      "artifact" : {
+        "artifact" : "com.google.classpath-explorer:classpath-explorer:1.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.jsmart:rest-bdd-zerocode:1.1.1/dependencies/com/google/classpath-explorer/classpath-explorer/1.0/classpath-explorer-1.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import com.google.classpath.ClassPath;",
+      "artifact" : {
+        "artifact" : "com.google.classpath-explorer:classpath-explorer:1.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.jsmart:rest-bdd-zerocode:1.1.1/dependencies/com/google/classpath-explorer/classpath-explorer/1.0/classpath-explorer-1.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import com.google.classpath.RegExpResourceFilter;",
+      "artifact" : {
+        "artifact" : "com.google.classpath-explorer:classpath-explorer:1.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.jsmart:rest-bdd-zerocode:1.1.1/dependencies/com/google/classpath-explorer/classpath-explorer/1.0/classpath-explorer-1.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import java.util.Arrays;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.jsmart.smarttester.core.domain.ScenarioSpec;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.stream.Collectors;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.Set;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.HashSet;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.jsmart.smarttester.core.di.ObjectMapperProvider;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.fasterxml.jackson.databind.JsonNode;",
+      "artifact" : {
+        "artifact" : "com.fasterxml.jackson.core:jackson-databind:2.7.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.jsmart:rest-bdd-zerocode:1.1.1/dependencies/com/fasterxml/jackson/core/jackson-databind/2.7.1/jackson-databind-2.7.1.jar"
+      },
+      "isDirectDependency" : true
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/org.jsmart:rest-bdd-zerocode/src/main/java/org/jsmart/smarttester/core/utils/HelperJsonUtils.java",
+    "useImportReport" : [ {
+      "importPath" : "import org.slf4j.LoggerFactory;",
+      "artifact" : {
+        "artifact" : "org.slf4j:slf4j-api:1.6.6",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.jsmart:rest-bdd-zerocode:1.1.1/dependencies/org/slf4j/slf4j-api/1.6.6/slf4j-api-1.6.6.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.fasterxml.jackson.databind.ObjectMapper;",
+      "artifact" : {
+        "artifact" : "com.fasterxml.jackson.core:jackson-databind:2.7.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.jsmart:rest-bdd-zerocode:1.1.1/dependencies/com/fasterxml/jackson/core/jackson-databind/2.7.1/jackson-databind-2.7.1.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.jsmart.smarttester.core.di.ObjectMapperProvider;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.fasterxml.jackson.databind.JsonNode;",
+      "artifact" : {
+        "artifact" : "com.fasterxml.jackson.core:jackson-databind:2.7.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.jsmart:rest-bdd-zerocode:1.1.1/dependencies/com/fasterxml/jackson/core/jackson-databind/2.7.1/jackson-databind-2.7.1.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import java.io.IOException;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.Map;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.HashMap;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.apache.commons.lang.StringUtils;",
+      "artifact" : {
+        "artifact" : "commons-lang:commons-lang:2.6",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.jsmart:rest-bdd-zerocode:1.1.1/dependencies/commons-lang/commons-lang/2.6/commons-lang-2.6.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.jboss.resteasy.client.ClientRequest;",
+      "artifact" : {
+        "artifact" : "org.jboss.resteasy:resteasy-jaxrs:2.2.1.GA",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.jsmart:rest-bdd-zerocode:1.1.1/dependencies/org/jboss/resteasy/resteasy-jaxrs/2.2.1.GA/resteasy-jaxrs-2.2.1.GA.jar"
+      },
+      "isDirectDependency" : true
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ {
+      "importPath" : "org.slf4j.Logger",
+      "artifact" : {
+        "artifact" : "org.slf4j:slf4j-api:1.6.6",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.jsmart:rest-bdd-zerocode:1.1.1/dependencies/org/slf4j/slf4j-api/1.6.6/slf4j-api-1.6.6.jar"
+      },
+      "isDirectDependency" : false
+    } ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/org.jsmart:rest-bdd-zerocode/src/main/java/org/jsmart/smarttester/core/AddService.java",
+    "useImportReport" : [ {
+      "importPath" : "import org.slf4j.Logger;",
+      "artifact" : {
+        "artifact" : "org.slf4j:slf4j-api:1.6.6",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.jsmart:rest-bdd-zerocode:1.1.1/dependencies/org/slf4j/slf4j-api/1.6.6/slf4j-api-1.6.6.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.slf4j.LoggerFactory;",
+      "artifact" : {
+        "artifact" : "org.slf4j:slf4j-api:1.6.6",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.jsmart:rest-bdd-zerocode:1.1.1/dependencies/org/slf4j/slf4j-api/1.6.6/slf4j-api-1.6.6.jar"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/org.jsmart:rest-bdd-zerocode/src/main/java/org/jsmart/smarttester/core/logbuilder/ScenarioLogBuilder.java",
+    "useImportReport" : [ {
+      "importPath" : "import java.time.LocalDateTime;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.fasterxml.jackson.annotation.JsonCreator;",
+      "artifact" : {
+        "artifact" : "com.fasterxml.jackson.core:jackson-annotations:2.7.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.jsmart:rest-bdd-zerocode:1.1.1/dependencies/com/fasterxml/jackson/core/jackson-annotations/2.7.1/jackson-annotations-2.7.1.jar"
+      },
+      "isDirectDependency" : true
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/org.jsmart:rest-bdd-zerocode/src/main/java/org/jsmart/smarttester/core/logbuilder/LogCorelationshipPrinter.java",
+    "useImportReport" : [ {
+      "importPath" : "import org.slf4j.Logger;",
+      "artifact" : {
+        "artifact" : "org.slf4j:slf4j-api:1.6.6",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.jsmart:rest-bdd-zerocode:1.1.1/dependencies/org/slf4j/slf4j-api/1.6.6/slf4j-api-1.6.6.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.time.Duration;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import static java.lang.String.format;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.UUID;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/org.jsmart:rest-bdd-zerocode/src/main/java/org/jsmart/smarttester/core/logbuilder/RequestLogBuilder.java",
+    "useImportReport" : [ {
+      "importPath" : "import java.time.LocalDateTime;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.fasterxml.jackson.annotation.JsonCreator;",
+      "artifact" : {
+        "artifact" : "com.fasterxml.jackson.core:jackson-annotations:2.7.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.jsmart:rest-bdd-zerocode:1.1.1/dependencies/com/fasterxml/jackson/core/jackson-annotations/2.7.1/jackson-annotations-2.7.1.jar"
+      },
+      "isDirectDependency" : true
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/org.jsmart:rest-bdd-zerocode/src/main/java/org/jsmart/smarttester/core/logbuilder/ResponseLogBuilder.java",
+    "useImportReport" : [ {
+      "importPath" : "import java.time.LocalDateTime;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/org.jsmart:rest-bdd-zerocode/src/main/java/org/jsmart/smarttester/core/engine/assertion/FieldHasSubStringValueAsserter.java",
+    "useImportReport" : [ ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/org.jsmart:rest-bdd-zerocode/src/main/java/org/jsmart/smarttester/core/engine/assertion/FieldIsNotNullAsserter.java",
+    "useImportReport" : [ ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/org.jsmart:rest-bdd-zerocode/src/main/java/org/jsmart/smarttester/core/engine/assertion/AssertionReport.java",
+    "useImportReport" : [ ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/org.jsmart:rest-bdd-zerocode/src/main/java/org/jsmart/smarttester/core/engine/assertion/JsonAsserter.java",
+    "useImportReport" : [ {
+      "importPath" : "import org.slf4j.Logger;",
+      "artifact" : {
+        "artifact" : "org.slf4j:slf4j-api:1.6.6",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.jsmart:rest-bdd-zerocode:1.1.1/dependencies/org/slf4j/slf4j-api/1.6.6/slf4j-api-1.6.6.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.slf4j.LoggerFactory;",
+      "artifact" : {
+        "artifact" : "org.slf4j:slf4j-api:1.6.6",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.jsmart:rest-bdd-zerocode:1.1.1/dependencies/org/slf4j/slf4j-api/1.6.6/slf4j-api-1.6.6.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.jayway.jsonpath.JsonPath;",
+      "artifact" : {
+        "artifact" : "com.jayway.jsonpath:json-path:2.2.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.jsmart:rest-bdd-zerocode:1.1.1/dependencies/com/jayway/jsonpath/json-path/2.2.0/json-path-2.2.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import com.jayway.jsonpath.PathNotFoundException;",
+      "artifact" : {
+        "artifact" : "com.jayway.jsonpath:json-path:2.2.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.jsmart:rest-bdd-zerocode:1.1.1/dependencies/com/jayway/jsonpath/json-path/2.2.0/json-path-2.2.0.jar"
+      },
+      "isDirectDependency" : true
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/org.jsmart:rest-bdd-zerocode/src/main/java/org/jsmart/smarttester/core/engine/assertion/FieldHasExactValueAsserter.java",
+    "useImportReport" : [ ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/org.jsmart:rest-bdd-zerocode/src/main/java/org/jsmart/smarttester/core/engine/assertion/ArrayIsEmptyAsserter.java",
+    "useImportReport" : [ ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ {
+      "importPath" : "net.minidev.json.JSONArray",
+      "artifact" : {
+        "artifact" : "net.minidev:json-smart:2.2.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.jsmart:rest-bdd-zerocode:1.1.1/dependencies/net/minidev/json-smart/2.2.1/json-smart-2.2.1.jar"
+      },
+      "isDirectDependency" : false
+    } ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/org.jsmart:rest-bdd-zerocode/src/main/java/org/jsmart/smarttester/core/engine/assertion/NumberComparator.java",
+    "useImportReport" : [ {
+      "importPath" : "import java.util.Comparator;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.math.BigDecimal;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/org.jsmart:rest-bdd-zerocode/src/main/java/org/jsmart/smarttester/core/engine/assertion/FieldIsNullAsserter.java",
+    "useImportReport" : [ ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/org.jsmart:rest-bdd-zerocode/src/main/java/org/jsmart/smarttester/core/engine/assertion/ArraySizeAsserter.java",
+    "useImportReport" : [ ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ {
+      "importPath" : "net.minidev.json.JSONArray",
+      "artifact" : {
+        "artifact" : "net.minidev:json-smart:2.2.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.jsmart:rest-bdd-zerocode:1.1.1/dependencies/net/minidev/json-smart/2.2.1/json-smart-2.2.1.jar"
+      },
+      "isDirectDependency" : false
+    } ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/org.jsmart:rest-bdd-zerocode/src/main/java/org/jsmart/smarttester/core/engine/mocker/RestEndPointMocker.java",
+    "useImportReport" : [ {
+      "importPath" : "import java.util.logging.Logger;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.jsmart.smarttester.core.runner.MultiStepsScenarioRunnerImpl;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.apache.commons.lang.StringUtils;",
+      "artifact" : {
+        "artifact" : "commons-lang:commons-lang:2.6",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.jsmart:rest-bdd-zerocode:1.1.1/dependencies/commons-lang/commons-lang/2.6/commons-lang-2.6.jar"
+      },
+      "isDirectDependency" : true
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/org.jsmart:rest-bdd-zerocode/src/main/java/org/jsmart/smarttester/core/engine/executor/JavaExecutorImpl.java",
+    "useImportReport" : [ {
+      "importPath" : "import com.google.inject.Injector;",
+      "artifact" : {
+        "artifact" : "com.google.inject:guice:4.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.jsmart:rest-bdd-zerocode:1.1.1/dependencies/com/google/inject/guice/4.0/guice-4.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import com.google.inject.Inject;",
+      "artifact" : {
+        "artifact" : "com.google.inject:guice:4.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.jsmart:rest-bdd-zerocode:1.1.1/dependencies/com/google/inject/guice/4.0/guice-4.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import java.util.List;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.Arrays;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.lang.reflect.Method;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/org.jsmart:rest-bdd-zerocode/src/main/java/org/jsmart/smarttester/core/engine/executor/JsonServiceExecutor.java",
+    "useImportReport" : [ {
+      "importPath" : "import com.fasterxml.jackson.core.JsonProcessingException;",
+      "artifact" : {
+        "artifact" : "com.fasterxml.jackson.core:jackson-core:2.7.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.jsmart:rest-bdd-zerocode:1.1.1/dependencies/com/fasterxml/jackson/core/jackson-core/2.7.1/jackson-core-2.7.1.jar"
+      },
+      "isDirectDependency" : true
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/org.jsmart:rest-bdd-zerocode/src/main/java/org/jsmart/smarttester/core/engine/executor/JavaExecutor.java",
+    "useImportReport" : [ {
+      "importPath" : "import java.util.List;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/org.jsmart:rest-bdd-zerocode/src/main/java/org/jsmart/smarttester/core/engine/executor/JsonServiceExecutorImpl.java",
+    "useImportReport" : [ {
+      "importPath" : "import org.slf4j.Logger;",
+      "artifact" : {
+        "artifact" : "org.slf4j:slf4j-api:1.6.6",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.jsmart:rest-bdd-zerocode:1.1.1/dependencies/org/slf4j/slf4j-api/1.6.6/slf4j-api-1.6.6.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.slf4j.LoggerFactory;",
+      "artifact" : {
+        "artifact" : "org.slf4j:slf4j-api:1.6.6",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.jsmart:rest-bdd-zerocode:1.1.1/dependencies/org/slf4j/slf4j-api/1.6.6/slf4j-api-1.6.6.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.google.inject.Inject;",
+      "artifact" : {
+        "artifact" : "com.google.inject:guice:4.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.jsmart:rest-bdd-zerocode:1.1.1/dependencies/com/google/inject/guice/4.0/guice-4.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.jboss.resteasy.client.core.executors.ApacheHttpClientExecutor;",
+      "artifact" : {
+        "artifact" : "org.jboss.resteasy:resteasy-jaxrs:2.2.1.GA",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.jsmart:rest-bdd-zerocode:1.1.1/dependencies/org/jboss/resteasy/resteasy-jaxrs/2.2.1.GA/resteasy-jaxrs-2.2.1.GA.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import com.fasterxml.jackson.databind.ObjectMapper;",
+      "artifact" : {
+        "artifact" : "com.fasterxml.jackson.core:jackson-databind:2.7.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.jsmart:rest-bdd-zerocode:1.1.1/dependencies/com/fasterxml/jackson/core/jackson-databind/2.7.1/jackson-databind-2.7.1.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.jsmart.smarttester.core.utils.SmartUtils;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.fasterxml.jackson.core.JsonProcessingException;",
+      "artifact" : {
+        "artifact" : "com.fasterxml.jackson.core:jackson-core:2.7.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.jsmart:rest-bdd-zerocode:1.1.1/dependencies/com/fasterxml/jackson/core/jackson-core/2.7.1/jackson-core-2.7.1.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import java.util.List;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.jsmart.smarttester.core.engine.mocker.RestEndPointMocker;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.jsmart.smarttester.core.utils.HelperJsonUtils;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.jboss.resteasy.client.ClientRequest;",
+      "artifact" : {
+        "artifact" : "org.jboss.resteasy:resteasy-jaxrs:2.2.1.GA",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.jsmart:rest-bdd-zerocode:1.1.1/dependencies/org/jboss/resteasy/resteasy-jaxrs/2.2.1.GA/resteasy-jaxrs-2.2.1.GA.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.jboss.resteasy.client.ClientResponse;",
+      "artifact" : {
+        "artifact" : "org.jboss.resteasy:resteasy-jaxrs:2.2.1.GA",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.jsmart:rest-bdd-zerocode:1.1.1/dependencies/org/jboss/resteasy/resteasy-jaxrs/2.2.1.GA/resteasy-jaxrs-2.2.1.GA.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import javax.ws.rs.core.MultivaluedMap;",
+      "artifact" : {
+        "artifact" : "org.jboss.resteasy:jaxrs-api:2.2.1.GA",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.jsmart:rest-bdd-zerocode:1.1.1/dependencies/org/jboss/resteasy/jaxrs-api/2.2.1.GA/jaxrs-api-2.2.1.GA.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.fasterxml.jackson.databind.JsonNode;",
+      "artifact" : {
+        "artifact" : "com.fasterxml.jackson.core:jackson-databind:2.7.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.jsmart:rest-bdd-zerocode:1.1.1/dependencies/com/fasterxml/jackson/core/jackson-databind/2.7.1/jackson-databind-2.7.1.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.apache.commons.lang.StringUtils;",
+      "artifact" : {
+        "artifact" : "commons-lang:commons-lang:2.6",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.jsmart:rest-bdd-zerocode:1.1.1/dependencies/commons-lang/commons-lang/2.6/commons-lang-2.6.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.jsmart.smarttester.core.domain.Response;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.Set;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import static org.jsmart.smarttester.core.utils.SmartUtils.prettyPrintJson;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.jayway.jsonpath.JsonPath;",
+      "artifact" : {
+        "artifact" : "com.jayway.jsonpath:json-path:2.2.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.jsmart:rest-bdd-zerocode:1.1.1/dependencies/com/jayway/jsonpath/json-path/2.2.0/json-path-2.2.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import com.jayway.jsonpath.PathNotFoundException;",
+      "artifact" : {
+        "artifact" : "com.jayway.jsonpath:json-path:2.2.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.jsmart:rest-bdd-zerocode:1.1.1/dependencies/com/jayway/jsonpath/json-path/2.2.0/json-path-2.2.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import java.util.Map;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import static java.lang.String.format;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.HashMap;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/org.jsmart:rest-bdd-zerocode/src/main/java/org/jsmart/smarttester/core/engine/preprocessor/JsonTestProcesor.java",
+    "useImportReport" : [ {
+      "importPath" : "import java.util.List;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.jsmart.smarttester.core.engine.assertion.JsonAsserter;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.jsmart.smarttester.core.engine.assertion.AssertionReport;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/org.jsmart:rest-bdd-zerocode/src/main/java/org/jsmart/smarttester/core/engine/preprocessor/JsonTestProcesorImpl.java",
+    "useImportReport" : [ {
+      "importPath" : "import java.util.List;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.Arrays;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.fasterxml.jackson.databind.ObjectMapper;",
+      "artifact" : {
+        "artifact" : "com.fasterxml.jackson.core:jackson-databind:2.7.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.jsmart:rest-bdd-zerocode:1.1.1/dependencies/com/fasterxml/jackson/core/jackson-databind/2.7.1/jackson-databind-2.7.1.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import com.google.inject.Inject;",
+      "artifact" : {
+        "artifact" : "com.google.inject:guice:4.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.jsmart:rest-bdd-zerocode:1.1.1/dependencies/com/google/inject/guice/4.0/guice-4.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import java.util.Map;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.HashMap;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.apache.commons.lang.text.StrSubstitutor;",
+      "artifact" : {
+        "artifact" : "commons-lang:commons-lang:2.6",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.jsmart:rest-bdd-zerocode:1.1.1/dependencies/commons-lang/commons-lang/2.6/commons-lang-2.6.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import java.util.ArrayList;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.regex.Pattern;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.regex.Matcher;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.jayway.jsonpath.JsonPath;",
+      "artifact" : {
+        "artifact" : "com.jayway.jsonpath:json-path:2.2.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.jsmart:rest-bdd-zerocode:1.1.1/dependencies/com/jayway/jsonpath/json-path/2.2.0/json-path-2.2.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.jsmart.smarttester.core.engine.assertion.JsonAsserter;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.fasterxml.jackson.databind.JsonNode;",
+      "artifact" : {
+        "artifact" : "com.fasterxml.jackson.core:jackson-databind:2.7.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.jsmart:rest-bdd-zerocode:1.1.1/dependencies/com/fasterxml/jackson/core/jackson-databind/2.7.1/jackson-databind-2.7.1.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.jsmart.smarttester.core.engine.assertion.FieldIsNotNullAsserter;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.jsmart.smarttester.core.engine.assertion.FieldIsNullAsserter;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.jsmart.smarttester.core.engine.assertion.ArrayIsEmptyAsserter;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.jsmart.smarttester.core.engine.assertion.ArraySizeAsserter;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.jsmart.smarttester.core.engine.assertion.FieldHasSubStringValueAsserter;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.jsmart.smarttester.core.engine.assertion.FieldHasExactValueAsserter;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.io.IOException;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.fasterxml.jackson.databind.node.JsonNodeType;",
+      "artifact" : {
+        "artifact" : "com.fasterxml.jackson.core:jackson-databind:2.7.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.jsmart:rest-bdd-zerocode:1.1.1/dependencies/com/fasterxml/jackson/core/jackson-databind/2.7.1/jackson-databind-2.7.1.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import java.util.Iterator;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import static java.lang.String.format;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.jsmart.smarttester.core.engine.assertion.AssertionReport;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.Random;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/org.jsmart:rest-bdd-zerocode/src/main/java/org/jsmart/smarttester/core/engine/preprocessor/ScenarioExecutionState.java",
+    "useImportReport" : [ {
+      "importPath" : "import java.util.List;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.ArrayList;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.Map;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.HashMap;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.stream.Collectors;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.apache.commons.lang.text.StrSubstitutor;",
+      "artifact" : {
+        "artifact" : "commons-lang:commons-lang:2.6",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.jsmart:rest-bdd-zerocode:1.1.1/dependencies/commons-lang/commons-lang/2.6/commons-lang-2.6.jar"
+      },
+      "isDirectDependency" : true
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/org.jsmart:rest-bdd-zerocode/src/main/java/org/jsmart/smarttester/core/engine/preprocessor/StepExecutionState.java",
+    "useImportReport" : [ {
+      "importPath" : "import java.util.Map;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.HashMap;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.apache.commons.lang.text.StrSubstitutor;",
+      "artifact" : {
+        "artifact" : "commons-lang:commons-lang:2.6",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.jsmart:rest-bdd-zerocode:1.1.1/dependencies/commons-lang/commons-lang/2.6/commons-lang-2.6.jar"
+      },
+      "isDirectDependency" : true
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/org.jsmart:rest-bdd-zerocode/src/main/java/org/jsmart/smarttester/core/domain/Assertions.java",
+    "useImportReport" : [ {
+      "importPath" : "import com.fasterxml.jackson.databind.annotation.JsonSerialize;",
+      "artifact" : {
+        "artifact" : "com.fasterxml.jackson.core:jackson-databind:2.7.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.jsmart:rest-bdd-zerocode:1.1.1/dependencies/com/fasterxml/jackson/core/jackson-databind/2.7.1/jackson-databind-2.7.1.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import com.fasterxml.jackson.databind.JsonNode;",
+      "artifact" : {
+        "artifact" : "com.fasterxml.jackson.core:jackson-databind:2.7.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.jsmart:rest-bdd-zerocode:1.1.1/dependencies/com/fasterxml/jackson/core/jackson-databind/2.7.1/jackson-databind-2.7.1.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import com.fasterxml.jackson.annotation.JsonCreator;",
+      "artifact" : {
+        "artifact" : "com.fasterxml.jackson.core:jackson-annotations:2.7.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.jsmart:rest-bdd-zerocode:1.1.1/dependencies/com/fasterxml/jackson/core/jackson-annotations/2.7.1/jackson-annotations-2.7.1.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import com.fasterxml.jackson.annotation.JsonProperty;",
+      "artifact" : {
+        "artifact" : "com.fasterxml.jackson.core:jackson-annotations:2.7.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.jsmart:rest-bdd-zerocode:1.1.1/dependencies/com/fasterxml/jackson/core/jackson-annotations/2.7.1/jackson-annotations-2.7.1.jar"
+      },
+      "isDirectDependency" : true
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/org.jsmart:rest-bdd-zerocode/src/main/java/org/jsmart/smarttester/core/domain/Response.java",
+    "useImportReport" : [ {
+      "importPath" : "import com.fasterxml.jackson.databind.annotation.JsonSerialize;",
+      "artifact" : {
+        "artifact" : "com.fasterxml.jackson.core:jackson-databind:2.7.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.jsmart:rest-bdd-zerocode:1.1.1/dependencies/com/fasterxml/jackson/core/jackson-databind/2.7.1/jackson-databind-2.7.1.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import java.util.Map;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.fasterxml.jackson.databind.JsonNode;",
+      "artifact" : {
+        "artifact" : "com.fasterxml.jackson.core:jackson-databind:2.7.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.jsmart:rest-bdd-zerocode:1.1.1/dependencies/com/fasterxml/jackson/core/jackson-databind/2.7.1/jackson-databind-2.7.1.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import com.fasterxml.jackson.annotation.JsonCreator;",
+      "artifact" : {
+        "artifact" : "com.fasterxml.jackson.core:jackson-annotations:2.7.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.jsmart:rest-bdd-zerocode:1.1.1/dependencies/com/fasterxml/jackson/core/jackson-annotations/2.7.1/jackson-annotations-2.7.1.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import com.fasterxml.jackson.annotation.JsonProperty;",
+      "artifact" : {
+        "artifact" : "com.fasterxml.jackson.core:jackson-annotations:2.7.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.jsmart:rest-bdd-zerocode:1.1.1/dependencies/com/fasterxml/jackson/core/jackson-annotations/2.7.1/jackson-annotations-2.7.1.jar"
+      },
+      "isDirectDependency" : true
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/org.jsmart:rest-bdd-zerocode/src/main/java/org/jsmart/smarttester/core/domain/QueryParams.java",
+    "useImportReport" : [ ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/org.jsmart:rest-bdd-zerocode/src/main/java/org/jsmart/smarttester/core/domain/TestPackageRoot.java",
+    "useImportReport" : [ {
+      "importPath" : "import java.lang.annotation.Retention;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.lang.annotation.RetentionPolicy;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.lang.annotation.Target;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.lang.annotation.ElementType;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/org.jsmart:rest-bdd-zerocode/src/main/java/org/jsmart/smarttester/core/domain/Body.java",
+    "useImportReport" : [ ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/org.jsmart:rest-bdd-zerocode/src/main/java/org/jsmart/smarttester/core/domain/TargetEnv.java",
+    "useImportReport" : [ {
+      "importPath" : "import java.lang.annotation.Retention;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.lang.annotation.RetentionPolicy;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.lang.annotation.Target;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.lang.annotation.ElementType;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/org.jsmart:rest-bdd-zerocode/src/main/java/org/jsmart/smarttester/core/domain/ScenarioSpec.java",
+    "useImportReport" : [ {
+      "importPath" : "import com.fasterxml.jackson.databind.annotation.JsonSerialize;",
+      "artifact" : {
+        "artifact" : "com.fasterxml.jackson.core:jackson-databind:2.7.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.jsmart:rest-bdd-zerocode:1.1.1/dependencies/com/fasterxml/jackson/core/jackson-databind/2.7.1/jackson-databind-2.7.1.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import java.util.List;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.fasterxml.jackson.annotation.JsonCreator;",
+      "artifact" : {
+        "artifact" : "com.fasterxml.jackson.core:jackson-annotations:2.7.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.jsmart:rest-bdd-zerocode:1.1.1/dependencies/com/fasterxml/jackson/core/jackson-annotations/2.7.1/jackson-annotations-2.7.1.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import com.fasterxml.jackson.annotation.JsonProperty;",
+      "artifact" : {
+        "artifact" : "com.fasterxml.jackson.core:jackson-annotations:2.7.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.jsmart:rest-bdd-zerocode:1.1.1/dependencies/com/fasterxml/jackson/core/jackson-annotations/2.7.1/jackson-annotations-2.7.1.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import java.util.ArrayList;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/org.jsmart:rest-bdd-zerocode/src/main/java/org/jsmart/smarttester/core/domain/JsonTestCase.java",
+    "useImportReport" : [ {
+      "importPath" : "import java.lang.annotation.Target;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.lang.annotation.ElementType;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.lang.annotation.Retention;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.lang.annotation.RetentionPolicy;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/org.jsmart:rest-bdd-zerocode/src/main/java/org/jsmart/smarttester/core/domain/Step.java",
+    "useImportReport" : [ {
+      "importPath" : "import com.fasterxml.jackson.databind.annotation.JsonSerialize;",
+      "artifact" : {
+        "artifact" : "com.fasterxml.jackson.core:jackson-databind:2.7.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.jsmart:rest-bdd-zerocode:1.1.1/dependencies/com/fasterxml/jackson/core/jackson-databind/2.7.1/jackson-databind-2.7.1.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import com.fasterxml.jackson.databind.JsonNode;",
+      "artifact" : {
+        "artifact" : "com.fasterxml.jackson.core:jackson-databind:2.7.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.jsmart:rest-bdd-zerocode:1.1.1/dependencies/com/fasterxml/jackson/core/jackson-databind/2.7.1/jackson-databind-2.7.1.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import com.fasterxml.jackson.annotation.JsonCreator;",
+      "artifact" : {
+        "artifact" : "com.fasterxml.jackson.core:jackson-annotations:2.7.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.jsmart:rest-bdd-zerocode:1.1.1/dependencies/com/fasterxml/jackson/core/jackson-annotations/2.7.1/jackson-annotations-2.7.1.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import com.fasterxml.jackson.annotation.JsonProperty;",
+      "artifact" : {
+        "artifact" : "com.fasterxml.jackson.core:jackson-annotations:2.7.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.jsmart:rest-bdd-zerocode:1.1.1/dependencies/com/fasterxml/jackson/core/jackson-annotations/2.7.1/jackson-annotations-2.7.1.jar"
+      },
+      "isDirectDependency" : true
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/org.jsmart:rest-bdd-zerocode/src/main/java/org/jsmart/smarttester/core/domain/Request.java",
+    "useImportReport" : [ {
+      "importPath" : "import com.fasterxml.jackson.databind.annotation.JsonSerialize;",
+      "artifact" : {
+        "artifact" : "com.fasterxml.jackson.core:jackson-databind:2.7.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.jsmart:rest-bdd-zerocode:1.1.1/dependencies/com/fasterxml/jackson/core/jackson-databind/2.7.1/jackson-databind-2.7.1.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import java.util.Map;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.fasterxml.jackson.databind.JsonNode;",
+      "artifact" : {
+        "artifact" : "com.fasterxml.jackson.core:jackson-databind:2.7.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.jsmart:rest-bdd-zerocode:1.1.1/dependencies/com/fasterxml/jackson/core/jackson-databind/2.7.1/jackson-databind-2.7.1.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import com.fasterxml.jackson.annotation.JsonCreator;",
+      "artifact" : {
+        "artifact" : "com.fasterxml.jackson.core:jackson-annotations:2.7.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.jsmart:rest-bdd-zerocode:1.1.1/dependencies/com/fasterxml/jackson/core/jackson-annotations/2.7.1/jackson-annotations-2.7.1.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import com.fasterxml.jackson.annotation.JsonProperty;",
+      "artifact" : {
+        "artifact" : "com.fasterxml.jackson.core:jackson-annotations:2.7.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.jsmart:rest-bdd-zerocode:1.1.1/dependencies/com/fasterxml/jackson/core/jackson-annotations/2.7.1/jackson-annotations-2.7.1.jar"
+      },
+      "isDirectDependency" : true
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  } ],
+  "projectUseDependencies" : [ {
+    "artifact" : "junit:junit:4.12",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.jsmart:rest-bdd-zerocode:1.1.1/dependencies/junit/junit/4.12/junit-4.12.jar"
+  }, {
+    "artifact" : "org.jukito:jukito:1.4.1",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.jsmart:rest-bdd-zerocode:1.1.1/dependencies/org/jukito/jukito/1.4.1/jukito-1.4.1.jar"
+  }, {
+    "artifact" : "com.google.inject:guice:4.0",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.jsmart:rest-bdd-zerocode:1.1.1/dependencies/com/google/inject/guice/4.0/guice-4.0.jar"
+  }, {
+    "artifact" : "com.fasterxml.jackson.core:jackson-databind:2.7.1",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.jsmart:rest-bdd-zerocode:1.1.1/dependencies/com/fasterxml/jackson/core/jackson-databind/2.7.1/jackson-databind-2.7.1.jar"
+  }, {
+    "artifact" : "org.jboss.resteasy:resteasy-jaxrs:2.2.1.GA",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.jsmart:rest-bdd-zerocode:1.1.1/dependencies/org/jboss/resteasy/resteasy-jaxrs/2.2.1.GA/resteasy-jaxrs-2.2.1.GA.jar"
+  }, {
+    "artifact" : "com.jayway.jsonpath:json-path:2.2.0",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.jsmart:rest-bdd-zerocode:1.1.1/dependencies/com/jayway/jsonpath/json-path/2.2.0/json-path-2.2.0.jar"
+  }, {
+    "artifact" : "org.skyscreamer:jsonassert:1.2.3",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.jsmart:rest-bdd-zerocode:1.1.1/dependencies/org/skyscreamer/jsonassert/1.2.3/jsonassert-1.2.3.jar"
+  }, {
+    "artifact" : "commons-lang:commons-lang:2.6",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.jsmart:rest-bdd-zerocode:1.1.1/dependencies/commons-lang/commons-lang/2.6/commons-lang-2.6.jar"
+  }, {
+    "artifact" : "com.google.guava:guava:16.0",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.jsmart:rest-bdd-zerocode:1.1.1/dependencies/com/google/guava/guava/16.0/guava-16.0.jar"
+  }, {
+    "artifact" : "com.fasterxml.jackson.core:jackson-core:2.7.1",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.jsmart:rest-bdd-zerocode:1.1.1/dependencies/com/fasterxml/jackson/core/jackson-core/2.7.1/jackson-core-2.7.1.jar"
+  }, {
+    "artifact" : "com.google.classpath-explorer:classpath-explorer:1.0",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.jsmart:rest-bdd-zerocode:1.1.1/dependencies/com/google/classpath-explorer/classpath-explorer/1.0/classpath-explorer-1.0.jar"
+  }, {
+    "artifact" : "com.fasterxml.jackson.core:jackson-annotations:2.7.1",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.jsmart:rest-bdd-zerocode:1.1.1/dependencies/com/fasterxml/jackson/core/jackson-annotations/2.7.1/jackson-annotations-2.7.1.jar"
+  }, {
+    "artifact" : "org.slf4j:slf4j-api:1.6.6",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.jsmart:rest-bdd-zerocode:1.1.1/dependencies/org/slf4j/slf4j-api/1.6.6/slf4j-api-1.6.6.jar"
+  }, {
+    "artifact" : "net.minidev:json-smart:2.2.1",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.jsmart:rest-bdd-zerocode:1.1.1/dependencies/net/minidev/json-smart/2.2.1/json-smart-2.2.1.jar"
+  } ],
+  "projectUseTransitiveDependencies" : [ {
+    "artifact" : "com.fasterxml.jackson.datatype:jackson-datatype-jdk8:2.7.1",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.jsmart:rest-bdd-zerocode:1.1.1/dependencies/com/fasterxml/jackson/datatype/jackson-datatype-jdk8/2.7.1/jackson-datatype-jdk8-2.7.1.jar"
+  }, {
+    "artifact" : "ch.qos.logback:logback-classic:1.0.7",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.jsmart:rest-bdd-zerocode:1.1.1/dependencies/ch/qos/logback/logback-classic/1.0.7/logback-classic-1.0.7.jar"
+  } ],
+  "projectUnusedDependencies" : [ {
+    "artifact" : "ch.qos.logback:logback-core:1.0.7",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.jsmart:rest-bdd-zerocode:1.1.1/dependencies/ch/qos/logback/logback-core/1.0.7/logback-core-1.0.7.jar"
+  } ]
+}

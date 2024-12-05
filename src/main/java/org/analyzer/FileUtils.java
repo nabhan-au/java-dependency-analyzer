@@ -29,7 +29,7 @@ public class FileUtils {
         PathMatcher matcher = FileSystems.getDefault().getPathMatcher("glob:**/*.java");
         try (Stream<Path> paths = Files.walk(Paths.get(repoPath))) {
             paths
-                    .filter(path -> matcher.matches(path) && Files.isRegularFile(path))
+                    .filter(path -> matcher.matches(path) && Files.isRegularFile(path) && !path.toAbsolutePath().toString().contains("/test/"))
                     .forEach(pathList::add);
         } catch (IOException e) {
             throw new RuntimeException(e);

@@ -1,0 +1,793 @@
+{
+  "projectArtifact" : "de.digitalcollections.commons:dc-commons-springsecurity:4.0.1",
+  "repositoryDir" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/de.digitalcollections.commons:dc-commons-springsecurity/dc-commons-springsecurity",
+  "repositorySubDir" : "",
+  "artifactLocation" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/de.digitalcollections.commons:dc-commons-springsecurity:4.0.1",
+  "fileImportReports" : [ {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/de.digitalcollections.commons:dc-commons-springsecurity/dc-commons-springsecurity/src/main/java/de/digitalcollections/commons/springsecurity/jwt/AuthenticatedUser.java",
+    "useImportReport" : [ {
+      "importPath" : "import org.springframework.security.core.Authentication;",
+      "artifact" : {
+        "artifact" : "org.springframework.security:spring-security-core:5.1.4.RELEASE",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/de.digitalcollections.commons:dc-commons-springsecurity:4.0.1/dependencies/org/springframework/security/spring-security-core/5.1.4.RELEASE/spring-security-core-5.1.4.RELEASE.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import java.util.Collection;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.springframework.security.core.GrantedAuthority;",
+      "artifact" : {
+        "artifact" : "org.springframework.security:spring-security-core:5.1.4.RELEASE",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/de.digitalcollections.commons:dc-commons-springsecurity:4.0.1/dependencies/org/springframework/security/spring-security-core/5.1.4.RELEASE/spring-security-core-5.1.4.RELEASE.jar"
+      },
+      "isDirectDependency" : true
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/de.digitalcollections.commons:dc-commons-springsecurity/dc-commons-springsecurity/src/main/java/de/digitalcollections/commons/springsecurity/jwt/TokenAuthenticationService.java",
+    "useImportReport" : [ {
+      "importPath" : "import java.security.PrivateKey;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.security.PublicKey;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import javax.servlet.http.HttpServletResponse;",
+      "artifact" : {
+        "artifact" : "javax.servlet:javax.servlet-api:4.0.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/de.digitalcollections.commons:dc-commons-springsecurity:4.0.1/dependencies/javax/servlet/javax.servlet-api/4.0.1/javax.servlet-api-4.0.1.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import io.jsonwebtoken.JwtBuilder;",
+      "artifact" : {
+        "artifact" : "io.jsonwebtoken:jjwt:0.9.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/de.digitalcollections.commons:dc-commons-springsecurity:4.0.1/dependencies/io/jsonwebtoken/jjwt/0.9.1/jjwt-0.9.1.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import io.jsonwebtoken.Jwts;",
+      "artifact" : {
+        "artifact" : "io.jsonwebtoken:jjwt:0.9.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/de.digitalcollections.commons:dc-commons-springsecurity:4.0.1/dependencies/io/jsonwebtoken/jjwt/0.9.1/jjwt-0.9.1.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import java.util.Date;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.time.Instant;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import io.jsonwebtoken.SignatureAlgorithm;",
+      "artifact" : {
+        "artifact" : "io.jsonwebtoken:jjwt:0.9.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/de.digitalcollections.commons:dc-commons-springsecurity:4.0.1/dependencies/io/jsonwebtoken/jjwt/0.9.1/jjwt-0.9.1.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.springframework.security.core.Authentication;",
+      "artifact" : {
+        "artifact" : "org.springframework.security:spring-security-core:5.1.4.RELEASE",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/de.digitalcollections.commons:dc-commons-springsecurity:4.0.1/dependencies/org/springframework/security/spring-security-core/5.1.4.RELEASE/spring-security-core-5.1.4.RELEASE.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import javax.servlet.http.HttpServletRequest;",
+      "artifact" : {
+        "artifact" : "javax.servlet:javax.servlet-api:4.0.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/de.digitalcollections.commons:dc-commons-springsecurity:4.0.1/dependencies/javax/servlet/javax.servlet-api/4.0.1/javax.servlet-api-4.0.1.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import io.jsonwebtoken.JwtParser;",
+      "artifact" : {
+        "artifact" : "io.jsonwebtoken:jjwt:0.9.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/de.digitalcollections.commons:dc-commons-springsecurity:4.0.1/dependencies/io/jsonwebtoken/jjwt/0.9.1/jjwt-0.9.1.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import io.jsonwebtoken.ExpiredJwtException;",
+      "artifact" : {
+        "artifact" : "io.jsonwebtoken:jjwt:0.9.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/de.digitalcollections.commons:dc-commons-springsecurity:4.0.1/dependencies/io/jsonwebtoken/jjwt/0.9.1/jjwt-0.9.1.jar"
+      },
+      "isDirectDependency" : true
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/de.digitalcollections.commons:dc-commons-springsecurity/dc-commons-springsecurity/src/main/java/de/digitalcollections/commons/springsecurity/jwt/JWTLoginFilter.java",
+    "useImportReport" : [ {
+      "importPath" : "import org.springframework.security.web.authentication.AbstractAuthenticationProcessingFilter;",
+      "artifact" : {
+        "artifact" : "org.springframework.security:spring-security-web:5.1.4.RELEASE",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/de.digitalcollections.commons:dc-commons-springsecurity:4.0.1/dependencies/org/springframework/security/spring-security-web/5.1.4.RELEASE/spring-security-web-5.1.4.RELEASE.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.springframework.security.authentication.AuthenticationManager;",
+      "artifact" : {
+        "artifact" : "org.springframework.security:spring-security-core:5.1.4.RELEASE",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/de.digitalcollections.commons:dc-commons-springsecurity:4.0.1/dependencies/org/springframework/security/spring-security-core/5.1.4.RELEASE/spring-security-core-5.1.4.RELEASE.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.springframework.security.web.util.matcher.AntPathRequestMatcher;",
+      "artifact" : {
+        "artifact" : "org.springframework.security:spring-security-web:5.1.4.RELEASE",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/de.digitalcollections.commons:dc-commons-springsecurity:4.0.1/dependencies/org/springframework/security/spring-security-web/5.1.4.RELEASE/spring-security-web-5.1.4.RELEASE.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.springframework.security.core.Authentication;",
+      "artifact" : {
+        "artifact" : "org.springframework.security:spring-security-core:5.1.4.RELEASE",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/de.digitalcollections.commons:dc-commons-springsecurity:4.0.1/dependencies/org/springframework/security/spring-security-core/5.1.4.RELEASE/spring-security-core-5.1.4.RELEASE.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import javax.servlet.http.HttpServletRequest;",
+      "artifact" : {
+        "artifact" : "javax.servlet:javax.servlet-api:4.0.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/de.digitalcollections.commons:dc-commons-springsecurity:4.0.1/dependencies/javax/servlet/javax.servlet-api/4.0.1/javax.servlet-api-4.0.1.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import javax.servlet.http.HttpServletResponse;",
+      "artifact" : {
+        "artifact" : "javax.servlet:javax.servlet-api:4.0.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/de.digitalcollections.commons:dc-commons-springsecurity:4.0.1/dependencies/javax/servlet/javax.servlet-api/4.0.1/javax.servlet-api-4.0.1.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.springframework.security.core.AuthenticationException;",
+      "artifact" : {
+        "artifact" : "org.springframework.security:spring-security-core:5.1.4.RELEASE",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/de.digitalcollections.commons:dc-commons-springsecurity:4.0.1/dependencies/org/springframework/security/spring-security-core/5.1.4.RELEASE/spring-security-core-5.1.4.RELEASE.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import java.io.IOException;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import javax.servlet.ServletException;",
+      "artifact" : {
+        "artifact" : "javax.servlet:javax.servlet-api:4.0.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/de.digitalcollections.commons:dc-commons-springsecurity:4.0.1/dependencies/javax/servlet/javax.servlet-api/4.0.1/javax.servlet-api-4.0.1.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import com.fasterxml.jackson.databind.ObjectMapper;",
+      "artifact" : {
+        "artifact" : "com.fasterxml.jackson.core:jackson-databind:2.9.8",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/de.digitalcollections.commons:dc-commons-springsecurity:4.0.1/dependencies/com/fasterxml/jackson/core/jackson-databind/2.9.8/jackson-databind-2.9.8.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import com.fasterxml.jackson.databind.JsonNode;",
+      "artifact" : {
+        "artifact" : "com.fasterxml.jackson.core:jackson-databind:2.9.8",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/de.digitalcollections.commons:dc-commons-springsecurity:4.0.1/dependencies/com/fasterxml/jackson/core/jackson-databind/2.9.8/jackson-databind-2.9.8.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.springframework.security.authentication.UsernamePasswordAuthenticationToken;",
+      "artifact" : {
+        "artifact" : "org.springframework.security:spring-security-core:5.1.4.RELEASE",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/de.digitalcollections.commons:dc-commons-springsecurity:4.0.1/dependencies/org/springframework/security/spring-security-core/5.1.4.RELEASE/spring-security-core-5.1.4.RELEASE.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import javax.servlet.FilterChain;",
+      "artifact" : {
+        "artifact" : "javax.servlet:javax.servlet-api:4.0.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/de.digitalcollections.commons:dc-commons-springsecurity:4.0.1/dependencies/javax/servlet/javax.servlet-api/4.0.1/javax.servlet-api-4.0.1.jar"
+      },
+      "isDirectDependency" : true
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/de.digitalcollections.commons:dc-commons-springsecurity/dc-commons-springsecurity/src/main/java/de/digitalcollections/commons/springsecurity/jwt/JWTAuthenticationFilter.java",
+    "useImportReport" : [ {
+      "importPath" : "import org.springframework.web.filter.GenericFilterBean;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-web:5.1.5.RELEASE",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/de.digitalcollections.commons:dc-commons-springsecurity:4.0.1/dependencies/org/springframework/spring-web/5.1.5.RELEASE/spring-web-5.1.5.RELEASE.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import javax.servlet.ServletRequest;",
+      "artifact" : {
+        "artifact" : "javax.servlet:javax.servlet-api:4.0.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/de.digitalcollections.commons:dc-commons-springsecurity:4.0.1/dependencies/javax/servlet/javax.servlet-api/4.0.1/javax.servlet-api-4.0.1.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import javax.servlet.ServletResponse;",
+      "artifact" : {
+        "artifact" : "javax.servlet:javax.servlet-api:4.0.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/de.digitalcollections.commons:dc-commons-springsecurity:4.0.1/dependencies/javax/servlet/javax.servlet-api/4.0.1/javax.servlet-api-4.0.1.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import javax.servlet.FilterChain;",
+      "artifact" : {
+        "artifact" : "javax.servlet:javax.servlet-api:4.0.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/de.digitalcollections.commons:dc-commons-springsecurity:4.0.1/dependencies/javax/servlet/javax.servlet-api/4.0.1/javax.servlet-api-4.0.1.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import java.io.IOException;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import javax.servlet.ServletException;",
+      "artifact" : {
+        "artifact" : "javax.servlet:javax.servlet-api:4.0.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/de.digitalcollections.commons:dc-commons-springsecurity:4.0.1/dependencies/javax/servlet/javax.servlet-api/4.0.1/javax.servlet-api-4.0.1.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.springframework.security.core.Authentication;",
+      "artifact" : {
+        "artifact" : "org.springframework.security:spring-security-core:5.1.4.RELEASE",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/de.digitalcollections.commons:dc-commons-springsecurity:4.0.1/dependencies/org/springframework/security/spring-security-core/5.1.4.RELEASE/spring-security-core-5.1.4.RELEASE.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import javax.servlet.http.HttpServletRequest;",
+      "artifact" : {
+        "artifact" : "javax.servlet:javax.servlet-api:4.0.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/de.digitalcollections.commons:dc-commons-springsecurity:4.0.1/dependencies/javax/servlet/javax.servlet-api/4.0.1/javax.servlet-api-4.0.1.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.springframework.security.core.context.SecurityContextHolder;",
+      "artifact" : {
+        "artifact" : "org.springframework.security:spring-security-core:5.1.4.RELEASE",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/de.digitalcollections.commons:dc-commons-springsecurity:4.0.1/dependencies/org/springframework/security/spring-security-core/5.1.4.RELEASE/spring-security-core-5.1.4.RELEASE.jar"
+      },
+      "isDirectDependency" : true
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/de.digitalcollections.commons:dc-commons-springsecurity/dc-commons-springsecurity/src/main/java/de/digitalcollections/commons/springsecurity/access/UnsecuredPaths.java",
+    "useImportReport" : [ {
+      "importPath" : "import org.springframework.stereotype.Component;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-context:5.1.5.RELEASE",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/de.digitalcollections.commons:dc-commons-springsecurity:4.0.1/dependencies/org/springframework/spring-context/5.1.5.RELEASE/spring-context-5.1.5.RELEASE.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.springframework.context.annotation.Configuration;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-context:5.1.5.RELEASE",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/de.digitalcollections.commons:dc-commons-springsecurity:4.0.1/dependencies/org/springframework/spring-context/5.1.5.RELEASE/spring-context-5.1.5.RELEASE.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.springframework.boot.context.properties.EnableConfigurationProperties;",
+      "artifact" : {
+        "artifact" : "org.springframework.boot:spring-boot:2.1.3.RELEASE",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/de.digitalcollections.commons:dc-commons-springsecurity:4.0.1/dependencies/org/springframework/boot/spring-boot/2.1.3.RELEASE/spring-boot-2.1.3.RELEASE.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.slf4j.Logger;",
+      "artifact" : {
+        "artifact" : "org.slf4j:slf4j-api:1.7.26",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/de.digitalcollections.commons:dc-commons-springsecurity:4.0.1/dependencies/org/slf4j/slf4j-api/1.7.26/slf4j-api-1.7.26.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.slf4j.LoggerFactory;",
+      "artifact" : {
+        "artifact" : "org.slf4j:slf4j-api:1.7.26",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/de.digitalcollections.commons:dc-commons-springsecurity:4.0.1/dependencies/org/slf4j/slf4j-api/1.7.26/slf4j-api-1.7.26.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.springframework.beans.factory.annotation.Autowired;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-beans:5.1.5.RELEASE",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/de.digitalcollections.commons:dc-commons-springsecurity:4.0.1/dependencies/org/springframework/spring-beans/5.1.5.RELEASE/spring-beans-5.1.5.RELEASE.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.List;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.ArrayList;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import javax.annotation.PostConstruct;",
+      "artifact" : {
+        "artifact" : "javax.annotation:javax.annotation-api:1.3.2",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/de.digitalcollections.commons:dc-commons-springsecurity:4.0.1/dependencies/javax/annotation/javax.annotation-api/1.3.2/javax.annotation-api-1.3.2.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import java.util.Arrays;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/de.digitalcollections.commons:dc-commons-springsecurity/dc-commons-springsecurity/src/main/java/de/digitalcollections/commons/springsecurity/access/UnsecuredPathsConfig.java",
+    "useImportReport" : [ {
+      "importPath" : "import org.springframework.boot.context.properties.ConfigurationProperties;",
+      "artifact" : {
+        "artifact" : "org.springframework.boot:spring-boot:2.1.3.RELEASE",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/de.digitalcollections.commons:dc-commons-springsecurity:4.0.1/dependencies/org/springframework/boot/spring-boot/2.1.3.RELEASE/spring-boot-2.1.3.RELEASE.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import java.util.List;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/de.digitalcollections.commons:dc-commons-springsecurity/dc-commons-springsecurity/src/main/java/de/digitalcollections/commons/springsecurity/web/access/AuthenticatedWebSecurityConfig.java",
+    "useImportReport" : [ {
+      "importPath" : "import org.springframework.security.config.annotation.web.configuration.WebSecurityConfigurerAdapter;",
+      "artifact" : {
+        "artifact" : "org.springframework.security:spring-security-config:5.1.4.RELEASE",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/de.digitalcollections.commons:dc-commons-springsecurity:4.0.1/dependencies/org/springframework/security/spring-security-config/5.1.4.RELEASE/spring-security-config-5.1.4.RELEASE.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.springframework.context.annotation.Configuration;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-context:5.1.5.RELEASE",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/de.digitalcollections.commons:dc-commons-springsecurity:4.0.1/dependencies/org/springframework/spring-context/5.1.5.RELEASE/spring-context-5.1.5.RELEASE.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.springframework.security.config.annotation.web.configuration.EnableWebSecurity;",
+      "artifact" : {
+        "artifact" : "org.springframework.security:spring-security-config:5.1.4.RELEASE",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/de.digitalcollections.commons:dc-commons-springsecurity:4.0.1/dependencies/org/springframework/security/spring-security-config/5.1.4.RELEASE/spring-security-config-5.1.4.RELEASE.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.springframework.security.config.annotation.method.configuration.EnableGlobalMethodSecurity;",
+      "artifact" : {
+        "artifact" : "org.springframework.security:spring-security-config:5.1.4.RELEASE",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/de.digitalcollections.commons:dc-commons-springsecurity:4.0.1/dependencies/org/springframework/security/spring-security-config/5.1.4.RELEASE/spring-security-config-5.1.4.RELEASE.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.slf4j.Logger;",
+      "artifact" : {
+        "artifact" : "org.slf4j:slf4j-api:1.7.26",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/de.digitalcollections.commons:dc-commons-springsecurity:4.0.1/dependencies/org/slf4j/slf4j-api/1.7.26/slf4j-api-1.7.26.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.slf4j.LoggerFactory;",
+      "artifact" : {
+        "artifact" : "org.slf4j:slf4j-api:1.7.26",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/de.digitalcollections.commons:dc-commons-springsecurity:4.0.1/dependencies/org/slf4j/slf4j-api/1.7.26/slf4j-api-1.7.26.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import de.digitalcollections.commons.springsecurity.service.PlainUsernamePasswordUserDetailsService;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.springframework.beans.factory.annotation.Autowired;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-beans:5.1.5.RELEASE",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/de.digitalcollections.commons:dc-commons-springsecurity:4.0.1/dependencies/org/springframework/spring-beans/5.1.5.RELEASE/spring-beans-5.1.5.RELEASE.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import de.digitalcollections.commons.springsecurity.access.UnsecuredPaths;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.springframework.security.config.annotation.web.builders.HttpSecurity;",
+      "artifact" : {
+        "artifact" : "org.springframework.security:spring-security-config:5.1.4.RELEASE",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/de.digitalcollections.commons:dc-commons-springsecurity:4.0.1/dependencies/org/springframework/security/spring-security-config/5.1.4.RELEASE/spring-security-config-5.1.4.RELEASE.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.springframework.security.config.http.SessionCreationPolicy;",
+      "artifact" : {
+        "artifact" : "org.springframework.security:spring-security-config:5.1.4.RELEASE",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/de.digitalcollections.commons:dc-commons-springsecurity:4.0.1/dependencies/org/springframework/security/spring-security-config/5.1.4.RELEASE/spring-security-config-5.1.4.RELEASE.jar"
+      },
+      "isDirectDependency" : true
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/de.digitalcollections.commons:dc-commons-springsecurity/dc-commons-springsecurity/src/main/java/de/digitalcollections/commons/springsecurity/web/filter/AuthenticatedUserFilter.java",
+    "useImportReport" : [ {
+      "importPath" : "import javax.servlet.Filter;",
+      "artifact" : {
+        "artifact" : "javax.servlet:javax.servlet-api:4.0.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/de.digitalcollections.commons:dc-commons-springsecurity:4.0.1/dependencies/javax/servlet/javax.servlet-api/4.0.1/javax.servlet-api-4.0.1.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.slf4j.Logger;",
+      "artifact" : {
+        "artifact" : "org.slf4j:slf4j-api:1.7.26",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/de.digitalcollections.commons:dc-commons-springsecurity:4.0.1/dependencies/org/slf4j/slf4j-api/1.7.26/slf4j-api-1.7.26.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.slf4j.LoggerFactory;",
+      "artifact" : {
+        "artifact" : "org.slf4j:slf4j-api:1.7.26",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/de.digitalcollections.commons:dc-commons-springsecurity:4.0.1/dependencies/org/slf4j/slf4j-api/1.7.26/slf4j-api-1.7.26.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import de.digitalcollections.commons.springsecurity.access.UnsecuredPaths;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.springframework.beans.factory.annotation.Autowired;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-beans:5.1.5.RELEASE",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/de.digitalcollections.commons:dc-commons-springsecurity:4.0.1/dependencies/org/springframework/spring-beans/5.1.5.RELEASE/spring-beans-5.1.5.RELEASE.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import javax.servlet.FilterConfig;",
+      "artifact" : {
+        "artifact" : "javax.servlet:javax.servlet-api:4.0.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/de.digitalcollections.commons:dc-commons-springsecurity:4.0.1/dependencies/javax/servlet/javax.servlet-api/4.0.1/javax.servlet-api-4.0.1.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import javax.servlet.ServletException;",
+      "artifact" : {
+        "artifact" : "javax.servlet:javax.servlet-api:4.0.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/de.digitalcollections.commons:dc-commons-springsecurity:4.0.1/dependencies/javax/servlet/javax.servlet-api/4.0.1/javax.servlet-api-4.0.1.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import javax.servlet.ServletRequest;",
+      "artifact" : {
+        "artifact" : "javax.servlet:javax.servlet-api:4.0.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/de.digitalcollections.commons:dc-commons-springsecurity:4.0.1/dependencies/javax/servlet/javax.servlet-api/4.0.1/javax.servlet-api-4.0.1.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import javax.servlet.ServletResponse;",
+      "artifact" : {
+        "artifact" : "javax.servlet:javax.servlet-api:4.0.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/de.digitalcollections.commons:dc-commons-springsecurity:4.0.1/dependencies/javax/servlet/javax.servlet-api/4.0.1/javax.servlet-api-4.0.1.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import javax.servlet.FilterChain;",
+      "artifact" : {
+        "artifact" : "javax.servlet:javax.servlet-api:4.0.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/de.digitalcollections.commons:dc-commons-springsecurity:4.0.1/dependencies/javax/servlet/javax.servlet-api/4.0.1/javax.servlet-api-4.0.1.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import java.io.IOException;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.springframework.security.core.Authentication;",
+      "artifact" : {
+        "artifact" : "org.springframework.security:spring-security-core:5.1.4.RELEASE",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/de.digitalcollections.commons:dc-commons-springsecurity:4.0.1/dependencies/org/springframework/security/spring-security-core/5.1.4.RELEASE/spring-security-core-5.1.4.RELEASE.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.springframework.security.core.context.SecurityContextHolder;",
+      "artifact" : {
+        "artifact" : "org.springframework.security:spring-security-core:5.1.4.RELEASE",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/de.digitalcollections.commons:dc-commons-springsecurity:4.0.1/dependencies/org/springframework/security/spring-security-core/5.1.4.RELEASE/spring-security-core-5.1.4.RELEASE.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.springframework.security.core.userdetails.User;",
+      "artifact" : {
+        "artifact" : "org.springframework.security:spring-security-core:5.1.4.RELEASE",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/de.digitalcollections.commons:dc-commons-springsecurity:4.0.1/dependencies/org/springframework/security/spring-security-core/5.1.4.RELEASE/spring-security-core-5.1.4.RELEASE.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import javax.servlet.http.HttpServletRequest;",
+      "artifact" : {
+        "artifact" : "javax.servlet:javax.servlet-api:4.0.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/de.digitalcollections.commons:dc-commons-springsecurity:4.0.1/dependencies/javax/servlet/javax.servlet-api/4.0.1/javax.servlet-api-4.0.1.jar"
+      },
+      "isDirectDependency" : true
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/de.digitalcollections.commons:dc-commons-springsecurity/dc-commons-springsecurity/src/main/java/de/digitalcollections/commons/springsecurity/service/PlainUsernamePasswordUserDetailsService.java",
+    "useImportReport" : [ {
+      "importPath" : "import org.springframework.security.core.userdetails.UserDetailsService;",
+      "artifact" : {
+        "artifact" : "org.springframework.security:spring-security-core:5.1.4.RELEASE",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/de.digitalcollections.commons:dc-commons-springsecurity:4.0.1/dependencies/org/springframework/security/spring-security-core/5.1.4.RELEASE/spring-security-core-5.1.4.RELEASE.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.springframework.beans.factory.InitializingBean;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-beans:5.1.5.RELEASE",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/de.digitalcollections.commons:dc-commons-springsecurity:4.0.1/dependencies/org/springframework/spring-beans/5.1.5.RELEASE/spring-beans-5.1.5.RELEASE.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.springframework.stereotype.Service;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-context:5.1.5.RELEASE",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/de.digitalcollections.commons:dc-commons-springsecurity:4.0.1/dependencies/org/springframework/spring-context/5.1.5.RELEASE/spring-context-5.1.5.RELEASE.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.springframework.context.annotation.Configuration;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-context:5.1.5.RELEASE",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/de.digitalcollections.commons:dc-commons-springsecurity:4.0.1/dependencies/org/springframework/spring-context/5.1.5.RELEASE/spring-context-5.1.5.RELEASE.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.slf4j.Logger;",
+      "artifact" : {
+        "artifact" : "org.slf4j:slf4j-api:1.7.26",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/de.digitalcollections.commons:dc-commons-springsecurity:4.0.1/dependencies/org/slf4j/slf4j-api/1.7.26/slf4j-api-1.7.26.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.slf4j.LoggerFactory;",
+      "artifact" : {
+        "artifact" : "org.slf4j:slf4j-api:1.7.26",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/de.digitalcollections.commons:dc-commons-springsecurity:4.0.1/dependencies/org/slf4j/slf4j-api/1.7.26/slf4j-api-1.7.26.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.springframework.beans.factory.annotation.Value;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-beans:5.1.5.RELEASE",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/de.digitalcollections.commons:dc-commons-springsecurity:4.0.1/dependencies/org/springframework/spring-beans/5.1.5.RELEASE/spring-beans-5.1.5.RELEASE.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.springframework.security.provisioning.InMemoryUserDetailsManager;",
+      "artifact" : {
+        "artifact" : "org.springframework.security:spring-security-core:5.1.4.RELEASE",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/de.digitalcollections.commons:dc-commons-springsecurity:4.0.1/dependencies/org/springframework/security/spring-security-core/5.1.4.RELEASE/spring-security-core-5.1.4.RELEASE.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.springframework.core.io.Resource;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-core:5.1.5.RELEASE",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/de.digitalcollections.commons:dc-commons-springsecurity:4.0.1/dependencies/org/springframework/spring-core/5.1.5.RELEASE/spring-core-5.1.5.RELEASE.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.springframework.core.io.ClassPathResource;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-core:5.1.5.RELEASE",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/de.digitalcollections.commons:dc-commons-springsecurity:4.0.1/dependencies/org/springframework/spring-core/5.1.5.RELEASE/spring-core-5.1.5.RELEASE.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.springframework.core.io.UrlResource;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-core:5.1.5.RELEASE",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/de.digitalcollections.commons:dc-commons-springsecurity:4.0.1/dependencies/org/springframework/spring-core/5.1.5.RELEASE/spring-core-5.1.5.RELEASE.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.Properties;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.springframework.core.io.support.PropertiesLoaderUtils;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-core:5.1.5.RELEASE",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/de.digitalcollections.commons:dc-commons-springsecurity:4.0.1/dependencies/org/springframework/spring-core/5.1.5.RELEASE/spring-core-5.1.5.RELEASE.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.Enumeration;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.Arrays;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.stream.Collectors;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.springframework.security.core.userdetails.UserDetails;",
+      "artifact" : {
+        "artifact" : "org.springframework.security:spring-security-core:5.1.4.RELEASE",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/de.digitalcollections.commons:dc-commons-springsecurity:4.0.1/dependencies/org/springframework/security/spring-security-core/5.1.4.RELEASE/spring-security-core-5.1.4.RELEASE.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.springframework.security.core.userdetails.UsernameNotFoundException;",
+      "artifact" : {
+        "artifact" : "org.springframework.security:spring-security-core:5.1.4.RELEASE",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/de.digitalcollections.commons:dc-commons-springsecurity:4.0.1/dependencies/org/springframework/security/spring-security-core/5.1.4.RELEASE/spring-security-core-5.1.4.RELEASE.jar"
+      },
+      "isDirectDependency" : true
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  } ],
+  "projectUseDependencies" : [ {
+    "artifact" : "org.springframework.security:spring-security-core:5.1.4.RELEASE",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/de.digitalcollections.commons:dc-commons-springsecurity:4.0.1/dependencies/org/springframework/security/spring-security-core/5.1.4.RELEASE/spring-security-core-5.1.4.RELEASE.jar"
+  }, {
+    "artifact" : "javax.servlet:javax.servlet-api:4.0.1",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/de.digitalcollections.commons:dc-commons-springsecurity:4.0.1/dependencies/javax/servlet/javax.servlet-api/4.0.1/javax.servlet-api-4.0.1.jar"
+  }, {
+    "artifact" : "io.jsonwebtoken:jjwt:0.9.1",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/de.digitalcollections.commons:dc-commons-springsecurity:4.0.1/dependencies/io/jsonwebtoken/jjwt/0.9.1/jjwt-0.9.1.jar"
+  }, {
+    "artifact" : "org.springframework.security:spring-security-web:5.1.4.RELEASE",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/de.digitalcollections.commons:dc-commons-springsecurity:4.0.1/dependencies/org/springframework/security/spring-security-web/5.1.4.RELEASE/spring-security-web-5.1.4.RELEASE.jar"
+  }, {
+    "artifact" : "com.fasterxml.jackson.core:jackson-databind:2.9.8",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/de.digitalcollections.commons:dc-commons-springsecurity:4.0.1/dependencies/com/fasterxml/jackson/core/jackson-databind/2.9.8/jackson-databind-2.9.8.jar"
+  }, {
+    "artifact" : "org.springframework:spring-web:5.1.5.RELEASE",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/de.digitalcollections.commons:dc-commons-springsecurity:4.0.1/dependencies/org/springframework/spring-web/5.1.5.RELEASE/spring-web-5.1.5.RELEASE.jar"
+  }, {
+    "artifact" : "org.springframework:spring-context:5.1.5.RELEASE",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/de.digitalcollections.commons:dc-commons-springsecurity:4.0.1/dependencies/org/springframework/spring-context/5.1.5.RELEASE/spring-context-5.1.5.RELEASE.jar"
+  }, {
+    "artifact" : "org.springframework.boot:spring-boot:2.1.3.RELEASE",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/de.digitalcollections.commons:dc-commons-springsecurity:4.0.1/dependencies/org/springframework/boot/spring-boot/2.1.3.RELEASE/spring-boot-2.1.3.RELEASE.jar"
+  }, {
+    "artifact" : "org.slf4j:slf4j-api:1.7.26",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/de.digitalcollections.commons:dc-commons-springsecurity:4.0.1/dependencies/org/slf4j/slf4j-api/1.7.26/slf4j-api-1.7.26.jar"
+  }, {
+    "artifact" : "javax.annotation:javax.annotation-api:1.3.2",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/de.digitalcollections.commons:dc-commons-springsecurity:4.0.1/dependencies/javax/annotation/javax.annotation-api/1.3.2/javax.annotation-api-1.3.2.jar"
+  }, {
+    "artifact" : "org.springframework.security:spring-security-config:5.1.4.RELEASE",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/de.digitalcollections.commons:dc-commons-springsecurity:4.0.1/dependencies/org/springframework/security/spring-security-config/5.1.4.RELEASE/spring-security-config-5.1.4.RELEASE.jar"
+  } ],
+  "projectUseTransitiveDependencies" : [ {
+    "artifact" : "org.springframework:spring-test:5.1.5.RELEASE",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/de.digitalcollections.commons:dc-commons-springsecurity:4.0.1/dependencies/org/springframework/spring-test/5.1.5.RELEASE/spring-test-5.1.5.RELEASE.jar"
+  }, {
+    "artifact" : "org.springframework:spring-webmvc:5.1.5.RELEASE",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/de.digitalcollections.commons:dc-commons-springsecurity:4.0.1/dependencies/org/springframework/spring-webmvc/5.1.5.RELEASE/spring-webmvc-5.1.5.RELEASE.jar"
+  }, {
+    "artifact" : "org.springframework.boot:spring-boot-test:2.1.3.RELEASE",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/de.digitalcollections.commons:dc-commons-springsecurity:4.0.1/dependencies/org/springframework/boot/spring-boot-test/2.1.3.RELEASE/spring-boot-test-2.1.3.RELEASE.jar"
+  }, {
+    "artifact" : "org.springframework.boot:spring-boot-test-autoconfigure:2.1.3.RELEASE",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/de.digitalcollections.commons:dc-commons-springsecurity:4.0.1/dependencies/org/springframework/boot/spring-boot-test-autoconfigure/2.1.3.RELEASE/spring-boot-test-autoconfigure-2.1.3.RELEASE.jar"
+  }, {
+    "artifact" : "org.springframework:spring-test:5.1.5.RELEASE",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/de.digitalcollections.commons:dc-commons-springsecurity:4.0.1/dependencies/org/springframework/spring-test/5.1.5.RELEASE/spring-test-5.1.5.RELEASE.jar"
+  }, {
+    "artifact" : "org.springframework:spring-webmvc:5.1.5.RELEASE",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/de.digitalcollections.commons:dc-commons-springsecurity:4.0.1/dependencies/org/springframework/spring-webmvc/5.1.5.RELEASE/spring-webmvc-5.1.5.RELEASE.jar"
+  }, {
+    "artifact" : "org.springframework.boot:spring-boot-test:2.1.3.RELEASE",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/de.digitalcollections.commons:dc-commons-springsecurity:4.0.1/dependencies/org/springframework/boot/spring-boot-test/2.1.3.RELEASE/spring-boot-test-2.1.3.RELEASE.jar"
+  }, {
+    "artifact" : "org.springframework.boot:spring-boot-test-autoconfigure:2.1.3.RELEASE",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/de.digitalcollections.commons:dc-commons-springsecurity:4.0.1/dependencies/org/springframework/boot/spring-boot-test-autoconfigure/2.1.3.RELEASE/spring-boot-test-autoconfigure-2.1.3.RELEASE.jar"
+  } ],
+  "projectUnusedDependencies" : [ {
+    "artifact" : "javax.xml.bind:jaxb-api:2.3.1",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/de.digitalcollections.commons:dc-commons-springsecurity:4.0.1/dependencies/javax/xml/bind/jaxb-api/2.3.1/jaxb-api-2.3.1.jar"
+  }, {
+    "artifact" : "org.assertj:assertj-core:3.12.1",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/de.digitalcollections.commons:dc-commons-springsecurity:4.0.1/dependencies/org/assertj/assertj-core/3.12.1/assertj-core-3.12.1.jar"
+  }, {
+    "artifact" : "org.hamcrest:hamcrest-core:2.1",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/de.digitalcollections.commons:dc-commons-springsecurity:4.0.1/dependencies/org/hamcrest/hamcrest-core/2.1/hamcrest-core-2.1.jar"
+  }, {
+    "artifact" : "org.junit.jupiter:junit-jupiter:5.4.0",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/de.digitalcollections.commons:dc-commons-springsecurity:4.0.1/dependencies/org/junit/jupiter/junit-jupiter/5.4.0/junit-jupiter-5.4.0.jar"
+  }, {
+    "artifact" : "org.mockito:mockito-core:2.25.0",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/de.digitalcollections.commons:dc-commons-springsecurity:4.0.1/dependencies/org/mockito/mockito-core/2.25.0/mockito-core-2.25.0.jar"
+  }, {
+    "artifact" : "org.slf4j:slf4j-simple:1.7.25",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/de.digitalcollections.commons:dc-commons-springsecurity:4.0.1/dependencies/org/slf4j/slf4j-simple/1.7.25/slf4j-simple-1.7.25.jar"
+  }, {
+    "artifact" : "org.yaml:snakeyaml:1.24",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/de.digitalcollections.commons:dc-commons-springsecurity:4.0.1/dependencies/org/yaml/snakeyaml/1.24/snakeyaml-1.24.jar"
+  } ]
+}

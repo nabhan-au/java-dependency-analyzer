@@ -1,0 +1,2166 @@
+{
+  "projectArtifact" : "com.google.cloud:spring-cloud-gcp-storage:4.1.0",
+  "repositoryDir" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/com.google.cloud:spring-cloud-gcp-storage/spring-cloud-gcp-storage",
+  "repositorySubDir" : "",
+  "artifactLocation" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.google.cloud:spring-cloud-gcp-storage:4.1.0",
+  "fileImportReports" : [ {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/com.google.cloud:spring-cloud-gcp-storage/spring-cloud-gcp-storage/src/test/java/com/google/cloud/spring/storage/integration/filters/GcsDiscardRecentModifiedFileListFilterTest.java",
+    "useImportReport" : [ {
+      "importPath" : "import java.time.Duration;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.concurrent.atomic.AtomicBoolean;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.google.cloud.storage.BlobInfo;",
+      "artifact" : {
+        "artifact" : "com.google.cloud:google-cloud-storage:2.18.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.google.cloud:spring-cloud-gcp-storage:4.1.0/dependencies/com/google/cloud/google-cloud-storage/2.18.0/google-cloud-storage-2.18.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import java.time.OffsetDateTime;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.time.ZoneId;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ {
+      "importPath" : "import java.time.ZonedDateTime;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ {
+      "importPath" : "import static org.assertj.core.api.Assertions.assertThat;"
+    }, {
+      "importPath" : "import static org.mockito.Mockito.mock;"
+    }, {
+      "importPath" : "import static org.mockito.Mockito.when;"
+    }, {
+      "importPath" : "import org.junit.jupiter.api.Assertions;"
+    }, {
+      "importPath" : "import org.junit.jupiter.api.Test;"
+    } ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/com.google.cloud:spring-cloud-gcp-storage/spring-cloud-gcp-storage/src/test/java/com/google/cloud/spring/storage/integration/filters/GcsAcceptModifiedAfterFileListFilterTest.java",
+    "useImportReport" : [ {
+      "importPath" : "import java.util.concurrent.atomic.AtomicBoolean;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.google.cloud.storage.BlobInfo;",
+      "artifact" : {
+        "artifact" : "com.google.cloud:google-cloud-storage:2.18.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.google.cloud:spring-cloud-gcp-storage:4.1.0/dependencies/com/google/cloud/google-cloud-storage/2.18.0/google-cloud-storage-2.18.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import java.time.OffsetDateTime;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.ArrayList;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ {
+      "importPath" : "import java.time.Instant;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ {
+      "importPath" : "import static org.assertj.core.api.Assertions.assertThat;"
+    }, {
+      "importPath" : "import static org.mockito.Mockito.mock;"
+    }, {
+      "importPath" : "import static org.mockito.Mockito.when;"
+    }, {
+      "importPath" : "import org.junit.jupiter.api.Test;"
+    } ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/com.google.cloud:spring-cloud-gcp-storage/spring-cloud-gcp-storage/src/test/java/com/google/cloud/spring/storage/integration/filters/GcsPersistentAcceptOnceFileListFilterTest.java",
+    "useImportReport" : [ {
+      "importPath" : "import org.springframework.integration.metadata.ConcurrentMetadataStore;",
+      "artifact" : {
+        "artifact" : "org.springframework.integration:spring-integration-core:6.0.2",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.google.cloud:spring-cloud-gcp-storage:4.1.0/dependencies/org/springframework/integration/spring-integration-core/6.0.2/spring-integration-core-6.0.2.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.google.cloud.storage.BlobInfo;",
+      "artifact" : {
+        "artifact" : "com.google.cloud:google-cloud-storage:2.18.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.google.cloud:spring-cloud-gcp-storage:4.1.0/dependencies/com/google/cloud/google-cloud-storage/2.18.0/google-cloud-storage-2.18.0.jar"
+      },
+      "isDirectDependency" : true
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ {
+      "importPath" : "import static org.assertj.core.api.Assertions.assertThat;"
+    }, {
+      "importPath" : "import static org.mockito.Mockito.mock;"
+    }, {
+      "importPath" : "import static org.mockito.Mockito.when;"
+    }, {
+      "importPath" : "import org.junit.jupiter.api.Test;"
+    } ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/com.google.cloud:spring-cloud-gcp-storage/spring-cloud-gcp-storage/src/test/java/com/google/cloud/spring/storage/integration/inbound/GcsStreamingMessageSourceTests.java",
+    "useImportReport" : [ {
+      "importPath" : "import org.springframework.messaging.PollableChannel;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-messaging:6.0.4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.google.cloud:spring-cloud-gcp-storage:4.1.0/dependencies/org/springframework/spring-messaging/6.0.4/spring-messaging-6.0.4.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.springframework.beans.factory.annotation.Autowired;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-beans:6.0.4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.google.cloud:spring-cloud-gcp-storage:4.1.0/dependencies/org/springframework/spring-beans/6.0.4/spring-beans-6.0.4.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.springframework.messaging.Message;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-messaging:6.0.4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.google.cloud:spring-cloud-gcp-storage:4.1.0/dependencies/org/springframework/spring-messaging/6.0.4/spring-messaging-6.0.4.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.io.InputStream;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.springframework.integration.file.FileHeaders;",
+      "artifact" : {
+        "artifact" : "org.springframework.integration:spring-integration-file:6.0.2",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.google.cloud:spring-cloud-gcp-storage:4.1.0/dependencies/org/springframework/integration/spring-integration-file/6.0.2/spring-integration-file-6.0.2.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import com.google.cloud.storage.Blob;",
+      "artifact" : {
+        "artifact" : "com.google.cloud:google-cloud-storage:2.18.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.google.cloud:spring-cloud-gcp-storage:4.1.0/dependencies/com/google/cloud/google-cloud-storage/2.18.0/google-cloud-storage-2.18.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.springframework.context.annotation.Configuration;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-context:6.0.4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.google.cloud:spring-cloud-gcp-storage:4.1.0/dependencies/org/springframework/spring-context/6.0.4/spring-context-6.0.4.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.springframework.integration.config.EnableIntegration;",
+      "artifact" : {
+        "artifact" : "org.springframework.integration:spring-integration-core:6.0.2",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.google.cloud:spring-cloud-gcp-storage:4.1.0/dependencies/org/springframework/integration/spring-integration-core/6.0.2/spring-integration-core-6.0.2.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.google.cloud.storage.Storage;",
+      "artifact" : {
+        "artifact" : "com.google.cloud:google-cloud-storage:2.18.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.google.cloud:spring-cloud-gcp-storage:4.1.0/dependencies/com/google/cloud/google-cloud-storage/2.18.0/google-cloud-storage-2.18.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.springframework.context.annotation.Bean;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-context:6.0.4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.google.cloud:spring-cloud-gcp-storage:4.1.0/dependencies/org/springframework/spring-context/6.0.4/spring-context-6.0.4.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import java.util.stream.Stream;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.google.cloud.PageImpl;",
+      "artifact" : {
+        "artifact" : "com.google.cloud:google-cloud-core:2.10.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.google.cloud:spring-cloud-gcp-storage:4.1.0/dependencies/com/google/cloud/google-cloud-core/2.10.0/google-cloud-core-2.10.0.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.stream.Collectors;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.google.cloud.ReadChannel;",
+      "artifact" : {
+        "artifact" : "com.google.cloud:google-cloud-core:2.10.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.google.cloud:spring-cloud-gcp-storage:4.1.0/dependencies/com/google/cloud/google-cloud-core/2.10.0/google-cloud-core-2.10.0.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.springframework.integration.core.MessageSource;",
+      "artifact" : {
+        "artifact" : "org.springframework.integration:spring-integration-core:6.0.2",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.google.cloud:spring-cloud-gcp-storage:4.1.0/dependencies/org/springframework/integration/spring-integration-core/6.0.2/spring-integration-core-6.0.2.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.springframework.integration.annotation.InboundChannelAdapter;",
+      "artifact" : {
+        "artifact" : "org.springframework.integration:spring-integration-core:6.0.2",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.google.cloud:spring-cloud-gcp-storage:4.1.0/dependencies/org/springframework/integration/spring-integration-core/6.0.2/spring-integration-core-6.0.2.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.springframework.integration.annotation.Poller;",
+      "artifact" : {
+        "artifact" : "org.springframework.integration:spring-integration-core:6.0.2",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.google.cloud:spring-cloud-gcp-storage:4.1.0/dependencies/org/springframework/integration/spring-integration-core/6.0.2/spring-integration-core-6.0.2.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.springframework.integration.file.remote.RemoteFileTemplate;",
+      "artifact" : {
+        "artifact" : "org.springframework.integration:spring-integration-file:6.0.2",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.google.cloud:spring-cloud-gcp-storage:4.1.0/dependencies/org/springframework/integration/spring-integration-file/6.0.2/spring-integration-file-6.0.2.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import com.google.cloud.spring.storage.integration.GcsSessionFactory;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.springframework.integration.file.filters.AcceptOnceFileListFilter;",
+      "artifact" : {
+        "artifact" : "org.springframework.integration:spring-integration-file:6.0.2",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.google.cloud:spring-cloud-gcp-storage:4.1.0/dependencies/org/springframework/integration/spring-integration-file/6.0.2/spring-integration-file-6.0.2.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import java.util.Comparator;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.springframework.integration.channel.QueueChannel;",
+      "artifact" : {
+        "artifact" : "org.springframework.integration:spring-integration-core:6.0.2",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.google.cloud:spring-cloud-gcp-storage:4.1.0/dependencies/org/springframework/integration/spring-integration-core/6.0.2/spring-integration-core-6.0.2.jar"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ {
+      "importPath" : "import static org.assertj.core.api.Assertions.assertThat;"
+    }, {
+      "importPath" : "import static org.mockito.ArgumentMatchers.eq;"
+    }, {
+      "importPath" : "import static org.mockito.BDDMockito.willAnswer;"
+    }, {
+      "importPath" : "import static org.mockito.Mockito.mock;"
+    }, {
+      "importPath" : "import org.junit.jupiter.api.Test;"
+    }, {
+      "importPath" : "import org.junit.jupiter.api.extension.ExtendWith;"
+    }, {
+      "importPath" : "import org.springframework.test.context.ContextConfiguration;"
+    }, {
+      "importPath" : "import org.springframework.test.context.junit.jupiter.SpringExtension;"
+    } ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/com.google.cloud:spring-cloud-gcp-storage/spring-cloud-gcp-storage/src/test/java/com/google/cloud/spring/storage/integration/inbound/GcsInboundFileSynchronizerTests.java",
+    "useImportReport" : [ {
+      "importPath" : "import com.google.cloud.storage.Storage;",
+      "artifact" : {
+        "artifact" : "com.google.cloud:google-cloud-storage:2.18.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.google.cloud:spring-cloud-gcp-storage:4.1.0/dependencies/com/google/cloud/google-cloud-storage/2.18.0/google-cloud-storage-2.18.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.springframework.beans.factory.annotation.Autowired;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-beans:6.0.4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.google.cloud:spring-cloud-gcp-storage:4.1.0/dependencies/org/springframework/spring-beans/6.0.4/spring-beans-6.0.4.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.apache.commons.logging.Log;",
+      "artifact" : {
+        "artifact" : "commons-logging:commons-logging:1.2",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.google.cloud:spring-cloud-gcp-storage:4.1.0/dependencies/commons-logging/commons-logging/1.2/commons-logging-1.2.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.apache.commons.logging.Log;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-jcl:6.0.4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.google.cloud:spring-cloud-gcp-storage:4.1.0/dependencies/org/springframework/spring-jcl/6.0.4/spring-jcl-6.0.4.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.apache.commons.logging.LogFactory;",
+      "artifact" : {
+        "artifact" : "commons-logging:commons-logging:1.2",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.google.cloud:spring-cloud-gcp-storage:4.1.0/dependencies/commons-logging/commons-logging/1.2/commons-logging-1.2.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.apache.commons.logging.LogFactory;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-jcl:6.0.4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.google.cloud:spring-cloud-gcp-storage:4.1.0/dependencies/org/springframework/spring-jcl/6.0.4/spring-jcl-6.0.4.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.io.IOException;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.nio.file.Path;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.nio.file.Paths;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.nio.file.Files;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.stream.Stream;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.io.File;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.springframework.beans.factory.BeanFactory;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-beans:6.0.4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.google.cloud:spring-cloud-gcp-storage:4.1.0/dependencies/org/springframework/spring-beans/6.0.4/spring-beans-6.0.4.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.springframework.integration.file.filters.AcceptOnceFileListFilter;",
+      "artifact" : {
+        "artifact" : "org.springframework.integration:spring-integration-file:6.0.2",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.google.cloud:spring-cloud-gcp-storage:4.1.0/dependencies/org/springframework/integration/spring-integration-file/6.0.2/spring-integration-file-6.0.2.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.springframework.messaging.Message;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-messaging:6.0.4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.google.cloud:spring-cloud-gcp-storage:4.1.0/dependencies/org/springframework/spring-messaging/6.0.4/spring-messaging-6.0.4.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.springframework.context.annotation.Configuration;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-context:6.0.4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.google.cloud:spring-cloud-gcp-storage:4.1.0/dependencies/org/springframework/spring-context/6.0.4/spring-context-6.0.4.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.springframework.integration.config.EnableIntegration;",
+      "artifact" : {
+        "artifact" : "org.springframework.integration:spring-integration-core:6.0.2",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.google.cloud:spring-cloud-gcp-storage:4.1.0/dependencies/org/springframework/integration/spring-integration-core/6.0.2/spring-integration-core-6.0.2.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.springframework.context.annotation.Bean;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-context:6.0.4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.google.cloud:spring-cloud-gcp-storage:4.1.0/dependencies/org/springframework/spring-context/6.0.4/spring-context-6.0.4.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import com.google.cloud.storage.Blob;",
+      "artifact" : {
+        "artifact" : "com.google.cloud:google-cloud-storage:2.18.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.google.cloud:spring-cloud-gcp-storage:4.1.0/dependencies/com/google/cloud/google-cloud-storage/2.18.0/google-cloud-storage-2.18.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import java.time.OffsetDateTime;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.google.cloud.PageImpl;",
+      "artifact" : {
+        "artifact" : "com.google.cloud:google-cloud-core:2.10.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.google.cloud:spring-cloud-gcp-storage:4.1.0/dependencies/com/google/cloud/google-cloud-core/2.10.0/google-cloud-core-2.10.0.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.stream.Collectors;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ {
+      "importPath" : "import static org.assertj.core.api.Assertions.assertThat;"
+    }, {
+      "importPath" : "import static org.mockito.ArgumentMatchers.eq;"
+    }, {
+      "importPath" : "import static org.mockito.BDDMockito.willAnswer;"
+    }, {
+      "importPath" : "import static org.mockito.Mockito.mock;"
+    }, {
+      "importPath" : "import static org.mockito.Mockito.when;"
+    }, {
+      "importPath" : "import org.junit.jupiter.api.AfterEach;"
+    }, {
+      "importPath" : "import org.junit.jupiter.api.BeforeEach;"
+    }, {
+      "importPath" : "import org.junit.jupiter.api.Test;"
+    }, {
+      "importPath" : "import org.junit.jupiter.api.extension.ExtendWith;"
+    }, {
+      "importPath" : "import org.springframework.test.context.ContextConfiguration;"
+    }, {
+      "importPath" : "import org.springframework.test.context.junit.jupiter.SpringExtension;"
+    }, {
+      "importPath" : "import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;"
+    } ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/com.google.cloud:spring-cloud-gcp-storage/spring-cloud-gcp-storage/src/test/java/com/google/cloud/spring/storage/integration/outbound/GcsMessageHandlerTests.java",
+    "useImportReport" : [ {
+      "importPath" : "import com.google.cloud.storage.Storage;",
+      "artifact" : {
+        "artifact" : "com.google.cloud:google-cloud-storage:2.18.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.google.cloud:spring-cloud-gcp-storage:4.1.0/dependencies/com/google/cloud/google-cloud-storage/2.18.0/google-cloud-storage-2.18.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.springframework.messaging.MessageChannel;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-messaging:6.0.4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.google.cloud:spring-cloud-gcp-storage:4.1.0/dependencies/org/springframework/spring-messaging/6.0.4/spring-messaging-6.0.4.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.springframework.beans.factory.annotation.Autowired;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-beans:6.0.4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.google.cloud:spring-cloud-gcp-storage:4.1.0/dependencies/org/springframework/spring-beans/6.0.4/spring-beans-6.0.4.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.springframework.beans.factory.annotation.Qualifier;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-beans:6.0.4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.google.cloud:spring-cloud-gcp-storage:4.1.0/dependencies/org/springframework/spring-beans/6.0.4/spring-beans-6.0.4.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.nio.file.Path;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.io.IOException;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.io.File;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.google.cloud.storage.BlobInfo;",
+      "artifact" : {
+        "artifact" : "com.google.cloud:google-cloud-storage:2.18.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.google.cloud:spring-cloud-gcp-storage:4.1.0/dependencies/com/google/cloud/google-cloud-storage/2.18.0/google-cloud-storage-2.18.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import com.google.cloud.storage.BlobId;",
+      "artifact" : {
+        "artifact" : "com.google.cloud:google-cloud-storage:2.18.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.google.cloud:spring-cloud-gcp-storage:4.1.0/dependencies/com/google/cloud/google-cloud-storage/2.18.0/google-cloud-storage-2.18.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import com.google.cloud.WriteChannel;",
+      "artifact" : {
+        "artifact" : "com.google.cloud:google-cloud-core:2.10.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.google.cloud:spring-cloud-gcp-storage:4.1.0/dependencies/com/google/cloud/google-cloud-core/2.10.0/google-cloud-core-2.10.0.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.nio.ByteBuffer;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.google.cloud.storage.CopyWriter;",
+      "artifact" : {
+        "artifact" : "com.google.cloud:google-cloud-storage:2.18.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.google.cloud:spring-cloud-gcp-storage:4.1.0/dependencies/com/google/cloud/google-cloud-storage/2.18.0/google-cloud-storage-2.18.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.springframework.messaging.support.GenericMessage;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-messaging:6.0.4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.google.cloud:spring-cloud-gcp-storage:4.1.0/dependencies/org/springframework/spring-messaging/6.0.4/spring-messaging-6.0.4.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.springframework.context.annotation.Configuration;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-context:6.0.4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.google.cloud:spring-cloud-gcp-storage:4.1.0/dependencies/org/springframework/spring-context/6.0.4/spring-context-6.0.4.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.springframework.integration.config.EnableIntegration;",
+      "artifact" : {
+        "artifact" : "org.springframework.integration:spring-integration-core:6.0.2",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.google.cloud:spring-cloud-gcp-storage:4.1.0/dependencies/org/springframework/integration/spring-integration-core/6.0.2/spring-integration-core-6.0.2.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.springframework.context.annotation.Bean;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-context:6.0.4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.google.cloud:spring-cloud-gcp-storage:4.1.0/dependencies/org/springframework/spring-context/6.0.4/spring-context-6.0.4.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.springframework.messaging.MessageHandler;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-messaging:6.0.4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.google.cloud:spring-cloud-gcp-storage:4.1.0/dependencies/org/springframework/spring-messaging/6.0.4/spring-messaging-6.0.4.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.springframework.integration.annotation.ServiceActivator;",
+      "artifact" : {
+        "artifact" : "org.springframework.integration:spring-integration-core:6.0.2",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.google.cloud:spring-cloud-gcp-storage:4.1.0/dependencies/org/springframework/integration/spring-integration-core/6.0.2/spring-integration-core-6.0.2.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.google.cloud.spring.storage.integration.GcsSessionFactory;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.springframework.integration.expression.ValueExpression;",
+      "artifact" : {
+        "artifact" : "org.springframework.integration:spring-integration-core:6.0.2",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.google.cloud:spring-cloud-gcp-storage:4.1.0/dependencies/org/springframework/integration/spring-integration-core/6.0.2/spring-integration-core-6.0.2.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.springframework.integration.channel.DirectChannel;",
+      "artifact" : {
+        "artifact" : "org.springframework.integration:spring-integration-core:6.0.2",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.google.cloud:spring-cloud-gcp-storage:4.1.0/dependencies/org/springframework/integration/spring-integration-core/6.0.2/spring-integration-core-6.0.2.jar"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ {
+      "importPath" : "import static org.assertj.core.api.Assertions.assertThat;"
+    }, {
+      "importPath" : "import static org.mockito.ArgumentMatchers.isA;"
+    }, {
+      "importPath" : "import static org.mockito.BDDMockito.willAnswer;"
+    }, {
+      "importPath" : "import static org.mockito.Mockito.mock;"
+    }, {
+      "importPath" : "import static org.mockito.Mockito.times;"
+    }, {
+      "importPath" : "import static org.mockito.Mockito.verify;"
+    }, {
+      "importPath" : "import org.junit.jupiter.api.Test;"
+    }, {
+      "importPath" : "import org.junit.jupiter.api.extension.ExtendWith;"
+    }, {
+      "importPath" : "import org.junit.jupiter.api.io.TempDir;"
+    }, {
+      "importPath" : "import org.mockito.ArgumentCaptor;"
+    }, {
+      "importPath" : "import org.springframework.test.context.ContextConfiguration;"
+    }, {
+      "importPath" : "import org.springframework.test.context.junit.jupiter.SpringExtension;"
+    } ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/com.google.cloud:spring-cloud-gcp-storage/spring-cloud-gcp-storage/src/test/java/com/google/cloud/spring/storage/integration/GcsFileInfoTests.java",
+    "useImportReport" : [ {
+      "importPath" : "import com.google.cloud.storage.BlobInfo;",
+      "artifact" : {
+        "artifact" : "com.google.cloud:google-cloud-storage:2.18.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.google.cloud:spring-cloud-gcp-storage:4.1.0/dependencies/com/google/cloud/google-cloud-storage/2.18.0/google-cloud-storage-2.18.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import java.time.OffsetDateTime;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.Random;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.Date;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ {
+      "importPath" : "import static org.assertj.core.api.Assertions.assertThat;"
+    }, {
+      "importPath" : "import static org.assertj.core.api.Assertions.assertThatThrownBy;"
+    }, {
+      "importPath" : "import static org.mockito.Mockito.mock;"
+    }, {
+      "importPath" : "import static org.mockito.Mockito.when;"
+    }, {
+      "importPath" : "import org.junit.jupiter.api.BeforeAll;"
+    }, {
+      "importPath" : "import org.junit.jupiter.api.Test;"
+    }, {
+      "importPath" : "import org.junit.jupiter.api.TestInstance;"
+    }, {
+      "importPath" : "import org.junit.jupiter.api.TestInstance.Lifecycle;"
+    } ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/com.google.cloud:spring-cloud-gcp-storage/spring-cloud-gcp-storage/src/test/java/com/google/cloud/spring/storage/it/GoogleStorageIntegrationTests.java",
+    "useImportReport" : [ {
+      "importPath" : "import com.google.cloud.storage.Storage;",
+      "artifact" : {
+        "artifact" : "com.google.cloud:google-cloud-storage:2.18.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.google.cloud:spring-cloud-gcp-storage:4.1.0/dependencies/com/google/cloud/google-cloud-storage/2.18.0/google-cloud-storage-2.18.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.springframework.beans.factory.annotation.Autowired;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-beans:6.0.4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.google.cloud:spring-cloud-gcp-storage:4.1.0/dependencies/org/springframework/spring-beans/6.0.4/spring-beans-6.0.4.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.springframework.core.io.Resource;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-core:6.0.4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.google.cloud:spring-cloud-gcp-storage:4.1.0/dependencies/org/springframework/spring-core/6.0.4/spring-core-6.0.4.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.springframework.beans.factory.annotation.Value;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-beans:6.0.4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.google.cloud:spring-cloud-gcp-storage:4.1.0/dependencies/org/springframework/spring-beans/6.0.4/spring-beans-6.0.4.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.google.cloud.spring.storage.GoogleStorageResource;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.io.IOException;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.io.InputStream;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.nio.charset.Charset;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.springframework.util.StreamUtils;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-core:6.0.4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.google.cloud:spring-cloud-gcp-storage:4.1.0/dependencies/org/springframework/spring-core/6.0.4/spring-core-6.0.4.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.io.OutputStream;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.springframework.context.annotation.Configuration;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-context:6.0.4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.google.cloud:spring-cloud-gcp-storage:4.1.0/dependencies/org/springframework/spring-context/6.0.4/spring-context-6.0.4.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.springframework.context.annotation.PropertySource;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-context:6.0.4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.google.cloud:spring-cloud-gcp-storage:4.1.0/dependencies/org/springframework/spring-context/6.0.4/spring-context-6.0.4.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.springframework.context.annotation.Import;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-context:6.0.4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.google.cloud:spring-cloud-gcp-storage:4.1.0/dependencies/org/springframework/spring-context/6.0.4/spring-context-6.0.4.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import com.google.cloud.spring.storage.GoogleStorageProtocolResolver;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.springframework.context.annotation.Bean;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-context:6.0.4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.google.cloud:spring-cloud-gcp-storage:4.1.0/dependencies/org/springframework/spring-context/6.0.4/spring-context-6.0.4.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import com.google.api.gax.core.CredentialsProvider;",
+      "artifact" : {
+        "artifact" : "com.google.api:gax:2.23.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.google.cloud:spring-cloud-gcp-storage:4.1.0/dependencies/com/google/api/gax/2.23.0/gax-2.23.0.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.google.cloud.storage.StorageOptions;",
+      "artifact" : {
+        "artifact" : "com.google.cloud:google-cloud-storage:2.18.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.google.cloud:spring-cloud-gcp-storage:4.1.0/dependencies/com/google/cloud/google-cloud-storage/2.18.0/google-cloud-storage-2.18.0.jar"
+      },
+      "isDirectDependency" : true
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ {
+      "importPath" : "import static org.assertj.core.api.Assertions.assertThat;"
+    }, {
+      "importPath" : "import com.google.cloud.spring.core.Credentials;"
+    }, {
+      "importPath" : "import com.google.cloud.spring.core.DefaultCredentialsProvider;"
+    }, {
+      "importPath" : "import com.google.cloud.spring.core.DefaultGcpProjectIdProvider;"
+    }, {
+      "importPath" : "import com.google.cloud.spring.core.GcpProjectIdProvider;"
+    }, {
+      "importPath" : "import org.junit.jupiter.api.BeforeEach;"
+    }, {
+      "importPath" : "import org.junit.jupiter.api.Test;"
+    }, {
+      "importPath" : "import org.junit.jupiter.api.condition.EnabledIfSystemProperty;"
+    }, {
+      "importPath" : "import org.junit.jupiter.api.extension.ExtendWith;"
+    }, {
+      "importPath" : "import org.springframework.test.context.ContextConfiguration;"
+    }, {
+      "importPath" : "import org.springframework.test.context.junit.jupiter.SpringExtension;"
+    } ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/com.google.cloud:spring-cloud-gcp-storage/spring-cloud-gcp-storage/src/test/java/com/google/cloud/spring/storage/GoogleStorageLocationTests.java",
+    "useImportReport" : [ ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ {
+      "importPath" : "import static org.assertj.core.api.Assertions.assertThat;"
+    }, {
+      "importPath" : "import static org.assertj.core.api.Assertions.assertThatExceptionOfType;"
+    }, {
+      "importPath" : "import org.junit.jupiter.api.Test;"
+    } ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/com.google.cloud:spring-cloud-gcp-storage/spring-cloud-gcp-storage/src/test/java/com/google/cloud/spring/storage/GoogleStorageTests.java",
+    "useImportReport" : [ {
+      "importPath" : "import org.springframework.core.io.Resource;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-core:6.0.4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.google.cloud:spring-cloud-gcp-storage:4.1.0/dependencies/org/springframework/spring-core/6.0.4/spring-core-6.0.4.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.springframework.beans.factory.annotation.Value;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-beans:6.0.4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.google.cloud:spring-cloud-gcp-storage:4.1.0/dependencies/org/springframework/spring-beans/6.0.4/spring-beans-6.0.4.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.google.cloud.storage.Storage;",
+      "artifact" : {
+        "artifact" : "com.google.cloud:google-cloud-storage:2.18.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.google.cloud:spring-cloud-gcp-storage:4.1.0/dependencies/com/google/cloud/google-cloud-storage/2.18.0/google-cloud-storage-2.18.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.springframework.beans.factory.annotation.Autowired;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-beans:6.0.4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.google.cloud:spring-cloud-gcp-storage:4.1.0/dependencies/org/springframework/spring-beans/6.0.4/spring-beans-6.0.4.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.google.cloud.storage.BlobId;",
+      "artifact" : {
+        "artifact" : "com.google.cloud:google-cloud-storage:2.18.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.google.cloud:spring-cloud-gcp-storage:4.1.0/dependencies/com/google/cloud/google-cloud-storage/2.18.0/google-cloud-storage-2.18.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import com.google.cloud.storage.Blob;",
+      "artifact" : {
+        "artifact" : "com.google.cloud:google-cloud-storage:2.18.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.google.cloud:spring-cloud-gcp-storage:4.1.0/dependencies/com/google/cloud/google-cloud-storage/2.18.0/google-cloud-storage-2.18.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import java.io.IOException;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.google.cloud.storage.Bucket;",
+      "artifact" : {
+        "artifact" : "com.google.cloud:google-cloud-storage:2.18.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.google.cloud:spring-cloud-gcp-storage:4.1.0/dependencies/com/google/cloud/google-cloud-storage/2.18.0/google-cloud-storage-2.18.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.springframework.core.io.WritableResource;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-core:6.0.4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.google.cloud:spring-cloud-gcp-storage:4.1.0/dependencies/org/springframework/spring-core/6.0.4/spring-core-6.0.4.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.google.cloud.WriteChannel;",
+      "artifact" : {
+        "artifact" : "com.google.cloud:google-cloud-core:2.10.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.google.cloud:spring-cloud-gcp-storage:4.1.0/dependencies/com/google/cloud/google-cloud-core/2.10.0/google-cloud-core-2.10.0.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.google.cloud.storage.BlobInfo;",
+      "artifact" : {
+        "artifact" : "com.google.cloud:google-cloud-storage:2.18.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.google.cloud:spring-cloud-gcp-storage:4.1.0/dependencies/com/google/cloud/google-cloud-storage/2.18.0/google-cloud-storage-2.18.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import java.io.OutputStream;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.io.FileNotFoundException;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.concurrent.TimeUnit;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.google.cloud.storage.HttpMethod;",
+      "artifact" : {
+        "artifact" : "com.google.cloud:google-cloud-storage:2.18.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.google.cloud:spring-cloud-gcp-storage:4.1.0/dependencies/com/google/cloud/google-cloud-storage/2.18.0/google-cloud-storage-2.18.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import com.google.cloud.storage.BucketInfo;",
+      "artifact" : {
+        "artifact" : "com.google.cloud:google-cloud-storage:2.18.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.google.cloud:spring-cloud-gcp-storage:4.1.0/dependencies/com/google/cloud/google-cloud-storage/2.18.0/google-cloud-storage-2.18.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.springframework.context.annotation.Configuration;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-context:6.0.4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.google.cloud:spring-cloud-gcp-storage:4.1.0/dependencies/org/springframework/spring-context/6.0.4/spring-context-6.0.4.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.springframework.context.annotation.Import;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-context:6.0.4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.google.cloud:spring-cloud-gcp-storage:4.1.0/dependencies/org/springframework/spring-context/6.0.4/spring-context-6.0.4.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.springframework.context.annotation.Bean;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-context:6.0.4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.google.cloud:spring-cloud-gcp-storage:4.1.0/dependencies/org/springframework/spring-context/6.0.4/spring-context-6.0.4.jar"
+      },
+      "isDirectDependency" : true
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ {
+      "importPath" : "import static org.assertj.core.api.Assertions.assertThatThrownBy;"
+    }, {
+      "importPath" : "import static org.junit.jupiter.api.Assertions.assertEquals;"
+    }, {
+      "importPath" : "import static org.junit.jupiter.api.Assertions.assertFalse;"
+    }, {
+      "importPath" : "import static org.junit.jupiter.api.Assertions.assertNotNull;"
+    }, {
+      "importPath" : "import static org.junit.jupiter.api.Assertions.assertTrue;"
+    }, {
+      "importPath" : "import static org.mockito.ArgumentMatchers.any;"
+    }, {
+      "importPath" : "import static org.mockito.ArgumentMatchers.eq;"
+    }, {
+      "importPath" : "import static org.mockito.Mockito.mock;"
+    }, {
+      "importPath" : "import static org.mockito.Mockito.spy;"
+    }, {
+      "importPath" : "import static org.mockito.Mockito.times;"
+    }, {
+      "importPath" : "import static org.mockito.Mockito.verify;"
+    }, {
+      "importPath" : "import static org.mockito.Mockito.when;"
+    }, {
+      "importPath" : "import org.junit.jupiter.api.Assertions;"
+    }, {
+      "importPath" : "import org.junit.jupiter.api.Test;"
+    }, {
+      "importPath" : "import org.junit.jupiter.api.extension.ExtendWith;"
+    }, {
+      "importPath" : "import org.springframework.boot.test.context.SpringBootTest;"
+    }, {
+      "importPath" : "import org.springframework.test.context.junit.jupiter.SpringExtension;"
+    } ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/com.google.cloud:spring-cloud-gcp-storage/spring-cloud-gcp-storage/src/test/java/com/google/cloud/spring/storage/GoogleStorageResourceTest.java",
+    "useImportReport" : [ {
+      "importPath" : "import com.google.cloud.storage.Storage;",
+      "artifact" : {
+        "artifact" : "com.google.cloud:google-cloud-storage:2.18.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.google.cloud:spring-cloud-gcp-storage:4.1.0/dependencies/com/google/cloud/google-cloud-storage/2.18.0/google-cloud-storage-2.18.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import com.google.cloud.storage.Bucket;",
+      "artifact" : {
+        "artifact" : "com.google.cloud:google-cloud-storage:2.18.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.google.cloud:spring-cloud-gcp-storage:4.1.0/dependencies/com/google/cloud/google-cloud-storage/2.18.0/google-cloud-storage-2.18.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import com.google.cloud.storage.Blob;",
+      "artifact" : {
+        "artifact" : "com.google.cloud:google-cloud-storage:2.18.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.google.cloud:spring-cloud-gcp-storage:4.1.0/dependencies/com/google/cloud/google-cloud-storage/2.18.0/google-cloud-storage-2.18.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import java.io.IOException;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.google.cloud.storage.BlobId;",
+      "artifact" : {
+        "artifact" : "com.google.cloud:google-cloud-storage:2.18.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.google.cloud:spring-cloud-gcp-storage:4.1.0/dependencies/com/google/cloud/google-cloud-storage/2.18.0/google-cloud-storage-2.18.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import java.time.OffsetDateTime;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.google.cloud.storage.BlobInfo;",
+      "artifact" : {
+        "artifact" : "com.google.cloud:google-cloud-storage:2.18.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.google.cloud:spring-cloud-gcp-storage:4.1.0/dependencies/com/google/cloud/google-cloud-storage/2.18.0/google-cloud-storage-2.18.0.jar"
+      },
+      "isDirectDependency" : true
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ {
+      "importPath" : "import static org.assertj.core.api.Assertions.assertThat;"
+    }, {
+      "importPath" : "import static org.assertj.core.api.Assertions.assertThatExceptionOfType;"
+    }, {
+      "importPath" : "import static org.mockito.ArgumentMatchers.any;"
+    }, {
+      "importPath" : "import static org.mockito.Mockito.mock;"
+    }, {
+      "importPath" : "import static org.mockito.Mockito.verify;"
+    }, {
+      "importPath" : "import static org.mockito.Mockito.when;"
+    }, {
+      "importPath" : "import org.junit.jupiter.api.Test;"
+    } ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/com.google.cloud:spring-cloud-gcp-storage/spring-cloud-gcp-storage/src/main/java/com/google/cloud/spring/storage/GoogleStorageLocation.java",
+    "useImportReport" : [ {
+      "importPath" : "import java.net.URI;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.springframework.util.Assert;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-core:6.0.4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.google.cloud:spring-cloud-gcp-storage:4.1.0/dependencies/org/springframework/spring-core/6.0.4/spring-core-6.0.4.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.net.URISyntaxException;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/com.google.cloud:spring-cloud-gcp-storage/spring-cloud-gcp-storage/src/main/java/com/google/cloud/spring/storage/GoogleStorageProtocolResolver.java",
+    "useImportReport" : [ {
+      "importPath" : "import org.springframework.core.io.ProtocolResolver;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-core:6.0.4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.google.cloud:spring-cloud-gcp-storage:4.1.0/dependencies/org/springframework/spring-core/6.0.4/spring-core-6.0.4.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.springframework.beans.factory.config.BeanFactoryPostProcessor;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-beans:6.0.4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.google.cloud:spring-cloud-gcp-storage:4.1.0/dependencies/org/springframework/spring-beans/6.0.4/spring-beans-6.0.4.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.springframework.context.ResourceLoaderAware;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-context:6.0.4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.google.cloud:spring-cloud-gcp-storage:4.1.0/dependencies/org/springframework/spring-context/6.0.4/spring-context-6.0.4.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.apache.commons.logging.Log;",
+      "artifact" : {
+        "artifact" : "commons-logging:commons-logging:1.2",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.google.cloud:spring-cloud-gcp-storage:4.1.0/dependencies/commons-logging/commons-logging/1.2/commons-logging-1.2.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.apache.commons.logging.Log;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-jcl:6.0.4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.google.cloud:spring-cloud-gcp-storage:4.1.0/dependencies/org/springframework/spring-jcl/6.0.4/spring-jcl-6.0.4.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.apache.commons.logging.LogFactory;",
+      "artifact" : {
+        "artifact" : "commons-logging:commons-logging:1.2",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.google.cloud:spring-cloud-gcp-storage:4.1.0/dependencies/commons-logging/commons-logging/1.2/commons-logging-1.2.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.apache.commons.logging.LogFactory;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-jcl:6.0.4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.google.cloud:spring-cloud-gcp-storage:4.1.0/dependencies/org/springframework/spring-jcl/6.0.4/spring-jcl-6.0.4.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.springframework.beans.factory.config.ConfigurableListableBeanFactory;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-beans:6.0.4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.google.cloud:spring-cloud-gcp-storage:4.1.0/dependencies/org/springframework/spring-beans/6.0.4/spring-beans-6.0.4.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.google.cloud.storage.Storage;",
+      "artifact" : {
+        "artifact" : "com.google.cloud:google-cloud-storage:2.18.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.google.cloud:spring-cloud-gcp-storage:4.1.0/dependencies/com/google/cloud/google-cloud-storage/2.18.0/google-cloud-storage-2.18.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.springframework.beans.BeansException;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-beans:6.0.4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.google.cloud:spring-cloud-gcp-storage:4.1.0/dependencies/org/springframework/spring-beans/6.0.4/spring-beans-6.0.4.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.springframework.core.io.ResourceLoader;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-core:6.0.4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.google.cloud:spring-cloud-gcp-storage:4.1.0/dependencies/org/springframework/spring-core/6.0.4/spring-core-6.0.4.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.springframework.core.io.DefaultResourceLoader;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-core:6.0.4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.google.cloud:spring-cloud-gcp-storage:4.1.0/dependencies/org/springframework/spring-core/6.0.4/spring-core-6.0.4.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.springframework.beans.factory.NoSuchBeanDefinitionException;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-beans:6.0.4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.google.cloud:spring-cloud-gcp-storage:4.1.0/dependencies/org/springframework/spring-beans/6.0.4/spring-beans-6.0.4.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.springframework.core.io.Resource;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-core:6.0.4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.google.cloud:spring-cloud-gcp-storage:4.1.0/dependencies/org/springframework/spring-core/6.0.4/spring-core-6.0.4.jar"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/com.google.cloud:spring-cloud-gcp-storage/spring-cloud-gcp-storage/src/main/java/com/google/cloud/spring/storage/integration/filters/GcsDiscardRecentModifiedFileListFilter.java",
+    "useImportReport" : [ {
+      "importPath" : "import org.springframework.integration.file.filters.DiscardAwareFileListFilter;",
+      "artifact" : {
+        "artifact" : "org.springframework.integration:spring-integration-file:6.0.2",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.google.cloud:spring-cloud-gcp-storage:4.1.0/dependencies/org/springframework/integration/spring-integration-file/6.0.2/spring-integration-file-6.0.2.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import com.google.cloud.storage.BlobInfo;",
+      "artifact" : {
+        "artifact" : "com.google.cloud:google-cloud-storage:2.18.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.google.cloud:spring-cloud-gcp-storage:4.1.0/dependencies/com/google/cloud/google-cloud-storage/2.18.0/google-cloud-storage-2.18.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import java.time.Duration;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.function.Consumer;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.springframework.lang.Nullable;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-core:6.0.4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.google.cloud:spring-cloud-gcp-storage:4.1.0/dependencies/org/springframework/spring-core/6.0.4/spring-core-6.0.4.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.List;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.ArrayList;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/com.google.cloud:spring-cloud-gcp-storage/spring-cloud-gcp-storage/src/main/java/com/google/cloud/spring/storage/integration/filters/GcsRegexPatternFileListFilter.java",
+    "useImportReport" : [ {
+      "importPath" : "import org.springframework.integration.file.filters.AbstractRegexPatternFileListFilter;",
+      "artifact" : {
+        "artifact" : "org.springframework.integration:spring-integration-file:6.0.2",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.google.cloud:spring-cloud-gcp-storage:4.1.0/dependencies/org/springframework/integration/spring-integration-file/6.0.2/spring-integration-file-6.0.2.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import com.google.cloud.storage.BlobInfo;",
+      "artifact" : {
+        "artifact" : "com.google.cloud:google-cloud-storage:2.18.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.google.cloud:spring-cloud-gcp-storage:4.1.0/dependencies/com/google/cloud/google-cloud-storage/2.18.0/google-cloud-storage-2.18.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import java.util.regex.Pattern;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/com.google.cloud:spring-cloud-gcp-storage/spring-cloud-gcp-storage/src/main/java/com/google/cloud/spring/storage/integration/filters/GcsPersistentAcceptOnceFileListFilter.java",
+    "useImportReport" : [ {
+      "importPath" : "import org.springframework.integration.file.filters.AbstractPersistentAcceptOnceFileListFilter;",
+      "artifact" : {
+        "artifact" : "org.springframework.integration:spring-integration-file:6.0.2",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.google.cloud:spring-cloud-gcp-storage:4.1.0/dependencies/org/springframework/integration/spring-integration-file/6.0.2/spring-integration-file-6.0.2.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import com.google.cloud.storage.BlobInfo;",
+      "artifact" : {
+        "artifact" : "com.google.cloud:google-cloud-storage:2.18.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.google.cloud:spring-cloud-gcp-storage:4.1.0/dependencies/com/google/cloud/google-cloud-storage/2.18.0/google-cloud-storage-2.18.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.springframework.integration.metadata.ConcurrentMetadataStore;",
+      "artifact" : {
+        "artifact" : "org.springframework.integration:spring-integration-core:6.0.2",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.google.cloud:spring-cloud-gcp-storage:4.1.0/dependencies/org/springframework/integration/spring-integration-core/6.0.2/spring-integration-core-6.0.2.jar"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/com.google.cloud:spring-cloud-gcp-storage/spring-cloud-gcp-storage/src/main/java/com/google/cloud/spring/storage/integration/filters/GcsAcceptModifiedAfterFileListFilter.java",
+    "useImportReport" : [ {
+      "importPath" : "import org.springframework.integration.file.filters.DiscardAwareFileListFilter;",
+      "artifact" : {
+        "artifact" : "org.springframework.integration:spring-integration-file:6.0.2",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.google.cloud:spring-cloud-gcp-storage:4.1.0/dependencies/org/springframework/integration/spring-integration-file/6.0.2/spring-integration-file-6.0.2.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import com.google.cloud.storage.BlobInfo;",
+      "artifact" : {
+        "artifact" : "com.google.cloud:google-cloud-storage:2.18.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.google.cloud:spring-cloud-gcp-storage:4.1.0/dependencies/com/google/cloud/google-cloud-storage/2.18.0/google-cloud-storage-2.18.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import java.time.Instant;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.function.Consumer;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import javax.annotation.Nullable;",
+      "artifact" : {
+        "artifact" : "com.google.code.findbugs:jsr305:3.0.2",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.google.cloud:spring-cloud-gcp-storage:4.1.0/dependencies/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.time.Clock;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.List;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.ArrayList;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/com.google.cloud:spring-cloud-gcp-storage/spring-cloud-gcp-storage/src/main/java/com/google/cloud/spring/storage/integration/filters/GcsSimplePatternFileListFilter.java",
+    "useImportReport" : [ {
+      "importPath" : "import org.springframework.integration.file.filters.AbstractSimplePatternFileListFilter;",
+      "artifact" : {
+        "artifact" : "org.springframework.integration:spring-integration-file:6.0.2",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.google.cloud:spring-cloud-gcp-storage:4.1.0/dependencies/org/springframework/integration/spring-integration-file/6.0.2/spring-integration-file-6.0.2.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import com.google.cloud.storage.BlobInfo;",
+      "artifact" : {
+        "artifact" : "com.google.cloud:google-cloud-storage:2.18.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.google.cloud:spring-cloud-gcp-storage:4.1.0/dependencies/com/google/cloud/google-cloud-storage/2.18.0/google-cloud-storage-2.18.0.jar"
+      },
+      "isDirectDependency" : true
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/com.google.cloud:spring-cloud-gcp-storage/spring-cloud-gcp-storage/src/main/java/com/google/cloud/spring/storage/integration/filters/package-info.java",
+    "useImportReport" : [ ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/com.google.cloud:spring-cloud-gcp-storage/spring-cloud-gcp-storage/src/main/java/com/google/cloud/spring/storage/integration/GcsFileInfo.java",
+    "useImportReport" : [ {
+      "importPath" : "import org.springframework.integration.file.remote.AbstractFileInfo;",
+      "artifact" : {
+        "artifact" : "org.springframework.integration:spring-integration-file:6.0.2",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.google.cloud:spring-cloud-gcp-storage:4.1.0/dependencies/org/springframework/integration/spring-integration-file/6.0.2/spring-integration-file-6.0.2.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import com.google.cloud.storage.BlobInfo;",
+      "artifact" : {
+        "artifact" : "com.google.cloud:google-cloud-storage:2.18.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.google.cloud:spring-cloud-gcp-storage:4.1.0/dependencies/com/google/cloud/google-cloud-storage/2.18.0/google-cloud-storage-2.18.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.springframework.util.Assert;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-core:6.0.4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.google.cloud:spring-cloud-gcp-storage:4.1.0/dependencies/org/springframework/spring-core/6.0.4/spring-core-6.0.4.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.Date;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/com.google.cloud:spring-cloud-gcp-storage/spring-cloud-gcp-storage/src/main/java/com/google/cloud/spring/storage/integration/GcsSession.java",
+    "useImportReport" : [ {
+      "importPath" : "import org.springframework.integration.file.remote.session.Session;",
+      "artifact" : {
+        "artifact" : "org.springframework.integration:spring-integration-file:6.0.2",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.google.cloud:spring-cloud-gcp-storage:4.1.0/dependencies/org/springframework/integration/spring-integration-file/6.0.2/spring-integration-file-6.0.2.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import com.google.cloud.storage.BlobInfo;",
+      "artifact" : {
+        "artifact" : "com.google.cloud:google-cloud-storage:2.18.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.google.cloud:spring-cloud-gcp-storage:4.1.0/dependencies/com/google/cloud/google-cloud-storage/2.18.0/google-cloud-storage-2.18.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import com.google.cloud.storage.Storage;",
+      "artifact" : {
+        "artifact" : "com.google.cloud:google-cloud-storage:2.18.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.google.cloud:spring-cloud-gcp-storage:4.1.0/dependencies/com/google/cloud/google-cloud-storage/2.18.0/google-cloud-storage-2.18.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.apache.commons.logging.Log;",
+      "artifact" : {
+        "artifact" : "commons-logging:commons-logging:1.2",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.google.cloud:spring-cloud-gcp-storage:4.1.0/dependencies/commons-logging/commons-logging/1.2/commons-logging-1.2.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.apache.commons.logging.Log;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-jcl:6.0.4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.google.cloud:spring-cloud-gcp-storage:4.1.0/dependencies/org/springframework/spring-jcl/6.0.4/spring-jcl-6.0.4.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.apache.commons.logging.LogFactory;",
+      "artifact" : {
+        "artifact" : "commons-logging:commons-logging:1.2",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.google.cloud:spring-cloud-gcp-storage:4.1.0/dependencies/commons-logging/commons-logging/1.2/commons-logging-1.2.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.apache.commons.logging.LogFactory;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-jcl:6.0.4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.google.cloud:spring-cloud-gcp-storage:4.1.0/dependencies/org/springframework/spring-jcl/6.0.4/spring-jcl-6.0.4.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.springframework.util.Assert;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-core:6.0.4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.google.cloud:spring-cloud-gcp-storage:4.1.0/dependencies/org/springframework/spring-core/6.0.4/spring-core-6.0.4.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.io.IOException;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.Collection;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.ArrayList;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.google.cloud.storage.Blob;",
+      "artifact" : {
+        "artifact" : "com.google.cloud:google-cloud-storage:2.18.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.google.cloud:spring-cloud-gcp-storage:4.1.0/dependencies/com/google/cloud/google-cloud-storage/2.18.0/google-cloud-storage-2.18.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import java.io.OutputStream;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.io.InputStream;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.google.cloud.storage.BlobId;",
+      "artifact" : {
+        "artifact" : "com.google.cloud:google-cloud-storage:2.18.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.google.cloud:spring-cloud-gcp-storage:4.1.0/dependencies/com/google/cloud/google-cloud-storage/2.18.0/google-cloud-storage-2.18.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import com.google.cloud.WriteChannel;",
+      "artifact" : {
+        "artifact" : "com.google.cloud:google-cloud-core:2.10.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.google.cloud:spring-cloud-gcp-storage:4.1.0/dependencies/com/google/cloud/google-cloud-core/2.10.0/google-cloud-core-2.10.0.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.nio.ByteBuffer;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.springframework.util.StreamUtils;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-core:6.0.4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.google.cloud:spring-cloud-gcp-storage:4.1.0/dependencies/org/springframework/spring-core/6.0.4/spring-core-6.0.4.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.google.cloud.storage.BucketInfo;",
+      "artifact" : {
+        "artifact" : "com.google.cloud:google-cloud-storage:2.18.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.google.cloud:spring-cloud-gcp-storage:4.1.0/dependencies/com/google/cloud/google-cloud-storage/2.18.0/google-cloud-storage-2.18.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import com.google.cloud.storage.StorageException;",
+      "artifact" : {
+        "artifact" : "com.google.cloud:google-cloud-storage:2.18.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.google.cloud:spring-cloud-gcp-storage:4.1.0/dependencies/com/google/cloud/google-cloud-storage/2.18.0/google-cloud-storage-2.18.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import java.util.List;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.stream.Stream;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.stream.Collectors;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.nio.channels.Channels;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/com.google.cloud:spring-cloud-gcp-storage/spring-cloud-gcp-storage/src/main/java/com/google/cloud/spring/storage/integration/inbound/GcsInboundFileSynchronizer.java",
+    "useImportReport" : [ {
+      "importPath" : "import org.springframework.integration.file.remote.synchronizer.AbstractInboundFileSynchronizer;",
+      "artifact" : {
+        "artifact" : "org.springframework.integration:spring-integration-file:6.0.2",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.google.cloud:spring-cloud-gcp-storage:4.1.0/dependencies/org/springframework/integration/spring-integration-file/6.0.2/spring-integration-file-6.0.2.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import com.google.cloud.storage.BlobInfo;",
+      "artifact" : {
+        "artifact" : "com.google.cloud:google-cloud-storage:2.18.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.google.cloud:spring-cloud-gcp-storage:4.1.0/dependencies/com/google/cloud/google-cloud-storage/2.18.0/google-cloud-storage-2.18.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import com.google.cloud.storage.Storage;",
+      "artifact" : {
+        "artifact" : "com.google.cloud:google-cloud-storage:2.18.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.google.cloud:spring-cloud-gcp-storage:4.1.0/dependencies/com/google/cloud/google-cloud-storage/2.18.0/google-cloud-storage-2.18.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import com.google.cloud.spring.storage.integration.GcsSessionFactory;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.google.cloud.spring.storage.integration.filters.GcsPersistentAcceptOnceFileListFilter;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.springframework.integration.metadata.SimpleMetadataStore;",
+      "artifact" : {
+        "artifact" : "org.springframework.integration:spring-integration-core:6.0.2",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.google.cloud:spring-cloud-gcp-storage:4.1.0/dependencies/org/springframework/integration/spring-integration-core/6.0.2/spring-integration-core-6.0.2.jar"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/com.google.cloud:spring-cloud-gcp-storage/spring-cloud-gcp-storage/src/main/java/com/google/cloud/spring/storage/integration/inbound/GcsInboundFileSynchronizingMessageSource.java",
+    "useImportReport" : [ {
+      "importPath" : "import org.springframework.integration.file.remote.synchronizer.AbstractInboundFileSynchronizingMessageSource;",
+      "artifact" : {
+        "artifact" : "org.springframework.integration:spring-integration-file:6.0.2",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.google.cloud:spring-cloud-gcp-storage:4.1.0/dependencies/org/springframework/integration/spring-integration-file/6.0.2/spring-integration-file-6.0.2.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import com.google.cloud.storage.BlobInfo;",
+      "artifact" : {
+        "artifact" : "com.google.cloud:google-cloud-storage:2.18.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.google.cloud:spring-cloud-gcp-storage:4.1.0/dependencies/com/google/cloud/google-cloud-storage/2.18.0/google-cloud-storage-2.18.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import java.util.Comparator;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.io.File;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/com.google.cloud:spring-cloud-gcp-storage/spring-cloud-gcp-storage/src/main/java/com/google/cloud/spring/storage/integration/inbound/GcsStreamingMessageSource.java",
+    "useImportReport" : [ {
+      "importPath" : "import org.springframework.integration.file.remote.AbstractRemoteFileStreamingMessageSource;",
+      "artifact" : {
+        "artifact" : "org.springframework.integration:spring-integration-file:6.0.2",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.google.cloud:spring-cloud-gcp-storage:4.1.0/dependencies/org/springframework/integration/spring-integration-file/6.0.2/spring-integration-file-6.0.2.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import com.google.cloud.storage.BlobInfo;",
+      "artifact" : {
+        "artifact" : "com.google.cloud:google-cloud-storage:2.18.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.google.cloud:spring-cloud-gcp-storage:4.1.0/dependencies/com/google/cloud/google-cloud-storage/2.18.0/google-cloud-storage-2.18.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.springframework.integration.file.remote.RemoteFileTemplate;",
+      "artifact" : {
+        "artifact" : "org.springframework.integration:spring-integration-file:6.0.2",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.google.cloud:spring-cloud-gcp-storage:4.1.0/dependencies/org/springframework/integration/spring-integration-file/6.0.2/spring-integration-file-6.0.2.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import java.util.Comparator;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.google.cloud.spring.storage.integration.filters.GcsPersistentAcceptOnceFileListFilter;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.springframework.integration.metadata.SimpleMetadataStore;",
+      "artifact" : {
+        "artifact" : "org.springframework.integration:spring-integration-core:6.0.2",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.google.cloud:spring-cloud-gcp-storage:4.1.0/dependencies/org/springframework/integration/spring-integration-core/6.0.2/spring-integration-core-6.0.2.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.List;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.springframework.integration.file.remote.AbstractFileInfo;",
+      "artifact" : {
+        "artifact" : "org.springframework.integration:spring-integration-file:6.0.2",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.google.cloud:spring-cloud-gcp-storage:4.1.0/dependencies/org/springframework/integration/spring-integration-file/6.0.2/spring-integration-file-6.0.2.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import java.util.Collection;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.google.cloud.spring.storage.integration.GcsFileInfo;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.stream.Collectors;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/com.google.cloud:spring-cloud-gcp-storage/spring-cloud-gcp-storage/src/main/java/com/google/cloud/spring/storage/integration/inbound/package-info.java",
+    "useImportReport" : [ ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/com.google.cloud:spring-cloud-gcp-storage/spring-cloud-gcp-storage/src/main/java/com/google/cloud/spring/storage/integration/outbound/GcsMessageHandler.java",
+    "useImportReport" : [ {
+      "importPath" : "import org.springframework.integration.file.remote.handler.FileTransferringMessageHandler;",
+      "artifact" : {
+        "artifact" : "org.springframework.integration:spring-integration-file:6.0.2",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.google.cloud:spring-cloud-gcp-storage:4.1.0/dependencies/org/springframework/integration/spring-integration-file/6.0.2/spring-integration-file-6.0.2.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import com.google.cloud.storage.BlobInfo;",
+      "artifact" : {
+        "artifact" : "com.google.cloud:google-cloud-storage:2.18.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.google.cloud:spring-cloud-gcp-storage:4.1.0/dependencies/com/google/cloud/google-cloud-storage/2.18.0/google-cloud-storage-2.18.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.springframework.integration.file.remote.session.SessionFactory;",
+      "artifact" : {
+        "artifact" : "org.springframework.integration:spring-integration-file:6.0.2",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.google.cloud:spring-cloud-gcp-storage:4.1.0/dependencies/org/springframework/integration/spring-integration-file/6.0.2/spring-integration-file-6.0.2.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.springframework.integration.file.remote.RemoteFileTemplate;",
+      "artifact" : {
+        "artifact" : "org.springframework.integration:spring-integration-file:6.0.2",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.google.cloud:spring-cloud-gcp-storage:4.1.0/dependencies/org/springframework/integration/spring-integration-file/6.0.2/spring-integration-file-6.0.2.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.springframework.integration.file.support.FileExistsMode;",
+      "artifact" : {
+        "artifact" : "org.springframework.integration:spring-integration-file:6.0.2",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.google.cloud:spring-cloud-gcp-storage:4.1.0/dependencies/org/springframework/integration/spring-integration-file/6.0.2/spring-integration-file-6.0.2.jar"
+      },
+      "isDirectDependency" : true
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/com.google.cloud:spring-cloud-gcp-storage/spring-cloud-gcp-storage/src/main/java/com/google/cloud/spring/storage/integration/outbound/package-info.java",
+    "useImportReport" : [ ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/com.google.cloud:spring-cloud-gcp-storage/spring-cloud-gcp-storage/src/main/java/com/google/cloud/spring/storage/integration/GcsRemoteFileTemplate.java",
+    "useImportReport" : [ {
+      "importPath" : "import org.springframework.integration.file.remote.RemoteFileTemplate;",
+      "artifact" : {
+        "artifact" : "org.springframework.integration:spring-integration-file:6.0.2",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.google.cloud:spring-cloud-gcp-storage:4.1.0/dependencies/org/springframework/integration/spring-integration-file/6.0.2/spring-integration-file-6.0.2.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import com.google.cloud.storage.BlobInfo;",
+      "artifact" : {
+        "artifact" : "com.google.cloud:google-cloud-storage:2.18.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.google.cloud:spring-cloud-gcp-storage:4.1.0/dependencies/com/google/cloud/google-cloud-storage/2.18.0/google-cloud-storage-2.18.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.springframework.integration.file.remote.session.SessionFactory;",
+      "artifact" : {
+        "artifact" : "org.springframework.integration:spring-integration-file:6.0.2",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.google.cloud:spring-cloud-gcp-storage:4.1.0/dependencies/org/springframework/integration/spring-integration-file/6.0.2/spring-integration-file-6.0.2.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.springframework.integration.file.remote.ClientCallback;",
+      "artifact" : {
+        "artifact" : "org.springframework.integration:spring-integration-file:6.0.2",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.google.cloud:spring-cloud-gcp-storage:4.1.0/dependencies/org/springframework/integration/spring-integration-file/6.0.2/spring-integration-file-6.0.2.jar"
+      },
+      "isDirectDependency" : true
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/com.google.cloud:spring-cloud-gcp-storage/spring-cloud-gcp-storage/src/main/java/com/google/cloud/spring/storage/integration/GcsSessionFactory.java",
+    "useImportReport" : [ {
+      "importPath" : "import org.springframework.integration.file.remote.session.SessionFactory;",
+      "artifact" : {
+        "artifact" : "org.springframework.integration:spring-integration-file:6.0.2",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.google.cloud:spring-cloud-gcp-storage:4.1.0/dependencies/org/springframework/integration/spring-integration-file/6.0.2/spring-integration-file-6.0.2.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import com.google.cloud.storage.BlobInfo;",
+      "artifact" : {
+        "artifact" : "com.google.cloud:google-cloud-storage:2.18.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.google.cloud:spring-cloud-gcp-storage:4.1.0/dependencies/com/google/cloud/google-cloud-storage/2.18.0/google-cloud-storage-2.18.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.springframework.integration.file.remote.session.SharedSessionCapable;",
+      "artifact" : {
+        "artifact" : "org.springframework.integration:spring-integration-file:6.0.2",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.google.cloud:spring-cloud-gcp-storage:4.1.0/dependencies/org/springframework/integration/spring-integration-file/6.0.2/spring-integration-file-6.0.2.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import com.google.cloud.storage.Storage;",
+      "artifact" : {
+        "artifact" : "com.google.cloud:google-cloud-storage:2.18.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.google.cloud:spring-cloud-gcp-storage:4.1.0/dependencies/com/google/cloud/google-cloud-storage/2.18.0/google-cloud-storage-2.18.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.springframework.util.Assert;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-core:6.0.4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.google.cloud:spring-cloud-gcp-storage:4.1.0/dependencies/org/springframework/spring-core/6.0.4/spring-core-6.0.4.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.springframework.integration.file.remote.session.Session;",
+      "artifact" : {
+        "artifact" : "org.springframework.integration:spring-integration-file:6.0.2",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.google.cloud:spring-cloud-gcp-storage:4.1.0/dependencies/org/springframework/integration/spring-integration-file/6.0.2/spring-integration-file-6.0.2.jar"
+      },
+      "isDirectDependency" : true
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/com.google.cloud:spring-cloud-gcp-storage/spring-cloud-gcp-storage/src/main/java/com/google/cloud/spring/storage/integration/package-info.java",
+    "useImportReport" : [ ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/com.google.cloud:spring-cloud-gcp-storage/spring-cloud-gcp-storage/src/main/java/com/google/cloud/spring/storage/GoogleStorageProtocolResolverSettings.java",
+    "useImportReport" : [ ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/com.google.cloud:spring-cloud-gcp-storage/spring-cloud-gcp-storage/src/main/java/com/google/cloud/spring/storage/GoogleStorageResource.java",
+    "useImportReport" : [ {
+      "importPath" : "import org.springframework.core.io.WritableResource;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-core:6.0.4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.google.cloud:spring-cloud-gcp-storage:4.1.0/dependencies/org/springframework/spring-core/6.0.4/spring-core-6.0.4.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.apache.commons.logging.Log;",
+      "artifact" : {
+        "artifact" : "commons-logging:commons-logging:1.2",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.google.cloud:spring-cloud-gcp-storage:4.1.0/dependencies/commons-logging/commons-logging/1.2/commons-logging-1.2.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.apache.commons.logging.Log;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-jcl:6.0.4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.google.cloud:spring-cloud-gcp-storage:4.1.0/dependencies/org/springframework/spring-jcl/6.0.4/spring-jcl-6.0.4.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.apache.commons.logging.LogFactory;",
+      "artifact" : {
+        "artifact" : "commons-logging:commons-logging:1.2",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.google.cloud:spring-cloud-gcp-storage:4.1.0/dependencies/commons-logging/commons-logging/1.2/commons-logging-1.2.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.apache.commons.logging.LogFactory;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-jcl:6.0.4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.google.cloud:spring-cloud-gcp-storage:4.1.0/dependencies/org/springframework/spring-jcl/6.0.4/spring-jcl-6.0.4.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.google.cloud.storage.Storage;",
+      "artifact" : {
+        "artifact" : "com.google.cloud:google-cloud-storage:2.18.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.google.cloud:spring-cloud-gcp-storage:4.1.0/dependencies/com/google/cloud/google-cloud-storage/2.18.0/google-cloud-storage-2.18.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.springframework.util.Assert;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-core:6.0.4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.google.cloud:spring-cloud-gcp-storage:4.1.0/dependencies/org/springframework/spring-core/6.0.4/spring-core-6.0.4.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.google.cloud.storage.StorageException;",
+      "artifact" : {
+        "artifact" : "com.google.cloud:google-cloud-storage:2.18.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.google.cloud:spring-cloud-gcp-storage:4.1.0/dependencies/com/google/cloud/google-cloud-storage/2.18.0/google-cloud-storage-2.18.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import java.net.URL;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.springframework.lang.NonNull;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-core:6.0.4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.google.cloud:spring-cloud-gcp-storage:4.1.0/dependencies/org/springframework/spring-core/6.0.4/spring-core-6.0.4.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.io.IOException;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.google.cloud.storage.Bucket;",
+      "artifact" : {
+        "artifact" : "com.google.cloud:google-cloud-storage:2.18.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.google.cloud:spring-cloud-gcp-storage:4.1.0/dependencies/com/google/cloud/google-cloud-storage/2.18.0/google-cloud-storage-2.18.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import com.google.cloud.storage.Blob;",
+      "artifact" : {
+        "artifact" : "com.google.cloud:google-cloud-storage:2.18.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.google.cloud:spring-cloud-gcp-storage:4.1.0/dependencies/com/google/cloud/google-cloud-storage/2.18.0/google-cloud-storage-2.18.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import java.net.URI;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.concurrent.TimeUnit;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.google.cloud.storage.BlobInfo;",
+      "artifact" : {
+        "artifact" : "com.google.cloud:google-cloud-storage:2.18.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.google.cloud:spring-cloud-gcp-storage:4.1.0/dependencies/com/google/cloud/google-cloud-storage/2.18.0/google-cloud-storage-2.18.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import com.google.cloud.storage.BucketInfo;",
+      "artifact" : {
+        "artifact" : "com.google.cloud:google-cloud-storage:2.18.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.google.cloud:spring-cloud-gcp-storage:4.1.0/dependencies/com/google/cloud/google-cloud-storage/2.18.0/google-cloud-storage-2.18.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import java.io.FileNotFoundException;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.io.File;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.io.InputStream;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.nio.channels.Channels;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.io.OutputStream;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.google.cloud.storage.BlobId;",
+      "artifact" : {
+        "artifact" : "com.google.cloud:google-cloud-storage:2.18.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.google.cloud:spring-cloud-gcp-storage:4.1.0/dependencies/com/google/cloud/google-cloud-storage/2.18.0/google-cloud-storage-2.18.0.jar"
+      },
+      "isDirectDependency" : true
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/com.google.cloud:spring-cloud-gcp-storage/spring-cloud-gcp-storage/src/main/java/com/google/cloud/spring/storage/package-info.java",
+    "useImportReport" : [ ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  } ],
+  "projectUseDependencies" : [ {
+    "artifact" : "com.google.cloud:google-cloud-storage:2.18.0",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.google.cloud:spring-cloud-gcp-storage:4.1.0/dependencies/com/google/cloud/google-cloud-storage/2.18.0/google-cloud-storage-2.18.0.jar"
+  }, {
+    "artifact" : "org.springframework.integration:spring-integration-file:6.0.2",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.google.cloud:spring-cloud-gcp-storage:4.1.0/dependencies/org/springframework/integration/spring-integration-file/6.0.2/spring-integration-file-6.0.2.jar"
+  }, {
+    "artifact" : "org.springframework:spring-context:6.0.4",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.google.cloud:spring-cloud-gcp-storage:4.1.0/dependencies/org/springframework/spring-context/6.0.4/spring-context-6.0.4.jar"
+  } ],
+  "projectUseTransitiveDependencies" : [ ],
+  "projectUnusedDependencies" : [ {
+    "artifact" : "org.slf4j:slf4j-api:2.0.6",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.google.cloud:spring-cloud-gcp-storage:4.1.0/dependencies/org/slf4j/slf4j-api/2.0.6/slf4j-api-2.0.6.jar"
+  } ]
+}

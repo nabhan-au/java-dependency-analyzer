@@ -1,0 +1,137 @@
+{
+  "projectArtifact" : "io.github.hakky54:ssl-server:1.0.2",
+  "repositoryDir" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/io.github.hakky54:ssl-server",
+  "repositorySubDir" : "",
+  "artifactLocation" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.github.hakky54:ssl-server:1.0.2",
+  "fileImportReports" : [ {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/io.github.hakky54:ssl-server/src/main/java/nl/altindag/ssl/server/service/Server.java",
+    "useImportReport" : [ {
+      "importPath" : "import nl.altindag.ssl.SSLFactory;",
+      "artifact" : {
+        "artifact" : "io.github.hakky54:sslcontext-kickstart:7.5.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.github.hakky54:ssl-server:1.0.2/dependencies/io/github/hakky54/sslcontext-kickstart/7.5.0/sslcontext-kickstart-7.5.0.jar"
+      },
+      "isDirectDependency" : true
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/io.github.hakky54:ssl-server/src/main/java/nl/altindag/ssl/server/service/BasicVertxServer.java",
+    "useImportReport" : [ {
+      "importPath" : "import io.vertx.core.Vertx;",
+      "artifact" : {
+        "artifact" : "io.vertx:vertx-core:4.4.2",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.github.hakky54:ssl-server:1.0.2/dependencies/io/vertx/vertx-core/4.4.2/vertx-core-4.4.2.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import io.vertx.core.http.HttpServer;",
+      "artifact" : {
+        "artifact" : "io.vertx:vertx-core:4.4.2",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.github.hakky54:ssl-server:1.0.2/dependencies/io/vertx/vertx-core/4.4.2/vertx-core-4.4.2.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.concurrent.atomic.AtomicBoolean;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import nl.altindag.ssl.SSLFactory;",
+      "artifact" : {
+        "artifact" : "io.github.hakky54:sslcontext-kickstart:7.5.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.github.hakky54:ssl-server:1.0.2/dependencies/io/github/hakky54/sslcontext-kickstart/7.5.0/sslcontext-kickstart-7.5.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import io.vertx.ext.web.Router;",
+      "artifact" : {
+        "artifact" : "io.vertx:vertx-web:4.4.2",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.github.hakky54:ssl-server:1.0.2/dependencies/io/vertx/vertx-web/4.4.2/vertx-web-4.4.2.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import io.vertx.core.http.ClientAuth;",
+      "artifact" : {
+        "artifact" : "io.vertx:vertx-core:4.4.2",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.github.hakky54:ssl-server:1.0.2/dependencies/io/vertx/vertx-core/4.4.2/vertx-core-4.4.2.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import io.vertx.core.http.HttpServerOptions;",
+      "artifact" : {
+        "artifact" : "io.vertx:vertx-core:4.4.2",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.github.hakky54:ssl-server:1.0.2/dependencies/io/vertx/vertx-core/4.4.2/vertx-core-4.4.2.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import io.vertx.core.net.KeyCertOptions;",
+      "artifact" : {
+        "artifact" : "io.vertx:vertx-core:4.4.2",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.github.hakky54:ssl-server:1.0.2/dependencies/io/vertx/vertx-core/4.4.2/vertx-core-4.4.2.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import io.vertx.core.net.TrustOptions;",
+      "artifact" : {
+        "artifact" : "io.vertx:vertx-core:4.4.2",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.github.hakky54:ssl-server:1.0.2/dependencies/io/vertx/vertx-core/4.4.2/vertx-core-4.4.2.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import javax.net.ssl.SSLParameters;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.concurrent.TimeUnit;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import nl.altindag.ssl.server.exception.ServerException;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/io.github.hakky54:ssl-server/src/main/java/nl/altindag/ssl/server/exception/ServerException.java",
+    "useImportReport" : [ ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  } ],
+  "projectUseDependencies" : [ {
+    "artifact" : "io.github.hakky54:sslcontext-kickstart:7.5.0",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.github.hakky54:ssl-server:1.0.2/dependencies/io/github/hakky54/sslcontext-kickstart/7.5.0/sslcontext-kickstart-7.5.0.jar"
+  }, {
+    "artifact" : "io.vertx:vertx-web:4.4.2",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.github.hakky54:ssl-server:1.0.2/dependencies/io/vertx/vertx-web/4.4.2/vertx-web-4.4.2.jar"
+  } ],
+  "projectUseTransitiveDependencies" : [ ],
+  "projectUnusedDependencies" : [ {
+    "artifact" : "org.junit.jupiter:junit-jupiter-api:5.9.2",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.github.hakky54:ssl-server:1.0.2/dependencies/org/junit/jupiter/junit-jupiter-api/5.9.2/junit-jupiter-api-5.9.2.jar"
+  }, {
+    "artifact" : "org.junit.jupiter:junit-jupiter-engine:5.9.2",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.github.hakky54:ssl-server:1.0.2/dependencies/org/junit/jupiter/junit-jupiter-engine/5.9.2/junit-jupiter-engine-5.9.2.jar"
+  }, {
+    "artifact" : "org.assertj:assertj-core:3.24.2",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.github.hakky54:ssl-server:1.0.2/dependencies/org/assertj/assertj-core/3.24.2/assertj-core-3.24.2.jar"
+  }, {
+    "artifact" : "org.slf4j:slf4j-simple:2.0.7",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.github.hakky54:ssl-server:1.0.2/dependencies/org/slf4j/slf4j-simple/2.0.7/slf4j-simple-2.0.7.jar"
+  } ]
+}

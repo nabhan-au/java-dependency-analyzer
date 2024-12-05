@@ -1,0 +1,312 @@
+{
+  "projectArtifact" : "sh.tak.appbundler:appbundle-maven-plugin:1.0.4",
+  "repositoryDir" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/sh.tak.appbundler:appbundle-maven-plugin",
+  "repositorySubDir" : "",
+  "artifactLocation" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/sh.tak.appbundler:appbundle-maven-plugin:1.0.4",
+  "fileImportReports" : [ {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/sh.tak.appbundler:appbundle-maven-plugin/src/main/java/sh/tak/appbundler/CreateApplicationBundleMojo.java",
+    "useImportReport" : [ {
+      "importPath" : "import org.apache.maven.plugin.AbstractMojo;",
+      "artifact" : {
+        "artifact" : "org.apache.maven:maven-plugin-api:3.1.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/sh.tak.appbundler:appbundle-maven-plugin:1.0.4/dependencies/org/apache/maven/maven-plugin-api/3.1.1/maven-plugin-api-3.1.1.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import java.io.File;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.apache.maven.project.MavenProject;",
+      "artifact" : {
+        "artifact" : "org.apache.maven:maven-core:3.1.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/sh.tak.appbundler:appbundle-maven-plugin:1.0.4/dependencies/org/apache/maven/maven-core/3.1.1/maven-core-3.1.1.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.apache.maven.project.MavenProjectHelper;",
+      "artifact" : {
+        "artifact" : "org.apache.maven:maven-core:3.1.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/sh.tak.appbundler:appbundle-maven-plugin:1.0.4/dependencies/org/apache/maven/maven-core/3.1.1/maven-core-3.1.1.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.codehaus.plexus.velocity.VelocityComponent;",
+      "artifact" : {
+        "artifact" : "org.codehaus.plexus:plexus-velocity:1.1.8",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/sh.tak.appbundler:appbundle-maven-plugin:1.0.4/dependencies/org/codehaus/plexus/plexus-velocity/1.1.8/plexus-velocity-1.1.8.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import java.util.List;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.apache.maven.plugin.MojoExecutionException;",
+      "artifact" : {
+        "artifact" : "org.apache.maven:maven-plugin-api:3.1.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/sh.tak.appbundler:appbundle-maven-plugin:1.0.4/dependencies/org/apache/maven/maven-plugin-api/3.1.1/maven-plugin-api-3.1.1.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import java.io.FileOutputStream;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.io.FileNotFoundException;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.io.InputStream;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.codehaus.plexus.util.IOUtil;",
+      "artifact" : {
+        "artifact" : "org.codehaus.plexus:plexus-utils:1.2",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/sh.tak.appbundler:appbundle-maven-plugin:1.0.4/dependencies/org/codehaus/plexus/plexus-utils/1.2/plexus-utils-1.2.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.io.IOException;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.codehaus.plexus.util.FileUtils;",
+      "artifact" : {
+        "artifact" : "org.codehaus.plexus:plexus-utils:1.2",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/sh.tak.appbundler:appbundle-maven-plugin:1.0.4/dependencies/org/codehaus/plexus/plexus-utils/1.2/plexus-utils-1.2.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.apache.commons.lang.SystemUtils;",
+      "artifact" : {
+        "artifact" : "commons-lang:commons-lang:2.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/sh.tak.appbundler:appbundle-maven-plugin:1.0.4/dependencies/commons-lang/commons-lang/2.1/commons-lang-2.1.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.codehaus.plexus.util.cli.Commandline;",
+      "artifact" : {
+        "artifact" : "org.codehaus.plexus:plexus-utils:1.2",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/sh.tak.appbundler:appbundle-maven-plugin:1.0.4/dependencies/org/codehaus/plexus/plexus-utils/1.2/plexus-utils-1.2.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.codehaus.plexus.util.cli.CommandLineException;",
+      "artifact" : {
+        "artifact" : "org.codehaus.plexus:plexus-utils:1.2",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/sh.tak.appbundler:appbundle-maven-plugin:1.0.4/dependencies/org/codehaus/plexus/plexus-utils/1.2/plexus-utils-1.2.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.apache.maven.artifact.repository.layout.ArtifactRepositoryLayout;",
+      "artifact" : {
+        "artifact" : "org.apache.maven:maven-artifact:3.1.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/sh.tak.appbundler:appbundle-maven-plugin:1.0.4/dependencies/org/apache/maven/maven-artifact/3.1.1/maven-artifact-3.1.1.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.apache.maven.artifact.repository.layout.DefaultRepositoryLayout;",
+      "artifact" : {
+        "artifact" : "org.apache.maven:maven-core:3.1.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/sh.tak.appbundler:appbundle-maven-plugin:1.0.4/dependencies/org/apache/maven/maven-core/3.1.1/maven-core-3.1.1.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import java.util.ArrayList;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.apache.maven.artifact.Artifact;",
+      "artifact" : {
+        "artifact" : "org.apache.maven:maven-artifact:3.1.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/sh.tak.appbundler:appbundle-maven-plugin:1.0.4/dependencies/org/apache/maven/maven-artifact/3.1.1/maven-artifact-3.1.1.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.apache.velocity.app.Velocity;",
+      "artifact" : {
+        "artifact" : "velocity:velocity:1.5",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/sh.tak.appbundler:appbundle-maven-plugin:1.0.4/dependencies/velocity/velocity/1.5/velocity-1.5.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import sh.tak.appbundler.logging.MojoLogChute;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.apache.velocity.VelocityContext;",
+      "artifact" : {
+        "artifact" : "velocity:velocity:1.5",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/sh.tak.appbundler:appbundle-maven-plugin:1.0.4/dependencies/velocity/velocity/1.5/velocity-1.5.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.io.Writer;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.io.OutputStreamWriter;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.apache.velocity.Template;",
+      "artifact" : {
+        "artifact" : "velocity:velocity:1.5",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/sh.tak.appbundler:appbundle-maven-plugin:1.0.4/dependencies/velocity/velocity/1.5/velocity-1.5.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.apache.velocity.exception.ParseErrorException;",
+      "artifact" : {
+        "artifact" : "velocity:velocity:1.5",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/sh.tak.appbundler:appbundle-maven-plugin:1.0.4/dependencies/velocity/velocity/1.5/velocity-1.5.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.apache.velocity.exception.ResourceNotFoundException;",
+      "artifact" : {
+        "artifact" : "velocity:velocity:1.5",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/sh.tak.appbundler:appbundle-maven-plugin:1.0.4/dependencies/velocity/velocity/1.5/velocity-1.5.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.apache.velocity.exception.MethodInvocationException;",
+      "artifact" : {
+        "artifact" : "velocity:velocity:1.5",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/sh.tak.appbundler:appbundle-maven-plugin:1.0.4/dependencies/velocity/velocity/1.5/velocity-1.5.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import javax.xml.stream.XMLInputFactory;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.io.FileReader;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.codehaus.plexus.util.DirectoryScanner;",
+      "artifact" : {
+        "artifact" : "org.codehaus.plexus:plexus-utils:1.2",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/sh.tak.appbundler:appbundle-maven-plugin:1.0.4/dependencies/org/codehaus/plexus/plexus-utils/1.2/plexus-utils-1.2.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.Arrays;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/sh.tak.appbundler:appbundle-maven-plugin/src/main/java/sh/tak/appbundler/FileSet.java",
+    "useImportReport" : [ ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ {
+      "importPath" : "org.apache.maven.model.FileSet",
+      "artifact" : {
+        "artifact" : "org.apache.maven:maven-model:3.1.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/sh.tak.appbundler:appbundle-maven-plugin:1.0.4/dependencies/org/apache/maven/maven-model/3.1.1/maven-model-3.1.1.jar"
+      },
+      "isDirectDependency" : true
+    } ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/sh.tak.appbundler:appbundle-maven-plugin/src/main/java/sh/tak/appbundler/logging/MojoLogChute.java",
+    "useImportReport" : [ {
+      "importPath" : "import org.apache.velocity.runtime.log.LogChute;",
+      "artifact" : {
+        "artifact" : "velocity:velocity:1.5",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/sh.tak.appbundler:appbundle-maven-plugin:1.0.4/dependencies/velocity/velocity/1.5/velocity-1.5.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.apache.maven.plugin.Mojo;",
+      "artifact" : {
+        "artifact" : "org.apache.maven:maven-core:3.1.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/sh.tak.appbundler:appbundle-maven-plugin:1.0.4/dependencies/org/apache/maven/maven-core/3.1.1/maven-core-3.1.1.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.apache.maven.plugin.Mojo;",
+      "artifact" : {
+        "artifact" : "org.apache.maven:maven-plugin-api:3.1.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/sh.tak.appbundler:appbundle-maven-plugin:1.0.4/dependencies/org/apache/maven/maven-plugin-api/3.1.1/maven-plugin-api-3.1.1.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.apache.velocity.runtime.RuntimeServices;",
+      "artifact" : {
+        "artifact" : "velocity:velocity:1.5",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/sh.tak.appbundler:appbundle-maven-plugin:1.0.4/dependencies/velocity/velocity/1.5/velocity-1.5.jar"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  } ],
+  "projectUseDependencies" : [ {
+    "artifact" : "org.apache.maven:maven-plugin-api:3.1.1",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/sh.tak.appbundler:appbundle-maven-plugin:1.0.4/dependencies/org/apache/maven/maven-plugin-api/3.1.1/maven-plugin-api-3.1.1.jar"
+  }, {
+    "artifact" : "org.apache.maven:maven-core:3.1.1",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/sh.tak.appbundler:appbundle-maven-plugin:1.0.4/dependencies/org/apache/maven/maven-core/3.1.1/maven-core-3.1.1.jar"
+  }, {
+    "artifact" : "org.codehaus.plexus:plexus-velocity:1.1.8",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/sh.tak.appbundler:appbundle-maven-plugin:1.0.4/dependencies/org/codehaus/plexus/plexus-velocity/1.1.8/plexus-velocity-1.1.8.jar"
+  }, {
+    "artifact" : "org.apache.maven:maven-artifact:3.1.1",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/sh.tak.appbundler:appbundle-maven-plugin:1.0.4/dependencies/org/apache/maven/maven-artifact/3.1.1/maven-artifact-3.1.1.jar"
+  }, {
+    "artifact" : "org.apache.maven:maven-model:3.1.1",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/sh.tak.appbundler:appbundle-maven-plugin:1.0.4/dependencies/org/apache/maven/maven-model/3.1.1/maven-model-3.1.1.jar"
+  } ],
+  "projectUseTransitiveDependencies" : [ ],
+  "projectUnusedDependencies" : [ {
+    "artifact" : "org.codehaus.plexus:plexus-archiver:1.0-alpha-7",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/sh.tak.appbundler:appbundle-maven-plugin:1.0.4/dependencies/org/codehaus/plexus/plexus-archiver/1.0-alpha-7/plexus-archiver-1.0-alpha-7.jar"
+  } ]
+}

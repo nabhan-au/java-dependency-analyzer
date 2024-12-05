@@ -1,0 +1,233 @@
+{
+  "projectArtifact" : "com.github.ppodgorsek.cache:cache-invalidation-spring:1.0.1",
+  "repositoryDir" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/com.github.ppodgorsek.cache:cache-invalidation-spring/cache-invalidation-spring",
+  "repositorySubDir" : "",
+  "artifactLocation" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.ppodgorsek.cache:cache-invalidation-spring:1.0.1",
+  "fileImportReports" : [ {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/com.github.ppodgorsek.cache:cache-invalidation-spring/cache-invalidation-spring/src/main/java/com/github/ppodgorsek/cache/spring/helper/impl/CacheManagerHelper.java",
+    "useImportReport" : [ {
+      "importPath" : "import com.github.ppodgorsek.cache.invalidation.helper.AbstractChainedInvalidationHelper;",
+      "artifact" : {
+        "artifact" : "com.github.ppodgorsek.cache:cache-invalidation-core:1.0.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.ppodgorsek.cache:cache-invalidation-spring:1.0.1/dependencies/com/github/ppodgorsek/cache/cache-invalidation-core/1.0.1/cache-invalidation-core-1.0.1.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import com.github.ppodgorsek.cache.invalidation.helper.InvalidationHelper;",
+      "artifact" : {
+        "artifact" : "com.github.ppodgorsek.cache:cache-invalidation-core:1.0.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.ppodgorsek.cache:cache-invalidation-spring:1.0.1/dependencies/com/github/ppodgorsek/cache/cache-invalidation-core/1.0.1/cache-invalidation-core-1.0.1.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import com.github.ppodgorsek.cache.invalidation.model.InvalidationEntry;",
+      "artifact" : {
+        "artifact" : "com.github.ppodgorsek.cache:cache-invalidation-core:1.0.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.ppodgorsek.cache:cache-invalidation-spring:1.0.1/dependencies/com/github/ppodgorsek/cache/cache-invalidation-core/1.0.1/cache-invalidation-core-1.0.1.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import java.util.Map;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.github.ppodgorsek.cache.invalidation.exception.InvalidationException;",
+      "artifact" : {
+        "artifact" : "com.github.ppodgorsek.cache:cache-invalidation-core:1.0.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.ppodgorsek.cache:cache-invalidation-spring:1.0.1/dependencies/com/github/ppodgorsek/cache/cache-invalidation-core/1.0.1/cache-invalidation-core-1.0.1.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.springframework.beans.factory.annotation.Required;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-beans:4.0.4.RELEASE",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.ppodgorsek.cache:cache-invalidation-spring:1.0.1/dependencies/org/springframework/spring-beans/4.0.4.RELEASE/spring-beans-4.0.4.RELEASE.jar"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ {
+      "importPath" : "import com.github.ppodgorsek.cache.spring.strategy.CacheManagerStrategy;"
+    } ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/com.github.ppodgorsek.cache:cache-invalidation-spring/cache-invalidation-spring/src/main/java/com/github/ppodgorsek/cache/spring/strategy/impl/SimpleCacheManagerInvalidationStrategy.java",
+    "useImportReport" : [ {
+      "importPath" : "import com.github.ppodgorsek.cache.invalidation.model.InvalidationEntry;",
+      "artifact" : {
+        "artifact" : "com.github.ppodgorsek.cache:cache-invalidation-core:1.0.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.ppodgorsek.cache:cache-invalidation-spring:1.0.1/dependencies/com/github/ppodgorsek/cache/cache-invalidation-core/1.0.1/cache-invalidation-core-1.0.1.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.slf4j.Logger;",
+      "artifact" : {
+        "artifact" : "org.slf4j:slf4j-api:1.7.7",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.ppodgorsek.cache:cache-invalidation-spring:1.0.1/dependencies/org/slf4j/slf4j-api/1.7.7/slf4j-api-1.7.7.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.slf4j.LoggerFactory;",
+      "artifact" : {
+        "artifact" : "org.slf4j:slf4j-api:1.7.7",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.ppodgorsek.cache:cache-invalidation-spring:1.0.1/dependencies/org/slf4j/slf4j-api/1.7.7/slf4j-api-1.7.7.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.github.ppodgorsek.cache.invalidation.exception.InvalidationException;",
+      "artifact" : {
+        "artifact" : "com.github.ppodgorsek.cache:cache-invalidation-core:1.0.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.ppodgorsek.cache:cache-invalidation-spring:1.0.1/dependencies/com/github/ppodgorsek/cache/cache-invalidation-core/1.0.1/cache-invalidation-core-1.0.1.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.springframework.cache.Cache;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-context:4.0.4.RELEASE",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.ppodgorsek.cache:cache-invalidation-spring:1.0.1/dependencies/org/springframework/spring-context/4.0.4.RELEASE/spring-context-4.0.4.RELEASE.jar"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ {
+      "importPath" : "import com.github.ppodgorsek.cache.spring.strategy.AbstractCacheManagerInvalidationStrategy;"
+    }, {
+      "importPath" : "import com.github.ppodgorsek.cache.spring.strategy.CacheManagerStrategy;"
+    } ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/com.github.ppodgorsek.cache:cache-invalidation-spring/cache-invalidation-spring/src/main/java/com/github/ppodgorsek/cache/spring/strategy/impl/IdentifiedCacheManagerInvalidationStrategy.java",
+    "useImportReport" : [ {
+      "importPath" : "import com.github.ppodgorsek.cache.invalidation.model.impl.IdentifiedInvalidationEntry;",
+      "artifact" : {
+        "artifact" : "com.github.ppodgorsek.cache:cache-invalidation-core:1.0.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.ppodgorsek.cache:cache-invalidation-spring:1.0.1/dependencies/com/github/ppodgorsek/cache/cache-invalidation-core/1.0.1/cache-invalidation-core-1.0.1.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.slf4j.Logger;",
+      "artifact" : {
+        "artifact" : "org.slf4j:slf4j-api:1.7.7",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.ppodgorsek.cache:cache-invalidation-spring:1.0.1/dependencies/org/slf4j/slf4j-api/1.7.7/slf4j-api-1.7.7.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.slf4j.LoggerFactory;",
+      "artifact" : {
+        "artifact" : "org.slf4j:slf4j-api:1.7.7",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.ppodgorsek.cache:cache-invalidation-spring:1.0.1/dependencies/org/slf4j/slf4j-api/1.7.7/slf4j-api-1.7.7.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.github.ppodgorsek.cache.invalidation.exception.InvalidationException;",
+      "artifact" : {
+        "artifact" : "com.github.ppodgorsek.cache:cache-invalidation-core:1.0.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.ppodgorsek.cache:cache-invalidation-spring:1.0.1/dependencies/com/github/ppodgorsek/cache/cache-invalidation-core/1.0.1/cache-invalidation-core-1.0.1.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.springframework.util.Assert;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-core:4.0.4.RELEASE",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.ppodgorsek.cache:cache-invalidation-spring:1.0.1/dependencies/org/springframework/spring-core/4.0.4.RELEASE/spring-core-4.0.4.RELEASE.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.springframework.cache.Cache;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-context:4.0.4.RELEASE",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.ppodgorsek.cache:cache-invalidation-spring:1.0.1/dependencies/org/springframework/spring-context/4.0.4.RELEASE/spring-context-4.0.4.RELEASE.jar"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ {
+      "importPath" : "import com.github.ppodgorsek.cache.spring.strategy.AbstractCacheManagerInvalidationStrategy;"
+    }, {
+      "importPath" : "import com.github.ppodgorsek.cache.spring.strategy.CacheManagerStrategy;"
+    } ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/com.github.ppodgorsek.cache:cache-invalidation-spring/cache-invalidation-spring/src/main/java/com/github/ppodgorsek/cache/spring/strategy/AbstractCacheManagerInvalidationStrategy.java",
+    "useImportReport" : [ {
+      "importPath" : "import com.github.ppodgorsek.cache.invalidation.model.InvalidationEntry;",
+      "artifact" : {
+        "artifact" : "com.github.ppodgorsek.cache:cache-invalidation-core:1.0.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.ppodgorsek.cache:cache-invalidation-spring:1.0.1/dependencies/com/github/ppodgorsek/cache/cache-invalidation-core/1.0.1/cache-invalidation-core-1.0.1.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.springframework.cache.CacheManager;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-context:4.0.4.RELEASE",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.ppodgorsek.cache:cache-invalidation-spring:1.0.1/dependencies/org/springframework/spring-context/4.0.4.RELEASE/spring-context-4.0.4.RELEASE.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.List;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.springframework.beans.factory.annotation.Required;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-beans:4.0.4.RELEASE",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.ppodgorsek.cache:cache-invalidation-spring:1.0.1/dependencies/org/springframework/spring-beans/4.0.4.RELEASE/spring-beans-4.0.4.RELEASE.jar"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/com.github.ppodgorsek.cache:cache-invalidation-spring/cache-invalidation-spring/src/main/java/com/github/ppodgorsek/cache/spring/strategy/CacheManagerStrategy.java",
+    "useImportReport" : [ {
+      "importPath" : "import com.github.ppodgorsek.cache.invalidation.model.InvalidationEntry;",
+      "artifact" : {
+        "artifact" : "com.github.ppodgorsek.cache:cache-invalidation-core:1.0.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.ppodgorsek.cache:cache-invalidation-spring:1.0.1/dependencies/com/github/ppodgorsek/cache/cache-invalidation-core/1.0.1/cache-invalidation-core-1.0.1.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.springframework.cache.CacheManager;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-context:4.0.4.RELEASE",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.ppodgorsek.cache:cache-invalidation-spring:1.0.1/dependencies/org/springframework/spring-context/4.0.4.RELEASE/spring-context-4.0.4.RELEASE.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.github.ppodgorsek.cache.invalidation.exception.InvalidationException;",
+      "artifact" : {
+        "artifact" : "com.github.ppodgorsek.cache:cache-invalidation-core:1.0.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.ppodgorsek.cache:cache-invalidation-spring:1.0.1/dependencies/com/github/ppodgorsek/cache/cache-invalidation-core/1.0.1/cache-invalidation-core-1.0.1.jar"
+      },
+      "isDirectDependency" : true
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  } ],
+  "projectUseDependencies" : [ {
+    "artifact" : "com.github.ppodgorsek.cache:cache-invalidation-core:1.0.1",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.ppodgorsek.cache:cache-invalidation-spring:1.0.1/dependencies/com/github/ppodgorsek/cache/cache-invalidation-core/1.0.1/cache-invalidation-core-1.0.1.jar"
+  } ],
+  "projectUseTransitiveDependencies" : [ {
+    "artifact" : "org.springframework:spring-context-support:4.0.4.RELEASE",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.ppodgorsek.cache:cache-invalidation-spring:1.0.1/dependencies/org/springframework/spring-context-support/4.0.4.RELEASE/spring-context-support-4.0.4.RELEASE.jar"
+  }, {
+    "artifact" : "org.springframework:spring-context-support:4.0.4.RELEASE",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.ppodgorsek.cache:cache-invalidation-spring:1.0.1/dependencies/org/springframework/spring-context-support/4.0.4.RELEASE/spring-context-support-4.0.4.RELEASE.jar"
+  }, {
+    "artifact" : "org.springframework:spring-context-support:4.0.4.RELEASE",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.ppodgorsek.cache:cache-invalidation-spring:1.0.1/dependencies/org/springframework/spring-context-support/4.0.4.RELEASE/spring-context-support-4.0.4.RELEASE.jar"
+  } ],
+  "projectUnusedDependencies" : [ {
+    "artifact" : "junit:junit:4.12",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.ppodgorsek.cache:cache-invalidation-spring:1.0.1/dependencies/junit/junit/4.12/junit-4.12.jar"
+  } ]
+}

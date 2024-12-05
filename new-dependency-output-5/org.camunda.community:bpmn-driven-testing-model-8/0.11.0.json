@@ -1,0 +1,1157 @@
+{
+  "projectArtifact" : "org.camunda.community:bpmn-driven-testing-model-8:0.11.0",
+  "repositoryDir" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/org.camunda.community:bpmn-driven-testing-model-8/model-8",
+  "repositorySubDir" : "",
+  "artifactLocation" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.camunda.community:bpmn-driven-testing-model-8:0.11.0",
+  "fileImportReports" : [ {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/org.camunda.community:bpmn-driven-testing-model-8/model-8/src/main/java/org/camunda/community/bpmndt/model/TestCasesImpl.java",
+    "useImportReport" : [ {
+      "importPath" : "import java.io.InputStream;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.camunda.bpm.model.xml.ModelParseException;",
+      "artifact" : {
+        "artifact" : "org.camunda.bpm.model:camunda-xml-model:7.21.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.camunda.community:bpmn-driven-testing-model-8:0.11.0/dependencies/org/camunda/bpm/model/camunda-xml-model/7.21.0/camunda-xml-model-7.21.0.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import io.camunda.zeebe.model.bpmn.BpmnModelInstance;",
+      "artifact" : {
+        "artifact" : "io.camunda:zeebe-bpmn-model:8.4.4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.camunda.community:bpmn-driven-testing-model-8:0.11.0/dependencies/io/camunda/zeebe-bpmn-model/8.4.4/zeebe-bpmn-model-8.4.4.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import java.nio.file.Path;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.io.FileInputStream;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.io.FileNotFoundException;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.io.IOException;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.Set;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.List;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.TreeSet;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.LinkedList;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.stream.Collectors;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.camunda.community.bpmndt.model.element.TestCaseElement;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import io.camunda.zeebe.model.bpmn.instance.Process;",
+      "artifact" : {
+        "artifact" : "io.camunda:zeebe-bpmn-model:8.4.4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.camunda.community:bpmn-driven-testing-model-8:0.11.0/dependencies/io/camunda/zeebe-bpmn-model/8.4.4/zeebe-bpmn-model-8.4.4.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import java.util.Collections;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.camunda.community.bpmndt.model.element.TestCasesElement;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import io.camunda.zeebe.model.bpmn.instance.BoundaryEvent;",
+      "artifact" : {
+        "artifact" : "io.camunda:zeebe-bpmn-model:8.4.4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.camunda.community:bpmn-driven-testing-model-8:0.11.0/dependencies/io/camunda/zeebe-bpmn-model/8.4.4/zeebe-bpmn-model-8.4.4.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import io.camunda.zeebe.model.bpmn.instance.EndEvent;",
+      "artifact" : {
+        "artifact" : "io.camunda:zeebe-bpmn-model:8.4.4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.camunda.community:bpmn-driven-testing-model-8:0.11.0/dependencies/io/camunda/zeebe-bpmn-model/8.4.4/zeebe-bpmn-model-8.4.4.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import io.camunda.zeebe.model.bpmn.instance.IntermediateCatchEvent;",
+      "artifact" : {
+        "artifact" : "io.camunda:zeebe-bpmn-model:8.4.4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.camunda.community:bpmn-driven-testing-model-8:0.11.0/dependencies/io/camunda/zeebe-bpmn-model/8.4.4/zeebe-bpmn-model-8.4.4.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import io.camunda.zeebe.model.bpmn.instance.IntermediateThrowEvent;",
+      "artifact" : {
+        "artifact" : "io.camunda:zeebe-bpmn-model:8.4.4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.camunda.community:bpmn-driven-testing-model-8:0.11.0/dependencies/io/camunda/zeebe-bpmn-model/8.4.4/zeebe-bpmn-model-8.4.4.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import io.camunda.zeebe.model.bpmn.instance.zeebe.ZeebeTaskDefinition;",
+      "artifact" : {
+        "artifact" : "io.camunda:zeebe-bpmn-model:8.4.4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.camunda.community:bpmn-driven-testing-model-8:0.11.0/dependencies/io/camunda/zeebe-bpmn-model/8.4.4/zeebe-bpmn-model-8.4.4.jar"
+      },
+      "isDirectDependency" : true
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/org.camunda.community:bpmn-driven-testing-model-8/model-8/src/main/java/org/camunda/community/bpmndt/model/BpmnElementScopeImpl.java",
+    "useImportReport" : [ {
+      "importPath" : "import io.camunda.zeebe.model.bpmn.instance.FlowNode;",
+      "artifact" : {
+        "artifact" : "io.camunda:zeebe-bpmn-model:8.4.4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.camunda.community:bpmn-driven-testing-model-8:0.11.0/dependencies/io/camunda/zeebe-bpmn-model/8.4.4/zeebe-bpmn-model-8.4.4.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import io.camunda.zeebe.model.bpmn.instance.MultiInstanceLoopCharacteristics;",
+      "artifact" : {
+        "artifact" : "io.camunda:zeebe-bpmn-model:8.4.4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.camunda.community:bpmn-driven-testing-model-8:0.11.0/dependencies/io/camunda/zeebe-bpmn-model/8.4.4/zeebe-bpmn-model-8.4.4.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import java.util.List;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.LinkedList;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import io.camunda.zeebe.model.bpmn.instance.SubProcess;",
+      "artifact" : {
+        "artifact" : "io.camunda:zeebe-bpmn-model:8.4.4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.camunda.community:bpmn-driven-testing-model-8:0.11.0/dependencies/io/camunda/zeebe-bpmn-model/8.4.4/zeebe-bpmn-model-8.4.4.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import java.util.Objects;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/org.camunda.community:bpmn-driven-testing-model-8/model-8/src/main/java/org/camunda/community/bpmndt/model/BpmnElementType.java",
+    "useImportReport" : [ {
+      "importPath" : "import java.util.Set;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.EnumSet;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/org.camunda.community:bpmn-driven-testing-model-8/model-8/src/main/java/org/camunda/community/bpmndt/model/TestCases.java",
+    "useImportReport" : [ {
+      "importPath" : "import java.io.InputStream;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import io.camunda.zeebe.model.bpmn.BpmnModelInstance;",
+      "artifact" : {
+        "artifact" : "io.camunda:zeebe-bpmn-model:8.4.4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.camunda.community:bpmn-driven-testing-model-8:0.11.0/dependencies/io/camunda/zeebe-bpmn-model/8.4.4/zeebe-bpmn-model-8.4.4.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import java.nio.file.Path;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.List;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.Set;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/org.camunda.community:bpmn-driven-testing-model-8/model-8/src/main/java/org/camunda/community/bpmndt/model/BpmnExtension.java",
+    "useImportReport" : [ {
+      "importPath" : "import io.camunda.zeebe.model.bpmn.Bpmn;",
+      "artifact" : {
+        "artifact" : "io.camunda:zeebe-bpmn-model:8.4.4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.camunda.community:bpmn-driven-testing-model-8:0.11.0/dependencies/io/camunda/zeebe-bpmn-model/8.4.4/zeebe-bpmn-model-8.4.4.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import io.camunda.zeebe.model.bpmn.BpmnModelInstance;",
+      "artifact" : {
+        "artifact" : "io.camunda:zeebe-bpmn-model:8.4.4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.camunda.community:bpmn-driven-testing-model-8:0.11.0/dependencies/io/camunda/zeebe-bpmn-model/8.4.4/zeebe-bpmn-model-8.4.4.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import java.io.InputStream;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import io.camunda.zeebe.model.bpmn.impl.BpmnImpl;",
+      "artifact" : {
+        "artifact" : "io.camunda:zeebe-bpmn-model:8.4.4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.camunda.community:bpmn-driven-testing-model-8:0.11.0/dependencies/io/camunda/zeebe-bpmn-model/8.4.4/zeebe-bpmn-model-8.4.4.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.camunda.bpm.model.xml.ModelBuilder;",
+      "artifact" : {
+        "artifact" : "org.camunda.bpm.model:camunda-xml-model:7.21.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.camunda.community:bpmn-driven-testing-model-8:0.11.0/dependencies/org/camunda/bpm/model/camunda-xml-model/7.21.0/camunda-xml-model-7.21.0.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.camunda.community.bpmndt.model.element.TestCasesElement;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.camunda.community.bpmndt.model.element.TestCaseElement;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.camunda.community.bpmndt.model.element.DescriptionElement;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.camunda.community.bpmndt.model.element.NameElement;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.camunda.community.bpmndt.model.element.PathElement;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.camunda.community.bpmndt.model.element.PathNodeElement;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import io.camunda.zeebe.model.bpmn.impl.BpmnParser;",
+      "artifact" : {
+        "artifact" : "io.camunda:zeebe-bpmn-model:8.4.4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.camunda.community:bpmn-driven-testing-model-8:0.11.0/dependencies/io/camunda/zeebe-bpmn-model/8.4.4/zeebe-bpmn-model-8.4.4.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import io.camunda.zeebe.model.bpmn.impl.BpmnModelInstanceImpl;",
+      "artifact" : {
+        "artifact" : "io.camunda:zeebe-bpmn-model:8.4.4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.camunda.community:bpmn-driven-testing-model-8:0.11.0/dependencies/io/camunda/zeebe-bpmn-model/8.4.4/zeebe-bpmn-model-8.4.4.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.camunda.bpm.model.xml.instance.DomDocument;",
+      "artifact" : {
+        "artifact" : "org.camunda.bpm.model:camunda-xml-model:7.21.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.camunda.community:bpmn-driven-testing-model-8:0.11.0/dependencies/org/camunda/bpm/model/camunda-xml-model/7.21.0/camunda-xml-model-7.21.0.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.camunda.bpm.model.xml.impl.ModelImpl;",
+      "artifact" : {
+        "artifact" : "org.camunda.bpm.model:camunda-xml-model:7.21.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.camunda.community:bpmn-driven-testing-model-8:0.11.0/dependencies/org/camunda/bpm/model/camunda-xml-model/7.21.0/camunda-xml-model-7.21.0.jar"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/org.camunda.community:bpmn-driven-testing-model-8/model-8/src/main/java/org/camunda/community/bpmndt/model/BpmnEventSupport.java",
+    "useImportReport" : [ {
+      "importPath" : "import io.camunda.zeebe.model.bpmn.instance.EventDefinition;",
+      "artifact" : {
+        "artifact" : "io.camunda:zeebe-bpmn-model:8.4.4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.camunda.community:bpmn-driven-testing-model-8:0.11.0/dependencies/io/camunda/zeebe-bpmn-model/8.4.4/zeebe-bpmn-model-8.4.4.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import io.camunda.zeebe.model.bpmn.instance.CatchEvent;",
+      "artifact" : {
+        "artifact" : "io.camunda:zeebe-bpmn-model:8.4.4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.camunda.community:bpmn-driven-testing-model-8:0.11.0/dependencies/io/camunda/zeebe-bpmn-model/8.4.4/zeebe-bpmn-model-8.4.4.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import io.camunda.zeebe.model.bpmn.instance.ThrowEvent;",
+      "artifact" : {
+        "artifact" : "io.camunda:zeebe-bpmn-model:8.4.4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.camunda.community:bpmn-driven-testing-model-8:0.11.0/dependencies/io/camunda/zeebe-bpmn-model/8.4.4/zeebe-bpmn-model-8.4.4.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import java.util.Collection;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import io.camunda.zeebe.model.bpmn.instance.ErrorEventDefinition;",
+      "artifact" : {
+        "artifact" : "io.camunda:zeebe-bpmn-model:8.4.4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.camunda.community:bpmn-driven-testing-model-8:0.11.0/dependencies/io/camunda/zeebe-bpmn-model/8.4.4/zeebe-bpmn-model-8.4.4.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import io.camunda.zeebe.model.bpmn.instance.EscalationEventDefinition;",
+      "artifact" : {
+        "artifact" : "io.camunda:zeebe-bpmn-model:8.4.4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.camunda.community:bpmn-driven-testing-model-8:0.11.0/dependencies/io/camunda/zeebe-bpmn-model/8.4.4/zeebe-bpmn-model-8.4.4.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import io.camunda.zeebe.model.bpmn.instance.MessageEventDefinition;",
+      "artifact" : {
+        "artifact" : "io.camunda:zeebe-bpmn-model:8.4.4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.camunda.community:bpmn-driven-testing-model-8:0.11.0/dependencies/io/camunda/zeebe-bpmn-model/8.4.4/zeebe-bpmn-model-8.4.4.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import io.camunda.zeebe.model.bpmn.instance.SignalEventDefinition;",
+      "artifact" : {
+        "artifact" : "io.camunda:zeebe-bpmn-model:8.4.4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.camunda.community:bpmn-driven-testing-model-8:0.11.0/dependencies/io/camunda/zeebe-bpmn-model/8.4.4/zeebe-bpmn-model-8.4.4.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import io.camunda.zeebe.model.bpmn.instance.TimerEventDefinition;",
+      "artifact" : {
+        "artifact" : "io.camunda:zeebe-bpmn-model:8.4.4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.camunda.community:bpmn-driven-testing-model-8:0.11.0/dependencies/io/camunda/zeebe-bpmn-model/8.4.4/zeebe-bpmn-model-8.4.4.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import static io.camunda.zeebe.model.bpmn.impl.BpmnModelConstants.BPMN_ELEMENT_ERROR_EVENT_DEFINITION;",
+      "artifact" : {
+        "artifact" : "io.camunda:zeebe-bpmn-model:8.4.4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.camunda.community:bpmn-driven-testing-model-8:0.11.0/dependencies/io/camunda/zeebe-bpmn-model/8.4.4/zeebe-bpmn-model-8.4.4.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import static io.camunda.zeebe.model.bpmn.impl.BpmnModelConstants.BPMN_ELEMENT_ESCALATION_EVENT_DEFINITION;",
+      "artifact" : {
+        "artifact" : "io.camunda:zeebe-bpmn-model:8.4.4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.camunda.community:bpmn-driven-testing-model-8:0.11.0/dependencies/io/camunda/zeebe-bpmn-model/8.4.4/zeebe-bpmn-model-8.4.4.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import static io.camunda.zeebe.model.bpmn.impl.BpmnModelConstants.BPMN_ELEMENT_LINK_EVENT_DEFINITION;",
+      "artifact" : {
+        "artifact" : "io.camunda:zeebe-bpmn-model:8.4.4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.camunda.community:bpmn-driven-testing-model-8:0.11.0/dependencies/io/camunda/zeebe-bpmn-model/8.4.4/zeebe-bpmn-model-8.4.4.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import static io.camunda.zeebe.model.bpmn.impl.BpmnModelConstants.BPMN_ELEMENT_MESSAGE_EVENT_DEFINITION;",
+      "artifact" : {
+        "artifact" : "io.camunda:zeebe-bpmn-model:8.4.4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.camunda.community:bpmn-driven-testing-model-8:0.11.0/dependencies/io/camunda/zeebe-bpmn-model/8.4.4/zeebe-bpmn-model-8.4.4.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import static io.camunda.zeebe.model.bpmn.impl.BpmnModelConstants.BPMN_ELEMENT_SIGNAL_EVENT_DEFINITION;",
+      "artifact" : {
+        "artifact" : "io.camunda:zeebe-bpmn-model:8.4.4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.camunda.community:bpmn-driven-testing-model-8:0.11.0/dependencies/io/camunda/zeebe-bpmn-model/8.4.4/zeebe-bpmn-model-8.4.4.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import static io.camunda.zeebe.model.bpmn.impl.BpmnModelConstants.BPMN_ELEMENT_TIMER_EVENT_DEFINITION;",
+      "artifact" : {
+        "artifact" : "io.camunda:zeebe-bpmn-model:8.4.4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.camunda.community:bpmn-driven-testing-model-8:0.11.0/dependencies/io/camunda/zeebe-bpmn-model/8.4.4/zeebe-bpmn-model-8.4.4.jar"
+      },
+      "isDirectDependency" : true
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/org.camunda.community:bpmn-driven-testing-model-8/model-8/src/main/java/org/camunda/community/bpmndt/model/element/PathElement.java",
+    "useImportReport" : [ {
+      "importPath" : "import io.camunda.zeebe.model.bpmn.impl.instance.BpmnModelElementInstanceImpl;",
+      "artifact" : {
+        "artifact" : "io.camunda:zeebe-bpmn-model:8.4.4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.camunda.community:bpmn-driven-testing-model-8:0.11.0/dependencies/io/camunda/zeebe-bpmn-model/8.4.4/zeebe-bpmn-model-8.4.4.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.camunda.bpm.model.xml.type.child.ChildElementCollection;",
+      "artifact" : {
+        "artifact" : "org.camunda.bpm.model:camunda-xml-model:7.21.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.camunda.community:bpmn-driven-testing-model-8:0.11.0/dependencies/org/camunda/bpm/model/camunda-xml-model/7.21.0/camunda-xml-model-7.21.0.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.camunda.bpm.model.xml.ModelBuilder;",
+      "artifact" : {
+        "artifact" : "org.camunda.bpm.model:camunda-xml-model:7.21.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.camunda.community:bpmn-driven-testing-model-8:0.11.0/dependencies/org/camunda/bpm/model/camunda-xml-model/7.21.0/camunda-xml-model-7.21.0.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import static org.camunda.community.bpmndt.model.BpmnExtension.ELEMENT_PATH;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import static org.camunda.community.bpmndt.model.BpmnExtension.NS;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.List;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.camunda.bpm.model.xml.impl.instance.ModelTypeInstanceContext;",
+      "artifact" : {
+        "artifact" : "org.camunda.bpm.model:camunda-xml-model:7.21.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.camunda.community:bpmn-driven-testing-model-8:0.11.0/dependencies/org/camunda/bpm/model/camunda-xml-model/7.21.0/camunda-xml-model-7.21.0.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.Collection;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.Collections;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.Objects;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.stream.Collectors;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/org.camunda.community:bpmn-driven-testing-model-8/model-8/src/main/java/org/camunda/community/bpmndt/model/element/TestCaseElement.java",
+    "useImportReport" : [ {
+      "importPath" : "import io.camunda.zeebe.model.bpmn.impl.instance.BpmnModelElementInstanceImpl;",
+      "artifact" : {
+        "artifact" : "io.camunda:zeebe-bpmn-model:8.4.4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.camunda.community:bpmn-driven-testing-model-8:0.11.0/dependencies/io/camunda/zeebe-bpmn-model/8.4.4/zeebe-bpmn-model-8.4.4.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.camunda.bpm.model.xml.type.child.ChildElement;",
+      "artifact" : {
+        "artifact" : "org.camunda.bpm.model:camunda-xml-model:7.21.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.camunda.community:bpmn-driven-testing-model-8:0.11.0/dependencies/org/camunda/bpm/model/camunda-xml-model/7.21.0/camunda-xml-model-7.21.0.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.camunda.bpm.model.xml.ModelBuilder;",
+      "artifact" : {
+        "artifact" : "org.camunda.bpm.model:camunda-xml-model:7.21.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.camunda.community:bpmn-driven-testing-model-8:0.11.0/dependencies/org/camunda/bpm/model/camunda-xml-model/7.21.0/camunda-xml-model-7.21.0.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import static org.camunda.community.bpmndt.model.BpmnExtension.ELEMENT_TEST_CASE;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import static org.camunda.community.bpmndt.model.BpmnExtension.NS;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.camunda.bpm.model.xml.impl.instance.ModelTypeInstanceContext;",
+      "artifact" : {
+        "artifact" : "org.camunda.bpm.model:camunda-xml-model:7.21.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.camunda.community:bpmn-driven-testing-model-8:0.11.0/dependencies/org/camunda/bpm/model/camunda-xml-model/7.21.0/camunda-xml-model-7.21.0.jar"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/org.camunda.community:bpmn-driven-testing-model-8/model-8/src/main/java/org/camunda/community/bpmndt/model/element/NameElement.java",
+    "useImportReport" : [ {
+      "importPath" : "import io.camunda.zeebe.model.bpmn.impl.instance.BpmnModelElementInstanceImpl;",
+      "artifact" : {
+        "artifact" : "io.camunda:zeebe-bpmn-model:8.4.4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.camunda.community:bpmn-driven-testing-model-8:0.11.0/dependencies/io/camunda/zeebe-bpmn-model/8.4.4/zeebe-bpmn-model-8.4.4.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.camunda.bpm.model.xml.ModelBuilder;",
+      "artifact" : {
+        "artifact" : "org.camunda.bpm.model:camunda-xml-model:7.21.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.camunda.community:bpmn-driven-testing-model-8:0.11.0/dependencies/org/camunda/bpm/model/camunda-xml-model/7.21.0/camunda-xml-model-7.21.0.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import static org.camunda.community.bpmndt.model.BpmnExtension.ELEMENT_NAME;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import static org.camunda.community.bpmndt.model.BpmnExtension.NS;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.camunda.bpm.model.xml.impl.instance.ModelTypeInstanceContext;",
+      "artifact" : {
+        "artifact" : "org.camunda.bpm.model:camunda-xml-model:7.21.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.camunda.community:bpmn-driven-testing-model-8:0.11.0/dependencies/org/camunda/bpm/model/camunda-xml-model/7.21.0/camunda-xml-model-7.21.0.jar"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/org.camunda.community:bpmn-driven-testing-model-8/model-8/src/main/java/org/camunda/community/bpmndt/model/element/DescriptionElement.java",
+    "useImportReport" : [ {
+      "importPath" : "import io.camunda.zeebe.model.bpmn.impl.instance.BpmnModelElementInstanceImpl;",
+      "artifact" : {
+        "artifact" : "io.camunda:zeebe-bpmn-model:8.4.4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.camunda.community:bpmn-driven-testing-model-8:0.11.0/dependencies/io/camunda/zeebe-bpmn-model/8.4.4/zeebe-bpmn-model-8.4.4.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.camunda.bpm.model.xml.ModelBuilder;",
+      "artifact" : {
+        "artifact" : "org.camunda.bpm.model:camunda-xml-model:7.21.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.camunda.community:bpmn-driven-testing-model-8:0.11.0/dependencies/org/camunda/bpm/model/camunda-xml-model/7.21.0/camunda-xml-model-7.21.0.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import static org.camunda.community.bpmndt.model.BpmnExtension.ELEMENT_DESCRIPTION;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import static org.camunda.community.bpmndt.model.BpmnExtension.NS;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.camunda.bpm.model.xml.impl.instance.ModelTypeInstanceContext;",
+      "artifact" : {
+        "artifact" : "org.camunda.bpm.model:camunda-xml-model:7.21.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.camunda.community:bpmn-driven-testing-model-8:0.11.0/dependencies/org/camunda/bpm/model/camunda-xml-model/7.21.0/camunda-xml-model-7.21.0.jar"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/org.camunda.community:bpmn-driven-testing-model-8/model-8/src/main/java/org/camunda/community/bpmndt/model/element/TestCasesElement.java",
+    "useImportReport" : [ {
+      "importPath" : "import io.camunda.zeebe.model.bpmn.impl.instance.BpmnModelElementInstanceImpl;",
+      "artifact" : {
+        "artifact" : "io.camunda:zeebe-bpmn-model:8.4.4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.camunda.community:bpmn-driven-testing-model-8:0.11.0/dependencies/io/camunda/zeebe-bpmn-model/8.4.4/zeebe-bpmn-model-8.4.4.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.camunda.bpm.model.xml.type.child.ChildElementCollection;",
+      "artifact" : {
+        "artifact" : "org.camunda.bpm.model:camunda-xml-model:7.21.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.camunda.community:bpmn-driven-testing-model-8:0.11.0/dependencies/org/camunda/bpm/model/camunda-xml-model/7.21.0/camunda-xml-model-7.21.0.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.camunda.bpm.model.xml.ModelBuilder;",
+      "artifact" : {
+        "artifact" : "org.camunda.bpm.model:camunda-xml-model:7.21.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.camunda.community:bpmn-driven-testing-model-8:0.11.0/dependencies/org/camunda/bpm/model/camunda-xml-model/7.21.0/camunda-xml-model-7.21.0.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import static org.camunda.community.bpmndt.model.BpmnExtension.ELEMENT_TEST_CASES;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import static org.camunda.community.bpmndt.model.BpmnExtension.NS;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.camunda.bpm.model.xml.impl.instance.ModelTypeInstanceContext;",
+      "artifact" : {
+        "artifact" : "org.camunda.bpm.model:camunda-xml-model:7.21.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.camunda.community:bpmn-driven-testing-model-8:0.11.0/dependencies/org/camunda/bpm/model/camunda-xml-model/7.21.0/camunda-xml-model-7.21.0.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.List;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.LinkedList;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/org.camunda.community:bpmn-driven-testing-model-8/model-8/src/main/java/org/camunda/community/bpmndt/model/element/PathNodeElement.java",
+    "useImportReport" : [ {
+      "importPath" : "import io.camunda.zeebe.model.bpmn.impl.instance.BpmnModelElementInstanceImpl;",
+      "artifact" : {
+        "artifact" : "io.camunda:zeebe-bpmn-model:8.4.4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.camunda.community:bpmn-driven-testing-model-8:0.11.0/dependencies/io/camunda/zeebe-bpmn-model/8.4.4/zeebe-bpmn-model-8.4.4.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.camunda.bpm.model.xml.ModelBuilder;",
+      "artifact" : {
+        "artifact" : "org.camunda.bpm.model:camunda-xml-model:7.21.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.camunda.community:bpmn-driven-testing-model-8:0.11.0/dependencies/org/camunda/bpm/model/camunda-xml-model/7.21.0/camunda-xml-model-7.21.0.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import static org.camunda.community.bpmndt.model.BpmnExtension.ELEMENT_NODE;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import static org.camunda.community.bpmndt.model.BpmnExtension.NS;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.camunda.bpm.model.xml.impl.instance.ModelTypeInstanceContext;",
+      "artifact" : {
+        "artifact" : "org.camunda.bpm.model:camunda-xml-model:7.21.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.camunda.community:bpmn-driven-testing-model-8:0.11.0/dependencies/org/camunda/bpm/model/camunda-xml-model/7.21.0/camunda-xml-model-7.21.0.jar"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/org.camunda.community:bpmn-driven-testing-model-8/model-8/src/main/java/org/camunda/community/bpmndt/model/TestCaseImpl.java",
+    "useImportReport" : [ {
+      "importPath" : "import org.camunda.community.bpmndt.model.element.TestCaseElement;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import io.camunda.zeebe.model.bpmn.instance.Process;",
+      "artifact" : {
+        "artifact" : "io.camunda:zeebe-bpmn-model:8.4.4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.camunda.community:bpmn-driven-testing-model-8:0.11.0/dependencies/io/camunda/zeebe-bpmn-model/8.4.4/zeebe-bpmn-model-8.4.4.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import java.util.LinkedList;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.List;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.Map;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.LinkedHashMap;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.Objects;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/org.camunda.community:bpmn-driven-testing-model-8/model-8/src/main/java/org/camunda/community/bpmndt/model/BpmnElementScope.java",
+    "useImportReport" : [ {
+      "importPath" : "import java.util.List;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import io.camunda.zeebe.model.bpmn.instance.FlowNode;",
+      "artifact" : {
+        "artifact" : "io.camunda:zeebe-bpmn-model:8.4.4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.camunda.community:bpmn-driven-testing-model-8:0.11.0/dependencies/io/camunda/zeebe-bpmn-model/8.4.4/zeebe-bpmn-model-8.4.4.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import io.camunda.zeebe.model.bpmn.instance.SubProcess;",
+      "artifact" : {
+        "artifact" : "io.camunda:zeebe-bpmn-model:8.4.4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.camunda.community:bpmn-driven-testing-model-8:0.11.0/dependencies/io/camunda/zeebe-bpmn-model/8.4.4/zeebe-bpmn-model-8.4.4.jar"
+      },
+      "isDirectDependency" : true
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/org.camunda.community:bpmn-driven-testing-model-8/model-8/src/main/java/org/camunda/community/bpmndt/model/BpmnSupport.java",
+    "useImportReport" : [ {
+      "importPath" : "import io.camunda.zeebe.model.bpmn.instance.Process;",
+      "artifact" : {
+        "artifact" : "io.camunda:zeebe-bpmn-model:8.4.4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.camunda.community:bpmn-driven-testing-model-8:0.11.0/dependencies/io/camunda/zeebe-bpmn-model/8.4.4/zeebe-bpmn-model-8.4.4.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import java.util.Map;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import io.camunda.zeebe.model.bpmn.instance.FlowNode;",
+      "artifact" : {
+        "artifact" : "io.camunda:zeebe-bpmn-model:8.4.4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.camunda.community:bpmn-driven-testing-model-8:0.11.0/dependencies/io/camunda/zeebe-bpmn-model/8.4.4/zeebe-bpmn-model-8.4.4.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import java.util.LinkedList;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import io.camunda.zeebe.model.bpmn.instance.SubProcess;",
+      "artifact" : {
+        "artifact" : "io.camunda:zeebe-bpmn-model:8.4.4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.camunda.community:bpmn-driven-testing-model-8:0.11.0/dependencies/io/camunda/zeebe-bpmn-model/8.4.4/zeebe-bpmn-model-8.4.4.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import java.util.stream.Collectors;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.function.Function;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import io.camunda.zeebe.model.bpmn.instance.MultiInstanceLoopCharacteristics;",
+      "artifact" : {
+        "artifact" : "io.camunda:zeebe-bpmn-model:8.4.4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.camunda.community:bpmn-driven-testing-model-8:0.11.0/dependencies/io/camunda/zeebe-bpmn-model/8.4.4/zeebe-bpmn-model-8.4.4.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import io.camunda.zeebe.model.bpmn.instance.Activity;",
+      "artifact" : {
+        "artifact" : "io.camunda:zeebe-bpmn-model:8.4.4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.camunda.community:bpmn-driven-testing-model-8:0.11.0/dependencies/io/camunda/zeebe-bpmn-model/8.4.4/zeebe-bpmn-model-8.4.4.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import io.camunda.zeebe.model.bpmn.instance.BaseElement;",
+      "artifact" : {
+        "artifact" : "io.camunda:zeebe-bpmn-model:8.4.4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.camunda.community:bpmn-driven-testing-model-8:0.11.0/dependencies/io/camunda/zeebe-bpmn-model/8.4.4/zeebe-bpmn-model-8.4.4.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import static io.camunda.zeebe.model.bpmn.impl.BpmnModelConstants.BPMN_ELEMENT_BOUNDARY_EVENT;",
+      "artifact" : {
+        "artifact" : "io.camunda:zeebe-bpmn-model:8.4.4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.camunda.community:bpmn-driven-testing-model-8:0.11.0/dependencies/io/camunda/zeebe-bpmn-model/8.4.4/zeebe-bpmn-model-8.4.4.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import static io.camunda.zeebe.model.bpmn.impl.BpmnModelConstants.BPMN_ELEMENT_BUSINESS_RULE_TASK;",
+      "artifact" : {
+        "artifact" : "io.camunda:zeebe-bpmn-model:8.4.4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.camunda.community:bpmn-driven-testing-model-8:0.11.0/dependencies/io/camunda/zeebe-bpmn-model/8.4.4/zeebe-bpmn-model-8.4.4.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import static io.camunda.zeebe.model.bpmn.impl.BpmnModelConstants.BPMN_ELEMENT_CALL_ACTIVITY;",
+      "artifact" : {
+        "artifact" : "io.camunda:zeebe-bpmn-model:8.4.4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.camunda.community:bpmn-driven-testing-model-8:0.11.0/dependencies/io/camunda/zeebe-bpmn-model/8.4.4/zeebe-bpmn-model-8.4.4.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import static io.camunda.zeebe.model.bpmn.impl.BpmnModelConstants.BPMN_ELEMENT_END_EVENT;",
+      "artifact" : {
+        "artifact" : "io.camunda:zeebe-bpmn-model:8.4.4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.camunda.community:bpmn-driven-testing-model-8:0.11.0/dependencies/io/camunda/zeebe-bpmn-model/8.4.4/zeebe-bpmn-model-8.4.4.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import static io.camunda.zeebe.model.bpmn.impl.BpmnModelConstants.BPMN_ELEMENT_EVENT_BASED_GATEWAY;",
+      "artifact" : {
+        "artifact" : "io.camunda:zeebe-bpmn-model:8.4.4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.camunda.community:bpmn-driven-testing-model-8:0.11.0/dependencies/io/camunda/zeebe-bpmn-model/8.4.4/zeebe-bpmn-model-8.4.4.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import static io.camunda.zeebe.model.bpmn.impl.BpmnModelConstants.BPMN_ELEMENT_INTERMEDIATE_CATCH_EVENT;",
+      "artifact" : {
+        "artifact" : "io.camunda:zeebe-bpmn-model:8.4.4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.camunda.community:bpmn-driven-testing-model-8:0.11.0/dependencies/io/camunda/zeebe-bpmn-model/8.4.4/zeebe-bpmn-model-8.4.4.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import static io.camunda.zeebe.model.bpmn.impl.BpmnModelConstants.BPMN_ELEMENT_INTERMEDIATE_THROW_EVENT;",
+      "artifact" : {
+        "artifact" : "io.camunda:zeebe-bpmn-model:8.4.4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.camunda.community:bpmn-driven-testing-model-8:0.11.0/dependencies/io/camunda/zeebe-bpmn-model/8.4.4/zeebe-bpmn-model-8.4.4.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import static io.camunda.zeebe.model.bpmn.impl.BpmnModelConstants.BPMN_ELEMENT_PROCESS;",
+      "artifact" : {
+        "artifact" : "io.camunda:zeebe-bpmn-model:8.4.4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.camunda.community:bpmn-driven-testing-model-8:0.11.0/dependencies/io/camunda/zeebe-bpmn-model/8.4.4/zeebe-bpmn-model-8.4.4.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import static io.camunda.zeebe.model.bpmn.impl.BpmnModelConstants.BPMN_ELEMENT_START_EVENT;",
+      "artifact" : {
+        "artifact" : "io.camunda:zeebe-bpmn-model:8.4.4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.camunda.community:bpmn-driven-testing-model-8:0.11.0/dependencies/io/camunda/zeebe-bpmn-model/8.4.4/zeebe-bpmn-model-8.4.4.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import static io.camunda.zeebe.model.bpmn.impl.BpmnModelConstants.BPMN_ELEMENT_RECEIVE_TASK;",
+      "artifact" : {
+        "artifact" : "io.camunda:zeebe-bpmn-model:8.4.4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.camunda.community:bpmn-driven-testing-model-8:0.11.0/dependencies/io/camunda/zeebe-bpmn-model/8.4.4/zeebe-bpmn-model-8.4.4.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import static io.camunda.zeebe.model.bpmn.impl.BpmnModelConstants.BPMN_ELEMENT_SCRIPT_TASK;",
+      "artifact" : {
+        "artifact" : "io.camunda:zeebe-bpmn-model:8.4.4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.camunda.community:bpmn-driven-testing-model-8:0.11.0/dependencies/io/camunda/zeebe-bpmn-model/8.4.4/zeebe-bpmn-model-8.4.4.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import static io.camunda.zeebe.model.bpmn.impl.BpmnModelConstants.BPMN_ELEMENT_SEND_TASK;",
+      "artifact" : {
+        "artifact" : "io.camunda:zeebe-bpmn-model:8.4.4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.camunda.community:bpmn-driven-testing-model-8:0.11.0/dependencies/io/camunda/zeebe-bpmn-model/8.4.4/zeebe-bpmn-model-8.4.4.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import static io.camunda.zeebe.model.bpmn.impl.BpmnModelConstants.BPMN_ELEMENT_SERVICE_TASK;",
+      "artifact" : {
+        "artifact" : "io.camunda:zeebe-bpmn-model:8.4.4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.camunda.community:bpmn-driven-testing-model-8:0.11.0/dependencies/io/camunda/zeebe-bpmn-model/8.4.4/zeebe-bpmn-model-8.4.4.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import static io.camunda.zeebe.model.bpmn.impl.BpmnModelConstants.BPMN_ELEMENT_USER_TASK;",
+      "artifact" : {
+        "artifact" : "io.camunda:zeebe-bpmn-model:8.4.4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.camunda.community:bpmn-driven-testing-model-8:0.11.0/dependencies/io/camunda/zeebe-bpmn-model/8.4.4/zeebe-bpmn-model-8.4.4.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import java.util.List;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.Collection;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import io.camunda.zeebe.model.bpmn.instance.FlowElement;",
+      "artifact" : {
+        "artifact" : "io.camunda:zeebe-bpmn-model:8.4.4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.camunda.community:bpmn-driven-testing-model-8:0.11.0/dependencies/io/camunda/zeebe-bpmn-model/8.4.4/zeebe-bpmn-model-8.4.4.jar"
+      },
+      "isDirectDependency" : true
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/org.camunda.community:bpmn-driven-testing-model-8/model-8/src/main/java/org/camunda/community/bpmndt/model/BpmnElementImpl.java",
+    "useImportReport" : [ {
+      "importPath" : "import io.camunda.zeebe.model.bpmn.instance.FlowNode;",
+      "artifact" : {
+        "artifact" : "io.camunda:zeebe-bpmn-model:8.4.4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.camunda.community:bpmn-driven-testing-model-8:0.11.0/dependencies/io/camunda/zeebe-bpmn-model/8.4.4/zeebe-bpmn-model-8.4.4.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import io.camunda.zeebe.model.bpmn.instance.MultiInstanceLoopCharacteristics;",
+      "artifact" : {
+        "artifact" : "io.camunda:zeebe-bpmn-model:8.4.4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.camunda.community:bpmn-driven-testing-model-8:0.11.0/dependencies/io/camunda/zeebe-bpmn-model/8.4.4/zeebe-bpmn-model-8.4.4.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import java.util.Objects;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/org.camunda.community:bpmn-driven-testing-model-8/model-8/src/main/java/org/camunda/community/bpmndt/model/TestCase.java",
+    "useImportReport" : [ {
+      "importPath" : "import java.util.List;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import io.camunda.zeebe.model.bpmn.instance.Process;",
+      "artifact" : {
+        "artifact" : "io.camunda:zeebe-bpmn-model:8.4.4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.camunda.community:bpmn-driven-testing-model-8:0.11.0/dependencies/io/camunda/zeebe-bpmn-model/8.4.4/zeebe-bpmn-model-8.4.4.jar"
+      },
+      "isDirectDependency" : true
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/org.camunda.community:bpmn-driven-testing-model-8/model-8/src/main/java/org/camunda/community/bpmndt/model/BpmnElement.java",
+    "useImportReport" : [ {
+      "importPath" : "import io.camunda.zeebe.model.bpmn.instance.FlowNode;",
+      "artifact" : {
+        "artifact" : "io.camunda:zeebe-bpmn-model:8.4.4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.camunda.community:bpmn-driven-testing-model-8:0.11.0/dependencies/io/camunda/zeebe-bpmn-model/8.4.4/zeebe-bpmn-model-8.4.4.jar"
+      },
+      "isDirectDependency" : true
+    } ],
+    "unusedImportReport" : [ {
+      "importPath" : "import io.camunda.zeebe.model.bpmn.instance.IntermediateCatchEvent;",
+      "artifact" : {
+        "artifact" : "io.camunda:zeebe-bpmn-model:8.4.4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.camunda.community:bpmn-driven-testing-model-8:0.11.0/dependencies/io/camunda/zeebe-bpmn-model/8.4.4/zeebe-bpmn-model-8.4.4.jar"
+      },
+      "isDirectDependency" : true
+    } ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  } ],
+  "projectUseDependencies" : [ {
+    "artifact" : "io.camunda:zeebe-bpmn-model:8.4.4",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.camunda.community:bpmn-driven-testing-model-8:0.11.0/dependencies/io/camunda/zeebe-bpmn-model/8.4.4/zeebe-bpmn-model-8.4.4.jar"
+  } ],
+  "projectUseTransitiveDependencies" : [ ],
+  "projectUnusedDependencies" : [ ]
+}

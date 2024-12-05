@@ -1,0 +1,861 @@
+{
+  "projectArtifact" : "br.usp.each.saeg:asm-defuse:0.0.3",
+  "repositoryDir" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/br.usp.each.saeg:asm-defuse",
+  "repositorySubDir" : "",
+  "artifactLocation" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/br.usp.each.saeg:asm-defuse:0.0.3",
+  "fileImportReports" : [ {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/br.usp.each.saeg:asm-defuse/src/main/java/br/usp/each/saeg/asm/defuse/Local.java",
+    "useImportReport" : [ {
+      "importPath" : "import org.objectweb.asm.Type;",
+      "artifact" : {
+        "artifact" : "org.ow2.asm:asm-debug-all:5.0.4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/br.usp.each.saeg:asm-defuse:0.0.3/dependencies/org/ow2/asm/asm-debug-all/5.0.4/asm-debug-all-5.0.4.jar"
+      },
+      "isDirectDependency" : true
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/br.usp.each.saeg:asm-defuse/src/main/java/br/usp/each/saeg/asm/defuse/Merge.java",
+    "useImportReport" : [ {
+      "importPath" : "import org.objectweb.asm.Type;",
+      "artifact" : {
+        "artifact" : "org.ow2.asm:asm-debug-all:5.0.4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/br.usp.each.saeg:asm-defuse:0.0.3/dependencies/org/ow2/asm/asm-debug-all/5.0.4/asm-debug-all-5.0.4.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import java.util.Set;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.objectweb.asm.tree.AbstractInsnNode;",
+      "artifact" : {
+        "artifact" : "org.ow2.asm:asm-debug-all:5.0.4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/br.usp.each.saeg:asm-defuse:0.0.3/dependencies/org/ow2/asm/asm-debug-all/5.0.4/asm-debug-all-5.0.4.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import java.util.LinkedHashSet;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.Collections;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/br.usp.each.saeg:asm-defuse/src/main/java/br/usp/each/saeg/asm/defuse/DefUseChainSearch.java",
+    "useImportReport" : [ ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/br.usp.each.saeg:asm-defuse/src/main/java/br/usp/each/saeg/asm/defuse/Invoke.java",
+    "useImportReport" : [ {
+      "importPath" : "import java.util.List;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.objectweb.asm.Type;",
+      "artifact" : {
+        "artifact" : "org.ow2.asm:asm-debug-all:5.0.4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/br.usp.each.saeg:asm-defuse:0.0.3/dependencies/org/ow2/asm/asm-debug-all/5.0.4/asm-debug-all-5.0.4.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import java.util.Set;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.LinkedHashSet;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.Collections;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/br.usp.each.saeg:asm-defuse/src/main/java/br/usp/each/saeg/asm/defuse/ArrayRef.java",
+    "useImportReport" : [ {
+      "importPath" : "import java.util.List;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.objectweb.asm.Type;",
+      "artifact" : {
+        "artifact" : "org.ow2.asm:asm-debug-all:5.0.4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/br.usp.each.saeg:asm-defuse:0.0.3/dependencies/org/ow2/asm/asm-debug-all/5.0.4/asm-debug-all-5.0.4.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import java.util.Collections;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.Set;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.LinkedHashSet;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/br.usp.each.saeg:asm-defuse/src/main/java/br/usp/each/saeg/asm/defuse/ObjectRef.java",
+    "useImportReport" : [ {
+      "importPath" : "import org.objectweb.asm.Type;",
+      "artifact" : {
+        "artifact" : "org.ow2.asm:asm-debug-all:5.0.4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/br.usp.each.saeg:asm-defuse:0.0.3/dependencies/org/ow2/asm/asm-debug-all/5.0.4/asm-debug-all-5.0.4.jar"
+      },
+      "isDirectDependency" : true
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/br.usp.each.saeg:asm-defuse/src/main/java/br/usp/each/saeg/asm/defuse/ObjectField.java",
+    "useImportReport" : [ {
+      "importPath" : "import org.objectweb.asm.Type;",
+      "artifact" : {
+        "artifact" : "org.ow2.asm:asm-debug-all:5.0.4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/br.usp.each.saeg:asm-defuse:0.0.3/dependencies/org/ow2/asm/asm-debug-all/5.0.4/asm-debug-all-5.0.4.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import java.util.Set;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.LinkedHashSet;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.Collections;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/br.usp.each.saeg:asm-defuse/src/main/java/br/usp/each/saeg/asm/defuse/FlowAnalyzer.java",
+    "useImportReport" : [ {
+      "importPath" : "import org.objectweb.asm.tree.analysis.Analyzer;",
+      "artifact" : {
+        "artifact" : "org.ow2.asm:asm-debug-all:5.0.4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/br.usp.each.saeg:asm-defuse:0.0.3/dependencies/org/ow2/asm/asm-debug-all/5.0.4/asm-debug-all-5.0.4.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.objectweb.asm.tree.analysis.Value;",
+      "artifact" : {
+        "artifact" : "org.ow2.asm:asm-debug-all:5.0.4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/br.usp.each.saeg:asm-defuse:0.0.3/dependencies/org/ow2/asm/asm-debug-all/5.0.4/asm-debug-all-5.0.4.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import java.util.Set;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.objectweb.asm.tree.analysis.Interpreter;",
+      "artifact" : {
+        "artifact" : "org.ow2.asm:asm-debug-all:5.0.4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/br.usp.each.saeg:asm-defuse:0.0.3/dependencies/org/ow2/asm/asm-debug-all/5.0.4/asm-debug-all-5.0.4.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.objectweb.asm.tree.analysis.Frame;",
+      "artifact" : {
+        "artifact" : "org.ow2.asm:asm-debug-all:5.0.4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/br.usp.each.saeg:asm-defuse:0.0.3/dependencies/org/ow2/asm/asm-debug-all/5.0.4/asm-debug-all-5.0.4.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.objectweb.asm.tree.MethodNode;",
+      "artifact" : {
+        "artifact" : "org.ow2.asm:asm-debug-all:5.0.4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/br.usp.each.saeg:asm-defuse:0.0.3/dependencies/org/ow2/asm/asm-debug-all/5.0.4/asm-debug-all-5.0.4.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.objectweb.asm.tree.analysis.AnalyzerException;",
+      "artifact" : {
+        "artifact" : "org.ow2.asm:asm-debug-all:5.0.4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/br.usp.each.saeg:asm-defuse:0.0.3/dependencies/org/ow2/asm/asm-debug-all/5.0.4/asm-debug-all-5.0.4.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import java.util.Arrays;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.LinkedHashSet;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import static br.usp.each.saeg.commons.ArrayUtils.toArray;",
+      "artifact" : {
+        "artifact" : "br.usp.each.saeg:saeg-commons:0.0.5",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/br.usp.each.saeg:asm-defuse:0.0.3/dependencies/br/usp/each/saeg/saeg-commons/0.0.5/saeg-commons-0.0.5.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import static br.usp.each.saeg.commons.ArrayUtils.merge;",
+      "artifact" : {
+        "artifact" : "br.usp.each.saeg:saeg-commons:0.0.5",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/br.usp.each.saeg:asm-defuse:0.0.3/dependencies/br/usp/each/saeg/saeg-commons/0.0.5/saeg-commons-0.0.5.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import static br.usp.each.saeg.commons.ArrayUtils.indexOf;",
+      "artifact" : {
+        "artifact" : "br.usp.each.saeg:saeg-commons:0.0.5",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/br.usp.each.saeg:asm-defuse:0.0.3/dependencies/br/usp/each/saeg/saeg-commons/0.0.5/saeg-commons-0.0.5.jar"
+      },
+      "isDirectDependency" : true
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/br.usp.each.saeg:asm-defuse/src/main/java/br/usp/each/saeg/asm/defuse/ValueHolder.java",
+    "useImportReport" : [ {
+      "importPath" : "import org.objectweb.asm.Type;",
+      "artifact" : {
+        "artifact" : "org.ow2.asm:asm-debug-all:5.0.4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/br.usp.each.saeg:asm-defuse:0.0.3/dependencies/org/ow2/asm/asm-debug-all/5.0.4/asm-debug-all-5.0.4.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import java.util.Set;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/br.usp.each.saeg:asm-defuse/src/main/java/br/usp/each/saeg/asm/defuse/CacheableVariablesValue.java",
+    "useImportReport" : [ {
+      "importPath" : "import java.util.Set;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.objectweb.asm.Type;",
+      "artifact" : {
+        "artifact" : "org.ow2.asm:asm-debug-all:5.0.4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/br.usp.each.saeg:asm-defuse:0.0.3/dependencies/org/ow2/asm/asm-debug-all/5.0.4/asm-debug-all-5.0.4.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.objectweb.asm.tree.AbstractInsnNode;",
+      "artifact" : {
+        "artifact" : "org.ow2.asm:asm-debug-all:5.0.4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/br.usp.each.saeg:asm-defuse:0.0.3/dependencies/org/ow2/asm/asm-debug-all/5.0.4/asm-debug-all-5.0.4.jar"
+      },
+      "isDirectDependency" : true
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/br.usp.each.saeg:asm-defuse/src/main/java/br/usp/each/saeg/asm/defuse/Variable.java",
+    "useImportReport" : [ {
+      "importPath" : "import org.objectweb.asm.Type;",
+      "artifact" : {
+        "artifact" : "org.ow2.asm:asm-debug-all:5.0.4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/br.usp.each.saeg:asm-defuse:0.0.3/dependencies/org/ow2/asm/asm-debug-all/5.0.4/asm-debug-all-5.0.4.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import java.util.Set;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.Collections;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/br.usp.each.saeg:asm-defuse/src/main/java/br/usp/each/saeg/asm/defuse/DepthFirstDefUseChainSearch.java",
+    "useImportReport" : [ {
+      "importPath" : "import java.util.List;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.ArrayList;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import static br.usp.each.saeg.commons.ArrayUtils.indexOf;",
+      "artifact" : {
+        "artifact" : "br.usp.each.saeg:saeg-commons:0.0.5",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/br.usp.each.saeg:asm-defuse:0.0.3/dependencies/br/usp/each/saeg/saeg-commons/0.0.5/saeg-commons-0.0.5.jar"
+      },
+      "isDirectDependency" : true
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/br.usp.each.saeg:asm-defuse/src/main/java/br/usp/each/saeg/asm/defuse/DefUseInterpreter.java",
+    "useImportReport" : [ {
+      "importPath" : "import org.objectweb.asm.tree.analysis.Interpreter;",
+      "artifact" : {
+        "artifact" : "org.ow2.asm:asm-debug-all:5.0.4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/br.usp.each.saeg:asm-defuse:0.0.3/dependencies/org/ow2/asm/asm-debug-all/5.0.4/asm-debug-all-5.0.4.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.objectweb.asm.Opcodes;",
+      "artifact" : {
+        "artifact" : "org.ow2.asm:asm-debug-all:5.0.4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/br.usp.each.saeg:asm-defuse:0.0.3/dependencies/org/ow2/asm/asm-debug-all/5.0.4/asm-debug-all-5.0.4.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.objectweb.asm.Type;",
+      "artifact" : {
+        "artifact" : "org.ow2.asm:asm-debug-all:5.0.4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/br.usp.each.saeg:asm-defuse:0.0.3/dependencies/org/ow2/asm/asm-debug-all/5.0.4/asm-debug-all-5.0.4.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.objectweb.asm.tree.AbstractInsnNode;",
+      "artifact" : {
+        "artifact" : "org.ow2.asm:asm-debug-all:5.0.4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/br.usp.each.saeg:asm-defuse:0.0.3/dependencies/org/ow2/asm/asm-debug-all/5.0.4/asm-debug-all-5.0.4.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.objectweb.asm.tree.LdcInsnNode;",
+      "artifact" : {
+        "artifact" : "org.ow2.asm:asm-debug-all:5.0.4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/br.usp.each.saeg:asm-defuse:0.0.3/dependencies/org/ow2/asm/asm-debug-all/5.0.4/asm-debug-all-5.0.4.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.objectweb.asm.Handle;",
+      "artifact" : {
+        "artifact" : "org.ow2.asm:asm-debug-all:5.0.4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/br.usp.each.saeg:asm-defuse:0.0.3/dependencies/org/ow2/asm/asm-debug-all/5.0.4/asm-debug-all-5.0.4.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.objectweb.asm.tree.FieldInsnNode;",
+      "artifact" : {
+        "artifact" : "org.ow2.asm:asm-debug-all:5.0.4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/br.usp.each.saeg:asm-defuse:0.0.3/dependencies/org/ow2/asm/asm-debug-all/5.0.4/asm-debug-all-5.0.4.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.objectweb.asm.tree.TypeInsnNode;",
+      "artifact" : {
+        "artifact" : "org.ow2.asm:asm-debug-all:5.0.4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/br.usp.each.saeg:asm-defuse:0.0.3/dependencies/org/ow2/asm/asm-debug-all/5.0.4/asm-debug-all-5.0.4.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.objectweb.asm.tree.VarInsnNode;",
+      "artifact" : {
+        "artifact" : "org.ow2.asm:asm-debug-all:5.0.4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/br.usp.each.saeg:asm-defuse:0.0.3/dependencies/org/ow2/asm/asm-debug-all/5.0.4/asm-debug-all-5.0.4.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.objectweb.asm.tree.IntInsnNode;",
+      "artifact" : {
+        "artifact" : "org.ow2.asm:asm-debug-all:5.0.4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/br.usp.each.saeg:asm-defuse:0.0.3/dependencies/org/ow2/asm/asm-debug-all/5.0.4/asm-debug-all-5.0.4.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import java.util.List;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.objectweb.asm.tree.MethodInsnNode;",
+      "artifact" : {
+        "artifact" : "org.ow2.asm:asm-debug-all:5.0.4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/br.usp.each.saeg:asm-defuse:0.0.3/dependencies/org/ow2/asm/asm-debug-all/5.0.4/asm-debug-all-5.0.4.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.objectweb.asm.tree.InvokeDynamicInsnNode;",
+      "artifact" : {
+        "artifact" : "org.ow2.asm:asm-debug-all:5.0.4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/br.usp.each.saeg:asm-defuse:0.0.3/dependencies/org/ow2/asm/asm-debug-all/5.0.4/asm-debug-all-5.0.4.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.objectweb.asm.tree.MultiANewArrayInsnNode;",
+      "artifact" : {
+        "artifact" : "org.ow2.asm:asm-debug-all:5.0.4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/br.usp.each.saeg:asm-defuse:0.0.3/dependencies/org/ow2/asm/asm-debug-all/5.0.4/asm-debug-all-5.0.4.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import java.util.Set;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.HashSet;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.Collections;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/br.usp.each.saeg:asm-defuse/src/main/java/br/usp/each/saeg/asm/defuse/VariableImpl.java",
+    "useImportReport" : [ {
+      "importPath" : "import org.objectweb.asm.Type;",
+      "artifact" : {
+        "artifact" : "org.ow2.asm:asm-debug-all:5.0.4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/br.usp.each.saeg:asm-defuse:0.0.3/dependencies/org/ow2/asm/asm-debug-all/5.0.4/asm-debug-all-5.0.4.jar"
+      },
+      "isDirectDependency" : true
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/br.usp.each.saeg:asm-defuse/src/main/java/br/usp/each/saeg/asm/defuse/DefUseAnalyzer.java",
+    "useImportReport" : [ {
+      "importPath" : "import org.objectweb.asm.tree.analysis.Frame;",
+      "artifact" : {
+        "artifact" : "org.ow2.asm:asm-debug-all:5.0.4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/br.usp.each.saeg:asm-defuse:0.0.3/dependencies/org/ow2/asm/asm-debug-all/5.0.4/asm-debug-all-5.0.4.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.objectweb.asm.tree.MethodNode;",
+      "artifact" : {
+        "artifact" : "org.ow2.asm:asm-debug-all:5.0.4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/br.usp.each.saeg:asm-defuse:0.0.3/dependencies/org/ow2/asm/asm-debug-all/5.0.4/asm-debug-all-5.0.4.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.objectweb.asm.tree.analysis.AnalyzerException;",
+      "artifact" : {
+        "artifact" : "org.ow2.asm:asm-debug-all:5.0.4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/br.usp.each.saeg:asm-defuse:0.0.3/dependencies/org/ow2/asm/asm-debug-all/5.0.4/asm-debug-all-5.0.4.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import java.util.Set;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.LinkedHashSet;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.objectweb.asm.Type;",
+      "artifact" : {
+        "artifact" : "org.ow2.asm:asm-debug-all:5.0.4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/br.usp.each.saeg:asm-defuse:0.0.3/dependencies/org/ow2/asm/asm-debug-all/5.0.4/asm-debug-all-5.0.4.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.objectweb.asm.tree.AbstractInsnNode;",
+      "artifact" : {
+        "artifact" : "org.ow2.asm:asm-debug-all:5.0.4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/br.usp.each.saeg:asm-defuse:0.0.3/dependencies/org/ow2/asm/asm-debug-all/5.0.4/asm-debug-all-5.0.4.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.objectweb.asm.tree.InsnList;",
+      "artifact" : {
+        "artifact" : "org.ow2.asm:asm-debug-all:5.0.4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/br.usp.each.saeg:asm-defuse:0.0.3/dependencies/org/ow2/asm/asm-debug-all/5.0.4/asm-debug-all-5.0.4.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.objectweb.asm.Opcodes;",
+      "artifact" : {
+        "artifact" : "org.ow2.asm:asm-debug-all:5.0.4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/br.usp.each.saeg:asm-defuse:0.0.3/dependencies/org/ow2/asm/asm-debug-all/5.0.4/asm-debug-all-5.0.4.jar"
+      },
+      "isDirectDependency" : true
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/br.usp.each.saeg:asm-defuse/src/main/java/br/usp/each/saeg/asm/defuse/Value.java",
+    "useImportReport" : [ {
+      "importPath" : "import org.objectweb.asm.Type;",
+      "artifact" : {
+        "artifact" : "org.ow2.asm:asm-debug-all:5.0.4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/br.usp.each.saeg:asm-defuse:0.0.3/dependencies/org/ow2/asm/asm-debug-all/5.0.4/asm-debug-all-5.0.4.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import java.util.Set;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.objectweb.asm.tree.AbstractInsnNode;",
+      "artifact" : {
+        "artifact" : "org.ow2.asm:asm-debug-all:5.0.4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/br.usp.each.saeg:asm-defuse:0.0.3/dependencies/org/ow2/asm/asm-debug-all/5.0.4/asm-debug-all-5.0.4.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import java.util.Collections;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ {
+      "importPath" : "org.objectweb.asm.tree.analysis.Value",
+      "artifact" : {
+        "artifact" : "org.ow2.asm:asm-debug-all:5.0.4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/br.usp.each.saeg:asm-defuse:0.0.3/dependencies/org/ow2/asm/asm-debug-all/5.0.4/asm-debug-all-5.0.4.jar"
+      },
+      "isDirectDependency" : true
+    } ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/br.usp.each.saeg:asm-defuse/src/main/java/br/usp/each/saeg/asm/defuse/IntList.java",
+    "useImportReport" : [ ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/br.usp.each.saeg:asm-defuse/src/main/java/br/usp/each/saeg/asm/defuse/DefUseFrame.java",
+    "useImportReport" : [ {
+      "importPath" : "import org.objectweb.asm.tree.analysis.Frame;",
+      "artifact" : {
+        "artifact" : "org.ow2.asm:asm-debug-all:5.0.4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/br.usp.each.saeg:asm-defuse:0.0.3/dependencies/org/ow2/asm/asm-debug-all/5.0.4/asm-debug-all-5.0.4.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import java.util.Set;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.Collections;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.objectweb.asm.tree.AbstractInsnNode;",
+      "artifact" : {
+        "artifact" : "org.ow2.asm:asm-debug-all:5.0.4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/br.usp.each.saeg:asm-defuse:0.0.3/dependencies/org/ow2/asm/asm-debug-all/5.0.4/asm-debug-all-5.0.4.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.objectweb.asm.tree.analysis.Interpreter;",
+      "artifact" : {
+        "artifact" : "org.ow2.asm:asm-debug-all:5.0.4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/br.usp.each.saeg:asm-defuse:0.0.3/dependencies/org/ow2/asm/asm-debug-all/5.0.4/asm-debug-all-5.0.4.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.objectweb.asm.tree.analysis.AnalyzerException;",
+      "artifact" : {
+        "artifact" : "org.ow2.asm:asm-debug-all:5.0.4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/br.usp.each.saeg:asm-defuse:0.0.3/dependencies/org/ow2/asm/asm-debug-all/5.0.4/asm-debug-all-5.0.4.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import java.util.List;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.objectweb.asm.Opcodes;",
+      "artifact" : {
+        "artifact" : "org.ow2.asm:asm-debug-all:5.0.4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/br.usp.each.saeg:asm-defuse:0.0.3/dependencies/org/ow2/asm/asm-debug-all/5.0.4/asm-debug-all-5.0.4.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.objectweb.asm.tree.VarInsnNode;",
+      "artifact" : {
+        "artifact" : "org.ow2.asm:asm-debug-all:5.0.4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/br.usp.each.saeg:asm-defuse:0.0.3/dependencies/org/ow2/asm/asm-debug-all/5.0.4/asm-debug-all-5.0.4.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import java.util.LinkedHashSet;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.objectweb.asm.tree.IincInsnNode;",
+      "artifact" : {
+        "artifact" : "org.ow2.asm:asm-debug-all:5.0.4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/br.usp.each.saeg:asm-defuse:0.0.3/dependencies/org/ow2/asm/asm-debug-all/5.0.4/asm-debug-all-5.0.4.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.objectweb.asm.Type;",
+      "artifact" : {
+        "artifact" : "org.ow2.asm:asm-debug-all:5.0.4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/br.usp.each.saeg:asm-defuse:0.0.3/dependencies/org/ow2/asm/asm-debug-all/5.0.4/asm-debug-all-5.0.4.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.objectweb.asm.tree.FieldInsnNode;",
+      "artifact" : {
+        "artifact" : "org.ow2.asm:asm-debug-all:5.0.4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/br.usp.each.saeg:asm-defuse:0.0.3/dependencies/org/ow2/asm/asm-debug-all/5.0.4/asm-debug-all-5.0.4.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import java.util.ArrayList;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.objectweb.asm.tree.MethodInsnNode;",
+      "artifact" : {
+        "artifact" : "org.ow2.asm:asm-debug-all:5.0.4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/br.usp.each.saeg:asm-defuse:0.0.3/dependencies/org/ow2/asm/asm-debug-all/5.0.4/asm-debug-all-5.0.4.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.objectweb.asm.tree.InvokeDynamicInsnNode;",
+      "artifact" : {
+        "artifact" : "org.ow2.asm:asm-debug-all:5.0.4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/br.usp.each.saeg:asm-defuse:0.0.3/dependencies/org/ow2/asm/asm-debug-all/5.0.4/asm-debug-all-5.0.4.jar"
+      },
+      "isDirectDependency" : true
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/br.usp.each.saeg:asm-defuse/src/main/java/br/usp/each/saeg/asm/defuse/Field.java",
+    "useImportReport" : [ {
+      "importPath" : "import org.objectweb.asm.Type;",
+      "artifact" : {
+        "artifact" : "org.ow2.asm:asm-debug-all:5.0.4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/br.usp.each.saeg:asm-defuse:0.0.3/dependencies/org/ow2/asm/asm-debug-all/5.0.4/asm-debug-all-5.0.4.jar"
+      },
+      "isDirectDependency" : true
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/br.usp.each.saeg:asm-defuse/src/main/java/br/usp/each/saeg/asm/defuse/StaticField.java",
+    "useImportReport" : [ ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/br.usp.each.saeg:asm-defuse/src/main/java/br/usp/each/saeg/asm/defuse/DefUseChain.java",
+    "useImportReport" : [ {
+      "importPath" : "import static java.util.Arrays.copyOf;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.List;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import static java.util.Arrays.asList;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.LinkedHashSet;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/br.usp.each.saeg:asm-defuse/src/main/java/br/usp/each/saeg/asm/defuse/ArrayValue.java",
+    "useImportReport" : [ {
+      "importPath" : "import org.objectweb.asm.Type;",
+      "artifact" : {
+        "artifact" : "org.ow2.asm:asm-debug-all:5.0.4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/br.usp.each.saeg:asm-defuse:0.0.3/dependencies/org/ow2/asm/asm-debug-all/5.0.4/asm-debug-all-5.0.4.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import java.util.Set;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.LinkedHashSet;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.Collections;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  } ],
+  "projectUseDependencies" : [ {
+    "artifact" : "org.ow2.asm:asm-debug-all:5.0.4",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/br.usp.each.saeg:asm-defuse:0.0.3/dependencies/org/ow2/asm/asm-debug-all/5.0.4/asm-debug-all-5.0.4.jar"
+  }, {
+    "artifact" : "br.usp.each.saeg:saeg-commons:0.0.5",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/br.usp.each.saeg:asm-defuse:0.0.3/dependencies/br/usp/each/saeg/saeg-commons/0.0.5/saeg-commons-0.0.5.jar"
+  } ],
+  "projectUseTransitiveDependencies" : [ ],
+  "projectUnusedDependencies" : [ {
+    "artifact" : "junit:junit:4.12",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/br.usp.each.saeg:asm-defuse:0.0.3/dependencies/junit/junit/4.12/junit-4.12.jar"
+  }, {
+    "artifact" : "org.mockito:mockito-core:1.10.19",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/br.usp.each.saeg:asm-defuse:0.0.3/dependencies/org/mockito/mockito-core/1.10.19/mockito-core-1.10.19.jar"
+  } ]
+}

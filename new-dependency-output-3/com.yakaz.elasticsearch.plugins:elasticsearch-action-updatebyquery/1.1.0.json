@@ -1,0 +1,1938 @@
+{
+  "projectArtifact" : "com.yakaz.elasticsearch.plugins:elasticsearch-action-updatebyquery:1.1.0",
+  "repositoryDir" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/com.yakaz.elasticsearch.plugins:elasticsearch-action-updatebyquery",
+  "repositorySubDir" : "",
+  "artifactLocation" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.yakaz.elasticsearch.plugins:elasticsearch-action-updatebyquery:1.1.0",
+  "fileImportReports" : [ {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/com.yakaz.elasticsearch.plugins:elasticsearch-action-updatebyquery/src/main/java/org/elasticsearch/plugin/action/updatebyquery/AnalysisUpdateByQueryPlugin.java",
+    "useImportReport" : [ {
+      "importPath" : "import org.elasticsearch.plugins.AbstractPlugin;",
+      "artifact" : {
+        "artifact" : "org.elasticsearch:elasticsearch:0.90.0.Beta1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.yakaz.elasticsearch.plugins:elasticsearch-action-updatebyquery:1.1.0/dependencies/org/elasticsearch/elasticsearch/0.90.0.Beta1/elasticsearch-0.90.0.Beta1.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.elasticsearch.common.inject.Module;",
+      "artifact" : {
+        "artifact" : "org.elasticsearch:elasticsearch:0.90.0.Beta1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.yakaz.elasticsearch.plugins:elasticsearch-action-updatebyquery:1.1.0/dependencies/org/elasticsearch/elasticsearch/0.90.0.Beta1/elasticsearch-0.90.0.Beta1.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.elasticsearch.action.ActionModule;",
+      "artifact" : {
+        "artifact" : "org.elasticsearch:elasticsearch:0.90.0.Beta1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.yakaz.elasticsearch.plugins:elasticsearch-action-updatebyquery:1.1.0/dependencies/org/elasticsearch/elasticsearch/0.90.0.Beta1/elasticsearch-0.90.0.Beta1.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.elasticsearch.action.updatebyquery.UpdateByQueryAction;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.elasticsearch.action.updatebyquery.TransportUpdateByQueryAction;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.elasticsearch.action.updatebyquery.TransportShardUpdateByQueryAction;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.elasticsearch.rest.RestModule;",
+      "artifact" : {
+        "artifact" : "org.elasticsearch:elasticsearch:0.90.0.Beta1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.yakaz.elasticsearch.plugins:elasticsearch-action-updatebyquery:1.1.0/dependencies/org/elasticsearch/elasticsearch/0.90.0.Beta1/elasticsearch-0.90.0.Beta1.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.elasticsearch.rest.action.updatebyquery.RestUpdateByQueryAction;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ {
+      "importPath" : "import org.elasticsearch.rest.action.RestActionModule;",
+      "artifact" : {
+        "artifact" : "org.elasticsearch:elasticsearch:0.90.0.Beta1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.yakaz.elasticsearch.plugins:elasticsearch-action-updatebyquery:1.1.0/dependencies/org/elasticsearch/elasticsearch/0.90.0.Beta1/elasticsearch-0.90.0.Beta1.jar"
+      },
+      "isDirectDependency" : true
+    } ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/com.yakaz.elasticsearch.plugins:elasticsearch-action-updatebyquery/src/main/java/org/elasticsearch/common/lucene/TopLevelFixedBitSetCollector.java",
+    "useImportReport" : [ {
+      "importPath" : "import org.apache.lucene.search.Collector;",
+      "artifact" : {
+        "artifact" : "org.apache.lucene:lucene-core:4.1.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.yakaz.elasticsearch.plugins:elasticsearch-action-updatebyquery:1.1.0/dependencies/org/apache/lucene/lucene-core/4.1.0/lucene-core-4.1.0.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.apache.lucene.util.FixedBitSet;",
+      "artifact" : {
+        "artifact" : "org.apache.lucene:lucene-core:4.1.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.yakaz.elasticsearch.plugins:elasticsearch-action-updatebyquery:1.1.0/dependencies/org/apache/lucene/lucene-core/4.1.0/lucene-core-4.1.0.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.apache.lucene.search.Scorer;",
+      "artifact" : {
+        "artifact" : "org.apache.lucene:lucene-core:4.1.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.yakaz.elasticsearch.plugins:elasticsearch-action-updatebyquery:1.1.0/dependencies/org/apache/lucene/lucene-core/4.1.0/lucene-core-4.1.0.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.io.IOException;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.apache.lucene.index.AtomicReaderContext;",
+      "artifact" : {
+        "artifact" : "org.apache.lucene:lucene-core:4.1.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.yakaz.elasticsearch.plugins:elasticsearch-action-updatebyquery:1.1.0/dependencies/org/apache/lucene/lucene-core/4.1.0/lucene-core-4.1.0.jar"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/com.yakaz.elasticsearch.plugins:elasticsearch-action-updatebyquery/src/main/java/org/elasticsearch/action/bulk/PublicBulkShardRequest.java",
+    "useImportReport" : [ ],
+    "unusedImportReport" : [ {
+      "importPath" : "import org.elasticsearch.index.shard.ShardId;",
+      "artifact" : {
+        "artifact" : "org.elasticsearch:elasticsearch:0.90.0.Beta1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.yakaz.elasticsearch.plugins:elasticsearch-action-updatebyquery:1.1.0/dependencies/org/elasticsearch/elasticsearch/0.90.0.Beta1/elasticsearch-0.90.0.Beta1.jar"
+      },
+      "isDirectDependency" : true
+    } ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/com.yakaz.elasticsearch.plugins:elasticsearch-action-updatebyquery/src/main/java/org/elasticsearch/action/bulk/PublicBulkShardResponse.java",
+    "useImportReport" : [ {
+      "importPath" : "import org.elasticsearch.index.shard.ShardId;",
+      "artifact" : {
+        "artifact" : "org.elasticsearch:elasticsearch:0.90.0.Beta1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.yakaz.elasticsearch.plugins:elasticsearch-action-updatebyquery:1.1.0/dependencies/org/elasticsearch/elasticsearch/0.90.0.Beta1/elasticsearch-0.90.0.Beta1.jar"
+      },
+      "isDirectDependency" : true
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/com.yakaz.elasticsearch.plugins:elasticsearch-action-updatebyquery/src/main/java/org/elasticsearch/action/updatebyquery/TransportShardUpdateByQueryAction.java",
+    "useImportReport" : [ {
+      "importPath" : "import org.elasticsearch.action.support.TransportAction;",
+      "artifact" : {
+        "artifact" : "org.elasticsearch:elasticsearch:0.90.0.Beta1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.yakaz.elasticsearch.plugins:elasticsearch-action-updatebyquery:1.1.0/dependencies/org/elasticsearch/elasticsearch/0.90.0.Beta1/elasticsearch-0.90.0.Beta1.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.elasticsearch.action.bulk.*;",
+      "artifact" : {
+        "artifact" : "org.elasticsearch:elasticsearch:0.90.0.Beta1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.yakaz.elasticsearch.plugins:elasticsearch-action-updatebyquery:1.1.0/dependencies/org/elasticsearch/elasticsearch/0.90.0.Beta1/elasticsearch-0.90.0.Beta1.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import java.util.*;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.*;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.elasticsearch.index.mapper.internal.*;",
+      "artifact" : {
+        "artifact" : "org.elasticsearch:elasticsearch:0.90.0.Beta1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.yakaz.elasticsearch.plugins:elasticsearch-action-updatebyquery:1.1.0/dependencies/org/elasticsearch/elasticsearch/0.90.0.Beta1/elasticsearch-0.90.0.Beta1.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.elasticsearch.index.mapper.internal.*;",
+      "artifact" : {
+        "artifact" : "org.elasticsearch:elasticsearch:0.90.0.Beta1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.yakaz.elasticsearch.plugins:elasticsearch-action-updatebyquery:1.1.0/dependencies/org/elasticsearch/elasticsearch/0.90.0.Beta1/elasticsearch-0.90.0.Beta1.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.elasticsearch.index.mapper.internal.*;",
+      "artifact" : {
+        "artifact" : "org.elasticsearch:elasticsearch:0.90.0.Beta1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.yakaz.elasticsearch.plugins:elasticsearch-action-updatebyquery:1.1.0/dependencies/org/elasticsearch/elasticsearch/0.90.0.Beta1/elasticsearch-0.90.0.Beta1.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.elasticsearch.index.mapper.internal.*;",
+      "artifact" : {
+        "artifact" : "org.elasticsearch:elasticsearch:0.90.0.Beta1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.yakaz.elasticsearch.plugins:elasticsearch-action-updatebyquery:1.1.0/dependencies/org/elasticsearch/elasticsearch/0.90.0.Beta1/elasticsearch-0.90.0.Beta1.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.elasticsearch.index.mapper.internal.*;",
+      "artifact" : {
+        "artifact" : "org.elasticsearch:elasticsearch:0.90.0.Beta1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.yakaz.elasticsearch.plugins:elasticsearch-action-updatebyquery:1.1.0/dependencies/org/elasticsearch/elasticsearch/0.90.0.Beta1/elasticsearch-0.90.0.Beta1.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.elasticsearch.indices.IndicesService;",
+      "artifact" : {
+        "artifact" : "org.elasticsearch:elasticsearch:0.90.0.Beta1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.yakaz.elasticsearch.plugins:elasticsearch-action-updatebyquery:1.1.0/dependencies/org/elasticsearch/elasticsearch/0.90.0.Beta1/elasticsearch-0.90.0.Beta1.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.elasticsearch.cluster.ClusterService;",
+      "artifact" : {
+        "artifact" : "org.elasticsearch:elasticsearch:0.90.0.Beta1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.yakaz.elasticsearch.plugins:elasticsearch-action-updatebyquery:1.1.0/dependencies/org/elasticsearch/elasticsearch/0.90.0.Beta1/elasticsearch-0.90.0.Beta1.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.elasticsearch.script.ScriptService;",
+      "artifact" : {
+        "artifact" : "org.elasticsearch:elasticsearch:0.90.0.Beta1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.yakaz.elasticsearch.plugins:elasticsearch-action-updatebyquery:1.1.0/dependencies/org/elasticsearch/elasticsearch/0.90.0.Beta1/elasticsearch-0.90.0.Beta1.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.elasticsearch.common.inject.Inject;",
+      "artifact" : {
+        "artifact" : "org.elasticsearch:elasticsearch:0.90.0.Beta1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.yakaz.elasticsearch.plugins:elasticsearch-action-updatebyquery:1.1.0/dependencies/org/elasticsearch/elasticsearch/0.90.0.Beta1/elasticsearch-0.90.0.Beta1.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.elasticsearch.common.settings.Settings;",
+      "artifact" : {
+        "artifact" : "org.elasticsearch:elasticsearch:0.90.0.Beta1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.yakaz.elasticsearch.plugins:elasticsearch-action-updatebyquery:1.1.0/dependencies/org/elasticsearch/elasticsearch/0.90.0.Beta1/elasticsearch-0.90.0.Beta1.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.elasticsearch.threadpool.ThreadPool;",
+      "artifact" : {
+        "artifact" : "org.elasticsearch:elasticsearch:0.90.0.Beta1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.yakaz.elasticsearch.plugins:elasticsearch-action-updatebyquery:1.1.0/dependencies/org/elasticsearch/elasticsearch/0.90.0.Beta1/elasticsearch-0.90.0.Beta1.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.elasticsearch.transport.*;",
+      "artifact" : {
+        "artifact" : "org.elasticsearch:elasticsearch:0.90.0.Beta1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.yakaz.elasticsearch.plugins:elasticsearch-action-updatebyquery:1.1.0/dependencies/org/elasticsearch/elasticsearch/0.90.0.Beta1/elasticsearch-0.90.0.Beta1.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.elasticsearch.action.ActionListener;",
+      "artifact" : {
+        "artifact" : "org.elasticsearch:elasticsearch:0.90.0.Beta1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.yakaz.elasticsearch.plugins:elasticsearch-action-updatebyquery:1.1.0/dependencies/org/elasticsearch/elasticsearch/0.90.0.Beta1/elasticsearch-0.90.0.Beta1.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.elasticsearch.ElasticSearchException;",
+      "artifact" : {
+        "artifact" : "org.elasticsearch:elasticsearch:0.90.0.Beta1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.yakaz.elasticsearch.plugins:elasticsearch-action-updatebyquery:1.1.0/dependencies/org/elasticsearch/elasticsearch/0.90.0.Beta1/elasticsearch-0.90.0.Beta1.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.elasticsearch.index.service.IndexService;",
+      "artifact" : {
+        "artifact" : "org.elasticsearch:elasticsearch:0.90.0.Beta1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.yakaz.elasticsearch.plugins:elasticsearch-action-updatebyquery:1.1.0/dependencies/org/elasticsearch/elasticsearch/0.90.0.Beta1/elasticsearch-0.90.0.Beta1.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.elasticsearch.index.shard.service.IndexShard;",
+      "artifact" : {
+        "artifact" : "org.elasticsearch:elasticsearch:0.90.0.Beta1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.yakaz.elasticsearch.plugins:elasticsearch-action-updatebyquery:1.1.0/dependencies/org/elasticsearch/elasticsearch/0.90.0.Beta1/elasticsearch-0.90.0.Beta1.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.elasticsearch.search.internal.SearchContext;",
+      "artifact" : {
+        "artifact" : "org.elasticsearch:elasticsearch:0.90.0.Beta1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.yakaz.elasticsearch.plugins:elasticsearch-action-updatebyquery:1.1.0/dependencies/org/elasticsearch/elasticsearch/0.90.0.Beta1/elasticsearch-0.90.0.Beta1.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.elasticsearch.search.internal.ShardSearchRequest;",
+      "artifact" : {
+        "artifact" : "org.elasticsearch:elasticsearch:0.90.0.Beta1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.yakaz.elasticsearch.plugins:elasticsearch-action-updatebyquery:1.1.0/dependencies/org/elasticsearch/elasticsearch/0.90.0.Beta1/elasticsearch-0.90.0.Beta1.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.elasticsearch.common.lucene.TopLevelFixedBitSetCollector;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.apache.lucene.util.FixedBitSet;",
+      "artifact" : {
+        "artifact" : "org.apache.lucene:lucene-core:4.1.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.yakaz.elasticsearch.plugins:elasticsearch-action-updatebyquery:1.1.0/dependencies/org/apache/lucene/lucene-core/4.1.0/lucene-core-4.1.0.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.elasticsearch.index.query.ParsedQuery;",
+      "artifact" : {
+        "artifact" : "org.elasticsearch:elasticsearch:0.90.0.Beta1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.yakaz.elasticsearch.plugins:elasticsearch-action-updatebyquery:1.1.0/dependencies/org/elasticsearch/elasticsearch/0.90.0.Beta1/elasticsearch-0.90.0.Beta1.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import java.util.*;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.elasticsearch.common.collect.Maps;",
+      "artifact" : {
+        "artifact" : "org.elasticsearch:elasticsearch:0.90.0.Beta1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.yakaz.elasticsearch.plugins:elasticsearch-action-updatebyquery:1.1.0/dependencies/org/elasticsearch/elasticsearch/0.90.0.Beta1/elasticsearch-0.90.0.Beta1.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.elasticsearch.common.xcontent.XContentParser;",
+      "artifact" : {
+        "artifact" : "org.elasticsearch:elasticsearch:0.90.0.Beta1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.yakaz.elasticsearch.plugins:elasticsearch-action-updatebyquery:1.1.0/dependencies/org/elasticsearch/elasticsearch/0.90.0.Beta1/elasticsearch-0.90.0.Beta1.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.elasticsearch.common.xcontent.XContentHelper;",
+      "artifact" : {
+        "artifact" : "org.elasticsearch:elasticsearch:0.90.0.Beta1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.yakaz.elasticsearch.plugins:elasticsearch-action-updatebyquery:1.1.0/dependencies/org/elasticsearch/elasticsearch/0.90.0.Beta1/elasticsearch-0.90.0.Beta1.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.elasticsearch.common.xcontent.XContentFactory;",
+      "artifact" : {
+        "artifact" : "org.elasticsearch:elasticsearch:0.90.0.Beta1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.yakaz.elasticsearch.plugins:elasticsearch-action-updatebyquery:1.1.0/dependencies/org/elasticsearch/elasticsearch/0.90.0.Beta1/elasticsearch-0.90.0.Beta1.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.elasticsearch.script.ExecutableScript;",
+      "artifact" : {
+        "artifact" : "org.elasticsearch:elasticsearch:0.90.0.Beta1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.yakaz.elasticsearch.plugins:elasticsearch-action-updatebyquery:1.1.0/dependencies/org/elasticsearch/elasticsearch/0.90.0.Beta1/elasticsearch-0.90.0.Beta1.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.elasticsearch.action.bulk.*;",
+      "artifact" : {
+        "artifact" : "org.elasticsearch:elasticsearch:0.90.0.Beta1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.yakaz.elasticsearch.plugins:elasticsearch-action-updatebyquery:1.1.0/dependencies/org/elasticsearch/elasticsearch/0.90.0.Beta1/elasticsearch-0.90.0.Beta1.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.apache.lucene.search.*;",
+      "artifact" : {
+        "artifact" : "org.apache.lucene:lucene-core:4.1.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.yakaz.elasticsearch.plugins:elasticsearch-action-updatebyquery:1.1.0/dependencies/org/apache/lucene/lucene-core/4.1.0/lucene-core-4.1.0.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.*;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.elasticsearch.action.bulk.*;",
+      "artifact" : {
+        "artifact" : "org.elasticsearch:elasticsearch:0.90.0.Beta1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.yakaz.elasticsearch.plugins:elasticsearch-action-updatebyquery:1.1.0/dependencies/org/elasticsearch/elasticsearch/0.90.0.Beta1/elasticsearch-0.90.0.Beta1.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import java.util.*;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.io.IOException;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.elasticsearch.action.bulk.*;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.elasticsearch.index.shard.ShardId;",
+      "artifact" : {
+        "artifact" : "org.elasticsearch:elasticsearch:0.90.0.Beta1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.yakaz.elasticsearch.plugins:elasticsearch-action-updatebyquery:1.1.0/dependencies/org/elasticsearch/elasticsearch/0.90.0.Beta1/elasticsearch-0.90.0.Beta1.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.elasticsearch.action.bulk.*;",
+      "artifact" : {
+        "artifact" : "org.elasticsearch:elasticsearch:0.90.0.Beta1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.yakaz.elasticsearch.plugins:elasticsearch-action-updatebyquery:1.1.0/dependencies/org/elasticsearch/elasticsearch/0.90.0.Beta1/elasticsearch-0.90.0.Beta1.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.elasticsearch.action.bulk.*;",
+      "artifact" : {
+        "artifact" : "org.elasticsearch:elasticsearch:0.90.0.Beta1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.yakaz.elasticsearch.plugins:elasticsearch-action-updatebyquery:1.1.0/dependencies/org/elasticsearch/elasticsearch/0.90.0.Beta1/elasticsearch-0.90.0.Beta1.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.elasticsearch.action.bulk.*;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.elasticsearch.ExceptionsHelper;",
+      "artifact" : {
+        "artifact" : "org.elasticsearch:elasticsearch:0.90.0.Beta1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.yakaz.elasticsearch.plugins:elasticsearch-action-updatebyquery:1.1.0/dependencies/org/elasticsearch/elasticsearch/0.90.0.Beta1/elasticsearch-0.90.0.Beta1.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.apache.lucene.index.IndexReader;",
+      "artifact" : {
+        "artifact" : "org.apache.lucene:lucene-core:4.1.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.yakaz.elasticsearch.plugins:elasticsearch-action-updatebyquery:1.1.0/dependencies/org/apache/lucene/lucene-core/4.1.0/lucene-core-4.1.0.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.apache.lucene.document.Document;",
+      "artifact" : {
+        "artifact" : "org.apache.lucene:lucene-core:4.1.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.yakaz.elasticsearch.plugins:elasticsearch-action-updatebyquery:1.1.0/dependencies/org/apache/lucene/lucene-core/4.1.0/lucene-core-4.1.0.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.apache.lucene.index.ReaderUtil;",
+      "artifact" : {
+        "artifact" : "org.apache.lucene:lucene-core:4.1.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.yakaz.elasticsearch.plugins:elasticsearch-action-updatebyquery:1.1.0/dependencies/org/apache/lucene/lucene-core/4.1.0/lucene-core-4.1.0.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.apache.lucene.index.AtomicReaderContext;",
+      "artifact" : {
+        "artifact" : "org.apache.lucene:lucene-core:4.1.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.yakaz.elasticsearch.plugins:elasticsearch-action-updatebyquery:1.1.0/dependencies/org/apache/lucene/lucene-core/4.1.0/lucene-core-4.1.0.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.elasticsearch.action.ActionRequest;",
+      "artifact" : {
+        "artifact" : "org.elasticsearch:elasticsearch:0.90.0.Beta1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.yakaz.elasticsearch.plugins:elasticsearch-action-updatebyquery:1.1.0/dependencies/org/elasticsearch/elasticsearch/0.90.0.Beta1/elasticsearch-0.90.0.Beta1.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.elasticsearch.index.mapper.Uid;",
+      "artifact" : {
+        "artifact" : "org.elasticsearch:elasticsearch:0.90.0.Beta1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.yakaz.elasticsearch.plugins:elasticsearch-action-updatebyquery:1.1.0/dependencies/org/elasticsearch/elasticsearch/0.90.0.Beta1/elasticsearch-0.90.0.Beta1.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.apache.lucene.index.Term;",
+      "artifact" : {
+        "artifact" : "org.apache.lucene:lucene-core:4.1.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.yakaz.elasticsearch.plugins:elasticsearch-action-updatebyquery:1.1.0/dependencies/org/apache/lucene/lucene-core/4.1.0/lucene-core-4.1.0.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.elasticsearch.common.lucene.uid.UidField;",
+      "artifact" : {
+        "artifact" : "org.elasticsearch:elasticsearch:0.90.0.Beta1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.yakaz.elasticsearch.plugins:elasticsearch-action-updatebyquery:1.1.0/dependencies/org/elasticsearch/elasticsearch/0.90.0.Beta1/elasticsearch-0.90.0.Beta1.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.elasticsearch.common.bytes.BytesReference;",
+      "artifact" : {
+        "artifact" : "org.elasticsearch:elasticsearch:0.90.0.Beta1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.yakaz.elasticsearch.plugins:elasticsearch-action-updatebyquery:1.1.0/dependencies/org/elasticsearch/elasticsearch/0.90.0.Beta1/elasticsearch-0.90.0.Beta1.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.elasticsearch.common.bytes.BytesArray;",
+      "artifact" : {
+        "artifact" : "org.elasticsearch:elasticsearch:0.90.0.Beta1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.yakaz.elasticsearch.plugins:elasticsearch-action-updatebyquery:1.1.0/dependencies/org/elasticsearch/elasticsearch/0.90.0.Beta1/elasticsearch-0.90.0.Beta1.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.elasticsearch.common.collect.Tuple;",
+      "artifact" : {
+        "artifact" : "org.elasticsearch:elasticsearch:0.90.0.Beta1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.yakaz.elasticsearch.plugins:elasticsearch-action-updatebyquery:1.1.0/dependencies/org/elasticsearch/elasticsearch/0.90.0.Beta1/elasticsearch-0.90.0.Beta1.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.elasticsearch.common.xcontent.XContentType;",
+      "artifact" : {
+        "artifact" : "org.elasticsearch:elasticsearch:0.90.0.Beta1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.yakaz.elasticsearch.plugins:elasticsearch-action-updatebyquery:1.1.0/dependencies/org/elasticsearch/elasticsearch/0.90.0.Beta1/elasticsearch-0.90.0.Beta1.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.elasticsearch.ElasticSearchIllegalArgumentException;",
+      "artifact" : {
+        "artifact" : "org.elasticsearch:elasticsearch:0.90.0.Beta1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.yakaz.elasticsearch.plugins:elasticsearch-action-updatebyquery:1.1.0/dependencies/org/elasticsearch/elasticsearch/0.90.0.Beta1/elasticsearch-0.90.0.Beta1.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.elasticsearch.common.unit.TimeValue;",
+      "artifact" : {
+        "artifact" : "org.elasticsearch:elasticsearch:0.90.0.Beta1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.yakaz.elasticsearch.plugins:elasticsearch-action-updatebyquery:1.1.0/dependencies/org/elasticsearch/elasticsearch/0.90.0.Beta1/elasticsearch-0.90.0.Beta1.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.elasticsearch.action.index.IndexRequest;",
+      "artifact" : {
+        "artifact" : "org.elasticsearch:elasticsearch:0.90.0.Beta1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.yakaz.elasticsearch.plugins:elasticsearch-action-updatebyquery:1.1.0/dependencies/org/elasticsearch/elasticsearch/0.90.0.Beta1/elasticsearch-0.90.0.Beta1.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.elasticsearch.client.Requests;",
+      "artifact" : {
+        "artifact" : "org.elasticsearch:elasticsearch:0.90.0.Beta1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.yakaz.elasticsearch.plugins:elasticsearch-action-updatebyquery:1.1.0/dependencies/org/elasticsearch/elasticsearch/0.90.0.Beta1/elasticsearch-0.90.0.Beta1.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.elasticsearch.cluster.metadata.MetaData;",
+      "artifact" : {
+        "artifact" : "org.elasticsearch:elasticsearch:0.90.0.Beta1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.yakaz.elasticsearch.plugins:elasticsearch-action-updatebyquery:1.1.0/dependencies/org/elasticsearch/elasticsearch/0.90.0.Beta1/elasticsearch-0.90.0.Beta1.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.elasticsearch.cluster.metadata.MappingMetaData;",
+      "artifact" : {
+        "artifact" : "org.elasticsearch:elasticsearch:0.90.0.Beta1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.yakaz.elasticsearch.plugins:elasticsearch-action-updatebyquery:1.1.0/dependencies/org/elasticsearch/elasticsearch/0.90.0.Beta1/elasticsearch-0.90.0.Beta1.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.elasticsearch.action.delete.DeleteRequest;",
+      "artifact" : {
+        "artifact" : "org.elasticsearch:elasticsearch:0.90.0.Beta1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.yakaz.elasticsearch.plugins:elasticsearch-action-updatebyquery:1.1.0/dependencies/org/elasticsearch/elasticsearch/0.90.0.Beta1/elasticsearch-0.90.0.Beta1.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.elasticsearch.transport.*;",
+      "artifact" : {
+        "artifact" : "org.elasticsearch:elasticsearch:0.90.0.Beta1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.yakaz.elasticsearch.plugins:elasticsearch-action-updatebyquery:1.1.0/dependencies/org/elasticsearch/elasticsearch/0.90.0.Beta1/elasticsearch-0.90.0.Beta1.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.elasticsearch.transport.*;",
+      "artifact" : {
+        "artifact" : "org.elasticsearch:elasticsearch:0.90.0.Beta1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.yakaz.elasticsearch.plugins:elasticsearch-action-updatebyquery:1.1.0/dependencies/org/elasticsearch/elasticsearch/0.90.0.Beta1/elasticsearch-0.90.0.Beta1.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.elasticsearch.cluster.ClusterState;",
+      "artifact" : {
+        "artifact" : "org.elasticsearch:elasticsearch:0.90.0.Beta1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.yakaz.elasticsearch.plugins:elasticsearch-action-updatebyquery:1.1.0/dependencies/org/elasticsearch/elasticsearch/0.90.0.Beta1/elasticsearch-0.90.0.Beta1.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import java.util.*;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ {
+      "importPath" : "import org.apache.lucene.index.StoredFieldVisitor;",
+      "artifact" : {
+        "artifact" : "org.apache.lucene:lucene-core:4.1.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.yakaz.elasticsearch.plugins:elasticsearch-action-updatebyquery:1.1.0/dependencies/org/apache/lucene/lucene-core/4.1.0/lucene-core-4.1.0.jar"
+      },
+      "isDirectDependency" : false
+    } ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/com.yakaz.elasticsearch.plugins:elasticsearch-action-updatebyquery/src/main/java/org/elasticsearch/action/updatebyquery/IndexUpdateByQueryResponse.java",
+    "useImportReport" : [ {
+      "importPath" : "import org.elasticsearch.action.ActionResponse;",
+      "artifact" : {
+        "artifact" : "org.elasticsearch:elasticsearch:0.90.0.Beta1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.yakaz.elasticsearch.plugins:elasticsearch-action-updatebyquery:1.1.0/dependencies/org/elasticsearch/elasticsearch/0.90.0.Beta1/elasticsearch-0.90.0.Beta1.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import java.util.Map;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.elasticsearch.action.bulk.BulkItemResponse;",
+      "artifact" : {
+        "artifact" : "org.elasticsearch:elasticsearch:0.90.0.Beta1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.yakaz.elasticsearch.plugins:elasticsearch-action-updatebyquery:1.1.0/dependencies/org/elasticsearch/elasticsearch/0.90.0.Beta1/elasticsearch-0.90.0.Beta1.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.elasticsearch.common.collect.Maps;",
+      "artifact" : {
+        "artifact" : "org.elasticsearch:elasticsearch:0.90.0.Beta1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.yakaz.elasticsearch.plugins:elasticsearch-action-updatebyquery:1.1.0/dependencies/org/elasticsearch/elasticsearch/0.90.0.Beta1/elasticsearch-0.90.0.Beta1.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.elasticsearch.common.io.stream.StreamInput;",
+      "artifact" : {
+        "artifact" : "org.elasticsearch:elasticsearch:0.90.0.Beta1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.yakaz.elasticsearch.plugins:elasticsearch-action-updatebyquery:1.1.0/dependencies/org/elasticsearch/elasticsearch/0.90.0.Beta1/elasticsearch-0.90.0.Beta1.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import java.io.IOException;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.elasticsearch.common.io.stream.StreamOutput;",
+      "artifact" : {
+        "artifact" : "org.elasticsearch:elasticsearch:0.90.0.Beta1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.yakaz.elasticsearch.plugins:elasticsearch-action-updatebyquery:1.1.0/dependencies/org/elasticsearch/elasticsearch/0.90.0.Beta1/elasticsearch-0.90.0.Beta1.jar"
+      },
+      "isDirectDependency" : true
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/com.yakaz.elasticsearch.plugins:elasticsearch-action-updatebyquery/src/main/java/org/elasticsearch/action/updatebyquery/ShardUpdateByQueryResponse.java",
+    "useImportReport" : [ {
+      "importPath" : "import org.elasticsearch.action.ActionResponse;",
+      "artifact" : {
+        "artifact" : "org.elasticsearch:elasticsearch:0.90.0.Beta1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.yakaz.elasticsearch.plugins:elasticsearch-action-updatebyquery:1.1.0/dependencies/org/elasticsearch/elasticsearch/0.90.0.Beta1/elasticsearch-0.90.0.Beta1.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.elasticsearch.action.bulk.BulkItemResponse;",
+      "artifact" : {
+        "artifact" : "org.elasticsearch:elasticsearch:0.90.0.Beta1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.yakaz.elasticsearch.plugins:elasticsearch-action-updatebyquery:1.1.0/dependencies/org/elasticsearch/elasticsearch/0.90.0.Beta1/elasticsearch-0.90.0.Beta1.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.elasticsearch.common.io.stream.StreamOutput;",
+      "artifact" : {
+        "artifact" : "org.elasticsearch:elasticsearch:0.90.0.Beta1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.yakaz.elasticsearch.plugins:elasticsearch-action-updatebyquery:1.1.0/dependencies/org/elasticsearch/elasticsearch/0.90.0.Beta1/elasticsearch-0.90.0.Beta1.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import java.io.IOException;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.elasticsearch.common.io.stream.StreamInput;",
+      "artifact" : {
+        "artifact" : "org.elasticsearch:elasticsearch:0.90.0.Beta1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.yakaz.elasticsearch.plugins:elasticsearch-action-updatebyquery:1.1.0/dependencies/org/elasticsearch/elasticsearch/0.90.0.Beta1/elasticsearch-0.90.0.Beta1.jar"
+      },
+      "isDirectDependency" : true
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/com.yakaz.elasticsearch.plugins:elasticsearch-action-updatebyquery/src/main/java/org/elasticsearch/action/updatebyquery/UpdateByQuerySourceBuilder.java",
+    "useImportReport" : [ {
+      "importPath" : "import org.elasticsearch.common.xcontent.ToXContent;",
+      "artifact" : {
+        "artifact" : "org.elasticsearch:elasticsearch:0.90.0.Beta1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.yakaz.elasticsearch.plugins:elasticsearch-action-updatebyquery:1.1.0/dependencies/org/elasticsearch/elasticsearch/0.90.0.Beta1/elasticsearch-0.90.0.Beta1.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.elasticsearch.index.query.QueryBuilder;",
+      "artifact" : {
+        "artifact" : "org.elasticsearch:elasticsearch:0.90.0.Beta1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.yakaz.elasticsearch.plugins:elasticsearch-action-updatebyquery:1.1.0/dependencies/org/elasticsearch/elasticsearch/0.90.0.Beta1/elasticsearch-0.90.0.Beta1.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.elasticsearch.common.bytes.BytesReference;",
+      "artifact" : {
+        "artifact" : "org.elasticsearch:elasticsearch:0.90.0.Beta1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.yakaz.elasticsearch.plugins:elasticsearch-action-updatebyquery:1.1.0/dependencies/org/elasticsearch/elasticsearch/0.90.0.Beta1/elasticsearch-0.90.0.Beta1.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import java.util.Map;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import static org.elasticsearch.common.collect.Maps.newHashMap;",
+      "artifact" : {
+        "artifact" : "org.elasticsearch:elasticsearch:0.90.0.Beta1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.yakaz.elasticsearch.plugins:elasticsearch-action-updatebyquery:1.1.0/dependencies/org/elasticsearch/elasticsearch/0.90.0.Beta1/elasticsearch-0.90.0.Beta1.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.elasticsearch.common.xcontent.XContentBuilder;",
+      "artifact" : {
+        "artifact" : "org.elasticsearch:elasticsearch:0.90.0.Beta1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.yakaz.elasticsearch.plugins:elasticsearch-action-updatebyquery:1.1.0/dependencies/org/elasticsearch/elasticsearch/0.90.0.Beta1/elasticsearch-0.90.0.Beta1.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import java.io.IOException;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.elasticsearch.common.xcontent.XContentFactory;",
+      "artifact" : {
+        "artifact" : "org.elasticsearch:elasticsearch:0.90.0.Beta1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.yakaz.elasticsearch.plugins:elasticsearch-action-updatebyquery:1.1.0/dependencies/org/elasticsearch/elasticsearch/0.90.0.Beta1/elasticsearch-0.90.0.Beta1.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.elasticsearch.common.xcontent.XContentType;",
+      "artifact" : {
+        "artifact" : "org.elasticsearch:elasticsearch:0.90.0.Beta1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.yakaz.elasticsearch.plugins:elasticsearch-action-updatebyquery:1.1.0/dependencies/org/elasticsearch/elasticsearch/0.90.0.Beta1/elasticsearch-0.90.0.Beta1.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.elasticsearch.search.builder.SearchSourceBuilderException;",
+      "artifact" : {
+        "artifact" : "org.elasticsearch:elasticsearch:0.90.0.Beta1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.yakaz.elasticsearch.plugins:elasticsearch-action-updatebyquery:1.1.0/dependencies/org/elasticsearch/elasticsearch/0.90.0.Beta1/elasticsearch-0.90.0.Beta1.jar"
+      },
+      "isDirectDependency" : true
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/com.yakaz.elasticsearch.plugins:elasticsearch-action-updatebyquery/src/main/java/org/elasticsearch/action/updatebyquery/UpdateByQueryResponse.java",
+    "useImportReport" : [ {
+      "importPath" : "import org.elasticsearch.action.ActionResponse;",
+      "artifact" : {
+        "artifact" : "org.elasticsearch:elasticsearch:0.90.0.Beta1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.yakaz.elasticsearch.plugins:elasticsearch-action-updatebyquery:1.1.0/dependencies/org/elasticsearch/elasticsearch/0.90.0.Beta1/elasticsearch-0.90.0.Beta1.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.elasticsearch.common.Strings;",
+      "artifact" : {
+        "artifact" : "org.elasticsearch:elasticsearch:0.90.0.Beta1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.yakaz.elasticsearch.plugins:elasticsearch-action-updatebyquery:1.1.0/dependencies/org/elasticsearch/elasticsearch/0.90.0.Beta1/elasticsearch-0.90.0.Beta1.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.elasticsearch.common.io.stream.StreamInput;",
+      "artifact" : {
+        "artifact" : "org.elasticsearch:elasticsearch:0.90.0.Beta1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.yakaz.elasticsearch.plugins:elasticsearch-action-updatebyquery:1.1.0/dependencies/org/elasticsearch/elasticsearch/0.90.0.Beta1/elasticsearch-0.90.0.Beta1.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import java.io.IOException;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.elasticsearch.common.io.stream.StreamOutput;",
+      "artifact" : {
+        "artifact" : "org.elasticsearch:elasticsearch:0.90.0.Beta1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.yakaz.elasticsearch.plugins:elasticsearch-action-updatebyquery:1.1.0/dependencies/org/elasticsearch/elasticsearch/0.90.0.Beta1/elasticsearch-0.90.0.Beta1.jar"
+      },
+      "isDirectDependency" : true
+    } ],
+    "unusedImportReport" : [ {
+      "importPath" : "import static org.elasticsearch.common.collect.Maps.newHashMap;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/com.yakaz.elasticsearch.plugins:elasticsearch-action-updatebyquery/src/main/java/org/elasticsearch/action/updatebyquery/BulkResponseOption.java",
+    "useImportReport" : [ {
+      "importPath" : "import org.elasticsearch.ElasticSearchIllegalArgumentException;",
+      "artifact" : {
+        "artifact" : "org.elasticsearch:elasticsearch:0.90.0.Beta1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.yakaz.elasticsearch.plugins:elasticsearch-action-updatebyquery:1.1.0/dependencies/org/elasticsearch/elasticsearch/0.90.0.Beta1/elasticsearch-0.90.0.Beta1.jar"
+      },
+      "isDirectDependency" : true
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/com.yakaz.elasticsearch.plugins:elasticsearch-action-updatebyquery/src/main/java/org/elasticsearch/action/updatebyquery/IndexUpdateByQueryRequest.java",
+    "useImportReport" : [ {
+      "importPath" : "import org.elasticsearch.action.support.replication.IndexReplicationOperationRequest;",
+      "artifact" : {
+        "artifact" : "org.elasticsearch:elasticsearch:0.90.0.Beta1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.yakaz.elasticsearch.plugins:elasticsearch-action-updatebyquery:1.1.0/dependencies/org/elasticsearch/elasticsearch/0.90.0.Beta1/elasticsearch-0.90.0.Beta1.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import java.util.Set;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.elasticsearch.common.collect.Sets;",
+      "artifact" : {
+        "artifact" : "org.elasticsearch:elasticsearch:0.90.0.Beta1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.yakaz.elasticsearch.plugins:elasticsearch-action-updatebyquery:1.1.0/dependencies/org/elasticsearch/elasticsearch/0.90.0.Beta1/elasticsearch-0.90.0.Beta1.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.elasticsearch.common.bytes.BytesReference;",
+      "artifact" : {
+        "artifact" : "org.elasticsearch:elasticsearch:0.90.0.Beta1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.yakaz.elasticsearch.plugins:elasticsearch-action-updatebyquery:1.1.0/dependencies/org/elasticsearch/elasticsearch/0.90.0.Beta1/elasticsearch-0.90.0.Beta1.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.elasticsearch.action.ActionRequestValidationException;",
+      "artifact" : {
+        "artifact" : "org.elasticsearch:elasticsearch:0.90.0.Beta1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.yakaz.elasticsearch.plugins:elasticsearch-action-updatebyquery:1.1.0/dependencies/org/elasticsearch/elasticsearch/0.90.0.Beta1/elasticsearch-0.90.0.Beta1.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import static org.elasticsearch.action.ValidateActions.addValidationError;",
+      "artifact" : {
+        "artifact" : "org.elasticsearch:elasticsearch:0.90.0.Beta1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.yakaz.elasticsearch.plugins:elasticsearch-action-updatebyquery:1.1.0/dependencies/org/elasticsearch/elasticsearch/0.90.0.Beta1/elasticsearch-0.90.0.Beta1.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.elasticsearch.common.io.stream.StreamInput;",
+      "artifact" : {
+        "artifact" : "org.elasticsearch:elasticsearch:0.90.0.Beta1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.yakaz.elasticsearch.plugins:elasticsearch-action-updatebyquery:1.1.0/dependencies/org/elasticsearch/elasticsearch/0.90.0.Beta1/elasticsearch-0.90.0.Beta1.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import java.io.IOException;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.elasticsearch.common.io.stream.StreamOutput;",
+      "artifact" : {
+        "artifact" : "org.elasticsearch:elasticsearch:0.90.0.Beta1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.yakaz.elasticsearch.plugins:elasticsearch-action-updatebyquery:1.1.0/dependencies/org/elasticsearch/elasticsearch/0.90.0.Beta1/elasticsearch-0.90.0.Beta1.jar"
+      },
+      "isDirectDependency" : true
+    } ],
+    "unusedImportReport" : [ {
+      "importPath" : "import org.elasticsearch.ElasticSearchGenerationException;",
+      "artifact" : {
+        "artifact" : "org.elasticsearch:elasticsearch:0.90.0.Beta1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.yakaz.elasticsearch.plugins:elasticsearch-action-updatebyquery:1.1.0/dependencies/org/elasticsearch/elasticsearch/0.90.0.Beta1/elasticsearch-0.90.0.Beta1.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.elasticsearch.action.WriteConsistencyLevel;",
+      "artifact" : {
+        "artifact" : "org.elasticsearch:elasticsearch:0.90.0.Beta1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.yakaz.elasticsearch.plugins:elasticsearch-action-updatebyquery:1.1.0/dependencies/org/elasticsearch/elasticsearch/0.90.0.Beta1/elasticsearch-0.90.0.Beta1.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.elasticsearch.action.support.replication.ReplicationType;",
+      "artifact" : {
+        "artifact" : "org.elasticsearch:elasticsearch:0.90.0.Beta1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.yakaz.elasticsearch.plugins:elasticsearch-action-updatebyquery:1.1.0/dependencies/org/elasticsearch/elasticsearch/0.90.0.Beta1/elasticsearch-0.90.0.Beta1.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.elasticsearch.client.Requests;",
+      "artifact" : {
+        "artifact" : "org.elasticsearch:elasticsearch:0.90.0.Beta1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.yakaz.elasticsearch.plugins:elasticsearch-action-updatebyquery:1.1.0/dependencies/org/elasticsearch/elasticsearch/0.90.0.Beta1/elasticsearch-0.90.0.Beta1.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.elasticsearch.common.bytes.BytesArray;",
+      "artifact" : {
+        "artifact" : "org.elasticsearch:elasticsearch:0.90.0.Beta1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.yakaz.elasticsearch.plugins:elasticsearch-action-updatebyquery:1.1.0/dependencies/org/elasticsearch/elasticsearch/0.90.0.Beta1/elasticsearch-0.90.0.Beta1.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.elasticsearch.common.xcontent.XContentBuilder;",
+      "artifact" : {
+        "artifact" : "org.elasticsearch:elasticsearch:0.90.0.Beta1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.yakaz.elasticsearch.plugins:elasticsearch-action-updatebyquery:1.1.0/dependencies/org/elasticsearch/elasticsearch/0.90.0.Beta1/elasticsearch-0.90.0.Beta1.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.elasticsearch.common.xcontent.XContentFactory;",
+      "artifact" : {
+        "artifact" : "org.elasticsearch:elasticsearch:0.90.0.Beta1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.yakaz.elasticsearch.plugins:elasticsearch-action-updatebyquery:1.1.0/dependencies/org/elasticsearch/elasticsearch/0.90.0.Beta1/elasticsearch-0.90.0.Beta1.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.elasticsearch.common.xcontent.XContentParser;",
+      "artifact" : {
+        "artifact" : "org.elasticsearch:elasticsearch:0.90.0.Beta1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.yakaz.elasticsearch.plugins:elasticsearch-action-updatebyquery:1.1.0/dependencies/org/elasticsearch/elasticsearch/0.90.0.Beta1/elasticsearch-0.90.0.Beta1.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.elasticsearch.common.xcontent.XContentType;",
+      "artifact" : {
+        "artifact" : "org.elasticsearch:elasticsearch:0.90.0.Beta1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.yakaz.elasticsearch.plugins:elasticsearch-action-updatebyquery:1.1.0/dependencies/org/elasticsearch/elasticsearch/0.90.0.Beta1/elasticsearch-0.90.0.Beta1.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.elasticsearch.search.builder.SearchSourceBuilder;",
+      "artifact" : {
+        "artifact" : "org.elasticsearch:elasticsearch:0.90.0.Beta1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.yakaz.elasticsearch.plugins:elasticsearch-action-updatebyquery:1.1.0/dependencies/org/elasticsearch/elasticsearch/0.90.0.Beta1/elasticsearch-0.90.0.Beta1.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import java.util.Map;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import static org.elasticsearch.common.collect.Maps.newHashMap;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/com.yakaz.elasticsearch.plugins:elasticsearch-action-updatebyquery/src/main/java/org/elasticsearch/action/updatebyquery/ShardUpdateByQueryRequest.java",
+    "useImportReport" : [ {
+      "importPath" : "import org.elasticsearch.action.support.replication.ShardReplicationOperationRequest;",
+      "artifact" : {
+        "artifact" : "org.elasticsearch:elasticsearch:0.90.0.Beta1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.yakaz.elasticsearch.plugins:elasticsearch-action-updatebyquery:1.1.0/dependencies/org/elasticsearch/elasticsearch/0.90.0.Beta1/elasticsearch-0.90.0.Beta1.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.elasticsearch.common.Strings;",
+      "artifact" : {
+        "artifact" : "org.elasticsearch:elasticsearch:0.90.0.Beta1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.yakaz.elasticsearch.plugins:elasticsearch-action-updatebyquery:1.1.0/dependencies/org/elasticsearch/elasticsearch/0.90.0.Beta1/elasticsearch-0.90.0.Beta1.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.elasticsearch.common.bytes.BytesReference;",
+      "artifact" : {
+        "artifact" : "org.elasticsearch:elasticsearch:0.90.0.Beta1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.yakaz.elasticsearch.plugins:elasticsearch-action-updatebyquery:1.1.0/dependencies/org/elasticsearch/elasticsearch/0.90.0.Beta1/elasticsearch-0.90.0.Beta1.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.elasticsearch.action.ActionRequestValidationException;",
+      "artifact" : {
+        "artifact" : "org.elasticsearch:elasticsearch:0.90.0.Beta1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.yakaz.elasticsearch.plugins:elasticsearch-action-updatebyquery:1.1.0/dependencies/org/elasticsearch/elasticsearch/0.90.0.Beta1/elasticsearch-0.90.0.Beta1.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import static org.elasticsearch.action.ValidateActions.addValidationError;",
+      "artifact" : {
+        "artifact" : "org.elasticsearch:elasticsearch:0.90.0.Beta1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.yakaz.elasticsearch.plugins:elasticsearch-action-updatebyquery:1.1.0/dependencies/org/elasticsearch/elasticsearch/0.90.0.Beta1/elasticsearch-0.90.0.Beta1.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.elasticsearch.common.io.stream.StreamInput;",
+      "artifact" : {
+        "artifact" : "org.elasticsearch:elasticsearch:0.90.0.Beta1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.yakaz.elasticsearch.plugins:elasticsearch-action-updatebyquery:1.1.0/dependencies/org/elasticsearch/elasticsearch/0.90.0.Beta1/elasticsearch-0.90.0.Beta1.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import java.io.IOException;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.elasticsearch.common.io.stream.StreamOutput;",
+      "artifact" : {
+        "artifact" : "org.elasticsearch:elasticsearch:0.90.0.Beta1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.yakaz.elasticsearch.plugins:elasticsearch-action-updatebyquery:1.1.0/dependencies/org/elasticsearch/elasticsearch/0.90.0.Beta1/elasticsearch-0.90.0.Beta1.jar"
+      },
+      "isDirectDependency" : true
+    } ],
+    "unusedImportReport" : [ {
+      "importPath" : "import java.util.HashMap;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.Map;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import static org.elasticsearch.common.collect.Maps.newHashMap;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/com.yakaz.elasticsearch.plugins:elasticsearch-action-updatebyquery/src/main/java/org/elasticsearch/action/updatebyquery/UpdateByQueryRequestBuilder.java",
+    "useImportReport" : [ {
+      "importPath" : "import org.elasticsearch.action.ActionRequestBuilder;",
+      "artifact" : {
+        "artifact" : "org.elasticsearch:elasticsearch:0.90.0.Beta1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.yakaz.elasticsearch.plugins:elasticsearch-action-updatebyquery:1.1.0/dependencies/org/elasticsearch/elasticsearch/0.90.0.Beta1/elasticsearch-0.90.0.Beta1.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.elasticsearch.client.UpdateByQueryClientWrapper;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.elasticsearch.client.Client;",
+      "artifact" : {
+        "artifact" : "org.elasticsearch:elasticsearch:0.90.0.Beta1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.yakaz.elasticsearch.plugins:elasticsearch-action-updatebyquery:1.1.0/dependencies/org/elasticsearch/elasticsearch/0.90.0.Beta1/elasticsearch-0.90.0.Beta1.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.elasticsearch.client.internal.InternalGenericClient;",
+      "artifact" : {
+        "artifact" : "org.elasticsearch:elasticsearch:0.90.0.Beta1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.yakaz.elasticsearch.plugins:elasticsearch-action-updatebyquery:1.1.0/dependencies/org/elasticsearch/elasticsearch/0.90.0.Beta1/elasticsearch-0.90.0.Beta1.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.elasticsearch.common.unit.TimeValue;",
+      "artifact" : {
+        "artifact" : "org.elasticsearch:elasticsearch:0.90.0.Beta1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.yakaz.elasticsearch.plugins:elasticsearch-action-updatebyquery:1.1.0/dependencies/org/elasticsearch/elasticsearch/0.90.0.Beta1/elasticsearch-0.90.0.Beta1.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.elasticsearch.action.support.replication.ReplicationType;",
+      "artifact" : {
+        "artifact" : "org.elasticsearch:elasticsearch:0.90.0.Beta1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.yakaz.elasticsearch.plugins:elasticsearch-action-updatebyquery:1.1.0/dependencies/org/elasticsearch/elasticsearch/0.90.0.Beta1/elasticsearch-0.90.0.Beta1.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.elasticsearch.action.WriteConsistencyLevel;",
+      "artifact" : {
+        "artifact" : "org.elasticsearch:elasticsearch:0.90.0.Beta1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.yakaz.elasticsearch.plugins:elasticsearch-action-updatebyquery:1.1.0/dependencies/org/elasticsearch/elasticsearch/0.90.0.Beta1/elasticsearch-0.90.0.Beta1.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.elasticsearch.index.query.QueryBuilder;",
+      "artifact" : {
+        "artifact" : "org.elasticsearch:elasticsearch:0.90.0.Beta1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.yakaz.elasticsearch.plugins:elasticsearch-action-updatebyquery:1.1.0/dependencies/org/elasticsearch/elasticsearch/0.90.0.Beta1/elasticsearch-0.90.0.Beta1.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.elasticsearch.common.bytes.BytesReference;",
+      "artifact" : {
+        "artifact" : "org.elasticsearch:elasticsearch:0.90.0.Beta1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.yakaz.elasticsearch.plugins:elasticsearch-action-updatebyquery:1.1.0/dependencies/org/elasticsearch/elasticsearch/0.90.0.Beta1/elasticsearch-0.90.0.Beta1.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import java.util.Map;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.elasticsearch.action.ActionListener;",
+      "artifact" : {
+        "artifact" : "org.elasticsearch:elasticsearch:0.90.0.Beta1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.yakaz.elasticsearch.plugins:elasticsearch-action-updatebyquery:1.1.0/dependencies/org/elasticsearch/elasticsearch/0.90.0.Beta1/elasticsearch-0.90.0.Beta1.jar"
+      },
+      "isDirectDependency" : true
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ {
+      "importPath" : "org.elasticsearch.index.query.QueryBuilders",
+      "artifact" : {
+        "artifact" : "org.elasticsearch:elasticsearch:0.90.0.Beta1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.yakaz.elasticsearch.plugins:elasticsearch-action-updatebyquery:1.1.0/dependencies/org/elasticsearch/elasticsearch/0.90.0.Beta1/elasticsearch-0.90.0.Beta1.jar"
+      },
+      "isDirectDependency" : true
+    } ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/com.yakaz.elasticsearch.plugins:elasticsearch-action-updatebyquery/src/main/java/org/elasticsearch/action/updatebyquery/UpdateByQueryRequest.java",
+    "useImportReport" : [ {
+      "importPath" : "import org.elasticsearch.action.support.replication.IndicesReplicationOperationRequest;",
+      "artifact" : {
+        "artifact" : "org.elasticsearch:elasticsearch:0.90.0.Beta1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.yakaz.elasticsearch.plugins:elasticsearch-action-updatebyquery:1.1.0/dependencies/org/elasticsearch/elasticsearch/0.90.0.Beta1/elasticsearch-0.90.0.Beta1.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.elasticsearch.common.xcontent.XContentType;",
+      "artifact" : {
+        "artifact" : "org.elasticsearch:elasticsearch:0.90.0.Beta1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.yakaz.elasticsearch.plugins:elasticsearch-action-updatebyquery:1.1.0/dependencies/org/elasticsearch/elasticsearch/0.90.0.Beta1/elasticsearch-0.90.0.Beta1.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.elasticsearch.client.Requests;",
+      "artifact" : {
+        "artifact" : "org.elasticsearch:elasticsearch:0.90.0.Beta1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.yakaz.elasticsearch.plugins:elasticsearch-action-updatebyquery:1.1.0/dependencies/org/elasticsearch/elasticsearch/0.90.0.Beta1/elasticsearch-0.90.0.Beta1.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.elasticsearch.common.Strings;",
+      "artifact" : {
+        "artifact" : "org.elasticsearch:elasticsearch:0.90.0.Beta1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.yakaz.elasticsearch.plugins:elasticsearch-action-updatebyquery:1.1.0/dependencies/org/elasticsearch/elasticsearch/0.90.0.Beta1/elasticsearch-0.90.0.Beta1.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.elasticsearch.common.bytes.BytesReference;",
+      "artifact" : {
+        "artifact" : "org.elasticsearch:elasticsearch:0.90.0.Beta1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.yakaz.elasticsearch.plugins:elasticsearch-action-updatebyquery:1.1.0/dependencies/org/elasticsearch/elasticsearch/0.90.0.Beta1/elasticsearch-0.90.0.Beta1.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.elasticsearch.action.ActionRequestValidationException;",
+      "artifact" : {
+        "artifact" : "org.elasticsearch:elasticsearch:0.90.0.Beta1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.yakaz.elasticsearch.plugins:elasticsearch-action-updatebyquery:1.1.0/dependencies/org/elasticsearch/elasticsearch/0.90.0.Beta1/elasticsearch-0.90.0.Beta1.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import static org.elasticsearch.action.ValidateActions.addValidationError;",
+      "artifact" : {
+        "artifact" : "org.elasticsearch:elasticsearch:0.90.0.Beta1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.yakaz.elasticsearch.plugins:elasticsearch-action-updatebyquery:1.1.0/dependencies/org/elasticsearch/elasticsearch/0.90.0.Beta1/elasticsearch-0.90.0.Beta1.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.elasticsearch.common.io.stream.StreamInput;",
+      "artifact" : {
+        "artifact" : "org.elasticsearch:elasticsearch:0.90.0.Beta1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.yakaz.elasticsearch.plugins:elasticsearch-action-updatebyquery:1.1.0/dependencies/org/elasticsearch/elasticsearch/0.90.0.Beta1/elasticsearch-0.90.0.Beta1.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import java.io.IOException;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.elasticsearch.common.io.stream.StreamOutput;",
+      "artifact" : {
+        "artifact" : "org.elasticsearch:elasticsearch:0.90.0.Beta1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.yakaz.elasticsearch.plugins:elasticsearch-action-updatebyquery:1.1.0/dependencies/org/elasticsearch/elasticsearch/0.90.0.Beta1/elasticsearch-0.90.0.Beta1.jar"
+      },
+      "isDirectDependency" : true
+    } ],
+    "unusedImportReport" : [ {
+      "importPath" : "import org.elasticsearch.ElasticSearchGenerationException;",
+      "artifact" : {
+        "artifact" : "org.elasticsearch:elasticsearch:0.90.0.Beta1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.yakaz.elasticsearch.plugins:elasticsearch-action-updatebyquery:1.1.0/dependencies/org/elasticsearch/elasticsearch/0.90.0.Beta1/elasticsearch-0.90.0.Beta1.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.elasticsearch.action.WriteConsistencyLevel;",
+      "artifact" : {
+        "artifact" : "org.elasticsearch:elasticsearch:0.90.0.Beta1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.yakaz.elasticsearch.plugins:elasticsearch-action-updatebyquery:1.1.0/dependencies/org/elasticsearch/elasticsearch/0.90.0.Beta1/elasticsearch-0.90.0.Beta1.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.elasticsearch.action.support.replication.ReplicationType;",
+      "artifact" : {
+        "artifact" : "org.elasticsearch:elasticsearch:0.90.0.Beta1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.yakaz.elasticsearch.plugins:elasticsearch-action-updatebyquery:1.1.0/dependencies/org/elasticsearch/elasticsearch/0.90.0.Beta1/elasticsearch-0.90.0.Beta1.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.elasticsearch.common.bytes.BytesArray;",
+      "artifact" : {
+        "artifact" : "org.elasticsearch:elasticsearch:0.90.0.Beta1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.yakaz.elasticsearch.plugins:elasticsearch-action-updatebyquery:1.1.0/dependencies/org/elasticsearch/elasticsearch/0.90.0.Beta1/elasticsearch-0.90.0.Beta1.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.elasticsearch.common.unit.TimeValue;",
+      "artifact" : {
+        "artifact" : "org.elasticsearch:elasticsearch:0.90.0.Beta1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.yakaz.elasticsearch.plugins:elasticsearch-action-updatebyquery:1.1.0/dependencies/org/elasticsearch/elasticsearch/0.90.0.Beta1/elasticsearch-0.90.0.Beta1.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.elasticsearch.common.xcontent.XContentBuilder;",
+      "artifact" : {
+        "artifact" : "org.elasticsearch:elasticsearch:0.90.0.Beta1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.yakaz.elasticsearch.plugins:elasticsearch-action-updatebyquery:1.1.0/dependencies/org/elasticsearch/elasticsearch/0.90.0.Beta1/elasticsearch-0.90.0.Beta1.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.elasticsearch.common.xcontent.XContentFactory;",
+      "artifact" : {
+        "artifact" : "org.elasticsearch:elasticsearch:0.90.0.Beta1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.yakaz.elasticsearch.plugins:elasticsearch-action-updatebyquery:1.1.0/dependencies/org/elasticsearch/elasticsearch/0.90.0.Beta1/elasticsearch-0.90.0.Beta1.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.elasticsearch.common.xcontent.XContentParser;",
+      "artifact" : {
+        "artifact" : "org.elasticsearch:elasticsearch:0.90.0.Beta1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.yakaz.elasticsearch.plugins:elasticsearch-action-updatebyquery:1.1.0/dependencies/org/elasticsearch/elasticsearch/0.90.0.Beta1/elasticsearch-0.90.0.Beta1.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.elasticsearch.search.builder.SearchSourceBuilder;",
+      "artifact" : {
+        "artifact" : "org.elasticsearch:elasticsearch:0.90.0.Beta1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.yakaz.elasticsearch.plugins:elasticsearch-action-updatebyquery:1.1.0/dependencies/org/elasticsearch/elasticsearch/0.90.0.Beta1/elasticsearch-0.90.0.Beta1.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import java.util.Map;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import static org.elasticsearch.common.collect.Maps.newHashMap;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/com.yakaz.elasticsearch.plugins:elasticsearch-action-updatebyquery/src/main/java/org/elasticsearch/action/updatebyquery/TransportUpdateByQueryAction.java",
+    "useImportReport" : [ {
+      "importPath" : "import org.elasticsearch.action.support.TransportAction;",
+      "artifact" : {
+        "artifact" : "org.elasticsearch:elasticsearch:0.90.0.Beta1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.yakaz.elasticsearch.plugins:elasticsearch-action-updatebyquery:1.1.0/dependencies/org/elasticsearch/elasticsearch/0.90.0.Beta1/elasticsearch-0.90.0.Beta1.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.elasticsearch.transport.*;",
+      "artifact" : {
+        "artifact" : "org.elasticsearch:elasticsearch:0.90.0.Beta1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.yakaz.elasticsearch.plugins:elasticsearch-action-updatebyquery:1.1.0/dependencies/org/elasticsearch/elasticsearch/0.90.0.Beta1/elasticsearch-0.90.0.Beta1.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.elasticsearch.cluster.ClusterService;",
+      "artifact" : {
+        "artifact" : "org.elasticsearch:elasticsearch:0.90.0.Beta1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.yakaz.elasticsearch.plugins:elasticsearch-action-updatebyquery:1.1.0/dependencies/org/elasticsearch/elasticsearch/0.90.0.Beta1/elasticsearch-0.90.0.Beta1.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.elasticsearch.common.inject.Inject;",
+      "artifact" : {
+        "artifact" : "org.elasticsearch:elasticsearch:0.90.0.Beta1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.yakaz.elasticsearch.plugins:elasticsearch-action-updatebyquery:1.1.0/dependencies/org/elasticsearch/elasticsearch/0.90.0.Beta1/elasticsearch-0.90.0.Beta1.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.elasticsearch.common.settings.Settings;",
+      "artifact" : {
+        "artifact" : "org.elasticsearch:elasticsearch:0.90.0.Beta1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.yakaz.elasticsearch.plugins:elasticsearch-action-updatebyquery:1.1.0/dependencies/org/elasticsearch/elasticsearch/0.90.0.Beta1/elasticsearch-0.90.0.Beta1.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.elasticsearch.threadpool.ThreadPool;",
+      "artifact" : {
+        "artifact" : "org.elasticsearch:elasticsearch:0.90.0.Beta1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.yakaz.elasticsearch.plugins:elasticsearch-action-updatebyquery:1.1.0/dependencies/org/elasticsearch/elasticsearch/0.90.0.Beta1/elasticsearch-0.90.0.Beta1.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.elasticsearch.action.ActionListener;",
+      "artifact" : {
+        "artifact" : "org.elasticsearch:elasticsearch:0.90.0.Beta1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.yakaz.elasticsearch.plugins:elasticsearch-action-updatebyquery:1.1.0/dependencies/org/elasticsearch/elasticsearch/0.90.0.Beta1/elasticsearch-0.90.0.Beta1.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.elasticsearch.cluster.metadata.MetaData;",
+      "artifact" : {
+        "artifact" : "org.elasticsearch:elasticsearch:0.90.0.Beta1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.yakaz.elasticsearch.plugins:elasticsearch-action-updatebyquery:1.1.0/dependencies/org/elasticsearch/elasticsearch/0.90.0.Beta1/elasticsearch-0.90.0.Beta1.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.elasticsearch.action.support.IgnoreIndices;",
+      "artifact" : {
+        "artifact" : "org.elasticsearch:elasticsearch:0.90.0.Beta1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.yakaz.elasticsearch.plugins:elasticsearch-action-updatebyquery:1.1.0/dependencies/org/elasticsearch/elasticsearch/0.90.0.Beta1/elasticsearch-0.90.0.Beta1.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import java.util.Map;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.Set;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.concurrent.atomic.AtomicReferenceArray;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.concurrent.atomic.AtomicInteger;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.List;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.elasticsearch.common.collect.Lists;",
+      "artifact" : {
+        "artifact" : "org.elasticsearch:elasticsearch:0.90.0.Beta1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.yakaz.elasticsearch.plugins:elasticsearch-action-updatebyquery:1.1.0/dependencies/org/elasticsearch/elasticsearch/0.90.0.Beta1/elasticsearch-0.90.0.Beta1.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.elasticsearch.ExceptionsHelper;",
+      "artifact" : {
+        "artifact" : "org.elasticsearch:elasticsearch:0.90.0.Beta1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.yakaz.elasticsearch.plugins:elasticsearch-action-updatebyquery:1.1.0/dependencies/org/elasticsearch/elasticsearch/0.90.0.Beta1/elasticsearch-0.90.0.Beta1.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.elasticsearch.common.Nullable;",
+      "artifact" : {
+        "artifact" : "org.elasticsearch:elasticsearch:0.90.0.Beta1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.yakaz.elasticsearch.plugins:elasticsearch-action-updatebyquery:1.1.0/dependencies/org/elasticsearch/elasticsearch/0.90.0.Beta1/elasticsearch-0.90.0.Beta1.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.elasticsearch.cluster.ClusterState;",
+      "artifact" : {
+        "artifact" : "org.elasticsearch:elasticsearch:0.90.0.Beta1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.yakaz.elasticsearch.plugins:elasticsearch-action-updatebyquery:1.1.0/dependencies/org/elasticsearch/elasticsearch/0.90.0.Beta1/elasticsearch-0.90.0.Beta1.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.elasticsearch.cluster.block.ClusterBlockException;",
+      "artifact" : {
+        "artifact" : "org.elasticsearch:elasticsearch:0.90.0.Beta1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.yakaz.elasticsearch.plugins:elasticsearch-action-updatebyquery:1.1.0/dependencies/org/elasticsearch/elasticsearch/0.90.0.Beta1/elasticsearch-0.90.0.Beta1.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.elasticsearch.cluster.block.ClusterBlockLevel;",
+      "artifact" : {
+        "artifact" : "org.elasticsearch:elasticsearch:0.90.0.Beta1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.yakaz.elasticsearch.plugins:elasticsearch-action-updatebyquery:1.1.0/dependencies/org/elasticsearch/elasticsearch/0.90.0.Beta1/elasticsearch-0.90.0.Beta1.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.elasticsearch.cluster.routing.ShardRouting;",
+      "artifact" : {
+        "artifact" : "org.elasticsearch:elasticsearch:0.90.0.Beta1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.yakaz.elasticsearch.plugins:elasticsearch-action-updatebyquery:1.1.0/dependencies/org/elasticsearch/elasticsearch/0.90.0.Beta1/elasticsearch-0.90.0.Beta1.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.elasticsearch.cluster.routing.GroupShardsIterator;",
+      "artifact" : {
+        "artifact" : "org.elasticsearch:elasticsearch:0.90.0.Beta1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.yakaz.elasticsearch.plugins:elasticsearch-action-updatebyquery:1.1.0/dependencies/org/elasticsearch/elasticsearch/0.90.0.Beta1/elasticsearch-0.90.0.Beta1.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.elasticsearch.cluster.routing.ShardIterator;",
+      "artifact" : {
+        "artifact" : "org.elasticsearch:elasticsearch:0.90.0.Beta1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.yakaz.elasticsearch.plugins:elasticsearch-action-updatebyquery:1.1.0/dependencies/org/elasticsearch/elasticsearch/0.90.0.Beta1/elasticsearch-0.90.0.Beta1.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.elasticsearch.cluster.node.DiscoveryNodes;",
+      "artifact" : {
+        "artifact" : "org.elasticsearch:elasticsearch:0.90.0.Beta1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.yakaz.elasticsearch.plugins:elasticsearch-action-updatebyquery:1.1.0/dependencies/org/elasticsearch/elasticsearch/0.90.0.Beta1/elasticsearch-0.90.0.Beta1.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.elasticsearch.cluster.TimeoutClusterStateListener;",
+      "artifact" : {
+        "artifact" : "org.elasticsearch:elasticsearch:0.90.0.Beta1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.yakaz.elasticsearch.plugins:elasticsearch-action-updatebyquery:1.1.0/dependencies/org/elasticsearch/elasticsearch/0.90.0.Beta1/elasticsearch-0.90.0.Beta1.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.elasticsearch.node.NodeClosedException;",
+      "artifact" : {
+        "artifact" : "org.elasticsearch:elasticsearch:0.90.0.Beta1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.yakaz.elasticsearch.plugins:elasticsearch-action-updatebyquery:1.1.0/dependencies/org/elasticsearch/elasticsearch/0.90.0.Beta1/elasticsearch-0.90.0.Beta1.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.elasticsearch.cluster.ClusterChangedEvent;",
+      "artifact" : {
+        "artifact" : "org.elasticsearch:elasticsearch:0.90.0.Beta1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.yakaz.elasticsearch.plugins:elasticsearch-action-updatebyquery:1.1.0/dependencies/org/elasticsearch/elasticsearch/0.90.0.Beta1/elasticsearch-0.90.0.Beta1.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.elasticsearch.common.unit.TimeValue;",
+      "artifact" : {
+        "artifact" : "org.elasticsearch:elasticsearch:0.90.0.Beta1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.yakaz.elasticsearch.plugins:elasticsearch-action-updatebyquery:1.1.0/dependencies/org/elasticsearch/elasticsearch/0.90.0.Beta1/elasticsearch-0.90.0.Beta1.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.elasticsearch.action.UnavailableShardsException;",
+      "artifact" : {
+        "artifact" : "org.elasticsearch:elasticsearch:0.90.0.Beta1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.yakaz.elasticsearch.plugins:elasticsearch-action-updatebyquery:1.1.0/dependencies/org/elasticsearch/elasticsearch/0.90.0.Beta1/elasticsearch-0.90.0.Beta1.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.elasticsearch.cluster.node.DiscoveryNode;",
+      "artifact" : {
+        "artifact" : "org.elasticsearch:elasticsearch:0.90.0.Beta1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.yakaz.elasticsearch.plugins:elasticsearch-action-updatebyquery:1.1.0/dependencies/org/elasticsearch/elasticsearch/0.90.0.Beta1/elasticsearch-0.90.0.Beta1.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.elasticsearch.transport.*;",
+      "artifact" : {
+        "artifact" : "org.elasticsearch:elasticsearch:0.90.0.Beta1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.yakaz.elasticsearch.plugins:elasticsearch-action-updatebyquery:1.1.0/dependencies/org/elasticsearch/elasticsearch/0.90.0.Beta1/elasticsearch-0.90.0.Beta1.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.elasticsearch.transport.*;",
+      "artifact" : {
+        "artifact" : "org.elasticsearch:elasticsearch:0.90.0.Beta1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.yakaz.elasticsearch.plugins:elasticsearch-action-updatebyquery:1.1.0/dependencies/org/elasticsearch/elasticsearch/0.90.0.Beta1/elasticsearch-0.90.0.Beta1.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.elasticsearch.transport.*;",
+      "artifact" : {
+        "artifact" : "org.elasticsearch:elasticsearch:0.90.0.Beta1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.yakaz.elasticsearch.plugins:elasticsearch-action-updatebyquery:1.1.0/dependencies/org/elasticsearch/elasticsearch/0.90.0.Beta1/elasticsearch-0.90.0.Beta1.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.elasticsearch.transport.*;",
+      "artifact" : {
+        "artifact" : "org.elasticsearch:elasticsearch:0.90.0.Beta1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.yakaz.elasticsearch.plugins:elasticsearch-action-updatebyquery:1.1.0/dependencies/org/elasticsearch/elasticsearch/0.90.0.Beta1/elasticsearch-0.90.0.Beta1.jar"
+      },
+      "isDirectDependency" : true
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/com.yakaz.elasticsearch.plugins:elasticsearch-action-updatebyquery/src/main/java/org/elasticsearch/action/updatebyquery/UpdateByQueryAction.java",
+    "useImportReport" : [ {
+      "importPath" : "import org.elasticsearch.action.Action;",
+      "artifact" : {
+        "artifact" : "org.elasticsearch:elasticsearch:0.90.0.Beta1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.yakaz.elasticsearch.plugins:elasticsearch-action-updatebyquery:1.1.0/dependencies/org/elasticsearch/elasticsearch/0.90.0.Beta1/elasticsearch-0.90.0.Beta1.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.elasticsearch.client.Client;",
+      "artifact" : {
+        "artifact" : "org.elasticsearch:elasticsearch:0.90.0.Beta1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.yakaz.elasticsearch.plugins:elasticsearch-action-updatebyquery:1.1.0/dependencies/org/elasticsearch/elasticsearch/0.90.0.Beta1/elasticsearch-0.90.0.Beta1.jar"
+      },
+      "isDirectDependency" : true
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/com.yakaz.elasticsearch.plugins:elasticsearch-action-updatebyquery/src/main/java/org/elasticsearch/action/updatebyquery/package-info.java",
+    "useImportReport" : [ ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/com.yakaz.elasticsearch.plugins:elasticsearch-action-updatebyquery/src/main/java/org/elasticsearch/client/UpdateByQueryClient.java",
+    "useImportReport" : [ {
+      "importPath" : "import org.elasticsearch.action.updatebyquery.UpdateByQueryRequest;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.elasticsearch.action.ActionListener;",
+      "artifact" : {
+        "artifact" : "org.elasticsearch:elasticsearch:0.90.0.Beta1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.yakaz.elasticsearch.plugins:elasticsearch-action-updatebyquery:1.1.0/dependencies/org/elasticsearch/elasticsearch/0.90.0.Beta1/elasticsearch-0.90.0.Beta1.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.elasticsearch.action.updatebyquery.UpdateByQueryResponse;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.elasticsearch.action.ActionFuture;",
+      "artifact" : {
+        "artifact" : "org.elasticsearch:elasticsearch:0.90.0.Beta1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.yakaz.elasticsearch.plugins:elasticsearch-action-updatebyquery:1.1.0/dependencies/org/elasticsearch/elasticsearch/0.90.0.Beta1/elasticsearch-0.90.0.Beta1.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.elasticsearch.action.updatebyquery.UpdateByQueryRequestBuilder;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ {
+      "importPath" : "\norg.elasticsearch.action.ActionListener",
+      "artifact" : {
+        "artifact" : "org.elasticsearch:elasticsearch:0.90.0.Beta1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.yakaz.elasticsearch.plugins:elasticsearch-action-updatebyquery:1.1.0/dependencies/org/elasticsearch/elasticsearch/0.90.0.Beta1/elasticsearch-0.90.0.Beta1.jar"
+      },
+      "isDirectDependency" : true
+    } ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/com.yakaz.elasticsearch.plugins:elasticsearch-action-updatebyquery/src/main/java/org/elasticsearch/client/UpdateByQueryClientWrapper.java",
+    "useImportReport" : [ {
+      "importPath" : "import org.elasticsearch.action.updatebyquery.UpdateByQueryRequest;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.elasticsearch.action.ActionListener;",
+      "artifact" : {
+        "artifact" : "org.elasticsearch:elasticsearch:0.90.0.Beta1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.yakaz.elasticsearch.plugins:elasticsearch-action-updatebyquery:1.1.0/dependencies/org/elasticsearch/elasticsearch/0.90.0.Beta1/elasticsearch-0.90.0.Beta1.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.elasticsearch.action.updatebyquery.UpdateByQueryResponse;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.elasticsearch.action.updatebyquery.UpdateByQueryAction;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.elasticsearch.action.ActionFuture;",
+      "artifact" : {
+        "artifact" : "org.elasticsearch:elasticsearch:0.90.0.Beta1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.yakaz.elasticsearch.plugins:elasticsearch-action-updatebyquery:1.1.0/dependencies/org/elasticsearch/elasticsearch/0.90.0.Beta1/elasticsearch-0.90.0.Beta1.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.elasticsearch.action.updatebyquery.UpdateByQueryRequestBuilder;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/com.yakaz.elasticsearch.plugins:elasticsearch-action-updatebyquery/src/main/java/org/elasticsearch/rest/action/updatebyquery/RestUpdateByQueryAction.java",
+    "useImportReport" : [ {
+      "importPath" : "import org.elasticsearch.rest.*;",
+      "artifact" : {
+        "artifact" : "org.elasticsearch:elasticsearch:0.90.0.Beta1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.yakaz.elasticsearch.plugins:elasticsearch-action-updatebyquery:1.1.0/dependencies/org/elasticsearch/elasticsearch/0.90.0.Beta1/elasticsearch-0.90.0.Beta1.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.elasticsearch.client.UpdateByQueryClient;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.elasticsearch.common.inject.Inject;",
+      "artifact" : {
+        "artifact" : "org.elasticsearch:elasticsearch:0.90.0.Beta1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.yakaz.elasticsearch.plugins:elasticsearch-action-updatebyquery:1.1.0/dependencies/org/elasticsearch/elasticsearch/0.90.0.Beta1/elasticsearch-0.90.0.Beta1.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.elasticsearch.common.settings.Settings;",
+      "artifact" : {
+        "artifact" : "org.elasticsearch:elasticsearch:0.90.0.Beta1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.yakaz.elasticsearch.plugins:elasticsearch-action-updatebyquery:1.1.0/dependencies/org/elasticsearch/elasticsearch/0.90.0.Beta1/elasticsearch-0.90.0.Beta1.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.elasticsearch.client.Client;",
+      "artifact" : {
+        "artifact" : "org.elasticsearch:elasticsearch:0.90.0.Beta1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.yakaz.elasticsearch.plugins:elasticsearch-action-updatebyquery:1.1.0/dependencies/org/elasticsearch/elasticsearch/0.90.0.Beta1/elasticsearch-0.90.0.Beta1.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.elasticsearch.rest.*;",
+      "artifact" : {
+        "artifact" : "org.elasticsearch:elasticsearch:0.90.0.Beta1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.yakaz.elasticsearch.plugins:elasticsearch-action-updatebyquery:1.1.0/dependencies/org/elasticsearch/elasticsearch/0.90.0.Beta1/elasticsearch-0.90.0.Beta1.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.elasticsearch.client.UpdateByQueryClientWrapper;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import static org.elasticsearch.rest.RestRequest.Method.POST;",
+      "artifact" : {
+        "artifact" : "org.elasticsearch:elasticsearch:0.90.0.Beta1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.yakaz.elasticsearch.plugins:elasticsearch-action-updatebyquery:1.1.0/dependencies/org/elasticsearch/elasticsearch/0.90.0.Beta1/elasticsearch-0.90.0.Beta1.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.elasticsearch.rest.*;",
+      "artifact" : {
+        "artifact" : "org.elasticsearch:elasticsearch:0.90.0.Beta1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.yakaz.elasticsearch.plugins:elasticsearch-action-updatebyquery:1.1.0/dependencies/org/elasticsearch/elasticsearch/0.90.0.Beta1/elasticsearch-0.90.0.Beta1.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.elasticsearch.rest.*;",
+      "artifact" : {
+        "artifact" : "org.elasticsearch:elasticsearch:0.90.0.Beta1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.yakaz.elasticsearch.plugins:elasticsearch-action-updatebyquery:1.1.0/dependencies/org/elasticsearch/elasticsearch/0.90.0.Beta1/elasticsearch-0.90.0.Beta1.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.elasticsearch.action.updatebyquery.*;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import static org.elasticsearch.rest.action.support.RestActions.splitIndices;",
+      "artifact" : {
+        "artifact" : "org.elasticsearch:elasticsearch:0.90.0.Beta1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.yakaz.elasticsearch.plugins:elasticsearch-action-updatebyquery:1.1.0/dependencies/org/elasticsearch/elasticsearch/0.90.0.Beta1/elasticsearch-0.90.0.Beta1.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import static org.elasticsearch.rest.action.support.RestActions.splitTypes;",
+      "artifact" : {
+        "artifact" : "org.elasticsearch:elasticsearch:0.90.0.Beta1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.yakaz.elasticsearch.plugins:elasticsearch-action-updatebyquery:1.1.0/dependencies/org/elasticsearch/elasticsearch/0.90.0.Beta1/elasticsearch-0.90.0.Beta1.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.elasticsearch.action.support.replication.ReplicationType;",
+      "artifact" : {
+        "artifact" : "org.elasticsearch:elasticsearch:0.90.0.Beta1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.yakaz.elasticsearch.plugins:elasticsearch-action-updatebyquery:1.1.0/dependencies/org/elasticsearch/elasticsearch/0.90.0.Beta1/elasticsearch-0.90.0.Beta1.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.elasticsearch.action.WriteConsistencyLevel;",
+      "artifact" : {
+        "artifact" : "org.elasticsearch:elasticsearch:0.90.0.Beta1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.yakaz.elasticsearch.plugins:elasticsearch-action-updatebyquery:1.1.0/dependencies/org/elasticsearch/elasticsearch/0.90.0.Beta1/elasticsearch-0.90.0.Beta1.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.elasticsearch.action.updatebyquery.*;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.elasticsearch.common.unit.TimeValue;",
+      "artifact" : {
+        "artifact" : "org.elasticsearch:elasticsearch:0.90.0.Beta1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.yakaz.elasticsearch.plugins:elasticsearch-action-updatebyquery:1.1.0/dependencies/org/elasticsearch/elasticsearch/0.90.0.Beta1/elasticsearch-0.90.0.Beta1.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.elasticsearch.common.bytes.BytesArray;",
+      "artifact" : {
+        "artifact" : "org.elasticsearch:elasticsearch:0.90.0.Beta1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.yakaz.elasticsearch.plugins:elasticsearch-action-updatebyquery:1.1.0/dependencies/org/elasticsearch/elasticsearch/0.90.0.Beta1/elasticsearch-0.90.0.Beta1.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.elasticsearch.action.updatebyquery.*;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.Map;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.elasticsearch.rest.action.support.RestActions;",
+      "artifact" : {
+        "artifact" : "org.elasticsearch:elasticsearch:0.90.0.Beta1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.yakaz.elasticsearch.plugins:elasticsearch-action-updatebyquery:1.1.0/dependencies/org/elasticsearch/elasticsearch/0.90.0.Beta1/elasticsearch-0.90.0.Beta1.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.elasticsearch.action.ActionListener;",
+      "artifact" : {
+        "artifact" : "org.elasticsearch:elasticsearch:0.90.0.Beta1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.yakaz.elasticsearch.plugins:elasticsearch-action-updatebyquery:1.1.0/dependencies/org/elasticsearch/elasticsearch/0.90.0.Beta1/elasticsearch-0.90.0.Beta1.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.elasticsearch.action.updatebyquery.*;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.elasticsearch.common.xcontent.XContentBuilder;",
+      "artifact" : {
+        "artifact" : "org.elasticsearch:elasticsearch:0.90.0.Beta1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.yakaz.elasticsearch.plugins:elasticsearch-action-updatebyquery:1.1.0/dependencies/org/elasticsearch/elasticsearch/0.90.0.Beta1/elasticsearch-0.90.0.Beta1.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.elasticsearch.rest.action.support.RestXContentBuilder;",
+      "artifact" : {
+        "artifact" : "org.elasticsearch:elasticsearch:0.90.0.Beta1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.yakaz.elasticsearch.plugins:elasticsearch-action-updatebyquery:1.1.0/dependencies/org/elasticsearch/elasticsearch/0.90.0.Beta1/elasticsearch-0.90.0.Beta1.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.elasticsearch.action.updatebyquery.*;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.elasticsearch.action.bulk.BulkItemResponse;",
+      "artifact" : {
+        "artifact" : "org.elasticsearch:elasticsearch:0.90.0.Beta1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.yakaz.elasticsearch.plugins:elasticsearch-action-updatebyquery:1.1.0/dependencies/org/elasticsearch/elasticsearch/0.90.0.Beta1/elasticsearch-0.90.0.Beta1.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.elasticsearch.rest.*;",
+      "artifact" : {
+        "artifact" : "org.elasticsearch:elasticsearch:0.90.0.Beta1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.yakaz.elasticsearch.plugins:elasticsearch-action-updatebyquery:1.1.0/dependencies/org/elasticsearch/elasticsearch/0.90.0.Beta1/elasticsearch-0.90.0.Beta1.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import static org.elasticsearch.rest.RestStatus.OK;",
+      "artifact" : {
+        "artifact" : "org.elasticsearch:elasticsearch:0.90.0.Beta1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.yakaz.elasticsearch.plugins:elasticsearch-action-updatebyquery:1.1.0/dependencies/org/elasticsearch/elasticsearch/0.90.0.Beta1/elasticsearch-0.90.0.Beta1.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.elasticsearch.rest.*;",
+      "artifact" : {
+        "artifact" : "org.elasticsearch:elasticsearch:0.90.0.Beta1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.yakaz.elasticsearch.plugins:elasticsearch-action-updatebyquery:1.1.0/dependencies/org/elasticsearch/elasticsearch/0.90.0.Beta1/elasticsearch-0.90.0.Beta1.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import java.io.IOException;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.elasticsearch.common.xcontent.XContentBuilderString;",
+      "artifact" : {
+        "artifact" : "org.elasticsearch:elasticsearch:0.90.0.Beta1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.yakaz.elasticsearch.plugins:elasticsearch-action-updatebyquery:1.1.0/dependencies/org/elasticsearch/elasticsearch/0.90.0.Beta1/elasticsearch-0.90.0.Beta1.jar"
+      },
+      "isDirectDependency" : true
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  } ],
+  "projectUseDependencies" : [ {
+    "artifact" : "org.elasticsearch:elasticsearch:0.90.0.Beta1",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.yakaz.elasticsearch.plugins:elasticsearch-action-updatebyquery:1.1.0/dependencies/org/elasticsearch/elasticsearch/0.90.0.Beta1/elasticsearch-0.90.0.Beta1.jar"
+  } ],
+  "projectUseTransitiveDependencies" : [ ],
+  "projectUnusedDependencies" : [ {
+    "artifact" : "org.testng:testng:6.8",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.yakaz.elasticsearch.plugins:elasticsearch-action-updatebyquery:1.1.0/dependencies/org/testng/testng/6.8/testng-6.8.jar"
+  }, {
+    "artifact" : "org.hamcrest:hamcrest-all:1.3",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.yakaz.elasticsearch.plugins:elasticsearch-action-updatebyquery:1.1.0/dependencies/org/hamcrest/hamcrest-all/1.3/hamcrest-all-1.3.jar"
+  } ]
+}

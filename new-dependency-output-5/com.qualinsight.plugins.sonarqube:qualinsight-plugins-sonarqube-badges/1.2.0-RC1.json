@@ -1,0 +1,511 @@
+{
+  "projectArtifact" : "com.qualinsight.plugins.sonarqube:qualinsight-plugins-sonarqube-badges:1.2.0-RC1",
+  "repositoryDir" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/com.qualinsight.plugins.sonarqube:qualinsight-plugins-sonarqube-badges",
+  "repositorySubDir" : "",
+  "artifactLocation" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.qualinsight.plugins.sonarqube:qualinsight-plugins-sonarqube-badges:1.2.0-RC1",
+  "fileImportReports" : [ {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/com.qualinsight.plugins.sonarqube:qualinsight-plugins-sonarqube-badges/src/main/java/com/qualinsight/plugins/sonarqube/badges/BadgesPlugin.java",
+    "useImportReport" : [ {
+      "importPath" : "import org.sonar.api.SonarPlugin;",
+      "artifact" : {
+        "artifact" : "org.codehaus.sonar:sonar-plugin-api:4.5.4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.qualinsight.plugins.sonarqube:qualinsight-plugins-sonarqube-badges:1.2.0-RC1/dependencies/org/codehaus/sonar/sonar-plugin-api/4.5.4/sonar-plugin-api-4.5.4.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import java.util.List;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.google.common.collect.ImmutableList;",
+      "artifact" : {
+        "artifact" : "com.google.guava:guava:10.0.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.qualinsight.plugins.sonarqube:qualinsight-plugins-sonarqube-badges:1.2.0-RC1/dependencies/com/google/guava/guava/10.0.1/guava-10.0.1.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.qualinsight.plugins.sonarqube.badges.internal.QualityGateStatusRetriever;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.qualinsight.plugins.sonarqube.badges.internal.SVGImageGenerator;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.qualinsight.plugins.sonarqube.badges.extension.BadgesWebService;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/com.qualinsight.plugins.sonarqube:qualinsight-plugins-sonarqube-badges/src/main/java/com/qualinsight/plugins/sonarqube/badges/extension/BadgesWebService.java",
+    "useImportReport" : [ {
+      "importPath" : "import org.sonar.api.server.ws.WebService;",
+      "artifact" : {
+        "artifact" : "org.codehaus.sonar:sonar-plugin-api:4.5.4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.qualinsight.plugins.sonarqube:qualinsight-plugins-sonarqube-badges:1.2.0-RC1/dependencies/org/codehaus/sonar/sonar-plugin-api/4.5.4/sonar-plugin-api-4.5.4.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.slf4j.Logger;",
+      "artifact" : {
+        "artifact" : "org.slf4j:slf4j-api:1.7.5",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.qualinsight.plugins.sonarqube:qualinsight-plugins-sonarqube-badges:1.2.0-RC1/dependencies/org/slf4j/slf4j-api/1.7.5/slf4j-api-1.7.5.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.slf4j.LoggerFactory;",
+      "artifact" : {
+        "artifact" : "org.slf4j:slf4j-api:1.7.5",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.qualinsight.plugins.sonarqube:qualinsight-plugins-sonarqube-badges:1.2.0-RC1/dependencies/org/slf4j/slf4j-api/1.7.5/slf4j-api-1.7.5.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.qualinsight.plugins.sonarqube.badges.internal.QualityGateStatusRetriever;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.qualinsight.plugins.sonarqube.badges.internal.SVGImageGenerator;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.sonar.api.server.ws.RequestHandler;",
+      "artifact" : {
+        "artifact" : "org.codehaus.sonar:sonar-plugin-api:4.5.4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.qualinsight.plugins.sonarqube:qualinsight-plugins-sonarqube-badges:1.2.0-RC1/dependencies/org/codehaus/sonar/sonar-plugin-api/4.5.4/sonar-plugin-api-4.5.4.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.sonar.api.server.ws.Request;",
+      "artifact" : {
+        "artifact" : "org.codehaus.sonar:sonar-plugin-api:4.5.4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.qualinsight.plugins.sonarqube:qualinsight-plugins-sonarqube-badges:1.2.0-RC1/dependencies/org/codehaus/sonar/sonar-plugin-api/4.5.4/sonar-plugin-api-4.5.4.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.sonar.api.server.ws.Response;",
+      "artifact" : {
+        "artifact" : "org.codehaus.sonar:sonar-plugin-api:4.5.4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.qualinsight.plugins.sonarqube:qualinsight-plugins-sonarqube-badges:1.2.0-RC1/dependencies/org/codehaus/sonar/sonar-plugin-api/4.5.4/sonar-plugin-api-4.5.4.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import com.qualinsight.plugins.sonarqube.badges.internal.QualityGateStatus;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.io.OutputStream;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.io.InputStream;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.apache.commons.io.IOUtils;",
+      "artifact" : {
+        "artifact" : "commons-io:commons-io:2.4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.qualinsight.plugins.sonarqube:qualinsight-plugins-sonarqube-badges:1.2.0-RC1/dependencies/commons-io/commons-io/2.4/commons-io-2.4.jar"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/com.qualinsight.plugins.sonarqube:qualinsight-plugins-sonarqube-badges/src/main/java/com/qualinsight/plugins/sonarqube/badges/internal/FontProvider.java",
+    "useImportReport" : [ {
+      "importPath" : "import java.util.Map;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.awt.font.TextAttribute;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.awt.Font;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.HashMap;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/com.qualinsight.plugins.sonarqube:qualinsight-plugins-sonarqube-badges/src/main/java/com/qualinsight/plugins/sonarqube/badges/internal/ProjectNotFoundException.java",
+    "useImportReport" : [ {
+      "importPath" : "import java.io.IOException;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/com.qualinsight.plugins.sonarqube:qualinsight-plugins-sonarqube-badges/src/main/java/com/qualinsight/plugins/sonarqube/badges/internal/QualityGateStatusRetriever.java",
+    "useImportReport" : [ {
+      "importPath" : "import org.sonar.api.ServerExtension;",
+      "artifact" : {
+        "artifact" : "org.codehaus.sonar:sonar-plugin-api:4.5.4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.qualinsight.plugins.sonarqube:qualinsight-plugins-sonarqube-badges:1.2.0-RC1/dependencies/org/codehaus/sonar/sonar-plugin-api/4.5.4/sonar-plugin-api-4.5.4.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.slf4j.Logger;",
+      "artifact" : {
+        "artifact" : "org.slf4j:slf4j-api:1.7.5",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.qualinsight.plugins.sonarqube:qualinsight-plugins-sonarqube-badges:1.2.0-RC1/dependencies/org/slf4j/slf4j-api/1.7.5/slf4j-api-1.7.5.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.slf4j.LoggerFactory;",
+      "artifact" : {
+        "artifact" : "org.slf4j:slf4j-api:1.7.5",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.qualinsight.plugins.sonarqube:qualinsight-plugins-sonarqube-badges:1.2.0-RC1/dependencies/org/slf4j/slf4j-api/1.7.5/slf4j-api-1.7.5.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.apache.http.client.HttpClient;",
+      "artifact" : {
+        "artifact" : "org.apache.httpcomponents:httpclient:4.5.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.qualinsight.plugins.sonarqube:qualinsight-plugins-sonarqube-badges:1.2.0-RC1/dependencies/org/apache/httpcomponents/httpclient/4.5.1/httpclient-4.5.1.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.apache.http.client.ResponseHandler;",
+      "artifact" : {
+        "artifact" : "org.apache.httpcomponents:httpclient:4.5.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.qualinsight.plugins.sonarqube:qualinsight-plugins-sonarqube-badges:1.2.0-RC1/dependencies/org/apache/httpcomponents/httpclient/4.5.1/httpclient-4.5.1.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.apache.http.client.methods.HttpGet;",
+      "artifact" : {
+        "artifact" : "org.apache.httpcomponents:httpclient:4.5.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.qualinsight.plugins.sonarqube:qualinsight-plugins-sonarqube-badges:1.2.0-RC1/dependencies/org/apache/httpcomponents/httpclient/4.5.1/httpclient-4.5.1.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.sonar.api.config.Settings;",
+      "artifact" : {
+        "artifact" : "org.codehaus.sonar:sonar-plugin-api:4.5.4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.qualinsight.plugins.sonarqube:qualinsight-plugins-sonarqube-badges:1.2.0-RC1/dependencies/org/codehaus/sonar/sonar-plugin-api/4.5.4/sonar-plugin-api-4.5.4.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import java.net.URISyntaxException;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.apache.http.impl.client.HttpClients;",
+      "artifact" : {
+        "artifact" : "org.apache.httpcomponents:httpclient:4.5.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.qualinsight.plugins.sonarqube:qualinsight-plugins-sonarqube-badges:1.2.0-RC1/dependencies/org/apache/httpcomponents/httpclient/4.5.1/httpclient-4.5.1.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.apache.http.HttpResponse;",
+      "artifact" : {
+        "artifact" : "org.apache.httpcomponents:httpcore:4.4.3",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.qualinsight.plugins.sonarqube:qualinsight-plugins-sonarqube-badges:1.2.0-RC1/dependencies/org/apache/httpcomponents/httpcore/4.4.3/httpcore-4.4.3.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.io.IOException;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.apache.http.HttpEntity;",
+      "artifact" : {
+        "artifact" : "org.apache.httpcomponents:httpcore:4.4.3",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.qualinsight.plugins.sonarqube:qualinsight-plugins-sonarqube-badges:1.2.0-RC1/dependencies/org/apache/httpcomponents/httpcore/4.4.3/httpcore-4.4.3.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.apache.http.util.EntityUtils;",
+      "artifact" : {
+        "artifact" : "org.apache.httpcomponents:httpcore:4.4.3",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.qualinsight.plugins.sonarqube:qualinsight-plugins-sonarqube-badges:1.2.0-RC1/dependencies/org/apache/httpcomponents/httpcore/4.4.3/httpcore-4.4.3.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.apache.http.client.ClientProtocolException;",
+      "artifact" : {
+        "artifact" : "org.apache.httpcomponents:httpclient:4.5.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.qualinsight.plugins.sonarqube:qualinsight-plugins-sonarqube-badges:1.2.0-RC1/dependencies/org/apache/httpcomponents/httpclient/4.5.1/httpclient-4.5.1.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.json.JSONException;",
+      "artifact" : {
+        "artifact" : "org.json:json:20160212",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.qualinsight.plugins.sonarqube:qualinsight-plugins-sonarqube-badges:1.2.0-RC1/dependencies/org/json/json/20160212/json-20160212.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.apache.http.client.utils.URIBuilder;",
+      "artifact" : {
+        "artifact" : "org.apache.httpcomponents:httpclient:4.5.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.qualinsight.plugins.sonarqube:qualinsight-plugins-sonarqube-badges:1.2.0-RC1/dependencies/org/apache/httpcomponents/httpclient/4.5.1/httpclient-4.5.1.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import java.net.URI;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.apache.commons.lang.StringUtils;",
+      "artifact" : {
+        "artifact" : "commons-lang:commons-lang:2.6",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.qualinsight.plugins.sonarqube:qualinsight-plugins-sonarqube-badges:1.2.0-RC1/dependencies/commons-lang/commons-lang/2.6/commons-lang-2.6.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.json.JSONArray;",
+      "artifact" : {
+        "artifact" : "org.json:json:20160212",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.qualinsight.plugins.sonarqube:qualinsight-plugins-sonarqube-badges:1.2.0-RC1/dependencies/org/json/json/20160212/json-20160212.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.json.JSONObject;",
+      "artifact" : {
+        "artifact" : "org.json:json:20160212",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.qualinsight.plugins.sonarqube:qualinsight-plugins-sonarqube-badges:1.2.0-RC1/dependencies/org/json/json/20160212/json-20160212.jar"
+      },
+      "isDirectDependency" : true
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/com.qualinsight.plugins.sonarqube:qualinsight-plugins-sonarqube-badges/src/main/java/com/qualinsight/plugins/sonarqube/badges/internal/SVGImageGenerator.java",
+    "useImportReport" : [ {
+      "importPath" : "import org.sonar.api.ServerExtension;",
+      "artifact" : {
+        "artifact" : "org.codehaus.sonar:sonar-plugin-api:4.5.4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.qualinsight.plugins.sonarqube:qualinsight-plugins-sonarqube-badges:1.2.0-RC1/dependencies/org/codehaus/sonar/sonar-plugin-api/4.5.4/sonar-plugin-api-4.5.4.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import java.io.InputStream;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.slf4j.Logger;",
+      "artifact" : {
+        "artifact" : "org.slf4j:slf4j-api:1.7.5",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.qualinsight.plugins.sonarqube:qualinsight-plugins-sonarqube-badges:1.2.0-RC1/dependencies/org/slf4j/slf4j-api/1.7.5/slf4j-api-1.7.5.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.slf4j.LoggerFactory;",
+      "artifact" : {
+        "artifact" : "org.slf4j:slf4j-api:1.7.5",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.qualinsight.plugins.sonarqube:qualinsight-plugins-sonarqube-badges:1.2.0-RC1/dependencies/org/slf4j/slf4j-api/1.7.5/slf4j-api-1.7.5.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.awt.Font;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.awt.Color;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.EnumMap;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.apache.batik.svggen.SVGGeneratorContext;",
+      "artifact" : {
+        "artifact" : "org.apache.xmlgraphics:batik-svggen:1.8",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.qualinsight.plugins.sonarqube:qualinsight-plugins-sonarqube-badges:1.2.0-RC1/dependencies/org/apache/xmlgraphics/batik-svggen/1.8/batik-svggen-1.8.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.w3c.dom.DOMImplementation;",
+      "artifact" : {
+        "artifact" : "xml-apis:xml-apis:1.3.04",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.qualinsight.plugins.sonarqube:qualinsight-plugins-sonarqube-badges:1.2.0-RC1/dependencies/xml-apis/xml-apis/1.3.04/xml-apis-1.3.04.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.apache.batik.dom.GenericDOMImplementation;",
+      "artifact" : {
+        "artifact" : "org.apache.xmlgraphics:batik-dom:1.8",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.qualinsight.plugins.sonarqube:qualinsight-plugins-sonarqube-badges:1.2.0-RC1/dependencies/org/apache/xmlgraphics/batik-dom/1.8/batik-dom-1.8.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.w3c.dom.Document;",
+      "artifact" : {
+        "artifact" : "xml-apis:xml-apis:1.3.04",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.qualinsight.plugins.sonarqube:qualinsight-plugins-sonarqube-badges:1.2.0-RC1/dependencies/xml-apis/xml-apis/1.3.04/xml-apis-1.3.04.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.io.IOException;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.apache.batik.svggen.SVGGraphics2D;",
+      "artifact" : {
+        "artifact" : "org.apache.xmlgraphics:batik-svggen:1.8",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.qualinsight.plugins.sonarqube:qualinsight-plugins-sonarqube-badges:1.2.0-RC1/dependencies/org/apache/xmlgraphics/batik-svggen/1.8/batik-svggen-1.8.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import java.io.ByteArrayOutputStream;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.io.Writer;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.io.OutputStreamWriter;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.nio.charset.StandardCharsets;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.io.ByteArrayInputStream;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.awt.Dimension;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/com.qualinsight.plugins.sonarqube:qualinsight-plugins-sonarqube-badges/src/main/java/com/qualinsight/plugins/sonarqube/badges/internal/QualityGateStatus.java",
+    "useImportReport" : [ {
+      "importPath" : "import java.awt.Color;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  } ],
+  "projectUseDependencies" : [ {
+    "artifact" : "org.codehaus.sonar:sonar-plugin-api:4.5.4",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.qualinsight.plugins.sonarqube:qualinsight-plugins-sonarqube-badges:1.2.0-RC1/dependencies/org/codehaus/sonar/sonar-plugin-api/4.5.4/sonar-plugin-api-4.5.4.jar"
+  }, {
+    "artifact" : "org.apache.httpcomponents:httpclient:4.5.1",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.qualinsight.plugins.sonarqube:qualinsight-plugins-sonarqube-badges:1.2.0-RC1/dependencies/org/apache/httpcomponents/httpclient/4.5.1/httpclient-4.5.1.jar"
+  }, {
+    "artifact" : "org.json:json:20160212",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.qualinsight.plugins.sonarqube:qualinsight-plugins-sonarqube-badges:1.2.0-RC1/dependencies/org/json/json/20160212/json-20160212.jar"
+  }, {
+    "artifact" : "org.apache.xmlgraphics:batik-svggen:1.8",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.qualinsight.plugins.sonarqube:qualinsight-plugins-sonarqube-badges:1.2.0-RC1/dependencies/org/apache/xmlgraphics/batik-svggen/1.8/batik-svggen-1.8.jar"
+  } ],
+  "projectUseTransitiveDependencies" : [ {
+    "artifact" : "org.apache.xmlgraphics:batik-svg-dom:1.8",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.qualinsight.plugins.sonarqube:qualinsight-plugins-sonarqube-badges:1.2.0-RC1/dependencies/org/apache/xmlgraphics/batik-svg-dom/1.8/batik-svg-dom-1.8.jar"
+  }, {
+    "artifact" : "org.apache.xmlgraphics:batik-svg-dom:1.8",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.qualinsight.plugins.sonarqube:qualinsight-plugins-sonarqube-badges:1.2.0-RC1/dependencies/org/apache/xmlgraphics/batik-svg-dom/1.8/batik-svg-dom-1.8.jar"
+  } ],
+  "projectUnusedDependencies" : [ ]
+}

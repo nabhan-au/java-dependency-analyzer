@@ -1,0 +1,721 @@
+{
+  "projectArtifact" : "com.github.mathianasj:spring-data-jpa-rsql:0.0.1",
+  "repositoryDir" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/com.github.mathianasj:spring-data-jpa-rsql",
+  "repositorySubDir" : "",
+  "artifactLocation" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.mathianasj:spring-data-jpa-rsql:0.0.1",
+  "fileImportReports" : [ {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/com.github.mathianasj:spring-data-jpa-rsql/src/main/java/com/mathianasj/spring/rsql/RsqlSearchResourcesProcessor.java",
+    "useImportReport" : [ {
+      "importPath" : "import org.springframework.hateoas.ResourceProcessor;",
+      "artifact" : {
+        "artifact" : "org.springframework.hateoas:spring-hateoas:0.23.0.RELEASE",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.mathianasj:spring-data-jpa-rsql:0.0.1/dependencies/org/springframework/hateoas/spring-hateoas/0.23.0.RELEASE/spring-hateoas-0.23.0.RELEASE.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.springframework.data.rest.webmvc.RepositorySearchesResource;",
+      "artifact" : {
+        "artifact" : "org.springframework.data:spring-data-rest-webmvc:2.6.1.RELEASE",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.mathianasj:spring-data-jpa-rsql:0.0.1/dependencies/org/springframework/data/spring-data-rest-webmvc/2.6.1.RELEASE/spring-data-rest-webmvc-2.6.1.RELEASE.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.springframework.stereotype.Component;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-context:4.3.7.RELEASE",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.mathianasj:spring-data-jpa-rsql:0.0.1/dependencies/org/springframework/spring-context/4.3.7.RELEASE/spring-context-4.3.7.RELEASE.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.springframework.hateoas.Link;",
+      "artifact" : {
+        "artifact" : "org.springframework.hateoas:spring-hateoas:0.23.0.RELEASE",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.mathianasj:spring-data-jpa-rsql:0.0.1/dependencies/org/springframework/hateoas/spring-hateoas/0.23.0.RELEASE/spring-hateoas-0.23.0.RELEASE.jar"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/com.github.mathianasj:spring-data-jpa-rsql/src/main/java/com/mathianasj/spring/rsql/RsqlRepositoryCustom.java",
+    "useImportReport" : [ {
+      "importPath" : "import org.springframework.data.repository.PagingAndSortingRepository;",
+      "artifact" : {
+        "artifact" : "org.springframework.data:spring-data-commons:1.13.1.RELEASE",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.mathianasj:spring-data-jpa-rsql:0.0.1/dependencies/org/springframework/data/spring-data-commons/1.13.1.RELEASE/spring-data-commons-1.13.1.RELEASE.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.io.Serializable;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.springframework.data.repository.NoRepositoryBean;",
+      "artifact" : {
+        "artifact" : "org.springframework.data:spring-data-commons:1.13.1.RELEASE",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.mathianasj:spring-data-jpa-rsql:0.0.1/dependencies/org/springframework/data/spring-data-commons/1.13.1.RELEASE/spring-data-commons-1.13.1.RELEASE.jar"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/com.github.mathianasj:spring-data-jpa-rsql/src/main/java/com/mathianasj/spring/rsql/CustomRsqlVisitor.java",
+    "useImportReport" : [ {
+      "importPath" : "import cz.jirutka.rsql.parser.ast.RSQLVisitor;",
+      "artifact" : {
+        "artifact" : "cz.jirutka.rsql:rsql-parser:2.0.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.mathianasj:spring-data-jpa-rsql:0.0.1/dependencies/cz/jirutka/rsql/rsql-parser/2.0.0/rsql-parser-2.0.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.springframework.data.jpa.domain.Specification;",
+      "artifact" : {
+        "artifact" : "org.springframework.data:spring-data-jpa:1.11.1.RELEASE",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.mathianasj:spring-data-jpa-rsql:0.0.1/dependencies/org/springframework/data/spring-data-jpa/1.11.1.RELEASE/spring-data-jpa-1.11.1.RELEASE.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import cz.jirutka.rsql.parser.ast.AndNode;",
+      "artifact" : {
+        "artifact" : "cz.jirutka.rsql:rsql-parser:2.0.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.mathianasj:spring-data-jpa-rsql:0.0.1/dependencies/cz/jirutka/rsql/rsql-parser/2.0.0/rsql-parser-2.0.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import cz.jirutka.rsql.parser.ast.OrNode;",
+      "artifact" : {
+        "artifact" : "cz.jirutka.rsql:rsql-parser:2.0.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.mathianasj:spring-data-jpa-rsql:0.0.1/dependencies/cz/jirutka/rsql/rsql-parser/2.0.0/rsql-parser-2.0.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import cz.jirutka.rsql.parser.ast.ComparisonNode;",
+      "artifact" : {
+        "artifact" : "cz.jirutka.rsql:rsql-parser:2.0.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.mathianasj:spring-data-jpa-rsql:0.0.1/dependencies/cz/jirutka/rsql/rsql-parser/2.0.0/rsql-parser-2.0.0.jar"
+      },
+      "isDirectDependency" : true
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/com.github.mathianasj:spring-data-jpa-rsql/src/main/java/com/mathianasj/spring/rsql/GenericRsqlSpecBuilder.java",
+    "useImportReport" : [ {
+      "importPath" : "import org.springframework.data.jpa.domain.Specifications;",
+      "artifact" : {
+        "artifact" : "org.springframework.data:spring-data-jpa:1.11.1.RELEASE",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.mathianasj:spring-data-jpa-rsql:0.0.1/dependencies/org/springframework/data/spring-data-jpa/1.11.1.RELEASE/spring-data-jpa-1.11.1.RELEASE.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import cz.jirutka.rsql.parser.ast.Node;",
+      "artifact" : {
+        "artifact" : "cz.jirutka.rsql:rsql-parser:2.0.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.mathianasj:spring-data-jpa-rsql:0.0.1/dependencies/cz/jirutka/rsql/rsql-parser/2.0.0/rsql-parser-2.0.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import cz.jirutka.rsql.parser.ast.LogicalNode;",
+      "artifact" : {
+        "artifact" : "cz.jirutka.rsql:rsql-parser:2.0.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.mathianasj:spring-data-jpa-rsql:0.0.1/dependencies/cz/jirutka/rsql/rsql-parser/2.0.0/rsql-parser-2.0.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import cz.jirutka.rsql.parser.ast.ComparisonNode;",
+      "artifact" : {
+        "artifact" : "cz.jirutka.rsql:rsql-parser:2.0.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.mathianasj:spring-data-jpa-rsql:0.0.1/dependencies/cz/jirutka/rsql/rsql-parser/2.0.0/rsql-parser-2.0.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import java.util.List;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.ArrayList;",
+      "artifact" : {
+        "artifact" : "org.apache.openjpa:openjpa-kernel:2.4.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.mathianasj:spring-data-jpa-rsql:0.0.1/dependencies/org/apache/openjpa/openjpa-kernel/2.4.1/openjpa-kernel-2.4.1.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import cz.jirutka.rsql.parser.ast.LogicalOperator;",
+      "artifact" : {
+        "artifact" : "cz.jirutka.rsql:rsql-parser:2.0.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.mathianasj:spring-data-jpa-rsql:0.0.1/dependencies/cz/jirutka/rsql/rsql-parser/2.0.0/rsql-parser-2.0.0.jar"
+      },
+      "isDirectDependency" : true
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/com.github.mathianasj:spring-data-jpa-rsql/src/main/java/com/mathianasj/spring/rsql/RsqlSearchOperation.java",
+    "useImportReport" : [ {
+      "importPath" : "import cz.jirutka.rsql.parser.ast.RSQLOperators;",
+      "artifact" : {
+        "artifact" : "cz.jirutka.rsql:rsql-parser:2.0.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.mathianasj:spring-data-jpa-rsql:0.0.1/dependencies/cz/jirutka/rsql/rsql-parser/2.0.0/rsql-parser-2.0.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import cz.jirutka.rsql.parser.ast.ComparisonOperator;",
+      "artifact" : {
+        "artifact" : "cz.jirutka.rsql:rsql-parser:2.0.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.mathianasj:spring-data-jpa-rsql:0.0.1/dependencies/cz/jirutka/rsql/rsql-parser/2.0.0/rsql-parser-2.0.0.jar"
+      },
+      "isDirectDependency" : true
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/com.github.mathianasj:spring-data-jpa-rsql/src/main/java/com/mathianasj/spring/rsql/GenericRsqlSpecification.java",
+    "useImportReport" : [ {
+      "importPath" : "import org.springframework.data.jpa.domain.Specification;",
+      "artifact" : {
+        "artifact" : "org.springframework.data:spring-data-jpa:1.11.1.RELEASE",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.mathianasj:spring-data-jpa-rsql:0.0.1/dependencies/org/springframework/data/spring-data-jpa/1.11.1.RELEASE/spring-data-jpa-1.11.1.RELEASE.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import cz.jirutka.rsql.parser.ast.ComparisonOperator;",
+      "artifact" : {
+        "artifact" : "cz.jirutka.rsql:rsql-parser:2.0.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.mathianasj:spring-data-jpa-rsql:0.0.1/dependencies/cz/jirutka/rsql/rsql-parser/2.0.0/rsql-parser-2.0.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import java.util.List;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import javax.persistence.criteria.Predicate;",
+      "artifact" : {
+        "artifact" : "org.eclipse.persistence:javax.persistence:2.1.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.mathianasj:spring-data-jpa-rsql:0.0.1/dependencies/org/eclipse/persistence/javax.persistence/2.1.1/javax.persistence-2.1.1.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import javax.persistence.criteria.Predicate;",
+      "artifact" : {
+        "artifact" : "org.hibernate.javax.persistence:hibernate-jpa-2.1-api:1.0.0.Final",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.mathianasj:spring-data-jpa-rsql:0.0.1/dependencies/org/hibernate/javax/persistence/hibernate-jpa-2.1-api/1.0.0.Final/hibernate-jpa-2.1-api-1.0.0.Final.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import javax.persistence.criteria.Predicate;",
+      "artifact" : {
+        "artifact" : "org.apache.geronimo.specs:geronimo-jpa_2.0_spec:1.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.mathianasj:spring-data-jpa-rsql:0.0.1/dependencies/org/apache/geronimo/specs/geronimo-jpa_2.0_spec/1.1/geronimo-jpa_2.0_spec-1.1.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import javax.persistence.criteria.Root;",
+      "artifact" : {
+        "artifact" : "org.eclipse.persistence:javax.persistence:2.1.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.mathianasj:spring-data-jpa-rsql:0.0.1/dependencies/org/eclipse/persistence/javax.persistence/2.1.1/javax.persistence-2.1.1.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import javax.persistence.criteria.Root;",
+      "artifact" : {
+        "artifact" : "org.hibernate.javax.persistence:hibernate-jpa-2.1-api:1.0.0.Final",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.mathianasj:spring-data-jpa-rsql:0.0.1/dependencies/org/hibernate/javax/persistence/hibernate-jpa-2.1-api/1.0.0.Final/hibernate-jpa-2.1-api-1.0.0.Final.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import javax.persistence.criteria.Root;",
+      "artifact" : {
+        "artifact" : "org.apache.geronimo.specs:geronimo-jpa_2.0_spec:1.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.mathianasj:spring-data-jpa-rsql:0.0.1/dependencies/org/apache/geronimo/specs/geronimo-jpa_2.0_spec/1.1/geronimo-jpa_2.0_spec-1.1.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import javax.persistence.criteria.CriteriaQuery;",
+      "artifact" : {
+        "artifact" : "org.eclipse.persistence:javax.persistence:2.1.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.mathianasj:spring-data-jpa-rsql:0.0.1/dependencies/org/eclipse/persistence/javax.persistence/2.1.1/javax.persistence-2.1.1.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import javax.persistence.criteria.CriteriaQuery;",
+      "artifact" : {
+        "artifact" : "org.hibernate.javax.persistence:hibernate-jpa-2.1-api:1.0.0.Final",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.mathianasj:spring-data-jpa-rsql:0.0.1/dependencies/org/hibernate/javax/persistence/hibernate-jpa-2.1-api/1.0.0.Final/hibernate-jpa-2.1-api-1.0.0.Final.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import javax.persistence.criteria.CriteriaQuery;",
+      "artifact" : {
+        "artifact" : "org.apache.geronimo.specs:geronimo-jpa_2.0_spec:1.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.mathianasj:spring-data-jpa-rsql:0.0.1/dependencies/org/apache/geronimo/specs/geronimo-jpa_2.0_spec/1.1/geronimo-jpa_2.0_spec-1.1.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import javax.persistence.criteria.CriteriaBuilder;",
+      "artifact" : {
+        "artifact" : "org.eclipse.persistence:javax.persistence:2.1.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.mathianasj:spring-data-jpa-rsql:0.0.1/dependencies/org/eclipse/persistence/javax.persistence/2.1.1/javax.persistence-2.1.1.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import javax.persistence.criteria.CriteriaBuilder;",
+      "artifact" : {
+        "artifact" : "org.hibernate.javax.persistence:hibernate-jpa-2.1-api:1.0.0.Final",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.mathianasj:spring-data-jpa-rsql:0.0.1/dependencies/org/hibernate/javax/persistence/hibernate-jpa-2.1-api/1.0.0.Final/hibernate-jpa-2.1-api-1.0.0.Final.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import javax.persistence.criteria.CriteriaBuilder;",
+      "artifact" : {
+        "artifact" : "org.apache.geronimo.specs:geronimo-jpa_2.0_spec:1.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.mathianasj:spring-data-jpa-rsql:0.0.1/dependencies/org/apache/geronimo/specs/geronimo-jpa_2.0_spec/1.1/geronimo-jpa_2.0_spec-1.1.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.ArrayList;",
+      "artifact" : {
+        "artifact" : "org.apache.openjpa:openjpa-kernel:2.4.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.mathianasj:spring-data-jpa-rsql:0.0.1/dependencies/org/apache/openjpa/openjpa-kernel/2.4.1/openjpa-kernel-2.4.1.jar"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/com.github.mathianasj:spring-data-jpa-rsql/src/main/java/com/mathianasj/spring/rsql/CustomRsqlVisitorFactory.java",
+    "useImportReport" : [ ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/com.github.mathianasj:spring-data-jpa-rsql/src/main/java/com/mathianasj/spring/rsql/RsqlRepositoryCustomImpl.java",
+    "useImportReport" : [ {
+      "importPath" : "import org.springframework.data.jpa.repository.support.SimpleJpaRepository;",
+      "artifact" : {
+        "artifact" : "org.springframework.data:spring-data-jpa:1.11.1.RELEASE",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.mathianasj:spring-data-jpa-rsql:0.0.1/dependencies/org/springframework/data/spring-data-jpa/1.11.1.RELEASE/spring-data-jpa-1.11.1.RELEASE.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import java.io.Serializable;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import lombok.Getter;",
+      "artifact" : {
+        "artifact" : "org.projectlombok:lombok:1.16.14",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.mathianasj:spring-data-jpa-rsql:0.0.1/dependencies/org/projectlombok/lombok/1.16.14/lombok-1.16.14.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.springframework.data.jpa.repository.support.JpaEntityInformation;",
+      "artifact" : {
+        "artifact" : "org.springframework.data:spring-data-jpa:1.11.1.RELEASE",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.mathianasj:spring-data-jpa-rsql:0.0.1/dependencies/org/springframework/data/spring-data-jpa/1.11.1.RELEASE/spring-data-jpa-1.11.1.RELEASE.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import javax.persistence.EntityManager;",
+      "artifact" : {
+        "artifact" : "org.eclipse.persistence:javax.persistence:2.1.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.mathianasj:spring-data-jpa-rsql:0.0.1/dependencies/org/eclipse/persistence/javax.persistence/2.1.1/javax.persistence-2.1.1.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import javax.persistence.EntityManager;",
+      "artifact" : {
+        "artifact" : "org.hibernate.javax.persistence:hibernate-jpa-2.1-api:1.0.0.Final",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.mathianasj:spring-data-jpa-rsql:0.0.1/dependencies/org/hibernate/javax/persistence/hibernate-jpa-2.1-api/1.0.0.Final/hibernate-jpa-2.1-api-1.0.0.Final.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import javax.persistence.EntityManager;",
+      "artifact" : {
+        "artifact" : "org.apache.geronimo.specs:geronimo-jpa_2.0_spec:1.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.mathianasj:spring-data-jpa-rsql:0.0.1/dependencies/org/apache/geronimo/specs/geronimo-jpa_2.0_spec/1.1/geronimo-jpa_2.0_spec-1.1.jar"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/com.github.mathianasj:spring-data-jpa-rsql/src/main/java/com/mathianasj/spring/rsql/RsqlSearchController.java",
+    "useImportReport" : [ {
+      "importPath" : "import org.springframework.data.rest.webmvc.RepositoryRestController;",
+      "artifact" : {
+        "artifact" : "org.springframework.data:spring-data-rest-webmvc:2.6.1.RELEASE",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.mathianasj:spring-data-jpa-rsql:0.0.1/dependencies/org/springframework/data/spring-data-rest-webmvc/2.6.1.RELEASE/spring-data-rest-webmvc-2.6.1.RELEASE.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.Map;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.springframework.hateoas.core.EmbeddedWrappers;",
+      "artifact" : {
+        "artifact" : "org.springframework.hateoas:spring-hateoas:0.23.0.RELEASE",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.mathianasj:spring-data-jpa-rsql:0.0.1/dependencies/org/springframework/hateoas/spring-hateoas/0.23.0.RELEASE/spring-hateoas-0.23.0.RELEASE.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.springframework.data.web.PagedResourcesAssembler;",
+      "artifact" : {
+        "artifact" : "org.springframework.data:spring-data-commons:1.13.1.RELEASE",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.mathianasj:spring-data-jpa-rsql:0.0.1/dependencies/org/springframework/data/spring-data-commons/1.13.1.RELEASE/spring-data-commons-1.13.1.RELEASE.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.springframework.data.rest.webmvc.support.RepositoryEntityLinks;",
+      "artifact" : {
+        "artifact" : "org.springframework.data:spring-data-rest-webmvc:2.6.1.RELEASE",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.mathianasj:spring-data-jpa-rsql:0.0.1/dependencies/org/springframework/data/spring-data-rest-webmvc/2.6.1.RELEASE/spring-data-rest-webmvc-2.6.1.RELEASE.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.springframework.data.rest.core.config.RepositoryRestConfiguration;",
+      "artifact" : {
+        "artifact" : "org.springframework.data:spring-data-rest-core:2.6.1.RELEASE",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.mathianasj:spring-data-jpa-rsql:0.0.1/dependencies/org/springframework/data/spring-data-rest-core/2.6.1.RELEASE/spring-data-rest-core-2.6.1.RELEASE.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.springframework.beans.factory.annotation.Autowired;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-beans:4.3.7.RELEASE",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.mathianasj:spring-data-jpa-rsql:0.0.1/dependencies/org/springframework/spring-beans/4.3.7.RELEASE/spring-beans-4.3.7.RELEASE.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.springframework.data.repository.support.Repositories;",
+      "artifact" : {
+        "artifact" : "org.springframework.data:spring-data-commons:1.13.1.RELEASE",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.mathianasj:spring-data-jpa-rsql:0.0.1/dependencies/org/springframework/data/spring-data-commons/1.13.1.RELEASE/spring-data-commons-1.13.1.RELEASE.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.springframework.data.rest.webmvc.HttpHeadersPreparer;",
+      "artifact" : {
+        "artifact" : "org.springframework.data:spring-data-rest-webmvc:2.6.1.RELEASE",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.mathianasj:spring-data-jpa-rsql:0.0.1/dependencies/org/springframework/data/spring-data-rest-webmvc/2.6.1.RELEASE/spring-data-rest-webmvc-2.6.1.RELEASE.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.List;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.HashMap;",
+      "artifact" : {
+        "artifact" : "org.apache.openjpa:openjpa-kernel:2.4.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.mathianasj:spring-data-jpa-rsql:0.0.1/dependencies/org/apache/openjpa/openjpa-kernel/2.4.1/openjpa-kernel-2.4.1.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.springframework.hateoas.Resources;",
+      "artifact" : {
+        "artifact" : "org.springframework.hateoas:spring-hateoas:0.23.0.RELEASE",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.mathianasj:spring-data-jpa-rsql:0.0.1/dependencies/org/springframework/hateoas/spring-hateoas/0.23.0.RELEASE/spring-hateoas-0.23.0.RELEASE.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.springframework.web.bind.annotation.ResponseBody;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-web:4.3.7.RELEASE",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.mathianasj:spring-data-jpa-rsql:0.0.1/dependencies/org/springframework/spring-web/4.3.7.RELEASE/spring-web-4.3.7.RELEASE.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.springframework.web.bind.annotation.RequestMapping;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-web:4.3.7.RELEASE",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.mathianasj:spring-data-jpa-rsql:0.0.1/dependencies/org/springframework/spring-web/4.3.7.RELEASE/spring-web-4.3.7.RELEASE.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.springframework.web.bind.annotation.RequestMethod;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-web:4.3.7.RELEASE",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.mathianasj:spring-data-jpa-rsql:0.0.1/dependencies/org/springframework/spring-web/4.3.7.RELEASE/spring-web-4.3.7.RELEASE.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.springframework.data.rest.webmvc.RootResourceInformation;",
+      "artifact" : {
+        "artifact" : "org.springframework.data:spring-data-rest-webmvc:2.6.1.RELEASE",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.mathianasj:spring-data-jpa-rsql:0.0.1/dependencies/org/springframework/data/spring-data-rest-webmvc/2.6.1.RELEASE/spring-data-rest-webmvc-2.6.1.RELEASE.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.springframework.data.querydsl.binding.QuerydslPredicate;",
+      "artifact" : {
+        "artifact" : "org.springframework.data:spring-data-commons:1.13.1.RELEASE",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.mathianasj:spring-data-jpa-rsql:0.0.1/dependencies/org/springframework/data/spring-data-commons/1.13.1.RELEASE/spring-data-commons-1.13.1.RELEASE.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.springframework.web.bind.annotation.RequestParam;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-web:4.3.7.RELEASE",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.mathianasj:spring-data-jpa-rsql:0.0.1/dependencies/org/springframework/spring-web/4.3.7.RELEASE/spring-web-4.3.7.RELEASE.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.springframework.data.rest.webmvc.support.DefaultedPageable;",
+      "artifact" : {
+        "artifact" : "org.springframework.data:spring-data-rest-webmvc:2.6.1.RELEASE",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.mathianasj:spring-data-jpa-rsql:0.0.1/dependencies/org/springframework/data/spring-data-rest-webmvc/2.6.1.RELEASE/spring-data-rest-webmvc-2.6.1.RELEASE.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.springframework.data.domain.Sort;",
+      "artifact" : {
+        "artifact" : "org.springframework.data:spring-data-commons:1.13.1.RELEASE",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.mathianasj:spring-data-jpa-rsql:0.0.1/dependencies/org/springframework/data/spring-data-commons/1.13.1.RELEASE/spring-data-commons-1.13.1.RELEASE.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.springframework.data.rest.webmvc.PersistentEntityResourceAssembler;",
+      "artifact" : {
+        "artifact" : "org.springframework.data:spring-data-rest-webmvc:2.6.1.RELEASE",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.mathianasj:spring-data-jpa-rsql:0.0.1/dependencies/org/springframework/data/spring-data-rest-webmvc/2.6.1.RELEASE/spring-data-rest-webmvc-2.6.1.RELEASE.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.springframework.data.rest.webmvc.ResourceNotFoundException;",
+      "artifact" : {
+        "artifact" : "org.springframework.data:spring-data-rest-webmvc:2.6.1.RELEASE",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.mathianasj:spring-data-jpa-rsql:0.0.1/dependencies/org/springframework/data/spring-data-rest-webmvc/2.6.1.RELEASE/spring-data-rest-webmvc-2.6.1.RELEASE.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.springframework.web.HttpRequestMethodNotSupportedException;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-web:4.3.7.RELEASE",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.mathianasj:spring-data-jpa-rsql:0.0.1/dependencies/org/springframework/spring-web/4.3.7.RELEASE/spring-web-4.3.7.RELEASE.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.springframework.http.HttpMethod;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-web:4.3.7.RELEASE",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.mathianasj:spring-data-jpa-rsql:0.0.1/dependencies/org/springframework/spring-web/4.3.7.RELEASE/spring-web-4.3.7.RELEASE.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.springframework.data.rest.core.mapping.ResourceType;",
+      "artifact" : {
+        "artifact" : "org.springframework.data:spring-data-rest-core:2.6.1.RELEASE",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.mathianasj:spring-data-jpa-rsql:0.0.1/dependencies/org/springframework/data/spring-data-rest-core/2.6.1.RELEASE/spring-data-rest-core-2.6.1.RELEASE.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.springframework.data.jpa.repository.JpaSpecificationExecutor;",
+      "artifact" : {
+        "artifact" : "org.springframework.data:spring-data-jpa:1.11.1.RELEASE",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.mathianasj:spring-data-jpa-rsql:0.0.1/dependencies/org/springframework/data/spring-data-jpa/1.11.1.RELEASE/spring-data-jpa-1.11.1.RELEASE.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.springframework.data.rest.core.mapping.ResourceMetadata;",
+      "artifact" : {
+        "artifact" : "org.springframework.data:spring-data-rest-core:2.6.1.RELEASE",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.mathianasj:spring-data-jpa-rsql:0.0.1/dependencies/org/springframework/data/spring-data-rest-core/2.6.1.RELEASE/spring-data-rest-core-2.6.1.RELEASE.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.springframework.hateoas.Link;",
+      "artifact" : {
+        "artifact" : "org.springframework.hateoas:spring-hateoas:0.23.0.RELEASE",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.mathianasj:spring-data-jpa-rsql:0.0.1/dependencies/org/springframework/hateoas/spring-hateoas/0.23.0.RELEASE/spring-hateoas-0.23.0.RELEASE.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import cz.jirutka.rsql.parser.ast.Node;",
+      "artifact" : {
+        "artifact" : "cz.jirutka.rsql:rsql-parser:2.0.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.mathianasj:spring-data-jpa-rsql:0.0.1/dependencies/cz/jirutka/rsql/rsql-parser/2.0.0/rsql-parser-2.0.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import cz.jirutka.rsql.parser.RSQLParser;",
+      "artifact" : {
+        "artifact" : "cz.jirutka.rsql:rsql-parser:2.0.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.mathianasj:spring-data-jpa-rsql:0.0.1/dependencies/cz/jirutka/rsql/rsql-parser/2.0.0/rsql-parser-2.0.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.springframework.data.jpa.domain.Specification;",
+      "artifact" : {
+        "artifact" : "org.springframework.data:spring-data-jpa:1.11.1.RELEASE",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.mathianasj:spring-data-jpa-rsql:0.0.1/dependencies/org/springframework/data/spring-data-jpa/1.11.1.RELEASE/spring-data-jpa-1.11.1.RELEASE.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.springframework.hateoas.Resource;",
+      "artifact" : {
+        "artifact" : "org.springframework.hateoas:spring-hateoas:0.23.0.RELEASE",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.mathianasj:spring-data-jpa-rsql:0.0.1/dependencies/org/springframework/hateoas/spring-hateoas/0.23.0.RELEASE/spring-hateoas-0.23.0.RELEASE.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.springframework.data.domain.Page;",
+      "artifact" : {
+        "artifact" : "org.springframework.data:spring-data-commons:1.13.1.RELEASE",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.mathianasj:spring-data-jpa-rsql:0.0.1/dependencies/org/springframework/data/spring-data-commons/1.13.1.RELEASE/spring-data-commons-1.13.1.RELEASE.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.Collections;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.Arrays;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.ArrayList;",
+      "artifact" : {
+        "artifact" : "org.apache.openjpa:openjpa-kernel:2.4.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.mathianasj:spring-data-jpa-rsql:0.0.1/dependencies/org/apache/openjpa/openjpa-kernel/2.4.1/openjpa-kernel-2.4.1.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.springframework.web.servlet.support.ServletUriComponentsBuilder;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-webmvc:4.3.7.RELEASE",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.mathianasj:spring-data-jpa-rsql:0.0.1/dependencies/org/springframework/spring-webmvc/4.3.7.RELEASE/spring-webmvc-4.3.7.RELEASE.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.springframework.data.rest.core.mapping.SearchResourceMappings;",
+      "artifact" : {
+        "artifact" : "org.springframework.data:spring-data-rest-core:2.6.1.RELEASE",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.mathianasj:spring-data-jpa-rsql:0.0.1/dependencies/org/springframework/data/spring-data-rest-core/2.6.1.RELEASE/spring-data-rest-core-2.6.1.RELEASE.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.springframework.data.rest.webmvc.ProfileController;",
+      "artifact" : {
+        "artifact" : "org.springframework.data:spring-data-rest-webmvc:2.6.1.RELEASE",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.mathianasj:spring-data-jpa-rsql:0.0.1/dependencies/org/springframework/data/spring-data-rest-webmvc/2.6.1.RELEASE/spring-data-rest-webmvc-2.6.1.RELEASE.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.springframework.data.rest.webmvc.ProfileResourceProcessor;",
+      "artifact" : {
+        "artifact" : "org.springframework.data:spring-data-rest-webmvc:2.6.1.RELEASE",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.mathianasj:spring-data-jpa-rsql:0.0.1/dependencies/org/springframework/data/spring-data-rest-webmvc/2.6.1.RELEASE/spring-data-rest-webmvc-2.6.1.RELEASE.jar"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  } ],
+  "projectUseDependencies" : [ {
+    "artifact" : "cz.jirutka.rsql:rsql-parser:2.0.0",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.mathianasj:spring-data-jpa-rsql:0.0.1/dependencies/cz/jirutka/rsql/rsql-parser/2.0.0/rsql-parser-2.0.0.jar"
+  }, {
+    "artifact" : "org.springframework.data:spring-data-jpa:1.11.1.RELEASE",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.mathianasj:spring-data-jpa-rsql:0.0.1/dependencies/org/springframework/data/spring-data-jpa/1.11.1.RELEASE/spring-data-jpa-1.11.1.RELEASE.jar"
+  }, {
+    "artifact" : "org.projectlombok:lombok:1.16.14",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.mathianasj:spring-data-jpa-rsql:0.0.1/dependencies/org/projectlombok/lombok/1.16.14/lombok-1.16.14.jar"
+  } ],
+  "projectUseTransitiveDependencies" : [ {
+    "artifact" : "org.springframework.boot:spring-boot-starter-data-rest:1.5.2.RELEASE",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.mathianasj:spring-data-jpa-rsql:0.0.1/dependencies/org/springframework/boot/spring-boot-starter-data-rest/1.5.2.RELEASE/spring-boot-starter-data-rest-1.5.2.RELEASE.jar"
+  }, {
+    "artifact" : "org.springframework.boot:spring-boot-starter-web:1.5.2.RELEASE",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.mathianasj:spring-data-jpa-rsql:0.0.1/dependencies/org/springframework/boot/spring-boot-starter-web/1.5.2.RELEASE/spring-boot-starter-web-1.5.2.RELEASE.jar"
+  }, {
+    "artifact" : "org.springframework.boot:spring-boot-starter-data-rest:1.5.2.RELEASE",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.mathianasj:spring-data-jpa-rsql:0.0.1/dependencies/org/springframework/boot/spring-boot-starter-data-rest/1.5.2.RELEASE/spring-boot-starter-data-rest-1.5.2.RELEASE.jar"
+  }, {
+    "artifact" : "org.springframework.boot:spring-boot-starter-web:1.5.2.RELEASE",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.mathianasj:spring-data-jpa-rsql:0.0.1/dependencies/org/springframework/boot/spring-boot-starter-web/1.5.2.RELEASE/spring-boot-starter-web-1.5.2.RELEASE.jar"
+  }, {
+    "artifact" : "org.springframework.boot:spring-boot-starter-data-rest:1.5.2.RELEASE",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.mathianasj:spring-data-jpa-rsql:0.0.1/dependencies/org/springframework/boot/spring-boot-starter-data-rest/1.5.2.RELEASE/spring-boot-starter-data-rest-1.5.2.RELEASE.jar"
+  }, {
+    "artifact" : "org.springframework.boot:spring-boot-starter-web:1.5.2.RELEASE",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.mathianasj:spring-data-jpa-rsql:0.0.1/dependencies/org/springframework/boot/spring-boot-starter-web/1.5.2.RELEASE/spring-boot-starter-web-1.5.2.RELEASE.jar"
+  }, {
+    "artifact" : "org.springframework.boot:spring-boot-starter-data-rest:1.5.2.RELEASE",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.mathianasj:spring-data-jpa-rsql:0.0.1/dependencies/org/springframework/boot/spring-boot-starter-data-rest/1.5.2.RELEASE/spring-boot-starter-data-rest-1.5.2.RELEASE.jar"
+  }, {
+    "artifact" : "org.apache.openjpa:openjpa-persistence-jdbc:2.4.1",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.mathianasj:spring-data-jpa-rsql:0.0.1/dependencies/org/apache/openjpa/openjpa-persistence-jdbc/2.4.1/openjpa-persistence-jdbc-2.4.1.jar"
+  }, {
+    "artifact" : "org.eclipse.persistence:org.eclipse.persistence.jpa:2.6.2",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.mathianasj:spring-data-jpa-rsql:0.0.1/dependencies/org/eclipse/persistence/org.eclipse.persistence.jpa/2.6.2/org.eclipse.persistence.jpa-2.6.2.jar"
+  }, {
+    "artifact" : "org.springframework.boot:spring-boot-starter-data-rest:1.5.2.RELEASE",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.mathianasj:spring-data-jpa-rsql:0.0.1/dependencies/org/springframework/boot/spring-boot-starter-data-rest/1.5.2.RELEASE/spring-boot-starter-data-rest-1.5.2.RELEASE.jar"
+  }, {
+    "artifact" : "org.springframework.boot:spring-boot-starter-web:1.5.2.RELEASE",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.mathianasj:spring-data-jpa-rsql:0.0.1/dependencies/org/springframework/boot/spring-boot-starter-web/1.5.2.RELEASE/spring-boot-starter-web-1.5.2.RELEASE.jar"
+  }, {
+    "artifact" : "org.hibernate:hibernate-entitymanager:5.0.11.Final",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.mathianasj:spring-data-jpa-rsql:0.0.1/dependencies/org/hibernate/hibernate-entitymanager/5.0.11.Final/hibernate-entitymanager-5.0.11.Final.jar"
+  }, {
+    "artifact" : "org.apache.openjpa:openjpa-persistence-jdbc:2.4.1",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.mathianasj:spring-data-jpa-rsql:0.0.1/dependencies/org/apache/openjpa/openjpa-persistence-jdbc/2.4.1/openjpa-persistence-jdbc-2.4.1.jar"
+  }, {
+    "artifact" : "org.springframework.boot:spring-boot-starter-data-rest:1.5.2.RELEASE",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.mathianasj:spring-data-jpa-rsql:0.0.1/dependencies/org/springframework/boot/spring-boot-starter-data-rest/1.5.2.RELEASE/spring-boot-starter-data-rest-1.5.2.RELEASE.jar"
+  }, {
+    "artifact" : "org.springframework.boot:spring-boot-starter-data-rest:1.5.2.RELEASE",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.mathianasj:spring-data-jpa-rsql:0.0.1/dependencies/org/springframework/boot/spring-boot-starter-data-rest/1.5.2.RELEASE/spring-boot-starter-data-rest-1.5.2.RELEASE.jar"
+  }, {
+    "artifact" : "org.springframework.boot:spring-boot-starter-web:1.5.2.RELEASE",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.mathianasj:spring-data-jpa-rsql:0.0.1/dependencies/org/springframework/boot/spring-boot-starter-web/1.5.2.RELEASE/spring-boot-starter-web-1.5.2.RELEASE.jar"
+  }, {
+    "artifact" : "org.springframework.boot:spring-boot-starter-data-rest:1.5.2.RELEASE",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.mathianasj:spring-data-jpa-rsql:0.0.1/dependencies/org/springframework/boot/spring-boot-starter-data-rest/1.5.2.RELEASE/spring-boot-starter-data-rest-1.5.2.RELEASE.jar"
+  }, {
+    "artifact" : "org.springframework.boot:spring-boot-starter-web:1.5.2.RELEASE",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.mathianasj:spring-data-jpa-rsql:0.0.1/dependencies/org/springframework/boot/spring-boot-starter-web/1.5.2.RELEASE/spring-boot-starter-web-1.5.2.RELEASE.jar"
+  }, {
+    "artifact" : "org.springframework.boot:spring-boot-starter-data-rest:1.5.2.RELEASE",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.mathianasj:spring-data-jpa-rsql:0.0.1/dependencies/org/springframework/boot/spring-boot-starter-data-rest/1.5.2.RELEASE/spring-boot-starter-data-rest-1.5.2.RELEASE.jar"
+  }, {
+    "artifact" : "org.springframework.boot:spring-boot-starter-web:1.5.2.RELEASE",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.mathianasj:spring-data-jpa-rsql:0.0.1/dependencies/org/springframework/boot/spring-boot-starter-web/1.5.2.RELEASE/spring-boot-starter-web-1.5.2.RELEASE.jar"
+  } ],
+  "projectUnusedDependencies" : [ ]
+}

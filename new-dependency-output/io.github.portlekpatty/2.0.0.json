@@ -1,0 +1,1368 @@
+{
+  "projectArtifact" : "io.github.portlek:patty:2.0.0",
+  "repositoryDir" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/io.github.portlek:patty",
+  "repositorySubDir" : "",
+  "artifactLocation" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.github.portlek:patty:2.0.0",
+  "fileImportReports" : [ {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/io.github.portlek:patty/src/test/java/io/github/portlek/patty/TestClientConnectionListener.java",
+    "useImportReport" : [ {
+      "importPath" : "import org.jetbrains.annotations.NotNull;",
+      "artifact" : {
+        "artifact" : "org.jetbrains:annotations:20.1.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.github.portlek:patty:2.0.0/dependencies/org/jetbrains/annotations/20.1.0/annotations-20.1.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.jetbrains.annotations.Nullable;",
+      "artifact" : {
+        "artifact" : "org.jetbrains:annotations:20.1.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.github.portlek:patty:2.0.0/dependencies/org/jetbrains/annotations/20.1.0/annotations-20.1.0.jar"
+      },
+      "isDirectDependency" : true
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ {
+      "importPath" : "import io.github.portlek.patty.packets.TestPingPacket;"
+    } ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/io.github.portlek:patty/src/test/java/io/github/portlek/patty/Packets.java",
+    "useImportReport" : [ {
+      "importPath" : "import org.jetbrains.annotations.NotNull;",
+      "artifact" : {
+        "artifact" : "org.jetbrains:annotations:20.1.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.github.portlek:patty:2.0.0/dependencies/org/jetbrains/annotations/20.1.0/annotations-20.1.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import java.util.Arrays;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ {
+      "importPath" : "import io.github.portlek.patty.packets.TestPingPacket;"
+    } ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/io.github.portlek:patty/src/test/java/io/github/portlek/patty/TestRunner.java",
+    "useImportReport" : [ {
+      "importPath" : "import javax.crypto.KeyGenerator;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import javax.crypto.SecretKey;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/io.github.portlek:patty/src/test/java/io/github/portlek/patty/TestPacketEncryptor.java",
+    "useImportReport" : [ {
+      "importPath" : "import io.github.portlek.patty.tcp.PacketEncryptor;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import javax.crypto.Cipher;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.jetbrains.annotations.NotNull;",
+      "artifact" : {
+        "artifact" : "org.jetbrains:annotations:20.1.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.github.portlek:patty:2.0.0/dependencies/org/jetbrains/annotations/20.1.0/annotations-20.1.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import javax.crypto.SecretKey;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import javax.crypto.NoSuchPaddingException;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.security.NoSuchAlgorithmException;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.security.InvalidAlgorithmParameterException;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.security.InvalidKeyException;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import javax.crypto.spec.IvParameterSpec;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ {
+      "importPath" : "import java.security.Key;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/io.github.portlek:patty/src/test/java/io/github/portlek/patty/TestPacketSizer.java",
+    "useImportReport" : [ ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/io.github.portlek:patty/src/test/java/io/github/portlek/patty/TestServerConnectionListener.java",
+    "useImportReport" : [ {
+      "importPath" : "import org.jetbrains.annotations.NotNull;",
+      "artifact" : {
+        "artifact" : "org.jetbrains:annotations:20.1.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.github.portlek:patty:2.0.0/dependencies/org/jetbrains/annotations/20.1.0/annotations-20.1.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.jetbrains.annotations.Nullable;",
+      "artifact" : {
+        "artifact" : "org.jetbrains:annotations:20.1.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.github.portlek:patty:2.0.0/dependencies/org/jetbrains/annotations/20.1.0/annotations-20.1.0.jar"
+      },
+      "isDirectDependency" : true
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ {
+      "importPath" : "import io.github.portlek.patty.packets.TestPingPacket;"
+    } ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/io.github.portlek:patty/src/test/java/io/github/portlek/patty/packets/TestPingPacket.java",
+    "useImportReport" : [ {
+      "importPath" : "import io.github.portlek.patty.Packet;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.jetbrains.annotations.Nullable;",
+      "artifact" : {
+        "artifact" : "org.jetbrains:annotations:20.1.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.github.portlek:patty:2.0.0/dependencies/org/jetbrains/annotations/20.1.0/annotations-20.1.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import io.netty.buffer.ByteBuf;",
+      "artifact" : {
+        "artifact" : "io.netty:netty-all:4.1.52.Final",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.github.portlek:patty:2.0.0/dependencies/io/netty/netty-all/4.1.52.Final/netty-all-4.1.52.Final.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.jetbrains.annotations.NotNull;",
+      "artifact" : {
+        "artifact" : "org.jetbrains:annotations:20.1.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.github.portlek:patty:2.0.0/dependencies/org/jetbrains/annotations/20.1.0/annotations-20.1.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import io.github.portlek.patty.Connection;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.nio.charset.StandardCharsets;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/io.github.portlek:patty/src/test/java/io/github/portlek/patty/TestServerListener.java",
+    "useImportReport" : [ {
+      "importPath" : "import org.jetbrains.annotations.NotNull;",
+      "artifact" : {
+        "artifact" : "org.jetbrains:annotations:20.1.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.github.portlek:patty:2.0.0/dependencies/org/jetbrains/annotations/20.1.0/annotations-20.1.0.jar"
+      },
+      "isDirectDependency" : true
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/io.github.portlek:patty/src/test/java/io/github/portlek/patty/TestPacketHeader.java",
+    "useImportReport" : [ {
+      "importPath" : "import io.netty.buffer.ByteBuf;",
+      "artifact" : {
+        "artifact" : "io.netty:netty-all:4.1.52.Final",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.github.portlek:patty:2.0.0/dependencies/io/netty/netty-all/4.1.52.Final/netty-all-4.1.52.Final.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.jetbrains.annotations.NotNull;",
+      "artifact" : {
+        "artifact" : "org.jetbrains:annotations:20.1.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.github.portlek:patty:2.0.0/dependencies/org/jetbrains/annotations/20.1.0/annotations-20.1.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import java.io.IOException;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import io.github.portlek.patty.util.ReadWrite;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/io.github.portlek:patty/src/main/java/io/github/portlek/patty/ServerListener.java",
+    "useImportReport" : [ {
+      "importPath" : "import org.jetbrains.annotations.NotNull;",
+      "artifact" : {
+        "artifact" : "org.jetbrains:annotations:20.1.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.github.portlek:patty:2.0.0/dependencies/org/jetbrains/annotations/20.1.0/annotations-20.1.0.jar"
+      },
+      "isDirectDependency" : true
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/io.github.portlek:patty/src/main/java/io/github/portlek/patty/PacketRegistry.java",
+    "useImportReport" : [ {
+      "importPath" : "import java.util.Map;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.lang.reflect.Constructor;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.HashMap;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.Optional;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.jetbrains.annotations.NotNull;",
+      "artifact" : {
+        "artifact" : "org.jetbrains:annotations:20.1.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.github.portlek:patty:2.0.0/dependencies/org/jetbrains/annotations/20.1.0/annotations-20.1.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import java.lang.reflect.InvocationTargetException;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/io.github.portlek:patty/src/main/java/io/github/portlek/patty/util/ReadWrite.java",
+    "useImportReport" : [ {
+      "importPath" : "import io.netty.buffer.ByteBuf;",
+      "artifact" : {
+        "artifact" : "io.netty:netty-all:4.1.52.Final",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.github.portlek:patty:2.0.0/dependencies/io/netty/netty-all/4.1.52.Final/netty-all-4.1.52.Final.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import java.io.IOException;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/io.github.portlek:patty/src/main/java/io/github/portlek/patty/Patty.java",
+    "useImportReport" : [ {
+      "importPath" : "import org.jetbrains.annotations.NotNull;",
+      "artifact" : {
+        "artifact" : "org.jetbrains:annotations:20.1.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.github.portlek:patty:2.0.0/dependencies/org/jetbrains/annotations/20.1.0/annotations-20.1.0.jar"
+      },
+      "isDirectDependency" : true
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/io.github.portlek:patty/src/main/java/io/github/portlek/patty/PacketHeader.java",
+    "useImportReport" : [ {
+      "importPath" : "import io.netty.buffer.ByteBuf;",
+      "artifact" : {
+        "artifact" : "io.netty:netty-all:4.1.52.Final",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.github.portlek:patty:2.0.0/dependencies/io/netty/netty-all/4.1.52.Final/netty-all-4.1.52.Final.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.jetbrains.annotations.NotNull;",
+      "artifact" : {
+        "artifact" : "org.jetbrains:annotations:20.1.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.github.portlek:patty:2.0.0/dependencies/org/jetbrains/annotations/20.1.0/annotations-20.1.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import java.io.IOException;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/io.github.portlek:patty/src/main/java/io/github/portlek/patty/Protocol.java",
+    "useImportReport" : [ {
+      "importPath" : "import io.github.portlek.patty.tcp.PacketEncryptor;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.jetbrains.annotations.Nullable;",
+      "artifact" : {
+        "artifact" : "org.jetbrains:annotations:20.1.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.github.portlek:patty:2.0.0/dependencies/org/jetbrains/annotations/20.1.0/annotations-20.1.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.jetbrains.annotations.NotNull;",
+      "artifact" : {
+        "artifact" : "org.jetbrains:annotations:20.1.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.github.portlek:patty:2.0.0/dependencies/org/jetbrains/annotations/20.1.0/annotations-20.1.0.jar"
+      },
+      "isDirectDependency" : true
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/io.github.portlek:patty/src/main/java/io/github/portlek/patty/PattyServer.java",
+    "useImportReport" : [ {
+      "importPath" : "import java.util.List;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.ArrayList;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.jetbrains.annotations.NotNull;",
+      "artifact" : {
+        "artifact" : "org.jetbrains:annotations:20.1.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.github.portlek:patty:2.0.0/dependencies/org/jetbrains/annotations/20.1.0/annotations-20.1.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.jetbrains.annotations.Nullable;",
+      "artifact" : {
+        "artifact" : "org.jetbrains:annotations:20.1.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.github.portlek:patty:2.0.0/dependencies/org/jetbrains/annotations/20.1.0/annotations-20.1.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import io.github.portlek.patty.tcp.PacketEncryptor;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import io.github.portlek.patty.tcp.TcpProtocol;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import io.github.portlek.patty.tcp.TcpServerConnection;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.net.InetSocketAddress;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/io.github.portlek:patty/src/main/java/io/github/portlek/patty/ConnectionListener.java",
+    "useImportReport" : [ {
+      "importPath" : "import org.jetbrains.annotations.NotNull;",
+      "artifact" : {
+        "artifact" : "org.jetbrains:annotations:20.1.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.github.portlek:patty:2.0.0/dependencies/org/jetbrains/annotations/20.1.0/annotations-20.1.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.jetbrains.annotations.Nullable;",
+      "artifact" : {
+        "artifact" : "org.jetbrains:annotations:20.1.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.github.portlek:patty:2.0.0/dependencies/org/jetbrains/annotations/20.1.0/annotations-20.1.0.jar"
+      },
+      "isDirectDependency" : true
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/io.github.portlek:patty/src/main/java/io/github/portlek/patty/PattyClient.java",
+    "useImportReport" : [ {
+      "importPath" : "import org.jetbrains.annotations.NotNull;",
+      "artifact" : {
+        "artifact" : "org.jetbrains:annotations:20.1.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.github.portlek:patty:2.0.0/dependencies/org/jetbrains/annotations/20.1.0/annotations-20.1.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import io.github.portlek.patty.tcp.PacketEncryptor;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.jetbrains.annotations.Nullable;",
+      "artifact" : {
+        "artifact" : "org.jetbrains:annotations:20.1.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.github.portlek:patty:2.0.0/dependencies/org/jetbrains/annotations/20.1.0/annotations-20.1.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import io.github.portlek.patty.tcp.TcpProtocol;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import io.github.portlek.patty.tcp.TcpClientConnection;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.net.InetSocketAddress;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/io.github.portlek:patty/src/main/java/io/github/portlek/patty/tcp/TcpProtocol.java",
+    "useImportReport" : [ {
+      "importPath" : "import io.github.portlek.patty.*;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.jetbrains.annotations.Nullable;",
+      "artifact" : {
+        "artifact" : "org.jetbrains:annotations:20.1.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.github.portlek:patty:2.0.0/dependencies/org/jetbrains/annotations/20.1.0/annotations-20.1.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import io.github.portlek.patty.*;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.jetbrains.annotations.NotNull;",
+      "artifact" : {
+        "artifact" : "org.jetbrains:annotations:20.1.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.github.portlek:patty:2.0.0/dependencies/org/jetbrains/annotations/20.1.0/annotations-20.1.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import io.github.portlek.patty.*;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import io.github.portlek.patty.*;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import io.github.portlek.patty.*;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/io.github.portlek:patty/src/main/java/io/github/portlek/patty/tcp/TcpServerConnection.java",
+    "useImportReport" : [ {
+      "importPath" : "import io.github.portlek.patty.Connection;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import io.netty.channel.socket.ServerSocketChannel;",
+      "artifact" : {
+        "artifact" : "io.netty:netty-all:4.1.52.Final",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.github.portlek:patty:2.0.0/dependencies/io/netty/netty-all/4.1.52.Final/netty-all-4.1.52.Final.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import io.netty.channel.epoll.Epoll;",
+      "artifact" : {
+        "artifact" : "io.netty:netty-all:4.1.52.Final",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.github.portlek:patty:2.0.0/dependencies/io/netty/netty-all/4.1.52.Final/netty-all-4.1.52.Final.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import io.netty.channel.epoll.EpollServerSocketChannel;",
+      "artifact" : {
+        "artifact" : "io.netty:netty-all:4.1.52.Final",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.github.portlek:patty:2.0.0/dependencies/io/netty/netty-all/4.1.52.Final/netty-all-4.1.52.Final.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import io.netty.channel.socket.nio.NioServerSocketChannel;",
+      "artifact" : {
+        "artifact" : "io.netty:netty-all:4.1.52.Final",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.github.portlek:patty:2.0.0/dependencies/io/netty/netty-all/4.1.52.Final/netty-all-4.1.52.Final.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import io.github.portlek.patty.PattyServer;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.jetbrains.annotations.NotNull;",
+      "artifact" : {
+        "artifact" : "org.jetbrains:annotations:20.1.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.github.portlek:patty:2.0.0/dependencies/org/jetbrains/annotations/20.1.0/annotations-20.1.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import java.net.SocketAddress;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import io.netty.channel.*;",
+      "artifact" : {
+        "artifact" : "io.netty:netty-all:4.1.52.Final",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.github.portlek:patty:2.0.0/dependencies/io/netty/netty-all/4.1.52.Final/netty-all-4.1.52.Final.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import io.netty.channel.*;",
+      "artifact" : {
+        "artifact" : "io.netty:netty-all:4.1.52.Final",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.github.portlek:patty:2.0.0/dependencies/io/netty/netty-all/4.1.52.Final/netty-all-4.1.52.Final.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import io.netty.bootstrap.ServerBootstrap;",
+      "artifact" : {
+        "artifact" : "io.netty:netty-all:4.1.52.Final",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.github.portlek:patty:2.0.0/dependencies/io/netty/netty-all/4.1.52.Final/netty-all-4.1.52.Final.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import io.netty.channel.*;",
+      "artifact" : {
+        "artifact" : "io.netty:netty-all:4.1.52.Final",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.github.portlek:patty:2.0.0/dependencies/io/netty/netty-all/4.1.52.Final/netty-all-4.1.52.Final.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import io.netty.channel.*;",
+      "artifact" : {
+        "artifact" : "io.netty:netty-all:4.1.52.Final",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.github.portlek:patty:2.0.0/dependencies/io/netty/netty-all/4.1.52.Final/netty-all-4.1.52.Final.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import io.netty.channel.*;",
+      "artifact" : {
+        "artifact" : "io.netty:netty-all:4.1.52.Final",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.github.portlek:patty:2.0.0/dependencies/io/netty/netty-all/4.1.52.Final/netty-all-4.1.52.Final.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import io.github.portlek.patty.tcp.pipeline.TcpPacketEncryptor;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import io.github.portlek.patty.tcp.pipeline.TcpPacketSizer;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import io.github.portlek.patty.tcp.pipeline.TcpPacketCodec;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import io.github.portlek.patty.ServerListener;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import io.netty.channel.*;",
+      "artifact" : {
+        "artifact" : "io.netty:netty-all:4.1.52.Final",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.github.portlek:patty:2.0.0/dependencies/io/netty/netty-all/4.1.52.Final/netty-all-4.1.52.Final.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import io.netty.util.concurrent.Future;",
+      "artifact" : {
+        "artifact" : "io.netty:netty-all:4.1.52.Final",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.github.portlek:patty:2.0.0/dependencies/io/netty/netty-all/4.1.52.Final/netty-all-4.1.52.Final.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import io.netty.util.concurrent.GenericFutureListener;",
+      "artifact" : {
+        "artifact" : "io.netty:netty-all:4.1.52.Final",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.github.portlek:patty:2.0.0/dependencies/io/netty/netty-all/4.1.52.Final/netty-all-4.1.52.Final.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import io.netty.channel.*;",
+      "artifact" : {
+        "artifact" : "io.netty:netty-all:4.1.52.Final",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.github.portlek:patty:2.0.0/dependencies/io/netty/netty-all/4.1.52.Final/netty-all-4.1.52.Final.jar"
+      },
+      "isDirectDependency" : true
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/io.github.portlek:patty/src/main/java/io/github/portlek/patty/tcp/pipeline/TcpPacketEncryptor.java",
+    "useImportReport" : [ {
+      "importPath" : "import io.netty.handler.codec.ByteToMessageCodec;",
+      "artifact" : {
+        "artifact" : "io.netty:netty-all:4.1.52.Final",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.github.portlek:patty:2.0.0/dependencies/io/netty/netty-all/4.1.52.Final/netty-all-4.1.52.Final.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import io.netty.buffer.ByteBuf;",
+      "artifact" : {
+        "artifact" : "io.netty:netty-all:4.1.52.Final",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.github.portlek:patty:2.0.0/dependencies/io/netty/netty-all/4.1.52.Final/netty-all-4.1.52.Final.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import io.github.portlek.patty.Protocol;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.jetbrains.annotations.NotNull;",
+      "artifact" : {
+        "artifact" : "org.jetbrains:annotations:20.1.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.github.portlek:patty:2.0.0/dependencies/org/jetbrains/annotations/20.1.0/annotations-20.1.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import io.github.portlek.patty.Patty;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import io.netty.channel.ChannelHandlerContext;",
+      "artifact" : {
+        "artifact" : "io.netty:netty-all:4.1.52.Final",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.github.portlek:patty:2.0.0/dependencies/io/netty/netty-all/4.1.52.Final/netty-all-4.1.52.Final.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import io.github.portlek.patty.tcp.PacketEncryptor;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.List;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/io.github.portlek:patty/src/main/java/io/github/portlek/patty/tcp/pipeline/TcpPacketCompressor.java",
+    "useImportReport" : [ {
+      "importPath" : "import io.netty.handler.codec.ByteToMessageCodec;",
+      "artifact" : {
+        "artifact" : "io.netty:netty-all:4.1.52.Final",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.github.portlek:patty:2.0.0/dependencies/io/netty/netty-all/4.1.52.Final/netty-all-4.1.52.Final.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import io.netty.buffer.ByteBuf;",
+      "artifact" : {
+        "artifact" : "io.netty:netty-all:4.1.52.Final",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.github.portlek:patty:2.0.0/dependencies/io/netty/netty-all/4.1.52.Final/netty-all-4.1.52.Final.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import io.github.portlek.patty.Connection;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.jetbrains.annotations.NotNull;",
+      "artifact" : {
+        "artifact" : "org.jetbrains:annotations:20.1.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.github.portlek:patty:2.0.0/dependencies/org/jetbrains/annotations/20.1.0/annotations-20.1.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import java.util.zip.Deflater;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.zip.Inflater;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import io.netty.channel.ChannelHandlerContext;",
+      "artifact" : {
+        "artifact" : "io.netty:netty-all:4.1.52.Final",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.github.portlek:patty:2.0.0/dependencies/io/netty/netty-all/4.1.52.Final/netty-all-4.1.52.Final.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import io.github.portlek.patty.util.ReadWrite;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.List;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import io.netty.handler.codec.DecoderException;",
+      "artifact" : {
+        "artifact" : "io.netty:netty-all:4.1.52.Final",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.github.portlek:patty:2.0.0/dependencies/io/netty/netty-all/4.1.52.Final/netty-all-4.1.52.Final.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import io.netty.buffer.Unpooled;",
+      "artifact" : {
+        "artifact" : "io.netty:netty-all:4.1.52.Final",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.github.portlek:patty:2.0.0/dependencies/io/netty/netty-all/4.1.52.Final/netty-all-4.1.52.Final.jar"
+      },
+      "isDirectDependency" : true
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/io.github.portlek:patty/src/main/java/io/github/portlek/patty/tcp/pipeline/TcpPacketSizer.java",
+    "useImportReport" : [ {
+      "importPath" : "import io.netty.handler.codec.ByteToMessageCodec;",
+      "artifact" : {
+        "artifact" : "io.netty:netty-all:4.1.52.Final",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.github.portlek:patty:2.0.0/dependencies/io/netty/netty-all/4.1.52.Final/netty-all-4.1.52.Final.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import io.netty.buffer.ByteBuf;",
+      "artifact" : {
+        "artifact" : "io.netty:netty-all:4.1.52.Final",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.github.portlek:patty:2.0.0/dependencies/io/netty/netty-all/4.1.52.Final/netty-all-4.1.52.Final.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import io.github.portlek.patty.Protocol;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.jetbrains.annotations.NotNull;",
+      "artifact" : {
+        "artifact" : "org.jetbrains:annotations:20.1.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.github.portlek:patty:2.0.0/dependencies/org/jetbrains/annotations/20.1.0/annotations-20.1.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import io.github.portlek.patty.Patty;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import io.netty.channel.ChannelHandlerContext;",
+      "artifact" : {
+        "artifact" : "io.netty:netty-all:4.1.52.Final",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.github.portlek:patty:2.0.0/dependencies/io/netty/netty-all/4.1.52.Final/netty-all-4.1.52.Final.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import java.util.List;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import io.netty.buffer.Unpooled;",
+      "artifact" : {
+        "artifact" : "io.netty:netty-all:4.1.52.Final",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.github.portlek:patty:2.0.0/dependencies/io/netty/netty-all/4.1.52.Final/netty-all-4.1.52.Final.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import io.netty.handler.codec.CorruptedFrameException;",
+      "artifact" : {
+        "artifact" : "io.netty:netty-all:4.1.52.Final",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.github.portlek:patty:2.0.0/dependencies/io/netty/netty-all/4.1.52.Final/netty-all-4.1.52.Final.jar"
+      },
+      "isDirectDependency" : true
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/io.github.portlek:patty/src/main/java/io/github/portlek/patty/tcp/pipeline/TcpPacketCodec.java",
+    "useImportReport" : [ {
+      "importPath" : "import io.netty.handler.codec.ByteToMessageCodec;",
+      "artifact" : {
+        "artifact" : "io.netty:netty-all:4.1.52.Final",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.github.portlek:patty:2.0.0/dependencies/io/netty/netty-all/4.1.52.Final/netty-all-4.1.52.Final.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import io.github.portlek.patty.*;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import io.github.portlek.patty.*;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.jetbrains.annotations.NotNull;",
+      "artifact" : {
+        "artifact" : "org.jetbrains:annotations:20.1.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.github.portlek:patty:2.0.0/dependencies/org/jetbrains/annotations/20.1.0/annotations-20.1.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import io.github.portlek.patty.*;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import io.netty.channel.ChannelHandlerContext;",
+      "artifact" : {
+        "artifact" : "io.netty:netty-all:4.1.52.Final",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.github.portlek:patty:2.0.0/dependencies/io/netty/netty-all/4.1.52.Final/netty-all-4.1.52.Final.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import io.netty.buffer.ByteBuf;",
+      "artifact" : {
+        "artifact" : "io.netty:netty-all:4.1.52.Final",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.github.portlek:patty:2.0.0/dependencies/io/netty/netty-all/4.1.52.Final/netty-all-4.1.52.Final.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import io.github.portlek.patty.*;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.List;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.Optional;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import io.github.portlek.patty.*;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/io.github.portlek:patty/src/main/java/io/github/portlek/patty/tcp/PacketEncryptor.java",
+    "useImportReport" : [ ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/io.github.portlek:patty/src/main/java/io/github/portlek/patty/tcp/TcpClientConnection.java",
+    "useImportReport" : [ {
+      "importPath" : "import io.github.portlek.patty.Connection;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import io.netty.channel.socket.SocketChannel;",
+      "artifact" : {
+        "artifact" : "io.netty:netty-all:4.1.52.Final",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.github.portlek:patty:2.0.0/dependencies/io/netty/netty-all/4.1.52.Final/netty-all-4.1.52.Final.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import io.netty.channel.epoll.Epoll;",
+      "artifact" : {
+        "artifact" : "io.netty:netty-all:4.1.52.Final",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.github.portlek:patty:2.0.0/dependencies/io/netty/netty-all/4.1.52.Final/netty-all-4.1.52.Final.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import io.netty.channel.epoll.EpollSocketChannel;",
+      "artifact" : {
+        "artifact" : "io.netty:netty-all:4.1.52.Final",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.github.portlek:patty:2.0.0/dependencies/io/netty/netty-all/4.1.52.Final/netty-all-4.1.52.Final.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import io.netty.channel.socket.nio.NioSocketChannel;",
+      "artifact" : {
+        "artifact" : "io.netty:netty-all:4.1.52.Final",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.github.portlek:patty:2.0.0/dependencies/io/netty/netty-all/4.1.52.Final/netty-all-4.1.52.Final.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import io.github.portlek.patty.Patty;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.jetbrains.annotations.NotNull;",
+      "artifact" : {
+        "artifact" : "org.jetbrains:annotations:20.1.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.github.portlek:patty:2.0.0/dependencies/org/jetbrains/annotations/20.1.0/annotations-20.1.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import java.net.SocketAddress;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.jetbrains.annotations.Nullable;",
+      "artifact" : {
+        "artifact" : "org.jetbrains:annotations:20.1.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.github.portlek:patty:2.0.0/dependencies/org/jetbrains/annotations/20.1.0/annotations-20.1.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import io.netty.bootstrap.Bootstrap;",
+      "artifact" : {
+        "artifact" : "io.netty:netty-all:4.1.52.Final",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.github.portlek:patty:2.0.0/dependencies/io/netty/netty-all/4.1.52.Final/netty-all-4.1.52.Final.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import io.netty.channel.Channel;",
+      "artifact" : {
+        "artifact" : "io.netty:netty-all:4.1.52.Final",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.github.portlek:patty:2.0.0/dependencies/io/netty/netty-all/4.1.52.Final/netty-all-4.1.52.Final.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import io.netty.channel.ChannelInitializer;",
+      "artifact" : {
+        "artifact" : "io.netty:netty-all:4.1.52.Final",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.github.portlek:patty:2.0.0/dependencies/io/netty/netty-all/4.1.52.Final/netty-all-4.1.52.Final.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import io.netty.channel.ChannelOption;",
+      "artifact" : {
+        "artifact" : "io.netty:netty-all:4.1.52.Final",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.github.portlek:patty:2.0.0/dependencies/io/netty/netty-all/4.1.52.Final/netty-all-4.1.52.Final.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import io.netty.channel.ChannelPipeline;",
+      "artifact" : {
+        "artifact" : "io.netty:netty-all:4.1.52.Final",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.github.portlek:patty:2.0.0/dependencies/io/netty/netty-all/4.1.52.Final/netty-all-4.1.52.Final.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import io.github.portlek.patty.tcp.pipeline.TcpPacketEncryptor;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import io.github.portlek.patty.tcp.pipeline.TcpPacketSizer;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import io.github.portlek.patty.tcp.pipeline.TcpPacketCodec;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/io.github.portlek:patty/src/main/java/io/github/portlek/patty/Connection.java",
+    "useImportReport" : [ {
+      "importPath" : "import io.netty.channel.*;",
+      "artifact" : {
+        "artifact" : "io.netty:netty-all:4.1.52.Final",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.github.portlek:patty:2.0.0/dependencies/io/netty/netty-all/4.1.52.Final/netty-all-4.1.52.Final.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.jetbrains.annotations.NotNull;",
+      "artifact" : {
+        "artifact" : "org.jetbrains:annotations:20.1.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.github.portlek:patty:2.0.0/dependencies/org/jetbrains/annotations/20.1.0/annotations-20.1.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import java.util.concurrent.BlockingQueue;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.concurrent.LinkedBlockingQueue;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.net.SocketAddress;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import io.netty.channel.*;",
+      "artifact" : {
+        "artifact" : "io.netty:netty-all:4.1.52.Final",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.github.portlek:patty:2.0.0/dependencies/io/netty/netty-all/4.1.52.Final/netty-all-4.1.52.Final.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import io.netty.channel.epoll.Epoll;",
+      "artifact" : {
+        "artifact" : "io.netty:netty-all:4.1.52.Final",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.github.portlek:patty:2.0.0/dependencies/io/netty/netty-all/4.1.52.Final/netty-all-4.1.52.Final.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import io.netty.channel.epoll.EpollEventLoopGroup;",
+      "artifact" : {
+        "artifact" : "io.netty:netty-all:4.1.52.Final",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.github.portlek:patty:2.0.0/dependencies/io/netty/netty-all/4.1.52.Final/netty-all-4.1.52.Final.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import io.netty.channel.nio.NioEventLoopGroup;",
+      "artifact" : {
+        "artifact" : "io.netty:netty-all:4.1.52.Final",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.github.portlek:patty:2.0.0/dependencies/io/netty/netty-all/4.1.52.Final/netty-all-4.1.52.Final.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import io.netty.channel.*;",
+      "artifact" : {
+        "artifact" : "io.netty:netty-all:4.1.52.Final",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.github.portlek:patty:2.0.0/dependencies/io/netty/netty-all/4.1.52.Final/netty-all-4.1.52.Final.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.jetbrains.annotations.Nullable;",
+      "artifact" : {
+        "artifact" : "org.jetbrains:annotations:20.1.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.github.portlek:patty:2.0.0/dependencies/org/jetbrains/annotations/20.1.0/annotations-20.1.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import io.netty.channel.*;",
+      "artifact" : {
+        "artifact" : "io.netty:netty-all:4.1.52.Final",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.github.portlek:patty:2.0.0/dependencies/io/netty/netty-all/4.1.52.Final/netty-all-4.1.52.Final.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import io.netty.channel.*;",
+      "artifact" : {
+        "artifact" : "io.netty:netty-all:4.1.52.Final",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.github.portlek:patty:2.0.0/dependencies/io/netty/netty-all/4.1.52.Final/netty-all-4.1.52.Final.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import java.net.ConnectException;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import io.netty.handler.timeout.ReadTimeoutException;",
+      "artifact" : {
+        "artifact" : "io.netty:netty-all:4.1.52.Final",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.github.portlek:patty:2.0.0/dependencies/io/netty/netty-all/4.1.52.Final/netty-all-4.1.52.Final.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import io.netty.handler.timeout.WriteTimeoutException;",
+      "artifact" : {
+        "artifact" : "io.netty:netty-all:4.1.52.Final",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.github.portlek:patty:2.0.0/dependencies/io/netty/netty-all/4.1.52.Final/netty-all-4.1.52.Final.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import io.github.portlek.patty.tcp.pipeline.TcpPacketCompressor;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import io.netty.handler.timeout.ReadTimeoutHandler;",
+      "artifact" : {
+        "artifact" : "io.netty:netty-all:4.1.52.Final",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.github.portlek:patty:2.0.0/dependencies/io/netty/netty-all/4.1.52.Final/netty-all-4.1.52.Final.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import io.netty.handler.timeout.WriteTimeoutHandler;",
+      "artifact" : {
+        "artifact" : "io.netty:netty-all:4.1.52.Final",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.github.portlek:patty:2.0.0/dependencies/io/netty/netty-all/4.1.52.Final/netty-all-4.1.52.Final.jar"
+      },
+      "isDirectDependency" : true
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/io.github.portlek:patty/src/main/java/io/github/portlek/patty/Packet.java",
+    "useImportReport" : [ {
+      "importPath" : "import org.jetbrains.annotations.NotNull;",
+      "artifact" : {
+        "artifact" : "org.jetbrains:annotations:20.1.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.github.portlek:patty:2.0.0/dependencies/org/jetbrains/annotations/20.1.0/annotations-20.1.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import io.netty.buffer.ByteBuf;",
+      "artifact" : {
+        "artifact" : "io.netty:netty-all:4.1.52.Final",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.github.portlek:patty:2.0.0/dependencies/io/netty/netty-all/4.1.52.Final/netty-all-4.1.52.Final.jar"
+      },
+      "isDirectDependency" : true
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/io.github.portlek:patty/src/main/java/io/github/portlek/patty/PacketSizer.java",
+    "useImportReport" : [ ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  } ],
+  "projectUseDependencies" : [ {
+    "artifact" : "org.jetbrains:annotations:20.1.0",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.github.portlek:patty:2.0.0/dependencies/org/jetbrains/annotations/20.1.0/annotations-20.1.0.jar"
+  }, {
+    "artifact" : "io.netty:netty-all:4.1.52.Final",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.github.portlek:patty:2.0.0/dependencies/io/netty/netty-all/4.1.52.Final/netty-all-4.1.52.Final.jar"
+  } ],
+  "projectUseTransitiveDependencies" : [ ],
+  "projectUnusedDependencies" : [ {
+    "artifact" : "org.projectlombok:lombok:1.18.14",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.github.portlek:patty:2.0.0/dependencies/org/projectlombok/lombok/1.18.14/lombok-1.18.14.jar"
+  } ]
+}

@@ -1,0 +1,904 @@
+{
+  "projectArtifact" : "org.kiwiproject:retrying-again:2.0.0",
+  "repositoryDir" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/org.kiwiproject:retrying-again",
+  "repositorySubDir" : "",
+  "artifactLocation" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.kiwiproject:retrying-again:2.0.0",
+  "fileImportReports" : [ {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/org.kiwiproject:retrying-again/src/test/java/org/kiwiproject/retry/RetryExceptionAssert.java",
+    "useImportReport" : [ {
+      "importPath" : "import org.assertj.core.api.ThrowableAssert;",
+      "artifact" : {
+        "artifact" : "org.assertj:assertj-core:3.24.2",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.kiwiproject:retrying-again:2.0.0/dependencies/org/assertj/assertj-core/3.24.2/assertj-core-3.24.2.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import static org.assertj.core.api.Assertions.catchThrowableOfType;",
+      "artifact" : {
+        "artifact" : "org.assertj:assertj-core:3.24.2",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.kiwiproject:retrying-again:2.0.0/dependencies/org/assertj/assertj-core/3.24.2/assertj-core-3.24.2.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import static org.assertj.core.api.Assertions.assertThat;",
+      "artifact" : {
+        "artifact" : "org.assertj:assertj-core:3.24.2",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.kiwiproject:retrying-again:2.0.0/dependencies/org/assertj/assertj-core/3.24.2/assertj-core-3.24.2.jar"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/org.kiwiproject:retrying-again/src/test/java/org/kiwiproject/retry/AttemptTimeLimiterTest.java",
+    "useImportReport" : [ {
+      "importPath" : "import java.util.concurrent.TimeUnit;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.junit.jupiter.api.Test;",
+      "artifact" : {
+        "artifact" : "org.junit.jupiter:junit-jupiter-api:5.10.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.kiwiproject:retrying-again:2.0.0/dependencies/org/junit/jupiter/junit-jupiter-api/5.10.0/junit-jupiter-api-5.10.0.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import static org.assertj.core.api.Assertions.assertThatCode;",
+      "artifact" : {
+        "artifact" : "org.assertj:assertj-core:3.24.2",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.kiwiproject:retrying-again:2.0.0/dependencies/org/assertj/assertj-core/3.24.2/assertj-core-3.24.2.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import static org.assertj.core.api.Assertions.assertThatThrownBy;",
+      "artifact" : {
+        "artifact" : "org.assertj:assertj-core:3.24.2",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.kiwiproject:retrying-again:2.0.0/dependencies/org/assertj/assertj-core/3.24.2/assertj-core-3.24.2.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.concurrent.Callable;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/org.kiwiproject:retrying-again/src/test/java/org/kiwiproject/retry/StopStrategiesTest.java",
+    "useImportReport" : [ {
+      "importPath" : "import org.junit.jupiter.params.ParameterizedTest;",
+      "artifact" : {
+        "artifact" : "org.junit.jupiter:junit-jupiter-params:5.10.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.kiwiproject:retrying-again:2.0.0/dependencies/org/junit/jupiter/junit-jupiter-params/5.10.0/junit-jupiter-params-5.10.0.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.junit.jupiter.params.provider.ValueSource;",
+      "artifact" : {
+        "artifact" : "org.junit.jupiter:junit-jupiter-params:5.10.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.kiwiproject:retrying-again:2.0.0/dependencies/org/junit/jupiter/junit-jupiter-params/5.10.0/junit-jupiter-params-5.10.0.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import static org.assertj.core.api.Assertions.assertThat;",
+      "artifact" : {
+        "artifact" : "org.assertj:assertj-core:3.24.2",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.kiwiproject:retrying-again:2.0.0/dependencies/org/assertj/assertj-core/3.24.2/assertj-core-3.24.2.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.junit.jupiter.params.provider.CsvSource;",
+      "artifact" : {
+        "artifact" : "org.junit.jupiter:junit-jupiter-params:5.10.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.kiwiproject:retrying-again:2.0.0/dependencies/org/junit/jupiter/junit-jupiter-params/5.10.0/junit-jupiter-params-5.10.0.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.junit.jupiter.api.Test;",
+      "artifact" : {
+        "artifact" : "org.junit.jupiter:junit-jupiter-api:5.10.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.kiwiproject:retrying-again:2.0.0/dependencies/org/junit/jupiter/junit-jupiter-api/5.10.0/junit-jupiter-api-5.10.0.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import static org.assertj.core.api.Assertions.assertThatIllegalArgumentException;",
+      "artifact" : {
+        "artifact" : "org.assertj:assertj-core:3.24.2",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.kiwiproject:retrying-again:2.0.0/dependencies/org/assertj/assertj-core/3.24.2/assertj-core-3.24.2.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.concurrent.TimeUnit;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/org.kiwiproject:retrying-again/src/test/java/org/kiwiproject/retry/RetryerBuilderTest.java",
+    "useImportReport" : [ {
+      "importPath" : "import org.junit.jupiter.api.Test;",
+      "artifact" : {
+        "artifact" : "org.junit.jupiter:junit-jupiter-api:5.10.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.kiwiproject:retrying-again:2.0.0/dependencies/org/junit/jupiter/junit-jupiter-api/5.10.0/junit-jupiter-api-5.10.0.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.concurrent.Callable;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.concurrent.TimeUnit;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.Objects;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import static org.assertj.core.api.Assertions.assertThat;",
+      "artifact" : {
+        "artifact" : "org.assertj:assertj-core:3.24.2",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.kiwiproject:retrying-again:2.0.0/dependencies/org/assertj/assertj-core/3.24.2/assertj-core-3.24.2.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import static org.assertj.core.api.Assertions.assertThatIllegalStateException;",
+      "artifact" : {
+        "artifact" : "org.assertj:assertj-core:3.24.2",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.kiwiproject:retrying-again:2.0.0/dependencies/org/assertj/assertj-core/3.24.2/assertj-core-3.24.2.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.net.SocketException;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.io.IOException;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.concurrent.atomic.AtomicInteger;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.concurrent.atomic.AtomicBoolean;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.concurrent.CountDownLatch;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import static org.assertj.core.api.Assertions.assertThatThrownBy;",
+      "artifact" : {
+        "artifact" : "org.assertj:assertj-core:3.24.2",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.kiwiproject:retrying-again:2.0.0/dependencies/org/assertj/assertj-core/3.24.2/assertj-core-3.24.2.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.kiwiproject.retry.Retryer.RetryerCallable;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.Map;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.HashMap;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ {
+      "importPath" : "import static org.kiwiproject.retry.RetryerAssert.assertThatRetryer;"
+    } ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/org.kiwiproject:retrying-again/src/test/java/org/kiwiproject/retry/RetryerTest.java",
+    "useImportReport" : [ {
+      "importPath" : "import org.junit.jupiter.params.ParameterizedTest;",
+      "artifact" : {
+        "artifact" : "org.junit.jupiter:junit-jupiter-params:5.10.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.kiwiproject:retrying-again:2.0.0/dependencies/org/junit/jupiter/junit-jupiter-params/5.10.0/junit-jupiter-params-5.10.0.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.junit.jupiter.params.provider.MethodSource;",
+      "artifact" : {
+        "artifact" : "org.junit.jupiter:junit-jupiter-params:5.10.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.kiwiproject:retrying-again:2.0.0/dependencies/org/junit/jupiter/junit-jupiter-params/5.10.0/junit-jupiter-params-5.10.0.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import static org.assertj.core.api.Assertions.assertThatThrownBy;",
+      "artifact" : {
+        "artifact" : "org.assertj:assertj-core:3.24.2",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.kiwiproject:retrying-again:2.0.0/dependencies/org/assertj/assertj-core/3.24.2/assertj-core-3.24.2.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.stream.Stream;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.junit.jupiter.params.provider.Arguments;",
+      "artifact" : {
+        "artifact" : "org.junit.jupiter:junit-jupiter-params:5.10.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.kiwiproject:retrying-again:2.0.0/dependencies/org/junit/jupiter/junit-jupiter-params/5.10.0/junit-jupiter-params-5.10.0.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import static org.assertj.core.api.Assertions.assertThat;",
+      "artifact" : {
+        "artifact" : "org.assertj:assertj-core:3.24.2",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.kiwiproject:retrying-again:2.0.0/dependencies/org/assertj/assertj-core/3.24.2/assertj-core-3.24.2.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.junit.jupiter.api.Test;",
+      "artifact" : {
+        "artifact" : "org.junit.jupiter:junit-jupiter-api:5.10.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.kiwiproject:retrying-again:2.0.0/dependencies/org/junit/jupiter/junit-jupiter-api/5.10.0/junit-jupiter-api-5.10.0.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.io.IOException;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.net.SocketTimeoutException;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.concurrent.Callable;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.lang.reflect.InvocationTargetException;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ {
+      "importPath" : "import static org.kiwiproject.retry.RetryExceptionAssert.assertThatRetryExceptionThrownBy;"
+    }, {
+      "importPath" : "import static org.kiwiproject.retry.RetryerAssert.assertThatRetryer;"
+    } ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/org.kiwiproject:retrying-again/src/test/java/org/kiwiproject/retry/AttemptTimeLimitersTest.java",
+    "useImportReport" : [ {
+      "importPath" : "import org.junit.jupiter.api.Test;",
+      "artifact" : {
+        "artifact" : "org.junit.jupiter:junit-jupiter-api:5.10.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.kiwiproject:retrying-again:2.0.0/dependencies/org/junit/jupiter/junit-jupiter-api/5.10.0/junit-jupiter-api-5.10.0.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.Set;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.concurrent.Callable;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import static org.assertj.core.api.Assertions.assertThat;",
+      "artifact" : {
+        "artifact" : "org.assertj:assertj-core:3.24.2",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.kiwiproject:retrying-again:2.0.0/dependencies/org/assertj/assertj-core/3.24.2/assertj-core-3.24.2.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.concurrent.Executors;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.function.Supplier;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.concurrent.TimeUnit;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.concurrent.ExecutorService;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.Collections;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.HashSet;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/org.kiwiproject:retrying-again/src/test/java/org/kiwiproject/retry/WaitStrategiesTest.java",
+    "useImportReport" : [ {
+      "importPath" : "import org.junit.jupiter.api.Test;",
+      "artifact" : {
+        "artifact" : "org.junit.jupiter:junit-jupiter-api:5.10.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.kiwiproject:retrying-again:2.0.0/dependencies/org/junit/jupiter/junit-jupiter-api/5.10.0/junit-jupiter-api-5.10.0.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import static org.assertj.core.api.Assertions.assertThat;",
+      "artifact" : {
+        "artifact" : "org.assertj:assertj-core:3.24.2",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.kiwiproject:retrying-again:2.0.0/dependencies/org/assertj/assertj-core/3.24.2/assertj-core-3.24.2.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.concurrent.TimeUnit;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import static org.assertj.core.api.Assertions.assertThatIllegalArgumentException;",
+      "artifact" : {
+        "artifact" : "org.assertj:assertj-core:3.24.2",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.kiwiproject:retrying-again:2.0.0/dependencies/org/assertj/assertj-core/3.24.2/assertj-core-3.24.2.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.junit.jupiter.params.ParameterizedTest;",
+      "artifact" : {
+        "artifact" : "org.junit.jupiter:junit-jupiter-params:5.10.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.kiwiproject:retrying-again:2.0.0/dependencies/org/junit/jupiter/junit-jupiter-params/5.10.0/junit-jupiter-params-5.10.0.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.junit.jupiter.params.provider.CsvSource;",
+      "artifact" : {
+        "artifact" : "org.junit.jupiter:junit-jupiter-params:5.10.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.kiwiproject:retrying-again:2.0.0/dependencies/org/junit/jupiter/junit-jupiter-params/5.10.0/junit-jupiter-params-5.10.0.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.HashSet;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.junit.jupiter.params.provider.ValueSource;",
+      "artifact" : {
+        "artifact" : "org.junit.jupiter:junit-jupiter-params:5.10.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.kiwiproject:retrying-again:2.0.0/dependencies/org/junit/jupiter/junit-jupiter-params/5.10.0/junit-jupiter-params-5.10.0.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import static org.assertj.core.api.Assertions.assertThatIllegalStateException;",
+      "artifact" : {
+        "artifact" : "org.assertj:assertj-core:3.24.2",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.kiwiproject:retrying-again:2.0.0/dependencies/org/assertj/assertj-core/3.24.2/assertj-core-3.24.2.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.function.Function;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/org.kiwiproject:retrying-again/src/test/java/org/kiwiproject/retry/RetryerAssert.java",
+    "useImportReport" : [ {
+      "importPath" : "import java.util.concurrent.Callable;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import static org.assertj.core.api.Assertions.catchThrowableOfType;",
+      "artifact" : {
+        "artifact" : "org.assertj:assertj-core:3.24.2",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.kiwiproject:retrying-again:2.0.0/dependencies/org/assertj/assertj-core/3.24.2/assertj-core-3.24.2.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import static org.assertj.core.api.Assertions.fail;",
+      "artifact" : {
+        "artifact" : "org.assertj:assertj-core:3.24.2",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.kiwiproject:retrying-again:2.0.0/dependencies/org/assertj/assertj-core/3.24.2/assertj-core-3.24.2.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import static org.assertj.core.api.Assertions.assertThat;",
+      "artifact" : {
+        "artifact" : "org.assertj:assertj-core:3.24.2",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.kiwiproject:retrying-again:2.0.0/dependencies/org/assertj/assertj-core/3.24.2/assertj-core-3.24.2.jar"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/org.kiwiproject:retrying-again/src/main/java/org/kiwiproject/retry/Retryer.java",
+    "useImportReport" : [ {
+      "importPath" : "import java.util.List;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.function.Predicate;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.Collection;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.checkerframework.checker.nullness.qual.NonNull;",
+      "artifact" : {
+        "artifact" : "org.checkerframework:checker-qual:3.37.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.kiwiproject:retrying-again:2.0.0/dependencies/org/checkerframework/checker-qual/3.37.0/checker-qual-3.37.0.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import static com.google.common.base.Preconditions.checkNotNull;",
+      "artifact" : {
+        "artifact" : "com.google.guava:guava:32.1.2-jre",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.kiwiproject:retrying-again:2.0.0/dependencies/com/google/guava/guava/32.1.2-jre/guava-32.1.2-jre.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import java.util.concurrent.Callable;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.concurrent.TimeUnit;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ {
+      "importPath" : "import static org.kiwiproject.retry.Attempt.newExceptionAttempt;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import static org.kiwiproject.retry.Attempt.newResultAttempt;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/org.kiwiproject:retrying-again/src/main/java/org/kiwiproject/retry/RetryException.java",
+    "useImportReport" : [ {
+      "importPath" : "import com.google.errorprone.annotations.Immutable;",
+      "artifact" : {
+        "artifact" : "com.google.errorprone:error_prone_annotations:2.21.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.kiwiproject:retrying-again:2.0.0/dependencies/com/google/errorprone/error_prone_annotations/2.21.1/error_prone_annotations-2.21.1.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.checkerframework.checker.nullness.qual.NonNull;",
+      "artifact" : {
+        "artifact" : "org.checkerframework:checker-qual:3.37.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.kiwiproject:retrying-again:2.0.0/dependencies/org/checkerframework/checker-qual/3.37.0/checker-qual-3.37.0.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import static com.google.common.base.Preconditions.checkState;",
+      "artifact" : {
+        "artifact" : "com.google.guava:guava:32.1.2-jre",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.kiwiproject:retrying-again:2.0.0/dependencies/com/google/guava/guava/32.1.2-jre/guava-32.1.2-jre.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import static java.util.Objects.nonNull;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/org.kiwiproject:retrying-again/src/main/java/org/kiwiproject/retry/Attempt.java",
+    "useImportReport" : [ {
+      "importPath" : "import static com.google.common.base.Preconditions.checkState;",
+      "artifact" : {
+        "artifact" : "com.google.guava:guava:32.1.2-jre",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.kiwiproject:retrying-again:2.0.0/dependencies/com/google/guava/guava/32.1.2-jre/guava-32.1.2-jre.jar"
+      },
+      "isDirectDependency" : true
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/org.kiwiproject:retrying-again/src/main/java/org/kiwiproject/retry/RetryerBuilder.java",
+    "useImportReport" : [ {
+      "importPath" : "import java.util.List;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.function.Predicate;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.ArrayList;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.checkerframework.checker.nullness.qual.NonNull;",
+      "artifact" : {
+        "artifact" : "org.checkerframework:checker-qual:3.37.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.kiwiproject:retrying-again:2.0.0/dependencies/org/checkerframework/checker-qual/3.37.0/checker-qual-3.37.0.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.google.common.base.Preconditions;",
+      "artifact" : {
+        "artifact" : "com.google.guava:guava:32.1.2-jre",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.kiwiproject:retrying-again:2.0.0/dependencies/com/google/guava/guava/32.1.2-jre/guava-32.1.2-jre.jar"
+      },
+      "isDirectDependency" : true
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/org.kiwiproject:retrying-again/src/main/java/org/kiwiproject/retry/AttemptTimeLimiter.java",
+    "useImportReport" : [ {
+      "importPath" : "import java.util.concurrent.Callable;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/org.kiwiproject:retrying-again/src/main/java/org/kiwiproject/retry/WaitStrategies.java",
+    "useImportReport" : [ {
+      "importPath" : "import java.util.concurrent.TimeUnit;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.checkerframework.checker.nullness.qual.NonNull;",
+      "artifact" : {
+        "artifact" : "org.checkerframework:checker-qual:3.37.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.kiwiproject:retrying-again:2.0.0/dependencies/org/checkerframework/checker-qual/3.37.0/checker-qual-3.37.0.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.google.common.base.Preconditions;",
+      "artifact" : {
+        "artifact" : "com.google.guava:guava:32.1.2-jre",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.kiwiproject:retrying-again:2.0.0/dependencies/com/google/guava/guava/32.1.2-jre/guava-32.1.2-jre.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import java.util.function.Function;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.List;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.ArrayList;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.Arrays;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.google.errorprone.annotations.Immutable;",
+      "artifact" : {
+        "artifact" : "com.google.errorprone:error_prone_annotations:2.21.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.kiwiproject:retrying-again:2.0.0/dependencies/com/google/errorprone/error_prone_annotations/2.21.1/error_prone_annotations-2.21.1.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.Random;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/org.kiwiproject:retrying-again/src/main/java/org/kiwiproject/retry/WaitStrategy.java",
+    "useImportReport" : [ ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/org.kiwiproject:retrying-again/src/main/java/org/kiwiproject/retry/AttemptTimeLimiters.java",
+    "useImportReport" : [ {
+      "importPath" : "import java.util.concurrent.ExecutorService;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.concurrent.TimeUnit;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.concurrent.Executors;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.checkerframework.checker.nullness.qual.NonNull;",
+      "artifact" : {
+        "artifact" : "org.checkerframework:checker-qual:3.37.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.kiwiproject:retrying-again:2.0.0/dependencies/org/checkerframework/checker-qual/3.37.0/checker-qual-3.37.0.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.google.common.base.Preconditions;",
+      "artifact" : {
+        "artifact" : "com.google.guava:guava:32.1.2-jre",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.kiwiproject:retrying-again:2.0.0/dependencies/com/google/guava/guava/32.1.2-jre/guava-32.1.2-jre.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import com.google.errorprone.annotations.Immutable;",
+      "artifact" : {
+        "artifact" : "com.google.errorprone:error_prone_annotations:2.21.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.kiwiproject:retrying-again:2.0.0/dependencies/com/google/errorprone/error_prone_annotations/2.21.1/error_prone_annotations-2.21.1.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.concurrent.Callable;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.google.common.util.concurrent.TimeLimiter;",
+      "artifact" : {
+        "artifact" : "com.google.guava:guava:32.1.2-jre",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.kiwiproject:retrying-again:2.0.0/dependencies/com/google/guava/guava/32.1.2-jre/guava-32.1.2-jre.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import com.google.common.util.concurrent.SimpleTimeLimiter;",
+      "artifact" : {
+        "artifact" : "com.google.guava:guava:32.1.2-jre",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.kiwiproject:retrying-again:2.0.0/dependencies/com/google/guava/guava/32.1.2-jre/guava-32.1.2-jre.jar"
+      },
+      "isDirectDependency" : true
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/org.kiwiproject:retrying-again/src/main/java/org/kiwiproject/retry/StopStrategies.java",
+    "useImportReport" : [ {
+      "importPath" : "import java.util.concurrent.TimeUnit;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.checkerframework.checker.nullness.qual.NonNull;",
+      "artifact" : {
+        "artifact" : "org.checkerframework:checker-qual:3.37.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.kiwiproject:retrying-again:2.0.0/dependencies/org/checkerframework/checker-qual/3.37.0/checker-qual-3.37.0.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.google.common.base.Preconditions;",
+      "artifact" : {
+        "artifact" : "com.google.guava:guava:32.1.2-jre",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.kiwiproject:retrying-again:2.0.0/dependencies/com/google/guava/guava/32.1.2-jre/guava-32.1.2-jre.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import com.google.errorprone.annotations.Immutable;",
+      "artifact" : {
+        "artifact" : "com.google.errorprone:error_prone_annotations:2.21.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.kiwiproject:retrying-again:2.0.0/dependencies/com/google/errorprone/error_prone_annotations/2.21.1/error_prone_annotations-2.21.1.jar"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/org.kiwiproject:retrying-again/src/main/java/org/kiwiproject/retry/BlockStrategies.java",
+    "useImportReport" : [ {
+      "importPath" : "import com.google.errorprone.annotations.Immutable;",
+      "artifact" : {
+        "artifact" : "com.google.errorprone:error_prone_annotations:2.21.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.kiwiproject:retrying-again:2.0.0/dependencies/com/google/errorprone/error_prone_annotations/2.21.1/error_prone_annotations-2.21.1.jar"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/org.kiwiproject:retrying-again/src/main/java/org/kiwiproject/retry/StopStrategy.java",
+    "useImportReport" : [ ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/org.kiwiproject:retrying-again/src/main/java/org/kiwiproject/retry/RetryListener.java",
+    "useImportReport" : [ ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/org.kiwiproject:retrying-again/src/main/java/org/kiwiproject/retry/BlockStrategy.java",
+    "useImportReport" : [ ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  } ],
+  "projectUseDependencies" : [ {
+    "artifact" : "com.google.guava:guava:32.1.2-jre",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.kiwiproject:retrying-again:2.0.0/dependencies/com/google/guava/guava/32.1.2-jre/guava-32.1.2-jre.jar"
+  } ],
+  "projectUseTransitiveDependencies" : [ ],
+  "projectUnusedDependencies" : [ {
+    "artifact" : "org.projectlombok:lombok:1.18.28",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.kiwiproject:retrying-again:2.0.0/dependencies/org/projectlombok/lombok/1.18.28/lombok-1.18.28.jar"
+  } ]
+}

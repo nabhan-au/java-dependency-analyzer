@@ -1,0 +1,1071 @@
+{
+  "projectArtifact" : "com.giladam:kafka-jackson-serde:1.0.0",
+  "repositoryDir" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/com.giladam:kafka-jackson-serde",
+  "repositorySubDir" : "",
+  "artifactLocation" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.giladam:kafka-jackson-serde:1.0.0",
+  "fileImportReports" : [ {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/com.giladam:kafka-jackson-serde/src/test/java/com/giladam/kafka/jacksonserde/Sample.java",
+    "useImportReport" : [ {
+      "importPath" : "import com.fasterxml.jackson.annotation.JsonIgnoreProperties;",
+      "artifact" : {
+        "artifact" : "com.fasterxml.jackson.core:jackson-annotations:2.9.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.giladam:kafka-jackson-serde:1.0.0/dependencies/com/fasterxml/jackson/core/jackson-annotations/2.9.0/jackson-annotations-2.9.0.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.fasterxml.jackson.annotation.JsonInclude;",
+      "artifact" : {
+        "artifact" : "com.fasterxml.jackson.core:jackson-annotations:2.9.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.giladam:kafka-jackson-serde:1.0.0/dependencies/com/fasterxml/jackson/core/jackson-annotations/2.9.0/jackson-annotations-2.9.0.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.fasterxml.jackson.annotation.JsonProperty;",
+      "artifact" : {
+        "artifact" : "com.fasterxml.jackson.core:jackson-annotations:2.9.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.giladam:kafka-jackson-serde:1.0.0/dependencies/com/fasterxml/jackson/core/jackson-annotations/2.9.0/jackson-annotations-2.9.0.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.Date;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.time.Instant;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/com.giladam:kafka-jackson-serde/src/test/java/com/giladam/kafka/jacksonserde/streamstests/StreamsApplicationTestingIT.java",
+    "useImportReport" : [ {
+      "importPath" : "import org.slf4j.Logger;",
+      "artifact" : {
+        "artifact" : "org.slf4j:slf4j-api:1.7.25",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.giladam:kafka-jackson-serde:1.0.0/dependencies/org/slf4j/slf4j-api/1.7.25/slf4j-api-1.7.25.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.slf4j.LoggerFactory;",
+      "artifact" : {
+        "artifact" : "org.slf4j:slf4j-api:1.7.25",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.giladam:kafka-jackson-serde:1.0.0/dependencies/org/slf4j/slf4j-api/1.7.25/slf4j-api-1.7.25.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.fasterxml.jackson.databind.ObjectMapper;",
+      "artifact" : {
+        "artifact" : "com.fasterxml.jackson.core:jackson-databind:2.9.5",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.giladam:kafka-jackson-serde:1.0.0/dependencies/com/fasterxml/jackson/core/jackson-databind/2.9.5/jackson-databind-2.9.5.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import com.fasterxml.jackson.databind.SerializationFeature;",
+      "artifact" : {
+        "artifact" : "com.fasterxml.jackson.core:jackson-databind:2.9.5",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.giladam:kafka-jackson-serde:1.0.0/dependencies/com/fasterxml/jackson/core/jackson-databind/2.9.5/jackson-databind-2.9.5.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.apache.kafka.clients.admin.AdminClient;",
+      "artifact" : {
+        "artifact" : "org.apache.kafka:kafka-clients:1.0.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.giladam:kafka-jackson-serde:1.0.0/dependencies/org/apache/kafka/kafka-clients/1.0.0/kafka-clients-1.0.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.junit.BeforeClass;",
+      "artifact" : {
+        "artifact" : "junit:junit:4.12",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.giladam:kafka-jackson-serde:1.0.0/dependencies/junit/junit/4.12/junit-4.12.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.junit.AfterClass;",
+      "artifact" : {
+        "artifact" : "junit:junit:4.12",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.giladam:kafka-jackson-serde:1.0.0/dependencies/junit/junit/4.12/junit-4.12.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.junit.Test;",
+      "artifact" : {
+        "artifact" : "junit:junit:4.12",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.giladam:kafka-jackson-serde:1.0.0/dependencies/junit/junit/4.12/junit-4.12.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.apache.kafka.clients.admin.NewTopic;",
+      "artifact" : {
+        "artifact" : "org.apache.kafka:kafka-clients:1.0.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.giladam:kafka-jackson-serde:1.0.0/dependencies/org/apache/kafka/kafka-clients/1.0.0/kafka-clients-1.0.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import java.util.Collections;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.Properties;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.apache.kafka.streams.StreamsConfig;",
+      "artifact" : {
+        "artifact" : "org.apache.kafka:kafka-streams:1.0.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.giladam:kafka-jackson-serde:1.0.0/dependencies/org/apache/kafka/kafka-streams/1.0.0/kafka-streams-1.0.0.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.UUID;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.apache.kafka.common.serialization.Serdes;",
+      "artifact" : {
+        "artifact" : "org.apache.kafka:kafka-clients:1.0.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.giladam:kafka-jackson-serde:1.0.0/dependencies/org/apache/kafka/kafka-clients/1.0.0/kafka-clients-1.0.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.apache.kafka.streams.StreamsBuilder;",
+      "artifact" : {
+        "artifact" : "org.apache.kafka:kafka-streams:1.0.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.giladam:kafka-jackson-serde:1.0.0/dependencies/org/apache/kafka/kafka-streams/1.0.0/kafka-streams-1.0.0.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.apache.kafka.common.serialization.Serde;",
+      "artifact" : {
+        "artifact" : "org.apache.kafka:kafka-clients:1.0.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.giladam:kafka-jackson-serde:1.0.0/dependencies/org/apache/kafka/kafka-clients/1.0.0/kafka-clients-1.0.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import com.giladam.kafka.jacksonserde.Jackson2Serde;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.apache.kafka.streams.Consumed;",
+      "artifact" : {
+        "artifact" : "org.apache.kafka:kafka-streams:1.0.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.giladam:kafka-jackson-serde:1.0.0/dependencies/org/apache/kafka/kafka-streams/1.0.0/kafka-streams-1.0.0.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.apache.kafka.streams.Topology;",
+      "artifact" : {
+        "artifact" : "org.apache.kafka:kafka-streams:1.0.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.giladam:kafka-jackson-serde:1.0.0/dependencies/org/apache/kafka/kafka-streams/1.0.0/kafka-streams-1.0.0.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.apache.kafka.streams.kstream.KStream;",
+      "artifact" : {
+        "artifact" : "org.apache.kafka:kafka-streams:1.0.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.giladam:kafka-jackson-serde:1.0.0/dependencies/org/apache/kafka/kafka-streams/1.0.0/kafka-streams-1.0.0.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.concurrent.atomic.AtomicBoolean;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.junit.Assert;",
+      "artifact" : {
+        "artifact" : "junit:junit:4.12",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.giladam:kafka-jackson-serde:1.0.0/dependencies/junit/junit/4.12/junit-4.12.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.apache.commons.lang3.ObjectUtils;",
+      "artifact" : {
+        "artifact" : "org.apache.commons:commons-lang3:3.7",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.giladam:kafka-jackson-serde:1.0.0/dependencies/org/apache/commons/commons-lang3/3.7/commons-lang3-3.7.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.apache.kafka.streams.KafkaStreams;",
+      "artifact" : {
+        "artifact" : "org.apache.kafka:kafka-streams:1.0.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.giladam:kafka-jackson-serde:1.0.0/dependencies/org/apache/kafka/kafka-streams/1.0.0/kafka-streams-1.0.0.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.apache.kafka.clients.producer.Producer;",
+      "artifact" : {
+        "artifact" : "org.apache.kafka:kafka-clients:1.0.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.giladam:kafka-jackson-serde:1.0.0/dependencies/org/apache/kafka/kafka-clients/1.0.0/kafka-clients-1.0.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import java.util.Map;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.HashMap;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.apache.kafka.clients.producer.ProducerConfig;",
+      "artifact" : {
+        "artifact" : "org.apache.kafka:kafka-clients:1.0.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.giladam:kafka-jackson-serde:1.0.0/dependencies/org/apache/kafka/kafka-clients/1.0.0/kafka-clients-1.0.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.apache.kafka.clients.producer.KafkaProducer;",
+      "artifact" : {
+        "artifact" : "org.apache.kafka:kafka-clients:1.0.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.giladam:kafka-jackson-serde:1.0.0/dependencies/org/apache/kafka/kafka-clients/1.0.0/kafka-clients-1.0.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import com.giladam.kafka.jacksonserde.Jackson2Serializer;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.apache.kafka.clients.producer.ProducerRecord;",
+      "artifact" : {
+        "artifact" : "org.apache.kafka:kafka-clients:1.0.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.giladam:kafka-jackson-serde:1.0.0/dependencies/org/apache/kafka/kafka-clients/1.0.0/kafka-clients-1.0.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import java.time.Instant;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.Date;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ {
+      "importPath" : "import com.giladam.kafka.jacksonserde.Sample;"
+    } ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/com.giladam:kafka-jackson-serde/src/test/java/com/giladam/kafka/jacksonserde/streamstests/JsonProducerConsumerTestingIT.java",
+    "useImportReport" : [ {
+      "importPath" : "import org.slf4j.Logger;",
+      "artifact" : {
+        "artifact" : "org.slf4j:slf4j-api:1.7.25",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.giladam:kafka-jackson-serde:1.0.0/dependencies/org/slf4j/slf4j-api/1.7.25/slf4j-api-1.7.25.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.slf4j.LoggerFactory;",
+      "artifact" : {
+        "artifact" : "org.slf4j:slf4j-api:1.7.25",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.giladam:kafka-jackson-serde:1.0.0/dependencies/org/slf4j/slf4j-api/1.7.25/slf4j-api-1.7.25.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.fasterxml.jackson.databind.ObjectMapper;",
+      "artifact" : {
+        "artifact" : "com.fasterxml.jackson.core:jackson-databind:2.9.5",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.giladam:kafka-jackson-serde:1.0.0/dependencies/com/fasterxml/jackson/core/jackson-databind/2.9.5/jackson-databind-2.9.5.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import com.fasterxml.jackson.databind.SerializationFeature;",
+      "artifact" : {
+        "artifact" : "com.fasterxml.jackson.core:jackson-databind:2.9.5",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.giladam:kafka-jackson-serde:1.0.0/dependencies/com/fasterxml/jackson/core/jackson-databind/2.9.5/jackson-databind-2.9.5.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.apache.kafka.clients.admin.AdminClient;",
+      "artifact" : {
+        "artifact" : "org.apache.kafka:kafka-clients:1.0.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.giladam:kafka-jackson-serde:1.0.0/dependencies/org/apache/kafka/kafka-clients/1.0.0/kafka-clients-1.0.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.junit.BeforeClass;",
+      "artifact" : {
+        "artifact" : "junit:junit:4.12",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.giladam:kafka-jackson-serde:1.0.0/dependencies/junit/junit/4.12/junit-4.12.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.junit.AfterClass;",
+      "artifact" : {
+        "artifact" : "junit:junit:4.12",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.giladam:kafka-jackson-serde:1.0.0/dependencies/junit/junit/4.12/junit-4.12.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.junit.Test;",
+      "artifact" : {
+        "artifact" : "junit:junit:4.12",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.giladam:kafka-jackson-serde:1.0.0/dependencies/junit/junit/4.12/junit-4.12.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.apache.kafka.clients.admin.NewTopic;",
+      "artifact" : {
+        "artifact" : "org.apache.kafka:kafka-clients:1.0.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.giladam:kafka-jackson-serde:1.0.0/dependencies/org/apache/kafka/kafka-clients/1.0.0/kafka-clients-1.0.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import java.util.Collections;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.apache.kafka.clients.consumer.Consumer;",
+      "artifact" : {
+        "artifact" : "org.apache.kafka:kafka-clients:1.0.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.giladam:kafka-jackson-serde:1.0.0/dependencies/org/apache/kafka/kafka-clients/1.0.0/kafka-clients-1.0.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import java.util.concurrent.atomic.AtomicInteger;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.apache.kafka.clients.consumer.ConsumerRecords;",
+      "artifact" : {
+        "artifact" : "org.apache.kafka:kafka-clients:1.0.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.giladam:kafka-jackson-serde:1.0.0/dependencies/org/apache/kafka/kafka-clients/1.0.0/kafka-clients-1.0.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.junit.Assert;",
+      "artifact" : {
+        "artifact" : "junit:junit:4.12",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.giladam:kafka-jackson-serde:1.0.0/dependencies/junit/junit/4.12/junit-4.12.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.apache.kafka.clients.producer.Producer;",
+      "artifact" : {
+        "artifact" : "org.apache.kafka:kafka-clients:1.0.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.giladam:kafka-jackson-serde:1.0.0/dependencies/org/apache/kafka/kafka-clients/1.0.0/kafka-clients-1.0.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import java.util.Map;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.HashMap;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.apache.kafka.clients.consumer.ConsumerConfig;",
+      "artifact" : {
+        "artifact" : "org.apache.kafka:kafka-clients:1.0.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.giladam:kafka-jackson-serde:1.0.0/dependencies/org/apache/kafka/kafka-clients/1.0.0/kafka-clients-1.0.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import java.util.UUID;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.apache.kafka.clients.consumer.KafkaConsumer;",
+      "artifact" : {
+        "artifact" : "org.apache.kafka:kafka-clients:1.0.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.giladam:kafka-jackson-serde:1.0.0/dependencies/org/apache/kafka/kafka-clients/1.0.0/kafka-clients-1.0.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.apache.kafka.common.serialization.Serdes;",
+      "artifact" : {
+        "artifact" : "org.apache.kafka:kafka-clients:1.0.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.giladam:kafka-jackson-serde:1.0.0/dependencies/org/apache/kafka/kafka-clients/1.0.0/kafka-clients-1.0.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import com.giladam.kafka.jacksonserde.Jackson2Deserializer;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.apache.kafka.clients.producer.ProducerConfig;",
+      "artifact" : {
+        "artifact" : "org.apache.kafka:kafka-clients:1.0.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.giladam:kafka-jackson-serde:1.0.0/dependencies/org/apache/kafka/kafka-clients/1.0.0/kafka-clients-1.0.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.apache.kafka.clients.producer.KafkaProducer;",
+      "artifact" : {
+        "artifact" : "org.apache.kafka:kafka-clients:1.0.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.giladam:kafka-jackson-serde:1.0.0/dependencies/org/apache/kafka/kafka-clients/1.0.0/kafka-clients-1.0.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import com.giladam.kafka.jacksonserde.Jackson2Serializer;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.apache.kafka.clients.producer.ProducerRecord;",
+      "artifact" : {
+        "artifact" : "org.apache.kafka:kafka-clients:1.0.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.giladam:kafka-jackson-serde:1.0.0/dependencies/org/apache/kafka/kafka-clients/1.0.0/kafka-clients-1.0.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import java.time.Instant;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.Date;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ {
+      "importPath" : "import com.giladam.kafka.jacksonserde.Sample;"
+    } ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/com.giladam:kafka-jackson-serde/src/test/java/com/giladam/kafka/jacksonserde/streamstests/IntegrationTestingUtils.java",
+    "useImportReport" : [ {
+      "importPath" : "import java.util.Properties;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.io.InputStream;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.io.IOException;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.apache.kafka.clients.admin.AdminClient;",
+      "artifact" : {
+        "artifact" : "org.apache.kafka:kafka-clients:1.0.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.giladam:kafka-jackson-serde:1.0.0/dependencies/org/apache/kafka/kafka-clients/1.0.0/kafka-clients-1.0.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import java.util.Map;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.HashMap;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.apache.kafka.clients.admin.AdminClientConfig;",
+      "artifact" : {
+        "artifact" : "org.apache.kafka:kafka-clients:1.0.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.giladam:kafka-jackson-serde:1.0.0/dependencies/org/apache/kafka/kafka-clients/1.0.0/kafka-clients-1.0.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.apache.commons.lang3.ObjectUtils;",
+      "artifact" : {
+        "artifact" : "org.apache.commons:commons-lang3:3.7",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.giladam:kafka-jackson-serde:1.0.0/dependencies/org/apache/commons/commons-lang3/3.7/commons-lang3-3.7.jar"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ {
+      "importPath" : "import com.giladam.kafka.jacksonserde.Sample;"
+    } ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/com.giladam:kafka-jackson-serde/src/test/java/com/giladam/kafka/jacksonserde/streamstests/SmileProducerConsumerTestingIT.java",
+    "useImportReport" : [ {
+      "importPath" : "import org.slf4j.Logger;",
+      "artifact" : {
+        "artifact" : "org.slf4j:slf4j-api:1.7.25",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.giladam:kafka-jackson-serde:1.0.0/dependencies/org/slf4j/slf4j-api/1.7.25/slf4j-api-1.7.25.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.slf4j.LoggerFactory;",
+      "artifact" : {
+        "artifact" : "org.slf4j:slf4j-api:1.7.25",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.giladam:kafka-jackson-serde:1.0.0/dependencies/org/slf4j/slf4j-api/1.7.25/slf4j-api-1.7.25.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.fasterxml.jackson.dataformat.smile.SmileFactory;",
+      "artifact" : {
+        "artifact" : "com.fasterxml.jackson.dataformat:jackson-dataformat-smile:2.9.5",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.giladam:kafka-jackson-serde:1.0.0/dependencies/com/fasterxml/jackson/dataformat/jackson-dataformat-smile/2.9.5/jackson-dataformat-smile-2.9.5.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.fasterxml.jackson.databind.ObjectMapper;",
+      "artifact" : {
+        "artifact" : "com.fasterxml.jackson.core:jackson-databind:2.9.5",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.giladam:kafka-jackson-serde:1.0.0/dependencies/com/fasterxml/jackson/core/jackson-databind/2.9.5/jackson-databind-2.9.5.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import com.fasterxml.jackson.databind.DeserializationFeature;",
+      "artifact" : {
+        "artifact" : "com.fasterxml.jackson.core:jackson-databind:2.9.5",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.giladam:kafka-jackson-serde:1.0.0/dependencies/com/fasterxml/jackson/core/jackson-databind/2.9.5/jackson-databind-2.9.5.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import com.fasterxml.jackson.databind.SerializationFeature;",
+      "artifact" : {
+        "artifact" : "com.fasterxml.jackson.core:jackson-databind:2.9.5",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.giladam:kafka-jackson-serde:1.0.0/dependencies/com/fasterxml/jackson/core/jackson-databind/2.9.5/jackson-databind-2.9.5.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.apache.kafka.clients.admin.AdminClient;",
+      "artifact" : {
+        "artifact" : "org.apache.kafka:kafka-clients:1.0.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.giladam:kafka-jackson-serde:1.0.0/dependencies/org/apache/kafka/kafka-clients/1.0.0/kafka-clients-1.0.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.junit.BeforeClass;",
+      "artifact" : {
+        "artifact" : "junit:junit:4.12",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.giladam:kafka-jackson-serde:1.0.0/dependencies/junit/junit/4.12/junit-4.12.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.junit.AfterClass;",
+      "artifact" : {
+        "artifact" : "junit:junit:4.12",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.giladam:kafka-jackson-serde:1.0.0/dependencies/junit/junit/4.12/junit-4.12.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.junit.Test;",
+      "artifact" : {
+        "artifact" : "junit:junit:4.12",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.giladam:kafka-jackson-serde:1.0.0/dependencies/junit/junit/4.12/junit-4.12.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.apache.kafka.clients.admin.NewTopic;",
+      "artifact" : {
+        "artifact" : "org.apache.kafka:kafka-clients:1.0.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.giladam:kafka-jackson-serde:1.0.0/dependencies/org/apache/kafka/kafka-clients/1.0.0/kafka-clients-1.0.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import java.util.Collections;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.apache.kafka.clients.consumer.Consumer;",
+      "artifact" : {
+        "artifact" : "org.apache.kafka:kafka-clients:1.0.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.giladam:kafka-jackson-serde:1.0.0/dependencies/org/apache/kafka/kafka-clients/1.0.0/kafka-clients-1.0.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import java.util.concurrent.atomic.AtomicInteger;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.apache.kafka.clients.consumer.ConsumerRecords;",
+      "artifact" : {
+        "artifact" : "org.apache.kafka:kafka-clients:1.0.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.giladam:kafka-jackson-serde:1.0.0/dependencies/org/apache/kafka/kafka-clients/1.0.0/kafka-clients-1.0.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.junit.Assert;",
+      "artifact" : {
+        "artifact" : "junit:junit:4.12",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.giladam:kafka-jackson-serde:1.0.0/dependencies/junit/junit/4.12/junit-4.12.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.apache.kafka.clients.producer.Producer;",
+      "artifact" : {
+        "artifact" : "org.apache.kafka:kafka-clients:1.0.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.giladam:kafka-jackson-serde:1.0.0/dependencies/org/apache/kafka/kafka-clients/1.0.0/kafka-clients-1.0.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import java.util.Map;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.HashMap;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.apache.kafka.clients.consumer.ConsumerConfig;",
+      "artifact" : {
+        "artifact" : "org.apache.kafka:kafka-clients:1.0.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.giladam:kafka-jackson-serde:1.0.0/dependencies/org/apache/kafka/kafka-clients/1.0.0/kafka-clients-1.0.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import java.util.UUID;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.apache.kafka.clients.consumer.KafkaConsumer;",
+      "artifact" : {
+        "artifact" : "org.apache.kafka:kafka-clients:1.0.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.giladam:kafka-jackson-serde:1.0.0/dependencies/org/apache/kafka/kafka-clients/1.0.0/kafka-clients-1.0.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.apache.kafka.common.serialization.Serdes;",
+      "artifact" : {
+        "artifact" : "org.apache.kafka:kafka-clients:1.0.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.giladam:kafka-jackson-serde:1.0.0/dependencies/org/apache/kafka/kafka-clients/1.0.0/kafka-clients-1.0.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import com.giladam.kafka.jacksonserde.Jackson2Deserializer;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.apache.kafka.clients.producer.ProducerConfig;",
+      "artifact" : {
+        "artifact" : "org.apache.kafka:kafka-clients:1.0.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.giladam:kafka-jackson-serde:1.0.0/dependencies/org/apache/kafka/kafka-clients/1.0.0/kafka-clients-1.0.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.apache.kafka.clients.producer.KafkaProducer;",
+      "artifact" : {
+        "artifact" : "org.apache.kafka:kafka-clients:1.0.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.giladam:kafka-jackson-serde:1.0.0/dependencies/org/apache/kafka/kafka-clients/1.0.0/kafka-clients-1.0.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import com.giladam.kafka.jacksonserde.Jackson2Serializer;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.apache.kafka.clients.producer.ProducerRecord;",
+      "artifact" : {
+        "artifact" : "org.apache.kafka:kafka-clients:1.0.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.giladam:kafka-jackson-serde:1.0.0/dependencies/org/apache/kafka/kafka-clients/1.0.0/kafka-clients-1.0.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import java.time.Instant;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.Date;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.fasterxml.jackson.core.JsonProcessingException;",
+      "artifact" : {
+        "artifact" : "com.fasterxml.jackson.core:jackson-core:2.9.5",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.giladam:kafka-jackson-serde:1.0.0/dependencies/com/fasterxml/jackson/core/jackson-core/2.9.5/jackson-core-2.9.5.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.io.IOException;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ {
+      "importPath" : "import com.giladam.kafka.jacksonserde.Sample;"
+    } ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/com.giladam:kafka-jackson-serde/src/test/java/com/giladam/kafka/jacksonserde/Jackson2DeserializerTest.java",
+    "useImportReport" : [ {
+      "importPath" : "import org.junit.Test;",
+      "artifact" : {
+        "artifact" : "junit:junit:4.12",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.giladam:kafka-jackson-serde:1.0.0/dependencies/junit/junit/4.12/junit-4.12.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.fasterxml.jackson.core.JsonProcessingException;",
+      "artifact" : {
+        "artifact" : "com.fasterxml.jackson.core:jackson-core:2.9.5",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.giladam:kafka-jackson-serde:1.0.0/dependencies/com/fasterxml/jackson/core/jackson-core/2.9.5/jackson-core-2.9.5.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.time.Instant;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.Date;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.UUID;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.fasterxml.jackson.databind.ObjectMapper;",
+      "artifact" : {
+        "artifact" : "com.fasterxml.jackson.core:jackson-databind:2.9.5",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.giladam:kafka-jackson-serde:1.0.0/dependencies/com/fasterxml/jackson/core/jackson-databind/2.9.5/jackson-databind-2.9.5.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import com.fasterxml.jackson.databind.SerializationFeature;",
+      "artifact" : {
+        "artifact" : "com.fasterxml.jackson.core:jackson-databind:2.9.5",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.giladam:kafka-jackson-serde:1.0.0/dependencies/com/fasterxml/jackson/core/jackson-databind/2.9.5/jackson-databind-2.9.5.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.apache.commons.lang3.builder.EqualsBuilder;",
+      "artifact" : {
+        "artifact" : "org.apache.commons:commons-lang3:3.7",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.giladam:kafka-jackson-serde:1.0.0/dependencies/org/apache/commons/commons-lang3/3.7/commons-lang3-3.7.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.junit.Assert;",
+      "artifact" : {
+        "artifact" : "junit:junit:4.12",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.giladam:kafka-jackson-serde:1.0.0/dependencies/junit/junit/4.12/junit-4.12.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.apache.kafka.common.errors.SerializationException;",
+      "artifact" : {
+        "artifact" : "org.apache.kafka:kafka-clients:1.0.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.giladam:kafka-jackson-serde:1.0.0/dependencies/org/apache/kafka/kafka-clients/1.0.0/kafka-clients-1.0.0.jar"
+      },
+      "isDirectDependency" : true
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/com.giladam:kafka-jackson-serde/src/test/java/com/giladam/kafka/jacksonserde/Jackson2SerializerTest.java",
+    "useImportReport" : [ {
+      "importPath" : "import org.slf4j.Logger;",
+      "artifact" : {
+        "artifact" : "org.slf4j:slf4j-api:1.7.25",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.giladam:kafka-jackson-serde:1.0.0/dependencies/org/slf4j/slf4j-api/1.7.25/slf4j-api-1.7.25.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.slf4j.LoggerFactory;",
+      "artifact" : {
+        "artifact" : "org.slf4j:slf4j-api:1.7.25",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.giladam:kafka-jackson-serde:1.0.0/dependencies/org/slf4j/slf4j-api/1.7.25/slf4j-api-1.7.25.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.junit.Test;",
+      "artifact" : {
+        "artifact" : "junit:junit:4.12",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.giladam:kafka-jackson-serde:1.0.0/dependencies/junit/junit/4.12/junit-4.12.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.fasterxml.jackson.databind.ObjectMapper;",
+      "artifact" : {
+        "artifact" : "com.fasterxml.jackson.core:jackson-databind:2.9.5",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.giladam:kafka-jackson-serde:1.0.0/dependencies/com/fasterxml/jackson/core/jackson-databind/2.9.5/jackson-databind-2.9.5.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import com.fasterxml.jackson.databind.SerializationFeature;",
+      "artifact" : {
+        "artifact" : "com.fasterxml.jackson.core:jackson-databind:2.9.5",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.giladam:kafka-jackson-serde:1.0.0/dependencies/com/fasterxml/jackson/core/jackson-databind/2.9.5/jackson-databind-2.9.5.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import java.util.Collections;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.apache.kafka.clients.producer.ProducerRecord;",
+      "artifact" : {
+        "artifact" : "org.apache.kafka:kafka-clients:1.0.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.giladam:kafka-jackson-serde:1.0.0/dependencies/org/apache/kafka/kafka-clients/1.0.0/kafka-clients-1.0.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import java.nio.charset.StandardCharsets;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.junit.Assert;",
+      "artifact" : {
+        "artifact" : "junit:junit:4.12",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.giladam:kafka-jackson-serde:1.0.0/dependencies/junit/junit/4.12/junit-4.12.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.time.Instant;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.Date;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.UUID;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/com.giladam:kafka-jackson-serde/src/main/java/com/giladam/kafka/jacksonserde/Jackson2Deserializer.java",
+    "useImportReport" : [ {
+      "importPath" : "import org.apache.kafka.common.serialization.Deserializer;",
+      "artifact" : {
+        "artifact" : "org.apache.kafka:kafka-clients:1.0.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.giladam:kafka-jackson-serde:1.0.0/dependencies/org/apache/kafka/kafka-clients/1.0.0/kafka-clients-1.0.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import com.fasterxml.jackson.databind.ObjectMapper;",
+      "artifact" : {
+        "artifact" : "com.fasterxml.jackson.core:jackson-databind:2.9.5",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.giladam:kafka-jackson-serde:1.0.0/dependencies/com/fasterxml/jackson/core/jackson-databind/2.9.5/jackson-databind-2.9.5.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.apache.kafka.common.errors.SerializationException;",
+      "artifact" : {
+        "artifact" : "org.apache.kafka:kafka-clients:1.0.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.giladam:kafka-jackson-serde:1.0.0/dependencies/org/apache/kafka/kafka-clients/1.0.0/kafka-clients-1.0.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import java.util.Map;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/com.giladam:kafka-jackson-serde/src/main/java/com/giladam/kafka/jacksonserde/Jackson2Serde.java",
+    "useImportReport" : [ {
+      "importPath" : "import org.apache.kafka.common.serialization.Serde;",
+      "artifact" : {
+        "artifact" : "org.apache.kafka:kafka-clients:1.0.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.giladam:kafka-jackson-serde:1.0.0/dependencies/org/apache/kafka/kafka-clients/1.0.0/kafka-clients-1.0.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.apache.kafka.common.serialization.Serializer;",
+      "artifact" : {
+        "artifact" : "org.apache.kafka:kafka-clients:1.0.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.giladam:kafka-jackson-serde:1.0.0/dependencies/org/apache/kafka/kafka-clients/1.0.0/kafka-clients-1.0.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.apache.kafka.common.serialization.Deserializer;",
+      "artifact" : {
+        "artifact" : "org.apache.kafka:kafka-clients:1.0.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.giladam:kafka-jackson-serde:1.0.0/dependencies/org/apache/kafka/kafka-clients/1.0.0/kafka-clients-1.0.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import com.fasterxml.jackson.databind.ObjectMapper;",
+      "artifact" : {
+        "artifact" : "com.fasterxml.jackson.core:jackson-databind:2.9.5",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.giladam:kafka-jackson-serde:1.0.0/dependencies/com/fasterxml/jackson/core/jackson-databind/2.9.5/jackson-databind-2.9.5.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import java.util.Map;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/com.giladam:kafka-jackson-serde/src/main/java/com/giladam/kafka/jacksonserde/Jackson2Serializer.java",
+    "useImportReport" : [ {
+      "importPath" : "import org.apache.kafka.common.serialization.Serializer;",
+      "artifact" : {
+        "artifact" : "org.apache.kafka:kafka-clients:1.0.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.giladam:kafka-jackson-serde:1.0.0/dependencies/org/apache/kafka/kafka-clients/1.0.0/kafka-clients-1.0.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import com.fasterxml.jackson.databind.ObjectMapper;",
+      "artifact" : {
+        "artifact" : "com.fasterxml.jackson.core:jackson-databind:2.9.5",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.giladam:kafka-jackson-serde:1.0.0/dependencies/com/fasterxml/jackson/core/jackson-databind/2.9.5/jackson-databind-2.9.5.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.apache.kafka.common.errors.SerializationException;",
+      "artifact" : {
+        "artifact" : "org.apache.kafka:kafka-clients:1.0.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.giladam:kafka-jackson-serde:1.0.0/dependencies/org/apache/kafka/kafka-clients/1.0.0/kafka-clients-1.0.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import java.util.Map;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  } ],
+  "projectUseDependencies" : [ {
+    "artifact" : "com.fasterxml.jackson.core:jackson-databind:2.9.5",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.giladam:kafka-jackson-serde:1.0.0/dependencies/com/fasterxml/jackson/core/jackson-databind/2.9.5/jackson-databind-2.9.5.jar"
+  }, {
+    "artifact" : "org.apache.kafka:kafka-clients:1.0.0",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.giladam:kafka-jackson-serde:1.0.0/dependencies/org/apache/kafka/kafka-clients/1.0.0/kafka-clients-1.0.0.jar"
+  } ],
+  "projectUseTransitiveDependencies" : [ ],
+  "projectUnusedDependencies" : [ ]
+}

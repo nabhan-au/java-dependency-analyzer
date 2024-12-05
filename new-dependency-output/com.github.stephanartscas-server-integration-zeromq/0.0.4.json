@@ -1,0 +1,3319 @@
+{
+  "projectArtifact" : "com.github.stephanarts:cas-server-integration-zeromq:0.0.4",
+  "repositoryDir" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/com.github.stephanarts:cas-server-integration-zeromq",
+  "repositorySubDir" : "",
+  "artifactLocation" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.stephanarts:cas-server-integration-zeromq:0.0.4",
+  "fileImportReports" : [ {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/com.github.stephanarts:cas-server-integration-zeromq/src/test/java/com/github/stephanarts/cas/ticket/registry/ZMQTicketRegistryTest.java",
+    "useImportReport" : [ {
+      "importPath" : "import org.junit.runner.RunWith;",
+      "artifact" : {
+        "artifact" : "junit:junit:4.11",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.stephanarts:cas-server-integration-zeromq:0.0.4/dependencies/junit/junit/4.11/junit-4.11.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.junit.runners.JUnit4;",
+      "artifact" : {
+        "artifact" : "junit:junit:4.11",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.stephanarts:cas-server-integration-zeromq:0.0.4/dependencies/junit/junit/4.11/junit-4.11.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.junit.Test;",
+      "artifact" : {
+        "artifact" : "junit:junit:4.11",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.stephanarts:cas-server-integration-zeromq:0.0.4/dependencies/junit/junit/4.11/junit-4.11.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.jasig.cas.ticket.ServiceTicket;",
+      "artifact" : {
+        "artifact" : "org.jasig.cas:cas-server-core:4.0.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.stephanarts:cas-server-integration-zeromq:0.0.4/dependencies/org/jasig/cas/cas-server-core/4.0.0/cas-server-core-4.0.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import static org.mockito.Mockito.mock;",
+      "artifact" : {
+        "artifact" : "org.mockito:mockito-all:1.9.5",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.stephanarts:cas-server-integration-zeromq:0.0.4/dependencies/org/mockito/mockito-all/1.9.5/mockito-all-1.9.5.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import static org.mockito.Mockito.withSettings;",
+      "artifact" : {
+        "artifact" : "org.mockito:mockito-all:1.9.5",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.stephanarts:cas-server-integration-zeromq:0.0.4/dependencies/org/mockito/mockito-all/1.9.5/mockito-all-1.9.5.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import static org.mockito.Mockito.when;",
+      "artifact" : {
+        "artifact" : "org.mockito:mockito-all:1.9.5",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.stephanarts:cas-server-integration-zeromq:0.0.4/dependencies/org/mockito/mockito-all/1.9.5/mockito-all-1.9.5.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.github.stephanarts.cas.ticket.registry.ZMQTicketRegistry;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.junit.Assert;",
+      "artifact" : {
+        "artifact" : "junit:junit:4.11",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.stephanarts:cas-server-integration-zeromq:0.0.4/dependencies/junit/junit/4.11/junit-4.11.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.Collection;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.jasig.cas.ticket.Ticket;",
+      "artifact" : {
+        "artifact" : "org.jasig.cas:cas-server-core:4.0.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.stephanarts:cas-server-integration-zeromq:0.0.4/dependencies/org/jasig/cas/cas-server-core/4.0.0/cas-server-core-4.0.0.jar"
+      },
+      "isDirectDependency" : true
+    } ],
+    "unusedImportReport" : [ {
+      "importPath" : "import org.junit.After;",
+      "artifact" : {
+        "artifact" : "junit:junit:4.11",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.stephanarts:cas-server-integration-zeromq:0.0.4/dependencies/junit/junit/4.11/junit-4.11.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.junit.Before;",
+      "artifact" : {
+        "artifact" : "junit:junit:4.11",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.stephanarts:cas-server-integration-zeromq:0.0.4/dependencies/junit/junit/4.11/junit-4.11.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.junit.Ignore;",
+      "artifact" : {
+        "artifact" : "junit:junit:4.11",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.stephanarts:cas-server-integration-zeromq:0.0.4/dependencies/junit/junit/4.11/junit-4.11.jar"
+      },
+      "isDirectDependency" : false
+    } ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/com.github.stephanarts:cas-server-integration-zeromq/src/test/java/com/github/stephanarts/cas/ticket/registry/RegistryClientMBeanTest.java",
+    "useImportReport" : [ {
+      "importPath" : "import org.junit.runner.RunWith;",
+      "artifact" : {
+        "artifact" : "junit:junit:4.11",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.stephanarts:cas-server-integration-zeromq:0.0.4/dependencies/junit/junit/4.11/junit-4.11.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.junit.runners.JUnit4;",
+      "artifact" : {
+        "artifact" : "junit:junit:4.11",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.stephanarts:cas-server-integration-zeromq:0.0.4/dependencies/junit/junit/4.11/junit-4.11.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import javax.management.remote.JMXConnectorServer;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import javax.management.remote.JMXConnector;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.junit.BeforeClass;",
+      "artifact" : {
+        "artifact" : "junit:junit:4.11",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.stephanarts:cas-server-integration-zeromq:0.0.4/dependencies/junit/junit/4.11/junit-4.11.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import javax.management.remote.JMXServiceURL;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import javax.management.remote.JMXConnectorServerFactory;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import javax.management.remote.JMXConnectorFactory;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.junit.AfterClass;",
+      "artifact" : {
+        "artifact" : "junit:junit:4.11",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.stephanarts:cas-server-integration-zeromq:0.0.4/dependencies/junit/junit/4.11/junit-4.11.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.junit.Test;",
+      "artifact" : {
+        "artifact" : "junit:junit:4.11",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.stephanarts:cas-server-integration-zeromq:0.0.4/dependencies/junit/junit/4.11/junit-4.11.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.junit.Assert;",
+      "artifact" : {
+        "artifact" : "junit:junit:4.11",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.stephanarts:cas-server-integration-zeromq:0.0.4/dependencies/junit/junit/4.11/junit-4.11.jar"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ {
+      "importPath" : "import org.junit.After;",
+      "artifact" : {
+        "artifact" : "junit:junit:4.11",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.stephanarts:cas-server-integration-zeromq:0.0.4/dependencies/junit/junit/4.11/junit-4.11.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.junit.Before;",
+      "artifact" : {
+        "artifact" : "junit:junit:4.11",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.stephanarts:cas-server-integration-zeromq:0.0.4/dependencies/junit/junit/4.11/junit-4.11.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.junit.Ignore;",
+      "artifact" : {
+        "artifact" : "junit:junit:4.11",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.stephanarts:cas-server-integration-zeromq:0.0.4/dependencies/junit/junit/4.11/junit-4.11.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import static org.mockito.Mockito.mock;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import static org.mockito.Mockito.when;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import static org.mockito.Mockito.withSettings;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.lang.management.*;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import javax.management.*;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/com.github.stephanarts:cas-server-integration-zeromq/src/test/java/com/github/stephanarts/cas/ticket/registry/RegistryBrokerTest.java",
+    "useImportReport" : [ {
+      "importPath" : "import org.junit.runner.RunWith;",
+      "artifact" : {
+        "artifact" : "junit:junit:4.11",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.stephanarts:cas-server-integration-zeromq:0.0.4/dependencies/junit/junit/4.11/junit-4.11.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.junit.runners.JUnit4;",
+      "artifact" : {
+        "artifact" : "junit:junit:4.11",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.stephanarts:cas-server-integration-zeromq:0.0.4/dependencies/junit/junit/4.11/junit-4.11.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.junit.Test;",
+      "artifact" : {
+        "artifact" : "junit:junit:4.11",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.stephanarts:cas-server-integration-zeromq:0.0.4/dependencies/junit/junit/4.11/junit-4.11.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.github.stephanarts.cas.ticket.registry.provider.ZMQProvider;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.jasig.cas.ticket.ServiceTicket;",
+      "artifact" : {
+        "artifact" : "org.jasig.cas:cas-server-core:4.0.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.stephanarts:cas-server-integration-zeromq:0.0.4/dependencies/org/jasig/cas/cas-server-core/4.0.0/cas-server-core-4.0.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import static org.mockito.Mockito.mock;",
+      "artifact" : {
+        "artifact" : "org.mockito:mockito-all:1.9.5",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.stephanarts:cas-server-integration-zeromq:0.0.4/dependencies/org/mockito/mockito-all/1.9.5/mockito-all-1.9.5.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import static org.mockito.Mockito.withSettings;",
+      "artifact" : {
+        "artifact" : "org.mockito:mockito-all:1.9.5",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.stephanarts:cas-server-integration-zeromq:0.0.4/dependencies/org/mockito/mockito-all/1.9.5/mockito-all-1.9.5.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import static org.mockito.Mockito.when;",
+      "artifact" : {
+        "artifact" : "org.mockito:mockito-all:1.9.5",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.stephanarts:cas-server-integration-zeromq:0.0.4/dependencies/org/mockito/mockito-all/1.9.5/mockito-all-1.9.5.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.github.stephanarts.cas.ticket.registry.BootstrapException;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.junit.Assert;",
+      "artifact" : {
+        "artifact" : "junit:junit:4.11",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.stephanarts:cas-server-integration-zeromq:0.0.4/dependencies/junit/junit/4.11/junit-4.11.jar"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ {
+      "importPath" : "import org.junit.Ignore;",
+      "artifact" : {
+        "artifact" : "junit:junit:4.11",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.stephanarts:cas-server-integration-zeromq:0.0.4/dependencies/junit/junit/4.11/junit-4.11.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.jasig.cas.ticket.Ticket;",
+      "artifact" : {
+        "artifact" : "org.jasig.cas:cas-server-core:4.0.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.stephanarts:cas-server-integration-zeromq:0.0.4/dependencies/org/jasig/cas/cas-server-core/4.0.0/cas-server-core-4.0.0.jar"
+      },
+      "isDirectDependency" : true
+    } ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/com.github.stephanarts:cas-server-integration-zeromq/src/test/java/com/github/stephanarts/cas/ticket/registry/provider/GetTicketsMethodTest.java",
+    "useImportReport" : [ {
+      "importPath" : "import org.junit.runner.RunWith;",
+      "artifact" : {
+        "artifact" : "junit:junit:4.11",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.stephanarts:cas-server-integration-zeromq:0.0.4/dependencies/junit/junit/4.11/junit-4.11.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.powermock.modules.junit4.PowerMockRunner;",
+      "artifact" : {
+        "artifact" : "org.powermock:powermock-module-junit4:1.5.6",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.stephanarts:cas-server-integration-zeromq:0.0.4/dependencies/org/powermock/powermock-module-junit4/1.5.6/powermock-module-junit4-1.5.6.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.powermock.core.classloader.annotations.PrepareForTest;",
+      "artifact" : {
+        "artifact" : "org.powermock:powermock-core:1.5.6",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.stephanarts:cas-server-integration-zeromq:0.0.4/dependencies/org/powermock/powermock-core/1.5.6/powermock-core-1.5.6.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.github.stephanarts.cas.ticket.registry.provider.GetTicketsMethod;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.slf4j.Logger;",
+      "artifact" : {
+        "artifact" : "org.slf4j:slf4j-api:1.7.5",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.stephanarts:cas-server-integration-zeromq:0.0.4/dependencies/org/slf4j/slf4j-api/1.7.5/slf4j-api-1.7.5.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.slf4j.LoggerFactory;",
+      "artifact" : {
+        "artifact" : "org.slf4j:slf4j-api:1.7.5",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.stephanarts:cas-server-integration-zeromq:0.0.4/dependencies/org/slf4j/slf4j-api/1.7.5/slf4j-api-1.7.5.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.junit.Test;",
+      "artifact" : {
+        "artifact" : "junit:junit:4.11",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.stephanarts:cas-server-integration-zeromq:0.0.4/dependencies/junit/junit/4.11/junit-4.11.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.HashMap;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.jasig.cas.ticket.Ticket;",
+      "artifact" : {
+        "artifact" : "org.jasig.cas:cas-server-core:4.0.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.stephanarts:cas-server-integration-zeromq:0.0.4/dependencies/org/jasig/cas/cas-server-core/4.0.0/cas-server-core-4.0.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.json.JSONObject;",
+      "artifact" : {
+        "artifact" : "org.json:json:20140107",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.stephanarts:cas-server-integration-zeromq:0.0.4/dependencies/org/json/json/20140107/json-20140107.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import com.github.stephanarts.cas.ticket.registry.support.IMethod;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.jasig.cas.ticket.ServiceTicket;",
+      "artifact" : {
+        "artifact" : "org.jasig.cas:cas-server-core:4.0.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.stephanarts:cas-server-integration-zeromq:0.0.4/dependencies/org/jasig/cas/cas-server-core/4.0.0/cas-server-core-4.0.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import static org.mockito.Mockito.mock;",
+      "artifact" : {
+        "artifact" : "org.mockito:mockito-all:1.9.5",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.stephanarts:cas-server-integration-zeromq:0.0.4/dependencies/org/mockito/mockito-all/1.9.5/mockito-all-1.9.5.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import static org.mockito.Mockito.withSettings;",
+      "artifact" : {
+        "artifact" : "org.mockito:mockito-all:1.9.5",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.stephanarts:cas-server-integration-zeromq:0.0.4/dependencies/org/mockito/mockito-all/1.9.5/mockito-all-1.9.5.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import static org.mockito.Mockito.when;",
+      "artifact" : {
+        "artifact" : "org.mockito:mockito-all:1.9.5",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.stephanarts:cas-server-integration-zeromq:0.0.4/dependencies/org/mockito/mockito-all/1.9.5/mockito-all-1.9.5.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.github.stephanarts.cas.ticket.registry.support.JSONRPCException;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.junit.Assert;",
+      "artifact" : {
+        "artifact" : "junit:junit:4.11",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.stephanarts:cas-server-integration-zeromq:0.0.4/dependencies/junit/junit/4.11/junit-4.11.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.powermock.api.mockito.PowerMockito;",
+      "artifact" : {
+        "artifact" : "org.powermock:powermock-api-mockito:1.5.6",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.stephanarts:cas-server-integration-zeromq:0.0.4/dependencies/org/powermock/powermock-api-mockito/1.5.6/powermock-api-mockito-1.5.6.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.io.ObjectOutputStream;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.json.JSONArray;",
+      "artifact" : {
+        "artifact" : "org.json:json:20140107",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.stephanarts:cas-server-integration-zeromq:0.0.4/dependencies/org/json/json/20140107/json-20140107.jar"
+      },
+      "isDirectDependency" : true
+    } ],
+    "unusedImportReport" : [ {
+      "importPath" : "import org.junit.Ignore;",
+      "artifact" : {
+        "artifact" : "junit:junit:4.11",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.stephanarts:cas-server-integration-zeromq:0.0.4/dependencies/junit/junit/4.11/junit-4.11.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.junit.runners.JUnit4;",
+      "artifact" : {
+        "artifact" : "junit:junit:4.11",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.stephanarts:cas-server-integration-zeromq:0.0.4/dependencies/junit/junit/4.11/junit-4.11.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import static org.mockito.Matchers.*;",
+      "artifact" : {
+        "artifact" : "org.mockito:mockito-all:1.9.5",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.stephanarts:cas-server-integration-zeromq:0.0.4/dependencies/org/mockito/mockito-all/1.9.5/mockito-all-1.9.5.jar"
+      },
+      "isDirectDependency" : false
+    } ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/com.github.stephanarts:cas-server-integration-zeromq/src/test/java/com/github/stephanarts/cas/ticket/registry/provider/GetProviderIdMethodTest.java",
+    "useImportReport" : [ {
+      "importPath" : "import org.junit.runner.RunWith;",
+      "artifact" : {
+        "artifact" : "junit:junit:4.11",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.stephanarts:cas-server-integration-zeromq:0.0.4/dependencies/junit/junit/4.11/junit-4.11.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.junit.runners.JUnit4;",
+      "artifact" : {
+        "artifact" : "junit:junit:4.11",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.stephanarts:cas-server-integration-zeromq:0.0.4/dependencies/junit/junit/4.11/junit-4.11.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.junit.Test;",
+      "artifact" : {
+        "artifact" : "junit:junit:4.11",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.stephanarts:cas-server-integration-zeromq:0.0.4/dependencies/junit/junit/4.11/junit-4.11.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.json.JSONObject;",
+      "artifact" : {
+        "artifact" : "org.json:json:20140107",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.stephanarts:cas-server-integration-zeromq:0.0.4/dependencies/org/json/json/20140107/json-20140107.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import java.util.UUID;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.github.stephanarts.cas.ticket.registry.support.IMethod;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.github.stephanarts.cas.ticket.registry.provider.GetProviderIdMethod;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.junit.Assert;",
+      "artifact" : {
+        "artifact" : "junit:junit:4.11",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.stephanarts:cas-server-integration-zeromq:0.0.4/dependencies/junit/junit/4.11/junit-4.11.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.github.stephanarts.cas.ticket.registry.support.JSONRPCException;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ {
+      "importPath" : "import org.junit.Ignore;",
+      "artifact" : {
+        "artifact" : "junit:junit:4.11",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.stephanarts:cas-server-integration-zeromq:0.0.4/dependencies/junit/junit/4.11/junit-4.11.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.jasig.cas.ticket.Ticket;",
+      "artifact" : {
+        "artifact" : "org.jasig.cas:cas-server-core:4.0.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.stephanarts:cas-server-integration-zeromq:0.0.4/dependencies/org/jasig/cas/cas-server-core/4.0.0/cas-server-core-4.0.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.jasig.cas.ticket.ServiceTicket;",
+      "artifact" : {
+        "artifact" : "org.jasig.cas:cas-server-core:4.0.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.stephanarts:cas-server-integration-zeromq:0.0.4/dependencies/org/jasig/cas/cas-server-core/4.0.0/cas-server-core-4.0.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import static org.mockito.Mockito.mock;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import static org.mockito.Mockito.when;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import static org.mockito.Mockito.withSettings;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/com.github.stephanarts:cas-server-integration-zeromq/src/test/java/com/github/stephanarts/cas/ticket/registry/provider/DeleteMethodTest.java",
+    "useImportReport" : [ {
+      "importPath" : "import org.junit.runner.RunWith;",
+      "artifact" : {
+        "artifact" : "junit:junit:4.11",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.stephanarts:cas-server-integration-zeromq:0.0.4/dependencies/junit/junit/4.11/junit-4.11.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.junit.runners.JUnit4;",
+      "artifact" : {
+        "artifact" : "junit:junit:4.11",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.stephanarts:cas-server-integration-zeromq:0.0.4/dependencies/junit/junit/4.11/junit-4.11.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.junit.Test;",
+      "artifact" : {
+        "artifact" : "junit:junit:4.11",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.stephanarts:cas-server-integration-zeromq:0.0.4/dependencies/junit/junit/4.11/junit-4.11.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.HashMap;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.jasig.cas.ticket.Ticket;",
+      "artifact" : {
+        "artifact" : "org.jasig.cas:cas-server-core:4.0.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.stephanarts:cas-server-integration-zeromq:0.0.4/dependencies/org/jasig/cas/cas-server-core/4.0.0/cas-server-core-4.0.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.json.JSONObject;",
+      "artifact" : {
+        "artifact" : "org.json:json:20140107",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.stephanarts:cas-server-integration-zeromq:0.0.4/dependencies/org/json/json/20140107/json-20140107.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import com.github.stephanarts.cas.ticket.registry.support.IMethod;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.github.stephanarts.cas.ticket.registry.provider.DeleteMethod;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.jasig.cas.ticket.ServiceTicket;",
+      "artifact" : {
+        "artifact" : "org.jasig.cas:cas-server-core:4.0.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.stephanarts:cas-server-integration-zeromq:0.0.4/dependencies/org/jasig/cas/cas-server-core/4.0.0/cas-server-core-4.0.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import static org.mockito.Mockito.mock;",
+      "artifact" : {
+        "artifact" : "org.mockito:mockito-all:1.9.5",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.stephanarts:cas-server-integration-zeromq:0.0.4/dependencies/org/mockito/mockito-all/1.9.5/mockito-all-1.9.5.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import static org.mockito.Mockito.withSettings;",
+      "artifact" : {
+        "artifact" : "org.mockito:mockito-all:1.9.5",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.stephanarts:cas-server-integration-zeromq:0.0.4/dependencies/org/mockito/mockito-all/1.9.5/mockito-all-1.9.5.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import static org.mockito.Mockito.when;",
+      "artifact" : {
+        "artifact" : "org.mockito:mockito-all:1.9.5",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.stephanarts:cas-server-integration-zeromq:0.0.4/dependencies/org/mockito/mockito-all/1.9.5/mockito-all-1.9.5.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.github.stephanarts.cas.ticket.registry.support.JSONRPCException;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.junit.Assert;",
+      "artifact" : {
+        "artifact" : "junit:junit:4.11",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.stephanarts:cas-server-integration-zeromq:0.0.4/dependencies/junit/junit/4.11/junit-4.11.jar"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ {
+      "importPath" : "import org.junit.Ignore;",
+      "artifact" : {
+        "artifact" : "junit:junit:4.11",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.stephanarts:cas-server-integration-zeromq:0.0.4/dependencies/junit/junit/4.11/junit-4.11.jar"
+      },
+      "isDirectDependency" : false
+    } ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/com.github.stephanarts:cas-server-integration-zeromq/src/test/java/com/github/stephanarts/cas/ticket/registry/provider/UpdateMethodTest.java",
+    "useImportReport" : [ {
+      "importPath" : "import org.junit.runner.RunWith;",
+      "artifact" : {
+        "artifact" : "junit:junit:4.11",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.stephanarts:cas-server-integration-zeromq:0.0.4/dependencies/junit/junit/4.11/junit-4.11.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.junit.runners.JUnit4;",
+      "artifact" : {
+        "artifact" : "junit:junit:4.11",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.stephanarts:cas-server-integration-zeromq:0.0.4/dependencies/junit/junit/4.11/junit-4.11.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.junit.Test;",
+      "artifact" : {
+        "artifact" : "junit:junit:4.11",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.stephanarts:cas-server-integration-zeromq:0.0.4/dependencies/junit/junit/4.11/junit-4.11.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.HashMap;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.jasig.cas.ticket.Ticket;",
+      "artifact" : {
+        "artifact" : "org.jasig.cas:cas-server-core:4.0.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.stephanarts:cas-server-integration-zeromq:0.0.4/dependencies/org/jasig/cas/cas-server-core/4.0.0/cas-server-core-4.0.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.json.JSONObject;",
+      "artifact" : {
+        "artifact" : "org.json:json:20140107",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.stephanarts:cas-server-integration-zeromq:0.0.4/dependencies/org/json/json/20140107/json-20140107.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import com.github.stephanarts.cas.ticket.registry.support.IMethod;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.github.stephanarts.cas.ticket.registry.provider.UpdateMethod;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.jasig.cas.ticket.ServiceTicket;",
+      "artifact" : {
+        "artifact" : "org.jasig.cas:cas-server-core:4.0.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.stephanarts:cas-server-integration-zeromq:0.0.4/dependencies/org/jasig/cas/cas-server-core/4.0.0/cas-server-core-4.0.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import static org.mockito.Mockito.mock;",
+      "artifact" : {
+        "artifact" : "org.mockito:mockito-all:1.9.5",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.stephanarts:cas-server-integration-zeromq:0.0.4/dependencies/org/mockito/mockito-all/1.9.5/mockito-all-1.9.5.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import static org.mockito.Mockito.withSettings;",
+      "artifact" : {
+        "artifact" : "org.mockito:mockito-all:1.9.5",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.stephanarts:cas-server-integration-zeromq:0.0.4/dependencies/org/mockito/mockito-all/1.9.5/mockito-all-1.9.5.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import static org.mockito.Mockito.when;",
+      "artifact" : {
+        "artifact" : "org.mockito:mockito-all:1.9.5",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.stephanarts:cas-server-integration-zeromq:0.0.4/dependencies/org/mockito/mockito-all/1.9.5/mockito-all-1.9.5.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.io.ByteArrayOutputStream;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.io.ObjectOutputStream;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import javax.xml.bind.DatatypeConverter;",
+      "artifact" : {
+        "artifact" : "javax.xml.bind:jaxb-api:2.2",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.stephanarts:cas-server-integration-zeromq:0.0.4/dependencies/javax/xml/bind/jaxb-api/2.2/jaxb-api-2.2.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.github.stephanarts.cas.ticket.registry.support.JSONRPCException;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.junit.Assert;",
+      "artifact" : {
+        "artifact" : "junit:junit:4.11",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.stephanarts:cas-server-integration-zeromq:0.0.4/dependencies/junit/junit/4.11/junit-4.11.jar"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ {
+      "importPath" : "import org.junit.Ignore;",
+      "artifact" : {
+        "artifact" : "junit:junit:4.11",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.stephanarts:cas-server-integration-zeromq:0.0.4/dependencies/junit/junit/4.11/junit-4.11.jar"
+      },
+      "isDirectDependency" : false
+    } ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/com.github.stephanarts:cas-server-integration-zeromq/src/test/java/com/github/stephanarts/cas/ticket/registry/provider/AddMethodTest.java",
+    "useImportReport" : [ {
+      "importPath" : "import org.junit.runner.RunWith;",
+      "artifact" : {
+        "artifact" : "junit:junit:4.11",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.stephanarts:cas-server-integration-zeromq:0.0.4/dependencies/junit/junit/4.11/junit-4.11.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.junit.runners.JUnit4;",
+      "artifact" : {
+        "artifact" : "junit:junit:4.11",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.stephanarts:cas-server-integration-zeromq:0.0.4/dependencies/junit/junit/4.11/junit-4.11.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.junit.Test;",
+      "artifact" : {
+        "artifact" : "junit:junit:4.11",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.stephanarts:cas-server-integration-zeromq:0.0.4/dependencies/junit/junit/4.11/junit-4.11.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.HashMap;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.jasig.cas.ticket.Ticket;",
+      "artifact" : {
+        "artifact" : "org.jasig.cas:cas-server-core:4.0.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.stephanarts:cas-server-integration-zeromq:0.0.4/dependencies/org/jasig/cas/cas-server-core/4.0.0/cas-server-core-4.0.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.json.JSONObject;",
+      "artifact" : {
+        "artifact" : "org.json:json:20140107",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.stephanarts:cas-server-integration-zeromq:0.0.4/dependencies/org/json/json/20140107/json-20140107.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import com.github.stephanarts.cas.ticket.registry.support.IMethod;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.github.stephanarts.cas.ticket.registry.provider.AddMethod;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.jasig.cas.ticket.ServiceTicket;",
+      "artifact" : {
+        "artifact" : "org.jasig.cas:cas-server-core:4.0.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.stephanarts:cas-server-integration-zeromq:0.0.4/dependencies/org/jasig/cas/cas-server-core/4.0.0/cas-server-core-4.0.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import static org.mockito.Mockito.mock;",
+      "artifact" : {
+        "artifact" : "org.mockito:mockito-all:1.9.5",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.stephanarts:cas-server-integration-zeromq:0.0.4/dependencies/org/mockito/mockito-all/1.9.5/mockito-all-1.9.5.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import static org.mockito.Mockito.withSettings;",
+      "artifact" : {
+        "artifact" : "org.mockito:mockito-all:1.9.5",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.stephanarts:cas-server-integration-zeromq:0.0.4/dependencies/org/mockito/mockito-all/1.9.5/mockito-all-1.9.5.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import static org.mockito.Mockito.when;",
+      "artifact" : {
+        "artifact" : "org.mockito:mockito-all:1.9.5",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.stephanarts:cas-server-integration-zeromq:0.0.4/dependencies/org/mockito/mockito-all/1.9.5/mockito-all-1.9.5.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.io.ByteArrayOutputStream;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.io.ObjectOutputStream;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import javax.xml.bind.DatatypeConverter;",
+      "artifact" : {
+        "artifact" : "javax.xml.bind:jaxb-api:2.2",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.stephanarts:cas-server-integration-zeromq:0.0.4/dependencies/javax/xml/bind/jaxb-api/2.2/jaxb-api-2.2.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.github.stephanarts.cas.ticket.registry.support.JSONRPCException;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.junit.Assert;",
+      "artifact" : {
+        "artifact" : "junit:junit:4.11",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.stephanarts:cas-server-integration-zeromq:0.0.4/dependencies/junit/junit/4.11/junit-4.11.jar"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ {
+      "importPath" : "import org.junit.Ignore;",
+      "artifact" : {
+        "artifact" : "junit:junit:4.11",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.stephanarts:cas-server-integration-zeromq:0.0.4/dependencies/junit/junit/4.11/junit-4.11.jar"
+      },
+      "isDirectDependency" : false
+    } ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/com.github.stephanarts:cas-server-integration-zeromq/src/test/java/com/github/stephanarts/cas/ticket/registry/provider/ZMQProviderMBeanTest.java",
+    "useImportReport" : [ {
+      "importPath" : "import org.junit.runner.RunWith;",
+      "artifact" : {
+        "artifact" : "junit:junit:4.11",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.stephanarts:cas-server-integration-zeromq:0.0.4/dependencies/junit/junit/4.11/junit-4.11.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.junit.runners.JUnit4;",
+      "artifact" : {
+        "artifact" : "junit:junit:4.11",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.stephanarts:cas-server-integration-zeromq:0.0.4/dependencies/junit/junit/4.11/junit-4.11.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import javax.management.remote.JMXConnectorServer;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import javax.management.remote.JMXConnector;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.junit.BeforeClass;",
+      "artifact" : {
+        "artifact" : "junit:junit:4.11",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.stephanarts:cas-server-integration-zeromq:0.0.4/dependencies/junit/junit/4.11/junit-4.11.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import javax.management.remote.JMXServiceURL;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import javax.management.remote.JMXConnectorServerFactory;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import javax.management.remote.JMXConnectorFactory;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.junit.AfterClass;",
+      "artifact" : {
+        "artifact" : "junit:junit:4.11",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.stephanarts:cas-server-integration-zeromq:0.0.4/dependencies/junit/junit/4.11/junit-4.11.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.junit.Test;",
+      "artifact" : {
+        "artifact" : "junit:junit:4.11",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.stephanarts:cas-server-integration-zeromq:0.0.4/dependencies/junit/junit/4.11/junit-4.11.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.junit.Assert;",
+      "artifact" : {
+        "artifact" : "junit:junit:4.11",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.stephanarts:cas-server-integration-zeromq:0.0.4/dependencies/junit/junit/4.11/junit-4.11.jar"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ {
+      "importPath" : "import org.junit.After;",
+      "artifact" : {
+        "artifact" : "junit:junit:4.11",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.stephanarts:cas-server-integration-zeromq:0.0.4/dependencies/junit/junit/4.11/junit-4.11.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.junit.Before;",
+      "artifact" : {
+        "artifact" : "junit:junit:4.11",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.stephanarts:cas-server-integration-zeromq:0.0.4/dependencies/junit/junit/4.11/junit-4.11.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.junit.Ignore;",
+      "artifact" : {
+        "artifact" : "junit:junit:4.11",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.stephanarts:cas-server-integration-zeromq:0.0.4/dependencies/junit/junit/4.11/junit-4.11.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import static org.mockito.Mockito.mock;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import static org.mockito.Mockito.when;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import static org.mockito.Mockito.withSettings;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.lang.management.*;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import javax.management.*;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/com.github.stephanarts:cas-server-integration-zeromq/src/test/java/com/github/stephanarts/cas/ticket/registry/provider/GetMethodTest.java",
+    "useImportReport" : [ {
+      "importPath" : "import org.junit.runner.RunWith;",
+      "artifact" : {
+        "artifact" : "junit:junit:4.11",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.stephanarts:cas-server-integration-zeromq:0.0.4/dependencies/junit/junit/4.11/junit-4.11.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.powermock.modules.junit4.PowerMockRunner;",
+      "artifact" : {
+        "artifact" : "org.powermock:powermock-module-junit4:1.5.6",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.stephanarts:cas-server-integration-zeromq:0.0.4/dependencies/org/powermock/powermock-module-junit4/1.5.6/powermock-module-junit4-1.5.6.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.powermock.core.classloader.annotations.PrepareForTest;",
+      "artifact" : {
+        "artifact" : "org.powermock:powermock-core:1.5.6",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.stephanarts:cas-server-integration-zeromq:0.0.4/dependencies/org/powermock/powermock-core/1.5.6/powermock-core-1.5.6.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.github.stephanarts.cas.ticket.registry.provider.GetMethod;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.junit.Test;",
+      "artifact" : {
+        "artifact" : "junit:junit:4.11",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.stephanarts:cas-server-integration-zeromq:0.0.4/dependencies/junit/junit/4.11/junit-4.11.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.HashMap;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.jasig.cas.ticket.Ticket;",
+      "artifact" : {
+        "artifact" : "org.jasig.cas:cas-server-core:4.0.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.stephanarts:cas-server-integration-zeromq:0.0.4/dependencies/org/jasig/cas/cas-server-core/4.0.0/cas-server-core-4.0.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.json.JSONObject;",
+      "artifact" : {
+        "artifact" : "org.json:json:20140107",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.stephanarts:cas-server-integration-zeromq:0.0.4/dependencies/org/json/json/20140107/json-20140107.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import com.github.stephanarts.cas.ticket.registry.support.IMethod;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.jasig.cas.ticket.ServiceTicket;",
+      "artifact" : {
+        "artifact" : "org.jasig.cas:cas-server-core:4.0.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.stephanarts:cas-server-integration-zeromq:0.0.4/dependencies/org/jasig/cas/cas-server-core/4.0.0/cas-server-core-4.0.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import static org.mockito.Mockito.mock;",
+      "artifact" : {
+        "artifact" : "org.mockito:mockito-all:1.9.5",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.stephanarts:cas-server-integration-zeromq:0.0.4/dependencies/org/mockito/mockito-all/1.9.5/mockito-all-1.9.5.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import static org.mockito.Mockito.withSettings;",
+      "artifact" : {
+        "artifact" : "org.mockito:mockito-all:1.9.5",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.stephanarts:cas-server-integration-zeromq:0.0.4/dependencies/org/mockito/mockito-all/1.9.5/mockito-all-1.9.5.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import static org.mockito.Mockito.when;",
+      "artifact" : {
+        "artifact" : "org.mockito:mockito-all:1.9.5",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.stephanarts:cas-server-integration-zeromq:0.0.4/dependencies/org/mockito/mockito-all/1.9.5/mockito-all-1.9.5.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.github.stephanarts.cas.ticket.registry.support.JSONRPCException;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.junit.Assert;",
+      "artifact" : {
+        "artifact" : "junit:junit:4.11",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.stephanarts:cas-server-integration-zeromq:0.0.4/dependencies/junit/junit/4.11/junit-4.11.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.powermock.api.mockito.PowerMockito;",
+      "artifact" : {
+        "artifact" : "org.powermock:powermock-api-mockito:1.5.6",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.stephanarts:cas-server-integration-zeromq:0.0.4/dependencies/org/powermock/powermock-api-mockito/1.5.6/powermock-api-mockito-1.5.6.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.io.ObjectOutputStream;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ {
+      "importPath" : "import org.junit.Ignore;",
+      "artifact" : {
+        "artifact" : "junit:junit:4.11",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.stephanarts:cas-server-integration-zeromq:0.0.4/dependencies/junit/junit/4.11/junit-4.11.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.junit.runners.JUnit4;",
+      "artifact" : {
+        "artifact" : "junit:junit:4.11",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.stephanarts:cas-server-integration-zeromq:0.0.4/dependencies/junit/junit/4.11/junit-4.11.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import static org.mockito.Matchers.*;",
+      "artifact" : {
+        "artifact" : "org.mockito:mockito-all:1.9.5",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.stephanarts:cas-server-integration-zeromq:0.0.4/dependencies/org/mockito/mockito-all/1.9.5/mockito-all-1.9.5.jar"
+      },
+      "isDirectDependency" : false
+    } ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/com.github.stephanarts:cas-server-integration-zeromq/src/test/java/com/github/stephanarts/cas/ticket/registry/BootstrapExceptionTest.java",
+    "useImportReport" : [ {
+      "importPath" : "import org.junit.runner.RunWith;",
+      "artifact" : {
+        "artifact" : "junit:junit:4.11",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.stephanarts:cas-server-integration-zeromq:0.0.4/dependencies/junit/junit/4.11/junit-4.11.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.junit.runners.JUnit4;",
+      "artifact" : {
+        "artifact" : "junit:junit:4.11",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.stephanarts:cas-server-integration-zeromq:0.0.4/dependencies/junit/junit/4.11/junit-4.11.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.junit.Test;",
+      "artifact" : {
+        "artifact" : "junit:junit:4.11",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.stephanarts:cas-server-integration-zeromq:0.0.4/dependencies/junit/junit/4.11/junit-4.11.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.github.stephanarts.cas.ticket.registry.BootstrapException;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.junit.Assert;",
+      "artifact" : {
+        "artifact" : "junit:junit:4.11",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.stephanarts:cas-server-integration-zeromq:0.0.4/dependencies/junit/junit/4.11/junit-4.11.jar"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ {
+      "importPath" : "import org.junit.After;",
+      "artifact" : {
+        "artifact" : "junit:junit:4.11",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.stephanarts:cas-server-integration-zeromq:0.0.4/dependencies/junit/junit/4.11/junit-4.11.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.junit.Before;",
+      "artifact" : {
+        "artifact" : "junit:junit:4.11",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.stephanarts:cas-server-integration-zeromq:0.0.4/dependencies/junit/junit/4.11/junit-4.11.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.junit.Ignore;",
+      "artifact" : {
+        "artifact" : "junit:junit:4.11",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.stephanarts:cas-server-integration-zeromq:0.0.4/dependencies/junit/junit/4.11/junit-4.11.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.json.JSONObject;",
+      "artifact" : {
+        "artifact" : "org.json:json:20140107",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.stephanarts:cas-server-integration-zeromq:0.0.4/dependencies/org/json/json/20140107/json-20140107.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.zeromq.ZMQ;",
+      "artifact" : {
+        "artifact" : "org.zeromq:jeromq:0.3.4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.stephanarts:cas-server-integration-zeromq:0.0.4/dependencies/org/zeromq/jeromq/0.3.4/jeromq-0.3.4.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.zeromq.ZMQ.Context;",
+      "artifact" : {
+        "artifact" : "org.zeromq:jeromq:0.3.4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.stephanarts:cas-server-integration-zeromq:0.0.4/dependencies/org/zeromq/jeromq/0.3.4/jeromq-0.3.4.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.zeromq.ZMQ.Socket;",
+      "artifact" : {
+        "artifact" : "org.zeromq:jeromq:0.3.4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.stephanarts:cas-server-integration-zeromq:0.0.4/dependencies/org/zeromq/jeromq/0.3.4/jeromq-0.3.4.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.zeromq.ZMQ.Poller;",
+      "artifact" : {
+        "artifact" : "org.zeromq:jeromq:0.3.4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.stephanarts:cas-server-integration-zeromq:0.0.4/dependencies/org/zeromq/jeromq/0.3.4/jeromq-0.3.4.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.zeromq.ZMQ.PollItem;",
+      "artifact" : {
+        "artifact" : "org.zeromq:jeromq:0.3.4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.stephanarts:cas-server-integration-zeromq:0.0.4/dependencies/org/zeromq/jeromq/0.3.4/jeromq-0.3.4.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.zeromq.ZMsg;",
+      "artifact" : {
+        "artifact" : "org.zeromq:jeromq:0.3.4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.stephanarts:cas-server-integration-zeromq:0.0.4/dependencies/org/zeromq/jeromq/0.3.4/jeromq-0.3.4.jar"
+      },
+      "isDirectDependency" : true
+    } ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/com.github.stephanarts:cas-server-integration-zeromq/src/test/java/com/github/stephanarts/cas/ticket/registry/RegistryClientTest.java",
+    "useImportReport" : [ {
+      "importPath" : "import org.junit.runner.RunWith;",
+      "artifact" : {
+        "artifact" : "junit:junit:4.11",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.stephanarts:cas-server-integration-zeromq:0.0.4/dependencies/junit/junit/4.11/junit-4.11.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.junit.runners.JUnit4;",
+      "artifact" : {
+        "artifact" : "junit:junit:4.11",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.stephanarts:cas-server-integration-zeromq:0.0.4/dependencies/junit/junit/4.11/junit-4.11.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.junit.Test;",
+      "artifact" : {
+        "artifact" : "junit:junit:4.11",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.stephanarts:cas-server-integration-zeromq:0.0.4/dependencies/junit/junit/4.11/junit-4.11.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.github.stephanarts.cas.ticket.registry.RegistryClient;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.jasig.cas.ticket.ServiceTicket;",
+      "artifact" : {
+        "artifact" : "org.jasig.cas:cas-server-core:4.0.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.stephanarts:cas-server-integration-zeromq:0.0.4/dependencies/org/jasig/cas/cas-server-core/4.0.0/cas-server-core-4.0.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import static org.mockito.Mockito.mock;",
+      "artifact" : {
+        "artifact" : "org.mockito:mockito-all:1.9.5",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.stephanarts:cas-server-integration-zeromq:0.0.4/dependencies/org/mockito/mockito-all/1.9.5/mockito-all-1.9.5.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import static org.mockito.Mockito.withSettings;",
+      "artifact" : {
+        "artifact" : "org.mockito:mockito-all:1.9.5",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.stephanarts:cas-server-integration-zeromq:0.0.4/dependencies/org/mockito/mockito-all/1.9.5/mockito-all-1.9.5.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import static org.mockito.Mockito.when;",
+      "artifact" : {
+        "artifact" : "org.mockito:mockito-all:1.9.5",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.stephanarts:cas-server-integration-zeromq:0.0.4/dependencies/org/mockito/mockito-all/1.9.5/mockito-all-1.9.5.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.github.stephanarts.cas.ticket.registry.provider.ZMQProvider;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.github.stephanarts.cas.ticket.registry.support.JSONRPCException;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.junit.Assert;",
+      "artifact" : {
+        "artifact" : "junit:junit:4.11",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.stephanarts:cas-server-integration-zeromq:0.0.4/dependencies/junit/junit/4.11/junit-4.11.jar"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ {
+      "importPath" : "import org.junit.Ignore;",
+      "artifact" : {
+        "artifact" : "junit:junit:4.11",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.stephanarts:cas-server-integration-zeromq:0.0.4/dependencies/junit/junit/4.11/junit-4.11.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.jasig.cas.ticket.Ticket;",
+      "artifact" : {
+        "artifact" : "org.jasig.cas:cas-server-core:4.0.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.stephanarts:cas-server-integration-zeromq:0.0.4/dependencies/org/jasig/cas/cas-server-core/4.0.0/cas-server-core-4.0.0.jar"
+      },
+      "isDirectDependency" : true
+    } ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/com.github.stephanarts:cas-server-integration-zeromq/src/test/java/com/github/stephanarts/cas/ticket/registry/support/JSONRPCClientTest.java",
+    "useImportReport" : [ {
+      "importPath" : "import org.junit.runner.RunWith;",
+      "artifact" : {
+        "artifact" : "junit:junit:4.11",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.stephanarts:cas-server-integration-zeromq:0.0.4/dependencies/junit/junit/4.11/junit-4.11.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.junit.runners.JUnit4;",
+      "artifact" : {
+        "artifact" : "junit:junit:4.11",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.stephanarts:cas-server-integration-zeromq:0.0.4/dependencies/junit/junit/4.11/junit-4.11.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.slf4j.Logger;",
+      "artifact" : {
+        "artifact" : "org.slf4j:slf4j-api:1.7.5",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.stephanarts:cas-server-integration-zeromq:0.0.4/dependencies/org/slf4j/slf4j-api/1.7.5/slf4j-api-1.7.5.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.slf4j.LoggerFactory;",
+      "artifact" : {
+        "artifact" : "org.slf4j:slf4j-api:1.7.5",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.stephanarts:cas-server-integration-zeromq:0.0.4/dependencies/org/slf4j/slf4j-api/1.7.5/slf4j-api-1.7.5.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.zeromq.ZMQ.Context;",
+      "artifact" : {
+        "artifact" : "org.zeromq:jeromq:0.3.4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.stephanarts:cas-server-integration-zeromq:0.0.4/dependencies/org/zeromq/jeromq/0.3.4/jeromq-0.3.4.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.zeromq.ZMQ.Socket;",
+      "artifact" : {
+        "artifact" : "org.zeromq:jeromq:0.3.4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.stephanarts:cas-server-integration-zeromq:0.0.4/dependencies/org/zeromq/jeromq/0.3.4/jeromq-0.3.4.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.zeromq.ZMsg;",
+      "artifact" : {
+        "artifact" : "org.zeromq:jeromq:0.3.4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.stephanarts:cas-server-integration-zeromq:0.0.4/dependencies/org/zeromq/jeromq/0.3.4/jeromq-0.3.4.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.zeromq.ZFrame;",
+      "artifact" : {
+        "artifact" : "org.zeromq:jeromq:0.3.4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.stephanarts:cas-server-integration-zeromq:0.0.4/dependencies/org/zeromq/jeromq/0.3.4/jeromq-0.3.4.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.json.JSONObject;",
+      "artifact" : {
+        "artifact" : "org.json:json:20140107",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.stephanarts:cas-server-integration-zeromq:0.0.4/dependencies/org/json/json/20140107/json-20140107.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.zeromq.ZMQ.Poller;",
+      "artifact" : {
+        "artifact" : "org.zeromq:jeromq:0.3.4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.stephanarts:cas-server-integration-zeromq:0.0.4/dependencies/org/zeromq/jeromq/0.3.4/jeromq-0.3.4.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.zeromq.ZMQ;",
+      "artifact" : {
+        "artifact" : "org.zeromq:jeromq:0.3.4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.stephanarts:cas-server-integration-zeromq:0.0.4/dependencies/org/zeromq/jeromq/0.3.4/jeromq-0.3.4.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.junit.BeforeClass;",
+      "artifact" : {
+        "artifact" : "junit:junit:4.11",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.stephanarts:cas-server-integration-zeromq:0.0.4/dependencies/junit/junit/4.11/junit-4.11.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.junit.AfterClass;",
+      "artifact" : {
+        "artifact" : "junit:junit:4.11",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.stephanarts:cas-server-integration-zeromq:0.0.4/dependencies/junit/junit/4.11/junit-4.11.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.junit.Test;",
+      "artifact" : {
+        "artifact" : "junit:junit:4.11",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.stephanarts:cas-server-integration-zeromq:0.0.4/dependencies/junit/junit/4.11/junit-4.11.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.github.stephanarts.cas.ticket.registry.support.JSONRPCClient;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.junit.Assert;",
+      "artifact" : {
+        "artifact" : "junit:junit:4.11",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.stephanarts:cas-server-integration-zeromq:0.0.4/dependencies/junit/junit/4.11/junit-4.11.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.github.stephanarts.cas.ticket.registry.support.JSONRPCException;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.github.stephanarts.cas.ticket.registry.support.PaceMaker;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ {
+      "importPath" : "import org.junit.After;",
+      "artifact" : {
+        "artifact" : "junit:junit:4.11",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.stephanarts:cas-server-integration-zeromq:0.0.4/dependencies/junit/junit/4.11/junit-4.11.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.junit.Before;",
+      "artifact" : {
+        "artifact" : "junit:junit:4.11",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.stephanarts:cas-server-integration-zeromq:0.0.4/dependencies/junit/junit/4.11/junit-4.11.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.junit.Ignore;",
+      "artifact" : {
+        "artifact" : "junit:junit:4.11",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.stephanarts:cas-server-integration-zeromq:0.0.4/dependencies/junit/junit/4.11/junit-4.11.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.zeromq.ZMQ.PollItem;",
+      "artifact" : {
+        "artifact" : "org.zeromq:jeromq:0.3.4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.stephanarts:cas-server-integration-zeromq:0.0.4/dependencies/org/zeromq/jeromq/0.3.4/jeromq-0.3.4.jar"
+      },
+      "isDirectDependency" : true
+    } ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/com.github.stephanarts:cas-server-integration-zeromq/src/test/java/com/github/stephanarts/cas/ticket/registry/support/JSONRPCExceptionTest.java",
+    "useImportReport" : [ {
+      "importPath" : "import org.junit.runner.RunWith;",
+      "artifact" : {
+        "artifact" : "junit:junit:4.11",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.stephanarts:cas-server-integration-zeromq:0.0.4/dependencies/junit/junit/4.11/junit-4.11.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.junit.runners.JUnit4;",
+      "artifact" : {
+        "artifact" : "junit:junit:4.11",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.stephanarts:cas-server-integration-zeromq:0.0.4/dependencies/junit/junit/4.11/junit-4.11.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.junit.Test;",
+      "artifact" : {
+        "artifact" : "junit:junit:4.11",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.stephanarts:cas-server-integration-zeromq:0.0.4/dependencies/junit/junit/4.11/junit-4.11.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.github.stephanarts.cas.ticket.registry.support.JSONRPCException;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.junit.Assert;",
+      "artifact" : {
+        "artifact" : "junit:junit:4.11",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.stephanarts:cas-server-integration-zeromq:0.0.4/dependencies/junit/junit/4.11/junit-4.11.jar"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ {
+      "importPath" : "import org.junit.After;",
+      "artifact" : {
+        "artifact" : "junit:junit:4.11",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.stephanarts:cas-server-integration-zeromq:0.0.4/dependencies/junit/junit/4.11/junit-4.11.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.junit.Before;",
+      "artifact" : {
+        "artifact" : "junit:junit:4.11",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.stephanarts:cas-server-integration-zeromq:0.0.4/dependencies/junit/junit/4.11/junit-4.11.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.junit.Ignore;",
+      "artifact" : {
+        "artifact" : "junit:junit:4.11",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.stephanarts:cas-server-integration-zeromq:0.0.4/dependencies/junit/junit/4.11/junit-4.11.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.json.JSONObject;",
+      "artifact" : {
+        "artifact" : "org.json:json:20140107",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.stephanarts:cas-server-integration-zeromq:0.0.4/dependencies/org/json/json/20140107/json-20140107.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.zeromq.ZMQ;",
+      "artifact" : {
+        "artifact" : "org.zeromq:jeromq:0.3.4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.stephanarts:cas-server-integration-zeromq:0.0.4/dependencies/org/zeromq/jeromq/0.3.4/jeromq-0.3.4.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.zeromq.ZMQ.Context;",
+      "artifact" : {
+        "artifact" : "org.zeromq:jeromq:0.3.4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.stephanarts:cas-server-integration-zeromq:0.0.4/dependencies/org/zeromq/jeromq/0.3.4/jeromq-0.3.4.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.zeromq.ZMQ.Socket;",
+      "artifact" : {
+        "artifact" : "org.zeromq:jeromq:0.3.4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.stephanarts:cas-server-integration-zeromq:0.0.4/dependencies/org/zeromq/jeromq/0.3.4/jeromq-0.3.4.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.zeromq.ZMQ.Poller;",
+      "artifact" : {
+        "artifact" : "org.zeromq:jeromq:0.3.4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.stephanarts:cas-server-integration-zeromq:0.0.4/dependencies/org/zeromq/jeromq/0.3.4/jeromq-0.3.4.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.zeromq.ZMQ.PollItem;",
+      "artifact" : {
+        "artifact" : "org.zeromq:jeromq:0.3.4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.stephanarts:cas-server-integration-zeromq:0.0.4/dependencies/org/zeromq/jeromq/0.3.4/jeromq-0.3.4.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.zeromq.ZMsg;",
+      "artifact" : {
+        "artifact" : "org.zeromq:jeromq:0.3.4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.stephanarts:cas-server-integration-zeromq:0.0.4/dependencies/org/zeromq/jeromq/0.3.4/jeromq-0.3.4.jar"
+      },
+      "isDirectDependency" : true
+    } ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/com.github.stephanarts:cas-server-integration-zeromq/src/test/java/com/github/stephanarts/cas/ticket/registry/support/PaceMakerTest.java",
+    "useImportReport" : [ {
+      "importPath" : "import org.junit.runner.RunWith;",
+      "artifact" : {
+        "artifact" : "junit:junit:4.11",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.stephanarts:cas-server-integration-zeromq:0.0.4/dependencies/junit/junit/4.11/junit-4.11.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.junit.runners.JUnit4;",
+      "artifact" : {
+        "artifact" : "junit:junit:4.11",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.stephanarts:cas-server-integration-zeromq:0.0.4/dependencies/junit/junit/4.11/junit-4.11.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.slf4j.Logger;",
+      "artifact" : {
+        "artifact" : "org.slf4j:slf4j-api:1.7.5",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.stephanarts:cas-server-integration-zeromq:0.0.4/dependencies/org/slf4j/slf4j-api/1.7.5/slf4j-api-1.7.5.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.slf4j.LoggerFactory;",
+      "artifact" : {
+        "artifact" : "org.slf4j:slf4j-api:1.7.5",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.stephanarts:cas-server-integration-zeromq:0.0.4/dependencies/org/slf4j/slf4j-api/1.7.5/slf4j-api-1.7.5.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.junit.BeforeClass;",
+      "artifact" : {
+        "artifact" : "junit:junit:4.11",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.stephanarts:cas-server-integration-zeromq:0.0.4/dependencies/junit/junit/4.11/junit-4.11.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.junit.AfterClass;",
+      "artifact" : {
+        "artifact" : "junit:junit:4.11",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.stephanarts:cas-server-integration-zeromq:0.0.4/dependencies/junit/junit/4.11/junit-4.11.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.junit.Test;",
+      "artifact" : {
+        "artifact" : "junit:junit:4.11",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.stephanarts:cas-server-integration-zeromq:0.0.4/dependencies/junit/junit/4.11/junit-4.11.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.github.stephanarts.cas.ticket.registry.support.PaceMaker;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.junit.Assert;",
+      "artifact" : {
+        "artifact" : "junit:junit:4.11",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.stephanarts:cas-server-integration-zeromq:0.0.4/dependencies/junit/junit/4.11/junit-4.11.jar"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ {
+      "importPath" : "import org.junit.After;",
+      "artifact" : {
+        "artifact" : "junit:junit:4.11",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.stephanarts:cas-server-integration-zeromq:0.0.4/dependencies/junit/junit/4.11/junit-4.11.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.junit.Before;",
+      "artifact" : {
+        "artifact" : "junit:junit:4.11",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.stephanarts:cas-server-integration-zeromq:0.0.4/dependencies/junit/junit/4.11/junit-4.11.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.junit.Ignore;",
+      "artifact" : {
+        "artifact" : "junit:junit:4.11",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.stephanarts:cas-server-integration-zeromq:0.0.4/dependencies/junit/junit/4.11/junit-4.11.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.json.JSONObject;",
+      "artifact" : {
+        "artifact" : "org.json:json:20140107",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.stephanarts:cas-server-integration-zeromq:0.0.4/dependencies/org/json/json/20140107/json-20140107.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.zeromq.ZMQ;",
+      "artifact" : {
+        "artifact" : "org.zeromq:jeromq:0.3.4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.stephanarts:cas-server-integration-zeromq:0.0.4/dependencies/org/zeromq/jeromq/0.3.4/jeromq-0.3.4.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.zeromq.ZMQ.Context;",
+      "artifact" : {
+        "artifact" : "org.zeromq:jeromq:0.3.4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.stephanarts:cas-server-integration-zeromq:0.0.4/dependencies/org/zeromq/jeromq/0.3.4/jeromq-0.3.4.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.zeromq.ZMQ.Socket;",
+      "artifact" : {
+        "artifact" : "org.zeromq:jeromq:0.3.4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.stephanarts:cas-server-integration-zeromq:0.0.4/dependencies/org/zeromq/jeromq/0.3.4/jeromq-0.3.4.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.zeromq.ZMQ.Poller;",
+      "artifact" : {
+        "artifact" : "org.zeromq:jeromq:0.3.4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.stephanarts:cas-server-integration-zeromq:0.0.4/dependencies/org/zeromq/jeromq/0.3.4/jeromq-0.3.4.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.zeromq.ZMQ.PollItem;",
+      "artifact" : {
+        "artifact" : "org.zeromq:jeromq:0.3.4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.stephanarts:cas-server-integration-zeromq:0.0.4/dependencies/org/zeromq/jeromq/0.3.4/jeromq-0.3.4.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.zeromq.ZMsg;",
+      "artifact" : {
+        "artifact" : "org.zeromq:jeromq:0.3.4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.stephanarts:cas-server-integration-zeromq:0.0.4/dependencies/org/zeromq/jeromq/0.3.4/jeromq-0.3.4.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.zeromq.ZFrame;",
+      "artifact" : {
+        "artifact" : "org.zeromq:jeromq:0.3.4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.stephanarts:cas-server-integration-zeromq:0.0.4/dependencies/org/zeromq/jeromq/0.3.4/jeromq-0.3.4.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import com.github.stephanarts.cas.ticket.registry.support.JSONRPCException;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/com.github.stephanarts:cas-server-integration-zeromq/src/test/java/com/github/stephanarts/cas/ticket/registry/support/HeartbeatExceptionTest.java",
+    "useImportReport" : [ {
+      "importPath" : "import org.junit.runner.RunWith;",
+      "artifact" : {
+        "artifact" : "junit:junit:4.11",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.stephanarts:cas-server-integration-zeromq:0.0.4/dependencies/junit/junit/4.11/junit-4.11.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.junit.runners.JUnit4;",
+      "artifact" : {
+        "artifact" : "junit:junit:4.11",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.stephanarts:cas-server-integration-zeromq:0.0.4/dependencies/junit/junit/4.11/junit-4.11.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.junit.Test;",
+      "artifact" : {
+        "artifact" : "junit:junit:4.11",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.stephanarts:cas-server-integration-zeromq:0.0.4/dependencies/junit/junit/4.11/junit-4.11.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.github.stephanarts.cas.ticket.registry.support.HeartbeatException;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.junit.Assert;",
+      "artifact" : {
+        "artifact" : "junit:junit:4.11",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.stephanarts:cas-server-integration-zeromq:0.0.4/dependencies/junit/junit/4.11/junit-4.11.jar"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ {
+      "importPath" : "import org.junit.After;",
+      "artifact" : {
+        "artifact" : "junit:junit:4.11",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.stephanarts:cas-server-integration-zeromq:0.0.4/dependencies/junit/junit/4.11/junit-4.11.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.junit.Before;",
+      "artifact" : {
+        "artifact" : "junit:junit:4.11",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.stephanarts:cas-server-integration-zeromq:0.0.4/dependencies/junit/junit/4.11/junit-4.11.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.junit.Ignore;",
+      "artifact" : {
+        "artifact" : "junit:junit:4.11",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.stephanarts:cas-server-integration-zeromq:0.0.4/dependencies/junit/junit/4.11/junit-4.11.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.json.JSONObject;",
+      "artifact" : {
+        "artifact" : "org.json:json:20140107",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.stephanarts:cas-server-integration-zeromq:0.0.4/dependencies/org/json/json/20140107/json-20140107.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.zeromq.ZMQ;",
+      "artifact" : {
+        "artifact" : "org.zeromq:jeromq:0.3.4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.stephanarts:cas-server-integration-zeromq:0.0.4/dependencies/org/zeromq/jeromq/0.3.4/jeromq-0.3.4.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.zeromq.ZMQ.Context;",
+      "artifact" : {
+        "artifact" : "org.zeromq:jeromq:0.3.4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.stephanarts:cas-server-integration-zeromq:0.0.4/dependencies/org/zeromq/jeromq/0.3.4/jeromq-0.3.4.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.zeromq.ZMQ.Socket;",
+      "artifact" : {
+        "artifact" : "org.zeromq:jeromq:0.3.4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.stephanarts:cas-server-integration-zeromq:0.0.4/dependencies/org/zeromq/jeromq/0.3.4/jeromq-0.3.4.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.zeromq.ZMQ.Poller;",
+      "artifact" : {
+        "artifact" : "org.zeromq:jeromq:0.3.4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.stephanarts:cas-server-integration-zeromq:0.0.4/dependencies/org/zeromq/jeromq/0.3.4/jeromq-0.3.4.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.zeromq.ZMQ.PollItem;",
+      "artifact" : {
+        "artifact" : "org.zeromq:jeromq:0.3.4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.stephanarts:cas-server-integration-zeromq:0.0.4/dependencies/org/zeromq/jeromq/0.3.4/jeromq-0.3.4.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.zeromq.ZMsg;",
+      "artifact" : {
+        "artifact" : "org.zeromq:jeromq:0.3.4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.stephanarts:cas-server-integration-zeromq:0.0.4/dependencies/org/zeromq/jeromq/0.3.4/jeromq-0.3.4.jar"
+      },
+      "isDirectDependency" : true
+    } ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/com.github.stephanarts:cas-server-integration-zeromq/src/test/java/com/github/stephanarts/cas/ticket/registry/support/JSONRPCServerTest.java",
+    "useImportReport" : [ {
+      "importPath" : "import org.junit.runner.RunWith;",
+      "artifact" : {
+        "artifact" : "junit:junit:4.11",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.stephanarts:cas-server-integration-zeromq:0.0.4/dependencies/junit/junit/4.11/junit-4.11.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.junit.runners.JUnit4;",
+      "artifact" : {
+        "artifact" : "junit:junit:4.11",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.stephanarts:cas-server-integration-zeromq:0.0.4/dependencies/junit/junit/4.11/junit-4.11.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.json.JSONObject;",
+      "artifact" : {
+        "artifact" : "org.json:json:20140107",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.stephanarts:cas-server-integration-zeromq:0.0.4/dependencies/org/json/json/20140107/json-20140107.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import com.github.stephanarts.cas.ticket.registry.support.JSONRPCException;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.junit.Test;",
+      "artifact" : {
+        "artifact" : "junit:junit:4.11",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.stephanarts:cas-server-integration-zeromq:0.0.4/dependencies/junit/junit/4.11/junit-4.11.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.github.stephanarts.cas.ticket.registry.support.JSONRPCServer;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.zeromq.ZMQ.Context;",
+      "artifact" : {
+        "artifact" : "org.zeromq:jeromq:0.3.4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.stephanarts:cas-server-integration-zeromq:0.0.4/dependencies/org/zeromq/jeromq/0.3.4/jeromq-0.3.4.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.zeromq.ZMQ;",
+      "artifact" : {
+        "artifact" : "org.zeromq:jeromq:0.3.4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.stephanarts:cas-server-integration-zeromq:0.0.4/dependencies/org/zeromq/jeromq/0.3.4/jeromq-0.3.4.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.zeromq.ZMQ.Socket;",
+      "artifact" : {
+        "artifact" : "org.zeromq:jeromq:0.3.4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.stephanarts:cas-server-integration-zeromq:0.0.4/dependencies/org/zeromq/jeromq/0.3.4/jeromq-0.3.4.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.junit.Assert;",
+      "artifact" : {
+        "artifact" : "junit:junit:4.11",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.stephanarts:cas-server-integration-zeromq:0.0.4/dependencies/junit/junit/4.11/junit-4.11.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.zeromq.ZMQ.PollItem;",
+      "artifact" : {
+        "artifact" : "org.zeromq:jeromq:0.3.4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.stephanarts:cas-server-integration-zeromq:0.0.4/dependencies/org/zeromq/jeromq/0.3.4/jeromq-0.3.4.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.zeromq.ZMQ.Poller;",
+      "artifact" : {
+        "artifact" : "org.zeromq:jeromq:0.3.4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.stephanarts:cas-server-integration-zeromq:0.0.4/dependencies/org/zeromq/jeromq/0.3.4/jeromq-0.3.4.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.zeromq.ZMsg;",
+      "artifact" : {
+        "artifact" : "org.zeromq:jeromq:0.3.4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.stephanarts:cas-server-integration-zeromq:0.0.4/dependencies/org/zeromq/jeromq/0.3.4/jeromq-0.3.4.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.zeromq.ZFrame;",
+      "artifact" : {
+        "artifact" : "org.zeromq:jeromq:0.3.4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.stephanarts:cas-server-integration-zeromq:0.0.4/dependencies/org/zeromq/jeromq/0.3.4/jeromq-0.3.4.jar"
+      },
+      "isDirectDependency" : true
+    } ],
+    "unusedImportReport" : [ {
+      "importPath" : "import org.junit.After;",
+      "artifact" : {
+        "artifact" : "junit:junit:4.11",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.stephanarts:cas-server-integration-zeromq:0.0.4/dependencies/junit/junit/4.11/junit-4.11.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.junit.Before;",
+      "artifact" : {
+        "artifact" : "junit:junit:4.11",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.stephanarts:cas-server-integration-zeromq:0.0.4/dependencies/junit/junit/4.11/junit-4.11.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.junit.Ignore;",
+      "artifact" : {
+        "artifact" : "junit:junit:4.11",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.stephanarts:cas-server-integration-zeromq:0.0.4/dependencies/junit/junit/4.11/junit-4.11.jar"
+      },
+      "isDirectDependency" : false
+    } ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/com.github.stephanarts:cas-server-integration-zeromq/src/test/java/com/github/stephanarts/cas/ticket/registry/support/WatchDogTest.java",
+    "useImportReport" : [ {
+      "importPath" : "import org.junit.runner.RunWith;",
+      "artifact" : {
+        "artifact" : "junit:junit:4.11",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.stephanarts:cas-server-integration-zeromq:0.0.4/dependencies/junit/junit/4.11/junit-4.11.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.powermock.modules.junit4.PowerMockRunner;",
+      "artifact" : {
+        "artifact" : "org.powermock:powermock-module-junit4:1.5.6",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.stephanarts:cas-server-integration-zeromq:0.0.4/dependencies/org/powermock/powermock-module-junit4/1.5.6/powermock-module-junit4-1.5.6.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.powermock.core.classloader.annotations.PrepareForTest;",
+      "artifact" : {
+        "artifact" : "org.powermock:powermock-core:1.5.6",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.stephanarts:cas-server-integration-zeromq:0.0.4/dependencies/org/powermock/powermock-core/1.5.6/powermock-core-1.5.6.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.github.stephanarts.cas.ticket.registry.support.WatchDog;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.slf4j.Logger;",
+      "artifact" : {
+        "artifact" : "org.slf4j:slf4j-api:1.7.5",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.stephanarts:cas-server-integration-zeromq:0.0.4/dependencies/org/slf4j/slf4j-api/1.7.5/slf4j-api-1.7.5.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.slf4j.LoggerFactory;",
+      "artifact" : {
+        "artifact" : "org.slf4j:slf4j-api:1.7.5",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.stephanarts:cas-server-integration-zeromq:0.0.4/dependencies/org/slf4j/slf4j-api/1.7.5/slf4j-api-1.7.5.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.junit.BeforeClass;",
+      "artifact" : {
+        "artifact" : "junit:junit:4.11",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.stephanarts:cas-server-integration-zeromq:0.0.4/dependencies/junit/junit/4.11/junit-4.11.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.junit.AfterClass;",
+      "artifact" : {
+        "artifact" : "junit:junit:4.11",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.stephanarts:cas-server-integration-zeromq:0.0.4/dependencies/junit/junit/4.11/junit-4.11.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.junit.Test;",
+      "artifact" : {
+        "artifact" : "junit:junit:4.11",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.stephanarts:cas-server-integration-zeromq:0.0.4/dependencies/junit/junit/4.11/junit-4.11.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.junit.Assert;",
+      "artifact" : {
+        "artifact" : "junit:junit:4.11",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.stephanarts:cas-server-integration-zeromq:0.0.4/dependencies/junit/junit/4.11/junit-4.11.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.junit.Ignore;",
+      "artifact" : {
+        "artifact" : "junit:junit:4.11",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.stephanarts:cas-server-integration-zeromq:0.0.4/dependencies/junit/junit/4.11/junit-4.11.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.powermock.api.mockito.PowerMockito;",
+      "artifact" : {
+        "artifact" : "org.powermock:powermock-api-mockito:1.5.6",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.stephanarts:cas-server-integration-zeromq:0.0.4/dependencies/org/powermock/powermock-api-mockito/1.5.6/powermock-api-mockito-1.5.6.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import static org.mockito.Matchers.*;",
+      "artifact" : {
+        "artifact" : "org.mockito:mockito-all:1.9.5",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.stephanarts:cas-server-integration-zeromq:0.0.4/dependencies/org/mockito/mockito-all/1.9.5/mockito-all-1.9.5.jar"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ {
+      "importPath" : "import org.junit.After;",
+      "artifact" : {
+        "artifact" : "junit:junit:4.11",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.stephanarts:cas-server-integration-zeromq:0.0.4/dependencies/junit/junit/4.11/junit-4.11.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.junit.Before;",
+      "artifact" : {
+        "artifact" : "junit:junit:4.11",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.stephanarts:cas-server-integration-zeromq:0.0.4/dependencies/junit/junit/4.11/junit-4.11.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.junit.runners.JUnit4;",
+      "artifact" : {
+        "artifact" : "junit:junit:4.11",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.stephanarts:cas-server-integration-zeromq:0.0.4/dependencies/junit/junit/4.11/junit-4.11.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.json.JSONObject;",
+      "artifact" : {
+        "artifact" : "org.json:json:20140107",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.stephanarts:cas-server-integration-zeromq:0.0.4/dependencies/org/json/json/20140107/json-20140107.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.zeromq.ZMQ;",
+      "artifact" : {
+        "artifact" : "org.zeromq:jeromq:0.3.4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.stephanarts:cas-server-integration-zeromq:0.0.4/dependencies/org/zeromq/jeromq/0.3.4/jeromq-0.3.4.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.zeromq.ZMQ.Context;",
+      "artifact" : {
+        "artifact" : "org.zeromq:jeromq:0.3.4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.stephanarts:cas-server-integration-zeromq:0.0.4/dependencies/org/zeromq/jeromq/0.3.4/jeromq-0.3.4.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.zeromq.ZMQ.Socket;",
+      "artifact" : {
+        "artifact" : "org.zeromq:jeromq:0.3.4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.stephanarts:cas-server-integration-zeromq:0.0.4/dependencies/org/zeromq/jeromq/0.3.4/jeromq-0.3.4.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.zeromq.ZMQ.Poller;",
+      "artifact" : {
+        "artifact" : "org.zeromq:jeromq:0.3.4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.stephanarts:cas-server-integration-zeromq:0.0.4/dependencies/org/zeromq/jeromq/0.3.4/jeromq-0.3.4.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.zeromq.ZMQ.PollItem;",
+      "artifact" : {
+        "artifact" : "org.zeromq:jeromq:0.3.4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.stephanarts:cas-server-integration-zeromq:0.0.4/dependencies/org/zeromq/jeromq/0.3.4/jeromq-0.3.4.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.zeromq.ZMsg;",
+      "artifact" : {
+        "artifact" : "org.zeromq:jeromq:0.3.4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.stephanarts:cas-server-integration-zeromq:0.0.4/dependencies/org/zeromq/jeromq/0.3.4/jeromq-0.3.4.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.zeromq.ZFrame;",
+      "artifact" : {
+        "artifact" : "org.zeromq:jeromq:0.3.4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.stephanarts:cas-server-integration-zeromq:0.0.4/dependencies/org/zeromq/jeromq/0.3.4/jeromq-0.3.4.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import static org.mockito.Mockito.mock;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import static org.mockito.Mockito.when;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import static org.mockito.Mockito.withSettings;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/com.github.stephanarts:cas-server-integration-zeromq/src/main/java/com/github/stephanarts/cas/ticket/registry/RegistryClientMBean.java",
+    "useImportReport" : [ ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/com.github.stephanarts:cas-server-integration-zeromq/src/main/java/com/github/stephanarts/cas/ticket/registry/provider/ZMQProvider.java",
+    "useImportReport" : [ {
+      "importPath" : "import com.github.stephanarts.cas.ticket.registry.support.JSONRPCServer;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.slf4j.Logger;",
+      "artifact" : {
+        "artifact" : "org.slf4j:slf4j-api:1.7.5",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.stephanarts:cas-server-integration-zeromq:0.0.4/dependencies/org/slf4j/slf4j-api/1.7.5/slf4j-api-1.7.5.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.slf4j.LoggerFactory;",
+      "artifact" : {
+        "artifact" : "org.slf4j:slf4j-api:1.7.5",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.stephanarts:cas-server-integration-zeromq:0.0.4/dependencies/org/slf4j/slf4j-api/1.7.5/slf4j-api-1.7.5.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.HashMap;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.jasig.cas.ticket.Ticket;",
+      "artifact" : {
+        "artifact" : "org.jasig.cas:cas-server-core:4.0.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.stephanarts:cas-server-integration-zeromq:0.0.4/dependencies/org/jasig/cas/cas-server-core/4.0.0/cas-server-core-4.0.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import com.github.stephanarts.cas.ticket.registry.support.JSONRPCException;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/com.github.stephanarts:cas-server-integration-zeromq/src/main/java/com/github/stephanarts/cas/ticket/registry/provider/UpdateMethod.java",
+    "useImportReport" : [ {
+      "importPath" : "import com.github.stephanarts.cas.ticket.registry.support.IMethod;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.slf4j.Logger;",
+      "artifact" : {
+        "artifact" : "org.slf4j:slf4j-api:1.7.5",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.stephanarts:cas-server-integration-zeromq:0.0.4/dependencies/org/slf4j/slf4j-api/1.7.5/slf4j-api-1.7.5.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.slf4j.LoggerFactory;",
+      "artifact" : {
+        "artifact" : "org.slf4j:slf4j-api:1.7.5",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.stephanarts:cas-server-integration-zeromq:0.0.4/dependencies/org/slf4j/slf4j-api/1.7.5/slf4j-api-1.7.5.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.HashMap;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.jasig.cas.ticket.Ticket;",
+      "artifact" : {
+        "artifact" : "org.jasig.cas:cas-server-core:4.0.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.stephanarts:cas-server-integration-zeromq:0.0.4/dependencies/org/jasig/cas/cas-server-core/4.0.0/cas-server-core-4.0.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.json.JSONObject;",
+      "artifact" : {
+        "artifact" : "org.json:json:20140107",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.stephanarts:cas-server-integration-zeromq:0.0.4/dependencies/org/json/json/20140107/json-20140107.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import com.github.stephanarts.cas.ticket.registry.support.JSONRPCException;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.io.ByteArrayInputStream;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import javax.xml.bind.DatatypeConverter;",
+      "artifact" : {
+        "artifact" : "javax.xml.bind:jaxb-api:2.2",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.stephanarts:cas-server-integration-zeromq:0.0.4/dependencies/javax/xml/bind/jaxb-api/2.2/jaxb-api-2.2.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.io.ObjectInputStream;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/com.github.stephanarts:cas-server-integration-zeromq/src/main/java/com/github/stephanarts/cas/ticket/registry/provider/DeleteMethod.java",
+    "useImportReport" : [ {
+      "importPath" : "import com.github.stephanarts.cas.ticket.registry.support.IMethod;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.slf4j.Logger;",
+      "artifact" : {
+        "artifact" : "org.slf4j:slf4j-api:1.7.5",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.stephanarts:cas-server-integration-zeromq:0.0.4/dependencies/org/slf4j/slf4j-api/1.7.5/slf4j-api-1.7.5.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.slf4j.LoggerFactory;",
+      "artifact" : {
+        "artifact" : "org.slf4j:slf4j-api:1.7.5",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.stephanarts:cas-server-integration-zeromq:0.0.4/dependencies/org/slf4j/slf4j-api/1.7.5/slf4j-api-1.7.5.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.HashMap;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.jasig.cas.ticket.Ticket;",
+      "artifact" : {
+        "artifact" : "org.jasig.cas:cas-server-core:4.0.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.stephanarts:cas-server-integration-zeromq:0.0.4/dependencies/org/jasig/cas/cas-server-core/4.0.0/cas-server-core-4.0.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.json.JSONObject;",
+      "artifact" : {
+        "artifact" : "org.json:json:20140107",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.stephanarts:cas-server-integration-zeromq:0.0.4/dependencies/org/json/json/20140107/json-20140107.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import com.github.stephanarts.cas.ticket.registry.support.JSONRPCException;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/com.github.stephanarts:cas-server-integration-zeromq/src/main/java/com/github/stephanarts/cas/ticket/registry/provider/GetProviderIdMethod.java",
+    "useImportReport" : [ {
+      "importPath" : "import com.github.stephanarts.cas.ticket.registry.support.IMethod;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.slf4j.Logger;",
+      "artifact" : {
+        "artifact" : "org.slf4j:slf4j-api:1.7.5",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.stephanarts:cas-server-integration-zeromq:0.0.4/dependencies/org/slf4j/slf4j-api/1.7.5/slf4j-api-1.7.5.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.slf4j.LoggerFactory;",
+      "artifact" : {
+        "artifact" : "org.slf4j:slf4j-api:1.7.5",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.stephanarts:cas-server-integration-zeromq:0.0.4/dependencies/org/slf4j/slf4j-api/1.7.5/slf4j-api-1.7.5.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.json.JSONObject;",
+      "artifact" : {
+        "artifact" : "org.json:json:20140107",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.stephanarts:cas-server-integration-zeromq:0.0.4/dependencies/org/json/json/20140107/json-20140107.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import com.github.stephanarts.cas.ticket.registry.support.JSONRPCException;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/com.github.stephanarts:cas-server-integration-zeromq/src/main/java/com/github/stephanarts/cas/ticket/registry/provider/ZMQProviderMBean.java",
+    "useImportReport" : [ ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/com.github.stephanarts:cas-server-integration-zeromq/src/main/java/com/github/stephanarts/cas/ticket/registry/provider/GetTicketsMethod.java",
+    "useImportReport" : [ {
+      "importPath" : "import com.github.stephanarts.cas.ticket.registry.support.IMethod;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.slf4j.Logger;",
+      "artifact" : {
+        "artifact" : "org.slf4j:slf4j-api:1.7.5",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.stephanarts:cas-server-integration-zeromq:0.0.4/dependencies/org/slf4j/slf4j-api/1.7.5/slf4j-api-1.7.5.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.slf4j.LoggerFactory;",
+      "artifact" : {
+        "artifact" : "org.slf4j:slf4j-api:1.7.5",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.stephanarts:cas-server-integration-zeromq:0.0.4/dependencies/org/slf4j/slf4j-api/1.7.5/slf4j-api-1.7.5.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.HashMap;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.jasig.cas.ticket.Ticket;",
+      "artifact" : {
+        "artifact" : "org.jasig.cas:cas-server-core:4.0.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.stephanarts:cas-server-integration-zeromq:0.0.4/dependencies/org/jasig/cas/cas-server-core/4.0.0/cas-server-core-4.0.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.json.JSONObject;",
+      "artifact" : {
+        "artifact" : "org.json:json:20140107",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.stephanarts:cas-server-integration-zeromq:0.0.4/dependencies/org/json/json/20140107/json-20140107.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import com.github.stephanarts.cas.ticket.registry.support.JSONRPCException;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.json.JSONArray;",
+      "artifact" : {
+        "artifact" : "org.json:json:20140107",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.stephanarts:cas-server-integration-zeromq:0.0.4/dependencies/org/json/json/20140107/json-20140107.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import java.io.ByteArrayOutputStream;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.io.ObjectOutputStream;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import javax.xml.bind.DatatypeConverter;",
+      "artifact" : {
+        "artifact" : "javax.xml.bind:jaxb-api:2.2",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.stephanarts:cas-server-integration-zeromq:0.0.4/dependencies/javax/xml/bind/jaxb-api/2.2/jaxb-api-2.2.jar"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/com.github.stephanarts:cas-server-integration-zeromq/src/main/java/com/github/stephanarts/cas/ticket/registry/provider/GetMethod.java",
+    "useImportReport" : [ {
+      "importPath" : "import com.github.stephanarts.cas.ticket.registry.support.IMethod;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.slf4j.Logger;",
+      "artifact" : {
+        "artifact" : "org.slf4j:slf4j-api:1.7.5",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.stephanarts:cas-server-integration-zeromq:0.0.4/dependencies/org/slf4j/slf4j-api/1.7.5/slf4j-api-1.7.5.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.slf4j.LoggerFactory;",
+      "artifact" : {
+        "artifact" : "org.slf4j:slf4j-api:1.7.5",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.stephanarts:cas-server-integration-zeromq:0.0.4/dependencies/org/slf4j/slf4j-api/1.7.5/slf4j-api-1.7.5.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.HashMap;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.jasig.cas.ticket.Ticket;",
+      "artifact" : {
+        "artifact" : "org.jasig.cas:cas-server-core:4.0.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.stephanarts:cas-server-integration-zeromq:0.0.4/dependencies/org/jasig/cas/cas-server-core/4.0.0/cas-server-core-4.0.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.json.JSONObject;",
+      "artifact" : {
+        "artifact" : "org.json:json:20140107",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.stephanarts:cas-server-integration-zeromq:0.0.4/dependencies/org/json/json/20140107/json-20140107.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import com.github.stephanarts.cas.ticket.registry.support.JSONRPCException;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.io.ByteArrayOutputStream;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.io.ObjectOutputStream;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import javax.xml.bind.DatatypeConverter;",
+      "artifact" : {
+        "artifact" : "javax.xml.bind:jaxb-api:2.2",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.stephanarts:cas-server-integration-zeromq:0.0.4/dependencies/javax/xml/bind/jaxb-api/2.2/jaxb-api-2.2.jar"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/com.github.stephanarts:cas-server-integration-zeromq/src/main/java/com/github/stephanarts/cas/ticket/registry/provider/AddMethod.java",
+    "useImportReport" : [ {
+      "importPath" : "import com.github.stephanarts.cas.ticket.registry.support.IMethod;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.slf4j.LoggerFactory;",
+      "artifact" : {
+        "artifact" : "org.slf4j:slf4j-api:1.7.5",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.stephanarts:cas-server-integration-zeromq:0.0.4/dependencies/org/slf4j/slf4j-api/1.7.5/slf4j-api-1.7.5.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.HashMap;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.jasig.cas.ticket.Ticket;",
+      "artifact" : {
+        "artifact" : "org.jasig.cas:cas-server-core:4.0.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.stephanarts:cas-server-integration-zeromq:0.0.4/dependencies/org/jasig/cas/cas-server-core/4.0.0/cas-server-core-4.0.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.json.JSONObject;",
+      "artifact" : {
+        "artifact" : "org.json:json:20140107",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.stephanarts:cas-server-integration-zeromq:0.0.4/dependencies/org/json/json/20140107/json-20140107.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import com.github.stephanarts.cas.ticket.registry.support.JSONRPCException;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.io.ByteArrayInputStream;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import javax.xml.bind.DatatypeConverter;",
+      "artifact" : {
+        "artifact" : "javax.xml.bind:jaxb-api:2.2",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.stephanarts:cas-server-integration-zeromq:0.0.4/dependencies/javax/xml/bind/jaxb-api/2.2/jaxb-api-2.2.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.io.ObjectInputStream;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ {
+      "importPath" : "//import org.json.JSONException;\nimport org.slf4j.Logger;"
+    } ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/com.github.stephanarts:cas-server-integration-zeromq/src/main/java/com/github/stephanarts/cas/ticket/registry/ZMQTicketRegistry.java",
+    "useImportReport" : [ {
+      "importPath" : "import org.jasig.cas.ticket.registry.AbstractDistributedTicketRegistry;",
+      "artifact" : {
+        "artifact" : "org.jasig.cas:cas-server-core:4.0.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.stephanarts:cas-server-integration-zeromq:0.0.4/dependencies/org/jasig/cas/cas-server-core/4.0.0/cas-server-core-4.0.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.springframework.beans.factory.DisposableBean;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-beans:3.2.6.RELEASE",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.stephanarts:cas-server-integration-zeromq:0.0.4/dependencies/org/springframework/spring-beans/3.2.6.RELEASE/spring-beans-3.2.6.RELEASE.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.UUID;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.github.stephanarts.cas.ticket.registry.provider.ZMQProvider;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.github.stephanarts.cas.ticket.registry.support.PaceMaker;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import javax.management.MBeanServer;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.lang.management.ManagementFactory;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import javax.management.ObjectName;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.jasig.cas.ticket.Ticket;",
+      "artifact" : {
+        "artifact" : "org.jasig.cas:cas-server-core:4.0.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.stephanarts:cas-server-integration-zeromq:0.0.4/dependencies/org/jasig/cas/cas-server-core/4.0.0/cas-server-core-4.0.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import java.util.Collection;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/com.github.stephanarts:cas-server-integration-zeromq/src/main/java/com/github/stephanarts/cas/ticket/registry/RegistryClient.java",
+    "useImportReport" : [ {
+      "importPath" : "import com.github.stephanarts.cas.ticket.registry.support.JSONRPCClient;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.slf4j.Logger;",
+      "artifact" : {
+        "artifact" : "org.slf4j:slf4j-api:1.7.5",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.stephanarts:cas-server-integration-zeromq:0.0.4/dependencies/org/slf4j/slf4j-api/1.7.5/slf4j-api-1.7.5.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.slf4j.LoggerFactory;",
+      "artifact" : {
+        "artifact" : "org.slf4j:slf4j-api:1.7.5",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.stephanarts:cas-server-integration-zeromq:0.0.4/dependencies/org/slf4j/slf4j-api/1.7.5/slf4j-api-1.7.5.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.github.stephanarts.cas.ticket.registry.support.PaceMaker;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.github.stephanarts.cas.ticket.registry.support.JSONRPCException;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.json.JSONObject;",
+      "artifact" : {
+        "artifact" : "org.json:json:20140107",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.stephanarts:cas-server-integration-zeromq:0.0.4/dependencies/org/json/json/20140107/json-20140107.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import java.io.ByteArrayOutputStream;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.io.ObjectOutputStream;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import javax.xml.bind.DatatypeConverter;",
+      "artifact" : {
+        "artifact" : "javax.xml.bind:jaxb-api:2.2",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.stephanarts:cas-server-integration-zeromq:0.0.4/dependencies/javax/xml/bind/jaxb-api/2.2/jaxb-api-2.2.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.io.ByteArrayInputStream;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.io.ObjectInputStream;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.Collection;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.json.JSONArray;",
+      "artifact" : {
+        "artifact" : "org.json:json:20140107",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.stephanarts:cas-server-integration-zeromq:0.0.4/dependencies/org/json/json/20140107/json-20140107.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import java.util.ArrayList;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ {
+      "importPath" : "//import org.json.JSONException;\nimport org.jasig.cas.ticket.Ticket;"
+    } ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/com.github.stephanarts:cas-server-integration-zeromq/src/main/java/com/github/stephanarts/cas/ticket/registry/support/JSONRPCClient.java",
+    "useImportReport" : [ {
+      "importPath" : "import org.slf4j.Logger;",
+      "artifact" : {
+        "artifact" : "org.slf4j:slf4j-api:1.7.5",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.stephanarts:cas-server-integration-zeromq:0.0.4/dependencies/org/slf4j/slf4j-api/1.7.5/slf4j-api-1.7.5.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.slf4j.LoggerFactory;",
+      "artifact" : {
+        "artifact" : "org.slf4j:slf4j-api:1.7.5",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.stephanarts:cas-server-integration-zeromq:0.0.4/dependencies/org/slf4j/slf4j-api/1.7.5/slf4j-api-1.7.5.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.zeromq.ZMQ.Context;",
+      "artifact" : {
+        "artifact" : "org.zeromq:jeromq:0.3.4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.stephanarts:cas-server-integration-zeromq:0.0.4/dependencies/org/zeromq/jeromq/0.3.4/jeromq-0.3.4.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.zeromq.ZMQ.Socket;",
+      "artifact" : {
+        "artifact" : "org.zeromq:jeromq:0.3.4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.stephanarts:cas-server-integration-zeromq:0.0.4/dependencies/org/zeromq/jeromq/0.3.4/jeromq-0.3.4.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.zeromq.ZMQ;",
+      "artifact" : {
+        "artifact" : "org.zeromq:jeromq:0.3.4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.stephanarts:cas-server-integration-zeromq:0.0.4/dependencies/org/zeromq/jeromq/0.3.4/jeromq-0.3.4.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.json.JSONObject;",
+      "artifact" : {
+        "artifact" : "org.json:json:20140107",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.stephanarts:cas-server-integration-zeromq:0.0.4/dependencies/org/json/json/20140107/json-20140107.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.zeromq.ZMQ.PollItem;",
+      "artifact" : {
+        "artifact" : "org.zeromq:jeromq:0.3.4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.stephanarts:cas-server-integration-zeromq:0.0.4/dependencies/org/zeromq/jeromq/0.3.4/jeromq-0.3.4.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.zeromq.ZMQ.Poller;",
+      "artifact" : {
+        "artifact" : "org.zeromq:jeromq:0.3.4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.stephanarts:cas-server-integration-zeromq:0.0.4/dependencies/org/zeromq/jeromq/0.3.4/jeromq-0.3.4.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.zeromq.ZMsg;",
+      "artifact" : {
+        "artifact" : "org.zeromq:jeromq:0.3.4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.stephanarts:cas-server-integration-zeromq:0.0.4/dependencies/org/zeromq/jeromq/0.3.4/jeromq-0.3.4.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.json.JSONException;",
+      "artifact" : {
+        "artifact" : "org.json:json:20140107",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.stephanarts:cas-server-integration-zeromq:0.0.4/dependencies/org/json/json/20140107/json-20140107.jar"
+      },
+      "isDirectDependency" : true
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/com.github.stephanarts:cas-server-integration-zeromq/src/main/java/com/github/stephanarts/cas/ticket/registry/support/IMethod.java",
+    "useImportReport" : [ {
+      "importPath" : "import org.json.JSONObject;",
+      "artifact" : {
+        "artifact" : "org.json:json:20140107",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.stephanarts:cas-server-integration-zeromq:0.0.4/dependencies/org/json/json/20140107/json-20140107.jar"
+      },
+      "isDirectDependency" : true
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/com.github.stephanarts:cas-server-integration-zeromq/src/main/java/com/github/stephanarts/cas/ticket/registry/support/JSONRPCException.java",
+    "useImportReport" : [ ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/com.github.stephanarts:cas-server-integration-zeromq/src/main/java/com/github/stephanarts/cas/ticket/registry/support/HeartbeatException.java",
+    "useImportReport" : [ ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/com.github.stephanarts:cas-server-integration-zeromq/src/main/java/com/github/stephanarts/cas/ticket/registry/support/PaceMaker.java",
+    "useImportReport" : [ {
+      "importPath" : "import org.slf4j.Logger;",
+      "artifact" : {
+        "artifact" : "org.slf4j:slf4j-api:1.7.5",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.stephanarts:cas-server-integration-zeromq:0.0.4/dependencies/org/slf4j/slf4j-api/1.7.5/slf4j-api-1.7.5.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.slf4j.LoggerFactory;",
+      "artifact" : {
+        "artifact" : "org.slf4j:slf4j-api:1.7.5",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.stephanarts:cas-server-integration-zeromq:0.0.4/dependencies/org/slf4j/slf4j-api/1.7.5/slf4j-api-1.7.5.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.LinkedList;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/com.github.stephanarts:cas-server-integration-zeromq/src/main/java/com/github/stephanarts/cas/ticket/registry/support/JSONRPCServer.java",
+    "useImportReport" : [ {
+      "importPath" : "import org.slf4j.Logger;",
+      "artifact" : {
+        "artifact" : "org.slf4j:slf4j-api:1.7.5",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.stephanarts:cas-server-integration-zeromq:0.0.4/dependencies/org/slf4j/slf4j-api/1.7.5/slf4j-api-1.7.5.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.slf4j.LoggerFactory;",
+      "artifact" : {
+        "artifact" : "org.slf4j:slf4j-api:1.7.5",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.stephanarts:cas-server-integration-zeromq:0.0.4/dependencies/org/slf4j/slf4j-api/1.7.5/slf4j-api-1.7.5.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.zeromq.ZMQ.Context;",
+      "artifact" : {
+        "artifact" : "org.zeromq:jeromq:0.3.4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.stephanarts:cas-server-integration-zeromq:0.0.4/dependencies/org/zeromq/jeromq/0.3.4/jeromq-0.3.4.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.zeromq.ZMQ.Socket;",
+      "artifact" : {
+        "artifact" : "org.zeromq:jeromq:0.3.4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.stephanarts:cas-server-integration-zeromq:0.0.4/dependencies/org/zeromq/jeromq/0.3.4/jeromq-0.3.4.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import java.util.HashMap;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.zeromq.ZMQ;",
+      "artifact" : {
+        "artifact" : "org.zeromq:jeromq:0.3.4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.stephanarts:cas-server-integration-zeromq:0.0.4/dependencies/org/zeromq/jeromq/0.3.4/jeromq-0.3.4.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.zeromq.ZMsg;",
+      "artifact" : {
+        "artifact" : "org.zeromq:jeromq:0.3.4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.stephanarts:cas-server-integration-zeromq:0.0.4/dependencies/org/zeromq/jeromq/0.3.4/jeromq-0.3.4.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.zeromq.ZFrame;",
+      "artifact" : {
+        "artifact" : "org.zeromq:jeromq:0.3.4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.stephanarts:cas-server-integration-zeromq:0.0.4/dependencies/org/zeromq/jeromq/0.3.4/jeromq-0.3.4.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.zeromq.ZMQ.Poller;",
+      "artifact" : {
+        "artifact" : "org.zeromq:jeromq:0.3.4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.stephanarts:cas-server-integration-zeromq:0.0.4/dependencies/org/zeromq/jeromq/0.3.4/jeromq-0.3.4.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.json.JSONObject;",
+      "artifact" : {
+        "artifact" : "org.json:json:20140107",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.stephanarts:cas-server-integration-zeromq:0.0.4/dependencies/org/json/json/20140107/json-20140107.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.json.JSONException;",
+      "artifact" : {
+        "artifact" : "org.json:json:20140107",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.stephanarts:cas-server-integration-zeromq:0.0.4/dependencies/org/json/json/20140107/json-20140107.jar"
+      },
+      "isDirectDependency" : true
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/com.github.stephanarts:cas-server-integration-zeromq/src/main/java/com/github/stephanarts/cas/ticket/registry/support/WatchDog.java",
+    "useImportReport" : [ {
+      "importPath" : "import org.slf4j.Logger;",
+      "artifact" : {
+        "artifact" : "org.slf4j:slf4j-api:1.7.5",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.stephanarts:cas-server-integration-zeromq:0.0.4/dependencies/org/slf4j/slf4j-api/1.7.5/slf4j-api-1.7.5.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.slf4j.LoggerFactory;",
+      "artifact" : {
+        "artifact" : "org.slf4j:slf4j-api:1.7.5",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.stephanarts:cas-server-integration-zeromq:0.0.4/dependencies/org/slf4j/slf4j-api/1.7.5/slf4j-api-1.7.5.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.zeromq.ZMQ.Context;",
+      "artifact" : {
+        "artifact" : "org.zeromq:jeromq:0.3.4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.stephanarts:cas-server-integration-zeromq:0.0.4/dependencies/org/zeromq/jeromq/0.3.4/jeromq-0.3.4.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.zeromq.ZMQ.Socket;",
+      "artifact" : {
+        "artifact" : "org.zeromq:jeromq:0.3.4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.stephanarts:cas-server-integration-zeromq:0.0.4/dependencies/org/zeromq/jeromq/0.3.4/jeromq-0.3.4.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.zeromq.ZMQ;",
+      "artifact" : {
+        "artifact" : "org.zeromq:jeromq:0.3.4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.stephanarts:cas-server-integration-zeromq:0.0.4/dependencies/org/zeromq/jeromq/0.3.4/jeromq-0.3.4.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.zeromq.ZMsg;",
+      "artifact" : {
+        "artifact" : "org.zeromq:jeromq:0.3.4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.stephanarts:cas-server-integration-zeromq:0.0.4/dependencies/org/zeromq/jeromq/0.3.4/jeromq-0.3.4.jar"
+      },
+      "isDirectDependency" : true
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ {
+      "importPath" : "//import org.zeromq.ZMQ.PollItem;\nimport org.zeromq.ZMQ.Poller;"
+    } ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/com.github.stephanarts:cas-server-integration-zeromq/src/main/java/com/github/stephanarts/cas/ticket/registry/RegistryBroker.java",
+    "useImportReport" : [ {
+      "importPath" : "import org.slf4j.Logger;",
+      "artifact" : {
+        "artifact" : "org.slf4j:slf4j-api:1.7.5",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.stephanarts:cas-server-integration-zeromq:0.0.4/dependencies/org/slf4j/slf4j-api/1.7.5/slf4j-api-1.7.5.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.slf4j.LoggerFactory;",
+      "artifact" : {
+        "artifact" : "org.slf4j:slf4j-api:1.7.5",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.stephanarts:cas-server-integration-zeromq:0.0.4/dependencies/org/slf4j/slf4j-api/1.7.5/slf4j-api-1.7.5.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.github.stephanarts.cas.ticket.registry.support.PaceMaker;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.github.stephanarts.cas.ticket.registry.support.JSONRPCException;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.Collection;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.jasig.cas.ticket.Ticket;",
+      "artifact" : {
+        "artifact" : "org.jasig.cas:cas-server-core:4.0.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.stephanarts:cas-server-integration-zeromq:0.0.4/dependencies/org/jasig/cas/cas-server-core/4.0.0/cas-server-core-4.0.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import java.util.ArrayList;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/com.github.stephanarts:cas-server-integration-zeromq/src/main/java/com/github/stephanarts/cas/ticket/registry/BootstrapException.java",
+    "useImportReport" : [ ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  } ],
+  "projectUseDependencies" : [ {
+    "artifact" : "org.jasig.cas:cas-server-core:4.0.0",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.stephanarts:cas-server-integration-zeromq:0.0.4/dependencies/org/jasig/cas/cas-server-core/4.0.0/cas-server-core-4.0.0.jar"
+  }, {
+    "artifact" : "org.json:json:20140107",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.stephanarts:cas-server-integration-zeromq:0.0.4/dependencies/org/json/json/20140107/json-20140107.jar"
+  }, {
+    "artifact" : "org.zeromq:jeromq:0.3.4",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.stephanarts:cas-server-integration-zeromq:0.0.4/dependencies/org/zeromq/jeromq/0.3.4/jeromq-0.3.4.jar"
+  } ],
+  "projectUseTransitiveDependencies" : [ ],
+  "projectUnusedDependencies" : [ ]
+}

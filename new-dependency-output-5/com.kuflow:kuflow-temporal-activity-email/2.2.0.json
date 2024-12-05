@@ -1,0 +1,376 @@
+{
+  "projectArtifact" : "com.kuflow:kuflow-temporal-activity-email:2.2.0",
+  "repositoryDir" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/com.kuflow:kuflow-temporal-activity-email/kuflow-temporal-activity-email",
+  "repositorySubDir" : "",
+  "artifactLocation" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.kuflow:kuflow-temporal-activity-email:2.2.0",
+  "fileImportReports" : [ {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/com.kuflow:kuflow-temporal-activity-email/kuflow-temporal-activity-email/src/main/java/com/kuflow/temporal/activity/email/dto/EmailDto.java",
+    "useImportReport" : [ {
+      "importPath" : "import javax.annotation.Nonnull;",
+      "artifact" : {
+        "artifact" : "com.google.code.findbugs:jsr305:3.0.2",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.kuflow:kuflow-temporal-activity-email:2.2.0/dependencies/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.Map;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.Locale;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import javax.annotation.Nullable;",
+      "artifact" : {
+        "artifact" : "com.google.code.findbugs:jsr305:3.0.2",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.kuflow:kuflow-temporal-activity-email:2.2.0/dependencies/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.Objects;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.Collections;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.Optional;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.HashMap;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/com.kuflow:kuflow-temporal-activity-email/kuflow-temporal-activity-email/src/main/java/com/kuflow/temporal/activity/email/EmailActivities.java",
+    "useImportReport" : [ {
+      "importPath" : "import io.temporal.activity.ActivityInterface;",
+      "artifact" : {
+        "artifact" : "io.temporal:temporal-sdk:1.17.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.kuflow:kuflow-temporal-activity-email:2.2.0/dependencies/io/temporal/temporal-sdk/1.17.0/temporal-sdk-1.17.0.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import io.temporal.activity.ActivityMethod;",
+      "artifact" : {
+        "artifact" : "io.temporal:temporal-sdk:1.17.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.kuflow:kuflow-temporal-activity-email:2.2.0/dependencies/io/temporal/temporal-sdk/1.17.0/temporal-sdk-1.17.0.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import javax.annotation.Nonnull;",
+      "artifact" : {
+        "artifact" : "com.google.code.findbugs:jsr305:3.0.2",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.kuflow:kuflow-temporal-activity-email:2.2.0/dependencies/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ {
+      "importPath" : "import com.kuflow.temporal.activity.email.model.SendMailRequest;"
+    }, {
+      "importPath" : "import com.kuflow.temporal.activity.email.model.SendMailResponse;"
+    } ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/com.kuflow:kuflow-temporal-activity-email/kuflow-temporal-activity-email/src/main/java/com/kuflow/temporal/activity/email/EmailActivitiesImpl.java",
+    "useImportReport" : [ {
+      "importPath" : "import javax.annotation.Nonnull;",
+      "artifact" : {
+        "artifact" : "com.google.code.findbugs:jsr305:3.0.2",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.kuflow:kuflow-temporal-activity-email:2.2.0/dependencies/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import io.temporal.failure.ApplicationFailure;",
+      "artifact" : {
+        "artifact" : "io.temporal:temporal-sdk:1.17.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.kuflow:kuflow-temporal-activity-email:2.2.0/dependencies/io/temporal/temporal-sdk/1.17.0/temporal-sdk-1.17.0.jar"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ {
+      "importPath" : "import com.kuflow.temporal.activity.email.dto.EmailDto;"
+    }, {
+      "importPath" : "import com.kuflow.temporal.activity.email.model.Email;"
+    }, {
+      "importPath" : "import com.kuflow.temporal.activity.email.model.SendMailRequest;"
+    }, {
+      "importPath" : "import com.kuflow.temporal.activity.email.model.SendMailResponse;"
+    }, {
+      "importPath" : "import com.kuflow.temporal.activity.email.service.EmailService;"
+    } ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/com.kuflow:kuflow-temporal-activity-email/kuflow-temporal-activity-email/src/main/java/com/kuflow/temporal/activity/email/model/SendMailResponse.java",
+    "useImportReport" : [ {
+      "importPath" : "import com.kuflow.temporal.common.model.AbstractModel;",
+      "artifact" : {
+        "artifact" : "com.kuflow:kuflow-temporal-common:2.2.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.kuflow:kuflow-temporal-activity-email:2.2.0/dependencies/com/kuflow/kuflow-temporal-common/2.2.0/kuflow-temporal-common-2.2.0.jar"
+      },
+      "isDirectDependency" : true
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/com.kuflow:kuflow-temporal-activity-email/kuflow-temporal-activity-email/src/main/java/com/kuflow/temporal/activity/email/model/Email.java",
+    "useImportReport" : [ {
+      "importPath" : "import java.util.Locale;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.Map;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.HashMap;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.Collections;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.Objects;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/com.kuflow:kuflow-temporal-activity-email/kuflow-temporal-activity-email/src/main/java/com/kuflow/temporal/activity/email/model/SendMailRequest.java",
+    "useImportReport" : [ {
+      "importPath" : "import com.kuflow.temporal.common.model.AbstractModel;",
+      "artifact" : {
+        "artifact" : "com.kuflow:kuflow-temporal-common:2.2.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.kuflow:kuflow-temporal-activity-email:2.2.0/dependencies/com/kuflow/kuflow-temporal-common/2.2.0/kuflow-temporal-common-2.2.0.jar"
+      },
+      "isDirectDependency" : true
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/com.kuflow:kuflow-temporal-activity-email/kuflow-temporal-activity-email/src/main/java/com/kuflow/temporal/activity/email/service/EmailService.java",
+    "useImportReport" : [ {
+      "importPath" : "import java.util.regex.Pattern;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.springframework.mail.javamail.JavaMailSender;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-context-support:5.3.27",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.kuflow:kuflow-temporal-activity-email:2.2.0/dependencies/org/springframework/spring-context-support/5.3.27/spring-context-support-5.3.27.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.thymeleaf.ITemplateEngine;",
+      "artifact" : {
+        "artifact" : "org.thymeleaf:thymeleaf:3.0.15.RELEASE",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.kuflow:kuflow-temporal-activity-email:2.2.0/dependencies/org/thymeleaf/thymeleaf/3.0.15.RELEASE/thymeleaf-3.0.15.RELEASE.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.Map;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.springframework.context.ApplicationContext;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-context:5.3.27",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.kuflow:kuflow-temporal-activity-email:2.2.0/dependencies/org/springframework/spring-context/5.3.27/spring-context-5.3.27.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.Objects;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.thymeleaf.context.Context;",
+      "artifact" : {
+        "artifact" : "org.thymeleaf:thymeleaf:3.0.15.RELEASE",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.kuflow:kuflow-temporal-activity-email:2.2.0/dependencies/org/thymeleaf/thymeleaf/3.0.15.RELEASE/thymeleaf-3.0.15.RELEASE.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.thymeleaf.TemplateSpec;",
+      "artifact" : {
+        "artifact" : "org.thymeleaf:thymeleaf:3.0.15.RELEASE",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.kuflow:kuflow-temporal-activity-email:2.2.0/dependencies/org/thymeleaf/thymeleaf/3.0.15.RELEASE/thymeleaf-3.0.15.RELEASE.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.thymeleaf.templatemode.TemplateMode;",
+      "artifact" : {
+        "artifact" : "org.thymeleaf:thymeleaf:3.0.15.RELEASE",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.kuflow:kuflow-temporal-activity-email:2.2.0/dependencies/org/thymeleaf/thymeleaf/3.0.15.RELEASE/thymeleaf-3.0.15.RELEASE.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import javax.mail.internet.MimeMessage;",
+      "artifact" : {
+        "artifact" : "com.sun.mail:jakarta.mail:1.6.7",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.kuflow:kuflow-temporal-activity-email:2.2.0/dependencies/com/sun/mail/jakarta.mail/1.6.7/jakarta.mail-1.6.7.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.springframework.mail.javamail.MimeMessageHelper;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-context-support:5.3.27",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.kuflow:kuflow-temporal-activity-email:2.2.0/dependencies/org/springframework/spring-context-support/5.3.27/spring-context-support-5.3.27.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import java.nio.charset.StandardCharsets;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.springframework.core.io.Resource;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-core:5.3.27",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.kuflow:kuflow-temporal-activity-email:2.2.0/dependencies/org/springframework/spring-core/5.3.27/spring-core-5.3.27.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.kuflow.temporal.common.error.KuFlowTemporalException;",
+      "artifact" : {
+        "artifact" : "com.kuflow:kuflow-temporal-common:2.2.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.kuflow:kuflow-temporal-activity-email:2.2.0/dependencies/com/kuflow/kuflow-temporal-common/2.2.0/kuflow-temporal-common-2.2.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import javax.annotation.Nonnull;",
+      "artifact" : {
+        "artifact" : "com.google.code.findbugs:jsr305:3.0.2",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.kuflow:kuflow-temporal-activity-email:2.2.0/dependencies/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.Set;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.UUID;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.apache.commons.io.FilenameUtils;",
+      "artifact" : {
+        "artifact" : "commons-io:commons-io:2.11.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.kuflow:kuflow-temporal-activity-email:2.2.0/dependencies/commons-io/commons-io/2.11.0/commons-io-2.11.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import java.util.HashSet;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.regex.Matcher;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.HashMap;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ {
+      "importPath" : "import com.kuflow.temporal.activity.email.dto.EmailDto;"
+    } ]
+  } ],
+  "projectUseDependencies" : [ {
+    "artifact" : "com.kuflow:kuflow-temporal-common:2.2.0",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.kuflow:kuflow-temporal-activity-email:2.2.0/dependencies/com/kuflow/kuflow-temporal-common/2.2.0/kuflow-temporal-common-2.2.0.jar"
+  }, {
+    "artifact" : "org.springframework:spring-context-support:5.3.27",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.kuflow:kuflow-temporal-activity-email:2.2.0/dependencies/org/springframework/spring-context-support/5.3.27/spring-context-support-5.3.27.jar"
+  }, {
+    "artifact" : "com.sun.mail:jakarta.mail:1.6.7",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.kuflow:kuflow-temporal-activity-email:2.2.0/dependencies/com/sun/mail/jakarta.mail/1.6.7/jakarta.mail-1.6.7.jar"
+  }, {
+    "artifact" : "commons-io:commons-io:2.11.0",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.kuflow:kuflow-temporal-activity-email:2.2.0/dependencies/commons-io/commons-io/2.11.0/commons-io-2.11.0.jar"
+  } ],
+  "projectUseTransitiveDependencies" : [ {
+    "artifact" : "org.thymeleaf:thymeleaf-spring5:3.0.15.RELEASE",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.kuflow:kuflow-temporal-activity-email:2.2.0/dependencies/org/thymeleaf/thymeleaf-spring5/3.0.15.RELEASE/thymeleaf-spring5-3.0.15.RELEASE.jar"
+  }, {
+    "artifact" : "org.thymeleaf:thymeleaf-spring5:3.0.15.RELEASE",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.kuflow:kuflow-temporal-activity-email:2.2.0/dependencies/org/thymeleaf/thymeleaf-spring5/3.0.15.RELEASE/thymeleaf-spring5-3.0.15.RELEASE.jar"
+  } ],
+  "projectUnusedDependencies" : [ {
+    "artifact" : "org.thymeleaf.extras:thymeleaf-extras-java8time:3.0.4.RELEASE",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.kuflow:kuflow-temporal-activity-email:2.2.0/dependencies/org/thymeleaf/extras/thymeleaf-extras-java8time/3.0.4.RELEASE/thymeleaf-extras-java8time-3.0.4.RELEASE.jar"
+  } ]
+}

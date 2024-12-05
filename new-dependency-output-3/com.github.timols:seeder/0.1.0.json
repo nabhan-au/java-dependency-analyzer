@@ -1,0 +1,359 @@
+{
+  "projectArtifact" : "com.github.timols:seeder:0.1.0",
+  "repositoryDir" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/com.github.timols:seeder",
+  "repositorySubDir" : "",
+  "artifactLocation" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.timols:seeder:0.1.0",
+  "fileImportReports" : [ {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/com.github.timols:seeder/src/main/java/com/github/timols/seeder/plugins/SeederMojo.java",
+    "useImportReport" : [ {
+      "importPath" : "import org.apache.maven.plugin.AbstractMojo;",
+      "artifact" : {
+        "artifact" : "org.apache.maven:maven-plugin-api:3.0.4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.timols:seeder:0.1.0/dependencies/org/apache/maven/maven-plugin-api/3.0.4/maven-plugin-api-3.0.4.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.apache.maven.plugins.annotations.Mojo;",
+      "artifact" : {
+        "artifact" : "org.apache.maven.plugin-tools:maven-plugin-annotations:3.2",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.timols:seeder:0.1.0/dependencies/org/apache/maven/plugin-tools/maven-plugin-annotations/3.2/maven-plugin-annotations-3.2.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.apache.maven.plugins.annotations.Parameter;",
+      "artifact" : {
+        "artifact" : "org.apache.maven.plugin-tools:maven-plugin-annotations:3.2",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.timols:seeder:0.1.0/dependencies/org/apache/maven/plugin-tools/maven-plugin-annotations/3.2/maven-plugin-annotations-3.2.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.apache.maven.plugin.MojoExecutionException;",
+      "artifact" : {
+        "artifact" : "org.apache.maven:maven-plugin-api:3.0.4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.timols:seeder:0.1.0/dependencies/org/apache/maven/maven-plugin-api/3.0.4/maven-plugin-api-3.0.4.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.apache.maven.plugin.MojoFailureException;",
+      "artifact" : {
+        "artifact" : "org.apache.maven:maven-plugin-api:3.0.4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.timols:seeder:0.1.0/dependencies/org/apache/maven/maven-plugin-api/3.0.4/maven-plugin-api-3.0.4.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.apache.maven.project.MavenProject;",
+      "artifact" : {
+        "artifact" : "org.apache.maven:maven-core:3.0.4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.timols:seeder:0.1.0/dependencies/org/apache/maven/maven-core/3.0.4/maven-core-3.0.4.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.reflections.Reflections;",
+      "artifact" : {
+        "artifact" : "org.reflections:reflections:0.9.9-RC1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.timols:seeder:0.1.0/dependencies/org/reflections/reflections/0.9.9-RC1/reflections-0.9.9-RC1.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.reflections.util.ConfigurationBuilder;",
+      "artifact" : {
+        "artifact" : "org.reflections:reflections:0.9.9-RC1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.timols:seeder:0.1.0/dependencies/org/reflections/reflections/0.9.9-RC1/reflections-0.9.9-RC1.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import com.google.common.collect.Sets;",
+      "artifact" : {
+        "artifact" : "org.sonatype.sisu:sisu-guava:0.9.9",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.timols:seeder:0.1.0/dependencies/org/sonatype/sisu/sisu-guava/0.9.9/sisu-guava-0.9.9.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.google.common.collect.Sets;",
+      "artifact" : {
+        "artifact" : "com.google.guava:guava:11.0.2",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.timols:seeder:0.1.0/dependencies/com/google/guava/guava/11.0.2/guava-11.0.2.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.codehaus.plexus.util.StringUtils;",
+      "artifact" : {
+        "artifact" : "org.codehaus.plexus:plexus-utils:2.0.6",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.timols:seeder:0.1.0/dependencies/org/codehaus/plexus/plexus-utils/2.0.6/plexus-utils-2.0.6.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.reflections.util.FilterBuilder;",
+      "artifact" : {
+        "artifact" : "org.reflections:reflections:0.9.9-RC1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.timols:seeder:0.1.0/dependencies/org/reflections/reflections/0.9.9-RC1/reflections-0.9.9-RC1.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import java.net.URLClassLoader;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.List;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.net.URL;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.ArrayList;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.apache.maven.artifact.Artifact;",
+      "artifact" : {
+        "artifact" : "org.apache.maven:maven-artifact:3.0.4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.timols:seeder:0.1.0/dependencies/org/apache/maven/maven-artifact/3.0.4/maven-artifact-3.0.4.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.net.MalformedURLException;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.io.File;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ {
+      "importPath" : "import org.reflections.util.ClasspathHelper;",
+      "artifact" : {
+        "artifact" : "org.reflections:reflections:0.9.9-RC1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.timols:seeder:0.1.0/dependencies/org/reflections/reflections/0.9.9-RC1/reflections-0.9.9-RC1.jar"
+      },
+      "isDirectDependency" : true
+    } ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ {
+      "importPath" : "import com.github.timols.seeder.Seeder;"
+    } ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/com.github.timols:seeder/src/main/java/com/github/timols/seeder/step/SeedStep.java",
+    "useImportReport" : [ ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/com.github.timols:seeder/src/main/java/com/github/timols/seeder/annotation/Step.java",
+    "useImportReport" : [ {
+      "importPath" : "import java.lang.annotation.Retention;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.lang.annotation.RetentionPolicy;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.lang.annotation.Target;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.lang.annotation.ElementType;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/com.github.timols:seeder/src/main/java/com/github/timols/seeder/Seeder.java",
+    "useImportReport" : [ {
+      "importPath" : "import org.slf4j.Logger;",
+      "artifact" : {
+        "artifact" : "org.slf4j:slf4j-api:1.7.5",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.timols:seeder:0.1.0/dependencies/org/slf4j/slf4j-api/1.7.5/slf4j-api-1.7.5.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.slf4j.LoggerFactory;",
+      "artifact" : {
+        "artifact" : "org.slf4j:slf4j-api:1.7.5",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.timols:seeder:0.1.0/dependencies/org/slf4j/slf4j-api/1.7.5/slf4j-api-1.7.5.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.*;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.reflections.Reflections;",
+      "artifact" : {
+        "artifact" : "org.reflections:reflections:0.9.9-RC1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.timols:seeder:0.1.0/dependencies/org/reflections/reflections/0.9.9-RC1/reflections-0.9.9-RC1.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import com.google.inject.*;",
+      "artifact" : {
+        "artifact" : "com.google.inject:guice:3.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.timols:seeder:0.1.0/dependencies/com/google/inject/guice/3.0/guice-3.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import com.google.inject.*;",
+      "artifact" : {
+        "artifact" : "org.sonatype.sisu:sisu-guice:3.1.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.timols:seeder:0.1.0/dependencies/org/sonatype/sisu/sisu-guice/3.1.0/sisu-guice-3.1.0-no_aop.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.google.inject.*;",
+      "artifact" : {
+        "artifact" : "com.google.inject:guice:3.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.timols:seeder:0.1.0/dependencies/com/google/inject/guice/3.0/guice-3.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import com.google.inject.*;",
+      "artifact" : {
+        "artifact" : "org.sonatype.sisu:sisu-guice:3.1.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.timols:seeder:0.1.0/dependencies/org/sonatype/sisu/sisu-guice/3.1.0/sisu-guice-3.1.0-no_aop.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.google.inject.*;",
+      "artifact" : {
+        "artifact" : "com.google.inject:guice:3.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.timols:seeder:0.1.0/dependencies/com/google/inject/guice/3.0/guice-3.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import com.google.inject.*;",
+      "artifact" : {
+        "artifact" : "org.sonatype.sisu:sisu-guice:3.1.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.timols:seeder:0.1.0/dependencies/org/sonatype/sisu/sisu-guice/3.1.0/sisu-guice-3.1.0-no_aop.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.*;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.*;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.*;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.*;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.google.inject.*;",
+      "artifact" : {
+        "artifact" : "com.google.inject:guice:3.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.timols:seeder:0.1.0/dependencies/com/google/inject/guice/3.0/guice-3.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import com.google.inject.*;",
+      "artifact" : {
+        "artifact" : "org.sonatype.sisu:sisu-guice:3.1.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.timols:seeder:0.1.0/dependencies/org/sonatype/sisu/sisu-guice/3.1.0/sisu-guice-3.1.0-no_aop.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.*;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.google.inject.*;",
+      "artifact" : {
+        "artifact" : "com.google.inject:guice:3.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.timols:seeder:0.1.0/dependencies/com/google/inject/guice/3.0/guice-3.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import com.google.inject.*;",
+      "artifact" : {
+        "artifact" : "org.sonatype.sisu:sisu-guice:3.1.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.timols:seeder:0.1.0/dependencies/org/sonatype/sisu/sisu-guice/3.1.0/sisu-guice-3.1.0-no_aop.jar"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ {
+      "importPath" : "import com.github.timols.seeder.annotation.Step;"
+    }, {
+      "importPath" : "import com.github.timols.seeder.step.SeedStep;"
+    } ]
+  } ],
+  "projectUseDependencies" : [ {
+    "artifact" : "org.apache.maven.plugin-tools:maven-plugin-annotations:3.2",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.timols:seeder:0.1.0/dependencies/org/apache/maven/plugin-tools/maven-plugin-annotations/3.2/maven-plugin-annotations-3.2.jar"
+  }, {
+    "artifact" : "org.apache.maven:maven-core:3.0.4",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.timols:seeder:0.1.0/dependencies/org/apache/maven/maven-core/3.0.4/maven-core-3.0.4.jar"
+  }, {
+    "artifact" : "org.reflections:reflections:0.9.9-RC1",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.timols:seeder:0.1.0/dependencies/org/reflections/reflections/0.9.9-RC1/reflections-0.9.9-RC1.jar"
+  }, {
+    "artifact" : "com.google.inject:guice:3.0",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.timols:seeder:0.1.0/dependencies/com/google/inject/guice/3.0/guice-3.0.jar"
+  } ],
+  "projectUseTransitiveDependencies" : [ {
+    "artifact" : "ch.qos.logback:logback-classic:1.0.13",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.timols:seeder:0.1.0/dependencies/ch/qos/logback/logback-classic/1.0.13/logback-classic-1.0.13.jar"
+  } ],
+  "projectUnusedDependencies" : [ {
+    "artifact" : "junit:junit:4.11",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.timols:seeder:0.1.0/dependencies/junit/junit/4.11/junit-4.11.jar"
+  } ]
+}

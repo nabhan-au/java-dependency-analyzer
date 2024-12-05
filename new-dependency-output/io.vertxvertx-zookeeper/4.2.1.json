@@ -1,0 +1,2256 @@
+{
+  "projectArtifact" : "io.vertx:vertx-zookeeper:4.2.1",
+  "repositoryDir" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/io.vertx:vertx-zookeeper",
+  "repositorySubDir" : "",
+  "artifactLocation" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.vertx:vertx-zookeeper:4.2.1",
+  "fileImportReports" : [ {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/io.vertx:vertx-zookeeper/src/test/java/io/vertx/core/ZKClusteredHATest.java",
+    "useImportReport" : [ {
+      "importPath" : "import io.vertx.core.spi.cluster.ClusterManager;",
+      "artifact" : {
+        "artifact" : "io.vertx:vertx-core:4.2.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.vertx:vertx-zookeeper:4.2.1/dependencies/io/vertx/vertx-core/4.2.1/vertx-core-4.2.1.jar"
+      },
+      "isDirectDependency" : true
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ {
+      "importPath" : "import io.vertx.spi.cluster.zookeeper.MockZKCluster;"
+    } ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/io.vertx:vertx-zookeeper/src/test/java/io/vertx/core/eventbus/ZKClusteredEventbusTest.java",
+    "useImportReport" : [ {
+      "importPath" : "import java.util.concurrent.TimeUnit;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.function.Consumer;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.Map;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import io.vertx.test.core.TestUtils;",
+      "artifact" : {
+        "artifact" : "io.vertx:vertx-core:4.2.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.vertx:vertx-zookeeper:4.2.1/dependencies/io/vertx/vertx-core/4.2.1/vertx-core-4.2.1-tests.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.junit.Test;",
+      "artifact" : {
+        "artifact" : "junit:junit:4.13.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.vertx:vertx-zookeeper:4.2.1/dependencies/junit/junit/4.13.1/junit-4.13.1.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.concurrent.atomic.AtomicInteger;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import io.vertx.core.Handler;",
+      "artifact" : {
+        "artifact" : "io.vertx:vertx-core:4.2.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.vertx:vertx-zookeeper:4.2.1/dependencies/io/vertx/vertx-core/4.2.1/vertx-core-4.2.1.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import io.vertx.core.AsyncResult;",
+      "artifact" : {
+        "artifact" : "io.vertx:vertx-core:4.2.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.vertx:vertx-zookeeper:4.2.1/dependencies/io/vertx/vertx-core/4.2.1/vertx-core-4.2.1.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import io.vertx.core.spi.cluster.ClusterManager;",
+      "artifact" : {
+        "artifact" : "io.vertx:vertx-core:4.2.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.vertx:vertx-zookeeper:4.2.1/dependencies/io/vertx/vertx-core/4.2.1/vertx-core-4.2.1.jar"
+      },
+      "isDirectDependency" : true
+    } ],
+    "unusedImportReport" : [ {
+      "importPath" : "import io.vertx.core.Vertx;",
+      "artifact" : {
+        "artifact" : "io.vertx:vertx-core:4.2.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.vertx:vertx-zookeeper:4.2.1/dependencies/io/vertx/vertx-core/4.2.1/vertx-core-4.2.1-tests.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import io.vertx.core.Vertx;",
+      "artifact" : {
+        "artifact" : "io.vertx:vertx-core:4.2.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.vertx:vertx-zookeeper:4.2.1/dependencies/io/vertx/vertx-core/4.2.1/vertx-core-4.2.1.jar"
+      },
+      "isDirectDependency" : true
+    } ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ {
+      "importPath" : "import io.vertx.spi.cluster.zookeeper.MockZKCluster;"
+    } ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/io.vertx:vertx-zookeeper/src/test/java/io/vertx/core/eventbus/ZKFaultToleranceTest.java",
+    "useImportReport" : [ {
+      "importPath" : "import io.vertx.core.VertxOptions;",
+      "artifact" : {
+        "artifact" : "io.vertx:vertx-core:4.2.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.vertx:vertx-zookeeper:4.2.1/dependencies/io/vertx/vertx-core/4.2.1/vertx-core-4.2.1-tests.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import io.vertx.core.VertxOptions;",
+      "artifact" : {
+        "artifact" : "io.vertx:vertx-core:4.2.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.vertx:vertx-zookeeper:4.2.1/dependencies/io/vertx/vertx-core/4.2.1/vertx-core-4.2.1.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import java.util.concurrent.CountDownLatch;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import io.vertx.core.Vertx;",
+      "artifact" : {
+        "artifact" : "io.vertx:vertx-core:4.2.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.vertx:vertx-zookeeper:4.2.1/dependencies/io/vertx/vertx-core/4.2.1/vertx-core-4.2.1-tests.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import io.vertx.core.Vertx;",
+      "artifact" : {
+        "artifact" : "io.vertx:vertx-core:4.2.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.vertx:vertx-zookeeper:4.2.1/dependencies/io/vertx/vertx-core/4.2.1/vertx-core-4.2.1.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import io.vertx.core.json.JsonObject;",
+      "artifact" : {
+        "artifact" : "io.vertx:vertx-core:4.2.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.vertx:vertx-zookeeper:4.2.1/dependencies/io/vertx/vertx-core/4.2.1/vertx-core-4.2.1-tests.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import io.vertx.core.json.JsonObject;",
+      "artifact" : {
+        "artifact" : "io.vertx:vertx-core:4.2.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.vertx:vertx-zookeeper:4.2.1/dependencies/io/vertx/vertx-core/4.2.1/vertx-core-4.2.1.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import java.util.Optional;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.stream.Stream;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.junit.Assert;",
+      "artifact" : {
+        "artifact" : "junit:junit:4.13.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.vertx:vertx-zookeeper:4.2.1/dependencies/junit/junit/4.13.1/junit-4.13.1.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import io.vertx.core.buffer.Buffer;",
+      "artifact" : {
+        "artifact" : "io.vertx:vertx-core:4.2.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.vertx:vertx-zookeeper:4.2.1/dependencies/io/vertx/vertx-core/4.2.1/vertx-core-4.2.1-tests.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import io.vertx.core.buffer.Buffer;",
+      "artifact" : {
+        "artifact" : "io.vertx:vertx-core:4.2.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.vertx:vertx-zookeeper:4.2.1/dependencies/io/vertx/vertx-core/4.2.1/vertx-core-4.2.1.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import java.util.concurrent.TimeUnit;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.junit.Ignore;",
+      "artifact" : {
+        "artifact" : "junit:junit:4.13.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.vertx:vertx-zookeeper:4.2.1/dependencies/junit/junit/4.13.1/junit-4.13.1.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.junit.Test;",
+      "artifact" : {
+        "artifact" : "junit:junit:4.13.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.vertx:vertx-zookeeper:4.2.1/dependencies/junit/junit/4.13.1/junit-4.13.1.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import io.vertx.core.spi.cluster.ClusterManager;",
+      "artifact" : {
+        "artifact" : "io.vertx:vertx-core:4.2.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.vertx:vertx-zookeeper:4.2.1/dependencies/io/vertx/vertx-core/4.2.1/vertx-core-4.2.1.jar"
+      },
+      "isDirectDependency" : true
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ {
+      "importPath" : "import io.vertx.spi.cluster.zookeeper.MockZKCluster;"
+    } ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/io.vertx:vertx-zookeeper/src/test/java/io/vertx/core/eventbus/ZKNodeInfoTest.java",
+    "useImportReport" : [ {
+      "importPath" : "import io.vertx.core.spi.cluster.ClusterManager;",
+      "artifact" : {
+        "artifact" : "io.vertx:vertx-core:4.2.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.vertx:vertx-zookeeper:4.2.1/dependencies/io/vertx/vertx-core/4.2.1/vertx-core-4.2.1.jar"
+      },
+      "isDirectDependency" : true
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ {
+      "importPath" : "import io.vertx.spi.cluster.zookeeper.MockZKCluster;"
+    } ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/io.vertx:vertx-zookeeper/src/test/java/io/vertx/core/shareddata/ZKClusteredSharedCounterTest.java",
+    "useImportReport" : [ {
+      "importPath" : "import java.util.concurrent.TimeUnit;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import io.vertx.core.spi.cluster.ClusterManager;",
+      "artifact" : {
+        "artifact" : "io.vertx:vertx-core:4.2.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.vertx:vertx-zookeeper:4.2.1/dependencies/io/vertx/vertx-core/4.2.1/vertx-core-4.2.1.jar"
+      },
+      "isDirectDependency" : true
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ {
+      "importPath" : "import io.vertx.spi.cluster.zookeeper.MockZKCluster;"
+    } ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/io.vertx:vertx-zookeeper/src/test/java/io/vertx/core/shareddata/ZKClusteredAsynchronousLockTest.java",
+    "useImportReport" : [ {
+      "importPath" : "import io.vertx.core.spi.cluster.ClusterManager;",
+      "artifact" : {
+        "artifact" : "io.vertx:vertx-core:4.2.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.vertx:vertx-zookeeper:4.2.1/dependencies/io/vertx/vertx-core/4.2.1/vertx-core-4.2.1.jar"
+      },
+      "isDirectDependency" : true
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ {
+      "importPath" : "import io.vertx.spi.cluster.zookeeper.MockZKCluster;"
+    } ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/io.vertx:vertx-zookeeper/src/test/java/io/vertx/core/shareddata/ZKClusteredAsyncMapTest.java",
+    "useImportReport" : [ {
+      "importPath" : "import org.junit.Test;",
+      "artifact" : {
+        "artifact" : "junit:junit:4.13.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.vertx:vertx-zookeeper:4.2.1/dependencies/junit/junit/4.13.1/junit-4.13.1.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import io.vertx.core.spi.cluster.ClusterManager;",
+      "artifact" : {
+        "artifact" : "io.vertx:vertx-core:4.2.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.vertx:vertx-zookeeper:4.2.1/dependencies/io/vertx/vertx-core/4.2.1/vertx-core-4.2.1.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import io.vertx.core.buffer.Buffer;",
+      "artifact" : {
+        "artifact" : "io.vertx:vertx-core:4.2.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.vertx:vertx-zookeeper:4.2.1/dependencies/io/vertx/vertx-core/4.2.1/vertx-core-4.2.1-tests.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import io.vertx.core.buffer.Buffer;",
+      "artifact" : {
+        "artifact" : "io.vertx:vertx-core:4.2.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.vertx:vertx-zookeeper:4.2.1/dependencies/io/vertx/vertx-core/4.2.1/vertx-core-4.2.1.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.junit.Ignore;",
+      "artifact" : {
+        "artifact" : "junit:junit:4.13.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.vertx:vertx-zookeeper:4.2.1/dependencies/junit/junit/4.13.1/junit-4.13.1.jar"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ {
+      "importPath" : "import java.util.Objects;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ {
+      "importPath" : "import io.vertx.spi.cluster.zookeeper.MockZKCluster;"
+    } ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/io.vertx:vertx-zookeeper/src/test/java/io/vertx/core/ZKClusteredComplexHATest.java",
+    "useImportReport" : [ {
+      "importPath" : "import io.vertx.core.spi.cluster.ClusterManager;",
+      "artifact" : {
+        "artifact" : "io.vertx:vertx-core:4.2.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.vertx:vertx-zookeeper:4.2.1/dependencies/io/vertx/vertx-core/4.2.1/vertx-core-4.2.1.jar"
+      },
+      "isDirectDependency" : true
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ {
+      "importPath" : "import io.vertx.spi.cluster.zookeeper.MockZKCluster;"
+    } ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/io.vertx:vertx-zookeeper/src/test/java/io/vertx/core/ProgrammaticZKClusterManagerTest.java",
+    "useImportReport" : [ {
+      "importPath" : "import io.vertx.test.core.AsyncTestBase;",
+      "artifact" : {
+        "artifact" : "io.vertx:vertx-core:4.2.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.vertx:vertx-zookeeper:4.2.1/dependencies/io/vertx/vertx-core/4.2.1/vertx-core-4.2.1-tests.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.apache.curator.RetryPolicy;",
+      "artifact" : {
+        "artifact" : "org.apache.curator:curator-client:4.3.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.vertx:vertx-zookeeper:4.2.1/dependencies/org/apache/curator/curator-client/4.3.0/curator-client-4.3.0.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.apache.curator.retry.ExponentialBackoffRetry;",
+      "artifact" : {
+        "artifact" : "org.apache.curator:curator-client:4.3.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.vertx:vertx-zookeeper:4.2.1/dependencies/org/apache/curator/curator-client/4.3.0/curator-client-4.3.0.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import io.vertx.spi.cluster.zookeeper.ZookeeperClusterManager;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import io.vertx.core.json.JsonObject;",
+      "artifact" : {
+        "artifact" : "io.vertx:vertx-core:4.2.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.vertx:vertx-zookeeper:4.2.1/dependencies/io/vertx/vertx-core/4.2.1/vertx-core-4.2.1-tests.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import io.vertx.core.json.JsonObject;",
+      "artifact" : {
+        "artifact" : "io.vertx:vertx-core:4.2.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.vertx:vertx-zookeeper:4.2.1/dependencies/io/vertx/vertx-core/4.2.1/vertx-core-4.2.1.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.junit.Test;",
+      "artifact" : {
+        "artifact" : "junit:junit:4.13.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.vertx:vertx-zookeeper:4.2.1/dependencies/junit/junit/4.13.1/junit-4.13.1.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.apache.curator.framework.CuratorFramework;",
+      "artifact" : {
+        "artifact" : "org.apache.curator:curator-framework:4.3.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.vertx:vertx-zookeeper:4.2.1/dependencies/org/apache/curator/curator-framework/4.3.0/curator-framework-4.3.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.apache.curator.framework.CuratorFrameworkFactory;",
+      "artifact" : {
+        "artifact" : "org.apache.curator:curator-framework:4.3.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.vertx:vertx-zookeeper:4.2.1/dependencies/org/apache/curator/curator-framework/4.3.0/curator-framework-4.3.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import java.util.concurrent.atomic.AtomicReference;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.apache.curator.framework.imps.CuratorFrameworkState;",
+      "artifact" : {
+        "artifact" : "org.apache.curator:curator-framework:4.3.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.vertx:vertx-zookeeper:4.2.1/dependencies/org/apache/curator/curator-framework/4.3.0/curator-framework-4.3.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import java.util.UUID;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.Arrays;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ {
+      "importPath" : "import java.util.concurrent.TimeUnit;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ {
+      "importPath" : "import io.vertx.spi.cluster.zookeeper.MockZKCluster;"
+    } ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/io.vertx:vertx-zookeeper/src/test/java/io/vertx/ext/web/sstore/ZKClusteredSessionHandlerTest.java",
+    "useImportReport" : [ {
+      "importPath" : "import io.vertx.core.spi.cluster.ClusterManager;",
+      "artifact" : {
+        "artifact" : "io.vertx:vertx-core:4.2.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.vertx:vertx-zookeeper:4.2.1/dependencies/io/vertx/vertx-core/4.2.1/vertx-core-4.2.1.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.junit.Ignore;",
+      "artifact" : {
+        "artifact" : "junit:junit:4.13.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.vertx:vertx-zookeeper:4.2.1/dependencies/junit/junit/4.13.1/junit-4.13.1.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.junit.Test;",
+      "artifact" : {
+        "artifact" : "junit:junit:4.13.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.vertx:vertx-zookeeper:4.2.1/dependencies/junit/junit/4.13.1/junit-4.13.1.jar"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ {
+      "importPath" : "import io.vertx.spi.cluster.zookeeper.MockZKCluster;"
+    } ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/io.vertx:vertx-zookeeper/src/test/java/io/vertx/spi/cluster/zookeeper/MockZKCluster.java",
+    "useImportReport" : [ {
+      "importPath" : "import org.apache.curator.test.InstanceSpec;",
+      "artifact" : {
+        "artifact" : "org.apache.curator:curator-test:4.3.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.vertx:vertx-zookeeper:4.2.1/dependencies/org/apache/curator/curator-test/4.3.0/curator-test-4.3.0.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.apache.curator.test.TestingServer;",
+      "artifact" : {
+        "artifact" : "org.apache.curator:curator-test:4.3.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.vertx:vertx-zookeeper:4.2.1/dependencies/org/apache/curator/curator-test/4.3.0/curator-test-4.3.0.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.List;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.ArrayList;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import io.vertx.core.json.JsonObject;",
+      "artifact" : {
+        "artifact" : "io.vertx:vertx-core:4.2.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.vertx:vertx-zookeeper:4.2.1/dependencies/io/vertx/vertx-core/4.2.1/vertx-core-4.2.1-tests.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import io.vertx.core.json.JsonObject;",
+      "artifact" : {
+        "artifact" : "io.vertx:vertx-core:4.2.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.vertx:vertx-zookeeper:4.2.1/dependencies/io/vertx/vertx-core/4.2.1/vertx-core-4.2.1.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.apache.curator.framework.CuratorFramework;",
+      "artifact" : {
+        "artifact" : "org.apache.curator:curator-framework:4.3.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.vertx:vertx-zookeeper:4.2.1/dependencies/org/apache/curator/curator-framework/4.3.0/curator-framework-4.3.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import io.vertx.core.spi.cluster.ClusterManager;",
+      "artifact" : {
+        "artifact" : "io.vertx:vertx-core:4.2.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.vertx:vertx-zookeeper:4.2.1/dependencies/io/vertx/vertx-core/4.2.1/vertx-core-4.2.1.jar"
+      },
+      "isDirectDependency" : true
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/io.vertx:vertx-zookeeper/src/test/java/io/vertx/spi/cluster/zookeeper/ConsumerRoundRobinTest.java",
+    "useImportReport" : [ {
+      "importPath" : "import io.vertx.test.core.VertxTestBase;",
+      "artifact" : {
+        "artifact" : "io.vertx:vertx-core:4.2.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.vertx:vertx-zookeeper:4.2.1/dependencies/io/vertx/vertx-core/4.2.1/vertx-core-4.2.1-tests.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import io.vertx.core.spi.cluster.ClusterManager;",
+      "artifact" : {
+        "artifact" : "io.vertx:vertx-core:4.2.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.vertx:vertx-zookeeper:4.2.1/dependencies/io/vertx/vertx-core/4.2.1/vertx-core-4.2.1.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import java.util.concurrent.CompletableFuture;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.concurrent.CountDownLatch;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.junit.Test;",
+      "artifact" : {
+        "artifact" : "junit:junit:4.13.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.vertx:vertx-zookeeper:4.2.1/dependencies/junit/junit/4.13.1/junit-4.13.1.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.concurrent.atomic.AtomicInteger;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.Set;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.HashSet;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import io.vertx.core.Vertx;",
+      "artifact" : {
+        "artifact" : "io.vertx:vertx-core:4.2.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.vertx:vertx-zookeeper:4.2.1/dependencies/io/vertx/vertx-core/4.2.1/vertx-core-4.2.1-tests.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import io.vertx.core.Vertx;",
+      "artifact" : {
+        "artifact" : "io.vertx:vertx-core:4.2.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.vertx:vertx-zookeeper:4.2.1/dependencies/io/vertx/vertx-core/4.2.1/vertx-core-4.2.1.jar"
+      },
+      "isDirectDependency" : true
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/io.vertx:vertx-zookeeper/src/test/java/io/vertx/spi/cluster/zookeeper/ZKSyncMapTest.java",
+    "useImportReport" : [ {
+      "importPath" : "import org.junit.Test;",
+      "artifact" : {
+        "artifact" : "junit:junit:4.13.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.vertx:vertx-zookeeper:4.2.1/dependencies/junit/junit/4.13.1/junit-4.13.1.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.apache.curator.test.Timing;",
+      "artifact" : {
+        "artifact" : "org.apache.curator:curator-test:4.3.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.vertx:vertx-zookeeper:4.2.1/dependencies/org/apache/curator/curator-test/4.3.0/curator-test-4.3.0.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.apache.curator.test.TestingServer;",
+      "artifact" : {
+        "artifact" : "org.apache.curator:curator-test:4.3.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.vertx:vertx-zookeeper:4.2.1/dependencies/org/apache/curator/curator-test/4.3.0/curator-test-4.3.0.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.apache.curator.RetryPolicy;",
+      "artifact" : {
+        "artifact" : "org.apache.curator:curator-client:4.3.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.vertx:vertx-zookeeper:4.2.1/dependencies/org/apache/curator/curator-client/4.3.0/curator-client-4.3.0.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.apache.curator.retry.ExponentialBackoffRetry;",
+      "artifact" : {
+        "artifact" : "org.apache.curator:curator-client:4.3.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.vertx:vertx-zookeeper:4.2.1/dependencies/org/apache/curator/curator-client/4.3.0/curator-client-4.3.0.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.apache.curator.framework.CuratorFramework;",
+      "artifact" : {
+        "artifact" : "org.apache.curator:curator-framework:4.3.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.vertx:vertx-zookeeper:4.2.1/dependencies/org/apache/curator/curator-framework/4.3.0/curator-framework-4.3.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.apache.curator.framework.CuratorFrameworkFactory;",
+      "artifact" : {
+        "artifact" : "org.apache.curator:curator-framework:4.3.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.vertx:vertx-zookeeper:4.2.1/dependencies/org/apache/curator/curator-framework/4.3.0/curator-framework-4.3.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import io.vertx.spi.cluster.zookeeper.impl.ZKSyncMap;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import static org.junit.Assert.*;",
+      "artifact" : {
+        "artifact" : "junit:junit:4.13.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.vertx:vertx-zookeeper:4.2.1/dependencies/junit/junit/4.13.1/junit-4.13.1.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import static org.junit.Assert.*;",
+      "artifact" : {
+        "artifact" : "junit:junit:4.13.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.vertx:vertx-zookeeper:4.2.1/dependencies/junit/junit/4.13.1/junit-4.13.1.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import static org.junit.Assert.*;",
+      "artifact" : {
+        "artifact" : "junit:junit:4.13.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.vertx:vertx-zookeeper:4.2.1/dependencies/junit/junit/4.13.1/junit-4.13.1.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import static org.junit.Assert.*;",
+      "artifact" : {
+        "artifact" : "junit:junit:4.13.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.vertx:vertx-zookeeper:4.2.1/dependencies/junit/junit/4.13.1/junit-4.13.1.jar"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/io.vertx:vertx-zookeeper/src/test/java/io/vertx/servicediscovery/impl/ZKDiscoveryImplClusteredTest.java",
+    "useImportReport" : [ {
+      "importPath" : "import org.junit.Before;",
+      "artifact" : {
+        "artifact" : "junit:junit:4.13.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.vertx:vertx-zookeeper:4.2.1/dependencies/junit/junit/4.13.1/junit-4.13.1.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import io.vertx.core.VertxOptions;",
+      "artifact" : {
+        "artifact" : "io.vertx:vertx-core:4.2.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.vertx:vertx-zookeeper:4.2.1/dependencies/io/vertx/vertx-core/4.2.1/vertx-core-4.2.1-tests.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import io.vertx.core.VertxOptions;",
+      "artifact" : {
+        "artifact" : "io.vertx:vertx-core:4.2.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.vertx:vertx-zookeeper:4.2.1/dependencies/io/vertx/vertx-core/4.2.1/vertx-core-4.2.1.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import io.vertx.core.Vertx;",
+      "artifact" : {
+        "artifact" : "io.vertx:vertx-core:4.2.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.vertx:vertx-zookeeper:4.2.1/dependencies/io/vertx/vertx-core/4.2.1/vertx-core-4.2.1-tests.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import io.vertx.core.Vertx;",
+      "artifact" : {
+        "artifact" : "io.vertx:vertx-core:4.2.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.vertx:vertx-zookeeper:4.2.1/dependencies/io/vertx/vertx-core/4.2.1/vertx-core-4.2.1.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import static com.jayway.awaitility.Awaitility.await;",
+      "artifact" : {
+        "artifact" : "com.jayway.awaitility:awaitility:1.7.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.vertx:vertx-zookeeper:4.2.1/dependencies/com/jayway/awaitility/awaitility/1.7.0/awaitility-1.7.0.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import io.vertx.servicediscovery.ServiceDiscoveryOptions;",
+      "artifact" : {
+        "artifact" : "io.vertx:vertx-service-discovery:4.2.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.vertx:vertx-zookeeper:4.2.1/dependencies/io/vertx/vertx-service-discovery/4.2.1/vertx-service-discovery-4.2.1.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.junit.After;",
+      "artifact" : {
+        "artifact" : "junit:junit:4.13.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.vertx:vertx-zookeeper:4.2.1/dependencies/junit/junit/4.13.1/junit-4.13.1.jar"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ {
+      "importPath" : "import io.vertx.spi.cluster.zookeeper.MockZKCluster;"
+    } ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/io.vertx:vertx-zookeeper/src/main/java/example/Examples.java",
+    "useImportReport" : [ {
+      "importPath" : "import io.vertx.core.spi.cluster.ClusterManager;",
+      "artifact" : {
+        "artifact" : "io.vertx:vertx-core:4.2.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.vertx:vertx-zookeeper:4.2.1/dependencies/io/vertx/vertx-core/4.2.1/vertx-core-4.2.1.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import io.vertx.spi.cluster.zookeeper.ZookeeperClusterManager;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import io.vertx.core.VertxOptions;",
+      "artifact" : {
+        "artifact" : "io.vertx:vertx-core:4.2.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.vertx:vertx-zookeeper:4.2.1/dependencies/io/vertx/vertx-core/4.2.1/vertx-core-4.2.1-tests.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import io.vertx.core.VertxOptions;",
+      "artifact" : {
+        "artifact" : "io.vertx:vertx-core:4.2.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.vertx:vertx-zookeeper:4.2.1/dependencies/io/vertx/vertx-core/4.2.1/vertx-core-4.2.1.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import io.vertx.core.Vertx;",
+      "artifact" : {
+        "artifact" : "io.vertx:vertx-core:4.2.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.vertx:vertx-zookeeper:4.2.1/dependencies/io/vertx/vertx-core/4.2.1/vertx-core-4.2.1-tests.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import io.vertx.core.Vertx;",
+      "artifact" : {
+        "artifact" : "io.vertx:vertx-core:4.2.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.vertx:vertx-zookeeper:4.2.1/dependencies/io/vertx/vertx-core/4.2.1/vertx-core-4.2.1.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import io.vertx.core.json.JsonObject;",
+      "artifact" : {
+        "artifact" : "io.vertx:vertx-core:4.2.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.vertx:vertx-zookeeper:4.2.1/dependencies/io/vertx/vertx-core/4.2.1/vertx-core-4.2.1-tests.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import io.vertx.core.json.JsonObject;",
+      "artifact" : {
+        "artifact" : "io.vertx:vertx-core:4.2.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.vertx:vertx-zookeeper:4.2.1/dependencies/io/vertx/vertx-core/4.2.1/vertx-core-4.2.1.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.apache.curator.framework.CuratorFramework;",
+      "artifact" : {
+        "artifact" : "org.apache.curator:curator-framework:4.3.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.vertx:vertx-zookeeper:4.2.1/dependencies/org/apache/curator/curator-framework/4.3.0/curator-framework-4.3.0.jar"
+      },
+      "isDirectDependency" : true
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/io.vertx:vertx-zookeeper/src/main/java/example/package-info.java",
+    "useImportReport" : [ {
+      "importPath" : "import io.vertx.docgen.Source;",
+      "artifact" : {
+        "artifact" : "io.vertx:vertx-docgen:0.9.4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.vertx:vertx-zookeeper:4.2.1/dependencies/io/vertx/vertx-docgen/0.9.4/vertx-docgen-0.9.4.jar"
+      },
+      "isDirectDependency" : true
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/io.vertx:vertx-zookeeper/src/main/java/io/vertx/spi/cluster/zookeeper/impl/ZKAsyncMap.java",
+    "useImportReport" : [ {
+      "importPath" : "import io.vertx.core.shareddata.AsyncMap;",
+      "artifact" : {
+        "artifact" : "io.vertx:vertx-core:4.2.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.vertx:vertx-zookeeper:4.2.1/dependencies/io/vertx/vertx-core/4.2.1/vertx-core-4.2.1-tests.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import io.vertx.core.shareddata.AsyncMap;",
+      "artifact" : {
+        "artifact" : "io.vertx:vertx-core:4.2.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.vertx:vertx-zookeeper:4.2.1/dependencies/io/vertx/vertx-core/4.2.1/vertx-core-4.2.1.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import io.vertx.core.Vertx;",
+      "artifact" : {
+        "artifact" : "io.vertx:vertx-core:4.2.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.vertx:vertx-zookeeper:4.2.1/dependencies/io/vertx/vertx-core/4.2.1/vertx-core-4.2.1-tests.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import io.vertx.core.Vertx;",
+      "artifact" : {
+        "artifact" : "io.vertx:vertx-core:4.2.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.vertx:vertx-zookeeper:4.2.1/dependencies/io/vertx/vertx-core/4.2.1/vertx-core-4.2.1.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.apache.curator.framework.CuratorFramework;",
+      "artifact" : {
+        "artifact" : "org.apache.curator:curator-framework:4.3.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.vertx:vertx-zookeeper:4.2.1/dependencies/org/apache/curator/curator-framework/4.3.0/curator-framework-4.3.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import io.vertx.core.Future;",
+      "artifact" : {
+        "artifact" : "io.vertx:vertx-core:4.2.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.vertx:vertx-zookeeper:4.2.1/dependencies/io/vertx/vertx-core/4.2.1/vertx-core-4.2.1-tests.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import io.vertx.core.Future;",
+      "artifact" : {
+        "artifact" : "io.vertx:vertx-core:4.2.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.vertx:vertx-zookeeper:4.2.1/dependencies/io/vertx/vertx-core/4.2.1/vertx-core-4.2.1.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import io.vertx.core.Promise;",
+      "artifact" : {
+        "artifact" : "io.vertx:vertx-core:4.2.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.vertx:vertx-zookeeper:4.2.1/dependencies/io/vertx/vertx-core/4.2.1/vertx-core-4.2.1.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.apache.curator.framework.api.CuratorEventType;",
+      "artifact" : {
+        "artifact" : "org.apache.curator:curator-framework:4.3.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.vertx:vertx-zookeeper:4.2.1/dependencies/org/apache/curator/curator-framework/4.3.0/curator-framework-4.3.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import java.util.*;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.*;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.time.Instant;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.apache.zookeeper.data.Stat;",
+      "artifact" : {
+        "artifact" : "org.apache.zookeeper:zookeeper-jute:3.5.9",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.vertx:vertx-zookeeper:4.2.1/dependencies/org/apache/zookeeper/zookeeper-jute/3.5.9/zookeeper-jute-3.5.9.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import io.vertx.core.impl.VertxInternal;",
+      "artifact" : {
+        "artifact" : "io.vertx:vertx-core:4.2.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.vertx:vertx-zookeeper:4.2.1/dependencies/io/vertx/vertx-core/4.2.1/vertx-core-4.2.1.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import java.util.*;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.*;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.*;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.*;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.*;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import io.vertx.core.CompositeFuture;",
+      "artifact" : {
+        "artifact" : "io.vertx:vertx-core:4.2.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.vertx:vertx-zookeeper:4.2.1/dependencies/io/vertx/vertx-core/4.2.1/vertx-core-4.2.1-tests.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import io.vertx.core.CompositeFuture;",
+      "artifact" : {
+        "artifact" : "io.vertx:vertx-core:4.2.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.vertx:vertx-zookeeper:4.2.1/dependencies/io/vertx/vertx-core/4.2.1/vertx-core-4.2.1.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import java.util.*;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.*;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.io.IOException;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/io.vertx:vertx-zookeeper/src/main/java/io/vertx/spi/cluster/zookeeper/impl/ZKLock.java",
+    "useImportReport" : [ {
+      "importPath" : "import io.vertx.core.shareddata.Lock;",
+      "artifact" : {
+        "artifact" : "io.vertx:vertx-core:4.2.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.vertx:vertx-zookeeper:4.2.1/dependencies/io/vertx/vertx-core/4.2.1/vertx-core-4.2.1.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import io.vertx.core.impl.logging.Logger;",
+      "artifact" : {
+        "artifact" : "io.vertx:vertx-core:4.2.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.vertx:vertx-zookeeper:4.2.1/dependencies/io/vertx/vertx-core/4.2.1/vertx-core-4.2.1.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import io.vertx.core.impl.logging.LoggerFactory;",
+      "artifact" : {
+        "artifact" : "io.vertx:vertx-core:4.2.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.vertx:vertx-zookeeper:4.2.1/dependencies/io/vertx/vertx-core/4.2.1/vertx-core-4.2.1.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.apache.curator.framework.recipes.locks.InterProcessSemaphoreMutex;",
+      "artifact" : {
+        "artifact" : "org.apache.curator:curator-recipes:4.3.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.vertx:vertx-zookeeper:4.2.1/dependencies/org/apache/curator/curator-recipes/4.3.0/curator-recipes-4.3.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import java.util.concurrent.ExecutorService;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/io.vertx:vertx-zookeeper/src/main/java/io/vertx/spi/cluster/zookeeper/impl/ZKCounter.java",
+    "useImportReport" : [ {
+      "importPath" : "import io.vertx.core.shareddata.Counter;",
+      "artifact" : {
+        "artifact" : "io.vertx:vertx-core:4.2.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.vertx:vertx-zookeeper:4.2.1/dependencies/io/vertx/vertx-core/4.2.1/vertx-core-4.2.1.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import io.vertx.core.impl.VertxInternal;",
+      "artifact" : {
+        "artifact" : "io.vertx:vertx-core:4.2.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.vertx:vertx-zookeeper:4.2.1/dependencies/io/vertx/vertx-core/4.2.1/vertx-core-4.2.1.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.apache.curator.framework.recipes.atomic.DistributedAtomicLong;",
+      "artifact" : {
+        "artifact" : "org.apache.curator:curator-recipes:4.3.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.vertx:vertx-zookeeper:4.2.1/dependencies/org/apache/curator/curator-recipes/4.3.0/curator-recipes-4.3.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.apache.curator.framework.CuratorFramework;",
+      "artifact" : {
+        "artifact" : "org.apache.curator:curator-framework:4.3.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.vertx:vertx-zookeeper:4.2.1/dependencies/org/apache/curator/curator-framework/4.3.0/curator-framework-4.3.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.apache.curator.RetryPolicy;",
+      "artifact" : {
+        "artifact" : "org.apache.curator:curator-client:4.3.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.vertx:vertx-zookeeper:4.2.1/dependencies/org/apache/curator/curator-client/4.3.0/curator-client-4.3.0.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import io.vertx.core.Future;",
+      "artifact" : {
+        "artifact" : "io.vertx:vertx-core:4.2.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.vertx:vertx-zookeeper:4.2.1/dependencies/io/vertx/vertx-core/4.2.1/vertx-core-4.2.1-tests.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import io.vertx.core.Future;",
+      "artifact" : {
+        "artifact" : "io.vertx:vertx-core:4.2.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.vertx:vertx-zookeeper:4.2.1/dependencies/io/vertx/vertx-core/4.2.1/vertx-core-4.2.1.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import io.vertx.core.VertxException;",
+      "artifact" : {
+        "artifact" : "io.vertx:vertx-core:4.2.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.vertx:vertx-zookeeper:4.2.1/dependencies/io/vertx/vertx-core/4.2.1/vertx-core-4.2.1.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import io.vertx.core.Handler;",
+      "artifact" : {
+        "artifact" : "io.vertx:vertx-core:4.2.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.vertx:vertx-zookeeper:4.2.1/dependencies/io/vertx/vertx-core/4.2.1/vertx-core-4.2.1.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import io.vertx.core.AsyncResult;",
+      "artifact" : {
+        "artifact" : "io.vertx:vertx-core:4.2.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.vertx:vertx-zookeeper:4.2.1/dependencies/io/vertx/vertx-core/4.2.1/vertx-core-4.2.1.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import java.util.Objects;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/io.vertx:vertx-zookeeper/src/main/java/io/vertx/spi/cluster/zookeeper/impl/ZKMap.java",
+    "useImportReport" : [ {
+      "importPath" : "import org.apache.curator.framework.CuratorFramework;",
+      "artifact" : {
+        "artifact" : "org.apache.curator:curator-framework:4.3.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.vertx:vertx-zookeeper:4.2.1/dependencies/org/apache/curator/curator-framework/4.3.0/curator-framework-4.3.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import io.vertx.core.Vertx;",
+      "artifact" : {
+        "artifact" : "io.vertx:vertx-core:4.2.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.vertx:vertx-zookeeper:4.2.1/dependencies/io/vertx/vertx-core/4.2.1/vertx-core-4.2.1-tests.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import io.vertx.core.Vertx;",
+      "artifact" : {
+        "artifact" : "io.vertx:vertx-core:4.2.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.vertx:vertx-zookeeper:4.2.1/dependencies/io/vertx/vertx-core/4.2.1/vertx-core-4.2.1.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import java.util.function.Predicate;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.Objects;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.apache.curator.RetryPolicy;",
+      "artifact" : {
+        "artifact" : "org.apache.curator:curator-client:4.3.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.vertx:vertx-zookeeper:4.2.1/dependencies/org/apache/curator/curator-client/4.3.0/curator-client-4.3.0.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.apache.curator.retry.ExponentialBackoffRetry;",
+      "artifact" : {
+        "artifact" : "org.apache.curator:curator-client:4.3.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.vertx:vertx-zookeeper:4.2.1/dependencies/org/apache/curator/curator-client/4.3.0/curator-client-4.3.0.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import io.vertx.core.Future;",
+      "artifact" : {
+        "artifact" : "io.vertx:vertx-core:4.2.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.vertx:vertx-zookeeper:4.2.1/dependencies/io/vertx/vertx-core/4.2.1/vertx-core-4.2.1-tests.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import io.vertx.core.Future;",
+      "artifact" : {
+        "artifact" : "io.vertx:vertx-core:4.2.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.vertx:vertx-zookeeper:4.2.1/dependencies/io/vertx/vertx-core/4.2.1/vertx-core-4.2.1.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import java.io.*;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.io.*;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.io.*;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.io.*;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import io.vertx.core.shareddata.impl.ClusterSerializable;",
+      "artifact" : {
+        "artifact" : "io.vertx:vertx-core:4.2.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.vertx:vertx-zookeeper:4.2.1/dependencies/io/vertx/vertx-core/4.2.1/vertx-core-4.2.1.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import io.vertx.core.buffer.Buffer;",
+      "artifact" : {
+        "artifact" : "io.vertx:vertx-core:4.2.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.vertx:vertx-zookeeper:4.2.1/dependencies/io/vertx/vertx-core/4.2.1/vertx-core-4.2.1-tests.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import io.vertx.core.buffer.Buffer;",
+      "artifact" : {
+        "artifact" : "io.vertx:vertx-core:4.2.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.vertx:vertx-zookeeper:4.2.1/dependencies/io/vertx/vertx-core/4.2.1/vertx-core-4.2.1.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import java.io.*;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.io.*;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.io.*;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.io.*;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.lang.reflect.Constructor;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.io.*;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.apache.zookeeper.data.Stat;",
+      "artifact" : {
+        "artifact" : "org.apache.zookeeper:zookeeper-jute:3.5.9",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.vertx:vertx-zookeeper:4.2.1/dependencies/org/apache/zookeeper/zookeeper-jute/3.5.9/zookeeper-jute-3.5.9.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.apache.zookeeper.KeeperException;",
+      "artifact" : {
+        "artifact" : "org.apache.zookeeper:zookeeper:3.5.9",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.vertx:vertx-zookeeper:4.2.1/dependencies/org/apache/zookeeper/zookeeper/3.5.9/zookeeper-3.5.9.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import java.time.Instant;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.apache.curator.RetryLoop;",
+      "artifact" : {
+        "artifact" : "org.apache.curator:curator-client:4.3.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.vertx:vertx-zookeeper:4.2.1/dependencies/org/apache/curator/curator-client/4.3.0/curator-client-4.3.0.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import io.vertx.core.VertxException;",
+      "artifact" : {
+        "artifact" : "io.vertx:vertx-core:4.2.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.vertx:vertx-zookeeper:4.2.1/dependencies/io/vertx/vertx-core/4.2.1/vertx-core-4.2.1.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import io.vertx.core.Promise;",
+      "artifact" : {
+        "artifact" : "io.vertx:vertx-core:4.2.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.vertx:vertx-zookeeper:4.2.1/dependencies/io/vertx/vertx-core/4.2.1/vertx-core-4.2.1.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.apache.curator.framework.api.CuratorEventType;",
+      "artifact" : {
+        "artifact" : "org.apache.curator:curator-framework:4.3.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.vertx:vertx-zookeeper:4.2.1/dependencies/org/apache/curator/curator-framework/4.3.0/curator-framework-4.3.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import java.util.Optional;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.apache.curator.framework.api.ACLBackgroundPathAndBytesable;",
+      "artifact" : {
+        "artifact" : "org.apache.curator:curator-framework:4.3.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.vertx:vertx-zookeeper:4.2.1/dependencies/org/apache/curator/curator-framework/4.3.0/curator-framework-4.3.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.apache.zookeeper.CreateMode;",
+      "artifact" : {
+        "artifact" : "org.apache.zookeeper:zookeeper:3.5.9",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.vertx:vertx-zookeeper:4.2.1/dependencies/org/apache/zookeeper/zookeeper/3.5.9/zookeeper-3.5.9.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import java.util.stream.Stream;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ {
+      "importPath" : "import java.util.Base64;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/io.vertx:vertx-zookeeper/src/main/java/io/vertx/spi/cluster/zookeeper/impl/ZKSyncMap.java",
+    "useImportReport" : [ {
+      "importPath" : "import java.util.Map;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import io.vertx.core.impl.logging.Logger;",
+      "artifact" : {
+        "artifact" : "io.vertx:vertx-core:4.2.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.vertx:vertx-zookeeper:4.2.1/dependencies/io/vertx/vertx-core/4.2.1/vertx-core-4.2.1.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import io.vertx.core.impl.logging.LoggerFactory;",
+      "artifact" : {
+        "artifact" : "io.vertx:vertx-core:4.2.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.vertx:vertx-zookeeper:4.2.1/dependencies/io/vertx/vertx-core/4.2.1/vertx-core-4.2.1.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.apache.curator.framework.CuratorFramework;",
+      "artifact" : {
+        "artifact" : "org.apache.curator:curator-framework:4.3.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.vertx:vertx-zookeeper:4.2.1/dependencies/org/apache/curator/curator-framework/4.3.0/curator-framework-4.3.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import io.vertx.core.VertxException;",
+      "artifact" : {
+        "artifact" : "io.vertx:vertx-core:4.2.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.vertx:vertx-zookeeper:4.2.1/dependencies/io/vertx/vertx-core/4.2.1/vertx-core-4.2.1.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.apache.zookeeper.KeeperException;",
+      "artifact" : {
+        "artifact" : "org.apache.zookeeper:zookeeper:3.5.9",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.vertx:vertx-zookeeper:4.2.1/dependencies/org/apache/zookeeper/zookeeper/3.5.9/zookeeper-3.5.9.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.apache.zookeeper.CreateMode;",
+      "artifact" : {
+        "artifact" : "org.apache.zookeeper:zookeeper:3.5.9",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.vertx:vertx-zookeeper:4.2.1/dependencies/org/apache/zookeeper/zookeeper/3.5.9/zookeeper-3.5.9.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import java.util.Set;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.stream.Collectors;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.Collection;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.concurrent.CountDownLatch;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.apache.curator.framework.imps.CuratorFrameworkState;",
+      "artifact" : {
+        "artifact" : "org.apache.curator:curator-framework:4.3.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.vertx:vertx-zookeeper:4.2.1/dependencies/org/apache/curator/curator-framework/4.3.0/curator-framework-4.3.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.apache.curator.framework.api.CuratorEventType;",
+      "artifact" : {
+        "artifact" : "org.apache.curator:curator-framework:4.3.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.vertx:vertx-zookeeper:4.2.1/dependencies/org/apache/curator/curator-framework/4.3.0/curator-framework-4.3.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import java.util.concurrent.TimeUnit;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.HashMap;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.io.Serializable;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/io.vertx:vertx-zookeeper/src/main/java/io/vertx/spi/cluster/zookeeper/impl/SubsMapHelper.java",
+    "useImportReport" : [ {
+      "importPath" : "import org.apache.curator.framework.recipes.cache.TreeCacheListener;",
+      "artifact" : {
+        "artifact" : "org.apache.curator:curator-recipes:4.3.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.vertx:vertx-zookeeper:4.2.1/dependencies/org/apache/curator/curator-recipes/4.3.0/curator-recipes-4.3.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.apache.curator.framework.CuratorFramework;",
+      "artifact" : {
+        "artifact" : "org.apache.curator:curator-framework:4.3.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.vertx:vertx-zookeeper:4.2.1/dependencies/org/apache/curator/curator-framework/4.3.0/curator-framework-4.3.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.apache.curator.framework.recipes.cache.TreeCache;",
+      "artifact" : {
+        "artifact" : "org.apache.curator:curator-recipes:4.3.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.vertx:vertx-zookeeper:4.2.1/dependencies/org/apache/curator/curator-recipes/4.3.0/curator-recipes-4.3.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import io.vertx.core.impl.VertxInternal;",
+      "artifact" : {
+        "artifact" : "io.vertx:vertx-core:4.2.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.vertx:vertx-zookeeper:4.2.1/dependencies/io/vertx/vertx-core/4.2.1/vertx-core-4.2.1.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import io.vertx.core.spi.cluster.NodeSelector;",
+      "artifact" : {
+        "artifact" : "io.vertx:vertx-core:4.2.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.vertx:vertx-zookeeper:4.2.1/dependencies/io/vertx/vertx-core/4.2.1/vertx-core-4.2.1.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import java.util.concurrent.ConcurrentMap;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.*;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import io.vertx.core.spi.cluster.RegistrationInfo;",
+      "artifact" : {
+        "artifact" : "io.vertx:vertx-core:4.2.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.vertx:vertx-zookeeper:4.2.1/dependencies/io/vertx/vertx-core/4.2.1/vertx-core-4.2.1-tests.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import io.vertx.core.spi.cluster.RegistrationInfo;",
+      "artifact" : {
+        "artifact" : "io.vertx:vertx-core:4.2.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.vertx:vertx-zookeeper:4.2.1/dependencies/io/vertx/vertx-core/4.2.1/vertx-core-4.2.1.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import java.util.concurrent.ConcurrentHashMap;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import io.vertx.core.impl.logging.Logger;",
+      "artifact" : {
+        "artifact" : "io.vertx:vertx-core:4.2.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.vertx:vertx-zookeeper:4.2.1/dependencies/io/vertx/vertx-core/4.2.1/vertx-core-4.2.1.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import io.vertx.core.impl.logging.LoggerFactory;",
+      "artifact" : {
+        "artifact" : "io.vertx:vertx-core:4.2.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.vertx:vertx-zookeeper:4.2.1/dependencies/io/vertx/vertx-core/4.2.1/vertx-core-4.2.1.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import java.util.function.Function;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.function.BiFunction;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import io.vertx.core.VertxException;",
+      "artifact" : {
+        "artifact" : "io.vertx:vertx-core:4.2.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.vertx:vertx-zookeeper:4.2.1/dependencies/io/vertx/vertx-core/4.2.1/vertx-core-4.2.1.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import io.vertx.core.Promise;",
+      "artifact" : {
+        "artifact" : "io.vertx:vertx-core:4.2.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.vertx:vertx-zookeeper:4.2.1/dependencies/io/vertx/vertx-core/4.2.1/vertx-core-4.2.1.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import io.vertx.core.buffer.Buffer;",
+      "artifact" : {
+        "artifact" : "io.vertx:vertx-core:4.2.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.vertx:vertx-zookeeper:4.2.1/dependencies/io/vertx/vertx-core/4.2.1/vertx-core-4.2.1-tests.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import io.vertx.core.buffer.Buffer;",
+      "artifact" : {
+        "artifact" : "io.vertx:vertx-core:4.2.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.vertx:vertx-zookeeper:4.2.1/dependencies/io/vertx/vertx-core/4.2.1/vertx-core-4.2.1.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.apache.zookeeper.CreateMode;",
+      "artifact" : {
+        "artifact" : "org.apache.zookeeper:zookeeper:3.5.9",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.vertx:vertx-zookeeper:4.2.1/dependencies/org/apache/zookeeper/zookeeper/3.5.9/zookeeper-3.5.9.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.apache.curator.framework.api.CuratorEventType;",
+      "artifact" : {
+        "artifact" : "org.apache.curator:curator-framework:4.3.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.vertx:vertx-zookeeper:4.2.1/dependencies/org/apache/curator/curator-framework/4.3.0/curator-framework-4.3.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import java.util.*;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.*;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.*;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.stream.Stream;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.*;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.*;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.stream.Collectors;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.apache.curator.framework.recipes.cache.ChildData;",
+      "artifact" : {
+        "artifact" : "org.apache.curator:curator-recipes:4.3.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.vertx:vertx-zookeeper:4.2.1/dependencies/org/apache/curator/curator-recipes/4.3.0/curator-recipes-4.3.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.apache.curator.framework.recipes.cache.TreeCacheEvent;",
+      "artifact" : {
+        "artifact" : "org.apache.curator:curator-recipes:4.3.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.vertx:vertx-zookeeper:4.2.1/dependencies/org/apache/curator/curator-recipes/4.3.0/curator-recipes-4.3.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import io.vertx.core.spi.cluster.RegistrationUpdateEvent;",
+      "artifact" : {
+        "artifact" : "io.vertx:vertx-core:4.2.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.vertx:vertx-zookeeper:4.2.1/dependencies/io/vertx/vertx-core/4.2.1/vertx-core-4.2.1.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import io.vertx.core.Future;",
+      "artifact" : {
+        "artifact" : "io.vertx:vertx-core:4.2.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.vertx:vertx-zookeeper:4.2.1/dependencies/io/vertx/vertx-core/4.2.1/vertx-core-4.2.1-tests.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import io.vertx.core.Future;",
+      "artifact" : {
+        "artifact" : "io.vertx:vertx-core:4.2.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.vertx:vertx-zookeeper:4.2.1/dependencies/io/vertx/vertx-core/4.2.1/vertx-core-4.2.1.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import java.util.*;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.*;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import io.vertx.core.CompositeFuture;",
+      "artifact" : {
+        "artifact" : "io.vertx:vertx-core:4.2.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.vertx:vertx-zookeeper:4.2.1/dependencies/io/vertx/vertx-core/4.2.1/vertx-core-4.2.1-tests.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import io.vertx.core.CompositeFuture;",
+      "artifact" : {
+        "artifact" : "io.vertx:vertx-core:4.2.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.vertx:vertx-zookeeper:4.2.1/dependencies/io/vertx/vertx-core/4.2.1/vertx-core-4.2.1.jar"
+      },
+      "isDirectDependency" : true
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/io.vertx:vertx-zookeeper/src/main/java/io/vertx/spi/cluster/zookeeper/ZookeeperClusterManager.java",
+    "useImportReport" : [ {
+      "importPath" : "import io.vertx.core.spi.cluster.*;",
+      "artifact" : {
+        "artifact" : "io.vertx:vertx-core:4.2.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.vertx:vertx-zookeeper:4.2.1/dependencies/io/vertx/vertx-core/4.2.1/vertx-core-4.2.1.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.apache.curator.framework.recipes.cache.PathChildrenCacheListener;",
+      "artifact" : {
+        "artifact" : "org.apache.curator:curator-recipes:4.3.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.vertx:vertx-zookeeper:4.2.1/dependencies/org/apache/curator/curator-recipes/4.3.0/curator-recipes-4.3.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import io.vertx.core.impl.logging.Logger;",
+      "artifact" : {
+        "artifact" : "io.vertx:vertx-core:4.2.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.vertx:vertx-zookeeper:4.2.1/dependencies/io/vertx/vertx-core/4.2.1/vertx-core-4.2.1.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import io.vertx.core.impl.logging.LoggerFactory;",
+      "artifact" : {
+        "artifact" : "io.vertx:vertx-core:4.2.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.vertx:vertx-zookeeper:4.2.1/dependencies/io/vertx/vertx-core/4.2.1/vertx-core-4.2.1.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import io.vertx.core.impl.VertxInternal;",
+      "artifact" : {
+        "artifact" : "io.vertx:vertx-core:4.2.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.vertx:vertx-zookeeper:4.2.1/dependencies/io/vertx/vertx-core/4.2.1/vertx-core-4.2.1.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import io.vertx.core.spi.cluster.*;",
+      "artifact" : {
+        "artifact" : "io.vertx:vertx-core:4.2.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.vertx:vertx-zookeeper:4.2.1/dependencies/io/vertx/vertx-core/4.2.1/vertx-core-4.2.1.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import io.vertx.core.spi.cluster.*;",
+      "artifact" : {
+        "artifact" : "io.vertx:vertx-core:4.2.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.vertx:vertx-zookeeper:4.2.1/dependencies/io/vertx/vertx-core/4.2.1/vertx-core-4.2.1.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.apache.curator.framework.recipes.cache.PathChildrenCache;",
+      "artifact" : {
+        "artifact" : "org.apache.curator:curator-recipes:4.3.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.vertx:vertx-zookeeper:4.2.1/dependencies/org/apache/curator/curator-recipes/4.3.0/curator-recipes-4.3.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import io.vertx.core.spi.cluster.*;",
+      "artifact" : {
+        "artifact" : "io.vertx:vertx-core:4.2.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.vertx:vertx-zookeeper:4.2.1/dependencies/io/vertx/vertx-core/4.2.1/vertx-core-4.2.1-tests.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import io.vertx.core.spi.cluster.*;",
+      "artifact" : {
+        "artifact" : "io.vertx:vertx-core:4.2.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.vertx:vertx-zookeeper:4.2.1/dependencies/io/vertx/vertx-core/4.2.1/vertx-core-4.2.1.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.apache.curator.framework.CuratorFramework;",
+      "artifact" : {
+        "artifact" : "org.apache.curator:curator-framework:4.3.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.vertx:vertx-zookeeper:4.2.1/dependencies/org/apache/curator/curator-framework/4.3.0/curator-framework-4.3.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.apache.curator.RetryPolicy;",
+      "artifact" : {
+        "artifact" : "org.apache.curator:curator-client:4.3.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.vertx:vertx-zookeeper:4.2.1/dependencies/org/apache/curator/curator-client/4.3.0/curator-client-4.3.0.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import io.vertx.spi.cluster.zookeeper.impl.*;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.*;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.concurrent.ConcurrentHashMap;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import io.vertx.spi.cluster.zookeeper.impl.*;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import io.vertx.core.shareddata.AsyncMap;",
+      "artifact" : {
+        "artifact" : "io.vertx:vertx-core:4.2.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.vertx:vertx-zookeeper:4.2.1/dependencies/io/vertx/vertx-core/4.2.1/vertx-core-4.2.1-tests.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import io.vertx.core.shareddata.AsyncMap;",
+      "artifact" : {
+        "artifact" : "io.vertx:vertx-core:4.2.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.vertx:vertx-zookeeper:4.2.1/dependencies/io/vertx/vertx-core/4.2.1/vertx-core-4.2.1.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import io.vertx.core.json.JsonObject;",
+      "artifact" : {
+        "artifact" : "io.vertx:vertx-core:4.2.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.vertx:vertx-zookeeper:4.2.1/dependencies/io/vertx/vertx-core/4.2.1/vertx-core-4.2.1-tests.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import io.vertx.core.json.JsonObject;",
+      "artifact" : {
+        "artifact" : "io.vertx:vertx-core:4.2.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.vertx:vertx-zookeeper:4.2.1/dependencies/io/vertx/vertx-core/4.2.1/vertx-core-4.2.1.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import java.util.concurrent.ExecutorService;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.function.Function;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.*;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.*;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.io.*;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.io.*;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.io.*;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.io.*;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.io.*;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.io.*;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.io.*;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import io.vertx.core.*;",
+      "artifact" : {
+        "artifact" : "io.vertx:vertx-core:4.2.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.vertx:vertx-zookeeper:4.2.1/dependencies/io/vertx/vertx-core/4.2.1/vertx-core-4.2.1-tests.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import io.vertx.core.*;",
+      "artifact" : {
+        "artifact" : "io.vertx:vertx-core:4.2.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.vertx:vertx-zookeeper:4.2.1/dependencies/io/vertx/vertx-core/4.2.1/vertx-core-4.2.1.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import io.vertx.core.*;",
+      "artifact" : {
+        "artifact" : "io.vertx:vertx-core:4.2.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.vertx:vertx-zookeeper:4.2.1/dependencies/io/vertx/vertx-core/4.2.1/vertx-core-4.2.1.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import io.vertx.spi.cluster.zookeeper.impl.*;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import io.vertx.spi.cluster.zookeeper.impl.*;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import io.vertx.core.shareddata.Lock;",
+      "artifact" : {
+        "artifact" : "io.vertx:vertx-core:4.2.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.vertx:vertx-zookeeper:4.2.1/dependencies/io/vertx/vertx-core/4.2.1/vertx-core-4.2.1.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.apache.curator.framework.recipes.locks.InterProcessSemaphoreMutex;",
+      "artifact" : {
+        "artifact" : "org.apache.curator:curator-recipes:4.3.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.vertx:vertx-zookeeper:4.2.1/dependencies/org/apache/curator/curator-recipes/4.3.0/curator-recipes-4.3.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import java.util.concurrent.TimeUnit;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import io.vertx.core.*;",
+      "artifact" : {
+        "artifact" : "io.vertx:vertx-core:4.2.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.vertx:vertx-zookeeper:4.2.1/dependencies/io/vertx/vertx-core/4.2.1/vertx-core-4.2.1.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import io.vertx.core.shareddata.Counter;",
+      "artifact" : {
+        "artifact" : "io.vertx:vertx-core:4.2.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.vertx:vertx-zookeeper:4.2.1/dependencies/io/vertx/vertx-core/4.2.1/vertx-core-4.2.1.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import io.vertx.spi.cluster.zookeeper.impl.*;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.*;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.stream.Collectors;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import io.vertx.core.buffer.Buffer;",
+      "artifact" : {
+        "artifact" : "io.vertx:vertx-core:4.2.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.vertx:vertx-zookeeper:4.2.1/dependencies/io/vertx/vertx-core/4.2.1/vertx-core-4.2.1-tests.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import io.vertx.core.buffer.Buffer;",
+      "artifact" : {
+        "artifact" : "io.vertx:vertx-core:4.2.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.vertx:vertx-zookeeper:4.2.1/dependencies/io/vertx/vertx-core/4.2.1/vertx-core-4.2.1.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.apache.zookeeper.CreateMode;",
+      "artifact" : {
+        "artifact" : "org.apache.zookeeper:zookeeper:3.5.9",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.vertx:vertx-zookeeper:4.2.1/dependencies/org/apache/zookeeper/zookeeper/3.5.9/zookeeper-3.5.9.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.apache.curator.framework.api.CuratorEventType;",
+      "artifact" : {
+        "artifact" : "org.apache.curator:curator-framework:4.3.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.vertx:vertx-zookeeper:4.2.1/dependencies/org/apache/curator/curator-framework/4.3.0/curator-framework-4.3.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import java.util.*;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.apache.zookeeper.KeeperException;",
+      "artifact" : {
+        "artifact" : "org.apache.zookeeper:zookeeper:3.5.9",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.vertx:vertx-zookeeper:4.2.1/dependencies/org/apache/zookeeper/zookeeper/3.5.9/zookeeper-3.5.9.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import java.util.concurrent.Executors;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.apache.curator.retry.ExponentialBackoffRetry;",
+      "artifact" : {
+        "artifact" : "org.apache.curator:curator-client:4.3.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.vertx:vertx-zookeeper:4.2.1/dependencies/org/apache/curator/curator-client/4.3.0/curator-client-4.3.0.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.apache.curator.framework.CuratorFrameworkFactory;",
+      "artifact" : {
+        "artifact" : "org.apache.curator:curator-framework:4.3.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.vertx:vertx-zookeeper:4.2.1/dependencies/org/apache/curator/curator-framework/4.3.0/curator-framework-4.3.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.apache.curator.framework.imps.CuratorFrameworkState;",
+      "artifact" : {
+        "artifact" : "org.apache.curator:curator-framework:4.3.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.vertx:vertx-zookeeper:4.2.1/dependencies/org/apache/curator/curator-framework/4.3.0/curator-framework-4.3.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import io.vertx.core.spi.cluster.*;",
+      "artifact" : {
+        "artifact" : "io.vertx:vertx-core:4.2.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.vertx:vertx-zookeeper:4.2.1/dependencies/io/vertx/vertx-core/4.2.1/vertx-core-4.2.1-tests.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import io.vertx.core.spi.cluster.*;",
+      "artifact" : {
+        "artifact" : "io.vertx:vertx-core:4.2.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.vertx:vertx-zookeeper:4.2.1/dependencies/io/vertx/vertx-core/4.2.1/vertx-core-4.2.1.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.apache.curator.framework.recipes.cache.PathChildrenCacheEvent;",
+      "artifact" : {
+        "artifact" : "org.apache.curator:curator-recipes:4.3.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.vertx:vertx-zookeeper:4.2.1/dependencies/org/apache/curator/curator-recipes/4.3.0/curator-recipes-4.3.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import io.vertx.core.*;",
+      "artifact" : {
+        "artifact" : "io.vertx:vertx-core:4.2.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.vertx:vertx-zookeeper:4.2.1/dependencies/io/vertx/vertx-core/4.2.1/vertx-core-4.2.1-tests.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import io.vertx.core.*;",
+      "artifact" : {
+        "artifact" : "io.vertx:vertx-core:4.2.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.vertx:vertx-zookeeper:4.2.1/dependencies/io/vertx/vertx-core/4.2.1/vertx-core-4.2.1.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import java.util.*;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import io.vertx.core.*;",
+      "artifact" : {
+        "artifact" : "io.vertx:vertx-core:4.2.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.vertx:vertx-zookeeper:4.2.1/dependencies/io/vertx/vertx-core/4.2.1/vertx-core-4.2.1-tests.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import io.vertx.core.*;",
+      "artifact" : {
+        "artifact" : "io.vertx:vertx-core:4.2.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.vertx:vertx-zookeeper:4.2.1/dependencies/io/vertx/vertx-core/4.2.1/vertx-core-4.2.1.jar"
+      },
+      "isDirectDependency" : true
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/io.vertx:vertx-zookeeper/src/main/java/io/vertx/spi/cluster/zookeeper/package-info.java",
+    "useImportReport" : [ ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  } ],
+  "projectUseDependencies" : [ {
+    "artifact" : "io.vertx:vertx-core:4.2.1",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.vertx:vertx-zookeeper:4.2.1/dependencies/io/vertx/vertx-core/4.2.1/vertx-core-4.2.1.jar"
+  }, {
+    "artifact" : "org.apache.curator:curator-framework:4.3.0",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.vertx:vertx-zookeeper:4.2.1/dependencies/org/apache/curator/curator-framework/4.3.0/curator-framework-4.3.0.jar"
+  }, {
+    "artifact" : "io.vertx:vertx-docgen:0.9.4",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.vertx:vertx-zookeeper:4.2.1/dependencies/io/vertx/vertx-docgen/0.9.4/vertx-docgen-0.9.4.jar"
+  }, {
+    "artifact" : "org.apache.curator:curator-recipes:4.3.0",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.vertx:vertx-zookeeper:4.2.1/dependencies/org/apache/curator/curator-recipes/4.3.0/curator-recipes-4.3.0.jar"
+  }, {
+    "artifact" : "org.apache.zookeeper:zookeeper:3.5.9",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.vertx:vertx-zookeeper:4.2.1/dependencies/org/apache/zookeeper/zookeeper/3.5.9/zookeeper-3.5.9.jar"
+  } ],
+  "projectUseTransitiveDependencies" : [ {
+    "artifact" : "io.vertx:vertx-web:4.2.1",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.vertx:vertx-zookeeper:4.2.1/dependencies/io/vertx/vertx-web/4.2.1/vertx-web-4.2.1-tests.jar"
+  }, {
+    "artifact" : "io.vertx:vertx-web:4.2.1",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.vertx:vertx-zookeeper:4.2.1/dependencies/io/vertx/vertx-web/4.2.1/vertx-web-4.2.1.jar"
+  }, {
+    "artifact" : "io.vertx:vertx-codegen:4.2.1",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.vertx:vertx-zookeeper:4.2.1/dependencies/io/vertx/vertx-codegen/4.2.1/vertx-codegen-4.2.1.jar"
+  } ],
+  "projectUnusedDependencies" : [ {
+    "artifact" : "org.slf4j:slf4j-log4j12:1.7.25",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.vertx:vertx-zookeeper:4.2.1/dependencies/org/slf4j/slf4j-log4j12/1.7.25/slf4j-log4j12-1.7.25.jar"
+  }, {
+    "artifact" : "com.google.guava:guava:27.0.1-jre",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.vertx:vertx-zookeeper:4.2.1/dependencies/com/google/guava/guava/27.0.1-jre/guava-27.0.1-jre.jar"
+  }, {
+    "artifact" : "log4j:log4j:1.2.17",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.vertx:vertx-zookeeper:4.2.1/dependencies/log4j/log4j/1.2.17/log4j-1.2.17.jar"
+  }, {
+    "artifact" : "org.slf4j:slf4j-api:1.7.25",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.vertx:vertx-zookeeper:4.2.1/dependencies/org/slf4j/slf4j-api/1.7.25/slf4j-api-1.7.25.jar"
+  } ]
+}

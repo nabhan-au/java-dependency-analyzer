@@ -1,0 +1,1836 @@
+{
+  "projectArtifact" : "org.praxislive:praxiscore-video-pgl-code:5.7.0",
+  "repositoryDir" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/org.praxislive:praxiscore-video-pgl-code/praxiscore-video-pgl-code",
+  "repositorySubDir" : "",
+  "artifactLocation" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.praxislive:praxiscore-video-pgl-code:5.7.0",
+  "fileImportReports" : [ {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/org.praxislive:praxiscore-video-pgl-code/praxiscore-video-pgl-code/src/main/java/module-info.java",
+    "useImportReport" : [ ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/org.praxislive:praxiscore-video-pgl-code/praxiscore-video-pgl-code/src/main/java/org/praxislive/video/pgl/code/P3DCodeDelegate.java",
+    "useImportReport" : [ {
+      "importPath" : "import org.praxislive.code.DefaultCodeDelegate;",
+      "artifact" : {
+        "artifact" : "org.praxislive:praxiscore-code:5.7.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.praxislive:praxiscore-video-pgl-code:5.7.0/dependencies/org/praxislive/praxiscore-code/5.7.0/praxiscore-code-5.7.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.praxislive.video.pgl.code.userapi.PGraphics3D;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import processing.core.PApplet;",
+      "artifact" : {
+        "artifact" : "org.praxislive.libp5x:processing-core:0.353.0-beta-4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.praxislive:praxiscore-video-pgl-code:5.7.0/dependencies/org/praxislive/libp5x/processing-core/0.353.0-beta-4/processing-core-0.353.0-beta-4.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.Optional;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.praxislive.video.pgl.code.userapi.PShader;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.praxislive.video.pgl.code.userapi.Constants;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.praxislive.video.pgl.code.userapi.PImage;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.praxislive.video.pgl.code.userapi.PShape;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.praxislive.video.pgl.code.userapi.PFont;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ {
+      "importPath" : "processing.core.PImage.class",
+      "artifact" : {
+        "artifact" : "org.praxislive.libp5x:processing-core:0.353.0-beta-4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.praxislive:praxiscore-video-pgl-code:5.7.0/dependencies/org/praxislive/libp5x/processing-core/0.353.0-beta-4/processing-core-0.353.0-beta-4.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "processing.core.PImage",
+      "artifact" : {
+        "artifact" : "org.praxislive.libp5x:processing-core:0.353.0-beta-4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.praxislive:praxiscore-video-pgl-code:5.7.0/dependencies/org/praxislive/libp5x/processing-core/0.353.0-beta-4/processing-core-0.353.0-beta-4.jar"
+      },
+      "isDirectDependency" : false
+    } ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/org.praxislive:praxiscore-video-pgl-code/praxiscore-video-pgl-code/src/main/java/org/praxislive/video/pgl/code/AbstractProcessPipe.java",
+    "useImportReport" : [ {
+      "importPath" : "import org.praxislive.video.pipes.VideoPipe;",
+      "artifact" : {
+        "artifact" : "org.praxislive:praxiscore-video:5.7.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.praxislive:praxiscore-video-pgl-code:5.7.0/dependencies/org/praxislive/praxiscore-video/5.7.0/praxiscore-video-5.7.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import java.util.List;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.ArrayList;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.praxislive.video.render.Surface;",
+      "artifact" : {
+        "artifact" : "org.praxislive:praxiscore-video:5.7.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.praxislive:praxiscore-video-pgl-code:5.7.0/dependencies/org/praxislive/praxiscore-video/5.7.0/praxiscore-video-5.7.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.praxislive.video.pipes.SourceIsFullException;",
+      "artifact" : {
+        "artifact" : "org.praxislive:praxiscore-video:5.7.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.praxislive:praxiscore-video-pgl-code:5.7.0/dependencies/org/praxislive/praxiscore-video/5.7.0/praxiscore-video-5.7.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import java.util.Objects;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/org.praxislive:praxiscore-video-pgl-code/praxiscore-video-pgl-code/src/main/java/org/praxislive/video/pgl/code/PGLVideoInputPort.java",
+    "useImportReport" : [ {
+      "importPath" : "import org.praxislive.video.DefaultVideoInputPort;",
+      "artifact" : {
+        "artifact" : "org.praxislive:praxiscore-video:5.7.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.praxislive:praxiscore-video-pgl-code:5.7.0/dependencies/org/praxislive/praxiscore-video/5.7.0/praxiscore-video-5.7.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.praxislive.video.pipes.impl.Placeholder;",
+      "artifact" : {
+        "artifact" : "org.praxislive:praxiscore-video:5.7.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.praxislive:praxiscore-video-pgl-code:5.7.0/dependencies/org/praxislive/praxiscore-video/5.7.0/praxiscore-video-5.7.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.praxislive.video.pipes.VideoPipe;",
+      "artifact" : {
+        "artifact" : "org.praxislive:praxiscore-video:5.7.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.praxislive:praxiscore-video-pgl-code:5.7.0/dependencies/org/praxislive/praxiscore-video/5.7.0/praxiscore-video-5.7.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.praxislive.code.PortDescriptor;",
+      "artifact" : {
+        "artifact" : "org.praxislive:praxiscore-code:5.7.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.praxislive:praxiscore-video-pgl-code:5.7.0/dependencies/org/praxislive/praxiscore-code/5.7.0/praxiscore-code-5.7.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.praxislive.core.PortInfo;",
+      "artifact" : {
+        "artifact" : "org.praxislive:praxiscore-api:5.7.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.praxislive:praxiscore-video-pgl-code:5.7.0/dependencies/org/praxislive/praxiscore-api/5.7.0/praxiscore-api-5.7.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.praxislive.video.VideoPort;",
+      "artifact" : {
+        "artifact" : "org.praxislive:praxiscore-video:5.7.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.praxislive:praxiscore-video-pgl-code:5.7.0/dependencies/org/praxislive/praxiscore-video/5.7.0/praxiscore-video-5.7.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.praxislive.core.types.PMap;",
+      "artifact" : {
+        "artifact" : "org.praxislive:praxiscore-api:5.7.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.praxislive:praxiscore-video-pgl-code:5.7.0/dependencies/org/praxislive/praxiscore-api/5.7.0/praxiscore-api-5.7.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import java.lang.reflect.Field;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.praxislive.code.CodeContext;",
+      "artifact" : {
+        "artifact" : "org.praxislive:praxiscore-code:5.7.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.praxislive:praxiscore-video-pgl-code:5.7.0/dependencies/org/praxislive/praxiscore-code/5.7.0/praxiscore-code-5.7.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.praxislive.core.Port;",
+      "artifact" : {
+        "artifact" : "org.praxislive:praxiscore-api:5.7.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.praxislive:praxiscore-video-pgl-code:5.7.0/dependencies/org/praxislive/praxiscore-api/5.7.0/praxiscore-api-5.7.0.jar"
+      },
+      "isDirectDependency" : true
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/org.praxislive:praxiscore-video-pgl-code/praxiscore-video-pgl-code/src/main/java/org/praxislive/video/pgl/code/P2DCodeDelegate.java",
+    "useImportReport" : [ {
+      "importPath" : "import org.praxislive.code.DefaultCodeDelegate;",
+      "artifact" : {
+        "artifact" : "org.praxislive:praxiscore-code:5.7.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.praxislive:praxiscore-video-pgl-code:5.7.0/dependencies/org/praxislive/praxiscore-code/5.7.0/praxiscore-code-5.7.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.praxislive.video.pgl.code.userapi.PGraphics2D;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import processing.core.PApplet;",
+      "artifact" : {
+        "artifact" : "org.praxislive.libp5x:processing-core:0.353.0-beta-4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.praxislive:praxiscore-video-pgl-code:5.7.0/dependencies/org/praxislive/libp5x/processing-core/0.353.0-beta-4/processing-core-0.353.0-beta-4.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.Optional;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.praxislive.video.pgl.code.userapi.PShader;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.praxislive.video.pgl.code.userapi.Constants;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.praxislive.video.pgl.code.userapi.PImage;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.praxislive.video.pgl.code.userapi.PShape;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.praxislive.video.pgl.code.userapi.PFont;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ {
+      "importPath" : "processing.core.PImage.class",
+      "artifact" : {
+        "artifact" : "org.praxislive.libp5x:processing-core:0.353.0-beta-4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.praxislive:praxiscore-video-pgl-code:5.7.0/dependencies/org/praxislive/libp5x/processing-core/0.353.0-beta-4/processing-core-0.353.0-beta-4.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "processing.core.PImage",
+      "artifact" : {
+        "artifact" : "org.praxislive.libp5x:processing-core:0.353.0-beta-4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.praxislive:praxiscore-video-pgl-code:5.7.0/dependencies/org/praxislive/libp5x/processing-core/0.353.0-beta-4/processing-core-0.353.0-beta-4.jar"
+      },
+      "isDirectDependency" : false
+    } ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/org.praxislive:praxiscore-video-pgl-code/praxiscore-video-pgl-code/src/main/java/org/praxislive/video/pgl/code/PGLVideoOutputPort.java",
+    "useImportReport" : [ {
+      "importPath" : "import org.praxislive.video.DefaultVideoOutputPort;",
+      "artifact" : {
+        "artifact" : "org.praxislive:praxiscore-video:5.7.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.praxislive:praxiscore-video-pgl-code:5.7.0/dependencies/org/praxislive/praxiscore-video/5.7.0/praxiscore-video-5.7.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.praxislive.video.pipes.impl.Placeholder;",
+      "artifact" : {
+        "artifact" : "org.praxislive:praxiscore-video:5.7.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.praxislive:praxiscore-video-pgl-code:5.7.0/dependencies/org/praxislive/praxiscore-video/5.7.0/praxiscore-video-5.7.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.praxislive.video.pipes.VideoPipe;",
+      "artifact" : {
+        "artifact" : "org.praxislive:praxiscore-video:5.7.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.praxislive:praxiscore-video-pgl-code:5.7.0/dependencies/org/praxislive/praxiscore-video/5.7.0/praxiscore-video-5.7.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.praxislive.code.PortDescriptor;",
+      "artifact" : {
+        "artifact" : "org.praxislive:praxiscore-code:5.7.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.praxislive:praxiscore-video-pgl-code:5.7.0/dependencies/org/praxislive/praxiscore-code/5.7.0/praxiscore-code-5.7.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.praxislive.core.PortInfo;",
+      "artifact" : {
+        "artifact" : "org.praxislive:praxiscore-api:5.7.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.praxislive:praxiscore-video-pgl-code:5.7.0/dependencies/org/praxislive/praxiscore-api/5.7.0/praxiscore-api-5.7.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.praxislive.video.VideoPort;",
+      "artifact" : {
+        "artifact" : "org.praxislive:praxiscore-video:5.7.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.praxislive:praxiscore-video-pgl-code:5.7.0/dependencies/org/praxislive/praxiscore-video/5.7.0/praxiscore-video-5.7.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.praxislive.core.types.PMap;",
+      "artifact" : {
+        "artifact" : "org.praxislive:praxiscore-api:5.7.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.praxislive:praxiscore-video-pgl-code:5.7.0/dependencies/org/praxislive/praxiscore-api/5.7.0/praxiscore-api-5.7.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.praxislive.code.CodeContext;",
+      "artifact" : {
+        "artifact" : "org.praxislive:praxiscore-code:5.7.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.praxislive:praxiscore-video-pgl-code:5.7.0/dependencies/org/praxislive/praxiscore-code/5.7.0/praxiscore-code-5.7.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.praxislive.core.Port;",
+      "artifact" : {
+        "artifact" : "org.praxislive:praxiscore-api:5.7.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.praxislive:praxiscore-video-pgl-code:5.7.0/dependencies/org/praxislive/praxiscore-api/5.7.0/praxiscore-api-5.7.0.jar"
+      },
+      "isDirectDependency" : true
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/org.praxislive:praxiscore-video-pgl-code/praxiscore-video-pgl-code/src/main/java/org/praxislive/video/pgl/code/P2DClassBodyContext.java",
+    "useImportReport" : [ {
+      "importPath" : "import org.praxislive.code.ClassBodyContext;",
+      "artifact" : {
+        "artifact" : "org.praxislive:praxiscore-code:5.7.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.praxislive:praxiscore-video-pgl-code:5.7.0/dependencies/org/praxislive/praxiscore-code/5.7.0/praxiscore-code-5.7.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.praxislive.code.CodeUtils;",
+      "artifact" : {
+        "artifact" : "org.praxislive:praxiscore-code:5.7.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.praxislive:praxiscore-video-pgl-code:5.7.0/dependencies/org/praxislive/praxiscore-code/5.7.0/praxiscore-code-5.7.0.jar"
+      },
+      "isDirectDependency" : true
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/org.praxislive:praxiscore-video-pgl-code/praxiscore-video-pgl-code/src/main/java/org/praxislive/video/pgl/code/PShapeOBJ.java",
+    "useImportReport" : [ {
+      "importPath" : "import processing.core.PShape;",
+      "artifact" : {
+        "artifact" : "org.praxislive.libp5x:processing-core:0.353.0-beta-4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.praxislive:praxiscore-video-pgl-code:5.7.0/dependencies/org/praxislive/libp5x/processing-core/0.353.0-beta-4/processing-core-0.353.0-beta-4.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.net.URI;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.ArrayList;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import processing.core.PVector;",
+      "artifact" : {
+        "artifact" : "org.praxislive.libp5x:processing-core:0.353.0-beta-4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.praxislive:praxiscore-video-pgl-code:5.7.0/dependencies/org/praxislive/libp5x/processing-core/0.353.0-beta-4/processing-core-0.353.0-beta-4.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import processing.core.PGraphics;",
+      "artifact" : {
+        "artifact" : "org.praxislive.libp5x:processing-core:0.353.0-beta-4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.praxislive:praxiscore-video-pgl-code:5.7.0/dependencies/org/praxislive/libp5x/processing-core/0.353.0-beta-4/processing-core-0.353.0-beta-4.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import processing.core.PApplet;",
+      "artifact" : {
+        "artifact" : "org.praxislive.libp5x:processing-core:0.353.0-beta-4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.praxislive:praxiscore-video-pgl-code:5.7.0/dependencies/org/praxislive/libp5x/processing-core/0.353.0-beta-4/processing-core-0.353.0-beta-4.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.Map;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.HashMap;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.io.BufferedReader;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.io.InputStreamReader;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import processing.core.PImage;",
+      "artifact" : {
+        "artifact" : "org.praxislive.libp5x:processing-core:0.353.0-beta-4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.praxislive:praxiscore-video-pgl-code:5.7.0/dependencies/org/praxislive/libp5x/processing-core/0.353.0-beta-4/processing-core-0.353.0-beta-4.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.awt.Image;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import javax.imageio.ImageIO;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.io.File;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/org.praxislive:praxiscore-video-pgl-code/praxiscore-video-pgl-code/src/main/java/org/praxislive/video/pgl/code/PGLCustomFactoryProvider.java",
+    "useImportReport" : [ {
+      "importPath" : "import org.praxislive.core.services.ComponentFactoryProvider;",
+      "artifact" : {
+        "artifact" : "org.praxislive:praxiscore-api:5.7.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.praxislive:praxiscore-video-pgl-code:5.7.0/dependencies/org/praxislive/praxiscore-api/5.7.0/praxiscore-api-5.7.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.praxislive.core.services.ComponentFactory;",
+      "artifact" : {
+        "artifact" : "org.praxislive:praxiscore-api:5.7.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.praxislive:praxiscore-video-pgl-code:5.7.0/dependencies/org/praxislive/praxiscore-api/5.7.0/praxiscore-api-5.7.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.praxislive.code.AbstractComponentFactory;",
+      "artifact" : {
+        "artifact" : "org.praxislive:praxiscore-code:5.7.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.praxislive:praxiscore-video-pgl-code:5.7.0/dependencies/org/praxislive/praxiscore-code/5.7.0/praxiscore-code-5.7.0.jar"
+      },
+      "isDirectDependency" : true
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/org.praxislive:praxiscore-video-pgl-code/praxiscore-video-pgl-code/src/main/java/org/praxislive/video/pgl/code/ShapeLoader.java",
+    "useImportReport" : [ {
+      "importPath" : "import org.praxislive.code.ResourceProperty;",
+      "artifact" : {
+        "artifact" : "org.praxislive:praxiscore-code:5.7.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.praxislive:praxiscore-video-pgl-code:5.7.0/dependencies/org/praxislive/praxiscore-code/5.7.0/praxiscore-code-5.7.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.praxislive.video.pgl.code.userapi.PShape;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.net.URI;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.io.IOException;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.io.InputStream;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import processing.data.XML;",
+      "artifact" : {
+        "artifact" : "org.praxislive.libp5x:processing-core:0.353.0-beta-4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.praxislive:praxiscore-video-pgl-code:5.7.0/dependencies/org/praxislive/libp5x/processing-core/0.353.0-beta-4/processing-core-0.353.0-beta-4.jar"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ {
+      "importPath" : "processing.core.PShape",
+      "artifact" : {
+        "artifact" : "org.praxislive.libp5x:processing-core:0.353.0-beta-4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.praxislive:praxiscore-video-pgl-code:5.7.0/dependencies/org/praxislive/libp5x/processing-core/0.353.0-beta-4/processing-core-0.353.0-beta-4.jar"
+      },
+      "isDirectDependency" : false
+    } ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/org.praxislive:praxiscore-video-pgl-code/praxiscore-video-pgl-code/src/main/java/org/praxislive/video/pgl/code/P2DCodeConnector.java",
+    "useImportReport" : [ {
+      "importPath" : "import org.praxislive.code.CodeConnector;",
+      "artifact" : {
+        "artifact" : "org.praxislive:praxiscore-code:5.7.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.praxislive:praxiscore-video-pgl-code:5.7.0/dependencies/org/praxislive/praxiscore-code/5.7.0/praxiscore-code-5.7.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import java.util.Map;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.praxislive.code.CodeFactory;",
+      "artifact" : {
+        "artifact" : "org.praxislive:praxiscore-code:5.7.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.praxislive:praxiscore-video-pgl-code:5.7.0/dependencies/org/praxislive/praxiscore-code/5.7.0/praxiscore-code-5.7.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import java.util.LinkedHashMap;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.Collections;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.praxislive.core.Port;",
+      "artifact" : {
+        "artifact" : "org.praxislive:praxiscore-api:5.7.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.praxislive:praxiscore-video-pgl-code:5.7.0/dependencies/org/praxislive/praxiscore-api/5.7.0/praxiscore-api-5.7.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import java.lang.reflect.Field;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.praxislive.code.userapi.In;",
+      "artifact" : {
+        "artifact" : "org.praxislive:praxiscore-code:5.7.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.praxislive:praxiscore-video-pgl-code:5.7.0/dependencies/org/praxislive/praxiscore-code/5.7.0/praxiscore-code-5.7.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.praxislive.video.pgl.code.userapi.PImage;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.praxislive.code.userapi.P;",
+      "artifact" : {
+        "artifact" : "org.praxislive:praxiscore-code:5.7.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.praxislive:praxiscore-video-pgl-code:5.7.0/dependencies/org/praxislive/praxiscore-code/5.7.0/praxiscore-code-5.7.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.praxislive.code.ResourceProperty;",
+      "artifact" : {
+        "artifact" : "org.praxislive:praxiscore-code:5.7.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.praxislive:praxiscore-video-pgl-code:5.7.0/dependencies/org/praxislive/praxiscore-code/5.7.0/praxiscore-code-5.7.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.praxislive.video.pgl.code.userapi.PFont;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.praxislive.video.pgl.code.userapi.PShape;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.praxislive.video.pgl.code.userapi.OffScreen;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.praxislive.core.services.LogLevel;",
+      "artifact" : {
+        "artifact" : "org.praxislive:praxiscore-api:5.7.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.praxislive:praxiscore-video-pgl-code:5.7.0/dependencies/org/praxislive/praxiscore-api/5.7.0/praxiscore-api-5.7.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import java.lang.reflect.Method;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/org.praxislive:praxiscore-video-pgl-code/praxiscore-video-pgl-code/src/main/java/org/praxislive/video/pgl/code/P3DCodeContext.java",
+    "useImportReport" : [ {
+      "importPath" : "import org.praxislive.code.CodeContext;",
+      "artifact" : {
+        "artifact" : "org.praxislive:praxiscore-code:5.7.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.praxislive:praxiscore-video-pgl-code:5.7.0/dependencies/org/praxislive/praxiscore-code/5.7.0/praxiscore-code-5.7.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import java.util.Map;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.List;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.ArrayList;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.praxislive.code.PortDescriptor;",
+      "artifact" : {
+        "artifact" : "org.praxislive:praxiscore-code:5.7.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.praxislive:praxiscore-video-pgl-code:5.7.0/dependencies/org/praxislive/praxiscore-code/5.7.0/praxiscore-code-5.7.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.praxislive.code.CodeComponent;",
+      "artifact" : {
+        "artifact" : "org.praxislive:praxiscore-code:5.7.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.praxislive:praxiscore-video-pgl-code:5.7.0/dependencies/org/praxislive/praxiscore-code/5.7.0/praxiscore-code-5.7.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import java.util.Collections;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.praxislive.core.ExecutionContext;",
+      "artifact" : {
+        "artifact" : "org.praxislive:praxiscore-api:5.7.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.praxislive:praxiscore-video-pgl-code:5.7.0/dependencies/org/praxislive/praxiscore-api/5.7.0/praxiscore-api-5.7.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.praxislive.core.services.LogLevel;",
+      "artifact" : {
+        "artifact" : "org.praxislive:praxiscore-api:5.7.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.praxislive:praxiscore-video-pgl-code:5.7.0/dependencies/org/praxislive/praxiscore-api/5.7.0/praxiscore-api-5.7.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.praxislive.video.pgl.PGLContext;",
+      "artifact" : {
+        "artifact" : "org.praxislive:praxiscore-video-pgl:5.7.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.praxislive:praxiscore-video-pgl-code:5.7.0/dependencies/org/praxislive/praxiscore-video-pgl/5.7.0/praxiscore-video-pgl-5.7.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.praxislive.video.pgl.PGLGraphics3D;",
+      "artifact" : {
+        "artifact" : "org.praxislive:praxiscore-video-pgl:5.7.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.praxislive:praxiscore-video-pgl-code:5.7.0/dependencies/org/praxislive/praxiscore-video-pgl/5.7.0/praxiscore-video-pgl-5.7.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.praxislive.video.render.Surface;",
+      "artifact" : {
+        "artifact" : "org.praxislive:praxiscore-video:5.7.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.praxislive:praxiscore-video-pgl-code:5.7.0/dependencies/org/praxislive/praxiscore-video/5.7.0/praxiscore-video-5.7.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.praxislive.video.pgl.PGLSurface;",
+      "artifact" : {
+        "artifact" : "org.praxislive:praxiscore-video-pgl:5.7.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.praxislive:praxiscore-video-pgl-code:5.7.0/dependencies/org/praxislive/praxiscore-video-pgl/5.7.0/praxiscore-video-pgl-5.7.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.praxislive.video.pgl.PGLGraphics;",
+      "artifact" : {
+        "artifact" : "org.praxislive:praxiscore-video-pgl:5.7.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.praxislive:praxiscore-video-pgl-code:5.7.0/dependencies/org/praxislive/praxiscore-video-pgl/5.7.0/praxiscore-video-pgl-5.7.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import processing.core.PConstants;",
+      "artifact" : {
+        "artifact" : "org.praxislive.libp5x:processing-core:0.353.0-beta-4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.praxislive:praxiscore-video-pgl-code:5.7.0/dependencies/org/praxislive/libp5x/processing-core/0.353.0-beta-4/processing-core-0.353.0-beta-4.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.lang.reflect.Field;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.praxislive.video.pgl.code.userapi.PImage;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.praxislive.video.pgl.code.userapi.PGraphics3D;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.Optional;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ {
+      "importPath" : "processing.core.PImage",
+      "artifact" : {
+        "artifact" : "org.praxislive.libp5x:processing-core:0.353.0-beta-4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.praxislive:praxiscore-video-pgl-code:5.7.0/dependencies/org/praxislive/libp5x/processing-core/0.353.0-beta-4/processing-core-0.353.0-beta-4.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "processing.core.PImage.class",
+      "artifact" : {
+        "artifact" : "org.praxislive.libp5x:processing-core:0.353.0-beta-4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.praxislive:praxiscore-video-pgl-code:5.7.0/dependencies/org/praxislive/libp5x/processing-core/0.353.0-beta-4/processing-core-0.353.0-beta-4.jar"
+      },
+      "isDirectDependency" : false
+    } ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/org.praxislive:praxiscore-video-pgl-code/praxiscore-video-pgl-code/src/main/java/org/praxislive/video/pgl/code/P3DCodeConnector.java",
+    "useImportReport" : [ {
+      "importPath" : "import org.praxislive.code.CodeConnector;",
+      "artifact" : {
+        "artifact" : "org.praxislive:praxiscore-code:5.7.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.praxislive:praxiscore-video-pgl-code:5.7.0/dependencies/org/praxislive/praxiscore-code/5.7.0/praxiscore-code-5.7.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import java.util.Map;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.praxislive.code.CodeFactory;",
+      "artifact" : {
+        "artifact" : "org.praxislive:praxiscore-code:5.7.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.praxislive:praxiscore-video-pgl-code:5.7.0/dependencies/org/praxislive/praxiscore-code/5.7.0/praxiscore-code-5.7.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import java.util.LinkedHashMap;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.Collections;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.praxislive.core.Port;",
+      "artifact" : {
+        "artifact" : "org.praxislive:praxiscore-api:5.7.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.praxislive:praxiscore-video-pgl-code:5.7.0/dependencies/org/praxislive/praxiscore-api/5.7.0/praxiscore-api-5.7.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import java.lang.reflect.Field;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.praxislive.code.userapi.In;",
+      "artifact" : {
+        "artifact" : "org.praxislive:praxiscore-code:5.7.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.praxislive:praxiscore-video-pgl-code:5.7.0/dependencies/org/praxislive/praxiscore-code/5.7.0/praxiscore-code-5.7.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.praxislive.video.pgl.code.userapi.PImage;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.praxislive.code.userapi.P;",
+      "artifact" : {
+        "artifact" : "org.praxislive:praxiscore-code:5.7.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.praxislive:praxiscore-video-pgl-code:5.7.0/dependencies/org/praxislive/praxiscore-code/5.7.0/praxiscore-code-5.7.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.praxislive.code.ResourceProperty;",
+      "artifact" : {
+        "artifact" : "org.praxislive:praxiscore-code:5.7.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.praxislive:praxiscore-video-pgl-code:5.7.0/dependencies/org/praxislive/praxiscore-code/5.7.0/praxiscore-code-5.7.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.praxislive.video.pgl.code.userapi.PFont;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.praxislive.video.pgl.code.userapi.PShape;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.praxislive.video.pgl.code.userapi.OffScreen;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.praxislive.core.services.LogLevel;",
+      "artifact" : {
+        "artifact" : "org.praxislive:praxiscore-api:5.7.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.praxislive:praxiscore-video-pgl-code:5.7.0/dependencies/org/praxislive/praxiscore-api/5.7.0/praxiscore-api-5.7.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import java.lang.reflect.Method;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/org.praxislive:praxiscore-video-pgl-code/praxiscore-video-pgl-code/src/main/java/org/praxislive/video/pgl/code/P3DClassBodyContext.java",
+    "useImportReport" : [ {
+      "importPath" : "import org.praxislive.code.ClassBodyContext;",
+      "artifact" : {
+        "artifact" : "org.praxislive:praxiscore-code:5.7.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.praxislive:praxiscore-video-pgl-code:5.7.0/dependencies/org/praxislive/praxiscore-code/5.7.0/praxiscore-code-5.7.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.praxislive.code.CodeUtils;",
+      "artifact" : {
+        "artifact" : "org.praxislive:praxiscore-code:5.7.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.praxislive:praxiscore-video-pgl-code:5.7.0/dependencies/org/praxislive/praxiscore-code/5.7.0/praxiscore-code-5.7.0.jar"
+      },
+      "isDirectDependency" : true
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/org.praxislive:praxiscore-video-pgl-code/praxiscore-video-pgl-code/src/main/java/org/praxislive/video/pgl/code/P2DOffScreenGraphicsInfo.java",
+    "useImportReport" : [ {
+      "importPath" : "import java.lang.reflect.Field;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.praxislive.video.pgl.PGLSurface;",
+      "artifact" : {
+        "artifact" : "org.praxislive:praxiscore-video-pgl:5.7.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.praxislive:praxiscore-video-pgl-code:5.7.0/dependencies/org/praxislive/praxiscore-video-pgl/5.7.0/praxiscore-video-pgl-5.7.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.praxislive.video.pgl.PGLGraphics;",
+      "artifact" : {
+        "artifact" : "org.praxislive:praxiscore-video-pgl:5.7.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.praxislive:praxiscore-video-pgl-code:5.7.0/dependencies/org/praxislive/praxiscore-video-pgl/5.7.0/praxiscore-video-pgl-5.7.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.praxislive.core.services.LogLevel;",
+      "artifact" : {
+        "artifact" : "org.praxislive:praxiscore-api:5.7.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.praxislive:praxiscore-video-pgl-code:5.7.0/dependencies/org/praxislive/praxiscore-api/5.7.0/praxiscore-api-5.7.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.praxislive.video.render.Surface;",
+      "artifact" : {
+        "artifact" : "org.praxislive:praxiscore-video:5.7.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.praxislive:praxiscore-video-pgl-code:5.7.0/dependencies/org/praxislive/praxiscore-video/5.7.0/praxiscore-video-5.7.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.praxislive.video.pgl.code.userapi.OffScreen;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.praxislive.video.pgl.code.userapi.PGraphics2D;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import processing.core.PStyle;",
+      "artifact" : {
+        "artifact" : "org.praxislive.libp5x:processing-core:0.353.0-beta-4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.praxislive:praxiscore-video-pgl-code:5.7.0/dependencies/org/praxislive/libp5x/processing-core/0.353.0-beta-4/processing-core-0.353.0-beta-4.jar"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/org.praxislive:praxiscore-video-pgl-code/praxiscore-video-pgl-code/src/main/java/org/praxislive/video/pgl/code/P3DCodeFactory.java",
+    "useImportReport" : [ {
+      "importPath" : "import org.praxislive.code.CodeFactory;",
+      "artifact" : {
+        "artifact" : "org.praxislive:praxiscore-code:5.7.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.praxislive:praxiscore-video-pgl-code:5.7.0/dependencies/org/praxislive/praxiscore-code/5.7.0/praxiscore-code-5.7.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.praxislive.core.ComponentType;",
+      "artifact" : {
+        "artifact" : "org.praxislive:praxiscore-api:5.7.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.praxislive:praxiscore-video-pgl-code:5.7.0/dependencies/org/praxislive/praxiscore-api/5.7.0/praxiscore-api-5.7.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.praxislive.code.CodeContext;",
+      "artifact" : {
+        "artifact" : "org.praxislive:praxiscore-code:5.7.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.praxislive:praxiscore-video-pgl-code:5.7.0/dependencies/org/praxislive/praxiscore-code/5.7.0/praxiscore-code-5.7.0.jar"
+      },
+      "isDirectDependency" : true
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/org.praxislive:praxiscore-video-pgl-code/praxiscore-video-pgl-code/src/main/java/org/praxislive/video/pgl/code/PShapeSVG.java",
+    "useImportReport" : [ {
+      "importPath" : "import processing.core.PShape;",
+      "artifact" : {
+        "artifact" : "org.praxislive.libp5x:processing-core:0.353.0-beta-4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.praxislive:praxiscore-video-pgl-code:5.7.0/dependencies/org/praxislive/libp5x/processing-core/0.353.0-beta-4/processing-core-0.353.0-beta-4.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import processing.data.*;",
+      "artifact" : {
+        "artifact" : "org.praxislive.libp5x:processing-core:0.353.0-beta-4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.praxislive:praxiscore-video-pgl-code:5.7.0/dependencies/org/praxislive/libp5x/processing-core/0.353.0-beta-4/processing-core-0.353.0-beta-4.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import processing.core.PApplet;",
+      "artifact" : {
+        "artifact" : "org.praxislive.libp5x:processing-core:0.353.0-beta-4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.praxislive:praxiscore-video-pgl-code:5.7.0/dependencies/org/praxislive/libp5x/processing-core/0.353.0-beta-4/processing-core-0.353.0-beta-4.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import processing.core.PMatrix2D;",
+      "artifact" : {
+        "artifact" : "org.praxislive.libp5x:processing-core:0.353.0-beta-4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.praxislive:praxiscore-video-pgl-code:5.7.0/dependencies/org/praxislive/libp5x/processing-core/0.353.0-beta-4/processing-core-0.353.0-beta-4.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import processing.core.PConstants;",
+      "artifact" : {
+        "artifact" : "org.praxislive.libp5x:processing-core:0.353.0-beta-4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.praxislive:praxiscore-video-pgl-code:5.7.0/dependencies/org/praxislive/libp5x/processing-core/0.353.0-beta-4/processing-core-0.353.0-beta-4.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import processing.data.*;",
+      "artifact" : {
+        "artifact" : "org.praxislive.libp5x:processing-core:0.353.0-beta-4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.praxislive:praxiscore-video-pgl-code:5.7.0/dependencies/org/praxislive/libp5x/processing-core/0.353.0-beta-4/processing-core-0.353.0-beta-4.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import processing.data.*;",
+      "artifact" : {
+        "artifact" : "org.praxislive.libp5x:processing-core:0.353.0-beta-4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.praxislive:praxiscore-video-pgl-code:5.7.0/dependencies/org/praxislive/libp5x/processing-core/0.353.0-beta-4/processing-core-0.353.0-beta-4.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.awt.geom.Point2D;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.Map;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.HashMap;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import processing.core.PGraphics;",
+      "artifact" : {
+        "artifact" : "org.praxislive.libp5x:processing-core:0.353.0-beta-4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.praxislive:praxiscore-video-pgl-code:5.7.0/dependencies/org/praxislive/libp5x/processing-core/0.353.0-beta-4/processing-core-0.353.0-beta-4.jar"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ {
+      "importPath" : "// TODO replace these with PMatrix2D\nimport java.awt.geom.AffineTransform;"
+    } ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/org.praxislive:praxiscore-video-pgl-code/praxiscore-video-pgl-code/src/main/java/org/praxislive/video/pgl/code/P2DCodeContext.java",
+    "useImportReport" : [ {
+      "importPath" : "import org.praxislive.code.CodeContext;",
+      "artifact" : {
+        "artifact" : "org.praxislive:praxiscore-code:5.7.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.praxislive:praxiscore-video-pgl-code:5.7.0/dependencies/org/praxislive/praxiscore-code/5.7.0/praxiscore-code-5.7.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import java.util.Map;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.List;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.ArrayList;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.praxislive.code.PortDescriptor;",
+      "artifact" : {
+        "artifact" : "org.praxislive:praxiscore-code:5.7.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.praxislive:praxiscore-video-pgl-code:5.7.0/dependencies/org/praxislive/praxiscore-code/5.7.0/praxiscore-code-5.7.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.praxislive.code.CodeComponent;",
+      "artifact" : {
+        "artifact" : "org.praxislive:praxiscore-code:5.7.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.praxislive:praxiscore-video-pgl-code:5.7.0/dependencies/org/praxislive/praxiscore-code/5.7.0/praxiscore-code-5.7.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import java.util.Collections;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.praxislive.core.ExecutionContext;",
+      "artifact" : {
+        "artifact" : "org.praxislive:praxiscore-api:5.7.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.praxislive:praxiscore-video-pgl-code:5.7.0/dependencies/org/praxislive/praxiscore-api/5.7.0/praxiscore-api-5.7.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.praxislive.core.services.LogLevel;",
+      "artifact" : {
+        "artifact" : "org.praxislive:praxiscore-api:5.7.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.praxislive:praxiscore-video-pgl-code:5.7.0/dependencies/org/praxislive/praxiscore-api/5.7.0/praxiscore-api-5.7.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.praxislive.video.render.Surface;",
+      "artifact" : {
+        "artifact" : "org.praxislive:praxiscore-video:5.7.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.praxislive:praxiscore-video-pgl-code:5.7.0/dependencies/org/praxislive/praxiscore-video/5.7.0/praxiscore-video-5.7.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.praxislive.video.pgl.PGLSurface;",
+      "artifact" : {
+        "artifact" : "org.praxislive:praxiscore-video-pgl:5.7.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.praxislive:praxiscore-video-pgl-code:5.7.0/dependencies/org/praxislive/praxiscore-video-pgl/5.7.0/praxiscore-video-pgl-5.7.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.praxislive.video.pgl.PGLGraphics;",
+      "artifact" : {
+        "artifact" : "org.praxislive:praxiscore-video-pgl:5.7.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.praxislive:praxiscore-video-pgl-code:5.7.0/dependencies/org/praxislive/praxiscore-video-pgl/5.7.0/praxiscore-video-pgl-5.7.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import java.lang.reflect.Field;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.praxislive.video.pgl.code.userapi.PImage;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.praxislive.video.pgl.code.userapi.PGraphics2D;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import processing.core.PStyle;",
+      "artifact" : {
+        "artifact" : "org.praxislive.libp5x:processing-core:0.353.0-beta-4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.praxislive:praxiscore-video-pgl-code:5.7.0/dependencies/org/praxislive/libp5x/processing-core/0.353.0-beta-4/processing-core-0.353.0-beta-4.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.praxislive.video.pgl.PGLContext;",
+      "artifact" : {
+        "artifact" : "org.praxislive:praxiscore-video-pgl:5.7.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.praxislive:praxiscore-video-pgl-code:5.7.0/dependencies/org/praxislive/praxiscore-video-pgl/5.7.0/praxiscore-video-pgl-5.7.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import java.util.Optional;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ {
+      "importPath" : "processing.core.PImage",
+      "artifact" : {
+        "artifact" : "org.praxislive.libp5x:processing-core:0.353.0-beta-4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.praxislive:praxiscore-video-pgl-code:5.7.0/dependencies/org/praxislive/libp5x/processing-core/0.353.0-beta-4/processing-core-0.353.0-beta-4.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "processing.core.PImage.class",
+      "artifact" : {
+        "artifact" : "org.praxislive.libp5x:processing-core:0.353.0-beta-4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.praxislive:praxiscore-video-pgl-code:5.7.0/dependencies/org/praxislive/libp5x/processing-core/0.353.0-beta-4/processing-core-0.353.0-beta-4.jar"
+      },
+      "isDirectDependency" : false
+    } ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/org.praxislive:praxiscore-video-pgl-code/praxiscore-video-pgl-code/src/main/java/org/praxislive/video/pgl/code/userapi/ShaderConstants.java",
+    "useImportReport" : [ ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/org.praxislive:praxiscore-video-pgl-code/praxiscore-video-pgl-code/src/main/java/org/praxislive/video/pgl/code/userapi/PFont.java",
+    "useImportReport" : [ {
+      "importPath" : "import org.praxislive.video.pgl.PGLContext;",
+      "artifact" : {
+        "artifact" : "org.praxislive:praxiscore-video-pgl:5.7.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.praxislive:praxiscore-video-pgl-code:5.7.0/dependencies/org/praxislive/praxiscore-video-pgl/5.7.0/praxiscore-video-pgl-5.7.0.jar"
+      },
+      "isDirectDependency" : true
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ {
+      "importPath" : "processing.core.PFont",
+      "artifact" : {
+        "artifact" : "org.praxislive.libp5x:processing-core:0.353.0-beta-4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.praxislive:praxiscore-video-pgl-code:5.7.0/dependencies/org/praxislive/libp5x/processing-core/0.353.0-beta-4/processing-core-0.353.0-beta-4.jar"
+      },
+      "isDirectDependency" : false
+    } ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/org.praxislive:praxiscore-video-pgl-code/praxiscore-video-pgl-code/src/main/java/org/praxislive/video/pgl/code/userapi/OffScreen.java",
+    "useImportReport" : [ {
+      "importPath" : "import java.lang.annotation.Retention;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.lang.annotation.RetentionPolicy;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/org.praxislive:praxiscore-video-pgl-code/praxiscore-video-pgl-code/src/main/java/org/praxislive/video/pgl/code/userapi/PImage.java",
+    "useImportReport" : [ {
+      "importPath" : "import java.util.Optional;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.praxislive.video.pgl.PGLContext;",
+      "artifact" : {
+        "artifact" : "org.praxislive:praxiscore-video-pgl:5.7.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.praxislive:praxiscore-video-pgl-code:5.7.0/dependencies/org/praxislive/praxiscore-video-pgl/5.7.0/praxiscore-video-pgl-5.7.0.jar"
+      },
+      "isDirectDependency" : true
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ {
+      "importPath" : "processing.core.PImage",
+      "artifact" : {
+        "artifact" : "org.praxislive.libp5x:processing-core:0.353.0-beta-4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.praxislive:praxiscore-video-pgl-code:5.7.0/dependencies/org/praxislive/libp5x/processing-core/0.353.0-beta-4/processing-core-0.353.0-beta-4.jar"
+      },
+      "isDirectDependency" : false
+    } ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/org.praxislive:praxiscore-video-pgl-code/praxiscore-video-pgl-code/src/main/java/org/praxislive/video/pgl/code/userapi/PShader.java",
+    "useImportReport" : [ {
+      "importPath" : "import org.praxislive.video.pgl.PGLContext;",
+      "artifact" : {
+        "artifact" : "org.praxislive:praxiscore-video-pgl:5.7.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.praxislive:praxiscore-video-pgl-code:5.7.0/dependencies/org/praxislive/praxiscore-video-pgl/5.7.0/praxiscore-video-pgl-5.7.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import java.util.Optional;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ {
+      "importPath" : "processing.opengl.PShader",
+      "artifact" : {
+        "artifact" : "org.praxislive.libp5x:processing-core:0.353.0-beta-4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.praxislive:praxiscore-video-pgl-code:5.7.0/dependencies/org/praxislive/libp5x/processing-core/0.353.0-beta-4/processing-core-0.353.0-beta-4.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "processing.opengl.PShader.class",
+      "artifact" : {
+        "artifact" : "org.praxislive.libp5x:processing-core:0.353.0-beta-4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.praxislive:praxiscore-video-pgl-code:5.7.0/dependencies/org/praxislive/libp5x/processing-core/0.353.0-beta-4/processing-core-0.353.0-beta-4.jar"
+      },
+      "isDirectDependency" : false
+    } ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/org.praxislive:praxiscore-video-pgl-code/praxiscore-video-pgl-code/src/main/java/org/praxislive/video/pgl/code/userapi/PShape.java",
+    "useImportReport" : [ {
+      "importPath" : "import org.praxislive.video.pgl.PGLContext;",
+      "artifact" : {
+        "artifact" : "org.praxislive:praxiscore-video-pgl:5.7.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.praxislive:praxiscore-video-pgl-code:5.7.0/dependencies/org/praxislive/praxiscore-video-pgl/5.7.0/praxiscore-video-pgl-5.7.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import java.util.Optional;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.praxislive.code.userapi.PVector;",
+      "artifact" : {
+        "artifact" : "org.praxislive:praxiscore-code:5.7.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.praxislive:praxiscore-video-pgl-code:5.7.0/dependencies/org/praxislive/praxiscore-code/5.7.0/praxiscore-code-5.7.0.jar"
+      },
+      "isDirectDependency" : true
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ {
+      "importPath" : "processing.core.PShape",
+      "artifact" : {
+        "artifact" : "org.praxislive.libp5x:processing-core:0.353.0-beta-4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.praxislive:praxiscore-video-pgl-code:5.7.0/dependencies/org/praxislive/libp5x/processing-core/0.353.0-beta-4/processing-core-0.353.0-beta-4.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "processing.core.PShape.class",
+      "artifact" : {
+        "artifact" : "org.praxislive.libp5x:processing-core:0.353.0-beta-4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.praxislive:praxiscore-video-pgl-code:5.7.0/dependencies/org/praxislive/libp5x/processing-core/0.353.0-beta-4/processing-core-0.353.0-beta-4.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "processing.core.PVector",
+      "artifact" : {
+        "artifact" : "org.praxislive.libp5x:processing-core:0.353.0-beta-4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.praxislive:praxiscore-video-pgl-code:5.7.0/dependencies/org/praxislive/libp5x/processing-core/0.353.0-beta-4/processing-core-0.353.0-beta-4.jar"
+      },
+      "isDirectDependency" : false
+    } ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/org.praxislive:praxiscore-video-pgl-code/praxiscore-video-pgl-code/src/main/java/org/praxislive/video/pgl/code/userapi/PGraphics3D.java",
+    "useImportReport" : [ {
+      "importPath" : "import org.praxislive.video.pgl.PGLGraphics3D;",
+      "artifact" : {
+        "artifact" : "org.praxislive:praxiscore-video-pgl:5.7.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.praxislive:praxiscore-video-pgl-code:5.7.0/dependencies/org/praxislive/praxiscore-video-pgl/5.7.0/praxiscore-video-pgl-5.7.0.jar"
+      },
+      "isDirectDependency" : true
+    } ],
+    "unusedImportReport" : [ {
+      "importPath" : "import processing.core.PConstants;",
+      "artifact" : {
+        "artifact" : "org.praxislive.libp5x:processing-core:0.353.0-beta-4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.praxislive:praxiscore-video-pgl-code:5.7.0/dependencies/org/praxislive/libp5x/processing-core/0.353.0-beta-4/processing-core-0.353.0-beta-4.jar"
+      },
+      "isDirectDependency" : false
+    } ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/org.praxislive:praxiscore-video-pgl-code/praxiscore-video-pgl-code/src/main/java/org/praxislive/video/pgl/code/userapi/PGraphics.java",
+    "useImportReport" : [ {
+      "importPath" : "import org.praxislive.video.pgl.PGLContext;",
+      "artifact" : {
+        "artifact" : "org.praxislive:praxiscore-video-pgl:5.7.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.praxislive:praxiscore-video-pgl-code:5.7.0/dependencies/org/praxislive/praxiscore-video-pgl/5.7.0/praxiscore-video-pgl-5.7.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import java.util.Optional;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.praxislive.video.pgl.PGLShader;",
+      "artifact" : {
+        "artifact" : "org.praxislive:praxiscore-video-pgl:5.7.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.praxislive:praxiscore-video-pgl-code:5.7.0/dependencies/org/praxislive/praxiscore-video-pgl/5.7.0/praxiscore-video-pgl-5.7.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.praxislive.video.pgl.PGLGraphics;",
+      "artifact" : {
+        "artifact" : "org.praxislive:praxiscore-video-pgl:5.7.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.praxislive:praxiscore-video-pgl-code:5.7.0/dependencies/org/praxislive/praxiscore-video-pgl/5.7.0/praxiscore-video-pgl-5.7.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import processing.core.PConstants;",
+      "artifact" : {
+        "artifact" : "org.praxislive.libp5x:processing-core:0.353.0-beta-4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.praxislive:praxiscore-video-pgl-code:5.7.0/dependencies/org/praxislive/libp5x/processing-core/0.353.0-beta-4/processing-core-0.353.0-beta-4.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import processing.opengl.PShapeOpenGL;",
+      "artifact" : {
+        "artifact" : "org.praxislive.libp5x:processing-core:0.353.0-beta-4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.praxislive:praxiscore-video-pgl-code:5.7.0/dependencies/org/praxislive/libp5x/processing-core/0.353.0-beta-4/processing-core-0.353.0-beta-4.jar"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ {
+      "importPath" : "processing.core.PGraphics",
+      "artifact" : {
+        "artifact" : "org.praxislive.libp5x:processing-core:0.353.0-beta-4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.praxislive:praxiscore-video-pgl-code:5.7.0/dependencies/org/praxislive/libp5x/processing-core/0.353.0-beta-4/processing-core-0.353.0-beta-4.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "processing.core.PImage",
+      "artifact" : {
+        "artifact" : "org.praxislive.libp5x:processing-core:0.353.0-beta-4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.praxislive:praxiscore-video-pgl-code:5.7.0/dependencies/org/praxislive/libp5x/processing-core/0.353.0-beta-4/processing-core-0.353.0-beta-4.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "processing.core.PImage.class",
+      "artifact" : {
+        "artifact" : "org.praxislive.libp5x:processing-core:0.353.0-beta-4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.praxislive:praxiscore-video-pgl-code:5.7.0/dependencies/org/praxislive/libp5x/processing-core/0.353.0-beta-4/processing-core-0.353.0-beta-4.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "source.find(processing.core.PShape.class)",
+      "artifact" : {
+        "artifact" : "org.praxislive.libp5x:processing-core:0.353.0-beta-4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.praxislive:praxiscore-video-pgl-code:5.7.0/dependencies/org/praxislive/libp5x/processing-core/0.353.0-beta-4/processing-core-0.353.0-beta-4.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "processing.core.PShape",
+      "artifact" : {
+        "artifact" : "org.praxislive.libp5x:processing-core:0.353.0-beta-4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.praxislive:praxiscore-video-pgl-code:5.7.0/dependencies/org/praxislive/libp5x/processing-core/0.353.0-beta-4/processing-core-0.353.0-beta-4.jar"
+      },
+      "isDirectDependency" : false
+    } ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/org.praxislive:praxiscore-video-pgl-code/praxiscore-video-pgl-code/src/main/java/org/praxislive/video/pgl/code/userapi/PGraphics2D.java",
+    "useImportReport" : [ {
+      "importPath" : "import org.praxislive.video.pgl.PGLGraphics;",
+      "artifact" : {
+        "artifact" : "org.praxislive:praxiscore-video-pgl:5.7.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.praxislive:praxiscore-video-pgl-code:5.7.0/dependencies/org/praxislive/praxiscore-video-pgl/5.7.0/praxiscore-video-pgl-5.7.0.jar"
+      },
+      "isDirectDependency" : true
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/org.praxislive:praxiscore-video-pgl-code/praxiscore-video-pgl-code/src/main/java/org/praxislive/video/pgl/code/userapi/Constants.java",
+    "useImportReport" : [ {
+      "importPath" : "import processing.core.PConstants;",
+      "artifact" : {
+        "artifact" : "org.praxislive.libp5x:processing-core:0.353.0-beta-4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.praxislive:praxiscore-video-pgl-code:5.7.0/dependencies/org/praxislive/libp5x/processing-core/0.353.0-beta-4/processing-core-0.353.0-beta-4.jar"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ {
+      "importPath" : "processing.core.PShape",
+      "artifact" : {
+        "artifact" : "org.praxislive.libp5x:processing-core:0.353.0-beta-4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.praxislive:praxiscore-video-pgl-code:5.7.0/dependencies/org/praxislive/libp5x/processing-core/0.353.0-beta-4/processing-core-0.353.0-beta-4.jar"
+      },
+      "isDirectDependency" : false
+    } ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/org.praxislive:praxiscore-video-pgl-code/praxiscore-video-pgl-code/src/main/java/org/praxislive/video/pgl/code/P3DOffScreenGraphicsInfo.java",
+    "useImportReport" : [ {
+      "importPath" : "import java.lang.reflect.Field;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.praxislive.video.pgl.PGLGraphics3D;",
+      "artifact" : {
+        "artifact" : "org.praxislive:praxiscore-video-pgl:5.7.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.praxislive:praxiscore-video-pgl-code:5.7.0/dependencies/org/praxislive/praxiscore-video-pgl/5.7.0/praxiscore-video-pgl-5.7.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.praxislive.video.pgl.PGLSurface;",
+      "artifact" : {
+        "artifact" : "org.praxislive:praxiscore-video-pgl:5.7.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.praxislive:praxiscore-video-pgl-code:5.7.0/dependencies/org/praxislive/praxiscore-video-pgl/5.7.0/praxiscore-video-pgl-5.7.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.praxislive.core.services.LogLevel;",
+      "artifact" : {
+        "artifact" : "org.praxislive:praxiscore-api:5.7.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.praxislive:praxiscore-video-pgl-code:5.7.0/dependencies/org/praxislive/praxiscore-api/5.7.0/praxiscore-api-5.7.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.praxislive.video.render.Surface;",
+      "artifact" : {
+        "artifact" : "org.praxislive:praxiscore-video:5.7.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.praxislive:praxiscore-video-pgl-code:5.7.0/dependencies/org/praxislive/praxiscore-video/5.7.0/praxiscore-video-5.7.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.praxislive.video.pgl.code.userapi.OffScreen;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.praxislive.video.pgl.code.userapi.PGraphics3D;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/org.praxislive:praxiscore-video-pgl-code/praxiscore-video-pgl-code/src/main/java/org/praxislive/video/pgl/code/FontLoader.java",
+    "useImportReport" : [ {
+      "importPath" : "import org.praxislive.code.ResourceProperty;",
+      "artifact" : {
+        "artifact" : "org.praxislive:praxiscore-code:5.7.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.praxislive:praxiscore-video-pgl-code:5.7.0/dependencies/org/praxislive/praxiscore-code/5.7.0/praxiscore-code-5.7.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.praxislive.video.pgl.code.userapi.PFont;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.net.URI;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.io.IOException;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.awt.Font;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.praxislive.video.render.utils.FontUtils;",
+      "artifact" : {
+        "artifact" : "org.praxislive:praxiscore-video:5.7.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.praxislive:praxiscore-video-pgl-code:5.7.0/dependencies/org/praxislive/praxiscore-video/5.7.0/praxiscore-video-5.7.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import java.awt.FontFormatException;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.praxislive.video.pgl.PGLContext;",
+      "artifact" : {
+        "artifact" : "org.praxislive:praxiscore-video-pgl:5.7.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.praxislive:praxiscore-video-pgl-code:5.7.0/dependencies/org/praxislive/praxiscore-video-pgl/5.7.0/praxiscore-video-pgl-5.7.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import java.util.Objects;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ {
+      "importPath" : "processing.core.PFont",
+      "artifact" : {
+        "artifact" : "org.praxislive.libp5x:processing-core:0.353.0-beta-4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.praxislive:praxiscore-video-pgl-code:5.7.0/dependencies/org/praxislive/libp5x/processing-core/0.353.0-beta-4/processing-core-0.353.0-beta-4.jar"
+      },
+      "isDirectDependency" : false
+    } ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/org.praxislive:praxiscore-video-pgl-code/praxiscore-video-pgl-code/src/main/java/org/praxislive/video/pgl/code/P2DCodeFactory.java",
+    "useImportReport" : [ {
+      "importPath" : "import org.praxislive.code.CodeFactory;",
+      "artifact" : {
+        "artifact" : "org.praxislive:praxiscore-code:5.7.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.praxislive:praxiscore-video-pgl-code:5.7.0/dependencies/org/praxislive/praxiscore-code/5.7.0/praxiscore-code-5.7.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.praxislive.core.ComponentType;",
+      "artifact" : {
+        "artifact" : "org.praxislive:praxiscore-api:5.7.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.praxislive:praxiscore-video-pgl-code:5.7.0/dependencies/org/praxislive/praxiscore-api/5.7.0/praxiscore-api-5.7.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.praxislive.code.CodeContext;",
+      "artifact" : {
+        "artifact" : "org.praxislive:praxiscore-code:5.7.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.praxislive:praxiscore-video-pgl-code:5.7.0/dependencies/org/praxislive/praxiscore-code/5.7.0/praxiscore-code-5.7.0.jar"
+      },
+      "isDirectDependency" : true
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/org.praxislive:praxiscore-video-pgl-code/praxiscore-video-pgl-code/src/main/java/org/praxislive/video/pgl/code/ImageLoader.java",
+    "useImportReport" : [ {
+      "importPath" : "import org.praxislive.code.ResourceProperty;",
+      "artifact" : {
+        "artifact" : "org.praxislive:praxiscore-code:5.7.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.praxislive:praxiscore-video-pgl-code:5.7.0/dependencies/org/praxislive/praxiscore-code/5.7.0/praxiscore-code-5.7.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.praxislive.video.pgl.code.userapi.PImage;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.net.URI;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.io.IOException;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.praxislive.video.render.Surface;",
+      "artifact" : {
+        "artifact" : "org.praxislive:praxiscore-video:5.7.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.praxislive:praxiscore-video-pgl-code:5.7.0/dependencies/org/praxislive/praxiscore-video/5.7.0/praxiscore-video-5.7.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.praxislive.video.render.utils.BufferedImageSurface;",
+      "artifact" : {
+        "artifact" : "org.praxislive:praxiscore-video:5.7.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.praxislive:praxiscore-video-pgl-code:5.7.0/dependencies/org/praxislive/praxiscore-video/5.7.0/praxiscore-video-5.7.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.praxislive.video.pgl.PGLContext;",
+      "artifact" : {
+        "artifact" : "org.praxislive:praxiscore-video-pgl:5.7.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.praxislive:praxiscore-video-pgl-code:5.7.0/dependencies/org/praxislive/praxiscore-video-pgl/5.7.0/praxiscore-video-pgl-5.7.0.jar"
+      },
+      "isDirectDependency" : true
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ {
+      "importPath" : "processing.core.PImage",
+      "artifact" : {
+        "artifact" : "org.praxislive.libp5x:processing-core:0.353.0-beta-4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.praxislive:praxiscore-video-pgl-code:5.7.0/dependencies/org/praxislive/libp5x/processing-core/0.353.0-beta-4/processing-core-0.353.0-beta-4.jar"
+      },
+      "isDirectDependency" : false
+    } ],
+    "failImportReport" : [ ]
+  } ],
+  "projectUseDependencies" : [ {
+    "artifact" : "org.praxislive:praxiscore-code:5.7.0",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.praxislive:praxiscore-video-pgl-code:5.7.0/dependencies/org/praxislive/praxiscore-code/5.7.0/praxiscore-code-5.7.0.jar"
+  }, {
+    "artifact" : "org.praxislive:praxiscore-video:5.7.0",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.praxislive:praxiscore-video-pgl-code:5.7.0/dependencies/org/praxislive/praxiscore-video/5.7.0/praxiscore-video-5.7.0.jar"
+  }, {
+    "artifact" : "org.praxislive:praxiscore-api:5.7.0",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.praxislive:praxiscore-video-pgl-code:5.7.0/dependencies/org/praxislive/praxiscore-api/5.7.0/praxiscore-api-5.7.0.jar"
+  }, {
+    "artifact" : "org.praxislive:praxiscore-video-pgl:5.7.0",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.praxislive:praxiscore-video-pgl-code:5.7.0/dependencies/org/praxislive/praxiscore-video-pgl/5.7.0/praxiscore-video-pgl-5.7.0.jar"
+  }, {
+    "artifact" : "org.praxislive.libp5x:processing-core:0.353.0-beta-4",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.praxislive:praxiscore-video-pgl-code:5.7.0/dependencies/org/praxislive/libp5x/processing-core/0.353.0-beta-4/processing-core-0.353.0-beta-4.jar"
+  } ],
+  "projectUseTransitiveDependencies" : [ ],
+  "projectUnusedDependencies" : [ ]
+}

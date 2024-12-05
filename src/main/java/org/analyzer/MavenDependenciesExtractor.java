@@ -14,7 +14,7 @@ import java.util.regex.Pattern;
 
 public class MavenDependenciesExtractor {
 
-    public static List<Dependency> getProjectDependencies(String repoPath) throws Exception {
+    public static List<Dependency> getProjectDependencies(String repoPath, String projectArtifactId) throws Exception {
         // Run the 'gradle dependencies' command at the specified repository
         System.out.println("getting maven dependencies");
         ProcessBuilder processBuilder = new ProcessBuilder();
@@ -30,6 +30,7 @@ public class MavenDependenciesExtractor {
         String line;
 
         while ((line = reader.readLine()) != null) {
+            System.out.println(line);
             output.append(line).append("\n");
         }
 
@@ -42,7 +43,7 @@ public class MavenDependenciesExtractor {
 
         // Extract dependencies using regex
         String dependenciesOutput = output.toString();
-        return extractApiDependenciesBlock(dependenciesOutput);
+        return extractApiDependenciesBlock(dependenciesOutput, projectArtifactId);
     }
 
     public static void getAllProjectDependencies(ImportArtifact artifact) throws Exception {
@@ -105,8 +106,8 @@ public class MavenDependenciesExtractor {
 //        return extractApiDependenciesBlock(dependenciesOutput);
 //    }
 
-    private static List<Dependency> extractApiDependenciesBlock(String input) {
-        String startPattern = "The following files have been resolved:";
+    private static List<Dependency> extractApiDependenciesBlock(String input, String projectArtifactId) {
+        String startPattern = "@ " + projectArtifactId;
         String regex = "^([\\w\\.-]+:[\\w\\.-]+:[\\w\\.-]+:[\\w\\.-]+:[a-z]+)";
         Pattern pattern = Pattern.compile(regex);
         List<Dependency> dependencies = new ArrayList<>();
@@ -114,17 +115,14 @@ public class MavenDependenciesExtractor {
 
         for (String line : input.split("\n")) {
             line = line.replace("[INFO]", "").trim();
-            line = line.split(" -- ")[0].trim();
-            if (line.startsWith(startPattern)) {
-                System.out.println(line);
+            if (line.contains(startPattern)) {
                 capturing = true;
                 continue;
             }
             if (capturing) {
-                if (line.trim().isEmpty()) {
+                if (line.contains("---------------------------------------------------------")) {
                     break;
                 }
-                System.out.println(line.trim());
                 Matcher matcher = pattern.matcher(line.trim());
                 if (matcher.find()) {
                     var extractedLine = matcher.group(1).split(":");
@@ -136,12 +134,18 @@ public class MavenDependenciesExtractor {
                     String scope = extractedLine[4]; // 4.7.0-1.5.9
 
                     Dependency dependency = new Dependency(groupId + ":" + artifactId, version);
-                    if (!Objects.equals(scope, "test")) {
+                    if (!Objects.equals(scope, "test") && !Objects.equals(scope, "runtime")) {
+                        System.out.println(scope);
                         dependencies.add(dependency);
                     }
                 }
             }
         }
         return dependencies;
+    }
+
+    public static void main(String[] args) throws Exception {
+        MavenDependenciesExtractor extractor = new MavenDependenciesExtractor();
+        System.out.println(extractor.getProjectDependencies("/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/org.terrakube.terraform:terraform-spring-boot-autoconfigure/terraform-spring-boot-autoconfigure", "terraform-spring-boot-autoconfigure"));
     }
 }

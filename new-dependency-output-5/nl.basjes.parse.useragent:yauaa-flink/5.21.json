@@ -1,0 +1,76 @@
+{
+  "projectArtifact" : "nl.basjes.parse.useragent:yauaa-flink:5.21",
+  "repositoryDir" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/nl.basjes.parse.useragent:yauaa-flink/udfs/flink",
+  "repositorySubDir" : "",
+  "artifactLocation" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/nl.basjes.parse.useragent:yauaa-flink:5.21",
+  "fileImportReports" : [ {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/nl.basjes.parse.useragent:yauaa-flink/udfs/flink/src/main/java/nl/basjes/parse/useragent/flink/UserAgentAnalysisMapper.java",
+    "useImportReport" : [ {
+      "importPath" : "import org.apache.flink.api.common.functions.RichMapFunction;",
+      "artifact" : {
+        "artifact" : "org.apache.flink:flink-core:1.12.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/nl.basjes.parse.useragent:yauaa-flink:5.21/dependencies/org/apache/flink/flink-core/1.12.0/flink-core-1.12.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import nl.basjes.parse.useragent.annotate.UserAgentAnnotationMapper;",
+      "artifact" : {
+        "artifact" : "nl.basjes.parse.useragent:yauaa:5.21",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/nl.basjes.parse.useragent:yauaa-flink:5.21/dependencies/nl/basjes/parse/useragent/yauaa/5.21/yauaa-5.21.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import java.io.Serializable;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import nl.basjes.parse.useragent.annotate.UserAgentAnnotationAnalyzer;",
+      "artifact" : {
+        "artifact" : "nl.basjes.parse.useragent:yauaa:5.21",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/nl.basjes.parse.useragent:yauaa-flink:5.21/dependencies/nl/basjes/parse/useragent/yauaa/5.21/yauaa-5.21.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import static nl.basjes.parse.useragent.UserAgentAnalyzer.DEFAULT_PARSE_CACHE_SIZE;",
+      "artifact" : {
+        "artifact" : "nl.basjes.parse.useragent:yauaa:5.21",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/nl.basjes.parse.useragent:yauaa-flink:5.21/dependencies/nl/basjes/parse/useragent/yauaa/5.21/yauaa-5.21.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.apache.flink.configuration.Configuration;",
+      "artifact" : {
+        "artifact" : "org.apache.flink:flink-core:1.12.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/nl.basjes.parse.useragent:yauaa-flink:5.21/dependencies/org/apache/flink/flink-core/1.12.0/flink-core-1.12.0.jar"
+      },
+      "isDirectDependency" : true
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  } ],
+  "projectUseDependencies" : [ {
+    "artifact" : "org.apache.flink:flink-core:1.12.0",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/nl.basjes.parse.useragent:yauaa-flink:5.21/dependencies/org/apache/flink/flink-core/1.12.0/flink-core-1.12.0.jar"
+  }, {
+    "artifact" : "nl.basjes.parse.useragent:yauaa:5.21",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/nl.basjes.parse.useragent:yauaa-flink:5.21/dependencies/nl/basjes/parse/useragent/yauaa/5.21/yauaa-5.21.jar"
+  } ],
+  "projectUseTransitiveDependencies" : [ ],
+  "projectUnusedDependencies" : [ {
+    "artifact" : "org.antlr:antlr4-runtime:4.9",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/nl.basjes.parse.useragent:yauaa-flink:5.21/dependencies/org/antlr/antlr4-runtime/4.9/antlr4-runtime-4.9.jar"
+  }, {
+    "artifact" : "org.springframework:spring-core:5.3.2",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/nl.basjes.parse.useragent:yauaa-flink:5.21/dependencies/org/springframework/spring-core/5.3.2/spring-core-5.3.2.jar"
+  }, {
+    "artifact" : "org.slf4j:jcl-over-slf4j:1.7.30",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/nl.basjes.parse.useragent:yauaa-flink:5.21/dependencies/org/slf4j/jcl-over-slf4j/1.7.30/jcl-over-slf4j-1.7.30.jar"
+  }, {
+    "artifact" : "org.yaml:snakeyaml:1.27",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/nl.basjes.parse.useragent:yauaa-flink:5.21/dependencies/org/yaml/snakeyaml/1.27/snakeyaml-1.27.jar"
+  } ]
+}

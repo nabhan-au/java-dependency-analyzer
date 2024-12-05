@@ -1,0 +1,2363 @@
+{
+  "projectArtifact" : "edu.iu.uits.lms:lms-canvas-viewem:5.0.1",
+  "repositoryDir" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/edu.iu.uits.lms:lms-canvas-viewem",
+  "repositorySubDir" : "",
+  "artifactLocation" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/edu.iu.uits.lms:lms-canvas-viewem:5.0.1",
+  "fileImportReports" : [ {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/edu.iu.uits.lms:lms-canvas-viewem/src/main/java/edu/iu/uits/lms/viewem/repository/SheetRepository.java",
+    "useImportReport" : [ {
+      "importPath" : "import org.springframework.data.repository.PagingAndSortingRepository;",
+      "artifact" : {
+        "artifact" : "org.springframework.data:spring-data-commons:2.5.4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/edu.iu.uits.lms:lms-canvas-viewem:5.0.1/dependencies/org/springframework/data/spring-data-commons/2.5.4/spring-data-commons-2.5.4.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.springframework.stereotype.Component;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-context:5.3.9",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/edu.iu.uits.lms:lms-canvas-viewem:5.0.1/dependencies/org/springframework/spring-context/5.3.9/spring-context-5.3.9.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.List;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.springframework.data.repository.query.Param;",
+      "artifact" : {
+        "artifact" : "org.springframework.data:spring-data-commons:2.5.4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/edu.iu.uits.lms:lms-canvas-viewem:5.0.1/dependencies/org/springframework/data/spring-data-commons/2.5.4/spring-data-commons-2.5.4.jar"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ {
+      "importPath" : "/*-\n * #%L\n * lms-canvas-viewem\n * %%\n * Copyright (C) 2015 - 2022 Indiana University\n * %%\n * Redistribution and use in source and binary forms, with or without modification,\n * are permitted provided that the following conditions are met:\n * \n * 1. Redistributions of source code must retain the above copyright notice, this\n *    list of conditions and the following disclaimer.\n * \n * 2. Redistributions in binary form must reproduce the above copyright notice,\n *    this list of conditions and the following disclaimer in the documentation\n *    and/or other materials provided with the distribution.\n * \n * 3. Neither the name of the Indiana University nor the names of its contributors\n *    may be used to endorse or promote products derived from this software without\n *    specific prior written permission.\n * \n * THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS \"AS IS\" AND\n * ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED\n * WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED.\n * IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT,\n * INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING,\n * BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE,\n * DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF\n * LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE\n * OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED\n * OF THE POSSIBILITY OF SUCH DAMAGE.\n * #L%\n */\nimport edu.iu.uits.lms.viewem.model.Sheet;"
+    } ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/edu.iu.uits.lms:lms-canvas-viewem/src/main/java/edu/iu/uits/lms/viewem/repository/SystemUserRepository.java",
+    "useImportReport" : [ {
+      "importPath" : "import org.springframework.data.repository.PagingAndSortingRepository;",
+      "artifact" : {
+        "artifact" : "org.springframework.data:spring-data-commons:2.5.4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/edu.iu.uits.lms:lms-canvas-viewem:5.0.1/dependencies/org/springframework/data/spring-data-commons/2.5.4/spring-data-commons-2.5.4.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.springframework.stereotype.Component;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-context:5.3.9",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/edu.iu.uits.lms:lms-canvas-viewem:5.0.1/dependencies/org/springframework/spring-context/5.3.9/spring-context-5.3.9.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.springframework.data.repository.query.Param;",
+      "artifact" : {
+        "artifact" : "org.springframework.data:spring-data-commons:2.5.4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/edu.iu.uits.lms:lms-canvas-viewem:5.0.1/dependencies/org/springframework/data/spring-data-commons/2.5.4/spring-data-commons-2.5.4.jar"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ {
+      "importPath" : "/*-\n * #%L\n * lms-canvas-viewem\n * %%\n * Copyright (C) 2015 - 2022 Indiana University\n * %%\n * Redistribution and use in source and binary forms, with or without modification,\n * are permitted provided that the following conditions are met:\n * \n * 1. Redistributions of source code must retain the above copyright notice, this\n *    list of conditions and the following disclaimer.\n * \n * 2. Redistributions in binary form must reproduce the above copyright notice,\n *    this list of conditions and the following disclaimer in the documentation\n *    and/or other materials provided with the distribution.\n * \n * 3. Neither the name of the Indiana University nor the names of its contributors\n *    may be used to endorse or promote products derived from this software without\n *    specific prior written permission.\n * \n * THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS \"AS IS\" AND\n * ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED\n * WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED.\n * IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT,\n * INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING,\n * BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE,\n * DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF\n * LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE\n * OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED\n * OF THE POSSIBILITY OF SUCH DAMAGE.\n * #L%\n */\nimport edu.iu.uits.lms.viewem.model.SystemUser;"
+    } ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/edu.iu.uits.lms:lms-canvas-viewem/src/main/java/edu/iu/uits/lms/viewem/repository/SystemUserRepositoryImpl.java",
+    "useImportReport" : [ {
+      "importPath" : "import lombok.extern.slf4j.Slf4j;",
+      "artifact" : {
+        "artifact" : "org.projectlombok:lombok:1.18.20",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/edu.iu.uits.lms:lms-canvas-viewem:5.0.1/dependencies/org/projectlombok/lombok/1.18.20/lombok-1.18.20.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import javax.persistence.EntityManager;",
+      "artifact" : {
+        "artifact" : "jakarta.persistence:jakarta.persistence-api:2.2.3",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/edu.iu.uits.lms:lms-canvas-viewem:5.0.1/dependencies/jakarta/persistence/jakarta.persistence-api/2.2.3/jakarta.persistence-api-2.2.3.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import javax.persistence.PersistenceContext;",
+      "artifact" : {
+        "artifact" : "jakarta.persistence:jakarta.persistence-api:2.2.3",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/edu.iu.uits.lms:lms-canvas-viewem:5.0.1/dependencies/jakarta/persistence/jakarta.persistence-api/2.2.3/jakarta.persistence-api-2.2.3.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.List;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.springframework.data.repository.query.Param;",
+      "artifact" : {
+        "artifact" : "org.springframework.data:spring-data-commons:2.5.4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/edu.iu.uits.lms:lms-canvas-viewem:5.0.1/dependencies/org/springframework/data/spring-data-commons/2.5.4/spring-data-commons-2.5.4.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import javax.persistence.criteria.CriteriaBuilder;",
+      "artifact" : {
+        "artifact" : "jakarta.persistence:jakarta.persistence-api:2.2.3",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/edu.iu.uits.lms:lms-canvas-viewem:5.0.1/dependencies/jakarta/persistence/jakarta.persistence-api/2.2.3/jakarta.persistence-api-2.2.3.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import javax.persistence.criteria.CriteriaQuery;",
+      "artifact" : {
+        "artifact" : "jakarta.persistence:jakarta.persistence-api:2.2.3",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/edu.iu.uits.lms:lms-canvas-viewem:5.0.1/dependencies/jakarta/persistence/jakarta.persistence-api/2.2.3/jakarta.persistence-api-2.2.3.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import javax.persistence.criteria.Root;",
+      "artifact" : {
+        "artifact" : "jakarta.persistence:jakarta.persistence-api:2.2.3",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/edu.iu.uits.lms:lms-canvas-viewem:5.0.1/dependencies/jakarta/persistence/jakarta.persistence-api/2.2.3/jakarta.persistence-api-2.2.3.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import javax.persistence.criteria.ParameterExpression;",
+      "artifact" : {
+        "artifact" : "jakarta.persistence:jakarta.persistence-api:2.2.3",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/edu.iu.uits.lms:lms-canvas-viewem:5.0.1/dependencies/jakarta/persistence/jakarta.persistence-api/2.2.3/jakarta.persistence-api-2.2.3.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import javax.persistence.criteria.Predicate;",
+      "artifact" : {
+        "artifact" : "jakarta.persistence:jakarta.persistence-api:2.2.3",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/edu.iu.uits.lms:lms-canvas-viewem:5.0.1/dependencies/jakarta/persistence/jakarta.persistence-api/2.2.3/jakarta.persistence-api-2.2.3.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.Map;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.HashMap;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.apache.commons.collections4.ListUtils;",
+      "artifact" : {
+        "artifact" : "org.apache.commons:commons-collections4:4.4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/edu.iu.uits.lms:lms-canvas-viewem:5.0.1/dependencies/org/apache/commons/commons-collections4/4.4/commons-collections4-4.4.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.ArrayList;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import javax.persistence.TypedQuery;",
+      "artifact" : {
+        "artifact" : "jakarta.persistence:jakarta.persistence-api:2.2.3",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/edu.iu.uits.lms:lms-canvas-viewem:5.0.1/dependencies/jakarta/persistence/jakarta.persistence-api/2.2.3/jakarta.persistence-api-2.2.3.jar"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ {
+      "importPath" : "query.unwrap(org.hibernate.Query.class)",
+      "artifact" : {
+        "artifact" : "org.hibernate:hibernate-core:5.4.32.Final",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/edu.iu.uits.lms:lms-canvas-viewem:5.0.1/dependencies/org/hibernate/hibernate-core/5.4.32.Final/hibernate-core-5.4.32.Final.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "org.hibernate.Query",
+      "artifact" : {
+        "artifact" : "org.hibernate:hibernate-core:5.4.32.Final",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/edu.iu.uits.lms:lms-canvas-viewem:5.0.1/dependencies/org/hibernate/hibernate-core/5.4.32.Final/hibernate-core-5.4.32.Final.jar"
+      },
+      "isDirectDependency" : false
+    } ],
+    "failImportReport" : [ {
+      "importPath" : "/*-\n * #%L\n * lms-canvas-viewem\n * %%\n * Copyright (C) 2015 - 2022 Indiana University\n * %%\n * Redistribution and use in source and binary forms, with or without modification,\n * are permitted provided that the following conditions are met:\n * \n * 1. Redistributions of source code must retain the above copyright notice, this\n *    list of conditions and the following disclaimer.\n * \n * 2. Redistributions in binary form must reproduce the above copyright notice,\n *    this list of conditions and the following disclaimer in the documentation\n *    and/or other materials provided with the distribution.\n * \n * 3. Neither the name of the Indiana University nor the names of its contributors\n *    may be used to endorse or promote products derived from this software without\n *    specific prior written permission.\n * \n * THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS \"AS IS\" AND\n * ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED\n * WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED.\n * IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT,\n * INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING,\n * BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE,\n * DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF\n * LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE\n * OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED\n * OF THE POSSIBILITY OF SUCH DAMAGE.\n * #L%\n */\nimport edu.iu.uits.lms.viewem.model.SystemUser;"
+    } ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/edu.iu.uits.lms:lms-canvas-viewem/src/main/java/edu/iu/uits/lms/viewem/repository/SheetColumnRepository.java",
+    "useImportReport" : [ {
+      "importPath" : "import org.springframework.data.repository.PagingAndSortingRepository;",
+      "artifact" : {
+        "artifact" : "org.springframework.data:spring-data-commons:2.5.4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/edu.iu.uits.lms:lms-canvas-viewem:5.0.1/dependencies/org/springframework/data/spring-data-commons/2.5.4/spring-data-commons-2.5.4.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.springframework.stereotype.Component;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-context:5.3.9",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/edu.iu.uits.lms:lms-canvas-viewem:5.0.1/dependencies/org/springframework/spring-context/5.3.9/spring-context-5.3.9.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.List;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ {
+      "importPath" : "/*-\n * #%L\n * lms-canvas-viewem\n * %%\n * Copyright (C) 2015 - 2022 Indiana University\n * %%\n * Redistribution and use in source and binary forms, with or without modification,\n * are permitted provided that the following conditions are met:\n * \n * 1. Redistributions of source code must retain the above copyright notice, this\n *    list of conditions and the following disclaimer.\n * \n * 2. Redistributions in binary form must reproduce the above copyright notice,\n *    this list of conditions and the following disclaimer in the documentation\n *    and/or other materials provided with the distribution.\n * \n * 3. Neither the name of the Indiana University nor the names of its contributors\n *    may be used to endorse or promote products derived from this software without\n *    specific prior written permission.\n * \n * THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS \"AS IS\" AND\n * ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED\n * WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED.\n * IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT,\n * INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING,\n * BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE,\n * DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF\n * LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE\n * OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED\n * OF THE POSSIBILITY OF SUCH DAMAGE.\n * #L%\n */\nimport edu.iu.uits.lms.viewem.model.SheetColumn;"
+    } ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/edu.iu.uits.lms:lms-canvas-viewem/src/main/java/edu/iu/uits/lms/viewem/repository/SheetUserRepository.java",
+    "useImportReport" : [ {
+      "importPath" : "import org.springframework.data.repository.PagingAndSortingRepository;",
+      "artifact" : {
+        "artifact" : "org.springframework.data:spring-data-commons:2.5.4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/edu.iu.uits.lms:lms-canvas-viewem:5.0.1/dependencies/org/springframework/data/spring-data-commons/2.5.4/spring-data-commons-2.5.4.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.springframework.stereotype.Component;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-context:5.3.9",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/edu.iu.uits.lms:lms-canvas-viewem:5.0.1/dependencies/org/springframework/spring-context/5.3.9/spring-context-5.3.9.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.List;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.springframework.data.repository.query.Param;",
+      "artifact" : {
+        "artifact" : "org.springframework.data:spring-data-commons:2.5.4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/edu.iu.uits.lms:lms-canvas-viewem:5.0.1/dependencies/org/springframework/data/spring-data-commons/2.5.4/spring-data-commons-2.5.4.jar"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ {
+      "importPath" : "/*-\n * #%L\n * lms-canvas-viewem\n * %%\n * Copyright (C) 2015 - 2022 Indiana University\n * %%\n * Redistribution and use in source and binary forms, with or without modification,\n * are permitted provided that the following conditions are met:\n * \n * 1. Redistributions of source code must retain the above copyright notice, this\n *    list of conditions and the following disclaimer.\n * \n * 2. Redistributions in binary form must reproduce the above copyright notice,\n *    this list of conditions and the following disclaimer in the documentation\n *    and/or other materials provided with the distribution.\n * \n * 3. Neither the name of the Indiana University nor the names of its contributors\n *    may be used to endorse or promote products derived from this software without\n *    specific prior written permission.\n * \n * THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS \"AS IS\" AND\n * ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED\n * WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED.\n * IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT,\n * INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING,\n * BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE,\n * DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF\n * LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE\n * OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED\n * OF THE POSSIBILITY OF SUCH DAMAGE.\n * #L%\n */\nimport edu.iu.uits.lms.viewem.model.SheetUser;"
+    } ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/edu.iu.uits.lms:lms-canvas-viewem/src/main/java/edu/iu/uits/lms/viewem/repository/SystemUserRepositoryCustom.java",
+    "useImportReport" : [ {
+      "importPath" : "import java.util.List;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.springframework.data.repository.query.Param;",
+      "artifact" : {
+        "artifact" : "org.springframework.data:spring-data-commons:2.5.4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/edu.iu.uits.lms:lms-canvas-viewem:5.0.1/dependencies/org/springframework/data/spring-data-commons/2.5.4/spring-data-commons-2.5.4.jar"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ {
+      "importPath" : "/*-\n * #%L\n * lms-canvas-viewem\n * %%\n * Copyright (C) 2015 - 2022 Indiana University\n * %%\n * Redistribution and use in source and binary forms, with or without modification,\n * are permitted provided that the following conditions are met:\n * \n * 1. Redistributions of source code must retain the above copyright notice, this\n *    list of conditions and the following disclaimer.\n * \n * 2. Redistributions in binary form must reproduce the above copyright notice,\n *    this list of conditions and the following disclaimer in the documentation\n *    and/or other materials provided with the distribution.\n * \n * 3. Neither the name of the Indiana University nor the names of its contributors\n *    may be used to endorse or promote products derived from this software without\n *    specific prior written permission.\n * \n * THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS \"AS IS\" AND\n * ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED\n * WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED.\n * IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT,\n * INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING,\n * BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE,\n * DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF\n * LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE\n * OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED\n * OF THE POSSIBILITY OF SUCH DAMAGE.\n * #L%\n */\nimport edu.iu.uits.lms.viewem.model.SystemUser;"
+    } ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/edu.iu.uits.lms:lms-canvas-viewem/src/main/java/edu/iu/uits/lms/viewem/WebApplication.java",
+    "useImportReport" : [ {
+      "importPath" : "import org.springframework.boot.autoconfigure.SpringBootApplication;",
+      "artifact" : {
+        "artifact" : "org.springframework.boot:spring-boot-autoconfigure:2.5.4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/edu.iu.uits.lms:lms-canvas-viewem:5.0.1/dependencies/org/springframework/boot/spring-boot-autoconfigure/2.5.4/spring-boot-autoconfigure-2.5.4.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import edu.iu.uits.lms.lti.config.EnableGlobalErrorHandler;",
+      "artifact" : {
+        "artifact" : "edu.iu.uits.lms:lms-canvas-lti-framework:5.1.9",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/edu.iu.uits.lms:lms-canvas-viewem:5.0.1/dependencies/edu/iu/uits/lms/lms-canvas-lti-framework/5.1.9/lms-canvas-lti-framework-5.1.9.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import lombok.extern.slf4j.Slf4j;",
+      "artifact" : {
+        "artifact" : "org.projectlombok:lombok:1.18.20",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/edu.iu.uits.lms:lms-canvas-viewem:5.0.1/dependencies/org/projectlombok/lombok/1.18.20/lombok-1.18.20.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import edu.iu.uits.lms.redis.config.EnableRedisConfiguration;",
+      "artifact" : {
+        "artifact" : "edu.iu.uits.lms:lms-canvas-redis-config:5.0.7",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/edu.iu.uits.lms:lms-canvas-viewem:5.0.1/dependencies/edu/iu/uits/lms/lms-canvas-redis-config/5.0.7/lms-canvas-redis-config-5.0.7.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import edu.iu.uits.lms.common.samesite.EnableCookieFilter;",
+      "artifact" : {
+        "artifact" : "edu.iu.uits.lms:lms-canvas-common-configuration:5.0.3",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/edu.iu.uits.lms:lms-canvas-viewem:5.0.1/dependencies/edu/iu/uits/lms/lms-canvas-common-configuration/5.0.3/lms-canvas-common-configuration-5.0.3.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import edu.iu.uits.lms.lti.config.EnableLtiClient;",
+      "artifact" : {
+        "artifact" : "edu.iu.uits.lms:lms-canvas-lti-framework:5.1.9",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/edu.iu.uits.lms:lms-canvas-viewem:5.0.1/dependencies/edu/iu/uits/lms/lms-canvas-lti-framework/5.1.9/lms-canvas-lti-framework-5.1.9.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import edu.iu.uits.lms.common.session.EnableCourseSessionService;",
+      "artifact" : {
+        "artifact" : "edu.iu.uits.lms:lms-canvas-common-configuration:5.0.3",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/edu.iu.uits.lms:lms-canvas-viewem:5.0.1/dependencies/edu/iu/uits/lms/lms-canvas-common-configuration/5.0.3/lms-canvas-common-configuration-5.0.3.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.springframework.boot.context.properties.EnableConfigurationProperties;",
+      "artifact" : {
+        "artifact" : "org.springframework.boot:spring-boot:2.5.4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/edu.iu.uits.lms:lms-canvas-viewem:5.0.1/dependencies/org/springframework/boot/spring-boot/2.5.4/spring-boot-2.5.4.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import edu.iu.uits.lms.common.server.GitRepositoryState;",
+      "artifact" : {
+        "artifact" : "edu.iu.uits.lms:lms-canvas-common-configuration:5.0.3",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/edu.iu.uits.lms:lms-canvas-viewem:5.0.1/dependencies/edu/iu/uits/lms/lms-canvas-common-configuration/5.0.3/lms-canvas-common-configuration-5.0.3.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.springframework.beans.factory.annotation.Autowired;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-beans:5.3.9",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/edu.iu.uits.lms:lms-canvas-viewem:5.0.1/dependencies/org/springframework/spring-beans/5.3.9/spring-beans-5.3.9.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.springframework.boot.SpringApplication;",
+      "artifact" : {
+        "artifact" : "org.springframework.boot:spring-boot:2.5.4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/edu.iu.uits.lms:lms-canvas-viewem:5.0.1/dependencies/org/springframework/boot/spring-boot/2.5.4/spring-boot-2.5.4.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import edu.iu.uits.lms.common.server.ServerInfo;",
+      "artifact" : {
+        "artifact" : "edu.iu.uits.lms:lms-canvas-common-configuration:5.0.3",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/edu.iu.uits.lms:lms-canvas-viewem:5.0.1/dependencies/edu/iu/uits/lms/lms-canvas-common-configuration/5.0.3/lms-canvas-common-configuration-5.0.3.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.springframework.context.annotation.Bean;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-context:5.3.9",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/edu.iu.uits.lms:lms-canvas-viewem:5.0.1/dependencies/org/springframework/spring-context/5.3.9/spring-context-5.3.9.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import edu.iu.uits.lms.common.server.ServerUtils;",
+      "artifact" : {
+        "artifact" : "edu.iu.uits.lms:lms-canvas-common-configuration:5.0.3",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/edu.iu.uits.lms:lms-canvas-viewem:5.0.1/dependencies/edu/iu/uits/lms/lms-canvas-common-configuration/5.0.3/lms-canvas-common-configuration-5.0.3.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import java.util.Date;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ {
+      "importPath" : "/*-\n * #%L\n * lms-canvas-viewem\n * %%\n * Copyright (C) 2015 - 2022 Indiana University\n * %%\n * Redistribution and use in source and binary forms, with or without modification,\n * are permitted provided that the following conditions are met:\n * \n * 1. Redistributions of source code must retain the above copyright notice, this\n *    list of conditions and the following disclaimer.\n * \n * 2. Redistributions in binary form must reproduce the above copyright notice,\n *    this list of conditions and the following disclaimer in the documentation\n *    and/or other materials provided with the distribution.\n * \n * 3. Neither the name of the Indiana University nor the names of its contributors\n *    may be used to endorse or promote products derived from this software without\n *    specific prior written permission.\n * \n * THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS \"AS IS\" AND\n * ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED\n * WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED.\n * IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT,\n * INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING,\n * BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE,\n * DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF\n * LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE\n * OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED\n * OF THE POSSIBILITY OF SUCH DAMAGE.\n * #L%\n */\nimport edu.iu.uits.lms.canvas.config.EnableCanvasClient;"
+    }, {
+      "importPath" : "import edu.iu.uits.lms.viewem.config.ToolConfig;"
+    } ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/edu.iu.uits.lms:lms-canvas-viewem/src/main/java/edu/iu/uits/lms/viewem/config/ApplicationConfig.java",
+    "useImportReport" : [ {
+      "importPath" : "import org.springframework.web.servlet.config.annotation.WebMvcConfigurer;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-webmvc:5.3.9",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/edu.iu.uits.lms:lms-canvas-viewem:5.0.1/dependencies/org/springframework/spring-webmvc/5.3.9/spring-webmvc-5.3.9.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.springframework.context.annotation.Configuration;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-context:5.3.9",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/edu.iu.uits.lms:lms-canvas-viewem:5.0.1/dependencies/org/springframework/spring-context/5.3.9/spring-context-5.3.9.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.springframework.web.servlet.config.annotation.EnableWebMvc;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-webmvc:5.3.9",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/edu.iu.uits.lms:lms-canvas-viewem:5.0.1/dependencies/org/springframework/spring-webmvc/5.3.9/spring-webmvc-5.3.9.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.springframework.security.config.annotation.method.configuration.EnableGlobalMethodSecurity;",
+      "artifact" : {
+        "artifact" : "org.springframework.security:spring-security-config:5.5.2",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/edu.iu.uits.lms:lms-canvas-viewem:5.0.1/dependencies/org/springframework/security/spring-security-config/5.5.2/spring-security-config-5.5.2.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.springframework.web.servlet.config.annotation.ResourceHandlerRegistry;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-webmvc:5.3.9",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/edu.iu.uits.lms:lms-canvas-viewem:5.0.1/dependencies/org/springframework/spring-webmvc/5.3.9/spring-webmvc-5.3.9.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.springframework.context.support.ResourceBundleMessageSource;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-context:5.3.9",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/edu.iu.uits.lms:lms-canvas-viewem:5.0.1/dependencies/org/springframework/spring-context/5.3.9/spring-context-5.3.9.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.springframework.context.annotation.Bean;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-context:5.3.9",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/edu.iu.uits.lms:lms-canvas-viewem:5.0.1/dependencies/org/springframework/spring-context/5.3.9/spring-context-5.3.9.jar"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ {
+      "importPath" : "/*-\n * #%L\n * lms-canvas-viewem\n * %%\n * Copyright (C) 2015 - 2022 Indiana University\n * %%\n * Redistribution and use in source and binary forms, with or without modification,\n * are permitted provided that the following conditions are met:\n * \n * 1. Redistributions of source code must retain the above copyright notice, this\n *    list of conditions and the following disclaimer.\n * \n * 2. Redistributions in binary form must reproduce the above copyright notice,\n *    this list of conditions and the following disclaimer in the documentation\n *    and/or other materials provided with the distribution.\n * \n * 3. Neither the name of the Indiana University nor the names of its contributors\n *    may be used to endorse or promote products derived from this software without\n *    specific prior written permission.\n * \n * THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS \"AS IS\" AND\n * ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED\n * WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED.\n * IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT,\n * INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING,\n * BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE,\n * DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF\n * LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE\n * OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED\n * OF THE POSSIBILITY OF SUCH DAMAGE.\n * #L%\n */\nimport lombok.extern.slf4j.Slf4j;"
+    } ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/edu.iu.uits.lms:lms-canvas-viewem/src/main/java/edu/iu/uits/lms/viewem/config/PostgresDBConfig.java",
+    "useImportReport" : [ {
+      "importPath" : "import org.springframework.context.annotation.Configuration;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-context:5.3.9",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/edu.iu.uits.lms:lms-canvas-viewem:5.0.1/dependencies/org/springframework/spring-context/5.3.9/spring-context-5.3.9.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.springframework.data.jpa.repository.config.EnableJpaRepositories;",
+      "artifact" : {
+        "artifact" : "org.springframework.data:spring-data-jpa:2.5.4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/edu.iu.uits.lms:lms-canvas-viewem:5.0.1/dependencies/org/springframework/data/spring-data-jpa/2.5.4/spring-data-jpa-2.5.4.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.springframework.transaction.annotation.EnableTransactionManagement;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-tx:5.3.9",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/edu.iu.uits.lms:lms-canvas-viewem:5.0.1/dependencies/org/springframework/spring-tx/5.3.9/spring-tx-5.3.9.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import javax.sql.DataSource;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.springframework.context.annotation.Bean;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-context:5.3.9",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/edu.iu.uits.lms:lms-canvas-viewem:5.0.1/dependencies/org/springframework/spring-context/5.3.9/spring-context-5.3.9.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.springframework.boot.context.properties.ConfigurationProperties;",
+      "artifact" : {
+        "artifact" : "org.springframework.boot:spring-boot:2.5.4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/edu.iu.uits.lms:lms-canvas-viewem:5.0.1/dependencies/org/springframework/boot/spring-boot/2.5.4/spring-boot-2.5.4.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.springframework.context.annotation.Primary;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-context:5.3.9",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/edu.iu.uits.lms:lms-canvas-viewem:5.0.1/dependencies/org/springframework/spring-context/5.3.9/spring-context-5.3.9.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.springframework.boot.autoconfigure.jdbc.DataSourceProperties;",
+      "artifact" : {
+        "artifact" : "org.springframework.boot:spring-boot-autoconfigure:2.5.4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/edu.iu.uits.lms:lms-canvas-viewem:5.0.1/dependencies/org/springframework/boot/spring-boot-autoconfigure/2.5.4/spring-boot-autoconfigure-2.5.4.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-orm:5.3.9",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/edu.iu.uits.lms:lms-canvas-viewem:5.0.1/dependencies/org/springframework/spring-orm/5.3.9/spring-orm-5.3.9.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.springframework.boot.orm.jpa.EntityManagerFactoryBuilder;",
+      "artifact" : {
+        "artifact" : "org.springframework.boot:spring-boot:2.5.4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/edu.iu.uits.lms:lms-canvas-viewem:5.0.1/dependencies/org/springframework/boot/spring-boot/2.5.4/spring-boot-2.5.4.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.Map;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.HashMap;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.springframework.transaction.PlatformTransactionManager;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-tx:5.3.9",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/edu.iu.uits.lms:lms-canvas-viewem:5.0.1/dependencies/org/springframework/spring-tx/5.3.9/spring-tx-5.3.9.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import javax.persistence.EntityManagerFactory;",
+      "artifact" : {
+        "artifact" : "jakarta.persistence:jakarta.persistence-api:2.2.3",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/edu.iu.uits.lms:lms-canvas-viewem:5.0.1/dependencies/jakarta/persistence/jakarta.persistence-api/2.2.3/jakarta.persistence-api-2.2.3.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.springframework.orm.jpa.JpaTransactionManager;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-orm:5.3.9",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/edu.iu.uits.lms:lms-canvas-viewem:5.0.1/dependencies/org/springframework/spring-orm/5.3.9/spring-orm-5.3.9.jar"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ {
+      "importPath" : "/*-\n * #%L\n * lms-canvas-viewem\n * %%\n * Copyright (C) 2015 - 2022 Indiana University\n * %%\n * Redistribution and use in source and binary forms, with or without modification,\n * are permitted provided that the following conditions are met:\n * \n * 1. Redistributions of source code must retain the above copyright notice, this\n *    list of conditions and the following disclaimer.\n * \n * 2. Redistributions in binary form must reproduce the above copyright notice,\n *    this list of conditions and the following disclaimer in the documentation\n *    and/or other materials provided with the distribution.\n * \n * 3. Neither the name of the Indiana University nor the names of its contributors\n *    may be used to endorse or promote products derived from this software without\n *    specific prior written permission.\n * \n * THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS \"AS IS\" AND\n * ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED\n * WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED.\n * IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT,\n * INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING,\n * BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE,\n * DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF\n * LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE\n * OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED\n * OF THE POSSIBILITY OF SUCH DAMAGE.\n * #L%\n */\nimport org.springframework.beans.factory.annotation.Qualifier;"
+    } ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/edu.iu.uits.lms:lms-canvas-viewem/src/main/java/edu/iu/uits/lms/viewem/config/SecurityConfig.java",
+    "useImportReport" : [ {
+      "importPath" : "import org.springframework.context.annotation.Configuration;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-context:5.3.9",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/edu.iu.uits.lms:lms-canvas-viewem:5.0.1/dependencies/org/springframework/spring-context/5.3.9/spring-context-5.3.9.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.springframework.security.config.annotation.web.configuration.EnableWebSecurity;",
+      "artifact" : {
+        "artifact" : "org.springframework.security:spring-security-config:5.5.2",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/edu.iu.uits.lms:lms-canvas-viewem:5.0.1/dependencies/org/springframework/security/spring-security-config/5.5.2/spring-security-config-5.5.2.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.springframework.security.config.annotation.web.configuration.WebSecurityConfigurerAdapter;",
+      "artifact" : {
+        "artifact" : "org.springframework.security:spring-security-config:5.5.2",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/edu.iu.uits.lms:lms-canvas-viewem:5.0.1/dependencies/org/springframework/security/spring-security-config/5.5.2/spring-security-config-5.5.2.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.springframework.core.annotation.Order;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-core:5.3.9",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/edu.iu.uits.lms:lms-canvas-viewem:5.0.1/dependencies/org/springframework/spring-core/5.3.9/spring-core-5.3.9.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.springframework.boot.autoconfigure.security.SecurityProperties;",
+      "artifact" : {
+        "artifact" : "org.springframework.boot:spring-boot-autoconfigure:2.5.4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/edu.iu.uits.lms:lms-canvas-viewem:5.0.1/dependencies/org/springframework/boot/spring-boot-autoconfigure/2.5.4/spring-boot-autoconfigure-2.5.4.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.springframework.security.config.annotation.web.builders.HttpSecurity;",
+      "artifact" : {
+        "artifact" : "org.springframework.security:spring-security-config:5.5.2",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/edu.iu.uits.lms:lms-canvas-viewem:5.0.1/dependencies/org/springframework/security/spring-security-config/5.5.2/spring-security-config-5.5.2.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.springframework.security.config.http.SessionCreationPolicy;",
+      "artifact" : {
+        "artifact" : "org.springframework.security:spring-security-config:5.5.2",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/edu.iu.uits.lms:lms-canvas-viewem:5.0.1/dependencies/org/springframework/security/spring-security-config/5.5.2/spring-security-config-5.5.2.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import edu.iu.uits.lms.lti.service.LmsDefaultGrantedAuthoritiesMapper;",
+      "artifact" : {
+        "artifact" : "edu.iu.uits.lms:lms-canvas-lti-framework:5.1.9",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/edu.iu.uits.lms:lms-canvas-viewem:5.0.1/dependencies/edu/iu/uits/lms/lms-canvas-lti-framework/5.1.9/lms-canvas-lti-framework-5.1.9.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.springframework.beans.factory.annotation.Autowired;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-beans:5.3.9",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/edu.iu.uits.lms:lms-canvas-viewem:5.0.1/dependencies/org/springframework/spring-beans/5.3.9/spring-beans-5.3.9.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import static edu.iu.uits.lms.lti.LTIConstants.WELL_KNOWN_ALL;",
+      "artifact" : {
+        "artifact" : "edu.iu.uits.lms:lms-canvas-lti-framework:5.1.9",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/edu.iu.uits.lms:lms-canvas-viewem:5.0.1/dependencies/edu/iu/uits/lms/lms-canvas-lti-framework/5.1.9/lms-canvas-lti-framework-5.1.9.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import static edu.iu.uits.lms.lti.LTIConstants.BASE_USER_ROLE;",
+      "artifact" : {
+        "artifact" : "edu.iu.uits.lms:lms-canvas-lti-framework:5.1.9",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/edu.iu.uits.lms:lms-canvas-viewem:5.0.1/dependencies/edu/iu/uits/lms/lms-canvas-lti-framework/5.1.9/lms-canvas-lti-framework-5.1.9.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import uk.ac.ox.ctl.lti13.Lti13Configurer;",
+      "artifact" : {
+        "artifact" : "uk.ac.ox.ctl:spring-security-lti13:0.0.3",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/edu.iu.uits.lms:lms-canvas-viewem:5.0.1/dependencies/uk/ac/ox/ctl/spring-security-lti13/0.0.3/spring-security-lti13-0.0.3.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.springframework.security.config.annotation.web.builders.WebSecurity;",
+      "artifact" : {
+        "artifact" : "org.springframework.security:spring-security-config:5.5.2",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/edu.iu.uits.lms:lms-canvas-viewem:5.0.1/dependencies/org/springframework/security/spring-security-config/5.5.2/spring-security-config-5.5.2.jar"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ {
+      "importPath" : "/*-\n * #%L\n * lms-canvas-viewem\n * %%\n * Copyright (C) 2015 - 2022 Indiana University\n * %%\n * Redistribution and use in source and binary forms, with or without modification,\n * are permitted provided that the following conditions are met:\n * \n * 1. Redistributions of source code must retain the above copyright notice, this\n *    list of conditions and the following disclaimer.\n * \n * 2. Redistributions in binary form must reproduce the above copyright notice,\n *    this list of conditions and the following disclaimer in the documentation\n *    and/or other materials provided with the distribution.\n * \n * 3. Neither the name of the Indiana University nor the names of its contributors\n *    may be used to endorse or promote products derived from this software without\n *    specific prior written permission.\n * \n * THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS \"AS IS\" AND\n * ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED\n * WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED.\n * IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT,\n * INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING,\n * BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE,\n * DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF\n * LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE\n * OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED\n * OF THE POSSIBILITY OF SUCH DAMAGE.\n * #L%\n */\nimport edu.iu.uits.lms.common.oauth.CustomJwtAuthenticationConverter;"
+    } ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/edu.iu.uits.lms:lms-canvas-viewem/src/main/java/edu/iu/uits/lms/viewem/config/ToolConfig.java",
+    "useImportReport" : [ {
+      "importPath" : "import org.springframework.context.annotation.Configuration;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-context:5.3.9",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/edu.iu.uits.lms:lms-canvas-viewem:5.0.1/dependencies/org/springframework/spring-context/5.3.9/spring-context-5.3.9.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.springframework.boot.context.properties.ConfigurationProperties;",
+      "artifact" : {
+        "artifact" : "org.springframework.boot:spring-boot:2.5.4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/edu.iu.uits.lms:lms-canvas-viewem:5.0.1/dependencies/org/springframework/boot/spring-boot/2.5.4/spring-boot-2.5.4.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import lombok.Setter;",
+      "artifact" : {
+        "artifact" : "org.projectlombok:lombok:1.18.20",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/edu.iu.uits.lms:lms-canvas-viewem:5.0.1/dependencies/org/projectlombok/lombok/1.18.20/lombok-1.18.20.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.List;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ {
+      "importPath" : "/*-\n * #%L\n * lms-canvas-viewem\n * %%\n * Copyright (C) 2015 - 2022 Indiana University\n * %%\n * Redistribution and use in source and binary forms, with or without modification,\n * are permitted provided that the following conditions are met:\n * \n * 1. Redistributions of source code must retain the above copyright notice, this\n *    list of conditions and the following disclaimer.\n * \n * 2. Redistributions in binary form must reproduce the above copyright notice,\n *    this list of conditions and the following disclaimer in the documentation\n *    and/or other materials provided with the distribution.\n * \n * 3. Neither the name of the Indiana University nor the names of its contributors\n *    may be used to endorse or promote products derived from this software without\n *    specific prior written permission.\n * \n * THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS \"AS IS\" AND\n * ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED\n * WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED.\n * IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT,\n * INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING,\n * BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE,\n * DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF\n * LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE\n * OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED\n * OF THE POSSIBILITY OF SUCH DAMAGE.\n * #L%\n */\nimport lombok.Getter;"
+    } ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/edu.iu.uits.lms:lms-canvas-viewem/src/main/java/edu/iu/uits/lms/viewem/config/SwaggerConfig.java",
+    "useImportReport" : [ {
+      "importPath" : "import org.springframework.context.annotation.Configuration;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-context:5.3.9",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/edu.iu.uits.lms:lms-canvas-viewem:5.0.1/dependencies/org/springframework/spring-context/5.3.9/spring-context-5.3.9.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import io.swagger.v3.oas.annotations.info.Info;",
+      "artifact" : {
+        "artifact" : "io.swagger.core.v3:swagger-annotations:2.2.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/edu.iu.uits.lms:lms-canvas-viewem:5.0.1/dependencies/io/swagger/core/v3/swagger-annotations/2.2.0/swagger-annotations-2.2.0.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import io.swagger.v3.oas.annotations.security.SecurityScheme;",
+      "artifact" : {
+        "artifact" : "io.swagger.core.v3:swagger-annotations:2.2.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/edu.iu.uits.lms:lms-canvas-viewem:5.0.1/dependencies/io/swagger/core/v3/swagger-annotations/2.2.0/swagger-annotations-2.2.0.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import io.swagger.v3.oas.annotations.enums.SecuritySchemeType;",
+      "artifact" : {
+        "artifact" : "io.swagger.core.v3:swagger-annotations:2.2.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/edu.iu.uits.lms:lms-canvas-viewem:5.0.1/dependencies/io/swagger/core/v3/swagger-annotations/2.2.0/swagger-annotations-2.2.0.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import io.swagger.v3.oas.annotations.security.OAuthFlows;",
+      "artifact" : {
+        "artifact" : "io.swagger.core.v3:swagger-annotations:2.2.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/edu.iu.uits.lms:lms-canvas-viewem:5.0.1/dependencies/io/swagger/core/v3/swagger-annotations/2.2.0/swagger-annotations-2.2.0.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import io.swagger.v3.oas.annotations.security.OAuthFlow;",
+      "artifact" : {
+        "artifact" : "io.swagger.core.v3:swagger-annotations:2.2.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/edu.iu.uits.lms:lms-canvas-viewem:5.0.1/dependencies/io/swagger/core/v3/swagger-annotations/2.2.0/swagger-annotations-2.2.0.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import io.swagger.v3.oas.annotations.security.OAuthScope;",
+      "artifact" : {
+        "artifact" : "io.swagger.core.v3:swagger-annotations:2.2.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/edu.iu.uits.lms:lms-canvas-viewem:5.0.1/dependencies/io/swagger/core/v3/swagger-annotations/2.2.0/swagger-annotations-2.2.0.jar"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ {
+      "importPath" : "/*-\n * #%L\n * lms-canvas-viewem\n * %%\n * Copyright (C) 2015 - 2022 Indiana University\n * %%\n * Redistribution and use in source and binary forms, with or without modification,\n * are permitted provided that the following conditions are met:\n * \n * 1. Redistributions of source code must retain the above copyright notice, this\n *    list of conditions and the following disclaimer.\n * \n * 2. Redistributions in binary form must reproduce the above copyright notice,\n *    this list of conditions and the following disclaimer in the documentation\n *    and/or other materials provided with the distribution.\n * \n * 3. Neither the name of the Indiana University nor the names of its contributors\n *    may be used to endorse or promote products derived from this software without\n *    specific prior written permission.\n * \n * THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS \"AS IS\" AND\n * ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED\n * WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED.\n * IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT,\n * INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING,\n * BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE,\n * DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF\n * LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE\n * OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED\n * OF THE POSSIBILITY OF SUCH DAMAGE.\n * #L%\n */\nimport io.swagger.v3.oas.annotations.OpenAPIDefinition;"
+    } ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/edu.iu.uits.lms:lms-canvas-viewem/src/main/java/edu/iu/uits/lms/viewem/controller/ViewemLtiController.java",
+    "useImportReport" : [ ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/edu.iu.uits.lms:lms-canvas-viewem/src/main/java/edu/iu/uits/lms/viewem/controller/MainController.java",
+    "useImportReport" : [ {
+      "importPath" : "import edu.iu.uits.lms.lti.controller.OidcTokenAwareController;",
+      "artifact" : {
+        "artifact" : "edu.iu.uits.lms:lms-canvas-lti-framework:5.1.9",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/edu.iu.uits.lms:lms-canvas-viewem:5.0.1/dependencies/edu/iu/uits/lms/lms-canvas-lti-framework/5.1.9/lms-canvas-lti-framework-5.1.9.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.springframework.stereotype.Controller;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-context:5.3.9",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/edu.iu.uits.lms:lms-canvas-viewem:5.0.1/dependencies/org/springframework/spring-context/5.3.9/spring-context-5.3.9.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.springframework.web.bind.annotation.RequestMapping;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-web:5.3.9",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/edu.iu.uits.lms:lms-canvas-viewem:5.0.1/dependencies/org/springframework/spring-web/5.3.9/spring-web-5.3.9.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import lombok.extern.slf4j.Slf4j;",
+      "artifact" : {
+        "artifact" : "org.projectlombok:lombok:1.18.20",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/edu.iu.uits.lms:lms-canvas-viewem:5.0.1/dependencies/org/projectlombok/lombok/1.18.20/lombok-1.18.20.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.springframework.beans.factory.annotation.Autowired;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-beans:5.3.9",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/edu.iu.uits.lms:lms-canvas-viewem:5.0.1/dependencies/org/springframework/spring-beans/5.3.9/spring-beans-5.3.9.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.springframework.context.support.ResourceBundleMessageSource;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-context:5.3.9",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/edu.iu.uits.lms:lms-canvas-viewem:5.0.1/dependencies/org/springframework/spring-context/5.3.9/spring-context-5.3.9.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import edu.iu.uits.lms.common.session.CourseSessionService;",
+      "artifact" : {
+        "artifact" : "edu.iu.uits.lms:lms-canvas-common-configuration:5.0.3",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/edu.iu.uits.lms:lms-canvas-viewem:5.0.1/dependencies/edu/iu/uits/lms/lms-canvas-common-configuration/5.0.3/lms-canvas-common-configuration-5.0.3.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import edu.iu.uits.lms.canvas.services.CourseService;",
+      "artifact" : {
+        "artifact" : "edu.iu.uits.lms:lms-canvas-services:5.0.7",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/edu.iu.uits.lms:lms-canvas-viewem:5.0.1/dependencies/edu/iu/uits/lms/lms-canvas-services/5.0.7/lms-canvas-services-5.0.7.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.springframework.web.bind.annotation.GetMapping;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-web:5.3.9",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/edu.iu.uits.lms:lms-canvas-viewem:5.0.1/dependencies/org/springframework/spring-web/5.3.9/spring-web-5.3.9.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.springframework.ui.Model;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-context:5.3.9",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/edu.iu.uits.lms:lms-canvas-viewem:5.0.1/dependencies/org/springframework/spring-context/5.3.9/spring-context-5.3.9.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestWrapper;",
+      "artifact" : {
+        "artifact" : "org.springframework.security:spring-security-web:5.5.2",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/edu.iu.uits.lms:lms-canvas-viewem:5.0.1/dependencies/org/springframework/security/spring-security-web/5.5.2/spring-security-web-5.5.2.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import uk.ac.ox.ctl.lti13.security.oauth2.client.lti.authentication.OidcAuthenticationToken;",
+      "artifact" : {
+        "artifact" : "uk.ac.ox.ctl:spring-security-lti13:0.0.3",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/edu.iu.uits.lms:lms-canvas-viewem:5.0.1/dependencies/uk/ac/ox/ctl/spring-security-lti13/0.0.3/spring-security-lti13-0.0.3.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import edu.iu.uits.lms.lti.service.OidcTokenUtils;",
+      "artifact" : {
+        "artifact" : "edu.iu.uits.lms:lms-canvas-lti-framework:5.1.9",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/edu.iu.uits.lms:lms-canvas-viewem:5.0.1/dependencies/edu/iu/uits/lms/lms-canvas-lti-framework/5.1.9/lms-canvas-lti-framework-5.1.9.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import edu.iu.uits.lms.lti.LTIConstants;",
+      "artifact" : {
+        "artifact" : "edu.iu.uits.lms:lms-canvas-lti-framework:5.1.9",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/edu.iu.uits.lms:lms-canvas-viewem:5.0.1/dependencies/edu/iu/uits/lms/lms-canvas-lti-framework/5.1.9/lms-canvas-lti-framework-5.1.9.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import java.util.List;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import edu.iu.uits.lms.canvas.model.User;",
+      "artifact" : {
+        "artifact" : "edu.iu.uits.lms:lms-canvas-services:5.0.7",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/edu.iu.uits.lms:lms-canvas-viewem:5.0.1/dependencies/edu/iu/uits/lms/lms-canvas-services/5.0.7/lms-canvas-services-5.0.7.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import java.util.ArrayList;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.springframework.web.bind.annotation.PathVariable;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-web:5.3.9",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/edu.iu.uits.lms:lms-canvas-viewem:5.0.1/dependencies/org/springframework/spring-web/5.3.9/spring-web-5.3.9.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.springframework.security.access.annotation.Secured;",
+      "artifact" : {
+        "artifact" : "org.springframework.security:spring-security-core:5.5.2",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/edu.iu.uits.lms:lms-canvas-viewem:5.0.1/dependencies/org/springframework/security/spring-security-core/5.5.2/spring-security-core-5.5.2.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.springframework.web.bind.annotation.RequestMethod;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-web:5.3.9",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/edu.iu.uits.lms:lms-canvas-viewem:5.0.1/dependencies/org/springframework/spring-web/5.3.9/spring-web-5.3.9.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.springframework.web.bind.annotation.RequestParam;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-web:5.3.9",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/edu.iu.uits.lms:lms-canvas-viewem:5.0.1/dependencies/org/springframework/spring-web/5.3.9/spring-web-5.3.9.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.Locale;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.Map;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.HashMap;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.springframework.web.multipart.MultipartFile;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-web:5.3.9",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/edu.iu.uits.lms:lms-canvas-viewem:5.0.1/dependencies/org/springframework/spring-web/5.3.9/spring-web-5.3.9.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.io.IOException;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.io.InputStream;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.io.ByteArrayInputStream;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.google.gson.GsonBuilder;",
+      "artifact" : {
+        "artifact" : "com.google.code.gson:gson:2.8.7",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/edu.iu.uits.lms:lms-canvas-viewem:5.0.1/dependencies/com/google/code/gson/gson/2.8.7/gson-2.8.7.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.springframework.util.StringUtils;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-core:5.3.9",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/edu.iu.uits.lms:lms-canvas-viewem:5.0.1/dependencies/org/springframework/spring-core/5.3.9/spring-core-5.3.9.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.apache.commons.fileupload.FileUploadException;",
+      "artifact" : {
+        "artifact" : "commons-fileupload:commons-fileupload:1.4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/edu.iu.uits.lms:lms-canvas-viewem:5.0.1/dependencies/commons-fileupload/commons-fileupload/1.4/commons-fileupload-1.4.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.springframework.web.servlet.ModelAndView;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-webmvc:5.3.9",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/edu.iu.uits.lms:lms-canvas-viewem:5.0.1/dependencies/org/springframework/spring-webmvc/5.3.9/spring-webmvc-5.3.9.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.springframework.web.bind.annotation.ExceptionHandler;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-web:5.3.9",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/edu.iu.uits.lms:lms-canvas-viewem:5.0.1/dependencies/org/springframework/spring-web/5.3.9/spring-web-5.3.9.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import edu.iu.uits.lms.lti.controller.InvalidTokenContextException;",
+      "artifact" : {
+        "artifact" : "edu.iu.uits.lms:lms-canvas-lti-framework:5.1.9",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/edu.iu.uits.lms:lms-canvas-viewem:5.0.1/dependencies/edu/iu/uits/lms/lms-canvas-lti-framework/5.1.9/lms-canvas-lti-framework-5.1.9.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import javax.servlet.http.HttpServletRequest;",
+      "artifact" : {
+        "artifact" : "org.apache.tomcat.embed:tomcat-embed-core:9.0.52",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/edu.iu.uits.lms:lms-canvas-viewem:5.0.1/dependencies/org/apache/tomcat/embed/tomcat-embed-core/9.0.52/tomcat-embed-core-9.0.52.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import javax.servlet.http.HttpServletRequest;",
+      "artifact" : {
+        "artifact" : "javax.servlet:javax.servlet-api:4.0.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/edu.iu.uits.lms:lms-canvas-viewem:5.0.1/dependencies/javax/servlet/javax.servlet-api/4.0.1/javax.servlet-api-4.0.1.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import javax.servlet.http.HttpServletResponse;",
+      "artifact" : {
+        "artifact" : "org.apache.tomcat.embed:tomcat-embed-core:9.0.52",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/edu.iu.uits.lms:lms-canvas-viewem:5.0.1/dependencies/org/apache/tomcat/embed/tomcat-embed-core/9.0.52/tomcat-embed-core-9.0.52.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import javax.servlet.http.HttpServletResponse;",
+      "artifact" : {
+        "artifact" : "javax.servlet:javax.servlet-api:4.0.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/edu.iu.uits.lms:lms-canvas-viewem:5.0.1/dependencies/javax/servlet/javax.servlet-api/4.0.1/javax.servlet-api-4.0.1.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.io.Writer;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.io.StringWriter;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.io.PrintWriter;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.apache.commons.lang3.StringEscapeUtils;",
+      "artifact" : {
+        "artifact" : "org.apache.commons:commons-lang3:3.12.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/edu.iu.uits.lms:lms-canvas-viewem:5.0.1/dependencies/org/apache/commons/commons-lang3/3.12.0/commons-lang3-3.12.0.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.Date;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.opencsv.CSVWriter;",
+      "artifact" : {
+        "artifact" : "com.opencsv:opencsv:5.3",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/edu.iu.uits.lms:lms-canvas-viewem:5.0.1/dependencies/com/opencsv/opencsv/5.3/opencsv-5.3.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import java.net.URLEncoder;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.io.UnsupportedEncodingException;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ {
+      "importPath" : "/*-\n * #%L\n * lms-canvas-viewem\n * %%\n * Copyright (C) 2015 - 2022 Indiana University\n * %%\n * Redistribution and use in source and binary forms, with or without modification,\n * are permitted provided that the following conditions are met:\n * \n * 1. Redistributions of source code must retain the above copyright notice, this\n *    list of conditions and the following disclaimer.\n * \n * 2. Redistributions in binary form must reproduce the above copyright notice,\n *    this list of conditions and the following disclaimer in the documentation\n *    and/or other materials provided with the distribution.\n * \n * 3. Neither the name of the Indiana University nor the names of its contributors\n *    may be used to endorse or promote products derived from this software without\n *    specific prior written permission.\n * \n * THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS \"AS IS\" AND\n * ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED\n * WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED.\n * IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT,\n * INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING,\n * BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE,\n * DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF\n * LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE\n * OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED\n * OF THE POSSIBILITY OF SUCH DAMAGE.\n * #L%\n */\nimport com.google.gson.Gson;"
+    }, {
+      "importPath" : "import edu.iu.uits.lms.viewem.model.Sheet;"
+    }, {
+      "importPath" : "import edu.iu.uits.lms.viewem.model.SheetColumn;"
+    }, {
+      "importPath" : "import edu.iu.uits.lms.viewem.model.SheetUser;"
+    }, {
+      "importPath" : "import edu.iu.uits.lms.viewem.model.SystemUser;"
+    }, {
+      "importPath" : "import edu.iu.uits.lms.viewem.model.UserData;"
+    }, {
+      "importPath" : "import edu.iu.uits.lms.viewem.repository.SheetRepository;"
+    }, {
+      "importPath" : "import edu.iu.uits.lms.viewem.repository.SheetUserRepository;"
+    }, {
+      "importPath" : "import edu.iu.uits.lms.viewem.repository.SystemUserRepository;"
+    }, {
+      "importPath" : "import edu.iu.uits.lms.viewem.service.SheetExclusionStrategy;"
+    }, {
+      "importPath" : "import edu.iu.uits.lms.viewem.service.SystemUserService;"
+    }, {
+      "importPath" : "import edu.iu.uits.lms.viewem.service.ViewemConstants;"
+    }, {
+      "importPath" : "import edu.iu.uits.lms.viewem.service.ViewemService;"
+    }, {
+      "importPath" : "import static edu.iu.uits.lms.viewem.service.ViewemConstants.DATA_KEY_ROSTER_USER_IDS;"
+    } ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/edu.iu.uits.lms:lms-canvas-viewem/src/main/java/edu/iu/uits/lms/viewem/controller/DataTooBigException.java",
+    "useImportReport" : [ ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/edu.iu.uits.lms:lms-canvas-viewem/src/main/java/edu/iu/uits/lms/viewem/controller/ViewemRestController.java",
+    "useImportReport" : [ {
+      "importPath" : "import org.springframework.web.bind.annotation.RestController;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-web:5.3.9",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/edu.iu.uits.lms:lms-canvas-viewem:5.0.1/dependencies/org/springframework/spring-web/5.3.9/spring-web-5.3.9.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.springframework.web.bind.annotation.RequestMapping;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-web:5.3.9",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/edu.iu.uits.lms:lms-canvas-viewem:5.0.1/dependencies/org/springframework/spring-web/5.3.9/spring-web-5.3.9.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.springframework.beans.factory.annotation.Autowired;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-beans:5.3.9",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/edu.iu.uits.lms:lms-canvas-viewem:5.0.1/dependencies/org/springframework/spring-beans/5.3.9/spring-beans-5.3.9.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.springframework.web.bind.annotation.GetMapping;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-web:5.3.9",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/edu.iu.uits.lms:lms-canvas-viewem:5.0.1/dependencies/org/springframework/spring-web/5.3.9/spring-web-5.3.9.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import io.swagger.v3.oas.annotations.Operation;",
+      "artifact" : {
+        "artifact" : "io.swagger.core.v3:swagger-annotations:2.2.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/edu.iu.uits.lms:lms-canvas-viewem:5.0.1/dependencies/io/swagger/core/v3/swagger-annotations/2.2.0/swagger-annotations-2.2.0.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import lombok.Data;",
+      "artifact" : {
+        "artifact" : "org.projectlombok:lombok:1.18.20",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/edu.iu.uits.lms:lms-canvas-viewem:5.0.1/dependencies/org/projectlombok/lombok/1.18.20/lombok-1.18.20.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.List;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.springframework.web.bind.annotation.PostMapping;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-web:5.3.9",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/edu.iu.uits.lms:lms-canvas-viewem:5.0.1/dependencies/org/springframework/spring-web/5.3.9/spring-web-5.3.9.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.springframework.web.bind.annotation.PathVariable;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-web:5.3.9",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/edu.iu.uits.lms:lms-canvas-viewem:5.0.1/dependencies/org/springframework/spring-web/5.3.9/spring-web-5.3.9.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.Date;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import edu.iu.uits.lms.common.date.DateFormatUtil;",
+      "artifact" : {
+        "artifact" : "edu.iu.uits.lms:lms-canvas-common-configuration:5.0.3",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/edu.iu.uits.lms:lms-canvas-viewem:5.0.1/dependencies/edu/iu/uits/lms/lms-canvas-common-configuration/5.0.3/lms-canvas-common-configuration-5.0.3.jar"
+      },
+      "isDirectDependency" : true
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ {
+      "importPath" : "/*-\n * #%L\n * lms-canvas-viewem\n * %%\n * Copyright (C) 2015 - 2022 Indiana University\n * %%\n * Redistribution and use in source and binary forms, with or without modification,\n * are permitted provided that the following conditions are met:\n * \n * 1. Redistributions of source code must retain the above copyright notice, this\n *    list of conditions and the following disclaimer.\n * \n * 2. Redistributions in binary form must reproduce the above copyright notice,\n *    this list of conditions and the following disclaimer in the documentation\n *    and/or other materials provided with the distribution.\n * \n * 3. Neither the name of the Indiana University nor the names of its contributors\n *    may be used to endorse or promote products derived from this software without\n *    specific prior written permission.\n * \n * THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS \"AS IS\" AND\n * ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED\n * WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED.\n * IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT,\n * INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING,\n * BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE,\n * DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF\n * LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE\n * OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED\n * OF THE POSSIBILITY OF SUCH DAMAGE.\n * #L%\n */\nimport com.fasterxml.jackson.annotation.JsonFormat;"
+    }, {
+      "importPath" : "import edu.iu.uits.lms.viewem.config.ToolConfig;"
+    }, {
+      "importPath" : "import edu.iu.uits.lms.viewem.model.Sheet;"
+    }, {
+      "importPath" : "import edu.iu.uits.lms.viewem.repository.SheetRepository;"
+    } ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/edu.iu.uits.lms:lms-canvas-viewem/src/main/java/edu/iu/uits/lms/viewem/model/SystemUser.java",
+    "useImportReport" : [ {
+      "importPath" : "import javax.persistence.Entity;",
+      "artifact" : {
+        "artifact" : "jakarta.persistence:jakarta.persistence-api:2.2.3",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/edu.iu.uits.lms:lms-canvas-viewem:5.0.1/dependencies/jakarta/persistence/jakarta.persistence-api/2.2.3/jakarta.persistence-api-2.2.3.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import javax.persistence.Table;",
+      "artifact" : {
+        "artifact" : "jakarta.persistence:jakarta.persistence-api:2.2.3",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/edu.iu.uits.lms:lms-canvas-viewem:5.0.1/dependencies/jakarta/persistence/jakarta.persistence-api/2.2.3/jakarta.persistence-api-2.2.3.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import javax.persistence.UniqueConstraint;",
+      "artifact" : {
+        "artifact" : "jakarta.persistence:jakarta.persistence-api:2.2.3",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/edu.iu.uits.lms:lms-canvas-viewem:5.0.1/dependencies/jakarta/persistence/jakarta.persistence-api/2.2.3/jakarta.persistence-api-2.2.3.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import javax.persistence.SequenceGenerator;",
+      "artifact" : {
+        "artifact" : "jakarta.persistence:jakarta.persistence-api:2.2.3",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/edu.iu.uits.lms:lms-canvas-viewem:5.0.1/dependencies/jakarta/persistence/jakarta.persistence-api/2.2.3/jakarta.persistence-api-2.2.3.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import javax.persistence.NamedQueries;",
+      "artifact" : {
+        "artifact" : "jakarta.persistence:jakarta.persistence-api:2.2.3",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/edu.iu.uits.lms:lms-canvas-viewem:5.0.1/dependencies/jakarta/persistence/jakarta.persistence-api/2.2.3/jakarta.persistence-api-2.2.3.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import javax.persistence.NamedQuery;",
+      "artifact" : {
+        "artifact" : "jakarta.persistence:jakarta.persistence-api:2.2.3",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/edu.iu.uits.lms:lms-canvas-viewem:5.0.1/dependencies/jakarta/persistence/jakarta.persistence-api/2.2.3/jakarta.persistence-api-2.2.3.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import lombok.NoArgsConstructor;",
+      "artifact" : {
+        "artifact" : "org.projectlombok:lombok:1.18.20",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/edu.iu.uits.lms:lms-canvas-viewem:5.0.1/dependencies/org/projectlombok/lombok/1.18.20/lombok-1.18.20.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import lombok.RequiredArgsConstructor;",
+      "artifact" : {
+        "artifact" : "org.projectlombok:lombok:1.18.20",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/edu.iu.uits.lms:lms-canvas-viewem:5.0.1/dependencies/org/projectlombok/lombok/1.18.20/lombok-1.18.20.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import javax.persistence.Id;",
+      "artifact" : {
+        "artifact" : "jakarta.persistence:jakarta.persistence-api:2.2.3",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/edu.iu.uits.lms:lms-canvas-viewem:5.0.1/dependencies/jakarta/persistence/jakarta.persistence-api/2.2.3/jakarta.persistence-api-2.2.3.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import javax.persistence.GeneratedValue;",
+      "artifact" : {
+        "artifact" : "jakarta.persistence:jakarta.persistence-api:2.2.3",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/edu.iu.uits.lms:lms-canvas-viewem:5.0.1/dependencies/jakarta/persistence/jakarta.persistence-api/2.2.3/jakarta.persistence-api-2.2.3.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import javax.persistence.Column;",
+      "artifact" : {
+        "artifact" : "jakarta.persistence:jakarta.persistence-api:2.2.3",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/edu.iu.uits.lms:lms-canvas-viewem:5.0.1/dependencies/jakarta/persistence/jakarta.persistence-api/2.2.3/jakarta.persistence-api-2.2.3.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import lombok.NonNull;",
+      "artifact" : {
+        "artifact" : "org.projectlombok:lombok:1.18.20",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/edu.iu.uits.lms:lms-canvas-viewem:5.0.1/dependencies/org/projectlombok/lombok/1.18.20/lombok-1.18.20.jar"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ {
+      "importPath" : "/*-\n * #%L\n * lms-canvas-viewem\n * %%\n * Copyright (C) 2015 - 2022 Indiana University\n * %%\n * Redistribution and use in source and binary forms, with or without modification,\n * are permitted provided that the following conditions are met:\n * \n * 1. Redistributions of source code must retain the above copyright notice, this\n *    list of conditions and the following disclaimer.\n * \n * 2. Redistributions in binary form must reproduce the above copyright notice,\n *    this list of conditions and the following disclaimer in the documentation\n *    and/or other materials provided with the distribution.\n * \n * 3. Neither the name of the Indiana University nor the names of its contributors\n *    may be used to endorse or promote products derived from this software without\n *    specific prior written permission.\n * \n * THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS \"AS IS\" AND\n * ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED\n * WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED.\n * IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT,\n * INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING,\n * BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE,\n * DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF\n * LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE\n * OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED\n * OF THE POSSIBILITY OF SUCH DAMAGE.\n * #L%\n */\nimport lombok.Data;"
+    } ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/edu.iu.uits.lms:lms-canvas-viewem/src/main/java/edu/iu/uits/lms/viewem/model/SheetColumn.java",
+    "useImportReport" : [ {
+      "importPath" : "import javax.persistence.Entity;",
+      "artifact" : {
+        "artifact" : "jakarta.persistence:jakarta.persistence-api:2.2.3",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/edu.iu.uits.lms:lms-canvas-viewem:5.0.1/dependencies/jakarta/persistence/jakarta.persistence-api/2.2.3/jakarta.persistence-api-2.2.3.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import javax.persistence.Table;",
+      "artifact" : {
+        "artifact" : "jakarta.persistence:jakarta.persistence-api:2.2.3",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/edu.iu.uits.lms:lms-canvas-viewem:5.0.1/dependencies/jakarta/persistence/jakarta.persistence-api/2.2.3/jakarta.persistence-api-2.2.3.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import javax.persistence.SequenceGenerator;",
+      "artifact" : {
+        "artifact" : "jakarta.persistence:jakarta.persistence-api:2.2.3",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/edu.iu.uits.lms:lms-canvas-viewem:5.0.1/dependencies/jakarta/persistence/jakarta.persistence-api/2.2.3/jakarta.persistence-api-2.2.3.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import javax.persistence.NamedQuery;",
+      "artifact" : {
+        "artifact" : "jakarta.persistence:jakarta.persistence-api:2.2.3",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/edu.iu.uits.lms:lms-canvas-viewem:5.0.1/dependencies/jakarta/persistence/jakarta.persistence-api/2.2.3/jakarta.persistence-api-2.2.3.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import lombok.Data;",
+      "artifact" : {
+        "artifact" : "org.projectlombok:lombok:1.18.20",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/edu.iu.uits.lms:lms-canvas-viewem:5.0.1/dependencies/org/projectlombok/lombok/1.18.20/lombok-1.18.20.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import lombok.NoArgsConstructor;",
+      "artifact" : {
+        "artifact" : "org.projectlombok:lombok:1.18.20",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/edu.iu.uits.lms:lms-canvas-viewem:5.0.1/dependencies/org/projectlombok/lombok/1.18.20/lombok-1.18.20.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import lombok.RequiredArgsConstructor;",
+      "artifact" : {
+        "artifact" : "org.projectlombok:lombok:1.18.20",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/edu.iu.uits.lms:lms-canvas-viewem:5.0.1/dependencies/org/projectlombok/lombok/1.18.20/lombok-1.18.20.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import lombok.EqualsAndHashCode;",
+      "artifact" : {
+        "artifact" : "org.projectlombok:lombok:1.18.20",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/edu.iu.uits.lms:lms-canvas-viewem:5.0.1/dependencies/org/projectlombok/lombok/1.18.20/lombok-1.18.20.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import lombok.ToString;",
+      "artifact" : {
+        "artifact" : "org.projectlombok:lombok:1.18.20",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/edu.iu.uits.lms:lms-canvas-viewem:5.0.1/dependencies/org/projectlombok/lombok/1.18.20/lombok-1.18.20.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import javax.persistence.Id;",
+      "artifact" : {
+        "artifact" : "jakarta.persistence:jakarta.persistence-api:2.2.3",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/edu.iu.uits.lms:lms-canvas-viewem:5.0.1/dependencies/jakarta/persistence/jakarta.persistence-api/2.2.3/jakarta.persistence-api-2.2.3.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import javax.persistence.GeneratedValue;",
+      "artifact" : {
+        "artifact" : "jakarta.persistence:jakarta.persistence-api:2.2.3",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/edu.iu.uits.lms:lms-canvas-viewem:5.0.1/dependencies/jakarta/persistence/jakarta.persistence-api/2.2.3/jakarta.persistence-api-2.2.3.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import javax.persistence.Column;",
+      "artifact" : {
+        "artifact" : "jakarta.persistence:jakarta.persistence-api:2.2.3",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/edu.iu.uits.lms:lms-canvas-viewem:5.0.1/dependencies/jakarta/persistence/jakarta.persistence-api/2.2.3/jakarta.persistence-api-2.2.3.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import lombok.NonNull;",
+      "artifact" : {
+        "artifact" : "org.projectlombok:lombok:1.18.20",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/edu.iu.uits.lms:lms-canvas-viewem:5.0.1/dependencies/org/projectlombok/lombok/1.18.20/lombok-1.18.20.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import javax.persistence.ManyToOne;",
+      "artifact" : {
+        "artifact" : "jakarta.persistence:jakarta.persistence-api:2.2.3",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/edu.iu.uits.lms:lms-canvas-viewem:5.0.1/dependencies/jakarta/persistence/jakarta.persistence-api/2.2.3/jakarta.persistence-api-2.2.3.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import javax.persistence.FetchType;",
+      "artifact" : {
+        "artifact" : "jakarta.persistence:jakarta.persistence-api:2.2.3",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/edu.iu.uits.lms:lms-canvas-viewem:5.0.1/dependencies/jakarta/persistence/jakarta.persistence-api/2.2.3/jakarta.persistence-api-2.2.3.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import javax.persistence.JoinColumn;",
+      "artifact" : {
+        "artifact" : "jakarta.persistence:jakarta.persistence-api:2.2.3",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/edu.iu.uits.lms:lms-canvas-viewem:5.0.1/dependencies/jakarta/persistence/jakarta.persistence-api/2.2.3/jakarta.persistence-api-2.2.3.jar"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ {
+      "importPath" : "/*-\n * #%L\n * lms-canvas-viewem\n * %%\n * Copyright (C) 2015 - 2022 Indiana University\n * %%\n * Redistribution and use in source and binary forms, with or without modification,\n * are permitted provided that the following conditions are met:\n * \n * 1. Redistributions of source code must retain the above copyright notice, this\n *    list of conditions and the following disclaimer.\n * \n * 2. Redistributions in binary form must reproduce the above copyright notice,\n *    this list of conditions and the following disclaimer in the documentation\n *    and/or other materials provided with the distribution.\n * \n * 3. Neither the name of the Indiana University nor the names of its contributors\n *    may be used to endorse or promote products derived from this software without\n *    specific prior written permission.\n * \n * THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS \"AS IS\" AND\n * ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED\n * WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED.\n * IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT,\n * INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING,\n * BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE,\n * DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF\n * LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE\n * OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED\n * OF THE POSSIBILITY OF SUCH DAMAGE.\n * #L%\n */\nimport edu.iu.uits.lms.viewem.service.RestResource;"
+    } ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/edu.iu.uits.lms:lms-canvas-viewem/src/main/java/edu/iu/uits/lms/viewem/model/ModelWithDates.java",
+    "useImportReport" : [ {
+      "importPath" : "import javax.persistence.MappedSuperclass;",
+      "artifact" : {
+        "artifact" : "jakarta.persistence:jakarta.persistence-api:2.2.3",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/edu.iu.uits.lms:lms-canvas-viewem:5.0.1/dependencies/jakarta/persistence/jakarta.persistence-api/2.2.3/jakarta.persistence-api-2.2.3.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.Date;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import javax.persistence.Column;",
+      "artifact" : {
+        "artifact" : "jakarta.persistence:jakarta.persistence-api:2.2.3",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/edu.iu.uits.lms:lms-canvas-viewem:5.0.1/dependencies/jakarta/persistence/jakarta.persistence-api/2.2.3/jakarta.persistence-api-2.2.3.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import javax.persistence.PreUpdate;",
+      "artifact" : {
+        "artifact" : "jakarta.persistence:jakarta.persistence-api:2.2.3",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/edu.iu.uits.lms:lms-canvas-viewem:5.0.1/dependencies/jakarta/persistence/jakarta.persistence-api/2.2.3/jakarta.persistence-api-2.2.3.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import javax.persistence.PrePersist;",
+      "artifact" : {
+        "artifact" : "jakarta.persistence:jakarta.persistence-api:2.2.3",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/edu.iu.uits.lms:lms-canvas-viewem:5.0.1/dependencies/jakarta/persistence/jakarta.persistence-api/2.2.3/jakarta.persistence-api-2.2.3.jar"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ {
+      "importPath" : "/*-\n * #%L\n * lms-canvas-viewem\n * %%\n * Copyright (C) 2015 - 2022 Indiana University\n * %%\n * Redistribution and use in source and binary forms, with or without modification,\n * are permitted provided that the following conditions are met:\n * \n * 1. Redistributions of source code must retain the above copyright notice, this\n *    list of conditions and the following disclaimer.\n * \n * 2. Redistributions in binary form must reproduce the above copyright notice,\n *    this list of conditions and the following disclaimer in the documentation\n *    and/or other materials provided with the distribution.\n * \n * 3. Neither the name of the Indiana University nor the names of its contributors\n *    may be used to endorse or promote products derived from this software without\n *    specific prior written permission.\n * \n * THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS \"AS IS\" AND\n * ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED\n * WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED.\n * IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT,\n * INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING,\n * BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE,\n * DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF\n * LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE\n * OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED\n * OF THE POSSIBILITY OF SUCH DAMAGE.\n * #L%\n */\nimport lombok.Data;"
+    } ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/edu.iu.uits.lms:lms-canvas-viewem/src/main/java/edu/iu/uits/lms/viewem/model/SheetUser.java",
+    "useImportReport" : [ {
+      "importPath" : "import javax.persistence.Entity;",
+      "artifact" : {
+        "artifact" : "jakarta.persistence:jakarta.persistence-api:2.2.3",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/edu.iu.uits.lms:lms-canvas-viewem:5.0.1/dependencies/jakarta/persistence/jakarta.persistence-api/2.2.3/jakarta.persistence-api-2.2.3.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import javax.persistence.Table;",
+      "artifact" : {
+        "artifact" : "jakarta.persistence:jakarta.persistence-api:2.2.3",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/edu.iu.uits.lms:lms-canvas-viewem:5.0.1/dependencies/jakarta/persistence/jakarta.persistence-api/2.2.3/jakarta.persistence-api-2.2.3.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import javax.persistence.SequenceGenerator;",
+      "artifact" : {
+        "artifact" : "jakarta.persistence:jakarta.persistence-api:2.2.3",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/edu.iu.uits.lms:lms-canvas-viewem:5.0.1/dependencies/jakarta/persistence/jakarta.persistence-api/2.2.3/jakarta.persistence-api-2.2.3.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import javax.persistence.NamedQueries;",
+      "artifact" : {
+        "artifact" : "jakarta.persistence:jakarta.persistence-api:2.2.3",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/edu.iu.uits.lms:lms-canvas-viewem:5.0.1/dependencies/jakarta/persistence/jakarta.persistence-api/2.2.3/jakarta.persistence-api-2.2.3.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import javax.persistence.NamedQuery;",
+      "artifact" : {
+        "artifact" : "jakarta.persistence:jakarta.persistence-api:2.2.3",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/edu.iu.uits.lms:lms-canvas-viewem:5.0.1/dependencies/jakarta/persistence/jakarta.persistence-api/2.2.3/jakarta.persistence-api-2.2.3.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import lombok.Data;",
+      "artifact" : {
+        "artifact" : "org.projectlombok:lombok:1.18.20",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/edu.iu.uits.lms:lms-canvas-viewem:5.0.1/dependencies/org/projectlombok/lombok/1.18.20/lombok-1.18.20.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import lombok.NoArgsConstructor;",
+      "artifact" : {
+        "artifact" : "org.projectlombok:lombok:1.18.20",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/edu.iu.uits.lms:lms-canvas-viewem:5.0.1/dependencies/org/projectlombok/lombok/1.18.20/lombok-1.18.20.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import lombok.RequiredArgsConstructor;",
+      "artifact" : {
+        "artifact" : "org.projectlombok:lombok:1.18.20",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/edu.iu.uits.lms:lms-canvas-viewem:5.0.1/dependencies/org/projectlombok/lombok/1.18.20/lombok-1.18.20.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import lombok.EqualsAndHashCode;",
+      "artifact" : {
+        "artifact" : "org.projectlombok:lombok:1.18.20",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/edu.iu.uits.lms:lms-canvas-viewem:5.0.1/dependencies/org/projectlombok/lombok/1.18.20/lombok-1.18.20.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import lombok.ToString;",
+      "artifact" : {
+        "artifact" : "org.projectlombok:lombok:1.18.20",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/edu.iu.uits.lms:lms-canvas-viewem:5.0.1/dependencies/org/projectlombok/lombok/1.18.20/lombok-1.18.20.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import javax.persistence.Id;",
+      "artifact" : {
+        "artifact" : "jakarta.persistence:jakarta.persistence-api:2.2.3",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/edu.iu.uits.lms:lms-canvas-viewem:5.0.1/dependencies/jakarta/persistence/jakarta.persistence-api/2.2.3/jakarta.persistence-api-2.2.3.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import javax.persistence.GeneratedValue;",
+      "artifact" : {
+        "artifact" : "jakarta.persistence:jakarta.persistence-api:2.2.3",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/edu.iu.uits.lms:lms-canvas-viewem:5.0.1/dependencies/jakarta/persistence/jakarta.persistence-api/2.2.3/jakarta.persistence-api-2.2.3.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import javax.persistence.Column;",
+      "artifact" : {
+        "artifact" : "jakarta.persistence:jakarta.persistence-api:2.2.3",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/edu.iu.uits.lms:lms-canvas-viewem:5.0.1/dependencies/jakarta/persistence/jakarta.persistence-api/2.2.3/jakarta.persistence-api-2.2.3.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import lombok.NonNull;",
+      "artifact" : {
+        "artifact" : "org.projectlombok:lombok:1.18.20",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/edu.iu.uits.lms:lms-canvas-viewem:5.0.1/dependencies/org/projectlombok/lombok/1.18.20/lombok-1.18.20.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.List;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import javax.persistence.OneToMany;",
+      "artifact" : {
+        "artifact" : "jakarta.persistence:jakarta.persistence-api:2.2.3",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/edu.iu.uits.lms:lms-canvas-viewem:5.0.1/dependencies/jakarta/persistence/jakarta.persistence-api/2.2.3/jakarta.persistence-api-2.2.3.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import javax.persistence.CascadeType;",
+      "artifact" : {
+        "artifact" : "jakarta.persistence:jakarta.persistence-api:2.2.3",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/edu.iu.uits.lms:lms-canvas-viewem:5.0.1/dependencies/jakarta/persistence/jakarta.persistence-api/2.2.3/jakarta.persistence-api-2.2.3.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import javax.persistence.FetchType;",
+      "artifact" : {
+        "artifact" : "jakarta.persistence:jakarta.persistence-api:2.2.3",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/edu.iu.uits.lms:lms-canvas-viewem:5.0.1/dependencies/jakarta/persistence/jakarta.persistence-api/2.2.3/jakarta.persistence-api-2.2.3.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import javax.persistence.OrderColumn;",
+      "artifact" : {
+        "artifact" : "jakarta.persistence:jakarta.persistence-api:2.2.3",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/edu.iu.uits.lms:lms-canvas-viewem:5.0.1/dependencies/jakarta/persistence/jakarta.persistence-api/2.2.3/jakarta.persistence-api-2.2.3.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import javax.persistence.ManyToOne;",
+      "artifact" : {
+        "artifact" : "jakarta.persistence:jakarta.persistence-api:2.2.3",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/edu.iu.uits.lms:lms-canvas-viewem:5.0.1/dependencies/jakarta/persistence/jakarta.persistence-api/2.2.3/jakarta.persistence-api-2.2.3.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import javax.persistence.JoinColumn;",
+      "artifact" : {
+        "artifact" : "jakarta.persistence:jakarta.persistence-api:2.2.3",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/edu.iu.uits.lms:lms-canvas-viewem:5.0.1/dependencies/jakarta/persistence/jakarta.persistence-api/2.2.3/jakarta.persistence-api-2.2.3.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.ArrayList;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ {
+      "importPath" : "/*-\n * #%L\n * lms-canvas-viewem\n * %%\n * Copyright (C) 2015 - 2022 Indiana University\n * %%\n * Redistribution and use in source and binary forms, with or without modification,\n * are permitted provided that the following conditions are met:\n * \n * 1. Redistributions of source code must retain the above copyright notice, this\n *    list of conditions and the following disclaimer.\n * \n * 2. Redistributions in binary form must reproduce the above copyright notice,\n *    this list of conditions and the following disclaimer in the documentation\n *    and/or other materials provided with the distribution.\n * \n * 3. Neither the name of the Indiana University nor the names of its contributors\n *    may be used to endorse or promote products derived from this software without\n *    specific prior written permission.\n * \n * THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS \"AS IS\" AND\n * ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED\n * WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED.\n * IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT,\n * INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING,\n * BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE,\n * DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF\n * LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE\n * OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED\n * OF THE POSSIBILITY OF SUCH DAMAGE.\n * #L%\n */\nimport edu.iu.uits.lms.viewem.service.RestResource;"
+    } ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/edu.iu.uits.lms:lms-canvas-viewem/src/main/java/edu/iu/uits/lms/viewem/model/UserData.java",
+    "useImportReport" : [ {
+      "importPath" : "import javax.persistence.Entity;",
+      "artifact" : {
+        "artifact" : "jakarta.persistence:jakarta.persistence-api:2.2.3",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/edu.iu.uits.lms:lms-canvas-viewem:5.0.1/dependencies/jakarta/persistence/jakarta.persistence-api/2.2.3/jakarta.persistence-api-2.2.3.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import javax.persistence.Table;",
+      "artifact" : {
+        "artifact" : "jakarta.persistence:jakarta.persistence-api:2.2.3",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/edu.iu.uits.lms:lms-canvas-viewem:5.0.1/dependencies/jakarta/persistence/jakarta.persistence-api/2.2.3/jakarta.persistence-api-2.2.3.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import javax.persistence.SequenceGenerator;",
+      "artifact" : {
+        "artifact" : "jakarta.persistence:jakarta.persistence-api:2.2.3",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/edu.iu.uits.lms:lms-canvas-viewem:5.0.1/dependencies/jakarta/persistence/jakarta.persistence-api/2.2.3/jakarta.persistence-api-2.2.3.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import lombok.Data;",
+      "artifact" : {
+        "artifact" : "org.projectlombok:lombok:1.18.20",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/edu.iu.uits.lms:lms-canvas-viewem:5.0.1/dependencies/org/projectlombok/lombok/1.18.20/lombok-1.18.20.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import lombok.NoArgsConstructor;",
+      "artifact" : {
+        "artifact" : "org.projectlombok:lombok:1.18.20",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/edu.iu.uits.lms:lms-canvas-viewem:5.0.1/dependencies/org/projectlombok/lombok/1.18.20/lombok-1.18.20.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import lombok.RequiredArgsConstructor;",
+      "artifact" : {
+        "artifact" : "org.projectlombok:lombok:1.18.20",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/edu.iu.uits.lms:lms-canvas-viewem:5.0.1/dependencies/org/projectlombok/lombok/1.18.20/lombok-1.18.20.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import lombok.EqualsAndHashCode;",
+      "artifact" : {
+        "artifact" : "org.projectlombok:lombok:1.18.20",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/edu.iu.uits.lms:lms-canvas-viewem:5.0.1/dependencies/org/projectlombok/lombok/1.18.20/lombok-1.18.20.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import lombok.ToString;",
+      "artifact" : {
+        "artifact" : "org.projectlombok:lombok:1.18.20",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/edu.iu.uits.lms:lms-canvas-viewem:5.0.1/dependencies/org/projectlombok/lombok/1.18.20/lombok-1.18.20.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import javax.persistence.Id;",
+      "artifact" : {
+        "artifact" : "jakarta.persistence:jakarta.persistence-api:2.2.3",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/edu.iu.uits.lms:lms-canvas-viewem:5.0.1/dependencies/jakarta/persistence/jakarta.persistence-api/2.2.3/jakarta.persistence-api-2.2.3.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import javax.persistence.GeneratedValue;",
+      "artifact" : {
+        "artifact" : "jakarta.persistence:jakarta.persistence-api:2.2.3",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/edu.iu.uits.lms:lms-canvas-viewem:5.0.1/dependencies/jakarta/persistence/jakarta.persistence-api/2.2.3/jakarta.persistence-api-2.2.3.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import javax.persistence.Column;",
+      "artifact" : {
+        "artifact" : "jakarta.persistence:jakarta.persistence-api:2.2.3",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/edu.iu.uits.lms:lms-canvas-viewem:5.0.1/dependencies/jakarta/persistence/jakarta.persistence-api/2.2.3/jakarta.persistence-api-2.2.3.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import lombok.NonNull;",
+      "artifact" : {
+        "artifact" : "org.projectlombok:lombok:1.18.20",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/edu.iu.uits.lms:lms-canvas-viewem:5.0.1/dependencies/org/projectlombok/lombok/1.18.20/lombok-1.18.20.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import javax.persistence.ManyToOne;",
+      "artifact" : {
+        "artifact" : "jakarta.persistence:jakarta.persistence-api:2.2.3",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/edu.iu.uits.lms:lms-canvas-viewem:5.0.1/dependencies/jakarta/persistence/jakarta.persistence-api/2.2.3/jakarta.persistence-api-2.2.3.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import javax.persistence.FetchType;",
+      "artifact" : {
+        "artifact" : "jakarta.persistence:jakarta.persistence-api:2.2.3",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/edu.iu.uits.lms:lms-canvas-viewem:5.0.1/dependencies/jakarta/persistence/jakarta.persistence-api/2.2.3/jakarta.persistence-api-2.2.3.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import javax.persistence.JoinColumn;",
+      "artifact" : {
+        "artifact" : "jakarta.persistence:jakarta.persistence-api:2.2.3",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/edu.iu.uits.lms:lms-canvas-viewem:5.0.1/dependencies/jakarta/persistence/jakarta.persistence-api/2.2.3/jakarta.persistence-api-2.2.3.jar"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ {
+      "importPath" : "/*-\n * #%L\n * lms-canvas-viewem\n * %%\n * Copyright (C) 2015 - 2022 Indiana University\n * %%\n * Redistribution and use in source and binary forms, with or without modification,\n * are permitted provided that the following conditions are met:\n * \n * 1. Redistributions of source code must retain the above copyright notice, this\n *    list of conditions and the following disclaimer.\n * \n * 2. Redistributions in binary form must reproduce the above copyright notice,\n *    this list of conditions and the following disclaimer in the documentation\n *    and/or other materials provided with the distribution.\n * \n * 3. Neither the name of the Indiana University nor the names of its contributors\n *    may be used to endorse or promote products derived from this software without\n *    specific prior written permission.\n * \n * THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS \"AS IS\" AND\n * ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED\n * WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED.\n * IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT,\n * INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING,\n * BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE,\n * DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF\n * LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE\n * OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED\n * OF THE POSSIBILITY OF SUCH DAMAGE.\n * #L%\n */\nimport edu.iu.uits.lms.viewem.service.RestResource;"
+    } ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/edu.iu.uits.lms:lms-canvas-viewem/src/main/java/edu/iu/uits/lms/viewem/model/Sheet.java",
+    "useImportReport" : [ {
+      "importPath" : "import javax.persistence.Entity;",
+      "artifact" : {
+        "artifact" : "jakarta.persistence:jakarta.persistence-api:2.2.3",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/edu.iu.uits.lms:lms-canvas-viewem:5.0.1/dependencies/jakarta/persistence/jakarta.persistence-api/2.2.3/jakarta.persistence-api-2.2.3.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import javax.persistence.Table;",
+      "artifact" : {
+        "artifact" : "jakarta.persistence:jakarta.persistence-api:2.2.3",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/edu.iu.uits.lms:lms-canvas-viewem:5.0.1/dependencies/jakarta/persistence/jakarta.persistence-api/2.2.3/jakarta.persistence-api-2.2.3.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import javax.persistence.NamedQueries;",
+      "artifact" : {
+        "artifact" : "jakarta.persistence:jakarta.persistence-api:2.2.3",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/edu.iu.uits.lms:lms-canvas-viewem:5.0.1/dependencies/jakarta/persistence/jakarta.persistence-api/2.2.3/jakarta.persistence-api-2.2.3.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import javax.persistence.NamedQuery;",
+      "artifact" : {
+        "artifact" : "jakarta.persistence:jakarta.persistence-api:2.2.3",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/edu.iu.uits.lms:lms-canvas-viewem:5.0.1/dependencies/jakarta/persistence/jakarta.persistence-api/2.2.3/jakarta.persistence-api-2.2.3.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import javax.persistence.SequenceGenerator;",
+      "artifact" : {
+        "artifact" : "jakarta.persistence:jakarta.persistence-api:2.2.3",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/edu.iu.uits.lms:lms-canvas-viewem:5.0.1/dependencies/jakarta/persistence/jakarta.persistence-api/2.2.3/jakarta.persistence-api-2.2.3.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import lombok.NoArgsConstructor;",
+      "artifact" : {
+        "artifact" : "org.projectlombok:lombok:1.18.20",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/edu.iu.uits.lms:lms-canvas-viewem:5.0.1/dependencies/org/projectlombok/lombok/1.18.20/lombok-1.18.20.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import lombok.RequiredArgsConstructor;",
+      "artifact" : {
+        "artifact" : "org.projectlombok:lombok:1.18.20",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/edu.iu.uits.lms:lms-canvas-viewem:5.0.1/dependencies/org/projectlombok/lombok/1.18.20/lombok-1.18.20.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import javax.persistence.Id;",
+      "artifact" : {
+        "artifact" : "jakarta.persistence:jakarta.persistence-api:2.2.3",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/edu.iu.uits.lms:lms-canvas-viewem:5.0.1/dependencies/jakarta/persistence/jakarta.persistence-api/2.2.3/jakarta.persistence-api-2.2.3.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import javax.persistence.GeneratedValue;",
+      "artifact" : {
+        "artifact" : "jakarta.persistence:jakarta.persistence-api:2.2.3",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/edu.iu.uits.lms:lms-canvas-viewem:5.0.1/dependencies/jakarta/persistence/jakarta.persistence-api/2.2.3/jakarta.persistence-api-2.2.3.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import javax.persistence.Column;",
+      "artifact" : {
+        "artifact" : "jakarta.persistence:jakarta.persistence-api:2.2.3",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/edu.iu.uits.lms:lms-canvas-viewem:5.0.1/dependencies/jakarta/persistence/jakarta.persistence-api/2.2.3/jakarta.persistence-api-2.2.3.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import lombok.NonNull;",
+      "artifact" : {
+        "artifact" : "org.projectlombok:lombok:1.18.20",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/edu.iu.uits.lms:lms-canvas-viewem:5.0.1/dependencies/org/projectlombok/lombok/1.18.20/lombok-1.18.20.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.List;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import javax.persistence.OneToMany;",
+      "artifact" : {
+        "artifact" : "jakarta.persistence:jakarta.persistence-api:2.2.3",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/edu.iu.uits.lms:lms-canvas-viewem:5.0.1/dependencies/jakarta/persistence/jakarta.persistence-api/2.2.3/jakarta.persistence-api-2.2.3.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import javax.persistence.CascadeType;",
+      "artifact" : {
+        "artifact" : "jakarta.persistence:jakarta.persistence-api:2.2.3",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/edu.iu.uits.lms:lms-canvas-viewem:5.0.1/dependencies/jakarta/persistence/jakarta.persistence-api/2.2.3/jakarta.persistence-api-2.2.3.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import javax.persistence.FetchType;",
+      "artifact" : {
+        "artifact" : "jakarta.persistence:jakarta.persistence-api:2.2.3",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/edu.iu.uits.lms:lms-canvas-viewem:5.0.1/dependencies/jakarta/persistence/jakarta.persistence-api/2.2.3/jakarta.persistence-api-2.2.3.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import javax.persistence.OrderColumn;",
+      "artifact" : {
+        "artifact" : "jakarta.persistence:jakarta.persistence-api:2.2.3",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/edu.iu.uits.lms:lms-canvas-viewem:5.0.1/dependencies/jakarta/persistence/jakarta.persistence-api/2.2.3/jakarta.persistence-api-2.2.3.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.ArrayList;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ {
+      "importPath" : "/*-\n * #%L\n * lms-canvas-viewem\n * %%\n * Copyright (C) 2015 - 2022 Indiana University\n * %%\n * Redistribution and use in source and binary forms, with or without modification,\n * are permitted provided that the following conditions are met:\n * \n * 1. Redistributions of source code must retain the above copyright notice, this\n *    list of conditions and the following disclaimer.\n * \n * 2. Redistributions in binary form must reproduce the above copyright notice,\n *    this list of conditions and the following disclaimer in the documentation\n *    and/or other materials provided with the distribution.\n * \n * 3. Neither the name of the Indiana University nor the names of its contributors\n *    may be used to endorse or promote products derived from this software without\n *    specific prior written permission.\n * \n * THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS \"AS IS\" AND\n * ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED\n * WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED.\n * IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT,\n * INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING,\n * BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE,\n * DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF\n * LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE\n * OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED\n * OF THE POSSIBILITY OF SUCH DAMAGE.\n * #L%\n */\nimport lombok.Data;"
+    } ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/edu.iu.uits.lms:lms-canvas-viewem/src/main/java/edu/iu/uits/lms/viewem/service/SystemUserService.java",
+    "useImportReport" : [ {
+      "importPath" : "import org.springframework.stereotype.Service;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-context:5.3.9",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/edu.iu.uits.lms:lms-canvas-viewem:5.0.1/dependencies/org/springframework/spring-context/5.3.9/spring-context-5.3.9.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import lombok.extern.slf4j.Slf4j;",
+      "artifact" : {
+        "artifact" : "org.projectlombok:lombok:1.18.20",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/edu.iu.uits.lms:lms-canvas-viewem:5.0.1/dependencies/org/projectlombok/lombok/1.18.20/lombok-1.18.20.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.springframework.beans.factory.annotation.Autowired;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-beans:5.3.9",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/edu.iu.uits.lms:lms-canvas-viewem:5.0.1/dependencies/org/springframework/spring-beans/5.3.9/spring-beans-5.3.9.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.List;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.ArrayList;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.Map;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.HashMap;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ {
+      "importPath" : "/*-\n * #%L\n * lms-canvas-viewem\n * %%\n * Copyright (C) 2015 - 2022 Indiana University\n * %%\n * Redistribution and use in source and binary forms, with or without modification,\n * are permitted provided that the following conditions are met:\n * \n * 1. Redistributions of source code must retain the above copyright notice, this\n *    list of conditions and the following disclaimer.\n * \n * 2. Redistributions in binary form must reproduce the above copyright notice,\n *    this list of conditions and the following disclaimer in the documentation\n *    and/or other materials provided with the distribution.\n * \n * 3. Neither the name of the Indiana University nor the names of its contributors\n *    may be used to endorse or promote products derived from this software without\n *    specific prior written permission.\n * \n * THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS \"AS IS\" AND\n * ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED\n * WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED.\n * IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT,\n * INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING,\n * BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE,\n * DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF\n * LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE\n * OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED\n * OF THE POSSIBILITY OF SUCH DAMAGE.\n * #L%\n */\nimport edu.iu.uits.lms.canvas.model.User;"
+    }, {
+      "importPath" : "import edu.iu.uits.lms.viewem.model.SystemUser;"
+    }, {
+      "importPath" : "import edu.iu.uits.lms.viewem.repository.SystemUserRepository;"
+    } ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/edu.iu.uits.lms:lms-canvas-viewem/src/main/java/edu/iu/uits/lms/viewem/service/ViewemConstants.java",
+    "useImportReport" : [ ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/edu.iu.uits.lms:lms-canvas-viewem/src/main/java/edu/iu/uits/lms/viewem/service/ViewemService.java",
+    "useImportReport" : [ {
+      "importPath" : "import org.springframework.stereotype.Service;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-context:5.3.9",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/edu.iu.uits.lms:lms-canvas-viewem:5.0.1/dependencies/org/springframework/spring-context/5.3.9/spring-context-5.3.9.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import lombok.extern.slf4j.Slf4j;",
+      "artifact" : {
+        "artifact" : "org.projectlombok:lombok:1.18.20",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/edu.iu.uits.lms:lms-canvas-viewem:5.0.1/dependencies/org/projectlombok/lombok/1.18.20/lombok-1.18.20.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.springframework.beans.factory.annotation.Autowired;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-beans:5.3.9",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/edu.iu.uits.lms:lms-canvas-viewem:5.0.1/dependencies/org/springframework/spring-beans/5.3.9/spring-beans-5.3.9.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.springframework.context.support.ResourceBundleMessageSource;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-context:5.3.9",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/edu.iu.uits.lms:lms-canvas-viewem:5.0.1/dependencies/org/springframework/spring-context/5.3.9/spring-context-5.3.9.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.apache.commons.fileupload.FileUploadException;",
+      "artifact" : {
+        "artifact" : "commons-fileupload:commons-fileupload:1.4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/edu.iu.uits.lms:lms-canvas-viewem:5.0.1/dependencies/commons-fileupload/commons-fileupload/1.4/commons-fileupload-1.4.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import java.io.InputStream;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.List;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.io.InputStreamReader;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.ArrayList;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.io.IOException;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.opencsv.exceptions.CsvException;",
+      "artifact" : {
+        "artifact" : "com.opencsv:opencsv:5.3",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/edu.iu.uits.lms:lms-canvas-viewem:5.0.1/dependencies/com/opencsv/opencsv/5.3/opencsv-5.3.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.springframework.web.multipart.MultipartFile;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-web:5.3.9",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/edu.iu.uits.lms:lms-canvas-viewem:5.0.1/dependencies/org/springframework/spring-web/5.3.9/spring-web-5.3.9.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.apache.commons.io.FilenameUtils;",
+      "artifact" : {
+        "artifact" : "commons-io:commons-io:2.8.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/edu.iu.uits.lms:lms-canvas-viewem:5.0.1/dependencies/commons-io/commons-io/2.8.0/commons-io-2.8.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import java.util.Locale;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ {
+      "importPath" : "/*-\n * #%L\n * lms-canvas-viewem\n * %%\n * Copyright (C) 2015 - 2022 Indiana University\n * %%\n * Redistribution and use in source and binary forms, with or without modification,\n * are permitted provided that the following conditions are met:\n * \n * 1. Redistributions of source code must retain the above copyright notice, this\n *    list of conditions and the following disclaimer.\n * \n * 2. Redistributions in binary form must reproduce the above copyright notice,\n *    this list of conditions and the following disclaimer in the documentation\n *    and/or other materials provided with the distribution.\n * \n * 3. Neither the name of the Indiana University nor the names of its contributors\n *    may be used to endorse or promote products derived from this software without\n *    specific prior written permission.\n * \n * THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS \"AS IS\" AND\n * ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED\n * WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED.\n * IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT,\n * INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING,\n * BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE,\n * DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF\n * LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE\n * OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED\n * OF THE POSSIBILITY OF SUCH DAMAGE.\n * #L%\n */\nimport com.opencsv.CSVReader;"
+    }, {
+      "importPath" : "import edu.iu.uits.lms.viewem.controller.DataTooBigException;"
+    }, {
+      "importPath" : "import edu.iu.uits.lms.viewem.model.Sheet;"
+    }, {
+      "importPath" : "import edu.iu.uits.lms.viewem.model.SheetColumn;"
+    }, {
+      "importPath" : "import edu.iu.uits.lms.viewem.model.SheetUser;"
+    }, {
+      "importPath" : "import edu.iu.uits.lms.viewem.model.UserData;"
+    }, {
+      "importPath" : "import edu.iu.uits.lms.viewem.repository.SheetRepository;"
+    }, {
+      "importPath" : "import edu.iu.uits.lms.viewem.repository.SheetUserRepository;"
+    } ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/edu.iu.uits.lms:lms-canvas-viewem/src/main/java/edu/iu/uits/lms/viewem/service/SheetExclusionStrategy.java",
+    "useImportReport" : [ {
+      "importPath" : "import com.google.gson.FieldAttributes;",
+      "artifact" : {
+        "artifact" : "com.google.code.gson:gson:2.8.7",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/edu.iu.uits.lms:lms-canvas-viewem:5.0.1/dependencies/com/google/code/gson/gson/2.8.7/gson-2.8.7.jar"
+      },
+      "isDirectDependency" : true
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ {
+      "importPath" : "/*-\n * #%L\n * lms-canvas-viewem\n * %%\n * Copyright (C) 2015 - 2022 Indiana University\n * %%\n * Redistribution and use in source and binary forms, with or without modification,\n * are permitted provided that the following conditions are met:\n * \n * 1. Redistributions of source code must retain the above copyright notice, this\n *    list of conditions and the following disclaimer.\n * \n * 2. Redistributions in binary form must reproduce the above copyright notice,\n *    this list of conditions and the following disclaimer in the documentation\n *    and/or other materials provided with the distribution.\n * \n * 3. Neither the name of the Indiana University nor the names of its contributors\n *    may be used to endorse or promote products derived from this software without\n *    specific prior written permission.\n * \n * THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS \"AS IS\" AND\n * ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED\n * WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED.\n * IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT,\n * INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING,\n * BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE,\n * DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF\n * LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE\n * OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED\n * OF THE POSSIBILITY OF SUCH DAMAGE.\n * #L%\n */\nimport com.google.gson.ExclusionStrategy;"
+    } ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/edu.iu.uits.lms:lms-canvas-viewem/src/main/java/edu/iu/uits/lms/viewem/service/RestResource.java",
+    "useImportReport" : [ {
+      "importPath" : "import java.lang.annotation.Target;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.lang.annotation.Retention;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.lang.annotation.RetentionPolicy;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.lang.annotation.Inherited;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ {
+      "importPath" : "/*-\n * #%L\n * lms-canvas-viewem\n * %%\n * Copyright (C) 2015 - 2022 Indiana University\n * %%\n * Redistribution and use in source and binary forms, with or without modification,\n * are permitted provided that the following conditions are met:\n * \n * 1. Redistributions of source code must retain the above copyright notice, this\n *    list of conditions and the following disclaimer.\n * \n * 2. Redistributions in binary form must reproduce the above copyright notice,\n *    this list of conditions and the following disclaimer in the documentation\n *    and/or other materials provided with the distribution.\n * \n * 3. Neither the name of the Indiana University nor the names of its contributors\n *    may be used to endorse or promote products derived from this software without\n *    specific prior written permission.\n * \n * THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS \"AS IS\" AND\n * ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED\n * WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED.\n * IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT,\n * INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING,\n * BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE,\n * DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF\n * LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE\n * OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED\n * OF THE POSSIBILITY OF SUCH DAMAGE.\n * #L%\n */\nimport java.lang.annotation.ElementType;"
+    } ]
+  } ],
+  "projectUseDependencies" : [ {
+    "artifact" : "edu.iu.uits.lms:lms-canvas-lti-framework:5.1.9",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/edu.iu.uits.lms:lms-canvas-viewem:5.0.1/dependencies/edu/iu/uits/lms/lms-canvas-lti-framework/5.1.9/lms-canvas-lti-framework-5.1.9.jar"
+  }, {
+    "artifact" : "edu.iu.uits.lms:lms-canvas-redis-config:5.0.7",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/edu.iu.uits.lms:lms-canvas-viewem:5.0.1/dependencies/edu/iu/uits/lms/lms-canvas-redis-config/5.0.7/lms-canvas-redis-config-5.0.7.jar"
+  }, {
+    "artifact" : "edu.iu.uits.lms:lms-canvas-common-configuration:5.0.3",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/edu.iu.uits.lms:lms-canvas-viewem:5.0.1/dependencies/edu/iu/uits/lms/lms-canvas-common-configuration/5.0.3/lms-canvas-common-configuration-5.0.3.jar"
+  }, {
+    "artifact" : "edu.iu.uits.lms:lms-canvas-services:5.0.7",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/edu.iu.uits.lms:lms-canvas-viewem:5.0.1/dependencies/edu/iu/uits/lms/lms-canvas-services/5.0.7/lms-canvas-services-5.0.7.jar"
+  }, {
+    "artifact" : "com.google.code.gson:gson:2.8.7",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/edu.iu.uits.lms:lms-canvas-viewem:5.0.1/dependencies/com/google/code/gson/gson/2.8.7/gson-2.8.7.jar"
+  }, {
+    "artifact" : "commons-fileupload:commons-fileupload:1.4",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/edu.iu.uits.lms:lms-canvas-viewem:5.0.1/dependencies/commons-fileupload/commons-fileupload/1.4/commons-fileupload-1.4.jar"
+  }, {
+    "artifact" : "com.opencsv:opencsv:5.3",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/edu.iu.uits.lms:lms-canvas-viewem:5.0.1/dependencies/com/opencsv/opencsv/5.3/opencsv-5.3.jar"
+  }, {
+    "artifact" : "commons-io:commons-io:2.8.0",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/edu.iu.uits.lms:lms-canvas-viewem:5.0.1/dependencies/commons-io/commons-io/2.8.0/commons-io-2.8.0.jar"
+  }, {
+    "artifact" : "org.hibernate:hibernate-core:5.4.32.Final",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/edu.iu.uits.lms:lms-canvas-viewem:5.0.1/dependencies/org/hibernate/hibernate-core/5.4.32.Final/hibernate-core-5.4.32.Final.jar"
+  } ],
+  "projectUseTransitiveDependencies" : [ {
+    "artifact" : "org.springframework.boot:spring-boot-starter-data-jpa:2.5.4",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/edu.iu.uits.lms:lms-canvas-viewem:5.0.1/dependencies/org/springframework/boot/spring-boot-starter-data-jpa/2.5.4/spring-boot-starter-data-jpa-2.5.4.jar"
+  }, {
+    "artifact" : "org.springframework.boot:spring-boot-starter-web:2.5.4",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/edu.iu.uits.lms:lms-canvas-viewem:5.0.1/dependencies/org/springframework/boot/spring-boot-starter-web/2.5.4/spring-boot-starter-web-2.5.4.jar"
+  }, {
+    "artifact" : "org.springframework.boot:spring-boot-starter-actuator:2.5.4",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/edu.iu.uits.lms:lms-canvas-viewem:5.0.1/dependencies/org/springframework/boot/spring-boot-starter-actuator/2.5.4/spring-boot-starter-actuator-2.5.4.jar"
+  }, {
+    "artifact" : "org.springframework.boot:spring-boot-starter-oauth2-resource-server:2.5.4",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/edu.iu.uits.lms:lms-canvas-viewem:5.0.1/dependencies/org/springframework/boot/spring-boot-starter-oauth2-resource-server/2.5.4/spring-boot-starter-oauth2-resource-server-2.5.4.jar"
+  }, {
+    "artifact" : "org.springframework.boot:spring-boot-starter-oauth2-client:2.5.4",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/edu.iu.uits.lms:lms-canvas-viewem:5.0.1/dependencies/org/springframework/boot/spring-boot-starter-oauth2-client/2.5.4/spring-boot-starter-oauth2-client-2.5.4.jar"
+  }, {
+    "artifact" : "org.springframework.boot:spring-boot-starter-test:2.5.4",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/edu.iu.uits.lms:lms-canvas-viewem:5.0.1/dependencies/org/springframework/boot/spring-boot-starter-test/2.5.4/spring-boot-starter-test-2.5.4.jar"
+  }, {
+    "artifact" : "org.springframework.boot:spring-boot-starter-security:2.5.4",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/edu.iu.uits.lms:lms-canvas-viewem:5.0.1/dependencies/org/springframework/boot/spring-boot-starter-security/2.5.4/spring-boot-starter-security-2.5.4.jar"
+  }, {
+    "artifact" : "org.springframework.boot:spring-boot-starter-data-jpa:2.5.4",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/edu.iu.uits.lms:lms-canvas-viewem:5.0.1/dependencies/org/springframework/boot/spring-boot-starter-data-jpa/2.5.4/spring-boot-starter-data-jpa-2.5.4.jar"
+  }, {
+    "artifact" : "org.springframework.security:spring-security-test:5.5.2",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/edu.iu.uits.lms:lms-canvas-viewem:5.0.1/dependencies/org/springframework/security/spring-security-test/5.5.2/spring-security-test-5.5.2.jar"
+  }, {
+    "artifact" : "org.springframework.boot:spring-boot-starter-data-jpa:2.5.4",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/edu.iu.uits.lms:lms-canvas-viewem:5.0.1/dependencies/org/springframework/boot/spring-boot-starter-data-jpa/2.5.4/spring-boot-starter-data-jpa-2.5.4.jar"
+  }, {
+    "artifact" : "org.springframework.cloud:spring-cloud-starter-vault-config:3.0.5",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/edu.iu.uits.lms:lms-canvas-viewem:5.0.1/dependencies/org/springframework/cloud/spring-cloud-starter-vault-config/3.0.5/spring-cloud-starter-vault-config-3.0.5.jar"
+  }, {
+    "artifact" : "org.springframework.boot:spring-boot-starter-web:2.5.4",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/edu.iu.uits.lms:lms-canvas-viewem:5.0.1/dependencies/org/springframework/boot/spring-boot-starter-web/2.5.4/spring-boot-starter-web-2.5.4.jar"
+  }, {
+    "artifact" : "org.springframework.boot:spring-boot-starter-actuator:2.5.4",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/edu.iu.uits.lms:lms-canvas-viewem:5.0.1/dependencies/org/springframework/boot/spring-boot-starter-actuator/2.5.4/spring-boot-starter-actuator-2.5.4.jar"
+  }, {
+    "artifact" : "org.springframework.boot:spring-boot-starter-oauth2-resource-server:2.5.4",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/edu.iu.uits.lms:lms-canvas-viewem:5.0.1/dependencies/org/springframework/boot/spring-boot-starter-oauth2-resource-server/2.5.4/spring-boot-starter-oauth2-resource-server-2.5.4.jar"
+  }, {
+    "artifact" : "org.springframework.boot:spring-boot-starter-oauth2-client:2.5.4",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/edu.iu.uits.lms:lms-canvas-viewem:5.0.1/dependencies/org/springframework/boot/spring-boot-starter-oauth2-client/2.5.4/spring-boot-starter-oauth2-client-2.5.4.jar"
+  }, {
+    "artifact" : "org.springframework.boot:spring-boot-starter-test:2.5.4",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/edu.iu.uits.lms:lms-canvas-viewem:5.0.1/dependencies/org/springframework/boot/spring-boot-starter-test/2.5.4/spring-boot-starter-test-2.5.4.jar"
+  }, {
+    "artifact" : "org.springframework.boot:spring-boot-starter-thymeleaf:2.5.4",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/edu.iu.uits.lms:lms-canvas-viewem:5.0.1/dependencies/org/springframework/boot/spring-boot-starter-thymeleaf/2.5.4/spring-boot-starter-thymeleaf-2.5.4.jar"
+  }, {
+    "artifact" : "org.springframework.boot:spring-boot-starter-security:2.5.4",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/edu.iu.uits.lms:lms-canvas-viewem:5.0.1/dependencies/org/springframework/boot/spring-boot-starter-security/2.5.4/spring-boot-starter-security-2.5.4.jar"
+  }, {
+    "artifact" : "org.springframework.boot:spring-boot-starter-data-jpa:2.5.4",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/edu.iu.uits.lms:lms-canvas-viewem:5.0.1/dependencies/org/springframework/boot/spring-boot-starter-data-jpa/2.5.4/spring-boot-starter-data-jpa-2.5.4.jar"
+  }, {
+    "artifact" : "org.springframework.boot:spring-boot-starter-web:2.5.4",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/edu.iu.uits.lms:lms-canvas-viewem:5.0.1/dependencies/org/springframework/boot/spring-boot-starter-web/2.5.4/spring-boot-starter-web-2.5.4.jar"
+  }, {
+    "artifact" : "org.springframework.boot:spring-boot-starter-actuator:2.5.4",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/edu.iu.uits.lms:lms-canvas-viewem:5.0.1/dependencies/org/springframework/boot/spring-boot-starter-actuator/2.5.4/spring-boot-starter-actuator-2.5.4.jar"
+  }, {
+    "artifact" : "org.springframework.boot:spring-boot-starter-oauth2-resource-server:2.5.4",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/edu.iu.uits.lms:lms-canvas-viewem:5.0.1/dependencies/org/springframework/boot/spring-boot-starter-oauth2-resource-server/2.5.4/spring-boot-starter-oauth2-resource-server-2.5.4.jar"
+  }, {
+    "artifact" : "org.springframework.boot:spring-boot-starter-oauth2-client:2.5.4",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/edu.iu.uits.lms:lms-canvas-viewem:5.0.1/dependencies/org/springframework/boot/spring-boot-starter-oauth2-client/2.5.4/spring-boot-starter-oauth2-client-2.5.4.jar"
+  }, {
+    "artifact" : "org.springframework.boot:spring-boot-starter-test:2.5.4",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/edu.iu.uits.lms:lms-canvas-viewem:5.0.1/dependencies/org/springframework/boot/spring-boot-starter-test/2.5.4/spring-boot-starter-test-2.5.4.jar"
+  }, {
+    "artifact" : "org.springframework.boot:spring-boot-starter-thymeleaf:2.5.4",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/edu.iu.uits.lms:lms-canvas-viewem:5.0.1/dependencies/org/springframework/boot/spring-boot-starter-thymeleaf/2.5.4/spring-boot-starter-thymeleaf-2.5.4.jar"
+  }, {
+    "artifact" : "org.springframework.boot:spring-boot-starter-security:2.5.4",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/edu.iu.uits.lms:lms-canvas-viewem:5.0.1/dependencies/org/springframework/boot/spring-boot-starter-security/2.5.4/spring-boot-starter-security-2.5.4.jar"
+  }, {
+    "artifact" : "org.springframework.boot:spring-boot-starter-data-jpa:2.5.4",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/edu.iu.uits.lms:lms-canvas-viewem:5.0.1/dependencies/org/springframework/boot/spring-boot-starter-data-jpa/2.5.4/spring-boot-starter-data-jpa-2.5.4.jar"
+  }, {
+    "artifact" : "org.springframework.boot:spring-boot-starter-web:2.5.4",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/edu.iu.uits.lms:lms-canvas-viewem:5.0.1/dependencies/org/springframework/boot/spring-boot-starter-web/2.5.4/spring-boot-starter-web-2.5.4.jar"
+  }, {
+    "artifact" : "org.springframework.boot:spring-boot-starter-oauth2-resource-server:2.5.4",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/edu.iu.uits.lms:lms-canvas-viewem:5.0.1/dependencies/org/springframework/boot/spring-boot-starter-oauth2-resource-server/2.5.4/spring-boot-starter-oauth2-resource-server-2.5.4.jar"
+  }, {
+    "artifact" : "org.springframework.boot:spring-boot-starter-oauth2-client:2.5.4",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/edu.iu.uits.lms:lms-canvas-viewem:5.0.1/dependencies/org/springframework/boot/spring-boot-starter-oauth2-client/2.5.4/spring-boot-starter-oauth2-client-2.5.4.jar"
+  }, {
+    "artifact" : "org.springframework.boot:spring-boot-starter-security:2.5.4",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/edu.iu.uits.lms:lms-canvas-viewem:5.0.1/dependencies/org/springframework/boot/spring-boot-starter-security/2.5.4/spring-boot-starter-security-2.5.4.jar"
+  }, {
+    "artifact" : "org.springframework.boot:spring-boot-starter-data-jpa:2.5.4",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/edu.iu.uits.lms:lms-canvas-viewem:5.0.1/dependencies/org/springframework/boot/spring-boot-starter-data-jpa/2.5.4/spring-boot-starter-data-jpa-2.5.4.jar"
+  }, {
+    "artifact" : "org.springframework.security:spring-security-test:5.5.2",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/edu.iu.uits.lms:lms-canvas-viewem:5.0.1/dependencies/org/springframework/security/spring-security-test/5.5.2/spring-security-test-5.5.2.jar"
+  }, {
+    "artifact" : "org.springframework.boot:spring-boot-starter-web:2.5.4",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/edu.iu.uits.lms:lms-canvas-viewem:5.0.1/dependencies/org/springframework/boot/spring-boot-starter-web/2.5.4/spring-boot-starter-web-2.5.4.jar"
+  }, {
+    "artifact" : "org.springframework.boot:spring-boot-starter-data-jpa:2.5.4",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/edu.iu.uits.lms:lms-canvas-viewem:5.0.1/dependencies/org/springframework/boot/spring-boot-starter-data-jpa/2.5.4/spring-boot-starter-data-jpa-2.5.4.jar"
+  }, {
+    "artifact" : "org.springframework.boot:spring-boot-starter-oauth2-resource-server:2.5.4",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/edu.iu.uits.lms:lms-canvas-viewem:5.0.1/dependencies/org/springframework/boot/spring-boot-starter-oauth2-resource-server/2.5.4/spring-boot-starter-oauth2-resource-server-2.5.4.jar"
+  }, {
+    "artifact" : "org.springframework.boot:spring-boot-starter-oauth2-client:2.5.4",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/edu.iu.uits.lms:lms-canvas-viewem:5.0.1/dependencies/org/springframework/boot/spring-boot-starter-oauth2-client/2.5.4/spring-boot-starter-oauth2-client-2.5.4.jar"
+  }, {
+    "artifact" : "org.springframework.boot:spring-boot-starter-security:2.5.4",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/edu.iu.uits.lms:lms-canvas-viewem:5.0.1/dependencies/org/springframework/boot/spring-boot-starter-security/2.5.4/spring-boot-starter-security-2.5.4.jar"
+  }, {
+    "artifact" : "org.springframework.boot:spring-boot-starter-data-jpa:2.5.4",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/edu.iu.uits.lms:lms-canvas-viewem:5.0.1/dependencies/org/springframework/boot/spring-boot-starter-data-jpa/2.5.4/spring-boot-starter-data-jpa-2.5.4.jar"
+  }, {
+    "artifact" : "org.springframework.boot:spring-boot-starter-data-jpa:2.5.4",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/edu.iu.uits.lms:lms-canvas-viewem:5.0.1/dependencies/org/springframework/boot/spring-boot-starter-data-jpa/2.5.4/spring-boot-starter-data-jpa-2.5.4.jar"
+  }, {
+    "artifact" : "org.springframework.boot:spring-boot-starter-data-jpa:2.5.4",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/edu.iu.uits.lms:lms-canvas-viewem:5.0.1/dependencies/org/springframework/boot/spring-boot-starter-data-jpa/2.5.4/spring-boot-starter-data-jpa-2.5.4.jar"
+  }, {
+    "artifact" : "org.springframework.boot:spring-boot-starter-web:2.5.4",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/edu.iu.uits.lms:lms-canvas-viewem:5.0.1/dependencies/org/springframework/boot/spring-boot-starter-web/2.5.4/spring-boot-starter-web-2.5.4.jar"
+  }, {
+    "artifact" : "org.springframework.boot:spring-boot-starter-actuator:2.5.4",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/edu.iu.uits.lms:lms-canvas-viewem:5.0.1/dependencies/org/springframework/boot/spring-boot-starter-actuator/2.5.4/spring-boot-starter-actuator-2.5.4.jar"
+  }, {
+    "artifact" : "org.springframework.boot:spring-boot-starter-oauth2-resource-server:2.5.4",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/edu.iu.uits.lms:lms-canvas-viewem:5.0.1/dependencies/org/springframework/boot/spring-boot-starter-oauth2-resource-server/2.5.4/spring-boot-starter-oauth2-resource-server-2.5.4.jar"
+  }, {
+    "artifact" : "org.springframework.boot:spring-boot-starter-oauth2-client:2.5.4",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/edu.iu.uits.lms:lms-canvas-viewem:5.0.1/dependencies/org/springframework/boot/spring-boot-starter-oauth2-client/2.5.4/spring-boot-starter-oauth2-client-2.5.4.jar"
+  }, {
+    "artifact" : "org.springframework.boot:spring-boot-starter-test:2.5.4",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/edu.iu.uits.lms:lms-canvas-viewem:5.0.1/dependencies/org/springframework/boot/spring-boot-starter-test/2.5.4/spring-boot-starter-test-2.5.4.jar"
+  }, {
+    "artifact" : "org.springframework.boot:spring-boot-starter-security:2.5.4",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/edu.iu.uits.lms:lms-canvas-viewem:5.0.1/dependencies/org/springframework/boot/spring-boot-starter-security/2.5.4/spring-boot-starter-security-2.5.4.jar"
+  }, {
+    "artifact" : "org.springframework.boot:spring-boot-starter-data-jpa:2.5.4",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/edu.iu.uits.lms:lms-canvas-viewem:5.0.1/dependencies/org/springframework/boot/spring-boot-starter-data-jpa/2.5.4/spring-boot-starter-data-jpa-2.5.4.jar"
+  }, {
+    "artifact" : "org.springframework.security:spring-security-test:5.5.2",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/edu.iu.uits.lms:lms-canvas-viewem:5.0.1/dependencies/org/springframework/security/spring-security-test/5.5.2/spring-security-test-5.5.2.jar"
+  }, {
+    "artifact" : "org.springframework.boot:spring-boot-starter-web:2.5.4",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/edu.iu.uits.lms:lms-canvas-viewem:5.0.1/dependencies/org/springframework/boot/spring-boot-starter-web/2.5.4/spring-boot-starter-web-2.5.4.jar"
+  }, {
+    "artifact" : "org.springframework.boot:spring-boot-starter-oauth2-resource-server:2.5.4",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/edu.iu.uits.lms:lms-canvas-viewem:5.0.1/dependencies/org/springframework/boot/spring-boot-starter-oauth2-resource-server/2.5.4/spring-boot-starter-oauth2-resource-server-2.5.4.jar"
+  }, {
+    "artifact" : "org.springframework.boot:spring-boot-starter-oauth2-client:2.5.4",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/edu.iu.uits.lms:lms-canvas-viewem:5.0.1/dependencies/org/springframework/boot/spring-boot-starter-oauth2-client/2.5.4/spring-boot-starter-oauth2-client-2.5.4.jar"
+  }, {
+    "artifact" : "org.springframework.boot:spring-boot-starter-security:2.5.4",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/edu.iu.uits.lms:lms-canvas-viewem:5.0.1/dependencies/org/springframework/boot/spring-boot-starter-security/2.5.4/spring-boot-starter-security-2.5.4.jar"
+  }, {
+    "artifact" : "org.springframework.boot:spring-boot-starter-data-jpa:2.5.4",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/edu.iu.uits.lms:lms-canvas-viewem:5.0.1/dependencies/org/springframework/boot/spring-boot-starter-data-jpa/2.5.4/spring-boot-starter-data-jpa-2.5.4.jar"
+  }, {
+    "artifact" : "org.springframework.security:spring-security-test:5.5.2",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/edu.iu.uits.lms:lms-canvas-viewem:5.0.1/dependencies/org/springframework/security/spring-security-test/5.5.2/spring-security-test-5.5.2.jar"
+  }, {
+    "artifact" : "org.springframework.boot:spring-boot-starter-oauth2-resource-server:2.5.4",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/edu.iu.uits.lms:lms-canvas-viewem:5.0.1/dependencies/org/springframework/boot/spring-boot-starter-oauth2-resource-server/2.5.4/spring-boot-starter-oauth2-resource-server-2.5.4.jar"
+  }, {
+    "artifact" : "org.springframework.boot:spring-boot-starter-oauth2-client:2.5.4",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/edu.iu.uits.lms:lms-canvas-viewem:5.0.1/dependencies/org/springframework/boot/spring-boot-starter-oauth2-client/2.5.4/spring-boot-starter-oauth2-client-2.5.4.jar"
+  }, {
+    "artifact" : "org.springframework.boot:spring-boot-starter-security:2.5.4",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/edu.iu.uits.lms:lms-canvas-viewem:5.0.1/dependencies/org/springframework/boot/spring-boot-starter-security/2.5.4/spring-boot-starter-security-2.5.4.jar"
+  }, {
+    "artifact" : "org.springframework.security:spring-security-test:5.5.2",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/edu.iu.uits.lms:lms-canvas-viewem:5.0.1/dependencies/org/springframework/security/spring-security-test/5.5.2/spring-security-test-5.5.2.jar"
+  }, {
+    "artifact" : "org.springframework.boot:spring-boot-starter-oauth2-resource-server:2.5.4",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/edu.iu.uits.lms:lms-canvas-viewem:5.0.1/dependencies/org/springframework/boot/spring-boot-starter-oauth2-resource-server/2.5.4/spring-boot-starter-oauth2-resource-server-2.5.4.jar"
+  }, {
+    "artifact" : "org.springframework.boot:spring-boot-starter-oauth2-client:2.5.4",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/edu.iu.uits.lms:lms-canvas-viewem:5.0.1/dependencies/org/springframework/boot/spring-boot-starter-oauth2-client/2.5.4/spring-boot-starter-oauth2-client-2.5.4.jar"
+  }, {
+    "artifact" : "org.springframework.boot:spring-boot-starter-security:2.5.4",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/edu.iu.uits.lms:lms-canvas-viewem:5.0.1/dependencies/org/springframework/boot/spring-boot-starter-security/2.5.4/spring-boot-starter-security-2.5.4.jar"
+  }, {
+    "artifact" : "org.springframework.security:spring-security-test:5.5.2",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/edu.iu.uits.lms:lms-canvas-viewem:5.0.1/dependencies/org/springframework/security/spring-security-test/5.5.2/spring-security-test-5.5.2.jar"
+  }, {
+    "artifact" : "org.springframework.boot:spring-boot-starter-web:2.5.4",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/edu.iu.uits.lms:lms-canvas-viewem:5.0.1/dependencies/org/springframework/boot/spring-boot-starter-web/2.5.4/spring-boot-starter-web-2.5.4.jar"
+  }, {
+    "artifact" : "org.springframework.boot:spring-boot-starter-data-jpa:2.5.4",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/edu.iu.uits.lms:lms-canvas-viewem:5.0.1/dependencies/org/springframework/boot/spring-boot-starter-data-jpa/2.5.4/spring-boot-starter-data-jpa-2.5.4.jar"
+  }, {
+    "artifact" : "org.springframework.cloud:spring-cloud-starter-vault-config:3.0.5",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/edu.iu.uits.lms:lms-canvas-viewem:5.0.1/dependencies/org/springframework/cloud/spring-cloud-starter-vault-config/3.0.5/spring-cloud-starter-vault-config-3.0.5.jar"
+  }, {
+    "artifact" : "org.webjars:webjars-locator:0.42",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/edu.iu.uits.lms:lms-canvas-viewem:5.0.1/dependencies/org/webjars/webjars-locator/0.42/webjars-locator-0.42.jar"
+  } ],
+  "projectUnusedDependencies" : [ {
+    "artifact" : "org.thymeleaf.extras:thymeleaf-extras-springsecurity5:3.0.4.RELEASE",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/edu.iu.uits.lms:lms-canvas-viewem:5.0.1/dependencies/org/thymeleaf/extras/thymeleaf-extras-springsecurity5/3.0.4.RELEASE/thymeleaf-extras-springsecurity5-3.0.4.RELEASE.jar"
+  }, {
+    "artifact" : "nz.net.ultraq.thymeleaf:thymeleaf-layout-dialect:2.5.3",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/edu.iu.uits.lms:lms-canvas-viewem:5.0.1/dependencies/nz/net/ultraq/thymeleaf/thymeleaf-layout-dialect/2.5.3/thymeleaf-layout-dialect-2.5.3.jar"
+  }, {
+    "artifact" : "edu.iu.uits.lms:lms-canvas-rivet:5.1.8.2_1",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/edu.iu.uits.lms:lms-canvas-viewem:5.0.1/dependencies/edu/iu/uits/lms/lms-canvas-rivet/5.1.8.2_1/lms-canvas-rivet-5.1.8.2_1.jar"
+  }, {
+    "artifact" : "org.webjars:jquery:3.5.1",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/edu.iu.uits.lms:lms-canvas-viewem:5.0.1/dependencies/org/webjars/jquery/3.5.1/jquery-3.5.1.jar"
+  }, {
+    "artifact" : "org.springdoc:springdoc-openapi-ui:1.6.7",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/edu.iu.uits.lms:lms-canvas-viewem:5.0.1/dependencies/org/springdoc/springdoc-openapi-ui/1.6.7/springdoc-openapi-ui-1.6.7.jar"
+  } ]
+}

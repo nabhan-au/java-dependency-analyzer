@@ -20,6 +20,7 @@ import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.Paths;
 import java.util.ArrayList;
+import java.util.Iterator;
 import java.util.List;
 import java.util.Objects;
 
@@ -228,6 +229,63 @@ public class PomUtils {
         return null;
     }
 
+    public static void removeDependency(String pomFilePath, String groupId, String artifactId) throws Exception {
+        File pomFile = new File(pomFilePath);
+
+        if (!pomFile.exists()) {
+            throw new IllegalArgumentException("POM file not found at " + pomFilePath);
+        }
+
+        // Step 1: Parse the POM file into a Model object
+        MavenXpp3Reader reader = new MavenXpp3Reader();
+        Model model;
+        try (FileReader fileReader = new FileReader(pomFile)) {
+            model = reader.read(fileReader);
+        }
+
+        // Step 2: Remove the dependency from the <dependencies> section
+        boolean dependencyRemoved = removeDependencyFromSection(model.getDependencies(), groupId, artifactId, "dependencies");
+
+        // Step 3: Remove the dependency from the <dependencyManagement> section
+        if (model.getDependencyManagement() != null) {
+            boolean dependencyManagementRemoved = removeDependencyFromSection(
+                    model.getDependencyManagement().getDependencies(), groupId, artifactId, "dependencyManagement"
+            );
+            dependencyRemoved = dependencyRemoved || dependencyManagementRemoved;
+        }
+
+//        if (!dependencyRemoved) {
+//            System.out.println("Dependency not found in either <dependencies> or <dependencyManagement>: " +
+//                    groupId + ":" + artifactId);
+//        }
+
+        // Step 4: Write the updated POM file back
+        MavenXpp3Writer writer = new MavenXpp3Writer();
+        try (FileWriter fileWriter = new FileWriter(pomFile)) {
+            writer.write(fileWriter, model);
+        }
+
+        System.out.println("Updated POM file written to " + pomFilePath);
+    }
+
+    private static boolean removeDependencyFromSection(Iterable<Dependency> dependencies, String groupId,
+                                                       String artifactId, String sectionName) {
+        if (dependencies == null) {
+            return false;
+        }
+
+        Iterator<Dependency> iterator = dependencies.iterator();
+        while (iterator.hasNext()) {
+            Dependency dependency = iterator.next();
+            if (dependency.getGroupId().equals(groupId) && dependency.getArtifactId().equals(artifactId)) {
+                iterator.remove();
+                System.out.println("Removed dependency from <" + sectionName + ">: " + groupId + ":" + artifactId);
+                return true;
+            }
+        }
+        return false;
+    }
+
     private static ImportArtifact getParentArtifact(String pomFilePath) throws Exception {
         MavenXpp3Reader reader = new MavenXpp3Reader();
         Model model = reader.read(new FileReader(pomFilePath));
@@ -389,8 +447,6 @@ public class PomUtils {
 
             // Get the artifactId from the parsed model
             String artifactId = model.getArtifactId();
-            System.out.println("ArtifactId: " + artifactId);
-            System.out.println("Target ArtifactId: " + targetArtifactId);
 
             return targetArtifactId.equals(artifactId);
         } catch (Exception e) {
@@ -399,11 +455,29 @@ public class PomUtils {
         return false;
     }
 
+    public static Boolean isOutputError(List<String> output) {
+        return output.stream().anyMatch(l -> l.contains("[ERROR]"));
+    }
+
+    public static List<ImportArtifact> extractDependencyFromError(List<String> output) {
+        List<ImportArtifact> importArtifacts = new ArrayList<>();
+        for (String line : output) {
+            if (line.contains("dependency: ") && line.contains("[ERROR]")) {
+                var splitLine = line.split(":");
+                var groupId = splitLine[1].trim();
+                var artifactId = splitLine[2].trim();
+                importArtifacts.add(new ImportArtifact(artifactId, groupId, ""));
+            }
+        }
+        return importArtifacts;
+    }
+
 
     public static void main(String[] args) throws Exception {
-        String pomFilePath = "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.hxbkx:ExcelUtils:1.4.2/ExcelUtils-1.4.2.pom";
-
-        System.out.println(getPomListFromPath("/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/guava"));
+//        String pomFilePath = "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.hxbkx:ExcelUtils:1.4.2/ExcelUtils-1.4.2.pom";
+//
+//        System.out.println(getPomListFromPath("/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/guava"));
+        PomUtils.removeDependency("/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/com.microsoft.azure.network.v2019_07_01:azure-mgmt-network/sdk/tools/azure-sdk-archetype/src/main/resources/archetype-resources/pom.xml", "org.azbuilder.terraform", "terraform-client");
 
 //        getModifiedPomFile(pomFilePath);
 //        String targetGroupId = "org.springframework.boot";

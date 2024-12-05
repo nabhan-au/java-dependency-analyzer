@@ -1,0 +1,881 @@
+{
+  "projectArtifact" : "io.bspk:httpsig:0.0.6",
+  "repositoryDir" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/io.bspk:httpsig",
+  "repositorySubDir" : "",
+  "artifactLocation" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.bspk:httpsig:0.0.6",
+  "fileImportReports" : [ {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/io.bspk:httpsig/src/main/java/io/bspk/httpsig/servlet/HttpServletRequestProvider.java",
+    "useImportReport" : [ {
+      "importPath" : "import io.bspk.httpsig.UriRequestComponentProviderAdapter;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import javax.servlet.http.HttpServletRequest;",
+      "artifact" : {
+        "artifact" : "javax.servlet:servlet-api:2.5",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.bspk:httpsig:0.0.6/dependencies/javax/servlet/servlet-api/2.5/servlet-api-2.5.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import java.net.URI;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import io.bspk.httpsig.ComponentProvider;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.Collections;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/io.bspk:httpsig/src/main/java/io/bspk/httpsig/HttpSign.java",
+    "useImportReport" : [ {
+      "importPath" : "import org.slf4j.Logger;",
+      "artifact" : {
+        "artifact" : "org.slf4j:slf4j-api:1.7.30",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.bspk:httpsig:0.0.6/dependencies/org/slf4j/slf4j-api/1.7.30/slf4j-api-1.7.30.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.slf4j.LoggerFactory;",
+      "artifact" : {
+        "artifact" : "org.slf4j:slf4j-api:1.7.30",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.bspk:httpsig:0.0.6/dependencies/org/slf4j/slf4j-api/1.7.30/slf4j-api-1.7.30.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import com.nimbusds.jose.jwk.JWK;",
+      "artifact" : {
+        "artifact" : "com.nimbusds:nimbus-jose-jwt:9.4.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.bspk:httpsig:0.0.6/dependencies/com/nimbusds/nimbus-jose-jwt/9.4.1/nimbus-jose-jwt-9.4.1.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import com.nimbusds.jose.jwk.KeyType;",
+      "artifact" : {
+        "artifact" : "com.nimbusds:nimbus-jose-jwt:9.4.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.bspk:httpsig:0.0.6/dependencies/com/nimbusds/nimbus-jose-jwt/9.4.1/nimbus-jose-jwt-9.4.1.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import java.security.PrivateKey;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.security.Signature;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.security.spec.PSSParameterSpec;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.security.spec.MGF1ParameterSpec;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.security.MessageDigest;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.bouncycastle.jcajce.provider.digest.SHA512;",
+      "artifact" : {
+        "artifact" : "org.bouncycastle:bcprov-jdk18on:1.71",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.bspk:httpsig:0.0.6/dependencies/org/bouncycastle/bcprov-jdk18on/1.71/bcprov-jdk18on-1.71.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.bouncycastle.jcajce.provider.digest.SHA256;",
+      "artifact" : {
+        "artifact" : "org.bouncycastle:bcprov-jdk18on:1.71",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.bspk:httpsig:0.0.6/dependencies/org/bouncycastle/bcprov-jdk18on/1.71/bcprov-jdk18on-1.71.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import javax.crypto.SecretKey;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import javax.crypto.Mac;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.nimbusds.jose.crypto.impl.ECDSA;",
+      "artifact" : {
+        "artifact" : "com.nimbusds:nimbus-jose-jwt:9.4.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.bspk:httpsig:0.0.6/dependencies/com/nimbusds/nimbus-jose-jwt/9.4.1/nimbus-jose-jwt-9.4.1.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import com.nimbusds.jose.JWSSigner;",
+      "artifact" : {
+        "artifact" : "com.nimbusds:nimbus-jose-jwt:9.4.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.bspk:httpsig:0.0.6/dependencies/com/nimbusds/nimbus-jose-jwt/9.4.1/nimbus-jose-jwt-9.4.1.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import com.nimbusds.jose.crypto.factories.DefaultJWSSignerFactory;",
+      "artifact" : {
+        "artifact" : "com.nimbusds:nimbus-jose-jwt:9.4.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.bspk:httpsig:0.0.6/dependencies/com/nimbusds/nimbus-jose-jwt/9.4.1/nimbus-jose-jwt-9.4.1.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import com.nimbusds.jose.JWSAlgorithm;",
+      "artifact" : {
+        "artifact" : "com.nimbusds:nimbus-jose-jwt:9.4.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.bspk:httpsig:0.0.6/dependencies/com/nimbusds/nimbus-jose-jwt/9.4.1/nimbus-jose-jwt-9.4.1.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import com.nimbusds.jose.JWSHeader;",
+      "artifact" : {
+        "artifact" : "com.nimbusds:nimbus-jose-jwt:9.4.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.bspk:httpsig:0.0.6/dependencies/com/nimbusds/nimbus-jose-jwt/9.4.1/nimbus-jose-jwt-9.4.1.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import com.nimbusds.jose.util.Base64URL;",
+      "artifact" : {
+        "artifact" : "com.nimbusds:nimbus-jose-jwt:9.4.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.bspk:httpsig:0.0.6/dependencies/com/nimbusds/nimbus-jose-jwt/9.4.1/nimbus-jose-jwt-9.4.1.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import java.security.InvalidKeyException;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.security.NoSuchAlgorithmException;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.security.InvalidAlgorithmParameterException;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.security.SignatureException;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.nimbusds.jose.JOSEException;",
+      "artifact" : {
+        "artifact" : "com.nimbusds:nimbus-jose-jwt:9.4.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.bspk:httpsig:0.0.6/dependencies/com/nimbusds/nimbus-jose-jwt/9.4.1/nimbus-jose-jwt-9.4.1.jar"
+      },
+      "isDirectDependency" : true
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/io.bspk:httpsig/src/main/java/io/bspk/httpsig/MessageWrapper.java",
+    "useImportReport" : [ {
+      "importPath" : "import org.apache.commons.lang3.RandomStringUtils;",
+      "artifact" : {
+        "artifact" : "org.apache.commons:commons-lang3:3.12.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.bspk:httpsig:0.0.6/dependencies/org/apache/commons/commons-lang3/3.12.0/commons-lang3-3.12.0.jar"
+      },
+      "isDirectDependency" : true
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/io.bspk:httpsig/src/main/java/io/bspk/httpsig/HttpSigAlgorithm.java",
+    "useImportReport" : [ {
+      "importPath" : "import com.fasterxml.jackson.annotation.JsonValue;",
+      "artifact" : {
+        "artifact" : "com.fasterxml.jackson.core:jackson-annotations:2.11.4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.bspk:httpsig:0.0.6/dependencies/com/fasterxml/jackson/core/jackson-annotations/2.11.4/jackson-annotations-2.11.4.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import com.fasterxml.jackson.annotation.JsonCreator;",
+      "artifact" : {
+        "artifact" : "com.fasterxml.jackson.core:jackson-annotations:2.11.4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.bspk:httpsig:0.0.6/dependencies/com/fasterxml/jackson/core/jackson-annotations/2.11.4/jackson-annotations-2.11.4.jar"
+      },
+      "isDirectDependency" : true
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/io.bspk:httpsig/src/main/java/io/bspk/httpsig/ComponentProvider.java",
+    "useImportReport" : [ {
+      "importPath" : "import java.util.List;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.stream.Collectors;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.google.common.base.Strings;",
+      "artifact" : {
+        "artifact" : "com.google.guava:guava:28.1-jre",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.bspk:httpsig:0.0.6/dependencies/com/google/guava/guava/28.1-jre/guava-28.1-jre.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.greenbytes.http.sfv.StringItem;",
+      "artifact" : {
+        "artifact" : "org.greenbytes.http:structured-fields:0.4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.bspk:httpsig:0.0.6/dependencies/org/greenbytes/http/structured-fields/0.4/structured-fields-0.4.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.greenbytes.http.sfv.Item;",
+      "artifact" : {
+        "artifact" : "org.greenbytes.http:structured-fields:0.4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.bspk:httpsig:0.0.6/dependencies/org/greenbytes/http/structured-fields/0.4/structured-fields-0.4.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.greenbytes.http.sfv.Dictionary;",
+      "artifact" : {
+        "artifact" : "org.greenbytes.http:structured-fields:0.4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.bspk:httpsig:0.0.6/dependencies/org/greenbytes/http/structured-fields/0.4/structured-fields-0.4.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.greenbytes.http.sfv.Parser;",
+      "artifact" : {
+        "artifact" : "org.greenbytes.http:structured-fields:0.4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.bspk:httpsig:0.0.6/dependencies/org/greenbytes/http/structured-fields/0.4/structured-fields-0.4.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.greenbytes.http.sfv.ListElement;",
+      "artifact" : {
+        "artifact" : "org.greenbytes.http:structured-fields:0.4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.bspk:httpsig:0.0.6/dependencies/org/greenbytes/http/structured-fields/0.4/structured-fields-0.4.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.greenbytes.http.sfv.ParseException;",
+      "artifact" : {
+        "artifact" : "org.greenbytes.http:structured-fields:0.4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.bspk:httpsig:0.0.6/dependencies/org/greenbytes/http/structured-fields/0.4/structured-fields-0.4.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.greenbytes.http.sfv.Type;",
+      "artifact" : {
+        "artifact" : "org.greenbytes.http:structured-fields:0.4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.bspk:httpsig:0.0.6/dependencies/org/greenbytes/http/structured-fields/0.4/structured-fields-0.4.jar"
+      },
+      "isDirectDependency" : true
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/io.bspk:httpsig/src/main/java/io/bspk/httpsig/ResponseComponentProviderAdapter.java",
+    "useImportReport" : [ {
+      "importPath" : "import org.greenbytes.http.sfv.StringItem;",
+      "artifact" : {
+        "artifact" : "org.greenbytes.http:structured-fields:0.4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.bspk:httpsig:0.0.6/dependencies/org/greenbytes/http/structured-fields/0.4/structured-fields-0.4.jar"
+      },
+      "isDirectDependency" : true
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/io.bspk:httpsig/src/main/java/io/bspk/httpsig/HttpVerify.java",
+    "useImportReport" : [ {
+      "importPath" : "import org.slf4j.Logger;",
+      "artifact" : {
+        "artifact" : "org.slf4j:slf4j-api:1.7.30",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.bspk:httpsig:0.0.6/dependencies/org/slf4j/slf4j-api/1.7.30/slf4j-api-1.7.30.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.slf4j.LoggerFactory;",
+      "artifact" : {
+        "artifact" : "org.slf4j:slf4j-api:1.7.30",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.bspk:httpsig:0.0.6/dependencies/org/slf4j/slf4j-api/1.7.30/slf4j-api-1.7.30.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import com.nimbusds.jose.jwk.JWK;",
+      "artifact" : {
+        "artifact" : "com.nimbusds:nimbus-jose-jwt:9.4.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.bspk:httpsig:0.0.6/dependencies/com/nimbusds/nimbus-jose-jwt/9.4.1/nimbus-jose-jwt-9.4.1.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import com.nimbusds.jose.jwk.KeyType;",
+      "artifact" : {
+        "artifact" : "com.nimbusds:nimbus-jose-jwt:9.4.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.bspk:httpsig:0.0.6/dependencies/com/nimbusds/nimbus-jose-jwt/9.4.1/nimbus-jose-jwt-9.4.1.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import java.security.PublicKey;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.security.Signature;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.security.spec.PSSParameterSpec;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.security.spec.MGF1ParameterSpec;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.security.MessageDigest;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.bouncycastle.jcajce.provider.digest.SHA512;",
+      "artifact" : {
+        "artifact" : "org.bouncycastle:bcprov-jdk18on:1.71",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.bspk:httpsig:0.0.6/dependencies/org/bouncycastle/bcprov-jdk18on/1.71/bcprov-jdk18on-1.71.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.bouncycastle.jcajce.provider.digest.SHA256;",
+      "artifact" : {
+        "artifact" : "org.bouncycastle:bcprov-jdk18on:1.71",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.bspk:httpsig:0.0.6/dependencies/org/bouncycastle/bcprov-jdk18on/1.71/bcprov-jdk18on-1.71.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import javax.crypto.SecretKey;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import javax.crypto.Mac;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.Arrays;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.nimbusds.jose.crypto.impl.ECDSA;",
+      "artifact" : {
+        "artifact" : "com.nimbusds:nimbus-jose-jwt:9.4.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.bspk:httpsig:0.0.6/dependencies/com/nimbusds/nimbus-jose-jwt/9.4.1/nimbus-jose-jwt-9.4.1.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import com.nimbusds.jose.JWSAlgorithm;",
+      "artifact" : {
+        "artifact" : "com.nimbusds:nimbus-jose-jwt:9.4.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.bspk:httpsig:0.0.6/dependencies/com/nimbusds/nimbus-jose-jwt/9.4.1/nimbus-jose-jwt-9.4.1.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import com.nimbusds.jose.JWSHeader;",
+      "artifact" : {
+        "artifact" : "com.nimbusds:nimbus-jose-jwt:9.4.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.bspk:httpsig:0.0.6/dependencies/com/nimbusds/nimbus-jose-jwt/9.4.1/nimbus-jose-jwt-9.4.1.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import java.security.Key;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.nimbusds.jose.jwk.OctetSequenceKey;",
+      "artifact" : {
+        "artifact" : "com.nimbusds:nimbus-jose-jwt:9.4.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.bspk:httpsig:0.0.6/dependencies/com/nimbusds/nimbus-jose-jwt/9.4.1/nimbus-jose-jwt-9.4.1.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import com.nimbusds.jose.jwk.RSAKey;",
+      "artifact" : {
+        "artifact" : "com.nimbusds:nimbus-jose-jwt:9.4.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.bspk:httpsig:0.0.6/dependencies/com/nimbusds/nimbus-jose-jwt/9.4.1/nimbus-jose-jwt-9.4.1.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import com.nimbusds.jose.jwk.ECKey;",
+      "artifact" : {
+        "artifact" : "com.nimbusds:nimbus-jose-jwt:9.4.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.bspk:httpsig:0.0.6/dependencies/com/nimbusds/nimbus-jose-jwt/9.4.1/nimbus-jose-jwt-9.4.1.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import com.nimbusds.jose.JWSVerifier;",
+      "artifact" : {
+        "artifact" : "com.nimbusds:nimbus-jose-jwt:9.4.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.bspk:httpsig:0.0.6/dependencies/com/nimbusds/nimbus-jose-jwt/9.4.1/nimbus-jose-jwt-9.4.1.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import com.nimbusds.jose.crypto.factories.DefaultJWSVerifierFactory;",
+      "artifact" : {
+        "artifact" : "com.nimbusds:nimbus-jose-jwt:9.4.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.bspk:httpsig:0.0.6/dependencies/com/nimbusds/nimbus-jose-jwt/9.4.1/nimbus-jose-jwt-9.4.1.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import com.nimbusds.jose.util.Base64URL;",
+      "artifact" : {
+        "artifact" : "com.nimbusds:nimbus-jose-jwt:9.4.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.bspk:httpsig:0.0.6/dependencies/com/nimbusds/nimbus-jose-jwt/9.4.1/nimbus-jose-jwt-9.4.1.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import java.security.InvalidKeyException;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.security.NoSuchAlgorithmException;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.security.InvalidAlgorithmParameterException;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.security.SignatureException;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.nimbusds.jose.JOSEException;",
+      "artifact" : {
+        "artifact" : "com.nimbusds:nimbus-jose-jwt:9.4.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.bspk:httpsig:0.0.6/dependencies/com/nimbusds/nimbus-jose-jwt/9.4.1/nimbus-jose-jwt-9.4.1.jar"
+      },
+      "isDirectDependency" : true
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/io.bspk:httpsig/src/main/java/io/bspk/httpsig/SignatureParameters.java",
+    "useImportReport" : [ {
+      "importPath" : "import java.util.List;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.greenbytes.http.sfv.StringItem;",
+      "artifact" : {
+        "artifact" : "org.greenbytes.http:structured-fields:0.4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.bspk:httpsig:0.0.6/dependencies/org/greenbytes/http/structured-fields/0.4/structured-fields-0.4.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import java.util.ArrayList;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.Map;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.LinkedHashMap;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.time.Instant;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.greenbytes.http.sfv.InnerList;",
+      "artifact" : {
+        "artifact" : "org.greenbytes.http:structured-fields:0.4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.bspk:httpsig:0.0.6/dependencies/org/greenbytes/http/structured-fields/0.4/structured-fields-0.4.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.greenbytes.http.sfv.Item;",
+      "artifact" : {
+        "artifact" : "org.greenbytes.http:structured-fields:0.4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.bspk:httpsig:0.0.6/dependencies/org/greenbytes/http/structured-fields/0.4/structured-fields-0.4.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import java.util.stream.Collectors;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.greenbytes.http.sfv.Parameters;",
+      "artifact" : {
+        "artifact" : "org.greenbytes.http:structured-fields:0.4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.bspk:httpsig:0.0.6/dependencies/org/greenbytes/http/structured-fields/0.4/structured-fields-0.4.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.greenbytes.http.sfv.Dictionary;",
+      "artifact" : {
+        "artifact" : "org.greenbytes.http:structured-fields:0.4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.bspk:httpsig:0.0.6/dependencies/org/greenbytes/http/structured-fields/0.4/structured-fields-0.4.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.greenbytes.http.sfv.ListElement;",
+      "artifact" : {
+        "artifact" : "org.greenbytes.http:structured-fields:0.4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.bspk:httpsig:0.0.6/dependencies/org/greenbytes/http/structured-fields/0.4/structured-fields-0.4.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.greenbytes.http.sfv.NumberItem;",
+      "artifact" : {
+        "artifact" : "org.greenbytes.http:structured-fields:0.4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.bspk:httpsig:0.0.6/dependencies/org/greenbytes/http/structured-fields/0.4/structured-fields-0.4.jar"
+      },
+      "isDirectDependency" : true
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/io.bspk:httpsig/src/main/java/io/bspk/httpsig/UriRequestComponentProviderAdapter.java",
+    "useImportReport" : [ {
+      "importPath" : "import java.net.URI;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.List;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.apache.hc.core5.http.NameValuePair;",
+      "artifact" : {
+        "artifact" : "org.apache.httpcomponents.core5:httpcore5:5.1.4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.bspk:httpsig:0.0.6/dependencies/org/apache/httpcomponents/core5/httpcore5/5.1.4/httpcore5-5.1.4.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.apache.hc.core5.net.WWWFormCodec;",
+      "artifact" : {
+        "artifact" : "org.apache.httpcomponents.core5:httpcore5:5.1.4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.bspk:httpsig:0.0.6/dependencies/org/apache/httpcomponents/core5/httpcore5/5.1.4/httpcore5-5.1.4.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import java.nio.charset.Charset;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/io.bspk:httpsig/src/main/java/io/bspk/httpsig/RequestComponentProviderAdapter.java",
+    "useImportReport" : [ ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/io.bspk:httpsig/src/main/java/io/bspk/httpsig/spring/RestTemplateMessageWrapper.java",
+    "useImportReport" : [ {
+      "importPath" : "import io.bspk.httpsig.MessageWrapper;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.springframework.http.HttpRequest;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-web:5.2.22.RELEASE",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.bspk:httpsig:0.0.6/dependencies/org/springframework/spring-web/5.2.22.RELEASE/spring-web-5.2.22.RELEASE.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import io.bspk.httpsig.SignatureParameters;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.greenbytes.http.sfv.Dictionary;",
+      "artifact" : {
+        "artifact" : "org.greenbytes.http:structured-fields:0.4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.bspk:httpsig:0.0.6/dependencies/org/greenbytes/http/structured-fields/0.4/structured-fields-0.4.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import java.util.Map;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.greenbytes.http.sfv.ByteSequenceItem;",
+      "artifact" : {
+        "artifact" : "org.greenbytes.http:structured-fields:0.4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.bspk:httpsig:0.0.6/dependencies/org/greenbytes/http/structured-fields/0.4/structured-fields-0.4.jar"
+      },
+      "isDirectDependency" : true
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/io.bspk:httpsig/src/main/java/io/bspk/httpsig/spring/RestTemplateRequestProvider.java",
+    "useImportReport" : [ {
+      "importPath" : "import io.bspk.httpsig.ComponentProvider;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.springframework.http.HttpRequest;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-web:5.2.22.RELEASE",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.bspk:httpsig:0.0.6/dependencies/org/springframework/spring-web/5.2.22.RELEASE/spring-web-5.2.22.RELEASE.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import java.util.Map;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.springframework.util.MultiValueMap;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-core:5.2.22.RELEASE",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.bspk:httpsig:0.0.6/dependencies/org/springframework/spring-core/5.2.22.RELEASE/spring-core-5.2.22.RELEASE.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.springframework.web.util.UriComponentsBuilder;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-web:5.2.22.RELEASE",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.bspk:httpsig:0.0.6/dependencies/org/springframework/spring-web/5.2.22.RELEASE/spring-web-5.2.22.RELEASE.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import java.util.List;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.stream.Collectors;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.function.Function;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/io.bspk:httpsig/src/main/java/io/bspk/httpsig/SignatureBaseBuilder.java",
+    "useImportReport" : [ {
+      "importPath" : "import org.slf4j.Logger;",
+      "artifact" : {
+        "artifact" : "org.slf4j:slf4j-api:1.7.30",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.bspk:httpsig:0.0.6/dependencies/org/slf4j/slf4j-api/1.7.30/slf4j-api-1.7.30.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.slf4j.LoggerFactory;",
+      "artifact" : {
+        "artifact" : "org.slf4j:slf4j-api:1.7.30",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.bspk:httpsig:0.0.6/dependencies/org/slf4j/slf4j-api/1.7.30/slf4j-api-1.7.30.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.greenbytes.http.sfv.StringItem;",
+      "artifact" : {
+        "artifact" : "org.greenbytes.http:structured-fields:0.4",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.bspk:httpsig:0.0.6/dependencies/org/greenbytes/http/structured-fields/0.4/structured-fields-0.4.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import com.google.common.base.Joiner;",
+      "artifact" : {
+        "artifact" : "com.google.guava:guava:28.1-jre",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.bspk:httpsig:0.0.6/dependencies/com/google/guava/guava/28.1-jre/guava-28.1-jre.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import com.google.common.base.Splitter;",
+      "artifact" : {
+        "artifact" : "com.google.guava:guava:28.1-jre",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.bspk:httpsig:0.0.6/dependencies/com/google/guava/guava/28.1-jre/guava-28.1-jre.jar"
+      },
+      "isDirectDependency" : true
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  } ],
+  "projectUseDependencies" : [ {
+    "artifact" : "javax.servlet:servlet-api:2.5",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.bspk:httpsig:0.0.6/dependencies/javax/servlet/servlet-api/2.5/servlet-api-2.5.jar"
+  }, {
+    "artifact" : "org.slf4j:slf4j-api:1.7.30",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.bspk:httpsig:0.0.6/dependencies/org/slf4j/slf4j-api/1.7.30/slf4j-api-1.7.30.jar"
+  }, {
+    "artifact" : "com.nimbusds:nimbus-jose-jwt:9.4.1",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.bspk:httpsig:0.0.6/dependencies/com/nimbusds/nimbus-jose-jwt/9.4.1/nimbus-jose-jwt-9.4.1.jar"
+  }, {
+    "artifact" : "org.apache.commons:commons-lang3:3.12.0",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.bspk:httpsig:0.0.6/dependencies/org/apache/commons/commons-lang3/3.12.0/commons-lang3-3.12.0.jar"
+  }, {
+    "artifact" : "com.fasterxml.jackson.core:jackson-annotations:2.11.4",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.bspk:httpsig:0.0.6/dependencies/com/fasterxml/jackson/core/jackson-annotations/2.11.4/jackson-annotations-2.11.4.jar"
+  }, {
+    "artifact" : "com.google.guava:guava:28.1-jre",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.bspk:httpsig:0.0.6/dependencies/com/google/guava/guava/28.1-jre/guava-28.1-jre.jar"
+  }, {
+    "artifact" : "org.greenbytes.http:structured-fields:0.4",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.bspk:httpsig:0.0.6/dependencies/org/greenbytes/http/structured-fields/0.4/structured-fields-0.4.jar"
+  }, {
+    "artifact" : "org.apache.httpcomponents.core5:httpcore5:5.1.4",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.bspk:httpsig:0.0.6/dependencies/org/apache/httpcomponents/core5/httpcore5/5.1.4/httpcore5-5.1.4.jar"
+  }, {
+    "artifact" : "org.springframework:spring-web:5.2.22.RELEASE",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.bspk:httpsig:0.0.6/dependencies/org/springframework/spring-web/5.2.22.RELEASE/spring-web-5.2.22.RELEASE.jar"
+  } ],
+  "projectUseTransitiveDependencies" : [ {
+    "artifact" : "org.bouncycastle:bcpkix-jdk18on:1.71",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.bspk:httpsig:0.0.6/dependencies/org/bouncycastle/bcpkix-jdk18on/1.71/bcpkix-jdk18on-1.71.jar"
+  } ],
+  "projectUnusedDependencies" : [ ]
+}

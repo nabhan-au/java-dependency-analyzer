@@ -1,0 +1,690 @@
+{
+  "projectArtifact" : "ch.astorm:smtp4j:3.1.0",
+  "repositoryDir" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/ch.astorm:smtp4j",
+  "repositorySubDir" : "",
+  "artifactLocation" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/ch.astorm:smtp4j:3.1.0",
+  "fileImportReports" : [ {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/ch.astorm:smtp4j/src/main/java/ch/astorm/smtp4j/core/SmtpAttachment.java",
+    "useImportReport" : [ {
+      "importPath" : "import java.io.InputStream;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.io.IOException;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import jakarta.mail.MessagingException;",
+      "artifact" : {
+        "artifact" : "com.sun.mail:jakarta.mail:2.0.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/ch.astorm:smtp4j:3.1.0/dependencies/com/sun/mail/jakarta.mail/2.0.1/jakarta.mail-2.0.1.jar"
+      },
+      "isDirectDependency" : true
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/ch.astorm:smtp4j/src/main/java/ch/astorm/smtp4j/core/SmtpMessageHandler.java",
+    "useImportReport" : [ {
+      "importPath" : "import java.util.List;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.concurrent.TimeUnit;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/ch.astorm:smtp4j/src/main/java/ch/astorm/smtp4j/core/SmtpMessage.java",
+    "useImportReport" : [ {
+      "importPath" : "import java.util.List;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import jakarta.mail.internet.MimeMessage;",
+      "artifact" : {
+        "artifact" : "com.sun.mail:jakarta.mail:2.0.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/ch.astorm:smtp4j:3.1.0/dependencies/com/sun/mail/jakarta.mail/2.0.1/jakarta.mail-2.0.1.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import jakarta.mail.Session;",
+      "artifact" : {
+        "artifact" : "com.sun.mail:jakarta.mail:2.0.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/ch.astorm:smtp4j:3.1.0/dependencies/com/sun/mail/jakarta.mail/2.0.1/jakarta.mail-2.0.1.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import java.util.Properties;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import jakarta.mail.Message.RecipientType;",
+      "artifact" : {
+        "artifact" : "com.sun.mail:jakarta.mail:2.0.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/ch.astorm:smtp4j:3.1.0/dependencies/com/sun/mail/jakarta.mail/2.0.1/jakarta.mail-2.0.1.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import jakarta.mail.Address;",
+      "artifact" : {
+        "artifact" : "com.sun.mail:jakarta.mail:2.0.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/ch.astorm:smtp4j:3.1.0/dependencies/com/sun/mail/jakarta.mail/2.0.1/jakarta.mail-2.0.1.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import jakarta.mail.internet.MimeUtility;",
+      "artifact" : {
+        "artifact" : "com.sun.mail:jakarta.mail:2.0.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/ch.astorm:smtp4j:3.1.0/dependencies/com/sun/mail/jakarta.mail/2.0.1/jakarta.mail-2.0.1.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import java.io.UnsupportedEncodingException;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import jakarta.mail.MessagingException;",
+      "artifact" : {
+        "artifact" : "com.sun.mail:jakarta.mail:2.0.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/ch.astorm:smtp4j:3.1.0/dependencies/com/sun/mail/jakarta.mail/2.0.1/jakarta.mail-2.0.1.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import java.util.Collections;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.ArrayList;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import jakarta.mail.internet.MimeMultipart;",
+      "artifact" : {
+        "artifact" : "com.sun.mail:jakarta.mail:2.0.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/ch.astorm:smtp4j:3.1.0/dependencies/com/sun/mail/jakarta.mail/2.0.1/jakarta.mail-2.0.1.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import jakarta.mail.BodyPart;",
+      "artifact" : {
+        "artifact" : "com.sun.mail:jakarta.mail:2.0.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/ch.astorm:smtp4j:3.1.0/dependencies/com/sun/mail/jakarta.mail/2.0.1/jakarta.mail-2.0.1.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import java.io.IOException;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.Date;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.io.InputStream;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.io.ByteArrayInputStream;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.nio.charset.StandardCharsets;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ {
+      "importPath" : "import ch.astorm.smtp4j.protocol.SmtpCommand;"
+    }, {
+      "importPath" : "import ch.astorm.smtp4j.protocol.SmtpCommand.Type;"
+    }, {
+      "importPath" : "import ch.astorm.smtp4j.protocol.SmtpExchange;"
+    }, {
+      "importPath" : "import ch.astorm.smtp4j.protocol.SmtpProtocolConstants;"
+    } ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/ch.astorm:smtp4j/src/main/java/ch/astorm/smtp4j/core/DefaultSmtpMessageHandler.java",
+    "useImportReport" : [ {
+      "importPath" : "import java.util.List;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.ArrayList;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.Collections;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.concurrent.TimeUnit;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ {
+      "importPath" : "import ch.astorm.smtp4j.SmtpServer;"
+    } ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/ch.astorm:smtp4j/src/main/java/ch/astorm/smtp4j/core/SmtpServerListener.java",
+    "useImportReport" : [ ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ {
+      "importPath" : "import ch.astorm.smtp4j.SmtpServer;"
+    } ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/ch.astorm:smtp4j/src/main/java/ch/astorm/smtp4j/util/MimeMessageBuilder.java",
+    "useImportReport" : [ {
+      "importPath" : "import jakarta.mail.internet.MimeMessage;",
+      "artifact" : {
+        "artifact" : "com.sun.mail:jakarta.mail:2.0.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/ch.astorm:smtp4j:3.1.0/dependencies/com/sun/mail/jakarta.mail/2.0.1/jakarta.mail-2.0.1.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import jakarta.mail.internet.MimeBodyPart;",
+      "artifact" : {
+        "artifact" : "com.sun.mail:jakarta.mail:2.0.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/ch.astorm:smtp4j:3.1.0/dependencies/com/sun/mail/jakarta.mail/2.0.1/jakarta.mail-2.0.1.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import java.util.List;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.ArrayList;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import jakarta.mail.Session;",
+      "artifact" : {
+        "artifact" : "com.sun.mail:jakarta.mail:2.0.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/ch.astorm:smtp4j:3.1.0/dependencies/com/sun/mail/jakarta.mail/2.0.1/jakarta.mail-2.0.1.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import jakarta.mail.MessagingException;",
+      "artifact" : {
+        "artifact" : "com.sun.mail:jakarta.mail:2.0.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/ch.astorm:smtp4j:3.1.0/dependencies/com/sun/mail/jakarta.mail/2.0.1/jakarta.mail-2.0.1.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import jakarta.mail.Address;",
+      "artifact" : {
+        "artifact" : "com.sun.mail:jakarta.mail:2.0.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/ch.astorm:smtp4j:3.1.0/dependencies/com/sun/mail/jakarta.mail/2.0.1/jakarta.mail-2.0.1.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import java.text.ParseException;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.text.SimpleDateFormat;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.Date;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import jakarta.mail.internet.InternetAddress;",
+      "artifact" : {
+        "artifact" : "com.sun.mail:jakarta.mail:2.0.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/ch.astorm:smtp4j:3.1.0/dependencies/com/sun/mail/jakarta.mail/2.0.1/jakarta.mail-2.0.1.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import jakarta.mail.Message.RecipientType;",
+      "artifact" : {
+        "artifact" : "com.sun.mail:jakarta.mail:2.0.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/ch.astorm:smtp4j:3.1.0/dependencies/com/sun/mail/jakarta.mail/2.0.1/jakarta.mail-2.0.1.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import java.nio.charset.Charset;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.io.File;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import jakarta.activation.DataHandler;",
+      "artifact" : {
+        "artifact" : "com.sun.activation:jakarta.activation:2.0.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/ch.astorm:smtp4j:3.1.0/dependencies/com/sun/activation/jakarta.activation/2.0.1/jakarta.activation-2.0.1.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import jakarta.activation.FileDataSource;",
+      "artifact" : {
+        "artifact" : "com.sun.activation:jakarta.activation:2.0.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/ch.astorm:smtp4j:3.1.0/dependencies/com/sun/activation/jakarta.activation/2.0.1/jakarta.activation-2.0.1.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.io.InputStream;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.io.IOException;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import jakarta.mail.util.ByteArrayDataSource;",
+      "artifact" : {
+        "artifact" : "com.sun.mail:jakarta.mail:2.0.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/ch.astorm:smtp4j:3.1.0/dependencies/com/sun/mail/jakarta.mail/2.0.1/jakarta.mail-2.0.1.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import jakarta.mail.internet.MimeMultipart;",
+      "artifact" : {
+        "artifact" : "com.sun.mail:jakarta.mail:2.0.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/ch.astorm:smtp4j:3.1.0/dependencies/com/sun/mail/jakarta.mail/2.0.1/jakarta.mail-2.0.1.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import jakarta.mail.Transport;",
+      "artifact" : {
+        "artifact" : "com.sun.mail:jakarta.mail:2.0.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/ch.astorm:smtp4j:3.1.0/dependencies/com/sun/mail/jakarta.mail/2.0.1/jakarta.mail-2.0.1.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import jakarta.mail.internet.AddressException;",
+      "artifact" : {
+        "artifact" : "com.sun.mail:jakarta.mail:2.0.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/ch.astorm:smtp4j:3.1.0/dependencies/com/sun/mail/jakarta.mail/2.0.1/jakarta.mail-2.0.1.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import java.io.UnsupportedEncodingException;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ {
+      "importPath" : "import ch.astorm.smtp4j.SmtpServer;"
+    } ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/ch.astorm:smtp4j/src/main/java/ch/astorm/smtp4j/SmtpServer.java",
+    "useImportReport" : [ {
+      "importPath" : "import java.util.logging.Logger;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.List;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.concurrent.ThreadFactory;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.net.ServerSocket;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.concurrent.Executors;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.ArrayList;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.Properties;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import jakarta.mail.Session;",
+      "artifact" : {
+        "artifact" : "com.sun.mail:jakarta.mail:2.0.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/ch.astorm:smtp4j:3.1.0/dependencies/com/sun/mail/jakarta.mail/2.0.1/jakarta.mail-2.0.1.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import java.util.concurrent.TimeUnit;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.io.IOException;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.net.Socket;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.io.BufferedReader;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.io.InputStreamReader;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.nio.charset.StandardCharsets;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.io.PrintWriter;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.io.OutputStreamWriter;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.logging.Level;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ {
+      "importPath" : "import ch.astorm.smtp4j.core.SmtpMessage;"
+    }, {
+      "importPath" : "import ch.astorm.smtp4j.core.SmtpMessageHandler;"
+    }, {
+      "importPath" : "import ch.astorm.smtp4j.core.SmtpMessageHandler.SmtpMessageReader;"
+    }, {
+      "importPath" : "import ch.astorm.smtp4j.core.DefaultSmtpMessageHandler;"
+    }, {
+      "importPath" : "import ch.astorm.smtp4j.core.SmtpServerListener;"
+    }, {
+      "importPath" : "import ch.astorm.smtp4j.protocol.SmtpProtocolException;"
+    }, {
+      "importPath" : "import ch.astorm.smtp4j.protocol.SmtpTransactionHandler;"
+    } ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/ch.astorm:smtp4j/src/main/java/ch/astorm/smtp4j/SmtpServerBuilder.java",
+    "useImportReport" : [ {
+      "importPath" : "import java.util.List;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.concurrent.ThreadFactory;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.ArrayList;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.io.IOException;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ {
+      "importPath" : "import ch.astorm.smtp4j.core.SmtpMessageHandler;"
+    }, {
+      "importPath" : "import ch.astorm.smtp4j.core.SmtpServerListener;"
+    } ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/ch.astorm:smtp4j/src/main/java/ch/astorm/smtp4j/protocol/SmtpTransactionHandler.java",
+    "useImportReport" : [ {
+      "importPath" : "import java.io.BufferedReader;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.io.PrintWriter;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.io.IOException;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.List;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.ArrayList;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ {
+      "importPath" : "import ch.astorm.smtp4j.core.SmtpMessage;"
+    }, {
+      "importPath" : "import ch.astorm.smtp4j.protocol.SmtpCommand.Type;"
+    } ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/ch.astorm:smtp4j/src/main/java/ch/astorm/smtp4j/protocol/SmtpCommand.java",
+    "useImportReport" : [ {
+      "importPath" : "import java.util.List;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.Arrays;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.Locale;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/ch.astorm:smtp4j/src/main/java/ch/astorm/smtp4j/protocol/SmtpProtocolException.java",
+    "useImportReport" : [ ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/ch.astorm:smtp4j/src/main/java/ch/astorm/smtp4j/protocol/SmtpExchange.java",
+    "useImportReport" : [ {
+      "importPath" : "import java.util.List;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/ch.astorm:smtp4j/src/main/java/ch/astorm/smtp4j/protocol/SmtpProtocolConstants.java",
+    "useImportReport" : [ ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  } ],
+  "projectUseDependencies" : [ {
+    "artifact" : "com.sun.mail:jakarta.mail:2.0.1",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/ch.astorm:smtp4j:3.1.0/dependencies/com/sun/mail/jakarta.mail/2.0.1/jakarta.mail-2.0.1.jar"
+  } ],
+  "projectUseTransitiveDependencies" : [ ],
+  "projectUnusedDependencies" : [ {
+    "artifact" : "org.junit.jupiter:junit-jupiter-api:5.10.0",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/ch.astorm:smtp4j:3.1.0/dependencies/org/junit/jupiter/junit-jupiter-api/5.10.0/junit-jupiter-api-5.10.0.jar"
+  } ]
+}

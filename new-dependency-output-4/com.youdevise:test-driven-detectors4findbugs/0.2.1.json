@@ -1,0 +1,575 @@
+{
+  "projectArtifact" : "com.youdevise:test-driven-detectors4findbugs:0.2.1",
+  "repositoryDir" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/com.youdevise:test-driven-detectors4findbugs",
+  "repositorySubDir" : "",
+  "artifactLocation" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.youdevise:test-driven-detectors4findbugs:0.2.1",
+  "fileImportReports" : [ {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/com.youdevise:test-driven-detectors4findbugs/src/main/java/com/youdevise/fbplugins/tdd4fb/FindBugsMatchers.java",
+    "useImportReport" : [ {
+      "importPath" : "import org.hamcrest.Matcher;",
+      "artifact" : {
+        "artifact" : "org.hamcrest:hamcrest-all:1.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.youdevise:test-driven-detectors4findbugs:0.2.1/dependencies/org/hamcrest/hamcrest-all/1.1/hamcrest-all-1.1.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.hamcrest.Matcher;",
+      "artifact" : {
+        "artifact" : "org.hamcrest:hamcrest-core:1.3",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.youdevise:test-driven-detectors4findbugs:0.2.1/dependencies/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import edu.umd.cs.findbugs.BugInstance;",
+      "artifact" : {
+        "artifact" : "com.google.code.findbugs:findbugs:1.3.9",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.youdevise:test-driven-detectors4findbugs:0.2.1/dependencies/com/google/code/findbugs/findbugs/1.3.9/findbugs-1.3.9.jar"
+      },
+      "isDirectDependency" : true
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/com.youdevise:test-driven-detectors4findbugs/src/main/java/com/youdevise/fbplugins/tdd4fb/BugsReportedAsserter.java",
+    "useImportReport" : [ {
+      "importPath" : "import edu.umd.cs.findbugs.BugReporter;",
+      "artifact" : {
+        "artifact" : "com.google.code.findbugs:findbugs:1.3.9",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.youdevise:test-driven-detectors4findbugs:0.2.1/dependencies/com/google/code/findbugs/findbugs/1.3.9/findbugs-1.3.9.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import java.util.Collection;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import edu.umd.cs.findbugs.BugInstance;",
+      "artifact" : {
+        "artifact" : "com.google.code.findbugs:findbugs:1.3.9",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.youdevise:test-driven-detectors4findbugs:0.2.1/dependencies/com/google/code/findbugs/findbugs/1.3.9/findbugs-1.3.9.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import static org.hamcrest.CoreMatchers.is;",
+      "artifact" : {
+        "artifact" : "org.hamcrest:hamcrest-all:1.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.youdevise:test-driven-detectors4findbugs:0.2.1/dependencies/org/hamcrest/hamcrest-all/1.1/hamcrest-all-1.1.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import static org.hamcrest.CoreMatchers.is;",
+      "artifact" : {
+        "artifact" : "org.hamcrest:hamcrest-core:1.3",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.youdevise:test-driven-detectors4findbugs:0.2.1/dependencies/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.hamcrest.Matcher;",
+      "artifact" : {
+        "artifact" : "org.hamcrest:hamcrest-all:1.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.youdevise:test-driven-detectors4findbugs:0.2.1/dependencies/org/hamcrest/hamcrest-all/1.1/hamcrest-all-1.1.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.hamcrest.Matcher;",
+      "artifact" : {
+        "artifact" : "org.hamcrest:hamcrest-core:1.3",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.youdevise:test-driven-detectors4findbugs:0.2.1/dependencies/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import static org.hamcrest.Matchers.hasItem;",
+      "artifact" : {
+        "artifact" : "org.hamcrest:hamcrest-all:1.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.youdevise:test-driven-detectors4findbugs:0.2.1/dependencies/org/hamcrest/hamcrest-all/1.1/hamcrest-all-1.1.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import static org.hamcrest.Matchers.hasItems;",
+      "artifact" : {
+        "artifact" : "org.hamcrest:hamcrest-all:1.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.youdevise:test-driven-detectors4findbugs:0.2.1/dependencies/org/hamcrest/hamcrest-all/1.1/hamcrest-all-1.1.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import com.youdevise.fbplugins.tdd4fb.TestingBugReporter.TddBugReporter;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.hamcrest.Description;",
+      "artifact" : {
+        "artifact" : "org.hamcrest:hamcrest-all:1.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.youdevise:test-driven-detectors4findbugs:0.2.1/dependencies/org/hamcrest/hamcrest-all/1.1/hamcrest-all-1.1.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.hamcrest.Description;",
+      "artifact" : {
+        "artifact" : "org.hamcrest:hamcrest-core:1.3",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.youdevise:test-driven-detectors4findbugs:0.2.1/dependencies/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.hamcrest.StringDescription;",
+      "artifact" : {
+        "artifact" : "org.hamcrest:hamcrest-all:1.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.youdevise:test-driven-detectors4findbugs:0.2.1/dependencies/org/hamcrest/hamcrest-all/1.1/hamcrest-all-1.1.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.hamcrest.StringDescription;",
+      "artifact" : {
+        "artifact" : "org.hamcrest:hamcrest-core:1.3",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.youdevise:test-driven-detectors4findbugs:0.2.1/dependencies/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/com.youdevise:test-driven-detectors4findbugs/src/main/java/com/youdevise/fbplugins/tdd4fb/TestingBugReporter.java",
+    "useImportReport" : [ {
+      "importPath" : "import edu.umd.cs.findbugs.BugReporter;",
+      "artifact" : {
+        "artifact" : "com.google.code.findbugs:findbugs:1.3.9",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.youdevise:test-driven-detectors4findbugs:0.2.1/dependencies/com/google/code/findbugs/findbugs/1.3.9/findbugs-1.3.9.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import edu.umd.cs.findbugs.ProjectStats;",
+      "artifact" : {
+        "artifact" : "com.google.code.findbugs:findbugs:1.3.9",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.youdevise:test-driven-detectors4findbugs:0.2.1/dependencies/com/google/code/findbugs/findbugs/1.3.9/findbugs-1.3.9.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import java.util.Collection;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import edu.umd.cs.findbugs.BugInstance;",
+      "artifact" : {
+        "artifact" : "com.google.code.findbugs:findbugs:1.3.9",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.youdevise:test-driven-detectors4findbugs:0.2.1/dependencies/com/google/code/findbugs/findbugs/1.3.9/findbugs-1.3.9.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import java.util.ArrayList;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.Collections;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import edu.umd.cs.findbugs.BugReporterObserver;",
+      "artifact" : {
+        "artifact" : "com.google.code.findbugs:findbugs:1.3.9",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.youdevise:test-driven-detectors4findbugs:0.2.1/dependencies/com/google/code/findbugs/findbugs/1.3.9/findbugs-1.3.9.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import edu.umd.cs.findbugs.classfile.ClassDescriptor;",
+      "artifact" : {
+        "artifact" : "com.google.code.findbugs:findbugs:1.3.9",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.youdevise:test-driven-detectors4findbugs:0.2.1/dependencies/com/google/code/findbugs/findbugs/1.3.9/findbugs-1.3.9.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import edu.umd.cs.findbugs.classfile.MethodDescriptor;",
+      "artifact" : {
+        "artifact" : "com.google.code.findbugs:findbugs:1.3.9",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.youdevise:test-driven-detectors4findbugs:0.2.1/dependencies/com/google/code/findbugs/findbugs/1.3.9/findbugs-1.3.9.jar"
+      },
+      "isDirectDependency" : true
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/com.youdevise:test-driven-detectors4findbugs/src/main/java/com/youdevise/fbplugins/tdd4fb/BugInstanceTypeMatcher.java",
+    "useImportReport" : [ {
+      "importPath" : "import org.hamcrest.BaseMatcher;",
+      "artifact" : {
+        "artifact" : "org.hamcrest:hamcrest-all:1.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.youdevise:test-driven-detectors4findbugs:0.2.1/dependencies/org/hamcrest/hamcrest-all/1.1/hamcrest-all-1.1.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.hamcrest.BaseMatcher;",
+      "artifact" : {
+        "artifact" : "org.hamcrest:hamcrest-core:1.3",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.youdevise:test-driven-detectors4findbugs:0.2.1/dependencies/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import edu.umd.cs.findbugs.BugInstance;",
+      "artifact" : {
+        "artifact" : "com.google.code.findbugs:findbugs:1.3.9",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.youdevise:test-driven-detectors4findbugs:0.2.1/dependencies/com/google/code/findbugs/findbugs/1.3.9/findbugs-1.3.9.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.hamcrest.Description;",
+      "artifact" : {
+        "artifact" : "org.hamcrest:hamcrest-all:1.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.youdevise:test-driven-detectors4findbugs:0.2.1/dependencies/org/hamcrest/hamcrest-all/1.1/hamcrest-all-1.1.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.hamcrest.Description;",
+      "artifact" : {
+        "artifact" : "org.hamcrest:hamcrest-core:1.3",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.youdevise:test-driven-detectors4findbugs:0.2.1/dependencies/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import static java.lang.String.format;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/com.youdevise:test-driven-detectors4findbugs/src/main/java/com/youdevise/fbplugins/tdd4fb/DetectorRunner.java",
+    "useImportReport" : [ {
+      "importPath" : "import edu.umd.cs.findbugs.BugReporter;",
+      "artifact" : {
+        "artifact" : "com.google.code.findbugs:findbugs:1.3.9",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.youdevise:test-driven-detectors4findbugs:0.2.1/dependencies/com/google/code/findbugs/findbugs/1.3.9/findbugs-1.3.9.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import edu.umd.cs.findbugs.classfile.CheckedAnalysisException;",
+      "artifact" : {
+        "artifact" : "com.google.code.findbugs:findbugs:1.3.9",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.youdevise:test-driven-detectors4findbugs:0.2.1/dependencies/com/google/code/findbugs/findbugs/1.3.9/findbugs-1.3.9.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import java.io.IOException;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import edu.umd.cs.findbugs.Priorities;",
+      "artifact" : {
+        "artifact" : "com.google.code.findbugs:findbugs:1.3.9",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.youdevise:test-driven-detectors4findbugs:0.2.1/dependencies/com/google/code/findbugs/findbugs/1.3.9/findbugs-1.3.9.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import edu.umd.cs.findbugs.classfile.impl.ClassPathImpl;",
+      "artifact" : {
+        "artifact" : "com.google.code.findbugs:findbugs:1.3.9",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.youdevise:test-driven-detectors4findbugs:0.2.1/dependencies/com/google/code/findbugs/findbugs/1.3.9/findbugs-1.3.9.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import edu.umd.cs.findbugs.classfile.IAnalysisCache;",
+      "artifact" : {
+        "artifact" : "com.google.code.findbugs:findbugs:1.3.9",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.youdevise:test-driven-detectors4findbugs:0.2.1/dependencies/com/google/code/findbugs/findbugs/1.3.9/findbugs-1.3.9.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import edu.umd.cs.findbugs.classfile.impl.ClassFactory;",
+      "artifact" : {
+        "artifact" : "com.google.code.findbugs:findbugs:1.3.9",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.youdevise:test-driven-detectors4findbugs:0.2.1/dependencies/com/google/code/findbugs/findbugs/1.3.9/findbugs-1.3.9.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import edu.umd.cs.findbugs.classfile.engine.bcel.ClassContextClassAnalysisEngine;",
+      "artifact" : {
+        "artifact" : "com.google.code.findbugs:findbugs:1.3.9",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.youdevise:test-driven-detectors4findbugs:0.2.1/dependencies/com/google/code/findbugs/findbugs/1.3.9/findbugs-1.3.9.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import edu.umd.cs.findbugs.classfile.Global;",
+      "artifact" : {
+        "artifact" : "com.google.code.findbugs:findbugs:1.3.9",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.youdevise:test-driven-detectors4findbugs:0.2.1/dependencies/com/google/code/findbugs/findbugs/1.3.9/findbugs-1.3.9.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import edu.umd.cs.findbugs.classfile.ICodeBaseLocator;",
+      "artifact" : {
+        "artifact" : "com.google.code.findbugs:findbugs:1.3.9",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.youdevise:test-driven-detectors4findbugs:0.2.1/dependencies/com/google/code/findbugs/findbugs/1.3.9/findbugs-1.3.9.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import edu.umd.cs.findbugs.classfile.impl.FilesystemCodeBaseLocator;",
+      "artifact" : {
+        "artifact" : "com.google.code.findbugs:findbugs:1.3.9",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.youdevise:test-driven-detectors4findbugs:0.2.1/dependencies/com/google/code/findbugs/findbugs/1.3.9/findbugs-1.3.9.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import edu.umd.cs.findbugs.classfile.ICodeBase;",
+      "artifact" : {
+        "artifact" : "com.google.code.findbugs:findbugs:1.3.9",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.youdevise:test-driven-detectors4findbugs:0.2.1/dependencies/com/google/code/findbugs/findbugs/1.3.9/findbugs-1.3.9.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import edu.umd.cs.findbugs.classfile.impl.DirectoryCodeBase;",
+      "artifact" : {
+        "artifact" : "com.google.code.findbugs:findbugs:1.3.9",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.youdevise:test-driven-detectors4findbugs:0.2.1/dependencies/com/google/code/findbugs/findbugs/1.3.9/findbugs-1.3.9.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import java.io.File;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import edu.umd.cs.findbugs.classfile.IClassFactory;",
+      "artifact" : {
+        "artifact" : "com.google.code.findbugs:findbugs:1.3.9",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.youdevise:test-driven-detectors4findbugs:0.2.1/dependencies/com/google/code/findbugs/findbugs/1.3.9/findbugs-1.3.9.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import edu.umd.cs.findbugs.classfile.IClassPathBuilder;",
+      "artifact" : {
+        "artifact" : "com.google.code.findbugs:findbugs:1.3.9",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.youdevise:test-driven-detectors4findbugs:0.2.1/dependencies/com/google/code/findbugs/findbugs/1.3.9/findbugs-1.3.9.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import edu.umd.cs.findbugs.classfile.IClassPathBuilderProgress;",
+      "artifact" : {
+        "artifact" : "com.google.code.findbugs:findbugs:1.3.9",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.youdevise:test-driven-detectors4findbugs:0.2.1/dependencies/com/google/code/findbugs/findbugs/1.3.9/findbugs-1.3.9.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import edu.umd.cs.findbugs.NoOpFindBugsProgress;",
+      "artifact" : {
+        "artifact" : "com.google.code.findbugs:findbugs:1.3.9",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.youdevise:test-driven-detectors4findbugs:0.2.1/dependencies/com/google/code/findbugs/findbugs/1.3.9/findbugs-1.3.9.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import java.util.List;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import edu.umd.cs.findbugs.classfile.ClassDescriptor;",
+      "artifact" : {
+        "artifact" : "com.google.code.findbugs:findbugs:1.3.9",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.youdevise:test-driven-detectors4findbugs:0.2.1/dependencies/com/google/code/findbugs/findbugs/1.3.9/findbugs-1.3.9.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import edu.umd.cs.findbugs.ba.AnalysisCacheToAnalysisContextAdapter;",
+      "artifact" : {
+        "artifact" : "com.google.code.findbugs:findbugs:1.3.9",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.youdevise:test-driven-detectors4findbugs:0.2.1/dependencies/com/google/code/findbugs/findbugs/1.3.9/findbugs-1.3.9.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import edu.umd.cs.findbugs.ba.AnalysisContext;",
+      "artifact" : {
+        "artifact" : "com.google.code.findbugs:findbugs:1.3.9",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.youdevise:test-driven-detectors4findbugs:0.2.1/dependencies/com/google/code/findbugs/findbugs/1.3.9/findbugs-1.3.9.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import edu.umd.cs.findbugs.ba.FieldSummary;",
+      "artifact" : {
+        "artifact" : "com.google.code.findbugs:findbugs:1.3.9",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.youdevise:test-driven-detectors4findbugs:0.2.1/dependencies/com/google/code/findbugs/findbugs/1.3.9/findbugs-1.3.9.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import edu.umd.cs.findbugs.classfile.ResourceNotFoundException;",
+      "artifact" : {
+        "artifact" : "com.google.code.findbugs:findbugs:1.3.9",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.youdevise:test-driven-detectors4findbugs:0.2.1/dependencies/com/google/code/findbugs/findbugs/1.3.9/findbugs-1.3.9.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import static java.util.Arrays.asList;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import static java.lang.System.getProperty;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import edu.umd.cs.findbugs.Detector;",
+      "artifact" : {
+        "artifact" : "com.google.code.findbugs:findbugs:1.3.9",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.youdevise:test-driven-detectors4findbugs:0.2.1/dependencies/com/google/code/findbugs/findbugs/1.3.9/findbugs-1.3.9.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import edu.umd.cs.findbugs.DetectorToDetector2Adapter;",
+      "artifact" : {
+        "artifact" : "com.google.code.findbugs:findbugs:1.3.9",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.youdevise:test-driven-detectors4findbugs:0.2.1/dependencies/com/google/code/findbugs/findbugs/1.3.9/findbugs-1.3.9.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import static edu.umd.cs.findbugs.classfile.DescriptorFactory.createClassDescriptorFromDottedClassName;",
+      "artifact" : {
+        "artifact" : "com.google.code.findbugs:findbugs:1.3.9",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.youdevise:test-driven-detectors4findbugs:0.2.1/dependencies/com/google/code/findbugs/findbugs/1.3.9/findbugs-1.3.9.jar"
+      },
+      "isDirectDependency" : true
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/com.youdevise:test-driven-detectors4findbugs/src/main/java/com/youdevise/fbplugins/tdd4fb/DetectorAssert.java",
+    "useImportReport" : [ {
+      "importPath" : "import edu.umd.cs.findbugs.Detector;",
+      "artifact" : {
+        "artifact" : "com.google.code.findbugs:findbugs:1.3.9",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.youdevise:test-driven-detectors4findbugs:0.2.1/dependencies/com/google/code/findbugs/findbugs/1.3.9/findbugs-1.3.9.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import edu.umd.cs.findbugs.BugReporter;",
+      "artifact" : {
+        "artifact" : "com.google.code.findbugs:findbugs:1.3.9",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.youdevise:test-driven-detectors4findbugs:0.2.1/dependencies/com/google/code/findbugs/findbugs/1.3.9/findbugs-1.3.9.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.hamcrest.Matcher;",
+      "artifact" : {
+        "artifact" : "org.hamcrest:hamcrest-all:1.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.youdevise:test-driven-detectors4findbugs:0.2.1/dependencies/org/hamcrest/hamcrest-all/1.1/hamcrest-all-1.1.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.hamcrest.Matcher;",
+      "artifact" : {
+        "artifact" : "org.hamcrest:hamcrest-core:1.3",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.youdevise:test-driven-detectors4findbugs:0.2.1/dependencies/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import edu.umd.cs.findbugs.BugInstance;",
+      "artifact" : {
+        "artifact" : "com.google.code.findbugs:findbugs:1.3.9",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.youdevise:test-driven-detectors4findbugs:0.2.1/dependencies/com/google/code/findbugs/findbugs/1.3.9/findbugs-1.3.9.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import static com.youdevise.fbplugins.tdd4fb.DetectorRunner.runDetectorOnClass;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/com.youdevise:test-driven-detectors4findbugs/src/main/java/com/youdevise/fbplugins/tdd4fb/AuxCodeBaseLocatorProvider.java",
+    "useImportReport" : [ {
+      "importPath" : "import edu.umd.cs.findbugs.classfile.ICodeBaseLocator;",
+      "artifact" : {
+        "artifact" : "com.google.code.findbugs:findbugs:1.3.9",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.youdevise:test-driven-detectors4findbugs:0.2.1/dependencies/com/google/code/findbugs/findbugs/1.3.9/findbugs-1.3.9.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import java.io.IOException;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.List;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.ArrayList;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import edu.umd.cs.findbugs.classfile.impl.FilesystemCodeBaseLocator;",
+      "artifact" : {
+        "artifact" : "com.google.code.findbugs:findbugs:1.3.9",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.youdevise:test-driven-detectors4findbugs:0.2.1/dependencies/com/google/code/findbugs/findbugs/1.3.9/findbugs-1.3.9.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import static java.util.Collections.unmodifiableList;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/com.youdevise:test-driven-detectors4findbugs/src/main/java/com/youdevise/fbplugins/tdd4fb/DetectorAssertException.java",
+    "useImportReport" : [ ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  } ],
+  "projectUseDependencies" : [ {
+    "artifact" : "org.hamcrest:hamcrest-all:1.1",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.youdevise:test-driven-detectors4findbugs:0.2.1/dependencies/org/hamcrest/hamcrest-all/1.1/hamcrest-all-1.1.jar"
+  }, {
+    "artifact" : "com.google.code.findbugs:findbugs:1.3.9",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.youdevise:test-driven-detectors4findbugs:0.2.1/dependencies/com/google/code/findbugs/findbugs/1.3.9/findbugs-1.3.9.jar"
+  } ],
+  "projectUseTransitiveDependencies" : [ ],
+  "projectUnusedDependencies" : [ ]
+}

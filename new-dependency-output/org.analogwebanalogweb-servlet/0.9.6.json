@@ -1,0 +1,2282 @@
+{
+  "projectArtifact" : "org.analogweb:analogweb-servlet:0.9.6",
+  "repositoryDir" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/org.analogweb:analogweb-servlet",
+  "repositorySubDir" : "",
+  "artifactLocation" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.analogweb:analogweb-servlet:0.9.6",
+  "fileImportReports" : [ {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/org.analogweb:analogweb-servlet/src/test/java/org/analogweb/servlet/ServletComponentsValueResolverTest.java",
+    "useImportReport" : [ {
+      "importPath" : "import org.junit.Before;",
+      "artifact" : {
+        "artifact" : "junit:junit:4.12",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.analogweb:analogweb-servlet:0.9.6/dependencies/junit/junit/4.12/junit-4.12.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.junit.Test;",
+      "artifact" : {
+        "artifact" : "junit:junit:4.12",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.analogweb:analogweb-servlet:0.9.6/dependencies/junit/junit/4.12/junit-4.12.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import static org.mockito.Mockito.mock;",
+      "artifact" : {
+        "artifact" : "org.mockito:mockito-core:1.10.19",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.analogweb:analogweb-servlet:0.9.6/dependencies/org/mockito/mockito-core/1.10.19/mockito-core-1.10.19.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import javax.servlet.http.HttpServletRequest;",
+      "artifact" : {
+        "artifact" : "javax.servlet:servlet-api:2.5",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.analogweb:analogweb-servlet:0.9.6/dependencies/javax/servlet/servlet-api/2.5/servlet-api-2.5.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import static org.mockito.Mockito.when;",
+      "artifact" : {
+        "artifact" : "org.mockito:mockito-core:1.10.19",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.analogweb:analogweb-servlet:0.9.6/dependencies/org/mockito/mockito-core/1.10.19/mockito-core-1.10.19.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.analogweb.InvocationMetadata;",
+      "artifact" : {
+        "artifact" : "org.analogweb:analogweb-core:0.9.6",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.analogweb:analogweb-servlet:0.9.6/dependencies/org/analogweb/analogweb-core/0.9.6/analogweb-core-0.9.6.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import static org.junit.Assert.assertThat;",
+      "artifact" : {
+        "artifact" : "junit:junit:4.12",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.analogweb:analogweb-servlet:0.9.6/dependencies/junit/junit/4.12/junit-4.12.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import static org.hamcrest.CoreMatchers.is;",
+      "artifact" : {
+        "artifact" : "org.hamcrest:java-hamcrest:2.0.0.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.analogweb:analogweb-servlet:0.9.6/dependencies/org/hamcrest/java-hamcrest/2.0.0.0/java-hamcrest-2.0.0.0.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.analogweb.core.RequestContextWrapper;",
+      "artifact" : {
+        "artifact" : "org.analogweb:analogweb-core:0.9.6",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.analogweb:analogweb-servlet:0.9.6/dependencies/org/analogweb/analogweb-core/0.9.6/analogweb-core-0.9.6.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import javax.servlet.ServletContext;",
+      "artifact" : {
+        "artifact" : "javax.servlet:servlet-api:2.5",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.analogweb:analogweb-servlet:0.9.6/dependencies/javax/servlet/servlet-api/2.5/servlet-api-2.5.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import javax.servlet.http.HttpSession;",
+      "artifact" : {
+        "artifact" : "javax.servlet:servlet-api:2.5",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.analogweb:analogweb-servlet:0.9.6/dependencies/javax/servlet/servlet-api/2.5/servlet-api-2.5.jar"
+      },
+      "isDirectDependency" : true
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/org.analogweb:analogweb-servlet/src/test/java/org/analogweb/servlet/core/ServletResponseContextTest.java",
+    "useImportReport" : [ {
+      "importPath" : "import javax.servlet.http.HttpServletRequest;",
+      "artifact" : {
+        "artifact" : "javax.servlet:servlet-api:2.5",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.analogweb:analogweb-servlet:0.9.6/dependencies/javax/servlet/servlet-api/2.5/servlet-api-2.5.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import javax.servlet.http.HttpServletResponse;",
+      "artifact" : {
+        "artifact" : "javax.servlet:servlet-api:2.5",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.analogweb:analogweb-servlet:0.9.6/dependencies/javax/servlet/servlet-api/2.5/servlet-api-2.5.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import javax.servlet.ServletContext;",
+      "artifact" : {
+        "artifact" : "javax.servlet:servlet-api:2.5",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.analogweb:analogweb-servlet:0.9.6/dependencies/javax/servlet/servlet-api/2.5/servlet-api-2.5.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.junit.Before;",
+      "artifact" : {
+        "artifact" : "junit:junit:4.12",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.analogweb:analogweb-servlet:0.9.6/dependencies/junit/junit/4.12/junit-4.12.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import static org.mockito.Mockito.mock;",
+      "artifact" : {
+        "artifact" : "org.mockito:mockito-core:1.10.19",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.analogweb:analogweb-servlet:0.9.6/dependencies/org/mockito/mockito-core/1.10.19/mockito-core-1.10.19.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.junit.Test;",
+      "artifact" : {
+        "artifact" : "junit:junit:4.12",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.analogweb:analogweb-servlet:0.9.6/dependencies/junit/junit/4.12/junit-4.12.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import static org.mockito.Mockito.when;",
+      "artifact" : {
+        "artifact" : "org.mockito:mockito-core:1.10.19",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.analogweb:analogweb-servlet:0.9.6/dependencies/org/mockito/mockito-core/1.10.19/mockito-core-1.10.19.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.Collections;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.Arrays;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.analogweb.Headers;",
+      "artifact" : {
+        "artifact" : "org.analogweb:analogweb-core:0.9.6",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.analogweb:analogweb-servlet:0.9.6/dependencies/org/analogweb/analogweb-core/0.9.6/analogweb-core-0.9.6.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import static org.junit.Assert.assertThat;",
+      "artifact" : {
+        "artifact" : "junit:junit:4.12",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.analogweb:analogweb-servlet:0.9.6/dependencies/junit/junit/4.12/junit-4.12.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import static org.hamcrest.core.Is.is;",
+      "artifact" : {
+        "artifact" : "org.hamcrest:java-hamcrest:2.0.0.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.analogweb:analogweb-servlet:0.9.6/dependencies/org/hamcrest/java-hamcrest/2.0.0.0/java-hamcrest-2.0.0.0.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import static org.mockito.Mockito.verify;",
+      "artifact" : {
+        "artifact" : "org.mockito:mockito-core:1.10.19",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.analogweb:analogweb-servlet:0.9.6/dependencies/org/mockito/mockito-core/1.10.19/mockito-core-1.10.19.jar"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/org.analogweb:analogweb-servlet/src/test/java/org/analogweb/servlet/core/DefaultServletRequestContextTest.java",
+    "useImportReport" : [ {
+      "importPath" : "import javax.servlet.http.HttpServletRequest;",
+      "artifact" : {
+        "artifact" : "javax.servlet:servlet-api:2.5",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.analogweb:analogweb-servlet:0.9.6/dependencies/javax/servlet/servlet-api/2.5/servlet-api-2.5.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import javax.servlet.http.HttpServletResponse;",
+      "artifact" : {
+        "artifact" : "javax.servlet:servlet-api:2.5",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.analogweb:analogweb-servlet:0.9.6/dependencies/javax/servlet/servlet-api/2.5/servlet-api-2.5.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import javax.servlet.ServletContext;",
+      "artifact" : {
+        "artifact" : "javax.servlet:servlet-api:2.5",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.analogweb:analogweb-servlet:0.9.6/dependencies/javax/servlet/servlet-api/2.5/servlet-api-2.5.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.junit.Before;",
+      "artifact" : {
+        "artifact" : "junit:junit:4.12",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.analogweb:analogweb-servlet:0.9.6/dependencies/junit/junit/4.12/junit-4.12.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import static org.mockito.Mockito.mock;",
+      "artifact" : {
+        "artifact" : "org.mockito:mockito-core:1.10.19",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.analogweb:analogweb-servlet:0.9.6/dependencies/org/mockito/mockito-core/1.10.19/mockito-core-1.10.19.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.junit.Test;",
+      "artifact" : {
+        "artifact" : "junit:junit:4.12",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.analogweb:analogweb-servlet:0.9.6/dependencies/junit/junit/4.12/junit-4.12.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import static org.mockito.Mockito.when;",
+      "artifact" : {
+        "artifact" : "org.mockito:mockito-core:1.10.19",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.analogweb:analogweb-servlet:0.9.6/dependencies/org/mockito/mockito-core/1.10.19/mockito-core-1.10.19.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import javax.servlet.http.Cookie;",
+      "artifact" : {
+        "artifact" : "javax.servlet:servlet-api:2.5",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.analogweb:analogweb-servlet:0.9.6/dependencies/javax/servlet/servlet-api/2.5/servlet-api-2.5.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.analogweb.Cookies;",
+      "artifact" : {
+        "artifact" : "org.analogweb:analogweb-core:0.9.6",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.analogweb:analogweb-servlet:0.9.6/dependencies/org/analogweb/analogweb-core/0.9.6/analogweb-core-0.9.6.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import static org.junit.Assert.assertThat;",
+      "artifact" : {
+        "artifact" : "junit:junit:4.12",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.analogweb:analogweb-servlet:0.9.6/dependencies/junit/junit/4.12/junit-4.12.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import static org.hamcrest.core.Is.is;",
+      "artifact" : {
+        "artifact" : "org.hamcrest:java-hamcrest:2.0.0.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.analogweb:analogweb-servlet:0.9.6/dependencies/org/hamcrest/java-hamcrest/2.0.0.0/java-hamcrest-2.0.0.0.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import static org.mockito.Mockito.verify;",
+      "artifact" : {
+        "artifact" : "org.mockito:mockito-core:1.10.19",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.analogweb:analogweb-servlet:0.9.6/dependencies/org/mockito/mockito-core/1.10.19/mockito-core-1.10.19.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import static org.mockito.Mockito.times;",
+      "artifact" : {
+        "artifact" : "org.mockito:mockito-core:1.10.19",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.analogweb:analogweb-servlet:0.9.6/dependencies/org/mockito/mockito-core/1.10.19/mockito-core-1.10.19.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import static org.mockito.Matchers.isA;",
+      "artifact" : {
+        "artifact" : "org.mockito:mockito-core:1.10.19",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.analogweb:analogweb-servlet:0.9.6/dependencies/org/mockito/mockito-core/1.10.19/mockito-core-1.10.19.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.analogweb.RequestPath;",
+      "artifact" : {
+        "artifact" : "org.analogweb:analogweb-core:0.9.6",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.analogweb:analogweb-servlet:0.9.6/dependencies/org/analogweb/analogweb-core/0.9.6/analogweb-core-0.9.6.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.analogweb.Parameters;",
+      "artifact" : {
+        "artifact" : "org.analogweb:analogweb-core:0.9.6",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.analogweb:analogweb-servlet:0.9.6/dependencies/org/analogweb/analogweb-core/0.9.6/analogweb-core-0.9.6.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import java.util.Collections;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.Arrays;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.analogweb.Headers;",
+      "artifact" : {
+        "artifact" : "org.analogweb:analogweb-core:0.9.6",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.analogweb:analogweb-servlet:0.9.6/dependencies/org/analogweb/analogweb-core/0.9.6/analogweb-core-0.9.6.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import java.io.IOException;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import javax.servlet.ServletInputStream;",
+      "artifact" : {
+        "artifact" : "javax.servlet:servlet-api:2.5",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.analogweb:analogweb-servlet:0.9.6/dependencies/javax/servlet/servlet-api/2.5/servlet-api-2.5.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import java.io.InputStream;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.analogweb.MediaType;",
+      "artifact" : {
+        "artifact" : "org.analogweb:analogweb-core:0.9.6",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.analogweb:analogweb-servlet:0.9.6/dependencies/org/analogweb/analogweb-core/0.9.6/analogweb-core-0.9.6.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import java.util.ArrayList;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import static org.hamcrest.CoreMatchers.nullValue;",
+      "artifact" : {
+        "artifact" : "org.hamcrest:java-hamcrest:2.0.0.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.analogweb:analogweb-servlet:0.9.6/dependencies/org/hamcrest/java-hamcrest/2.0.0.0/java-hamcrest-2.0.0.0.jar"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/org.analogweb:analogweb-servlet/src/test/java/org/analogweb/servlet/core/response/ForwardTest.java",
+    "useImportReport" : [ {
+      "importPath" : "import org.analogweb.servlet.ServletRequestContext;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.analogweb.ResponseContext;",
+      "artifact" : {
+        "artifact" : "org.analogweb:analogweb-core:0.9.6",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.analogweb:analogweb-servlet:0.9.6/dependencies/org/analogweb/analogweb-core/0.9.6/analogweb-core-0.9.6.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import javax.servlet.http.HttpServletRequest;",
+      "artifact" : {
+        "artifact" : "javax.servlet:servlet-api:2.5",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.analogweb:analogweb-servlet:0.9.6/dependencies/javax/servlet/servlet-api/2.5/servlet-api-2.5.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import javax.servlet.http.HttpServletResponse;",
+      "artifact" : {
+        "artifact" : "javax.servlet:servlet-api:2.5",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.analogweb:analogweb-servlet:0.9.6/dependencies/javax/servlet/servlet-api/2.5/servlet-api-2.5.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import javax.servlet.RequestDispatcher;",
+      "artifact" : {
+        "artifact" : "javax.servlet:servlet-api:2.5",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.analogweb:analogweb-servlet:0.9.6/dependencies/javax/servlet/servlet-api/2.5/servlet-api-2.5.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.junit.rules.ExpectedException;",
+      "artifact" : {
+        "artifact" : "junit:junit:4.12",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.analogweb:analogweb-servlet:0.9.6/dependencies/junit/junit/4.12/junit-4.12.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.junit.Rule;",
+      "artifact" : {
+        "artifact" : "junit:junit:4.12",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.analogweb:analogweb-servlet:0.9.6/dependencies/junit/junit/4.12/junit-4.12.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.junit.Before;",
+      "artifact" : {
+        "artifact" : "junit:junit:4.12",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.analogweb:analogweb-servlet:0.9.6/dependencies/junit/junit/4.12/junit-4.12.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import static org.mockito.Mockito.mock;",
+      "artifact" : {
+        "artifact" : "org.mockito:mockito-core:1.10.19",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.analogweb:analogweb-servlet:0.9.6/dependencies/org/mockito/mockito-core/1.10.19/mockito-core-1.10.19.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.junit.Test;",
+      "artifact" : {
+        "artifact" : "junit:junit:4.12",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.analogweb:analogweb-servlet:0.9.6/dependencies/junit/junit/4.12/junit-4.12.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import static org.mockito.Mockito.when;",
+      "artifact" : {
+        "artifact" : "org.mockito:mockito-core:1.10.19",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.analogweb:analogweb-servlet:0.9.6/dependencies/org/mockito/mockito-core/1.10.19/mockito-core-1.10.19.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import static org.mockito.Mockito.doNothing;",
+      "artifact" : {
+        "artifact" : "org.mockito:mockito-core:1.10.19",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.analogweb:analogweb-servlet:0.9.6/dependencies/org/mockito/mockito-core/1.10.19/mockito-core-1.10.19.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import static org.mockito.Mockito.verify;",
+      "artifact" : {
+        "artifact" : "org.mockito:mockito-core:1.10.19",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.analogweb:analogweb-servlet:0.9.6/dependencies/org/mockito/mockito-core/1.10.19/mockito-core-1.10.19.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.analogweb.core.AssertionFailureException;",
+      "artifact" : {
+        "artifact" : "org.analogweb:analogweb-core:0.9.6",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.analogweb:analogweb-servlet:0.9.6/dependencies/org/analogweb/analogweb-core/0.9.6/analogweb-core-0.9.6.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.analogweb.core.MissingRequirmentsException;",
+      "artifact" : {
+        "artifact" : "org.analogweb:analogweb-core:0.9.6",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.analogweb:analogweb-servlet:0.9.6/dependencies/org/analogweb/analogweb-core/0.9.6/analogweb-core-0.9.6.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.hamcrest.BaseMatcher;",
+      "artifact" : {
+        "artifact" : "org.hamcrest:java-hamcrest:2.0.0.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.analogweb:analogweb-servlet:0.9.6/dependencies/org/hamcrest/java-hamcrest/2.0.0.0/java-hamcrest-2.0.0.0.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import static org.junit.Assert.assertThat;",
+      "artifact" : {
+        "artifact" : "junit:junit:4.12",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.analogweb:analogweb-servlet:0.9.6/dependencies/junit/junit/4.12/junit-4.12.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import static org.hamcrest.core.Is.is;",
+      "artifact" : {
+        "artifact" : "org.hamcrest:java-hamcrest:2.0.0.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.analogweb:analogweb-servlet:0.9.6/dependencies/org/hamcrest/java-hamcrest/2.0.0.0/java-hamcrest-2.0.0.0.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.hamcrest.Description;",
+      "artifact" : {
+        "artifact" : "org.hamcrest:java-hamcrest:2.0.0.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.analogweb:analogweb-servlet:0.9.6/dependencies/org/hamcrest/java-hamcrest/2.0.0.0/java-hamcrest-2.0.0.0.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import static org.hamcrest.core.IsNot.not;",
+      "artifact" : {
+        "artifact" : "org.hamcrest:java-hamcrest:2.0.0.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.analogweb:analogweb-servlet:0.9.6/dependencies/org/hamcrest/java-hamcrest/2.0.0.0/java-hamcrest-2.0.0.0.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.io.Serializable;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.Map;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.analogweb.util.Maps;",
+      "artifact" : {
+        "artifact" : "org.analogweb:analogweb-core:0.9.6",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.analogweb:analogweb-servlet:0.9.6/dependencies/org/analogweb/analogweb-core/0.9.6/analogweb-core-0.9.6.jar"
+      },
+      "isDirectDependency" : true
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/org.analogweb:analogweb-servlet/src/test/java/org/analogweb/servlet/core/ServletContextApplicationContextTest.java",
+    "useImportReport" : [ {
+      "importPath" : "import javax.servlet.ServletContext;",
+      "artifact" : {
+        "artifact" : "javax.servlet:servlet-api:2.5",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.analogweb:analogweb-servlet:0.9.6/dependencies/javax/servlet/servlet-api/2.5/servlet-api-2.5.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.junit.Before;",
+      "artifact" : {
+        "artifact" : "junit:junit:4.12",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.analogweb:analogweb-servlet:0.9.6/dependencies/junit/junit/4.12/junit-4.12.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import static org.mockito.Mockito.mock;",
+      "artifact" : {
+        "artifact" : "org.mockito:mockito-core:1.10.19",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.analogweb:analogweb-servlet:0.9.6/dependencies/org/mockito/mockito-core/1.10.19/mockito-core-1.10.19.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.junit.Test;",
+      "artifact" : {
+        "artifact" : "junit:junit:4.12",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.analogweb:analogweb-servlet:0.9.6/dependencies/junit/junit/4.12/junit-4.12.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import static org.mockito.Mockito.when;",
+      "artifact" : {
+        "artifact" : "org.mockito:mockito-core:1.10.19",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.analogweb:analogweb-servlet:0.9.6/dependencies/org/mockito/mockito-core/1.10.19/mockito-core-1.10.19.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.math.BigDecimal;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import static org.junit.Assert.assertThat;",
+      "artifact" : {
+        "artifact" : "junit:junit:4.12",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.analogweb:analogweb-servlet:0.9.6/dependencies/junit/junit/4.12/junit-4.12.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import static org.hamcrest.core.Is.is;",
+      "artifact" : {
+        "artifact" : "org.hamcrest:java-hamcrest:2.0.0.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.analogweb:analogweb-servlet:0.9.6/dependencies/org/hamcrest/java-hamcrest/2.0.0.0/java-hamcrest-2.0.0.0.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import static org.hamcrest.core.IsNull.nullValue;",
+      "artifact" : {
+        "artifact" : "org.hamcrest:java-hamcrest:2.0.0.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.analogweb:analogweb-servlet:0.9.6/dependencies/org/hamcrest/java-hamcrest/2.0.0.0/java-hamcrest-2.0.0.0.jar"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/org.analogweb:analogweb-servlet/src/test/java/org/analogweb/servlet/core/ApplicationScopeRequestAttributesResolverTest.java",
+    "useImportReport" : [ {
+      "importPath" : "import org.analogweb.servlet.ServletRequestContext;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import javax.servlet.ServletContext;",
+      "artifact" : {
+        "artifact" : "javax.servlet:servlet-api:2.5",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.analogweb:analogweb-servlet:0.9.6/dependencies/javax/servlet/servlet-api/2.5/servlet-api-2.5.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.analogweb.InvocationMetadata;",
+      "artifact" : {
+        "artifact" : "org.analogweb:analogweb-core:0.9.6",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.analogweb:analogweb-servlet:0.9.6/dependencies/org/analogweb/analogweb-core/0.9.6/analogweb-core-0.9.6.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.junit.Before;",
+      "artifact" : {
+        "artifact" : "junit:junit:4.12",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.analogweb:analogweb-servlet:0.9.6/dependencies/junit/junit/4.12/junit-4.12.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import static org.mockito.Mockito.mock;",
+      "artifact" : {
+        "artifact" : "org.mockito:mockito-core:1.10.19",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.analogweb:analogweb-servlet:0.9.6/dependencies/org/mockito/mockito-core/1.10.19/mockito-core-1.10.19.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.junit.Test;",
+      "artifact" : {
+        "artifact" : "junit:junit:4.12",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.analogweb:analogweb-servlet:0.9.6/dependencies/junit/junit/4.12/junit-4.12.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import static org.mockito.Mockito.when;",
+      "artifact" : {
+        "artifact" : "org.mockito:mockito-core:1.10.19",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.analogweb:analogweb-servlet:0.9.6/dependencies/org/mockito/mockito-core/1.10.19/mockito-core-1.10.19.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import static org.junit.Assert.assertThat;",
+      "artifact" : {
+        "artifact" : "junit:junit:4.12",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.analogweb:analogweb-servlet:0.9.6/dependencies/junit/junit/4.12/junit-4.12.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import static org.hamcrest.core.Is.is;",
+      "artifact" : {
+        "artifact" : "org.hamcrest:java-hamcrest:2.0.0.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.analogweb:analogweb-servlet:0.9.6/dependencies/org/hamcrest/java-hamcrest/2.0.0.0/java-hamcrest-2.0.0.0.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import static org.mockito.Mockito.verify;",
+      "artifact" : {
+        "artifact" : "org.mockito:mockito-core:1.10.19",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.analogweb:analogweb-servlet:0.9.6/dependencies/org/mockito/mockito-core/1.10.19/mockito-core-1.10.19.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import static org.junit.Assert.assertNull;",
+      "artifact" : {
+        "artifact" : "junit:junit:4.12",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.analogweb:analogweb-servlet:0.9.6/dependencies/junit/junit/4.12/junit-4.12.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import static org.mockito.Mockito.doNothing;",
+      "artifact" : {
+        "artifact" : "org.mockito:mockito-core:1.10.19",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.analogweb:analogweb-servlet:0.9.6/dependencies/org/mockito/mockito-core/1.10.19/mockito-core-1.10.19.jar"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/org.analogweb:analogweb-servlet/src/test/java/org/analogweb/servlet/core/RequestScopeRequestAttributesResolverTest.java",
+    "useImportReport" : [ {
+      "importPath" : "import org.analogweb.servlet.ServletRequestContext;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import javax.servlet.http.HttpServletRequest;",
+      "artifact" : {
+        "artifact" : "javax.servlet:servlet-api:2.5",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.analogweb:analogweb-servlet:0.9.6/dependencies/javax/servlet/servlet-api/2.5/servlet-api-2.5.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.analogweb.InvocationMetadata;",
+      "artifact" : {
+        "artifact" : "org.analogweb:analogweb-core:0.9.6",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.analogweb:analogweb-servlet:0.9.6/dependencies/org/analogweb/analogweb-core/0.9.6/analogweb-core-0.9.6.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.junit.rules.ExpectedException;",
+      "artifact" : {
+        "artifact" : "junit:junit:4.12",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.analogweb:analogweb-servlet:0.9.6/dependencies/junit/junit/4.12/junit-4.12.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.junit.Rule;",
+      "artifact" : {
+        "artifact" : "junit:junit:4.12",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.analogweb:analogweb-servlet:0.9.6/dependencies/junit/junit/4.12/junit-4.12.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.junit.Before;",
+      "artifact" : {
+        "artifact" : "junit:junit:4.12",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.analogweb:analogweb-servlet:0.9.6/dependencies/junit/junit/4.12/junit-4.12.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import static org.mockito.Mockito.mock;",
+      "artifact" : {
+        "artifact" : "org.mockito:mockito-core:1.10.19",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.analogweb:analogweb-servlet:0.9.6/dependencies/org/mockito/mockito-core/1.10.19/mockito-core-1.10.19.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.junit.Test;",
+      "artifact" : {
+        "artifact" : "junit:junit:4.12",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.analogweb:analogweb-servlet:0.9.6/dependencies/junit/junit/4.12/junit-4.12.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import static org.mockito.Mockito.when;",
+      "artifact" : {
+        "artifact" : "org.mockito:mockito-core:1.10.19",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.analogweb:analogweb-servlet:0.9.6/dependencies/org/mockito/mockito-core/1.10.19/mockito-core-1.10.19.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import static org.junit.Assert.assertThat;",
+      "artifact" : {
+        "artifact" : "junit:junit:4.12",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.analogweb:analogweb-servlet:0.9.6/dependencies/junit/junit/4.12/junit-4.12.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import static org.hamcrest.core.Is.is;",
+      "artifact" : {
+        "artifact" : "org.hamcrest:java-hamcrest:2.0.0.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.analogweb:analogweb-servlet:0.9.6/dependencies/org/hamcrest/java-hamcrest/2.0.0.0/java-hamcrest-2.0.0.0.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import static org.mockito.Mockito.doNothing;",
+      "artifact" : {
+        "artifact" : "org.mockito:mockito-core:1.10.19",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.analogweb:analogweb-servlet:0.9.6/dependencies/org/mockito/mockito-core/1.10.19/mockito-core-1.10.19.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import static org.mockito.Mockito.verify;",
+      "artifact" : {
+        "artifact" : "org.mockito:mockito-core:1.10.19",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.analogweb:analogweb-servlet:0.9.6/dependencies/org/mockito/mockito-core/1.10.19/mockito-core-1.10.19.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.analogweb.core.AssertionFailureException;",
+      "artifact" : {
+        "artifact" : "org.analogweb:analogweb-core:0.9.6",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.analogweb:analogweb-servlet:0.9.6/dependencies/org/analogweb/analogweb-core/0.9.6/analogweb-core-0.9.6.jar"
+      },
+      "isDirectDependency" : true
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/org.analogweb:analogweb-servlet/src/test/java/org/analogweb/servlet/core/SessionScopeRequestAttributesResolverTest.java",
+    "useImportReport" : [ {
+      "importPath" : "import org.analogweb.servlet.ServletRequestContext;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import javax.servlet.http.HttpServletRequest;",
+      "artifact" : {
+        "artifact" : "javax.servlet:servlet-api:2.5",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.analogweb:analogweb-servlet:0.9.6/dependencies/javax/servlet/servlet-api/2.5/servlet-api-2.5.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import javax.servlet.http.HttpSession;",
+      "artifact" : {
+        "artifact" : "javax.servlet:servlet-api:2.5",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.analogweb:analogweb-servlet:0.9.6/dependencies/javax/servlet/servlet-api/2.5/servlet-api-2.5.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.analogweb.InvocationMetadata;",
+      "artifact" : {
+        "artifact" : "org.analogweb:analogweb-core:0.9.6",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.analogweb:analogweb-servlet:0.9.6/dependencies/org/analogweb/analogweb-core/0.9.6/analogweb-core-0.9.6.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.junit.Before;",
+      "artifact" : {
+        "artifact" : "junit:junit:4.12",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.analogweb:analogweb-servlet:0.9.6/dependencies/junit/junit/4.12/junit-4.12.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import static org.mockito.Mockito.mock;",
+      "artifact" : {
+        "artifact" : "org.mockito:mockito-core:1.10.19",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.analogweb:analogweb-servlet:0.9.6/dependencies/org/mockito/mockito-core/1.10.19/mockito-core-1.10.19.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.junit.Test;",
+      "artifact" : {
+        "artifact" : "junit:junit:4.12",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.analogweb:analogweb-servlet:0.9.6/dependencies/junit/junit/4.12/junit-4.12.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import static org.mockito.Mockito.when;",
+      "artifact" : {
+        "artifact" : "org.mockito:mockito-core:1.10.19",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.analogweb:analogweb-servlet:0.9.6/dependencies/org/mockito/mockito-core/1.10.19/mockito-core-1.10.19.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import static org.junit.Assert.assertThat;",
+      "artifact" : {
+        "artifact" : "junit:junit:4.12",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.analogweb:analogweb-servlet:0.9.6/dependencies/junit/junit/4.12/junit-4.12.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import static org.hamcrest.core.Is.is;",
+      "artifact" : {
+        "artifact" : "org.hamcrest:java-hamcrest:2.0.0.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.analogweb:analogweb-servlet:0.9.6/dependencies/org/hamcrest/java-hamcrest/2.0.0.0/java-hamcrest-2.0.0.0.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import static org.mockito.Mockito.verify;",
+      "artifact" : {
+        "artifact" : "org.mockito:mockito-core:1.10.19",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.analogweb:analogweb-servlet:0.9.6/dependencies/org/mockito/mockito-core/1.10.19/mockito-core-1.10.19.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import static org.junit.Assert.assertNull;",
+      "artifact" : {
+        "artifact" : "junit:junit:4.12",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.analogweb:analogweb-servlet:0.9.6/dependencies/junit/junit/4.12/junit-4.12.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import static org.mockito.Mockito.doNothing;",
+      "artifact" : {
+        "artifact" : "org.mockito:mockito-core:1.10.19",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.analogweb:analogweb-servlet:0.9.6/dependencies/org/mockito/mockito-core/1.10.19/mockito-core-1.10.19.jar"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/org.analogweb:analogweb-servlet/src/main/java/org/analogweb/servlet/ServletModule.java",
+    "useImportReport" : [ {
+      "importPath" : "import java.lang.annotation.Documented;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.lang.annotation.Retention;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.lang.annotation.RetentionPolicy;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.lang.annotation.Target;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.lang.annotation.ElementType;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.analogweb.annotation.Resolver;",
+      "artifact" : {
+        "artifact" : "org.analogweb:analogweb-core:0.9.6",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.analogweb:analogweb-servlet:0.9.6/dependencies/org/analogweb/analogweb-core/0.9.6/analogweb-core-0.9.6.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.analogweb.annotation.As;",
+      "artifact" : {
+        "artifact" : "org.analogweb:analogweb-core:0.9.6",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.analogweb:analogweb-servlet:0.9.6/dependencies/org/analogweb/analogweb-core/0.9.6/analogweb-core-0.9.6.jar"
+      },
+      "isDirectDependency" : true
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/org.analogweb:analogweb-servlet/src/main/java/org/analogweb/servlet/core/ServletResponseContext.java",
+    "useImportReport" : [ {
+      "importPath" : "import org.analogweb.ResponseContext;",
+      "artifact" : {
+        "artifact" : "org.analogweb:analogweb-core:0.9.6",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.analogweb:analogweb-servlet:0.9.6/dependencies/org/analogweb/analogweb-core/0.9.6/analogweb-core-0.9.6.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import javax.servlet.http.HttpServletRequest;",
+      "artifact" : {
+        "artifact" : "javax.servlet:servlet-api:2.5",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.analogweb:analogweb-servlet:0.9.6/dependencies/javax/servlet/servlet-api/2.5/servlet-api-2.5.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import javax.servlet.http.HttpServletResponse;",
+      "artifact" : {
+        "artifact" : "javax.servlet:servlet-api:2.5",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.analogweb:analogweb-servlet:0.9.6/dependencies/javax/servlet/servlet-api/2.5/servlet-api-2.5.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import javax.servlet.ServletContext;",
+      "artifact" : {
+        "artifact" : "javax.servlet:servlet-api:2.5",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.analogweb:analogweb-servlet:0.9.6/dependencies/javax/servlet/servlet-api/2.5/servlet-api-2.5.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.analogweb.RequestContext;",
+      "artifact" : {
+        "artifact" : "org.analogweb:analogweb-core:0.9.6",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.analogweb:analogweb-servlet:0.9.6/dependencies/org/analogweb/analogweb-core/0.9.6/analogweb-core-0.9.6.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.analogweb.Headers;",
+      "artifact" : {
+        "artifact" : "org.analogweb:analogweb-core:0.9.6",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.analogweb:analogweb-servlet:0.9.6/dependencies/org/analogweb/analogweb-core/0.9.6/analogweb-core-0.9.6.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.analogweb.core.DefaultResponseWriter;",
+      "artifact" : {
+        "artifact" : "org.analogweb:analogweb-core:0.9.6",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.analogweb:analogweb-servlet:0.9.6/dependencies/org/analogweb/analogweb-core/0.9.6/analogweb-core-0.9.6.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.analogweb.servlet.core.DefaultServletRequestContext.ServletRequestHeaders;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/org.analogweb:analogweb-servlet/src/main/java/org/analogweb/servlet/core/SessionScopeRequestAttributesResolver.java",
+    "useImportReport" : [ {
+      "importPath" : "import org.analogweb.core.ContextSpecificAttributesHandler;",
+      "artifact" : {
+        "artifact" : "org.analogweb:analogweb-core:0.9.6",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.analogweb:analogweb-servlet:0.9.6/dependencies/org/analogweb/analogweb-core/0.9.6/analogweb-core-0.9.6.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.analogweb.servlet.ServletRequestContext;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.analogweb.util.logging.Log;",
+      "artifact" : {
+        "artifact" : "org.analogweb:analogweb-core:0.9.6",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.analogweb:analogweb-servlet:0.9.6/dependencies/org/analogweb/analogweb-core/0.9.6/analogweb-core-0.9.6.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.analogweb.util.logging.Logs;",
+      "artifact" : {
+        "artifact" : "org.analogweb:analogweb-core:0.9.6",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.analogweb:analogweb-servlet:0.9.6/dependencies/org/analogweb/analogweb-core/0.9.6/analogweb-core-0.9.6.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.analogweb.InvocationMetadata;",
+      "artifact" : {
+        "artifact" : "org.analogweb:analogweb-core:0.9.6",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.analogweb:analogweb-servlet:0.9.6/dependencies/org/analogweb/analogweb-core/0.9.6/analogweb-core-0.9.6.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.analogweb.util.RequestContextResolverUtils;",
+      "artifact" : {
+        "artifact" : "org.analogweb:analogweb-core:0.9.6",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.analogweb:analogweb-servlet:0.9.6/dependencies/org/analogweb/analogweb-core/0.9.6/analogweb-core-0.9.6.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import javax.servlet.http.HttpServletRequest;",
+      "artifact" : {
+        "artifact" : "javax.servlet:servlet-api:2.5",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.analogweb:analogweb-servlet:0.9.6/dependencies/javax/servlet/servlet-api/2.5/servlet-api-2.5.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import javax.servlet.http.HttpSession;",
+      "artifact" : {
+        "artifact" : "javax.servlet:servlet-api:2.5",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.analogweb:analogweb-servlet:0.9.6/dependencies/javax/servlet/servlet-api/2.5/servlet-api-2.5.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.analogweb.util.StringUtils;",
+      "artifact" : {
+        "artifact" : "org.analogweb:analogweb-core:0.9.6",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.analogweb:analogweb-servlet:0.9.6/dependencies/org/analogweb/analogweb-core/0.9.6/analogweb-core-0.9.6.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.analogweb.util.logging.Markers;",
+      "artifact" : {
+        "artifact" : "org.analogweb:analogweb-core:0.9.6",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.analogweb:analogweb-servlet:0.9.6/dependencies/org/analogweb/analogweb-core/0.9.6/analogweb-core-0.9.6.jar"
+      },
+      "isDirectDependency" : true
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/org.analogweb:analogweb-servlet/src/main/java/org/analogweb/servlet/core/response/Forward.java",
+    "useImportReport" : [ {
+      "importPath" : "import org.analogweb.core.response.ContextSpecifiedResponse;",
+      "artifact" : {
+        "artifact" : "org.analogweb:analogweb-core:0.9.6",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.analogweb:analogweb-servlet:0.9.6/dependencies/org/analogweb/analogweb-core/0.9.6/analogweb-core-0.9.6.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.analogweb.servlet.ServletRequestContext;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import javax.servlet.http.HttpServletRequest;",
+      "artifact" : {
+        "artifact" : "javax.servlet:servlet-api:2.5",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.analogweb:analogweb-servlet:0.9.6/dependencies/javax/servlet/servlet-api/2.5/servlet-api-2.5.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import javax.servlet.RequestDispatcher;",
+      "artifact" : {
+        "artifact" : "javax.servlet:servlet-api:2.5",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.analogweb:analogweb-servlet:0.9.6/dependencies/javax/servlet/servlet-api/2.5/servlet-api-2.5.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import java.util.Map;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.analogweb.util.Maps;",
+      "artifact" : {
+        "artifact" : "org.analogweb:analogweb-core:0.9.6",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.analogweb:analogweb-servlet:0.9.6/dependencies/org/analogweb/analogweb-core/0.9.6/analogweb-core-0.9.6.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.analogweb.ResponseContext;",
+      "artifact" : {
+        "artifact" : "org.analogweb:analogweb-core:0.9.6",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.analogweb:analogweb-servlet:0.9.6/dependencies/org/analogweb/analogweb-core/0.9.6/analogweb-core-0.9.6.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import java.io.IOException;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.analogweb.WebApplicationException;",
+      "artifact" : {
+        "artifact" : "org.analogweb:analogweb-core:0.9.6",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.analogweb:analogweb-servlet:0.9.6/dependencies/org/analogweb/analogweb-core/0.9.6/analogweb-core-0.9.6.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.analogweb.util.Assertion;",
+      "artifact" : {
+        "artifact" : "org.analogweb:analogweb-core:0.9.6",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.analogweb:analogweb-servlet:0.9.6/dependencies/org/analogweb/analogweb-core/0.9.6/analogweb-core-0.9.6.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.analogweb.RequestContext;",
+      "artifact" : {
+        "artifact" : "org.analogweb:analogweb-core:0.9.6",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.analogweb:analogweb-servlet:0.9.6/dependencies/org/analogweb/analogweb-core/0.9.6/analogweb-core-0.9.6.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import javax.servlet.ServletException;",
+      "artifact" : {
+        "artifact" : "javax.servlet:servlet-api:2.5",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.analogweb:analogweb-servlet:0.9.6/dependencies/javax/servlet/servlet-api/2.5/servlet-api-2.5.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import java.util.Map.Entry;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.analogweb.util.StringUtils;",
+      "artifact" : {
+        "artifact" : "org.analogweb:analogweb-core:0.9.6",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.analogweb:analogweb-servlet:0.9.6/dependencies/org/analogweb/analogweb-core/0.9.6/analogweb-core-0.9.6.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.analogweb.core.MissingRequirmentsException;",
+      "artifact" : {
+        "artifact" : "org.analogweb:analogweb-core:0.9.6",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.analogweb:analogweb-servlet:0.9.6/dependencies/org/analogweb/analogweb-core/0.9.6/analogweb-core-0.9.6.jar"
+      },
+      "isDirectDependency" : true
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/org.analogweb:analogweb-servlet/src/main/java/org/analogweb/servlet/core/DefaultServletRequestContext.java",
+    "useImportReport" : [ {
+      "importPath" : "import org.analogweb.servlet.ServletRequestContext;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import javax.servlet.http.HttpServletRequest;",
+      "artifact" : {
+        "artifact" : "javax.servlet:servlet-api:2.5",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.analogweb:analogweb-servlet:0.9.6/dependencies/javax/servlet/servlet-api/2.5/servlet-api-2.5.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import javax.servlet.http.HttpServletResponse;",
+      "artifact" : {
+        "artifact" : "javax.servlet:servlet-api:2.5",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.analogweb:analogweb-servlet:0.9.6/dependencies/javax/servlet/servlet-api/2.5/servlet-api-2.5.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import javax.servlet.ServletContext;",
+      "artifact" : {
+        "artifact" : "javax.servlet:servlet-api:2.5",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.analogweb:analogweb-servlet:0.9.6/dependencies/javax/servlet/servlet-api/2.5/servlet-api-2.5.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.analogweb.Cookies;",
+      "artifact" : {
+        "artifact" : "org.analogweb:analogweb-core:0.9.6",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.analogweb:analogweb-servlet:0.9.6/dependencies/org/analogweb/analogweb-core/0.9.6/analogweb-core-0.9.6.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.analogweb.Parameters;",
+      "artifact" : {
+        "artifact" : "org.analogweb:analogweb-core:0.9.6",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.analogweb:analogweb-servlet:0.9.6/dependencies/org/analogweb/analogweb-core/0.9.6/analogweb-core-0.9.6.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.analogweb.RequestPath;",
+      "artifact" : {
+        "artifact" : "org.analogweb:analogweb-core:0.9.6",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.analogweb:analogweb-servlet:0.9.6/dependencies/org/analogweb/analogweb-core/0.9.6/analogweb-core-0.9.6.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.analogweb.core.DefaultRequestPath;",
+      "artifact" : {
+        "artifact" : "org.analogweb:analogweb-core:0.9.6",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.analogweb:analogweb-servlet:0.9.6/dependencies/org/analogweb/analogweb-core/0.9.6/analogweb-core-0.9.6.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import java.net.URI;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.Map;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.analogweb.util.Maps;",
+      "artifact" : {
+        "artifact" : "org.analogweb:analogweb-core:0.9.6",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.analogweb:analogweb-servlet:0.9.6/dependencies/org/analogweb/analogweb-core/0.9.6/analogweb-core-0.9.6.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.analogweb.Headers;",
+      "artifact" : {
+        "artifact" : "org.analogweb:analogweb-core:0.9.6",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.analogweb:analogweb-servlet:0.9.6/dependencies/org/analogweb/analogweb-core/0.9.6/analogweb-core-0.9.6.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import java.util.List;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.Collections;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.analogweb.core.MatrixParameters;",
+      "artifact" : {
+        "artifact" : "org.analogweb:analogweb-core:0.9.6",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.analogweb:analogweb-servlet:0.9.6/dependencies/org/analogweb/analogweb-core/0.9.6/analogweb-core-0.9.6.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.analogweb.util.ArrayUtils;",
+      "artifact" : {
+        "artifact" : "org.analogweb:analogweb-core:0.9.6",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.analogweb:analogweb-servlet:0.9.6/dependencies/org/analogweb/analogweb-core/0.9.6/analogweb-core-0.9.6.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import java.util.Arrays;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.io.InputStream;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.io.IOException;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.analogweb.MediaType;",
+      "artifact" : {
+        "artifact" : "org.analogweb:analogweb-core:0.9.6",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.analogweb:analogweb-servlet:0.9.6/dependencies/org/analogweb/analogweb-core/0.9.6/analogweb-core-0.9.6.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.analogweb.core.MediaTypes;",
+      "artifact" : {
+        "artifact" : "org.analogweb:analogweb-core:0.9.6",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.analogweb:analogweb-servlet:0.9.6/dependencies/org/analogweb/analogweb-core/0.9.6/analogweb-core-0.9.6.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import java.util.Locale;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ {
+      "importPath" : "javax.servlet.http.Cookie",
+      "artifact" : {
+        "artifact" : "javax.servlet:servlet-api:2.5",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.analogweb:analogweb-servlet:0.9.6/dependencies/javax/servlet/servlet-api/2.5/servlet-api-2.5.jar"
+      },
+      "isDirectDependency" : true
+    } ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/org.analogweb:analogweb-servlet/src/main/java/org/analogweb/servlet/core/AnalogFilter.java",
+    "useImportReport" : [ {
+      "importPath" : "import javax.servlet.Filter;",
+      "artifact" : {
+        "artifact" : "javax.servlet:servlet-api:2.5",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.analogweb:analogweb-servlet:0.9.6/dependencies/javax/servlet/servlet-api/2.5/servlet-api-2.5.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.analogweb.util.logging.Log;",
+      "artifact" : {
+        "artifact" : "org.analogweb:analogweb-core:0.9.6",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.analogweb:analogweb-servlet:0.9.6/dependencies/org/analogweb/analogweb-core/0.9.6/analogweb-core-0.9.6.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.analogweb.util.logging.Logs;",
+      "artifact" : {
+        "artifact" : "org.analogweb:analogweb-core:0.9.6",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.analogweb:analogweb-servlet:0.9.6/dependencies/org/analogweb/analogweb-core/0.9.6/analogweb-core-0.9.6.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.analogweb.Application;",
+      "artifact" : {
+        "artifact" : "org.analogweb:analogweb-core:0.9.6",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.analogweb:analogweb-servlet:0.9.6/dependencies/org/analogweb/analogweb-core/0.9.6/analogweb-core-0.9.6.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.analogweb.ApplicationProperties;",
+      "artifact" : {
+        "artifact" : "org.analogweb:analogweb-core:0.9.6",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.analogweb:analogweb-servlet:0.9.6/dependencies/org/analogweb/analogweb-core/0.9.6/analogweb-core-0.9.6.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import javax.servlet.ServletContext;",
+      "artifact" : {
+        "artifact" : "javax.servlet:servlet-api:2.5",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.analogweb:analogweb-servlet:0.9.6/dependencies/javax/servlet/servlet-api/2.5/servlet-api-2.5.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import javax.servlet.ServletRequest;",
+      "artifact" : {
+        "artifact" : "javax.servlet:servlet-api:2.5",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.analogweb:analogweb-servlet:0.9.6/dependencies/javax/servlet/servlet-api/2.5/servlet-api-2.5.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import javax.servlet.ServletResponse;",
+      "artifact" : {
+        "artifact" : "javax.servlet:servlet-api:2.5",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.analogweb:analogweb-servlet:0.9.6/dependencies/javax/servlet/servlet-api/2.5/servlet-api-2.5.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import javax.servlet.FilterChain;",
+      "artifact" : {
+        "artifact" : "javax.servlet:servlet-api:2.5",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.analogweb:analogweb-servlet:0.9.6/dependencies/javax/servlet/servlet-api/2.5/servlet-api-2.5.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import java.io.IOException;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import javax.servlet.ServletException;",
+      "artifact" : {
+        "artifact" : "javax.servlet:servlet-api:2.5",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.analogweb:analogweb-servlet:0.9.6/dependencies/javax/servlet/servlet-api/2.5/servlet-api-2.5.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import javax.servlet.http.HttpServletRequest;",
+      "artifact" : {
+        "artifact" : "javax.servlet:servlet-api:2.5",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.analogweb:analogweb-servlet:0.9.6/dependencies/javax/servlet/servlet-api/2.5/servlet-api-2.5.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import javax.servlet.http.HttpServletResponse;",
+      "artifact" : {
+        "artifact" : "javax.servlet:servlet-api:2.5",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.analogweb:analogweb-servlet:0.9.6/dependencies/javax/servlet/servlet-api/2.5/servlet-api-2.5.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.analogweb.RequestContext;",
+      "artifact" : {
+        "artifact" : "org.analogweb:analogweb-core:0.9.6",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.analogweb:analogweb-servlet:0.9.6/dependencies/org/analogweb/analogweb-core/0.9.6/analogweb-core-0.9.6.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.analogweb.ResponseContext;",
+      "artifact" : {
+        "artifact" : "org.analogweb:analogweb-core:0.9.6",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.analogweb:analogweb-servlet:0.9.6/dependencies/org/analogweb/analogweb-core/0.9.6/analogweb-core-0.9.6.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.analogweb.RequestPath;",
+      "artifact" : {
+        "artifact" : "org.analogweb:analogweb-core:0.9.6",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.analogweb:analogweb-servlet:0.9.6/dependencies/org/analogweb/analogweb-core/0.9.6/analogweb-core-0.9.6.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.analogweb.util.logging.Markers;",
+      "artifact" : {
+        "artifact" : "org.analogweb:analogweb-core:0.9.6",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.analogweb:analogweb-servlet:0.9.6/dependencies/org/analogweb/analogweb-core/0.9.6/analogweb-core-0.9.6.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.analogweb.ResponseContext.ResponseEntity;",
+      "artifact" : {
+        "artifact" : "org.analogweb:analogweb-core:0.9.6",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.analogweb:analogweb-servlet:0.9.6/dependencies/org/analogweb/analogweb-core/0.9.6/analogweb-core-0.9.6.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.analogweb.WebApplicationException;",
+      "artifact" : {
+        "artifact" : "org.analogweb:analogweb-core:0.9.6",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.analogweb:analogweb-servlet:0.9.6/dependencies/org/analogweb/analogweb-core/0.9.6/analogweb-core-0.9.6.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import javax.servlet.FilterConfig;",
+      "artifact" : {
+        "artifact" : "javax.servlet:servlet-api:2.5",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.analogweb:analogweb-servlet:0.9.6/dependencies/javax/servlet/servlet-api/2.5/servlet-api-2.5.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import java.util.List;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.analogweb.util.ClassCollector;",
+      "artifact" : {
+        "artifact" : "org.analogweb:analogweb-core:0.9.6",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.analogweb:analogweb-servlet:0.9.6/dependencies/org/analogweb/analogweb-core/0.9.6/analogweb-core-0.9.6.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import java.util.ArrayList;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.analogweb.util.JarClassCollector;",
+      "artifact" : {
+        "artifact" : "org.analogweb:analogweb-core:0.9.6",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.analogweb:analogweb-servlet:0.9.6/dependencies/org/analogweb/analogweb-core/0.9.6/analogweb-core-0.9.6.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.analogweb.util.FileClassCollector;",
+      "artifact" : {
+        "artifact" : "org.analogweb:analogweb-core:0.9.6",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.analogweb:analogweb-servlet:0.9.6/dependencies/org/analogweb/analogweb-core/0.9.6/analogweb-core-0.9.6.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import java.util.Collections;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.analogweb.core.DefaultApplicationProperties;",
+      "artifact" : {
+        "artifact" : "org.analogweb:analogweb-core:0.9.6",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.analogweb:analogweb-servlet:0.9.6/dependencies/org/analogweb/analogweb-core/0.9.6/analogweb-core-0.9.6.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.analogweb.ApplicationContext;",
+      "artifact" : {
+        "artifact" : "org.analogweb:analogweb-core:0.9.6",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.analogweb:analogweb-servlet:0.9.6/dependencies/org/analogweb/analogweb-core/0.9.6/analogweb-core-0.9.6.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.analogweb.core.WebApplication;",
+      "artifact" : {
+        "artifact" : "org.analogweb:analogweb-core:0.9.6",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.analogweb:analogweb-servlet:0.9.6/dependencies/org/analogweb/analogweb-core/0.9.6/analogweb-core-0.9.6.jar"
+      },
+      "isDirectDependency" : true
+    } ],
+    "unusedImportReport" : [ {
+      "importPath" : "import org.analogweb.servlet.AnalogwebServletContainer;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/org.analogweb:analogweb-servlet/src/main/java/org/analogweb/servlet/core/ApplicationScopeRequestAttributesResolver.java",
+    "useImportReport" : [ {
+      "importPath" : "import org.analogweb.core.ContextSpecificAttributesHandler;",
+      "artifact" : {
+        "artifact" : "org.analogweb:analogweb-core:0.9.6",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.analogweb:analogweb-servlet:0.9.6/dependencies/org/analogweb/analogweb-core/0.9.6/analogweb-core-0.9.6.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.analogweb.servlet.ServletRequestContext;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.analogweb.util.logging.Log;",
+      "artifact" : {
+        "artifact" : "org.analogweb:analogweb-core:0.9.6",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.analogweb:analogweb-servlet:0.9.6/dependencies/org/analogweb/analogweb-core/0.9.6/analogweb-core-0.9.6.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.analogweb.util.logging.Logs;",
+      "artifact" : {
+        "artifact" : "org.analogweb:analogweb-core:0.9.6",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.analogweb:analogweb-servlet:0.9.6/dependencies/org/analogweb/analogweb-core/0.9.6/analogweb-core-0.9.6.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.analogweb.InvocationMetadata;",
+      "artifact" : {
+        "artifact" : "org.analogweb:analogweb-core:0.9.6",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.analogweb:analogweb-servlet:0.9.6/dependencies/org/analogweb/analogweb-core/0.9.6/analogweb-core-0.9.6.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.analogweb.util.StringUtils;",
+      "artifact" : {
+        "artifact" : "org.analogweb:analogweb-core:0.9.6",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.analogweb:analogweb-servlet:0.9.6/dependencies/org/analogweb/analogweb-core/0.9.6/analogweb-core-0.9.6.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.analogweb.util.RequestContextResolverUtils;",
+      "artifact" : {
+        "artifact" : "org.analogweb:analogweb-core:0.9.6",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.analogweb:analogweb-servlet:0.9.6/dependencies/org/analogweb/analogweb-core/0.9.6/analogweb-core-0.9.6.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import javax.servlet.ServletContext;",
+      "artifact" : {
+        "artifact" : "javax.servlet:servlet-api:2.5",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.analogweb:analogweb-servlet:0.9.6/dependencies/javax/servlet/servlet-api/2.5/servlet-api-2.5.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.analogweb.util.logging.Markers;",
+      "artifact" : {
+        "artifact" : "org.analogweb:analogweb-core:0.9.6",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.analogweb:analogweb-servlet:0.9.6/dependencies/org/analogweb/analogweb-core/0.9.6/analogweb-core-0.9.6.jar"
+      },
+      "isDirectDependency" : true
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/org.analogweb:analogweb-servlet/src/main/java/org/analogweb/servlet/core/ServletContextApplicationContext.java",
+    "useImportReport" : [ {
+      "importPath" : "import org.analogweb.ApplicationContext;",
+      "artifact" : {
+        "artifact" : "org.analogweb:analogweb-core:0.9.6",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.analogweb:analogweb-servlet:0.9.6/dependencies/org/analogweb/analogweb-core/0.9.6/analogweb-core-0.9.6.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import javax.servlet.ServletContext;",
+      "artifact" : {
+        "artifact" : "javax.servlet:servlet-api:2.5",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.analogweb:analogweb-servlet:0.9.6/dependencies/javax/servlet/servlet-api/2.5/servlet-api-2.5.jar"
+      },
+      "isDirectDependency" : true
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/org.analogweb:analogweb-servlet/src/main/java/org/analogweb/servlet/core/RequestScopeRequestAttributesResolver.java",
+    "useImportReport" : [ {
+      "importPath" : "import org.analogweb.core.ContextSpecificAttributesHandler;",
+      "artifact" : {
+        "artifact" : "org.analogweb:analogweb-core:0.9.6",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.analogweb:analogweb-servlet:0.9.6/dependencies/org/analogweb/analogweb-core/0.9.6/analogweb-core-0.9.6.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.analogweb.RequestContext;",
+      "artifact" : {
+        "artifact" : "org.analogweb:analogweb-core:0.9.6",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.analogweb:analogweb-servlet:0.9.6/dependencies/org/analogweb/analogweb-core/0.9.6/analogweb-core-0.9.6.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.analogweb.util.logging.Log;",
+      "artifact" : {
+        "artifact" : "org.analogweb:analogweb-core:0.9.6",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.analogweb:analogweb-servlet:0.9.6/dependencies/org/analogweb/analogweb-core/0.9.6/analogweb-core-0.9.6.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.analogweb.util.logging.Logs;",
+      "artifact" : {
+        "artifact" : "org.analogweb:analogweb-core:0.9.6",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.analogweb:analogweb-servlet:0.9.6/dependencies/org/analogweb/analogweb-core/0.9.6/analogweb-core-0.9.6.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.analogweb.InvocationMetadata;",
+      "artifact" : {
+        "artifact" : "org.analogweb:analogweb-core:0.9.6",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.analogweb:analogweb-servlet:0.9.6/dependencies/org/analogweb/analogweb-core/0.9.6/analogweb-core-0.9.6.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.analogweb.servlet.ServletRequestContext;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.analogweb.util.RequestContextResolverUtils;",
+      "artifact" : {
+        "artifact" : "org.analogweb:analogweb-core:0.9.6",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.analogweb:analogweb-servlet:0.9.6/dependencies/org/analogweb/analogweb-core/0.9.6/analogweb-core-0.9.6.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import javax.servlet.http.HttpServletRequest;",
+      "artifact" : {
+        "artifact" : "javax.servlet:servlet-api:2.5",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.analogweb:analogweb-servlet:0.9.6/dependencies/javax/servlet/servlet-api/2.5/servlet-api-2.5.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.analogweb.util.Assertion;",
+      "artifact" : {
+        "artifact" : "org.analogweb:analogweb-core:0.9.6",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.analogweb:analogweb-servlet:0.9.6/dependencies/org/analogweb/analogweb-core/0.9.6/analogweb-core-0.9.6.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.analogweb.util.logging.Markers;",
+      "artifact" : {
+        "artifact" : "org.analogweb:analogweb-core:0.9.6",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.analogweb:analogweb-servlet:0.9.6/dependencies/org/analogweb/analogweb-core/0.9.6/analogweb-core-0.9.6.jar"
+      },
+      "isDirectDependency" : true
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/org.analogweb:analogweb-servlet/src/main/java/org/analogweb/servlet/AnalogwebServletContainer.java",
+    "useImportReport" : [ {
+      "importPath" : "import javax.servlet.http.HttpServlet;",
+      "artifact" : {
+        "artifact" : "javax.servlet:servlet-api:2.5",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.analogweb:analogweb-servlet:0.9.6/dependencies/javax/servlet/servlet-api/2.5/servlet-api-2.5.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import javax.servlet.Filter;",
+      "artifact" : {
+        "artifact" : "javax.servlet:servlet-api:2.5",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.analogweb:analogweb-servlet:0.9.6/dependencies/javax/servlet/servlet-api/2.5/servlet-api-2.5.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.analogweb.Application;",
+      "artifact" : {
+        "artifact" : "org.analogweb:analogweb-core:0.9.6",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.analogweb:analogweb-servlet:0.9.6/dependencies/org/analogweb/analogweb-core/0.9.6/analogweb-core-0.9.6.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.analogweb.util.logging.Log;",
+      "artifact" : {
+        "artifact" : "org.analogweb:analogweb-core:0.9.6",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.analogweb:analogweb-servlet:0.9.6/dependencies/org/analogweb/analogweb-core/0.9.6/analogweb-core-0.9.6.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.analogweb.util.logging.Logs;",
+      "artifact" : {
+        "artifact" : "org.analogweb:analogweb-core:0.9.6",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.analogweb:analogweb-servlet:0.9.6/dependencies/org/analogweb/analogweb-core/0.9.6/analogweb-core-0.9.6.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.analogweb.ApplicationProperties;",
+      "artifact" : {
+        "artifact" : "org.analogweb:analogweb-core:0.9.6",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.analogweb:analogweb-servlet:0.9.6/dependencies/org/analogweb/analogweb-core/0.9.6/analogweb-core-0.9.6.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import javax.servlet.FilterConfig;",
+      "artifact" : {
+        "artifact" : "javax.servlet:servlet-api:2.5",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.analogweb:analogweb-servlet:0.9.6/dependencies/javax/servlet/servlet-api/2.5/servlet-api-2.5.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import javax.servlet.ServletRequest;",
+      "artifact" : {
+        "artifact" : "javax.servlet:servlet-api:2.5",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.analogweb:analogweb-servlet:0.9.6/dependencies/javax/servlet/servlet-api/2.5/servlet-api-2.5.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import javax.servlet.ServletResponse;",
+      "artifact" : {
+        "artifact" : "javax.servlet:servlet-api:2.5",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.analogweb:analogweb-servlet:0.9.6/dependencies/javax/servlet/servlet-api/2.5/servlet-api-2.5.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import javax.servlet.FilterChain;",
+      "artifact" : {
+        "artifact" : "javax.servlet:servlet-api:2.5",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.analogweb:analogweb-servlet:0.9.6/dependencies/javax/servlet/servlet-api/2.5/servlet-api-2.5.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import java.io.IOException;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import javax.servlet.ServletException;",
+      "artifact" : {
+        "artifact" : "javax.servlet:servlet-api:2.5",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.analogweb:analogweb-servlet:0.9.6/dependencies/javax/servlet/servlet-api/2.5/servlet-api-2.5.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import javax.servlet.http.HttpServletRequest;",
+      "artifact" : {
+        "artifact" : "javax.servlet:servlet-api:2.5",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.analogweb:analogweb-servlet:0.9.6/dependencies/javax/servlet/servlet-api/2.5/servlet-api-2.5.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import javax.servlet.http.HttpServletResponse;",
+      "artifact" : {
+        "artifact" : "javax.servlet:servlet-api:2.5",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.analogweb:analogweb-servlet:0.9.6/dependencies/javax/servlet/servlet-api/2.5/servlet-api-2.5.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.analogweb.RequestContext;",
+      "artifact" : {
+        "artifact" : "org.analogweb:analogweb-core:0.9.6",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.analogweb:analogweb-servlet:0.9.6/dependencies/org/analogweb/analogweb-core/0.9.6/analogweb-core-0.9.6.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.analogweb.ResponseContext;",
+      "artifact" : {
+        "artifact" : "org.analogweb:analogweb-core:0.9.6",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.analogweb:analogweb-servlet:0.9.6/dependencies/org/analogweb/analogweb-core/0.9.6/analogweb-core-0.9.6.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.analogweb.RequestPath;",
+      "artifact" : {
+        "artifact" : "org.analogweb:analogweb-core:0.9.6",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.analogweb:analogweb-servlet:0.9.6/dependencies/org/analogweb/analogweb-core/0.9.6/analogweb-core-0.9.6.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.analogweb.util.logging.Markers;",
+      "artifact" : {
+        "artifact" : "org.analogweb:analogweb-core:0.9.6",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.analogweb:analogweb-servlet:0.9.6/dependencies/org/analogweb/analogweb-core/0.9.6/analogweb-core-0.9.6.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.analogweb.ResponseContext.ResponseEntity;",
+      "artifact" : {
+        "artifact" : "org.analogweb:analogweb-core:0.9.6",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.analogweb:analogweb-servlet:0.9.6/dependencies/org/analogweb/analogweb-core/0.9.6/analogweb-core-0.9.6.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.analogweb.WebApplicationException;",
+      "artifact" : {
+        "artifact" : "org.analogweb:analogweb-core:0.9.6",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.analogweb:analogweb-servlet:0.9.6/dependencies/org/analogweb/analogweb-core/0.9.6/analogweb-core-0.9.6.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import javax.servlet.ServletContext;",
+      "artifact" : {
+        "artifact" : "javax.servlet:servlet-api:2.5",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.analogweb:analogweb-servlet:0.9.6/dependencies/javax/servlet/servlet-api/2.5/servlet-api-2.5.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import java.util.List;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.analogweb.util.ClassCollector;",
+      "artifact" : {
+        "artifact" : "org.analogweb:analogweb-core:0.9.6",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.analogweb:analogweb-servlet:0.9.6/dependencies/org/analogweb/analogweb-core/0.9.6/analogweb-core-0.9.6.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import java.util.ArrayList;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.analogweb.util.JarClassCollector;",
+      "artifact" : {
+        "artifact" : "org.analogweb:analogweb-core:0.9.6",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.analogweb:analogweb-servlet:0.9.6/dependencies/org/analogweb/analogweb-core/0.9.6/analogweb-core-0.9.6.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.analogweb.util.FileClassCollector;",
+      "artifact" : {
+        "artifact" : "org.analogweb:analogweb-core:0.9.6",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.analogweb:analogweb-servlet:0.9.6/dependencies/org/analogweb/analogweb-core/0.9.6/analogweb-core-0.9.6.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import java.util.Collections;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.analogweb.core.DefaultApplicationProperties;",
+      "artifact" : {
+        "artifact" : "org.analogweb:analogweb-core:0.9.6",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.analogweb:analogweb-servlet:0.9.6/dependencies/org/analogweb/analogweb-core/0.9.6/analogweb-core-0.9.6.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.analogweb.servlet.core.DefaultServletRequestContext;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.analogweb.servlet.core.ServletResponseContext;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.analogweb.ApplicationContext;",
+      "artifact" : {
+        "artifact" : "org.analogweb:analogweb-core:0.9.6",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.analogweb:analogweb-servlet:0.9.6/dependencies/org/analogweb/analogweb-core/0.9.6/analogweb-core-0.9.6.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.analogweb.servlet.core.ServletContextApplicationContext;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.analogweb.core.WebApplication;",
+      "artifact" : {
+        "artifact" : "org.analogweb:analogweb-core:0.9.6",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.analogweb:analogweb-servlet:0.9.6/dependencies/org/analogweb/analogweb-core/0.9.6/analogweb-core-0.9.6.jar"
+      },
+      "isDirectDependency" : true
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/org.analogweb:analogweb-servlet/src/main/java/org/analogweb/servlet/RequestAttribute.java",
+    "useImportReport" : [ {
+      "importPath" : "import java.lang.annotation.Documented;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.lang.annotation.Retention;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.lang.annotation.RetentionPolicy;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.lang.annotation.Target;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.lang.annotation.ElementType;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.analogweb.annotation.Resolver;",
+      "artifact" : {
+        "artifact" : "org.analogweb:analogweb-core:0.9.6",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.analogweb:analogweb-servlet:0.9.6/dependencies/org/analogweb/analogweb-core/0.9.6/analogweb-core-0.9.6.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.analogweb.servlet.core.RequestScopeRequestAttributesResolver;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.analogweb.annotation.As;",
+      "artifact" : {
+        "artifact" : "org.analogweb:analogweb-core:0.9.6",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.analogweb:analogweb-servlet:0.9.6/dependencies/org/analogweb/analogweb-core/0.9.6/analogweb-core-0.9.6.jar"
+      },
+      "isDirectDependency" : true
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/org.analogweb:analogweb-servlet/src/main/java/org/analogweb/servlet/ServletRequestContext.java",
+    "useImportReport" : [ {
+      "importPath" : "import org.analogweb.RequestContext;",
+      "artifact" : {
+        "artifact" : "org.analogweb:analogweb-core:0.9.6",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.analogweb:analogweb-servlet:0.9.6/dependencies/org/analogweb/analogweb-core/0.9.6/analogweb-core-0.9.6.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import javax.servlet.http.HttpServletRequest;",
+      "artifact" : {
+        "artifact" : "javax.servlet:servlet-api:2.5",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.analogweb:analogweb-servlet:0.9.6/dependencies/javax/servlet/servlet-api/2.5/servlet-api-2.5.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import javax.servlet.http.HttpServletResponse;",
+      "artifact" : {
+        "artifact" : "javax.servlet:servlet-api:2.5",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.analogweb:analogweb-servlet:0.9.6/dependencies/javax/servlet/servlet-api/2.5/servlet-api-2.5.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import javax.servlet.ServletContext;",
+      "artifact" : {
+        "artifact" : "javax.servlet:servlet-api:2.5",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.analogweb:analogweb-servlet:0.9.6/dependencies/javax/servlet/servlet-api/2.5/servlet-api-2.5.jar"
+      },
+      "isDirectDependency" : true
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/org.analogweb:analogweb-servlet/src/main/java/org/analogweb/servlet/SessionAttribute.java",
+    "useImportReport" : [ {
+      "importPath" : "import java.lang.annotation.Documented;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.lang.annotation.Retention;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.lang.annotation.RetentionPolicy;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.lang.annotation.Target;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.lang.annotation.ElementType;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.analogweb.annotation.Resolver;",
+      "artifact" : {
+        "artifact" : "org.analogweb:analogweb-core:0.9.6",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.analogweb:analogweb-servlet:0.9.6/dependencies/org/analogweb/analogweb-core/0.9.6/analogweb-core-0.9.6.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.analogweb.servlet.core.SessionScopeRequestAttributesResolver;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.analogweb.annotation.As;",
+      "artifact" : {
+        "artifact" : "org.analogweb:analogweb-core:0.9.6",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.analogweb:analogweb-servlet:0.9.6/dependencies/org/analogweb/analogweb-core/0.9.6/analogweb-core-0.9.6.jar"
+      },
+      "isDirectDependency" : true
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/org.analogweb:analogweb-servlet/src/main/java/org/analogweb/servlet/ContextAttribute.java",
+    "useImportReport" : [ {
+      "importPath" : "import java.lang.annotation.Documented;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.lang.annotation.Retention;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.lang.annotation.RetentionPolicy;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.lang.annotation.Target;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.lang.annotation.ElementType;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.analogweb.annotation.Resolver;",
+      "artifact" : {
+        "artifact" : "org.analogweb:analogweb-core:0.9.6",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.analogweb:analogweb-servlet:0.9.6/dependencies/org/analogweb/analogweb-core/0.9.6/analogweb-core-0.9.6.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.analogweb.servlet.core.ApplicationScopeRequestAttributesResolver;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.analogweb.annotation.As;",
+      "artifact" : {
+        "artifact" : "org.analogweb:analogweb-core:0.9.6",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.analogweb:analogweb-servlet:0.9.6/dependencies/org/analogweb/analogweb-core/0.9.6/analogweb-core-0.9.6.jar"
+      },
+      "isDirectDependency" : true
+    } ],
+    "unusedImportReport" : [ {
+      "importPath" : "import org.analogweb.servlet.core.RequestScopeRequestAttributesResolver;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/org.analogweb:analogweb-servlet/src/main/java/org/analogweb/servlet/ServletComponentsValueResolver.java",
+    "useImportReport" : [ {
+      "importPath" : "import org.analogweb.RequestValueResolver;",
+      "artifact" : {
+        "artifact" : "org.analogweb:analogweb-core:0.9.6",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.analogweb:analogweb-servlet:0.9.6/dependencies/org/analogweb/analogweb-core/0.9.6/analogweb-core-0.9.6.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.analogweb.RequestContext;",
+      "artifact" : {
+        "artifact" : "org.analogweb:analogweb-core:0.9.6",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.analogweb:analogweb-servlet:0.9.6/dependencies/org/analogweb/analogweb-core/0.9.6/analogweb-core-0.9.6.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.analogweb.InvocationMetadata;",
+      "artifact" : {
+        "artifact" : "org.analogweb:analogweb-core:0.9.6",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.analogweb:analogweb-servlet:0.9.6/dependencies/org/analogweb/analogweb-core/0.9.6/analogweb-core-0.9.6.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import java.lang.annotation.Annotation;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.analogweb.util.RequestContextResolverUtils;",
+      "artifact" : {
+        "artifact" : "org.analogweb:analogweb-core:0.9.6",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.analogweb:analogweb-servlet:0.9.6/dependencies/org/analogweb/analogweb-core/0.9.6/analogweb-core-0.9.6.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import javax.servlet.ServletRequest;",
+      "artifact" : {
+        "artifact" : "javax.servlet:servlet-api:2.5",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.analogweb:analogweb-servlet:0.9.6/dependencies/javax/servlet/servlet-api/2.5/servlet-api-2.5.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import javax.servlet.http.HttpSession;",
+      "artifact" : {
+        "artifact" : "javax.servlet:servlet-api:2.5",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.analogweb:analogweb-servlet:0.9.6/dependencies/javax/servlet/servlet-api/2.5/servlet-api-2.5.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import javax.servlet.ServletContext;",
+      "artifact" : {
+        "artifact" : "javax.servlet:servlet-api:2.5",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.analogweb:analogweb-servlet:0.9.6/dependencies/javax/servlet/servlet-api/2.5/servlet-api-2.5.jar"
+      },
+      "isDirectDependency" : true
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  } ],
+  "projectUseDependencies" : [ {
+    "artifact" : "javax.servlet:servlet-api:2.5",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.analogweb:analogweb-servlet:0.9.6/dependencies/javax/servlet/servlet-api/2.5/servlet-api-2.5.jar"
+  }, {
+    "artifact" : "org.analogweb:analogweb-core:0.9.6",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.analogweb:analogweb-servlet:0.9.6/dependencies/org/analogweb/analogweb-core/0.9.6/analogweb-core-0.9.6.jar"
+  } ],
+  "projectUseTransitiveDependencies" : [ ],
+  "projectUnusedDependencies" : [ ]
+}

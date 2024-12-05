@@ -1,0 +1,447 @@
+{
+  "projectArtifact" : "io.github.okvee:tscfg-docgen-core:0.2.0",
+  "repositoryDir" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/io.github.okvee:tscfg-docgen-core/tscfg-docgen-core",
+  "repositorySubDir" : "",
+  "artifactLocation" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.github.okvee:tscfg-docgen-core:0.2.0",
+  "fileImportReports" : [ {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/io.github.okvee:tscfg-docgen-core/tscfg-docgen-core/src/main/java/io/github/okvee/tscfg/core/ConfigProvider.java",
+    "useImportReport" : [ {
+      "importPath" : "import com.typesafe.config.Config;",
+      "artifact" : {
+        "artifact" : "com.typesafe:config:1.3.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.github.okvee:tscfg-docgen-core:0.2.0/dependencies/com/typesafe/config/1.3.1/config-1.3.1.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import java.io.IOException;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/io.github.okvee:tscfg-docgen-core/tscfg-docgen-core/src/main/java/io/github/okvee/tscfg/core/FreemarkerDocGenerator.java",
+    "useImportReport" : [ {
+      "importPath" : "import java.io.File;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.nio.charset.StandardCharsets;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import freemarker.template.TemplateExceptionHandler;",
+      "artifact" : {
+        "artifact" : "org.freemarker:freemarker:2.3.26-incubating",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.github.okvee:tscfg-docgen-core:0.2.0/dependencies/org/freemarker/freemarker/2.3.26-incubating/freemarker-2.3.26-incubating.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import io.github.okvee.tscfg.core.model.Configuration;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.io.StringWriter;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import freemarker.template.Template;",
+      "artifact" : {
+        "artifact" : "org.freemarker:freemarker:2.3.26-incubating",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.github.okvee:tscfg-docgen-core:0.2.0/dependencies/org/freemarker/freemarker/2.3.26-incubating/freemarker-2.3.26-incubating.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import java.io.IOException;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ {
+      "importPath" : "freemarker.template.Configuration",
+      "artifact" : {
+        "artifact" : "org.freemarker:freemarker:2.3.26-incubating",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.github.okvee:tscfg-docgen-core:0.2.0/dependencies/org/freemarker/freemarker/2.3.26-incubating/freemarker-2.3.26-incubating.jar"
+      },
+      "isDirectDependency" : true
+    } ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/io.github.okvee:tscfg-docgen-core/tscfg-docgen-core/src/main/java/io/github/okvee/tscfg/core/model/Configuration.java",
+    "useImportReport" : [ {
+      "importPath" : "import lombok.Getter;",
+      "artifact" : {
+        "artifact" : "org.projectlombok:lombok:1.16.18",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.github.okvee:tscfg-docgen-core:0.2.0/dependencies/org/projectlombok/lombok/1.16.18/lombok-1.16.18.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import java.util.List;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.Objects;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.typesafe.config.ConfigValue;",
+      "artifact" : {
+        "artifact" : "com.typesafe:config:1.3.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.github.okvee:tscfg-docgen-core:0.2.0/dependencies/com/typesafe/config/1.3.1/config-1.3.1.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import com.typesafe.config.ConfigValueType;",
+      "artifact" : {
+        "artifact" : "com.typesafe:config:1.3.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.github.okvee:tscfg-docgen-core:0.2.0/dependencies/com/typesafe/config/1.3.1/config-1.3.1.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import com.typesafe.config.ConfigException;",
+      "artifact" : {
+        "artifact" : "com.typesafe:config:1.3.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.github.okvee:tscfg-docgen-core:0.2.0/dependencies/com/typesafe/config/1.3.1/config-1.3.1.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import java.util.stream.Collectors;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.ArrayList;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.typesafe.config.Config;",
+      "artifact" : {
+        "artifact" : "com.typesafe:config:1.3.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.github.okvee:tscfg-docgen-core:0.2.0/dependencies/com/typesafe/config/1.3.1/config-1.3.1.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import java.util.Set;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.HashSet;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.Map;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.LinkedHashMap;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.Comparator;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.HashMap;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.typesafe.config.ConfigObject;",
+      "artifact" : {
+        "artifact" : "com.typesafe:config:1.3.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.github.okvee:tscfg-docgen-core:0.2.0/dependencies/com/typesafe/config/1.3.1/config-1.3.1.jar"
+      },
+      "isDirectDependency" : true
+    } ],
+    "unusedImportReport" : [ {
+      "importPath" : "import com.typesafe.config.ConfigList;",
+      "artifact" : {
+        "artifact" : "com.typesafe:config:1.3.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.github.okvee:tscfg-docgen-core:0.2.0/dependencies/com/typesafe/config/1.3.1/config-1.3.1.jar"
+      },
+      "isDirectDependency" : true
+    } ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/io.github.okvee:tscfg-docgen-core/tscfg-docgen-core/src/main/java/io/github/okvee/tscfg/core/model/GroupDefinition.java",
+    "useImportReport" : [ {
+      "importPath" : "import lombok.Getter;",
+      "artifact" : {
+        "artifact" : "org.projectlombok:lombok:1.16.18",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.github.okvee:tscfg-docgen-core:0.2.0/dependencies/org/projectlombok/lombok/1.16.18/lombok-1.16.18.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import lombok.Setter;",
+      "artifact" : {
+        "artifact" : "org.projectlombok:lombok:1.16.18",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.github.okvee:tscfg-docgen-core:0.2.0/dependencies/org/projectlombok/lombok/1.16.18/lombok-1.16.18.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import java.util.List;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.Objects;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/io.github.okvee:tscfg-docgen-core/tscfg-docgen-core/src/main/java/io/github/okvee/tscfg/core/PathMatcherConfigProvider.java",
+    "useImportReport" : [ {
+      "importPath" : "import java.nio.file.Path;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.Objects;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.typesafe.config.Config;",
+      "artifact" : {
+        "artifact" : "com.typesafe:config:1.3.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.github.okvee:tscfg-docgen-core:0.2.0/dependencies/com/typesafe/config/1.3.1/config-1.3.1.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import java.io.IOException;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.nio.file.PathMatcher;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.nio.file.FileSystems;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.stream.Stream;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.nio.file.Files;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.typesafe.config.ConfigFactory;",
+      "artifact" : {
+        "artifact" : "com.typesafe:config:1.3.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.github.okvee:tscfg-docgen-core:0.2.0/dependencies/com/typesafe/config/1.3.1/config-1.3.1.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import com.typesafe.config.ConfigResolveOptions;",
+      "artifact" : {
+        "artifact" : "com.typesafe:config:1.3.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.github.okvee:tscfg-docgen-core:0.2.0/dependencies/com/typesafe/config/1.3.1/config-1.3.1.jar"
+      },
+      "isDirectDependency" : true
+    } ],
+    "unusedImportReport" : [ {
+      "importPath" : "import java.nio.file.FileSystem;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/io.github.okvee:tscfg-docgen-core/tscfg-docgen-core/src/main/java/io/github/okvee/tscfg/core/DefaultDocWriter.java",
+    "useImportReport" : [ {
+      "importPath" : "import java.io.FileWriter;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.io.File;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.io.IOException;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/io.github.okvee:tscfg-docgen-core/tscfg-docgen-core/src/main/java/io/github/okvee/tscfg/core/DocWriter.java",
+    "useImportReport" : [ {
+      "importPath" : "import java.io.IOException;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/io.github.okvee:tscfg-docgen-core/tscfg-docgen-core/src/main/java/io/github/okvee/tscfg/core/InjectingDocWriter.java",
+    "useImportReport" : [ {
+      "importPath" : "import java.io.File;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.io.IOException;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.List;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.nio.file.Files;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.stream.Collectors;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.ArrayList;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/io.github.okvee:tscfg-docgen-core/tscfg-docgen-core/src/main/java/io/github/okvee/tscfg/core/DocGenerator.java",
+    "useImportReport" : [ {
+      "importPath" : "import io.github.okvee.tscfg.core.model.Configuration;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  } ],
+  "projectUseDependencies" : [ {
+    "artifact" : "com.typesafe:config:1.3.1",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.github.okvee:tscfg-docgen-core:0.2.0/dependencies/com/typesafe/config/1.3.1/config-1.3.1.jar"
+  }, {
+    "artifact" : "org.freemarker:freemarker:2.3.26-incubating",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.github.okvee:tscfg-docgen-core:0.2.0/dependencies/org/freemarker/freemarker/2.3.26-incubating/freemarker-2.3.26-incubating.jar"
+  }, {
+    "artifact" : "org.projectlombok:lombok:1.16.18",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.github.okvee:tscfg-docgen-core:0.2.0/dependencies/org/projectlombok/lombok/1.16.18/lombok-1.16.18.jar"
+  } ],
+  "projectUseTransitiveDependencies" : [ ],
+  "projectUnusedDependencies" : [ {
+    "artifact" : "junit:junit:4.12",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.github.okvee:tscfg-docgen-core:0.2.0/dependencies/junit/junit/4.12/junit-4.12.jar"
+  } ]
+}

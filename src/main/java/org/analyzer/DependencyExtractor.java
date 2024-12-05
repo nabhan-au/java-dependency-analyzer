@@ -13,7 +13,7 @@ public class DependencyExtractor {
     public static List<Dependency> getProjectDependencies(String repoPath, ImportArtifact projectArtifact) throws Exception {
         if (isFileExist(repoPath, "pom.xml")) {
             System.out.println("Getting dependencies from maven");
-            return MavenDependenciesExtractor.getProjectDependencies(repoPath);
+            return MavenDependenciesExtractor.getProjectDependencies(repoPath, projectArtifact.getArtifactId());
         } else {
             System.out.println("Getting dependencies from gradle");
             return GradleDependenciesExtractor.getProjectDependencies(repoPath, projectArtifact);

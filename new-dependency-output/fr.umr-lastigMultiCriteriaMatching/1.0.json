@@ -1,0 +1,1891 @@
+{
+  "projectArtifact" : "fr.umr-lastig:MultiCriteriaMatching:1.0",
+  "repositoryDir" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/fr.umr-lastig:MultiCriteriaMatching",
+  "repositorySubDir" : "",
+  "artifactLocation" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/fr.umr-lastig:MultiCriteriaMatching:1.0",
+  "fileImportReports" : [ {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/fr.umr-lastig:MultiCriteriaMatching/src/test/java/fr/umr/lastig/appariement/TestAppPointEscarpu.java",
+    "useImportReport" : [ {
+      "importPath" : "import junit.framework.TestCase;",
+      "artifact" : {
+        "artifact" : "junit:junit:4.13.2",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/fr.umr-lastig:MultiCriteriaMatching:1.0/dependencies/junit/junit/4.13.2/junit-4.13.2.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.locationtech.jts.geom.GeometryFactory;",
+      "artifact" : {
+        "artifact" : "org.locationtech.jts:jts-core:1.18.2",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/fr.umr-lastig:MultiCriteriaMatching:1.0/dependencies/org/locationtech/jts/jts-core/1.18.2/jts-core-1.18.2.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.locationtech.jts.geom.Point;",
+      "artifact" : {
+        "artifact" : "org.locationtech.jts:jts-core:1.18.2",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/fr.umr-lastig:MultiCriteriaMatching:1.0/dependencies/org/locationtech/jts/jts-core/1.18.2/jts-core-1.18.2.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.locationtech.jts.geom.Coordinate;",
+      "artifact" : {
+        "artifact" : "org.locationtech.jts:jts-core:1.18.2",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/fr.umr-lastig:MultiCriteriaMatching:1.0/dependencies/org/locationtech/jts/jts-core/1.18.2/jts-core-1.18.2.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import fr.umr.lastig.appariement.AppariementDST;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.List;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import fr.umr.lastig.criteria.Critere;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.ArrayList;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import fr.umr.lastig.distance.text.DistanceSamal;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import fr.umr.lastig.criteria.CritereToponymique;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import fr.umr.lastig.distance.geom.DistanceEuclidienne;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import fr.umr.lastig.criteria.CritereGeom;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import fr.umr.lastig.distance.semantique.DistanceWuPalmer;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import fr.umr.lastig.criteria.CritereSemantique;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import fr.umr.lastig.appariement.LigneResultat;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.junit.Assert;",
+      "artifact" : {
+        "artifact" : "junit:junit:4.13.2",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/fr.umr-lastig:MultiCriteriaMatching:1.0/dependencies/junit/junit/4.13.2/junit-4.13.2.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import fr.umr.lastig.appli.TableauResultatFrame;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/fr.umr-lastig:MultiCriteriaMatching/src/test/java/fr/umr/lastig/appariement/TestAppPointSiberie.java",
+    "useImportReport" : [ {
+      "importPath" : "import junit.framework.TestCase;",
+      "artifact" : {
+        "artifact" : "junit:junit:4.13.2",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/fr.umr-lastig:MultiCriteriaMatching:1.0/dependencies/junit/junit/4.13.2/junit-4.13.2.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.locationtech.jts.geom.GeometryFactory;",
+      "artifact" : {
+        "artifact" : "org.locationtech.jts:jts-core:1.18.2",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/fr.umr-lastig:MultiCriteriaMatching:1.0/dependencies/org/locationtech/jts/jts-core/1.18.2/jts-core-1.18.2.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.locationtech.jts.geom.Point;",
+      "artifact" : {
+        "artifact" : "org.locationtech.jts:jts-core:1.18.2",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/fr.umr-lastig:MultiCriteriaMatching:1.0/dependencies/org/locationtech/jts/jts-core/1.18.2/jts-core-1.18.2.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.locationtech.jts.geom.Coordinate;",
+      "artifact" : {
+        "artifact" : "org.locationtech.jts:jts-core:1.18.2",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/fr.umr-lastig:MultiCriteriaMatching:1.0/dependencies/org/locationtech/jts/jts-core/1.18.2/jts-core-1.18.2.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import fr.umr.lastig.appariement.AppariementDST;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.List;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import fr.umr.lastig.criteria.Critere;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.ArrayList;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import fr.umr.lastig.distance.text.DistanceSamal;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import fr.umr.lastig.criteria.CritereToponymique;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import fr.umr.lastig.distance.geom.DistanceEuclidienne;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import fr.umr.lastig.criteria.CritereGeom;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import fr.umr.lastig.distance.semantique.DistanceWuPalmer;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import fr.umr.lastig.criteria.CritereSemantique;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import fr.umr.lastig.appariement.LigneResultat;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.junit.Assert;",
+      "artifact" : {
+        "artifact" : "junit:junit:4.13.2",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/fr.umr-lastig:MultiCriteriaMatching:1.0/dependencies/junit/junit/4.13.2/junit-4.13.2.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import fr.umr.lastig.appli.TableauResultatFrame;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/fr.umr-lastig:MultiCriteriaMatching/src/test/java/fr/umr/lastig/toponymie/TestSimilariteTexte.java",
+    "useImportReport" : [ {
+      "importPath" : "import fr.umr.lastig.distance.text.DistanceSamal;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/fr.umr-lastig:MultiCriteriaMatching/src/test/java/fr/umr/lastig/ontology/TestWPOor.java",
+    "useImportReport" : [ {
+      "importPath" : "import junit.framework.TestCase;",
+      "artifact" : {
+        "artifact" : "junit:junit:4.13.2",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/fr.umr-lastig:MultiCriteriaMatching:1.0/dependencies/junit/junit/4.13.2/junit-4.13.2.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import fr.umr.lastig.distance.semantique.DistanceWuPalmer;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.junit.Assert;",
+      "artifact" : {
+        "artifact" : "junit:junit:4.13.2",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/fr.umr-lastig:MultiCriteriaMatching:1.0/dependencies/junit/junit/4.13.2/junit-4.13.2.jar"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/fr.umr-lastig:MultiCriteriaMatching/src/test/java/fr/umr/lastig/ontology/TestWPGeonto.java",
+    "useImportReport" : [ {
+      "importPath" : "import junit.framework.TestCase;",
+      "artifact" : {
+        "artifact" : "junit:junit:4.13.2",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/fr.umr-lastig:MultiCriteriaMatching:1.0/dependencies/junit/junit/4.13.2/junit-4.13.2.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import fr.umr.lastig.distance.semantique.DistanceWuPalmer;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.junit.Assert;",
+      "artifact" : {
+        "artifact" : "junit:junit:4.13.2",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/fr.umr-lastig:MultiCriteriaMatching:1.0/dependencies/junit/junit/4.13.2/junit-4.13.2.jar"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/fr.umr-lastig:MultiCriteriaMatching/src/test/java/fr/umr/lastig/ontology/TestOntoText.java",
+    "useImportReport" : [ ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/fr.umr-lastig:MultiCriteriaMatching/src/test/java/fr/umr/lastig/criteria/TestCritereOrientation.java",
+    "useImportReport" : [ {
+      "importPath" : "import org.junit.Test;",
+      "artifact" : {
+        "artifact" : "junit:junit:4.13.2",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/fr.umr-lastig:MultiCriteriaMatching:1.0/dependencies/junit/junit/4.13.2/junit-4.13.2.jar"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ {
+      "importPath" : "import org.junit.Assert;",
+      "artifact" : {
+        "artifact" : "junit:junit:4.13.2",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/fr.umr-lastig:MultiCriteriaMatching:1.0/dependencies/junit/junit/4.13.2/junit-4.13.2.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.locationtech.jts.geom.Coordinate;",
+      "artifact" : {
+        "artifact" : "org.locationtech.jts:jts-core:1.18.2",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/fr.umr-lastig:MultiCriteriaMatching:1.0/dependencies/org/locationtech/jts/jts-core/1.18.2/jts-core-1.18.2.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.locationtech.jts.geom.GeometryFactory;",
+      "artifact" : {
+        "artifact" : "org.locationtech.jts:jts-core:1.18.2",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/fr.umr-lastig:MultiCriteriaMatching:1.0/dependencies/org/locationtech/jts/jts-core/1.18.2/jts-core-1.18.2.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.locationtech.jts.geom.LineString;",
+      "artifact" : {
+        "artifact" : "org.locationtech.jts:jts-core:1.18.2",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/fr.umr-lastig:MultiCriteriaMatching:1.0/dependencies/org/locationtech/jts/jts-core/1.18.2/jts-core-1.18.2.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.locationtech.jts.io.ParseException;",
+      "artifact" : {
+        "artifact" : "org.locationtech.jts:jts-core:1.18.2",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/fr.umr-lastig:MultiCriteriaMatching:1.0/dependencies/org/locationtech/jts/jts-core/1.18.2/jts-core-1.18.2.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.locationtech.jts.io.WKTReader;",
+      "artifact" : {
+        "artifact" : "org.locationtech.jts:jts-core:1.18.2",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/fr.umr-lastig:MultiCriteriaMatching:1.0/dependencies/org/locationtech/jts/jts-core/1.18.2/jts-core-1.18.2.jar"
+      },
+      "isDirectDependency" : true
+    } ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/fr.umr-lastig:MultiCriteriaMatching/src/test/java/fr/umr/lastig/criteria/TestCritereToponymique.java",
+    "useImportReport" : [ {
+      "importPath" : "import junit.framework.TestCase;",
+      "artifact" : {
+        "artifact" : "junit:junit:4.13.2",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/fr.umr-lastig:MultiCriteriaMatching:1.0/dependencies/junit/junit/4.13.2/junit-4.13.2.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import fr.umr.lastig.distance.text.DistanceSamal;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import fr.umr.lastig.appariement.Feature;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.junit.Assert;",
+      "artifact" : {
+        "artifact" : "junit:junit:4.13.2",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/fr.umr-lastig:MultiCriteriaMatching:1.0/dependencies/junit/junit/4.13.2/junit-4.13.2.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import fr.umr.lastig.distance.text.DistanceLevenshtein;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/fr.umr-lastig:MultiCriteriaMatching/src/test/java/fr/umr/lastig/criteria/TestCritereSemantique.java",
+    "useImportReport" : [ {
+      "importPath" : "import junit.framework.TestCase;",
+      "artifact" : {
+        "artifact" : "junit:junit:4.13.2",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/fr.umr-lastig:MultiCriteriaMatching:1.0/dependencies/junit/junit/4.13.2/junit-4.13.2.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import fr.umr.lastig.distance.semantique.DistanceWuPalmer;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import fr.umr.lastig.appariement.Feature;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.junit.Assert;",
+      "artifact" : {
+        "artifact" : "junit:junit:4.13.2",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/fr.umr-lastig:MultiCriteriaMatching:1.0/dependencies/junit/junit/4.13.2/junit-4.13.2.jar"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/fr.umr-lastig:MultiCriteriaMatching/src/main/java/fr/umr/lastig/util/ontology/OntoText.java",
+    "useImportReport" : [ {
+      "importPath" : "import org.apache.jena.ontology.OntModel;",
+      "artifact" : {
+        "artifact" : "org.apache.jena:jena-core:3.17.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/fr.umr-lastig:MultiCriteriaMatching:1.0/dependencies/org/apache/jena/jena-core/3.17.0/jena-core-3.17.0.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.Map;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.List;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.HashMap;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.Iterator;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.apache.jena.ontology.OntClass;",
+      "artifact" : {
+        "artifact" : "org.apache.jena:jena-core:3.17.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/fr.umr-lastig:MultiCriteriaMatching:1.0/dependencies/org/apache/jena/jena-core/3.17.0/jena-core-3.17.0.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.apache.jena.rdf.model.RDFNode;",
+      "artifact" : {
+        "artifact" : "org.apache.jena:jena-core:3.17.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/fr.umr-lastig:MultiCriteriaMatching:1.0/dependencies/org/apache/jena/jena-core/3.17.0/jena-core-3.17.0.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.ArrayList;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/fr.umr-lastig:MultiCriteriaMatching/src/main/java/fr/umr/lastig/util/ontology/OntoClasse.java",
+    "useImportReport" : [ {
+      "importPath" : "import java.util.List;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.apache.jena.rdf.model.RDFNode;",
+      "artifact" : {
+        "artifact" : "org.apache.jena:jena-core:3.17.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/fr.umr-lastig:MultiCriteriaMatching:1.0/dependencies/org/apache/jena/jena-core/3.17.0/jena-core-3.17.0.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.apache.jena.ontology.OntClass;",
+      "artifact" : {
+        "artifact" : "org.apache.jena:jena-core:3.17.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/fr.umr-lastig:MultiCriteriaMatching:1.0/dependencies/org/apache/jena/jena-core/3.17.0/jena-core-3.17.0.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.ArrayList;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.apache.jena.rdf.model.StmtIterator;",
+      "artifact" : {
+        "artifact" : "org.apache.jena:jena-core:3.17.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/fr.umr-lastig:MultiCriteriaMatching:1.0/dependencies/org/apache/jena/jena-core/3.17.0/jena-core-3.17.0.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.apache.jena.rdf.model.Statement;",
+      "artifact" : {
+        "artifact" : "org.apache.jena:jena-core:3.17.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/fr.umr-lastig:MultiCriteriaMatching:1.0/dependencies/org/apache/jena/jena-core/3.17.0/jena-core-3.17.0.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.apache.jena.vocabulary.SKOS;",
+      "artifact" : {
+        "artifact" : "org.apache.jena:jena-core:3.17.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/fr.umr-lastig:MultiCriteriaMatching:1.0/dependencies/org/apache/jena/jena-core/3.17.0/jena-core-3.17.0.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.apache.jena.vocabulary.RDFS;",
+      "artifact" : {
+        "artifact" : "org.apache.jena:jena-core:3.17.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/fr.umr-lastig:MultiCriteriaMatching:1.0/dependencies/org/apache/jena/jena-core/3.17.0/jena-core-3.17.0.jar"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/fr.umr-lastig:MultiCriteriaMatching/src/main/java/fr/umr/lastig/util/geometrie/Angle.java",
+    "useImportReport" : [ {
+      "importPath" : "import org.locationtech.jts.geom.Coordinate;",
+      "artifact" : {
+        "artifact" : "org.locationtech.jts:jts-core:1.18.2",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/fr.umr-lastig:MultiCriteriaMatching:1.0/dependencies/org/locationtech/jts/jts-core/1.18.2/jts-core-1.18.2.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.locationtech.jts.geom.CoordinateList;",
+      "artifact" : {
+        "artifact" : "org.locationtech.jts:jts-core:1.18.2",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/fr.umr-lastig:MultiCriteriaMatching:1.0/dependencies/org/locationtech/jts/jts-core/1.18.2/jts-core-1.18.2.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import Jama.Matrix;",
+      "artifact" : {
+        "artifact" : "gov.nist.math:jama:1.0.2",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/fr.umr-lastig:MultiCriteriaMatching:1.0/dependencies/gov/nist/math/jama/1.0.2/jama-1.0.2.jar"
+      },
+      "isDirectDependency" : true
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/fr.umr-lastig:MultiCriteriaMatching/src/main/java/fr/umr/lastig/util/geometrie/Vecteur.java",
+    "useImportReport" : [ {
+      "importPath" : "import org.locationtech.jts.geom.Coordinate;",
+      "artifact" : {
+        "artifact" : "org.locationtech.jts:jts-core:1.18.2",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/fr.umr-lastig:MultiCriteriaMatching:1.0/dependencies/org/locationtech/jts/jts-core/1.18.2/jts-core-1.18.2.jar"
+      },
+      "isDirectDependency" : true
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/fr.umr-lastig:MultiCriteriaMatching/src/main/java/fr/umr/lastig/util/geometrie/Operateurs.java",
+    "useImportReport" : [ {
+      "importPath" : "import org.locationtech.jts.geom.CoordinateList;",
+      "artifact" : {
+        "artifact" : "org.locationtech.jts:jts-core:1.18.2",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/fr.umr-lastig:MultiCriteriaMatching:1.0/dependencies/org/locationtech/jts/jts-core/1.18.2/jts-core-1.18.2.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.locationtech.jts.geom.Coordinate;",
+      "artifact" : {
+        "artifact" : "org.locationtech.jts:jts-core:1.18.2",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/fr.umr-lastig:MultiCriteriaMatching:1.0/dependencies/org/locationtech/jts/jts-core/1.18.2/jts-core-1.18.2.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import Jama.Matrix;",
+      "artifact" : {
+        "artifact" : "gov.nist.math:jama:1.0.2",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/fr.umr-lastig:MultiCriteriaMatching:1.0/dependencies/gov/nist/math/jama/1.0.2/jama-1.0.2.jar"
+      },
+      "isDirectDependency" : true
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/fr.umr-lastig:MultiCriteriaMatching/src/main/java/fr/umr/lastig/util/text/TraitementChainesDeCaracteres.java",
+    "useImportReport" : [ {
+      "importPath" : "import java.util.StringTokenizer;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.List;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.ArrayList;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/fr.umr-lastig:MultiCriteriaMatching/src/main/java/fr/umr/lastig/util/text/ApproximateMatcher.java",
+    "useImportReport" : [ ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/fr.umr-lastig:MultiCriteriaMatching/src/main/java/fr/umr/lastig/util/text/MatriceConfiance.java",
+    "useImportReport" : [ {
+      "importPath" : "import java.util.Collection;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.List;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.ArrayList;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/fr.umr-lastig:MultiCriteriaMatching/src/main/java/fr/umr/lastig/distance/Distance.java",
+    "useImportReport" : [ ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/fr.umr-lastig:MultiCriteriaMatching/src/main/java/fr/umr/lastig/distance/geom/DistanceFrechet.java",
+    "useImportReport" : [ ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/fr.umr-lastig:MultiCriteriaMatching/src/main/java/fr/umr/lastig/distance/geom/DistanceAbstractGeom.java",
+    "useImportReport" : [ {
+      "importPath" : "import fr.umr.lastig.distance.Distance;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.locationtech.jts.geom.Geometry;",
+      "artifact" : {
+        "artifact" : "org.locationtech.jts:jts-core:1.18.2",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/fr.umr-lastig:MultiCriteriaMatching:1.0/dependencies/org/locationtech/jts/jts-core/1.18.2/jts-core-1.18.2.jar"
+      },
+      "isDirectDependency" : true
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/fr.umr-lastig:MultiCriteriaMatching/src/main/java/fr/umr/lastig/distance/geom/DistanceMoyMinDistanceHausdorff.java",
+    "useImportReport" : [ {
+      "importPath" : "import fr.umr.lastig.distance.Distance;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.locationtech.jts.geom.Geometry;",
+      "artifact" : {
+        "artifact" : "org.locationtech.jts:jts-core:1.18.2",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/fr.umr-lastig:MultiCriteriaMatching:1.0/dependencies/org/locationtech/jts/jts-core/1.18.2/jts-core-1.18.2.jar"
+      },
+      "isDirectDependency" : true
+    } ],
+    "unusedImportReport" : [ {
+      "importPath" : "import java.util.HashMap;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.Map;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.apache.commons.math3.stat.descriptive.rank.Median;",
+      "artifact" : {
+        "artifact" : "org.apache.commons:commons-math3:3.6.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/fr.umr-lastig:MultiCriteriaMatching:1.0/dependencies/org/apache/commons/commons-math3/3.6.1/commons-math3-3.6.1.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.apache.commons.math3.stat.descriptive.moment.Mean;",
+      "artifact" : {
+        "artifact" : "org.apache.commons:commons-math3:3.6.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/fr.umr-lastig:MultiCriteriaMatching:1.0/dependencies/org/apache/commons/commons-math3/3.6.1/commons-math3-3.6.1.jar"
+      },
+      "isDirectDependency" : true
+    } ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/fr.umr-lastig:MultiCriteriaMatching/src/main/java/fr/umr/lastig/distance/geom/DistanceDirectedHausdorff.java",
+    "useImportReport" : [ {
+      "importPath" : "import fr.umr.lastig.distance.Distance;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.locationtech.jts.geom.LineString;",
+      "artifact" : {
+        "artifact" : "org.locationtech.jts:jts-core:1.18.2",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/fr.umr-lastig:MultiCriteriaMatching:1.0/dependencies/org/locationtech/jts/jts-core/1.18.2/jts-core-1.18.2.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.locationtech.jts.geom.GeometryFactory;",
+      "artifact" : {
+        "artifact" : "org.locationtech.jts:jts-core:1.18.2",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/fr.umr-lastig:MultiCriteriaMatching:1.0/dependencies/org/locationtech/jts/jts-core/1.18.2/jts-core-1.18.2.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.locationtech.jts.geom.Point;",
+      "artifact" : {
+        "artifact" : "org.locationtech.jts:jts-core:1.18.2",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/fr.umr-lastig:MultiCriteriaMatching:1.0/dependencies/org/locationtech/jts/jts-core/1.18.2/jts-core-1.18.2.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.locationtech.jts.operation.distance.DistanceOp;",
+      "artifact" : {
+        "artifact" : "org.locationtech.jts:jts-core:1.18.2",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/fr.umr-lastig:MultiCriteriaMatching:1.0/dependencies/org/locationtech/jts/jts-core/1.18.2/jts-core-1.18.2.jar"
+      },
+      "isDirectDependency" : true
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/fr.umr-lastig:MultiCriteriaMatching/src/main/java/fr/umr/lastig/distance/geom/DistanceDirection.java",
+    "useImportReport" : [ {
+      "importPath" : "import fr.umr.lastig.distance.Distance;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.locationtech.jts.geom.LineString;",
+      "artifact" : {
+        "artifact" : "org.locationtech.jts:jts-core:1.18.2",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/fr.umr-lastig:MultiCriteriaMatching:1.0/dependencies/org/locationtech/jts/jts-core/1.18.2/jts-core-1.18.2.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import fr.umr.lastig.util.geometrie.Angle;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.locationtech.jts.geom.CoordinateList;",
+      "artifact" : {
+        "artifact" : "org.locationtech.jts:jts-core:1.18.2",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/fr.umr-lastig:MultiCriteriaMatching:1.0/dependencies/org/locationtech/jts/jts-core/1.18.2/jts-core-1.18.2.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import fr.umr.lastig.util.geometrie.Operateurs;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/fr.umr-lastig:MultiCriteriaMatching/src/main/java/fr/umr/lastig/distance/geom/DistanceEuclidienne.java",
+    "useImportReport" : [ {
+      "importPath" : "import fr.umr.lastig.distance.Distance;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/fr.umr-lastig:MultiCriteriaMatching/src/main/java/fr/umr/lastig/distance/semantique/DistanceAbstractSemantique.java",
+    "useImportReport" : [ {
+      "importPath" : "import fr.umr.lastig.distance.Distance;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/fr.umr-lastig:MultiCriteriaMatching/src/main/java/fr/umr/lastig/distance/semantique/DistanceWuPalmer.java",
+    "useImportReport" : [ {
+      "importPath" : "import fr.umr.lastig.distance.Distance;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import fr.umr.lastig.util.ontology.OntoText;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.apache.jena.ontology.OntModel;",
+      "artifact" : {
+        "artifact" : "org.apache.jena:jena-core:3.17.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/fr.umr-lastig:MultiCriteriaMatching:1.0/dependencies/org/apache/jena/jena-core/3.17.0/jena-core-3.17.0.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.apache.jena.rdf.model.ModelFactory;",
+      "artifact" : {
+        "artifact" : "org.apache.jena:jena-core:3.17.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/fr.umr-lastig:MultiCriteriaMatching:1.0/dependencies/org/apache/jena/jena-core/3.17.0/jena-core-3.17.0.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.apache.jena.ontology.OntModelSpec;",
+      "artifact" : {
+        "artifact" : "org.apache.jena:jena-core:3.17.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/fr.umr-lastig:MultiCriteriaMatching:1.0/dependencies/org/apache/jena/jena-core/3.17.0/jena-core-3.17.0.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.List;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.ArrayList;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.Collections;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/fr.umr-lastig:MultiCriteriaMatching/src/main/java/fr/umr/lastig/distance/text/DistanceSamal.java",
+    "useImportReport" : [ {
+      "importPath" : "import fr.umr.lastig.distance.Distance;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/fr.umr-lastig:MultiCriteriaMatching/src/main/java/fr/umr/lastig/distance/text/DistanceAbstractText.java",
+    "useImportReport" : [ {
+      "importPath" : "import fr.umr.lastig.distance.Distance;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/fr.umr-lastig:MultiCriteriaMatching/src/main/java/fr/umr/lastig/distance/text/DistanceJaroWinkler.java",
+    "useImportReport" : [ {
+      "importPath" : "import fr.umr.lastig.distance.Distance;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.apache.lucene.search.spell.JaroWinklerDistance;",
+      "artifact" : {
+        "artifact" : "org.apache.lucene:lucene-spellchecker:3.6.2",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/fr.umr-lastig:MultiCriteriaMatching:1.0/dependencies/org/apache/lucene/lucene-spellchecker/3.6.2/lucene-spellchecker-3.6.2.jar"
+      },
+      "isDirectDependency" : true
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/fr.umr-lastig:MultiCriteriaMatching/src/main/java/fr/umr/lastig/distance/text/DistanceLevenshtein.java",
+    "useImportReport" : [ {
+      "importPath" : "import fr.umr.lastig.distance.Distance;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.apache.commons.lang.StringUtils;",
+      "artifact" : {
+        "artifact" : "commons-lang:commons-lang:2.6",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/fr.umr-lastig:MultiCriteriaMatching:1.0/dependencies/commons-lang/commons-lang/2.6/commons-lang-2.6.jar"
+      },
+      "isDirectDependency" : true
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/fr.umr-lastig:MultiCriteriaMatching/src/main/java/fr/umr/lastig/distance/text/DistanceCosinus.java",
+    "useImportReport" : [ {
+      "importPath" : "import fr.umr.lastig.distance.Distance;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.Map;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import fr.umr.lastig.util.text.TraitementChainesDeCaracteres;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.TreeMap;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.StringTokenizer;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.Set;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.HashSet;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/fr.umr-lastig:MultiCriteriaMatching/src/main/java/fr/umr/lastig/distance/text/DistanceHamming.java",
+    "useImportReport" : [ {
+      "importPath" : "import fr.umr.lastig.distance.Distance;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/fr.umr-lastig:MultiCriteriaMatching/src/main/java/fr/umr/lastig/distance/text/MesureRessemblance.java",
+    "useImportReport" : [ {
+      "importPath" : "import java.util.List;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.ArrayList;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import fr.umr.lastig.util.text.ApproximateMatcher;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import fr.umr.lastig.util.text.MatriceConfiance;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.StringTokenizer;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import fr.umr.lastig.util.text.TraitementChainesDeCaracteres;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/fr.umr-lastig:MultiCriteriaMatching/src/main/java/fr/umr/lastig/appariement/AppariementDST.java",
+    "useImportReport" : [ {
+      "importPath" : "import java.util.List;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import fr.umr.lastig.criteria.Critere;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.logging.Logger;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.ArrayList;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import fr.umr.lastig.evidence.variable.VariableFactory;",
+      "artifact" : {
+        "artifact" : "fr.umr-lastig:evidence4j:1.2",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/fr.umr-lastig:MultiCriteriaMatching:1.0/dependencies/fr/umr-lastig/evidence4j/1.2/evidence4j-1.2.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import fr.umr.lastig.evidence.variable.Variable;",
+      "artifact" : {
+        "artifact" : "fr.umr-lastig:evidence4j:1.2",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/fr.umr-lastig:MultiCriteriaMatching:1.0/dependencies/fr/umr-lastig/evidence4j/1.2/evidence4j-1.2.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import fr.umr.lastig.evidence.variable.VariableSet;",
+      "artifact" : {
+        "artifact" : "fr.umr-lastig:evidence4j:1.2",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/fr.umr-lastig:MultiCriteriaMatching:1.0/dependencies/fr/umr-lastig/evidence4j/1.2/evidence4j-1.2.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import java.util.logging.Level;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.Map;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import fr.umr.lastig.evidence.configuration.Configuration;",
+      "artifact" : {
+        "artifact" : "fr.umr-lastig:evidence4j:1.2",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/fr.umr-lastig:MultiCriteriaMatching:1.0/dependencies/fr/umr-lastig/evidence4j/1.2/evidence4j-1.2.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import java.util.HashMap;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.Arrays;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import fr.umr.lastig.evidence.configuration.ConfigurationSet;",
+      "artifact" : {
+        "artifact" : "fr.umr-lastig:evidence4j:1.2",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/fr.umr-lastig:MultiCriteriaMatching:1.0/dependencies/fr/umr-lastig/evidence4j/1.2/evidence4j-1.2.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import fr.umr.lastig.evidence.massvalues.MassPotential;",
+      "artifact" : {
+        "artifact" : "fr.umr-lastig:evidence4j:1.2",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/fr.umr-lastig:MultiCriteriaMatching:1.0/dependencies/fr/umr-lastig/evidence4j/1.2/evidence4j-1.2.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import java.util.Set;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.HashSet;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.Collections;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/fr.umr-lastig:MultiCriteriaMatching/src/main/java/fr/umr/lastig/appariement/LigneResultat.java",
+    "useImportReport" : [ {
+      "importPath" : "import org.locationtech.jts.geom.Geometry;",
+      "artifact" : {
+        "artifact" : "org.locationtech.jts:jts-core:1.18.2",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/fr.umr-lastig:MultiCriteriaMatching:1.0/dependencies/org/locationtech/jts/jts-core/1.18.2/jts-core-1.18.2.jar"
+      },
+      "isDirectDependency" : true
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/fr.umr-lastig:MultiCriteriaMatching/src/main/java/fr/umr/lastig/appariement/Feature.java",
+    "useImportReport" : [ {
+      "importPath" : "import org.locationtech.jts.geom.Geometry;",
+      "artifact" : {
+        "artifact" : "org.locationtech.jts:jts-core:1.18.2",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/fr.umr-lastig:MultiCriteriaMatching:1.0/dependencies/org/locationtech/jts/jts-core/1.18.2/jts-core-1.18.2.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import java.util.Map;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.List;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.ArrayList;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.HashMap;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/fr.umr-lastig:MultiCriteriaMatching/src/main/java/fr/umr/lastig/appli/TableauResultatFrame.java",
+    "useImportReport" : [ {
+      "importPath" : "import java.awt.event.ActionListener;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import javax.swing.JFrame;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import javax.swing.JButton;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import javax.swing.JPanel;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.List;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import fr.umr.lastig.appariement.LigneResultat;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import javax.swing.JTable;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.Vector;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.awt.BorderLayout;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.awt.event.ActionEvent;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.awt.FlowLayout;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import javax.swing.JScrollPane;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import javax.swing.table.DefaultTableCellRenderer;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.awt.Component;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.awt.Color;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import javax.swing.UIManager;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/fr.umr-lastig:MultiCriteriaMatching/src/main/java/fr/umr/lastig/appli/ExportToShape.java",
+    "useImportReport" : [ ],
+    "unusedImportReport" : [ {
+      "importPath" : "import java.util.ArrayList;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.Date;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.HashMap;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.List;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.Locale;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.Map;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/fr.umr-lastig:MultiCriteriaMatching/src/main/java/fr/umr/lastig/appli/ExportToCSV.java",
+    "useImportReport" : [ {
+      "importPath" : "import java.util.List;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import fr.umr.lastig.criteria.Critere;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import fr.umr.lastig.appariement.LigneResultat;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.io.FileWriter;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.io.File;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.Locale;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.ibm.icu.text.SimpleDateFormat;",
+      "artifact" : {
+        "artifact" : "com.ibm.icu:icu4j:70.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/fr.umr-lastig:MultiCriteriaMatching:1.0/dependencies/com/ibm/icu/icu4j/70.1/icu4j-70.1.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import java.util.Date;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.locationtech.jts.geom.Point;",
+      "artifact" : {
+        "artifact" : "org.locationtech.jts:jts-core:1.18.2",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/fr.umr-lastig:MultiCriteriaMatching:1.0/dependencies/org/locationtech/jts/jts-core/1.18.2/jts-core-1.18.2.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.locationtech.jts.geom.Polygon;",
+      "artifact" : {
+        "artifact" : "org.locationtech.jts:jts-core:1.18.2",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/fr.umr-lastig:MultiCriteriaMatching:1.0/dependencies/org/locationtech/jts/jts-core/1.18.2/jts-core-1.18.2.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.locationtech.jts.geom.LineString;",
+      "artifact" : {
+        "artifact" : "org.locationtech.jts:jts-core:1.18.2",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/fr.umr-lastig:MultiCriteriaMatching:1.0/dependencies/org/locationtech/jts/jts-core/1.18.2/jts-core-1.18.2.jar"
+      },
+      "isDirectDependency" : true
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/fr.umr-lastig:MultiCriteriaMatching/src/main/java/fr/umr/lastig/criteria/CritereVoisinnage.java",
+    "useImportReport" : [ ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/fr.umr-lastig:MultiCriteriaMatching/src/main/java/fr/umr/lastig/criteria/CritereToponymique.java",
+    "useImportReport" : [ {
+      "importPath" : "import fr.umr.lastig.distance.Distance;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import fr.umr.lastig.appariement.Feature;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import fr.umr.lastig.distance.text.DistanceAbstractText;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/fr.umr-lastig:MultiCriteriaMatching/src/main/java/fr/umr/lastig/criteria/CritereSemantique.java",
+    "useImportReport" : [ {
+      "importPath" : "import fr.umr.lastig.distance.Distance;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import fr.umr.lastig.appariement.Feature;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import fr.umr.lastig.distance.semantique.DistanceAbstractSemantique;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/fr.umr-lastig:MultiCriteriaMatching/src/main/java/fr/umr/lastig/criteria/CritereOrientation.java",
+    "useImportReport" : [ {
+      "importPath" : "import fr.umr.lastig.appariement.Feature;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import fr.umr.lastig.distance.Distance;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import fr.umr.lastig.distance.geom.DistanceAbstractGeom;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.logging.Level;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/fr.umr-lastig:MultiCriteriaMatching/src/main/java/fr/umr/lastig/criteria/CritereAbstract.java",
+    "useImportReport" : [ {
+      "importPath" : "import java.util.logging.Logger;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import fr.umr.lastig.distance.Distance;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import fr.umr.lastig.appariement.Feature;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/fr.umr-lastig:MultiCriteriaMatching/src/main/java/fr/umr/lastig/criteria/Critere.java",
+    "useImportReport" : [ {
+      "importPath" : "import fr.umr.lastig.appariement.Feature;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import fr.umr.lastig.distance.Distance;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/fr.umr-lastig:MultiCriteriaMatching/src/main/java/fr/umr/lastig/criteria/CritereGeom.java",
+    "useImportReport" : [ {
+      "importPath" : "import fr.umr.lastig.appariement.Feature;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import fr.umr.lastig.distance.Distance;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import fr.umr.lastig.distance.geom.DistanceAbstractGeom;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.logging.Level;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/fr.umr-lastig:MultiCriteriaMatching/src/main/java/fr/umr/lastig/main/MainSiberie.java",
+    "useImportReport" : [ {
+      "importPath" : "import org.locationtech.jts.geom.GeometryFactory;",
+      "artifact" : {
+        "artifact" : "org.locationtech.jts:jts-core:1.18.2",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/fr.umr-lastig:MultiCriteriaMatching:1.0/dependencies/org/locationtech/jts/jts-core/1.18.2/jts-core-1.18.2.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import fr.umr.lastig.appariement.AppariementDST;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.List;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import fr.umr.lastig.criteria.Critere;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.ArrayList;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import fr.umr.lastig.distance.text.DistanceSamal;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import fr.umr.lastig.criteria.CritereToponymique;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import fr.umr.lastig.distance.geom.DistanceEuclidienne;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import fr.umr.lastig.criteria.CritereGeom;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import fr.umr.lastig.distance.semantique.DistanceWuPalmer;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import fr.umr.lastig.criteria.CritereSemantique;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import fr.umr.lastig.appariement.Feature;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import fr.umr.lastig.appariement.LigneResultat;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import fr.umr.lastig.appli.TableauResultatFrame;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.locationtech.jts.geom.Point;",
+      "artifact" : {
+        "artifact" : "org.locationtech.jts:jts-core:1.18.2",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/fr.umr-lastig:MultiCriteriaMatching:1.0/dependencies/org/locationtech/jts/jts-core/1.18.2/jts-core-1.18.2.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.locationtech.jts.geom.Coordinate;",
+      "artifact" : {
+        "artifact" : "org.locationtech.jts:jts-core:1.18.2",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/fr.umr-lastig:MultiCriteriaMatching:1.0/dependencies/org/locationtech/jts/jts-core/1.18.2/jts-core-1.18.2.jar"
+      },
+      "isDirectDependency" : true
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  } ],
+  "projectUseDependencies" : [ {
+    "artifact" : "org.locationtech.jts:jts-core:1.18.2",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/fr.umr-lastig:MultiCriteriaMatching:1.0/dependencies/org/locationtech/jts/jts-core/1.18.2/jts-core-1.18.2.jar"
+  }, {
+    "artifact" : "gov.nist.math:jama:1.0.2",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/fr.umr-lastig:MultiCriteriaMatching:1.0/dependencies/gov/nist/math/jama/1.0.2/jama-1.0.2.jar"
+  }, {
+    "artifact" : "org.apache.lucene:lucene-spellchecker:3.6.2",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/fr.umr-lastig:MultiCriteriaMatching:1.0/dependencies/org/apache/lucene/lucene-spellchecker/3.6.2/lucene-spellchecker-3.6.2.jar"
+  }, {
+    "artifact" : "commons-lang:commons-lang:2.6",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/fr.umr-lastig:MultiCriteriaMatching:1.0/dependencies/commons-lang/commons-lang/2.6/commons-lang-2.6.jar"
+  }, {
+    "artifact" : "fr.umr-lastig:evidence4j:1.2",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/fr.umr-lastig:MultiCriteriaMatching:1.0/dependencies/fr/umr-lastig/evidence4j/1.2/evidence4j-1.2.jar"
+  }, {
+    "artifact" : "com.ibm.icu:icu4j:70.1",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/fr.umr-lastig:MultiCriteriaMatching:1.0/dependencies/com/ibm/icu/icu4j/70.1/icu4j-70.1.jar"
+  } ],
+  "projectUseTransitiveDependencies" : [ {
+    "artifact" : "org.apache.jena:apache-jena-libs:3.17.0",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/fr.umr-lastig:MultiCriteriaMatching:1.0/org.apache.jena/apache-jena-libs-3.17.0.jar"
+  } ],
+  "projectUnusedDependencies" : [ {
+    "artifact" : "org.apache.commons:commons-math3:3.6.1",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/fr.umr-lastig:MultiCriteriaMatching:1.0/dependencies/org/apache/commons/commons-math3/3.6.1/commons-math3-3.6.1.jar"
+  } ]
+}

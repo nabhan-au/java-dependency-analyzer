@@ -1,0 +1,378 @@
+{
+  "projectArtifact" : "tech.energyit:fast-java-statsd-client:1.5",
+  "repositoryDir" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/tech.energyit:fast-java-statsd-client",
+  "repositorySubDir" : "",
+  "artifactLocation" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/tech.energyit:fast-java-statsd-client:1.5",
+  "fileImportReports" : [ {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/tech.energyit:fast-java-statsd-client/src/main/java/tech/energyit/statsd/TagImpl.java",
+    "useImportReport" : [ ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/tech.energyit:fast-java-statsd-client/src/main/java/tech/energyit/statsd/IOUtils.java",
+    "useImportReport" : [ {
+      "importPath" : "import java.net.InetAddress;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.net.UnknownHostException;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.nio.channels.DatagramChannel;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.io.IOException;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/tech.energyit:fast-java-statsd-client/src/main/java/tech/energyit/statsd/SynchronousSender.java",
+    "useImportReport" : [ {
+      "importPath" : "import java.io.Closeable;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.nio.channels.DatagramChannel;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.function.Supplier;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.net.InetSocketAddress;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.net.StandardSocketOptions;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.nio.ByteBuffer;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.io.IOException;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/tech.energyit:fast-java-statsd-client/src/main/java/tech/energyit/statsd/Tag.java",
+    "useImportReport" : [ ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/tech.energyit:fast-java-statsd-client/src/main/java/tech/energyit/statsd/async/SenderEventFactory.java",
+    "useImportReport" : [ {
+      "importPath" : "import com.lmax.disruptor.EventFactory;",
+      "artifact" : {
+        "artifact" : "com.lmax:disruptor:3.4.2",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/tech.energyit:fast-java-statsd-client:1.5/dependencies/com/lmax/disruptor/3.4.2/disruptor-3.4.2.jar"
+      },
+      "isDirectDependency" : true
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/tech.energyit:fast-java-statsd-client/src/main/java/tech/energyit/statsd/async/SenderEventHandler.java",
+    "useImportReport" : [ {
+      "importPath" : "import com.lmax.disruptor.EventHandler;",
+      "artifact" : {
+        "artifact" : "com.lmax:disruptor:3.4.2",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/tech.energyit:fast-java-statsd-client:1.5/dependencies/com/lmax/disruptor/3.4.2/disruptor-3.4.2.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import tech.energyit.statsd.Sender;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/tech.energyit:fast-java-statsd-client/src/main/java/tech/energyit/statsd/async/SenderEvent.java",
+    "useImportReport" : [ {
+      "importPath" : "import java.nio.ByteBuffer;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import static java.nio.ByteBuffer.allocateDirect;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import tech.energyit.statsd.FastStatsDClient;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/tech.energyit:fast-java-statsd-client/src/main/java/tech/energyit/statsd/async/AsynchronousSender.java",
+    "useImportReport" : [ {
+      "importPath" : "import tech.energyit.statsd.Sender;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.io.Closeable;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.lmax.disruptor.dsl.Disruptor;",
+      "artifact" : {
+        "artifact" : "com.lmax:disruptor:3.4.2",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/tech.energyit:fast-java-statsd-client:1.5/dependencies/com/lmax/disruptor/3.4.2/disruptor-3.4.2.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import tech.energyit.statsd.SynchronousSender;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import tech.energyit.statsd.StatsDClientErrorHandler;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.function.BiConsumer;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.nio.ByteBuffer;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.function.Supplier;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.nio.channels.DatagramChannel;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.net.InetSocketAddress;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.lmax.disruptor.util.DaemonThreadFactory;",
+      "artifact" : {
+        "artifact" : "com.lmax:disruptor:3.4.2",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/tech.energyit:fast-java-statsd-client:1.5/dependencies/com/lmax/disruptor/3.4.2/disruptor-3.4.2.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import com.lmax.disruptor.dsl.ProducerType;",
+      "artifact" : {
+        "artifact" : "com.lmax:disruptor:3.4.2",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/tech.energyit:fast-java-statsd-client:1.5/dependencies/com/lmax/disruptor/3.4.2/disruptor-3.4.2.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import com.lmax.disruptor.BlockingWaitStrategy;",
+      "artifact" : {
+        "artifact" : "com.lmax:disruptor:3.4.2",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/tech.energyit:fast-java-statsd-client:1.5/dependencies/com/lmax/disruptor/3.4.2/disruptor-3.4.2.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import tech.energyit.statsd.IOUtils;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/tech.energyit:fast-java-statsd-client/src/main/java/tech/energyit/statsd/Numbers.java",
+    "useImportReport" : [ {
+      "importPath" : "import java.nio.ByteBuffer;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.nio.charset.Charset;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/tech.energyit:fast-java-statsd-client/src/main/java/tech/energyit/statsd/Sender.java",
+    "useImportReport" : [ {
+      "importPath" : "import java.nio.ByteBuffer;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/tech.energyit:fast-java-statsd-client/src/main/java/tech/energyit/statsd/FastStatsDClient.java",
+    "useImportReport" : [ {
+      "importPath" : "import java.nio.ByteBuffer;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.nio.charset.Charset;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.nio.charset.StandardCharsets;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.nio.BufferOverflowException;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/tech.energyit:fast-java-statsd-client/src/main/java/tech/energyit/statsd/StatsDClientErrorHandler.java",
+    "useImportReport" : [ ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/tech.energyit:fast-java-statsd-client/src/main/java/tech/energyit/statsd/StatsDClient.java",
+    "useImportReport" : [ ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  } ],
+  "projectUseDependencies" : [ {
+    "artifact" : "com.lmax:disruptor:3.4.2",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/tech.energyit:fast-java-statsd-client:1.5/dependencies/com/lmax/disruptor/3.4.2/disruptor-3.4.2.jar"
+  } ],
+  "projectUseTransitiveDependencies" : [ ],
+  "projectUnusedDependencies" : [ {
+    "artifact" : "org.assertj:assertj-core:3.14.0",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/tech.energyit:fast-java-statsd-client:1.5/dependencies/org/assertj/assertj-core/3.14.0/assertj-core-3.14.0.jar"
+  }, {
+    "artifact" : "junit:junit:4.13.1",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/tech.energyit:fast-java-statsd-client:1.5/dependencies/junit/junit/4.13.1/junit-4.13.1.jar"
+  }, {
+    "artifact" : "org.mockito:mockito-core:3.1.0",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/tech.energyit:fast-java-statsd-client:1.5/dependencies/org/mockito/mockito-core/3.1.0/mockito-core-3.1.0.jar"
+  }, {
+    "artifact" : "org.openjdk.jmh:jmh-core:1.23",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/tech.energyit:fast-java-statsd-client:1.5/dependencies/org/openjdk/jmh/jmh-core/1.23/jmh-core-1.23.jar"
+  }, {
+    "artifact" : "org.openjdk.jmh:jmh-generator-annprocess:1.23",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/tech.energyit:fast-java-statsd-client:1.5/dependencies/org/openjdk/jmh/jmh-generator-annprocess/1.23/jmh-generator-annprocess-1.23.jar"
+  }, {
+    "artifact" : "com.datadoghq:java-dogstatsd-client:2.8.1",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/tech.energyit:fast-java-statsd-client:1.5/dependencies/com/datadoghq/java-dogstatsd-client/2.8.1/java-dogstatsd-client-2.8.1.jar"
+  }, {
+    "artifact" : "org.awaitility:awaitility:4.0.1",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/tech.energyit:fast-java-statsd-client:1.5/dependencies/org/awaitility/awaitility/4.0.1/awaitility-4.0.1.jar"
+  } ]
+}

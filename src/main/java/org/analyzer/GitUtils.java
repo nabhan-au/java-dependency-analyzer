@@ -1,14 +1,16 @@
 package org.analyzer;
 
+import java.io.BufferedReader;
 import java.io.File;
 import java.io.IOException;
+import java.io.InputStreamReader;
 
 public class GitUtils {
     public static void gitCheckoutBranch(String repoPath, String branchName) throws IOException, InterruptedException {
         if (branchName == null || branchName.isEmpty()) {
             return;
         }
-        ProcessBuilder processBuilder = new ProcessBuilder("git", "checkout", branchName);
+        ProcessBuilder processBuilder = new ProcessBuilder("git", "checkout", "-f", branchName.trim());
         processBuilder.directory(new java.io.File(repoPath));
         processBuilder.redirectErrorStream(true); // Combine standard error with standard output
 
@@ -18,7 +20,7 @@ public class GitUtils {
         if (exitCode == 0) {
             System.out.println("Successfully switched to branch: " + branchName);
         } else {
-            throw new IOException("Error switching to branch: " + branchName);
+            throw new IOException("Error switching to branch: " + branchName + " - " + exitCode);
         }
     }
 
@@ -57,6 +59,40 @@ public class GitUtils {
             return new File(targetDir).getAbsolutePath();
         } else {
             throw new RuntimeException("Failed to clone the repository. Exit code: " + exitCode);
+        }
+    }
+
+    public static void runGitRestore(String repoPath) {
+        try {
+            // Set up the ProcessBuilder with the git restore . command
+            ProcessBuilder processBuilder = new ProcessBuilder("git", "restore", ".");
+
+            // Set the working directory to the specified Git repository path
+            processBuilder.directory(new java.io.File(repoPath));
+
+            // Redirect error and output streams
+            processBuilder.redirectErrorStream(true);
+
+            // Start the process
+            Process process = processBuilder.start();
+
+            // Read the command output
+            try (BufferedReader reader = new BufferedReader(new InputStreamReader(process.getInputStream()))) {
+                String line;
+                while ((line = reader.readLine()) != null) {
+                    System.out.println(line);
+                }
+            }
+
+            // Wait for the process to complete and check the exit code
+            int exitCode = process.waitFor();
+            if (exitCode == 0) {
+                System.out.println("Successfully executed 'git restore .'");
+            } else {
+                System.err.println("Command failed with exit code: " + exitCode);
+            }
+        } catch (Exception e) {
+            e.printStackTrace();
         }
     }
 }

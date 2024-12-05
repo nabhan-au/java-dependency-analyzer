@@ -1,0 +1,1169 @@
+{
+  "projectArtifact" : "com.ceph:rados:0.2.0",
+  "repositoryDir" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/com.ceph:rados",
+  "repositorySubDir" : "",
+  "artifactLocation" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.ceph:rados:0.2.0",
+  "fileImportReports" : [ {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/com.ceph:rados/src/test/java/com/ceph/rados/exceptions/ErrorCodeTest.java",
+    "useImportReport" : [ ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ {
+      "importPath" : "import org.junit.Test;"
+    }, {
+      "importPath" : "import static org.junit.Assert.assertEquals;"
+    } ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/com.ceph:rados/src/test/java/com/ceph/rados/TestRados.java",
+    "useImportReport" : [ {
+      "importPath" : "import com.ceph.rados.Rados;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.ceph.rados.IoCTX;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.io.File;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.ceph.rados.exceptions.RadosException;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.ceph.rados.jna.RadosClusterInfo;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.Random;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.Arrays;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.ceph.rados.jna.RadosObjectInfo;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.ceph.rados.jna.RadosPoolInfo;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.ceph.rados.ReadOp;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.Map;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.ceph.rados.ReadOp.ReadResult;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.HashMap;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.ceph.rados.exceptions.ErrorCode;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.sun.jna.Pointer;",
+      "artifact" : {
+        "artifact" : "net.java.dev.jna:jna:4.1.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.ceph:rados:0.2.0/dependencies/net/java/dev/jna/jna/4.1.0/jna-4.1.0.jar"
+      },
+      "isDirectDependency" : true
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ {
+      "importPath" : "import org.junit.AfterClass;"
+    }, {
+      "importPath" : "import org.junit.BeforeClass;"
+    }, {
+      "importPath" : "import org.junit.Test;"
+    }, {
+      "importPath" : "import static org.junit.Assert.assertEquals;"
+    }, {
+      "importPath" : "import static org.junit.Assert.assertFalse;"
+    }, {
+      "importPath" : "import static org.junit.Assert.assertNotNull;"
+    }, {
+      "importPath" : "import static org.junit.Assert.assertTrue;"
+    }, {
+      "importPath" : "import static org.junit.Assert.fail;"
+    } ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/com.ceph:rados/src/test/java/com/ceph/rados/RadosBaseTest.java",
+    "useImportReport" : [ {
+      "importPath" : "import java.util.concurrent.Callable;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.ceph.rados.exceptions.RadosException;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.ceph.rados.exceptions.RadosPermissionException;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.ceph.rados.exceptions.RadosNotFoundException;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.ceph.rados.exceptions.RadosInvalidArgumentException;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.ceph.rados.exceptions.RadosReadOnlyException;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.ceph.rados.exceptions.RadosArgumentOutOfDomainException;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.ceph.rados.exceptions.RadosAlreadyConnectedException;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.ceph.rados.exceptions.RadosTimeoutException;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.ceph.rados.exceptions.RadosOperationInProgressException;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ {
+      "importPath" : "import org.junit.Before;"
+    }, {
+      "importPath" : "import org.junit.Test;"
+    }, {
+      "importPath" : "import static org.junit.Assert.assertEquals;"
+    }, {
+      "importPath" : "import static org.mockito.Mockito.mock;"
+    }, {
+      "importPath" : "import static org.mockito.Mockito.when;"
+    } ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/com.ceph:rados/src/test/java/com/ceph/rbd/TestRbd.java",
+    "useImportReport" : [ {
+      "importPath" : "import com.ceph.rados.Rados;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.ceph.rados.IoCTX;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.ceph.rados.exceptions.RadosException;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.io.File;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.List;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.Arrays;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.ceph.rbd.jna.RbdImageInfo;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.ceph.rbd.jna.RbdSnapInfo;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.security.SecureRandom;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.math.BigInteger;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ {
+      "importPath" : "import org.junit.AfterClass;"
+    }, {
+      "importPath" : "import org.junit.BeforeClass;"
+    }, {
+      "importPath" : "import org.junit.Test;"
+    }, {
+      "importPath" : "import static org.junit.Assert.assertEquals;"
+    }, {
+      "importPath" : "import static org.junit.Assert.assertFalse;"
+    }, {
+      "importPath" : "import static org.junit.Assert.assertNotNull;"
+    }, {
+      "importPath" : "import static org.junit.Assert.assertTrue;"
+    }, {
+      "importPath" : "import static org.junit.Assert.fail;"
+    } ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/com.ceph:rados/src/main/java/com/ceph/rados/IoCTX.java",
+    "useImportReport" : [ {
+      "importPath" : "import com.sun.jna.Pointer;",
+      "artifact" : {
+        "artifact" : "net.java.dev.jna:jna:4.1.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.ceph:rados:0.2.0/dependencies/net/java/dev/jna/jna/4.1.0/jna-4.1.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import com.ceph.rados.exceptions.RadosException;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.concurrent.Callable;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.sun.jna.ptr.LongByReference;",
+      "artifact" : {
+        "artifact" : "net.java.dev.jna:jna:4.1.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.ceph:rados:0.2.0/dependencies/net/java/dev/jna/jna/4.1.0/jna-4.1.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import com.sun.jna.Native;",
+      "artifact" : {
+        "artifact" : "net.java.dev.jna:jna:4.1.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.ceph:rados:0.2.0/dependencies/net/java/dev/jna/jna/4.1.0/jna-4.1.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import com.sun.jna.Memory;",
+      "artifact" : {
+        "artifact" : "net.java.dev.jna:jna:4.1.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.ceph:rados:0.2.0/dependencies/net/java/dev/jna/jna/4.1.0/jna-4.1.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import java.util.List;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.ArrayList;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.ceph.rados.jna.RadosObjectInfo;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.ceph.rados.jna.RadosPoolInfo;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ {
+      "importPath" : "import static com.ceph.rados.Library.rados;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/com.ceph:rados/src/main/java/com/ceph/rados/ListCtx.java",
+    "useImportReport" : [ {
+      "importPath" : "import com.sun.jna.Pointer;",
+      "artifact" : {
+        "artifact" : "net.java.dev.jna:jna:4.1.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.ceph:rados:0.2.0/dependencies/net/java/dev/jna/jna/4.1.0/jna-4.1.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import com.ceph.rados.exceptions.RadosException;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.sun.jna.Memory;",
+      "artifact" : {
+        "artifact" : "net.java.dev.jna:jna:4.1.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.ceph:rados:0.2.0/dependencies/net/java/dev/jna/jna/4.1.0/jna-4.1.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import java.util.Arrays;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ {
+      "importPath" : "import static com.ceph.rados.Library.rados;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/com.ceph:rados/src/main/java/com/ceph/rados/ReadOp.java",
+    "useImportReport" : [ {
+      "importPath" : "import java.nio.ByteBuffer;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.sun.jna.ptr.LongByReference;",
+      "artifact" : {
+        "artifact" : "net.java.dev.jna:jna:4.1.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.ceph:rados:0.2.0/dependencies/net/java/dev/jna/jna/4.1.0/jna-4.1.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import com.sun.jna.ptr.IntByReference;",
+      "artifact" : {
+        "artifact" : "net.java.dev.jna:jna:4.1.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.ceph:rados:0.2.0/dependencies/net/java/dev/jna/jna/4.1.0/jna-4.1.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import com.ceph.rados.exceptions.RadosException;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.sun.jna.Pointer;",
+      "artifact" : {
+        "artifact" : "net.java.dev.jna:jna:4.1.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.ceph:rados:0.2.0/dependencies/net/java/dev/jna/jna/4.1.0/jna-4.1.0.jar"
+      },
+      "isDirectDependency" : true
+    } ],
+    "unusedImportReport" : [ {
+      "importPath" : "import static com.ceph.rados.Library.rados;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/com.ceph:rados/src/main/java/com/ceph/rados/Library.java",
+    "useImportReport" : [ {
+      "importPath" : "import com.ceph.rados.jna.Rados;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.sun.jna.Pointer;",
+      "artifact" : {
+        "artifact" : "net.java.dev.jna:jna:4.1.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.ceph:rados:0.2.0/dependencies/net/java/dev/jna/jna/4.1.0/jna-4.1.0.jar"
+      },
+      "isDirectDependency" : true
+    } ],
+    "unusedImportReport" : [ {
+      "importPath" : "import com.sun.jna.Native;",
+      "artifact" : {
+        "artifact" : "net.java.dev.jna:jna:4.1.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.ceph:rados:0.2.0/dependencies/net/java/dev/jna/jna/4.1.0/jna-4.1.0.jar"
+      },
+      "isDirectDependency" : true
+    } ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/com.ceph:rados/src/main/java/com/ceph/rados/exceptions/ErrorCode.java",
+    "useImportReport" : [ ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/com.ceph:rados/src/main/java/com/ceph/rados/exceptions/RadosPermissionException.java",
+    "useImportReport" : [ ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/com.ceph:rados/src/main/java/com/ceph/rados/exceptions/RadosArgumentOutOfDomainException.java",
+    "useImportReport" : [ ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/com.ceph:rados/src/main/java/com/ceph/rados/exceptions/RadosNotFoundException.java",
+    "useImportReport" : [ ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/com.ceph:rados/src/main/java/com/ceph/rados/exceptions/RadosOperationInProgressException.java",
+    "useImportReport" : [ ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/com.ceph:rados/src/main/java/com/ceph/rados/exceptions/RadosAlreadyConnectedException.java",
+    "useImportReport" : [ ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/com.ceph:rados/src/main/java/com/ceph/rados/exceptions/RadosException.java",
+    "useImportReport" : [ ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/com.ceph:rados/src/main/java/com/ceph/rados/exceptions/RadosInvalidArgumentException.java",
+    "useImportReport" : [ ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/com.ceph:rados/src/main/java/com/ceph/rados/exceptions/RadosTimeoutException.java",
+    "useImportReport" : [ ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/com.ceph:rados/src/main/java/com/ceph/rados/exceptions/RadosReadOnlyException.java",
+    "useImportReport" : [ ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/com.ceph:rados/src/main/java/com/ceph/rados/RadosBase.java",
+    "useImportReport" : [ {
+      "importPath" : "import com.ceph.rados.exceptions.RadosException;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.concurrent.Callable;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.ceph.rados.exceptions.ErrorCode;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.ceph.rados.exceptions.RadosPermissionException;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.ceph.rados.exceptions.RadosNotFoundException;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.ceph.rados.exceptions.RadosInvalidArgumentException;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.ceph.rados.exceptions.RadosReadOnlyException;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.ceph.rados.exceptions.RadosArgumentOutOfDomainException;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.ceph.rados.exceptions.RadosAlreadyConnectedException;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.ceph.rados.exceptions.RadosTimeoutException;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.ceph.rados.exceptions.RadosOperationInProgressException;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/com.ceph:rados/src/main/java/com/ceph/rados/jna/RadosPoolInfo.java",
+    "useImportReport" : [ {
+      "importPath" : "import com.sun.jna.Structure;",
+      "artifact" : {
+        "artifact" : "net.java.dev.jna:jna:4.1.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.ceph:rados:0.2.0/dependencies/net/java/dev/jna/jna/4.1.0/jna-4.1.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import java.util.List;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.Arrays;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/com.ceph:rados/src/main/java/com/ceph/rados/jna/RadosClusterInfo.java",
+    "useImportReport" : [ {
+      "importPath" : "import com.sun.jna.Structure;",
+      "artifact" : {
+        "artifact" : "net.java.dev.jna:jna:4.1.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.ceph:rados:0.2.0/dependencies/net/java/dev/jna/jna/4.1.0/jna-4.1.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import java.util.List;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.Arrays;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/com.ceph:rados/src/main/java/com/ceph/rados/jna/Rados.java",
+    "useImportReport" : [ {
+      "importPath" : "import com.sun.jna.Library;",
+      "artifact" : {
+        "artifact" : "net.java.dev.jna:jna:4.1.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.ceph:rados:0.2.0/dependencies/net/java/dev/jna/jna/4.1.0/jna-4.1.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import com.sun.jna.Native;",
+      "artifact" : {
+        "artifact" : "net.java.dev.jna:jna:4.1.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.ceph:rados:0.2.0/dependencies/net/java/dev/jna/jna/4.1.0/jna-4.1.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import com.sun.jna.ptr.IntByReference;",
+      "artifact" : {
+        "artifact" : "net.java.dev.jna:jna:4.1.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.ceph:rados:0.2.0/dependencies/net/java/dev/jna/jna/4.1.0/jna-4.1.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import com.sun.jna.ptr.PointerByReference;",
+      "artifact" : {
+        "artifact" : "net.java.dev.jna:jna:4.1.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.ceph:rados:0.2.0/dependencies/net/java/dev/jna/jna/4.1.0/jna-4.1.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import com.sun.jna.Pointer;",
+      "artifact" : {
+        "artifact" : "net.java.dev.jna:jna:4.1.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.ceph:rados:0.2.0/dependencies/net/java/dev/jna/jna/4.1.0/jna-4.1.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import com.ceph.rados.jna.RadosClusterInfo;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.ceph.rados.jna.RadosPoolInfo;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.sun.jna.ptr.LongByReference;",
+      "artifact" : {
+        "artifact" : "net.java.dev.jna:jna:4.1.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.ceph:rados:0.2.0/dependencies/net/java/dev/jna/jna/4.1.0/jna-4.1.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import java.nio.ByteBuffer;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/com.ceph:rados/src/main/java/com/ceph/rados/jna/RadosObjectInfo.java",
+    "useImportReport" : [ ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/com.ceph:rados/src/main/java/com/ceph/rados/Rados.java",
+    "useImportReport" : [ {
+      "importPath" : "import com.sun.jna.Pointer;",
+      "artifact" : {
+        "artifact" : "net.java.dev.jna:jna:4.1.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.ceph:rados:0.2.0/dependencies/net/java/dev/jna/jna/4.1.0/jna-4.1.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import com.sun.jna.ptr.PointerByReference;",
+      "artifact" : {
+        "artifact" : "net.java.dev.jna:jna:4.1.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.ceph:rados:0.2.0/dependencies/net/java/dev/jna/jna/4.1.0/jna-4.1.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import com.ceph.rados.exceptions.RadosException;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.io.File;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.concurrent.Callable;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.sun.jna.Native;",
+      "artifact" : {
+        "artifact" : "net.java.dev.jna:jna:4.1.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.ceph:rados:0.2.0/dependencies/net/java/dev/jna/jna/4.1.0/jna-4.1.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import com.ceph.rados.jna.RadosClusterInfo;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.sun.jna.Memory;",
+      "artifact" : {
+        "artifact" : "net.java.dev.jna:jna:4.1.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.ceph:rados:0.2.0/dependencies/net/java/dev/jna/jna/4.1.0/jna-4.1.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import com.sun.jna.ptr.IntByReference;",
+      "artifact" : {
+        "artifact" : "net.java.dev.jna:jna:4.1.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.ceph:rados:0.2.0/dependencies/net/java/dev/jna/jna/4.1.0/jna-4.1.0.jar"
+      },
+      "isDirectDependency" : true
+    } ],
+    "unusedImportReport" : [ {
+      "importPath" : "import static com.ceph.rados.Library.rados;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/com.ceph:rados/src/main/java/com/ceph/rbd/Library.java",
+    "useImportReport" : [ {
+      "importPath" : "import com.ceph.rbd.jna.Rbd;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.sun.jna.Pointer;",
+      "artifact" : {
+        "artifact" : "net.java.dev.jna:jna:4.1.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.ceph:rados:0.2.0/dependencies/net/java/dev/jna/jna/4.1.0/jna-4.1.0.jar"
+      },
+      "isDirectDependency" : true
+    } ],
+    "unusedImportReport" : [ {
+      "importPath" : "import com.sun.jna.Native;",
+      "artifact" : {
+        "artifact" : "net.java.dev.jna:jna:4.1.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.ceph:rados:0.2.0/dependencies/net/java/dev/jna/jna/4.1.0/jna-4.1.0.jar"
+      },
+      "isDirectDependency" : true
+    } ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/com.ceph:rados/src/main/java/com/ceph/rbd/Rbd.java",
+    "useImportReport" : [ {
+      "importPath" : "import com.sun.jna.Pointer;",
+      "artifact" : {
+        "artifact" : "net.java.dev.jna:jna:4.1.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.ceph:rados:0.2.0/dependencies/net/java/dev/jna/jna/4.1.0/jna-4.1.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import com.sun.jna.ptr.IntByReference;",
+      "artifact" : {
+        "artifact" : "net.java.dev.jna:jna:4.1.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.ceph:rados:0.2.0/dependencies/net/java/dev/jna/jna/4.1.0/jna-4.1.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import com.ceph.rados.IoCTX;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.sun.jna.ptr.LongByReference;",
+      "artifact" : {
+        "artifact" : "net.java.dev.jna:jna:4.1.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.ceph:rados:0.2.0/dependencies/net/java/dev/jna/jna/4.1.0/jna-4.1.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import com.sun.jna.Memory;",
+      "artifact" : {
+        "artifact" : "net.java.dev.jna:jna:4.1.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.ceph:rados:0.2.0/dependencies/net/java/dev/jna/jna/4.1.0/jna-4.1.0.jar"
+      },
+      "isDirectDependency" : true
+    } ],
+    "unusedImportReport" : [ {
+      "importPath" : "import com.sun.jna.Native;",
+      "artifact" : {
+        "artifact" : "net.java.dev.jna:jna:4.1.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.ceph:rados:0.2.0/dependencies/net/java/dev/jna/jna/4.1.0/jna-4.1.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import static com.ceph.rbd.Library.rbd;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/com.ceph:rados/src/main/java/com/ceph/rbd/RbdException.java",
+    "useImportReport" : [ ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/com.ceph:rados/src/main/java/com/ceph/rbd/jna/RbdImageInfo.java",
+    "useImportReport" : [ {
+      "importPath" : "import com.sun.jna.Structure;",
+      "artifact" : {
+        "artifact" : "net.java.dev.jna:jna:4.1.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.ceph:rados:0.2.0/dependencies/net/java/dev/jna/jna/4.1.0/jna-4.1.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import java.util.List;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.Arrays;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/com.ceph:rados/src/main/java/com/ceph/rbd/jna/Rbd.java",
+    "useImportReport" : [ {
+      "importPath" : "import com.sun.jna.Library;",
+      "artifact" : {
+        "artifact" : "net.java.dev.jna:jna:4.1.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.ceph:rados:0.2.0/dependencies/net/java/dev/jna/jna/4.1.0/jna-4.1.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import com.sun.jna.Native;",
+      "artifact" : {
+        "artifact" : "net.java.dev.jna:jna:4.1.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.ceph:rados:0.2.0/dependencies/net/java/dev/jna/jna/4.1.0/jna-4.1.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import com.sun.jna.ptr.IntByReference;",
+      "artifact" : {
+        "artifact" : "net.java.dev.jna:jna:4.1.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.ceph:rados:0.2.0/dependencies/net/java/dev/jna/jna/4.1.0/jna-4.1.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import com.sun.jna.Pointer;",
+      "artifact" : {
+        "artifact" : "net.java.dev.jna:jna:4.1.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.ceph:rados:0.2.0/dependencies/net/java/dev/jna/jna/4.1.0/jna-4.1.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import com.sun.jna.ptr.LongByReference;",
+      "artifact" : {
+        "artifact" : "net.java.dev.jna:jna:4.1.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.ceph:rados:0.2.0/dependencies/net/java/dev/jna/jna/4.1.0/jna-4.1.0.jar"
+      },
+      "isDirectDependency" : true
+    } ],
+    "unusedImportReport" : [ {
+      "importPath" : "import com.sun.jna.ptr.PointerByReference;",
+      "artifact" : {
+        "artifact" : "net.java.dev.jna:jna:4.1.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.ceph:rados:0.2.0/dependencies/net/java/dev/jna/jna/4.1.0/jna-4.1.0.jar"
+      },
+      "isDirectDependency" : true
+    } ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/com.ceph:rados/src/main/java/com/ceph/rbd/jna/RbdSnapInfo.java",
+    "useImportReport" : [ {
+      "importPath" : "import com.sun.jna.Structure;",
+      "artifact" : {
+        "artifact" : "net.java.dev.jna:jna:4.1.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.ceph:rados:0.2.0/dependencies/net/java/dev/jna/jna/4.1.0/jna-4.1.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import com.sun.jna.Pointer;",
+      "artifact" : {
+        "artifact" : "net.java.dev.jna:jna:4.1.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.ceph:rados:0.2.0/dependencies/net/java/dev/jna/jna/4.1.0/jna-4.1.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import java.util.List;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.Arrays;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/com.ceph:rados/src/main/java/com/ceph/rbd/RbdImage.java",
+    "useImportReport" : [ {
+      "importPath" : "import com.sun.jna.Pointer;",
+      "artifact" : {
+        "artifact" : "net.java.dev.jna:jna:4.1.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.ceph:rados:0.2.0/dependencies/net/java/dev/jna/jna/4.1.0/jna-4.1.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import com.ceph.rbd.jna.RbdImageInfo;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.sun.jna.ptr.IntByReference;",
+      "artifact" : {
+        "artifact" : "net.java.dev.jna:jna:4.1.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.ceph:rados:0.2.0/dependencies/net/java/dev/jna/jna/4.1.0/jna-4.1.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import java.util.List;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.ceph.rbd.jna.RbdSnapInfo;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.Arrays;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.ArrayList;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ {
+      "importPath" : "import com.sun.jna.Memory;",
+      "artifact" : {
+        "artifact" : "net.java.dev.jna:jna:4.1.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.ceph:rados:0.2.0/dependencies/net/java/dev/jna/jna/4.1.0/jna-4.1.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import com.sun.jna.Native;",
+      "artifact" : {
+        "artifact" : "net.java.dev.jna:jna:4.1.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.ceph:rados:0.2.0/dependencies/net/java/dev/jna/jna/4.1.0/jna-4.1.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import com.sun.jna.ptr.LongByReference;",
+      "artifact" : {
+        "artifact" : "net.java.dev.jna:jna:4.1.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.ceph:rados:0.2.0/dependencies/net/java/dev/jna/jna/4.1.0/jna-4.1.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import com.sun.jna.ptr.PointerByReference;",
+      "artifact" : {
+        "artifact" : "net.java.dev.jna:jna:4.1.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.ceph:rados:0.2.0/dependencies/net/java/dev/jna/jna/4.1.0/jna-4.1.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import static com.ceph.rbd.Library.rbd;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.sun.jna.NativeLong;",
+      "artifact" : {
+        "artifact" : "net.java.dev.jna:jna:4.1.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.ceph:rados:0.2.0/dependencies/net/java/dev/jna/jna/4.1.0/jna-4.1.0.jar"
+      },
+      "isDirectDependency" : true
+    } ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  } ],
+  "projectUseDependencies" : [ {
+    "artifact" : "net.java.dev.jna:jna:4.1.0",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.ceph:rados:0.2.0/dependencies/net/java/dev/jna/jna/4.1.0/jna-4.1.0.jar"
+  } ],
+  "projectUseTransitiveDependencies" : [ ],
+  "projectUnusedDependencies" : [ ]
+}
