@@ -1,0 +1,3794 @@
+{
+  "projectArtifact" : "ch.rasc:wampspring:1.1.2",
+  "repositoryDir" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/ch.rasc:wampspring",
+  "repositorySubDir" : "",
+  "artifactLocation" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/ch.rasc:wampspring:1.1.2",
+  "fileImportReports" : [ {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/ch.rasc:wampspring/src/main/java/ch/rasc/wampspring/broker/DefaultSubscriptionRegistry.java",
+    "useImportReport" : [ {
+      "importPath" : "import org.springframework.util.PathMatcher;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-core:4.3.13.RELEASE",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/ch.rasc:wampspring:1.1.2/dependencies/org/springframework/spring-core/4.3.13.RELEASE/spring-core-4.3.13.RELEASE.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.apache.commons.logging.Log;",
+      "artifact" : {
+        "artifact" : "commons-logging:commons-logging:1.2",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/ch.rasc:wampspring:1.1.2/dependencies/commons-logging/commons-logging/1.2/commons-logging-1.2.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.apache.commons.logging.Log;",
+      "artifact" : {
+        "artifact" : "org.slf4j:jcl-over-slf4j:1.7.25",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/ch.rasc:wampspring:1.1.2/dependencies/org/slf4j/jcl-over-slf4j/1.7.25/jcl-over-slf4j-1.7.25.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.apache.commons.logging.LogFactory;",
+      "artifact" : {
+        "artifact" : "commons-logging:commons-logging:1.2",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/ch.rasc:wampspring:1.1.2/dependencies/commons-logging/commons-logging/1.2/commons-logging-1.2.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.apache.commons.logging.LogFactory;",
+      "artifact" : {
+        "artifact" : "org.slf4j:jcl-over-slf4j:1.7.25",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/ch.rasc:wampspring:1.1.2/dependencies/org/slf4j/jcl-over-slf4j/1.7.25/jcl-over-slf4j-1.7.25.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.concurrent.ConcurrentMap;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.Set;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.concurrent.ConcurrentHashMap;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import ch.rasc.wampspring.message.SubscribeMessage;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import ch.rasc.wampspring.message.UnsubscribeMessage;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import ch.rasc.wampspring.message.PubSubMessage;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.HashSet;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.Map;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.springframework.messaging.Message;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-messaging:4.3.13.RELEASE",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/ch.rasc:wampspring:1.1.2/dependencies/org/springframework/spring-messaging/4.3.13.RELEASE/spring-messaging-4.3.13.RELEASE.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import java.util.LinkedHashMap;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/ch.rasc:wampspring/src/main/java/ch/rasc/wampspring/broker/SimpleBrokerMessageHandler.java",
+    "useImportReport" : [ {
+      "importPath" : "import org.springframework.messaging.MessageHandler;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-messaging:4.3.13.RELEASE",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/ch.rasc:wampspring:1.1.2/dependencies/org/springframework/spring-messaging/4.3.13.RELEASE/spring-messaging-4.3.13.RELEASE.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.springframework.context.SmartLifecycle;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-context:4.3.13.RELEASE",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/ch.rasc:wampspring:1.1.2/dependencies/org/springframework/spring-context/4.3.13.RELEASE/spring-context-4.3.13.RELEASE.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.apache.commons.logging.Log;",
+      "artifact" : {
+        "artifact" : "commons-logging:commons-logging:1.2",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/ch.rasc:wampspring:1.1.2/dependencies/commons-logging/commons-logging/1.2/commons-logging-1.2.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.apache.commons.logging.Log;",
+      "artifact" : {
+        "artifact" : "org.slf4j:jcl-over-slf4j:1.7.25",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/ch.rasc:wampspring:1.1.2/dependencies/org/slf4j/jcl-over-slf4j/1.7.25/jcl-over-slf4j-1.7.25.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.apache.commons.logging.LogFactory;",
+      "artifact" : {
+        "artifact" : "commons-logging:commons-logging:1.2",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/ch.rasc:wampspring:1.1.2/dependencies/commons-logging/commons-logging/1.2/commons-logging-1.2.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.apache.commons.logging.LogFactory;",
+      "artifact" : {
+        "artifact" : "org.slf4j:jcl-over-slf4j:1.7.25",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/ch.rasc:wampspring:1.1.2/dependencies/org/slf4j/jcl-over-slf4j/1.7.25/jcl-over-slf4j-1.7.25.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.springframework.messaging.SubscribableChannel;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-messaging:4.3.13.RELEASE",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/ch.rasc:wampspring:1.1.2/dependencies/org/springframework/spring-messaging/4.3.13.RELEASE/spring-messaging-4.3.13.RELEASE.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.springframework.messaging.MessageChannel;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-messaging:4.3.13.RELEASE",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/ch.rasc:wampspring:1.1.2/dependencies/org/springframework/spring-messaging/4.3.13.RELEASE/spring-messaging-4.3.13.RELEASE.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import ch.rasc.wampspring.config.WampMessageSelector;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.springframework.util.Assert;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-core:4.3.13.RELEASE",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/ch.rasc:wampspring:1.1.2/dependencies/org/springframework/spring-core/4.3.13.RELEASE/spring-core-4.3.13.RELEASE.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.springframework.messaging.Message;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-messaging:4.3.13.RELEASE",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/ch.rasc:wampspring:1.1.2/dependencies/org/springframework/spring-messaging/4.3.13.RELEASE/spring-messaging-4.3.13.RELEASE.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import ch.rasc.wampspring.message.PubSubMessage;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import ch.rasc.wampspring.message.WampMessage;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import ch.rasc.wampspring.message.WampMessageType;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import ch.rasc.wampspring.message.EventMessage;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import ch.rasc.wampspring.message.PublishMessage;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import ch.rasc.wampspring.message.SubscribeMessage;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import ch.rasc.wampspring.message.UnsubscribeMessage;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import ch.rasc.wampspring.config.WampSession;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.Set;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/ch.rasc:wampspring/src/main/java/ch/rasc/wampspring/broker/SubscriptionRegistry.java",
+    "useImportReport" : [ {
+      "importPath" : "import ch.rasc.wampspring.message.SubscribeMessage;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import ch.rasc.wampspring.message.UnsubscribeMessage;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.Set;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import ch.rasc.wampspring.message.PubSubMessage;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/ch.rasc:wampspring/src/main/java/ch/rasc/wampspring/config/DefaultWampConfiguration.java",
+    "useImportReport" : [ {
+      "importPath" : "import org.springframework.context.annotation.Configuration;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-context:4.3.13.RELEASE",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/ch.rasc:wampspring:1.1.2/dependencies/org/springframework/spring-context/4.3.13.RELEASE/spring-context-4.3.13.RELEASE.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.List;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.ArrayList;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.fasterxml.jackson.databind.ObjectMapper;",
+      "artifact" : {
+        "artifact" : "com.fasterxml.jackson.core:jackson-databind:2.9.2",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/ch.rasc:wampspring:1.1.2/dependencies/com/fasterxml/jackson/core/jackson-databind/2.9.2/jackson-databind-2.9.2.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.springframework.util.PathMatcher;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-core:4.3.13.RELEASE",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/ch.rasc:wampspring:1.1.2/dependencies/org/springframework/spring-core/4.3.13.RELEASE/spring-core-4.3.13.RELEASE.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.springframework.core.convert.ConversionService;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-core:4.3.13.RELEASE",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/ch.rasc:wampspring:1.1.2/dependencies/org/springframework/spring-core/4.3.13.RELEASE/spring-core-4.3.13.RELEASE.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.springframework.beans.factory.annotation.Autowired;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-beans:4.3.13.RELEASE",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/ch.rasc:wampspring:1.1.2/dependencies/org/springframework/spring-beans/4.3.13.RELEASE/spring-beans-4.3.13.RELEASE.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.springframework.util.CollectionUtils;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-core:4.3.13.RELEASE",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/ch.rasc:wampspring:1.1.2/dependencies/org/springframework/spring-core/4.3.13.RELEASE/spring-core-4.3.13.RELEASE.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.springframework.messaging.SubscribableChannel;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-messaging:4.3.13.RELEASE",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/ch.rasc:wampspring:1.1.2/dependencies/org/springframework/spring-messaging/4.3.13.RELEASE/spring-messaging-4.3.13.RELEASE.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.springframework.context.annotation.Bean;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-context:4.3.13.RELEASE",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/ch.rasc:wampspring:1.1.2/dependencies/org/springframework/spring-context/4.3.13.RELEASE/spring-context-4.3.13.RELEASE.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.springframework.messaging.support.ExecutorSubscribableChannel;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-messaging:4.3.13.RELEASE",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/ch.rasc:wampspring:1.1.2/dependencies/org/springframework/spring-messaging/4.3.13.RELEASE/spring-messaging-4.3.13.RELEASE.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.springframework.messaging.support.AbstractMessageChannel;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-messaging:4.3.13.RELEASE",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/ch.rasc:wampspring:1.1.2/dependencies/org/springframework/spring-messaging/4.3.13.RELEASE/spring-messaging-4.3.13.RELEASE.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import java.util.concurrent.Executor;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-context:4.3.13.RELEASE",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/ch.rasc:wampspring:1.1.2/dependencies/org/springframework/spring-context/4.3.13.RELEASE/spring-context-4.3.13.RELEASE.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.springframework.messaging.converter.MessageConverter;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-messaging:4.3.13.RELEASE",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/ch.rasc:wampspring:1.1.2/dependencies/org/springframework/spring-messaging/4.3.13.RELEASE/spring-messaging-4.3.13.RELEASE.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.springframework.messaging.converter.GenericMessageConverter;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-messaging:4.3.13.RELEASE",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/ch.rasc:wampspring:1.1.2/dependencies/org/springframework/spring-messaging/4.3.13.RELEASE/spring-messaging-4.3.13.RELEASE.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.springframework.messaging.MessageHandler;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-messaging:4.3.13.RELEASE",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/ch.rasc:wampspring:1.1.2/dependencies/org/springframework/spring-messaging/4.3.13.RELEASE/spring-messaging-4.3.13.RELEASE.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import ch.rasc.wampspring.broker.SimpleBrokerMessageHandler;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import ch.rasc.wampspring.broker.SubscriptionRegistry;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import ch.rasc.wampspring.broker.DefaultSubscriptionRegistry;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.springframework.context.ConfigurableApplicationContext;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-context:4.3.13.RELEASE",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/ch.rasc:wampspring:1.1.2/dependencies/org/springframework/spring-context/4.3.13.RELEASE/spring-context-4.3.13.RELEASE.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import ch.rasc.wampspring.cra.AuthenticationHandler;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import ch.rasc.wampspring.method.WampAnnotationMethodMessageHandler;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.springframework.messaging.handler.invocation.HandlerMethodArgumentResolver;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-messaging:4.3.13.RELEASE",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/ch.rasc:wampspring:1.1.2/dependencies/org/springframework/spring-messaging/4.3.13.RELEASE/spring-messaging-4.3.13.RELEASE.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import ch.rasc.wampspring.method.MethodParameterConverter;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import ch.rasc.wampspring.EventMessenger;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.springframework.util.AntPathMatcher;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-core:4.3.13.RELEASE",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/ch.rasc:wampspring:1.1.2/dependencies/org/springframework/spring-core/4.3.13.RELEASE/spring-core-4.3.13.RELEASE.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.springframework.format.support.DefaultFormattingConversionService;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-context:4.3.13.RELEASE",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/ch.rasc:wampspring:1.1.2/dependencies/org/springframework/spring-context/4.3.13.RELEASE/spring-context-4.3.13.RELEASE.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import ch.rasc.wampspring.cra.AuthenticationSecretProvider;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import ch.rasc.wampspring.cra.DefaultAuthenticationHandler;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import ch.rasc.wampspring.annotation.WampCallListener;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import ch.rasc.wampspring.annotation.WampPublishListener;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import ch.rasc.wampspring.annotation.WampSubscribeListener;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import ch.rasc.wampspring.annotation.WampUnsubscribeListener;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.springframework.web.servlet.HandlerMapping;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-webmvc:4.3.13.RELEASE",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/ch.rasc:wampspring:1.1.2/dependencies/org/springframework/spring-webmvc/4.3.13.RELEASE/spring-webmvc-4.3.13.RELEASE.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.springframework.web.socket.WebSocketHandler;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-websocket:4.3.13.RELEASE",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/ch.rasc:wampspring:1.1.2/dependencies/org/springframework/spring-websocket/4.3.13.RELEASE/spring-websocket-4.3.13.RELEASE.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import com.fasterxml.jackson.databind.MappingJsonFactory;",
+      "artifact" : {
+        "artifact" : "com.fasterxml.jackson.core:jackson-databind:2.9.2",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/ch.rasc:wampspring:1.1.2/dependencies/com/fasterxml/jackson/core/jackson-databind/2.9.2/jackson-databind-2.9.2.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.springframework.web.socket.server.HandshakeInterceptor;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-websocket:4.3.13.RELEASE",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/ch.rasc:wampspring:1.1.2/dependencies/org/springframework/spring-websocket/4.3.13.RELEASE/spring-websocket-4.3.13.RELEASE.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.springframework.web.socket.messaging.SubProtocolWebSocketHandler;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-websocket:4.3.13.RELEASE",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/ch.rasc:wampspring:1.1.2/dependencies/org/springframework/spring-websocket/4.3.13.RELEASE/spring-websocket-4.3.13.RELEASE.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.springframework.web.socket.handler.WebSocketHandlerDecoratorFactory;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-websocket:4.3.13.RELEASE",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/ch.rasc:wampspring:1.1.2/dependencies/org/springframework/spring-websocket/4.3.13.RELEASE/spring-websocket-4.3.13.RELEASE.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-context:4.3.13.RELEASE",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/ch.rasc:wampspring:1.1.2/dependencies/org/springframework/spring-context/4.3.13.RELEASE/spring-context-4.3.13.RELEASE.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.springframework.web.socket.config.annotation.SockJsServiceRegistration;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-websocket:4.3.13.RELEASE",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/ch.rasc:wampspring:1.1.2/dependencies/org/springframework/spring-websocket/4.3.13.RELEASE/spring-websocket-4.3.13.RELEASE.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.springframework.beans.factory.config.CustomScopeConfigurer;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-beans:4.3.13.RELEASE",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/ch.rasc:wampspring:1.1.2/dependencies/org/springframework/spring-beans/4.3.13.RELEASE/spring-beans-4.3.13.RELEASE.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.springframework.beans.factory.config.ConfigurableListableBeanFactory;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-beans:4.3.13.RELEASE",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/ch.rasc:wampspring:1.1.2/dependencies/org/springframework/spring-beans/4.3.13.RELEASE/spring-beans-4.3.13.RELEASE.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.springframework.web.socket.WebSocketSession;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-websocket:4.3.13.RELEASE",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/ch.rasc:wampspring:1.1.2/dependencies/org/springframework/spring-websocket/4.3.13.RELEASE/spring-websocket-4.3.13.RELEASE.jar"
+      },
+      "isDirectDependency" : true
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ {
+      "importPath" : "org.springframework.scheduling.TaskScheduler",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-context:4.3.13.RELEASE",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/ch.rasc:wampspring:1.1.2/dependencies/org/springframework/spring-context/4.3.13.RELEASE/spring-context-4.3.13.RELEASE.jar"
+      },
+      "isDirectDependency" : false
+    } ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/ch.rasc:wampspring/src/main/java/ch/rasc/wampspring/config/WampSessionScope.java",
+    "useImportReport" : [ {
+      "importPath" : "import org.springframework.beans.factory.config.Scope;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-beans:4.3.13.RELEASE",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/ch.rasc:wampspring:1.1.2/dependencies/org/springframework/spring-beans/4.3.13.RELEASE/spring-beans-4.3.13.RELEASE.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.springframework.beans.factory.ObjectFactory;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-beans:4.3.13.RELEASE",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/ch.rasc:wampspring:1.1.2/dependencies/org/springframework/spring-beans/4.3.13.RELEASE/spring-beans-4.3.13.RELEASE.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.io.Serializable;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.springframework.web.socket.WebSocketSession;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-websocket:4.3.13.RELEASE",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/ch.rasc:wampspring:1.1.2/dependencies/org/springframework/spring-websocket/4.3.13.RELEASE/spring-websocket-4.3.13.RELEASE.jar"
+      },
+      "isDirectDependency" : true
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/ch.rasc:wampspring/src/main/java/ch/rasc/wampspring/config/EnableWamp.java",
+    "useImportReport" : [ {
+      "importPath" : "import java.lang.annotation.Retention;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.lang.annotation.RetentionPolicy;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.lang.annotation.Target;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.lang.annotation.ElementType;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.lang.annotation.Documented;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.springframework.context.annotation.Import;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-context:4.3.13.RELEASE",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/ch.rasc:wampspring:1.1.2/dependencies/org/springframework/spring-context/4.3.13.RELEASE/spring-context-4.3.13.RELEASE.jar"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/ch.rasc:wampspring/src/main/java/ch/rasc/wampspring/config/WampConfigurer.java",
+    "useImportReport" : [ {
+      "importPath" : "import org.springframework.messaging.support.AbstractMessageChannel;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-messaging:4.3.13.RELEASE",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/ch.rasc:wampspring:1.1.2/dependencies/org/springframework/spring-messaging/4.3.13.RELEASE/spring-messaging-4.3.13.RELEASE.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import java.util.List;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.springframework.messaging.handler.invocation.HandlerMethodArgumentResolver;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-messaging:4.3.13.RELEASE",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/ch.rasc:wampspring:1.1.2/dependencies/org/springframework/spring-messaging/4.3.13.RELEASE/spring-messaging-4.3.13.RELEASE.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.springframework.web.socket.server.HandshakeInterceptor;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-websocket:4.3.13.RELEASE",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/ch.rasc:wampspring:1.1.2/dependencies/org/springframework/spring-websocket/4.3.13.RELEASE/spring-websocket-4.3.13.RELEASE.jar"
+      },
+      "isDirectDependency" : true
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ {
+      "importPath" : "org.springframework.messaging.MessageChannel",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-messaging:4.3.13.RELEASE",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/ch.rasc:wampspring:1.1.2/dependencies/org/springframework/spring-messaging/4.3.13.RELEASE/spring-messaging-4.3.13.RELEASE.jar"
+      },
+      "isDirectDependency" : true
+    } ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/ch.rasc:wampspring/src/main/java/ch/rasc/wampspring/config/WebMvcWampWebSocketEndpointRegistration.java",
+    "useImportReport" : [ {
+      "importPath" : "import org.springframework.web.socket.WebSocketHandler;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-websocket:4.3.13.RELEASE",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/ch.rasc:wampspring:1.1.2/dependencies/org/springframework/spring-websocket/4.3.13.RELEASE/spring-websocket-4.3.13.RELEASE.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.springframework.scheduling.TaskScheduler;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-context:4.3.13.RELEASE",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/ch.rasc:wampspring:1.1.2/dependencies/org/springframework/spring-context/4.3.13.RELEASE/spring-context-4.3.13.RELEASE.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.springframework.web.socket.server.HandshakeHandler;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-websocket:4.3.13.RELEASE",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/ch.rasc:wampspring:1.1.2/dependencies/org/springframework/spring-websocket/4.3.13.RELEASE/spring-websocket-4.3.13.RELEASE.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import java.util.List;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.springframework.web.socket.server.HandshakeInterceptor;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-websocket:4.3.13.RELEASE",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/ch.rasc:wampspring:1.1.2/dependencies/org/springframework/spring-websocket/4.3.13.RELEASE/spring-websocket-4.3.13.RELEASE.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import java.util.ArrayList;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.springframework.util.Assert;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-core:4.3.13.RELEASE",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/ch.rasc:wampspring:1.1.2/dependencies/org/springframework/spring-core/4.3.13.RELEASE/spring-core-4.3.13.RELEASE.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.springframework.util.ObjectUtils;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-core:4.3.13.RELEASE",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/ch.rasc:wampspring:1.1.2/dependencies/org/springframework/spring-core/4.3.13.RELEASE/spring-core-4.3.13.RELEASE.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.Arrays;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.springframework.web.socket.config.annotation.SockJsServiceRegistration;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-websocket:4.3.13.RELEASE",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/ch.rasc:wampspring:1.1.2/dependencies/org/springframework/spring-websocket/4.3.13.RELEASE/spring-websocket-4.3.13.RELEASE.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.springframework.web.socket.sockjs.transport.handler.WebSocketTransportHandler;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-websocket:4.3.13.RELEASE",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/ch.rasc:wampspring:1.1.2/dependencies/org/springframework/spring-websocket/4.3.13.RELEASE/spring-websocket-4.3.13.RELEASE.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.springframework.web.socket.server.support.OriginHandshakeInterceptor;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-websocket:4.3.13.RELEASE",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/ch.rasc:wampspring:1.1.2/dependencies/org/springframework/spring-websocket/4.3.13.RELEASE/spring-websocket-4.3.13.RELEASE.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.springframework.util.MultiValueMap;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-core:4.3.13.RELEASE",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/ch.rasc:wampspring:1.1.2/dependencies/org/springframework/spring-core/4.3.13.RELEASE/spring-core-4.3.13.RELEASE.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.springframework.web.HttpRequestHandler;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-web:4.3.13.RELEASE",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/ch.rasc:wampspring:1.1.2/dependencies/org/springframework/spring-web/4.3.13.RELEASE/spring-web-4.3.13.RELEASE.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.springframework.util.LinkedMultiValueMap;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-core:4.3.13.RELEASE",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/ch.rasc:wampspring:1.1.2/dependencies/org/springframework/spring-core/4.3.13.RELEASE/spring-core-4.3.13.RELEASE.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.springframework.web.socket.sockjs.SockJsService;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-websocket:4.3.13.RELEASE",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/ch.rasc:wampspring:1.1.2/dependencies/org/springframework/spring-websocket/4.3.13.RELEASE/spring-websocket-4.3.13.RELEASE.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.springframework.web.socket.sockjs.support.SockJsHttpRequestHandler;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-websocket:4.3.13.RELEASE",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/ch.rasc:wampspring:1.1.2/dependencies/org/springframework/spring-websocket/4.3.13.RELEASE/spring-websocket-4.3.13.RELEASE.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.springframework.web.socket.server.support.WebSocketHttpRequestHandler;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-websocket:4.3.13.RELEASE",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/ch.rasc:wampspring:1.1.2/dependencies/org/springframework/spring-websocket/4.3.13.RELEASE/spring-websocket-4.3.13.RELEASE.jar"
+      },
+      "isDirectDependency" : true
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/ch.rasc:wampspring/src/main/java/ch/rasc/wampspring/config/WampSession.java",
+    "useImportReport" : [ {
+      "importPath" : "import org.springframework.web.socket.WebSocketSession;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-websocket:4.3.13.RELEASE",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/ch.rasc:wampspring:1.1.2/dependencies/org/springframework/spring-websocket/4.3.13.RELEASE/spring-websocket-4.3.13.RELEASE.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.springframework.util.StringUtils;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-core:4.3.13.RELEASE",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/ch.rasc:wampspring:1.1.2/dependencies/org/springframework/spring-core/4.3.13.RELEASE/spring-core-4.3.13.RELEASE.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.Map;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.apache.commons.logging.LogFactory;",
+      "artifact" : {
+        "artifact" : "commons-logging:commons-logging:1.2",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/ch.rasc:wampspring:1.1.2/dependencies/commons-logging/commons-logging/1.2/commons-logging-1.2.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.apache.commons.logging.LogFactory;",
+      "artifact" : {
+        "artifact" : "org.slf4j:jcl-over-slf4j:1.7.25",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/ch.rasc:wampspring:1.1.2/dependencies/org/slf4j/jcl-over-slf4j/1.7.25/jcl-over-slf4j-1.7.25.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.HashMap;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/ch.rasc:wampspring/src/main/java/ch/rasc/wampspring/config/WampSessionContextHolder.java",
+    "useImportReport" : [ {
+      "importPath" : "import org.springframework.core.NamedThreadLocal;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-core:4.3.13.RELEASE",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/ch.rasc:wampspring:1.1.2/dependencies/org/springframework/spring-core/4.3.13.RELEASE/spring-core-4.3.13.RELEASE.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import ch.rasc.wampspring.message.WampMessage;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/ch.rasc:wampspring/src/main/java/ch/rasc/wampspring/config/WampMessageSelectors.java",
+    "useImportReport" : [ {
+      "importPath" : "import ch.rasc.wampspring.message.WampMessage;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/ch.rasc:wampspring/src/main/java/ch/rasc/wampspring/config/AbstractWampConfigurer.java",
+    "useImportReport" : [ {
+      "importPath" : "import org.springframework.messaging.support.AbstractMessageChannel;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-messaging:4.3.13.RELEASE",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/ch.rasc:wampspring:1.1.2/dependencies/org/springframework/spring-messaging/4.3.13.RELEASE/spring-messaging-4.3.13.RELEASE.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import java.util.List;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.springframework.messaging.handler.invocation.HandlerMethodArgumentResolver;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-messaging:4.3.13.RELEASE",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/ch.rasc:wampspring:1.1.2/dependencies/org/springframework/spring-messaging/4.3.13.RELEASE/spring-messaging-4.3.13.RELEASE.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.springframework.web.socket.server.HandshakeInterceptor;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-websocket:4.3.13.RELEASE",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/ch.rasc:wampspring:1.1.2/dependencies/org/springframework/spring-websocket/4.3.13.RELEASE/spring-websocket-4.3.13.RELEASE.jar"
+      },
+      "isDirectDependency" : true
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/ch.rasc:wampspring/src/main/java/ch/rasc/wampspring/config/WampEndpointRegistry.java",
+    "useImportReport" : [ ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/ch.rasc:wampspring/src/main/java/ch/rasc/wampspring/config/WampWebSocketEndpointRegistration.java",
+    "useImportReport" : [ {
+      "importPath" : "import org.springframework.web.socket.config.annotation.SockJsServiceRegistration;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-websocket:4.3.13.RELEASE",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/ch.rasc:wampspring:1.1.2/dependencies/org/springframework/spring-websocket/4.3.13.RELEASE/spring-websocket-4.3.13.RELEASE.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.springframework.web.socket.server.HandshakeHandler;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-websocket:4.3.13.RELEASE",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/ch.rasc:wampspring:1.1.2/dependencies/org/springframework/spring-websocket/4.3.13.RELEASE/spring-websocket-4.3.13.RELEASE.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.springframework.web.socket.server.HandshakeInterceptor;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-websocket:4.3.13.RELEASE",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/ch.rasc:wampspring:1.1.2/dependencies/org/springframework/spring-websocket/4.3.13.RELEASE/spring-websocket-4.3.13.RELEASE.jar"
+      },
+      "isDirectDependency" : true
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/ch.rasc:wampspring/src/main/java/ch/rasc/wampspring/config/WebMvcWampEndpointRegistry.java",
+    "useImportReport" : [ {
+      "importPath" : "import org.springframework.web.socket.WebSocketHandler;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-websocket:4.3.13.RELEASE",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/ch.rasc:wampspring:1.1.2/dependencies/org/springframework/spring-websocket/4.3.13.RELEASE/spring-websocket-4.3.13.RELEASE.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.springframework.web.socket.messaging.SubProtocolWebSocketHandler;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-websocket:4.3.13.RELEASE",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/ch.rasc:wampspring:1.1.2/dependencies/org/springframework/spring-websocket/4.3.13.RELEASE/spring-websocket-4.3.13.RELEASE.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import java.util.List;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.ArrayList;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.springframework.scheduling.TaskScheduler;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-context:4.3.13.RELEASE",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/ch.rasc:wampspring:1.1.2/dependencies/org/springframework/spring-context/4.3.13.RELEASE/spring-context-4.3.13.RELEASE.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.springframework.web.socket.server.HandshakeInterceptor;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-websocket:4.3.13.RELEASE",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/ch.rasc:wampspring:1.1.2/dependencies/org/springframework/spring-websocket/4.3.13.RELEASE/spring-websocket-4.3.13.RELEASE.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.springframework.web.util.UrlPathHelper;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-web:4.3.13.RELEASE",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/ch.rasc:wampspring:1.1.2/dependencies/org/springframework/spring-web/4.3.13.RELEASE/spring-web-4.3.13.RELEASE.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.fasterxml.jackson.core.JsonFactory;",
+      "artifact" : {
+        "artifact" : "com.fasterxml.jackson.core:jackson-core:2.9.2",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/ch.rasc:wampspring:1.1.2/dependencies/com/fasterxml/jackson/core/jackson-core/2.9.2/jackson-core-2.9.2.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.springframework.util.Assert;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-core:4.3.13.RELEASE",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/ch.rasc:wampspring:1.1.2/dependencies/org/springframework/spring-core/4.3.13.RELEASE/spring-core-4.3.13.RELEASE.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.springframework.web.socket.handler.WebSocketHandlerDecorator;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-websocket:4.3.13.RELEASE",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/ch.rasc:wampspring:1.1.2/dependencies/org/springframework/spring-websocket/4.3.13.RELEASE/spring-websocket-4.3.13.RELEASE.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.springframework.web.servlet.handler.SimpleUrlHandlerMapping;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-webmvc:4.3.13.RELEASE",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/ch.rasc:wampspring:1.1.2/dependencies/org/springframework/spring-webmvc/4.3.13.RELEASE/spring-webmvc-4.3.13.RELEASE.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.springframework.web.servlet.handler.AbstractHandlerMapping;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-webmvc:4.3.13.RELEASE",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/ch.rasc:wampspring:1.1.2/dependencies/org/springframework/spring-webmvc/4.3.13.RELEASE/spring-webmvc-4.3.13.RELEASE.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import java.util.Map;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.LinkedHashMap;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.springframework.util.MultiValueMap;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-core:4.3.13.RELEASE",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/ch.rasc:wampspring:1.1.2/dependencies/org/springframework/spring-core/4.3.13.RELEASE/spring-core-4.3.13.RELEASE.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.springframework.web.HttpRequestHandler;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-web:4.3.13.RELEASE",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/ch.rasc:wampspring:1.1.2/dependencies/org/springframework/spring-web/4.3.13.RELEASE/spring-web-4.3.13.RELEASE.jar"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/ch.rasc:wampspring/src/main/java/ch/rasc/wampspring/config/WampMessageSelector.java",
+    "useImportReport" : [ {
+      "importPath" : "import ch.rasc.wampspring.message.WampMessage;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/ch.rasc:wampspring/src/main/java/ch/rasc/wampspring/config/WampSubProtocolHandler.java",
+    "useImportReport" : [ {
+      "importPath" : "import org.springframework.web.socket.messaging.SubProtocolHandler;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-websocket:4.3.13.RELEASE",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/ch.rasc:wampspring:1.1.2/dependencies/org/springframework/spring-websocket/4.3.13.RELEASE/spring-websocket-4.3.13.RELEASE.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.apache.commons.logging.Log;",
+      "artifact" : {
+        "artifact" : "commons-logging:commons-logging:1.2",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/ch.rasc:wampspring:1.1.2/dependencies/commons-logging/commons-logging/1.2/commons-logging-1.2.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.apache.commons.logging.Log;",
+      "artifact" : {
+        "artifact" : "org.slf4j:jcl-over-slf4j:1.7.25",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/ch.rasc:wampspring:1.1.2/dependencies/org/slf4j/jcl-over-slf4j/1.7.25/jcl-over-slf4j-1.7.25.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.apache.commons.logging.LogFactory;",
+      "artifact" : {
+        "artifact" : "commons-logging:commons-logging:1.2",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/ch.rasc:wampspring:1.1.2/dependencies/commons-logging/commons-logging/1.2/commons-logging-1.2.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.apache.commons.logging.LogFactory;",
+      "artifact" : {
+        "artifact" : "org.slf4j:jcl-over-slf4j:1.7.25",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/ch.rasc:wampspring:1.1.2/dependencies/org/slf4j/jcl-over-slf4j/1.7.25/jcl-over-slf4j-1.7.25.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.fasterxml.jackson.core.JsonFactory;",
+      "artifact" : {
+        "artifact" : "com.fasterxml.jackson.core:jackson-core:2.9.2",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/ch.rasc:wampspring:1.1.2/dependencies/com/fasterxml/jackson/core/jackson-core/2.9.2/jackson-core-2.9.2.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.List;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.Collections;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.springframework.web.socket.WebSocketSession;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-websocket:4.3.13.RELEASE",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/ch.rasc:wampspring:1.1.2/dependencies/org/springframework/spring-websocket/4.3.13.RELEASE/spring-websocket-4.3.13.RELEASE.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.springframework.web.socket.WebSocketMessage;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-websocket:4.3.13.RELEASE",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/ch.rasc:wampspring:1.1.2/dependencies/org/springframework/spring-websocket/4.3.13.RELEASE/spring-websocket-4.3.13.RELEASE.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.springframework.messaging.MessageChannel;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-messaging:4.3.13.RELEASE",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/ch.rasc:wampspring:1.1.2/dependencies/org/springframework/spring-messaging/4.3.13.RELEASE/spring-messaging-4.3.13.RELEASE.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.springframework.util.Assert;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-core:4.3.13.RELEASE",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/ch.rasc:wampspring:1.1.2/dependencies/org/springframework/spring-core/4.3.13.RELEASE/spring-core-4.3.13.RELEASE.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.springframework.web.socket.TextMessage;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-websocket:4.3.13.RELEASE",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/ch.rasc:wampspring:1.1.2/dependencies/org/springframework/spring-websocket/4.3.13.RELEASE/spring-websocket-4.3.13.RELEASE.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import ch.rasc.wampspring.message.WampMessage;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import ch.rasc.wampspring.message.CallMessage;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import ch.rasc.wampspring.message.CallErrorMessage;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.springframework.messaging.Message;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-messaging:4.3.13.RELEASE",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/ch.rasc:wampspring:1.1.2/dependencies/org/springframework/spring-messaging/4.3.13.RELEASE/spring-messaging-4.3.13.RELEASE.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.springframework.web.socket.handler.SessionLimitExceededException;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-websocket:4.3.13.RELEASE",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/ch.rasc:wampspring:1.1.2/dependencies/org/springframework/spring-websocket/4.3.13.RELEASE/spring-websocket-4.3.13.RELEASE.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.springframework.web.socket.CloseStatus;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-websocket:4.3.13.RELEASE",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/ch.rasc:wampspring:1.1.2/dependencies/org/springframework/spring-websocket/4.3.13.RELEASE/spring-websocket-4.3.13.RELEASE.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import java.io.IOException;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import ch.rasc.wampspring.message.WampMessageHeader;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import ch.rasc.wampspring.message.WelcomeMessage;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import ch.rasc.wampspring.message.UnsubscribeMessage;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/ch.rasc:wampspring/src/main/java/ch/rasc/wampspring/config/WebSocketTransportRegistration.java",
+    "useImportReport" : [ {
+      "importPath" : "import java.util.List;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.springframework.web.socket.handler.WebSocketHandlerDecoratorFactory;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-websocket:4.3.13.RELEASE",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/ch.rasc:wampspring:1.1.2/dependencies/org/springframework/spring-websocket/4.3.13.RELEASE/spring-websocket-4.3.13.RELEASE.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import java.util.ArrayList;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.Arrays;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/ch.rasc:wampspring/src/main/java/ch/rasc/wampspring/annotation/WampAuthenticated.java",
+    "useImportReport" : [ {
+      "importPath" : "import java.lang.annotation.Target;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.lang.annotation.ElementType;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.lang.annotation.Retention;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.lang.annotation.RetentionPolicy;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.lang.annotation.Documented;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ {
+      "importPath" : "import ch.rasc.wampspring.config.DefaultWampConfiguration;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/ch.rasc:wampspring/src/main/java/ch/rasc/wampspring/annotation/WampSubscribeListener.java",
+    "useImportReport" : [ {
+      "importPath" : "import java.lang.annotation.Target;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.lang.annotation.ElementType;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.lang.annotation.Retention;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.lang.annotation.RetentionPolicy;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.lang.annotation.Documented;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ {
+      "importPath" : "import ch.rasc.wampspring.config.DefaultWampConfiguration;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import ch.rasc.wampspring.message.EventMessage;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/ch.rasc:wampspring/src/main/java/ch/rasc/wampspring/annotation/WampUnsubscribeListener.java",
+    "useImportReport" : [ {
+      "importPath" : "import java.lang.annotation.Target;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.lang.annotation.ElementType;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.lang.annotation.Retention;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.lang.annotation.RetentionPolicy;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.lang.annotation.Documented;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ {
+      "importPath" : "import ch.rasc.wampspring.config.DefaultWampConfiguration;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import ch.rasc.wampspring.message.EventMessage;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/ch.rasc:wampspring/src/main/java/ch/rasc/wampspring/annotation/WampPublishListener.java",
+    "useImportReport" : [ {
+      "importPath" : "import java.lang.annotation.Target;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.lang.annotation.ElementType;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.lang.annotation.Retention;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.lang.annotation.RetentionPolicy;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.lang.annotation.Documented;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ {
+      "importPath" : "import ch.rasc.wampspring.config.DefaultWampConfiguration;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import ch.rasc.wampspring.message.EventMessage;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/ch.rasc:wampspring/src/main/java/ch/rasc/wampspring/annotation/WampCallListener.java",
+    "useImportReport" : [ {
+      "importPath" : "import java.lang.annotation.Target;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.lang.annotation.ElementType;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.lang.annotation.Retention;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.lang.annotation.RetentionPolicy;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.lang.annotation.Documented;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ {
+      "importPath" : "import ch.rasc.wampspring.config.DefaultWampConfiguration;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/ch.rasc:wampspring/src/main/java/ch/rasc/wampspring/message/WelcomeMessage.java",
+    "useImportReport" : [ {
+      "importPath" : "import com.fasterxml.jackson.core.JsonParser;",
+      "artifact" : {
+        "artifact" : "com.fasterxml.jackson.core:jackson-core:2.9.2",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/ch.rasc:wampspring:1.1.2/dependencies/com/fasterxml/jackson/core/jackson-core/2.9.2/jackson-core-2.9.2.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.io.IOException;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.fasterxml.jackson.core.JsonToken;",
+      "artifact" : {
+        "artifact" : "com.fasterxml.jackson.core:jackson-core:2.9.2",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/ch.rasc:wampspring:1.1.2/dependencies/com/fasterxml/jackson/core/jackson-core/2.9.2/jackson-core-2.9.2.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.fasterxml.jackson.core.JsonFactory;",
+      "artifact" : {
+        "artifact" : "com.fasterxml.jackson.core:jackson-core:2.9.2",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/ch.rasc:wampspring:1.1.2/dependencies/com/fasterxml/jackson/core/jackson-core/2.9.2/jackson-core-2.9.2.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.io.StringWriter;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.fasterxml.jackson.core.JsonGenerator;",
+      "artifact" : {
+        "artifact" : "com.fasterxml.jackson.core:jackson-core:2.9.2",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/ch.rasc:wampspring:1.1.2/dependencies/com/fasterxml/jackson/core/jackson-core/2.9.2/jackson-core-2.9.2.jar"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/ch.rasc:wampspring/src/main/java/ch/rasc/wampspring/message/CallErrorMessage.java",
+    "useImportReport" : [ {
+      "importPath" : "import com.fasterxml.jackson.core.JsonParser;",
+      "artifact" : {
+        "artifact" : "com.fasterxml.jackson.core:jackson-core:2.9.2",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/ch.rasc:wampspring:1.1.2/dependencies/com/fasterxml/jackson/core/jackson-core/2.9.2/jackson-core-2.9.2.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.io.IOException;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.fasterxml.jackson.core.JsonToken;",
+      "artifact" : {
+        "artifact" : "com.fasterxml.jackson.core:jackson-core:2.9.2",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/ch.rasc:wampspring:1.1.2/dependencies/com/fasterxml/jackson/core/jackson-core/2.9.2/jackson-core-2.9.2.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.fasterxml.jackson.core.JsonFactory;",
+      "artifact" : {
+        "artifact" : "com.fasterxml.jackson.core:jackson-core:2.9.2",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/ch.rasc:wampspring:1.1.2/dependencies/com/fasterxml/jackson/core/jackson-core/2.9.2/jackson-core-2.9.2.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.io.StringWriter;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.fasterxml.jackson.core.JsonGenerator;",
+      "artifact" : {
+        "artifact" : "com.fasterxml.jackson.core:jackson-core:2.9.2",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/ch.rasc:wampspring:1.1.2/dependencies/com/fasterxml/jackson/core/jackson-core/2.9.2/jackson-core-2.9.2.jar"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/ch.rasc:wampspring/src/main/java/ch/rasc/wampspring/message/CallMessage.java",
+    "useImportReport" : [ {
+      "importPath" : "import java.util.List;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.Arrays;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.fasterxml.jackson.core.JsonParser;",
+      "artifact" : {
+        "artifact" : "com.fasterxml.jackson.core:jackson-core:2.9.2",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/ch.rasc:wampspring:1.1.2/dependencies/com/fasterxml/jackson/core/jackson-core/2.9.2/jackson-core-2.9.2.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.io.IOException;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import ch.rasc.wampspring.config.WampSession;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.fasterxml.jackson.core.JsonToken;",
+      "artifact" : {
+        "artifact" : "com.fasterxml.jackson.core:jackson-core:2.9.2",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/ch.rasc:wampspring:1.1.2/dependencies/com/fasterxml/jackson/core/jackson-core/2.9.2/jackson-core-2.9.2.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.ArrayList;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.Collections;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.fasterxml.jackson.core.JsonFactory;",
+      "artifact" : {
+        "artifact" : "com.fasterxml.jackson.core:jackson-core:2.9.2",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/ch.rasc:wampspring:1.1.2/dependencies/com/fasterxml/jackson/core/jackson-core/2.9.2/jackson-core-2.9.2.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.io.StringWriter;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.fasterxml.jackson.core.JsonGenerator;",
+      "artifact" : {
+        "artifact" : "com.fasterxml.jackson.core:jackson-core:2.9.2",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/ch.rasc:wampspring:1.1.2/dependencies/com/fasterxml/jackson/core/jackson-core/2.9.2/jackson-core-2.9.2.jar"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/ch.rasc:wampspring/src/main/java/ch/rasc/wampspring/message/SubscribeMessage.java",
+    "useImportReport" : [ {
+      "importPath" : "import com.fasterxml.jackson.core.JsonParser;",
+      "artifact" : {
+        "artifact" : "com.fasterxml.jackson.core:jackson-core:2.9.2",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/ch.rasc:wampspring:1.1.2/dependencies/com/fasterxml/jackson/core/jackson-core/2.9.2/jackson-core-2.9.2.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.io.IOException;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import ch.rasc.wampspring.config.WampSession;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.fasterxml.jackson.core.JsonToken;",
+      "artifact" : {
+        "artifact" : "com.fasterxml.jackson.core:jackson-core:2.9.2",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/ch.rasc:wampspring:1.1.2/dependencies/com/fasterxml/jackson/core/jackson-core/2.9.2/jackson-core-2.9.2.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.fasterxml.jackson.core.JsonFactory;",
+      "artifact" : {
+        "artifact" : "com.fasterxml.jackson.core:jackson-core:2.9.2",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/ch.rasc:wampspring:1.1.2/dependencies/com/fasterxml/jackson/core/jackson-core/2.9.2/jackson-core-2.9.2.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.io.StringWriter;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.fasterxml.jackson.core.JsonGenerator;",
+      "artifact" : {
+        "artifact" : "com.fasterxml.jackson.core:jackson-core:2.9.2",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/ch.rasc:wampspring:1.1.2/dependencies/com/fasterxml/jackson/core/jackson-core/2.9.2/jackson-core-2.9.2.jar"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/ch.rasc:wampspring/src/main/java/ch/rasc/wampspring/message/PubSubMessage.java",
+    "useImportReport" : [ ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/ch.rasc:wampspring/src/main/java/ch/rasc/wampspring/message/PublishMessage.java",
+    "useImportReport" : [ {
+      "importPath" : "import java.util.Set;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.fasterxml.jackson.core.JsonParser;",
+      "artifact" : {
+        "artifact" : "com.fasterxml.jackson.core:jackson-core:2.9.2",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/ch.rasc:wampspring:1.1.2/dependencies/com/fasterxml/jackson/core/jackson-core/2.9.2/jackson-core-2.9.2.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.io.IOException;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import ch.rasc.wampspring.config.WampSession;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.fasterxml.jackson.core.JsonToken;",
+      "artifact" : {
+        "artifact" : "com.fasterxml.jackson.core:jackson-core:2.9.2",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/ch.rasc:wampspring:1.1.2/dependencies/com/fasterxml/jackson/core/jackson-core/2.9.2/jackson-core-2.9.2.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.fasterxml.jackson.core.type.TypeReference;",
+      "artifact" : {
+        "artifact" : "com.fasterxml.jackson.core:jackson-core:2.9.2",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/ch.rasc:wampspring:1.1.2/dependencies/com/fasterxml/jackson/core/jackson-core/2.9.2/jackson-core-2.9.2.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.fasterxml.jackson.core.JsonFactory;",
+      "artifact" : {
+        "artifact" : "com.fasterxml.jackson.core:jackson-core:2.9.2",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/ch.rasc:wampspring:1.1.2/dependencies/com/fasterxml/jackson/core/jackson-core/2.9.2/jackson-core-2.9.2.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.io.StringWriter;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.fasterxml.jackson.core.JsonGenerator;",
+      "artifact" : {
+        "artifact" : "com.fasterxml.jackson.core:jackson-core:2.9.2",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/ch.rasc:wampspring:1.1.2/dependencies/com/fasterxml/jackson/core/jackson-core/2.9.2/jackson-core-2.9.2.jar"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/ch.rasc:wampspring/src/main/java/ch/rasc/wampspring/message/EventMessage.java",
+    "useImportReport" : [ {
+      "importPath" : "import java.util.Set;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.fasterxml.jackson.core.JsonParser;",
+      "artifact" : {
+        "artifact" : "com.fasterxml.jackson.core:jackson-core:2.9.2",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/ch.rasc:wampspring:1.1.2/dependencies/com/fasterxml/jackson/core/jackson-core/2.9.2/jackson-core-2.9.2.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.io.IOException;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import ch.rasc.wampspring.config.WampSession;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.fasterxml.jackson.core.JsonToken;",
+      "artifact" : {
+        "artifact" : "com.fasterxml.jackson.core:jackson-core:2.9.2",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/ch.rasc:wampspring:1.1.2/dependencies/com/fasterxml/jackson/core/jackson-core/2.9.2/jackson-core-2.9.2.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.fasterxml.jackson.core.JsonFactory;",
+      "artifact" : {
+        "artifact" : "com.fasterxml.jackson.core:jackson-core:2.9.2",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/ch.rasc:wampspring:1.1.2/dependencies/com/fasterxml/jackson/core/jackson-core/2.9.2/jackson-core-2.9.2.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.io.StringWriter;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.fasterxml.jackson.core.JsonGenerator;",
+      "artifact" : {
+        "artifact" : "com.fasterxml.jackson.core:jackson-core:2.9.2",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/ch.rasc:wampspring:1.1.2/dependencies/com/fasterxml/jackson/core/jackson-core/2.9.2/jackson-core-2.9.2.jar"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/ch.rasc:wampspring/src/main/java/ch/rasc/wampspring/message/UnsubscribeMessage.java",
+    "useImportReport" : [ {
+      "importPath" : "import com.fasterxml.jackson.core.JsonParser;",
+      "artifact" : {
+        "artifact" : "com.fasterxml.jackson.core:jackson-core:2.9.2",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/ch.rasc:wampspring:1.1.2/dependencies/com/fasterxml/jackson/core/jackson-core/2.9.2/jackson-core-2.9.2.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.io.IOException;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import ch.rasc.wampspring.config.WampSession;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.fasterxml.jackson.core.JsonToken;",
+      "artifact" : {
+        "artifact" : "com.fasterxml.jackson.core:jackson-core:2.9.2",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/ch.rasc:wampspring:1.1.2/dependencies/com/fasterxml/jackson/core/jackson-core/2.9.2/jackson-core-2.9.2.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.springframework.web.socket.WebSocketSession;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-websocket:4.3.13.RELEASE",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/ch.rasc:wampspring:1.1.2/dependencies/org/springframework/spring-websocket/4.3.13.RELEASE/spring-websocket-4.3.13.RELEASE.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import com.fasterxml.jackson.core.JsonFactory;",
+      "artifact" : {
+        "artifact" : "com.fasterxml.jackson.core:jackson-core:2.9.2",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/ch.rasc:wampspring:1.1.2/dependencies/com/fasterxml/jackson/core/jackson-core/2.9.2/jackson-core-2.9.2.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.io.StringWriter;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.fasterxml.jackson.core.JsonGenerator;",
+      "artifact" : {
+        "artifact" : "com.fasterxml.jackson.core:jackson-core:2.9.2",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/ch.rasc:wampspring:1.1.2/dependencies/com/fasterxml/jackson/core/jackson-core/2.9.2/jackson-core-2.9.2.jar"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/ch.rasc:wampspring/src/main/java/ch/rasc/wampspring/message/WampMessageHeader.java",
+    "useImportReport" : [ ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/ch.rasc:wampspring/src/main/java/ch/rasc/wampspring/message/WampMessageType.java",
+    "useImportReport" : [ ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/ch.rasc:wampspring/src/main/java/ch/rasc/wampspring/message/CallResultMessage.java",
+    "useImportReport" : [ {
+      "importPath" : "import com.fasterxml.jackson.core.JsonParser;",
+      "artifact" : {
+        "artifact" : "com.fasterxml.jackson.core:jackson-core:2.9.2",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/ch.rasc:wampspring:1.1.2/dependencies/com/fasterxml/jackson/core/jackson-core/2.9.2/jackson-core-2.9.2.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.io.IOException;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.fasterxml.jackson.core.JsonToken;",
+      "artifact" : {
+        "artifact" : "com.fasterxml.jackson.core:jackson-core:2.9.2",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/ch.rasc:wampspring:1.1.2/dependencies/com/fasterxml/jackson/core/jackson-core/2.9.2/jackson-core-2.9.2.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.fasterxml.jackson.core.JsonFactory;",
+      "artifact" : {
+        "artifact" : "com.fasterxml.jackson.core:jackson-core:2.9.2",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/ch.rasc:wampspring:1.1.2/dependencies/com/fasterxml/jackson/core/jackson-core/2.9.2/jackson-core-2.9.2.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.io.StringWriter;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.fasterxml.jackson.core.JsonGenerator;",
+      "artifact" : {
+        "artifact" : "com.fasterxml.jackson.core:jackson-core:2.9.2",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/ch.rasc:wampspring:1.1.2/dependencies/com/fasterxml/jackson/core/jackson-core/2.9.2/jackson-core-2.9.2.jar"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/ch.rasc:wampspring/src/main/java/ch/rasc/wampspring/message/WampMessage.java",
+    "useImportReport" : [ {
+      "importPath" : "import org.springframework.messaging.Message;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-messaging:4.3.13.RELEASE",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/ch.rasc:wampspring:1.1.2/dependencies/org/springframework/spring-messaging/4.3.13.RELEASE/spring-messaging-4.3.13.RELEASE.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import java.util.Map;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.springframework.messaging.handler.annotation.support.DestinationVariableMethodArgumentResolver;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-messaging:4.3.13.RELEASE",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/ch.rasc:wampspring:1.1.2/dependencies/org/springframework/spring-messaging/4.3.13.RELEASE/spring-messaging-4.3.13.RELEASE.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import java.security.Principal;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import ch.rasc.wampspring.config.WampSession;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.springframework.messaging.MessageHeaders;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-messaging:4.3.13.RELEASE",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/ch.rasc:wampspring:1.1.2/dependencies/org/springframework/spring-messaging/4.3.13.RELEASE/spring-messaging-4.3.13.RELEASE.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.springframework.web.socket.WebSocketSession;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-websocket:4.3.13.RELEASE",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/ch.rasc:wampspring:1.1.2/dependencies/org/springframework/spring-websocket/4.3.13.RELEASE/spring-websocket-4.3.13.RELEASE.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import com.fasterxml.jackson.core.JsonFactory;",
+      "artifact" : {
+        "artifact" : "com.fasterxml.jackson.core:jackson-core:2.9.2",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/ch.rasc:wampspring:1.1.2/dependencies/com/fasterxml/jackson/core/jackson-core/2.9.2/jackson-core-2.9.2.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.fasterxml.jackson.core.JsonParser;",
+      "artifact" : {
+        "artifact" : "com.fasterxml.jackson.core:jackson-core:2.9.2",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/ch.rasc:wampspring:1.1.2/dependencies/com/fasterxml/jackson/core/jackson-core/2.9.2/jackson-core-2.9.2.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.fasterxml.jackson.core.JsonToken;",
+      "artifact" : {
+        "artifact" : "com.fasterxml.jackson.core:jackson-core:2.9.2",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/ch.rasc:wampspring:1.1.2/dependencies/com/fasterxml/jackson/core/jackson-core/2.9.2/jackson-core-2.9.2.jar"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ {
+      "importPath" : "/**\n * Base class of the WampMessages\n */\nimport java.io.IOException;"
+    } ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/ch.rasc:wampspring/src/main/java/ch/rasc/wampspring/message/PrefixMessage.java",
+    "useImportReport" : [ {
+      "importPath" : "import com.fasterxml.jackson.core.JsonParser;",
+      "artifact" : {
+        "artifact" : "com.fasterxml.jackson.core:jackson-core:2.9.2",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/ch.rasc:wampspring:1.1.2/dependencies/com/fasterxml/jackson/core/jackson-core/2.9.2/jackson-core-2.9.2.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.io.IOException;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.fasterxml.jackson.core.JsonToken;",
+      "artifact" : {
+        "artifact" : "com.fasterxml.jackson.core:jackson-core:2.9.2",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/ch.rasc:wampspring:1.1.2/dependencies/com/fasterxml/jackson/core/jackson-core/2.9.2/jackson-core-2.9.2.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.fasterxml.jackson.core.JsonFactory;",
+      "artifact" : {
+        "artifact" : "com.fasterxml.jackson.core:jackson-core:2.9.2",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/ch.rasc:wampspring:1.1.2/dependencies/com/fasterxml/jackson/core/jackson-core/2.9.2/jackson-core-2.9.2.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.io.StringWriter;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.fasterxml.jackson.core.JsonGenerator;",
+      "artifact" : {
+        "artifact" : "com.fasterxml.jackson.core:jackson-core:2.9.2",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/ch.rasc:wampspring:1.1.2/dependencies/com/fasterxml/jackson/core/jackson-core/2.9.2/jackson-core-2.9.2.jar"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/ch.rasc:wampspring/src/main/java/ch/rasc/wampspring/user/UserEventMessenger.java",
+    "useImportReport" : [ {
+      "importPath" : "import ch.rasc.wampspring.EventMessenger;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import ch.rasc.wampspring.message.EventMessage;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.springframework.messaging.simp.user.SimpUserRegistry;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-messaging:4.3.13.RELEASE",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/ch.rasc:wampspring:1.1.2/dependencies/org/springframework/spring-messaging/4.3.13.RELEASE/spring-messaging-4.3.13.RELEASE.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.springframework.util.Assert;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-core:4.3.13.RELEASE",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/ch.rasc:wampspring:1.1.2/dependencies/org/springframework/spring-core/4.3.13.RELEASE/spring-core-4.3.13.RELEASE.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.Set;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.Collections;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.HashSet;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.springframework.messaging.simp.user.SimpSession;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-messaging:4.3.13.RELEASE",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/ch.rasc:wampspring:1.1.2/dependencies/org/springframework/spring-messaging/4.3.13.RELEASE/spring-messaging-4.3.13.RELEASE.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import ch.rasc.wampspring.broker.SimpleBrokerMessageHandler;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/ch.rasc:wampspring/src/main/java/ch/rasc/wampspring/user/UserSessionWebSocketHandlerDecoratorFactory.java",
+    "useImportReport" : [ {
+      "importPath" : "import org.springframework.web.socket.handler.WebSocketHandlerDecoratorFactory;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-websocket:4.3.13.RELEASE",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/ch.rasc:wampspring:1.1.2/dependencies/org/springframework/spring-websocket/4.3.13.RELEASE/spring-websocket-4.3.13.RELEASE.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import java.security.Principal;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.springframework.messaging.simp.user.SimpUserRegistry;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-messaging:4.3.13.RELEASE",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/ch.rasc:wampspring:1.1.2/dependencies/org/springframework/spring-messaging/4.3.13.RELEASE/spring-messaging-4.3.13.RELEASE.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.springframework.context.ApplicationEventPublisher;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-context:4.3.13.RELEASE",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/ch.rasc:wampspring:1.1.2/dependencies/org/springframework/spring-context/4.3.13.RELEASE/spring-context-4.3.13.RELEASE.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.springframework.util.Assert;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-core:4.3.13.RELEASE",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/ch.rasc:wampspring:1.1.2/dependencies/org/springframework/spring-core/4.3.13.RELEASE/spring-core-4.3.13.RELEASE.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.springframework.web.socket.WebSocketHandler;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-websocket:4.3.13.RELEASE",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/ch.rasc:wampspring:1.1.2/dependencies/org/springframework/spring-websocket/4.3.13.RELEASE/spring-websocket-4.3.13.RELEASE.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.springframework.web.socket.handler.WebSocketHandlerDecorator;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-websocket:4.3.13.RELEASE",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/ch.rasc:wampspring:1.1.2/dependencies/org/springframework/spring-websocket/4.3.13.RELEASE/spring-websocket-4.3.13.RELEASE.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.springframework.web.socket.WebSocketSession;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-websocket:4.3.13.RELEASE",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/ch.rasc:wampspring:1.1.2/dependencies/org/springframework/spring-websocket/4.3.13.RELEASE/spring-websocket-4.3.13.RELEASE.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.springframework.messaging.simp.SimpMessageHeaderAccessor;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-messaging:4.3.13.RELEASE",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/ch.rasc:wampspring:1.1.2/dependencies/org/springframework/spring-messaging/4.3.13.RELEASE/spring-messaging-4.3.13.RELEASE.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.springframework.messaging.simp.SimpMessageType;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-messaging:4.3.13.RELEASE",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/ch.rasc:wampspring:1.1.2/dependencies/org/springframework/spring-messaging/4.3.13.RELEASE/spring-messaging-4.3.13.RELEASE.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.springframework.web.socket.messaging.SessionConnectedEvent;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-websocket:4.3.13.RELEASE",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/ch.rasc:wampspring:1.1.2/dependencies/org/springframework/spring-websocket/4.3.13.RELEASE/spring-websocket-4.3.13.RELEASE.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.springframework.messaging.support.MessageBuilder;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-messaging:4.3.13.RELEASE",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/ch.rasc:wampspring:1.1.2/dependencies/org/springframework/spring-messaging/4.3.13.RELEASE/spring-messaging-4.3.13.RELEASE.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.springframework.web.socket.CloseStatus;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-websocket:4.3.13.RELEASE",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/ch.rasc:wampspring:1.1.2/dependencies/org/springframework/spring-websocket/4.3.13.RELEASE/spring-websocket-4.3.13.RELEASE.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.springframework.web.socket.messaging.SessionDisconnectEvent;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-websocket:4.3.13.RELEASE",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/ch.rasc:wampspring:1.1.2/dependencies/org/springframework/spring-websocket/4.3.13.RELEASE/spring-websocket-4.3.13.RELEASE.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.springframework.context.ApplicationEvent;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-context:4.3.13.RELEASE",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/ch.rasc:wampspring:1.1.2/dependencies/org/springframework/spring-context/4.3.13.RELEASE/spring-context-4.3.13.RELEASE.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.apache.commons.logging.LogFactory;",
+      "artifact" : {
+        "artifact" : "commons-logging:commons-logging:1.2",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/ch.rasc:wampspring:1.1.2/dependencies/commons-logging/commons-logging/1.2/commons-logging-1.2.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.apache.commons.logging.LogFactory;",
+      "artifact" : {
+        "artifact" : "org.slf4j:jcl-over-slf4j:1.7.25",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/ch.rasc:wampspring:1.1.2/dependencies/org/slf4j/jcl-over-slf4j/1.7.25/jcl-over-slf4j-1.7.25.jar"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/ch.rasc:wampspring/src/main/java/ch/rasc/wampspring/user/AbstractUserWampConfigurer.java",
+    "useImportReport" : [ {
+      "importPath" : "import ch.rasc.wampspring.config.AbstractWampConfigurer;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.springframework.messaging.simp.user.SimpUserRegistry;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-messaging:4.3.13.RELEASE",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/ch.rasc:wampspring:1.1.2/dependencies/org/springframework/spring-messaging/4.3.13.RELEASE/spring-messaging-4.3.13.RELEASE.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import java.security.Principal;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import ch.rasc.wampspring.message.EventMessage;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.springframework.context.annotation.Bean;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-context:4.3.13.RELEASE",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/ch.rasc:wampspring:1.1.2/dependencies/org/springframework/spring-context/4.3.13.RELEASE/spring-context-4.3.13.RELEASE.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import ch.rasc.wampspring.EventMessenger;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.springframework.web.socket.messaging.DefaultSimpUserRegistry;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-websocket:4.3.13.RELEASE",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/ch.rasc:wampspring:1.1.2/dependencies/org/springframework/spring-websocket/4.3.13.RELEASE/spring-websocket-4.3.13.RELEASE.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.springframework.context.ApplicationEventPublisher;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-context:4.3.13.RELEASE",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/ch.rasc:wampspring:1.1.2/dependencies/org/springframework/spring-context/4.3.13.RELEASE/spring-context-4.3.13.RELEASE.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.springframework.beans.factory.annotation.Autowired;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-beans:4.3.13.RELEASE",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/ch.rasc:wampspring:1.1.2/dependencies/org/springframework/spring-beans/4.3.13.RELEASE/spring-beans-4.3.13.RELEASE.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import ch.rasc.wampspring.config.WebSocketTransportRegistration;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/ch.rasc:wampspring/src/main/java/ch/rasc/wampspring/EventMessenger.java",
+    "useImportReport" : [ {
+      "importPath" : "import ch.rasc.wampspring.message.EventMessage;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.springframework.messaging.MessageChannel;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-messaging:4.3.13.RELEASE",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/ch.rasc:wampspring:1.1.2/dependencies/org/springframework/spring-messaging/4.3.13.RELEASE/spring-messaging-4.3.13.RELEASE.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.springframework.util.Assert;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-core:4.3.13.RELEASE",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/ch.rasc:wampspring:1.1.2/dependencies/org/springframework/spring-core/4.3.13.RELEASE/spring-core-4.3.13.RELEASE.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.Collections;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.Set;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import ch.rasc.wampspring.broker.SimpleBrokerMessageHandler;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.springframework.messaging.MessageDeliveryException;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-messaging:4.3.13.RELEASE",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/ch.rasc:wampspring:1.1.2/dependencies/org/springframework/spring-messaging/4.3.13.RELEASE/spring-messaging-4.3.13.RELEASE.jar"
+      },
+      "isDirectDependency" : true
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/ch.rasc:wampspring/src/main/java/ch/rasc/wampspring/cra/DefaultAuthenticationHandler.java",
+    "useImportReport" : [ {
+      "importPath" : "import java.util.Map;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import ch.rasc.wampspring.message.CallMessage;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import ch.rasc.wampspring.config.WampSession;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.security.InvalidKeyException;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.security.NoSuchAlgorithmException;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.springframework.util.StringUtils;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-core:4.3.13.RELEASE",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/ch.rasc:wampspring:1.1.2/dependencies/org/springframework/spring-core/4.3.13.RELEASE/spring-core-4.3.13.RELEASE.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.springframework.util.Assert;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-core:4.3.13.RELEASE",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/ch.rasc:wampspring:1.1.2/dependencies/org/springframework/spring-core/4.3.13.RELEASE/spring-core-4.3.13.RELEASE.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import javax.crypto.Mac;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.nio.charset.StandardCharsets;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import javax.crypto.spec.SecretKeySpec;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ {
+      "importPath" : "import javax.xml.bind.DatatypeConverter;"
+    } ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/ch.rasc:wampspring/src/main/java/ch/rasc/wampspring/cra/AuthenticationSecretProvider.java",
+    "useImportReport" : [ ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/ch.rasc:wampspring/src/main/java/ch/rasc/wampspring/cra/AuthenticationHandler.java",
+    "useImportReport" : [ {
+      "importPath" : "import ch.rasc.wampspring.annotation.WampCallListener;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.Map;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import ch.rasc.wampspring.message.CallMessage;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/ch.rasc:wampspring/src/main/java/ch/rasc/wampspring/method/DestinationPatternsMessageCondition.java",
+    "useImportReport" : [ {
+      "importPath" : "import org.springframework.messaging.handler.AbstractMessageCondition;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-messaging:4.3.13.RELEASE",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/ch.rasc:wampspring:1.1.2/dependencies/org/springframework/spring-messaging/4.3.13.RELEASE/spring-messaging-4.3.13.RELEASE.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.springframework.messaging.handler.MessageCondition;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-messaging:4.3.13.RELEASE",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/ch.rasc:wampspring:1.1.2/dependencies/org/springframework/spring-messaging/4.3.13.RELEASE/spring-messaging-4.3.13.RELEASE.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.springframework.util.PathMatcher;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-core:4.3.13.RELEASE",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/ch.rasc:wampspring:1.1.2/dependencies/org/springframework/spring-core/4.3.13.RELEASE/spring-core-4.3.13.RELEASE.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.Set;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.Collection;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.springframework.util.Assert;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-core:4.3.13.RELEASE",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/ch.rasc:wampspring:1.1.2/dependencies/org/springframework/spring-core/4.3.13.RELEASE/spring-core-4.3.13.RELEASE.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.Collections;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.LinkedHashSet;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.List;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.Arrays;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.springframework.messaging.Message;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-messaging:4.3.13.RELEASE",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/ch.rasc:wampspring:1.1.2/dependencies/org/springframework/spring-messaging/4.3.13.RELEASE/spring-messaging-4.3.13.RELEASE.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import ch.rasc.wampspring.message.WampMessage;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.ArrayList;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.Comparator;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.Iterator;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ {
+      "importPath" : "org.springframework.util.PathMatcher",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-core:4.3.13.RELEASE",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/ch.rasc:wampspring:1.1.2/dependencies/org/springframework/spring-core/4.3.13.RELEASE/spring-core-4.3.13.RELEASE.jar"
+      },
+      "isDirectDependency" : false
+    } ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/ch.rasc:wampspring/src/main/java/ch/rasc/wampspring/method/PayloadArgumentResolver.java",
+    "useImportReport" : [ {
+      "importPath" : "import org.springframework.messaging.handler.invocation.HandlerMethodArgumentResolver;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-messaging:4.3.13.RELEASE",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/ch.rasc:wampspring:1.1.2/dependencies/org/springframework/spring-messaging/4.3.13.RELEASE/spring-messaging-4.3.13.RELEASE.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.springframework.validation.Validator;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-context:4.3.13.RELEASE",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/ch.rasc:wampspring:1.1.2/dependencies/org/springframework/spring-context/4.3.13.RELEASE/spring-context-4.3.13.RELEASE.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.springframework.messaging.handler.annotation.Payload;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-messaging:4.3.13.RELEASE",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/ch.rasc:wampspring:1.1.2/dependencies/org/springframework/spring-messaging/4.3.13.RELEASE/spring-messaging-4.3.13.RELEASE.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import ch.rasc.wampspring.annotation.WampPublishListener;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.springframework.context.ApplicationContext;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-context:4.3.13.RELEASE",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/ch.rasc:wampspring:1.1.2/dependencies/org/springframework/spring-context/4.3.13.RELEASE/spring-context-4.3.13.RELEASE.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.springframework.util.ClassUtils;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-core:4.3.13.RELEASE",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/ch.rasc:wampspring:1.1.2/dependencies/org/springframework/spring-core/4.3.13.RELEASE/spring-core-4.3.13.RELEASE.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.springframework.messaging.simp.config.AbstractMessageBrokerConfiguration;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-messaging:4.3.13.RELEASE",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/ch.rasc:wampspring:1.1.2/dependencies/org/springframework/spring-messaging/4.3.13.RELEASE/spring-messaging-4.3.13.RELEASE.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.springframework.beans.factory.BeanInitializationException;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-beans:4.3.13.RELEASE",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/ch.rasc:wampspring:1.1.2/dependencies/org/springframework/spring-beans/4.3.13.RELEASE/spring-beans-4.3.13.RELEASE.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.springframework.beans.BeanUtils;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-beans:4.3.13.RELEASE",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/ch.rasc:wampspring:1.1.2/dependencies/org/springframework/spring-beans/4.3.13.RELEASE/spring-beans-4.3.13.RELEASE.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.springframework.validation.Errors;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-context:4.3.13.RELEASE",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/ch.rasc:wampspring:1.1.2/dependencies/org/springframework/spring-context/4.3.13.RELEASE/spring-context-4.3.13.RELEASE.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.springframework.core.MethodParameter;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-core:4.3.13.RELEASE",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/ch.rasc:wampspring:1.1.2/dependencies/org/springframework/spring-core/4.3.13.RELEASE/spring-core-4.3.13.RELEASE.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.springframework.messaging.Message;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-messaging:4.3.13.RELEASE",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/ch.rasc:wampspring:1.1.2/dependencies/org/springframework/spring-messaging/4.3.13.RELEASE/spring-messaging-4.3.13.RELEASE.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.springframework.util.StringUtils;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-core:4.3.13.RELEASE",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/ch.rasc:wampspring:1.1.2/dependencies/org/springframework/spring-core/4.3.13.RELEASE/spring-core-4.3.13.RELEASE.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.springframework.validation.BindingResult;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-context:4.3.13.RELEASE",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/ch.rasc:wampspring:1.1.2/dependencies/org/springframework/spring-context/4.3.13.RELEASE/spring-context-4.3.13.RELEASE.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.springframework.validation.BeanPropertyBindingResult;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-context:4.3.13.RELEASE",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/ch.rasc:wampspring:1.1.2/dependencies/org/springframework/spring-context/4.3.13.RELEASE/spring-context-4.3.13.RELEASE.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.springframework.validation.ObjectError;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-context:4.3.13.RELEASE",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/ch.rasc:wampspring:1.1.2/dependencies/org/springframework/spring-context/4.3.13.RELEASE/spring-context-4.3.13.RELEASE.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.springframework.messaging.handler.annotation.support.MethodArgumentNotValidException;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-messaging:4.3.13.RELEASE",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/ch.rasc:wampspring:1.1.2/dependencies/org/springframework/spring-messaging/4.3.13.RELEASE/spring-messaging-4.3.13.RELEASE.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.springframework.messaging.converter.MessageConversionException;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-messaging:4.3.13.RELEASE",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/ch.rasc:wampspring:1.1.2/dependencies/org/springframework/spring-messaging/4.3.13.RELEASE/spring-messaging-4.3.13.RELEASE.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import java.lang.annotation.Annotation;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.springframework.validation.annotation.Validated;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-context:4.3.13.RELEASE",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/ch.rasc:wampspring:1.1.2/dependencies/org/springframework/spring-context/4.3.13.RELEASE/spring-context-4.3.13.RELEASE.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.springframework.core.annotation.AnnotationUtils;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-core:4.3.13.RELEASE",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/ch.rasc:wampspring:1.1.2/dependencies/org/springframework/spring-core/4.3.13.RELEASE/spring-core-4.3.13.RELEASE.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.springframework.util.ObjectUtils;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-core:4.3.13.RELEASE",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/ch.rasc:wampspring:1.1.2/dependencies/org/springframework/spring-core/4.3.13.RELEASE/spring-core-4.3.13.RELEASE.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.springframework.validation.SmartValidator;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-context:4.3.13.RELEASE",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/ch.rasc:wampspring:1.1.2/dependencies/org/springframework/spring-context/4.3.13.RELEASE/spring-context-4.3.13.RELEASE.jar"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/ch.rasc:wampspring/src/main/java/ch/rasc/wampspring/method/WampHandlerMethod.java",
+    "useImportReport" : [ {
+      "importPath" : "import org.springframework.messaging.handler.HandlerMethod;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-messaging:4.3.13.RELEASE",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/ch.rasc:wampspring:1.1.2/dependencies/org/springframework/spring-messaging/4.3.13.RELEASE/spring-messaging-4.3.13.RELEASE.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.springframework.beans.factory.BeanFactory;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-beans:4.3.13.RELEASE",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/ch.rasc:wampspring:1.1.2/dependencies/org/springframework/spring-beans/4.3.13.RELEASE/spring-beans-4.3.13.RELEASE.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.lang.reflect.Method;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/ch.rasc:wampspring/src/main/java/ch/rasc/wampspring/method/WampMessageTypeMessageCondition.java",
+    "useImportReport" : [ {
+      "importPath" : "import org.springframework.messaging.handler.AbstractMessageCondition;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-messaging:4.3.13.RELEASE",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/ch.rasc:wampspring:1.1.2/dependencies/org/springframework/spring-messaging/4.3.13.RELEASE/spring-messaging-4.3.13.RELEASE.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import ch.rasc.wampspring.message.WampMessageType;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.springframework.util.Assert;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-core:4.3.13.RELEASE",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/ch.rasc:wampspring:1.1.2/dependencies/org/springframework/spring-core/4.3.13.RELEASE/spring-core-4.3.13.RELEASE.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.Collection;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.Arrays;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.springframework.messaging.Message;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-messaging:4.3.13.RELEASE",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/ch.rasc:wampspring:1.1.2/dependencies/org/springframework/spring-messaging/4.3.13.RELEASE/spring-messaging-4.3.13.RELEASE.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import ch.rasc.wampspring.message.WampMessageHeader;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/ch.rasc:wampspring/src/main/java/ch/rasc/wampspring/method/WampSessionMethodArgumentResolver.java",
+    "useImportReport" : [ {
+      "importPath" : "import org.springframework.messaging.handler.invocation.HandlerMethodArgumentResolver;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-messaging:4.3.13.RELEASE",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/ch.rasc:wampspring:1.1.2/dependencies/org/springframework/spring-messaging/4.3.13.RELEASE/spring-messaging-4.3.13.RELEASE.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import ch.rasc.wampspring.config.WampSession;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.springframework.core.MethodParameter;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-core:4.3.13.RELEASE",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/ch.rasc:wampspring:1.1.2/dependencies/org/springframework/spring-core/4.3.13.RELEASE/spring-core-4.3.13.RELEASE.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.springframework.messaging.Message;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-messaging:4.3.13.RELEASE",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/ch.rasc:wampspring:1.1.2/dependencies/org/springframework/spring-messaging/4.3.13.RELEASE/spring-messaging-4.3.13.RELEASE.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import ch.rasc.wampspring.message.WampMessage;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.springframework.messaging.MessageHandlingException;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-messaging:4.3.13.RELEASE",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/ch.rasc:wampspring:1.1.2/dependencies/org/springframework/spring-messaging/4.3.13.RELEASE/spring-messaging-4.3.13.RELEASE.jar"
+      },
+      "isDirectDependency" : true
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/ch.rasc:wampspring/src/main/java/ch/rasc/wampspring/method/WampMessageMappingInfo.java",
+    "useImportReport" : [ {
+      "importPath" : "import org.springframework.messaging.handler.MessageCondition;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-messaging:4.3.13.RELEASE",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/ch.rasc:wampspring:1.1.2/dependencies/org/springframework/spring-messaging/4.3.13.RELEASE/spring-messaging-4.3.13.RELEASE.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.springframework.messaging.Message;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-messaging:4.3.13.RELEASE",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/ch.rasc:wampspring:1.1.2/dependencies/org/springframework/spring-messaging/4.3.13.RELEASE/spring-messaging-4.3.13.RELEASE.jar"
+      },
+      "isDirectDependency" : true
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/ch.rasc:wampspring/src/main/java/ch/rasc/wampspring/method/InvocableWampHandlerMethod.java",
+    "useImportReport" : [ {
+      "importPath" : "import org.springframework.messaging.handler.HandlerMethod;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-messaging:4.3.13.RELEASE",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/ch.rasc:wampspring:1.1.2/dependencies/org/springframework/spring-messaging/4.3.13.RELEASE/spring-messaging-4.3.13.RELEASE.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.springframework.messaging.handler.invocation.HandlerMethodArgumentResolver;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-messaging:4.3.13.RELEASE",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/ch.rasc:wampspring:1.1.2/dependencies/org/springframework/spring-messaging/4.3.13.RELEASE/spring-messaging-4.3.13.RELEASE.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.springframework.messaging.handler.invocation.HandlerMethodArgumentResolverComposite;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-messaging:4.3.13.RELEASE",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/ch.rasc:wampspring:1.1.2/dependencies/org/springframework/spring-messaging/4.3.13.RELEASE/spring-messaging-4.3.13.RELEASE.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.springframework.core.ParameterNameDiscoverer;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-core:4.3.13.RELEASE",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/ch.rasc:wampspring:1.1.2/dependencies/org/springframework/spring-core/4.3.13.RELEASE/spring-core-4.3.13.RELEASE.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.springframework.core.DefaultParameterNameDiscoverer;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-core:4.3.13.RELEASE",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/ch.rasc:wampspring:1.1.2/dependencies/org/springframework/spring-core/4.3.13.RELEASE/spring-core-4.3.13.RELEASE.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import ch.rasc.wampspring.message.WampMessage;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.Arrays;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.springframework.core.MethodParameter;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-core:4.3.13.RELEASE",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/ch.rasc:wampspring:1.1.2/dependencies/org/springframework/spring-core/4.3.13.RELEASE/spring-core-4.3.13.RELEASE.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.springframework.core.GenericTypeResolver;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-core:4.3.13.RELEASE",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/ch.rasc:wampspring:1.1.2/dependencies/org/springframework/spring-core/4.3.13.RELEASE/spring-core-4.3.13.RELEASE.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.springframework.util.ReflectionUtils;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-core:4.3.13.RELEASE",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/ch.rasc:wampspring:1.1.2/dependencies/org/springframework/spring-core/4.3.13.RELEASE/spring-core-4.3.13.RELEASE.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.lang.reflect.InvocationTargetException;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.lang.reflect.Method;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ {
+      "importPath" : "org.springframework.core.DefaultParameterNameDiscoverer",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-core:4.3.13.RELEASE",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/ch.rasc:wampspring:1.1.2/dependencies/org/springframework/spring-core/4.3.13.RELEASE/spring-core-4.3.13.RELEASE.jar"
+      },
+      "isDirectDependency" : false
+    } ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/ch.rasc:wampspring/src/main/java/ch/rasc/wampspring/method/MethodParameterConverter.java",
+    "useImportReport" : [ {
+      "importPath" : "import com.fasterxml.jackson.databind.ObjectMapper;",
+      "artifact" : {
+        "artifact" : "com.fasterxml.jackson.core:jackson-databind:2.9.2",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/ch.rasc:wampspring:1.1.2/dependencies/com/fasterxml/jackson/core/jackson-databind/2.9.2/jackson-databind-2.9.2.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.springframework.core.convert.ConversionService;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-core:4.3.13.RELEASE",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/ch.rasc:wampspring:1.1.2/dependencies/org/springframework/spring-core/4.3.13.RELEASE/spring-core-4.3.13.RELEASE.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.springframework.core.MethodParameter;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-core:4.3.13.RELEASE",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/ch.rasc:wampspring:1.1.2/dependencies/org/springframework/spring-core/4.3.13.RELEASE/spring-core-4.3.13.RELEASE.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.springframework.core.convert.TypeDescriptor;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-core:4.3.13.RELEASE",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/ch.rasc:wampspring:1.1.2/dependencies/org/springframework/spring-core/4.3.13.RELEASE/spring-core-4.3.13.RELEASE.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.fasterxml.jackson.databind.type.TypeFactory;",
+      "artifact" : {
+        "artifact" : "com.fasterxml.jackson.core:jackson-databind:2.9.2",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/ch.rasc:wampspring:1.1.2/dependencies/com/fasterxml/jackson/core/jackson-databind/2.9.2/jackson-databind-2.9.2.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import com.fasterxml.jackson.databind.JavaType;",
+      "artifact" : {
+        "artifact" : "com.fasterxml.jackson.core:jackson-databind:2.9.2",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/ch.rasc:wampspring:1.1.2/dependencies/com/fasterxml/jackson/core/jackson-databind/2.9.2/jackson-databind-2.9.2.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import java.lang.reflect.TypeVariable;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.fasterxml.jackson.databind.type.TypeBindings;",
+      "artifact" : {
+        "artifact" : "com.fasterxml.jackson.core:jackson-databind:2.9.2",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/ch.rasc:wampspring:1.1.2/dependencies/com/fasterxml/jackson/core/jackson-databind/2.9.2/jackson-databind-2.9.2.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import com.fasterxml.jackson.databind.type.CollectionType;",
+      "artifact" : {
+        "artifact" : "com.fasterxml.jackson.core:jackson-databind:2.9.2",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/ch.rasc:wampspring:1.1.2/dependencies/com/fasterxml/jackson/core/jackson-databind/2.9.2/jackson-databind-2.9.2.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import java.util.List;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.Collection;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.ArrayList;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.springframework.lang.UsesJava8;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-core:4.3.13.RELEASE",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/ch.rasc:wampspring:1.1.2/dependencies/org/springframework/spring-core/4.3.13.RELEASE/spring-core-4.3.13.RELEASE.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.Optional;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/ch.rasc:wampspring/src/main/java/ch/rasc/wampspring/method/WampAnnotationMethodMessageHandler.java",
+    "useImportReport" : [ {
+      "importPath" : "import org.springframework.messaging.MessageHandler;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-messaging:4.3.13.RELEASE",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/ch.rasc:wampspring:1.1.2/dependencies/org/springframework/spring-messaging/4.3.13.RELEASE/spring-messaging-4.3.13.RELEASE.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.springframework.context.ApplicationContextAware;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-context:4.3.13.RELEASE",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/ch.rasc:wampspring:1.1.2/dependencies/org/springframework/spring-context/4.3.13.RELEASE/spring-context-4.3.13.RELEASE.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.springframework.beans.factory.InitializingBean;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-beans:4.3.13.RELEASE",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/ch.rasc:wampspring:1.1.2/dependencies/org/springframework/spring-beans/4.3.13.RELEASE/spring-beans-4.3.13.RELEASE.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.springframework.context.SmartLifecycle;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-context:4.3.13.RELEASE",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/ch.rasc:wampspring:1.1.2/dependencies/org/springframework/spring-context/4.3.13.RELEASE/spring-context-4.3.13.RELEASE.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import ch.rasc.wampspring.annotation.WampCallListener;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import ch.rasc.wampspring.annotation.WampPublishListener;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import ch.rasc.wampspring.annotation.WampSubscribeListener;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import ch.rasc.wampspring.annotation.WampUnsubscribeListener;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.springframework.messaging.SubscribableChannel;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-messaging:4.3.13.RELEASE",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/ch.rasc:wampspring:1.1.2/dependencies/org/springframework/spring-messaging/4.3.13.RELEASE/spring-messaging-4.3.13.RELEASE.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.springframework.messaging.MessageChannel;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-messaging:4.3.13.RELEASE",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/ch.rasc:wampspring:1.1.2/dependencies/org/springframework/spring-messaging/4.3.13.RELEASE/spring-messaging-4.3.13.RELEASE.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import ch.rasc.wampspring.EventMessenger;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.springframework.util.PathMatcher;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-core:4.3.13.RELEASE",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/ch.rasc:wampspring:1.1.2/dependencies/org/springframework/spring-core/4.3.13.RELEASE/spring-core-4.3.13.RELEASE.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import ch.rasc.wampspring.config.WampMessageSelector;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.apache.commons.logging.Log;",
+      "artifact" : {
+        "artifact" : "commons-logging:commons-logging:1.2",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/ch.rasc:wampspring:1.1.2/dependencies/commons-logging/commons-logging/1.2/commons-logging-1.2.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.apache.commons.logging.Log;",
+      "artifact" : {
+        "artifact" : "org.slf4j:jcl-over-slf4j:1.7.25",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/ch.rasc:wampspring:1.1.2/dependencies/org/slf4j/jcl-over-slf4j/1.7.25/jcl-over-slf4j-1.7.25.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.apache.commons.logging.LogFactory;",
+      "artifact" : {
+        "artifact" : "commons-logging:commons-logging:1.2",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/ch.rasc:wampspring:1.1.2/dependencies/commons-logging/commons-logging/1.2/commons-logging-1.2.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.apache.commons.logging.LogFactory;",
+      "artifact" : {
+        "artifact" : "org.slf4j:jcl-over-slf4j:1.7.25",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/ch.rasc:wampspring:1.1.2/dependencies/org/slf4j/jcl-over-slf4j/1.7.25/jcl-over-slf4j-1.7.25.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.springframework.core.convert.ConversionService;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-core:4.3.13.RELEASE",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/ch.rasc:wampspring:1.1.2/dependencies/org/springframework/spring-core/4.3.13.RELEASE/spring-core-4.3.13.RELEASE.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.List;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.springframework.messaging.handler.invocation.HandlerMethodArgumentResolver;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-messaging:4.3.13.RELEASE",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/ch.rasc:wampspring:1.1.2/dependencies/org/springframework/spring-messaging/4.3.13.RELEASE/spring-messaging-4.3.13.RELEASE.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import java.util.ArrayList;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.springframework.messaging.handler.invocation.HandlerMethodArgumentResolverComposite;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-messaging:4.3.13.RELEASE",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/ch.rasc:wampspring:1.1.2/dependencies/org/springframework/spring-messaging/4.3.13.RELEASE/spring-messaging-4.3.13.RELEASE.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.springframework.context.ApplicationContext;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-context:4.3.13.RELEASE",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/ch.rasc:wampspring:1.1.2/dependencies/org/springframework/spring-context/4.3.13.RELEASE/spring-context-4.3.13.RELEASE.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.springframework.util.MultiValueMap;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-core:4.3.13.RELEASE",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/ch.rasc:wampspring:1.1.2/dependencies/org/springframework/spring-core/4.3.13.RELEASE/spring-core-4.3.13.RELEASE.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.springframework.util.LinkedMultiValueMap;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-core:4.3.13.RELEASE",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/ch.rasc:wampspring:1.1.2/dependencies/org/springframework/spring-core/4.3.13.RELEASE/spring-core-4.3.13.RELEASE.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.springframework.messaging.converter.MessageConverter;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-messaging:4.3.13.RELEASE",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/ch.rasc:wampspring:1.1.2/dependencies/org/springframework/spring-messaging/4.3.13.RELEASE/spring-messaging-4.3.13.RELEASE.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.springframework.beans.factory.config.ConfigurableBeanFactory;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-beans:4.3.13.RELEASE",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/ch.rasc:wampspring:1.1.2/dependencies/org/springframework/spring-beans/4.3.13.RELEASE/spring-beans-4.3.13.RELEASE.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.springframework.util.ClassUtils;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-core:4.3.13.RELEASE",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/ch.rasc:wampspring:1.1.2/dependencies/org/springframework/spring-core/4.3.13.RELEASE/spring-core-4.3.13.RELEASE.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.springframework.context.ConfigurableApplicationContext;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-context:4.3.13.RELEASE",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/ch.rasc:wampspring:1.1.2/dependencies/org/springframework/spring-context/4.3.13.RELEASE/spring-context-4.3.13.RELEASE.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.springframework.messaging.handler.annotation.support.HeaderMethodArgumentResolver;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-messaging:4.3.13.RELEASE",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/ch.rasc:wampspring:1.1.2/dependencies/org/springframework/spring-messaging/4.3.13.RELEASE/spring-messaging-4.3.13.RELEASE.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.springframework.messaging.handler.annotation.support.HeadersMethodArgumentResolver;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-messaging:4.3.13.RELEASE",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/ch.rasc:wampspring:1.1.2/dependencies/org/springframework/spring-messaging/4.3.13.RELEASE/spring-messaging-4.3.13.RELEASE.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.springframework.messaging.handler.annotation.support.DestinationVariableMethodArgumentResolver;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-messaging:4.3.13.RELEASE",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/ch.rasc:wampspring:1.1.2/dependencies/org/springframework/spring-messaging/4.3.13.RELEASE/spring-messaging-4.3.13.RELEASE.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.springframework.messaging.handler.annotation.support.MessageMethodArgumentResolver;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-messaging:4.3.13.RELEASE",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/ch.rasc:wampspring:1.1.2/dependencies/org/springframework/spring-messaging/4.3.13.RELEASE/spring-messaging-4.3.13.RELEASE.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import ch.rasc.wampspring.message.WampMessage;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import ch.rasc.wampspring.message.CallMessage;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import ch.rasc.wampspring.message.PublishMessage;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import ch.rasc.wampspring.message.SubscribeMessage;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import ch.rasc.wampspring.message.UnsubscribeMessage;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import ch.rasc.wampspring.config.WampSession;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.springframework.messaging.Message;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-messaging:4.3.13.RELEASE",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/ch.rasc:wampspring:1.1.2/dependencies/org/springframework/spring-messaging/4.3.13.RELEASE/spring-messaging-4.3.13.RELEASE.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.springframework.messaging.MessagingException;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-messaging:4.3.13.RELEASE",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/ch.rasc:wampspring:1.1.2/dependencies/org/springframework/spring-messaging/4.3.13.RELEASE/spring-messaging-4.3.13.RELEASE.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import ch.rasc.wampspring.message.CallResultMessage;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import ch.rasc.wampspring.message.CallErrorMessage;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.springframework.messaging.MessageDeliveryException;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-messaging:4.3.13.RELEASE",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/ch.rasc:wampspring:1.1.2/dependencies/org/springframework/spring-messaging/4.3.13.RELEASE/spring-messaging-4.3.13.RELEASE.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.springframework.util.StringUtils;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-core:4.3.13.RELEASE",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/ch.rasc:wampspring:1.1.2/dependencies/org/springframework/spring-core/4.3.13.RELEASE/spring-core-4.3.13.RELEASE.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.lang.annotation.Annotation;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.Set;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.lang.reflect.Method;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.springframework.core.MethodIntrospector;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-core:4.3.13.RELEASE",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/ch.rasc:wampspring:1.1.2/dependencies/org/springframework/spring-core/4.3.13.RELEASE/spring-core-4.3.13.RELEASE.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.springframework.util.ReflectionUtils.MethodFilter;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-core:4.3.13.RELEASE",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/ch.rasc:wampspring:1.1.2/dependencies/org/springframework/spring-core/4.3.13.RELEASE/spring-core-4.3.13.RELEASE.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.springframework.core.annotation.AnnotationUtils;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-core:4.3.13.RELEASE",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/ch.rasc:wampspring:1.1.2/dependencies/org/springframework/spring-core/4.3.13.RELEASE/spring-core-4.3.13.RELEASE.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import ch.rasc.wampspring.annotation.WampAuthenticated;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.LinkedHashSet;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.springframework.beans.BeansException;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-beans:4.3.13.RELEASE",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/ch.rasc:wampspring:1.1.2/dependencies/org/springframework/spring-beans/4.3.13.RELEASE/spring-beans-4.3.13.RELEASE.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.Collection;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.Map;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.springframework.util.CollectionUtils;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-core:4.3.13.RELEASE",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/ch.rasc:wampspring:1.1.2/dependencies/org/springframework/spring-core/4.3.13.RELEASE/spring-core-4.3.13.RELEASE.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import ch.rasc.wampspring.config.WampSessionContextHolder;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/ch.rasc:wampspring/src/main/java/ch/rasc/wampspring/method/PrincipalMethodArgumentResolver.java",
+    "useImportReport" : [ {
+      "importPath" : "import org.springframework.messaging.handler.invocation.HandlerMethodArgumentResolver;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-messaging:4.3.13.RELEASE",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/ch.rasc:wampspring:1.1.2/dependencies/org/springframework/spring-messaging/4.3.13.RELEASE/spring-messaging-4.3.13.RELEASE.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import java.security.Principal;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.springframework.core.MethodParameter;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-core:4.3.13.RELEASE",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/ch.rasc:wampspring:1.1.2/dependencies/org/springframework/spring-core/4.3.13.RELEASE/spring-core-4.3.13.RELEASE.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.springframework.messaging.Message;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-messaging:4.3.13.RELEASE",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/ch.rasc:wampspring:1.1.2/dependencies/org/springframework/spring-messaging/4.3.13.RELEASE/spring-messaging-4.3.13.RELEASE.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import ch.rasc.wampspring.message.WampMessage;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.springframework.messaging.MessageHandlingException;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-messaging:4.3.13.RELEASE",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/ch.rasc:wampspring:1.1.2/dependencies/org/springframework/spring-messaging/4.3.13.RELEASE/spring-messaging-4.3.13.RELEASE.jar"
+      },
+      "isDirectDependency" : true
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  } ],
+  "projectUseDependencies" : [ {
+    "artifact" : "org.springframework:spring-messaging:4.3.13.RELEASE",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/ch.rasc:wampspring:1.1.2/dependencies/org/springframework/spring-messaging/4.3.13.RELEASE/spring-messaging-4.3.13.RELEASE.jar"
+  }, {
+    "artifact" : "com.fasterxml.jackson.core:jackson-databind:2.9.2",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/ch.rasc:wampspring:1.1.2/dependencies/com/fasterxml/jackson/core/jackson-databind/2.9.2/jackson-databind-2.9.2.jar"
+  }, {
+    "artifact" : "org.springframework:spring-webmvc:4.3.13.RELEASE",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/ch.rasc:wampspring:1.1.2/dependencies/org/springframework/spring-webmvc/4.3.13.RELEASE/spring-webmvc-4.3.13.RELEASE.jar"
+  }, {
+    "artifact" : "org.springframework:spring-websocket:4.3.13.RELEASE",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/ch.rasc:wampspring:1.1.2/dependencies/org/springframework/spring-websocket/4.3.13.RELEASE/spring-websocket-4.3.13.RELEASE.jar"
+  }, {
+    "artifact" : "org.springframework:spring-context:4.3.13.RELEASE",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/ch.rasc:wampspring:1.1.2/dependencies/org/springframework/spring-context/4.3.13.RELEASE/spring-context-4.3.13.RELEASE.jar"
+  }, {
+    "artifact" : "org.springframework:spring-core:4.3.13.RELEASE",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/ch.rasc:wampspring:1.1.2/dependencies/org/springframework/spring-core/4.3.13.RELEASE/spring-core-4.3.13.RELEASE.jar"
+  } ],
+  "projectUseTransitiveDependencies" : [ ],
+  "projectUnusedDependencies" : [ ]
+}

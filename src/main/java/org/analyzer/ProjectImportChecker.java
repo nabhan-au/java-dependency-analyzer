@@ -404,11 +404,11 @@ public class ProjectImportChecker {
 //        var writeFileDestination = "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/java-dependency-analyzer/dependency-output";
 //        checker.exportToJson(projectReport, writeFileDestination);
 
-        var projectArtifact = "org.terrakube.terraform:terraform-spring-boot-autoconfigure:0.5.0";
-        var repoPath = "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/org.terrakube.terraform:terraform-spring-boot-autoconfigure/terraform-spring-boot-autoconfigure";
-        var repoBasePath = "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/org.terrakube.terraform:terraform-spring-boot-autoconfigure";
+        var projectArtifact = "net.cactusthorn.config:jasypt:0.30";
+        var repoPath = "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/net.cactusthorn.config:jasypt/jasypt";
+        var repoBasePath = "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/net.cactusthorn.config:jasypt";
         var subPath = "";
-        var gitBranch = "0.5.0";
+        var gitBranch = "v0.30";
 
         GitUtils.gitCheckoutBranch(repoPath, gitBranch);
         var checker = new ProjectImportChecker(neo4jConnector, repoBasePath, repoPath, subPath, destinationPath, true, projectArtifact, new HashMap<>(){}, false);

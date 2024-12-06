@@ -1,0 +1,161 @@
+{
+  "projectArtifact" : "net.cactusthorn.config:config-zookeeper:0.81",
+  "repositoryDir" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/net.cactusthorn.config:config-zookeeper/zookeeper",
+  "repositorySubDir" : "",
+  "artifactLocation" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/net.cactusthorn.config:config-zookeeper:0.81",
+  "fileImportReports" : [ {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/net.cactusthorn.config:config-zookeeper/zookeeper/src/main/java/net/cactusthorn/config/extras/zookeeper/ZooKeeperLoader.java",
+    "useImportReport" : [ {
+      "importPath" : "import net.cactusthorn.config.core.loader.Loader;",
+      "artifact" : {
+        "artifact" : "net.cactusthorn.config:config-core:0.81",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/net.cactusthorn.config:config-zookeeper:0.81/dependencies/net/cactusthorn/config/config-core/0.81/config-core-0.81.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.slf4j.Logger;",
+      "artifact" : {
+        "artifact" : "org.slf4j:slf4j-api:1.7.36",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/net.cactusthorn.config:config-zookeeper:0.81/dependencies/org/slf4j/slf4j-api/1.7.36/slf4j-api-1.7.36.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.slf4j.LoggerFactory;",
+      "artifact" : {
+        "artifact" : "org.slf4j:slf4j-api:1.7.36",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/net.cactusthorn.config:config-zookeeper:0.81/dependencies/org/slf4j/slf4j-api/1.7.36/slf4j-api-1.7.36.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import net.cactusthorn.config.extras.zookeeper.util.ZNodeToMapParser;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.net.URI;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.Map;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import static net.cactusthorn.config.core.util.ApiMessages.msg;",
+      "artifact" : {
+        "artifact" : "net.cactusthorn.config:config-core:0.81",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/net.cactusthorn.config:config-zookeeper:0.81/dependencies/net/cactusthorn/config/config-core/0.81/config-core-0.81.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import static net.cactusthorn.config.core.util.ApiMessages.Key.CANT_LOAD_RESOURCE;",
+      "artifact" : {
+        "artifact" : "net.cactusthorn.config:config-core:0.81",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/net.cactusthorn.config:config-zookeeper:0.81/dependencies/net/cactusthorn/config/config-core/0.81/config-core-0.81.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.Collections;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.Arrays;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.stream.Collectors;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/net.cactusthorn.config:config-zookeeper/zookeeper/src/main/java/net/cactusthorn/config/extras/zookeeper/util/ZNodeToMapParser.java",
+    "useImportReport" : [ {
+      "importPath" : "import org.apache.curator.RetryPolicy;",
+      "artifact" : {
+        "artifact" : "org.apache.curator:curator-client:5.4.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/net.cactusthorn.config:config-zookeeper:0.81/dependencies/org/apache/curator/curator-client/5.4.0/curator-client-5.4.0.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.Map;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.apache.curator.framework.CuratorFramework;",
+      "artifact" : {
+        "artifact" : "org.apache.curator:curator-framework:5.4.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/net.cactusthorn.config:config-zookeeper:0.81/dependencies/org/apache/curator/curator-framework/5.4.0/curator-framework-5.4.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.apache.curator.framework.CuratorFrameworkFactory;",
+      "artifact" : {
+        "artifact" : "org.apache.curator:curator-framework:5.4.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/net.cactusthorn.config:config-zookeeper:0.81/dependencies/org/apache/curator/curator-framework/5.4.0/curator-framework-5.4.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import static java.util.concurrent.TimeUnit.MILLISECONDS;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.HashMap;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.apache.curator.utils.ZKPaths;",
+      "artifact" : {
+        "artifact" : "org.apache.curator:curator-client:5.4.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/net.cactusthorn.config:config-zookeeper:0.81/dependencies/org/apache/curator/curator-client/5.4.0/curator-client-5.4.0.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.nio.charset.StandardCharsets;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  } ],
+  "projectUseDependencies" : [ {
+    "artifact" : "org.slf4j:slf4j-api:1.7.36",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/net.cactusthorn.config:config-zookeeper:0.81/dependencies/org/slf4j/slf4j-api/1.7.36/slf4j-api-1.7.36.jar"
+  }, {
+    "artifact" : "org.apache.curator:curator-framework:5.4.0",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/net.cactusthorn.config:config-zookeeper:0.81/dependencies/org/apache/curator/curator-framework/5.4.0/curator-framework-5.4.0.jar"
+  } ],
+  "projectUseTransitiveDependencies" : [ ],
+  "projectUnusedDependencies" : [ ]
+}

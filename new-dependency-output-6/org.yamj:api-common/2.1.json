@@ -1,0 +1,684 @@
+{
+  "projectArtifact" : "org.yamj:api-common:2.1",
+  "repositoryDir" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/org.yamj:api-common",
+  "repositorySubDir" : "",
+  "artifactLocation" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.yamj:api-common:2.1",
+  "fileImportReports" : [ {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/org.yamj:api-common/src/main/java/org/yamj/api/common/tools/ResponseTools.java",
+    "useImportReport" : [ {
+      "importPath" : "import org.yamj.api.common.http.DigestedResponse;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.yamj.api.common.exception.ApiException;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/org.yamj:api-common/src/main/java/org/yamj/api/common/http/DigestedResponseReader.java",
+    "useImportReport" : [ {
+      "importPath" : "import org.slf4j.Logger;",
+      "artifact" : {
+        "artifact" : "org.slf4j:slf4j-api:1.7.24",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.yamj:api-common:2.1/dependencies/org/slf4j/slf4j-api/1.7.24/slf4j-api-1.7.24.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.slf4j.LoggerFactory;",
+      "artifact" : {
+        "artifact" : "org.slf4j:slf4j-api:1.7.24",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.yamj:api-common:2.1/dependencies/org/slf4j/slf4j-api/1.7.24/slf4j-api-1.7.24.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import java.io.IOException;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.apache.http.client.HttpClient;",
+      "artifact" : {
+        "artifact" : "org.apache.httpcomponents:httpclient:4.5.3",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.yamj:api-common:2.1/dependencies/org/apache/httpcomponents/httpclient/4.5.3/httpclient-4.5.3.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.apache.http.client.methods.HttpGet;",
+      "artifact" : {
+        "artifact" : "org.apache.httpcomponents:httpclient:4.5.3",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.yamj:api-common:2.1/dependencies/org/apache/httpcomponents/httpclient/4.5.3/httpclient-4.5.3.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import java.nio.charset.Charset;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.apache.http.client.methods.HttpDelete;",
+      "artifact" : {
+        "artifact" : "org.apache.httpcomponents:httpclient:4.5.3",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.yamj:api-common:2.1/dependencies/org/apache/httpcomponents/httpclient/4.5.3/httpclient-4.5.3.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.apache.http.client.methods.HttpPost;",
+      "artifact" : {
+        "artifact" : "org.apache.httpcomponents:httpclient:4.5.3",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.yamj:api-common:2.1/dependencies/org/apache/httpcomponents/httpclient/4.5.3/httpclient-4.5.3.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.apache.http.client.methods.HttpRequestBase;",
+      "artifact" : {
+        "artifact" : "org.apache.httpcomponents:httpclient:4.5.3",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.yamj:api-common:2.1/dependencies/org/apache/httpcomponents/httpclient/4.5.3/httpclient-4.5.3.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.apache.http.HttpResponse;",
+      "artifact" : {
+        "artifact" : "org.apache.httpcomponents:httpcore:4.4.6",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.yamj:api-common:2.1/dependencies/org/apache/httpcomponents/httpcore/4.4.6/httpcore-4.4.6.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.apache.http.conn.ConnectTimeoutException;",
+      "artifact" : {
+        "artifact" : "org.apache.httpcomponents:httpclient:4.5.3",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.yamj:api-common:2.1/dependencies/org/apache/httpcomponents/httpclient/4.5.3/httpclient-4.5.3.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import java.net.SocketTimeoutException;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.io.StringWriter;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.io.InputStream;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.io.InputStreamReader;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.io.BufferedReader;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/org.yamj:api-common/src/main/java/org/yamj/api/common/http/DigestedResponse.java",
+    "useImportReport" : [ {
+      "importPath" : "import java.io.Serializable;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/org.yamj:api-common/src/main/java/org/yamj/api/common/http/CommonHttpClient.java",
+    "useImportReport" : [ {
+      "importPath" : "import org.apache.http.client.HttpClient;",
+      "artifact" : {
+        "artifact" : "org.apache.httpcomponents:httpclient:4.5.3",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.yamj:api-common:2.1/dependencies/org/apache/httpcomponents/httpclient/4.5.3/httpclient-4.5.3.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import java.net.URL;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.io.IOException;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.nio.charset.Charset;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.net.URI;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.apache.http.client.methods.HttpGet;",
+      "artifact" : {
+        "artifact" : "org.apache.httpcomponents:httpclient:4.5.3",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.yamj:api-common:2.1/dependencies/org/apache/httpcomponents/httpclient/4.5.3/httpclient-4.5.3.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.apache.http.HttpEntity;",
+      "artifact" : {
+        "artifact" : "org.apache.httpcomponents:httpcore:4.4.6",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.yamj:api-common:2.1/dependencies/org/apache/httpcomponents/httpcore/4.4.6/httpcore-4.4.6.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.apache.http.client.methods.HttpPost;",
+      "artifact" : {
+        "artifact" : "org.apache.httpcomponents:httpclient:4.5.3",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.yamj:api-common:2.1/dependencies/org/apache/httpcomponents/httpclient/4.5.3/httpclient-4.5.3.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.apache.http.client.methods.HttpDelete;",
+      "artifact" : {
+        "artifact" : "org.apache.httpcomponents:httpclient:4.5.3",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.yamj:api-common:2.1/dependencies/org/apache/httpcomponents/httpclient/4.5.3/httpclient-4.5.3.jar"
+      },
+      "isDirectDependency" : true
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/org.yamj:api-common/src/main/java/org/yamj/api/common/http/HttpClientWrapper.java",
+    "useImportReport" : [ {
+      "importPath" : "import java.io.Closeable;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.apache.http.client.HttpClient;",
+      "artifact" : {
+        "artifact" : "org.apache.httpcomponents:httpclient:4.5.3",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.yamj:api-common:2.1/dependencies/org/apache/httpcomponents/httpclient/4.5.3/httpclient-4.5.3.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.apache.http.client.methods.*;",
+      "artifact" : {
+        "artifact" : "org.apache.httpcomponents:httpclient:4.5.3",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.yamj:api-common:2.1/dependencies/org/apache/httpcomponents/httpclient/4.5.3/httpclient-4.5.3.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.apache.http.client.ClientProtocolException;",
+      "artifact" : {
+        "artifact" : "org.apache.httpcomponents:httpclient:4.5.3",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.yamj:api-common:2.1/dependencies/org/apache/httpcomponents/httpclient/4.5.3/httpclient-4.5.3.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.apache.http.*;",
+      "artifact" : {
+        "artifact" : "org.apache.httpcomponents:httpcore:4.4.6",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.yamj:api-common:2.1/dependencies/org/apache/httpcomponents/httpcore/4.4.6/httpcore-4.4.6.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.apache.http.protocol.HTTP;",
+      "artifact" : {
+        "artifact" : "org.apache.httpcomponents:httpcore:4.4.6",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.yamj:api-common:2.1/dependencies/org/apache/httpcomponents/httpcore/4.4.6/httpcore-4.4.6.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.apache.http.*;",
+      "artifact" : {
+        "artifact" : "org.apache.httpcomponents:httpcore:4.4.6",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.yamj:api-common:2.1/dependencies/org/apache/httpcomponents/httpcore/4.4.6/httpcore-4.4.6.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.apache.http.*;",
+      "artifact" : {
+        "artifact" : "org.apache.httpcomponents:httpcore:4.4.6",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.yamj:api-common:2.1/dependencies/org/apache/httpcomponents/httpcore/4.4.6/httpcore-4.4.6.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.net.URI;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.apache.http.client.utils.URIUtils;",
+      "artifact" : {
+        "artifact" : "org.apache.httpcomponents:httpclient:4.5.3",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.yamj:api-common:2.1/dependencies/org/apache/httpcomponents/httpclient/4.5.3/httpclient-4.5.3.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import java.net.URL;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.io.IOException;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.nio.charset.Charset;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.apache.http.client.methods.*;",
+      "artifact" : {
+        "artifact" : "org.apache.httpcomponents:httpclient:4.5.3",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.yamj:api-common:2.1/dependencies/org/apache/httpcomponents/httpclient/4.5.3/httpclient-4.5.3.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.apache.http.*;",
+      "artifact" : {
+        "artifact" : "org.apache.httpcomponents:httpcore:4.4.6",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.yamj:api-common:2.1/dependencies/org/apache/httpcomponents/httpcore/4.4.6/httpcore-4.4.6.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.apache.http.client.methods.*;",
+      "artifact" : {
+        "artifact" : "org.apache.httpcomponents:httpclient:4.5.3",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.yamj:api-common:2.1/dependencies/org/apache/httpcomponents/httpclient/4.5.3/httpclient-4.5.3.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.apache.http.client.methods.*;",
+      "artifact" : {
+        "artifact" : "org.apache.httpcomponents:httpclient:4.5.3",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.yamj:api-common:2.1/dependencies/org/apache/httpcomponents/httpclient/4.5.3/httpclient-4.5.3.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.apache.http.*;",
+      "artifact" : {
+        "artifact" : "org.apache.httpcomponents:httpcore:4.4.6",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.yamj:api-common:2.1/dependencies/org/apache/httpcomponents/httpcore/4.4.6/httpcore-4.4.6.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.apache.http.protocol.HttpContext;",
+      "artifact" : {
+        "artifact" : "org.apache.httpcomponents:httpcore:4.4.6",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.yamj:api-common:2.1/dependencies/org/apache/httpcomponents/httpcore/4.4.6/httpcore-4.4.6.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.apache.http.client.ResponseHandler;",
+      "artifact" : {
+        "artifact" : "org.apache.httpcomponents:httpclient:4.5.3",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.yamj:api-common:2.1/dependencies/org/apache/httpcomponents/httpclient/4.5.3/httpclient-4.5.3.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.apache.http.conn.ClientConnectionManager;",
+      "artifact" : {
+        "artifact" : "org.apache.httpcomponents:httpclient:4.5.3",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.yamj:api-common:2.1/dependencies/org/apache/httpcomponents/httpclient/4.5.3/httpclient-4.5.3.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.apache.http.params.HttpParams;",
+      "artifact" : {
+        "artifact" : "org.apache.httpcomponents:httpcore:4.4.6",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.yamj:api-common:2.1/dependencies/org/apache/httpcomponents/httpcore/4.4.6/httpcore-4.4.6.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.net.URISyntaxException;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/org.yamj:api-common/src/main/java/org/yamj/api/common/http/PoolingHttpClient.java",
+    "useImportReport" : [ {
+      "importPath" : "import org.slf4j.Logger;",
+      "artifact" : {
+        "artifact" : "org.slf4j:slf4j-api:1.7.24",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.yamj:api-common:2.1/dependencies/org/slf4j/slf4j-api/1.7.24/slf4j-api-1.7.24.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.slf4j.LoggerFactory;",
+      "artifact" : {
+        "artifact" : "org.slf4j:slf4j-api:1.7.24",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.yamj:api-common:2.1/dependencies/org/slf4j/slf4j-api/1.7.24/slf4j-api-1.7.24.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import java.nio.charset.Charset;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.apache.http.impl.conn.PoolingHttpClientConnectionManager;",
+      "artifact" : {
+        "artifact" : "org.apache.httpcomponents:httpclient:4.5.3",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.yamj:api-common:2.1/dependencies/org/apache/httpcomponents/httpclient/4.5.3/httpclient-4.5.3.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import java.util.*;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.*;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.apache.http.client.HttpClient;",
+      "artifact" : {
+        "artifact" : "org.apache.httpcomponents:httpclient:4.5.3",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.yamj:api-common:2.1/dependencies/org/apache/httpcomponents/httpclient/4.5.3/httpclient-4.5.3.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import java.util.*;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.*;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.apache.http.client.methods.HttpUriRequest;",
+      "artifact" : {
+        "artifact" : "org.apache.httpcomponents:httpclient:4.5.3",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.yamj:api-common:2.1/dependencies/org/apache/httpcomponents/httpclient/4.5.3/httpclient-4.5.3.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.apache.http.client.ClientProtocolException;",
+      "artifact" : {
+        "artifact" : "org.apache.httpcomponents:httpclient:4.5.3",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.yamj:api-common:2.1/dependencies/org/apache/httpcomponents/httpclient/4.5.3/httpclient-4.5.3.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.apache.http.HttpHost;",
+      "artifact" : {
+        "artifact" : "org.apache.httpcomponents:httpcore:4.4.6",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.yamj:api-common:2.1/dependencies/org/apache/httpcomponents/httpcore/4.4.6/httpcore-4.4.6.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.apache.http.HttpRequest;",
+      "artifact" : {
+        "artifact" : "org.apache.httpcomponents:httpcore:4.4.6",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.yamj:api-common:2.1/dependencies/org/apache/httpcomponents/httpcore/4.4.6/httpcore-4.4.6.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.apache.http.conn.routing.HttpRoute;",
+      "artifact" : {
+        "artifact" : "org.apache.httpcomponents:httpclient:4.5.3",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.yamj:api-common:2.1/dependencies/org/apache/httpcomponents/httpclient/4.5.3/httpclient-4.5.3.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.apache.http.client.methods.HttpGet;",
+      "artifact" : {
+        "artifact" : "org.apache.httpcomponents:httpclient:4.5.3",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.yamj:api-common:2.1/dependencies/org/apache/httpcomponents/httpclient/4.5.3/httpclient-4.5.3.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import java.io.IOException;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/org.yamj:api-common/src/main/java/org/yamj/api/common/http/WebBrowserUserAgentSelector.java",
+    "useImportReport" : [ {
+      "importPath" : "import java.util.Random;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.List;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.ArrayList;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/org.yamj:api-common/src/main/java/org/yamj/api/common/http/SimpleHttpClientBuilder.java",
+    "useImportReport" : [ {
+      "importPath" : "import org.apache.http.impl.client.*;",
+      "artifact" : {
+        "artifact" : "org.apache.httpcomponents:httpclient:4.5.3",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.yamj:api-common:2.1/dependencies/org/apache/httpcomponents/httpclient/4.5.3/httpclient-4.5.3.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.apache.http.HttpHost;",
+      "artifact" : {
+        "artifact" : "org.apache.httpcomponents:httpcore:4.4.6",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.yamj:api-common:2.1/dependencies/org/apache/httpcomponents/httpcore/4.4.6/httpcore-4.4.6.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.apache.http.client.CredentialsProvider;",
+      "artifact" : {
+        "artifact" : "org.apache.httpcomponents:httpclient:4.5.3",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.yamj:api-common:2.1/dependencies/org/apache/httpcomponents/httpclient/4.5.3/httpclient-4.5.3.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.apache.http.impl.client.*;",
+      "artifact" : {
+        "artifact" : "org.apache.httpcomponents:httpclient:4.5.3",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.yamj:api-common:2.1/dependencies/org/apache/httpcomponents/httpclient/4.5.3/httpclient-4.5.3.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.apache.http.impl.client.*;",
+      "artifact" : {
+        "artifact" : "org.apache.httpcomponents:httpclient:4.5.3",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.yamj:api-common:2.1/dependencies/org/apache/httpcomponents/httpclient/4.5.3/httpclient-4.5.3.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.apache.http.auth.AuthScope;",
+      "artifact" : {
+        "artifact" : "org.apache.httpcomponents:httpclient:4.5.3",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.yamj:api-common:2.1/dependencies/org/apache/httpcomponents/httpclient/4.5.3/httpclient-4.5.3.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.apache.http.auth.UsernamePasswordCredentials;",
+      "artifact" : {
+        "artifact" : "org.apache.httpcomponents:httpclient:4.5.3",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.yamj:api-common:2.1/dependencies/org/apache/httpcomponents/httpclient/4.5.3/httpclient-4.5.3.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.apache.http.impl.client.*;",
+      "artifact" : {
+        "artifact" : "org.apache.httpcomponents:httpclient:4.5.3",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.yamj:api-common:2.1/dependencies/org/apache/httpcomponents/httpclient/4.5.3/httpclient-4.5.3.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.apache.http.client.config.RequestConfig;",
+      "artifact" : {
+        "artifact" : "org.apache.httpcomponents:httpclient:4.5.3",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.yamj:api-common:2.1/dependencies/org/apache/httpcomponents/httpclient/4.5.3/httpclient-4.5.3.jar"
+      },
+      "isDirectDependency" : true
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/org.yamj:api-common/src/main/java/org/yamj/api/common/http/IUserAgentSelector.java",
+    "useImportReport" : [ ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/org.yamj:api-common/src/main/java/org/yamj/api/common/http/AndroidBrowserUserAgentSelector.java",
+    "useImportReport" : [ {
+      "importPath" : "import java.util.Random;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.List;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.ArrayList;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/org.yamj:api-common/src/main/java/org/yamj/api/common/exception/ApiException.java",
+    "useImportReport" : [ {
+      "importPath" : "import java.net.URL;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/org.yamj:api-common/src/main/java/org/yamj/api/common/exception/ClientAPIException.java",
+    "useImportReport" : [ {
+      "importPath" : "import org.yamj.api.common.http.DigestedResponse;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ {
+      "importPath" : "import javax.xml.ws.WebServiceException;"
+    } ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/org.yamj:api-common/src/main/java/org/yamj/api/common/exception/ApiExceptionType.java",
+    "useImportReport" : [ ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  } ],
+  "projectUseDependencies" : [ {
+    "artifact" : "org.slf4j:slf4j-api:1.7.24",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.yamj:api-common:2.1/dependencies/org/slf4j/slf4j-api/1.7.24/slf4j-api-1.7.24.jar"
+  }, {
+    "artifact" : "org.apache.httpcomponents:httpclient:4.5.3",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/org.yamj:api-common:2.1/dependencies/org/apache/httpcomponents/httpclient/4.5.3/httpclient-4.5.3.jar"
+  } ],
+  "projectUseTransitiveDependencies" : [ ],
+  "projectUnusedDependencies" : [ ]
+}

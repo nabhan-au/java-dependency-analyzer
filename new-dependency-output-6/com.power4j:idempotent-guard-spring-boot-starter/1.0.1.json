@@ -1,0 +1,422 @@
+{
+  "projectArtifact" : "com.power4j:idempotent-guard-spring-boot-starter:1.0.1",
+  "repositoryDir" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/com.power4j:idempotent-guard-spring-boot-starter/idempotent-guard-spring-boot-starter",
+  "repositorySubDir" : "",
+  "artifactLocation" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.power4j:idempotent-guard-spring-boot-starter:1.0.1",
+  "fileImportReports" : [ {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/com.power4j:idempotent-guard-spring-boot-starter/idempotent-guard-spring-boot-starter/src/main/java/com/power4j/boot/autoconfigure/idempotentguard/IdempotentGuardAutoConfiguration.java",
+    "useImportReport" : [ {
+      "importPath" : "import org.springframework.boot.autoconfigure.AutoConfiguration;",
+      "artifact" : {
+        "artifact" : "org.springframework.boot:spring-boot-autoconfigure:2.7.6",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.power4j:idempotent-guard-spring-boot-starter:1.0.1/dependencies/org/springframework/boot/spring-boot-autoconfigure/2.7.6/spring-boot-autoconfigure-2.7.6.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import lombok.RequiredArgsConstructor;",
+      "artifact" : {
+        "artifact" : "org.projectlombok:lombok:1.18.24",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.power4j:idempotent-guard-spring-boot-starter:1.0.1/dependencies/org/projectlombok/lombok/1.18.24/lombok-1.18.24.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.springframework.boot.context.properties.EnableConfigurationProperties;",
+      "artifact" : {
+        "artifact" : "org.springframework.boot:spring-boot:2.7.6",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.power4j:idempotent-guard-spring-boot-starter:1.0.1/dependencies/org/springframework/boot/spring-boot/2.7.6/spring-boot-2.7.6.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.springframework.boot.autoconfigure.condition.ConditionalOnProperty;",
+      "artifact" : {
+        "artifact" : "org.springframework.boot:spring-boot-autoconfigure:2.7.6",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.power4j:idempotent-guard-spring-boot-starter:1.0.1/dependencies/org/springframework/boot/spring-boot-autoconfigure/2.7.6/spring-boot-autoconfigure-2.7.6.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import com.power4j.idempotentguard.api.guard.KeyEncoder;",
+      "artifact" : {
+        "artifact" : "com.power4j:idempotent-guard-api:1.0.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.power4j:idempotent-guard-spring-boot-starter:1.0.1/dependencies/com/power4j/idempotent-guard-api/1.0.1/idempotent-guard-api-1.0.1.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.springframework.context.annotation.Bean;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-context:5.3.24",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.power4j:idempotent-guard-spring-boot-starter:1.0.1/dependencies/org/springframework/spring-context/5.3.24/spring-context-5.3.24.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.springframework.boot.autoconfigure.condition.ConditionalOnMissingBean;",
+      "artifact" : {
+        "artifact" : "org.springframework.boot:spring-boot-autoconfigure:2.7.6",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.power4j:idempotent-guard-spring-boot-starter:1.0.1/dependencies/org/springframework/boot/spring-boot-autoconfigure/2.7.6/spring-boot-autoconfigure-2.7.6.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import com.power4j.idempotentguard.spring.aspect.DefaultKeyEncoder;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.power4j.idempotentguard.spring.aspect.HoldResourceAspect;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.springframework.boot.autoconfigure.condition.ConditionalOnBean;",
+      "artifact" : {
+        "artifact" : "org.springframework.boot:spring-boot-autoconfigure:2.7.6",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.power4j:idempotent-guard-spring-boot-starter:1.0.1/dependencies/org/springframework/boot/spring-boot-autoconfigure/2.7.6/spring-boot-autoconfigure-2.7.6.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import com.power4j.idempotentguard.api.handler.GuardExceptionTranslator;",
+      "artifact" : {
+        "artifact" : "com.power4j:idempotent-guard-api:1.0.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.power4j:idempotent-guard-spring-boot-starter:1.0.1/dependencies/com/power4j/idempotent-guard-api/1.0.1/idempotent-guard-api-1.0.1.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import com.power4j.idempotentguard.api.guard.AccessGuard;",
+      "artifact" : {
+        "artifact" : "com.power4j:idempotent-guard-api:1.0.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.power4j:idempotent-guard-spring-boot-starter:1.0.1/dependencies/com/power4j/idempotent-guard-api/1.0.1/idempotent-guard-api-1.0.1.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.springframework.context.annotation.Configuration;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-context:5.3.24",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.power4j:idempotent-guard-spring-boot-starter:1.0.1/dependencies/org/springframework/spring-context/5.3.24/spring-context-5.3.24.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import javax.sql.DataSource;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.springframework.jdbc.core.JdbcOperations;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-jdbc:5.3.24",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.power4j:idempotent-guard-spring-boot-starter:1.0.1/dependencies/org/springframework/spring-jdbc/5.3.24/spring-jdbc-5.3.24.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.springframework.jdbc.core.JdbcTemplate;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-jdbc:5.3.24",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.power4j:idempotent-guard-spring-boot-starter:1.0.1/dependencies/org/springframework/spring-jdbc/5.3.24/spring-jdbc-5.3.24.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.power4j.idempotentguard.jdbc.JdbcOperator;",
+      "artifact" : {
+        "artifact" : "com.power4j:idempotent-guard-jdbc:1.0.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.power4j:idempotent-guard-spring-boot-starter:1.0.1/dependencies/com/power4j/idempotent-guard-jdbc/1.0.1/idempotent-guard-jdbc-1.0.1.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import com.power4j.idempotentguard.jdbc.GeneralJdbcOperator;",
+      "artifact" : {
+        "artifact" : "com.power4j:idempotent-guard-jdbc:1.0.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.power4j:idempotent-guard-spring-boot-starter:1.0.1/dependencies/com/power4j/idempotent-guard-jdbc/1.0.1/idempotent-guard-jdbc-1.0.1.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import com.power4j.idempotentguard.jdbc.GeneralJdbcGuard;",
+      "artifact" : {
+        "artifact" : "com.power4j:idempotent-guard-jdbc:1.0.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.power4j:idempotent-guard-spring-boot-starter:1.0.1/dependencies/com/power4j/idempotent-guard-jdbc/1.0.1/idempotent-guard-jdbc-1.0.1.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import com.power4j.idempotentguard.jdbc.ClearJob;",
+      "artifact" : {
+        "artifact" : "com.power4j:idempotent-guard-jdbc:1.0.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.power4j:idempotent-guard-spring-boot-starter:1.0.1/dependencies/com/power4j/idempotent-guard-jdbc/1.0.1/idempotent-guard-jdbc-1.0.1.jar"
+      },
+      "isDirectDependency" : true
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/com.power4j:idempotent-guard-spring-boot-starter/idempotent-guard-spring-boot-starter/src/main/java/com/power4j/boot/autoconfigure/idempotentguard/IdempotentGuardProperties.java",
+    "useImportReport" : [ {
+      "importPath" : "import lombok.Data;",
+      "artifact" : {
+        "artifact" : "org.projectlombok:lombok:1.18.24",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.power4j:idempotent-guard-spring-boot-starter:1.0.1/dependencies/org/projectlombok/lombok/1.18.24/lombok-1.18.24.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.springframework.boot.context.properties.ConfigurationProperties;",
+      "artifact" : {
+        "artifact" : "org.springframework.boot:spring-boot:2.7.6",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.power4j:idempotent-guard-spring-boot-starter:1.0.1/dependencies/org/springframework/boot/spring-boot/2.7.6/spring-boot-2.7.6.jar"
+      },
+      "isDirectDependency" : true
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/com.power4j:idempotent-guard-spring-boot-starter/idempotent-guard-spring-boot-starter/src/main/java/com/power4j/idempotentguard/spring/aspect/DefaultKeyEncoder.java",
+    "useImportReport" : [ {
+      "importPath" : "import com.power4j.idempotentguard.api.guard.KeyEncoder;",
+      "artifact" : {
+        "artifact" : "com.power4j:idempotent-guard-api:1.0.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.power4j:idempotent-guard-spring-boot-starter:1.0.1/dependencies/com/power4j/idempotent-guard-api/1.0.1/idempotent-guard-api-1.0.1.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import java.util.List;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.Objects;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.stream.Collectors;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.apache.commons.codec.digest.DigestUtils;",
+      "artifact" : {
+        "artifact" : "commons-codec:commons-codec:1.15",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.power4j:idempotent-guard-spring-boot-starter:1.0.1/dependencies/commons-codec/commons-codec/1.15/commons-codec-1.15.jar"
+      },
+      "isDirectDependency" : true
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/com.power4j:idempotent-guard-spring-boot-starter/idempotent-guard-spring-boot-starter/src/main/java/com/power4j/idempotentguard/spring/aspect/HoldResourceAspect.java",
+    "useImportReport" : [ {
+      "importPath" : "import lombok.extern.slf4j.Slf4j;",
+      "artifact" : {
+        "artifact" : "org.projectlombok:lombok:1.18.24",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.power4j:idempotent-guard-spring-boot-starter:1.0.1/dependencies/org/projectlombok/lombok/1.18.24/lombok-1.18.24.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.aspectj.lang.annotation.Aspect;",
+      "artifact" : {
+        "artifact" : "org.aspectj:aspectjweaver:1.9.7",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.power4j:idempotent-guard-spring-boot-starter:1.0.1/dependencies/org/aspectj/aspectjweaver/1.9.7/aspectjweaver-1.9.7.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import lombok.RequiredArgsConstructor;",
+      "artifact" : {
+        "artifact" : "org.projectlombok:lombok:1.18.24",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.power4j:idempotent-guard-spring-boot-starter:1.0.1/dependencies/org/projectlombok/lombok/1.18.24/lombok-1.18.24.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import com.power4j.idempotentguard.api.guard.KeyEncoder;",
+      "artifact" : {
+        "artifact" : "com.power4j:idempotent-guard-api:1.0.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.power4j:idempotent-guard-spring-boot-starter:1.0.1/dependencies/com/power4j/idempotent-guard-api/1.0.1/idempotent-guard-api-1.0.1.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import com.power4j.idempotentguard.api.handler.GuardExceptionTranslator;",
+      "artifact" : {
+        "artifact" : "com.power4j:idempotent-guard-api:1.0.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.power4j:idempotent-guard-spring-boot-starter:1.0.1/dependencies/com/power4j/idempotent-guard-api/1.0.1/idempotent-guard-api-1.0.1.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import com.power4j.idempotentguard.api.guard.AccessGuard;",
+      "artifact" : {
+        "artifact" : "com.power4j:idempotent-guard-api:1.0.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.power4j:idempotent-guard-spring-boot-starter:1.0.1/dependencies/com/power4j/idempotent-guard-api/1.0.1/idempotent-guard-api-1.0.1.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import java.time.Duration;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import lombok.Setter;",
+      "artifact" : {
+        "artifact" : "org.projectlombok:lombok:1.18.24",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.power4j:idempotent-guard-spring-boot-starter:1.0.1/dependencies/org/projectlombok/lombok/1.18.24/lombok-1.18.24.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.aspectj.lang.annotation.Around;",
+      "artifact" : {
+        "artifact" : "org.aspectj:aspectjweaver:1.9.7",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.power4j:idempotent-guard-spring-boot-starter:1.0.1/dependencies/org/aspectj/aspectjweaver/1.9.7/aspectjweaver-1.9.7.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.aspectj.lang.ProceedingJoinPoint;",
+      "artifact" : {
+        "artifact" : "org.aspectj:aspectjweaver:1.9.7",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.power4j:idempotent-guard-spring-boot-starter:1.0.1/dependencies/org/aspectj/aspectjweaver/1.9.7/aspectjweaver-1.9.7.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.power4j.idempotentguard.api.annotation.LockGuard;",
+      "artifact" : {
+        "artifact" : "com.power4j:idempotent-guard-api:1.0.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.power4j:idempotent-guard-spring-boot-starter:1.0.1/dependencies/com/power4j/idempotent-guard-api/1.0.1/idempotent-guard-api-1.0.1.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import java.util.List;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.apache.commons.lang3.tuple.Pair;",
+      "artifact" : {
+        "artifact" : "org.apache.commons:commons-lang3:3.12.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.power4j:idempotent-guard-spring-boot-starter:1.0.1/dependencies/org/apache/commons/commons-lang3/3.12.0/commons-lang3-3.12.0.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.stream.Collectors;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.power4j.idempotentguard.api.guard.HoldRequest;",
+      "artifact" : {
+        "artifact" : "com.power4j:idempotent-guard-api:1.0.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.power4j:idempotent-guard-spring-boot-starter:1.0.1/dependencies/com/power4j/idempotent-guard-api/1.0.1/idempotent-guard-api-1.0.1.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import com.power4j.idempotentguard.api.guard.Holder;",
+      "artifact" : {
+        "artifact" : "com.power4j:idempotent-guard-api:1.0.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.power4j:idempotent-guard-spring-boot-starter:1.0.1/dependencies/com/power4j/idempotent-guard-api/1.0.1/idempotent-guard-api-1.0.1.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import com.power4j.idempotentguard.api.exception.ResourceGuardException;",
+      "artifact" : {
+        "artifact" : "com.power4j:idempotent-guard-api:1.0.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.power4j:idempotent-guard-spring-boot-starter:1.0.1/dependencies/com/power4j/idempotent-guard-api/1.0.1/idempotent-guard-api-1.0.1.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import java.lang.reflect.Method;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.power4j.fist.support.spring.aop.AopUtil;",
+      "artifact" : {
+        "artifact" : "com.power4j.fist:fist-support-spring:2022.1.5",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.power4j:idempotent-guard-spring-boot-starter:1.0.1/dependencies/com/power4j/fist/fist-support-spring/2022.1.5/fist-support-spring-2022.1.5.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import com.power4j.fist.support.spring.spel.VariableProvider;",
+      "artifact" : {
+        "artifact" : "com.power4j.fist:fist-support-spring:2022.1.5",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.power4j:idempotent-guard-spring-boot-starter:1.0.1/dependencies/com/power4j/fist/fist-support-spring/2022.1.5/fist-support-spring-2022.1.5.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import com.power4j.fist.support.spring.spel.MethodParameterResolver;",
+      "artifact" : {
+        "artifact" : "com.power4j.fist:fist-support-spring:2022.1.5",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.power4j:idempotent-guard-spring-boot-starter:1.0.1/dependencies/com/power4j/fist/fist-support-spring/2022.1.5/fist-support-spring-2022.1.5.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import java.util.Arrays;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.springframework.lang.Nullable;",
+      "artifact" : {
+        "artifact" : "org.springframework:spring-core:5.3.24",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.power4j:idempotent-guard-spring-boot-starter:1.0.1/dependencies/org/springframework/spring-core/5.3.24/spring-core-5.3.24.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.apache.commons.lang3.StringUtils;",
+      "artifact" : {
+        "artifact" : "org.apache.commons:commons-lang3:3.12.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.power4j:idempotent-guard-spring-boot-starter:1.0.1/dependencies/org/apache/commons/commons-lang3/3.12.0/commons-lang3-3.12.0.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.power4j.fist.support.spring.spel.SpringElUtil;",
+      "artifact" : {
+        "artifact" : "com.power4j.fist:fist-support-spring:2022.1.5",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.power4j:idempotent-guard-spring-boot-starter:1.0.1/dependencies/com/power4j/fist/fist-support-spring/2022.1.5/fist-support-spring-2022.1.5.jar"
+      },
+      "isDirectDependency" : true
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  } ],
+  "projectUseDependencies" : [ {
+    "artifact" : "org.springframework.boot:spring-boot-autoconfigure:2.7.6",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.power4j:idempotent-guard-spring-boot-starter:1.0.1/dependencies/org/springframework/boot/spring-boot-autoconfigure/2.7.6/spring-boot-autoconfigure-2.7.6.jar"
+  }, {
+    "artifact" : "org.projectlombok:lombok:1.18.24",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.power4j:idempotent-guard-spring-boot-starter:1.0.1/dependencies/org/projectlombok/lombok/1.18.24/lombok-1.18.24.jar"
+  }, {
+    "artifact" : "org.springframework.boot:spring-boot:2.7.6",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.power4j:idempotent-guard-spring-boot-starter:1.0.1/dependencies/org/springframework/boot/spring-boot/2.7.6/spring-boot-2.7.6.jar"
+  }, {
+    "artifact" : "com.power4j:idempotent-guard-api:1.0.1",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.power4j:idempotent-guard-spring-boot-starter:1.0.1/dependencies/com/power4j/idempotent-guard-api/1.0.1/idempotent-guard-api-1.0.1.jar"
+  }, {
+    "artifact" : "com.power4j:idempotent-guard-jdbc:1.0.1",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.power4j:idempotent-guard-spring-boot-starter:1.0.1/dependencies/com/power4j/idempotent-guard-jdbc/1.0.1/idempotent-guard-jdbc-1.0.1.jar"
+  }, {
+    "artifact" : "commons-codec:commons-codec:1.15",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.power4j:idempotent-guard-spring-boot-starter:1.0.1/dependencies/commons-codec/commons-codec/1.15/commons-codec-1.15.jar"
+  }, {
+    "artifact" : "com.power4j.fist:fist-support-spring:2022.1.5",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.power4j:idempotent-guard-spring-boot-starter:1.0.1/dependencies/com/power4j/fist/fist-support-spring/2022.1.5/fist-support-spring-2022.1.5.jar"
+  } ],
+  "projectUseTransitiveDependencies" : [ ],
+  "projectUnusedDependencies" : [ {
+    "artifact" : "org.springframework.boot:spring-boot-configuration-processor:2.7.6",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.power4j:idempotent-guard-spring-boot-starter:1.0.1/dependencies/org/springframework/boot/spring-boot-configuration-processor/2.7.6/spring-boot-configuration-processor-2.7.6.jar"
+  } ]
+}

@@ -1,0 +1,1384 @@
+{
+  "projectArtifact" : "io.github.nikosrig:mastercard-ais:1.1.0",
+  "repositoryDir" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/io.github.nikosrig:mastercard-ais",
+  "repositorySubDir" : "",
+  "artifactLocation" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.github.nikosrig:mastercard-ais:1.1.0",
+  "fileImportReports" : [ {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/io.github.nikosrig:mastercard-ais/src/main/java/io/github/nikosrig/Accounts.java",
+    "useImportReport" : [ {
+      "importPath" : "import com.google.gson.Gson;",
+      "artifact" : {
+        "artifact" : "com.google.code.gson:gson:2.10",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.github.nikosrig:mastercard-ais:1.1.0/dependencies/com/google/code/gson/gson/2.10/gson-2.10.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import io.github.nikosrig.http.MastercardAisClient;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.google.gson.GsonBuilder;",
+      "artifact" : {
+        "artifact" : "com.google.code.gson:gson:2.10",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.github.nikosrig:mastercard-ais:1.1.0/dependencies/com/google/code/gson/gson/2.10/gson-2.10.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import io.github.nikosrig.model.Account;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import io.github.nikosrig.request.GetAccountRequest;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.google.gson.JsonObject;",
+      "artifact" : {
+        "artifact" : "com.google.code.gson:gson:2.10",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.github.nikosrig:mastercard-ais:1.1.0/dependencies/com/google/code/gson/gson/2.10/gson-2.10.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import com.google.gson.JsonPrimitive;",
+      "artifact" : {
+        "artifact" : "com.google.code.gson:gson:2.10",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.github.nikosrig:mastercard-ais:1.1.0/dependencies/com/google/code/gson/gson/2.10/gson-2.10.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import java.net.http.HttpResponse;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.json.JSONObject;",
+      "artifact" : {
+        "artifact" : "org.json:json:20220924",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.github.nikosrig:mastercard-ais:1.1.0/dependencies/org/json/json/20220924/json-20220924.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import io.github.nikosrig.request.GetBalanceRequest;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import io.github.nikosrig.model.AccountList;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import io.github.nikosrig.request.ListAccountsRequest;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/io.github.nikosrig:mastercard-ais/src/main/java/io/github/nikosrig/Consents.java",
+    "useImportReport" : [ {
+      "importPath" : "import com.google.gson.Gson;",
+      "artifact" : {
+        "artifact" : "com.google.code.gson:gson:2.10",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.github.nikosrig:mastercard-ais:1.1.0/dependencies/com/google/code/gson/gson/2.10/gson-2.10.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import io.github.nikosrig.http.MastercardAisClient;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.google.gson.GsonBuilder;",
+      "artifact" : {
+        "artifact" : "com.google.code.gson:gson:2.10",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.github.nikosrig:mastercard-ais:1.1.0/dependencies/com/google/code/gson/gson/2.10/gson-2.10.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import io.github.nikosrig.model.AuthorizedConsent;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import io.github.nikosrig.request.AuthConsentRequest;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.google.gson.JsonObject;",
+      "artifact" : {
+        "artifact" : "com.google.code.gson:gson:2.10",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.github.nikosrig:mastercard-ais:1.1.0/dependencies/com/google/code/gson/gson/2.10/gson-2.10.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import com.google.gson.JsonPrimitive;",
+      "artifact" : {
+        "artifact" : "com.google.code.gson:gson:2.10",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.github.nikosrig:mastercard-ais:1.1.0/dependencies/com/google/code/gson/gson/2.10/gson-2.10.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import java.net.http.HttpResponse;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import io.github.nikosrig.model.Consent;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import io.github.nikosrig.request.GetConsentRequest;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.time.format.DateTimeFormatter;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.json.JSONObject;",
+      "artifact" : {
+        "artifact" : "org.json:json:20220924",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.github.nikosrig:mastercard-ais:1.1.0/dependencies/org/json/json/20220924/json-20220924.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import io.github.nikosrig.request.DeleteConsentRequest;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import io.github.nikosrig.model.RawConsent;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import io.github.nikosrig.request.GetRawConsentRequest;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/io.github.nikosrig:mastercard-ais/src/main/java/io/github/nikosrig/Transactions.java",
+    "useImportReport" : [ {
+      "importPath" : "import com.google.gson.Gson;",
+      "artifact" : {
+        "artifact" : "com.google.code.gson:gson:2.10",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.github.nikosrig:mastercard-ais:1.1.0/dependencies/com/google/code/gson/gson/2.10/gson-2.10.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import io.github.nikosrig.http.MastercardAisClient;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.google.gson.GsonBuilder;",
+      "artifact" : {
+        "artifact" : "com.google.code.gson:gson:2.10",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.github.nikosrig:mastercard-ais:1.1.0/dependencies/com/google/code/gson/gson/2.10/gson-2.10.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import io.github.nikosrig.model.Transaction;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import io.github.nikosrig.request.GetTransactionRequest;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.google.gson.JsonObject;",
+      "artifact" : {
+        "artifact" : "com.google.code.gson:gson:2.10",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.github.nikosrig:mastercard-ais:1.1.0/dependencies/com/google/code/gson/gson/2.10/gson-2.10.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import com.google.gson.JsonPrimitive;",
+      "artifact" : {
+        "artifact" : "com.google.code.gson:gson:2.10",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.github.nikosrig:mastercard-ais:1.1.0/dependencies/com/google/code/gson/gson/2.10/gson-2.10.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import java.net.http.HttpResponse;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import io.github.nikosrig.model.TransactionList;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import io.github.nikosrig.request.ListTransactionsRequest;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/io.github.nikosrig:mastercard-ais/src/main/java/io/github/nikosrig/StandingOrders.java",
+    "useImportReport" : [ {
+      "importPath" : "import com.google.gson.Gson;",
+      "artifact" : {
+        "artifact" : "com.google.code.gson:gson:2.10",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.github.nikosrig:mastercard-ais:1.1.0/dependencies/com/google/code/gson/gson/2.10/gson-2.10.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import io.github.nikosrig.http.MastercardAisClient;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.google.gson.GsonBuilder;",
+      "artifact" : {
+        "artifact" : "com.google.code.gson:gson:2.10",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.github.nikosrig:mastercard-ais:1.1.0/dependencies/com/google/code/gson/gson/2.10/gson-2.10.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import io.github.nikosrig.model.StandingOrdersList;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import io.github.nikosrig.request.ListStandingOrdersRequest;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.net.http.HttpResponse;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/io.github.nikosrig:mastercard-ais/src/main/java/io/github/nikosrig/Aspsps.java",
+    "useImportReport" : [ {
+      "importPath" : "import io.github.nikosrig.http.MastercardAisClient;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.google.gson.Gson;",
+      "artifact" : {
+        "artifact" : "com.google.code.gson:gson:2.10",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.github.nikosrig:mastercard-ais:1.1.0/dependencies/com/google/code/gson/gson/2.10/gson-2.10.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import com.google.gson.GsonBuilder;",
+      "artifact" : {
+        "artifact" : "com.google.code.gson:gson:2.10",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.github.nikosrig:mastercard-ais:1.1.0/dependencies/com/google/code/gson/gson/2.10/gson-2.10.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import io.github.nikosrig.model.AspspList;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import io.github.nikosrig.request.ListAspspsRequest;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.net.http.HttpResponse;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/io.github.nikosrig:mastercard-ais/src/main/java/io/github/nikosrig/http/MastercardAisClient.java",
+    "useImportReport" : [ {
+      "importPath" : "import java.net.http.HttpClient;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.net.http.HttpResponse;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.net.URI;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.net.http.HttpRequest;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/io.github.nikosrig:mastercard-ais/src/main/java/io/github/nikosrig/http/MastercardAisAuthUtil.java",
+    "useImportReport" : [ {
+      "importPath" : "import java.security.PrivateKey;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.mastercard.developer.utils.AuthenticationUtils;",
+      "artifact" : {
+        "artifact" : "com.mastercard.developer:oauth1-signer:1.5.2",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.github.nikosrig:mastercard-ais:1.1.0/dependencies/com/mastercard/developer/oauth1-signer/1.5.2/oauth1-signer-1.5.2.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import java.net.URI;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.mastercard.developer.oauth.OAuth;",
+      "artifact" : {
+        "artifact" : "com.mastercard.developer:oauth1-signer:1.5.2",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.github.nikosrig:mastercard-ais:1.1.0/dependencies/com/mastercard/developer/oauth1-signer/1.5.2/oauth1-signer-1.5.2.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import java.nio.charset.StandardCharsets;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/io.github.nikosrig:mastercard-ais/src/main/java/io/github/nikosrig/model/AspspHealth.java",
+    "useImportReport" : [ ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/io.github.nikosrig:mastercard-ais/src/main/java/io/github/nikosrig/model/StandingOrderPayment.java",
+    "useImportReport" : [ ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/io.github.nikosrig:mastercard-ais/src/main/java/io/github/nikosrig/model/Amount.java",
+    "useImportReport" : [ ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/io.github.nikosrig:mastercard-ais/src/main/java/io/github/nikosrig/model/StandingOrderSchedule.java",
+    "useImportReport" : [ ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/io.github.nikosrig:mastercard-ais/src/main/java/io/github/nikosrig/model/TransactionAmount.java",
+    "useImportReport" : [ ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/io.github.nikosrig:mastercard-ais/src/main/java/io/github/nikosrig/model/Consent.java",
+    "useImportReport" : [ ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/io.github.nikosrig:mastercard-ais/src/main/java/io/github/nikosrig/model/RawConsent.java",
+    "useImportReport" : [ ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/io.github.nikosrig:mastercard-ais/src/main/java/io/github/nikosrig/model/Account.java",
+    "useImportReport" : [ {
+      "importPath" : "import java.util.ArrayList;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/io.github.nikosrig:mastercard-ais/src/main/java/io/github/nikosrig/model/Aspsp.java",
+    "useImportReport" : [ {
+      "importPath" : "import java.util.ArrayList;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/io.github.nikosrig:mastercard-ais/src/main/java/io/github/nikosrig/model/AspspLogo.java",
+    "useImportReport" : [ ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/io.github.nikosrig:mastercard-ais/src/main/java/io/github/nikosrig/model/AspspCredentialField.java",
+    "useImportReport" : [ ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/io.github.nikosrig:mastercard-ais/src/main/java/io/github/nikosrig/model/StandingOrder.java",
+    "useImportReport" : [ ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/io.github.nikosrig:mastercard-ais/src/main/java/io/github/nikosrig/model/AuthorizedConsent.java",
+    "useImportReport" : [ ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/io.github.nikosrig:mastercard-ais/src/main/java/io/github/nikosrig/model/TransactionList.java",
+    "useImportReport" : [ {
+      "importPath" : "import java.util.ArrayList;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/io.github.nikosrig:mastercard-ais/src/main/java/io/github/nikosrig/model/AspspList.java",
+    "useImportReport" : [ {
+      "importPath" : "import java.util.ArrayList;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/io.github.nikosrig:mastercard-ais/src/main/java/io/github/nikosrig/model/StandingOrdersList.java",
+    "useImportReport" : [ {
+      "importPath" : "import java.util.ArrayList;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/io.github.nikosrig:mastercard-ais/src/main/java/io/github/nikosrig/model/Balance.java",
+    "useImportReport" : [ ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/io.github.nikosrig:mastercard-ais/src/main/java/io/github/nikosrig/model/OriginalRequestInfo.java",
+    "useImportReport" : [ ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/io.github.nikosrig:mastercard-ais/src/main/java/io/github/nikosrig/model/AspspCapabilities.java",
+    "useImportReport" : [ ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/io.github.nikosrig:mastercard-ais/src/main/java/io/github/nikosrig/model/AccountList.java",
+    "useImportReport" : [ {
+      "importPath" : "import java.util.ArrayList;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/io.github.nikosrig:mastercard-ais/src/main/java/io/github/nikosrig/model/AccountNumber.java",
+    "useImportReport" : [ ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/io.github.nikosrig:mastercard-ais/src/main/java/io/github/nikosrig/model/Transaction.java",
+    "useImportReport" : [ {
+      "importPath" : "import java.util.ArrayList;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/io.github.nikosrig:mastercard-ais/src/main/java/io/github/nikosrig/model/HolderAddress.java",
+    "useImportReport" : [ ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/io.github.nikosrig:mastercard-ais/src/main/java/io/github/nikosrig/request/GetRawConsentRequest.java",
+    "useImportReport" : [ {
+      "importPath" : "import io.github.nikosrig.request.requestInfo.RequestInfo;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import io.github.nikosrig.requestBuilders.GetRawConsentRequestBuilder;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/io.github.nikosrig:mastercard-ais/src/main/java/io/github/nikosrig/request/ListAspspsRequest.java",
+    "useImportReport" : [ {
+      "importPath" : "import io.github.nikosrig.request.requestInfo.RequestInfo;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.ArrayList;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import io.github.nikosrig.request.model.AdditionalData;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import io.github.nikosrig.requestBuilders.ListAspspsRequestBuilder;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/io.github.nikosrig:mastercard-ais/src/main/java/io/github/nikosrig/request/ListAccountsRequest.java",
+    "useImportReport" : [ {
+      "importPath" : "import io.github.nikosrig.request.requestInfo.RequestInfo;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import io.github.nikosrig.requestBuilders.ListAccountsRequestBuilder;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/io.github.nikosrig:mastercard-ais/src/main/java/io/github/nikosrig/request/DeleteConsentRequest.java",
+    "useImportReport" : [ {
+      "importPath" : "import io.github.nikosrig.request.requestInfo.RequestInfo;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import io.github.nikosrig.requestBuilders.DeleteConsentRequestBuilder;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/io.github.nikosrig:mastercard-ais/src/main/java/io/github/nikosrig/request/requestInfo/ConsentPermission.java",
+    "useImportReport" : [ ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/io.github.nikosrig:mastercard-ais/src/main/java/io/github/nikosrig/request/requestInfo/AccountReference.java",
+    "useImportReport" : [ {
+      "importPath" : "import io.github.nikosrig.model.AccountNumber;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/io.github.nikosrig:mastercard-ais/src/main/java/io/github/nikosrig/request/requestInfo/Credentials.java",
+    "useImportReport" : [ ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/io.github.nikosrig:mastercard-ais/src/main/java/io/github/nikosrig/request/requestInfo/GetRawConsentRequestInfo.java",
+    "useImportReport" : [ ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/io.github.nikosrig:mastercard-ais/src/main/java/io/github/nikosrig/request/requestInfo/RequestInfo.java",
+    "useImportReport" : [ {
+      "importPath" : "import java.util.UUID;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/io.github.nikosrig:mastercard-ais/src/main/java/io/github/nikosrig/request/requestInfo/ConsentAccount.java",
+    "useImportReport" : [ ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/io.github.nikosrig:mastercard-ais/src/main/java/io/github/nikosrig/request/requestInfo/Merchant.java",
+    "useImportReport" : [ ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/io.github.nikosrig:mastercard-ais/src/main/java/io/github/nikosrig/request/requestInfo/GetAccountRequestInfo.java",
+    "useImportReport" : [ ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/io.github.nikosrig:mastercard-ais/src/main/java/io/github/nikosrig/request/requestInfo/GetConsentRequestInfo.java",
+    "useImportReport" : [ ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/io.github.nikosrig:mastercard-ais/src/main/java/io/github/nikosrig/request/ListTransactionsRequest.java",
+    "useImportReport" : [ {
+      "importPath" : "import io.github.nikosrig.request.requestInfo.RequestInfo;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import io.github.nikosrig.requestBuilders.ListTransactionsRequestBuilder;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/io.github.nikosrig:mastercard-ais/src/main/java/io/github/nikosrig/request/model/AdditionalData.java",
+    "useImportReport" : [ ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/io.github.nikosrig:mastercard-ais/src/main/java/io/github/nikosrig/request/GetConsentRequest.java",
+    "useImportReport" : [ {
+      "importPath" : "import java.util.ArrayList;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import io.github.nikosrig.request.requestInfo.ConsentPermission;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.time.LocalDateTime;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import io.github.nikosrig.request.requestInfo.ConsentAccount;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import io.github.nikosrig.request.requestInfo.GetConsentRequestInfo;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import io.github.nikosrig.requestBuilders.GetConsentRequestBuilder;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/io.github.nikosrig:mastercard-ais/src/main/java/io/github/nikosrig/request/ListStandingOrdersRequest.java",
+    "useImportReport" : [ {
+      "importPath" : "import io.github.nikosrig.request.requestInfo.RequestInfo;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import io.github.nikosrig.requestBuilders.ListStandingOrdersRequestBuilder;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/io.github.nikosrig:mastercard-ais/src/main/java/io/github/nikosrig/request/GetAccountRequest.java",
+    "useImportReport" : [ {
+      "importPath" : "import io.github.nikosrig.request.requestInfo.GetAccountRequestInfo;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import io.github.nikosrig.requestBuilders.GetAccountRequestBuilder;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/io.github.nikosrig:mastercard-ais/src/main/java/io/github/nikosrig/request/AuthConsentRequest.java",
+    "useImportReport" : [ {
+      "importPath" : "import io.github.nikosrig.request.requestInfo.RequestInfo;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import io.github.nikosrig.requestBuilders.AuthConsentRequestBuilder;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/io.github.nikosrig:mastercard-ais/src/main/java/io/github/nikosrig/request/GetTransactionRequest.java",
+    "useImportReport" : [ {
+      "importPath" : "import io.github.nikosrig.request.requestInfo.RequestInfo;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import io.github.nikosrig.requestBuilders.GetTransactionRequestBuilder;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/io.github.nikosrig:mastercard-ais/src/main/java/io/github/nikosrig/request/GetBalanceRequest.java",
+    "useImportReport" : [ {
+      "importPath" : "import io.github.nikosrig.request.requestInfo.RequestInfo;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import io.github.nikosrig.requestBuilders.GetBalanceRequestBuilder;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/io.github.nikosrig:mastercard-ais/src/main/java/io/github/nikosrig/requestBuilders/GetRawConsentRequestBuilder.java",
+    "useImportReport" : [ {
+      "importPath" : "import io.github.nikosrig.request.requestInfo.GetRawConsentRequestInfo;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import io.github.nikosrig.request.requestInfo.Merchant;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import io.github.nikosrig.request.GetRawConsentRequest;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/io.github.nikosrig:mastercard-ais/src/main/java/io/github/nikosrig/requestBuilders/ListTransactionsRequestBuilder.java",
+    "useImportReport" : [ {
+      "importPath" : "import io.github.nikosrig.request.requestInfo.RequestInfo;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import io.github.nikosrig.request.requestInfo.Merchant;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import io.github.nikosrig.request.ListTransactionsRequest;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/io.github.nikosrig:mastercard-ais/src/main/java/io/github/nikosrig/requestBuilders/ListStandingOrdersRequestBuilder.java",
+    "useImportReport" : [ {
+      "importPath" : "import io.github.nikosrig.request.requestInfo.RequestInfo;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import io.github.nikosrig.request.requestInfo.GetRawConsentRequestInfo;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import io.github.nikosrig.request.requestInfo.Merchant;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import io.github.nikosrig.request.ListStandingOrdersRequest;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/io.github.nikosrig:mastercard-ais/src/main/java/io/github/nikosrig/requestBuilders/GetTransactionRequestBuilder.java",
+    "useImportReport" : [ {
+      "importPath" : "import io.github.nikosrig.request.requestInfo.RequestInfo;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import io.github.nikosrig.request.requestInfo.Merchant;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import io.github.nikosrig.request.GetTransactionRequest;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/io.github.nikosrig:mastercard-ais/src/main/java/io/github/nikosrig/requestBuilders/DeleteConsentRequestBuilder.java",
+    "useImportReport" : [ {
+      "importPath" : "import io.github.nikosrig.request.requestInfo.RequestInfo;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import io.github.nikosrig.request.requestInfo.Merchant;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import io.github.nikosrig.request.DeleteConsentRequest;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/io.github.nikosrig:mastercard-ais/src/main/java/io/github/nikosrig/requestBuilders/AuthConsentRequestBuilder.java",
+    "useImportReport" : [ {
+      "importPath" : "import io.github.nikosrig.request.requestInfo.RequestInfo;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import io.github.nikosrig.request.requestInfo.Merchant;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import io.github.nikosrig.request.AuthConsentRequest;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/io.github.nikosrig:mastercard-ais/src/main/java/io/github/nikosrig/requestBuilders/ListAccountsRequestBuilder.java",
+    "useImportReport" : [ {
+      "importPath" : "import io.github.nikosrig.request.requestInfo.RequestInfo;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import io.github.nikosrig.request.requestInfo.GetRawConsentRequestInfo;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import io.github.nikosrig.request.requestInfo.Merchant;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import io.github.nikosrig.request.ListAccountsRequest;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/io.github.nikosrig:mastercard-ais/src/main/java/io/github/nikosrig/requestBuilders/GetBalanceRequestBuilder.java",
+    "useImportReport" : [ {
+      "importPath" : "import io.github.nikosrig.request.requestInfo.RequestInfo;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import io.github.nikosrig.request.requestInfo.Merchant;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import io.github.nikosrig.request.GetBalanceRequest;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/io.github.nikosrig:mastercard-ais/src/main/java/io/github/nikosrig/requestBuilders/GetAccountRequestBuilder.java",
+    "useImportReport" : [ {
+      "importPath" : "import io.github.nikosrig.request.requestInfo.GetAccountRequestInfo;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import io.github.nikosrig.request.requestInfo.Merchant;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import io.github.nikosrig.request.GetAccountRequest;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/io.github.nikosrig:mastercard-ais/src/main/java/io/github/nikosrig/requestBuilders/GetConsentRequestBuilder.java",
+    "useImportReport" : [ {
+      "importPath" : "import io.github.nikosrig.request.requestInfo.*;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.ArrayList;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import io.github.nikosrig.request.requestInfo.*;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import io.github.nikosrig.request.requestInfo.*;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.time.LocalDateTime;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import io.github.nikosrig.request.requestInfo.*;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import io.github.nikosrig.request.requestInfo.*;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import io.github.nikosrig.request.requestInfo.*;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import io.github.nikosrig.model.AccountNumber;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import io.github.nikosrig.request.GetConsentRequest;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/io.github.nikosrig:mastercard-ais/src/main/java/io/github/nikosrig/requestBuilders/ListAspspsRequestBuilder.java",
+    "useImportReport" : [ {
+      "importPath" : "import io.github.nikosrig.request.requestInfo.RequestInfo;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.ArrayList;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import io.github.nikosrig.request.model.AdditionalData;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import io.github.nikosrig.request.ListAspspsRequest;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/io.github.nikosrig:mastercard-ais/src/main/java/io/github/nikosrig/MastercardAis.java",
+    "useImportReport" : [ {
+      "importPath" : "import io.github.nikosrig.http.MastercardAisClient;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import io.github.nikosrig.http.MastercardAisAuthUtil;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.net.http.HttpClient;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  } ],
+  "projectUseDependencies" : [ {
+    "artifact" : "com.google.code.gson:gson:2.10",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.github.nikosrig:mastercard-ais:1.1.0/dependencies/com/google/code/gson/gson/2.10/gson-2.10.jar"
+  }, {
+    "artifact" : "org.json:json:20220924",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.github.nikosrig:mastercard-ais:1.1.0/dependencies/org/json/json/20220924/json-20220924.jar"
+  }, {
+    "artifact" : "com.mastercard.developer:oauth1-signer:1.5.2",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/io.github.nikosrig:mastercard-ais:1.1.0/dependencies/com/mastercard/developer/oauth1-signer/1.5.2/oauth1-signer-1.5.2.jar"
+  } ],
+  "projectUseTransitiveDependencies" : [ ],
+  "projectUnusedDependencies" : [ ]
+}

@@ -1,0 +1,684 @@
+{
+  "projectArtifact" : "uk.co.rgordon:oj-ant:1.6.0",
+  "repositoryDir" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/uk.co.rgordon:oj-ant",
+  "repositorySubDir" : "",
+  "artifactLocation" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/uk.co.rgordon:oj-ant:1.6.0",
+  "fileImportReports" : [ {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/uk.co.rgordon:oj-ant/src/main/java/org/oddjob/ant/AntJob.java",
+    "useImportReport" : [ {
+      "importPath" : "import org.oddjob.framework.extend.SerializableJob;",
+      "artifact" : {
+        "artifact" : "uk.co.rgordon:oddjob:1.6.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/uk.co.rgordon:oj-ant:1.6.0/dependencies/uk/co/rgordon/oddjob/1.6.0/oddjob-1.6.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.oddjob.Stoppable;",
+      "artifact" : {
+        "artifact" : "uk.co.rgordon:oddjob:1.6.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/uk.co.rgordon:oj-ant:1.6.0/dependencies/uk/co/rgordon/oddjob/1.6.0/oddjob-1.6.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import java.util.Map;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.HashMap;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.apache.tools.ant.Project;",
+      "artifact" : {
+        "artifact" : "org.apache.ant:ant:1.10.13",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/uk.co.rgordon:oj-ant:1.6.0/dependencies/org/apache/ant/ant/1.10.13/ant-1.10.13.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import java.io.OutputStream;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.io.File;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.oddjob.arooa.deploy.annotations.ArooaAttribute;",
+      "artifact" : {
+        "artifact" : "uk.co.rgordon:arooa:1.6.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/uk.co.rgordon:oj-ant:1.6.0/dependencies/uk/co/rgordon/arooa/1.6.0/arooa-1.6.0.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.oddjob.util.OddjobConfigException;",
+      "artifact" : {
+        "artifact" : "uk.co.rgordon:oddjob:1.6.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/uk.co.rgordon:oj-ant:1.6.0/dependencies/uk/co/rgordon/oddjob/1.6.0/oddjob-1.6.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.apache.tools.ant.types.Path;",
+      "artifact" : {
+        "artifact" : "org.apache.ant:ant:1.10.13",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/uk.co.rgordon:oj-ant:1.6.0/dependencies/org/apache/ant/ant/1.10.13/ant-1.10.13.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.apache.tools.ant.BuildLogger;",
+      "artifact" : {
+        "artifact" : "org.apache.ant:ant:1.10.13",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/uk.co.rgordon:oj-ant:1.6.0/dependencies/org/apache/ant/ant/1.10.13/ant-1.10.13.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.apache.tools.ant.DefaultLogger;",
+      "artifact" : {
+        "artifact" : "org.apache.ant:ant:1.10.13",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/uk.co.rgordon:oj-ant:1.6.0/dependencies/org/apache/ant/ant/1.10.13/ant-1.10.13.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.oddjob.util.ClassLoaderDiagnostics;",
+      "artifact" : {
+        "artifact" : "uk.co.rgordon:oddjob:1.6.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/uk.co.rgordon:oj-ant:1.6.0/dependencies/uk/co/rgordon/oddjob/1.6.0/oddjob-1.6.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.apache.tools.ant.PropertyHelper;",
+      "artifact" : {
+        "artifact" : "org.apache.ant:ant:1.10.13",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/uk.co.rgordon:oj-ant:1.6.0/dependencies/org/apache/ant/ant/1.10.13/ant-1.10.13.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import java.io.PrintStream;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.apache.tools.ant.Target;",
+      "artifact" : {
+        "artifact" : "org.apache.ant:ant:1.10.13",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/uk.co.rgordon:oj-ant:1.6.0/dependencies/org/apache/ant/ant/1.10.13/ant-1.10.13.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.apache.tools.ant.BuildException;",
+      "artifact" : {
+        "artifact" : "org.apache.ant:ant:1.10.13",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/uk.co.rgordon:oj-ant:1.6.0/dependencies/org/apache/ant/ant/1.10.13/ant-1.10.13.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.oddjob.arooa.runtime.PropertyLookup;",
+      "artifact" : {
+        "artifact" : "uk.co.rgordon:arooa:1.6.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/uk.co.rgordon:oj-ant:1.6.0/dependencies/uk/co/rgordon/arooa/1.6.0/arooa-1.6.0.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.io.IOException;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.oddjob.launch.Locator;",
+      "artifact" : {
+        "artifact" : "uk.co.rgordon:run-oddjob:1.6.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/uk.co.rgordon:oj-ant:1.6.0/dependencies/uk/co/rgordon/run-oddjob/1.6.0/run-oddjob-1.6.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.oddjob.util.URLClassLoaderType;",
+      "artifact" : {
+        "artifact" : "uk.co.rgordon:oddjob:1.6.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/uk.co.rgordon:oj-ant:1.6.0/dependencies/uk/co/rgordon/oddjob/1.6.0/oddjob-1.6.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.oddjob.io.FilesUtil;",
+      "artifact" : {
+        "artifact" : "uk.co.rgordon:oddjob:1.6.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/uk.co.rgordon:oj-ant:1.6.0/dependencies/uk/co/rgordon/oddjob/1.6.0/oddjob-1.6.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import java.io.ObjectOutputStream;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.io.ObjectInputStream;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.apache.tools.ant.BuildListener;",
+      "artifact" : {
+        "artifact" : "org.apache.ant:ant:1.10.13",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/uk.co.rgordon:oj-ant:1.6.0/dependencies/org/apache/ant/ant/1.10.13/ant-1.10.13.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.apache.tools.ant.util.StringUtils;",
+      "artifact" : {
+        "artifact" : "org.apache.ant:ant:1.10.13",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/uk.co.rgordon:oj-ant:1.6.0/dependencies/org/apache/ant/ant/1.10.13/ant-1.10.13.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.apache.tools.ant.BuildEvent;",
+      "artifact" : {
+        "artifact" : "org.apache.ant:ant:1.10.13",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/uk.co.rgordon:oj-ant:1.6.0/dependencies/org/apache/ant/ant/1.10.13/ant-1.10.13.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import java.io.BufferedReader;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.io.StringReader;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.oddjob.arooa.deploy.annotations.ArooaElement;",
+      "artifact" : {
+        "artifact" : "uk.co.rgordon:arooa:1.6.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/uk.co.rgordon:oj-ant:1.6.0/dependencies/uk/co/rgordon/arooa/1.6.0/arooa-1.6.0.jar"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/uk.co.rgordon:oj-ant/src/main/java/org/oddjob/ant/AntMainOverride.java",
+    "useImportReport" : [ {
+      "importPath" : "import org.apache.tools.ant.Main;",
+      "artifact" : {
+        "artifact" : "org.apache.ant:ant:1.10.13",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/uk.co.rgordon:oj-ant:1.6.0/dependencies/org/apache/ant/ant/1.10.13/ant-1.10.13.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import java.util.Properties;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/uk.co.rgordon:oj-ant/src/main/java/org/oddjob/ant/OJPropertyHelper.java",
+    "useImportReport" : [ {
+      "importPath" : "import org.apache.tools.ant.PropertyHelper;",
+      "artifact" : {
+        "artifact" : "org.apache.ant:ant:1.10.13",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/uk.co.rgordon:oj-ant:1.6.0/dependencies/org/apache/ant/ant/1.10.13/ant-1.10.13.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.slf4j.Logger;",
+      "artifact" : {
+        "artifact" : "org.slf4j:slf4j-api:2.0.6",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/uk.co.rgordon:oj-ant:1.6.0/dependencies/org/slf4j/slf4j-api/2.0.6/slf4j-api-2.0.6.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.slf4j.LoggerFactory;",
+      "artifact" : {
+        "artifact" : "org.slf4j:slf4j-api:2.0.6",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/uk.co.rgordon:oj-ant:1.6.0/dependencies/org/slf4j/slf4j-api/2.0.6/slf4j-api-2.0.6.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.oddjob.arooa.ArooaSession;",
+      "artifact" : {
+        "artifact" : "uk.co.rgordon:arooa:1.6.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/uk.co.rgordon:oj-ant:1.6.0/dependencies/uk/co/rgordon/arooa/1.6.0/arooa-1.6.0.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.oddjob.arooa.runtime.Evaluator;",
+      "artifact" : {
+        "artifact" : "uk.co.rgordon:arooa:1.6.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/uk.co.rgordon:oj-ant:1.6.0/dependencies/uk/co/rgordon/arooa/1.6.0/arooa-1.6.0.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.oddjob.arooa.convert.ArooaConversionException;",
+      "artifact" : {
+        "artifact" : "uk.co.rgordon:arooa:1.6.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/uk.co.rgordon:oj-ant:1.6.0/dependencies/uk/co/rgordon/arooa/1.6.0/arooa-1.6.0.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.apache.tools.ant.BuildException;",
+      "artifact" : {
+        "artifact" : "org.apache.ant:ant:1.10.13",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/uk.co.rgordon:oj-ant:1.6.0/dependencies/org/apache/ant/ant/1.10.13/ant-1.10.13.jar"
+      },
+      "isDirectDependency" : true
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/uk.co.rgordon:oj-ant/src/main/java/org/oddjob/ant/AntParser.java",
+    "useImportReport" : [ {
+      "importPath" : "import org.apache.tools.ant.helper.ProjectHelper2;",
+      "artifact" : {
+        "artifact" : "org.apache.ant:ant:1.10.13",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/uk.co.rgordon:oj-ant:1.6.0/dependencies/org/apache/ant/ant/1.10.13/ant-1.10.13.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.apache.tools.ant.Project;",
+      "artifact" : {
+        "artifact" : "org.apache.ant:ant:1.10.13",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/uk.co.rgordon:oj-ant:1.6.0/dependencies/org/apache/ant/ant/1.10.13/ant-1.10.13.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.xml.sax.SAXException;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.io.InputStream;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.io.ByteArrayInputStream;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.xml.sax.InputSource;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.apache.tools.ant.BuildException;",
+      "artifact" : {
+        "artifact" : "org.apache.ant:ant:1.10.13",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/uk.co.rgordon:oj-ant:1.6.0/dependencies/org/apache/ant/ant/1.10.13/ant-1.10.13.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.apache.tools.ant.helper.AntXMLContext;",
+      "artifact" : {
+        "artifact" : "org.apache.ant:ant:1.10.13",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/uk.co.rgordon:oj-ant:1.6.0/dependencies/org/apache/ant/ant/1.10.13/ant-1.10.13.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import java.util.HashMap;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.apache.tools.ant.Target;",
+      "artifact" : {
+        "artifact" : "org.apache.ant:ant:1.10.13",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/uk.co.rgordon:oj-ant:1.6.0/dependencies/org/apache/ant/ant/1.10.13/ant-1.10.13.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.xml.sax.Attributes;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.xml.sax.SAXParseException;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.xml.sax.XMLReader;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.apache.tools.ant.util.JAXPUtils;",
+      "artifact" : {
+        "artifact" : "org.apache.ant:ant:1.10.13",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/uk.co.rgordon:oj-ant:1.6.0/dependencies/org/apache/ant/ant/1.10.13/ant-1.10.13.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.xml.sax.helpers.DefaultHandler;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.apache.tools.ant.Location;",
+      "artifact" : {
+        "artifact" : "org.apache.ant:ant:1.10.13",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/uk.co.rgordon:oj-ant:1.6.0/dependencies/org/apache/ant/ant/1.10.13/ant-1.10.13.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import java.io.FileNotFoundException;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.io.UnsupportedEncodingException;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.io.IOException;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/uk.co.rgordon:oj-ant/src/main/java/org/oddjob/ant/OddjobTask.java",
+    "useImportReport" : [ {
+      "importPath" : "import org.apache.tools.ant.Task;",
+      "artifact" : {
+        "artifact" : "org.apache.ant:ant:1.10.13",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/uk.co.rgordon:oj-ant:1.6.0/dependencies/org/apache/ant/ant/1.10.13/ant-1.10.13.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import java.io.File;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.Vector;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.apache.tools.ant.taskdefs.Property;",
+      "artifact" : {
+        "artifact" : "org.apache.ant:ant:1.10.13",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/uk.co.rgordon:oj-ant:1.6.0/dependencies/org/apache/ant/ant/1.10.13/ant-1.10.13.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.apache.tools.ant.BuildException;",
+      "artifact" : {
+        "artifact" : "org.apache.ant:ant:1.10.13",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/uk.co.rgordon:oj-ant:1.6.0/dependencies/org/apache/ant/ant/1.10.13/ant-1.10.13.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.apache.tools.ant.Project;",
+      "artifact" : {
+        "artifact" : "org.apache.ant:ant:1.10.13",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/uk.co.rgordon:oj-ant:1.6.0/dependencies/org/apache/ant/ant/1.10.13/ant-1.10.13.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import java.util.Enumeration;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.Hashtable;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.Properties;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.oddjob.OddjobBuilder;",
+      "artifact" : {
+        "artifact" : "uk.co.rgordon:oddjob:1.6.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/uk.co.rgordon:oj-ant:1.6.0/dependencies/uk/co/rgordon/oddjob/1.6.0/oddjob-1.6.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.oddjob.Oddjob;",
+      "artifact" : {
+        "artifact" : "uk.co.rgordon:oddjob:1.6.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/uk.co.rgordon:oj-ant:1.6.0/dependencies/uk/co/rgordon/oddjob/1.6.0/oddjob-1.6.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.oddjob.Oddjob;",
+      "artifact" : {
+        "artifact" : "uk.co.rgordon:arooa:1.6.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/uk.co.rgordon:oj-ant:1.6.0/dependencies/uk/co/rgordon/arooa/1.6.0/arooa-1.6.0-tests.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.oddjob.arooa.utils.QuoteTokenizerFactory;",
+      "artifact" : {
+        "artifact" : "uk.co.rgordon:arooa:1.6.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/uk.co.rgordon:oj-ant:1.6.0/dependencies/uk/co/rgordon/arooa/1.6.0/arooa-1.6.0.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.oddjob.arooa.utils.QuoteTokenizerFactory;",
+      "artifact" : {
+        "artifact" : "uk.co.rgordon:arooa:1.6.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/uk.co.rgordon:oj-ant:1.6.0/dependencies/uk/co/rgordon/arooa/1.6.0/arooa-1.6.0-tests.jar"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/uk.co.rgordon:oj-ant/src/main/java/org/oddjob/ant/AntJobDesignF.java",
+    "useImportReport" : [ {
+      "importPath" : "import org.oddjob.arooa.design.DesignFactory;",
+      "artifact" : {
+        "artifact" : "uk.co.rgordon:arooa:1.6.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/uk.co.rgordon:oj-ant:1.6.0/dependencies/uk/co/rgordon/arooa/1.6.0/arooa-1.6.0.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.oddjob.arooa.design.DesignInstance;",
+      "artifact" : {
+        "artifact" : "uk.co.rgordon:arooa:1.6.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/uk.co.rgordon:oj-ant:1.6.0/dependencies/uk/co/rgordon/arooa/1.6.0/arooa-1.6.0.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.oddjob.arooa.design.DesignInstance;",
+      "artifact" : {
+        "artifact" : "uk.co.rgordon:arooa:1.6.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/uk.co.rgordon:oj-ant:1.6.0/dependencies/uk/co/rgordon/arooa/1.6.0/arooa-1.6.0-tests.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.oddjob.arooa.parsing.ArooaElement;",
+      "artifact" : {
+        "artifact" : "uk.co.rgordon:arooa:1.6.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/uk.co.rgordon:oj-ant:1.6.0/dependencies/uk/co/rgordon/arooa/1.6.0/arooa-1.6.0.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.oddjob.arooa.parsing.ArooaElement;",
+      "artifact" : {
+        "artifact" : "uk.co.rgordon:arooa:1.6.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/uk.co.rgordon:oj-ant:1.6.0/dependencies/uk/co/rgordon/arooa/1.6.0/arooa-1.6.0-tests.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.oddjob.arooa.parsing.ArooaContext;",
+      "artifact" : {
+        "artifact" : "uk.co.rgordon:arooa:1.6.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/uk.co.rgordon:oj-ant:1.6.0/dependencies/uk/co/rgordon/arooa/1.6.0/arooa-1.6.0.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.oddjob.designer.components.BaseDC;",
+      "artifact" : {
+        "artifact" : "uk.co.rgordon:oddjob:1.6.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/uk.co.rgordon:oj-ant:1.6.0/dependencies/uk/co/rgordon/oddjob/1.6.0/oddjob-1.6.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import org.oddjob.arooa.design.SimpleTextAttribute;",
+      "artifact" : {
+        "artifact" : "uk.co.rgordon:arooa:1.6.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/uk.co.rgordon:oj-ant:1.6.0/dependencies/uk/co/rgordon/arooa/1.6.0/arooa-1.6.0.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.oddjob.arooa.design.SimpleDesignProperty;",
+      "artifact" : {
+        "artifact" : "uk.co.rgordon:arooa:1.6.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/uk.co.rgordon:oj-ant:1.6.0/dependencies/uk/co/rgordon/arooa/1.6.0/arooa-1.6.0.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.oddjob.arooa.design.SimpleDesignProperty;",
+      "artifact" : {
+        "artifact" : "uk.co.rgordon:arooa:1.6.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/uk.co.rgordon:oj-ant:1.6.0/dependencies/uk/co/rgordon/arooa/1.6.0/arooa-1.6.0-tests.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.oddjob.arooa.design.etc.FileAttribute;",
+      "artifact" : {
+        "artifact" : "uk.co.rgordon:arooa:1.6.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/uk.co.rgordon:oj-ant:1.6.0/dependencies/uk/co/rgordon/arooa/1.6.0/arooa-1.6.0.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.oddjob.arooa.design.etc.FileAttribute;",
+      "artifact" : {
+        "artifact" : "uk.co.rgordon:arooa:1.6.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/uk.co.rgordon:oj-ant:1.6.0/dependencies/uk/co/rgordon/arooa/1.6.0/arooa-1.6.0-tests.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.oddjob.arooa.design.DesignProperty;",
+      "artifact" : {
+        "artifact" : "uk.co.rgordon:arooa:1.6.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/uk.co.rgordon:oj-ant:1.6.0/dependencies/uk/co/rgordon/arooa/1.6.0/arooa-1.6.0.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.oddjob.arooa.design.DesignProperty;",
+      "artifact" : {
+        "artifact" : "uk.co.rgordon:arooa:1.6.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/uk.co.rgordon:oj-ant:1.6.0/dependencies/uk/co/rgordon/arooa/1.6.0/arooa-1.6.0-tests.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.oddjob.arooa.design.screem.Form;",
+      "artifact" : {
+        "artifact" : "uk.co.rgordon:arooa:1.6.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/uk.co.rgordon:oj-ant:1.6.0/dependencies/uk/co/rgordon/arooa/1.6.0/arooa-1.6.0.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.oddjob.arooa.design.screem.StandardForm;",
+      "artifact" : {
+        "artifact" : "uk.co.rgordon:arooa:1.6.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/uk.co.rgordon:oj-ant:1.6.0/dependencies/uk/co/rgordon/arooa/1.6.0/arooa-1.6.0.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import org.oddjob.arooa.design.screem.BorderedGroup;",
+      "artifact" : {
+        "artifact" : "uk.co.rgordon:arooa:1.6.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/uk.co.rgordon:oj-ant:1.6.0/dependencies/uk/co/rgordon/arooa/1.6.0/arooa-1.6.0.jar"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  } ],
+  "projectUseDependencies" : [ {
+    "artifact" : "uk.co.rgordon:oddjob:1.6.0",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/uk.co.rgordon:oj-ant:1.6.0/dependencies/uk/co/rgordon/oddjob/1.6.0/oddjob-1.6.0.jar"
+  }, {
+    "artifact" : "org.apache.ant:ant:1.10.13",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/uk.co.rgordon:oj-ant:1.6.0/dependencies/org/apache/ant/ant/1.10.13/ant-1.10.13.jar"
+  }, {
+    "artifact" : "uk.co.rgordon:run-oddjob:1.6.0",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/uk.co.rgordon:oj-ant:1.6.0/dependencies/uk/co/rgordon/run-oddjob/1.6.0/run-oddjob-1.6.0.jar"
+  } ],
+  "projectUseTransitiveDependencies" : [ ],
+  "projectUnusedDependencies" : [ {
+    "artifact" : "org.apache.ant:ant-launcher:1.10.13",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/uk.co.rgordon:oj-ant:1.6.0/dependencies/org/apache/ant/ant-launcher/1.10.13/ant-launcher-1.10.13.jar"
+  }, {
+    "artifact" : "org.openjdk.nashorn:nashorn-core:15.3",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/uk.co.rgordon:oj-ant:1.6.0/dependencies/org/openjdk/nashorn/nashorn-core/15.3/nashorn-core-15.3.jar"
+  } ]
+}

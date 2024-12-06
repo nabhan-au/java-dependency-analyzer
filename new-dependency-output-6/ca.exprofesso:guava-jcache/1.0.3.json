@@ -1,0 +1,756 @@
+{
+  "projectArtifact" : "ca.exprofesso:guava-jcache:1.0.3",
+  "repositoryDir" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/ca.exprofesso:guava-jcache",
+  "repositorySubDir" : "",
+  "artifactLocation" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/ca.exprofesso:guava-jcache:1.0.3",
+  "fileImportReports" : [ {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/ca.exprofesso:guava-jcache/src/main/java/ca/exprofesso/guava/jcache/GuavaCacheMXBean.java",
+    "useImportReport" : [ {
+      "importPath" : "import javax.cache.Cache;",
+      "artifact" : {
+        "artifact" : "javax.cache:cache-api:1.0.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/ca.exprofesso:guava-jcache:1.0.3/dependencies/javax/cache/cache-api/1.0.0/cache-api-1.0.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import javax.cache.configuration.CompleteConfiguration;",
+      "artifact" : {
+        "artifact" : "javax.cache:cache-api:1.0.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/ca.exprofesso:guava-jcache:1.0.3/dependencies/javax/cache/cache-api/1.0.0/cache-api-1.0.0.jar"
+      },
+      "isDirectDependency" : true
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ {
+      "importPath" : "javax.cache.management.CacheMXBean",
+      "artifact" : {
+        "artifact" : "javax.cache:cache-api:1.0.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/ca.exprofesso:guava-jcache:1.0.3/dependencies/javax/cache/cache-api/1.0.0/cache-api-1.0.0.jar"
+      },
+      "isDirectDependency" : true
+    } ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/ca.exprofesso:guava-jcache/src/main/java/ca/exprofesso/guava/jcache/GuavaCacheEntryEvent.java",
+    "useImportReport" : [ {
+      "importPath" : "import com.google.common.cache.RemovalNotification;",
+      "artifact" : {
+        "artifact" : "com.google.guava:guava:19.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/ca.exprofesso:guava-jcache:1.0.3/dependencies/com/google/guava/guava/19.0/guava-19.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import javax.cache.Cache;",
+      "artifact" : {
+        "artifact" : "javax.cache:cache-api:1.0.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/ca.exprofesso:guava-jcache:1.0.3/dependencies/javax/cache/cache-api/1.0.0/cache-api-1.0.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import javax.cache.event.EventType;",
+      "artifact" : {
+        "artifact" : "javax.cache:cache-api:1.0.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/ca.exprofesso:guava-jcache:1.0.3/dependencies/javax/cache/cache-api/1.0.0/cache-api-1.0.0.jar"
+      },
+      "isDirectDependency" : true
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ {
+      "importPath" : "javax.cache.event.CacheEntryEvent<K, V>",
+      "artifact" : {
+        "artifact" : "javax.cache:cache-api:1.0.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/ca.exprofesso:guava-jcache:1.0.3/dependencies/javax/cache/cache-api/1.0.0/cache-api-1.0.0.jar"
+      },
+      "isDirectDependency" : true
+    } ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/ca.exprofesso:guava-jcache/src/main/java/ca/exprofesso/guava/jcache/GuavaCache.java",
+    "useImportReport" : [ {
+      "importPath" : "import com.google.common.cache.RemovalListener;",
+      "artifact" : {
+        "artifact" : "com.google.guava:guava:19.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/ca.exprofesso:guava-jcache:1.0.3/dependencies/com/google/guava/guava/19.0/guava-19.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import javax.cache.configuration.CompleteConfiguration;",
+      "artifact" : {
+        "artifact" : "javax.cache:cache-api:1.0.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/ca.exprofesso:guava-jcache:1.0.3/dependencies/javax/cache/cache-api/1.0.0/cache-api-1.0.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import javax.cache.CacheManager;",
+      "artifact" : {
+        "artifact" : "javax.cache:cache-api:1.0.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/ca.exprofesso:guava-jcache:1.0.3/dependencies/javax/cache/cache-api/1.0.0/cache-api-1.0.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import com.google.common.cache.Cache;",
+      "artifact" : {
+        "artifact" : "com.google.guava:guava:19.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/ca.exprofesso:guava-jcache:1.0.3/dependencies/com/google/guava/guava/19.0/guava-19.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import java.util.concurrent.ConcurrentMap;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.Set;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import javax.cache.configuration.CacheEntryListenerConfiguration;",
+      "artifact" : {
+        "artifact" : "javax.cache:cache-api:1.0.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/ca.exprofesso:guava-jcache:1.0.3/dependencies/javax/cache/cache-api/1.0.0/cache-api-1.0.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import java.util.concurrent.atomic.AtomicBoolean;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.google.common.cache.CacheBuilderSpec;",
+      "artifact" : {
+        "artifact" : "com.google.guava:guava:19.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/ca.exprofesso:guava-jcache:1.0.3/dependencies/com/google/guava/guava/19.0/guava-19.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import com.google.common.cache.CacheBuilder;",
+      "artifact" : {
+        "artifact" : "com.google.guava:guava:19.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/ca.exprofesso:guava-jcache:1.0.3/dependencies/com/google/guava/guava/19.0/guava-19.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import javax.cache.expiry.ExpiryPolicy;",
+      "artifact" : {
+        "artifact" : "javax.cache:cache-api:1.0.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/ca.exprofesso:guava-jcache:1.0.3/dependencies/javax/cache/cache-api/1.0.0/cache-api-1.0.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import javax.cache.expiry.ModifiedExpiryPolicy;",
+      "artifact" : {
+        "artifact" : "javax.cache:cache-api:1.0.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/ca.exprofesso:guava-jcache:1.0.3/dependencies/javax/cache/cache-api/1.0.0/cache-api-1.0.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import javax.cache.expiry.Duration;",
+      "artifact" : {
+        "artifact" : "javax.cache:cache-api:1.0.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/ca.exprofesso:guava-jcache:1.0.3/dependencies/javax/cache/cache-api/1.0.0/cache-api-1.0.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import javax.cache.expiry.TouchedExpiryPolicy;",
+      "artifact" : {
+        "artifact" : "javax.cache:cache-api:1.0.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/ca.exprofesso:guava-jcache:1.0.3/dependencies/javax/cache/cache-api/1.0.0/cache-api-1.0.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import com.google.common.collect.Sets;",
+      "artifact" : {
+        "artifact" : "com.google.guava:guava:19.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/ca.exprofesso:guava-jcache:1.0.3/dependencies/com/google/guava/guava/19.0/guava-19.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import java.lang.management.ManagementFactory;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import javax.management.ObjectName;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import javax.management.OperationsException;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import javax.management.MBeanException;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import javax.cache.CacheException;",
+      "artifact" : {
+        "artifact" : "javax.cache:cache-api:1.0.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/ca.exprofesso:guava-jcache:1.0.3/dependencies/javax/cache/cache-api/1.0.0/cache-api-1.0.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import javax.cache.configuration.Factory;",
+      "artifact" : {
+        "artifact" : "javax.cache:cache-api:1.0.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/ca.exprofesso:guava-jcache:1.0.3/dependencies/javax/cache/cache-api/1.0.0/cache-api-1.0.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import javax.cache.integration.CacheLoader;",
+      "artifact" : {
+        "artifact" : "javax.cache:cache-api:1.0.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/ca.exprofesso:guava-jcache:1.0.3/dependencies/javax/cache/cache-api/1.0.0/cache-api-1.0.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import com.google.common.cache.LoadingCache;",
+      "artifact" : {
+        "artifact" : "com.google.guava:guava:19.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/ca.exprofesso:guava-jcache:1.0.3/dependencies/com/google/guava/guava/19.0/guava-19.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import java.util.concurrent.ExecutionException;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.Map;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import javax.cache.integration.CompletionListener;",
+      "artifact" : {
+        "artifact" : "javax.cache:cache-api:1.0.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/ca.exprofesso:guava-jcache:1.0.3/dependencies/javax/cache/cache-api/1.0.0/cache-api-1.0.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import java.util.concurrent.ExecutorService;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.concurrent.Executors;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import javax.cache.configuration.Configuration;",
+      "artifact" : {
+        "artifact" : "javax.cache:cache-api:1.0.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/ca.exprofesso:guava-jcache:1.0.3/dependencies/javax/cache/cache-api/1.0.0/cache-api-1.0.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import javax.cache.processor.EntryProcessor;",
+      "artifact" : {
+        "artifact" : "javax.cache:cache-api:1.0.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/ca.exprofesso:guava-jcache:1.0.3/dependencies/javax/cache/cache-api/1.0.0/cache-api-1.0.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import javax.cache.processor.EntryProcessorException;",
+      "artifact" : {
+        "artifact" : "javax.cache:cache-api:1.0.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/ca.exprofesso:guava-jcache:1.0.3/dependencies/javax/cache/cache-api/1.0.0/cache-api-1.0.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import javax.cache.processor.EntryProcessorResult;",
+      "artifact" : {
+        "artifact" : "javax.cache:cache-api:1.0.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/ca.exprofesso:guava-jcache:1.0.3/dependencies/javax/cache/cache-api/1.0.0/cache-api-1.0.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import java.util.HashMap;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.Iterator;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.List;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.ArrayList;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.Collections;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import com.google.common.cache.RemovalNotification;",
+      "artifact" : {
+        "artifact" : "com.google.guava:guava:19.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/ca.exprofesso:guava-jcache:1.0.3/dependencies/com/google/guava/guava/19.0/guava-19.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import javax.cache.event.EventType;",
+      "artifact" : {
+        "artifact" : "javax.cache:cache-api:1.0.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/ca.exprofesso:guava-jcache:1.0.3/dependencies/javax/cache/cache-api/1.0.0/cache-api-1.0.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import com.google.common.cache.CacheStats;",
+      "artifact" : {
+        "artifact" : "com.google.guava:guava:19.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/ca.exprofesso:guava-jcache:1.0.3/dependencies/com/google/guava/guava/19.0/guava-19.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import javax.cache.event.CacheEntryEvent;",
+      "artifact" : {
+        "artifact" : "javax.cache:cache-api:1.0.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/ca.exprofesso:guava-jcache:1.0.3/dependencies/javax/cache/cache-api/1.0.0/cache-api-1.0.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import javax.cache.event.CacheEntryListener;",
+      "artifact" : {
+        "artifact" : "javax.cache:cache-api:1.0.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/ca.exprofesso:guava-jcache:1.0.3/dependencies/javax/cache/cache-api/1.0.0/cache-api-1.0.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import javax.cache.event.CacheEntryCreatedListener;",
+      "artifact" : {
+        "artifact" : "javax.cache:cache-api:1.0.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/ca.exprofesso:guava-jcache:1.0.3/dependencies/javax/cache/cache-api/1.0.0/cache-api-1.0.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import javax.cache.event.CacheEntryListenerException;",
+      "artifact" : {
+        "artifact" : "javax.cache:cache-api:1.0.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/ca.exprofesso:guava-jcache:1.0.3/dependencies/javax/cache/cache-api/1.0.0/cache-api-1.0.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import javax.cache.event.CacheEntryExpiredListener;",
+      "artifact" : {
+        "artifact" : "javax.cache:cache-api:1.0.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/ca.exprofesso:guava-jcache:1.0.3/dependencies/javax/cache/cache-api/1.0.0/cache-api-1.0.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import javax.cache.event.CacheEntryRemovedListener;",
+      "artifact" : {
+        "artifact" : "javax.cache:cache-api:1.0.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/ca.exprofesso:guava-jcache:1.0.3/dependencies/javax/cache/cache-api/1.0.0/cache-api-1.0.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import javax.cache.event.CacheEntryUpdatedListener;",
+      "artifact" : {
+        "artifact" : "javax.cache:cache-api:1.0.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/ca.exprofesso:guava-jcache:1.0.3/dependencies/javax/cache/cache-api/1.0.0/cache-api-1.0.0.jar"
+      },
+      "isDirectDependency" : true
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ {
+      "importPath" : "javax.cache.Cache<K, V>",
+      "artifact" : {
+        "artifact" : "javax.cache:cache-api:1.0.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/ca.exprofesso:guava-jcache:1.0.3/dependencies/javax/cache/cache-api/1.0.0/cache-api-1.0.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "List<javax.cache.Cache.Entry<K, V>>",
+      "artifact" : {
+        "artifact" : "javax.cache:cache-api:1.0.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/ca.exprofesso:guava-jcache:1.0.3/dependencies/javax/cache/cache-api/1.0.0/cache-api-1.0.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "javax.cache.Cache.Entry<K, V>",
+      "artifact" : {
+        "artifact" : "javax.cache:cache-api:1.0.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/ca.exprofesso:guava-jcache:1.0.3/dependencies/javax/cache/cache-api/1.0.0/cache-api-1.0.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "javax.cache.Cache",
+      "artifact" : {
+        "artifact" : "javax.cache:cache-api:1.0.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/ca.exprofesso:guava-jcache:1.0.3/dependencies/javax/cache/cache-api/1.0.0/cache-api-1.0.0.jar"
+      },
+      "isDirectDependency" : true
+    } ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/ca.exprofesso:guava-jcache/src/main/java/ca/exprofesso/guava/jcache/GuavaEntryProcessorResult.java",
+    "useImportReport" : [ {
+      "importPath" : "import javax.cache.processor.EntryProcessorException;",
+      "artifact" : {
+        "artifact" : "javax.cache:cache-api:1.0.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/ca.exprofesso:guava-jcache:1.0.3/dependencies/javax/cache/cache-api/1.0.0/cache-api-1.0.0.jar"
+      },
+      "isDirectDependency" : true
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ {
+      "importPath" : "javax.cache.processor.EntryProcessorResult<T>",
+      "artifact" : {
+        "artifact" : "javax.cache:cache-api:1.0.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/ca.exprofesso:guava-jcache:1.0.3/dependencies/javax/cache/cache-api/1.0.0/cache-api-1.0.0.jar"
+      },
+      "isDirectDependency" : true
+    } ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/ca.exprofesso:guava-jcache/src/main/java/ca/exprofesso/guava/jcache/GuavaCachingProvider.java",
+    "useImportReport" : [ {
+      "importPath" : "import java.net.URI;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.Properties;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.net.URL;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.io.InputStream;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.io.IOException;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import javax.cache.CacheException;",
+      "artifact" : {
+        "artifact" : "javax.cache:cache-api:1.0.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/ca.exprofesso:guava-jcache:1.0.3/dependencies/javax/cache/cache-api/1.0.0/cache-api-1.0.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import java.net.URISyntaxException;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.concurrent.ConcurrentMap;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import javax.cache.CacheManager;",
+      "artifact" : {
+        "artifact" : "javax.cache:cache-api:1.0.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/ca.exprofesso:guava-jcache:1.0.3/dependencies/javax/cache/cache-api/1.0.0/cache-api-1.0.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import java.util.concurrent.ConcurrentHashMap;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.Iterator;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.Map;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import javax.cache.configuration.OptionalFeature;",
+      "artifact" : {
+        "artifact" : "javax.cache:cache-api:1.0.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/ca.exprofesso:guava-jcache:1.0.3/dependencies/javax/cache/cache-api/1.0.0/cache-api-1.0.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import java.util.Objects;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ {
+      "importPath" : "javax.cache.spi.CachingProvider",
+      "artifact" : {
+        "artifact" : "javax.cache:cache-api:1.0.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/ca.exprofesso:guava-jcache:1.0.3/dependencies/javax/cache/cache-api/1.0.0/cache-api-1.0.0.jar"
+      },
+      "isDirectDependency" : true
+    } ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/ca.exprofesso:guava-jcache/src/main/java/ca/exprofesso/guava/jcache/GuavaCacheManager.java",
+    "useImportReport" : [ {
+      "importPath" : "import java.net.URI;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.Properties;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import javax.cache.spi.CachingProvider;",
+      "artifact" : {
+        "artifact" : "javax.cache:cache-api:1.0.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/ca.exprofesso:guava-jcache:1.0.3/dependencies/javax/cache/cache-api/1.0.0/cache-api-1.0.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import java.util.concurrent.ConcurrentMap;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import javax.cache.Cache;",
+      "artifact" : {
+        "artifact" : "javax.cache:cache-api:1.0.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/ca.exprofesso:guava-jcache:1.0.3/dependencies/javax/cache/cache-api/1.0.0/cache-api-1.0.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import java.util.concurrent.ConcurrentHashMap;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.concurrent.atomic.AtomicBoolean;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import javax.cache.configuration.Configuration;",
+      "artifact" : {
+        "artifact" : "javax.cache:cache-api:1.0.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/ca.exprofesso:guava-jcache:1.0.3/dependencies/javax/cache/cache-api/1.0.0/cache-api-1.0.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import javax.cache.configuration.CompleteConfiguration;",
+      "artifact" : {
+        "artifact" : "javax.cache:cache-api:1.0.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/ca.exprofesso:guava-jcache:1.0.3/dependencies/javax/cache/cache-api/1.0.0/cache-api-1.0.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import javax.cache.CacheException;",
+      "artifact" : {
+        "artifact" : "javax.cache:cache-api:1.0.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/ca.exprofesso:guava-jcache:1.0.3/dependencies/javax/cache/cache-api/1.0.0/cache-api-1.0.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import com.google.common.collect.ImmutableSet;",
+      "artifact" : {
+        "artifact" : "com.google.guava:guava:19.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/ca.exprofesso:guava-jcache:1.0.3/dependencies/com/google/guava/guava/19.0/guava-19.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import javax.cache.expiry.ExpiryPolicy;",
+      "artifact" : {
+        "artifact" : "javax.cache:cache-api:1.0.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/ca.exprofesso:guava-jcache:1.0.3/dependencies/javax/cache/cache-api/1.0.0/cache-api-1.0.0.jar"
+      },
+      "isDirectDependency" : true
+    } ],
+    "unusedImportReport" : [ {
+      "importPath" : "import javax.cache.expiry.EternalExpiryPolicy;",
+      "artifact" : {
+        "artifact" : "javax.cache:cache-api:1.0.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/ca.exprofesso:guava-jcache:1.0.3/dependencies/javax/cache/cache-api/1.0.0/cache-api-1.0.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import javax.cache.expiry.ModifiedExpiryPolicy;",
+      "artifact" : {
+        "artifact" : "javax.cache:cache-api:1.0.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/ca.exprofesso:guava-jcache:1.0.3/dependencies/javax/cache/cache-api/1.0.0/cache-api-1.0.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import javax.cache.expiry.TouchedExpiryPolicy;",
+      "artifact" : {
+        "artifact" : "javax.cache:cache-api:1.0.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/ca.exprofesso:guava-jcache:1.0.3/dependencies/javax/cache/cache-api/1.0.0/cache-api-1.0.0.jar"
+      },
+      "isDirectDependency" : true
+    } ],
+    "fullPathCallingReport" : [ {
+      "importPath" : "javax.cache.CacheManager",
+      "artifact" : {
+        "artifact" : "javax.cache:cache-api:1.0.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/ca.exprofesso:guava-jcache:1.0.3/dependencies/javax/cache/cache-api/1.0.0/cache-api-1.0.0.jar"
+      },
+      "isDirectDependency" : true
+    } ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/ca.exprofesso:guava-jcache/src/main/java/ca/exprofesso/guava/jcache/GuavaMutableEntry.java",
+    "useImportReport" : [ ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ {
+      "importPath" : "javax.cache.processor.MutableEntry<K, V>",
+      "artifact" : {
+        "artifact" : "javax.cache:cache-api:1.0.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/ca.exprofesso:guava-jcache:1.0.3/dependencies/javax/cache/cache-api/1.0.0/cache-api-1.0.0.jar"
+      },
+      "isDirectDependency" : true
+    } ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/ca.exprofesso:guava-jcache/src/main/java/ca/exprofesso/guava/jcache/GuavaCacheLoader.java",
+    "useImportReport" : [ {
+      "importPath" : "import javax.cache.integration.CacheLoader;",
+      "artifact" : {
+        "artifact" : "javax.cache:cache-api:1.0.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/ca.exprofesso:guava-jcache:1.0.3/dependencies/javax/cache/cache-api/1.0.0/cache-api-1.0.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import java.util.Map;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ {
+      "importPath" : "com.google.common.cache.CacheLoader<K, V>",
+      "artifact" : {
+        "artifact" : "com.google.guava:guava:19.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/ca.exprofesso:guava-jcache:1.0.3/dependencies/com/google/guava/guava/19.0/guava-19.0.jar"
+      },
+      "isDirectDependency" : true
+    } ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/ca.exprofesso:guava-jcache/src/main/java/ca/exprofesso/guava/jcache/GuavaCacheStatisticsMXBean.java",
+    "useImportReport" : [ {
+      "importPath" : "import javax.cache.Cache;",
+      "artifact" : {
+        "artifact" : "javax.cache:cache-api:1.0.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/ca.exprofesso:guava-jcache:1.0.3/dependencies/javax/cache/cache-api/1.0.0/cache-api-1.0.0.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import com.google.common.cache.CacheStats;",
+      "artifact" : {
+        "artifact" : "com.google.guava:guava:19.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/ca.exprofesso:guava-jcache:1.0.3/dependencies/com/google/guava/guava/19.0/guava-19.0.jar"
+      },
+      "isDirectDependency" : true
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ {
+      "importPath" : "javax.cache.management.CacheStatisticsMXBean",
+      "artifact" : {
+        "artifact" : "javax.cache:cache-api:1.0.0",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/ca.exprofesso:guava-jcache:1.0.3/dependencies/javax/cache/cache-api/1.0.0/cache-api-1.0.0.jar"
+      },
+      "isDirectDependency" : true
+    } ],
+    "failImportReport" : [ ]
+  } ],
+  "projectUseDependencies" : [ {
+    "artifact" : "javax.cache:cache-api:1.0.0",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/ca.exprofesso:guava-jcache:1.0.3/dependencies/javax/cache/cache-api/1.0.0/cache-api-1.0.0.jar"
+  }, {
+    "artifact" : "com.google.guava:guava:19.0",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/ca.exprofesso:guava-jcache:1.0.3/dependencies/com/google/guava/guava/19.0/guava-19.0.jar"
+  } ],
+  "projectUseTransitiveDependencies" : [ ],
+  "projectUnusedDependencies" : [ ]
+}

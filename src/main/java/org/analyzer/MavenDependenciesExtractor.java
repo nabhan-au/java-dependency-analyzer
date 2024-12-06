@@ -108,8 +108,10 @@ public class MavenDependenciesExtractor {
 
     private static List<Dependency> extractApiDependenciesBlock(String input, String projectArtifactId) {
         String startPattern = "@ " + projectArtifactId;
-        String regex = "^([\\w\\.-]+:[\\w\\.-]+:[\\w\\.-]+:[\\w\\.-]+:[a-z]+)";
-        Pattern pattern = Pattern.compile(regex);
+        String regex5 = "^([\\w\\.-]+:[\\w\\.-]+:[\\w\\.-]+:[\\w\\.-]+:[a-z]+)";
+        String regex6 = "^([\\w\\.-]+:[\\w\\.-]+:[\\w\\.-]+:[\\w\\.-]+:[\\w\\.-]+:[a-z]+)";
+        Pattern pattern5 = Pattern.compile(regex5);
+        Pattern pattern6 = Pattern.compile(regex6);
         List<Dependency> dependencies = new ArrayList<>();
         boolean capturing = false;
 
@@ -123,9 +125,9 @@ public class MavenDependenciesExtractor {
                 if (line.contains("---------------------------------------------------------")) {
                     break;
                 }
-                Matcher matcher = pattern.matcher(line.trim());
-                if (matcher.find()) {
-                    var extractedLine = matcher.group(1).split(":");
+                Matcher matcher5 = pattern5.matcher(line.trim());
+                if (matcher5.find()) {
+                    var extractedLine = matcher5.group(1).split(":");
                     // Extract the parts using capturing groups
                     String groupId = extractedLine[0]; // org.bytedeco
                     String artifactId = extractedLine[1]; // opencv
@@ -135,7 +137,21 @@ public class MavenDependenciesExtractor {
 
                     Dependency dependency = new Dependency(groupId + ":" + artifactId, version);
                     if (!Objects.equals(scope, "test") && !Objects.equals(scope, "runtime")) {
-                        System.out.println(scope);
+                        dependencies.add(dependency);
+                    }
+                }
+                Matcher matcher6 = pattern6.matcher(line.trim());
+                if (matcher6.find()) {
+                    var extractedLine = matcher6.group(1).split(":");
+                    // Extract the parts using capturing groups
+                    String groupId = extractedLine[0]; // org.bytedeco
+                    String artifactId = extractedLine[1]; // opencv
+                    String type = extractedLine[2]; // 4.7.0-1.5.9
+                    String version = extractedLine[4]; // 4.7.0-1.5.9
+                    String scope = extractedLine[5]; // 4.7.0-1.5.9
+
+                    Dependency dependency = new Dependency(groupId + ":" + artifactId, version);
+                    if (!Objects.equals(scope, "test") && !Objects.equals(scope, "runtime")) {
                         dependencies.add(dependency);
                     }
                 }

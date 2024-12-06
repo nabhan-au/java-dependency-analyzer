@@ -47,7 +47,7 @@ public class Main {
     public static void runSingleProjectWithCSV(Integer csvIndex, String filePath) throws Exception {
         System.out.println("Running project with index: " + csvIndex);
         var destinationPath = "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository";
-        var writeFileDestination = "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/java-dependency-analyzer/new-dependency-output-5";
+        var writeFileDestination = "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/java-dependency-analyzer/new-dependency-output-6";
         var jsonFile = "save_input.json";
         var repoTarget = "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo";
         var completePath = "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/java-dependency-analyzer/new-dependency-output/complete.json";
@@ -74,6 +74,13 @@ public class Main {
         List<List<String>> parsedList = mapper.readValue(comparedVersion, new TypeReference<List<List<String>>>() {});
         List<String> parsedOlderTags = mapper.readValue(olderTags.replace("'", "\""), new TypeReference<List<String>>() {});
 
+
+        var artifactVersionList = parsedList.stream().map(t -> t.getFirst()).toList();
+        parsedOlderTags = getFileList("new-dependency-output-4/" + artifactId);
+        parsedOlderTags = parsedOlderTags.stream().filter(t -> !artifactVersionList.contains(t)).toList();
+        System.out.println("Older tags: " + parsedOlderTags);
+
+
         if (parsedList.isEmpty()) {
             System.out.println("Skipping project: " + artifactId);
             return;
@@ -93,7 +100,7 @@ public class Main {
                 gitCheckoutBranch(repoPath, gitTag);
                 var matchedPoms = findPomsWithArtifactId(repoPath, artifactName).getFirst();
                 var repoArtifactPath = matchedPoms.replace("/pom.xml", "");
-                extractedVersion(repoArtifactPath, completedVersion, artifactId);
+                completedVersion.add(artifactVersion);
                 if (new File(checkFilePath).exists()) {
                     continue;
                 }
@@ -194,6 +201,33 @@ public class Main {
         }
     }
 
+    public static List<String> getFileList(String directoryPath) {
+        List<String> fileList = new ArrayList<>();
+
+        // Create a File object for the directory
+        File directory = new File(directoryPath);
+
+        // Check if the path is a valid directory
+        if (directory.exists() && directory.isDirectory()) {
+            // Get the list of files and directories
+            File[] files = directory.listFiles();
+
+            if (files != null) {
+                for (File file : files) {
+                    // Add only files to the list (exclude directories)
+                    if (file.isFile()) {
+                        var path = file.getAbsolutePath().split("/");
+                        fileList.add(path[path.length - 1].split(".json")[0]);
+                    }
+                }
+            }
+        } else {
+            System.out.println("Invalid directory path: " + directoryPath);
+        }
+
+        return fileList;
+    }
+
 
     public static void main(String[] args) throws Exception {
         var destinationPath = "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository";
@@ -206,9 +240,10 @@ public class Main {
         var subPath = "/src";
         var gitBranch = "1.4.2";
 
-        for (int i = 85; i < 500; i++) { // Equivalent to range(0, 10) in Python
+        for (int i = 154; i < 500; i++) { // Equivalent to range(0, 10) in Python
             runSingleProjectWithCSV(i, "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/java-dependency-analyzer/analyzer-python/data_with_date/success-compared-result-2.csv");
         }
+//        System.out.println(getFileList("new-dependency-output-4/io.github.osvaldjr:easy-cucumber-owasp-zap"));
 //        runSingleProjectWithCSV(3, "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/java-dependency-analyzer/analyzer-python/data/test-compared-result.csv");
 //        runSingleProject(destinationPath, writeFileDestination, csvFile, projectArtifact, repoPath, subPath, gitBranch, jsonFile, false);
 //        runMultipleProjects(jsonFile, destinationPath, writeFileDestination, csvFile);

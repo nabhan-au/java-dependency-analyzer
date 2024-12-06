@@ -1,0 +1,1451 @@
+{
+  "projectArtifact" : "com.github.nbbrd.sdmx-dl:sdmx-dl-provider-connectors:3.0.0-beta.7",
+  "repositoryDir" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/com.github.nbbrd.sdmx-dl:sdmx-dl-provider-connectors/sdmx-dl-provider-connectors",
+  "repositorySubDir" : "",
+  "artifactLocation" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.nbbrd.sdmx-dl:sdmx-dl-provider-connectors:3.0.0-beta.7",
+  "fileImportReports" : [ {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/com.github.nbbrd.sdmx-dl:sdmx-dl-provider-connectors/sdmx-dl-provider-connectors/src/main/java/module-info.java",
+    "useImportReport" : [ ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/com.github.nbbrd.sdmx-dl:sdmx-dl-provider-connectors/sdmx-dl-provider-connectors/src/main/java/internal/sdmxdl/provider/connectors/PortableTimeSeriesCursor.java",
+    "useImportReport" : [ {
+      "importPath" : "import sdmxdl.format.DataCursor;",
+      "artifact" : {
+        "artifact" : "com.github.nbbrd.sdmx-dl:sdmx-dl-format-util:3.0.0-beta.7",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.nbbrd.sdmx-dl:sdmx-dl-provider-connectors:3.0.0-beta.7/dependencies/com/github/nbbrd/sdmx-dl/sdmx-dl-format-util/3.0.0-beta.7/sdmx-dl-format-util-3.0.0-beta.7.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.List;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import it.bancaditalia.oss.sdmx.api.PortableTimeSeries;",
+      "artifact" : {
+        "artifact" : "com.github.amattioc:SDMX:cd3d352ff5fb3712cbde9775adf9d153d7fac3c9",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.nbbrd.sdmx-dl:sdmx-dl-provider-connectors:3.0.0-beta.7/dependencies/com/github/amattioc/SDMX/cd3d352ff5fb3712cbde9775adf9d153d7fac3c9/SDMX-cd3d352ff5fb3712cbde9775adf9d153d7fac3c9.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import java.util.function.Supplier;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import sdmxdl.format.ObsParser;",
+      "artifact" : {
+        "artifact" : "com.github.nbbrd.sdmx-dl:sdmx-dl-format-util:3.0.0-beta.7",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.nbbrd.sdmx-dl:sdmx-dl-provider-connectors:3.0.0-beta.7/dependencies/com/github/nbbrd/sdmx-dl/sdmx-dl-format-util/3.0.0-beta.7/sdmx-dl-format-util-3.0.0-beta.7.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import sdmxdl.DataStructure;",
+      "artifact" : {
+        "artifact" : "com.github.nbbrd.sdmx-dl:sdmx-dl-api:3.0.0-beta.7",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.nbbrd.sdmx-dl:sdmx-dl-provider-connectors:3.0.0-beta.7/dependencies/com/github/nbbrd/sdmx-dl/sdmx-dl-api/3.0.0-beta.7/sdmx-dl-api-3.0.0-beta.7.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import sdmxdl.Key;",
+      "artifact" : {
+        "artifact" : "com.github.nbbrd.sdmx-dl:sdmx-dl-api:3.0.0-beta.7",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.nbbrd.sdmx-dl:sdmx-dl-provider-connectors:3.0.0-beta.7/dependencies/com/github/nbbrd/sdmx-dl/sdmx-dl-api/3.0.0-beta.7/sdmx-dl-api-3.0.0-beta.7.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.Iterator;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.io.IOException;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import lombok.NonNull;",
+      "artifact" : {
+        "artifact" : "org.projectlombok:lombok:1.18.24",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.nbbrd.sdmx-dl:sdmx-dl-provider-connectors:3.0.0-beta.7/dependencies/org/projectlombok/lombok/1.18.24/lombok-1.18.24.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import java.util.Map;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.time.LocalDateTime;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import it.bancaditalia.oss.sdmx.api.BaseObservation;",
+      "artifact" : {
+        "artifact" : "com.github.amattioc:SDMX:cd3d352ff5fb3712cbde9775adf9d153d7fac3c9",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.nbbrd.sdmx-dl:sdmx-dl-provider-connectors:3.0.0-beta.7/dependencies/com/github/amattioc/SDMX/cd3d352ff5fb3712cbde9775adf9d153d7fac3c9/SDMX-cd3d352ff5fb3712cbde9775adf9d153d7fac3c9.jar"
+      },
+      "isDirectDependency" : true
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/com.github.nbbrd.sdmx-dl:sdmx-dl-provider-connectors/sdmx-dl-provider-connectors/src/main/java/internal/sdmxdl/provider/connectors/drivers/EurostatDriver.java",
+    "useImportReport" : [ {
+      "importPath" : "import sdmxdl.web.spi.WebDriver;",
+      "artifact" : {
+        "artifact" : "com.github.nbbrd.sdmx-dl:sdmx-dl-api:3.0.0-beta.7",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.nbbrd.sdmx-dl:sdmx-dl-provider-connectors:3.0.0-beta.7/dependencies/com/github/nbbrd/sdmx-dl/sdmx-dl-api/3.0.0-beta.7/sdmx-dl-api-3.0.0-beta.7.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import nbbrd.service.ServiceProvider;",
+      "artifact" : {
+        "artifact" : "com.github.nbbrd.java-service-util:java-service-annotation:1.5.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.nbbrd.sdmx-dl:sdmx-dl-provider-connectors:3.0.0-beta.7/dependencies/com/github/nbbrd/java-service-util/java-service-annotation/1.5.1/java-service-annotation-1.5.1.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import sdmxdl.provider.web.WebDriverSupport;",
+      "artifact" : {
+        "artifact" : "com.github.nbbrd.sdmx-dl:sdmx-dl-provider-util:3.0.0-beta.7",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.nbbrd.sdmx-dl:sdmx-dl-provider-connectors:3.0.0-beta.7/dependencies/com/github/nbbrd/sdmx-dl/sdmx-dl-provider-util/3.0.0-beta.7/sdmx-dl-provider-util-3.0.0-beta.7.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import sdmxdl.provider.web.RestConnector;",
+      "artifact" : {
+        "artifact" : "com.github.nbbrd.sdmx-dl:sdmx-dl-provider-util:3.0.0-beta.7",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.nbbrd.sdmx-dl:sdmx-dl-provider-connectors:3.0.0-beta.7/dependencies/com/github/nbbrd/sdmx-dl/sdmx-dl-provider-util/3.0.0-beta.7/sdmx-dl-provider-util-3.0.0-beta.7.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import it.bancaditalia.oss.sdmx.client.custom.EUROSTAT;",
+      "artifact" : {
+        "artifact" : "com.github.amattioc:SDMX:cd3d352ff5fb3712cbde9775adf9d153d7fac3c9",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.nbbrd.sdmx-dl:sdmx-dl-provider-connectors:3.0.0-beta.7/dependencies/com/github/amattioc/SDMX/cd3d352ff5fb3712cbde9775adf9d153d7fac3c9/SDMX-cd3d352ff5fb3712cbde9775adf9d153d7fac3c9.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import static sdmxdl.ext.spi.Dialect.SDMX21_DIALECT;",
+      "artifact" : {
+        "artifact" : "com.github.nbbrd.sdmx-dl:sdmx-dl-api:3.0.0-beta.7",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.nbbrd.sdmx-dl:sdmx-dl-provider-connectors:3.0.0-beta.7/dependencies/com/github/nbbrd/sdmx-dl/sdmx-dl-api/3.0.0-beta.7/sdmx-dl-api-3.0.0-beta.7.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import sdmxdl.web.SdmxWebSource;",
+      "artifact" : {
+        "artifact" : "com.github.nbbrd.sdmx-dl:sdmx-dl-api:3.0.0-beta.7",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.nbbrd.sdmx-dl:sdmx-dl-provider-connectors:3.0.0-beta.7/dependencies/com/github/nbbrd/sdmx-dl/sdmx-dl-api/3.0.0-beta.7/sdmx-dl-api-3.0.0-beta.7.jar"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ {
+      "importPath" : "import internal.sdmxdl.provider.connectors.ConnectorsRestClient;"
+    }, {
+      "importPath" : "import static internal.sdmxdl.provider.connectors.ConnectorsRestClient.CONNECTORS_CONNECTION_PROPERTIES;"
+    } ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/com.github.nbbrd.sdmx-dl:sdmx-dl-provider-connectors/sdmx-dl-provider-connectors/src/main/java/internal/sdmxdl/provider/connectors/drivers/AbsDriver.java",
+    "useImportReport" : [ {
+      "importPath" : "import sdmxdl.web.spi.WebDriver;",
+      "artifact" : {
+        "artifact" : "com.github.nbbrd.sdmx-dl:sdmx-dl-api:3.0.0-beta.7",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.nbbrd.sdmx-dl:sdmx-dl-provider-connectors:3.0.0-beta.7/dependencies/com/github/nbbrd/sdmx-dl/sdmx-dl-api/3.0.0-beta.7/sdmx-dl-api-3.0.0-beta.7.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import nbbrd.service.ServiceProvider;",
+      "artifact" : {
+        "artifact" : "com.github.nbbrd.java-service-util:java-service-annotation:1.5.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.nbbrd.sdmx-dl:sdmx-dl-provider-connectors:3.0.0-beta.7/dependencies/com/github/nbbrd/java-service-util/java-service-annotation/1.5.1/java-service-annotation-1.5.1.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import sdmxdl.provider.web.WebDriverSupport;",
+      "artifact" : {
+        "artifact" : "com.github.nbbrd.sdmx-dl:sdmx-dl-provider-util:3.0.0-beta.7",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.nbbrd.sdmx-dl:sdmx-dl-provider-connectors:3.0.0-beta.7/dependencies/com/github/nbbrd/sdmx-dl/sdmx-dl-provider-util/3.0.0-beta.7/sdmx-dl-provider-util-3.0.0-beta.7.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import sdmxdl.provider.web.RestConnector;",
+      "artifact" : {
+        "artifact" : "com.github.nbbrd.sdmx-dl:sdmx-dl-provider-util:3.0.0-beta.7",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.nbbrd.sdmx-dl:sdmx-dl-provider-connectors:3.0.0-beta.7/dependencies/com/github/nbbrd/sdmx-dl/sdmx-dl-provider-util/3.0.0-beta.7/sdmx-dl-provider-util-3.0.0-beta.7.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import it.bancaditalia.oss.sdmx.client.custom.ABS;",
+      "artifact" : {
+        "artifact" : "com.github.amattioc:SDMX:cd3d352ff5fb3712cbde9775adf9d153d7fac3c9",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.nbbrd.sdmx-dl:sdmx-dl-provider-connectors:3.0.0-beta.7/dependencies/com/github/amattioc/SDMX/cd3d352ff5fb3712cbde9775adf9d153d7fac3c9/SDMX-cd3d352ff5fb3712cbde9775adf9d153d7fac3c9.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import static sdmxdl.ext.spi.Dialect.SDMX20_DIALECT;",
+      "artifact" : {
+        "artifact" : "com.github.nbbrd.sdmx-dl:sdmx-dl-api:3.0.0-beta.7",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.nbbrd.sdmx-dl:sdmx-dl-provider-connectors:3.0.0-beta.7/dependencies/com/github/nbbrd/sdmx-dl/sdmx-dl-api/3.0.0-beta.7/sdmx-dl-api-3.0.0-beta.7.jar"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ {
+      "importPath" : "import internal.sdmxdl.provider.connectors.ConnectorsRestClient;"
+    }, {
+      "importPath" : "import static internal.sdmxdl.provider.connectors.ConnectorsRestClient.CONNECTORS_CONNECTION_PROPERTIES;"
+    } ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/com.github.nbbrd.sdmx-dl:sdmx-dl-provider-connectors/sdmx-dl-provider-connectors/src/main/java/internal/sdmxdl/provider/connectors/drivers/ImfDriver.java",
+    "useImportReport" : [ {
+      "importPath" : "import sdmxdl.web.spi.WebDriver;",
+      "artifact" : {
+        "artifact" : "com.github.nbbrd.sdmx-dl:sdmx-dl-api:3.0.0-beta.7",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.nbbrd.sdmx-dl:sdmx-dl-provider-connectors:3.0.0-beta.7/dependencies/com/github/nbbrd/sdmx-dl/sdmx-dl-api/3.0.0-beta.7/sdmx-dl-api-3.0.0-beta.7.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import nbbrd.service.ServiceProvider;",
+      "artifact" : {
+        "artifact" : "com.github.nbbrd.java-service-util:java-service-annotation:1.5.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.nbbrd.sdmx-dl:sdmx-dl-provider-connectors:3.0.0-beta.7/dependencies/com/github/nbbrd/java-service-util/java-service-annotation/1.5.1/java-service-annotation-1.5.1.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import sdmxdl.provider.web.WebDriverSupport;",
+      "artifact" : {
+        "artifact" : "com.github.nbbrd.sdmx-dl:sdmx-dl-provider-util:3.0.0-beta.7",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.nbbrd.sdmx-dl:sdmx-dl-provider-connectors:3.0.0-beta.7/dependencies/com/github/nbbrd/sdmx-dl/sdmx-dl-provider-util/3.0.0-beta.7/sdmx-dl-provider-util-3.0.0-beta.7.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import sdmxdl.provider.web.RestConnector;",
+      "artifact" : {
+        "artifact" : "com.github.nbbrd.sdmx-dl:sdmx-dl-provider-util:3.0.0-beta.7",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.nbbrd.sdmx-dl:sdmx-dl-provider-connectors:3.0.0-beta.7/dependencies/com/github/nbbrd/sdmx-dl/sdmx-dl-provider-util/3.0.0-beta.7/sdmx-dl-provider-util-3.0.0-beta.7.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import it.bancaditalia.oss.sdmx.client.custom.IMF2;",
+      "artifact" : {
+        "artifact" : "com.github.amattioc:SDMX:cd3d352ff5fb3712cbde9775adf9d153d7fac3c9",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.nbbrd.sdmx-dl:sdmx-dl-provider-connectors:3.0.0-beta.7/dependencies/com/github/amattioc/SDMX/cd3d352ff5fb3712cbde9775adf9d153d7fac3c9/SDMX-cd3d352ff5fb3712cbde9775adf9d153d7fac3c9.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import sdmxdl.ext.spi.Dialect;",
+      "artifact" : {
+        "artifact" : "com.github.nbbrd.sdmx-dl:sdmx-dl-api:3.0.0-beta.7",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.nbbrd.sdmx-dl:sdmx-dl-provider-connectors:3.0.0-beta.7/dependencies/com/github/nbbrd/sdmx-dl/sdmx-dl-api/3.0.0-beta.7/sdmx-dl-api-3.0.0-beta.7.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import sdmxdl.web.SdmxWebSource;",
+      "artifact" : {
+        "artifact" : "com.github.nbbrd.sdmx-dl:sdmx-dl-api:3.0.0-beta.7",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.nbbrd.sdmx-dl:sdmx-dl-provider-connectors:3.0.0-beta.7/dependencies/com/github/nbbrd/sdmx-dl/sdmx-dl-api/3.0.0-beta.7/sdmx-dl-api-3.0.0-beta.7.jar"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ {
+      "importPath" : "import internal.sdmxdl.provider.connectors.ConnectorsRestClient;"
+    }, {
+      "importPath" : "import static internal.sdmxdl.provider.connectors.ConnectorsRestClient.CONNECTORS_CONNECTION_PROPERTIES;"
+    } ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/com.github.nbbrd.sdmx-dl:sdmx-dl-provider-connectors/sdmx-dl-provider-connectors/src/main/java/internal/sdmxdl/provider/connectors/drivers/Sdmx21Driver.java",
+    "useImportReport" : [ {
+      "importPath" : "import sdmxdl.web.spi.WebDriver;",
+      "artifact" : {
+        "artifact" : "com.github.nbbrd.sdmx-dl:sdmx-dl-api:3.0.0-beta.7",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.nbbrd.sdmx-dl:sdmx-dl-provider-connectors:3.0.0-beta.7/dependencies/com/github/nbbrd/sdmx-dl/sdmx-dl-api/3.0.0-beta.7/sdmx-dl-api-3.0.0-beta.7.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import nbbrd.service.ServiceProvider;",
+      "artifact" : {
+        "artifact" : "com.github.nbbrd.java-service-util:java-service-annotation:1.5.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.nbbrd.sdmx-dl:sdmx-dl-provider-connectors:3.0.0-beta.7/dependencies/com/github/nbbrd/java-service-util/java-service-annotation/1.5.1/java-service-annotation-1.5.1.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import sdmxdl.provider.web.WebDriverSupport;",
+      "artifact" : {
+        "artifact" : "com.github.nbbrd.sdmx-dl:sdmx-dl-provider-util:3.0.0-beta.7",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.nbbrd.sdmx-dl:sdmx-dl-provider-connectors:3.0.0-beta.7/dependencies/com/github/nbbrd/sdmx-dl/sdmx-dl-provider-util/3.0.0-beta.7/sdmx-dl-provider-util-3.0.0-beta.7.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import sdmxdl.provider.web.RestConnector;",
+      "artifact" : {
+        "artifact" : "com.github.nbbrd.sdmx-dl:sdmx-dl-provider-util:3.0.0-beta.7",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.nbbrd.sdmx-dl:sdmx-dl-provider-connectors:3.0.0-beta.7/dependencies/com/github/nbbrd/sdmx-dl/sdmx-dl-provider-util/3.0.0-beta.7/sdmx-dl-provider-util-3.0.0-beta.7.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import static sdmxdl.provider.web.WebProperties.DETAIL_SUPPORTED_PROPERTY;",
+      "artifact" : {
+        "artifact" : "com.github.nbbrd.sdmx-dl:sdmx-dl-provider-util:3.0.0-beta.7",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.nbbrd.sdmx-dl:sdmx-dl-provider-connectors:3.0.0-beta.7/dependencies/com/github/nbbrd/sdmx-dl/sdmx-dl-provider-util/3.0.0-beta.7/sdmx-dl-provider-util-3.0.0-beta.7.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import static sdmxdl.ext.spi.Dialect.SDMX21_DIALECT;",
+      "artifact" : {
+        "artifact" : "com.github.nbbrd.sdmx-dl:sdmx-dl-api:3.0.0-beta.7",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.nbbrd.sdmx-dl:sdmx-dl-provider-connectors:3.0.0-beta.7/dependencies/com/github/nbbrd/sdmx-dl/sdmx-dl-api/3.0.0-beta.7/sdmx-dl-api-3.0.0-beta.7.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import sdmxdl.web.SdmxWebSource;",
+      "artifact" : {
+        "artifact" : "com.github.nbbrd.sdmx-dl:sdmx-dl-api:3.0.0-beta.7",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.nbbrd.sdmx-dl:sdmx-dl-provider-connectors:3.0.0-beta.7/dependencies/com/github/nbbrd/sdmx-dl/sdmx-dl-api/3.0.0-beta.7/sdmx-dl-api-3.0.0-beta.7.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import it.bancaditalia.oss.sdmx.client.RestSdmxClient;",
+      "artifact" : {
+        "artifact" : "com.github.amattioc:SDMX:cd3d352ff5fb3712cbde9775adf9d153d7fac3c9",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.nbbrd.sdmx-dl:sdmx-dl-provider-connectors:3.0.0-beta.7/dependencies/com/github/amattioc/SDMX/cd3d352ff5fb3712cbde9775adf9d153d7fac3c9/SDMX-cd3d352ff5fb3712cbde9775adf9d153d7fac3c9.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import java.net.URI;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.Map;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ {
+      "importPath" : "import internal.sdmxdl.provider.connectors.ConnectorsRestClient;"
+    }, {
+      "importPath" : "import internal.sdmxdl.provider.connectors.HasDetailSupported;"
+    }, {
+      "importPath" : "import static internal.sdmxdl.provider.connectors.Connectors.*;"
+    }, {
+      "importPath" : "import static internal.sdmxdl.provider.connectors.ConnectorsRestClient.CONNECTORS_CONNECTION_PROPERTIES;"
+    } ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/com.github.nbbrd.sdmx-dl:sdmx-dl-provider-connectors/sdmx-dl-provider-connectors/src/main/java/internal/sdmxdl/provider/connectors/drivers/InseeDriver.java",
+    "useImportReport" : [ {
+      "importPath" : "import sdmxdl.web.spi.WebDriver;",
+      "artifact" : {
+        "artifact" : "com.github.nbbrd.sdmx-dl:sdmx-dl-api:3.0.0-beta.7",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.nbbrd.sdmx-dl:sdmx-dl-provider-connectors:3.0.0-beta.7/dependencies/com/github/nbbrd/sdmx-dl/sdmx-dl-api/3.0.0-beta.7/sdmx-dl-api-3.0.0-beta.7.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import nbbrd.service.ServiceProvider;",
+      "artifact" : {
+        "artifact" : "com.github.nbbrd.java-service-util:java-service-annotation:1.5.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.nbbrd.sdmx-dl:sdmx-dl-provider-connectors:3.0.0-beta.7/dependencies/com/github/nbbrd/java-service-util/java-service-annotation/1.5.1/java-service-annotation-1.5.1.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import sdmxdl.provider.web.WebDriverSupport;",
+      "artifact" : {
+        "artifact" : "com.github.nbbrd.sdmx-dl:sdmx-dl-provider-util:3.0.0-beta.7",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.nbbrd.sdmx-dl:sdmx-dl-provider-connectors:3.0.0-beta.7/dependencies/com/github/nbbrd/sdmx-dl/sdmx-dl-provider-util/3.0.0-beta.7/sdmx-dl-provider-util-3.0.0-beta.7.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import sdmxdl.provider.web.RestConnector;",
+      "artifact" : {
+        "artifact" : "com.github.nbbrd.sdmx-dl:sdmx-dl-provider-util:3.0.0-beta.7",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.nbbrd.sdmx-dl:sdmx-dl-provider-connectors:3.0.0-beta.7/dependencies/com/github/nbbrd/sdmx-dl/sdmx-dl-provider-util/3.0.0-beta.7/sdmx-dl-provider-util-3.0.0-beta.7.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import sdmxdl.web.SdmxWebSource;",
+      "artifact" : {
+        "artifact" : "com.github.nbbrd.sdmx-dl:sdmx-dl-api:3.0.0-beta.7",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.nbbrd.sdmx-dl:sdmx-dl-provider-connectors:3.0.0-beta.7/dependencies/com/github/nbbrd/sdmx-dl/sdmx-dl-api/3.0.0-beta.7/sdmx-dl-api-3.0.0-beta.7.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import sdmxdl.provider.SdmxFix;",
+      "artifact" : {
+        "artifact" : "com.github.nbbrd.sdmx-dl:sdmx-dl-provider-util:3.0.0-beta.7",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.nbbrd.sdmx-dl:sdmx-dl-provider-connectors:3.0.0-beta.7/dependencies/com/github/nbbrd/sdmx-dl/sdmx-dl-provider-util/3.0.0-beta.7/sdmx-dl-provider-util-3.0.0-beta.7.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import static sdmxdl.provider.SdmxFix.Category.CONTENT;",
+      "artifact" : {
+        "artifact" : "com.github.nbbrd.sdmx-dl:sdmx-dl-provider-util:3.0.0-beta.7",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.nbbrd.sdmx-dl:sdmx-dl-provider-connectors:3.0.0-beta.7/dependencies/com/github/nbbrd/sdmx-dl/sdmx-dl-provider-util/3.0.0-beta.7/sdmx-dl-provider-util-3.0.0-beta.7.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import it.bancaditalia.oss.sdmx.client.RestSdmxClient;",
+      "artifact" : {
+        "artifact" : "com.github.amattioc:SDMX:cd3d352ff5fb3712cbde9775adf9d153d7fac3c9",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.nbbrd.sdmx-dl:sdmx-dl-provider-connectors:3.0.0-beta.7/dependencies/com/github/amattioc/SDMX/cd3d352ff5fb3712cbde9775adf9d153d7fac3c9/SDMX-cd3d352ff5fb3712cbde9775adf9d153d7fac3c9.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import java.net.URI;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.Map;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import it.bancaditalia.oss.sdmx.api.DataFlowStructure;",
+      "artifact" : {
+        "artifact" : "com.github.amattioc:SDMX:cd3d352ff5fb3712cbde9775adf9d153d7fac3c9",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.nbbrd.sdmx-dl:sdmx-dl-provider-connectors:3.0.0-beta.7/dependencies/com/github/amattioc/SDMX/cd3d352ff5fb3712cbde9775adf9d153d7fac3c9/SDMX-cd3d352ff5fb3712cbde9775adf9d153d7fac3c9.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import it.bancaditalia.oss.sdmx.api.DSDIdentifier;",
+      "artifact" : {
+        "artifact" : "com.github.amattioc:SDMX:cd3d352ff5fb3712cbde9775adf9d153d7fac3c9",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.nbbrd.sdmx-dl:sdmx-dl-provider-connectors:3.0.0-beta.7/dependencies/com/github/amattioc/SDMX/cd3d352ff5fb3712cbde9775adf9d153d7fac3c9/SDMX-cd3d352ff5fb3712cbde9775adf9d153d7fac3c9.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import it.bancaditalia.oss.sdmx.exceptions.SdmxException;",
+      "artifact" : {
+        "artifact" : "com.github.amattioc:SDMX:cd3d352ff5fb3712cbde9775adf9d153d7fac3c9",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.nbbrd.sdmx-dl:sdmx-dl-provider-connectors:3.0.0-beta.7/dependencies/com/github/amattioc/SDMX/cd3d352ff5fb3712cbde9775adf9d153d7fac3c9/SDMX-cd3d352ff5fb3712cbde9775adf9d153d7fac3c9.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import it.bancaditalia.oss.sdmx.api.Dimension;",
+      "artifact" : {
+        "artifact" : "com.github.amattioc:SDMX:cd3d352ff5fb3712cbde9775adf9d153d7fac3c9",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.nbbrd.sdmx-dl:sdmx-dl-provider-connectors:3.0.0-beta.7/dependencies/com/github/amattioc/SDMX/cd3d352ff5fb3712cbde9775adf9d153d7fac3c9/SDMX-cd3d352ff5fb3712cbde9775adf9d153d7fac3c9.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import it.bancaditalia.oss.sdmx.api.Codelist;",
+      "artifact" : {
+        "artifact" : "com.github.amattioc:SDMX:cd3d352ff5fb3712cbde9775adf9d153d7fac3c9",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.nbbrd.sdmx-dl:sdmx-dl-provider-connectors:3.0.0-beta.7/dependencies/com/github/amattioc/SDMX/cd3d352ff5fb3712cbde9775adf9d153d7fac3c9/SDMX-cd3d352ff5fb3712cbde9775adf9d153d7fac3c9.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import java.util.logging.Level;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import sdmxdl.format.time.StandardReportingFormat;",
+      "artifact" : {
+        "artifact" : "com.github.nbbrd.sdmx-dl:sdmx-dl-format-util:3.0.0-beta.7",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.nbbrd.sdmx-dl:sdmx-dl-provider-connectors:3.0.0-beta.7/dependencies/com/github/nbbrd/sdmx-dl/sdmx-dl-format-util/3.0.0-beta.7/sdmx-dl-format-util-3.0.0-beta.7.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import sdmxdl.format.time.ObsTimeParser;",
+      "artifact" : {
+        "artifact" : "com.github.nbbrd.sdmx-dl:sdmx-dl-format-util:3.0.0-beta.7",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.nbbrd.sdmx-dl:sdmx-dl-provider-connectors:3.0.0-beta.7/dependencies/com/github/nbbrd/sdmx-dl/sdmx-dl-format-util/3.0.0-beta.7/sdmx-dl-format-util-3.0.0-beta.7.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import sdmxdl.format.time.TimeFormats;",
+      "artifact" : {
+        "artifact" : "com.github.nbbrd.sdmx-dl:sdmx-dl-format-util:3.0.0-beta.7",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.nbbrd.sdmx-dl:sdmx-dl-provider-connectors:3.0.0-beta.7/dependencies/com/github/nbbrd/sdmx-dl/sdmx-dl-format-util/3.0.0-beta.7/sdmx-dl-format-util-3.0.0-beta.7.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.function.Supplier;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import sdmxdl.format.ObsParser;",
+      "artifact" : {
+        "artifact" : "com.github.nbbrd.sdmx-dl:sdmx-dl-format-util:3.0.0-beta.7",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.nbbrd.sdmx-dl:sdmx-dl-provider-connectors:3.0.0-beta.7/dependencies/com/github/nbbrd/sdmx-dl/sdmx-dl-format-util/3.0.0-beta.7/sdmx-dl-format-util-3.0.0-beta.7.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import nbbrd.io.text.Parser;",
+      "artifact" : {
+        "artifact" : "com.github.nbbrd.java-io-util:java-io-base:0.0.19",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.nbbrd.sdmx-dl:sdmx-dl-provider-connectors:3.0.0-beta.7/dependencies/com/github/nbbrd/java-io-util/java-io-base/0.0.19/java-io-base-0.0.19.jar"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ {
+      "importPath" : "import internal.sdmxdl.provider.connectors.ConnectorsRestClient;"
+    }, {
+      "importPath" : "import internal.sdmxdl.provider.connectors.Connectors;"
+    }, {
+      "importPath" : "import internal.sdmxdl.provider.connectors.HasDetailSupported;"
+    }, {
+      "importPath" : "import static internal.sdmxdl.provider.connectors.ConnectorsRestClient.CONNECTORS_CONNECTION_PROPERTIES;"
+    } ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/com.github.nbbrd.sdmx-dl:sdmx-dl-provider-connectors/sdmx-dl-provider-connectors/src/main/java/internal/sdmxdl/provider/connectors/drivers/SeDriver.java",
+    "useImportReport" : [ {
+      "importPath" : "import sdmxdl.web.spi.WebDriver;",
+      "artifact" : {
+        "artifact" : "com.github.nbbrd.sdmx-dl:sdmx-dl-api:3.0.0-beta.7",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.nbbrd.sdmx-dl:sdmx-dl-provider-connectors:3.0.0-beta.7/dependencies/com/github/nbbrd/sdmx-dl/sdmx-dl-api/3.0.0-beta.7/sdmx-dl-api-3.0.0-beta.7.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import nbbrd.service.ServiceProvider;",
+      "artifact" : {
+        "artifact" : "com.github.nbbrd.java-service-util:java-service-annotation:1.5.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.nbbrd.sdmx-dl:sdmx-dl-provider-connectors:3.0.0-beta.7/dependencies/com/github/nbbrd/java-service-util/java-service-annotation/1.5.1/java-service-annotation-1.5.1.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import sdmxdl.provider.web.WebDriverSupport;",
+      "artifact" : {
+        "artifact" : "com.github.nbbrd.sdmx-dl:sdmx-dl-provider-util:3.0.0-beta.7",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.nbbrd.sdmx-dl:sdmx-dl-provider-connectors:3.0.0-beta.7/dependencies/com/github/nbbrd/sdmx-dl/sdmx-dl-provider-util/3.0.0-beta.7/sdmx-dl-provider-util-3.0.0-beta.7.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import sdmxdl.provider.web.RestConnector;",
+      "artifact" : {
+        "artifact" : "com.github.nbbrd.sdmx-dl:sdmx-dl-provider-util:3.0.0-beta.7",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.nbbrd.sdmx-dl:sdmx-dl-provider-connectors:3.0.0-beta.7/dependencies/com/github/nbbrd/sdmx-dl/sdmx-dl-provider-util/3.0.0-beta.7/sdmx-dl-provider-util-3.0.0-beta.7.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import static sdmxdl.ext.spi.Dialect.SDMX20_DIALECT;",
+      "artifact" : {
+        "artifact" : "com.github.nbbrd.sdmx-dl:sdmx-dl-api:3.0.0-beta.7",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.nbbrd.sdmx-dl:sdmx-dl-provider-connectors:3.0.0-beta.7/dependencies/com/github/nbbrd/sdmx-dl/sdmx-dl-api/3.0.0-beta.7/sdmx-dl-api-3.0.0-beta.7.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import sdmxdl.web.SdmxWebSource;",
+      "artifact" : {
+        "artifact" : "com.github.nbbrd.sdmx-dl:sdmx-dl-api:3.0.0-beta.7",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.nbbrd.sdmx-dl:sdmx-dl-provider-connectors:3.0.0-beta.7/dependencies/com/github/nbbrd/sdmx-dl/sdmx-dl-api/3.0.0-beta.7/sdmx-dl-api-3.0.0-beta.7.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import it.bancaditalia.oss.sdmx.client.custom.DotStat;",
+      "artifact" : {
+        "artifact" : "com.github.amattioc:SDMX:cd3d352ff5fb3712cbde9775adf9d153d7fac3c9",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.nbbrd.sdmx-dl:sdmx-dl-provider-connectors:3.0.0-beta.7/dependencies/com/github/amattioc/SDMX/cd3d352ff5fb3712cbde9775adf9d153d7fac3c9/SDMX-cd3d352ff5fb3712cbde9775adf9d153d7fac3c9.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import java.net.URISyntaxException;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.net.URI;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ {
+      "importPath" : "import internal.sdmxdl.provider.connectors.ConnectorsRestClient;"
+    }, {
+      "importPath" : "import static internal.sdmxdl.provider.connectors.ConnectorsRestClient.CONNECTORS_CONNECTION_PROPERTIES;"
+    } ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/com.github.nbbrd.sdmx-dl:sdmx-dl-provider-connectors/sdmx-dl-provider-connectors/src/main/java/internal/sdmxdl/provider/connectors/drivers/NbbDriver.java",
+    "useImportReport" : [ {
+      "importPath" : "import sdmxdl.web.spi.WebDriver;",
+      "artifact" : {
+        "artifact" : "com.github.nbbrd.sdmx-dl:sdmx-dl-api:3.0.0-beta.7",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.nbbrd.sdmx-dl:sdmx-dl-provider-connectors:3.0.0-beta.7/dependencies/com/github/nbbrd/sdmx-dl/sdmx-dl-api/3.0.0-beta.7/sdmx-dl-api-3.0.0-beta.7.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import nbbrd.service.ServiceProvider;",
+      "artifact" : {
+        "artifact" : "com.github.nbbrd.java-service-util:java-service-annotation:1.5.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.nbbrd.sdmx-dl:sdmx-dl-provider-connectors:3.0.0-beta.7/dependencies/com/github/nbbrd/java-service-util/java-service-annotation/1.5.1/java-service-annotation-1.5.1.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import sdmxdl.provider.web.WebDriverSupport;",
+      "artifact" : {
+        "artifact" : "com.github.nbbrd.sdmx-dl:sdmx-dl-provider-util:3.0.0-beta.7",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.nbbrd.sdmx-dl:sdmx-dl-provider-connectors:3.0.0-beta.7/dependencies/com/github/nbbrd/sdmx-dl/sdmx-dl-provider-util/3.0.0-beta.7/sdmx-dl-provider-util-3.0.0-beta.7.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import sdmxdl.provider.web.RestConnector;",
+      "artifact" : {
+        "artifact" : "com.github.nbbrd.sdmx-dl:sdmx-dl-provider-util:3.0.0-beta.7",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.nbbrd.sdmx-dl:sdmx-dl-provider-connectors:3.0.0-beta.7/dependencies/com/github/nbbrd/sdmx-dl/sdmx-dl-provider-util/3.0.0-beta.7/sdmx-dl-provider-util-3.0.0-beta.7.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import it.bancaditalia.oss.sdmx.client.custom.NBB;",
+      "artifact" : {
+        "artifact" : "com.github.amattioc:SDMX:cd3d352ff5fb3712cbde9775adf9d153d7fac3c9",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.nbbrd.sdmx-dl:sdmx-dl-provider-connectors:3.0.0-beta.7/dependencies/com/github/amattioc/SDMX/cd3d352ff5fb3712cbde9775adf9d153d7fac3c9/SDMX-cd3d352ff5fb3712cbde9775adf9d153d7fac3c9.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import sdmxdl.ext.spi.Dialect;",
+      "artifact" : {
+        "artifact" : "com.github.nbbrd.sdmx-dl:sdmx-dl-api:3.0.0-beta.7",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.nbbrd.sdmx-dl:sdmx-dl-provider-connectors:3.0.0-beta.7/dependencies/com/github/nbbrd/sdmx-dl/sdmx-dl-api/3.0.0-beta.7/sdmx-dl-api-3.0.0-beta.7.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import sdmxdl.web.SdmxWebSource;",
+      "artifact" : {
+        "artifact" : "com.github.nbbrd.sdmx-dl:sdmx-dl-api:3.0.0-beta.7",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.nbbrd.sdmx-dl:sdmx-dl-provider-connectors:3.0.0-beta.7/dependencies/com/github/nbbrd/sdmx-dl/sdmx-dl-api/3.0.0-beta.7/sdmx-dl-api-3.0.0-beta.7.jar"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ {
+      "importPath" : "import internal.sdmxdl.provider.connectors.ConnectorsRestClient;"
+    }, {
+      "importPath" : "import static internal.sdmxdl.provider.connectors.ConnectorsRestClient.CONNECTORS_CONNECTION_PROPERTIES;"
+    } ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/com.github.nbbrd.sdmx-dl:sdmx-dl-provider-connectors/sdmx-dl-provider-connectors/src/main/java/internal/sdmxdl/provider/connectors/drivers/OecdDriver.java",
+    "useImportReport" : [ {
+      "importPath" : "import sdmxdl.web.spi.WebDriver;",
+      "artifact" : {
+        "artifact" : "com.github.nbbrd.sdmx-dl:sdmx-dl-api:3.0.0-beta.7",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.nbbrd.sdmx-dl:sdmx-dl-provider-connectors:3.0.0-beta.7/dependencies/com/github/nbbrd/sdmx-dl/sdmx-dl-api/3.0.0-beta.7/sdmx-dl-api-3.0.0-beta.7.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import nbbrd.service.ServiceProvider;",
+      "artifact" : {
+        "artifact" : "com.github.nbbrd.java-service-util:java-service-annotation:1.5.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.nbbrd.sdmx-dl:sdmx-dl-provider-connectors:3.0.0-beta.7/dependencies/com/github/nbbrd/java-service-util/java-service-annotation/1.5.1/java-service-annotation-1.5.1.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import sdmxdl.provider.web.WebDriverSupport;",
+      "artifact" : {
+        "artifact" : "com.github.nbbrd.sdmx-dl:sdmx-dl-provider-util:3.0.0-beta.7",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.nbbrd.sdmx-dl:sdmx-dl-provider-connectors:3.0.0-beta.7/dependencies/com/github/nbbrd/sdmx-dl/sdmx-dl-provider-util/3.0.0-beta.7/sdmx-dl-provider-util-3.0.0-beta.7.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import sdmxdl.provider.web.RestConnector;",
+      "artifact" : {
+        "artifact" : "com.github.nbbrd.sdmx-dl:sdmx-dl-provider-util:3.0.0-beta.7",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.nbbrd.sdmx-dl:sdmx-dl-provider-connectors:3.0.0-beta.7/dependencies/com/github/nbbrd/sdmx-dl/sdmx-dl-provider-util/3.0.0-beta.7/sdmx-dl-provider-util-3.0.0-beta.7.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import it.bancaditalia.oss.sdmx.client.custom.OECD;",
+      "artifact" : {
+        "artifact" : "com.github.amattioc:SDMX:cd3d352ff5fb3712cbde9775adf9d153d7fac3c9",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.nbbrd.sdmx-dl:sdmx-dl-provider-connectors:3.0.0-beta.7/dependencies/com/github/amattioc/SDMX/cd3d352ff5fb3712cbde9775adf9d153d7fac3c9/SDMX-cd3d352ff5fb3712cbde9775adf9d153d7fac3c9.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import sdmxdl.ext.spi.Dialect;",
+      "artifact" : {
+        "artifact" : "com.github.nbbrd.sdmx-dl:sdmx-dl-api:3.0.0-beta.7",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.nbbrd.sdmx-dl:sdmx-dl-provider-connectors:3.0.0-beta.7/dependencies/com/github/nbbrd/sdmx-dl/sdmx-dl-api/3.0.0-beta.7/sdmx-dl-api-3.0.0-beta.7.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import sdmxdl.web.SdmxWebSource;",
+      "artifact" : {
+        "artifact" : "com.github.nbbrd.sdmx-dl:sdmx-dl-api:3.0.0-beta.7",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.nbbrd.sdmx-dl:sdmx-dl-provider-connectors:3.0.0-beta.7/dependencies/com/github/nbbrd/sdmx-dl/sdmx-dl-api/3.0.0-beta.7/sdmx-dl-api-3.0.0-beta.7.jar"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ {
+      "importPath" : "import internal.sdmxdl.provider.connectors.ConnectorsRestClient;"
+    }, {
+      "importPath" : "import static internal.sdmxdl.provider.connectors.ConnectorsRestClient.CONNECTORS_CONNECTION_PROPERTIES;"
+    } ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/com.github.nbbrd.sdmx-dl:sdmx-dl-provider-connectors/sdmx-dl-provider-connectors/src/main/java/internal/sdmxdl/provider/connectors/drivers/Sdmx20Driver.java",
+    "useImportReport" : [ {
+      "importPath" : "import sdmxdl.web.spi.WebDriver;",
+      "artifact" : {
+        "artifact" : "com.github.nbbrd.sdmx-dl:sdmx-dl-api:3.0.0-beta.7",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.nbbrd.sdmx-dl:sdmx-dl-provider-connectors:3.0.0-beta.7/dependencies/com/github/nbbrd/sdmx-dl/sdmx-dl-api/3.0.0-beta.7/sdmx-dl-api-3.0.0-beta.7.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import nbbrd.service.ServiceProvider;",
+      "artifact" : {
+        "artifact" : "com.github.nbbrd.java-service-util:java-service-annotation:1.5.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.nbbrd.sdmx-dl:sdmx-dl-provider-connectors:3.0.0-beta.7/dependencies/com/github/nbbrd/java-service-util/java-service-annotation/1.5.1/java-service-annotation-1.5.1.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import sdmxdl.provider.web.WebDriverSupport;",
+      "artifact" : {
+        "artifact" : "com.github.nbbrd.sdmx-dl:sdmx-dl-provider-util:3.0.0-beta.7",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.nbbrd.sdmx-dl:sdmx-dl-provider-connectors:3.0.0-beta.7/dependencies/com/github/nbbrd/sdmx-dl/sdmx-dl-provider-util/3.0.0-beta.7/sdmx-dl-provider-util-3.0.0-beta.7.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import sdmxdl.provider.web.RestConnector;",
+      "artifact" : {
+        "artifact" : "com.github.nbbrd.sdmx-dl:sdmx-dl-provider-util:3.0.0-beta.7",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.nbbrd.sdmx-dl:sdmx-dl-provider-connectors:3.0.0-beta.7/dependencies/com/github/nbbrd/sdmx-dl/sdmx-dl-provider-util/3.0.0-beta.7/sdmx-dl-provider-util-3.0.0-beta.7.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import sdmxdl.ext.spi.Dialect;",
+      "artifact" : {
+        "artifact" : "com.github.nbbrd.sdmx-dl:sdmx-dl-api:3.0.0-beta.7",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.nbbrd.sdmx-dl:sdmx-dl-provider-connectors:3.0.0-beta.7/dependencies/com/github/nbbrd/sdmx-dl/sdmx-dl-api/3.0.0-beta.7/sdmx-dl-api-3.0.0-beta.7.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import it.bancaditalia.oss.sdmx.client.custom.RestSdmx20Client;",
+      "artifact" : {
+        "artifact" : "com.github.amattioc:SDMX:cd3d352ff5fb3712cbde9775adf9d153d7fac3c9",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.nbbrd.sdmx-dl:sdmx-dl-provider-connectors:3.0.0-beta.7/dependencies/com/github/amattioc/SDMX/cd3d352ff5fb3712cbde9775adf9d153d7fac3c9/SDMX-cd3d352ff5fb3712cbde9775adf9d153d7fac3c9.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import java.net.URI;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.Map;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ {
+      "importPath" : "import internal.sdmxdl.provider.connectors.ConnectorsRestClient;"
+    }, {
+      "importPath" : "import static internal.sdmxdl.provider.connectors.Connectors.NEEDS_CREDENTIALS_PROPERTY;"
+    }, {
+      "importPath" : "import static internal.sdmxdl.provider.connectors.ConnectorsRestClient.CONNECTORS_CONNECTION_PROPERTIES;"
+    } ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/com.github.nbbrd.sdmx-dl:sdmx-dl-provider-connectors/sdmx-dl-provider-connectors/src/main/java/internal/sdmxdl/provider/connectors/drivers/UisDriver.java",
+    "useImportReport" : [ {
+      "importPath" : "import sdmxdl.web.spi.WebDriver;",
+      "artifact" : {
+        "artifact" : "com.github.nbbrd.sdmx-dl:sdmx-dl-api:3.0.0-beta.7",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.nbbrd.sdmx-dl:sdmx-dl-provider-connectors:3.0.0-beta.7/dependencies/com/github/nbbrd/sdmx-dl/sdmx-dl-api/3.0.0-beta.7/sdmx-dl-api-3.0.0-beta.7.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import nbbrd.service.ServiceProvider;",
+      "artifact" : {
+        "artifact" : "com.github.nbbrd.java-service-util:java-service-annotation:1.5.1",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.nbbrd.sdmx-dl:sdmx-dl-provider-connectors:3.0.0-beta.7/dependencies/com/github/nbbrd/java-service-util/java-service-annotation/1.5.1/java-service-annotation-1.5.1.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import sdmxdl.provider.web.WebDriverSupport;",
+      "artifact" : {
+        "artifact" : "com.github.nbbrd.sdmx-dl:sdmx-dl-provider-util:3.0.0-beta.7",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.nbbrd.sdmx-dl:sdmx-dl-provider-connectors:3.0.0-beta.7/dependencies/com/github/nbbrd/sdmx-dl/sdmx-dl-provider-util/3.0.0-beta.7/sdmx-dl-provider-util-3.0.0-beta.7.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import sdmxdl.provider.web.RestConnector;",
+      "artifact" : {
+        "artifact" : "com.github.nbbrd.sdmx-dl:sdmx-dl-provider-util:3.0.0-beta.7",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.nbbrd.sdmx-dl:sdmx-dl-provider-connectors:3.0.0-beta.7/dependencies/com/github/nbbrd/sdmx-dl/sdmx-dl-provider-util/3.0.0-beta.7/sdmx-dl-provider-util-3.0.0-beta.7.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import static sdmxdl.ext.spi.Dialect.SDMX20_DIALECT;",
+      "artifact" : {
+        "artifact" : "com.github.nbbrd.sdmx-dl:sdmx-dl-api:3.0.0-beta.7",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.nbbrd.sdmx-dl:sdmx-dl-provider-connectors:3.0.0-beta.7/dependencies/com/github/nbbrd/sdmx-dl/sdmx-dl-api/3.0.0-beta.7/sdmx-dl-api-3.0.0-beta.7.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import sdmxdl.web.SdmxWebSource;",
+      "artifact" : {
+        "artifact" : "com.github.nbbrd.sdmx-dl:sdmx-dl-api:3.0.0-beta.7",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.nbbrd.sdmx-dl:sdmx-dl-provider-connectors:3.0.0-beta.7/dependencies/com/github/nbbrd/sdmx-dl/sdmx-dl-api/3.0.0-beta.7/sdmx-dl-api-3.0.0-beta.7.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import sdmxdl.provider.SdmxFix;",
+      "artifact" : {
+        "artifact" : "com.github.nbbrd.sdmx-dl:sdmx-dl-provider-util:3.0.0-beta.7",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.nbbrd.sdmx-dl:sdmx-dl-provider-connectors:3.0.0-beta.7/dependencies/com/github/nbbrd/sdmx-dl/sdmx-dl-provider-util/3.0.0-beta.7/sdmx-dl-provider-util-3.0.0-beta.7.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import static sdmxdl.provider.SdmxFix.Category.ENDPOINT;",
+      "artifact" : {
+        "artifact" : "com.github.nbbrd.sdmx-dl:sdmx-dl-provider-util:3.0.0-beta.7",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.nbbrd.sdmx-dl:sdmx-dl-provider-connectors:3.0.0-beta.7/dependencies/com/github/nbbrd/sdmx-dl/sdmx-dl-provider-util/3.0.0-beta.7/sdmx-dl-provider-util-3.0.0-beta.7.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import it.bancaditalia.oss.sdmx.client.custom.DotStat;",
+      "artifact" : {
+        "artifact" : "com.github.amattioc:SDMX:cd3d352ff5fb3712cbde9775adf9d153d7fac3c9",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.nbbrd.sdmx-dl:sdmx-dl-provider-connectors:3.0.0-beta.7/dependencies/com/github/amattioc/SDMX/cd3d352ff5fb3712cbde9775adf9d153d7fac3c9/SDMX-cd3d352ff5fb3712cbde9775adf9d153d7fac3c9.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import java.net.URI;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.Map;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ {
+      "importPath" : "import internal.sdmxdl.provider.connectors.ConnectorsRestClient;"
+    }, {
+      "importPath" : "import static internal.sdmxdl.provider.connectors.ConnectorsRestClient.CONNECTORS_CONNECTION_PROPERTIES;"
+    } ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/com.github.nbbrd.sdmx-dl:sdmx-dl-provider-connectors/sdmx-dl-provider-connectors/src/main/java/internal/sdmxdl/provider/connectors/HasDetailSupported.java",
+    "useImportReport" : [ ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/com.github.nbbrd.sdmx-dl:sdmx-dl-provider-connectors/sdmx-dl-provider-connectors/src/main/java/internal/sdmxdl/provider/connectors/Connectors.java",
+    "useImportReport" : [ {
+      "importPath" : "import it.bancaditalia.oss.sdmx.api.Dataflow;",
+      "artifact" : {
+        "artifact" : "com.github.amattioc:SDMX:cd3d352ff5fb3712cbde9775adf9d153d7fac3c9",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.nbbrd.sdmx-dl:sdmx-dl-provider-connectors:3.0.0-beta.7/dependencies/com/github/amattioc/SDMX/cd3d352ff5fb3712cbde9775adf9d153d7fac3c9/SDMX-cd3d352ff5fb3712cbde9775adf9d153d7fac3c9.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import sdmxdl.*;",
+      "artifact" : {
+        "artifact" : "com.github.nbbrd.sdmx-dl:sdmx-dl-api:3.0.0-beta.7",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.nbbrd.sdmx-dl:sdmx-dl-provider-connectors:3.0.0-beta.7/dependencies/com/github/nbbrd/sdmx-dl/sdmx-dl-api/3.0.0-beta.7/sdmx-dl-api-3.0.0-beta.7.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import sdmxdl.*;",
+      "artifact" : {
+        "artifact" : "com.github.nbbrd.sdmx-dl:sdmx-dl-api:3.0.0-beta.7",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.nbbrd.sdmx-dl:sdmx-dl-provider-connectors:3.0.0-beta.7/dependencies/com/github/nbbrd/sdmx-dl/sdmx-dl-api/3.0.0-beta.7/sdmx-dl-api-3.0.0-beta.7.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import it.bancaditalia.oss.sdmx.api.*;",
+      "artifact" : {
+        "artifact" : "com.github.amattioc:SDMX:cd3d352ff5fb3712cbde9775adf9d153d7fac3c9",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.nbbrd.sdmx-dl:sdmx-dl-provider-connectors:3.0.0-beta.7/dependencies/com/github/amattioc/SDMX/cd3d352ff5fb3712cbde9775adf9d153d7fac3c9/SDMX-cd3d352ff5fb3712cbde9775adf9d153d7fac3c9.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import it.bancaditalia.oss.sdmx.api.Dimension;",
+      "artifact" : {
+        "artifact" : "com.github.amattioc:SDMX:cd3d352ff5fb3712cbde9775adf9d153d7fac3c9",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.nbbrd.sdmx-dl:sdmx-dl-provider-connectors:3.0.0-beta.7/dependencies/com/github/amattioc/SDMX/cd3d352ff5fb3712cbde9775adf9d153d7fac3c9/SDMX-cd3d352ff5fb3712cbde9775adf9d153d7fac3c9.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import sdmxdl.*;",
+      "artifact" : {
+        "artifact" : "com.github.nbbrd.sdmx-dl:sdmx-dl-api:3.0.0-beta.7",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.nbbrd.sdmx-dl:sdmx-dl-provider-connectors:3.0.0-beta.7/dependencies/com/github/nbbrd/sdmx-dl/sdmx-dl-api/3.0.0-beta.7/sdmx-dl-api-3.0.0-beta.7.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import it.bancaditalia.oss.sdmx.api.*;",
+      "artifact" : {
+        "artifact" : "com.github.amattioc:SDMX:cd3d352ff5fb3712cbde9775adf9d153d7fac3c9",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.nbbrd.sdmx-dl:sdmx-dl-provider-connectors:3.0.0-beta.7/dependencies/com/github/amattioc/SDMX/cd3d352ff5fb3712cbde9775adf9d153d7fac3c9/SDMX-cd3d352ff5fb3712cbde9775adf9d153d7fac3c9.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import sdmxdl.*;",
+      "artifact" : {
+        "artifact" : "com.github.nbbrd.sdmx-dl:sdmx-dl-api:3.0.0-beta.7",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.nbbrd.sdmx-dl:sdmx-dl-provider-connectors:3.0.0-beta.7/dependencies/com/github/nbbrd/sdmx-dl/sdmx-dl-api/3.0.0-beta.7/sdmx-dl-api-3.0.0-beta.7.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import it.bancaditalia.oss.sdmx.api.*;",
+      "artifact" : {
+        "artifact" : "com.github.amattioc:SDMX:cd3d352ff5fb3712cbde9775adf9d153d7fac3c9",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.nbbrd.sdmx-dl:sdmx-dl-provider-connectors:3.0.0-beta.7/dependencies/com/github/amattioc/SDMX/cd3d352ff5fb3712cbde9775adf9d153d7fac3c9/SDMX-cd3d352ff5fb3712cbde9775adf9d153d7fac3c9.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import it.bancaditalia.oss.sdmx.api.Codelist;",
+      "artifact" : {
+        "artifact" : "com.github.amattioc:SDMX:cd3d352ff5fb3712cbde9775adf9d153d7fac3c9",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.nbbrd.sdmx-dl:sdmx-dl-provider-connectors:3.0.0-beta.7/dependencies/com/github/amattioc/SDMX/cd3d352ff5fb3712cbde9775adf9d153d7fac3c9/SDMX-cd3d352ff5fb3712cbde9775adf9d153d7fac3c9.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import sdmxdl.*;",
+      "artifact" : {
+        "artifact" : "com.github.nbbrd.sdmx-dl:sdmx-dl-api:3.0.0-beta.7",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.nbbrd.sdmx-dl:sdmx-dl-provider-connectors:3.0.0-beta.7/dependencies/com/github/nbbrd/sdmx-dl/sdmx-dl-api/3.0.0-beta.7/sdmx-dl-api-3.0.0-beta.7.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import sdmxdl.*;",
+      "artifact" : {
+        "artifact" : "com.github.nbbrd.sdmx-dl:sdmx-dl-api:3.0.0-beta.7",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.nbbrd.sdmx-dl:sdmx-dl-provider-connectors:3.0.0-beta.7/dependencies/com/github/nbbrd/sdmx-dl/sdmx-dl-api/3.0.0-beta.7/sdmx-dl-api-3.0.0-beta.7.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import it.bancaditalia.oss.sdmx.api.*;",
+      "artifact" : {
+        "artifact" : "com.github.amattioc:SDMX:cd3d352ff5fb3712cbde9775adf9d153d7fac3c9",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.nbbrd.sdmx-dl:sdmx-dl-provider-connectors:3.0.0-beta.7/dependencies/com/github/amattioc/SDMX/cd3d352ff5fb3712cbde9775adf9d153d7fac3c9/SDMX-cd3d352ff5fb3712cbde9775adf9d153d7fac3c9.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import java.util.stream.Collectors;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import sdmxdl.*;",
+      "artifact" : {
+        "artifact" : "com.github.nbbrd.sdmx-dl:sdmx-dl-api:3.0.0-beta.7",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.nbbrd.sdmx-dl:sdmx-dl-provider-connectors:3.0.0-beta.7/dependencies/com/github/nbbrd/sdmx-dl/sdmx-dl-api/3.0.0-beta.7/sdmx-dl-api-3.0.0-beta.7.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import it.bancaditalia.oss.sdmx.exceptions.SdmxException;",
+      "artifact" : {
+        "artifact" : "com.github.amattioc:SDMX:cd3d352ff5fb3712cbde9775adf9d153d7fac3c9",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.nbbrd.sdmx-dl:sdmx-dl-provider-connectors:3.0.0-beta.7/dependencies/com/github/amattioc/SDMX/cd3d352ff5fb3712cbde9775adf9d153d7fac3c9/SDMX-cd3d352ff5fb3712cbde9775adf9d153d7fac3c9.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import it.bancaditalia.oss.sdmx.exceptions.SdmxResponseException;",
+      "artifact" : {
+        "artifact" : "com.github.amattioc:SDMX:cd3d352ff5fb3712cbde9775adf9d153d7fac3c9",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.nbbrd.sdmx-dl:sdmx-dl-provider-connectors:3.0.0-beta.7/dependencies/com/github/amattioc/SDMX/cd3d352ff5fb3712cbde9775adf9d153d7fac3c9/SDMX-cd3d352ff5fb3712cbde9775adf9d153d7fac3c9.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import nbbrd.io.text.BooleanProperty;",
+      "artifact" : {
+        "artifact" : "com.github.nbbrd.java-io-util:java-io-base:0.0.19",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.nbbrd.sdmx-dl:sdmx-dl-provider-connectors:3.0.0-beta.7/dependencies/com/github/nbbrd/java-io-util/java-io-base/0.0.19/java-io-base-0.0.19.jar"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ {
+      "importPath" : "sdmxdl.Dataflow",
+      "artifact" : {
+        "artifact" : "com.github.nbbrd.sdmx-dl:sdmx-dl-api:3.0.0-beta.7",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.nbbrd.sdmx-dl:sdmx-dl-provider-connectors:3.0.0-beta.7/dependencies/com/github/nbbrd/sdmx-dl/sdmx-dl-api/3.0.0-beta.7/sdmx-dl-api-3.0.0-beta.7.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "sdmxdl.Dimension",
+      "artifact" : {
+        "artifact" : "com.github.nbbrd.sdmx-dl:sdmx-dl-api:3.0.0-beta.7",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.nbbrd.sdmx-dl:sdmx-dl-provider-connectors:3.0.0-beta.7/dependencies/com/github/nbbrd/sdmx-dl/sdmx-dl-api/3.0.0-beta.7/sdmx-dl-api-3.0.0-beta.7.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "toComponent(sdmxdl.Dimension.builder(), o).position(o.getPosition())",
+      "artifact" : {
+        "artifact" : "com.github.nbbrd.sdmx-dl:sdmx-dl-api:3.0.0-beta.7",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.nbbrd.sdmx-dl:sdmx-dl-provider-connectors:3.0.0-beta.7/dependencies/com/github/nbbrd/sdmx-dl/sdmx-dl-api/3.0.0-beta.7/sdmx-dl-api-3.0.0-beta.7.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "toComponent(sdmxdl.Dimension.builder(), o)",
+      "artifact" : {
+        "artifact" : "com.github.nbbrd.sdmx-dl:sdmx-dl-api:3.0.0-beta.7",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.nbbrd.sdmx-dl:sdmx-dl-provider-connectors:3.0.0-beta.7/dependencies/com/github/nbbrd/sdmx-dl/sdmx-dl-api/3.0.0-beta.7/sdmx-dl-api-3.0.0-beta.7.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "sdmxdl.Codelist",
+      "artifact" : {
+        "artifact" : "com.github.nbbrd.sdmx-dl:sdmx-dl-api:3.0.0-beta.7",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.nbbrd.sdmx-dl:sdmx-dl-provider-connectors:3.0.0-beta.7/dependencies/com/github/nbbrd/sdmx-dl/sdmx-dl-api/3.0.0-beta.7/sdmx-dl-api-3.0.0-beta.7.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "sdmxdl.Codelist.builder().ref(CodelistRef.of(o.getAgency(), o.getId(), o.getVersion())).codes(o)",
+      "artifact" : {
+        "artifact" : "com.github.nbbrd.sdmx-dl:sdmx-dl-api:3.0.0-beta.7",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.nbbrd.sdmx-dl:sdmx-dl-provider-connectors:3.0.0-beta.7/dependencies/com/github/nbbrd/sdmx-dl/sdmx-dl-api/3.0.0-beta.7/sdmx-dl-api-3.0.0-beta.7.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "sdmxdl.Codelist.builder().ref(CodelistRef.of(o.getAgency(), o.getId(), o.getVersion()))",
+      "artifact" : {
+        "artifact" : "com.github.nbbrd.sdmx-dl:sdmx-dl-api:3.0.0-beta.7",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.nbbrd.sdmx-dl:sdmx-dl-provider-connectors:3.0.0-beta.7/dependencies/com/github/nbbrd/sdmx-dl/sdmx-dl-api/3.0.0-beta.7/sdmx-dl-api-3.0.0-beta.7.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "sdmxdl.Codelist.builder()",
+      "artifact" : {
+        "artifact" : "com.github.nbbrd.sdmx-dl:sdmx-dl-api:3.0.0-beta.7",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.nbbrd.sdmx-dl:sdmx-dl-provider-connectors:3.0.0-beta.7/dependencies/com/github/nbbrd/sdmx-dl/sdmx-dl-api/3.0.0-beta.7/sdmx-dl-api-3.0.0-beta.7.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "it.bancaditalia.oss.sdmx.util.LanguagePriorityList",
+      "artifact" : {
+        "artifact" : "com.github.amattioc:SDMX:cd3d352ff5fb3712cbde9775adf9d153d7fac3c9",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.nbbrd.sdmx-dl:sdmx-dl-provider-connectors:3.0.0-beta.7/dependencies/com/github/amattioc/SDMX/cd3d352ff5fb3712cbde9775adf9d153d7fac3c9/SDMX-cd3d352ff5fb3712cbde9775adf9d153d7fac3c9.jar"
+      },
+      "isDirectDependency" : true
+    } ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/com.github.nbbrd.sdmx-dl:sdmx-dl-provider-connectors/sdmx-dl-provider-connectors/src/main/java/internal/sdmxdl/provider/connectors/ConnectorsConfigFix.java",
+    "useImportReport" : [ {
+      "importPath" : "import java.util.logging.Handler;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.Map;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import it.bancaditalia.oss.sdmx.util.Configuration;",
+      "artifact" : {
+        "artifact" : "com.github.amattioc:SDMX:cd3d352ff5fb3712cbde9775adf9d153d7fac3c9",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.nbbrd.sdmx-dl:sdmx-dl-provider-connectors:3.0.0-beta.7/dependencies/com/github/amattioc/SDMX/cd3d352ff5fb3712cbde9775adf9d153d7fac3c9/SDMX-cd3d352ff5fb3712cbde9775adf9d153d7fac3c9.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import java.util.logging.Logger;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.HashMap;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.stream.Collectors;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.logging.LogRecord;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/com.github.nbbrd.sdmx-dl:sdmx-dl-provider-connectors/sdmx-dl-provider-connectors/src/main/java/internal/sdmxdl/provider/connectors/ConnectorsRestClient.java",
+    "useImportReport" : [ {
+      "importPath" : "import sdmxdl.provider.web.RestClient;",
+      "artifact" : {
+        "artifact" : "com.github.nbbrd.sdmx-dl:sdmx-dl-provider-util:3.0.0-beta.7",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.nbbrd.sdmx-dl:sdmx-dl-provider-connectors:3.0.0-beta.7/dependencies/com/github/nbbrd/sdmx-dl/sdmx-dl-provider-util/3.0.0-beta.7/sdmx-dl-provider-util-3.0.0-beta.7.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import lombok.AccessLevel;",
+      "artifact" : {
+        "artifact" : "org.projectlombok:lombok:1.18.24",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.nbbrd.sdmx-dl:sdmx-dl-provider-connectors:3.0.0-beta.7/dependencies/org/projectlombok/lombok/1.18.24/lombok-1.18.24.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import it.bancaditalia.oss.sdmx.client.RestSdmxClient;",
+      "artifact" : {
+        "artifact" : "com.github.amattioc:SDMX:cd3d352ff5fb3712cbde9775adf9d153d7fac3c9",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.nbbrd.sdmx-dl:sdmx-dl-provider-connectors:3.0.0-beta.7/dependencies/com/github/amattioc/SDMX/cd3d352ff5fb3712cbde9775adf9d153d7fac3c9/SDMX-cd3d352ff5fb3712cbde9775adf9d153d7fac3c9.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import lombok.NonNull;",
+      "artifact" : {
+        "artifact" : "org.projectlombok:lombok:1.18.24",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.nbbrd.sdmx-dl:sdmx-dl-provider-connectors:3.0.0-beta.7/dependencies/org/projectlombok/lombok/1.18.24/lombok-1.18.24.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import java.net.URISyntaxException;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.net.URI;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.Map;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import sdmxdl.provider.web.RestClientSupplier;",
+      "artifact" : {
+        "artifact" : "com.github.nbbrd.sdmx-dl:sdmx-dl-provider-util:3.0.0-beta.7",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.nbbrd.sdmx-dl:sdmx-dl-provider-connectors:3.0.0-beta.7/dependencies/com/github/nbbrd/sdmx-dl/sdmx-dl-provider-util/3.0.0-beta.7/sdmx-dl-provider-util-3.0.0-beta.7.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import sdmxdl.format.ObsParser;",
+      "artifact" : {
+        "artifact" : "com.github.nbbrd.sdmx-dl:sdmx-dl-format-util:3.0.0-beta.7",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.nbbrd.sdmx-dl:sdmx-dl-provider-connectors:3.0.0-beta.7/dependencies/com/github/nbbrd/sdmx-dl/sdmx-dl-format-util/3.0.0-beta.7/sdmx-dl-format-util-3.0.0-beta.7.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.function.Supplier;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.List;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import sdmxdl.*;",
+      "artifact" : {
+        "artifact" : "com.github.nbbrd.sdmx-dl:sdmx-dl-api:3.0.0-beta.7",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.nbbrd.sdmx-dl:sdmx-dl-provider-connectors:3.0.0-beta.7/dependencies/com/github/nbbrd/sdmx-dl/sdmx-dl-api/3.0.0-beta.7/sdmx-dl-api-3.0.0-beta.7.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.io.IOException;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.stream.Collectors;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import it.bancaditalia.oss.sdmx.exceptions.SdmxException;",
+      "artifact" : {
+        "artifact" : "com.github.amattioc:SDMX:cd3d352ff5fb3712cbde9775adf9d153d7fac3c9",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.nbbrd.sdmx-dl:sdmx-dl-provider-connectors:3.0.0-beta.7/dependencies/com/github/amattioc/SDMX/cd3d352ff5fb3712cbde9775adf9d153d7fac3c9/SDMX-cd3d352ff5fb3712cbde9775adf9d153d7fac3c9.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import sdmxdl.*;",
+      "artifact" : {
+        "artifact" : "com.github.nbbrd.sdmx-dl:sdmx-dl-api:3.0.0-beta.7",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.nbbrd.sdmx-dl:sdmx-dl-provider-connectors:3.0.0-beta.7/dependencies/com/github/nbbrd/sdmx-dl/sdmx-dl-api/3.0.0-beta.7/sdmx-dl-api-3.0.0-beta.7.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import sdmxdl.*;",
+      "artifact" : {
+        "artifact" : "com.github.nbbrd.sdmx-dl:sdmx-dl-api:3.0.0-beta.7",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.nbbrd.sdmx-dl:sdmx-dl-provider-connectors:3.0.0-beta.7/dependencies/com/github/nbbrd/sdmx-dl/sdmx-dl-api/3.0.0-beta.7/sdmx-dl-api-3.0.0-beta.7.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import sdmxdl.*;",
+      "artifact" : {
+        "artifact" : "com.github.nbbrd.sdmx-dl:sdmx-dl-api:3.0.0-beta.7",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.nbbrd.sdmx-dl:sdmx-dl-provider-connectors:3.0.0-beta.7/dependencies/com/github/nbbrd/sdmx-dl/sdmx-dl-api/3.0.0-beta.7/sdmx-dl-api-3.0.0-beta.7.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import java.util.stream.Stream;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import sdmxdl.*;",
+      "artifact" : {
+        "artifact" : "com.github.nbbrd.sdmx-dl:sdmx-dl-api:3.0.0-beta.7",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.nbbrd.sdmx-dl:sdmx-dl-provider-connectors:3.0.0-beta.7/dependencies/com/github/nbbrd/sdmx-dl/sdmx-dl-api/3.0.0-beta.7/sdmx-dl-api-3.0.0-beta.7.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import sdmxdl.provider.DataRef;",
+      "artifact" : {
+        "artifact" : "com.github.nbbrd.sdmx-dl:sdmx-dl-provider-util:3.0.0-beta.7",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.nbbrd.sdmx-dl:sdmx-dl-provider-connectors:3.0.0-beta.7/dependencies/com/github/nbbrd/sdmx-dl/sdmx-dl-provider-util/3.0.0-beta.7/sdmx-dl-provider-util-3.0.0-beta.7.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import it.bancaditalia.oss.sdmx.api.PortableTimeSeries;",
+      "artifact" : {
+        "artifact" : "com.github.amattioc:SDMX:cd3d352ff5fb3712cbde9775adf9d153d7fac3c9",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.nbbrd.sdmx-dl:sdmx-dl-provider-connectors:3.0.0-beta.7/dependencies/com/github/amattioc/SDMX/cd3d352ff5fb3712cbde9775adf9d153d7fac3c9/SDMX-cd3d352ff5fb3712cbde9775adf9d153d7fac3c9.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import sdmxdl.*;",
+      "artifact" : {
+        "artifact" : "com.github.nbbrd.sdmx-dl:sdmx-dl-api:3.0.0-beta.7",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.nbbrd.sdmx-dl:sdmx-dl-provider-connectors:3.0.0-beta.7/dependencies/com/github/nbbrd/sdmx-dl/sdmx-dl-api/3.0.0-beta.7/sdmx-dl-api-3.0.0-beta.7.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import sdmxdl.*;",
+      "artifact" : {
+        "artifact" : "com.github.nbbrd.sdmx-dl:sdmx-dl-api:3.0.0-beta.7",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.nbbrd.sdmx-dl:sdmx-dl-provider-connectors:3.0.0-beta.7/dependencies/com/github/nbbrd/sdmx-dl/sdmx-dl-api/3.0.0-beta.7/sdmx-dl-api-3.0.0-beta.7.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import nbbrd.io.text.BaseProperty;",
+      "artifact" : {
+        "artifact" : "com.github.nbbrd.java-io-util:java-io-base:0.0.19",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.nbbrd.sdmx-dl:sdmx-dl-provider-connectors:3.0.0-beta.7/dependencies/com/github/nbbrd/java-io-util/java-io-base/0.0.19/java-io-base-0.0.19.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import static sdmxdl.provider.web.WebProperties.*;",
+      "artifact" : {
+        "artifact" : "com.github.nbbrd.sdmx-dl:sdmx-dl-provider-util:3.0.0-beta.7",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.nbbrd.sdmx-dl:sdmx-dl-provider-connectors:3.0.0-beta.7/dependencies/com/github/nbbrd/sdmx-dl/sdmx-dl-provider-util/3.0.0-beta.7/sdmx-dl-provider-util-3.0.0-beta.7.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import static sdmxdl.provider.web.WebProperties.*;",
+      "artifact" : {
+        "artifact" : "com.github.nbbrd.sdmx-dl:sdmx-dl-provider-util:3.0.0-beta.7",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.nbbrd.sdmx-dl:sdmx-dl-provider-connectors:3.0.0-beta.7/dependencies/com/github/nbbrd/sdmx-dl/sdmx-dl-provider-util/3.0.0-beta.7/sdmx-dl-provider-util-3.0.0-beta.7.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import static sdmxdl.provider.web.WebProperties.*;",
+      "artifact" : {
+        "artifact" : "com.github.nbbrd.sdmx-dl:sdmx-dl-provider-util:3.0.0-beta.7",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.nbbrd.sdmx-dl:sdmx-dl-provider-connectors:3.0.0-beta.7/dependencies/com/github/nbbrd/sdmx-dl/sdmx-dl-provider-util/3.0.0-beta.7/sdmx-dl-provider-util-3.0.0-beta.7.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import sdmxdl.*;",
+      "artifact" : {
+        "artifact" : "com.github.nbbrd.sdmx-dl:sdmx-dl-api:3.0.0-beta.7",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.nbbrd.sdmx-dl:sdmx-dl-provider-connectors:3.0.0-beta.7/dependencies/com/github/nbbrd/sdmx-dl/sdmx-dl-api/3.0.0-beta.7/sdmx-dl-api-3.0.0-beta.7.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import sdmxdl.web.SdmxWebSource;",
+      "artifact" : {
+        "artifact" : "com.github.nbbrd.sdmx-dl:sdmx-dl-api:3.0.0-beta.7",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.nbbrd.sdmx-dl:sdmx-dl-provider-connectors:3.0.0-beta.7/dependencies/com/github/nbbrd/sdmx-dl/sdmx-dl-api/3.0.0-beta.7/sdmx-dl-api-3.0.0-beta.7.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import sdmxdl.web.spi.WebContext;",
+      "artifact" : {
+        "artifact" : "com.github.nbbrd.sdmx-dl:sdmx-dl-api:3.0.0-beta.7",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.nbbrd.sdmx-dl:sdmx-dl-provider-connectors:3.0.0-beta.7/dependencies/com/github/nbbrd/sdmx-dl/sdmx-dl-api/3.0.0-beta.7/sdmx-dl-api-3.0.0-beta.7.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import it.bancaditalia.oss.sdmx.event.RestSdmxEventListener;",
+      "artifact" : {
+        "artifact" : "com.github.amattioc:SDMX:cd3d352ff5fb3712cbde9775adf9d153d7fac3c9",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.nbbrd.sdmx-dl:sdmx-dl-provider-connectors:3.0.0-beta.7/dependencies/com/github/amattioc/SDMX/cd3d352ff5fb3712cbde9775adf9d153d7fac3c9/SDMX-cd3d352ff5fb3712cbde9775adf9d153d7fac3c9.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import java.util.function.BiConsumer;",
+      "artifact" : {
+        "artifact" : "Cannot detect from dependency",
+        "directory" : "Cannot detect from dependency"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import it.bancaditalia.oss.sdmx.event.RestSdmxEvent;",
+      "artifact" : {
+        "artifact" : "com.github.amattioc:SDMX:cd3d352ff5fb3712cbde9775adf9d153d7fac3c9",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.nbbrd.sdmx-dl:sdmx-dl-provider-connectors:3.0.0-beta.7/dependencies/com/github/amattioc/SDMX/cd3d352ff5fb3712cbde9775adf9d153d7fac3c9/SDMX-cd3d352ff5fb3712cbde9775adf9d153d7fac3c9.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import sdmxdl.*;",
+      "artifact" : {
+        "artifact" : "com.github.nbbrd.sdmx-dl:sdmx-dl-api:3.0.0-beta.7",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.nbbrd.sdmx-dl:sdmx-dl-provider-connectors:3.0.0-beta.7/dependencies/com/github/nbbrd/sdmx-dl/sdmx-dl-api/3.0.0-beta.7/sdmx-dl-api-3.0.0-beta.7.jar"
+      },
+      "isDirectDependency" : false
+    }, {
+      "importPath" : "import it.bancaditalia.oss.sdmx.event.RedirectionEvent;",
+      "artifact" : {
+        "artifact" : "com.github.amattioc:SDMX:cd3d352ff5fb3712cbde9775adf9d153d7fac3c9",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.nbbrd.sdmx-dl:sdmx-dl-provider-connectors:3.0.0-beta.7/dependencies/com/github/amattioc/SDMX/cd3d352ff5fb3712cbde9775adf9d153d7fac3c9/SDMX-cd3d352ff5fb3712cbde9775adf9d153d7fac3c9.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import sdmxdl.provider.web.WebEvents;",
+      "artifact" : {
+        "artifact" : "com.github.nbbrd.sdmx-dl:sdmx-dl-provider-util:3.0.0-beta.7",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.nbbrd.sdmx-dl:sdmx-dl-provider-connectors:3.0.0-beta.7/dependencies/com/github/nbbrd/sdmx-dl/sdmx-dl-provider-util/3.0.0-beta.7/sdmx-dl-provider-util-3.0.0-beta.7.jar"
+      },
+      "isDirectDependency" : true
+    }, {
+      "importPath" : "import it.bancaditalia.oss.sdmx.event.OpenEvent;",
+      "artifact" : {
+        "artifact" : "com.github.amattioc:SDMX:cd3d352ff5fb3712cbde9775adf9d153d7fac3c9",
+        "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.nbbrd.sdmx-dl:sdmx-dl-provider-connectors:3.0.0-beta.7/dependencies/com/github/amattioc/SDMX/cd3d352ff5fb3712cbde9775adf9d153d7fac3c9/SDMX-cd3d352ff5fb3712cbde9775adf9d153d7fac3c9.jar"
+      },
+      "isDirectDependency" : true
+    } ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  }, {
+    "filePath" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/com.github.nbbrd.sdmx-dl:sdmx-dl-provider-connectors/sdmx-dl-provider-connectors/src/main/javadoc/EmptyJavaDoc.java",
+    "useImportReport" : [ ],
+    "unusedImportReport" : [ ],
+    "fullPathCallingReport" : [ ],
+    "failImportReport" : [ ]
+  } ],
+  "projectUseDependencies" : [ {
+    "artifact" : "com.github.amattioc:SDMX:cd3d352ff5fb3712cbde9775adf9d153d7fac3c9",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.nbbrd.sdmx-dl:sdmx-dl-provider-connectors:3.0.0-beta.7/dependencies/com/github/amattioc/SDMX/cd3d352ff5fb3712cbde9775adf9d153d7fac3c9/SDMX-cd3d352ff5fb3712cbde9775adf9d153d7fac3c9.jar"
+  }, {
+    "artifact" : "org.projectlombok:lombok:1.18.24",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.nbbrd.sdmx-dl:sdmx-dl-provider-connectors:3.0.0-beta.7/dependencies/org/projectlombok/lombok/1.18.24/lombok-1.18.24.jar"
+  }, {
+    "artifact" : "com.github.nbbrd.java-service-util:java-service-annotation:1.5.1",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.nbbrd.sdmx-dl:sdmx-dl-provider-connectors:3.0.0-beta.7/dependencies/com/github/nbbrd/java-service-util/java-service-annotation/1.5.1/java-service-annotation-1.5.1.jar"
+  }, {
+    "artifact" : "com.github.nbbrd.sdmx-dl:sdmx-dl-provider-util:3.0.0-beta.7",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.nbbrd.sdmx-dl:sdmx-dl-provider-connectors:3.0.0-beta.7/dependencies/com/github/nbbrd/sdmx-dl/sdmx-dl-provider-util/3.0.0-beta.7/sdmx-dl-provider-util-3.0.0-beta.7.jar"
+  }, {
+    "artifact" : "com.github.nbbrd.sdmx-dl:sdmx-dl-api:3.0.0-beta.7",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.nbbrd.sdmx-dl:sdmx-dl-provider-connectors:3.0.0-beta.7/dependencies/com/github/nbbrd/sdmx-dl/sdmx-dl-api/3.0.0-beta.7/sdmx-dl-api-3.0.0-beta.7.jar"
+  } ],
+  "projectUseTransitiveDependencies" : [ {
+    "artifact" : "com.github.nbbrd.sdmx-dl:sdmx-dl-format-xml:3.0.0-beta.7",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.nbbrd.sdmx-dl:sdmx-dl-provider-connectors:3.0.0-beta.7/dependencies/com/github/nbbrd/sdmx-dl/sdmx-dl-format-xml/3.0.0-beta.7/sdmx-dl-format-xml-3.0.0-beta.7.jar"
+  }, {
+    "artifact" : "com.github.nbbrd.sdmx-dl:sdmx-dl-format-xml:3.0.0-beta.7",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.nbbrd.sdmx-dl:sdmx-dl-provider-connectors:3.0.0-beta.7/dependencies/com/github/nbbrd/sdmx-dl/sdmx-dl-format-xml/3.0.0-beta.7/sdmx-dl-format-xml-3.0.0-beta.7-tests.jar"
+  }, {
+    "artifact" : "com.github.nbbrd.sdmx-dl:sdmx-dl-format-xml:3.0.0-beta.7",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.nbbrd.sdmx-dl:sdmx-dl-provider-connectors:3.0.0-beta.7/dependencies/com/github/nbbrd/sdmx-dl/sdmx-dl-format-xml/3.0.0-beta.7/sdmx-dl-format-xml-3.0.0-beta.7.jar"
+  }, {
+    "artifact" : "com.github.nbbrd.sdmx-dl:sdmx-dl-format-xml:3.0.0-beta.7",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.nbbrd.sdmx-dl:sdmx-dl-provider-connectors:3.0.0-beta.7/dependencies/com/github/nbbrd/sdmx-dl/sdmx-dl-format-xml/3.0.0-beta.7/sdmx-dl-format-xml-3.0.0-beta.7-tests.jar"
+  }, {
+    "artifact" : "com.github.nbbrd.sdmx-dl:sdmx-dl-format-xml:3.0.0-beta.7",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.nbbrd.sdmx-dl:sdmx-dl-provider-connectors:3.0.0-beta.7/dependencies/com/github/nbbrd/sdmx-dl/sdmx-dl-format-xml/3.0.0-beta.7/sdmx-dl-format-xml-3.0.0-beta.7.jar"
+  }, {
+    "artifact" : "com.github.nbbrd.sdmx-dl:sdmx-dl-format-xml:3.0.0-beta.7",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.nbbrd.sdmx-dl:sdmx-dl-provider-connectors:3.0.0-beta.7/dependencies/com/github/nbbrd/sdmx-dl/sdmx-dl-format-xml/3.0.0-beta.7/sdmx-dl-format-xml-3.0.0-beta.7-tests.jar"
+  } ],
+  "projectUnusedDependencies" : [ {
+    "artifact" : "org.checkerframework:checker-qual:3.23.0",
+    "directory" : "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.nbbrd.sdmx-dl:sdmx-dl-provider-connectors:3.0.0-beta.7/dependencies/org/checkerframework/checker-qual/3.23.0/checker-qual-3.23.0.jar"
+  } ]
+}
