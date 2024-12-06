@@ -455,10 +455,6 @@ public class PomUtils {
         return false;
     }
 
-    public static Boolean isOutputError(List<String> output) {
-        return output.stream().anyMatch(l -> l.contains("[ERROR]"));
-    }
-
     public static List<ImportArtifact> extractDependencyFromError(List<String> output) {
         List<ImportArtifact> importArtifacts = new ArrayList<>();
         for (String line : output) {
@@ -470,20 +466,5 @@ public class PomUtils {
             }
         }
         return importArtifacts;
-    }
-
-
-    public static void main(String[] args) throws Exception {
-//        String pomFilePath = "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository/com.github.hxbkx:ExcelUtils:1.4.2/ExcelUtils-1.4.2.pom";
-//
-//        System.out.println(getPomListFromPath("/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/guava"));
-        PomUtils.removeDependency("/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/com.microsoft.azure.network.v2019_07_01:azure-mgmt-network/sdk/tools/azure-sdk-archetype/src/main/resources/archetype-resources/pom.xml", "org.azbuilder.terraform", "terraform-client");
-
-//        getModifiedPomFile(pomFilePath);
-//        String targetGroupId = "org.springframework.boot";
-//        String targetArtifactId = "spring-boot-starter-web";
-//        String newVersion = "2.7.18";
-//
-//        modifyDependencyVersion(pomFilePath, targetGroupId, targetArtifactId, newVersion);
     }
 }

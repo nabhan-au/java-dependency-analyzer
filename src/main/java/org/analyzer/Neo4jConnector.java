@@ -4,7 +4,6 @@ import org.neo4j.driver.*;
 import org.neo4j.driver.exceptions.Neo4jException;
 
 import java.util.Map;
-import java.util.Objects;
 
 public class Neo4jConnector {
     private final Driver driver;

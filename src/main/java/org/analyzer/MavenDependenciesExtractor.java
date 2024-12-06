@@ -75,37 +75,6 @@ public class MavenDependenciesExtractor {
         return "-Dartifact=" + artifact.getGroupId() + ":" + artifact.getArtifactId() + ":" + artifact.getVersion();
     }
 
-//    public static List<Dependency> getAllProjectDependencies(String repoPath) throws Exception {
-//        // Run the 'gradle dependencies' command at the specified repository
-//        System.out.println("getting maven dependencies");
-//        ProcessBuilder processBuilder = new ProcessBuilder();
-//        processBuilder.command("mvn", "dependency:list");
-//        processBuilder.directory(new File(repoPath));
-//        processBuilder.redirectErrorStream(true);
-//
-//        Process process = processBuilder.start();
-//
-//        // Capture the output of the command
-//        BufferedReader reader = new BufferedReader(new InputStreamReader(process.getInputStream()));
-//        StringBuilder output = new StringBuilder();
-//        String line;
-//
-//        while ((line = reader.readLine()) != null) {
-//            output.append(line).append("\n");
-//        }
-//
-//        // Wait for the process to finish
-//        int exitCode = process.waitFor();
-//        if (exitCode != 0) {
-//            System.err.println("Maven command failed with exit code: " + exitCode);
-//            throw new Exception("Maven command failed with exit code: " + exitCode);
-//        }
-//
-//        // Extract dependencies using regex
-//        String dependenciesOutput = output.toString();
-//        return extractApiDependenciesBlock(dependenciesOutput);
-//    }
-
     private static List<Dependency> extractApiDependenciesBlock(String input, String projectArtifactId) {
         String startPattern = "@ " + projectArtifactId;
         String regex5 = "^([\\w\\.-]+:[\\w\\.-]+:[\\w\\.-]+:[\\w\\.-]+:[a-z]+)";
@@ -131,7 +100,6 @@ public class MavenDependenciesExtractor {
                     // Extract the parts using capturing groups
                     String groupId = extractedLine[0]; // org.bytedeco
                     String artifactId = extractedLine[1]; // opencv
-                    String type = extractedLine[2]; // 4.7.0-1.5.9
                     String version = extractedLine[3]; // 4.7.0-1.5.9
                     String scope = extractedLine[4]; // 4.7.0-1.5.9
 
@@ -146,7 +114,6 @@ public class MavenDependenciesExtractor {
                     // Extract the parts using capturing groups
                     String groupId = extractedLine[0]; // org.bytedeco
                     String artifactId = extractedLine[1]; // opencv
-                    String type = extractedLine[2]; // 4.7.0-1.5.9
                     String version = extractedLine[4]; // 4.7.0-1.5.9
                     String scope = extractedLine[5]; // 4.7.0-1.5.9
 
@@ -158,10 +125,5 @@ public class MavenDependenciesExtractor {
             }
         }
         return dependencies;
-    }
-
-    public static void main(String[] args) throws Exception {
-        MavenDependenciesExtractor extractor = new MavenDependenciesExtractor();
-        System.out.println(extractor.getProjectDependencies("/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/org.terrakube.terraform:terraform-spring-boot-autoconfigure/terraform-spring-boot-autoconfigure", "terraform-spring-boot-autoconfigure"));
     }
 }

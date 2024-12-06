@@ -91,15 +91,4 @@ public class RepositoryUtils {
         }
         return "";
     }
-
-    public static void main(String[] args) {
-        String uri = "neo4j://localhost:7687";
-//        String username = "neo4j";
-//        String password = "12345678";
-//        Neo4jConnector neo4jConnector = new Neo4jConnector(uri, username, password);
-//        RepositoryUtils repositoryProcessor = new RepositoryUtils(neo4jConnector);
-//        System.out.println(repositoryProcessor.getTransitiveDependency(new Dependency("org.slf4j:slf4j-log4j12","1.7.5"), 0));
-//        repositoryProcessor.test();
-        System.out.println(getProjectVersions("/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/cloud.piranha.arquillian:piranha-arquillian-server/http/undertow"));
-    }
 }

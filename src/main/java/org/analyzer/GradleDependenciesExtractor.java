@@ -11,6 +11,8 @@ import java.util.List;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
+
+// Not used anymore
 public class GradleDependenciesExtractor {
     public static void main(String[] args) throws Exception {
         // Specify the path to your destination Gradle repository

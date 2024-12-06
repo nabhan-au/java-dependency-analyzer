@@ -26,32 +26,20 @@ public class Main {
 
     private static final Logger log = LoggerFactory.getLogger(Main.class);
 
-    public static void runSingleProject(String destinationPath, String writeFileDestination, String projectArtifact, String repoBasePath, String repoPath, String subPath, String gitBranch, String jsonFileOutputPath, Boolean writeProjectToJson, Boolean isPresentOnMavenRepo) throws Exception {
-        GitUtils.gitCheckoutBranch(repoPath, gitBranch);
+    public static void runSingleProject(String destinationPath, String writeFileDestination, String projectArtifact, String repoBasePath, String repoPath, String subPath, Boolean isPresentOnMavenRepo) throws Exception {
         String uri = "neo4j://localhost:7687";
         String username = "neo4j";
         String password = "12345678";
         Neo4jConnector neo4jConnector = new Neo4jConnector(uri, username, password);
         var checker = new ProjectImportChecker(neo4jConnector, repoBasePath, repoPath, subPath, destinationPath, true, projectArtifact, new HashMap<>() {}, isPresentOnMavenRepo);
         checker.resolve(false);
-        var projectReport = checker.check();
+        var projectReport = checker.mapImport();
         checker.exportToJson(projectReport, writeFileDestination);
-
-        // Path to the JSON file
-        if (writeProjectToJson) {
-            writeInputToFile(jsonFileOutputPath, projectArtifact, repoPath, subPath, gitBranch);
-        }
         neo4jConnector.close();
     }
 
-    public static void runSingleProjectWithCSV(Integer csvIndex, String filePath) throws Exception {
+    public static void runSingleProjectWithCSV(Integer csvIndex, String filePath, String destinationPath, String jsonFile, String writeFileDestination, String repoTarget) throws Exception {
         System.out.println("Running project with index: " + csvIndex);
-        var destinationPath = "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository";
-        var writeFileDestination = "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/java-dependency-analyzer/new-dependency-output-6";
-        var jsonFile = "save_input.json";
-        var repoTarget = "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo";
-        var completePath = "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/java-dependency-analyzer/new-dependency-output/complete.json";
-
         var inputMap = getProjectInputs(filePath, csvIndex);
         if (inputMap.isEmpty()) {
             System.out.println("Skipping index: " + csvIndex);
@@ -73,13 +61,6 @@ public class Main {
         ObjectMapper mapper = new ObjectMapper();
         List<List<String>> parsedList = mapper.readValue(comparedVersion, new TypeReference<List<List<String>>>() {});
         List<String> parsedOlderTags = mapper.readValue(olderTags.replace("'", "\""), new TypeReference<List<String>>() {});
-
-
-        var artifactVersionList = parsedList.stream().map(t -> t.getFirst()).toList();
-        parsedOlderTags = getFileList("new-dependency-output-4/" + artifactId);
-        parsedOlderTags = parsedOlderTags.stream().filter(t -> !artifactVersionList.contains(t)).toList();
-        System.out.println("Older tags: " + parsedOlderTags);
-
 
         if (parsedList.isEmpty()) {
             System.out.println("Skipping project: " + artifactId);
@@ -109,7 +90,7 @@ public class Main {
                     return;
                 }
                 System.out.println("Running at path: " + repoArtifactPath);
-                runSingleProject(destinationPath, writeFileDestination, artifactId + ":" + artifactVersion, repoPath, repoArtifactPath, "", gitTag, jsonFile, false, false);
+                runSingleProject(destinationPath, writeFileDestination, artifactId + ":" + artifactVersion, repoPath, repoArtifactPath, "", false);
                 runGitRestore(repoPath);
             }
 
@@ -132,11 +113,9 @@ public class Main {
                     continue;
                 }
                 System.out.println("Running at path: " + repoArtifactPath);
-                runSingleProject(destinationPath, writeFileDestination, artifactId + ":" + tag, repoPath, repoArtifactPath, "", tag, jsonFile, false, false);
+                runSingleProject(destinationPath, writeFileDestination, artifactId + ":" + tag, repoPath, repoArtifactPath, "", false);
                 runGitRestore(repoPath);
             }
-
-            writeInputToFile(completePath, artifactId, repoPath, "", "");
             addDataToCsv(artifactId, repoPath, writeFileDestination + "/success_project.csv");
         } catch (Exception | Error e) {
             System.out.println(e.getMessage());
@@ -230,22 +209,8 @@ public class Main {
 
 
     public static void main(String[] args) throws Exception {
-        var destinationPath = "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository";
-        var writeFileDestination = "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/java-dependency-analyzer/new-dependency-output";
-        var csvFile = "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/java-dependency-analyzer/datasets/artifact-dependency-details.csv";
-        var jsonFile = "save_input.json";
-
-        var projectArtifact = "com.github.hxbkx:ExcelUtils:1.4.2";
-        var repoPath = "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/ExcelUtils";
-        var subPath = "/src";
-        var gitBranch = "1.4.2";
-
-        for (int i = 154; i < 500; i++) { // Equivalent to range(0, 10) in Python
-            runSingleProjectWithCSV(i, "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/java-dependency-analyzer/analyzer-python/data_with_date/success-compared-result-2.csv");
-        }
-//        System.out.println(getFileList("new-dependency-output-4/io.github.osvaldjr:easy-cucumber-owasp-zap"));
-//        runSingleProjectWithCSV(3, "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/java-dependency-analyzer/analyzer-python/data/test-compared-result.csv");
-//        runSingleProject(destinationPath, writeFileDestination, csvFile, projectArtifact, repoPath, subPath, gitBranch, jsonFile, false);
-//        runMultipleProjects(jsonFile, destinationPath, writeFileDestination, csvFile);
+//        for (int i = 154; i < 500; i++) { // Equivalent to range(0, 10) in Python
+//            runSingleProjectWithCSV(i, "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/java-dependency-analyzer/analyzer-python/data_with_date/success-compared-result-2.csv", "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/jar_repository");
+//        }
     }
 }

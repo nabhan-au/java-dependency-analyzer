@@ -1,13 +1,10 @@
 package org.analyzer;
 
-import com.github.javaparser.ParserConfiguration;
-import com.github.javaparser.StaticJavaParser;
 import com.github.javaparser.ast.CompilationUnit;
 import com.github.javaparser.ast.ImportDeclaration;
 import com.github.javaparser.ast.Node;
 import com.github.javaparser.ast.NodeList;
 import com.github.javaparser.ast.body.*;
-import com.github.javaparser.ast.comments.JavadocComment;
 import com.github.javaparser.ast.expr.*;
 import com.github.javaparser.ast.stmt.*;
 import com.github.javaparser.ast.type.ReferenceType;
@@ -18,24 +15,17 @@ import com.github.javaparser.javadoc.JavadocBlockTag;
 import com.github.javaparser.javadoc.description.JavadocDescriptionElement;
 import com.github.javaparser.javadoc.description.JavadocInlineTag;
 import com.github.javaparser.javadoc.description.JavadocSnippet;
-import com.github.javaparser.symbolsolver.JavaSymbolSolver;
-import com.github.javaparser.symbolsolver.resolution.typesolvers.CombinedTypeSolver;
-import com.github.javaparser.symbolsolver.resolution.typesolvers.ReflectionTypeSolver;
 import com.github.javaparser.utils.Pair;
 import org.analyzer.models.ImportClassPath;
 import org.analyzer.models.ImportDetails;
 import org.analyzer.models.SingleImportDetails;
 
-import java.io.File;
-import java.nio.file.Path;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 import java.util.Objects;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
-
-import static org.analyzer.FileUtils.getFileList;
 
 public class DependencyResolver {
     private CompilationUnit compilationUnit;
@@ -583,94 +573,5 @@ public class DependencyResolver {
                 }
             }
         });
-    }
-
-    public static void main(String[] args) throws Exception {
-        CombinedTypeSolver typeSolver = new CombinedTypeSolver();
-        typeSolver.add(new ReflectionTypeSolver());
-
-        ParserConfiguration parserConfig = new ParserConfiguration()
-                .setSymbolResolver(new JavaSymbolSolver(typeSolver))
-                .setLanguageLevel(ParserConfiguration.LanguageLevel.JAVA_21);
-        StaticJavaParser.setConfiguration(parserConfig);
-
-        var repoPath = "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/ihmc-open-robotics-software/ihmc-perception";
-        var destinationPath = "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/temp-repo";
-        var files = getFileList(repoPath);
-//        var directDependencies = GradleDependenciesExtractor.getProjectDependencies(repoPath);
-//        var installer = new ArtifactInstaller();
-//        var currentRepoArtifact = "us.ihmc:ihmc-perception:0.14.0-241016";
-//        var extractedCurrentDependency = GradleDependenciesExtractor.extractDependency(currentRepoArtifact);
-//        var installResult = installer.install(extractedCurrentDependency, destinationPath, false);
-//        var currentRepoArtifactPath = installResult.a;
-//        List<File> artifactPaths = new ArrayList<>(Arrays.asList(new File(currentRepoArtifactPath.getArtifactDirectory())));
-//        directDependencies.forEach(d -> {
-//            var extractedDependency = GradleDependenciesExtractor.extractDependency(d.toString());
-//            try {
-//                var artifactPath = installer.install(extractedDependency.get(0), extractedDependency.get(1), extractedDependency.get(2), destinationPath);
-//                artifactPaths.add(new File(artifactPath));
-//            } catch (IOException e) {
-//                throw new RuntimeException(e);
-//            } catch (InterruptedException e) {
-//                throw new RuntimeException(e);
-//            }
-//        });
-        for (Path path : files) {
-            var jarFile = new File("/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/test/artifacts/ihmc_perception_main_jar/ihmc-perception.main.jar");
-//            var jarFile = new File("/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/temp-repo/ihmc-perception.main.jar");
-//            CompilationUnit cu = StaticJavaParser.parse(new File("/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/ihmc-open-robotics-software/ihmc-perception/src/main/java/us/ihmc/perception/demo/NVCompDemo.java"));
-            CompilationUnit cu = StaticJavaParser.parse(new File(path.toAbsolutePath().toString()));
-            List<File> artifactPaths = new ArrayList<>();
-            artifactPaths.add(jarFile);
-            var staticImportInspectorFromJar = new StaticImportInspectorFromJar(artifactPaths);
-            // jar:file:/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/test/artifacts/ihmc_perception_main_jar/ihmc-perception.main.jar!/
-            var resolver = new DependencyResolver(cu, staticImportInspectorFromJar);
-//            resolver.importDetails.classList.forEach(c -> System.out.println(c.importObject));
-            var importList = new ArrayList<SingleImportDetails>();
-            var unable = new ArrayList<String>();
-            cu.walk(node -> {
-//            if (node instanceof ReferenceType) {
-//                System.out.println(node);
-                var result = resolver.resolveNodeType(node);
-                importList.addAll(result.a);
-                unable.addAll(result.b);
-//                System.out.println(result.a.stream().map(t -> t.importObject).toList());
-//                System.out.println(result.b);
-//            }
-            });
-            cu.findAll(JavadocComment.class).forEach(n -> {
-//                System.out.println(n.getContent());
-            });
-
-            // TODO use checkFullPathCalling to check with dependency path directly
-            var todo1 = resolver.checkFullPathCalling;
-            var checkedImportList = importList.stream().map(t -> t.classPath.getOriginalPath().trim()).distinct().toList();
-            var fileImport = resolver.fileImports;
-
-            var unusedImport = new ArrayList<ImportDeclaration>();
-            var usedImport = new ArrayList<ImportDeclaration>();
-            for (ImportDeclaration importDeclaration : fileImport) {
-
-                if (!checkedImportList.contains(importDeclaration.toString().trim())) {
-                    unusedImport.add(importDeclaration);
-                }
-            }
-            for (ImportDeclaration importDeclaration : fileImport) {
-                if (checkedImportList.contains(importDeclaration.toString().trim())) {
-                    usedImport.add(importDeclaration);
-                }
-            }
-            if (!unusedImport.isEmpty()) {
-                System.out.println(path.toUri());
-                for (ImportDeclaration importDeclaration : unusedImport) {
-                    System.out.println("Unused import: " + importDeclaration);
-                }
-//                System.out.println(importList.stream().map(c -> c.importObject.toString()).toList());
-//                System.out.println(unable.stream().distinct().toList());
-                System.out.println("--------------------------");
-            }
-//            System.out.println(resolver.importDetails.classList.stream().map(t -> t.importObject).toList());
-//            break;
-        }
     }
 }

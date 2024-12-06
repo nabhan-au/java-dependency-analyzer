@@ -18,8 +18,6 @@ import static org.analyzer.FileUtils.getJarPathList;
 import static org.analyzer.FileUtils.getPomPathFromDependencyDir;
 
 public class ArtifactInstaller {
-    private String repositoryPath = "https://repo1.maven.org/maven2/com/google/http-client/google-http-client/1.45.1/google-http-client-1.45.1.jar";
-
     public String getInstallUrl(String groupId, String artifactId, String version) {
         groupId = groupId.replace('.', '/');
         return "https://repo1.maven.org/maven2/" + groupId + "/" + artifactId + "/" + version + "/" + artifactId + "-" + version + ".jar";
@@ -62,9 +60,6 @@ public class ArtifactInstaller {
         var pomFileList = PomUtils.findPomFiles(repoBasePath);
         for (File file : pomFileList) {
             for (ImportArtifact remove: removeList) {
-                System.out.println(file.getAbsolutePath());
-                System.out.println(remove.getGroupId());
-                System.out.println(remove.getArtifactId());
                 PomUtils.removeDependency(file.getAbsolutePath(), remove.getGroupId(), remove.getArtifactId());
             }
         }
@@ -279,16 +274,5 @@ public class ArtifactInstaller {
             }
         }
         return compare.get(filteredCompare.indexOf(nearest));
-    }
-
-    public static void main(String[] args) throws Exception {
-        var artifact = new ImportArtifact("xmlpull", "xmlpull", "5.15.0-SNAPSHOT");
-        var availableArtifact = ArtifactInstaller.fetchMetadata(artifact);
-        System.out.println(availableArtifact);
-
-        System.out.println(findNearest(artifact.getVersion(), availableArtifact));
-//        ArtifactInstaller installer = new ArtifactInstaller();
-//        installer.install(artifact, "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/temp-repo", false);
-
     }
 }
