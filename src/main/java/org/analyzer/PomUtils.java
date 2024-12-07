@@ -242,7 +242,6 @@ public class PomUtils {
         try (FileReader fileReader = new FileReader(pomFile)) {
             model = reader.read(fileReader);
         }
-
         // Step 2: Remove the dependency from the <dependencies> section
         boolean dependencyRemoved = removeDependencyFromSection(model.getDependencies(), groupId, artifactId, "dependencies");
 
@@ -251,13 +250,7 @@ public class PomUtils {
             boolean dependencyManagementRemoved = removeDependencyFromSection(
                     model.getDependencyManagement().getDependencies(), groupId, artifactId, "dependencyManagement"
             );
-            dependencyRemoved = dependencyRemoved || dependencyManagementRemoved;
         }
-
-//        if (!dependencyRemoved) {
-//            System.out.println("Dependency not found in either <dependencies> or <dependencyManagement>: " +
-//                    groupId + ":" + artifactId);
-//        }
 
         // Step 4: Write the updated POM file back
         MavenXpp3Writer writer = new MavenXpp3Writer();
@@ -466,5 +459,9 @@ public class PomUtils {
             }
         }
         return importArtifacts;
+    }
+
+    public static void main(String[] args) throws Exception {
+        PomUtils.removeDependency("/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/org.terrakube.terraform:terraform-spring-boot-autoconfigure/terraform-spring-boot-starter/pom.xml", "org.azbuilder.terraform", "terraform-client");
     }
 }

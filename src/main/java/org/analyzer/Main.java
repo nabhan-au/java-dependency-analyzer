@@ -23,14 +23,14 @@ import static org.analyzer.GitUtils.*;
 import static org.analyzer.PomUtils.*;
 
 public class Main {
+    private final String uri = "neo4j://localhost:7687";
+    private final String username = "neo4j";
+    private final String password = "12345678";
 
     private static final Logger log = LoggerFactory.getLogger(Main.class);
 
-    public static void runSingleProject(String destinationPath, String writeFileDestination, String projectArtifact, String repoBasePath, String repoPath, String subPath, Boolean isPresentOnMavenRepo) throws Exception {
-        String uri = "neo4j://localhost:7687";
-        String username = "neo4j";
-        String password = "12345678";
-        Neo4jConnector neo4jConnector = new Neo4jConnector(uri, username, password);
+    public static void runSingleProject(String destinationPath, String writeFileDestination, String projectArtifact, String repoBasePath, String repoPath, String subPath, Boolean isPresentOnMavenRepo, String neo4jUrl, String neo4jUser, String neo4jPassword) throws Exception {
+        Neo4jConnector neo4jConnector = new Neo4jConnector(neo4jUrl, neo4jUser, neo4jPassword);
         var checker = new ProjectImportChecker(neo4jConnector, repoBasePath, repoPath, subPath, destinationPath, true, projectArtifact, new HashMap<>() {}, isPresentOnMavenRepo);
         checker.resolve(false);
         var projectReport = checker.mapImport();
@@ -38,7 +38,7 @@ public class Main {
         neo4jConnector.close();
     }
 
-    public static void runSingleProjectWithCSV(Integer csvIndex, String filePath, String destinationPath, String jsonFile, String writeFileDestination, String repoTarget) throws Exception {
+    public void runSingleProjectWithCSV(Integer csvIndex, String filePath, String destinationPath, String jsonFile, String writeFileDestination, String repoTarget) throws Exception {
         System.out.println("Running project with index: " + csvIndex);
         var inputMap = getProjectInputs(filePath, csvIndex);
         if (inputMap.isEmpty()) {
@@ -90,7 +90,7 @@ public class Main {
                     return;
                 }
                 System.out.println("Running at path: " + repoArtifactPath);
-                runSingleProject(destinationPath, writeFileDestination, artifactId + ":" + artifactVersion, repoPath, repoArtifactPath, "", false);
+                runSingleProject(destinationPath, writeFileDestination, artifactId + ":" + artifactVersion, repoPath, repoArtifactPath, "", false, uri, username, password);
                 runGitRestore(repoPath);
             }
 
@@ -113,7 +113,7 @@ public class Main {
                     continue;
                 }
                 System.out.println("Running at path: " + repoArtifactPath);
-                runSingleProject(destinationPath, writeFileDestination, artifactId + ":" + tag, repoPath, repoArtifactPath, "", false);
+                runSingleProject(destinationPath, writeFileDestination, artifactId + ":" + tag, repoPath, repoArtifactPath, "", false, uri, username, password);
                 runGitRestore(repoPath);
             }
             addDataToCsv(artifactId, repoPath, writeFileDestination + "/success_project.csv");
@@ -209,6 +209,24 @@ public class Main {
 
 
     public static void main(String[] args) throws Exception {
+        var repoPath = args[0];
+        var artifact = args[1];
+        var branch = args[2];
+        var outputDir = args[3];
+        var neo4jUri = args[4];
+        var neo4jUsername = args[5];
+        var neo4jPassword = args[6];
 
+        gitCheckoutBranch(repoPath, branch);
+        var extractedProjectArtifact = DependencyExtractor.extractDependency(artifact);
+        var artifactId = extractedProjectArtifact.getGroupId() + ":" + extractedProjectArtifact.getArtifactId();
+        var artifactName = extractedProjectArtifact.getArtifactId();
+        var artifactVersion = extractedProjectArtifact.getVersion();
+        var matchedPoms = findPomsWithArtifactId(repoPath, artifactName).getFirst();
+        var repoArtifactPath = matchedPoms.replace("/pom.xml", "");
+        var writeFileDestination = outputDir + "/" + artifactId + "/" + artifactVersion + ".json";
+        System.out.println("Running at path: " + repoArtifactPath);
+        runSingleProject(outputDir, writeFileDestination, artifactId + ":" + artifactVersion, repoPath, repoArtifactPath, "", false, neo4jUri, neo4jUsername, neo4jPassword);
+        runGitRestore(repoPath);
     }
 }
