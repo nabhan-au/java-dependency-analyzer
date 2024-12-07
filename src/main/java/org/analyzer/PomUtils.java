@@ -460,8 +460,4 @@ public class PomUtils {
         }
         return importArtifacts;
     }
-
-    public static void main(String[] args) throws Exception {
-        PomUtils.removeDependency("/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/org.terrakube.terraform:terraform-spring-boot-autoconfigure/terraform-spring-boot-starter/pom.xml", "org.azbuilder.terraform", "terraform-client");
-    }
 }
