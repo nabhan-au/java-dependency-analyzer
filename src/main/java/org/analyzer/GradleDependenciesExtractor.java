@@ -14,14 +14,6 @@ import java.util.regex.Pattern;
 
 // Not used anymore
 public class GradleDependenciesExtractor {
-    public static void main(String[] args) throws Exception {
-        // Specify the path to your destination Gradle repository
-        String repoPath = "/Users/nabhansuwanachote/Desktop/research/msr-2025-challenge/repo/ihmc-open-robotics-software/ihmc-perception"; // Change this to your project path
-        System.out.println(getProjectDependencies(repoPath, new ImportArtifact("test", "test", "test")));
-
-
-    }
-
     public static List<Dependency> getProjectDependencies(String repoPath , ImportArtifact projectArtifact) throws Exception {
         // Run the 'gradle dependencies' command at the specified repository
         ProcessBuilder processBuilder = new ProcessBuilder();
