@@ -17,7 +17,6 @@ import java.net.http.HttpRequest;
 import java.net.http.HttpResponse;
 import java.time.Duration;
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.List;
 
 public class MavenArtifactCrawler {
@@ -216,42 +215,5 @@ public class MavenArtifactCrawler {
             // Artifact path not found in the URL
             throw new IllegalArgumentException("Artifact path not found in the provided URL.");
         }
-    }
-
-    public static void main(String[] args) {
-        String groupId = "jgraph";
-        String artifactId = "jgraph";
-        System.out.println(MavenArtifactCrawler.getExistingVersion(new ImportArtifact(artifactId, groupId, "5.0.3"), "https://repo1.maven.org/maven2", new ArrayList<>(Arrays.asList("5.0.7","5.0.6","5.0.4","5.0.3","5.0.2"))));
-//        System.out.println(MavenArtifactCrawler.getJarUrlFromMaven(new ImportArtifact(artifactId, groupId, "0.3.3")));
-
-
-            // Fetch the HTML content of the page
-//            Document doc = connection.get();
-//
-//
-//            // Select the table that contains the versions
-//            Elements tables = doc.select("table.grid.versions");
-//
-//            List<String> versions = new ArrayList<>();
-//
-//            if (!tables.isEmpty()) {
-//                Element versionsTable = tables.first();
-//                // Select all rows in the table
-//                Elements rows = versionsTable.select("tr");
-//                for (Element row : rows) {
-//                    // Select the cell that contains the version number
-//                    Element versionCell = row.selectFirst("a.vbtn.release");
-//                    if (versionCell != null) {
-//                        String version = versionCell.text().trim();
-//                        versions.add(version);
-//                    }
-//                }
-//            }
-//
-//            // Print the list of versions
-//            System.out.println("Available Versions:");
-//            for (String version : versions) {
-//                System.out.println(version);
-//            }
     }
 }

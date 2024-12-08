@@ -17,7 +17,6 @@ import javax.xml.parsers.DocumentBuilder;
 import javax.xml.parsers.DocumentBuilderFactory;
 import java.io.*;
 import java.nio.file.Files;
-import java.nio.file.Path;
 import java.nio.file.Paths;
 import java.util.ArrayList;
 import java.util.Iterator;
@@ -32,50 +31,6 @@ import static org.analyzer.MavenArtifactCrawler.extractRepoUrl;
 import static org.analyzer.MavenArtifactCrawler.isArtifactExist;
 
 public class PomUtils {
-
-    public static ImportArtifact getPomFromArtifact(String groupId, String artifactId, String version, String basePath) {
-        var pomPath = getPomPathFromDependencyDir(basePath);
-        var artifactFile = new File(pomPath.toAbsolutePath().toAbsolutePath().toString());
-        if (!artifactFile.isFile()) {
-            return null;
-        }
-        return new ImportArtifact(artifactId, groupId, version, pomPath.toAbsolutePath().toString());
-    }
-
-    public static List<ImportArtifact> getPomListFromPath(String dir) {
-        var result = new ArrayList<ImportArtifact>();
-        var pomPathList = getAllOtherPomPathFromRepo(dir);
-        for (Path pom : pomPathList) {
-            try {
-                // Parse the POM file
-                MavenXpp3Reader reader = new MavenXpp3Reader();
-                Model model = reader.read(new FileReader(pom.toAbsolutePath().toString()));
-
-                // Extract artifactId, groupId, and version
-                String groupId = model.getGroupId();
-                String artifactId = model.getArtifactId();
-                String version = model.getVersion();
-
-                // If groupId or version is null, check the parent element
-                if (groupId == null && model.getParent() != null) {
-                    groupId = model.getParent().getGroupId();
-                }
-                if (version == null && model.getParent() != null) {
-                    version = model.getParent().getVersion();
-                }
-
-
-                result.add(new ImportArtifact(artifactId, groupId, version, pom.toAbsolutePath().toString()));
-                // Print the extracted values
-                System.out.println("Group ID: " + groupId);
-                System.out.println("Artifact ID: " + artifactId);
-                System.out.println("Version: " + version);
-            } catch (Exception e) {
-                e.printStackTrace();
-            }
-        }
-        return result;
-    }
 
     public static void modifyDependencyVersion(String pomFilePath, ImportArtifact importArtifact) {
         var groupId = importArtifact.getGroupId();

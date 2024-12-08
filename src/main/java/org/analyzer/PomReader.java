@@ -5,22 +5,6 @@ import javax.xml.parsers.*;
 import java.io.File;
 
 public class PomReader {
-    public static void main(String[] args) {
-        String pomFilePath = "path/to/your/pom.xml";
-        String groupId = "org.apache.commons";
-        String artifactId = "commons-lang3";
-
-        try {
-            String version = getVersionFromPom(pomFilePath, groupId, artifactId);
-            if (version != null) {
-                System.out.println("Version found: " + version);
-            } else {
-                System.out.println("Dependency not found in the POM file.");
-            }
-        } catch (Exception e) {
-            e.printStackTrace();
-        }
-    }
 
     public static String getVersionFromPom(String pomFilePath, String groupId, String artifactId) throws Exception {
         File pomFile = new File(pomFilePath);

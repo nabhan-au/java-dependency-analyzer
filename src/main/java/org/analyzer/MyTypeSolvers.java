@@ -8,101 +8,6 @@ import java.util.concurrent.atomic.AtomicInteger;
 
 public class MyTypeSolvers {
 
-//    public static List<String> extractCompoundType(String type) {
-//        List<String> types = new ArrayList<>();
-//        String genericRegex = "^(\\w+)<(.+)>$";
-//        Pattern genericPattern = Pattern.compile(genericRegex);
-//        Matcher genericMatcher = genericPattern.matcher(type);
-//
-//        // Check array type
-//        if (type.endsWith("[]")) {
-//            String arrayRegex = "^([\\w<>?,\\s]+)(\\[\\])*";
-//            Pattern arrayPattern = Pattern.compile(arrayRegex);
-//            Matcher matcher = arrayPattern.matcher(type);
-//            if (matcher.find()) {
-//                var baseType = matcher.group(1);
-//                types.addAll(extractCompoundType(baseType));
-//            } else {
-//                throw new IllegalArgumentException("Invalid compound type: " + type);
-//            }
-//        } else if (genericMatcher.find()) {
-//            // Group 1: Base type
-//            String baseType = genericMatcher.group(1);
-//            types.add(baseType);
-//
-//
-//            types.addAll(extractCompoundType("<" + genericMatcher.group(2) + ">"));
-//        }
-//        else if (type.startsWith("<") && type.endsWith(">")) {
-//            var args = type.substring(1, type.length() - 1);
-//            if (args.contains(",")) {
-//                List<String> typeArguments = parseGenericArguments(args);
-//                for (String arg : typeArguments) {
-//                    types.addAll(extractCompoundType(arg));
-//                }
-//            } else if (args.startsWith("?")) {
-//                if (type.contains("extends")) {
-//                    String bound = type.split("extends", 2)[1].trim();
-//                    types.addAll(extractCompoundType(bound));
-//                } else if (type.contains("super")) {
-//                    String bound = type.split("super", 2)[1].trim();
-//                    types.addAll(extractCompoundType(bound));
-//                }
-//            }
-//        }
-//        else if (type.startsWith("?")) {
-//            if (type.contains("extends")) {
-//                String bound = type.split("extends", 2)[1].trim();
-//                types.addAll(extractCompoundType(bound));
-//            } else if (type.contains("super")) {
-//                String bound = type.split("super", 2)[1].trim();
-//                types.addAll(extractCompoundType(bound));
-//            } else {
-//                types.add("?"); // Just a wildcard
-//            }
-//        }
-//        else if (type.contains("extends")) {
-//            String[] parts = type.split(" extends ", 2);
-//            types.addAll(extractCompoundType(parts[0].trim())); // Add the base type (e.g., "T")
-//            types.addAll(extractCompoundType(parts[1].trim())); // Process the bound
-//        }
-//        else if (type.contains(".")) {
-//            String[] parts = type.split("\\.", 2);
-//            types.addAll(extractCompoundType(parts[0].trim()));
-//        }
-//        else {
-//            types.add(type);
-//        }
-//        return types;
-//    }
-//
-//    private static List<String> parseGenericArguments(String genericContent) {
-//        List<String> arguments = new ArrayList<>();
-//
-//        int bracketCount = 0;
-//        StringBuilder currentArg = new StringBuilder();
-//        for (char c : genericContent.toCharArray()) {
-//            if (c == '<') {
-//                bracketCount++;
-//            } else if (c == '>') {
-//                bracketCount--;
-//            } else if (c == ',' && bracketCount == 0) {
-//                // Split at top-level commas
-//                arguments.addAll(extractCompoundType(currentArg.toString().trim()));
-//                currentArg.setLength(0);
-//                continue;
-//            }
-//            currentArg.append(c);
-//        }
-//
-//        // Add the last argument
-//        if (currentArg.length() > 0) {
-//            arguments.add(currentArg.toString().trim());
-//        }
-//
-//        return arguments;
-//    }
-
     public static List<String> splitStructuredTypes(String input) {
         List<String> components = new ArrayList<>();
         StringBuilder current = new StringBuilder();
@@ -209,12 +114,5 @@ public class MyTypeSolvers {
             System.out.println(count + ": " + res);
 
         });
-    }
-
-    public static void main(String[] args) {
-        test("Test<Sting, Integer extends Temp<456.789 extends 123, Is>, Test<? super OPD, Is[]>>");
-        test("Test<Sting extends Test, Integer extends Temp<456.123 extends 123, Is>, Test<? super OPD, Is[]>>");
-        test("Test<lol>.you.3");
-        test("Test<T super Test<T extends Y & Z>>[]");
     }
 }
